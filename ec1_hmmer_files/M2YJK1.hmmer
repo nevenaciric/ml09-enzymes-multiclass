@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|M2YJK1|ADHA_DOTSN -              7e-28   97.3   0.0   9.7e-28   96.9   0.0   1.2   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|M2YJK1|ADHA_DOTSN -              5e-21   75.2   0.0     1e-20   74.2   0.0   1.4   1   1   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|M2YJK1|ADHA_DOTSN -            6.5e-06   26.1   0.0   0.00037   20.3   0.0   2.2   2   0   0   2   2   2   1 KR domain
+DNA_pol_lambd_f      PF10391.8  sp|M2YJK1|ADHA_DOTSN -              0.025   14.3   0.1     0.052   13.3   0.1   1.5   1   0   0   1   1   1   0 Fingers domain of DNA polymerase lambda
+Eno-Rase_NADH_b      PF12242.7  sp|M2YJK1|ADHA_DOTSN -               0.15   11.7   0.3       0.3   10.8   0.3   1.4   1   0   0   1   1   1   0 NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/M2YJK1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/M2YJK1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/M2YJK1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:20:13 2019
+# [ok]

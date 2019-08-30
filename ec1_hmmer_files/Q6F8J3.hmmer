@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q6F8J3|HEM1_ACIAD -            3.6e-46  156.2   1.4   3.6e-46  156.2   1.4   2.1   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q6F8J3|HEM1_ACIAD -            4.2e-38  130.4   0.8   4.2e-38  130.4   0.8   2.6   3   0   0   3   3   3   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q6F8J3|HEM1_ACIAD -              3e-13   49.9   2.6     3e-13   49.9   2.6   1.9   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|Q6F8J3|HEM1_ACIAD -            7.8e-05   23.1   0.3   0.00081   19.8   0.1   2.7   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+MA-Mit               PF09245.9  sp|Q6F8J3|HEM1_ACIAD -             0.0012   18.3   0.0    0.0024   17.3   0.0   1.5   1   0   0   1   1   1   1 Mycoplasma arthritidis-derived mitogen
+adh_short            PF00106.24 sp|Q6F8J3|HEM1_ACIAD -              0.015   14.7   1.5     0.028   13.8   0.1   2.2   2   0   0   2   2   2   0 short chain dehydrogenase
+NAD_binding_10       PF13460.5  sp|Q6F8J3|HEM1_ACIAD -              0.054   13.3   2.0      0.17   11.7   2.0   2.0   1   1   0   1   1   1   0 NAD(P)H-binding
+Terminase_2          PF03592.15 sp|Q6F8J3|HEM1_ACIAD -              0.093   13.1   2.6      0.14   12.5   0.4   2.4   2   1   0   2   2   2   0 Terminase small subunit
+KR                   PF08659.9  sp|Q6F8J3|HEM1_ACIAD -               0.12   12.2   0.2      0.12   12.2   0.2   2.1   2   0   0   2   2   2   0 KR domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6F8J3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6F8J3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6F8J3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:53:02 2019
+# [ok]

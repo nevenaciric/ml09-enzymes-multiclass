@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|B5ZXE7|TDH_RHILW  -            1.4e-30  105.3   3.2   3.1e-30  104.2   2.1   1.9   2   0   0   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|B5ZXE7|TDH_RHILW  -            2.9e-24   85.3   0.1   4.5e-24   84.7   0.1   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|B5ZXE7|TDH_RHILW  -            9.5e-10   38.2   0.0   1.5e-09   37.5   0.0   1.2   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N_2         PF13602.5  sp|B5ZXE7|TDH_RHILW  -              8e-05   23.6   0.0   0.00031   21.7   0.0   1.9   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+FAD_oxidored         PF12831.6  sp|B5ZXE7|TDH_RHILW  -             0.0026   17.1   0.4    0.0038   16.5   0.4   1.2   1   0   0   1   1   1   1 FAD dependent oxidoreductase
+AlaDh_PNT_C          PF01262.20 sp|B5ZXE7|TDH_RHILW  -             0.0054   15.9   0.3    0.0085   15.3   0.3   1.3   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+HI0933_like          PF03486.13 sp|B5ZXE7|TDH_RHILW  -             0.0073   14.9   0.3     0.011   14.4   0.3   1.2   1   0   0   1   1   1   1 HI0933-like protein
+FAD_binding_3        PF01494.18 sp|B5ZXE7|TDH_RHILW  -               0.06   12.5   0.3     0.095   11.8   0.3   1.2   1   0   0   1   1   1   0 FAD binding domain
+Pyr_redox_2          PF07992.13 sp|B5ZXE7|TDH_RHILW  -              0.089   11.9   0.3      0.32   10.1   0.1   1.9   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox_3          PF13738.5  sp|B5ZXE7|TDH_RHILW  -               0.15   11.1   0.2      0.23   10.6   0.2   1.2   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B5ZXE7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B5ZXE7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B5ZXE7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:01:56 2019
+# [ok]

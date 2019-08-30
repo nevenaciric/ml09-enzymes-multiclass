@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_4        PF01565.22 sp|Q8X7S0|YGCU_ECO57 -              1e-34  119.2   1.5   1.8e-34  118.4   1.5   1.4   1   0   0   1   1   1   1 FAD binding domain
+FAD-oxidase_C        PF02913.18 sp|Q8X7S0|YGCU_ECO57 -            4.3e-19   69.0   0.1   1.5e-18   67.3   0.1   2.1   1   1   0   1   1   1   1 FAD linked oxidases, C-terminal domain
+Cytokin-bind         PF09265.9  sp|Q8X7S0|YGCU_ECO57 -              0.047   13.0   0.0     0.074   12.3   0.0   1.3   1   0   0   1   1   1   0 Cytokinin dehydrogenase 1, FAD and cytokinin binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8X7S0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8X7S0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8X7S0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:17:19 2019
+# [ok]

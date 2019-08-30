@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q59RQ2|TSC10_CANAL -              3e-30  105.1   0.0   3.9e-30  104.7   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q59RQ2|TSC10_CANAL -            1.3e-16   60.8   0.0   1.9e-16   60.3   0.0   1.2   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q59RQ2|TSC10_CANAL -            8.5e-09   35.5   0.0   4.1e-08   33.2   0.0   1.8   1   1   0   1   1   1   1 KR domain
+Polysacc_synt_2      PF02719.14 sp|Q59RQ2|TSC10_CANAL -            0.00048   19.3   0.0    0.0006   18.9   0.0   1.1   1   0   0   1   1   1   1 Polysaccharide biosynthesis protein
+THF_DHG_CYH_C        PF02882.18 sp|Q59RQ2|TSC10_CANAL -             0.0022   17.2   0.0    0.0036   16.5   0.0   1.3   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+Glyco_tran_WecB      PF03808.12 sp|Q59RQ2|TSC10_CANAL -             0.0043   16.9   0.0    0.0073   16.2   0.0   1.3   1   0   0   1   1   1   1 Glycosyl transferase WecB/TagA/CpsF family
+Epimerase            PF01370.20 sp|Q59RQ2|TSC10_CANAL -               0.02   14.2   0.0     0.035   13.5   0.0   1.4   1   1   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+GDP_Man_Dehyd        PF16363.4  sp|Q59RQ2|TSC10_CANAL -              0.041   13.1   0.0     0.055   12.7   0.0   1.2   1   0   0   1   1   1   0 GDP-mannose 4,6 dehydratase
+DUF1776              PF08643.9  sp|Q59RQ2|TSC10_CANAL -              0.073   12.3   0.0      0.11   11.7   0.0   1.3   1   0   0   1   1   1   0 Fungal family of unknown function (DUF1776)
+ATG13                PF10033.8  sp|Q59RQ2|TSC10_CANAL -              0.087   12.3   0.1       8.1    5.9   0.0   2.2   2   0   0   2   2   2   0 Autophagy-related protein 13
+DNA_pol_lambd_f      PF10391.8  sp|Q59RQ2|TSC10_CANAL -               0.16   11.8   0.0      0.36   10.6   0.0   1.6   1   0   0   1   1   1   0 Fingers domain of DNA polymerase lambda
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q59RQ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q59RQ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q59RQ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:40:18 2019
+# [ok]

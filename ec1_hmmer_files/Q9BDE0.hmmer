@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Tyrosinase           PF00264.19 sp|Q9BDE0|TYRO_GORGO -            3.2e-43  148.5   1.5   4.4e-43  148.0   1.5   1.2   1   0   0   1   1   1   1 Common central domain of tyrosinase
+Laminin_EGF          PF00053.23 sp|Q9BDE0|TYRO_GORGO -            0.00064   19.7   2.2   0.00064   19.7   2.2   2.9   3   0   0   3   3   3   2 Laminin EGF domain
+LapA_dom             PF06305.10 sp|Q9BDE0|TYRO_GORGO -              0.073   12.8   0.1      0.16   11.7   0.1   1.5   1   0   0   1   1   1   0 Lipopolysaccharide assembly protein A domain
+DUF1191              PF06697.11 sp|Q9BDE0|TYRO_GORGO -              0.092   11.9   0.0      0.15   11.2   0.0   1.3   1   0   0   1   1   1   0 Protein of unknown function (DUF1191)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9BDE0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9BDE0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9BDE0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:24:28 2019
+# [ok]

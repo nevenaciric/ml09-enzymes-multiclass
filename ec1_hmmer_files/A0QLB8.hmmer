@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|A0QLB8|GPDA_MYCA1 -              1e-48  165.1   1.2   2.1e-48  164.1   0.6   1.8   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|A0QLB8|GPDA_MYCA1 -            3.9e-48  163.3   0.0   7.8e-48  162.3   0.0   1.5   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+F420_oxidored        PF03807.16 sp|A0QLB8|GPDA_MYCA1 -            2.8e-07   30.9   0.0   1.4e-06   28.7   0.0   2.2   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+PDH                  PF02153.16 sp|A0QLB8|GPDA_MYCA1 -            0.00017   20.6   0.0   0.00048   19.1   0.0   1.7   2   0   0   2   2   2   1 Prephenate dehydrogenase
+NAD_binding_7        PF13241.5  sp|A0QLB8|GPDA_MYCA1 -             0.0041   17.4   0.0       1.1    9.6   0.0   3.0   2   1   0   2   2   2   1 Putative NAD(P)-binding
+ApbA                 PF02558.15 sp|A0QLB8|GPDA_MYCA1 -             0.0042   16.6   0.0    0.0073   15.9   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+TrkA_N               PF02254.17 sp|A0QLB8|GPDA_MYCA1 -              0.013   15.7   0.0     0.055   13.6   0.0   2.1   2   0   0   2   2   2   0 TrkA-N domain
+Sacchrp_dh_NADP      PF03435.17 sp|A0QLB8|GPDA_MYCA1 -              0.045   13.9   0.0      0.12   12.5   0.0   1.7   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A0QLB8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A0QLB8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A0QLB8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:21:34 2019
+# [ok]

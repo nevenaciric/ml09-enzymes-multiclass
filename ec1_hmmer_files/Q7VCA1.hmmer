@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q7VCA1|HEM1_PROMA -            1.7e-42  144.4   0.1     5e-42  142.8   0.0   1.8   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q7VCA1|HEM1_PROMA -            1.6e-36  125.3   0.0   5.6e-36  123.5   0.0   1.9   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q7VCA1|HEM1_PROMA -            1.4e-26   92.6   0.3   3.1e-26   91.5   0.3   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+2-Hacid_dh_C         PF02826.18 sp|Q7VCA1|HEM1_PROMA -            0.00049   19.4   0.0   0.00093   18.5   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q7VCA1|HEM1_PROMA -            0.00085   19.8   0.0    0.0025   18.2   0.0   1.9   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+OCD_Mu_crystall      PF02423.14 sp|Q7VCA1|HEM1_PROMA -             0.0053   15.6   0.0    0.0098   14.8   0.0   1.3   1   0   0   1   1   1   1 Ornithine cyclodeaminase/mu-crystallin family
+ApbA                 PF02558.15 sp|Q7VCA1|HEM1_PROMA -              0.024   14.2   0.0     0.055   13.0   0.0   1.6   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+3HCDH_N              PF02737.17 sp|Q7VCA1|HEM1_PROMA -              0.061   13.1   0.9       3.9    7.2   0.0   3.0   2   1   1   3   3   3   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q7VCA1|HEM1_PROMA -              0.064   13.4   0.0      0.76    9.9   0.0   2.4   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_2        PF03446.14 sp|Q7VCA1|HEM1_PROMA -              0.083   13.0   0.0      0.18   11.9   0.0   1.6   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+TrkA_N               PF02254.17 sp|Q7VCA1|HEM1_PROMA -               0.12   12.5   0.0      0.29   11.3   0.0   1.7   1   0   0   1   1   1   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7VCA1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7VCA1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7VCA1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:02:50 2019
+# [ok]

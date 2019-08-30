@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|F2PWS7|NSCC_TRIEC -            4.1e-07   29.5   0.0   7.3e-07   28.7   0.0   1.4   1   1   0   1   1   1   1 FAD binding domain
+NAD_binding_8        PF13450.5  sp|F2PWS7|NSCC_TRIEC -            0.00075   19.6   0.0    0.0015   18.6   0.0   1.5   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+DAO                  PF01266.23 sp|F2PWS7|NSCC_TRIEC -             0.0012   18.4   0.3    0.0032   17.0   0.3   1.8   1   1   0   1   1   1   1 FAD dependent oxidoreductase
+Pyr_redox_2          PF07992.13 sp|F2PWS7|NSCC_TRIEC -              0.014   14.6   0.1      0.86    8.7   0.0   2.1   1   1   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+Shikimate_DH         PF01488.19 sp|F2PWS7|NSCC_TRIEC -              0.052   13.5   0.0      0.12   12.4   0.0   1.6   1   1   1   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+Thi4                 PF01946.16 sp|F2PWS7|NSCC_TRIEC -              0.084   12.0   0.0      0.13   11.4   0.0   1.2   1   0   0   1   1   1   0 Thi4 family
+Pyr_redox_3          PF13738.5  sp|F2PWS7|NSCC_TRIEC -              0.088   11.9   0.0       4.4    6.4   0.0   2.0   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+Amino_oxidase        PF01593.23 sp|F2PWS7|NSCC_TRIEC -               0.11   11.7   0.0       2.3    7.3   0.0   2.0   2   0   0   2   2   2   0 Flavin containing amine oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/F2PWS7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/F2PWS7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/F2PWS7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:18:18 2019
+# [ok]

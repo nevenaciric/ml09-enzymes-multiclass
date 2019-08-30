@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|Q1GT37|ILVC_SPHAL -            7.6e-69  230.4   3.8   1.1e-68  229.8   3.8   1.3   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|Q1GT37|ILVC_SPHAL -            2.3e-67  225.6   0.1   3.3e-67  225.1   0.1   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|Q1GT37|ILVC_SPHAL -            7.4e-08   31.8   0.0   1.2e-07   31.1   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q1GT37|ILVC_SPHAL -            1.2e-07   32.1   0.3   2.8e-07   30.9   0.3   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+AdoHcyase_NAD        PF00670.20 sp|Q1GT37|ILVC_SPHAL -            2.8e-05   24.2   0.1     5e-05   23.3   0.1   1.4   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|Q1GT37|ILVC_SPHAL -            0.00023   21.3   0.3    0.0005   20.2   0.1   1.6   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GFO_IDH_MocA         PF01408.21 sp|Q1GT37|ILVC_SPHAL -            0.00029   21.6   0.3   0.00053   20.7   0.3   1.4   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+Oxidored_nitro       PF00148.18 sp|Q1GT37|ILVC_SPHAL -            0.00076   18.2   0.3    0.0018   17.0   0.1   1.6   2   0   0   2   2   2   1 Nitrogenase component 1 type Oxidoreductase
+Shikimate_DH         PF01488.19 sp|Q1GT37|ILVC_SPHAL -              0.011   15.7   0.0     0.025   14.6   0.0   1.5   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+NAD_binding_7        PF13241.5  sp|Q1GT37|ILVC_SPHAL -              0.031   14.6   0.0     0.079   13.3   0.0   1.6   1   0   0   1   1   1   0 Putative NAD(P)-binding
+ThiF                 PF00899.20 sp|Q1GT37|ILVC_SPHAL -              0.035   13.4   0.0     0.062   12.5   0.0   1.3   1   0   0   1   1   1   0 ThiF family
+CoA_binding          PF02629.18 sp|Q1GT37|ILVC_SPHAL -              0.055   14.1   0.3      0.17   12.5   0.3   1.8   1   0   0   1   1   1   0 CoA binding domain
+GARS_N               PF02844.14 sp|Q1GT37|ILVC_SPHAL -              0.074   13.7   0.1       1.7    9.4   0.0   2.5   2   1   0   2   2   2   0 Phosphoribosylglycinamide synthetase, N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q1GT37.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q1GT37.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q1GT37.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:14:55 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_C              PF02866.17 sp|A6TEQ3|MDH_KLEP7  -            1.1e-51  175.0   0.0   1.6e-51  174.4   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Ldh_1_N              PF00056.22 sp|A6TEQ3|MDH_KLEP7  -            4.3e-46  156.4   0.6   6.1e-46  155.9   0.6   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Semialdhyde_dh       PF01118.23 sp|A6TEQ3|MDH_KLEP7  -               0.19   12.1   1.2      0.35   11.2   0.3   2.0   2   1   0   2   2   2   0 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A6TEQ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A6TEQ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A6TEQ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:36:52 2019
+# [ok]

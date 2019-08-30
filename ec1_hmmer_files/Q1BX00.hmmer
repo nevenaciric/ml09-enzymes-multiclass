@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|Q1BX00|IOLG_BURCA -            1.2e-24   87.3   0.2     2e-24   86.6   0.2   1.3   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+GFO_IDH_MocA_C       PF02894.16 sp|Q1BX00|IOLG_BURCA -            4.9e-10   39.3   0.0   8.1e-10   38.6   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase family, C-terminal alpha/beta domain
+F420_oxidored        PF03807.16 sp|Q1BX00|IOLG_BURCA -            0.00071   20.0   0.2    0.0018   18.7   0.1   1.7   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|Q1BX00|IOLG_BURCA -             0.0029   16.9   0.0    0.0054   16.0   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|Q1BX00|IOLG_BURCA -             0.0038   17.8   0.2     0.008   16.7   0.2   1.5   1   0   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|Q1BX00|IOLG_BURCA -              0.011   15.8   0.0     0.038   14.1   0.0   1.9   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+Gp_dh_N              PF00044.23 sp|Q1BX00|IOLG_BURCA -              0.067   13.4   0.1      0.15   12.3   0.1   1.6   1   0   0   1   1   1   0 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q1BX00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q1BX00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q1BX00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:13:49 2019
+# [ok]

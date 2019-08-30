@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q801R8|GPD1L_XENLA -            5.3e-53  179.1   1.0   5.3e-53  179.1   1.0   1.6   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q801R8|GPD1L_XENLA -            3.3e-50  170.0   1.0   6.6e-50  169.0   0.4   1.8   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|Q801R8|GPD1L_XENLA -             0.0097   16.4   2.3      0.25   11.8   0.4   3.2   3   1   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q801R8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q801R8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q801R8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:04:22 2019
+# [ok]

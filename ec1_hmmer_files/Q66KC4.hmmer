@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q66KC4|HSDL2_XENTR -              1e-32  113.1   0.4     1e-32  113.1   0.4   1.8   2   0   0   2   2   2   1 short chain dehydrogenase
+SCP2                 PF02036.16 sp|Q66KC4|HSDL2_XENTR -            5.3e-28   97.4   0.4   4.7e-27   94.3   0.2   2.3   2   0   0   2   2   2   1 SCP-2 sterol transfer family
+adh_short_C2         PF13561.5  sp|Q66KC4|HSDL2_XENTR -            1.9e-27   96.2   0.6   1.9e-27   96.2   0.6   1.6   2   0   0   2   2   2   1 Enoyl-(Acyl carrier protein) reductase
+Alkyl_sulf_C         PF14864.5  sp|Q66KC4|HSDL2_XENTR -            8.6e-06   26.0   0.0   1.4e-05   25.2   0.0   1.4   1   0   0   1   1   1   1 Alkyl sulfatase C-terminal
+KR                   PF08659.9  sp|Q66KC4|HSDL2_XENTR -            0.00037   20.4   0.6    0.0007   19.5   0.1   1.7   2   0   0   2   2   2   1 KR domain
+NAD_binding_3        PF03447.15 sp|Q66KC4|HSDL2_XENTR -               0.16   12.6   1.2       4.7    7.8   0.1   2.4   1   1   1   2   2   2   0 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q66KC4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q66KC4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q66KC4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:50:37 2019
+# [ok]

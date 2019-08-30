@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|P80039|MDH_CHLTE  -              2e-46  157.5   0.9   7.3e-46  155.7   0.2   2.0   2   0   0   2   2   2   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|P80039|MDH_CHLTE  -            7.4e-30  104.0   0.1   1.1e-29  103.4   0.1   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|P80039|MDH_CHLTE  -            8.1e-08   32.0   0.1   1.8e-07   30.8   0.1   1.6   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+DAO                  PF01266.23 sp|P80039|MDH_CHLTE  -              0.016   14.7   0.4     0.037   13.5   0.1   1.7   2   0   0   2   2   2   0 FAD dependent oxidoreductase
+G3P_acyltransf       PF02660.14 sp|P80039|MDH_CHLTE  -              0.067   13.1   0.0      0.12   12.3   0.0   1.4   1   0   0   1   1   1   0 Glycerol-3-phosphate acyltransferase
+DUF1652              PF07865.10 sp|P80039|MDH_CHLTE  -               0.14   11.9   0.1      0.75    9.6   0.0   2.2   2   0   0   2   2   2   0 Protein of unknown function (DUF1652)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P80039.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P80039.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P80039.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:57:00 2019
+# [ok]

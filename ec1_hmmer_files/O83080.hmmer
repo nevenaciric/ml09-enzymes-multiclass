@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-Hacid_dh_C         PF02826.18 sp|O83080|LDHD_TREPA -            5.9e-58  195.0   0.0   1.1e-57  194.2   0.0   1.4   2   0   0   2   2   2   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+2-Hacid_dh           PF00389.29 sp|O83080|LDHD_TREPA -            2.7e-25   88.5   0.0   3.1e-25   88.3   0.0   1.0   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain
+AlaDh_PNT_C          PF01262.20 sp|O83080|LDHD_TREPA -            0.00029   20.1   0.7    0.0059   15.8   0.7   2.2   1   1   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+NAD_binding_2        PF03446.14 sp|O83080|LDHD_TREPA -              0.001   19.2   0.0    0.0018   18.4   0.0   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+IlvN                 PF07991.11 sp|O83080|LDHD_TREPA -             0.0045   16.5   0.0     0.007   15.9   0.0   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+AdoHcyase_NAD        PF00670.20 sp|O83080|LDHD_TREPA -              0.019   15.0   0.0      0.03   14.3   0.0   1.2   1   0   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+3HCDH_N              PF02737.17 sp|O83080|LDHD_TREPA -              0.028   14.2   0.0      0.05   13.4   0.0   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ThiF                 PF00899.20 sp|O83080|LDHD_TREPA -               0.04   13.2   0.0         1    8.6   0.1   2.3   2   0   0   2   2   2   0 ThiF family
+F420_oxidored        PF03807.16 sp|O83080|LDHD_TREPA -              0.056   13.9   0.0      0.11   13.0   0.0   1.5   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+XdhC_C               PF13478.5  sp|O83080|LDHD_TREPA -              0.087   13.2   0.0      0.15   12.5   0.0   1.4   1   0   0   1   1   1   0 XdhC Rossmann domain
+Rossmann-like        PF10727.8  sp|O83080|LDHD_TREPA -               0.13   12.0   0.0      0.26   11.0   0.0   1.5   1   0   0   1   1   1   0 Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O83080.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O83080.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O83080.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:27:25 2019
+# [ok]

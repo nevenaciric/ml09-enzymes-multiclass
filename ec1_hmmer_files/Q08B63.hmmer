@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lysyl_oxidase        PF01186.16 sp|Q08B63|LOXL2_XENLA -           8.9e-100  332.4   6.0   1.5e-99  331.6   6.0   1.4   1   0   0   1   1   1   1 Lysyl oxidase
+SRCR                 PF00530.17 sp|Q08B63|LOXL2_XENLA -            1.5e-93  307.7  41.0   1.4e-29  102.4   4.9   5.0   5   0   0   5   5   5   4 Scavenger receptor cysteine-rich domain
+SRCR_2               PF15494.5  sp|Q08B63|LOXL2_XENLA -            8.7e-21   74.2  24.2   3.2e-05   24.3   0.6   4.6   4   0   0   4   4   4   4 Scavenger receptor cysteine-rich domain
+Hepsin-SRCR          PF09272.9  sp|Q08B63|LOXL2_XENLA -              0.047   13.9   8.0        16    5.7   0.1   4.5   4   0   0   4   4   4   0 Hepsin, SRCR
+CARDB                PF07705.10 sp|Q08B63|LOXL2_XENLA -               0.11   12.7   0.1         1    9.6   0.1   2.3   2   0   0   2   2   2   0 CARDB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q08B63.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q08B63.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q08B63.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:06:28 2019
+# [ok]

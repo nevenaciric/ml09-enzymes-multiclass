@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_desaturase_2      PF03405.13 sp|O24428|STAD_ELAGV -           1.3e-158  527.0   0.0  1.5e-158  526.8   0.0   1.0   1   0   0   1   1   1   1 Fatty acid desaturase
+Rubrerythrin         PF02915.16 sp|O24428|STAD_ELAGV -            0.00018   21.8   0.1      0.05   13.9   0.1   2.6   2   0   0   2   2   2   2 Rubrerythrin
+RLAN                 PF14401.5  sp|O24428|STAD_ELAGV -               0.12   11.9   0.0      0.23   11.0   0.0   1.5   1   0   0   1   1   1   0 RimK-like ATPgrasp N-terminal domain
+Ferritin             PF00210.23 sp|O24428|STAD_ELAGV -               0.15   11.8   0.3       1.8    8.4   0.0   2.6   2   1   0   2   2   2   0 Ferritin-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O24428.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O24428.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O24428.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:22:16 2019
+# [ok]

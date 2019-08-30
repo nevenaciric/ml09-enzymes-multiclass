@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q1ITN7|HEM11_KORVE -            3.5e-40  136.9   0.0   7.8e-40  135.7   0.0   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q1ITN7|HEM11_KORVE -            1.1e-39  135.5   0.1   2.3e-39  134.5   0.1   1.6   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q1ITN7|HEM11_KORVE -            2.3e-17   63.0   2.2   5.1e-17   62.0   2.2   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|Q1ITN7|HEM11_KORVE -            1.5e-06   28.6   0.2   4.2e-06   27.2   0.2   1.9   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+Sacchrp_dh_NADP      PF03435.17 sp|Q1ITN7|HEM11_KORVE -            0.00039   20.6   0.6   0.00099   19.3   0.0   2.0   2   0   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_2        PF03446.14 sp|Q1ITN7|HEM11_KORVE -             0.0077   16.3   0.6     0.086   12.9   0.1   2.3   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|Q1ITN7|HEM11_KORVE -              0.036   13.3   0.1     0.065   12.5   0.1   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|Q1ITN7|HEM11_KORVE -              0.058   13.6   0.0      0.23   11.6   0.0   2.1   1   1   0   1   1   1   0 TrkA-N domain
+Apolipoprotein       PF01442.17 sp|Q1ITN7|HEM11_KORVE -               0.09   12.6   5.9      0.22   11.3   5.9   1.6   1   0   0   1   1   1   0 Apolipoprotein A1/A4/E domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q1ITN7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q1ITN7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q1ITN7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:15:19 2019
+# [ok]

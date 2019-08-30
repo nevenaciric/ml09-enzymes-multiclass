@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|B4SSF9|GPDA_STRM5 -            1.6e-51  174.3   0.0   2.4e-51  173.7   0.0   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|B4SSF9|GPDA_STRM5 -              6e-47  159.4   0.2     9e-47  158.8   0.2   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+ApbA                 PF02558.15 sp|B4SSF9|GPDA_STRM5 -            2.7e-07   30.3   0.0     2e-06   27.4   0.0   2.1   2   0   0   2   2   2   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|B4SSF9|GPDA_STRM5 -            2.4e-06   27.9   0.0   6.3e-06   26.6   0.0   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|B4SSF9|GPDA_STRM5 -            0.00027   20.8   0.0   0.00078   19.3   0.0   1.7   2   0   0   2   2   2   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|B4SSF9|GPDA_STRM5 -            0.00064   19.8   0.0    0.0033   17.5   0.0   2.0   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|B4SSF9|GPDA_STRM5 -             0.0021   18.2   0.0     0.064   13.4   0.0   2.5   2   0   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+TrkA_N               PF02254.17 sp|B4SSF9|GPDA_STRM5 -              0.031   14.4   0.0       1.5    9.0   0.0   3.0   3   0   0   3   3   3   0 TrkA-N domain
+Rossmann-like        PF10727.8  sp|B4SSF9|GPDA_STRM5 -              0.032   14.0   0.5       0.2   11.4   0.1   2.3   2   1   0   2   2   2   0 Rossmann-like domain
+ApbA_C               PF08546.10 sp|B4SSF9|GPDA_STRM5 -                0.1   12.7   0.1      0.19   11.8   0.1   1.4   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA C terminal
+UDPG_MGDP_dh_N       PF03721.13 sp|B4SSF9|GPDA_STRM5 -               0.15   11.5   0.0      0.47    9.9   0.0   1.8   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B4SSF9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B4SSF9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B4SSF9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:58:09 2019
+# [ok]

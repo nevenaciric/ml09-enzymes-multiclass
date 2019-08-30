@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|B8M9J8|TROPB_TALSN -            5.4e-20   71.9   0.4   7.8e-10   38.4   0.0   2.5   2   1   1   3   3   3   2 FAD binding domain
+NAD_binding_8        PF13450.5  sp|B8M9J8|TROPB_TALSN -            0.00016   21.7   1.6   0.00052   20.1   1.0   2.2   2   0   0   2   2   2   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox_2          PF07992.13 sp|B8M9J8|TROPB_TALSN -             0.0069   15.6   0.7     0.038   13.1   0.3   2.0   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+NAD_binding_9        PF13454.5  sp|B8M9J8|TROPB_TALSN -              0.007   16.3   0.4     0.041   13.8   0.4   2.1   1   1   0   1   1   1   1 FAD-NAD(P)-binding
+Pyr_redox            PF00070.26 sp|B8M9J8|TROPB_TALSN -              0.015   15.7   2.2     0.015   15.7   2.2   2.3   3   0   0   3   3   3   0 Pyridine nucleotide-disulphide oxidoreductase
+Rossmann-like        PF10727.8  sp|B8M9J8|TROPB_TALSN -              0.041   13.7   0.2      0.11   12.3   0.2   1.6   1   0   0   1   1   1   0 Rossmann-like domain
+3HCDH_N              PF02737.17 sp|B8M9J8|TROPB_TALSN -              0.098   12.4   1.8      0.19   11.5   1.8   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Trp_halogenase       PF04820.13 sp|B8M9J8|TROPB_TALSN -              0.099   11.4   3.4      0.88    8.2   1.7   2.1   2   0   0   2   2   2   0 Tryptophan halogenase
+DAO                  PF01266.23 sp|B8M9J8|TROPB_TALSN -               0.11   12.0   6.8       0.2   11.1   6.6   1.7   1   1   0   1   1   1   0 FAD dependent oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B8M9J8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B8M9J8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B8M9J8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:09:13 2019
+# [ok]

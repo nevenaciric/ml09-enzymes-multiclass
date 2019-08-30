@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q7Z4W1|DCXR_HUMAN -            9.6e-56  188.9   0.1   1.1e-55  188.6   0.1   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q7Z4W1|DCXR_HUMAN -            4.1e-49  166.6   0.2   4.8e-49  166.4   0.2   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q7Z4W1|DCXR_HUMAN -            7.6e-07   29.1   0.2   1.2e-06   28.5   0.2   1.3   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q7Z4W1|DCXR_HUMAN -            3.4e-05   23.3   0.1   0.00011   21.6   0.1   1.8   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+NAD_binding_10       PF13460.5  sp|Q7Z4W1|DCXR_HUMAN -            0.00068   19.5   0.4    0.0012   18.7   0.4   1.4   1   1   0   1   1   1   1 NAD(P)H-binding
+Shikimate_DH         PF01488.19 sp|Q7Z4W1|DCXR_HUMAN -            0.00075   19.5   0.0    0.0015   18.5   0.0   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+DUF3742              PF12553.7  sp|Q7Z4W1|DCXR_HUMAN -             0.0012   18.8   0.0    0.0022   18.0   0.0   1.4   1   0   0   1   1   1   1 Protein of unknown function (DUF3742)
+AdoHcyase_NAD        PF00670.20 sp|Q7Z4W1|DCXR_HUMAN -             0.0094   15.9   0.2     0.021   14.8   0.2   1.6   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+RmlD_sub_bind        PF04321.16 sp|Q7Z4W1|DCXR_HUMAN -              0.011   14.7   0.1     0.017   14.1   0.1   1.4   1   0   0   1   1   1   0 RmlD substrate binding domain
+Polysacc_synt_2      PF02719.14 sp|Q7Z4W1|DCXR_HUMAN -              0.026   13.6   0.5     0.041   12.9   0.5   1.3   1   1   0   1   1   1   0 Polysaccharide biosynthesis protein
+NAD_binding_7        PF13241.5  sp|Q7Z4W1|DCXR_HUMAN -              0.074   13.4   0.2      0.12   12.8   0.2   1.5   1   1   0   1   1   1   0 Putative NAD(P)-binding
+2-Hacid_dh_C         PF02826.18 sp|Q7Z4W1|DCXR_HUMAN -              0.091   12.0   0.1      0.17   11.1   0.1   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+DUF1776              PF08643.9  sp|Q7Z4W1|DCXR_HUMAN -               0.13   11.5   0.0      0.18   11.0   0.0   1.3   1   0   0   1   1   1   0 Fungal family of unknown function (DUF1776)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7Z4W1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7Z4W1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7Z4W1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:04:12 2019
+# [ok]

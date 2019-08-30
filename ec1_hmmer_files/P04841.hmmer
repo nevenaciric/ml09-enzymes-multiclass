@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMC_oxred_N          PF00732.18 sp|P04841|ALOX_PICAN -            7.8e-96  320.8   0.0   1.1e-95  320.3   0.0   1.2   1   0   0   1   1   1   1 GMC oxidoreductase
+GMC_oxred_C          PF05199.12 sp|P04841|ALOX_PICAN -            5.6e-40  137.1   0.0   1.1e-39  136.1   0.0   1.5   1   1   0   1   1   1   1 GMC oxidoreductase
+DAO                  PF01266.23 sp|P04841|ALOX_PICAN -            0.00068   19.2   0.5    0.0025   17.3   0.4   1.9   2   0   0   2   2   2   1 FAD dependent oxidoreductase
+Lycopene_cycl        PF05834.11 sp|P04841|ALOX_PICAN -             0.0009   18.3   0.1    0.0014   17.7   0.1   1.2   1   0   0   1   1   1   1 Lycopene cyclase protein
+FAD_binding_2        PF00890.23 sp|P04841|ALOX_PICAN -             0.0017   17.4   0.1       1.1    8.1   0.0   2.2   2   0   0   2   2   2   2 FAD binding domain
+Pyr_redox_2          PF07992.13 sp|P04841|ALOX_PICAN -              0.071   12.2   0.0      0.12   11.5   0.0   1.3   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+Myb_DNA-bind_2       PF08914.10 sp|P04841|ALOX_PICAN -               0.12   12.4   0.0      0.24   11.5   0.0   1.4   1   0   0   1   1   1   0 Rap1 Myb domain
+Thi4                 PF01946.16 sp|P04841|ALOX_PICAN -                0.2   10.8   0.0      0.38    9.9   0.0   1.3   1   0   0   1   1   1   0 Thi4 family
+Myb_DNA-binding      PF00249.30 sp|P04841|ALOX_PICAN -               0.38   10.8   1.4      0.83    9.8   0.3   2.1   2   0   0   2   2   2   0 Myb-like DNA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P04841.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P04841.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P04841.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:29:31 2019
+# [ok]

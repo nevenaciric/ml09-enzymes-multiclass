@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|Q0PA35|FOLD_CAMJE -              5e-70  233.9   0.9   9.1e-70  233.0   0.9   1.4   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|Q0PA35|FOLD_CAMJE -            1.1e-40  138.5   0.4   1.6e-40  137.9   0.4   1.2   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+adh_short            PF00106.24 sp|Q0PA35|FOLD_CAMJE -              0.028   13.8   0.1     0.049   13.0   0.1   1.5   1   0   0   1   1   1   0 short chain dehydrogenase
+AdoHcyase_NAD        PF00670.20 sp|Q0PA35|FOLD_CAMJE -              0.042   13.8   1.4       2.6    8.0   1.4   2.3   1   1   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q0PA35.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q0PA35.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q0PA35.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:09:15 2019
+# [ok]

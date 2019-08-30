@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_desaturase        PF00487.23 sp|Q9Y1W0|FAD5A_DICDI -            4.9e-35  121.5  14.4   4.9e-35  121.5  14.4   1.8   1   1   1   2   2   2   1 Fatty acid desaturase
+Cyt-b5               PF00173.27 sp|Q9Y1W0|FAD5A_DICDI -            5.5e-24   84.0   0.0   1.8e-23   82.4   0.0   2.0   2   0   0   2   2   2   1 Cytochrome b5-like Heme/Steroid binding domain
+CrgA                 PF06781.11 sp|Q9Y1W0|FAD5A_DICDI -               0.05   13.6   0.0     0.098   12.6   0.0   1.5   1   0   0   1   1   1   0 Cell division protein CrgA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9Y1W0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9Y1W0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9Y1W0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:36:28 2019
+# [ok]

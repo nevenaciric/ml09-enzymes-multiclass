@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACOX                 PF01756.18 sp|Q7KML2|ACOX1_DROME -            5.1e-49  166.2   0.0   8.8e-49  165.4   0.0   1.4   1   0   0   1   1   1   1 Acyl-CoA oxidase
+Acyl-CoA_ox_N        PF14749.5  sp|Q7KML2|ACOX1_DROME -              6e-39  133.3   0.0   1.1e-38  132.6   0.0   1.4   1   0   0   1   1   1   1 Acyl-coenzyme A oxidase N-terminal
+Acyl-CoA_dh_M        PF02770.18 sp|Q7KML2|ACOX1_DROME -            7.3e-13   48.4   0.0     2e-12   47.0   0.0   1.8   2   0   0   2   2   2   1 Acyl-CoA dehydrogenase, middle domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7KML2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7KML2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7KML2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:00:21 2019
+# [ok]

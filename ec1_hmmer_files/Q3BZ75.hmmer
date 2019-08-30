@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q3BZ75|GPDA_XANC5 -            4.1e-51  173.0   0.0   6.8e-51  172.2   0.0   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q3BZ75|GPDA_XANC5 -            3.8e-47  160.0   0.3   5.3e-47  159.6   0.3   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+ApbA                 PF02558.15 sp|Q3BZ75|GPDA_XANC5 -            1.2e-07   31.4   0.1   4.6e-07   29.5   0.0   1.9   2   0   0   2   2   2   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q3BZ75|GPDA_XANC5 -            1.7e-06   28.4   0.0   4.3e-06   27.1   0.0   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q3BZ75|GPDA_XANC5 -              7e-05   22.9   0.0   0.00064   19.8   0.0   2.1   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|Q3BZ75|GPDA_XANC5 -            0.00033   20.5   0.6   0.00075   19.3   0.1   1.9   2   1   0   2   2   2   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q3BZ75|GPDA_XANC5 -              0.011   15.2   0.0     0.027   14.0   0.0   1.7   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q3BZ75|GPDA_XANC5 -              0.011   15.9   0.0      0.13   12.4   0.0   2.3   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+TrkA_N               PF02254.17 sp|Q3BZ75|GPDA_XANC5 -              0.022   14.9   0.1       0.1   12.8   0.0   2.2   2   0   0   2   2   2   0 TrkA-N domain
+Rossmann-like        PF10727.8  sp|Q3BZ75|GPDA_XANC5 -               0.04   13.7   0.9      0.17   11.6   0.1   2.3   2   0   0   2   2   2   0 Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3BZ75.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3BZ75.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3BZ75.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:27:28 2019
+# [ok]

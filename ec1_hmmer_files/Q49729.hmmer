@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IMPDH                PF00478.24 sp|Q49729|IMDH_MYCLE -           2.3e-149  497.0   8.4  2.7e-149  496.8   8.4   1.0   1   0   0   1   1   1   1 IMP dehydrogenase / GMP reductase domain
+CBS                  PF00571.27 sp|Q49729|IMDH_MYCLE -              3e-20   72.3   0.2   4.4e-09   36.5   0.0   2.7   2   0   0   2   2   2   2 CBS domain
+NMO                  PF03060.14 sp|Q49729|IMDH_MYCLE -            8.4e-09   35.2  15.2   0.00047   19.5  11.4   2.5   2   0   0   2   2   2   2 Nitronate monooxygenase
+FMN_dh               PF01070.17 sp|Q49729|IMDH_MYCLE -            1.6e-06   27.3  10.1   2.7e-06   26.6   9.5   1.7   2   0   0   2   2   2   1 FMN-dependent dehydrogenase
+His_biosynth         PF00977.20 sp|Q49729|IMDH_MYCLE -             0.0017   17.8   2.9      0.76    9.1   0.1   2.2   2   0   0   2   2   2   2 Histidine biosynthesis protein
+Glu_synthase         PF01645.16 sp|Q49729|IMDH_MYCLE -               0.12   11.4   8.1      0.23   10.5   8.1   1.4   1   0   0   1   1   1   0 Conserved region in glutamate synthase
+DHO_dh               PF01180.20 sp|Q49729|IMDH_MYCLE -                  2    7.5   7.6         1    8.4   1.1   2.2   1   1   1   2   2   2   0 Dihydroorotate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q49729.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q49729.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q49729.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:33:05 2019
+# [ok]

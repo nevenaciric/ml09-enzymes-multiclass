@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Aldedh               PF00171.21 sp|Q9A7W2|ASTD2_CAUVC -           1.2e-106  356.9   0.0  1.5e-106  356.6   0.0   1.0   1   0   0   1   1   1   1 Aldehyde dehydrogenase family
+PQQ                  PF01011.20 sp|Q9A7W2|ASTD2_CAUVC -               0.13   12.1   1.2        33    4.6   0.0   3.8   4   0   0   4   4   4   0 PQQ enzyme repeat
+PQQ_2                PF13360.5  sp|Q9A7W2|ASTD2_CAUVC -               0.14   11.6   3.2      0.56    9.6   2.5   2.3   2   1   0   2   2   2   0 PQQ-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9A7W2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9A7W2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9A7W2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:23:58 2019
+# [ok]

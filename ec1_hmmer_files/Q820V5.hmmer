@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q820V5|FABI_ENTFA -            1.7e-77  260.0   2.2   1.9e-77  259.9   2.2   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q820V5|FABI_ENTFA -            3.2e-17   62.5   2.0   4.3e-17   62.1   2.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+Enoyl_reductase      PF12241.7  sp|Q820V5|FABI_ENTFA -            0.00011   21.5   1.6      0.12   11.6   0.1   2.3   2   0   0   2   2   2   2 Trans-2-enoyl-CoA reductase catalytic region
+KR                   PF08659.9  sp|Q820V5|FABI_ENTFA -            0.00035   20.4   0.3   0.00068   19.5   0.3   1.5   1   1   0   1   1   1   1 KR domain
+Biotin_carb_N        PF00289.21 sp|Q820V5|FABI_ENTFA -              0.032   14.7   0.2     0.066   13.7   0.2   1.5   1   0   0   1   1   1   0 Biotin carboxylase, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q820V5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q820V5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q820V5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:05:05 2019
+# [ok]

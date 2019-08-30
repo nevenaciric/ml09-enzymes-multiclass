@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Gp_dh_C              PF02800.19 sp|P58838|G3P2_METAC -            1.9e-28   98.9   0.1   2.8e-28   98.4   0.1   1.2   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain
+DapB_N               PF01113.19 sp|P58838|G3P2_METAC -            2.6e-11   43.6   0.1     6e-11   42.4   0.1   1.6   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+Gp_dh_N              PF00044.23 sp|P58838|G3P2_METAC -            2.6e-07   30.8   0.1   1.4e-06   28.5   0.1   2.3   1   1   1   2   2   2   1 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|P58838|G3P2_METAC -              5e-05   22.6   0.1    0.0036   16.6   0.1   2.3   1   1   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|P58838|G3P2_METAC -            0.00065   19.9   0.0    0.0016   18.6   0.0   1.7   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+GFO_IDH_MocA         PF01408.21 sp|P58838|G3P2_METAC -             0.0027   18.4   0.1    0.0063   17.2   0.1   1.6   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+TrkA_N               PF02254.17 sp|P58838|G3P2_METAC -              0.011   15.9   0.1     0.022   14.9   0.1   1.6   1   0   0   1   1   1   0 TrkA-N domain
+NAD_binding_3        PF03447.15 sp|P58838|G3P2_METAC -              0.018   15.6   0.0     0.042   14.4   0.0   1.7   1   0   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|P58838|G3P2_METAC -              0.059   13.9   0.7      0.25   11.8   0.7   2.0   1   1   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+IlvN                 PF07991.11 sp|P58838|G3P2_METAC -               0.13   11.8   1.3       3.9    6.9   0.6   2.8   2   1   0   2   2   2   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P58838.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P58838.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P58838.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:53:13 2019
+# [ok]

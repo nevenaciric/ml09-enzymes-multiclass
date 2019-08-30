@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DAO                  PF01266.23 sp|O14252|YE66_SCHPO -            1.3e-33  117.0   0.0   3.5e-33  115.6   0.0   1.6   1   1   0   1   1   1   1 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|O14252|YE66_SCHPO -            0.00026   21.1   0.1   0.00061   19.9   0.1   1.6   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+NAD_binding_9        PF13454.5  sp|O14252|YE66_SCHPO -            0.00069   19.6   0.1     0.017   15.0   0.0   2.2   1   1   1   2   2   2   1 FAD-NAD(P)-binding
+Trp_halogenase       PF04820.13 sp|O14252|YE66_SCHPO -            0.00094   18.0   0.2      0.17   10.6   0.1   2.1   2   0   0   2   2   2   2 Tryptophan halogenase
+Pyr_redox_2          PF07992.13 sp|O14252|YE66_SCHPO -              0.029   13.5   0.2       3.5    6.7   0.1   2.2   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+MCRA                 PF06100.10 sp|O14252|YE66_SCHPO -               0.11   11.1   0.2      0.17   10.6   0.2   1.2   1   0   0   1   1   1   0 MCRA family
+Pyr_redox            PF00070.26 sp|O14252|YE66_SCHPO -               0.12   12.8   0.3        11    6.6   0.2   2.4   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O14252.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O14252.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O14252.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:21:29 2019
+# [ok]

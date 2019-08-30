@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PMSR                 PF01625.20 sp|B5Y2Y3|MSRA_KLEP3 -            7.2e-68  227.5   1.0   8.5e-68  227.2   1.0   1.0   1   0   0   1   1   1   1 Peptide methionine sulfoxide reductase
+Metal_resist         PF13801.5  sp|B5Y2Y3|MSRA_KLEP3 -              0.047   13.8   0.7       0.1   12.7   0.7   1.5   1   0   0   1   1   1   0 Heavy-metal resistance
+DUF4853              PF16145.4  sp|B5Y2Y3|MSRA_KLEP3 -               0.12   12.4   0.1       6.2    6.9   0.1   2.1   1   1   1   2   2   2   0 Domain of unknown function (DUF4853)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B5Y2Y3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B5Y2Y3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B5Y2Y3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:01:19 2019
+# [ok]

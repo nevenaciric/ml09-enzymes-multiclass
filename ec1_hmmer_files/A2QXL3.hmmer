@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HEAT_2               PF13646.5  sp|A2QXL3|DOHH_ASPNC -            3.8e-32  110.4   1.5   6.4e-13   48.8   0.4   3.6   2   2   2   4   4   4   3 HEAT repeats
+HEAT_PBS             PF03130.15 sp|A2QXL3|DOHH_ASPNC -            5.9e-24   82.2   0.6   0.00087   19.6   0.2   6.4   6   0   0   6   6   6   5 PBS lyase HEAT-like repeat
+HEAT                 PF02985.21 sp|A2QXL3|DOHH_ASPNC -            7.7e-10   38.1   3.1      0.77   10.1   0.0   6.6   7   0   0   7   7   7   3 HEAT repeat
+HEAT_EZ              PF13513.5  sp|A2QXL3|DOHH_ASPNC -            2.7e-07   30.8   6.4      0.26   11.7   0.1   5.4   3   2   4   7   7   7   4 HEAT-like repeat
+Cnd1                 PF12717.6  sp|A2QXL3|DOHH_ASPNC -              0.005   16.8   0.1       2.3    8.1   0.0   3.1   2   2   1   3   3   3   2 non-SMC mitotic condensation complex subunit 1
+Cohesin_HEAT         PF12765.6  sp|A2QXL3|DOHH_ASPNC -              0.035   14.2   0.0      0.66   10.1   0.0   2.6   2   0   0   2   2   2   0 HEAT repeat associated with sister chromatid cohesion
+Vitellogenin_N       PF01347.21 sp|A2QXL3|DOHH_ASPNC -              0.074   11.3   0.0        10    4.3   0.0   2.9   3   0   0   3   3   3   0 Lipoprotein amino terminal region
+RuvA_C               PF07499.12 sp|A2QXL3|DOHH_ASPNC -               0.11   12.9   3.5       3.1    8.2   0.1   3.7   3   0   0   3   3   3   0 RuvA, C-terminal domain
+DUF3385              PF11865.7  sp|A2QXL3|DOHH_ASPNC -               0.13   12.1   0.0        22    4.8   0.0   2.5   3   0   0   3   3   3   0 Domain of unknown function (DUF3385)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A2QXL3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A2QXL3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A2QXL3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:26:35 2019
+# [ok]

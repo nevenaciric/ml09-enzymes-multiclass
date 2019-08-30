@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q1NEI6|KDRDH_SPHSS -            1.9e-53  181.4   1.9   2.2e-53  181.2   1.9   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q1NEI6|KDRDH_SPHSS -            1.1e-50  171.7   0.7   1.4e-50  171.4   0.7   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q1NEI6|KDRDH_SPHSS -            2.6e-06   27.3   3.3     8e-06   25.8   3.2   1.7   1   1   0   1   1   1   1 KR domain
+NAD_binding_10       PF13460.5  sp|Q1NEI6|KDRDH_SPHSS -             0.0095   15.8   0.7     0.013   15.3   0.7   1.2   1   0   0   1   1   1   1 NAD(P)H-binding
+Epimerase            PF01370.20 sp|Q1NEI6|KDRDH_SPHSS -              0.011   15.1   0.3     0.015   14.7   0.3   1.4   1   1   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+AlaDh_PNT_C          PF01262.20 sp|Q1NEI6|KDRDH_SPHSS -               0.16   11.1   4.7      0.23   10.7   4.7   1.2   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q1NEI6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q1NEI6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q1NEI6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:16:09 2019
+# [ok]

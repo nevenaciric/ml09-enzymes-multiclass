@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMC_oxred_N          PF00732.18 sp|A7ZI50|BETA_ECO24 -           1.1e-106  356.4   0.0  1.9e-106  355.7   0.0   1.4   2   0   0   2   2   2   1 GMC oxidoreductase
+GMC_oxred_C          PF05199.12 sp|A7ZI50|BETA_ECO24 -            1.1e-42  145.9   0.0   1.9e-42  145.1   0.0   1.4   1   0   0   1   1   1   1 GMC oxidoreductase
+FAD_binding_2        PF00890.23 sp|A7ZI50|BETA_ECO24 -             0.0016   17.5   0.0      0.22   10.5   0.0   2.3   2   0   0   2   2   2   2 FAD binding domain
+DAO                  PF01266.23 sp|A7ZI50|BETA_ECO24 -             0.0026   17.3   0.0      0.21   11.0   0.0   2.6   3   0   0   3   3   3   1 FAD dependent oxidoreductase
+Lycopene_cycl        PF05834.11 sp|A7ZI50|BETA_ECO24 -             0.0048   15.9   0.0    0.0071   15.3   0.0   1.2   1   0   0   1   1   1   1 Lycopene cyclase protein
+NAD_binding_8        PF13450.5  sp|A7ZI50|BETA_ECO24 -             0.0097   16.0   0.1      0.03   14.5   0.0   1.9   2   0   0   2   2   2   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox_2          PF07992.13 sp|A7ZI50|BETA_ECO24 -               0.03   13.5   0.0      0.15   11.1   0.0   1.9   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+Thi4                 PF01946.16 sp|A7ZI50|BETA_ECO24 -              0.079   12.1   0.0      0.13   11.3   0.0   1.3   1   0   0   1   1   1   0 Thi4 family
+HI0933_like          PF03486.13 sp|A7ZI50|BETA_ECO24 -                0.2   10.2   0.0      0.36    9.4   0.0   1.3   1   0   0   1   1   1   0 HI0933-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7ZI50.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7ZI50.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7ZI50.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:40:38 2019
+# [ok]

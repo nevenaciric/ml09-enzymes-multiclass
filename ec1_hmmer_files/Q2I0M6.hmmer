@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_2       PF00891.17 sp|Q2I0M6|CTB3_CERNC -            2.8e-26   92.1   0.0   5.4e-26   91.1   0.0   1.4   1   0   0   1   1   1   1 O-methyltransferase
+FAD_binding_3        PF01494.18 sp|Q2I0M6|CTB3_CERNC -            4.5e-16   59.0   0.0   3.2e-05   23.3   0.0   3.2   3   0   0   3   3   3   3 FAD binding domain
+NAD_binding_8        PF13450.5  sp|Q2I0M6|CTB3_CERNC -            1.4e-05   25.1   0.1   5.2e-05   23.3   0.1   2.0   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Methyltransf_12      PF08242.11 sp|Q2I0M6|CTB3_CERNC -             0.0016   19.1   0.0    0.0037   17.9   0.0   1.7   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_25      PF13649.5  sp|Q2I0M6|CTB3_CERNC -             0.0018   18.8   0.0    0.0062   17.1   0.0   2.0   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_23      PF13489.5  sp|Q2I0M6|CTB3_CERNC -             0.0019   18.0   0.0    0.0036   17.0   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+CheR                 PF01739.17 sp|Q2I0M6|CTB3_CERNC -             0.0031   16.9   0.0    0.0061   16.0   0.0   1.4   1   0   0   1   1   1   1 CheR methyltransferase, SAM binding domain
+ApbA                 PF02558.15 sp|Q2I0M6|CTB3_CERNC -              0.033   13.7   0.0      0.11   12.0   0.0   1.9   2   0   0   2   2   2   0 Ketopantoate reductase PanE/ApbA
+FAD_binding_2        PF00890.23 sp|Q2I0M6|CTB3_CERNC -              0.053   12.5   0.1      0.11   11.4   0.1   1.5   1   0   0   1   1   1   0 FAD binding domain
+Pyr_redox_3          PF13738.5  sp|Q2I0M6|CTB3_CERNC -              0.055   12.6   0.4      0.15   11.1   0.0   1.8   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2I0M6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2I0M6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2I0M6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:20:16 2019
+# [ok]

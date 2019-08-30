@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|B0BRA3|GPDA_ACTPJ -            1.3e-51  174.5   2.7   2.4e-51  173.6   2.7   1.5   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|B0BRA3|GPDA_ACTPJ -            1.6e-49  167.8   0.0   2.4e-49  167.2   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|B0BRA3|GPDA_ACTPJ -            1.4e-07   31.1   0.0   2.8e-07   30.2   0.0   1.5   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|B0BRA3|GPDA_ACTPJ -            1.5e-05   25.4   0.0   3.9e-05   24.1   0.0   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|B0BRA3|GPDA_ACTPJ -            0.00011   22.3   0.2   0.00033   20.8   0.0   1.9   3   0   0   3   3   3   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GIDA                 PF01134.21 sp|B0BRA3|GPDA_ACTPJ -              0.002   17.1   0.0    0.0036   16.4   0.0   1.4   1   0   0   1   1   1   1 Glucose inhibited division protein A
+3HCDH_N              PF02737.17 sp|B0BRA3|GPDA_ACTPJ -              0.011   15.5   0.0     0.025   14.3   0.0   1.7   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Pyr_redox_2          PF07992.13 sp|B0BRA3|GPDA_ACTPJ -              0.018   14.2   0.0     0.028   13.6   0.0   1.4   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+Rossmann-like        PF10727.8  sp|B0BRA3|GPDA_ACTPJ -              0.023   14.5   0.4     0.069   12.9   0.2   1.9   2   1   0   2   2   2   0 Rossmann-like domain
+TrkA_N               PF02254.17 sp|B0BRA3|GPDA_ACTPJ -               0.11   12.7   0.0         4    7.6   0.0   2.5   2   0   0   2   2   2   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B0BRA3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B0BRA3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B0BRA3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:47:04 2019
+# [ok]

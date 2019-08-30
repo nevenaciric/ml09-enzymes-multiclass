@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Amino_oxidase        PF01593.23 sp|Q10135|LSD2_SCHPO -            4.7e-74  250.2   0.0   6.8e-74  249.7   0.0   1.2   1   0   0   1   1   1   1 Flavin containing amine oxidoreductase
+SWIRM                PF04433.16 sp|Q10135|LSD2_SCHPO -            5.1e-11   42.7   0.0   1.7e-10   41.0   0.0   1.9   2   0   0   2   2   2   1 SWIRM domain
+NAD_binding_8        PF13450.5  sp|Q10135|LSD2_SCHPO -            3.5e-06   27.1   0.1   1.4e-05   25.1   0.1   2.1   1   1   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox_2          PF07992.13 sp|Q10135|LSD2_SCHPO -            7.5e-05   22.0   0.0    0.0085   15.3   0.0   2.3   2   0   0   2   2   2   2 Pyridine nucleotide-disulphide oxidoreductase
+NAD_binding_9        PF13454.5  sp|Q10135|LSD2_SCHPO -             0.0018   18.2   0.0      0.26   11.2   0.0   2.7   2   0   0   2   2   2   1 FAD-NAD(P)-binding
+HMG_box              PF00505.18 sp|Q10135|LSD2_SCHPO -             0.0086   16.4   0.2    0.0086   16.4   0.2   2.4   2   0   0   2   2   2   1 HMG (high mobility group) box
+DAO                  PF01266.23 sp|Q10135|LSD2_SCHPO -              0.034   13.6   0.0     0.064   12.7   0.0   1.4   1   0   0   1   1   1   0 FAD dependent oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q10135.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q10135.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q10135.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:10:57 2019
+# [ok]

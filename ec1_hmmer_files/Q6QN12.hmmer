@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+T4_deiodinase        PF00837.16 sp|Q6QN12|IOD2_PIG   -           5.8e-118  392.3   0.0  6.6e-118  392.1   0.0   1.0   1   0   0   1   1   1   1 Iodothyronine deiodinase
+AhpC-TSA             PF00578.20 sp|Q6QN12|IOD2_PIG   -            1.1e-05   25.3   0.0   2.1e-05   24.3   0.0   1.4   1   1   0   1   1   1   1 AhpC/TSA family
+Redoxin              PF08534.9  sp|Q6QN12|IOD2_PIG   -             0.0061   16.1   0.0     0.009   15.6   0.0   1.4   1   1   0   1   1   1   1 Redoxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6QN12.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6QN12.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6QN12.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:56:50 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Aldedh               PF00171.21 sp|P96489|PROA_STRTR -            4.6e-23   81.3   6.5   8.6e-14   50.8   3.8   2.2   2   0   0   2   2   2   2 Aldehyde dehydrogenase family
+MoCF_biosynth        PF00994.23 sp|P96489|PROA_STRTR -             0.0059   16.2   0.1     0.016   14.8   0.1   1.7   1   0   0   1   1   1   1 Probable molybdopterin binding domain
+BssS                 PF13991.5  sp|P96489|PROA_STRTR -              0.077   13.0   0.1      0.63   10.0   0.0   2.4   2   0   0   2   2   2   0 BssS protein family
+SecD-TM1             PF13721.5  sp|P96489|PROA_STRTR -               0.24   11.8   1.6       0.4   11.1   0.0   2.1   3   0   0   3   3   3   0 SecD export protein N-terminal TM region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P96489.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P96489.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P96489.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:59:53 2019
+# [ok]

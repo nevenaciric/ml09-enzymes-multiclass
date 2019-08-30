@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mannitol_dh_C        PF08125.12 sp|A4IPF0|MTLD_GEOTN -            6.9e-52  176.3   0.0     1e-51  175.7   0.0   1.2   1   0   0   1   1   1   1 Mannitol dehydrogenase C-terminal domain
+Mannitol_dh          PF01232.22 sp|A4IPF0|MTLD_GEOTN -            3.5e-28   98.6   0.1   8.8e-28   97.3   0.0   1.7   2   0   0   2   2   2   1 Mannitol dehydrogenase Rossmann domain
+UPF0052              PF01933.17 sp|A4IPF0|MTLD_GEOTN -            0.00023   20.4   0.1   0.00036   19.8   0.1   1.2   1   0   0   1   1   1   1 Uncharacterised protein family UPF0052
+F420_oxidored        PF03807.16 sp|A4IPF0|MTLD_GEOTN -            0.00025   21.5   1.3      0.04   14.4   0.1   2.8   1   1   1   2   2   2   2 NADP oxidoreductase coenzyme F420-dependent
+UDPG_MGDP_dh_N       PF03721.13 sp|A4IPF0|MTLD_GEOTN -            0.00038   20.0   0.1   0.00065   19.2   0.1   1.3   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+3HCDH_N              PF02737.17 sp|A4IPF0|MTLD_GEOTN -            0.00076   19.3   0.1    0.0018   18.1   0.1   1.5   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|A4IPF0|MTLD_GEOTN -             0.0023   18.1   0.1    0.0066   16.6   0.1   1.8   1   0   0   1   1   1   1 TrkA-N domain
+ApbA                 PF02558.15 sp|A4IPF0|MTLD_GEOTN -              0.017   14.7   0.2     0.037   13.6   0.2   1.7   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+ADH_zinc_N           PF00107.25 sp|A4IPF0|MTLD_GEOTN -              0.024   14.4   0.1     0.058   13.2   0.1   1.6   1   0   0   1   1   1   0 Zinc-binding dehydrogenase
+PDH                  PF02153.16 sp|A4IPF0|MTLD_GEOTN -              0.078   11.9   0.0       0.9    8.4   0.0   2.1   2   0   0   2   2   2   0 Prephenate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4IPF0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4IPF0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4IPF0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:29:40 2019
+# [ok]

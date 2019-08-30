@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|Q6BV21|KMO_DEBHA  -            5.4e-18   65.3   0.0   2.4e-17   63.2   0.0   2.0   1   1   0   1   1   1   1 FAD binding domain
+DAO                  PF01266.23 sp|Q6BV21|KMO_DEBHA  -            5.4e-06   26.1   0.0   6.3e-05   22.6   0.0   2.0   1   1   1   2   2   2   1 FAD dependent oxidoreductase
+SE                   PF08491.9  sp|Q6BV21|KMO_DEBHA  -              2e-05   23.7   0.0     0.002   17.1   0.0   2.6   3   1   0   3   3   3   1 Squalene epoxidase
+Pyr_redox            PF00070.26 sp|Q6BV21|KMO_DEBHA  -            2.9e-05   24.4   0.0    0.0027   18.1   0.0   2.8   2   1   1   3   3   3   1 Pyridine nucleotide-disulphide oxidoreductase
+NAD_binding_8        PF13450.5  sp|Q6BV21|KMO_DEBHA  -            3.9e-05   23.7   0.0   8.6e-05   22.6   0.0   1.6   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox_2          PF07992.13 sp|Q6BV21|KMO_DEBHA  -             0.0002   20.6   0.0    0.0028   16.8   0.0   2.1   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+3HCDH_N              PF02737.17 sp|Q6BV21|KMO_DEBHA  -            0.00068   19.5   0.0     0.001   18.9   0.0   1.3   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q6BV21|KMO_DEBHA  -              0.016   14.7   0.0     0.029   13.8   0.0   1.4   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+GIDA                 PF01134.21 sp|Q6BV21|KMO_DEBHA  -              0.023   13.7   0.0     0.036   13.1   0.0   1.3   1   0   0   1   1   1   0 Glucose inhibited division protein A
+2-Hacid_dh_C         PF02826.18 sp|Q6BV21|KMO_DEBHA  -              0.069   12.4   0.0      0.12   11.6   0.0   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+ApbA                 PF02558.15 sp|Q6BV21|KMO_DEBHA  -               0.12   11.9   0.0      0.21   11.1   0.0   1.4   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6BV21.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6BV21.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6BV21.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:51:53 2019
+# [ok]

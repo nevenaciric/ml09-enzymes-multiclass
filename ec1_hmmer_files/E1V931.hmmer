@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AlaDh_PNT_C          PF01262.20 sp|E1V931|DHA_HALED  -            1.3e-85  285.9   1.5   1.8e-85  285.5   1.5   1.2   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+AlaDh_PNT_N          PF05222.14 sp|E1V931|DHA_HALED  -              1e-45  155.3   0.3   2.7e-45  153.9   0.1   1.8   2   0   0   2   2   2   1 Alanine dehydrogenase/PNT, N-terminal domain
+2-Hacid_dh_C         PF02826.18 sp|E1V931|DHA_HALED  -              4e-09   36.0   0.0   7.5e-09   35.1   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|E1V931|DHA_HALED  -            5.6e-07   29.6   0.0   1.3e-06   28.4   0.0   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+NAD_binding_2        PF03446.14 sp|E1V931|DHA_HALED  -            1.1e-05   25.5   0.1   2.3e-05   24.5   0.1   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+F420_oxidored        PF03807.16 sp|E1V931|DHA_HALED  -            3.8e-05   24.1   0.5   0.00016   22.1   0.1   2.1   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|E1V931|DHA_HALED  -            0.00015   22.1   0.1   0.00033   21.0   0.1   1.6   1   0   0   1   1   1   1 Putative NAD(P)-binding
+Pyr_redox_2          PF07992.13 sp|E1V931|DHA_HALED  -            0.00033   19.9   0.1   0.00041   19.6   0.1   1.3   1   0   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox            PF00070.26 sp|E1V931|DHA_HALED  -            0.00044   20.7   0.1   0.00091   19.6   0.1   1.5   1   0   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+3HCDH_N              PF02737.17 sp|E1V931|DHA_HALED  -            0.00049   19.9   0.1   0.00094   19.0   0.1   1.5   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+THF_DHG_CYH_C        PF02882.18 sp|E1V931|DHA_HALED  -             0.0026   17.0   0.5     0.017   14.4   0.5   2.3   1   1   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+DAO                  PF01266.23 sp|E1V931|DHA_HALED  -              0.023   14.2   1.3     0.076   12.5   1.3   1.8   1   1   1   2   2   2   0 FAD dependent oxidoreductase
+UDPG_MGDP_dh_N       PF03721.13 sp|E1V931|DHA_HALED  -              0.039   13.4   0.3      0.48    9.9   0.3   2.2   1   1   1   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+TrkA_N               PF02254.17 sp|E1V931|DHA_HALED  -              0.056   13.6   0.2      0.17   12.0   0.2   1.8   1   0   0   1   1   1   0 TrkA-N domain
+XdhC_C               PF13478.5  sp|E1V931|DHA_HALED  -              0.077   13.4   0.0       0.2   12.1   0.0   1.8   1   0   0   1   1   1   0 XdhC Rossmann domain
+Sacchrp_dh_NADP      PF03435.17 sp|E1V931|DHA_HALED  -               0.13   12.5   0.1      0.38   10.9   0.1   1.8   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/E1V931.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/E1V931.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/E1V931.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:17:35 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ELFV_dehydrog        PF00208.20 sp|P94316|DHE2_BACFR -            6.1e-82  274.9   0.4   7.8e-82  274.5   0.4   1.1   1   0   0   1   1   1   1 Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+ELFV_dehydrog_N      PF02812.17 sp|P94316|DHE2_BACFR -            1.7e-49  166.9   0.0   7.1e-49  164.9   0.0   2.0   2   0   0   2   2   2   1 Glu/Leu/Phe/Val dehydrogenase, dimerisation domain
+2-Hacid_dh_C         PF02826.18 sp|P94316|DHE2_BACFR -              0.002   17.4   0.2    0.0032   16.7   0.2   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|P94316|DHE2_BACFR -             0.0091   16.3   0.0     0.017   15.5   0.0   1.4   1   0   0   1   1   1   1 Putative NAD(P)-binding
+AdoHcyase_NAD        PF00670.20 sp|P94316|DHE2_BACFR -              0.012   15.6   0.2     0.025   14.6   0.2   1.5   1   0   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P94316.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P94316.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P94316.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:59:29 2019
+# [ok]

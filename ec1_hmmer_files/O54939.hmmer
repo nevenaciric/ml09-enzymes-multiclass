@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|O54939|DHB3_RAT   -            8.3e-47  159.1   0.0   1.1e-46  158.7   0.0   1.2   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|O54939|DHB3_RAT   -            1.7e-26   93.1   0.0   2.2e-26   92.8   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|O54939|DHB3_RAT   -            6.8e-05   22.7   0.1   0.00013   21.8   0.1   1.4   1   1   0   1   1   1   1 KR domain
+Sacchrp_dh_NADP      PF03435.17 sp|O54939|DHB3_RAT   -            0.00074   19.7   0.1    0.0016   18.6   0.1   1.5   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_10       PF13460.5  sp|O54939|DHB3_RAT   -              0.058   13.2   0.0     0.077   12.8   0.0   1.2   1   0   0   1   1   1   0 NAD(P)H-binding
+ApbA                 PF02558.15 sp|O54939|DHB3_RAT   -              0.075   12.6   0.0      0.12   11.9   0.0   1.4   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O54939.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O54939.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O54939.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:25:02 2019
+# [ok]

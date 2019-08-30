@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Cu_amine_oxid        PF01179.19 sp|P46883|AMO_ECOLI  -           4.5e-127  424.2   0.3  6.1e-127  423.8   0.3   1.1   1   0   0   1   1   1   1 Copper amine oxidase, enzyme domain
+Cu_amine_oxidN2      PF02727.15 sp|P46883|AMO_ECOLI  -            2.4e-29  101.3   0.2   2.4e-29  101.3   0.2   1.7   2   0   0   2   2   2   1 Copper amine oxidase, N2 domain
+Cu_amine_oxidN3      PF02728.15 sp|P46883|AMO_ECOLI  -            1.3e-28   99.2   0.1     8e-28   96.7   0.0   2.3   2   0   0   2   2   2   1 Copper amine oxidase, N3 domain
+Cu_amine_oxidN1      PF07833.10 sp|P46883|AMO_ECOLI  -            6.5e-11   42.5   0.0   1.6e-10   41.2   0.0   1.6   1   0   0   1   1   1   1 Copper amine oxidase N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P46883.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P46883.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P46883.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:48:11 2019
+# [ok]

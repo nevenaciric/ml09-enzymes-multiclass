@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_10       PF13460.5  sp|Q4WZ69|EASG_ASPFU -            1.9e-06   27.8   0.0   5.7e-05   23.0   0.0   2.6   2   1   0   2   2   2   1 NAD(P)H-binding
+NmrA                 PF05368.12 sp|Q4WZ69|EASG_ASPFU -              3e-05   23.6   0.0   0.00015   21.3   0.0   2.0   1   1   0   1   1   1   1 NmrA-like family
+Epimerase            PF01370.20 sp|Q4WZ69|EASG_ASPFU -             0.0022   17.4   0.0       2.1    7.6   0.0   2.9   1   1   0   2   2   2   2 NAD dependent epimerase/dehydratase family
+ACTH_domain          PF00976.17 sp|Q4WZ69|EASG_ASPFU -              0.096   12.5   0.2      0.17   11.8   0.2   1.4   1   0   0   1   1   1   0 Corticotropin ACTH domain
+2-Hacid_dh_C         PF02826.18 sp|Q4WZ69|EASG_ASPFU -               0.12   11.7   0.0       0.2   10.9   0.0   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4WZ69.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4WZ69.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4WZ69.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:36:19 2019
+# [ok]

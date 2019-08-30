@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|O34896|UXUB_BACSU -            4.7e-43  146.8   0.5     6e-43  146.5   0.5   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|O34896|UXUB_BACSU -            1.3e-41  142.6   0.2   3.2e-41  141.3   0.2   1.5   1   1   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|O34896|UXUB_BACSU -            1.5e-09   37.9   6.6   1.2e-07   31.8   6.6   2.1   1   1   0   1   1   1   1 KR domain
+Shikimate_DH         PF01488.19 sp|O34896|UXUB_BACSU -            7.9e-05   22.6   0.2   0.00013   21.9   0.2   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+Epimerase            PF01370.20 sp|O34896|UXUB_BACSU -            0.00021   20.8   0.3   0.00079   18.9   0.2   1.8   2   0   0   2   2   2   1 NAD dependent epimerase/dehydratase family
+NAD_binding_2        PF03446.14 sp|O34896|UXUB_BACSU -            0.00068   19.7   0.2    0.0013   18.8   0.2   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|O34896|UXUB_BACSU -            0.00087   19.4   0.3    0.0014   18.7   0.3   1.4   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+THF_DHG_CYH_C        PF02882.18 sp|O34896|UXUB_BACSU -              0.019   14.2   0.2     0.032   13.4   0.2   1.3   1   0   0   1   1   1   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+NmrA                 PF05368.12 sp|O34896|UXUB_BACSU -               0.02   14.4   0.4     0.032   13.7   0.4   1.3   1   0   0   1   1   1   0 NmrA-like family
+2-Hacid_dh_C         PF02826.18 sp|O34896|UXUB_BACSU -              0.058   12.7   0.1      0.11   11.7   0.1   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Oxidored_nitro       PF00148.18 sp|O34896|UXUB_BACSU -              0.069   11.8   0.1     0.095   11.3   0.1   1.2   1   0   0   1   1   1   0 Nitrogenase component 1 type Oxidoreductase
+Glyco_trans_4_4      PF13579.5  sp|O34896|UXUB_BACSU -              0.079   13.3   0.1      0.22   11.9   0.1   1.7   2   0   0   2   2   2   0 Glycosyl transferase 4-like domain
+F420_oxidored        PF03807.16 sp|O34896|UXUB_BACSU -              0.097   13.2   0.6      0.18   12.3   0.6   1.5   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+GDP_Man_Dehyd        PF16363.4  sp|O34896|UXUB_BACSU -               0.15   11.3   0.1      0.42    9.8   0.0   1.7   2   0   0   2   2   2   0 GDP-mannose 4,6 dehydratase
+PipA                 PF07108.10 sp|O34896|UXUB_BACSU -               0.15   11.4   0.0      0.23   10.8   0.0   1.2   1   0   0   1   1   1   0 PipA protein
+3HCDH_N              PF02737.17 sp|O34896|UXUB_BACSU -               0.33   10.7   2.0      0.27   11.0   0.8   1.5   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O34896.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O34896.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O34896.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:23:47 2019
+# [ok]

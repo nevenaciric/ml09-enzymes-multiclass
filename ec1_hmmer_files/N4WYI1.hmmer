@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+K_oxygenase          PF13434.5  sp|N4WYI1|SIDA2_COCH4 -           5.7e-102  341.2   0.0  8.9e-102  340.6   0.0   1.3   1   0   0   1   1   1   1 L-lysine 6-monooxygenase (NADPH-requiring)
+Pyr_redox_2          PF07992.13 sp|N4WYI1|SIDA2_COCH4 -            1.7e-08   34.0   0.0     3e-07   29.9   0.0   2.1   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+NAD_binding_9        PF13454.5  sp|N4WYI1|SIDA2_COCH4 -            3.2e-05   23.9   0.0     0.027   14.4   0.1   3.2   3   1   0   3   3   3   2 FAD-NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/N4WYI1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/N4WYI1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/N4WYI1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:20:20 2019
+# [ok]

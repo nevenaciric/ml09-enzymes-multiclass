@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|Q5SKS4|TDH_THET8  -            5.3e-35  119.5   1.3   5.9e-35  119.3   0.3   1.5   2   0   0   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|Q5SKS4|TDH_THET8  -            2.7e-15   56.3   0.0   4.8e-15   55.5   0.0   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|Q5SKS4|TDH_THET8  -            4.4e-07   29.5   0.0     3e-06   26.8   0.0   2.2   1   1   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N_2         PF13602.5  sp|Q5SKS4|TDH_THET8  -            0.00045   21.2   0.0    0.0021   19.0   0.0   2.0   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+FAD_binding_3        PF01494.18 sp|Q5SKS4|TDH_THET8  -              0.025   13.8   0.3     0.037   13.2   0.3   1.1   1   0   0   1   1   1   0 FAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|Q5SKS4|TDH_THET8  -              0.087   12.1   0.0      0.14   11.4   0.0   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+HI0933_like          PF03486.13 sp|Q5SKS4|TDH_THET8  -               0.19   10.3   0.3      0.25    9.9   0.3   1.1   1   0   0   1   1   1   0 HI0933-like protein
+ORF11CD3             PF10549.8  sp|Q5SKS4|TDH_THET8  -               0.19   11.8   0.0      0.35   10.9   0.0   1.4   1   0   0   1   1   1   0 ORF11CD3 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5SKS4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5SKS4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5SKS4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:46:15 2019
+# [ok]

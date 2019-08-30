@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Gp_dh_C              PF02800.19 sp|P0CN75|G3P_CRYNB  -            3.5e-69  231.3   0.0   4.8e-69  230.9   0.0   1.2   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain
+Gp_dh_N              PF00044.23 sp|P0CN75|G3P_CRYNB  -            2.5e-39  133.6   0.2   5.2e-39  132.6   0.2   1.5   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+DapB_N               PF01113.19 sp|P0CN75|G3P_CRYNB  -              0.016   15.2   0.2     0.062   13.3   0.0   2.0   2   0   0   2   2   2   0 Dihydrodipicolinate reductase, N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0CN75.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0CN75.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0CN75.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:34:12 2019
+# [ok]

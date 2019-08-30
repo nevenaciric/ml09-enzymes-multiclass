@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q4FP28|MDH_PELUB  -            6.2e-44  149.4   1.3   9.3e-44  148.9   1.3   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q4FP28|MDH_PELUB  -            4.4e-30  104.7   0.0   6.6e-30  104.1   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q4FP28|MDH_PELUB  -            0.00028   20.4   1.5    0.0016   18.0   1.5   2.0   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Glyco_hydro_4        PF02056.15 sp|Q4FP28|MDH_PELUB  -            0.00055   19.4   2.0     0.005   16.3   0.1   2.5   1   1   1   2   2   2   1 Family 4 glycosyl hydrolase
+F420_oxidored        PF03807.16 sp|Q4FP28|MDH_PELUB  -             0.0015   19.0   1.0     0.013   16.0   0.2   2.6   3   0   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+Ribosom_S12_S23      PF00164.24 sp|Q4FP28|MDH_PELUB  -              0.038   13.5   0.0     0.077   12.5   0.0   1.4   1   0   0   1   1   1   0 Ribosomal protein S12/S23
+Epimerase            PF01370.20 sp|Q4FP28|MDH_PELUB  -               0.11   11.9   0.0        13    5.1   0.0   2.2   2   0   0   2   2   2   0 NAD dependent epimerase/dehydratase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4FP28.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4FP28.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4FP28.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:33:46 2019
+# [ok]

@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TP_methylase         PF00590.19 sp|Q2NVN0|CYSG_SODGM -            2.4e-47  161.5   5.6   2.9e-47  161.3   1.6   2.6   3   0   0   3   3   3   1 Tetrapyrrole (Corrin/Porphyrin) Methylases
+NAD_binding_7        PF13241.5  sp|Q2NVN0|CYSG_SODGM -            1.6e-28   99.1   0.0   1.1e-27   96.4   0.0   2.3   3   0   0   3   3   3   1 Putative NAD(P)-binding
+CysG_dimeriser       PF10414.8  sp|Q2NVN0|CYSG_SODGM -              1e-21   76.3   7.4   3.6e-21   74.6   7.4   2.0   1   0   0   1   1   1   1 Sirohaem synthase dimerisation region
+Sirohm_synth_M       PF14824.5  sp|Q2NVN0|CYSG_SODGM -            9.4e-07   28.1   0.4   2.2e-06   26.9   0.4   1.7   1   0   0   1   1   1   1 Sirohaem biosynthesis protein central
+Radical_SAM          PF04055.20 sp|Q2NVN0|CYSG_SODGM -             0.0057   17.0   0.0     0.072   13.4   0.0   2.5   2   1   0   2   2   2   1 Radical SAM superfamily
+Shikimate_DH         PF01488.19 sp|Q2NVN0|CYSG_SODGM -               0.01   15.8   0.0     0.028   14.4   0.0   1.8   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+TPR_14               PF13428.5  sp|Q2NVN0|CYSG_SODGM -              0.019   15.6   2.4      0.06   14.1   0.2   3.0   3   0   0   3   3   2   0 Tetratricopeptide repeat
+TPR_2                PF07719.16 sp|Q2NVN0|CYSG_SODGM -              0.022   14.8   0.2     0.071   13.2   0.2   1.9   1   0   0   1   1   1   0 Tetratricopeptide repeat
+TPR_19               PF14559.5  sp|Q2NVN0|CYSG_SODGM -               0.04   14.3   0.3      0.12   12.8   0.3   1.8   1   0   0   1   1   1   0 Tetratricopeptide repeat
+TPR_10               PF13374.5  sp|Q2NVN0|CYSG_SODGM -               0.07   12.9   3.3      0.39   10.6   0.8   2.7   2   0   0   2   2   2   0 Tetratricopeptide repeat
+DUF1110              PF06533.11 sp|Q2NVN0|CYSG_SODGM -                1.7    8.5   9.4      0.54   10.1   0.1   2.8   3   0   0   3   3   3   0 Protein of unknown function (DUF1110)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2NVN0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2NVN0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2NVN0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:21:51 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MurB_C               PF02873.15 sp|Q8CPZ7|MURB_STAES -            2.6e-29  101.4   0.0   5.1e-29  100.4   0.0   1.5   1   0   0   1   1   1   1 UDP-N-acetylenolpyruvoylglucosamine reductase, C-terminal domain
+FAD_binding_4        PF01565.22 sp|Q8CPZ7|MURB_STAES -            5.6e-27   94.1   0.3   1.1e-26   93.1   0.1   1.6   2   0   0   2   2   2   1 FAD binding domain
+Stomoxyn             PF11585.7  sp|Q8CPZ7|MURB_STAES -               0.04   13.9   0.4     0.082   12.8   0.4   1.5   1   0   0   1   1   1   0 Insect antimicrobial peptide, stomoxyn
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8CPZ7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8CPZ7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8CPZ7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:09:28 2019
+# [ok]

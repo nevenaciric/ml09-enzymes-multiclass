@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|B3EEE5|MDH_CHLL2  -            1.6e-42  144.8   0.7   2.4e-42  144.3   0.7   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|B3EEE5|MDH_CHLL2  -            1.4e-29  103.1   0.0   2.3e-29  102.4   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|B3EEE5|MDH_CHLL2  -            1.2e-06   28.1   0.8   2.3e-06   27.2   0.8   1.5   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+PAC2                 PF09754.8  sp|B3EEE5|MDH_CHLL2  -             0.0039   17.2   0.0    0.0085   16.1   0.0   1.4   1   1   0   1   1   1   1 PAC2 family
+Haemolytic           PF01809.17 sp|B3EEE5|MDH_CHLL2  -              0.026   14.3   0.0      0.14   12.0   0.0   2.0   2   0   0   2   2   2   0 Haemolytic domain
+G3P_acyltransf       PF02660.14 sp|B3EEE5|MDH_CHLL2  -               0.04   13.9   0.0     0.064   13.2   0.0   1.4   1   0   0   1   1   1   0 Glycerol-3-phosphate acyltransferase
+Malic_M              PF03949.14 sp|B3EEE5|MDH_CHLL2  -              0.056   12.6   0.2      0.11   11.7   0.0   1.5   2   0   0   2   2   2   0 Malic enzyme, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B3EEE5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B3EEE5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B3EEE5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:56:06 2019
+# [ok]

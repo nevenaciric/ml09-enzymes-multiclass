@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PGDH_C               PF16896.4  sp|C0CMQ7|APNO_BLAHS -            2.2e-60  203.0   0.0     3e-60  202.6   0.0   1.2   1   0   0   1   1   1   1 Phosphogluconate dehydrogenase (decarboxylating) C-term
+IlvN                 PF07991.11 sp|C0CMQ7|APNO_BLAHS -            3.6e-05   23.3   0.0   6.7e-05   22.4   0.0   1.4   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+Semialdhyde_dh       PF01118.23 sp|C0CMQ7|APNO_BLAHS -             0.0019   18.5   0.0    0.0044   17.4   0.0   1.6   1   1   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|C0CMQ7|APNO_BLAHS -              0.012   16.1   0.0     0.023   15.2   0.0   1.5   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|C0CMQ7|APNO_BLAHS -              0.027   13.8   0.0     0.042   13.1   0.0   1.2   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+DapB_N               PF01113.19 sp|C0CMQ7|APNO_BLAHS -              0.038   14.0   0.0     0.074   13.1   0.0   1.5   1   0   0   1   1   1   0 Dihydrodipicolinate reductase, N-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|C0CMQ7|APNO_BLAHS -               0.05   13.5   0.0       0.3   10.9   0.0   2.1   1   1   1   2   2   2   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C0CMQ7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C0CMQ7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C0CMQ7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:10:57 2019
+# [ok]

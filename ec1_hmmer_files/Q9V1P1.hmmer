@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Gp_dh_C              PF02800.19 sp|Q9V1P1|G3P_PYRAB  -            4.2e-32  110.8   0.2     6e-32  110.3   0.2   1.2   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain
+DapB_N               PF01113.19 sp|Q9V1P1|G3P_PYRAB  -            4.4e-18   65.5   1.1   2.7e-17   62.9   0.5   2.2   1   1   1   2   2   2   1 Dihydrodipicolinate reductase, N-terminus
+Gp_dh_N              PF00044.23 sp|Q9V1P1|G3P_PYRAB  -            6.7e-06   26.3   0.6   3.5e-05   24.0   0.0   2.5   3   0   0   3   3   3   1 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|Q9V1P1|G3P_PYRAB  -            0.00046   20.7   0.1     0.046   14.3   0.0   2.9   2   1   0   2   2   2   1 Homoserine dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|Q9V1P1|G3P_PYRAB  -            0.00048   20.8   0.0    0.0012   19.6   0.0   1.8   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+2-Hacid_dh_C         PF02826.18 sp|Q9V1P1|G3P_PYRAB  -            0.00048   19.4   0.3       0.2   10.9   0.2   2.5   1   1   1   2   2   2   2 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Semialdhyde_dh       PF01118.23 sp|Q9V1P1|G3P_PYRAB  -              0.024   15.0   0.1      0.06   13.7   0.1   1.7   1   1   0   1   1   1   0 Semialdehyde dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q9V1P1|G3P_PYRAB  -               0.05   13.8   0.0      0.12   12.5   0.0   1.7   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+CoA_binding          PF02629.18 sp|Q9V1P1|G3P_PYRAB  -              0.068   13.8   0.3      0.21   12.2   0.2   2.0   1   1   1   2   2   2   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9V1P1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9V1P1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9V1P1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:34:48 2019
+# [ok]

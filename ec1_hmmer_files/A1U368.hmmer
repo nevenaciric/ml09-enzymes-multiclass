@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A1U368|HEM1_MARHV -            3.9e-51  172.3   0.0   1.1e-50  170.9   0.0   1.8   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A1U368|HEM1_MARHV -            1.9e-46  157.5   0.0   3.5e-46  156.6   0.0   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A1U368|HEM1_MARHV -            7.9e-22   77.4   0.3   2.4e-21   75.9   0.3   1.9   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A1U368|HEM1_MARHV -            8.1e-05   23.0   0.6   0.00059   20.3   0.3   2.7   2   1   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|A1U368|HEM1_MARHV -             0.0052   17.1   0.0      0.01   16.1   0.0   1.5   1   0   0   1   1   1   1 Putative NAD(P)-binding
+Sacchrp_dh_NADP      PF03435.17 sp|A1U368|HEM1_MARHV -              0.068   13.3   0.1      0.17   12.1   0.1   1.7   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1U368.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1U368.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1U368.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:24:58 2019
+# [ok]

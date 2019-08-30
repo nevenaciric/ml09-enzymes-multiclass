@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Complex1_51K         PF01512.16 sp|Q54I90|NDUV1_DICDI -            2.8e-48  163.5   0.0   4.9e-48  162.7   0.0   1.4   1   0   0   1   1   1   1 Respiratory-chain NADH dehydrogenase 51 Kd subunit
+NADH_4Fe-4S          PF10589.8  sp|Q54I90|NDUV1_DICDI -            4.9e-30  103.4   0.0     1e-29  102.3   0.0   1.6   1   0   0   1   1   1   1 NADH-ubiquinone oxidoreductase-F iron-sulfur binding region
+SLBB                 PF10531.8  sp|Q54I90|NDUV1_DICDI -            2.8e-08   33.4   0.0   6.8e-08   32.2   0.0   1.7   1   0   0   1   1   1   1 SLBB domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q54I90.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q54I90.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q54I90.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:37:46 2019
+# [ok]

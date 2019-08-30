@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GSHPx                PF00255.18 sp|Q8SSH7|GPX_ENCCU  -            3.6e-26   90.8   0.0   4.7e-26   90.4   0.0   1.1   1   0   0   1   1   1   1 Glutathione peroxidase
+AhpC-TSA             PF00578.20 sp|Q8SSH7|GPX_ENCCU  -             0.0048   16.7   0.0     0.016   15.0   0.0   1.7   2   0   0   2   2   2   1 AhpC/TSA family
+Uroplakin_II         PF07353.11 sp|Q8SSH7|GPX_ENCCU  -               0.13   11.6   0.0      0.18   11.2   0.0   1.1   1   0   0   1   1   1   0 Uroplakin II
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8SSH7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8SSH7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8SSH7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:15:52 2019
+# [ok]

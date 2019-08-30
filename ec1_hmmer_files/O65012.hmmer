@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|O65012|C78A4_PINRA -            2.2e-84  283.8   0.0   2.7e-84  283.5   0.0   1.0   1   0   0   1   1   1   1 Cytochrome P450
+LapA_dom             PF06305.10 sp|O65012|C78A4_PINRA -               0.16   11.7   0.2      0.71    9.6   0.3   2.0   2   0   0   2   2   2   0 Lipopolysaccharide assembly protein A domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O65012.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O65012.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O65012.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:25:43 2019
+# [ok]

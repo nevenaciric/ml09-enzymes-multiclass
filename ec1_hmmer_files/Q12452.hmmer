@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q12452|ERG27_YEAST -            5.2e-12   45.5   0.0   3.8e-11   42.7   0.0   2.3   1   1   0   1   1   1   1 short chain dehydrogenase
+Peptidase_C47        PF05543.12 sp|Q12452|ERG27_YEAST -              0.088   12.2   0.0      0.27   10.6   0.0   1.7   2   0   0   2   2   2   0 Staphopain peptidase C47
+adh_short_C2         PF13561.5  sp|Q12452|ERG27_YEAST -               0.13   11.7   0.0       1.4    8.3   0.0   2.2   2   0   0   2   2   2   0 Enoyl-(Acyl carrier protein) reductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q12452.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q12452.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q12452.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:11:29 2019
+# [ok]

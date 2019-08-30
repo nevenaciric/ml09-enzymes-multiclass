@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P28845|DHI1_HUMAN -            1.9e-53  180.8   4.2   2.4e-53  180.4   4.2   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P28845|DHI1_HUMAN -            1.8e-24   86.5   2.7   2.1e-24   86.3   2.7   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P28845|DHI1_HUMAN -              8e-09   35.6   3.3   9.1e-09   35.4   2.3   1.5   1   1   1   2   2   2   1 KR domain
+THF_DHG_CYH_C        PF02882.18 sp|P28845|DHI1_HUMAN -            0.00048   19.4   0.1   0.00086   18.5   0.1   1.4   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+DUF1776              PF08643.9  sp|P28845|DHI1_HUMAN -            0.00064   19.1   0.1    0.0052   16.1   0.0   1.9   2   0   0   2   2   2   1 Fungal family of unknown function (DUF1776)
+Pyr_redox_3          PF13738.5  sp|P28845|DHI1_HUMAN -              0.015   14.5   0.0     0.021   14.0   0.0   1.2   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+Shikimate_DH         PF01488.19 sp|P28845|DHI1_HUMAN -              0.015   15.2   0.1     0.025   14.5   0.1   1.3   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|P28845|DHI1_HUMAN -              0.019   14.2   0.1     0.031   13.6   0.1   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Pyr_redox_2          PF07992.13 sp|P28845|DHI1_HUMAN -              0.019   14.1   0.0      0.03   13.5   0.0   1.2   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+NAD_binding_2        PF03446.14 sp|P28845|DHI1_HUMAN -               0.02   15.0   0.1     0.036   14.1   0.1   1.4   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+Epimerase            PF01370.20 sp|P28845|DHI1_HUMAN -              0.083   12.2   0.2       2.5    7.4   0.1   2.1   2   0   0   2   2   2   0 NAD dependent epimerase/dehydratase family
+ApbA                 PF02558.15 sp|P28845|DHI1_HUMAN -                0.1   12.2   0.1      0.15   11.6   0.1   1.4   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+SIS                  PF01380.21 sp|P28845|DHI1_HUMAN -               0.12   12.1   2.0       1.3    8.8   0.1   2.9   2   1   0   3   3   3   0 SIS domain
+AdoHcyase_NAD        PF00670.20 sp|P28845|DHI1_HUMAN -               0.21   11.6   2.3      0.41   10.6   1.8   1.8   2   1   0   2   2   2   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P28845.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P28845.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P28845.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:41:55 2019
+# [ok]

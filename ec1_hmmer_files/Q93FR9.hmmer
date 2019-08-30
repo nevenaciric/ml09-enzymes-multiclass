@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q93FR9|GPDA_EHRRU -            6.6e-45  152.8   0.1   2.9e-44  150.7   0.0   1.9   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q93FR9|GPDA_EHRRU -            8.2e-41  139.5   1.1   1.7e-40  138.4   1.1   1.6   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+ApbA                 PF02558.15 sp|Q93FR9|GPDA_EHRRU -            5.4e-08   32.5   0.0   8.6e-08   31.9   0.0   1.3   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q93FR9|GPDA_EHRRU -            3.5e-05   24.2   0.1   0.00016   22.1   0.0   2.1   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|Q93FR9|GPDA_EHRRU -             0.0035   17.2   0.0    0.0062   16.4   0.0   1.4   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|Q93FR9|GPDA_EHRRU -             0.0039   17.3   0.0    0.0061   16.6   0.0   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_binding_8        PF13450.5  sp|Q93FR9|GPDA_EHRRU -             0.0091   16.1   0.0     0.017   15.3   0.0   1.5   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q93FR9|GPDA_EHRRU -              0.016   14.7   0.0     0.033   13.7   0.0   1.6   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+ApbA_C               PF08546.10 sp|Q93FR9|GPDA_EHRRU -              0.022   14.9   0.1     0.072   13.2   0.1   2.0   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA C terminal
+Sacchrp_dh_NADP      PF03435.17 sp|Q93FR9|GPDA_EHRRU -              0.073   13.2   0.0      0.71   10.0   0.0   2.2   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q93FR9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q93FR9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q93FR9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:21:01 2019
+# [ok]

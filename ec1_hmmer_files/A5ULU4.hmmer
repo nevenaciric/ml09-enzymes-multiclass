@@ -1,0 +1,31 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Shikimate_DH         PF01488.19 sp|A5ULU4|HEM1_METS3 -            9.8e-39  132.5   0.1   9.8e-39  132.5   0.1   2.6   3   0   0   3   3   3   1 Shikimate / quinate 5-dehydrogenase
+GlutR_N              PF05201.14 sp|A5ULU4|HEM1_METS3 -            4.8e-32  110.5   0.2     1e-31  109.4   0.2   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+GlutR_dimer          PF00745.19 sp|A5ULU4|HEM1_METS3 -              2e-17   63.3   4.7   5.3e-17   61.9   4.7   1.8   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A5ULU4|HEM1_METS3 -            2.1e-05   24.9   0.1   6.7e-05   23.3   0.1   1.9   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|A5ULU4|HEM1_METS3 -            5.4e-05   22.5   0.1   0.00014   21.2   0.1   1.7   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Glu_dehyd_C          PF16912.4  sp|A5ULU4|HEM1_METS3 -            6.7e-05   22.4   0.1   0.00018   21.0   0.1   1.6   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+THF_DHG_CYH_C        PF02882.18 sp|A5ULU4|HEM1_METS3 -            0.00011   21.5   0.6    0.0035   16.6   0.2   3.0   2   1   0   2   2   2   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+NAD_binding_7        PF13241.5  sp|A5ULU4|HEM1_METS3 -            0.00072   19.9   0.4    0.0028   18.0   0.0   2.1   2   0   0   2   2   2   1 Putative NAD(P)-binding
+DapB_N               PF01113.19 sp|A5ULU4|HEM1_METS3 -             0.0012   18.9   0.1    0.0045   17.0   0.0   2.1   2   0   0   2   2   2   1 Dihydrodipicolinate reductase, N-terminus
+OCD_Mu_crystall      PF02423.14 sp|A5ULU4|HEM1_METS3 -             0.0015   17.4   0.5    0.0025   16.7   0.0   1.5   2   0   0   2   2   2   1 Ornithine cyclodeaminase/mu-crystallin family
+NAD_binding_2        PF03446.14 sp|A5ULU4|HEM1_METS3 -             0.0015   18.6   0.1    0.0065   16.6   0.1   2.1   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|A5ULU4|HEM1_METS3 -             0.0092   16.1   0.1     0.036   14.2   0.1   2.1   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+IlvN                 PF07991.11 sp|A5ULU4|HEM1_METS3 -              0.013   15.0   0.4     0.039   13.4   0.1   1.9   2   0   0   2   2   2   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+DFP                  PF04127.14 sp|A5ULU4|HEM1_METS3 -              0.014   15.1   0.3      0.04   13.7   0.0   1.9   2   0   0   2   2   2   0 DNA / pantothenate metabolism flavoprotein
+ApbA                 PF02558.15 sp|A5ULU4|HEM1_METS3 -              0.024   14.2   0.1     0.047   13.2   0.1   1.6   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+ThiF                 PF00899.20 sp|A5ULU4|HEM1_METS3 -              0.029   13.7   0.2     0.055   12.7   0.2   1.4   1   0   0   1   1   1   0 ThiF family
+3HCDH_N              PF02737.17 sp|A5ULU4|HEM1_METS3 -               0.24   11.1   0.1      0.24   11.1   0.1   3.0   2   1   1   3   3   3   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Sec5                 PF15469.5  sp|A5ULU4|HEM1_METS3 -                1.9    8.1   9.9      0.46   10.2   4.5   2.4   2   1   0   2   2   2   0 Exocyst complex component Sec5
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A5ULU4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A5ULU4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A5ULU4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:35:01 2019
+# [ok]

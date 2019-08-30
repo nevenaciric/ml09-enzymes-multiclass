@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Heme_oxygenase       PF01126.19 sp|P43242|HMOX2_RABIT -            1.4e-82  276.4   8.0   1.8e-82  276.0   8.0   1.1   1   0   0   1   1   1   1 Heme oxygenase
+DUF4230              PF14014.5  sp|P43242|HMOX2_RABIT -               0.58   10.3   2.6       1.7    8.8   0.1   2.2   2   0   0   2   2   2   0 Protein of unknown function (DUF4230)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P43242.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P43242.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P43242.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:46:59 2019
+# [ok]

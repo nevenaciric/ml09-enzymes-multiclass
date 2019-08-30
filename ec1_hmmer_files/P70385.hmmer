@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P70385|DHB3_MOUSE -            4.9e-47  159.8   0.0   6.2e-47  159.5   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P70385|DHB3_MOUSE -            1.1e-27   97.0   0.0   1.4e-27   96.6   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P70385|DHB3_MOUSE -            0.00032   20.5   0.1   0.00088   19.1   0.1   1.7   1   1   0   1   1   1   1 KR domain
+Sacchrp_dh_NADP      PF03435.17 sp|P70385|DHB3_MOUSE -             0.0012   19.0   0.0    0.0026   17.9   0.0   1.5   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+Shikimate_DH         PF01488.19 sp|P70385|DHB3_MOUSE -              0.036   14.0   0.1      0.12   12.4   0.0   1.8   2   0   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+ApbA                 PF02558.15 sp|P70385|DHB3_MOUSE -              0.039   13.5   0.1     0.081   12.5   0.1   1.5   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|P70385|DHB3_MOUSE -              0.055   14.0   0.1      0.12   12.9   0.1   1.5   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+DUF2866              PF11065.7  sp|P70385|DHB3_MOUSE -               0.17   11.9   0.1         1    9.4   0.0   2.2   3   0   0   3   3   3   0 Protein of unknown function (DUF2866)
+ComFB                PF10719.8  sp|P70385|DHB3_MOUSE -               0.17   11.9   0.1      0.45   10.5   0.0   1.7   2   0   0   2   2   2   0 Late competence development protein ComFB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P70385.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P70385.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P70385.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:55:31 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Malic_M              PF03949.14 sp|Q8L7K9|MAO2_ARATH -            1.1e-91  306.6   2.0   1.4e-91  306.3   2.0   1.1   1   0   0   1   1   1   1 Malic enzyme, NAD binding domain
+malic                PF00390.18 sp|Q8L7K9|MAO2_ARATH -            4.5e-75  251.3   0.2   1.1e-74  250.1   0.0   1.7   2   0   0   2   2   2   1 Malic enzyme, N-terminal domain
+Pyr_redox_2          PF07992.13 sp|Q8L7K9|MAO2_ARATH -              0.015   14.5   0.4     0.027   13.6   0.4   1.4   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8L7K9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8L7K9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8L7K9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:13:26 2019
+# [ok]

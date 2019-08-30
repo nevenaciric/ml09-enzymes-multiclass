@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|Q3BW40|ISPH_XANC5 -            1.1e-91  306.7   0.0   1.3e-91  306.5   0.0   1.0   1   0   0   1   1   1   1 LytB protein
+TPP_enzyme_M         PF00205.21 sp|Q3BW40|ISPH_XANC5 -               0.03   14.0   0.0      0.59    9.8   0.0   2.6   3   0   0   3   3   3   0 Thiamine pyrophosphate enzyme, central domain
+DUF1363              PF07101.10 sp|Q3BW40|ISPH_XANC5 -              0.036   14.3   0.0      0.23   11.7   0.0   1.9   2   0   0   2   2   2   0 Protein of unknown function (DUF1363)
+DUF3658              PF12395.7  sp|Q3BW40|ISPH_XANC5 -              0.069   12.9   0.0      0.12   12.1   0.0   1.4   1   0   0   1   1   1   0 Protein of unknown function
+SIS                  PF01380.21 sp|Q3BW40|ISPH_XANC5 -               0.12   12.1   0.0      0.45   10.3   0.0   1.8   2   0   0   2   2   2   0 SIS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3BW40.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3BW40.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3BW40.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:27:24 2019
+# [ok]

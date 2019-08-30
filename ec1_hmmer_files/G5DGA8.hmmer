@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|G5DGA8|IDLDH_IPSPI -            9.6e-41  139.3   0.0   1.2e-40  138.9   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|G5DGA8|IDLDH_IPSPI -            3.8e-31  108.4   0.0   5.1e-31  107.9   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|G5DGA8|IDLDH_IPSPI -            5.7e-12   45.8   0.9   1.7e-11   44.3   0.1   2.0   2   1   0   2   2   2   1 KR domain
+Epimerase            PF01370.20 sp|G5DGA8|IDLDH_IPSPI -            1.5e-06   27.7   0.1   2.9e-06   26.8   0.1   1.5   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+NAD_binding_10       PF13460.5  sp|G5DGA8|IDLDH_IPSPI -              8e-05   22.5   0.0   0.00011   22.1   0.0   1.3   1   0   0   1   1   1   1 NAD(P)H-binding
+NAD_binding_7        PF13241.5  sp|G5DGA8|IDLDH_IPSPI -              0.009   16.3   0.0     0.014   15.7   0.0   1.4   1   0   0   1   1   1   1 Putative NAD(P)-binding
+Polysacc_synt_2      PF02719.14 sp|G5DGA8|IDLDH_IPSPI -              0.047   12.7   0.1      0.16   11.0   0.1   1.9   1   1   0   1   1   1   0 Polysaccharide biosynthesis protein
+3Beta_HSD            PF01073.18 sp|G5DGA8|IDLDH_IPSPI -               0.15   10.9   0.1      0.21   10.4   0.1   1.2   1   0   0   1   1   1   0 3-beta hydroxysteroid dehydrogenase/isomerase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/G5DGA8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/G5DGA8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/G5DGA8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:19:07 2019
+# [ok]

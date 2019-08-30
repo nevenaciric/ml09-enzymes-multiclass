@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_zinc_N           PF00107.25 sp|P00326|ADH1G_HUMAN -            7.6e-28   96.9   0.1   1.3e-27   96.1   0.1   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_N                PF08240.11 sp|P00326|ADH1G_HUMAN -              7e-27   93.4   1.5   1.1e-26   92.7   0.9   1.7   2   0   0   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+Glu_dehyd_C          PF16912.4  sp|P00326|ADH1G_HUMAN -            0.00023   20.6   0.0   0.00036   20.0   0.0   1.3   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N_2         PF13602.5  sp|P00326|ADH1G_HUMAN -            0.00071   20.5   0.0    0.0013   19.7   0.0   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+UDPG_MGDP_dh_N       PF03721.13 sp|P00326|ADH1G_HUMAN -             0.0014   18.2   0.1    0.0027   17.2   0.1   1.5   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|P00326|ADH1G_HUMAN -              0.026   13.8   0.1     0.043   13.1   0.1   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|P00326|ADH1G_HUMAN -              0.062   13.5   0.0      0.11   12.7   0.0   1.5   1   0   0   1   1   1   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P00326.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P00326.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P00326.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:28:34 2019
+# [ok]

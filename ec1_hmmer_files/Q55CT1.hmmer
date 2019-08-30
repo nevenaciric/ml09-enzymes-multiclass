@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_1        PF00667.19 sp|Q55CT1|NCPR_DICDI -              4e-57  193.2   0.0   7.1e-57  192.4   0.0   1.4   1   0   0   1   1   1   1 FAD binding domain
+Flavodoxin_1         PF00258.24 sp|Q55CT1|NCPR_DICDI -            2.3e-32  112.1   0.0   4.8e-32  111.0   0.0   1.6   1   0   0   1   1   1   1 Flavodoxin
+NAD_binding_1        PF00175.20 sp|Q55CT1|NCPR_DICDI -              4e-18   65.9   0.2   2.9e-17   63.2   0.0   2.4   3   0   0   3   3   3   1 Oxidoreductase NAD-binding domain
+TMEM171              PF15471.5  sp|Q55CT1|NCPR_DICDI -             0.0082   15.1   0.1     0.015   14.2   0.1   1.3   1   0   0   1   1   1   1 Transmembrane protein family 171
+DUF2786              PF10979.7  sp|Q55CT1|NCPR_DICDI -               0.12   12.2   0.7      0.26   11.2   0.7   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF2786)
+THF_DHG_CYH          PF00763.22 sp|Q55CT1|NCPR_DICDI -               0.13   12.4   0.9      0.62   10.3   0.3   2.4   2   0   0   2   2   2   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q55CT1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q55CT1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q55CT1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:38:31 2019
+# [ok]

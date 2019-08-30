@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ribonuc_red_sm       PF00268.20 sp|Q1B465|RIR2H_MYCSS -            6.7e-16   58.5   0.0   9.4e-16   58.0   0.0   1.1   1   0   0   1   1   1   1 Ribonucleotide reductase, small chain
+Haem_oxygenas_2      PF14518.5  sp|Q1B465|RIR2H_MYCSS -               0.06   13.0   0.1      0.27   10.9   0.1   2.1   1   1   1   2   2   2   0 Iron-containing redox enzyme
+Ferritin             PF00210.23 sp|Q1B465|RIR2H_MYCSS -               0.11   12.3   0.1       4.3    7.2   0.0   2.2   2   0   0   2   2   2   0 Ferritin-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q1B465.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q1B465.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q1B465.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:13:35 2019
+# [ok]

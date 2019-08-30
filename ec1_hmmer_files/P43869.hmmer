@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+P5CR_dimer           PF14748.5  sp|P43869|P5CR_HAEIN -            1.2e-33  115.3   4.8   2.9e-33  114.1   4.8   1.7   1   0   0   1   1   1   1 Pyrroline-5-carboxylate reductase dimerisation
+F420_oxidored        PF03807.16 sp|P43869|P5CR_HAEIN -            3.7e-22   78.6   0.8   7.3e-22   77.7   0.3   1.8   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_Gly3P_dh_N       PF01210.22 sp|P43869|P5CR_HAEIN -              0.005   16.7   0.9     0.024   14.5   0.9   2.2   1   1   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_binding_2        PF03446.14 sp|P43869|P5CR_HAEIN -              0.056   13.5   1.9     0.099   12.7   0.1   2.1   2   1   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P43869.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P43869.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P43869.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:47:17 2019
+# [ok]

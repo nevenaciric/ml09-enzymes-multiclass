@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMC_oxred_N          PF00732.18 sp|A4TNP2|BETA_YERPP -            2.7e-98  328.9   0.0   4.1e-98  328.3   0.0   1.3   1   0   0   1   1   1   1 GMC oxidoreductase
+GMC_oxred_C          PF05199.12 sp|A4TNP2|BETA_YERPP -            1.1e-40  139.4   0.0   1.7e-40  138.7   0.0   1.3   1   0   0   1   1   1   1 GMC oxidoreductase
+Lycopene_cycl        PF05834.11 sp|A4TNP2|BETA_YERPP -             0.0029   16.6   0.1    0.0041   16.1   0.1   1.2   1   0   0   1   1   1   1 Lycopene cyclase protein
+NAD_binding_8        PF13450.5  sp|A4TNP2|BETA_YERPP -             0.0037   17.4   0.2    0.0093   16.1   0.2   1.7   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+FAD_binding_2        PF00890.23 sp|A4TNP2|BETA_YERPP -              0.014   14.4   0.5      0.39    9.6   0.1   2.2   2   0   0   2   2   2   0 FAD binding domain
+Pyr_redox_2          PF07992.13 sp|A4TNP2|BETA_YERPP -              0.053   12.7   0.0     0.099   11.8   0.0   1.4   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+DAO                  PF01266.23 sp|A4TNP2|BETA_YERPP -              0.068   12.6   1.1      0.76    9.2   0.3   2.2   2   0   0   2   2   2   0 FAD dependent oxidoreductase
+Thi4                 PF01946.16 sp|A4TNP2|BETA_YERPP -              0.068   12.3   0.2      0.12   11.5   0.2   1.4   1   0   0   1   1   1   0 Thi4 family
+ApbA                 PF02558.15 sp|A4TNP2|BETA_YERPP -               0.12   11.9   0.1      0.22   11.1   0.1   1.4   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+HI0933_like          PF03486.13 sp|A4TNP2|BETA_YERPP -                0.2   10.2   0.1      0.32    9.5   0.1   1.3   1   0   0   1   1   1   0 HI0933-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4TNP2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4TNP2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4TNP2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:31:16 2019
+# [ok]

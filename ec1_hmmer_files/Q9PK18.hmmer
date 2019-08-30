@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q9PK18|MDH_CHLMU  -            9.2e-29  100.2   0.0   1.2e-28   99.8   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q9PK18|MDH_CHLMU  -            2.9e-27   95.5   0.0   4.5e-27   94.9   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Epimerase_2          PF02350.18 sp|Q9PK18|MDH_CHLMU  -                0.1   11.3   0.1      0.15   10.8   0.1   1.2   1   0   0   1   1   1   0 UDP-N-acetylglucosamine 2-epimerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9PK18.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9PK18.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9PK18.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:31:45 2019
+# [ok]

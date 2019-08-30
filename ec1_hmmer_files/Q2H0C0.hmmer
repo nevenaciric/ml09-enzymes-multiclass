@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HEAT_2               PF13646.5  sp|Q2H0C0|DOHH_CHAGB -            7.7e-26   90.2   5.6   7.9e-13   48.5   0.4   3.7   2   2   2   4   4   4   2 HEAT repeats
+HEAT_PBS             PF03130.15 sp|Q2H0C0|DOHH_CHAGB -            3.9e-19   67.2   7.0    0.0058   17.1   0.0   6.5   6   0   0   6   6   6   5 PBS lyase HEAT-like repeat
+HEAT                 PF02985.21 sp|Q2H0C0|DOHH_CHAGB -            3.8e-07   29.7   4.3       1.2    9.4   0.0   6.1   7   0   0   7   7   7   2 HEAT repeat
+HEAT_EZ              PF13513.5  sp|Q2H0C0|DOHH_CHAGB -            1.9e-06   28.1   9.2     0.077   13.4   0.0   5.2   3   2   3   6   6   6   3 HEAT-like repeat
+Cohesin_HEAT         PF12765.6  sp|Q2H0C0|DOHH_CHAGB -               0.12   12.5   0.2      0.73   10.0   0.0   2.4   3   0   0   3   3   3   0 HEAT repeat associated with sister chromatid cohesion
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2H0C0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2H0C0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2H0C0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:20:10 2019
+# [ok]

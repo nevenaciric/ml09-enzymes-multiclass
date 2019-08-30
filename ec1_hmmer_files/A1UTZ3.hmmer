@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|A1UTZ3|GPDA_BARBK -            1.8e-42  144.8   1.2   3.5e-42  144.0   0.4   1.8   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|A1UTZ3|GPDA_BARBK -            6.7e-24   84.6   0.4   1.9e-23   83.1   0.4   1.7   1   1   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+F420_oxidored        PF03807.16 sp|A1UTZ3|GPDA_BARBK -             0.0049   17.3   0.2     0.014   15.8   0.1   1.9   1   1   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+DapB_N               PF01113.19 sp|A1UTZ3|GPDA_BARBK -              0.016   15.2   0.0      0.03   14.4   0.0   1.4   1   0   0   1   1   1   0 Dihydrodipicolinate reductase, N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1UTZ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1UTZ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1UTZ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:25:11 2019
+# [ok]

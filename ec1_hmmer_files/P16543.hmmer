@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|P16543|DHK2_STRVN -            1.5e-55  188.2   1.0   1.9e-55  187.9   1.0   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|P16543|DHK2_STRVN -            1.4e-46  158.4   0.1   1.7e-46  158.0   0.1   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|P16543|DHK2_STRVN -            6.4e-10   39.1   0.5     9e-10   38.6   0.5   1.2   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|P16543|DHK2_STRVN -            0.00038   19.9   0.1   0.00087   18.7   0.1   1.6   2   0   0   2   2   2   1 NAD dependent epimerase/dehydratase family
+2-Hacid_dh_C         PF02826.18 sp|P16543|DHK2_STRVN -               0.12   11.6   0.1      0.23   10.7   0.1   1.4   1   1   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+LytR_C               PF13399.5  sp|P16543|DHK2_STRVN -               0.13   13.2   2.9      0.59   11.1   0.9   2.4   2   1   0   2   2   2   0 LytR cell envelope-related transcriptional attenuator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P16543.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P16543.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P16543.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:37:25 2019
+# [ok]

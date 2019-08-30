@@ -1,0 +1,24 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name               accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------     -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMC_oxred_N          PF00732.18 sp|A0A161CEV4|CITC_MONRU -            1.3e-54  185.5   0.0   1.9e-54  185.0   0.0   1.3   1   0   0   1   1   1   1 GMC oxidoreductase
+GMC_oxred_C          PF05199.12 sp|A0A161CEV4|CITC_MONRU -              3e-35  121.8   0.6   5.7e-35  120.8   0.6   1.5   1   0   0   1   1   1   1 GMC oxidoreductase
+Lycopene_cycl        PF05834.11 sp|A0A161CEV4|CITC_MONRU -            2.9e-05   23.2   0.4   2.9e-05   23.2   0.4   1.6   2   0   0   2   2   2   1 Lycopene cyclase protein
+NAD_binding_8        PF13450.5  sp|A0A161CEV4|CITC_MONRU -            0.00025   21.1   2.3   0.00039   20.5   1.1   2.0   2   0   0   2   2   2   1 NAD(P)-binding Rossmann-like domain
+FAD_binding_2        PF00890.23 sp|A0A161CEV4|CITC_MONRU -            0.00084   18.4   2.0     0.012   14.7   1.0   2.3   2   0   0   2   2   2   1 FAD binding domain
+Thi4                 PF01946.16 sp|A0A161CEV4|CITC_MONRU -             0.0013   17.9   0.1    0.0031   16.7   0.1   1.5   1   0   0   1   1   1   1 Thi4 family
+FAD_binding_3        PF01494.18 sp|A0A161CEV4|CITC_MONRU -             0.0032   16.7   0.3    0.0065   15.7   0.3   1.4   1   0   0   1   1   1   1 FAD binding domain
+DAO                  PF01266.23 sp|A0A161CEV4|CITC_MONRU -             0.0055   16.2   2.0     0.023   14.2   2.0   2.0   1   1   0   1   1   1   1 FAD dependent oxidoreductase
+Pyr_redox_2          PF07992.13 sp|A0A161CEV4|CITC_MONRU -              0.062   12.4   0.1      0.12   11.6   0.1   1.4   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+HI0933_like          PF03486.13 sp|A0A161CEV4|CITC_MONRU -              0.071   11.7   0.1      0.12   11.0   0.1   1.3   1   0   0   1   1   1   0 HI0933-like protein
+Pyr_redox_3          PF13738.5  sp|A0A161CEV4|CITC_MONRU -               0.17   11.0   1.0       2.6    7.1   1.7   2.1   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A0A161CEV4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A0A161CEV4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A0A161CEV4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:19:48 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MurB_C               PF02873.15 sp|A7Z4E6|MURB_BACVZ -            3.6e-29  100.9   0.0   6.8e-29  100.0   0.0   1.5   1   0   0   1   1   1   1 UDP-N-acetylenolpyruvoylglucosamine reductase, C-terminal domain
+FAD_binding_4        PF01565.22 sp|A7Z4E6|MURB_BACVZ -            6.3e-25   87.4   0.4   6.3e-25   87.4   0.4   1.6   2   0   0   2   2   2   1 FAD binding domain
+YqzH                 PF14164.5  sp|A7Z4E6|MURB_BACVZ -                1.2    9.2   3.9      0.84    9.6   0.5   2.2   2   0   0   2   2   2   0 YqzH-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7Z4E6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7Z4E6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7Z4E6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:40:24 2019
+# [ok]

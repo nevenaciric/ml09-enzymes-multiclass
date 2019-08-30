@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P00335|RIDH_KLEAE -            1.9e-56  190.5   0.0   2.5e-56  190.1   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P00335|RIDH_KLEAE -            8.9e-41  139.9   0.1   1.1e-40  139.6   0.1   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P00335|RIDH_KLEAE -            2.4e-08   34.0   0.2   3.5e-08   33.5   0.2   1.2   1   0   0   1   1   1   1 KR domain
+2-Hacid_dh_C         PF02826.18 sp|P00335|RIDH_KLEAE -              0.014   14.7   0.1     0.022   14.0   0.1   1.2   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Epimerase            PF01370.20 sp|P00335|RIDH_KLEAE -              0.016   14.6   0.0     0.054   12.9   0.0   1.8   2   0   0   2   2   2   0 NAD dependent epimerase/dehydratase family
+Pyr_redox            PF00070.26 sp|P00335|RIDH_KLEAE -              0.034   14.6   0.1     0.068   13.6   0.1   1.5   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+3HCDH_N              PF02737.17 sp|P00335|RIDH_KLEAE -              0.038   13.8   0.1     0.059   13.2   0.1   1.2   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Ribosomal_L18p       PF00861.21 sp|P00335|RIDH_KLEAE -               0.15   12.3   0.0      0.38   11.0   0.0   1.6   1   0   0   1   1   1   0 Ribosomal L18 of archaea, bacteria, mitoch. and chloroplast
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P00335.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P00335.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P00335.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:28:37 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-Hacid_dh_C         PF02826.18 sp|P30901|LDHD_LACHE -            3.4e-50  169.8   0.0   5.9e-50  169.0   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+2-Hacid_dh           PF00389.29 sp|P30901|LDHD_LACHE -            1.4e-32  112.0   0.1   2.1e-32  111.5   0.1   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain
+NAD_binding_2        PF03446.14 sp|P30901|LDHD_LACHE -            1.1e-05   25.6   0.1   2.3e-05   24.5   0.1   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+IlvN                 PF07991.11 sp|P30901|LDHD_LACHE -            0.00018   21.0   0.4   0.00043   19.8   0.2   1.7   2   0   0   2   2   2   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+AdoHcyase_NAD        PF00670.20 sp|P30901|LDHD_LACHE -            0.00071   19.6   0.3    0.0017   18.4   0.3   1.6   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|P30901|LDHD_LACHE -              0.017   14.6   1.4     0.033   13.7   0.2   2.1   2   0   0   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+AlaDh_PNT_C          PF01262.20 sp|P30901|LDHD_LACHE -              0.047   12.9   3.9       0.4    9.8   3.8   2.3   1   1   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+DNA_pol_viral_N      PF00242.16 sp|P30901|LDHD_LACHE -              0.071   12.2   0.0      0.11   11.5   0.0   1.2   1   0   0   1   1   1   0 DNA polymerase (viral) N-terminal domain
+3HCDH_N              PF02737.17 sp|P30901|LDHD_LACHE -               0.12   12.1   0.0      0.23   11.2   0.0   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Semialdhyde_dh       PF01118.23 sp|P30901|LDHD_LACHE -               0.26   11.6   1.7       1.2    9.4   0.4   2.4   2   1   0   2   2   2   0 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P30901.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P30901.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P30901.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:42:43 2019
+# [ok]

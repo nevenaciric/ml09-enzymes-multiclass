@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|Q3A3D3|ISPH_PELCD -            4.5e-92  308.0   3.2     5e-92  307.8   3.2   1.0   1   0   0   1   1   1   1 LytB protein
+CbiJ                 PF02571.13 sp|Q3A3D3|ISPH_PELCD -              0.026   13.9   0.0     0.038   13.3   0.0   1.3   1   0   0   1   1   1   0 Precorrin-6x reductase CbiJ/CobK
+CoA_binding_2        PF13380.5  sp|Q3A3D3|ISPH_PELCD -              0.067   13.6   0.2       8.7    6.8   0.0   3.0   1   1   1   2   2   2   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3A3D3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3A3D3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3A3D3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:26:31 2019
+# [ok]

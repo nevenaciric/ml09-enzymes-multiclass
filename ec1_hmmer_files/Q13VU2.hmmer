@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|Q13VU2|ACDH2_PARXL -            1.6e-63  212.9   0.8   3.1e-63  212.0   0.8   1.5   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|Q13VU2|ACDH2_PARXL -            1.1e-10   41.8   0.0   2.3e-10   40.8   0.0   1.5   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|Q13VU2|ACDH2_PARXL -             0.0017   19.1   0.0    0.0032   18.2   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+F420_oxidored        PF03807.16 sp|Q13VU2|ACDH2_PARXL -               0.09   13.3   1.0      0.16   12.5   0.2   1.9   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q13VU2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q13VU2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q13VU2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:12:25 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_reductoisom      PF02670.15 sp|B5F9X0|DXR_ALIFM  -            4.8e-46  156.5   1.8   9.7e-46  155.6   1.8   1.5   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXPR_C               PF13288.5  sp|B5F9X0|DXR_ALIFM  -              2e-38  131.1   0.0   3.5e-38  130.3   0.0   1.4   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+DXP_redisom_C        PF08436.11 sp|B5F9X0|DXR_ALIFM  -              3e-37  126.7   0.0   7.9e-37  125.3   0.0   1.8   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+Semialdhyde_dh       PF01118.23 sp|B5F9X0|DXR_ALIFM  -              0.063   13.6   0.1      0.22   11.9   0.0   2.1   2   0   0   2   2   2   0 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B5F9X0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B5F9X0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B5F9X0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:59:58 2019
+# [ok]

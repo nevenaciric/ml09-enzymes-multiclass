@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX1                 PF00115.19 sp|O21042|COX1_DICDI -           3.6e-138  460.9  59.6  3.6e-138  460.9  59.6   2.3   2   1   0   2   2   2   1 Cytochrome C and Quinol oxidase polypeptide I
+COX2                 PF00116.19 sp|O21042|COX1_DICDI -            1.5e-58  195.8   0.1     5e-58  194.1   0.1   2.0   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, periplasmic domain
+COX2_TM              PF02790.14 sp|O21042|COX1_DICDI -            2.3e-23   82.0   4.5   2.3e-23   82.0   4.5   4.5   3   1   0   3   3   3   1 Cytochrome C oxidase subunit II, transmembrane domain
+Cytochrome-c551      PF10643.8  sp|O21042|COX1_DICDI -             0.0083   15.6   3.5    0.0088   15.5   0.9   2.3   1   1   1   2   2   2   1 Photosystem P840 reaction-centre cytochrome c-551
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O21042.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O21042.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O21042.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:21:52 2019
+# [ok]

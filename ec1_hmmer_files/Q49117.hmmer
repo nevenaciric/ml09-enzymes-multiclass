@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q49117|Y182_METEA -            3.5e-63  213.2  12.7   3.9e-63  213.0  12.7   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q49117|Y182_METEA -            1.7e-52  177.6  11.6   2.3e-52  177.2  11.6   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q49117|Y182_METEA -            2.2e-13   50.4   5.8   3.3e-13   49.9   5.8   1.2   1   0   0   1   1   1   1 KR domain
+THF_DHG_CYH_C        PF02882.18 sp|Q49117|Y182_METEA -             0.0027   17.0   3.2    0.0054   16.0   3.2   1.6   1   1   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+DUF1776              PF08643.9  sp|Q49117|Y182_METEA -             0.0059   15.9   0.0    0.0082   15.4   0.0   1.1   1   0   0   1   1   1   1 Fungal family of unknown function (DUF1776)
+Epimerase            PF01370.20 sp|Q49117|Y182_METEA -              0.089   12.1   3.2      0.15   11.4   3.2   1.4   1   1   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q49117.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q49117.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q49117.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:32:55 2019
+# [ok]

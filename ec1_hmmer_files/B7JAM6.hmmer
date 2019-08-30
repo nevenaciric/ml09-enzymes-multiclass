@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NIR_SIR              PF01077.21 sp|B7JAM6|CYSI_ACIF2 -            2.1e-49  167.0   0.0   1.3e-46  157.9   0.0   2.5   2   0   0   2   2   2   2 Nitrite and sulphite reductase 4Fe-4S domain
+NIR_SIR_ferr         PF03460.16 sp|B7JAM6|CYSI_ACIF2 -            5.5e-32  109.3   0.0     9e-17   60.6   0.0   2.9   3   0   0   3   3   3   2 Nitrite/Sulfite reductase ferredoxin-like half domain
+Fer2_2               PF01799.19 sp|B7JAM6|CYSI_ACIF2 -              0.022   14.6   0.0     0.054   13.4   0.0   1.6   1   0   0   1   1   1   0 [2Fe-2S] binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B7JAM6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B7JAM6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B7JAM6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:03:59 2019
+# [ok]

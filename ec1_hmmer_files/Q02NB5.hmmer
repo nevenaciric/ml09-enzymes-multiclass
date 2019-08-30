@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Iso_dh               PF00180.19 sp|Q02NB5|IDH_PSEAB  -             8e-118  393.4   0.0  9.4e-118  393.2   0.0   1.0   1   0   0   1   1   1   1 Isocitrate/isopropylmalate dehydrogenase
+G-patch_2            PF12656.6  sp|Q02NB5|IDH_PSEAB  -             0.0058   16.6   1.7         6    6.9   0.0   4.1   4   0   0   4   4   4   2 G-patch domain
+tRNA_synt_1c_R1      PF04558.14 sp|Q02NB5|IDH_PSEAB  -               0.12   12.2   0.5      0.25   11.2   0.0   1.7   2   0   0   2   2   2   0 Glutaminyl-tRNA synthetase, non-specific RNA binding region part 1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q02NB5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q02NB5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q02NB5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:03:45 2019
+# [ok]

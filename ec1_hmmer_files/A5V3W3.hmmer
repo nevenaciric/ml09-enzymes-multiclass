@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|A5V3W3|ILVC_SPHWW -            1.8e-73  245.4   1.1   2.4e-73  245.0   1.1   1.1   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|A5V3W3|ILVC_SPHWW -            4.7e-67  224.6   0.0   6.2e-67  224.3   0.0   1.1   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+F420_oxidored        PF03807.16 sp|A5V3W3|ILVC_SPHWW -            5.5e-07   30.0   0.1   1.2e-06   28.9   0.1   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|A5V3W3|ILVC_SPHWW -            1.7e-06   27.4   0.0   2.8e-06   26.7   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+AdoHcyase_NAD        PF00670.20 sp|A5V3W3|ILVC_SPHWW -             0.0012   18.8   0.0    0.0022   18.0   0.0   1.4   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|A5V3W3|ILVC_SPHWW -             0.0019   18.9   0.6    0.0031   18.2   0.1   1.6   2   0   0   2   2   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+NAD_binding_2        PF03446.14 sp|A5V3W3|ILVC_SPHWW -             0.0022   18.1   0.0    0.0041   17.2   0.0   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Shikimate_DH         PF01488.19 sp|A5V3W3|ILVC_SPHWW -              0.018   15.0   0.0     0.031   14.3   0.0   1.4   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+Oxidored_nitro       PF00148.18 sp|A5V3W3|ILVC_SPHWW -              0.036   12.7   0.1     0.096   11.3   0.0   1.6   2   0   0   2   2   2   0 Nitrogenase component 1 type Oxidoreductase
+GARS_N               PF02844.14 sp|A5V3W3|ILVC_SPHWW -              0.086   13.5   0.1      0.41   11.4   0.0   2.0   2   0   0   2   2   2   0 Phosphoribosylglycinamide synthetase, N domain
+ThiF                 PF00899.20 sp|A5V3W3|ILVC_SPHWW -              0.097   11.9   0.0      0.18   11.0   0.0   1.4   1   0   0   1   1   1   0 ThiF family
+CoA_binding          PF02629.18 sp|A5V3W3|ILVC_SPHWW -               0.12   13.0   0.1      0.29   11.8   0.1   1.7   1   0   0   1   1   1   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A5V3W3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A5V3W3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A5V3W3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:35:06 2019
+# [ok]

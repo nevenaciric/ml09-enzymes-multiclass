@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|P93147|C81E1_GLYEC -            1.1e-93  314.4   0.0   1.4e-93  314.1   0.0   1.0   1   0   0   1   1   1   1 Cytochrome P450
+GA                   PF01468.16 sp|P93147|C81E1_GLYEC -               0.15   12.2   0.1      0.32   11.2   0.1   1.4   1   0   0   1   1   1   0 GA module
+Cauli_AT             PF03233.12 sp|P93147|C81E1_GLYEC -               0.22   11.3   1.3       1.1    9.1   0.3   2.4   2   1   0   2   2   2   0 Aphid transmission protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P93147.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P93147.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P93147.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:59:17 2019
+# [ok]

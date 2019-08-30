@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|Q8KN38|FOLD_SPHCR -            6.1e-60  201.1   1.3   7.8e-60  200.7   1.3   1.1   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|Q8KN38|FOLD_SPHCR -            1.1e-37  128.8   0.0   1.5e-37  128.3   0.0   1.2   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+adh_short            PF00106.24 sp|Q8KN38|FOLD_SPHCR -             0.0018   17.6   0.3    0.0051   16.2   0.5   1.6   2   0   0   2   2   2   1 short chain dehydrogenase
+Shikimate_DH         PF01488.19 sp|Q8KN38|FOLD_SPHCR -             0.0097   15.9   0.1     0.033   14.1   0.1   1.7   1   1   1   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+AdoHcyase_NAD        PF00670.20 sp|Q8KN38|FOLD_SPHCR -              0.077   13.0   1.0       2.4    8.1   1.0   2.2   1   1   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8KN38.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8KN38.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8KN38.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:13:17 2019
+# [ok]

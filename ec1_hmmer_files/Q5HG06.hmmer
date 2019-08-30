@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1_dh                PF00676.19 sp|Q5HG06|ODO1_STAAC -            1.2e-65  221.4   0.2   1.6e-65  220.9   0.2   1.2   1   0   0   1   1   1   1 Dehydrogenase E1 component
+Transket_pyr         PF02779.23 sp|Q5HG06|ODO1_STAAC -            2.6e-53  180.2   0.0   4.6e-53  179.4   0.0   1.4   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+OxoGdeHyase_C        PF16870.4  sp|Q5HG06|ODO1_STAAC -              5e-34  117.1   0.0   9.2e-34  116.2   0.0   1.5   1   0   0   1   1   1   1 2-oxoglutarate dehydrogenase C-terminal
+2-oxogl_dehyd_N      PF16078.4  sp|Q5HG06|ODO1_STAAC -            0.00022   20.7   0.0   0.00045   19.6   0.0   1.5   1   0   0   1   1   1   1 2-oxoglutarate dehydrogenase N-terminus
+T3SS_HrpK1           PF16937.4  sp|Q5HG06|ODO1_STAAC -              0.049   13.2   0.6      0.68    9.5   0.3   2.2   2   0   0   2   2   2   0 Type III secretion system translocator protein, HrpF
+DUF1542              PF07564.10 sp|Q5HG06|ODO1_STAAC -              0.068   13.2   0.2      0.22   11.5   0.2   1.8   1   0   0   1   1   1   0 Domain of Unknown Function (DUF1542)
+DUF1840              PF08895.10 sp|Q5HG06|ODO1_STAAC -               0.12   12.7   0.1      0.36   11.1   0.1   1.8   1   0   0   1   1   1   0 Domain of unknown function (DUF1840)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5HG06.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5HG06.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5HG06.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:42:13 2019
+# [ok]

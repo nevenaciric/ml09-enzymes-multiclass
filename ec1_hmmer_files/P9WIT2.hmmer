@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ALO                  PF04030.13 sp|P9WIT2|GULDH_MYCTO -            3.5e-85  285.9   0.2   4.1e-85  285.6   0.2   1.1   1   0   0   1   1   1   1 D-arabinono-1,4-lactone oxidase
+FAD_binding_4        PF01565.22 sp|P9WIT2|GULDH_MYCTO -            1.7e-30  105.5   1.4   2.8e-30  104.7   1.4   1.4   1   0   0   1   1   1   1 FAD binding domain
+SIS_2                PF13580.5  sp|P9WIT2|GULDH_MYCTO -              0.062   13.2   0.0      0.13   12.2   0.0   1.5   1   0   0   1   1   1   0 SIS domain
+Chol_subst-bind      PF09129.10 sp|P9WIT2|GULDH_MYCTO -                0.1   11.4   0.0       1.6    7.5   0.0   2.7   3   0   0   3   3   3   0 Cholesterol oxidase, substrate-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WIT2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WIT2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WIT2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:01:02 2019
+# [ok]

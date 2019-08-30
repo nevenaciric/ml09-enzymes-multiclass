@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_desaturase_2      PF03405.13 sp|E3PZS1|STAD1_OPHSP -           2.2e-133  444.1   0.0  2.4e-133  443.9   0.0   1.0   1   0   0   1   1   1   1 Fatty acid desaturase
+Rubrerythrin         PF02915.16 sp|E3PZS1|STAD1_OPHSP -             0.0015   18.8   0.1      0.24   11.7   0.2   2.5   2   0   0   2   2   2   2 Rubrerythrin
+Phenol_Hydrox        PF02332.17 sp|E3PZS1|STAD1_OPHSP -              0.062   12.7   0.1      0.47    9.9   0.1   2.3   3   0   0   3   3   3   0 Methane/Phenol/Toluene Hydroxylase
+CTD_bind             PF04818.12 sp|E3PZS1|STAD1_OPHSP -               0.16   12.8   0.0      0.56   11.0   0.0   1.9   2   0   0   2   2   2   0 RNA polymerase II-binding domain.
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/E3PZS1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/E3PZS1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/E3PZS1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:17:39 2019
+# [ok]

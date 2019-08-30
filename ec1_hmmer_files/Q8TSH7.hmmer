@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q8TSH7|MDH_METAC  -            2.7e-37  127.9   1.4   4.2e-37  127.3   1.4   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q8TSH7|MDH_METAC  -              1e-26   93.7   0.0   1.8e-26   93.0   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|Q8TSH7|MDH_METAC  -            1.6e-05   24.5   2.2   5.5e-05   22.7   0.1   2.3   1   1   1   2   2   2   1 Family 4 glycosyl hydrolase
+UDPG_MGDP_dh_N       PF03721.13 sp|Q8TSH7|MDH_METAC  -            0.00046   19.7   1.6    0.0014   18.1   1.6   1.7   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q8TSH7|MDH_METAC  -              0.034   14.1   0.1      0.08   12.9   0.1   1.8   1   1   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|Q8TSH7|MDH_METAC  -               0.32   11.5   2.0      0.55   10.8   0.6   2.4   2   1   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8TSH7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8TSH7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8TSH7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:16:12 2019
+# [ok]

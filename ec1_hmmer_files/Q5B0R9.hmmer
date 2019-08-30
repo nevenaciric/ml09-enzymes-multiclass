@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q5B0R9|MKAR_EMENI -            6.5e-37  126.8   0.9   6.8e-37  126.7   0.0   1.4   2   0   0   2   2   2   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q5B0R9|MKAR_EMENI -            2.3e-22   79.6   0.0   3.4e-22   79.0   0.0   1.2   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q5B0R9|MKAR_EMENI -            0.00012   21.9   0.0   0.00033   20.5   0.0   1.7   1   1   0   1   1   1   1 KR domain
+Polysacc_synt_2      PF02719.14 sp|Q5B0R9|MKAR_EMENI -             0.0033   16.5   0.0    0.0046   16.0   0.0   1.1   1   0   0   1   1   1   1 Polysaccharide biosynthesis protein
+3HCDH_N              PF02737.17 sp|Q5B0R9|MKAR_EMENI -               0.11   12.3   0.0      0.19   11.5   0.0   1.3   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Herpes_UL31          PF02718.13 sp|Q5B0R9|MKAR_EMENI -               0.15   10.9   0.0      0.24   10.2   0.0   1.3   1   0   0   1   1   1   0 Herpesvirus UL31-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5B0R9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5B0R9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5B0R9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:40:38 2019
+# [ok]

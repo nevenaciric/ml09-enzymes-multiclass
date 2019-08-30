@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX2                 PF00116.19 sp|P29881|COX2_ZOOAN -            2.2e-59  198.5   0.0   3.9e-59  197.7   0.0   1.4   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, periplasmic domain
+COX2_TM              PF02790.14 sp|P29881|COX2_ZOOAN -              3e-26   91.3   6.4   6.9e-26   90.1   6.4   1.6   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, transmembrane domain
+HisKA_7TM            PF16927.4  sp|P29881|COX2_ZOOAN -              0.049   13.6   5.0     0.068   13.1   5.0   1.2   1   0   0   1   1   1   0 N-terminal 7TM region of histidine kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P29881.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P29881.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P29881.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:42:27 2019
+# [ok]

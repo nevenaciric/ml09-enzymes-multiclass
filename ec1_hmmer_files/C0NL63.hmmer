@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|C0NL63|ARO1_AJECG -             5e-125  417.4   0.0    8e-125  416.7   0.0   1.3   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|C0NL63|ARO1_AJECG -           1.3e-100  335.8   0.0  2.4e-100  335.0   0.0   1.4   1   0   0   1   1   1   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|C0NL63|ARO1_AJECG -            8.8e-59  199.4   0.0   1.4e-58  198.7   0.0   1.4   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|C0NL63|ARO1_AJECG -            7.7e-39  133.2   0.1   3.9e-38  130.9   0.0   2.2   3   0   0   3   3   3   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|C0NL63|ARO1_AJECG -            8.4e-25   86.7   0.1   2.5e-24   85.2   0.0   1.9   2   0   0   2   2   2   1 Shikimate dehydrogenase substrate binding domain
+Fe-ADH_2             PF13685.5  sp|C0NL63|ARO1_AJECG -            5.8e-07   29.4   0.0   1.3e-06   28.2   0.0   1.6   1   0   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Shikimate_DH         PF01488.19 sp|C0NL63|ARO1_AJECG -               0.02   14.8   0.0     0.056   13.4   0.0   1.7   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+AAA_24               PF13479.5  sp|C0NL63|ARO1_AJECG -              0.049   13.3   0.1      0.27   10.8   0.0   2.1   2   0   0   2   2   2   0 AAA domain
+DUF2795              PF11387.7  sp|C0NL63|ARO1_AJECG -               0.11   12.6   0.0      0.72   10.0   0.0   2.3   2   0   0   2   2   2   0 Protein of unknown function (DUF2795)
+SLBB                 PF10531.8  sp|C0NL63|ARO1_AJECG -               0.55   10.0   2.3        16    5.3   0.0   3.2   3   0   0   3   3   3   0 SLBB domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C0NL63.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C0NL63.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C0NL63.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:11:06 2019
+# [ok]

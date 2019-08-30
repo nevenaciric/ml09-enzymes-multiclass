@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_dh               PF01619.17 sp|Q04499|PROD_DROME -            2.6e-83  279.9   0.1   5.5e-82  275.5   0.1   2.6   1   1   0   1   1   1   1 Proline dehydrogenase
+Ferrochelatase       PF00762.18 sp|Q04499|PROD_DROME -               0.04   12.9   0.1      0.11   11.4   0.1   1.6   1   1   0   1   1   1   0 Ferrochelatase
+DUF3447              PF11929.7  sp|Q04499|PROD_DROME -              0.067   13.1   0.1       5.1    7.0   0.0   2.8   3   0   0   3   3   3   0 Domain of unknown function (DUF3447)
+TDA11                PF17084.4  sp|Q04499|PROD_DROME -              0.072   11.9   2.5      0.11   11.4   2.5   1.2   1   0   0   1   1   1   0 Topoisomerase I damage affected protein 11
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q04499.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q04499.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q04499.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:04:25 2019
+# [ok]

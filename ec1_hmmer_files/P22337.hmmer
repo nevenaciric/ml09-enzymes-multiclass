@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_desaturase_2      PF03405.13 sp|P22337|STAD_RICCO -           2.4e-162  539.2   0.0  2.8e-162  539.0   0.0   1.0   1   0   0   1   1   1   1 Fatty acid desaturase
+Rubrerythrin         PF02915.16 sp|P22337|STAD_RICCO -              0.001   19.4   0.1      0.26   11.6   0.1   2.5   2   0   0   2   2   2   2 Rubrerythrin
+NPL4                 PF05021.14 sp|P22337|STAD_RICCO -               0.05   12.9   0.1      0.48    9.6   0.1   2.0   1   1   1   2   2   2   0 NPL4 family
+ELP6                 PF09807.8  sp|P22337|STAD_RICCO -               0.22   10.8   0.0      0.32   10.3   0.0   1.2   1   0   0   1   1   1   0 Elongation complex protein 6
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P22337.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P22337.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P22337.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:39:31 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COQ7                 PF03232.12 sp|A3NZM5|COQ7_BURP0 -            6.5e-43  146.4   1.0   7.6e-43  146.1   1.0   1.1   1   0   0   1   1   1   1 Ubiquinone biosynthesis protein COQ7
+Rubrerythrin         PF02915.16 sp|A3NZM5|COQ7_BURP0 -            1.7e-05   25.1   2.3   4.2e-05   23.9   0.2   2.2   1   1   1   2   2   2   1 Rubrerythrin
+Ferritin             PF00210.23 sp|A3NZM5|COQ7_BURP0 -              0.018   14.9   0.6     0.041   13.7   0.5   1.9   1   1   0   1   1   1   0 Ferritin-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A3NZM5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A3NZM5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A3NZM5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:28:33 2019
+# [ok]

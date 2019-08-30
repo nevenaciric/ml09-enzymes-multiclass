@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_1        PF00175.20 sp|P21394|XYLA_PSEPU -            1.9e-20   73.4   0.0   2.9e-20   72.8   0.0   1.2   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+Fer2                 PF00111.26 sp|P21394|XYLA_PSEPU -            2.6e-15   56.0   0.1   4.9e-15   55.2   0.1   1.5   1   0   0   1   1   1   1 2Fe-2S iron-sulfur cluster binding domain
+FAD_binding_6        PF00970.23 sp|P21394|XYLA_PSEPU -            2.1e-11   43.9   0.0   5.3e-11   42.6   0.0   1.6   1   0   0   1   1   1   1 Oxidoreductase FAD-binding domain
+Fer2_4               PF13510.5  sp|P21394|XYLA_PSEPU -              0.073   13.0   0.0      0.17   11.9   0.0   1.6   1   0   0   1   1   1   0 2Fe-2S iron-sulfur cluster binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P21394.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P21394.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P21394.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:39:06 2019
+# [ok]

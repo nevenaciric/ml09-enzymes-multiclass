@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|A4FK61|IOLG4_SACEN -            4.2e-23   82.4   0.0   8.7e-23   81.3   0.0   1.6   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+GFO_IDH_MocA_C       PF02894.16 sp|A4FK61|IOLG4_SACEN -              1e-06   28.6   0.0     2e-06   27.7   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, C-terminal alpha/beta domain
+Sacchrp_dh_NADP      PF03435.17 sp|A4FK61|IOLG4_SACEN -            0.00033   20.8   0.0     0.001   19.2   0.0   1.9   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+Semialdhyde_dh       PF01118.23 sp|A4FK61|IOLG4_SACEN -             0.0015   18.8   0.0    0.0027   18.1   0.0   1.3   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|A4FK61|IOLG4_SACEN -             0.0026   18.3   0.1    0.0076   16.8   0.1   1.7   2   0   0   2   2   2   1 Homoserine dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|A4FK61|IOLG4_SACEN -             0.0081   16.1   0.0     0.014   15.4   0.0   1.2   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|A4FK61|IOLG4_SACEN -              0.013   15.9   0.1     0.028   14.9   0.1   1.5   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|A4FK61|IOLG4_SACEN -               0.12   12.2   0.1      0.19   11.5   0.1   1.3   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4FK61.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4FK61.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4FK61.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:29:13 2019
+# [ok]

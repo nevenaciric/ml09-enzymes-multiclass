@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|A4FIQ1|IOLG3_SACEN -            6.5e-28   97.9   0.2   1.3e-27   96.9   0.2   1.5   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+GFO_IDH_MocA_C       PF02894.16 sp|A4FIQ1|IOLG3_SACEN -            8.1e-08   32.2   0.0     2e-07   31.0   0.0   1.7   1   0   0   1   1   1   1 Oxidoreductase family, C-terminal alpha/beta domain
+F420_oxidored        PF03807.16 sp|A4FIQ1|IOLG3_SACEN -            0.00026   21.4   0.6   0.00063   20.2   0.6   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+Semialdhyde_dh       PF01118.23 sp|A4FIQ1|IOLG3_SACEN -             0.0076   16.6   0.2     0.023   15.1   0.3   1.8   2   0   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|A4FIQ1|IOLG3_SACEN -              0.027   15.0   0.7     0.068   13.7   0.7   1.7   1   0   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|A4FIQ1|IOLG3_SACEN -              0.054   12.8   0.7      0.09   12.0   0.7   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4FIQ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4FIQ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4FIQ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:29:12 2019
+# [ok]

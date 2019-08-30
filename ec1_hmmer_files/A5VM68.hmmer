@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A5VM68|HEM1_LACRD -            2.5e-39  134.1   0.0   4.7e-39  133.2   0.0   1.5   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A5VM68|HEM1_LACRD -            5.5e-20   71.7   0.2   1.3e-19   70.6   0.2   1.6   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A5VM68|HEM1_LACRD -            1.4e-16   60.5   0.0   4.8e-16   58.8   0.0   2.0   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+2-Hacid_dh_C         PF02826.18 sp|A5VM68|HEM1_LACRD -            2.7e-07   30.0   0.1   4.9e-07   29.2   0.1   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|A5VM68|HEM1_LACRD -            1.2e-05   25.4   0.2   2.5e-05   24.4   0.2   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+F420_oxidored        PF03807.16 sp|A5VM68|HEM1_LACRD -             0.0089   16.5   0.1     0.031   14.8   0.1   1.9   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+IlvN                 PF07991.11 sp|A5VM68|HEM1_LACRD -              0.023   14.2   0.1     0.043   13.3   0.1   1.4   1   0   0   1   1   1   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+NAD_binding_10       PF13460.5  sp|A5VM68|HEM1_LACRD -              0.023   14.5   0.2      0.04   13.7   0.2   1.4   1   0   0   1   1   1   0 NAD(P)H-binding
+Ldh_1_N              PF00056.22 sp|A5VM68|HEM1_LACRD -              0.035   14.1   0.1     0.077   13.0   0.1   1.6   1   0   0   1   1   1   0 lactate/malate dehydrogenase, NAD binding domain
+3HCDH_N              PF02737.17 sp|A5VM68|HEM1_LACRD -              0.057   13.2   0.1      0.11   12.3   0.1   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+adh_short            PF00106.24 sp|A5VM68|HEM1_LACRD -               0.07   12.5   0.1      0.12   11.7   0.1   1.5   1   0   0   1   1   1   0 short chain dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A5VM68.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A5VM68.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A5VM68.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:35:14 2019
+# [ok]

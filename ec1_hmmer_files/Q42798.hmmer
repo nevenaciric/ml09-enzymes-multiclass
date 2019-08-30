@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|Q42798|C93A1_SOYBN -           6.6e-101  338.2   0.0  7.5e-101  338.1   0.0   1.0   1   0   0   1   1   1   1 Cytochrome P450
+Decorin_bind         PF02352.14 sp|Q42798|C93A1_SOYBN -              0.013   15.7   0.2     0.025   14.8   0.2   1.4   1   0   0   1   1   1   0 Decorin binding protein
+UPF0730              PF15827.4  sp|Q42798|C93A1_SOYBN -               0.16   12.1   0.1      0.34   11.1   0.1   1.4   1   0   0   1   1   1   0 UPF0730 unknown protein family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q42798.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q42798.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q42798.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:30:41 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Transket_pyr         PF02779.23 sp|P32473|ODPB_YEAST -            2.3e-47  160.9   0.0   5.6e-47  159.6   0.0   1.6   2   0   0   2   2   2   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|P32473|ODPB_YEAST -            1.6e-37  128.1   0.1   2.9e-37  127.2   0.1   1.5   1   0   0   1   1   1   1 Transketolase, C-terminal domain
+Peptidase_M78        PF06114.12 sp|P32473|ODPB_YEAST -              0.038   13.8   0.1     0.081   12.8   0.1   1.5   1   0   0   1   1   1   0 IrrE N-terminal-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P32473.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P32473.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P32473.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:43:17 2019
+# [ok]

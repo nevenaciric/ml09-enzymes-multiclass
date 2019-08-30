@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_1        PF00175.20 sp|Q87F90|HMP_XYLFT  -            3.1e-16   59.8   0.0   5.6e-16   59.0   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+Globin               PF00042.21 sp|Q87F90|HMP_XYLFT  -            3.4e-09   37.1   0.4     5e-08   33.4   0.0   2.2   2   0   0   2   2   2   1 Globin
+FAD_binding_6        PF00970.23 sp|Q87F90|HMP_XYLFT  -            4.2e-05   23.7   0.0     9e-05   22.7   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase FAD-binding domain
+Protoglobin          PF11563.7  sp|Q87F90|HMP_XYLFT  -             0.0037   17.1   0.2     0.008   16.0   0.0   1.6   2   0   0   2   2   2   1 Protoglobin
+NAD_binding_6        PF08030.11 sp|Q87F90|HMP_XYLFT  -               0.02   14.9   0.1      0.13   12.3   0.1   2.2   1   1   1   2   2   2   0 Ferric reductase NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q87F90.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q87F90.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q87F90.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:07:06 2019
+# [ok]

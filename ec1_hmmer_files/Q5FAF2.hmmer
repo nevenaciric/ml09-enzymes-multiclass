@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|Q5FAF2|ISPH_NEIG1 -            2.8e-93  311.9   0.2   3.2e-93  311.8   0.2   1.0   1   0   0   1   1   1   1 LytB protein
+TPP_enzyme_M         PF00205.21 sp|Q5FAF2|ISPH_NEIG1 -              0.059   13.0   0.0      0.25   11.0   0.0   2.1   3   0   0   3   3   3   0 Thiamine pyrophosphate enzyme, central domain
+Semialdhyde_dh       PF01118.23 sp|Q5FAF2|ISPH_NEIG1 -              0.074   13.4   0.0       9.8    6.5   0.0   2.4   2   0   0   2   2   2   0 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5FAF2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5FAF2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5FAF2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:41:23 2019
+# [ok]

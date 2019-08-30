@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ribonuc_red_lgC      PF02867.14 sp|Q9CBQ0|RIR1_MYCLE -           2.2e-140  468.6   1.1  1.1e-138  462.9   1.1   2.2   1   1   0   1   1   1   1 Ribonucleotide reductase, barrel domain
+RNR_N                PF08343.9  sp|Q9CBQ0|RIR1_MYCLE -            6.8e-31  106.0  10.3   8.2e-31  105.8   8.2   2.2   2   0   0   2   2   2   1 Ribonucleotide reductase N-terminal
+Ribonuc_red_lgN      PF00317.20 sp|Q9CBQ0|RIR1_MYCLE -            1.6e-11   44.0   0.1   9.6e-11   41.4   0.0   2.4   2   0   0   2   2   2   1 Ribonucleotide reductase, all-alpha domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9CBQ0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9CBQ0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9CBQ0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:24:58 2019
+# [ok]

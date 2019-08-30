@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase_2             PF00310.20 sp|P39812|GLTA_BACSU -           9.2e-190  630.7   0.0  1.2e-189  630.3   0.0   1.2   1   0   0   1   1   1   1 Glutamine amidotransferases class-II
+Glu_synthase         PF01645.16 sp|P39812|GLTA_BACSU -           8.6e-167  554.8   0.0    4e-163  542.7   0.0   2.4   2   0   0   2   2   2   2 Conserved region in glutamate synthase
+Glu_syn_central      PF04898.13 sp|P39812|GLTA_BACSU -           1.6e-115  385.3   0.1    5e-115  383.7   0.0   1.8   2   0   0   2   2   2   1 Glutamate synthase central domain
+GXGXG                PF01493.18 sp|P39812|GLTA_BACSU -              3e-82  274.7   9.3   6.1e-82  273.7   9.3   1.5   1   0   0   1   1   1   1 GXGXG motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P39812.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P39812.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P39812.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:45:39 2019
+# [ok]

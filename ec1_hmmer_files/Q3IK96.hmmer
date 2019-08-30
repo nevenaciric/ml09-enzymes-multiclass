@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q3IK96|HEM1_PSEHT -              4e-53  178.7   0.5     1e-52  177.4   0.5   1.7   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q3IK96|HEM1_PSEHT -            1.1e-47  161.5   0.2   1.1e-47  161.5   0.2   2.6   4   0   0   4   4   4   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q3IK96|HEM1_PSEHT -            5.1e-20   71.6   2.1   1.4e-19   70.2   2.1   1.8   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|Q3IK96|HEM1_PSEHT -            3.8e-07   30.5   4.3   2.9e-05   24.5   0.1   4.1   2   1   2   4   4   4   1 NADP oxidoreductase coenzyme F420-dependent
+Sacchrp_dh_NADP      PF03435.17 sp|Q3IK96|HEM1_PSEHT -            0.00021   21.5   0.2   0.00075   19.7   0.2   2.1   1   1   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+Dot_icm_IcmQ         PF09475.9  sp|Q3IK96|HEM1_PSEHT -             0.0023   17.3   0.3     0.037   13.4   0.0   2.4   2   0   0   2   2   2   1 Dot/Icm secretion system protein (dot_icm_IcmQ)
+OCD_Mu_crystall      PF02423.14 sp|Q3IK96|HEM1_PSEHT -             0.0043   15.9   0.8    0.0043   15.9   0.8   1.7   2   0   0   2   2   2   1 Ornithine cyclodeaminase/mu-crystallin family
+GMP_synt_C           PF00958.21 sp|Q3IK96|HEM1_PSEHT -               0.13   12.2   0.8       3.3    7.8   0.0   2.4   2   0   0   2   2   2   0 GMP synthase C terminal domain
+DUF615               PF04751.13 sp|Q3IK96|HEM1_PSEHT -               0.13   12.1   3.5         8    6.3   0.0   3.1   3   0   0   3   3   3   0 Protein of unknown function (DUF615)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3IK96.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3IK96.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3IK96.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:27:45 2019
+# [ok]

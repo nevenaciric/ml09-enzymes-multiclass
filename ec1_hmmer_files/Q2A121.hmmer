@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FTO_NTD              PF12933.6  sp|Q2A121|FTO_RAT    -           1.2e-120  401.9   0.0  1.7e-120  401.5   0.0   1.1   1   0   0   1   1   1   1 FTO catalytic domain
+FTO_CTD              PF12934.6  sp|Q2A121|FTO_RAT    -            1.2e-62  210.5   1.3   1.2e-62  210.5   1.3   1.6   2   0   0   2   2   2   1 FTO C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2A121.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2A121.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2A121.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:19:07 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|A4T7U3|ACDH_MYCGI -              2e-64  215.8   0.4   2.9e-64  215.3   0.4   1.2   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|A4T7U3|ACDH_MYCGI -            1.3e-09   38.4   0.0   1.8e-08   34.7   0.0   2.3   2   1   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|A4T7U3|ACDH_MYCGI -             0.0036   18.0   0.0    0.0078   16.9   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+TrkA_N               PF02254.17 sp|A4T7U3|ACDH_MYCGI -               0.04   14.1   0.0       3.8    7.7   0.0   2.6   2   0   0   2   2   2   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4T7U3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4T7U3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4T7U3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:31:01 2019
+# [ok]

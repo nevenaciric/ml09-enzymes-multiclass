@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHO_dh               PF01180.20 sp|Q609J2|PYRD_METCA -            7.2e-85  284.7   0.0   8.6e-85  284.4   0.0   1.0   1   0   0   1   1   1   1 Dihydroorotate dehydrogenase
+NMO                  PF03060.14 sp|Q609J2|PYRD_METCA -            6.9e-06   25.6   2.2   1.3e-05   24.7   2.2   1.3   1   1   0   1   1   1   1 Nitronate monooxygenase
+FMN_dh               PF01070.17 sp|Q609J2|PYRD_METCA -              0.081   11.8   4.3      0.15   10.9   4.2   1.5   1   1   0   1   1   1   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q609J2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q609J2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q609J2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:48:13 2019
+# [ok]

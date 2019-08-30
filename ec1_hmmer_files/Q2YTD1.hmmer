@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AlaDh_PNT_C          PF01262.20 sp|Q2YTD1|DHA2_STAAB -            1.7e-84  282.3   1.4   2.4e-84  281.8   0.6   1.6   2   0   0   2   2   2   1 Alanine dehydrogenase/PNT, C-terminal domain
+AlaDh_PNT_N          PF05222.14 sp|Q2YTD1|DHA2_STAAB -            1.1e-45  155.2   0.0   2.4e-45  154.1   0.0   1.6   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, N-terminal domain
+2-Hacid_dh_C         PF02826.18 sp|Q2YTD1|DHA2_STAAB -            9.9e-07   28.2   0.1   2.5e-06   26.9   0.1   1.6   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q2YTD1|DHA2_STAAB -            1.4e-05   25.1   0.0   3.1e-05   24.0   0.0   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+Pyr_redox            PF00070.26 sp|Q2YTD1|DHA2_STAAB -            0.00013   22.3   0.0   0.00028   21.3   0.0   1.5   1   0   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox_2          PF07992.13 sp|Q2YTD1|DHA2_STAAB -            0.00057   19.1   0.0     0.001   18.3   0.0   1.3   1   0   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+THF_DHG_CYH_C        PF02882.18 sp|Q2YTD1|DHA2_STAAB -             0.0036   16.5   0.2     0.007   15.6   0.2   1.6   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+3HCDH_N              PF02737.17 sp|Q2YTD1|DHA2_STAAB -              0.006   16.4   0.1     0.012   15.4   0.1   1.5   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q2YTD1|DHA2_STAAB -              0.007   16.8   0.9     0.011   16.2   0.2   1.7   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q2YTD1|DHA2_STAAB -              0.019   15.1   0.2     0.036   14.2   0.2   1.4   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+TrkA_N               PF02254.17 sp|Q2YTD1|DHA2_STAAB -              0.023   14.9   0.0       0.1   12.8   0.0   2.1   2   0   0   2   2   2   0 TrkA-N domain
+GIDA                 PF01134.21 sp|Q2YTD1|DHA2_STAAB -              0.026   13.5   0.0     0.039   13.0   0.0   1.2   1   0   0   1   1   1   0 Glucose inhibited division protein A
+NAD_binding_7        PF13241.5  sp|Q2YTD1|DHA2_STAAB -               0.13   12.6   0.0      0.27   11.6   0.0   1.5   1   0   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2YTD1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2YTD1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2YTD1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:23:42 2019
+# [ok]

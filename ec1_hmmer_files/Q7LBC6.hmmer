@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+JmjC                 PF02373.21 sp|Q7LBC6|KDM3B_HUMAN -            4.5e-16   59.2   0.0   9.8e-16   58.1   0.0   1.6   1   0   0   1   1   1   1 JmjC domain, hydroxylase
+C1_2                 PF03107.15 sp|Q7LBC6|KDM3B_HUMAN -               0.13   12.5   4.9      0.42   10.9   4.9   1.9   1   0   0   1   1   1   0 C1 domain
+Cupin_2              PF07883.10 sp|Q7LBC6|KDM3B_HUMAN -               0.13   11.9   0.1      0.44   10.2   0.0   1.8   2   0   0   2   2   2   0 Cupin domain
+zf-C5HC2             PF02928.15 sp|Q7LBC6|KDM3B_HUMAN -               0.16   12.3   3.7      0.54   10.6   3.7   1.9   1   0   0   1   1   1   0 C5HC2 zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7LBC6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7LBC6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7LBC6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:00:23 2019
+# [ok]

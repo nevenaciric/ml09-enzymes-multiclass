@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|A7ZCD0|ISPH_CAMC1 -            1.1e-87  293.5   2.0   1.3e-87  293.4   2.0   1.0   1   0   0   1   1   1   1 LytB protein
+TK                   PF00265.17 sp|A7ZCD0|ISPH_CAMC1 -              0.017   14.9   1.9       2.8    7.7   0.1   2.2   2   0   0   2   2   2   0 Thymidine kinase
+FAM198               PF15051.5  sp|A7ZCD0|ISPH_CAMC1 -              0.062   12.1   0.0     0.098   11.4   0.0   1.3   1   0   0   1   1   1   0 FAM198 protein
+Glyco_hydro_3_C      PF01915.21 sp|A7ZCD0|ISPH_CAMC1 -               0.17   11.7   0.3      0.28   11.0   0.3   1.4   1   1   0   1   1   1   0 Glycosyl hydrolase family 3 C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7ZCD0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7ZCD0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7ZCD0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:40:34 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q6ZZF4|GPD1_CYBJA -            6.3e-52  175.6   0.1     1e-51  174.9   0.1   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q6ZZF4|GPD1_CYBJA -            2.9e-40  137.7   0.6     6e-40  136.7   0.2   1.7   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|Q6ZZF4|GPD1_CYBJA -             0.0012   19.3   0.0       2.7    8.6   0.0   2.6   2   0   0   2   2   2   2 NADP oxidoreductase coenzyme F420-dependent
+Toxin_15             PF07906.12 sp|Q6ZZF4|GPD1_CYBJA -              0.017   14.7   0.0     0.034   13.7   0.0   1.4   1   0   0   1   1   1   0 ShET2 enterotoxin, N-terminal region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6ZZF4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6ZZF4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6ZZF4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:57:46 2019
+# [ok]

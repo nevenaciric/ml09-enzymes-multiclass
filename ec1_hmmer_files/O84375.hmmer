@@ -1,0 +1,27 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHquinase_I          PF01487.14 sp|O84375|ARODE_CHLTR -            6.6e-23   82.0   0.0   1.3e-22   81.1   0.0   1.5   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+Shikimate_dh_N       PF08501.10 sp|O84375|ARODE_CHLTR -            1.9e-13   50.4   0.0   5.1e-13   49.0   0.0   1.7   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Shikimate_DH         PF01488.19 sp|O84375|ARODE_CHLTR -            1.3e-10   41.4   0.0   2.5e-10   40.5   0.0   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|O84375|ARODE_CHLTR -            7.3e-05   22.1   0.0   0.00012   21.3   0.0   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|O84375|ARODE_CHLTR -            0.00011   22.7   0.0   0.00021   21.7   0.0   1.5   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|O84375|ARODE_CHLTR -             0.0026   17.8   0.0    0.0045   17.1   0.0   1.3   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+ApbA                 PF02558.15 sp|O84375|ARODE_CHLTR -             0.0035   16.9   0.0     0.013   15.1   0.1   1.8   2   0   0   2   2   2   1 Ketopantoate reductase PanE/ApbA
+Pyr_redox_2          PF07992.13 sp|O84375|ARODE_CHLTR -              0.036   13.2   0.0     0.049   12.8   0.0   1.2   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+Sacchrp_dh_NADP      PF03435.17 sp|O84375|ARODE_CHLTR -              0.037   14.2   0.0      0.11   12.6   0.0   1.8   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_7        PF13241.5  sp|O84375|ARODE_CHLTR -              0.087   13.2   0.0      0.19   12.1   0.0   1.5   1   0   0   1   1   1   0 Putative NAD(P)-binding
+TrkA_N               PF02254.17 sp|O84375|ARODE_CHLTR -               0.12   12.5   0.1       1.6    8.9   0.0   2.2   2   0   0   2   2   2   0 TrkA-N domain
+3HCDH_N              PF02737.17 sp|O84375|ARODE_CHLTR -               0.13   12.1   0.0      0.25   11.1   0.0   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_Gly3P_dh_N       PF01210.22 sp|O84375|ARODE_CHLTR -               0.17   11.7   0.0      0.66    9.8   0.0   1.9   2   0   0   2   2   2   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+FMO-like             PF00743.18 sp|O84375|ARODE_CHLTR -               0.19   10.0   0.0      0.28    9.5   0.0   1.2   1   0   0   1   1   1   0 Flavin-binding monooxygenase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O84375.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O84375.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O84375.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:27:33 2019
+# [ok]

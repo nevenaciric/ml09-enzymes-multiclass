@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NMO                  PF03060.14 sp|Q9I4V0|NQRED_PSEAE -            3.4e-54  184.4   3.7   4.5e-53  180.7   3.7   1.9   1   1   0   1   1   1   1 Nitronate monooxygenase
+IMPDH                PF00478.24 sp|Q9I4V0|NQRED_PSEAE -            3.5e-12   45.9   0.1   2.3e-05   23.5   0.1   2.2   1   1   1   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+FMN_dh               PF01070.17 sp|Q9I4V0|NQRED_PSEAE -            2.7e-07   29.9   3.1   2.2e-06   26.8   1.7   2.2   2   0   0   2   2   2   1 FMN-dependent dehydrogenase
+Glu_synthase         PF01645.16 sp|Q9I4V0|NQRED_PSEAE -            2.5e-05   23.5   0.4   5.6e-05   22.4   0.4   1.6   1   1   0   1   1   1   1 Conserved region in glutamate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9I4V0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9I4V0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9I4V0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:27:57 2019
+# [ok]

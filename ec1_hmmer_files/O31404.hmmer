@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1_dh                PF00676.19 sp|O31404|ACOA_BACSU -            4.8e-92  308.0   0.1   5.6e-92  307.8   0.1   1.0   1   0   0   1   1   1   1 Dehydrogenase E1 component
+TPP_enzyme_C         PF02775.20 sp|O31404|ACOA_BACSU -            6.7e-06   25.9   1.1   4.6e-05   23.1   1.1   2.1   1   1   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+Transketolase_N      PF00456.20 sp|O31404|ACOA_BACSU -            0.00013   21.0   0.1   0.00017   20.6   0.1   1.2   1   0   0   1   1   1   1 Transketolase, thiamine diphosphate binding domain
+DXP_synthase_N       PF13292.5  sp|O31404|ACOA_BACSU -             0.0039   16.3   0.1     0.011   14.8   0.0   1.8   2   1   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+YfcL                 PF08891.10 sp|O31404|ACOA_BACSU -              0.046   14.0   0.2       3.5    8.0   0.0   2.6   2   0   0   2   2   2   0 YfcL protein
+ECH_1                PF00378.19 sp|O31404|ACOA_BACSU -                0.3   10.3   2.0      0.32   10.2   0.1   1.9   2   0   0   2   2   2   0 Enoyl-CoA hydratase/isomerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O31404.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O31404.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O31404.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:23:05 2019
+# [ok]

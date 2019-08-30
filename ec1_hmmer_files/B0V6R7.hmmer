@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|B0V6R7|MDH_ACIBY  -            4.8e-36  123.8   0.0   7.2e-36  123.3   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|B0V6R7|MDH_ACIBY  -            4.2e-33  114.5   0.0   1.3e-32  113.0   0.0   1.7   2   0   0   2   2   2   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+TPP_enzyme_M         PF00205.21 sp|B0V6R7|MDH_ACIBY  -               0.12   12.1   0.0      0.31   10.7   0.0   1.7   1   1   0   1   1   1   0 Thiamine pyrophosphate enzyme, central domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B0V6R7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B0V6R7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B0V6R7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:49:04 2019
+# [ok]

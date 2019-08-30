@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|P55541|Y4LA_SINFN -            9.7e-63  211.7   6.1   1.2e-62  211.5   6.1   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|P55541|Y4LA_SINFN -            1.3e-50  171.5   4.9   1.6e-50  171.2   4.9   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|P55541|Y4LA_SINFN -            6.3e-10   39.1   6.2   9.9e-10   38.5   6.2   1.2   1   0   0   1   1   1   1 KR domain
+AdoHcyase_NAD        PF00670.20 sp|P55541|Y4LA_SINFN -            0.00019   21.4   1.9   0.00048   20.1   1.9   1.7   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Epimerase            PF01370.20 sp|P55541|Y4LA_SINFN -              0.045   13.1   1.7      0.29   10.5   1.7   2.1   1   1   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+3HCDH_N              PF02737.17 sp|P55541|Y4LA_SINFN -               0.28   10.9   2.8      0.54   10.0   2.8   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P55541.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P55541.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P55541.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:51:53 2019
+# [ok]

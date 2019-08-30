@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|P22441|DHMA_FLAS1 -            6.1e-57  192.8   5.3     7e-57  192.6   5.3   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|P22441|DHMA_FLAS1 -            2.5e-53  180.4   1.1   2.9e-53  180.1   1.1   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+Epimerase            PF01370.20 sp|P22441|DHMA_FLAS1 -            9.4e-06   25.2   0.0   1.8e-05   24.2   0.0   1.5   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+NAD_binding_10       PF13460.5  sp|P22441|DHMA_FLAS1 -             0.0036   17.1   3.0    0.0054   16.6   2.9   1.4   1   1   0   1   1   1   1 NAD(P)H-binding
+KR                   PF08659.9  sp|P22441|DHMA_FLAS1 -             0.0041   17.0   5.9     0.056   13.3   4.9   2.9   1   1   1   2   2   2   1 KR domain
+DUF1859              PF08948.9  sp|P22441|DHMA_FLAS1 -             0.0094   15.8   0.1     0.021   14.7   0.1   1.6   1   1   0   1   1   1   1 Domain of unknown function (DUF1859)
+NmrA                 PF05368.12 sp|P22441|DHMA_FLAS1 -              0.025   14.0   0.1     0.039   13.4   0.1   1.2   1   0   0   1   1   1   0 NmrA-like family
+3Beta_HSD            PF01073.18 sp|P22441|DHMA_FLAS1 -              0.042   12.7   0.0     0.077   11.9   0.0   1.5   1   1   0   1   1   1   0 3-beta hydroxysteroid dehydrogenase/isomerase family
+Sacchrp_dh_NADP      PF03435.17 sp|P22441|DHMA_FLAS1 -              0.044   13.9   0.1     0.093   12.9   0.1   1.5   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P22441.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P22441.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P22441.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:39:33 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MurB_C               PF02873.15 sp|A8YUF1|MURB_LACH4 -            8.2e-26   90.1   0.0   3.7e-25   88.0   0.0   1.9   2   0   0   2   2   2   1 UDP-N-acetylenolpyruvoylglucosamine reductase, C-terminal domain
+FAD_binding_4        PF01565.22 sp|A8YUF1|MURB_LACH4 -            8.9e-25   87.0   0.2   1.5e-24   86.2   0.2   1.4   1   0   0   1   1   1   1 FAD binding domain
+LIP1                 PF15904.4  sp|A8YUF1|MURB_LACH4 -               0.03   14.6   0.0      0.17   12.2   0.0   2.0   2   0   0   2   2   2   0 LKB1 serine/threonine kinase interacting protein 1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A8YUF1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A8YUF1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A8YUF1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:43:58 2019
+# [ok]

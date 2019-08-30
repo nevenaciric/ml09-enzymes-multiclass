@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX2_TM              PF02790.14 sp|P98054|COX2_THEVL -              1e-15   57.6   1.9   6.7e-15   54.9   0.0   2.2   1   1   1   2   2   2   1 Cytochrome C oxidase subunit II, transmembrane domain
+COX2                 PF00116.19 sp|P98054|COX2_THEVL -            9.2e-14   51.3   0.3   1.1e-12   47.7   0.0   2.2   1   1   1   2   2   2   1 Cytochrome C oxidase subunit II, periplasmic domain
+Cupredoxin_1         PF13473.5  sp|P98054|COX2_THEVL -             0.0063   16.5   0.0     0.012   15.7   0.0   1.4   1   0   0   1   1   1   1 Cupredoxin-like domain
+AA_permease_2        PF13520.5  sp|P98054|COX2_THEVL -              0.072   11.8   0.1       0.1   11.3   0.1   1.1   1   0   0   1   1   1   0 Amino acid permease
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P98054.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P98054.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P98054.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:00:12 2019
+# [ok]

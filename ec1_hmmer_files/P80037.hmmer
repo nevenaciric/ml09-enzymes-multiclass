@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|P80037|MDH_HELGE  -             0.0057   16.7   0.3    0.0057   16.6   0.3   1.0   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+AlaDh_PNT_C          PF01262.20 sp|P80037|MDH_HELGE  -               0.03   13.5   0.7      0.03   13.5   0.7   1.0   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+F420_oxidored        PF03807.16 sp|P80037|MDH_HELGE  -              0.045   14.2   0.4     0.045   14.2   0.4   1.0   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+UDPG_MGDP_dh_N       PF03721.13 sp|P80037|MDH_HELGE  -              0.046   13.2   0.1     0.046   13.2   0.1   1.0   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Shikimate_DH         PF01488.19 sp|P80037|MDH_HELGE  -              0.066   13.2   0.2     0.066   13.2   0.2   1.0   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+3HCDH_N              PF02737.17 sp|P80037|MDH_HELGE  -              0.068   13.0   0.3     0.073   12.9   0.3   1.0   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|P80037|MDH_HELGE  -               0.11   11.7   0.2      0.11   11.7   0.2   1.0   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+DAO                  PF01266.23 sp|P80037|MDH_HELGE  -               0.14   11.6   0.8      0.13   11.7   0.8   1.0   1   0   0   1   1   1   0 FAD dependent oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P80037.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P80037.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P80037.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:57:00 2019
+# [ok]

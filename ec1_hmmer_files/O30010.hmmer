@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHQS                 PF01959.15 sp|O30010|DHQS_ARCFU -           2.6e-120  401.5   8.4    2e-113  378.8   6.2   2.0   1   1   1   2   2   2   2 3-dehydroquinate synthase (EC 4.6.1.3)
+FlpD                 PF02662.15 sp|O30010|DHQS_ARCFU -             0.0056   16.6   0.0     0.021   14.7   0.0   1.9   2   0   0   2   2   2   1 Methyl-viologen-reducing hydrogenase, delta subunit
+TOBE_2               PF08402.9  sp|O30010|DHQS_ARCFU -               0.13   12.4   0.7       4.4    7.4   0.0   3.1   3   0   0   3   3   3   0 TOBE domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O30010.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O30010.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O30010.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:22:55 2019
+# [ok]

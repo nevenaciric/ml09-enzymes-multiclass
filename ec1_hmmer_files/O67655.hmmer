@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|O67655|MDH1_AQUAE -            9.8e-37  126.1   0.1   1.6e-36  125.4   0.1   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|O67655|MDH1_AQUAE -            1.2e-30  106.5   0.0   1.9e-30  105.9   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|O67655|MDH1_AQUAE -            2.4e-05   23.9   0.2   7.9e-05   22.2   0.2   1.8   1   0   0   1   1   1   1 Family 4 glycosyl hydrolase
+3HCDH_N              PF02737.17 sp|O67655|MDH1_AQUAE -             0.0021   17.9   0.0    0.0047   16.7   0.0   1.7   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|O67655|MDH1_AQUAE -             0.0022   17.3   0.0     0.004   16.4   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|O67655|MDH1_AQUAE -              0.027   14.6   0.2      0.96    9.5   0.1   2.4   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+Shikimate_DH         PF01488.19 sp|O67655|MDH1_AQUAE -               0.04   13.9   0.2     0.097   12.6   0.2   1.6   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+PEP_hydrolase        PF09370.9  sp|O67655|MDH1_AQUAE -              0.091   11.9   0.0      0.14   11.2   0.0   1.3   1   0   0   1   1   1   0 Phosphoenolpyruvate hydrolase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O67655.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O67655.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O67655.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:26:10 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|Q8EWH5|GPDA_MYCPE -            4.2e-37  127.5   0.4   7.2e-37  126.7   0.4   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|Q8EWH5|GPDA_MYCPE -            1.1e-35  122.8   0.0   2.3e-35  121.8   0.0   1.5   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|Q8EWH5|GPDA_MYCPE -            4.8e-08   32.7   0.0   7.3e-08   32.1   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q8EWH5|GPDA_MYCPE -            1.8e-05   25.2   0.0   4.8e-05   23.8   0.0   1.8   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+Ligase_CoA           PF00549.18 sp|Q8EWH5|GPDA_MYCPE -              0.017   14.8   0.0     0.031   14.0   0.0   1.5   1   0   0   1   1   1   0 CoA-ligase
+UDPG_MGDP_dh_N       PF03721.13 sp|Q8EWH5|GPDA_MYCPE -              0.037   13.5   0.0      0.12   11.8   0.0   1.9   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Glyco_hydro_4        PF02056.15 sp|Q8EWH5|GPDA_MYCPE -               0.05   13.1   0.0      0.11   12.0   0.0   1.5   1   0   0   1   1   1   0 Family 4 glycosyl hydrolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8EWH5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8EWH5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8EWH5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:11:03 2019
+# [ok]

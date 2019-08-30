@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q6P824|GPD1L_XENTR -            2.3e-53  180.3   1.4   2.8e-53  180.0   0.5   1.6   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q6P824|GPD1L_XENTR -            2.4e-51  173.6   0.4   5.4e-51  172.5   0.2   1.7   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|Q6P824|GPD1L_XENTR -             0.0089   16.5   2.2      0.28   11.7   0.4   3.2   3   1   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+IlvN                 PF07991.11 sp|Q6P824|GPD1L_XENTR -               0.09   12.2   0.2       1.2    8.6   0.0   2.4   2   0   0   2   2   2   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6P824.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6P824.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6P824.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:56:32 2019
+# [ok]

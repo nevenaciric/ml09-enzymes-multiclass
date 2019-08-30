@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|B0RLW9|GPDA_XANCB -            2.5e-51  173.7   0.0   4.1e-51  173.0   0.0   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|B0RLW9|GPDA_XANCB -            2.8e-47  160.5   0.4   3.8e-47  160.0   0.4   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+ApbA                 PF02558.15 sp|B0RLW9|GPDA_XANCB -            3.2e-07   30.0   0.1   3.4e-06   26.7   0.0   2.1   2   0   0   2   2   2   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|B0RLW9|GPDA_XANCB -            4.2e-05   24.0   0.0   0.00013   22.4   0.0   1.8   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|B0RLW9|GPDA_XANCB -            0.00025   21.1   0.0    0.0022   18.1   0.0   2.1   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|B0RLW9|GPDA_XANCB -            0.00053   19.8   0.1    0.0011   18.8   0.0   1.6   2   0   0   2   2   2   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|B0RLW9|GPDA_XANCB -             0.0093   16.1   0.0      0.11   12.7   0.0   2.3   2   0   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+Rossmann-like        PF10727.8  sp|B0RLW9|GPDA_XANCB -              0.016   15.0   1.1      0.13   12.0   0.2   2.6   2   1   0   2   2   2   0 Rossmann-like domain
+UDPG_MGDP_dh_N       PF03721.13 sp|B0RLW9|GPDA_XANCB -               0.05   13.1   0.0      0.12   11.9   0.0   1.6   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B0RLW9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B0RLW9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B0RLW9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:48:00 2019
+# [ok]

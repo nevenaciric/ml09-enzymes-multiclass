@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IMPDH                PF00478.24 sp|P57300|GUAC_BUCAI -            1.2e-76  257.9   0.3   1.8e-76  257.3   0.3   1.2   1   0   0   1   1   1   1 IMP dehydrogenase / GMP reductase domain
+dCache_3             PF14827.5  sp|P57300|GUAC_BUCAI -            0.00041   20.0   0.0   0.00066   19.3   0.0   1.2   1   0   0   1   1   1   1 Double sensory domain of two-component sensor kinase
+FMN_dh               PF01070.17 sp|P57300|GUAC_BUCAI -             0.0011   18.0   4.3    0.0031   16.5   4.4   1.8   1   1   0   1   1   1   1 FMN-dependent dehydrogenase
+Aldolase             PF01081.18 sp|P57300|GUAC_BUCAI -              0.032   13.6   0.1      0.11   11.8   0.0   1.8   1   1   0   2   2   2   0 KDPG and KHG aldolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P57300.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P57300.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P57300.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:52:29 2019
+# [ok]

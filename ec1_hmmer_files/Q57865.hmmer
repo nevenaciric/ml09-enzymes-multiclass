@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DapB_C               PF05173.13 sp|Q57865|DAPB_METJA -            3.6e-43  146.3   0.1   6.5e-43  145.5   0.1   1.4   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, C-terminus
+DapB_N               PF01113.19 sp|Q57865|DAPB_METJA -            2.1e-39  134.3   3.2   3.9e-39  133.5   3.2   1.4   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+Sacchrp_dh_NADP      PF03435.17 sp|Q57865|DAPB_METJA -            2.6e-05   24.4   0.6   4.3e-05   23.7   0.6   1.4   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+Semialdhyde_dh       PF01118.23 sp|Q57865|DAPB_METJA -            0.00038   20.8   0.2    0.0011   19.2   0.1   1.8   1   1   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|Q57865|DAPB_METJA -             0.0011   19.5   0.5    0.0023   18.5   0.5   1.5   1   1   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+Epimerase            PF01370.20 sp|Q57865|DAPB_METJA -             0.0032   16.9   0.0    0.0064   15.9   0.0   1.6   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+3Beta_HSD            PF01073.18 sp|Q57865|DAPB_METJA -              0.029   13.3   0.4     0.067   12.1   0.4   1.7   1   1   0   1   1   1   0 3-beta hydroxysteroid dehydrogenase/isomerase family
+RmlD_sub_bind        PF04321.16 sp|Q57865|DAPB_METJA -              0.059   12.4   0.1      0.16   10.9   0.0   1.7   1   1   0   1   1   1   0 RmlD substrate binding domain
+DUF531               PF04407.11 sp|Q57865|DAPB_METJA -              0.082   12.9   0.4      0.53   10.3   0.1   2.2   1   1   1   2   2   2   0 Protein of unknown function (DUF531)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q57865.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q57865.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q57865.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:38:57 2019
+# [ok]

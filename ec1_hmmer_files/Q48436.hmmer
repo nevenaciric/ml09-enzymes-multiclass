@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q48436|BUDC_KLEPN -            4.8e-63  212.0   3.0   5.7e-63  211.8   3.0   1.0   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q48436|BUDC_KLEPN -            2.3e-61  207.3   2.5   3.1e-61  206.8   2.5   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q48436|BUDC_KLEPN -            1.7e-13   50.8   1.0   2.4e-13   50.3   1.0   1.2   1   0   0   1   1   1   1 KR domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q48436|BUDC_KLEPN -            0.00024   21.3   0.6   0.00044   20.4   0.6   1.4   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+3Beta_HSD            PF01073.18 sp|Q48436|BUDC_KLEPN -             0.0014   17.6   0.4     0.002   17.0   0.4   1.2   1   0   0   1   1   1   1 3-beta hydroxysteroid dehydrogenase/isomerase family
+3HCDH_N              PF02737.17 sp|Q48436|BUDC_KLEPN -              0.018   14.8   1.8     0.031   14.1   1.8   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q48436|BUDC_KLEPN -              0.074   13.5   1.9      0.16   12.5   1.9   1.5   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+Epimerase            PF01370.20 sp|Q48436|BUDC_KLEPN -              0.079   12.3   0.9      0.12   11.8   0.9   1.4   1   1   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+Ldh_1_N              PF00056.22 sp|Q48436|BUDC_KLEPN -              0.079   12.9   1.0      0.16   11.9   1.0   1.6   1   0   0   1   1   1   0 lactate/malate dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q48436.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q48436.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q48436.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:32:29 2019
+# [ok]

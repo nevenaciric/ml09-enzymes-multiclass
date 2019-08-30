@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ELFV_dehydrog        PF00208.20 sp|Q9HRM7|DHE4_HALSA -            1.3e-74  250.9   0.9   1.7e-74  250.5   0.9   1.2   1   0   0   1   1   1   1 Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+ELFV_dehydrog_N      PF02812.17 sp|Q9HRM7|DHE4_HALSA -            8.4e-55  184.1   0.0   1.5e-54  183.2   0.0   1.4   1   0   0   1   1   1   1 Glu/Leu/Phe/Val dehydrogenase, dimerisation domain
+2-Hacid_dh_C         PF02826.18 sp|Q9HRM7|DHE4_HALSA -             0.0042   16.4   0.0    0.0087   15.3   0.0   1.5   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+IlvN                 PF07991.11 sp|Q9HRM7|DHE4_HALSA -              0.026   14.0   0.0     0.038   13.4   0.0   1.4   1   0   0   1   1   1   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+CoA_transf_3         PF02515.16 sp|Q9HRM7|DHE4_HALSA -              0.033   13.2   0.3     0.033   13.2   0.3   1.9   2   0   0   2   2   2   0 CoA-transferase family III
+3HCDH_N              PF02737.17 sp|Q9HRM7|DHE4_HALSA -               0.79    9.5   4.8         6    6.6   4.8   2.2   1   1   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9HRM7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9HRM7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9HRM7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:27:25 2019
+# [ok]

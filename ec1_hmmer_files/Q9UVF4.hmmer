@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q9UVF4|GPD1_YARLI -            1.8e-51  174.1   0.3   3.4e-51  173.2   0.1   1.5   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q9UVF4|GPD1_YARLI -            2.9e-41  140.9   0.1   5.4e-41  140.1   0.1   1.5   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+Semialdhyde_dh       PF01118.23 sp|Q9UVF4|GPD1_YARLI -             0.0013   19.1   0.0    0.0088   16.4   0.0   2.1   2   0   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q9UVF4|GPD1_YARLI -              0.035   14.6   0.0      0.59   10.6   0.0   2.4   1   1   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9UVF4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9UVF4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9UVF4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:34:35 2019
+# [ok]

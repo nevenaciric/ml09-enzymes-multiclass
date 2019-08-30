@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A8MGE1|HEM1_ALKOO -            1.2e-36  125.4   0.1     2e-36  124.7   0.1   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A8MGE1|HEM1_ALKOO -            1.2e-22   80.3   0.2   2.7e-22   79.2   0.2   1.6   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|A8MGE1|HEM1_ALKOO -             0.0034   17.8   0.0     0.017   15.6   0.0   2.2   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+Glu_dehyd_C          PF16912.4  sp|A8MGE1|HEM1_ALKOO -              0.027   13.8   0.0     0.048   13.0   0.0   1.4   1   0   0   1   1   1   0 Glucose dehydrogenase C-terminus
+NAD_binding_2        PF03446.14 sp|A8MGE1|HEM1_ALKOO -              0.043   13.9   0.3      0.13   12.3   0.0   2.0   3   0   0   3   3   3   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|A8MGE1|HEM1_ALKOO -              0.067   13.0   0.2      0.93    9.2   0.1   2.2   1   1   1   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_10       PF13460.5  sp|A8MGE1|HEM1_ALKOO -              0.087   12.6   0.0      0.24   11.2   0.0   1.7   2   0   0   2   2   2   0 NAD(P)H-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A8MGE1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A8MGE1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A8MGE1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:43:36 2019
+# [ok]

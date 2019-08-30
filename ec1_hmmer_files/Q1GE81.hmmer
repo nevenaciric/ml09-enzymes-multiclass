@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|Q1GE81|ILVC_RUEST -            3.6e-70  234.7   0.4     6e-70  234.0   0.4   1.3   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|Q1GE81|ILVC_RUEST -            2.6e-63  212.5   0.1   3.9e-63  211.9   0.1   1.3   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|Q1GE81|ILVC_RUEST -            1.8e-06   27.3   0.0   3.1e-06   26.6   0.0   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q1GE81|ILVC_RUEST -            3.1e-06   27.6   0.1   6.4e-06   26.6   0.1   1.5   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+AdoHcyase_NAD        PF00670.20 sp|Q1GE81|ILVC_RUEST -            0.00043   20.3   0.0   0.00077   19.5   0.0   1.3   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|Q1GE81|ILVC_RUEST -             0.0085   16.2   0.1     0.021   14.9   0.0   1.6   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+CoA_binding          PF02629.18 sp|Q1GE81|ILVC_RUEST -              0.035   14.7   0.0     0.078   13.6   0.0   1.6   1   0   0   1   1   1   0 CoA binding domain
+NAD_binding_7        PF13241.5  sp|Q1GE81|ILVC_RUEST -              0.056   13.8   0.0      0.12   12.7   0.0   1.5   1   0   0   1   1   1   0 Putative NAD(P)-binding
+Shikimate_DH         PF01488.19 sp|Q1GE81|ILVC_RUEST -               0.14   12.1   0.0      0.32   11.0   0.0   1.5   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q1GE81.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q1GE81.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q1GE81.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:14:48 2019
+# [ok]

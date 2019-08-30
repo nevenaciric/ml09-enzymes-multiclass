@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|B0U030|GPDA_FRAP2 -            4.7e-51  172.7   0.3   8.4e-51  171.9   0.3   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|B0U030|GPDA_FRAP2 -              4e-40  137.2   0.0   6.7e-40  136.5   0.0   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|B0U030|GPDA_FRAP2 -            2.5e-07   30.4   0.0   5.2e-07   29.3   0.0   1.6   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|B0U030|GPDA_FRAP2 -            8.2e-06   26.2   0.0   6.4e-05   23.4   0.0   2.3   2   1   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|B0U030|GPDA_FRAP2 -             0.0078   16.3   0.0     0.016   15.3   0.0   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|B0U030|GPDA_FRAP2 -              0.015   15.1   0.0     0.026   14.3   0.0   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|B0U030|GPDA_FRAP2 -              0.033   14.2   0.0      0.32   10.9   0.0   2.3   2   1   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+LrgB                 PF04172.15 sp|B0U030|GPDA_FRAP2 -               0.14   11.6   1.2       0.3   10.5   1.2   1.5   1   0   0   1   1   1   0 LrgB-like family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B0U030.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B0U030.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B0U030.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:48:41 2019
+# [ok]

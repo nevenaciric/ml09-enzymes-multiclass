@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DapB_N               PF01113.19 sp|B9IVQ5|DAPB_BACCQ -            7.9e-33  113.1   0.0   1.2e-32  112.5   0.0   1.3   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+DapB_C               PF05173.13 sp|B9IVQ5|DAPB_BACCQ -            1.2e-32  112.4   0.2   1.8e-32  111.8   0.2   1.2   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, C-terminus
+Semialdhyde_dh       PF01118.23 sp|B9IVQ5|DAPB_BACCQ -             0.0013   19.1   0.0    0.0072   16.7   0.0   2.0   1   1   1   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|B9IVQ5|DAPB_BACCQ -             0.0028   18.2   0.0    0.0053   17.3   0.0   1.4   1   0   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+CoA_binding          PF02629.18 sp|B9IVQ5|DAPB_BACCQ -             0.0078   16.8   0.0     0.019   15.5   0.0   1.8   1   1   0   1   1   1   1 CoA binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|B9IVQ5|DAPB_BACCQ -              0.022   14.9   0.0     0.047   13.9   0.0   1.5   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B9IVQ5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B9IVQ5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B9IVQ5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:09:55 2019
+# [ok]

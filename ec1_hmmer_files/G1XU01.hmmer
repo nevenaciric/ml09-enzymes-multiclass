@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|G1XU01|AR280_ARTOA -              1e-61  209.1   0.0   1.3e-61  208.7   0.0   1.0   1   0   0   1   1   1   1 Cytochrome P450
+DUF4538              PF15061.5  sp|G1XU01|AR280_ARTOA -             0.0034   17.0   1.4      0.11   12.1   0.4   2.9   3   0   0   3   3   3   1 Domain of unknown function (DUF4538)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/G1XU01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/G1XU01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/G1XU01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:18:49 2019
+# [ok]

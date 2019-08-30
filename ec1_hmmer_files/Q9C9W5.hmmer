@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-Hacid_dh_C         PF02826.18 sp|Q9C9W5|HPR1_ARATH -            1.7e-46  157.7   0.3   1.9e-45  154.3   0.3   2.0   1   1   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+2-Hacid_dh           PF00389.29 sp|Q9C9W5|HPR1_ARATH -            3.5e-18   65.5   0.0   4.5e-18   65.1   0.0   1.1   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain
+AlaDh_PNT_C          PF01262.20 sp|Q9C9W5|HPR1_ARATH -            0.00072   18.8   0.0    0.0021   17.3   0.0   1.7   3   0   0   3   3   3   1 Alanine dehydrogenase/PNT, C-terminal domain
+NAD_binding_2        PF03446.14 sp|Q9C9W5|HPR1_ARATH -             0.0012   19.0   0.0     0.002   18.2   0.0   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Peripla_BP_2         PF01497.17 sp|Q9C9W5|HPR1_ARATH -               0.06   12.8   0.0      0.11   11.9   0.0   1.4   1   0   0   1   1   1   0 Periplasmic binding protein
+NAD_Gly3P_dh_N       PF01210.22 sp|Q9C9W5|HPR1_ARATH -               0.11   12.4   0.0      0.22   11.4   0.0   1.5   1   0   0   1   1   1   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+3HCDH_N              PF02737.17 sp|Q9C9W5|HPR1_ARATH -               0.12   12.1   0.0      0.35   10.6   0.0   1.8   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Fibrillarin          PF01269.16 sp|Q9C9W5|HPR1_ARATH -               0.16   11.0   0.0      0.24   10.4   0.0   1.2   1   0   0   1   1   1   0 Fibrillarin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9C9W5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9C9W5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9C9W5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:24:51 2019
+# [ok]

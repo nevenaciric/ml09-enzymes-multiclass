@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|A5IPA9|LDH1_STAA9 -            6.2e-48  162.4   0.1   1.1e-47  161.5   0.1   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|A5IPA9|LDH1_STAA9 -            1.3e-36  126.0   0.0   2.1e-36  125.3   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+NAD_binding_7        PF13241.5  sp|A5IPA9|LDH1_STAA9 -             0.0086   16.4   0.1     0.023   15.0   0.0   1.7   2   0   0   2   2   2   1 Putative NAD(P)-binding
+Shikimate_DH         PF01488.19 sp|A5IPA9|LDH1_STAA9 -               0.04   13.9   0.0     0.095   12.7   0.0   1.7   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+ThiF                 PF00899.20 sp|A5IPA9|LDH1_STAA9 -               0.05   12.9   0.0     0.084   12.1   0.0   1.3   1   0   0   1   1   1   0 ThiF family
+Semialdhyde_dh       PF01118.23 sp|A5IPA9|LDH1_STAA9 -              0.077   13.3   0.1      0.95    9.8   0.0   2.3   2   1   0   2   2   2   0 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A5IPA9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A5IPA9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A5IPA9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:34:25 2019
+# [ok]

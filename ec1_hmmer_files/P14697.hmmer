@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P14697|PHAB_CUPNH -            5.1e-65  218.5   0.7   5.9e-65  218.3   0.7   1.0   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P14697|PHAB_CUPNH -            2.6e-58  197.2   0.2   3.2e-58  197.0   0.2   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P14697|PHAB_CUPNH -            1.2e-20   74.1   0.1   1.6e-20   73.7   0.1   1.1   1   0   0   1   1   1   1 KR domain
+NAD_binding_10       PF13460.5  sp|P14697|PHAB_CUPNH -            2.2e-06   27.6   1.6     4e-06   26.8   1.6   1.4   1   1   0   1   1   1   1 NAD(P)H-binding
+Epimerase            PF01370.20 sp|P14697|PHAB_CUPNH -            4.7e-06   26.1   0.0   7.2e-06   25.5   0.0   1.4   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+DUF4177              PF13783.5  sp|P14697|PHAB_CUPNH -              0.007   16.5   0.0       2.3    8.5   0.0   2.5   2   0   0   2   2   2   1 Domain of unknown function (DUF4177)
+Sacchrp_dh_NADP      PF03435.17 sp|P14697|PHAB_CUPNH -              0.044   13.9   0.0     0.081   13.1   0.0   1.5   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+F420_oxidored        PF03807.16 sp|P14697|PHAB_CUPNH -              0.052   14.0   0.1      0.13   12.7   0.0   2.0   2   1   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+Glyco_transf_5       PF08323.10 sp|P14697|PHAB_CUPNH -              0.071   12.7   0.0       2.1    7.9   0.0   2.1   2   0   0   2   2   2   0 Starch synthase catalytic domain
+3Beta_HSD            PF01073.18 sp|P14697|PHAB_CUPNH -              0.087   11.7   0.1      0.13   11.1   0.1   1.3   1   0   0   1   1   1   0 3-beta hydroxysteroid dehydrogenase/isomerase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P14697.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P14697.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P14697.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:36:39 2019
+# [ok]

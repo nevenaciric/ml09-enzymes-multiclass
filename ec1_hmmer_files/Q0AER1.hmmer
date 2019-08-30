@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DapB_C               PF05173.13 sp|Q0AER1|DAPB_NITEC -              4e-44  149.4   0.2     6e-44  148.9   0.2   1.3   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, C-terminus
+DapB_N               PF01113.19 sp|Q0AER1|DAPB_NITEC -            4.3e-38  130.1   0.4   7.5e-37  126.1   0.0   2.2   2   0   0   2   2   2   1 Dihydrodipicolinate reductase, N-terminus
+Sacchrp_dh_NADP      PF03435.17 sp|Q0AER1|DAPB_NITEC -             0.0087   16.2   0.0     0.029   14.5   0.0   1.9   2   1   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q0AER1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q0AER1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q0AER1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:07:00 2019
+# [ok]

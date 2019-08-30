@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DapB_C               PF05173.13 sp|A9KC25|DAPB_COXBN -            2.1e-32  111.6   0.0   3.1e-32  111.1   0.0   1.2   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, C-terminus
+DapB_N               PF01113.19 sp|A9KC25|DAPB_COXBN -            2.1e-24   85.9   1.5   1.9e-23   82.8   1.5   2.2   1   1   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+Gp_dh_N              PF00044.23 sp|A9KC25|DAPB_COXBN -              0.083   13.1   0.2      0.17   12.2   0.2   1.5   1   0   0   1   1   1   0 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A9KC25.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A9KC25.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A9KC25.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:45:05 2019
+# [ok]

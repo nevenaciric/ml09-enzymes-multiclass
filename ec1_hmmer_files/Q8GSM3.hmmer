@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lipoxygenase         PF00305.18 sp|Q8GSM3|LOX22_HORVU -           1.9e-298  991.5   0.0  2.2e-298  991.2   0.0   1.1   1   0   0   1   1   1   1 Lipoxygenase
+PLAT                 PF01477.22 sp|Q8GSM3|LOX22_HORVU -             0.0003   21.2   0.0   0.00096   19.6   0.0   2.0   2   0   0   2   2   2   1 PLAT/LH2 domain
+NESP55               PF06390.11 sp|Q8GSM3|LOX22_HORVU -               0.16   11.5   2.8        10    5.5   1.3   2.3   2   0   0   2   2   2   0 Neuroendocrine-specific golgi protein P55 (NESP55)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8GSM3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8GSM3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8GSM3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:12:08 2019
+# [ok]

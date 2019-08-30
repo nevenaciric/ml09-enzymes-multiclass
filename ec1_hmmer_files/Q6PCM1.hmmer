@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+JmjC                 PF02373.21 sp|Q6PCM1|KDM3A_MOUSE -            7.3e-18   65.0   0.0   2.5e-17   63.2   0.0   2.0   2   0   0   2   2   2   1 JmjC domain, hydroxylase
+C1_2                 PF03107.15 sp|Q6PCM1|KDM3A_MOUSE -              0.011   15.9   4.3      0.04   14.2   4.3   2.0   1   0   0   1   1   1   0 C1 domain
+zf-UDP               PF14569.5  sp|Q6PCM1|KDM3A_MOUSE -              0.096   12.7   5.7      0.13   12.3   3.3   2.4   2   0   0   2   2   2   0 Zinc-binding RING-finger
+Cupin_2              PF07883.10 sp|Q6PCM1|KDM3A_MOUSE -               0.17   11.5   0.0      0.43   10.2   0.0   1.6   1   0   0   1   1   1   0 Cupin domain
+zf-C5HC2             PF02928.15 sp|Q6PCM1|KDM3A_MOUSE -                  3    8.2   7.4        12    6.3   7.4   2.1   1   0   0   1   1   1   0 C5HC2 zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6PCM1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6PCM1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6PCM1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:56:36 2019
+# [ok]

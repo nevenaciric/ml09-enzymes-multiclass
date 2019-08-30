@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mqo                  PF06039.14 sp|Q2SF51|MQO_HAHCH  -             7e-232  770.2   0.0  7.9e-232  770.0   0.0   1.0   1   0   0   1   1   1   1 Malate:quinone oxidoreductase (Mqo)
+FAD_binding_3        PF01494.18 sp|Q2SF51|MQO_HAHCH  -             0.0052   16.0   0.0     0.079   12.1   0.0   2.1   2   0   0   2   2   2   1 FAD binding domain
+Pyr_redox            PF00070.26 sp|Q2SF51|MQO_HAHCH  -              0.062   13.8   0.1       2.8    8.5   0.0   2.8   3   0   0   3   3   3   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2SF51.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2SF51.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2SF51.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:22:42 2019
+# [ok]

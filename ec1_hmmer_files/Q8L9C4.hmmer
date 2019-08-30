@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q8L9C4|KCR1_ARATH -            3.3e-43  147.3   0.1   4.3e-43  147.0   0.1   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q8L9C4|KCR1_ARATH -              5e-27   94.9   0.0   6.6e-27   94.5   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q8L9C4|KCR1_ARATH -            2.9e-06   27.2   0.0     4e-06   26.8   0.0   1.1   1   0   0   1   1   1   1 KR domain
+Polysacc_synt_2      PF02719.14 sp|Q8L9C4|KCR1_ARATH -             0.0011   18.1   0.0    0.0015   17.7   0.0   1.1   1   0   0   1   1   1   1 Polysaccharide biosynthesis protein
+POTRA                PF07244.14 sp|Q8L9C4|KCR1_ARATH -              0.015   15.8   0.1       3.2    8.3   0.0   2.3   2   0   0   2   2   2   0 Surface antigen variable number repeat
+NAD_binding_10       PF13460.5  sp|Q8L9C4|KCR1_ARATH -              0.047   13.5   0.0     0.064   13.1   0.0   1.3   1   0   0   1   1   1   0 NAD(P)H-binding
+3HCDH_N              PF02737.17 sp|Q8L9C4|KCR1_ARATH -               0.15   11.8   0.0      0.43   10.3   0.0   1.7   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8L9C4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8L9C4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8L9C4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:13:27 2019
+# [ok]

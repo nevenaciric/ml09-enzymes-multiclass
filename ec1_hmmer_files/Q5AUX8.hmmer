@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|Q5AUX8|DBAH_EMENI -            3.8e-20   72.4   0.9   1.6e-19   70.3   0.9   2.1   1   1   0   1   1   1   1 FAD binding domain
+NAD_binding_9        PF13454.5  sp|Q5AUX8|DBAH_EMENI -            0.00046   20.1   0.3    0.0041   17.0   0.3   2.5   1   1   0   1   1   1   1 FAD-NAD(P)-binding
+NAD_binding_8        PF13450.5  sp|Q5AUX8|DBAH_EMENI -             0.0021   18.2   0.7    0.0058   16.7   0.7   1.8   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox            PF00070.26 sp|Q5AUX8|DBAH_EMENI -             0.0046   17.4   2.1     0.046   14.2   0.4   2.5   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+DAO                  PF01266.23 sp|Q5AUX8|DBAH_EMENI -              0.017   14.6   2.7      0.04   13.4   2.5   1.7   2   0   0   2   2   2   0 FAD dependent oxidoreductase
+Pyr_redox_2          PF07992.13 sp|Q5AUX8|DBAH_EMENI -              0.019   14.1   2.7     0.023   13.8   0.1   2.2   3   0   0   3   3   3   0 Pyridine nucleotide-disulphide oxidoreductase
+SE                   PF08491.9  sp|Q5AUX8|DBAH_EMENI -              0.029   13.3   0.0     0.091   11.7   0.0   1.7   2   0   0   2   2   2   0 Squalene epoxidase
+Trp_halogenase       PF04820.13 sp|Q5AUX8|DBAH_EMENI -              0.039   12.7   0.8       3.5    6.3   0.8   2.2   2   0   0   2   2   2   0 Tryptophan halogenase
+3HCDH_N              PF02737.17 sp|Q5AUX8|DBAH_EMENI -               0.15   11.8   0.4      0.25   11.1   0.4   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5AUX8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5AUX8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5AUX8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:40:33 2019
+# [ok]

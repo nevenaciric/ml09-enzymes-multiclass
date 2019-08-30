@@ -1,0 +1,32 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHquinase_I          PF01487.14 sp|Q9SQT8|DHQSD_ARATH -              7e-71  239.0   0.0   1.1e-70  238.4   0.0   1.3   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+Shikimate_dh_N       PF08501.10 sp|Q9SQT8|DHQSD_ARATH -            8.3e-28   96.4   0.0   1.9e-27   95.2   0.0   1.7   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Shikimate_DH         PF01488.19 sp|Q9SQT8|DHQSD_ARATH -            6.8e-12   45.5   0.0   2.3e-11   43.8   0.0   1.9   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+FAD_binding_2        PF00890.23 sp|Q9SQT8|DHQSD_ARATH -            4.9e-07   29.1   0.2   7.3e-07   28.5   0.2   1.2   1   0   0   1   1   1   1 FAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q9SQT8|DHQSD_ARATH -            8.1e-07   29.3   0.1    0.0003   20.9   0.1   2.6   2   0   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+F420_oxidored        PF03807.16 sp|Q9SQT8|DHQSD_ARATH -            3.7e-06   27.3   2.5   6.9e-06   26.5   0.7   2.4   2   1   0   2   2   1   1 NADP oxidoreductase coenzyme F420-dependent
+IlvN                 PF07991.11 sp|Q9SQT8|DHQSD_ARATH -            5.9e-05   22.6   0.0   9.8e-05   21.9   0.0   1.4   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+adh_short            PF00106.24 sp|Q9SQT8|DHQSD_ARATH -              0.001   18.5   1.3    0.0019   17.6   0.4   1.8   2   0   0   2   2   2   1 short chain dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|Q9SQT8|DHQSD_ARATH -             0.0013   18.0   0.0    0.0024   17.1   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Pyr_redox_2          PF07992.13 sp|Q9SQT8|DHQSD_ARATH -             0.0015   17.7   0.1    0.0022   17.2   0.1   1.2   1   0   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+GIDA                 PF01134.21 sp|Q9SQT8|DHQSD_ARATH -             0.0018   17.3   0.3    0.0031   16.6   0.3   1.4   1   0   0   1   1   1   1 Glucose inhibited division protein A
+AlaDh_PNT_C          PF01262.20 sp|Q9SQT8|DHQSD_ARATH -             0.0022   17.3   0.0    0.0046   16.2   0.0   1.5   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+AdoHcyase_NAD        PF00670.20 sp|Q9SQT8|DHQSD_ARATH -             0.0075   16.3   0.6     0.059   13.3   0.0   2.2   2   0   0   2   2   2   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|Q9SQT8|DHQSD_ARATH -               0.03   14.4   0.0     0.076   13.1   0.0   1.7   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+AP_endonuc_2         PF01261.23 sp|Q9SQT8|DHQSD_ARATH -               0.03   13.7   0.0      0.13   11.5   0.0   2.1   2   1   0   2   2   2   0 Xylose isomerase-like TIM barrel
+NAD_binding_7        PF13241.5  sp|Q9SQT8|DHQSD_ARATH -              0.049   14.0   0.0      0.13   12.6   0.0   1.7   1   0   0   1   1   1   0 Putative NAD(P)-binding
+HI0933_like          PF03486.13 sp|Q9SQT8|DHQSD_ARATH -               0.15   10.6   1.2      0.22   10.1   1.2   1.2   1   0   0   1   1   1   0 HI0933-like protein
+3HCDH_N              PF02737.17 sp|Q9SQT8|DHQSD_ARATH -               0.17   11.6   0.3      0.36   10.6   0.3   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+FAD_oxidored         PF12831.6  sp|Q9SQT8|DHQSD_ARATH -                1.1    8.4   3.1       1.7    7.8   3.1   1.2   1   0   0   1   1   1   0 FAD dependent oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9SQT8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9SQT8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9SQT8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:33:25 2019
+# [ok]

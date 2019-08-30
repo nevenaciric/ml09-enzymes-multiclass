@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_zinc_N           PF00107.25 sp|P41681|ADH6_PERMA -            1.9e-26   92.4   0.5   3.5e-25   88.3   0.1   2.4   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+ADH_N                PF08240.11 sp|P41681|ADH6_PERMA -            1.2e-25   89.4   7.9   6.9e-25   86.9   7.9   2.2   1   1   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+Glu_dehyd_C          PF16912.4  sp|P41681|ADH6_PERMA -            1.5e-06   27.7   0.0   2.9e-06   26.8   0.0   1.4   1   1   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N_2         PF13602.5  sp|P41681|ADH6_PERMA -             0.0023   18.9   0.0    0.0039   18.1   0.0   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+UDPG_MGDP_dh_N       PF03721.13 sp|P41681|ADH6_PERMA -             0.0079   15.7   0.7     0.042   13.3   0.7   2.1   1   1   1   2   2   2   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|P41681|ADH6_PERMA -              0.018   14.3   0.0     0.034   13.4   0.0   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|P41681|ADH6_PERMA -               0.04   14.3   0.0     0.093   13.1   0.0   1.5   1   0   0   1   1   1   0 Putative NAD(P)-binding
+Asp_decarbox         PF02261.15 sp|P41681|ADH6_PERMA -              0.073   12.9   0.0      0.18   11.6   0.0   1.6   1   0   0   1   1   1   0 Aspartate decarboxylase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P41681.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P41681.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P41681.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:46:19 2019
+# [ok]

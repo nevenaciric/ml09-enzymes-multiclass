@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Flavodoxin_1         PF00258.24 sp|Q5E841|CYSJ_ALIF1 -            5.2e-30  104.4   0.2     1e-27   97.0   0.1   2.5   2   0   0   2   2   2   1 Flavodoxin
+FAD_binding_1        PF00667.19 sp|Q5E841|CYSJ_ALIF1 -              4e-29  101.7   0.0   9.4e-29  100.5   0.0   1.6   1   1   0   1   1   1   1 FAD binding domain
+NAD_binding_1        PF00175.20 sp|Q5E841|CYSJ_ALIF1 -            2.3e-19   70.0   0.0   1.3e-18   67.5   0.0   2.4   3   0   0   3   3   3   1 Oxidoreductase NAD-binding domain
+Flavodoxin_5         PF12724.6  sp|Q5E841|CYSJ_ALIF1 -            0.00016   21.8   0.6   0.00056   20.1   0.1   2.2   2   0   0   2   2   2   1 Flavodoxin domain
+Flavodoxin_3         PF12641.6  sp|Q5E841|CYSJ_ALIF1 -            0.00068   19.3   0.0    0.0017   17.9   0.0   1.7   1   0   0   1   1   1   1 Flavodoxin domain
+FMN_red              PF03358.14 sp|Q5E841|CYSJ_ALIF1 -              0.014   15.1   0.1     0.035   13.7   0.1   1.7   1   0   0   1   1   1   0 NADPH-dependent FMN reductase
+SBP_bac_5            PF00496.21 sp|Q5E841|CYSJ_ALIF1 -              0.032   13.1   1.2       1.7    7.4   0.1   2.4   2   0   0   2   2   2   0 Bacterial extracellular solute-binding proteins, family 5 Middle
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5E841.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5E841.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5E841.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:41:05 2019
+# [ok]

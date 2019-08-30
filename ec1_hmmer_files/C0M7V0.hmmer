@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|C0M7V0|FOLD_STRE4 -            1.6e-71  238.7   1.4   1.6e-71  238.7   0.3   1.5   2   0   0   2   2   2   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|C0M7V0|FOLD_STRE4 -            2.2e-41  140.7   1.0   3.1e-41  140.2   1.0   1.2   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+FAD_binding_4        PF01565.22 sp|C0M7V0|FOLD_STRE4 -              0.015   14.9   0.1     0.031   13.9   0.1   1.5   1   0   0   1   1   1   0 FAD binding domain
+Semialdhyde_dh       PF01118.23 sp|C0M7V0|FOLD_STRE4 -              0.071   13.5   0.1      0.44   10.9   0.1   2.1   1   1   0   1   1   1   0 Semialdehyde dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|C0M7V0|FOLD_STRE4 -              0.073   13.0   0.0       0.2   11.6   0.0   1.8   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+adh_short            PF00106.24 sp|C0M7V0|FOLD_STRE4 -              0.094   12.1   0.1       0.8    9.0   0.0   2.1   1   1   1   2   2   2   0 short chain dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C0M7V0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C0M7V0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C0M7V0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:11:00 2019
+# [ok]

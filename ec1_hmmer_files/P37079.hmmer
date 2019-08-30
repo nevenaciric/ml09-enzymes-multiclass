@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P37079|SORD_KLEPN -            4.4e-57  192.6   0.2   5.5e-57  192.3   0.2   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P37079|SORD_KLEPN -            3.3e-46  157.6   0.5     1e-45  156.0   0.5   1.7   1   1   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P37079|SORD_KLEPN -            4.2e-11   43.0   3.7   2.4e-09   37.3   3.7   2.5   1   1   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|P37079|SORD_KLEPN -            2.7e-05   23.7   0.2   5.9e-05   22.5   0.2   1.6   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+GDP_Man_Dehyd        PF16363.4  sp|P37079|SORD_KLEPN -              0.036   13.3   0.9       8.7    5.5   0.8   2.6   2   1   0   2   2   2   0 GDP-mannose 4,6 dehydratase
+Lycopene_cycl        PF05834.11 sp|P37079|SORD_KLEPN -              0.036   13.0   0.1     0.065   12.2   0.1   1.3   1   0   0   1   1   1   0 Lycopene cyclase protein
+DFP                  PF04127.14 sp|P37079|SORD_KLEPN -                0.1   12.3   0.1      0.27   10.9   0.0   1.6   2   0   0   2   2   2   0 DNA / pantothenate metabolism flavoprotein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P37079.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P37079.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P37079.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:44:34 2019
+# [ok]

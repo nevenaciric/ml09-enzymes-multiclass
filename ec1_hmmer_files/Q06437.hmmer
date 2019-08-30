@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1_dh                PF00676.19 sp|Q06437|ODPAT_RAT  -           1.5e-119  398.3   0.0  1.8e-119  398.1   0.0   1.0   1   0   0   1   1   1   1 Dehydrogenase E1 component
+TPP_enzyme_C         PF02775.20 sp|Q06437|ODPAT_RAT  -             0.0065   16.2   0.6     0.011   15.4   0.6   1.5   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+DXP_synthase_N       PF13292.5  sp|Q06437|ODPAT_RAT  -              0.012   14.7   0.0      0.02   14.0   0.0   1.3   1   0   0   1   1   1   0 1-deoxy-D-xylulose-5-phosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q06437.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q06437.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q06437.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:05:21 2019
+# [ok]

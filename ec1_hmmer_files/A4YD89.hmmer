@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A4YD89|HEM1_METS5 -            3.2e-32  111.0   0.1   5.7e-32  110.2   0.1   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+GlutR_dimer          PF00745.19 sp|A4YD89|HEM1_METS5 -            2.1e-18   66.4   0.2   5.3e-18   65.1   0.2   1.7   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+Shikimate_DH         PF01488.19 sp|A4YD89|HEM1_METS5 -            9.7e-16   58.0   0.0   6.1e-15   55.4   0.0   2.4   1   1   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|A4YD89|HEM1_METS5 -            9.6e-06   26.0   0.0   5.3e-05   23.6   0.0   2.3   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|A4YD89|HEM1_METS5 -              0.013   14.8   0.0     0.024   13.9   0.0   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|A4YD89|HEM1_METS5 -              0.019   15.1   0.0     0.085   12.9   0.0   2.2   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+ApbA                 PF02558.15 sp|A4YD89|HEM1_METS5 -              0.025   14.1   0.1     0.061   12.9   0.1   1.6   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+ELFV_dehydrog        PF00208.20 sp|A4YD89|HEM1_METS5 -              0.029   14.0   0.1       0.2   11.2   0.1   2.3   2   0   0   2   2   2   0 Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|A4YD89|HEM1_METS5 -              0.034   14.3   0.1      0.44   10.7   0.0   2.6   3   0   0   3   3   3   0 Saccharopine dehydrogenase NADP binding domain
+IlvN                 PF07991.11 sp|A4YD89|HEM1_METS5 -              0.042   13.3   0.0      0.08   12.4   0.0   1.5   1   0   0   1   1   1   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+THF_DHG_CYH_C        PF02882.18 sp|A4YD89|HEM1_METS5 -              0.049   12.8   0.0       2.6    7.3   0.0   2.2   2   0   0   2   2   2   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+Ldh_1_N              PF00056.22 sp|A4YD89|HEM1_METS5 -               0.09   12.8   0.0      0.22   11.5   0.0   1.6   1   0   0   1   1   1   0 lactate/malate dehydrogenase, NAD binding domain
+NAD_Gly3P_dh_N       PF01210.22 sp|A4YD89|HEM1_METS5 -               0.11   12.4   0.0      0.28   11.1   0.0   1.7   1   0   0   1   1   1   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4YD89.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4YD89.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4YD89.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:32:36 2019
+# [ok]

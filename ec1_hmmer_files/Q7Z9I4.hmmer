@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q7Z9I4|YCP6_SCHPO -              8e-36  123.2   0.0     1e-35  122.9   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q7Z9I4|YCP6_SCHPO -            1.3e-28  100.1   0.0   1.5e-28   99.9   0.0   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q7Z9I4|YCP6_SCHPO -            9.4e-12   45.1   0.1   2.1e-11   43.9   0.0   1.6   1   1   1   2   2   2   1 KR domain
+NAD_binding_10       PF13460.5  sp|Q7Z9I4|YCP6_SCHPO -            2.4e-07   30.7   0.0   3.6e-07   30.2   0.0   1.3   1   1   0   1   1   1   1 NAD(P)H-binding
+DUF1776              PF08643.9  sp|Q7Z9I4|YCP6_SCHPO -              7e-05   22.2   0.1    0.0001   21.7   0.1   1.4   1   1   0   1   1   1   1 Fungal family of unknown function (DUF1776)
+F420_oxidored        PF03807.16 sp|Q7Z9I4|YCP6_SCHPO -              0.052   14.0   0.3      0.24   11.9   0.1   2.2   2   1   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7Z9I4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7Z9I4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7Z9I4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:04:16 2019
+# [ok]

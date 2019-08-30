@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+POR_N                PF01855.18 sp|O29781|KORA_ARCFU -            4.2e-70  236.0   2.4   7.8e-70  235.1   2.4   1.4   1   1   0   1   1   1   1 Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg
+PFOR_II              PF17147.3  sp|O29781|KORA_ARCFU -              1e-16   61.0   0.0   2.4e-16   59.8   0.0   1.5   1   0   0   1   1   1   1 Pyruvate:ferredoxin oxidoreductase core domain II
+Transketolase_C      PF02780.19 sp|O29781|KORA_ARCFU -            2.2e-07   30.7   0.0   4.3e-07   29.8   0.0   1.4   1   0   0   1   1   1   1 Transketolase, C-terminal domain
+TPP_enzyme_N         PF02776.17 sp|O29781|KORA_ARCFU -               0.08   12.4   2.0      0.16   11.5   2.0   1.6   1   1   0   1   1   1   0 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O29781.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O29781.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O29781.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:22:53 2019
+# [ok]

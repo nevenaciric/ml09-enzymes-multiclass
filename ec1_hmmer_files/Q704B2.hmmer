@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q704B2|MDH_THETK  -              1e-39  135.7   0.4   1.4e-39  135.3   0.4   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q704B2|MDH_THETK  -            9.2e-16   58.1   0.0   2.4e-15   56.8   0.0   1.6   2   0   0   2   2   2   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|Q704B2|MDH_THETK  -            7.5e-05   22.3   0.0   0.00023   20.7   0.0   1.8   2   0   0   2   2   2   1 Family 4 glycosyl hydrolase
+UDPG_MGDP_dh_N       PF03721.13 sp|Q704B2|MDH_THETK  -             0.0073   15.8   2.1     0.017   14.6   2.1   1.7   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+PEP_hydrolase        PF09370.9  sp|Q704B2|MDH_THETK  -                0.1   11.7   0.0      0.19   10.8   0.0   1.4   1   0   0   1   1   1   0 Phosphoenolpyruvate hydrolase-like
+FAD_binding_3        PF01494.18 sp|Q704B2|MDH_THETK  -               0.67    9.1   2.1         1    8.4   2.1   1.2   1   0   0   1   1   1   0 FAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q704B2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q704B2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q704B2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:57:47 2019
+# [ok]

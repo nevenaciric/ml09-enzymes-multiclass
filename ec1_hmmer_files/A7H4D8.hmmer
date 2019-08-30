@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GcpE                 PF04551.13 sp|A7H4D8|ISPG_CAMJD -           2.9e-125  417.9   1.2  3.4e-125  417.7   1.2   1.0   1   0   0   1   1   1   1 GcpE protein
+POTRA_3              PF17287.1  sp|A7H4D8|ISPG_CAMJD -               0.07   12.5   0.0      0.26   10.6   0.0   1.9   2   0   0   2   2   2   0 POTRA domain
+zf-RING_7            PF02591.14 sp|A7H4D8|ISPG_CAMJD -               0.11   12.5   1.7      0.15   12.2   0.1   2.1   2   0   0   2   2   2   0 C4-type zinc ribbon domain
+zf-H2C2              PF09337.9  sp|A7H4D8|ISPG_CAMJD -                2.6    8.3   5.0      0.43   10.8   0.3   2.1   2   0   0   2   2   2   0 His(2)-Cys(2) zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7H4D8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7H4D8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7H4D8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:39:03 2019
+# [ok]

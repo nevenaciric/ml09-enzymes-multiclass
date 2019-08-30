@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q7FAE1|MOMAS_ORYSJ -            6.6e-66  222.1   5.2   7.9e-66  221.9   5.2   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q7FAE1|MOMAS_ORYSJ -            7.7e-53  178.8   0.7     1e-52  178.4   0.7   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q7FAE1|MOMAS_ORYSJ -            7.8e-10   38.8   0.7   1.6e-09   37.8   0.7   1.5   1   1   0   1   1   1   1 KR domain
+HI0933_like          PF03486.13 sp|Q7FAE1|MOMAS_ORYSJ -              0.001   17.7   0.4      0.91    8.0   1.2   2.2   1   1   1   2   2   2   2 HI0933-like protein
+Epimerase            PF01370.20 sp|Q7FAE1|MOMAS_ORYSJ -             0.0023   17.3   0.1     0.031   13.6   0.1   2.1   2   0   0   2   2   2   1 NAD dependent epimerase/dehydratase family
+Sacchrp_dh_NADP      PF03435.17 sp|Q7FAE1|MOMAS_ORYSJ -              0.013   15.7   0.2     0.041   14.1   0.2   1.8   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+3Beta_HSD            PF01073.18 sp|Q7FAE1|MOMAS_ORYSJ -              0.035   13.0   0.1     0.063   12.1   0.1   1.4   1   0   0   1   1   1   0 3-beta hydroxysteroid dehydrogenase/isomerase family
+3HCDH_N              PF02737.17 sp|Q7FAE1|MOMAS_ORYSJ -              0.067   13.0   1.5      0.15   11.8   0.3   2.0   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7FAE1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7FAE1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7FAE1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:00:13 2019
+# [ok]

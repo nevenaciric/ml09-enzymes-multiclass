@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q5R5V3|GPD1L_PONAB -            2.5e-52  176.9   1.2   4.6e-52  176.0   0.6   1.7   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q5R5V3|GPD1L_PONAB -            5.9e-50  169.1   0.2   1.5e-49  167.8   0.2   1.7   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|Q5R5V3|GPD1L_PONAB -             0.0059   17.1   0.8      0.22   12.0   0.3   2.9   2   1   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5R5V3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5R5V3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5R5V3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:45:25 2019
+# [ok]

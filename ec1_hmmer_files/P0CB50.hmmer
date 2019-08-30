@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AhpC-TSA             PF00578.20 sp|P0CB50|PRDX1_CHICK -              3e-41  140.1   0.0     5e-41  139.4   0.0   1.3   1   0   0   1   1   1   1 AhpC/TSA family
+1-cysPrx_C           PF10417.8  sp|P0CB50|PRDX1_CHICK -              5e-15   55.0   0.1   9.1e-15   54.1   0.1   1.5   1   0   0   1   1   1   1 C-terminal domain of 1-Cys peroxiredoxin
+Redoxin              PF08534.9  sp|P0CB50|PRDX1_CHICK -            1.5e-14   53.8   0.0   2.2e-14   53.3   0.0   1.1   1   0   0   1   1   1   1 Redoxin
+Endothelin           PF00322.16 sp|P0CB50|PRDX1_CHICK -               0.18   11.3   0.7      0.37   10.3   0.7   1.5   1   0   0   1   1   1   0 Endothelin family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0CB50.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0CB50.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0CB50.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:33:58 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P0AFP4|YBBO_ECOLI -            2.1e-39  134.9   0.0   2.6e-39  134.6   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P0AFP4|YBBO_ECOLI -            9.5e-29  100.5   0.0   1.2e-28  100.2   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P0AFP4|YBBO_ECOLI -              7e-12   45.5   0.0     1e-11   45.0   0.0   1.3   1   0   0   1   1   1   1 KR domain
+NAD_binding_10       PF13460.5  sp|P0AFP4|YBBO_ECOLI -            3.3e-07   30.3   0.0     6e-07   29.5   0.0   1.4   1   1   0   1   1   1   1 NAD(P)H-binding
+DUF1776              PF08643.9  sp|P0AFP4|YBBO_ECOLI -             0.0008   18.8   0.0    0.0027   17.0   0.0   1.7   2   0   0   2   2   2   1 Fungal family of unknown function (DUF1776)
+Eno-Rase_NADH_b      PF12242.7  sp|P0AFP4|YBBO_ECOLI -             0.0062   16.2   0.0     0.014   15.1   0.0   1.5   1   0   0   1   1   1   1 NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0AFP4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0AFP4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0AFP4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:33:12 2019
+# [ok]

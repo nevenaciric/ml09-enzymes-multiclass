@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|B4F2T8|ISPH_PROMH -            1.3e-92  309.7   0.0   1.5e-92  309.5   0.0   1.0   1   0   0   1   1   1   1 LytB protein
+Peripla_BP_6         PF13458.5  sp|B4F2T8|ISPH_PROMH -              0.014   14.9   0.1     0.025   14.2   0.1   1.4   1   0   0   1   1   1   0 Periplasmic binding protein
+ANF_receptor         PF01094.27 sp|B4F2T8|ISPH_PROMH -              0.028   13.4   0.0      0.24   10.4   0.0   2.0   2   0   0   2   2   2   0 Receptor family ligand binding region
+TPP_enzyme_M         PF00205.21 sp|B4F2T8|ISPH_PROMH -              0.097   12.3   0.0       0.2   11.3   0.0   1.6   1   0   0   1   1   1   0 Thiamine pyrophosphate enzyme, central domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B4F2T8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B4F2T8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B4F2T8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:57:30 2019
+# [ok]

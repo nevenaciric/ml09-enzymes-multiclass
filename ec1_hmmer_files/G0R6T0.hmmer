@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|G0R6T0|SORC_HYPJQ -            6.3e-19   68.4   5.2   1.6e-16   60.5   5.2   3.0   1   1   0   1   1   1   1 FAD binding domain
+NAD_binding_8        PF13450.5  sp|G0R6T0|SORC_HYPJQ -              7e-05   22.9   0.2   0.00022   21.3   0.2   1.9   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+DAO                  PF01266.23 sp|G0R6T0|SORC_HYPJQ -            0.00033   20.2   1.4    0.0013   18.3   1.2   2.0   2   0   0   2   2   2   1 FAD dependent oxidoreductase
+NAD_binding_9        PF13454.5  sp|G0R6T0|SORC_HYPJQ -             0.0027   17.7   1.7     0.081   12.8   1.7   2.5   1   1   0   1   1   1   1 FAD-NAD(P)-binding
+Pyr_redox_2          PF07992.13 sp|G0R6T0|SORC_HYPJQ -              0.003   16.8   0.1      0.03   13.5   0.0   2.0   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox            PF00070.26 sp|G0R6T0|SORC_HYPJQ -             0.0075   16.7   0.0     0.022   15.2   0.0   1.9   1   0   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+Lycopene_cycl        PF05834.11 sp|G0R6T0|SORC_HYPJQ -              0.019   13.9   4.1     0.025   13.5   1.6   2.3   2   1   0   2   2   2   0 Lycopene cyclase protein
+SE                   PF08491.9  sp|G0R6T0|SORC_HYPJQ -              0.048   12.6   0.0      0.54    9.2   0.0   2.1   2   0   0   2   2   2   0 Squalene epoxidase
+Amino_oxidase        PF01593.23 sp|G0R6T0|SORC_HYPJQ -              0.058   12.6   0.6       9.2    5.3   0.0   2.7   3   0   0   3   3   3   0 Flavin containing amine oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/G0R6T0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/G0R6T0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/G0R6T0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:18:46 2019
+# [ok]

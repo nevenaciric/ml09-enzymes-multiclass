@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|A4J5N8|MDH_DESRM  -            1.5e-44  151.5   0.6   2.1e-44  151.0   0.6   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|A4J5N8|MDH_DESRM  -            2.3e-26   92.6   0.0   3.4e-26   92.1   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+DAO                  PF01266.23 sp|A4J5N8|MDH_DESRM  -               0.01   15.4   4.4     0.019   14.5   1.7   2.5   1   1   1   3   3   3   0 FAD dependent oxidoreductase
+Glyco_hydro_4        PF02056.15 sp|A4J5N8|MDH_DESRM  -              0.018   14.5   1.8      0.02   14.3   0.1   1.9   2   1   1   3   3   3   0 Family 4 glycosyl hydrolase
+Pyr_redox_2          PF07992.13 sp|A4J5N8|MDH_DESRM  -              0.026   13.7   0.7     0.059   12.5   0.8   1.5   1   1   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+Seadorna_Vp10        PF07322.10 sp|A4J5N8|MDH_DESRM  -               0.12   11.6   0.8       1.2    8.3   0.1   2.4   2   1   0   2   2   2   0 Seadornavirus Vp10
+ThiF                 PF00899.20 sp|A4J5N8|MDH_DESRM  -               0.15   11.3   0.1      0.24   10.6   0.1   1.3   1   0   0   1   1   1   0 ThiF family
+3HCDH_N              PF02737.17 sp|A4J5N8|MDH_DESRM  -               0.17   11.7   1.1      0.38   10.5   1.1   1.7   1   1   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|A4J5N8|MDH_DESRM  -                0.2   11.1   4.9      0.14   11.7   2.0   2.1   2   1   0   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4J5N8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4J5N8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4J5N8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:29:54 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|B1J6Y6|ACDH1_PSEPW -            5.1e-65  217.7   1.7   8.7e-65  217.0   1.7   1.4   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|B1J6Y6|ACDH1_PSEPW -            5.1e-13   49.4   0.2   1.6e-12   47.8   0.0   1.9   2   1   1   3   3   3   1 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|B1J6Y6|ACDH1_PSEPW -             0.0015   19.2   0.1     0.004   17.9   0.1   1.7   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+F420_oxidored        PF03807.16 sp|B1J6Y6|ACDH1_PSEPW -              0.052   14.0   0.1      0.17   12.4   0.1   1.9   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+DapB_N               PF01113.19 sp|B1J6Y6|ACDH1_PSEPW -              0.087   12.9   1.5      0.14   12.2   0.2   2.0   2   1   0   2   2   2   0 Dihydrodipicolinate reductase, N-terminus
+K_oxygenase          PF13434.5  sp|B1J6Y6|ACDH1_PSEPW -               0.12   11.4   0.6      0.73    8.8   0.1   2.0   2   0   0   2   2   2   0 L-lysine 6-monooxygenase (NADPH-requiring)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B1J6Y6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B1J6Y6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B1J6Y6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:50:18 2019
+# [ok]

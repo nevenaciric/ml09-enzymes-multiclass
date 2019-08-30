@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+6PGD                 PF00393.18 sp|P37754|6PGD9_ECOLX -           6.8e-131  435.8   0.1    1e-130  435.2   0.1   1.3   1   0   0   1   1   1   1 6-phosphogluconate dehydrogenase, C-terminal domain
+NAD_binding_2        PF03446.14 sp|P37754|6PGD9_ECOLX -            7.5e-52  175.6   0.0   1.6e-51  174.5   0.0   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+ApbA                 PF02558.15 sp|P37754|6PGD9_ECOLX -            0.00038   20.0   0.0   0.00089   18.8   0.0   1.6   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+Shikimate_DH         PF01488.19 sp|P37754|6PGD9_ECOLX -             0.0011   19.0   0.1    0.0028   17.6   0.0   1.6   1   1   1   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|P37754|6PGD9_ECOLX -              0.002   18.6   0.0    0.0064   16.9   0.0   1.9   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|P37754|6PGD9_ECOLX -               0.01   15.7   0.0     0.018   14.8   0.0   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+PC_rep               PF01851.21 sp|P37754|6PGD9_ECOLX -              0.023   15.1   0.1      0.11   12.9   0.0   2.3   2   0   0   2   2   2   0 Proteasome/cyclosome repeat
+2-Hacid_dh_C         PF02826.18 sp|P37754|6PGD9_ECOLX -              0.027   13.8   0.0     0.049   12.9   0.0   1.5   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_Gly3P_dh_N       PF01210.22 sp|P37754|6PGD9_ECOLX -              0.074   12.9   0.0      0.17   11.8   0.0   1.6   1   0   0   1   1   1   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+IlvN                 PF07991.11 sp|P37754|6PGD9_ECOLX -              0.099   12.1   0.0      0.71    9.3   0.0   2.3   2   0   0   2   2   2   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P37754.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P37754.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P37754.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:44:53 2019
+# [ok]

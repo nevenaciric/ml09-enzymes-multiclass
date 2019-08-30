@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RPE65                PF03055.14 sp|O24592|NCED1_MAIZE -           3.6e-104  349.2   0.0  4.2e-104  348.9   0.0   1.0   1   0   0   1   1   1   1 Retinal pigment epithelial membrane protein
+PRC                  PF05239.15 sp|O24592|NCED1_MAIZE -              0.094   12.7   0.0       2.4    8.2   0.0   2.9   3   0   0   3   3   3   0 PRC-barrel domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O24592.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O24592.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O24592.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:22:17 2019
+# [ok]

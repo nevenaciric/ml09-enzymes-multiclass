@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_zinc_N           PF00107.25 sp|P20368|ADH1_ZYMMO -            3.4e-30  104.5   0.7   5.9e-30  103.7   0.7   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_N                PF08240.11 sp|P20368|ADH1_ZYMMO -            1.3e-27   95.7   7.2   1.3e-27   95.7   7.2   1.7   2   0   0   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N_2         PF13602.5  sp|P20368|ADH1_ZYMMO -            1.3e-10   42.3   0.5   2.1e-10   41.7   0.5   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Methyltransf_25      PF13649.5  sp|P20368|ADH1_ZYMMO -              0.012   16.3   0.1     0.026   15.1   0.1   1.6   1   0   0   1   1   1   0 Methyltransferase domain
+CoA_binding          PF02629.18 sp|P20368|ADH1_ZYMMO -              0.018   15.6   1.0     0.061   13.9   1.0   1.9   1   0   0   1   1   1   0 CoA binding domain
+2-Hacid_dh_C         PF02826.18 sp|P20368|ADH1_ZYMMO -              0.038   13.2   0.0     0.062   12.6   0.0   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|P20368|ADH1_ZYMMO -              0.042   14.0   0.2     0.079   13.1   0.2   1.6   1   0   0   1   1   1   0 TrkA-N domain
+PEPcase_2            PF14010.5  sp|P20368|ADH1_ZYMMO -              0.059   11.8   0.0     0.087   11.2   0.0   1.1   1   0   0   1   1   1   0 Phosphoenolpyruvate carboxylase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P20368.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P20368.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P20368.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:38:46 2019
+# [ok]

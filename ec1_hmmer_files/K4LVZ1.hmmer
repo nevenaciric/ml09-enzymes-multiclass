@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|K4LVZ1|ILVC_THEPS -            5.9e-75  250.3   0.1   7.9e-75  249.9   0.1   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|K4LVZ1|ILVC_THEPS -            1.7e-68  229.3   0.1   2.6e-68  228.7   0.1   1.3   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|K4LVZ1|ILVC_THEPS -              1e-08   34.7   0.0   1.7e-08   33.9   0.0   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|K4LVZ1|ILVC_THEPS -            7.8e-08   32.5   0.0   1.4e-07   31.7   0.0   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+F420_oxidored        PF03807.16 sp|K4LVZ1|ILVC_THEPS -            5.9e-07   29.9   0.1   1.6e-06   28.5   0.0   1.7   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+AdoHcyase_NAD        PF00670.20 sp|K4LVZ1|ILVC_THEPS -            3.4e-05   23.9   0.0   7.8e-05   22.7   0.0   1.5   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Oxidored_nitro       PF00148.18 sp|K4LVZ1|ILVC_THEPS -            0.00087   18.0   0.1    0.0011   17.7   0.1   1.5   1   1   0   1   1   1   1 Nitrogenase component 1 type Oxidoreductase
+3HCDH_N              PF02737.17 sp|K4LVZ1|ILVC_THEPS -             0.0093   15.8   0.0     0.032   14.0   0.0   1.8   2   0   0   2   2   2   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|K4LVZ1|ILVC_THEPS -              0.016   15.5   0.0     0.042   14.2   0.0   1.6   1   0   0   1   1   1   0 Putative NAD(P)-binding
+CoA_binding_2        PF13380.5  sp|K4LVZ1|ILVC_THEPS -              0.026   14.9   0.6      0.11   12.9   0.1   2.1   2   1   1   3   3   3   0 CoA binding domain
+Rossmann-like        PF10727.8  sp|K4LVZ1|ILVC_THEPS -               0.14   11.9   0.0      0.27   11.0   0.0   1.4   1   0   0   1   1   1   0 Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/K4LVZ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/K4LVZ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/K4LVZ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:19:53 2019
+# [ok]

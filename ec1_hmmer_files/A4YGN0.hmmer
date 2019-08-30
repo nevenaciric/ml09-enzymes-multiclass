@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|A4YGN0|SUCD_METS5 -            5.8e-31  106.5   1.0   1.4e-30  105.2   1.0   1.7   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|A4YGN0|SUCD_METS5 -            1.8e-28   98.9   0.2   3.2e-28   98.1   0.2   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|A4YGN0|SUCD_METS5 -            2.7e-08   33.4   0.9   7.5e-08   32.0   0.8   1.7   1   1   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N_2         PF13602.5  sp|A4YGN0|SUCD_METS5 -            9.3e-07   29.9   0.0   3.6e-06   27.9   0.0   1.9   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+HTH_7                PF02796.14 sp|A4YGN0|SUCD_METS5 -              0.066   13.2   0.1      0.35   10.9   0.0   2.2   2   0   0   2   2   2   0 Helix-turn-helix domain of resolvase
+IlvN                 PF07991.11 sp|A4YGN0|SUCD_METS5 -               0.07   12.6   0.1      0.13   11.7   0.1   1.4   1   0   0   1   1   1   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|A4YGN0|SUCD_METS5 -              0.072   13.3   0.4      0.15   12.2   0.4   1.5   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+2-Hacid_dh_C         PF02826.18 sp|A4YGN0|SUCD_METS5 -              0.073   12.3   0.2      0.13   11.5   0.2   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NADH_4Fe-4S          PF10589.8  sp|A4YGN0|SUCD_METS5 -               0.13   12.3   0.4      0.34   10.9   0.4   1.7   1   0   0   1   1   1   0 NADH-ubiquinone oxidoreductase-F iron-sulfur binding region
+NAD_binding_3        PF03447.15 sp|A4YGN0|SUCD_METS5 -               0.14   12.7   0.6      0.29   11.7   0.6   1.5   1   0   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4YGN0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4YGN0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4YGN0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:32:37 2019
+# [ok]

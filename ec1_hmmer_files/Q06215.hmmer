@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PPO1_KFDV            PF12143.7  sp|Q06215|PPO_VICFA  -            1.5e-52  177.0   0.8   1.5e-51  173.8   1.2   2.1   2   0   0   2   2   2   1 Protein of unknown function (DUF_B2219)
+Tyrosinase           PF00264.19 sp|Q06215|PPO_VICFA  -            1.1e-33  117.3   2.0   1.1e-33  117.3   2.0   2.1   2   1   0   2   2   2   1 Common central domain of tyrosinase
+PPO1_DWL             PF12142.7  sp|Q06215|PPO_VICFA  -            1.9e-25   88.3   1.5   3.8e-25   87.3   1.5   1.6   1   0   0   1   1   1   1 Polyphenol oxidase middle domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q06215.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q06215.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q06215.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:05:17 2019
+# [ok]

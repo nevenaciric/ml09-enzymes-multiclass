@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|C7GIN5|ARO1_YEAS2 -           4.1e-151  503.3   0.0  6.8e-151  502.6   0.0   1.4   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|C7GIN5|ARO1_YEAS2 -            1.5e-99  332.4   0.1   2.4e-99  331.6   0.1   1.4   1   0   0   1   1   1   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|C7GIN5|ARO1_YEAS2 -              4e-58  197.3   0.0   1.3e-57  195.6   0.0   1.9   2   0   0   2   2   2   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|C7GIN5|ARO1_YEAS2 -            8.9e-38  129.8   0.2   2.4e-37  128.4   0.0   1.9   2   0   0   2   2   2   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|C7GIN5|ARO1_YEAS2 -            2.7e-22   78.7   0.0   8.2e-22   77.2   0.0   1.9   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Shikimate_DH         PF01488.19 sp|C7GIN5|ARO1_YEAS2 -            3.4e-07   30.3   0.0   1.3e-06   28.4   0.0   2.0   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+Fe-ADH_2             PF13685.5  sp|C7GIN5|ARO1_YEAS2 -            9.1e-05   22.2   0.1   0.00021   21.0   0.1   1.6   1   1   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+AAA_33               PF13671.5  sp|C7GIN5|ARO1_YEAS2 -            0.00048   20.2   0.0    0.0014   18.7   0.0   1.8   1   0   0   1   1   1   1 AAA domain
+AAA_14               PF13173.5  sp|C7GIN5|ARO1_YEAS2 -              0.012   15.5   0.0     0.035   14.0   0.0   1.8   1   0   0   1   1   1   0 AAA domain
+6PF2K                PF01591.17 sp|C7GIN5|ARO1_YEAS2 -              0.034   13.4   0.0     0.067   12.4   0.0   1.4   1   0   0   1   1   1   0 6-phosphofructo-2-kinase
+Sacchrp_dh_NADP      PF03435.17 sp|C7GIN5|ARO1_YEAS2 -              0.047   13.8   0.0      0.17   12.0   0.0   2.0   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+THF_DHG_CYH          PF00763.22 sp|C7GIN5|ARO1_YEAS2 -               0.14   12.4   0.0      0.42   10.8   0.0   1.8   1   0   0   1   1   1   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C7GIN5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C7GIN5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C7GIN5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:16:07 2019
+# [ok]

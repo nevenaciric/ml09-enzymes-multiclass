@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-Hacid_dh_C         PF02826.18 sp|Q07511|FDH_SOLTU  -            1.5e-52  177.4   0.0   2.2e-52  176.9   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+2-Hacid_dh           PF00389.29 sp|Q07511|FDH_SOLTU  -              1e-15   57.5   0.0   2.1e-15   56.5   0.0   1.6   1   1   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain
+NAD_binding_2        PF03446.14 sp|Q07511|FDH_SOLTU  -            0.00052   20.1   0.0    0.0011   19.1   0.0   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Shikimate_DH         PF01488.19 sp|Q07511|FDH_SOLTU  -             0.0078   16.2   0.0     0.034   14.1   0.0   2.0   2   1   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+UDPG_MGDP_dh_C       PF03720.14 sp|Q07511|FDH_SOLTU  -              0.016   15.5   0.0     0.038   14.3   0.0   1.7   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain
+GFO_IDH_MocA         PF01408.21 sp|Q07511|FDH_SOLTU  -              0.041   14.6   0.0      0.26   12.0   0.0   2.2   2   0   0   2   2   2   0 Oxidoreductase family, NAD-binding Rossmann fold
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q07511.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q07511.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q07511.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:05:46 2019
+# [ok]

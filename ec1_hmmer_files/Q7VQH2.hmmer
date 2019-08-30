@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_1        PF00667.19 sp|Q7VQH2|CYSJ_BLOFL -            1.1e-27   96.9   0.3   3.6e-27   95.3   0.3   1.8   1   1   0   1   1   1   1 FAD binding domain
+Flavodoxin_1         PF00258.24 sp|Q7VQH2|CYSJ_BLOFL -            5.9e-26   91.3   0.1   1.3e-25   90.2   0.1   1.5   1   0   0   1   1   1   1 Flavodoxin
+NAD_binding_1        PF00175.20 sp|Q7VQH2|CYSJ_BLOFL -            2.1e-17   63.6   0.0   5.7e-17   62.2   0.0   1.8   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7VQH2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7VQH2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7VQH2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:03:09 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ECH_1                PF00378.19 sp|G4V4T6|DPGC_AMYOR -            9.3e-21   74.2   0.0   5.1e-20   71.7   0.0   2.0   1   1   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+ECH_2                PF16113.4  sp|G4V4T6|DPGC_AMYOR -            1.1e-11   44.8   0.1   1.4e-09   37.8   0.0   2.8   2   1   0   2   2   2   1 Enoyl-CoA hydratase/isomerase
+LPP                  PF04728.12 sp|G4V4T6|DPGC_AMYOR -              0.026   14.8   0.4     0.086   13.1   0.4   1.9   1   0   0   1   1   1   0 Lipoprotein leucine-zipper
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/G4V4T6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/G4V4T6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/G4V4T6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:19:06 2019
+# [ok]

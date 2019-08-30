@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX4                 PF02936.13 sp|P00425|COX5B_YEAST -            8.4e-34  116.4   0.1   9.6e-34  116.3   0.1   1.0   1   0   0   1   1   1   1 Cytochrome c oxidase subunit IV
+DUF1641              PF07849.10 sp|P00425|COX5B_YEAST -              0.076   12.8   0.0      0.43   10.4   0.0   2.1   2   0   0   2   2   2   0 Protein of unknown function (DUF1641)
+B12D                 PF06522.10 sp|P00425|COX5B_YEAST -                5.1    6.9   6.3        13    5.6   0.0   3.3   2   2   2   4   4   4   0 NADH-ubiquinone reductase complex 1 MLRQ subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P00425.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P00425.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P00425.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:29:03 2019
+# [ok]

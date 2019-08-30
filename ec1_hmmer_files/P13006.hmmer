@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMC_oxred_N          PF00732.18 sp|P13006|GOX_ASPNG  -              5e-99  331.3   0.1   6.4e-99  330.9   0.1   1.1   1   0   0   1   1   1   1 GMC oxidoreductase
+GMC_oxred_C          PF05199.12 sp|P13006|GOX_ASPNG  -            1.2e-25   90.6   0.0   2.5e-25   89.6   0.0   1.6   1   0   0   1   1   1   1 GMC oxidoreductase
+NAD_binding_8        PF13450.5  sp|P13006|GOX_ASPNG  -              8e-05   22.7   0.0    0.0003   20.9   0.0   2.0   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+DAO                  PF01266.23 sp|P13006|GOX_ASPNG  -             0.0014   18.2   0.1    0.0014   18.2   0.1   2.3   4   0   0   4   4   4   1 FAD dependent oxidoreductase
+FAD_binding_2        PF00890.23 sp|P13006|GOX_ASPNG  -             0.0019   17.3   0.0     0.015   14.3   0.0   2.3   2   0   0   2   2   2   1 FAD binding domain
+Thi4                 PF01946.16 sp|P13006|GOX_ASPNG  -             0.0021   17.2   0.1    0.0041   16.3   0.1   1.4   1   0   0   1   1   1   1 Thi4 family
+MtrD                 PF04207.11 sp|P13006|GOX_ASPNG  -              0.018   14.7   0.1     0.034   13.8   0.1   1.4   1   0   0   1   1   1   0 Tetrahydromethanopterin S-methyltransferase, subunit D
+Lycopene_cycl        PF05834.11 sp|P13006|GOX_ASPNG  -              0.023   13.6   0.1     0.067   12.1   0.0   1.7   2   0   0   2   2   2   0 Lycopene cyclase protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P13006.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P13006.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P13006.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:36:07 2019
+# [ok]

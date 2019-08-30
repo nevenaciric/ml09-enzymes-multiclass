@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|B2US71|HEM1_HELPS -            3.1e-37  127.3   3.0   3.1e-37  127.3   3.0   1.8   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|B2US71|HEM1_HELPS -            3.6e-33  114.5   0.0   7.6e-33  113.4   0.0   1.6   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|B2US71|HEM1_HELPS -            1.6e-19   70.0   0.6   1.6e-19   70.0   0.6   1.9   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+NAD_binding_7        PF13241.5  sp|B2US71|HEM1_HELPS -            0.00071   19.9   0.0    0.0028   18.0   0.0   2.0   1   0   0   1   1   1   1 Putative NAD(P)-binding
+NAD_binding_2        PF03446.14 sp|B2US71|HEM1_HELPS -             0.0071   16.4   0.0     0.024   14.7   0.0   1.9   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|B2US71|HEM1_HELPS -              0.043   13.2   0.0     0.077   12.4   0.0   1.3   1   0   0   1   1   1   0 Glucose dehydrogenase C-terminus
+3H                   PF02829.13 sp|B2US71|HEM1_HELPS -              0.063   13.5   1.9       2.2    8.6   0.0   3.2   4   0   0   4   4   4   0 3H domain
+Sacchrp_dh_NADP      PF03435.17 sp|B2US71|HEM1_HELPS -               0.07   13.3   0.0       0.2   11.8   0.0   1.8   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+F420_oxidored        PF03807.16 sp|B2US71|HEM1_HELPS -               0.11   13.0   0.0      0.43   11.1   0.0   2.1   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+E1_UFD               PF09358.9  sp|B2US71|HEM1_HELPS -               0.12   13.1   2.9       0.2   12.3   0.5   2.6   2   1   1   3   3   3   0 Ubiquitin fold domain
+Mga                  PF05043.12 sp|B2US71|HEM1_HELPS -                1.7    9.2   7.8      0.37   11.3   1.0   3.0   2   2   1   3   3   3   0 Mga helix-turn-helix domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B2US71.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B2US71.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B2US71.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:55:25 2019
+# [ok]

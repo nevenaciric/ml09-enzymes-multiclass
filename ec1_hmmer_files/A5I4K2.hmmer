@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXPR_C               PF13288.5  sp|A5I4K2|DXR_CLOBH  -            2.5e-42  143.7   0.0   4.2e-42  142.9   0.0   1.4   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+DXP_reductoisom      PF02670.15 sp|A5I4K2|DXR_CLOBH  -            1.6e-41  141.9   2.9   2.9e-41  141.1   2.9   1.4   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXP_redisom_C        PF08436.11 sp|A5I4K2|DXR_CLOBH  -            1.1e-40  137.6   0.0   2.8e-40  136.4   0.0   1.7   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+Semialdhyde_dh       PF01118.23 sp|A5I4K2|DXR_CLOBH  -            0.00061   20.1   0.0    0.0019   18.5   0.0   1.9   2   0   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|A5I4K2|DXR_CLOBH  -              0.003   18.1   0.2       2.6    8.7   0.0   2.4   2   0   0   2   2   2   2 Homoserine dehydrogenase, NAD binding domain
+DapB_N               PF01113.19 sp|A5I4K2|DXR_CLOBH  -              0.016   15.2   0.6     0.039   14.0   0.6   1.6   1   0   0   1   1   1   0 Dihydrodipicolinate reductase, N-terminus
+Glycoprotein         PF03409.14 sp|A5I4K2|DXR_CLOBH  -              0.017   13.9   0.0     0.052   12.3   0.1   1.6   2   0   0   2   2   2   0 Transmembrane glycoprotein
+Sacchrp_dh_NADP      PF03435.17 sp|A5I4K2|DXR_CLOBH  -              0.078   13.1   0.0      0.17   12.1   0.0   1.6   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A5I4K2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A5I4K2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A5I4K2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:34:11 2019
+# [ok]

@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Tyrosinase           PF00264.19 sp|Q08410|TYRO_COTJA -            2.8e-19   70.2   2.2   3.5e-19   69.9   1.7   1.4   2   0   0   2   2   2   1 Common central domain of tyrosinase
+Laminin_EGF          PF00053.23 sp|Q08410|TYRO_COTJA -               0.38   10.8  17.1      0.39   10.8  12.6   2.6   2   1   0   2   2   2   0 Laminin EGF domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q08410.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q08410.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q08410.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:06:16 2019
+# [ok]

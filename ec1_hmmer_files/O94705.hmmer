@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX6C                PF02937.14 sp|O94705|COX9_SCHPO -              0.025   14.6   0.0     0.028   14.5   0.0   1.0   1   0   0   1   1   1   0 Cytochrome c oxidase subunit VIc
+MqsR_toxin           PF15723.4  sp|O94705|COX9_SCHPO -              0.064   13.5   0.0     0.064   13.5   0.0   1.1   1   0   0   1   1   1   0 Motility quorum-sensing regulator, toxin of MqsA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O94705.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O94705.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O94705.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:28:16 2019
+# [ok]

@@ -1,0 +1,30 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q4JAM9|HEM1_SULAC -            3.1e-31  107.9   0.1   5.5e-31  107.0   0.1   1.5   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+GlutR_dimer          PF00745.19 sp|Q4JAM9|HEM1_SULAC -            9.5e-16   57.9   1.3   1.7e-15   57.1   1.3   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+Shikimate_DH         PF01488.19 sp|Q4JAM9|HEM1_SULAC -            1.2e-15   57.7   1.4   2.8e-15   56.5   0.1   2.2   2   1   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|Q4JAM9|HEM1_SULAC -            1.4e-07   31.9   0.0   4.6e-07   30.2   0.0   2.0   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+ThiF                 PF00899.20 sp|Q4JAM9|HEM1_SULAC -            6.1e-05   22.4   0.1   0.00011   21.6   0.1   1.3   1   0   0   1   1   1   1 ThiF family
+Sacchrp_dh_NADP      PF03435.17 sp|Q4JAM9|HEM1_SULAC -            0.00076   19.6   0.0    0.0022   18.1   0.0   1.8   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_2        PF03446.14 sp|Q4JAM9|HEM1_SULAC -             0.0014   18.7   0.0    0.0031   17.6   0.0   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GFO_IDH_MocA         PF01408.21 sp|Q4JAM9|HEM1_SULAC -             0.0014   19.3   0.0    0.0033   18.1   0.0   1.6   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+Ldh_1_N              PF00056.22 sp|Q4JAM9|HEM1_SULAC -             0.0018   18.3   0.0    0.0035   17.4   0.0   1.5   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|Q4JAM9|HEM1_SULAC -             0.0038   16.5   0.0     0.007   15.6   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|Q4JAM9|HEM1_SULAC -             0.0046   17.1   0.0     0.013   15.7   0.0   1.8   1   0   0   1   1   1   1 TrkA-N domain
+ApbA                 PF02558.15 sp|Q4JAM9|HEM1_SULAC -             0.0049   16.4   0.0     0.012   15.2   0.0   1.7   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+NAD_binding_7        PF13241.5  sp|Q4JAM9|HEM1_SULAC -              0.011   16.1   0.0     0.037   14.4   0.0   1.9   1   0   0   1   1   1   0 Putative NAD(P)-binding
+NAD_Gly3P_dh_N       PF01210.22 sp|Q4JAM9|HEM1_SULAC -              0.016   15.1   0.0     0.045   13.6   0.0   1.8   1   0   0   1   1   1   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+DapB_N               PF01113.19 sp|Q4JAM9|HEM1_SULAC -              0.069   13.2   0.0      0.21   11.6   0.0   1.8   1   1   0   1   1   1   0 Dihydrodipicolinate reductase, N-terminus
+IlvN                 PF07991.11 sp|Q4JAM9|HEM1_SULAC -               0.11   12.0   0.0      0.21   11.0   0.0   1.5   1   0   0   1   1   1   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+Pyr_redox_2          PF07992.13 sp|Q4JAM9|HEM1_SULAC -               0.13   11.4   0.0      0.23   10.5   0.0   1.5   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4JAM9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4JAM9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4JAM9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:34:06 2019
+# [ok]

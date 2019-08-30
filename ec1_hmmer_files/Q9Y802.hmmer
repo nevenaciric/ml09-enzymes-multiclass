@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Amino_oxidase        PF01593.23 sp|Q9Y802|LSD1_SCHPO -            1.2e-73  248.9   0.0   1.7e-73  248.4   0.0   1.2   1   0   0   1   1   1   1 Flavin containing amine oxidoreductase
+SWIRM                PF04433.16 sp|Q9Y802|LSD1_SCHPO -            1.8e-13   50.5   0.0     7e-13   48.6   0.0   2.1   1   0   0   1   1   1   1 SWIRM domain
+NAD_binding_8        PF13450.5  sp|Q9Y802|LSD1_SCHPO -            1.1e-06   28.7   0.0   2.6e-06   27.5   0.0   1.7   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+HMG_box              PF00505.18 sp|Q9Y802|LSD1_SCHPO -            0.00017   21.9   0.2   0.00017   21.9   0.2   2.4   2   0   0   2   2   2   1 HMG (high mobility group) box
+DAO                  PF01266.23 sp|Q9Y802|LSD1_SCHPO -             0.0034   16.9   0.0    0.0064   16.0   0.0   1.4   1   0   0   1   1   1   1 FAD dependent oxidoreductase
+HMG_box_2            PF09011.9  sp|Q9Y802|LSD1_SCHPO -             0.0064   17.0   0.8     0.032   14.7   0.2   2.3   1   1   1   2   2   2   1 HMG-box domain
+Pyr_redox_2          PF07992.13 sp|Q9Y802|LSD1_SCHPO -             0.0073   15.5   0.0     0.027   13.6   0.0   1.8   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+NAD_binding_9        PF13454.5  sp|Q9Y802|LSD1_SCHPO -              0.024   14.5   0.1       0.1   12.5   0.0   2.0   2   0   0   2   2   2   0 FAD-NAD(P)-binding
+Pyr_redox_3          PF13738.5  sp|Q9Y802|LSD1_SCHPO -               0.14   11.3   0.1         6    5.9   0.1   2.3   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+MscS_porin           PF12795.6  sp|Q9Y802|LSD1_SCHPO -                2.6    7.4   8.7      0.14   11.5   2.2   1.9   2   0   0   2   2   2   0 Mechanosensitive ion channel porin domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9Y802.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9Y802.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9Y802.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:36:40 2019
+# [ok]

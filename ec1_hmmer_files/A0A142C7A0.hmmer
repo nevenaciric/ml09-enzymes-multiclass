@@ -1,0 +1,16 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name               accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------     -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|A0A142C7A0|PHNB_PENHR -            4.5e-21   75.4   0.4   1.1e-19   70.8   0.4   2.5   1   1   0   1   1   1   1 FAD binding domain
+NAD_binding_8        PF13450.5  sp|A0A142C7A0|PHNB_PENHR -            0.00098   19.2   0.0    0.0024   18.0   0.0   1.7   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox_2          PF07992.13 sp|A0A142C7A0|PHNB_PENHR -              0.013   14.6   0.0      0.47    9.6   0.0   2.1   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A0A142C7A0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A0A142C7A0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A0A142C7A0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:19:45 2019
+# [ok]

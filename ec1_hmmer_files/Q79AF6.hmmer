@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|Q79AF6|ACDH4_PARXL -            1.5e-65  219.5   0.1   2.2e-65  219.0   0.1   1.2   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|Q79AF6|ACDH4_PARXL -            6.4e-11   42.7   0.0   1.9e-10   41.1   0.0   1.8   2   0   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|Q79AF6|ACDH4_PARXL -              0.022   15.3   0.0     0.052   14.1   0.0   1.6   1   0   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q79AF6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q79AF6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q79AF6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:59:41 2019
+# [ok]

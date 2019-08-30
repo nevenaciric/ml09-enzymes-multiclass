@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|Q9X5F8|ILVC_ZYMMO -            8.4e-75  249.8   0.4   1.2e-74  249.3   0.4   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|Q9X5F8|ILVC_ZYMMO -            7.2e-66  220.8   0.0     1e-65  220.3   0.0   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+F420_oxidored        PF03807.16 sp|Q9X5F8|ILVC_ZYMMO -            1.3e-07   32.0   0.2   2.7e-07   31.0   0.2   1.5   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|Q9X5F8|ILVC_ZYMMO -            1.9e-05   24.0   0.0     3e-05   23.3   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|Q9X5F8|ILVC_ZYMMO -             0.0013   18.8   0.0    0.0027   17.8   0.0   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+AdoHcyase_NAD        PF00670.20 sp|Q9X5F8|ILVC_ZYMMO -             0.0018   18.3   0.0    0.0031   17.5   0.0   1.3   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|Q9X5F8|ILVC_ZYMMO -              0.014   16.1   0.1     0.025   15.3   0.1   1.4   1   0   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+Shikimate_DH         PF01488.19 sp|Q9X5F8|ILVC_ZYMMO -              0.055   13.4   0.0       0.1   12.5   0.0   1.5   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+TrkA_N               PF02254.17 sp|Q9X5F8|ILVC_ZYMMO -               0.11   12.7   0.1      0.41   10.8   0.0   2.1   2   1   0   2   2   2   0 TrkA-N domain
+Mur_ligase           PF01225.24 sp|Q9X5F8|ILVC_ZYMMO -               0.13   12.5   0.5      0.53   10.5   0.2   2.1   2   1   0   2   2   2   0 Mur ligase family, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9X5F8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9X5F8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9X5F8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:35:59 2019
+# [ok]

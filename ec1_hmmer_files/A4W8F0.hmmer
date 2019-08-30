@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ferritin             PF00210.23 sp|A4W8F0|DPS_ENT38  -            2.7e-21   75.9   0.4   3.1e-21   75.7   0.4   1.1   1   0   0   1   1   1   1 Ferritin-like domain
+IQ_SEC7_PH           PF16453.4  sp|A4W8F0|DPS_ENT38  -             0.0033   17.3   0.1    0.0072   16.2   0.1   1.8   1   1   0   1   1   1   1 PH domain
+Tht1                 PF04163.11 sp|A4W8F0|DPS_ENT38  -               0.05   12.3   0.6      0.12   11.0   0.1   1.7   1   1   1   2   2   2   0 Tht1-like nuclear fusion protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4W8F0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4W8F0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4W8F0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:31:45 2019
+# [ok]

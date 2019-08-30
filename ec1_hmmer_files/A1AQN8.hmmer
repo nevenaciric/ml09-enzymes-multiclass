@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_reductoisom      PF02670.15 sp|A1AQN8|DXR_PELPD  -            5.3e-45  153.2   2.4   9.1e-45  152.4   2.4   1.4   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXPR_C               PF13288.5  sp|A1AQN8|DXR_PELPD  -            3.2e-44  149.8   0.0   5.5e-44  149.0   0.0   1.4   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+DXP_redisom_C        PF08436.11 sp|A1AQN8|DXR_PELPD  -            4.6e-40  135.7   0.0   8.9e-40  134.8   0.0   1.5   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1AQN8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1AQN8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1AQN8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:22:37 2019
+# [ok]

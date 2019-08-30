@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|P97115|ILVC_LEUMC -            7.5e-67  223.9   0.3     1e-66  223.5   0.3   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|P97115|ILVC_LEUMC -            2.1e-59  199.9   0.7   3.3e-59  199.2   0.7   1.3   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|P97115|ILVC_LEUMC -            4.2e-07   29.4   0.0   6.4e-07   28.8   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+ApbA                 PF02558.15 sp|P97115|ILVC_LEUMC -            4.7e-05   23.0   0.0   7.7e-05   22.3   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|P97115|ILVC_LEUMC -             0.0002   21.7   0.1   0.00058   20.3   0.1   1.8   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|P97115|ILVC_LEUMC -            0.00031   20.8   0.0   0.00054   20.1   0.0   1.3   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+AdoHcyase_NAD        PF00670.20 sp|P97115|ILVC_LEUMC -             0.0057   16.6   0.0     0.012   15.6   0.0   1.4   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+CoA_binding          PF02629.18 sp|P97115|ILVC_LEUMC -              0.012   16.2   0.1      0.05   14.2   0.1   2.0   2   0   0   2   2   2   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P97115.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P97115.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P97115.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:00:00 2019
+# [ok]

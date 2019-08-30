@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HpaB_N               PF11794.7  sp|O87009|TFTD_BURCE -            7.8e-67  225.7   0.0     1e-66  225.3   0.0   1.1   1   0   0   1   1   1   1 4-hydroxyphenylacetate 3-hydroxylase N terminal
+HpaB                 PF03241.12 sp|O87009|TFTD_BURCE -            5.6e-23   81.0   0.0   1.5e-22   79.6   0.0   1.6   2   0   0   2   2   2   1 4-hydroxyphenylacetate 3-hydroxylase C terminal
+Acyl-CoA_dh_M        PF02770.18 sp|O87009|TFTD_BURCE -              0.011   15.8   0.0     0.041   14.0   0.0   1.9   2   0   0   2   2   2   0 Acyl-CoA dehydrogenase, middle domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O87009.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O87009.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O87009.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:27:46 2019
+# [ok]

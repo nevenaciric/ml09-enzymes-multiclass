@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q98PG4|LDH_MYCPU  -            9.2e-38  129.4   2.0   1.4e-37  128.8   2.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q98PG4|LDH_MYCPU  -            1.1e-26   93.7   0.0   1.7e-26   93.1   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+NAD_binding_7        PF13241.5  sp|Q98PG4|LDH_MYCPU  -            0.00076   19.8   0.1     0.014   15.7   0.1   2.2   2   0   0   2   2   2   1 Putative NAD(P)-binding
+TrkA_N               PF02254.17 sp|Q98PG4|LDH_MYCPU  -              0.022   14.9   0.5     0.035   14.3   0.5   1.4   1   0   0   1   1   1   0 TrkA-N domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q98PG4|LDH_MYCPU  -              0.042   13.3   3.6      0.22   11.0   3.5   1.9   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q98PG4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q98PG4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q98PG4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:23:16 2019
+# [ok]

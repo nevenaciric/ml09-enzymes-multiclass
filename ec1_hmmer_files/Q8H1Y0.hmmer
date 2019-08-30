@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1_dh                PF00676.19 sp|Q8H1Y0|ODPA2_ARATH -             3e-118  394.1   0.0  3.5e-118  393.8   0.0   1.0   1   0   0   1   1   1   1 Dehydrogenase E1 component
+TPP_enzyme_C         PF02775.20 sp|Q8H1Y0|ODPA2_ARATH -            1.2e-05   25.0   0.2   2.2e-05   24.2   0.2   1.5   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+DXP_synthase_N       PF13292.5  sp|Q8H1Y0|ODPA2_ARATH -            2.5e-05   23.5   0.1    0.0001   21.6   0.0   1.8   2   0   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+YadA_anchor          PF03895.14 sp|Q8H1Y0|ODPA2_ARATH -               0.13   12.3   0.0       1.7    8.8   0.0   2.3   2   0   0   2   2   2   0 YadA-like membrane anchor domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8H1Y0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8H1Y0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8H1Y0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:12:17 2019
+# [ok]

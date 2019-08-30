@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+P5CR_dimer           PF14748.5  sp|Q55E34|P5CR2_DICDI -              1e-24   86.6   0.5   5.4e-24   84.3   1.0   2.0   2   0   0   2   2   2   1 Pyrroline-5-carboxylate reductase dimerisation
+F420_oxidored        PF03807.16 sp|Q55E34|P5CR2_DICDI -              1e-18   67.6   0.4   2.3e-18   66.5   0.4   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_Gly3P_dh_N       PF01210.22 sp|Q55E34|P5CR2_DICDI -            6.3e-06   26.1   1.2   2.8e-05   24.1   1.2   2.0   1   1   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_binding_2        PF03446.14 sp|Q55E34|P5CR2_DICDI -            5.1e-05   23.4   0.4   0.00023   21.3   0.1   2.1   3   0   0   3   3   3   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|Q55E34|P5CR2_DICDI -            0.00011   22.4   0.1   0.00029   21.0   0.1   1.7   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+Shikimate_DH         PF01488.19 sp|Q55E34|P5CR2_DICDI -             0.0039   17.2   0.3    0.0098   15.9   0.2   1.7   1   1   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+PALP                 PF00291.24 sp|Q55E34|P5CR2_DICDI -              0.011   15.1   0.6     0.082   12.2   0.1   2.3   2   1   0   2   2   2   0 Pyridoxal-phosphate dependent enzyme
+ApbA                 PF02558.15 sp|Q55E34|P5CR2_DICDI -              0.018   14.6   2.2      0.14   11.7   2.1   2.4   2   1   0   2   2   2   0 Ketopantoate reductase PanE/ApbA
+IlvN                 PF07991.11 sp|Q55E34|P5CR2_DICDI -              0.044   13.2   0.1      0.08   12.4   0.1   1.4   1   0   0   1   1   1   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q55E34.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q55E34.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q55E34.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:38:33 2019
+# [ok]

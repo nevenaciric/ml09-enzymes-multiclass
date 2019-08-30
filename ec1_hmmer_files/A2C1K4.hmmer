@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A2C1K4|HEM1_PROM1 -            4.2e-42  143.1   0.0   9.2e-42  142.0   0.0   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A2C1K4|HEM1_PROM1 -            3.4e-32  111.3   0.2   9.4e-32  109.9   0.0   1.8   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A2C1K4|HEM1_PROM1 -            5.6e-27   93.9   0.0   1.4e-26   92.6   0.0   1.7   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+ApbA                 PF02558.15 sp|A2C1K4|HEM1_PROM1 -              0.018   14.6   0.0     0.038   13.5   0.0   1.5   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|A2C1K4|HEM1_PROM1 -               0.02   15.4   0.0      0.17   12.4   0.0   2.3   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|A2C1K4|HEM1_PROM1 -              0.031   13.6   0.0     0.059   12.6   0.0   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|A2C1K4|HEM1_PROM1 -              0.098   12.7   0.0      0.19   11.8   0.0   1.5   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A2C1K4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A2C1K4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A2C1K4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:26:16 2019
+# [ok]

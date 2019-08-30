@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P09369|ADH2_DROMO -            8.4e-42  142.7   0.2   1.7e-41  141.8   0.1   1.5   2   0   0   2   2   2   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P09369|ADH2_DROMO -            1.5e-17   63.8   0.0   2.1e-17   63.4   0.0   1.2   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P09369|ADH2_DROMO -            4.1e-09   36.5   0.0   1.9e-08   34.4   0.0   1.9   1   1   0   1   1   1   1 KR domain
+ThiF                 PF00899.20 sp|P09369|ADH2_DROMO -            0.00095   18.5   0.5      0.47    9.7   0.0   2.6   3   0   0   3   3   3   2 ThiF family
+Polysacc_synt_2      PF02719.14 sp|P09369|ADH2_DROMO -             0.0056   15.8   0.0    0.0081   15.2   0.0   1.4   1   0   0   1   1   1   1 Polysaccharide biosynthesis protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P09369.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P09369.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P09369.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:31:05 2019
+# [ok]

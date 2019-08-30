@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mannitol_dh_C        PF08125.12 sp|C3LWV8|MTLD_VIBCM -            6.4e-59  199.3   0.0   9.6e-59  198.7   0.0   1.2   1   0   0   1   1   1   1 Mannitol dehydrogenase C-terminal domain
+Mannitol_dh          PF01232.22 sp|C3LWV8|MTLD_VIBCM -            9.6e-25   87.4   0.4   4.7e-24   85.2   0.2   2.3   2   0   0   2   2   2   1 Mannitol dehydrogenase Rossmann domain
+Sacchrp_dh_NADP      PF03435.17 sp|C3LWV8|MTLD_VIBCM -              0.006   16.7   0.2     0.013   15.7   0.2   1.6   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+F420_oxidored        PF03807.16 sp|C3LWV8|MTLD_VIBCM -              0.027   14.9   0.7        12    6.5   0.0   2.8   1   1   1   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C3LWV8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C3LWV8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C3LWV8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:13:21 2019
+# [ok]

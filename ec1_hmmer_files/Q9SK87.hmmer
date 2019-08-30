@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|Q9SK87|ADHL2_ARATH -            4.4e-23   81.2   0.1   9.7e-23   80.0   0.1   1.6   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|Q9SK87|ADHL2_ARATH -            1.2e-17   63.9   0.0   2.7e-17   62.8   0.0   1.6   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+HTH_38               PF13936.5  sp|Q9SK87|ADHL2_ARATH -              0.015   15.0   0.0      0.11   12.1   0.0   2.5   3   0   0   3   3   3   0 Helix-turn-helix domain
+2-Hacid_dh_C         PF02826.18 sp|Q9SK87|ADHL2_ARATH -              0.027   13.8   0.2     0.043   13.1   0.2   1.2   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|Q9SK87|ADHL2_ARATH -              0.028   14.6   0.1     0.049   13.8   0.1   1.4   1   0   0   1   1   1   0 TrkA-N domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q9SK87|ADHL2_ARATH -              0.035   13.6   0.1     0.072   12.6   0.1   1.5   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9SK87.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9SK87.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9SK87.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:33:11 2019
+# [ok]

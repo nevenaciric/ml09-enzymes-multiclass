@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|B6EP33|ILVC_ALISL -            3.5e-60  202.2   0.1     5e-60  201.7   0.1   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|B6EP33|ILVC_ALISL -            6.5e-43  146.4   0.1   1.1e-23   84.0   0.0   2.6   2   0   0   2   2   2   2 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|B6EP33|ILVC_ALISL -            1.9e-06   27.2   0.0   3.7e-06   26.3   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+ApbA                 PF02558.15 sp|B6EP33|ILVC_ALISL -             0.0083   15.7   0.0     0.018   14.6   0.0   1.6   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+AdoHcyase_NAD        PF00670.20 sp|B6EP33|ILVC_ALISL -               0.01   15.8   0.0     0.022   14.7   0.0   1.5   1   0   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|B6EP33|ILVC_ALISL -              0.015   15.6   0.0     0.051   13.9   0.0   1.8   1   0   0   1   1   1   0 Putative NAD(P)-binding
+Sacchrp_dh_NADP      PF03435.17 sp|B6EP33|ILVC_ALISL -              0.041   14.0   0.0      0.11   12.7   0.0   1.6   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+GFO_IDH_MocA         PF01408.21 sp|B6EP33|ILVC_ALISL -              0.049   14.4   0.0     0.095   13.4   0.0   1.5   1   0   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+Peptidase_S78        PF04586.16 sp|B6EP33|ILVC_ALISL -               0.14   12.2   0.0       3.7    7.6   0.0   2.3   2   0   0   2   2   2   0 Caudovirus prohead serine protease
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B6EP33.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B6EP33.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B6EP33.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:02:05 2019
+# [ok]

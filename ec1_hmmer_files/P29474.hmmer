@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NO_synthase          PF02898.14 sp|P29474|NOS3_HUMAN -           3.2e-182  605.4   0.0  4.2e-182  605.0   0.0   1.1   1   0   0   1   1   1   1 Nitric oxide synthase, oxygenase domain
+FAD_binding_1        PF00667.19 sp|P29474|NOS3_HUMAN -            9.4e-83  277.0   0.0   2.4e-82  275.7   0.0   1.7   2   0   0   2   2   2   1 FAD binding domain
+Flavodoxin_1         PF00258.24 sp|P29474|NOS3_HUMAN -            3.3e-52  176.4   0.0   5.7e-52  175.6   0.0   1.4   1   0   0   1   1   1   1 Flavodoxin
+NAD_binding_1        PF00175.20 sp|P29474|NOS3_HUMAN -            6.4e-19   68.5   0.0   3.6e-18   66.1   0.0   2.1   2   0   0   2   2   2   1 Oxidoreductase NAD-binding domain
+HTH_15               PF12324.7  sp|P29474|NOS3_HUMAN -              0.038   13.8   0.3      0.12   12.3   0.3   1.8   1   0   0   1   1   1   0 Helix-turn-helix domain of alkylmercury lyase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P29474.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P29474.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P29474.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:42:10 2019
+# [ok]

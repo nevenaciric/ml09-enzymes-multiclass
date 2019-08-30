@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IMPDH                PF00478.24 sp|P99106|IMDH_STAAN -           2.1e-163  543.2   5.3  2.5e-163  542.9   5.3   1.1   1   0   0   1   1   1   1 IMP dehydrogenase / GMP reductase domain
+CBS                  PF00571.27 sp|P99106|IMDH_STAAN -            1.8e-19   69.8   0.6     2e-08   34.4   0.2   2.7   2   0   0   2   2   2   2 CBS domain
+NMO                  PF03060.14 sp|P99106|IMDH_STAAN -            1.8e-09   37.4  11.1   5.1e-05   22.7   0.0   2.5   2   1   0   2   2   2   2 Nitronate monooxygenase
+FMN_dh               PF01070.17 sp|P99106|IMDH_STAAN -            0.00021   20.3  11.9   0.00024   20.1   9.7   2.1   2   1   0   2   2   2   1 FMN-dependent dehydrogenase
+Aldolase             PF01081.18 sp|P99106|IMDH_STAAN -             0.0028   17.0   2.1     0.006   15.9   1.5   1.8   1   1   0   1   1   1   1 KDPG and KHG aldolase
+Glu_synthase         PF01645.16 sp|P99106|IMDH_STAAN -              0.045   12.8   8.1     0.027   13.5   5.8   1.8   1   1   0   1   1   1   0 Conserved region in glutamate synthase
+NanE                 PF04131.13 sp|P99106|IMDH_STAAN -               0.05   12.7   2.6      0.15   11.1   2.6   1.9   1   1   0   1   1   1   0 Putative N-acetylmannosamine-6-phosphate epimerase
+His_biosynth         PF00977.20 sp|P99106|IMDH_STAAN -               0.15   11.4   5.3         3    7.1   0.3   2.4   1   1   0   1   1   1   0 Histidine biosynthesis protein
+DSPc                 PF00782.19 sp|P99106|IMDH_STAAN -               0.17   11.6   0.0      0.43   10.3   0.0   1.6   1   0   0   1   1   1   0 Dual specificity phosphatase, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P99106.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P99106.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P99106.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:00:19 2019
+# [ok]

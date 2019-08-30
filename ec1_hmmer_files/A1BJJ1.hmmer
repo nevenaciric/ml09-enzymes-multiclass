@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|A1BJJ1|GPDA_CHLPD -            1.6e-54  183.9   0.4   3.4e-54  182.9   0.4   1.5   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|A1BJJ1|GPDA_CHLPD -            2.1e-46  157.6   0.3   3.3e-46  157.0   0.3   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+F420_oxidored        PF03807.16 sp|A1BJJ1|GPDA_CHLPD -            1.8e-08   34.8   0.0   6.2e-08   33.0   0.0   2.0   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|A1BJJ1|GPDA_CHLPD -            1.2e-06   28.7   0.1   3.9e-05   23.8   0.0   2.9   2   2   1   3   3   3   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+ApbA                 PF02558.15 sp|A1BJJ1|GPDA_CHLPD -            4.4e-06   26.3   0.1   1.5e-05   24.6   0.1   2.1   2   1   1   3   3   3   1 Ketopantoate reductase PanE/ApbA
+3HCDH_N              PF02737.17 sp|A1BJJ1|GPDA_CHLPD -            0.00087   19.1   0.0    0.0032   17.3   0.0   2.0   1   1   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Rossmann-like        PF10727.8  sp|A1BJJ1|GPDA_CHLPD -             0.0037   17.0   1.7     0.012   15.4   0.5   2.4   1   1   1   2   2   2   1 Rossmann-like domain
+NAD_binding_8        PF13450.5  sp|A1BJJ1|GPDA_CHLPD -              0.012   15.8   0.0     0.024   14.8   0.0   1.5   1   0   0   1   1   1   0 NAD(P)-binding Rossmann-like domain
+UDPG_MGDP_dh_N       PF03721.13 sp|A1BJJ1|GPDA_CHLPD -              0.013   15.0   0.4     0.084   12.3   0.0   2.3   1   1   0   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Pyr_redox            PF00070.26 sp|A1BJJ1|GPDA_CHLPD -              0.046   14.2   0.1       1.1    9.8   0.0   2.6   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1BJJ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1BJJ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1BJJ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:22:57 2019
+# [ok]

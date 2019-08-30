@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Gp_dh_C              PF02800.19 sp|P0CE13|G3P_CHLTR  -              7e-67  223.8   0.0   1.2e-66  223.1   0.0   1.3   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain
+Gp_dh_N              PF00044.23 sp|P0CE13|G3P_CHLTR  -              1e-34  118.8   0.0   2.1e-34  117.8   0.0   1.5   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|P0CE13|G3P_CHLTR  -             0.0044   17.6   1.2     0.033   14.7   0.1   2.6   2   1   0   2   2   2   1 Homoserine dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|P0CE13|G3P_CHLTR  -              0.046   13.9   0.0     0.096   12.9   0.0   1.5   1   0   0   1   1   1   0 TrkA-N domain
+Sacchrp_dh_NADP      PF03435.17 sp|P0CE13|G3P_CHLTR  -               0.22   11.7   2.2         7    6.8   0.1   2.4   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0CE13.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0CE13.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0CE13.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:34:02 2019
+# [ok]

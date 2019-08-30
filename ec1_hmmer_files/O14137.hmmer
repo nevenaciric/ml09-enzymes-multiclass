@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+G6PD_C               PF02781.15 sp|O14137|G6PD3_SCHPO -            1.9e-86  289.8   0.0   2.8e-86  289.2   0.0   1.2   1   0   0   1   1   1   1 Glucose-6-phosphate dehydrogenase, C-terminal domain
+G6PD_N               PF00479.21 sp|O14137|G6PD3_SCHPO -            3.5e-50  171.0   0.3   6.6e-50  170.1   0.3   1.5   1   0   0   1   1   1   1 Glucose-6-phosphate dehydrogenase, NAD binding domain
+DUF4786              PF16027.4  sp|O14137|G6PD3_SCHPO -              0.079   13.4   0.1      0.16   12.5   0.1   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF4786)
+GFO_IDH_MocA         PF01408.21 sp|O14137|G6PD3_SCHPO -               0.17   12.6   0.0       1.1   10.0   0.0   2.3   3   0   0   3   3   3   0 Oxidoreductase family, NAD-binding Rossmann fold
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O14137.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O14137.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O14137.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:21:28 2019
+# [ok]

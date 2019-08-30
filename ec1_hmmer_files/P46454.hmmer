@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FMN_dh               PF01070.17 sp|P46454|LLDD_HAEIN -           6.1e-123  410.2   0.0  7.1e-123  409.9   0.0   1.0   1   0   0   1   1   1   1 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|P46454|LLDD_HAEIN -            2.8e-07   29.8   0.7   5.5e-07   28.8   0.6   1.5   1   1   0   1   1   1   1 IMP dehydrogenase / GMP reductase domain
+NMO                  PF03060.14 sp|P46454|LLDD_HAEIN -            1.4e-05   24.6   0.7   2.4e-05   23.8   0.7   1.3   1   0   0   1   1   1   1 Nitronate monooxygenase
+Glu_synthase         PF01645.16 sp|P46454|LLDD_HAEIN -            0.00052   19.2   0.3   0.00081   18.5   0.3   1.3   1   0   0   1   1   1   1 Conserved region in glutamate synthase
+ThiG                 PF05690.13 sp|P46454|LLDD_HAEIN -             0.0057   15.9   0.4      0.82    8.8   0.3   2.3   1   1   1   2   2   2   2 Thiazole biosynthesis protein ThiG
+IGPS                 PF00218.20 sp|P46454|LLDD_HAEIN -              0.013   14.6   0.0     0.023   13.7   0.0   1.4   1   0   0   1   1   1   0 Indole-3-glycerol phosphate synthase
+His_biosynth         PF00977.20 sp|P46454|LLDD_HAEIN -              0.025   13.9   0.2      0.29   10.4   0.1   2.1   1   1   1   2   2   2   0 Histidine biosynthesis protein
+DHO_dh               PF01180.20 sp|P46454|LLDD_HAEIN -              0.036   13.2   0.1     0.056   12.5   0.1   1.2   1   0   0   1   1   1   0 Dihydroorotate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P46454.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P46454.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P46454.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:48:02 2019
+# [ok]

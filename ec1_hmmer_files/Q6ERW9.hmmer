@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|Q6ERW9|CAD8B_ORYSJ -            1.2e-28   99.0   5.7     2e-28   98.3   5.7   1.4   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|Q6ERW9|CAD8B_ORYSJ -            3.4e-15   56.0   0.1   7.9e-15   54.8   0.1   1.6   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|Q6ERW9|CAD8B_ORYSJ -            8.5e-07   28.4   0.1   1.7e-06   27.4   0.1   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+AlaDh_PNT_C          PF01262.20 sp|Q6ERW9|CAD8B_ORYSJ -             0.0012   18.1   0.1    0.0023   17.2   0.1   1.4   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+3HCDH_N              PF02737.17 sp|Q6ERW9|CAD8B_ORYSJ -              0.027   14.2   0.3     0.066   13.0   0.3   1.6   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ADH_zinc_N_2         PF13602.5  sp|Q6ERW9|CAD8B_ORYSJ -              0.034   15.1   0.0      0.08   13.9   0.0   1.7   1   0   0   1   1   1   0 Zinc-binding dehydrogenase
+NAD_binding_7        PF13241.5  sp|Q6ERW9|CAD8B_ORYSJ -              0.045   14.1   0.0       0.1   12.9   0.0   1.6   1   0   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6ERW9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6ERW9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6ERW9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:52:52 2019
+# [ok]

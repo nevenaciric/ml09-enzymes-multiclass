@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_C              PF02866.17 sp|A7MNR3|MDH_CROS8  -            1.1e-50  171.7   0.0   1.6e-50  171.2   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Ldh_1_N              PF00056.22 sp|A7MNR3|MDH_CROS8  -              1e-45  155.2   0.7   1.4e-45  154.8   0.7   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Semialdhyde_dh       PF01118.23 sp|A7MNR3|MDH_CROS8  -               0.09   13.1   0.4      0.27   11.6   0.1   2.0   2   0   0   2   2   2   0 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7MNR3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7MNR3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7MNR3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:39:45 2019
+# [ok]

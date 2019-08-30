@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Molybdopterin        PF00384.21 sp|A4VJ11|NAPA_PSEU5 -            2.8e-92  309.8   0.2   3.7e-92  309.4   0.2   1.2   1   0   0   1   1   1   1 Molybdopterin oxidoreductase
+Molydop_binding      PF01568.20 sp|A4VJ11|NAPA_PSEU5 -            1.8e-23   82.6   0.1   6.2e-23   80.9   0.0   2.0   2   0   0   2   2   2   1 Molydopterin dinucleotide binding domain
+Molybdop_Fe4S4       PF04879.15 sp|A4VJ11|NAPA_PSEU5 -              4e-15   55.4   1.0     8e-15   54.5   1.0   1.5   1   0   0   1   1   1   1 Molybdopterin oxidoreductase Fe4S4 domain
+CDC48_N              PF02359.17 sp|A4VJ11|NAPA_PSEU5 -              0.093   12.8   0.1       0.2   11.7   0.1   1.5   1   0   0   1   1   1   0 Cell division protein 48 (CDC48), N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4VJ11.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4VJ11.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4VJ11.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:31:26 2019
+# [ok]

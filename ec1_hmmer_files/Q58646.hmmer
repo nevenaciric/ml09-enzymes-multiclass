@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHQS                 PF01959.15 sp|Q58646|DHQS_METJA -           1.1e-149  498.1   2.9  1.2e-149  498.0   2.9   1.0   1   0   0   1   1   1   1 3-dehydroquinate synthase (EC 4.6.1.3)
+CdhD                 PF03599.15 sp|Q58646|DHQS_METJA -              0.003   16.2   2.8      0.59    8.7   0.6   2.2   1   1   1   2   2   2   2 CO dehydrogenase/acetyl-CoA synthase delta subunit
+Hint                 PF01079.19 sp|Q58646|DHQS_METJA -             0.0069   15.8   0.0      0.15   11.5   0.0   2.2   2   0   0   2   2   2   1 Hint module
+DUF1953              PF09196.9  sp|Q58646|DHQS_METJA -              0.094   12.4   0.8       1.5    8.6   0.2   2.9   2   1   1   3   3   3   0 Domain of unknown function (DUF1953)
+Glyco_hydr_30_2      PF14587.5  sp|Q58646|DHQS_METJA -               0.16   11.4   0.1      0.23   10.9   0.1   1.2   1   0   0   1   1   1   0 O-Glycosyl hydrolase family 30
+eIF-1a               PF01176.18 sp|Q58646|DHQS_METJA -               0.24   11.1   1.5         8    6.3   0.0   3.2   2   1   0   2   2   2   0 Translation initiation factor 1A / IF-1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q58646.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q58646.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q58646.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:39:38 2019
+# [ok]

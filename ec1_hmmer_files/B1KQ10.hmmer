@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|B1KQ10|GPDA_SHEWM -            4.7e-51  172.7   0.9     7e-51  172.1   0.9   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|B1KQ10|GPDA_SHEWM -            3.1e-49  166.9   0.0   4.4e-49  166.4   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|B1KQ10|GPDA_SHEWM -              6e-09   35.6   0.0   1.2e-08   34.7   0.0   1.5   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|B1KQ10|GPDA_SHEWM -            0.00051   20.5   0.0    0.0022   18.4   0.0   2.1   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|B1KQ10|GPDA_SHEWM -             0.0033   17.5   0.0    0.0062   16.6   0.0   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|B1KQ10|GPDA_SHEWM -             0.0086   15.9   0.0     0.029   14.1   0.0   1.8   2   0   0   2   2   2   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+GIDA                 PF01134.21 sp|B1KQ10|GPDA_SHEWM -              0.029   13.3   0.1     0.054   12.5   0.0   1.4   2   0   0   2   2   2   0 Glucose inhibited division protein A
+UDPG_MGDP_dh_N       PF03721.13 sp|B1KQ10|GPDA_SHEWM -              0.054   13.0   0.0       0.1   12.0   0.0   1.5   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+TrkA_N               PF02254.17 sp|B1KQ10|GPDA_SHEWM -              0.067   13.4   0.0      0.99    9.6   0.0   2.5   2   0   0   2   2   2   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B1KQ10.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B1KQ10.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B1KQ10.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:50:56 2019
+# [ok]

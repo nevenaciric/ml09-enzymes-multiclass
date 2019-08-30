@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_C         PF02775.20 sp|P80901|PORB_METTM -              2e-30  105.5   0.2   4.3e-30  104.4   0.0   1.6   1   1   1   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+DXP_synthase_N       PF13292.5  sp|P80901|PORB_METTM -               0.11   11.5   0.2      0.25   10.4   0.2   1.5   1   0   0   1   1   1   0 1-deoxy-D-xylulose-5-phosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P80901.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P80901.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P80901.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:57:39 2019
+# [ok]

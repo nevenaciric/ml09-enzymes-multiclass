@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q5PAV3|MDH_ANAMM  -            3.3e-40  137.4   1.1   4.5e-40  136.9   1.1   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q5PAV3|MDH_ANAMM  -            4.8e-29  101.3   0.0     8e-29  100.6   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|Q5PAV3|MDH_ANAMM  -            0.00011   21.8   0.1   0.00035   20.1   0.0   1.9   2   0   0   2   2   2   1 Family 4 glycosyl hydrolase
+UDPG_MGDP_dh_N       PF03721.13 sp|Q5PAV3|MDH_ANAMM  -             0.0021   17.6   2.6    0.0084   15.6   2.6   1.9   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+ThiF                 PF00899.20 sp|Q5PAV3|MDH_ANAMM  -             0.0088   15.3   0.4     0.014   14.6   0.4   1.3   1   0   0   1   1   1   1 ThiF family
+PK_C                 PF02887.15 sp|Q5PAV3|MDH_ANAMM  -              0.012   15.8   0.0       3.4    7.9   0.0   2.5   2   1   0   2   2   2   0 Pyruvate kinase, alpha/beta domain
+F420_oxidored        PF03807.16 sp|Q5PAV3|MDH_ANAMM  -              0.012   16.1   2.5     0.066   13.7   0.4   2.7   3   0   0   3   3   3   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5PAV3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5PAV3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5PAV3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:44:40 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|Q9VG82|CP9F2_DROME -            1.4e-86  291.1   5.3   1.8e-86  290.6   5.3   1.0   1   0   0   1   1   1   1 Cytochrome P450
+Cupin_2              PF07883.10 sp|Q9VG82|CP9F2_DROME -              0.073   12.7   0.0      0.13   11.9   0.0   1.4   1   0   0   1   1   1   0 Cupin domain
+Fer2_4               PF13510.5  sp|Q9VG82|CP9F2_DROME -               0.18   11.8   0.0      0.36   10.8   0.0   1.5   1   0   0   1   1   1   0 2Fe-2S iron-sulfur cluster binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9VG82.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9VG82.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9VG82.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:35:09 2019
+# [ok]

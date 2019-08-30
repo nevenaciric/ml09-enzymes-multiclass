@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Gp_dh_C              PF02800.19 sp|B4T5H2|E4PD_SALNS -            5.1e-56  188.5   0.6     7e-56  188.1   0.6   1.2   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain
+Gp_dh_N              PF00044.23 sp|B4T5H2|E4PD_SALNS -            1.3e-35  121.6   0.3   5.9e-35  119.6   0.1   2.0   2   0   0   2   2   2   1 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|B4T5H2|E4PD_SALNS -             0.0014   19.1   0.1    0.0065   17.0   0.1   2.0   1   1   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|B4T5H2|E4PD_SALNS -              0.019   15.1   0.1     0.046   13.9   0.1   1.7   1   0   0   1   1   1   0 TrkA-N domain
+DapB_N               PF01113.19 sp|B4T5H2|E4PD_SALNS -              0.021   14.8   0.9      0.12   12.5   0.1   2.5   2   1   0   2   2   2   0 Dihydrodipicolinate reductase, N-terminus
+Asp23                PF03780.12 sp|B4T5H2|E4PD_SALNS -              0.026   14.8   0.0     0.064   13.6   0.0   1.6   1   0   0   1   1   1   0 Asp23 family, cell envelope-related function
+GFO_IDH_MocA         PF01408.21 sp|B4T5H2|E4PD_SALNS -              0.043   14.5   0.9       0.1   13.3   0.1   2.2   3   1   0   3   3   3   0 Oxidoreductase family, NAD-binding Rossmann fold
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B4T5H2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B4T5H2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B4T5H2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:58:25 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PPO1_KFDV            PF12143.7  sp|Q9MB14|PPO2_IPOBA -            5.7e-48  162.2   0.1   1.2e-47  161.2   0.1   1.5   1   0   0   1   1   1   1 Protein of unknown function (DUF_B2219)
+Tyrosinase           PF00264.19 sp|Q9MB14|PPO2_IPOBA -            5.1e-36  124.9   2.7   6.3e-36  124.6   1.4   1.9   2   0   0   2   2   2   1 Common central domain of tyrosinase
+PPO1_DWL             PF12142.7  sp|Q9MB14|PPO2_IPOBA -            2.4e-24   84.8   1.8   2.4e-24   84.8   1.8   1.7   2   0   0   2   2   2   1 Polyphenol oxidase middle domain
+TAT_signal           PF10518.8  sp|Q9MB14|PPO2_IPOBA -               0.12   12.2   0.2      0.33   10.8   0.2   1.8   1   0   0   1   1   1   0 TAT (twin-arginine translocation) pathway signal sequence
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9MB14.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9MB14.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9MB14.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:30:41 2019
+# [ok]

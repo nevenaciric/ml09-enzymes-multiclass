@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q2GGI2|MDH_EHRCR  -            1.9e-39  134.8   2.8   3.8e-39  133.9   2.8   1.5   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q2GGI2|MDH_EHRCR  -            7.2e-30  104.0   0.0   9.6e-30  103.6   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|Q2GGI2|MDH_EHRCR  -            0.00035   20.1   0.4   0.00035   20.1   0.4   2.2   1   1   1   2   2   2   1 Family 4 glycosyl hydrolase
+UDPG_MGDP_dh_N       PF03721.13 sp|Q2GGI2|MDH_EHRCR  -              0.027   14.0   1.6     0.071   12.6   1.7   1.7   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+3HCDH_N              PF02737.17 sp|Q2GGI2|MDH_EHRCR  -              0.051   13.3   1.7     0.064   13.0   0.4   1.8   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ApbA                 PF02558.15 sp|Q2GGI2|MDH_EHRCR  -              0.088   12.4   1.5      0.12   11.9   0.5   1.8   2   0   0   2   2   2   0 Ketopantoate reductase PanE/ApbA
+TrkA_N               PF02254.17 sp|Q2GGI2|MDH_EHRCR  -               0.26   11.5   3.1       1.5    9.0   2.7   2.2   1   1   1   2   2   2   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2GGI2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2GGI2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2GGI2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:20:05 2019
+# [ok]

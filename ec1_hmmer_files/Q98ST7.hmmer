@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Cu2_monooxygen       PF01082.19 sp|Q98ST7|MOXD1_CHICK -            9.1e-49  165.0   2.8   9.5e-49  164.9   1.6   1.6   2   0   0   2   2   2   1 Copper type II ascorbate-dependent monooxygenase, N-terminal domain
+Cu2_monoox_C         PF03712.14 sp|Q98ST7|MOXD1_CHICK -            1.6e-43  147.9   0.0   2.8e-43  147.0   0.0   1.4   1   0   0   1   1   1   1 Copper type II ascorbate-dependent monooxygenase, C-terminal domain
+DOMON                PF03351.16 sp|Q98ST7|MOXD1_CHICK -            1.3e-28   99.6   0.0   2.5e-28   98.7   0.0   1.4   1   0   0   1   1   1   1 DOMON domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q98ST7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q98ST7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q98ST7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:23:19 2019
+# [ok]

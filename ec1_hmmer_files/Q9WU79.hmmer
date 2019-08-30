@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_dh               PF01619.17 sp|Q9WU79|PROD_MOUSE -            4.7e-82  275.8   0.0   5.8e-81  272.2   0.0   2.4   1   1   0   1   1   1   1 Proline dehydrogenase
+HrpB2                PF09487.9  sp|Q9WU79|PROD_MOUSE -              0.012   16.0   0.2     0.028   14.7   0.2   1.6   1   0   0   1   1   1   0 Bacterial type III secretion protein (HrpB2)
+CRISPR_Cas6          PF10040.8  sp|Q9WU79|PROD_MOUSE -               0.15   12.6   0.0        14    6.3   0.0   2.6   2   0   0   2   2   2   0 CRISPR-associated endoribonuclease Cas6
+Skp1                 PF01466.18 sp|Q9WU79|PROD_MOUSE -               0.42   10.7   2.4       3.5    7.7   0.1   2.6   2   0   0   2   2   2   0 Skp1 family, dimerisation domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9WU79.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9WU79.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9WU79.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:35:37 2019
+# [ok]

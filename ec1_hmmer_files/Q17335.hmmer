@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|Q17335|ADHX_CAEEL -            5.9e-24   84.0   1.7   5.9e-24   84.0   1.7   1.9   2   0   0   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|Q17335|ADHX_CAEEL -            6.8e-21   74.4   0.2   1.1e-20   73.7   0.2   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|Q17335|ADHX_CAEEL -             0.0075   15.5   0.1     0.016   14.5   0.1   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Glu_dehyd_C          PF16912.4  sp|Q17335|ADHX_CAEEL -              0.031   13.7   0.4      0.25   10.7   0.4   2.3   1   1   0   1   1   1   0 Glucose dehydrogenase C-terminus
+Inhibitor_I66        PF16850.4  sp|Q17335|ADHX_CAEEL -               0.13   12.0   0.0      0.25   11.1   0.0   1.4   1   0   0   1   1   1   0 Peptidase inhibitor I66
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q17335.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q17335.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q17335.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:13:03 2019
+# [ok]

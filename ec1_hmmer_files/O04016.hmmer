@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+P5CR_dimer           PF14748.5  sp|O04016|P5CR_ACTCH -            1.3e-39  134.5   2.4   1.3e-39  134.5   1.0   1.7   2   0   0   2   2   2   1 Pyrroline-5-carboxylate reductase dimerisation
+F420_oxidored        PF03807.16 sp|O04016|P5CR_ACTCH -            4.5e-18   65.5   0.2   1.1e-17   64.2   0.2   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|O04016|P5CR_ACTCH -              6e-06   26.4   0.0     1e-05   25.6   0.0   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_Gly3P_dh_N       PF01210.22 sp|O04016|P5CR_ACTCH -             0.0013   18.7   0.3    0.0026   17.6   0.0   1.7   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|O04016|P5CR_ACTCH -             0.0087   15.6   0.0     0.015   14.8   0.0   1.5   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+Shikimate_DH         PF01488.19 sp|O04016|P5CR_ACTCH -              0.013   15.5   0.0     0.031   14.2   0.0   1.7   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+OCD_Mu_crystall      PF02423.14 sp|O04016|P5CR_ACTCH -              0.025   13.4   0.1     0.045   12.6   0.1   1.4   1   0   0   1   1   1   0 Ornithine cyclodeaminase/mu-crystallin family
+PDH                  PF02153.16 sp|O04016|P5CR_ACTCH -              0.031   13.2   0.1     0.045   12.6   0.1   1.2   1   0   0   1   1   1   0 Prephenate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O04016.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O04016.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O04016.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:20:36 2019
+# [ok]

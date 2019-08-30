@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_1        PF00175.20 sp|P10933|FENR1_PEA  -            3.1e-29  101.7   0.0   5.5e-29  100.9   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+FAD_binding_6        PF00970.23 sp|P10933|FENR1_PEA  -             0.0003   21.0   0.0   0.00055   20.1   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase FAD-binding domain
+NAD_binding_6        PF08030.11 sp|P10933|FENR1_PEA  -              0.011   15.8   0.0     0.068   13.2   0.0   2.0   1   1   0   1   1   1   0 Ferric reductase NAD binding domain
+FAD_binding_1        PF00667.19 sp|P10933|FENR1_PEA  -              0.021   14.3   0.0       0.3   10.5   0.0   2.1   2   0   0   2   2   2   0 FAD binding domain
+Nebulin              PF00880.17 sp|P10933|FENR1_PEA  -              0.021   14.7   1.1     0.053   13.4   1.1   1.7   1   0   0   1   1   1   0 Nebulin repeat
+N6_N4_Mtase          PF01555.17 sp|P10933|FENR1_PEA  -              0.034   13.7   0.3     0.057   13.0   0.3   1.4   1   0   0   1   1   1   0 DNA methylase
+DUF3854              PF12965.6  sp|P10933|FENR1_PEA  -              0.056   13.3   0.1     0.098   12.5   0.1   1.3   1   0   0   1   1   1   0 Domain of unknown function (DUF3854)
+Nepo_coat_C          PF03688.13 sp|P10933|FENR1_PEA  -               0.12   12.2   0.0      0.22   11.3   0.0   1.4   1   0   0   1   1   1   0 Nepovirus coat protein, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P10933.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P10933.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P10933.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:35:19 2019
+# [ok]

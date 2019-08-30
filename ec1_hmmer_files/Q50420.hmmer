@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Me-amine-dh_H        PF06433.10 sp|Q50420|DHMH_METFK -           1.3e-200  665.3   0.6  1.5e-200  665.1   0.6   1.0   1   0   0   1   1   1   1 Methylamine dehydrogenase heavy chain (MADH)
+PQQ                  PF01011.20 sp|Q50420|DHMH_METFK -            0.00075   19.2   0.2      0.16   11.9   0.0   3.9   4   1   0   4   4   4   1 PQQ enzyme repeat
+Lactonase            PF10282.8  sp|Q50420|DHMH_METFK -              0.067   12.3   0.0      0.96    8.5   0.0   2.3   2   0   0   2   2   2   0 Lactonase, 7-bladed beta-propeller
+DUF4221              PF13970.5  sp|Q50420|DHMH_METFK -               0.12   11.8   0.2       7.9    5.8   0.0   2.4   1   1   1   2   2   2   0 Domain of unknown function (DUF4221)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q50420.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q50420.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q50420.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:36:41 2019
+# [ok]

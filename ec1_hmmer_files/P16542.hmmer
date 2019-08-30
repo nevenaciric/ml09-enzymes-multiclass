@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P16542|DHK1_STRVN -              5e-68  228.3   0.9   6.4e-68  228.0   0.9   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P16542|DHK1_STRVN -            1.9e-60  204.3   4.4   2.3e-60  204.0   4.4   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P16542|DHK1_STRVN -            8.8e-12   45.2   0.7   1.3e-11   44.6   0.6   1.4   1   1   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|P16542|DHK1_STRVN -              0.002   17.5   0.4    0.0027   17.1   0.4   1.5   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+NmrA                 PF05368.12 sp|P16542|DHK1_STRVN -              0.024   14.1   0.3     0.062   12.8   0.3   1.9   1   1   0   1   1   1   0 NmrA-like family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P16542.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P16542.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P16542.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:37:25 2019
+# [ok]

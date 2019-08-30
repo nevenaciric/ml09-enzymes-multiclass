@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|B1YSD6|HEM1_BURA4 -            6.7e-47  158.6   0.0   1.2e-46  157.8   0.0   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|B1YSD6|HEM1_BURA4 -              3e-45  153.6   0.0   5.5e-45  152.7   0.0   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|B1YSD6|HEM1_BURA4 -            6.2e-27   93.8   0.1   1.6e-26   92.5   0.1   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|B1YSD6|HEM1_BURA4 -            7.5e-05   23.1   0.0   0.00029   21.3   0.0   2.0   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+VirB8                PF04335.12 sp|B1YSD6|HEM1_BURA4 -              0.026   14.4   0.2     0.048   13.5   0.2   1.3   1   0   0   1   1   1   0 VirB8 protein
+Sacchrp_dh_NADP      PF03435.17 sp|B1YSD6|HEM1_BURA4 -               0.11   12.7   0.0       0.3   11.2   0.0   1.9   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+DUF2293              PF10056.8  sp|B1YSD6|HEM1_BURA4 -               0.24   11.6   4.8       0.7   10.1   2.4   2.7   2   1   0   2   2   2   0 Uncharacterized conserved protein (DUF2293)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B1YSD6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B1YSD6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B1YSD6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:52:42 2019
+# [ok]

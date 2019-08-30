@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ApbA                 PF02558.15 sp|P65666|PANE_STRP1 -              2e-40  137.8   0.1   3.5e-40  137.0   0.1   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+ApbA_C               PF08546.10 sp|P65666|PANE_STRP1 -            1.6e-37  128.4   0.2     1e-36  125.8   0.1   2.0   2   0   0   2   2   2   1 Ketopantoate reductase PanE/ApbA C terminal
+NAD_Gly3P_dh_N       PF01210.22 sp|P65666|PANE_STRP1 -            0.00028   20.8   0.2   0.00094   19.1   0.0   1.9   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+F420_oxidored        PF03807.16 sp|P65666|PANE_STRP1 -             0.0051   17.3   0.0      0.01   16.3   0.0   1.5   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P65666.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P65666.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P65666.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:54:57 2019
+# [ok]

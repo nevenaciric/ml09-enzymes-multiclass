@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|P49307|MOCA_RHIML -            1.1e-20   74.6   0.1   1.8e-20   73.8   0.1   1.4   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+GFO_IDH_MocA_C       PF02894.16 sp|P49307|MOCA_RHIML -            3.2e-11   43.2   0.0   7.5e-11   42.0   0.0   1.8   2   0   0   2   2   2   1 Oxidoreductase family, C-terminal alpha/beta domain
+DapB_N               PF01113.19 sp|P49307|MOCA_RHIML -              0.014   15.4   0.6      0.03   14.4   0.1   1.8   2   0   0   2   2   2   0 Dihydrodipicolinate reductase, N-terminus
+Gp_dh_N              PF00044.23 sp|P49307|MOCA_RHIML -              0.021   15.1   0.1     0.034   14.4   0.1   1.4   1   0   0   1   1   1   0 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|P49307|MOCA_RHIML -              0.057   13.5   0.1      0.14   12.2   0.1   1.6   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P49307.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P49307.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P49307.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:49:12 2019
+# [ok]

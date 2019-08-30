@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|A1ABF1|FOLM_ECOK1 -            1.5e-22   80.3   0.0   1.7e-22   80.0   0.0   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|A1ABF1|FOLM_ECOK1 -            1.6e-18   66.8   0.0   2.1e-18   66.4   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|A1ABF1|FOLM_ECOK1 -            0.00012   21.9   0.3   0.00025   20.9   0.3   1.5   1   1   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|A1ABF1|FOLM_ECOK1 -              0.013   14.9   0.2         1    8.7   0.2   2.6   1   1   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1ABF1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1ABF1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1ABF1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:22:24 2019
+# [ok]

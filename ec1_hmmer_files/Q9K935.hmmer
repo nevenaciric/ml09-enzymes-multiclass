@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GDC-P                PF02347.15 sp|Q9K935|GCSPA_BACHD -           3.9e-155  516.8   0.2  4.4e-155  516.6   0.2   1.0   1   0   0   1   1   1   1 Glycine cleavage system P-protein
+Aminotran_5          PF00266.18 sp|Q9K935|GCSPA_BACHD -            2.6e-06   26.6   1.1   6.8e-06   25.2   1.1   1.6   1   1   0   1   1   1   1 Aminotransferase class-V
+Aminotran_1_2        PF00155.20 sp|Q9K935|GCSPA_BACHD -              0.002   17.3   0.4      0.03   13.4   0.0   2.0   2   0   0   2   2   2   1 Aminotransferase class I and II
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9K935.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9K935.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9K935.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:28:43 2019
+# [ok]

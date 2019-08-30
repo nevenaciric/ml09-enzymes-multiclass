@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX15-CtaA           PF02628.14 sp|Q28PL3|CTAA_JANSC -             1e-102  343.5  25.2  1.2e-102  343.3  25.2   1.0   1   0   0   1   1   1   1 Cytochrome oxidase assembly protein
+Tetraspannin         PF00335.19 sp|Q28PL3|CTAA_JANSC -              0.066   12.8   4.8         1    9.0   0.4   3.1   3   0   0   3   3   3   0 Tetraspanin family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q28PL3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q28PL3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q28PL3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:18:51 2019
+# [ok]

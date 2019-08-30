@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Flavodoxin_2         PF02525.16 sp|Q81UB2|AZOR1_BACAN -              1e-40  139.5   0.1   1.2e-40  139.2   0.1   1.0   1   0   0   1   1   1   1 Flavodoxin-like fold
+FMN_red              PF03358.14 sp|Q81UB2|AZOR1_BACAN -              3e-06   27.0   0.0   4.1e-06   26.5   0.0   1.2   1   0   0   1   1   1   1 NADPH-dependent FMN reductase
+RBD-FIP              PF09457.9  sp|Q81UB2|AZOR1_BACAN -              0.043   13.6   1.0      0.63    9.9   0.0   2.7   3   1   0   3   3   3   0 FIP domain
+PRTP                 PF01366.17 sp|Q81UB2|AZOR1_BACAN -              0.051   11.5   0.1     0.064   11.2   0.1   1.1   1   0   0   1   1   1   0 Herpesvirus processing and transport protein
+Fucokinase           PF07959.11 sp|Q81UB2|AZOR1_BACAN -              0.096   11.6   0.1      0.13   11.2   0.1   1.2   1   0   0   1   1   1   0 L-fucokinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q81UB2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q81UB2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q81UB2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:05:00 2019
+# [ok]

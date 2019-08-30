@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|A9WKW2|IOLG_RENSM -            1.4e-24   87.2   0.8   2.5e-24   86.3   0.4   1.7   2   0   0   2   2   2   1 Oxidoreductase family, NAD-binding Rossmann fold
+Semialdhyde_dh       PF01118.23 sp|A9WKW2|IOLG_RENSM -             0.0023   18.3   0.1    0.0048   17.2   0.1   1.6   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+DapB_N               PF01113.19 sp|A9WKW2|IOLG_RENSM -             0.0025   17.8   0.7     0.026   14.5   0.7   2.6   2   1   0   2   2   2   1 Dihydrodipicolinate reductase, N-terminus
+CoA_binding          PF02629.18 sp|A9WKW2|IOLG_RENSM -             0.0046   17.5   0.2     0.019   15.5   0.2   2.1   1   0   0   1   1   1   1 CoA binding domain
+F420_oxidored        PF03807.16 sp|A9WKW2|IOLG_RENSM -             0.0052   17.2   2.3     0.017   15.6   0.8   2.5   3   0   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+Shikimate_DH         PF01488.19 sp|A9WKW2|IOLG_RENSM -              0.039   13.9   0.3      0.18   11.7   0.2   2.2   3   0   0   3   3   3   0 Shikimate / quinate 5-dehydrogenase
+TrkA_N               PF02254.17 sp|A9WKW2|IOLG_RENSM -              0.048   13.8   0.5      0.15   12.3   0.2   2.0   2   0   0   2   2   2   0 TrkA-N domain
+GFO_IDH_MocA_C       PF02894.16 sp|A9WKW2|IOLG_RENSM -               0.06   13.3   0.0      0.15   12.0   0.0   1.8   1   1   0   1   1   1   0 Oxidoreductase family, C-terminal alpha/beta domain
+IlvN                 PF07991.11 sp|A9WKW2|IOLG_RENSM -              0.078   12.4   0.2     0.078   12.4   0.2   1.6   2   0   0   2   2   2   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+NAD_binding_7        PF13241.5  sp|A9WKW2|IOLG_RENSM -               0.11   12.8   0.3      0.26   11.7   0.2   1.7   2   0   0   2   2   2   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A9WKW2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A9WKW2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A9WKW2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:46:48 2019
+# [ok]

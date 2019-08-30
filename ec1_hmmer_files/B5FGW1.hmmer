@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Molybdopterin        PF00384.21 sp|B5FGW1|NAPA_ALIFM -            1.5e-94  317.3   2.0   1.9e-94  317.0   2.0   1.1   1   0   0   1   1   1   1 Molybdopterin oxidoreductase
+Molydop_binding      PF01568.20 sp|B5FGW1|NAPA_ALIFM -            6.2e-27   93.7   0.0   1.9e-26   92.1   0.0   1.9   1   0   0   1   1   1   1 Molydopterin dinucleotide binding domain
+Molybdop_Fe4S4       PF04879.15 sp|B5FGW1|NAPA_ALIFM -            3.7e-17   62.0   0.3   7.1e-17   61.0   0.3   1.5   1   0   0   1   1   1   1 Molybdopterin oxidoreductase Fe4S4 domain
+TAT_signal           PF10518.8  sp|B5FGW1|NAPA_ALIFM -               0.15   11.8   6.1      0.31   10.9   6.1   1.5   1   0   0   1   1   1   0 TAT (twin-arginine translocation) pathway signal sequence
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B5FGW1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B5FGW1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B5FGW1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:00:06 2019
+# [ok]

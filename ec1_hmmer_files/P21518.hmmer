@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P21518|ADH_DROAF  -            5.5e-42  143.4   0.4   8.4e-42  142.7   0.2   1.4   2   0   0   2   2   2   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P21518|ADH_DROAF  -            1.7e-16   60.4   0.0   2.3e-16   60.0   0.0   1.2   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P21518|ADH_DROAF  -            1.5e-09   38.0   0.0   5.6e-09   36.1   0.0   1.9   1   1   0   1   1   1   1 KR domain
+ThiF                 PF00899.20 sp|P21518|ADH_DROAF  -            0.00033   20.0   1.0     0.052   12.8   0.1   2.6   3   0   0   3   3   3   2 ThiF family
+Sacchrp_dh_NADP      PF03435.17 sp|P21518|ADH_DROAF  -              0.031   14.5   0.0     0.058   13.5   0.0   1.5   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P21518.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P21518.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P21518.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:39:08 2019
+# [ok]

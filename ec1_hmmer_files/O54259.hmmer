@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABM                  PF03992.15 sp|O54259|SNOAB_STRNO -            1.5e-11   44.1   0.1     2e-11   43.7   0.1   1.2   1   0   0   1   1   1   1 Antibiotic biosynthesis monooxygenase
+DUF3291              PF11695.7  sp|O54259|SNOAB_STRNO -              0.056   13.0   0.1     0.094   12.3   0.1   1.5   1   1   0   1   1   1   0 Domain of unknown function (DUF3291)
+Dehydratase_hem      PF13816.5  sp|O54259|SNOAB_STRNO -               0.12   11.6   0.0      0.14   11.4   0.0   1.0   1   0   0   1   1   1   0 Haem-containing dehydratase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O54259.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O54259.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O54259.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:24:58 2019
+# [ok]

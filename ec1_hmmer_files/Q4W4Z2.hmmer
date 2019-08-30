@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_zinc_N_2         PF13602.5  sp|Q4W4Z2|RT4I1_CAEEL -            2.2e-13   51.3   0.0   5.3e-13   50.1   0.0   1.6   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+ADH_zinc_N           PF00107.25 sp|Q4W4Z2|RT4I1_CAEEL -            5.1e-08   32.8   0.0     1e-07   31.8   0.0   1.5   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_N                PF08240.11 sp|Q4W4Z2|RT4I1_CAEEL -            6.2e-08   32.4   0.0   1.4e-07   31.2   0.0   1.6   1   1   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ThiF                 PF00899.20 sp|Q4W4Z2|RT4I1_CAEEL -             0.0038   16.5   0.5     0.011   15.0   0.1   1.9   3   0   0   3   3   3   1 ThiF family
+ELFV_dehydrog        PF00208.20 sp|Q4W4Z2|RT4I1_CAEEL -              0.082   12.5   0.0      0.12   12.0   0.0   1.2   1   0   0   1   1   1   0 Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+Epimerase            PF01370.20 sp|Q4W4Z2|RT4I1_CAEEL -               0.12   11.7   0.0      0.16   11.3   0.0   1.2   1   0   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4W4Z2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4W4Z2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4W4Z2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:35:55 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_1        PF00175.20 sp|P21890|FENR_NOSSO -              4e-33  114.2   0.0     1e-32  112.9   0.0   1.7   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+CpcD                 PF01383.20 sp|P21890|FENR_NOSSO -            7.7e-25   86.8   3.6   1.6e-24   85.8   3.6   1.6   1   0   0   1   1   1   1 CpcD/allophycocyanin linker domain
+FAD_binding_1        PF00667.19 sp|P21890|FENR_NOSSO -            6.4e-08   32.3   0.0     0.012   15.1   0.0   2.4   2   0   0   2   2   2   2 FAD binding domain
+FAD_binding_6        PF00970.23 sp|P21890|FENR_NOSSO -            0.00027   21.2   0.0    0.0005   20.3   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase FAD-binding domain
+DUF5503              PF17607.1  sp|P21890|FENR_NOSSO -              0.049   13.9   0.0     0.084   13.1   0.0   1.3   1   0   0   1   1   1   0 Family of unknown function (DUF5503)
+DUF3970              PF13113.5  sp|P21890|FENR_NOSSO -               0.22   11.7   1.7       6.2    7.0   0.4   2.8   3   0   0   3   3   3   0 Protein of unknown function (DUF3970)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P21890.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P21890.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P21890.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:39:19 2019
+# [ok]

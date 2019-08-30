@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UDPG_MGDP_dh_N       PF03721.13 sp|Q9LIA8|UGDH2_ARATH -            1.9e-66  223.1   0.2   3.4e-66  222.3   0.2   1.4   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+UDPG_MGDP_dh_C       PF03720.14 sp|Q9LIA8|UGDH2_ARATH -            2.6e-37  127.4   0.2     7e-36  122.7   0.0   2.4   2   0   0   2   2   2   1 UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain
+UDPG_MGDP_dh         PF00984.18 sp|Q9LIA8|UGDH2_ARATH -              2e-32  111.2   0.0   3.8e-32  110.2   0.0   1.5   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, central domain
+Shikimate_DH         PF01488.19 sp|Q9LIA8|UGDH2_ARATH -              0.019   14.9   1.0       0.6   10.1   0.0   2.9   2   1   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+NAD_binding_2        PF03446.14 sp|Q9LIA8|UGDH2_ARATH -               0.02   15.0   0.0     0.054   13.6   0.0   1.7   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9LIA8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9LIA8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9LIA8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:29:49 2019
+# [ok]

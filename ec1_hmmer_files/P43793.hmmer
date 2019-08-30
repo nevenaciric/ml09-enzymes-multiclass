@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ELFV_dehydrog        PF00208.20 sp|P43793|DHE4_HAEIN -            1.5e-88  296.5   1.5   1.9e-88  296.2   1.5   1.1   1   0   0   1   1   1   1 Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+ELFV_dehydrog_N      PF02812.17 sp|P43793|DHE4_HAEIN -            3.9e-48  162.5   0.0   9.6e-48  161.2   0.0   1.7   2   0   0   2   2   2   1 Glu/Leu/Phe/Val dehydrogenase, dimerisation domain
+NAD_binding_7        PF13241.5  sp|P43793|DHE4_HAEIN -               0.11   12.8   0.0      0.23   11.8   0.0   1.5   1   0   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P43793.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P43793.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P43793.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:47:14 2019
+# [ok]

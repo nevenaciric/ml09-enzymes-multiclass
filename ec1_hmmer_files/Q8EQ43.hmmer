@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|Q8EQ43|FOLD_OCEIH -            4.8e-73  243.7   1.1   7.7e-73  243.0   0.8   1.5   2   0   0   2   2   2   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|Q8EQ43|FOLD_OCEIH -            2.4e-42  143.8   2.6   2.7e-42  143.6   1.5   1.6   2   0   0   2   2   2   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+AdoHcyase_NAD        PF00670.20 sp|Q8EQ43|FOLD_OCEIH -             0.0086   16.1   0.8      0.75    9.8   0.8   2.4   1   1   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8EQ43.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8EQ43.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8EQ43.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:10:57 2019
+# [ok]

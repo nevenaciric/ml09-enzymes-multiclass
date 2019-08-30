@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|B3GYJ1|GPDA_ACTP7 -            1.6e-51  174.2   3.0   3.1e-51  173.3   3.0   1.5   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|B3GYJ1|GPDA_ACTP7 -            2.2e-50  170.6   0.0   3.2e-50  170.0   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|B3GYJ1|GPDA_ACTP7 -            4.2e-08   32.9   0.0     8e-08   32.0   0.0   1.5   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|B3GYJ1|GPDA_ACTP7 -            4.9e-07   30.1   0.0   1.3e-06   28.8   0.0   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|B3GYJ1|GPDA_ACTP7 -            0.00015   21.9   0.3   0.00044   20.3   0.0   2.0   3   0   0   3   3   3   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GIDA                 PF01134.21 sp|B3GYJ1|GPDA_ACTP7 -             0.0019   17.2   0.0    0.0036   16.4   0.0   1.4   1   0   0   1   1   1   1 Glucose inhibited division protein A
+Rossmann-like        PF10727.8  sp|B3GYJ1|GPDA_ACTP7 -             0.0039   16.9   0.2     0.013   15.2   0.1   1.9   2   0   0   2   2   2   1 Rossmann-like domain
+3HCDH_N              PF02737.17 sp|B3GYJ1|GPDA_ACTP7 -              0.012   15.4   0.0     0.027   14.3   0.0   1.6   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Pyr_redox_2          PF07992.13 sp|B3GYJ1|GPDA_ACTP7 -              0.018   14.2   0.0     0.028   13.6   0.0   1.4   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+TrkA_N               PF02254.17 sp|B3GYJ1|GPDA_ACTP7 -              0.018   15.2   0.0       3.6    7.8   0.0   2.6   2   0   0   2   2   2   0 TrkA-N domain
+IlvN                 PF07991.11 sp|B3GYJ1|GPDA_ACTP7 -               0.02   14.4   0.9      0.14   11.6   0.2   2.5   2   1   0   2   2   2   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B3GYJ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B3GYJ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B3GYJ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:56:21 2019
+# [ok]

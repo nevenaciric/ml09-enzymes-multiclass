@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1_dh                PF00676.19 sp|P9WIS2|BKDA_MYCTO -            2.2e-84  282.8   0.0   2.6e-84  282.6   0.0   1.0   1   0   0   1   1   1   1 Dehydrogenase E1 component
+DXP_synthase_N       PF13292.5  sp|P9WIS2|BKDA_MYCTO -            4.4e-06   26.0   0.0   1.5e-05   24.2   0.0   1.6   1   1   1   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+TPP_enzyme_C         PF02775.20 sp|P9WIS2|BKDA_MYCTO -            1.9e-05   24.4   0.7   0.00021   21.0   0.7   2.1   1   1   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+Transketolase_N      PF00456.20 sp|P9WIS2|BKDA_MYCTO -             0.0037   16.2   0.0    0.0055   15.6   0.0   1.2   1   0   0   1   1   1   1 Transketolase, thiamine diphosphate binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WIS2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WIS2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WIS2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:00:58 2019
+# [ok]

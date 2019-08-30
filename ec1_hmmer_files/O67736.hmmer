@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|O67736|FOLD_AQUAE -            6.5e-68  227.0   0.4   8.6e-68  226.6   0.4   1.1   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|O67736|FOLD_AQUAE -            3.1e-44  149.9   0.1     5e-44  149.2   0.1   1.3   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+AlaDh_PNT_C          PF01262.20 sp|O67736|FOLD_AQUAE -             0.0067   15.7   3.4     0.013   14.7   3.3   1.7   1   1   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+Shikimate_DH         PF01488.19 sp|O67736|FOLD_AQUAE -              0.016   15.1   0.6      0.38   10.7   0.0   2.4   1   1   1   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O67736.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O67736.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O67736.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:26:11 2019
+# [ok]

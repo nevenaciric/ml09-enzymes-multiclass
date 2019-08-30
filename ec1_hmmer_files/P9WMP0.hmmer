@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Amino_oxidase        PF01593.23 sp|P9WMP0|PPOX_MYCTO -            3.5e-31  108.9   1.5   4.2e-31  108.6   1.5   1.1   1   0   0   1   1   1   1 Flavin containing amine oxidoreductase
+NAD_binding_8        PF13450.5  sp|P9WMP0|PPOX_MYCTO -            7.2e-14   51.7   0.0   2.1e-13   50.2   0.0   1.9   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+NAD_binding_9        PF13454.5  sp|P9WMP0|PPOX_MYCTO -            1.7e-08   34.6   0.3   0.00083   19.3   0.1   2.7   3   0   0   3   3   3   2 FAD-NAD(P)-binding
+DAO                  PF01266.23 sp|P9WMP0|PPOX_MYCTO -            1.1e-07   31.7   0.8   2.2e-07   30.7   0.8   1.6   1   1   0   1   1   1   1 FAD dependent oxidoreductase
+Pyr_redox_2          PF07992.13 sp|P9WMP0|PPOX_MYCTO -             0.0024   17.1   0.0     0.039   13.1   0.0   2.1   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+Rossmann-like        PF10727.8  sp|P9WMP0|PPOX_MYCTO -             0.0028   17.4   1.3    0.0056   16.4   0.2   2.0   2   0   0   2   2   2   1 Rossmann-like domain
+HOASN                PF14515.5  sp|P9WMP0|PPOX_MYCTO -                3.9    7.8   5.8       3.4    8.0   0.4   3.2   3   0   0   3   3   3   0 Haem-oxygenase-associated N-terminal helices
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WMP0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WMP0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WMP0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:01:22 2019
+# [ok]

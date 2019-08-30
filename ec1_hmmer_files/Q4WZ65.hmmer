@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|Q4WZ65|EASM_ASPFU -            9.1e-32  110.3   0.0   1.2e-31  109.8   0.0   1.1   1   0   0   1   1   1   1 Cytochrome P450
+DUF416               PF04222.11 sp|Q4WZ65|EASM_ASPFU -                0.1   11.9   0.0      0.19   11.1   0.0   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF416)
+Sel1                 PF08238.11 sp|Q4WZ65|EASM_ASPFU -               0.11   13.1   0.0      0.27   11.9   0.0   1.6   1   0   0   1   1   1   0 Sel1 repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4WZ65.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4WZ65.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4WZ65.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:36:18 2019
+# [ok]

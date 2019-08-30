@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q0BXA0|MDH_HYPNA  -            1.3e-36  125.6   0.1   2.1e-36  125.0   0.1   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q0BXA0|MDH_HYPNA  -            3.7e-26   92.0   0.0   5.1e-26   91.5   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q0BXA0|MDH_HYPNA  -             0.0079   15.7   0.2     0.046   13.2   0.2   2.1   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Glyco_hydro_4        PF02056.15 sp|Q0BXA0|MDH_HYPNA  -              0.044   13.2   0.0      0.11   11.9   0.0   1.6   1   0   0   1   1   1   0 Family 4 glycosyl hydrolase
+3HCDH_N              PF02737.17 sp|Q0BXA0|MDH_HYPNA  -              0.072   12.9   0.2      0.16   11.7   0.2   1.7   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_8        PF13450.5  sp|Q0BXA0|MDH_HYPNA  -               0.15   12.2   0.5       1.3    9.2   0.2   2.3   2   0   0   2   2   2   0 NAD(P)-binding Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q0BXA0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q0BXA0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q0BXA0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:07:39 2019
+# [ok]

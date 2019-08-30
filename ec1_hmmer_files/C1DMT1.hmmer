@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|C1DMT1|ACDH1_AZOVD -            3.3e-64  215.1   0.8   4.9e-64  214.6   0.8   1.3   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|C1DMT1|ACDH1_AZOVD -            1.4e-13   51.2   0.2   3.8e-13   49.8   0.1   1.8   2   1   1   3   3   3   1 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|C1DMT1|ACDH1_AZOVD -            0.00077   20.2   0.1    0.0017   19.1   0.1   1.5   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+F420_oxidored        PF03807.16 sp|C1DMT1|ACDH1_AZOVD -              0.013   16.0   0.3     0.039   14.4   0.3   1.8   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+AcylCoA_DH_N         PF12418.7  sp|C1DMT1|ACDH1_AZOVD -              0.061   13.3   0.0       7.8    6.5   0.0   2.6   2   0   0   2   2   2   0 Acyl-CoA dehydrogenase N terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C1DMT1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C1DMT1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C1DMT1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:12:27 2019
+# [ok]

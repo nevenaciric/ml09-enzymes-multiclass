@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_halogenase       PF04820.13 sp|A2R6G7|OTA5_ASPNC -            1.9e-15   56.5   1.9   2.5e-10   39.7   0.4   2.7   2   1   0   2   2   2   2 Tryptophan halogenase
+FAD_binding_3        PF01494.18 sp|A2R6G7|OTA5_ASPNC -            1.2e-08   34.5   0.4   0.00017   20.9   0.6   2.4   2   1   0   2   2   2   2 FAD binding domain
+Pyr_redox_2          PF07992.13 sp|A2R6G7|OTA5_ASPNC -            1.4e-07   31.0   0.0   2.5e-07   30.2   0.0   1.4   1   0   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+NAD_binding_8        PF13450.5  sp|A2R6G7|OTA5_ASPNC -            3.5e-05   23.9   0.4   0.00013   22.0   0.4   2.0   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+DAO                  PF01266.23 sp|A2R6G7|OTA5_ASPNC -             0.0008   19.0   0.4    0.0036   16.8   0.3   1.9   1   1   0   2   2   2   1 FAD dependent oxidoreductase
+FAD_oxidored         PF12831.6  sp|A2R6G7|OTA5_ASPNC -             0.0028   17.0   0.2    0.0085   15.4   0.2   1.8   2   0   0   2   2   2   1 FAD dependent oxidoreductase
+GIDA                 PF01134.21 sp|A2R6G7|OTA5_ASPNC -               0.01   14.9   0.0     0.015   14.3   0.0   1.2   1   0   0   1   1   1   0 Glucose inhibited division protein A
+HI0933_like          PF03486.13 sp|A2R6G7|OTA5_ASPNC -               0.03   12.9   0.2     0.044   12.4   0.2   1.2   1   0   0   1   1   1   0 HI0933-like protein
+FAD_binding_2        PF00890.23 sp|A2R6G7|OTA5_ASPNC -               0.23   10.4   3.6     0.079   11.9   0.4   1.8   3   0   0   3   3   3   0 FAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A2R6G7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A2R6G7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A2R6G7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:26:36 2019
+# [ok]

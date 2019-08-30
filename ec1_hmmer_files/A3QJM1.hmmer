@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|A3QJM1|GPDA_SHELP -              2e-52  177.1   0.3   2.9e-52  176.6   0.3   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|A3QJM1|GPDA_SHELP -            1.9e-49  167.5   0.0   2.6e-49  167.1   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|A3QJM1|GPDA_SHELP -            8.2e-08   31.9   0.0   1.9e-07   30.7   0.0   1.6   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|A3QJM1|GPDA_SHELP -            4.9e-05   23.7   0.0   0.00018   21.9   0.0   2.0   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|A3QJM1|GPDA_SHELP -            0.00091   19.3   0.0    0.0016   18.5   0.0   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|A3QJM1|GPDA_SHELP -              0.015   15.1   0.0     0.043   13.6   0.0   1.8   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+GIDA                 PF01134.21 sp|A3QJM1|GPDA_SHELP -              0.061   12.3   0.0      0.14   11.1   0.0   1.5   2   0   0   2   2   2   0 Glucose inhibited division protein A
+UDPG_MGDP_dh_N       PF03721.13 sp|A3QJM1|GPDA_SHELP -              0.071   12.6   0.0      0.15   11.5   0.0   1.5   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A3QJM1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A3QJM1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A3QJM1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:29:06 2019
+# [ok]

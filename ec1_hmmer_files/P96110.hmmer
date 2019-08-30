@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ELFV_dehydrog        PF00208.20 sp|P96110|DHE3_THEMA -            5.1e-81  271.9   0.4   6.7e-81  271.5   0.4   1.2   1   0   0   1   1   1   1 Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+ELFV_dehydrog_N      PF02812.17 sp|P96110|DHE3_THEMA -            6.8e-59  197.3   0.0   1.3e-58  196.4   0.0   1.5   1   0   0   1   1   1   1 Glu/Leu/Phe/Val dehydrogenase, dimerisation domain
+2-Hacid_dh_C         PF02826.18 sp|P96110|DHE3_THEMA -              0.034   13.4   0.1      0.07   12.4   0.1   1.5   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Gp_dh_N              PF00044.23 sp|P96110|DHE3_THEMA -              0.099   12.9   0.2      0.68   10.2   0.0   2.2   2   0   0   2   2   2   0 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P96110.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P96110.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P96110.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:59:51 2019
+# [ok]

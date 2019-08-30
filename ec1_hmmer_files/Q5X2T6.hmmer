@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_C              PF02866.17 sp|Q5X2T6|MDH_LEGPA  -            2.1e-33  115.5   0.0   3.1e-33  115.0   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Ldh_1_N              PF00056.22 sp|Q5X2T6|MDH_LEGPA  -            3.6e-33  114.5   0.0   6.4e-33  113.7   0.0   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+NAD-GH               PF10712.8  sp|Q5X2T6|MDH_LEGPA  -             0.0071   14.7   0.1     0.011   14.2   0.1   1.1   1   0   0   1   1   1   1 NAD-specific glutamate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5X2T6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5X2T6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5X2T6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:47:06 2019
+# [ok]

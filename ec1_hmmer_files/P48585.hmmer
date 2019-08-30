@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P48585|ADH_DROFL  -            2.5e-41  141.2   0.1   3.9e-41  140.6   0.0   1.3   2   0   0   2   2   2   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P48585|ADH_DROFL  -              4e-17   62.5   0.0   5.4e-17   62.0   0.0   1.2   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P48585|ADH_DROFL  -            5.1e-09   36.2   0.0   2.2e-08   34.1   0.0   1.9   1   1   0   1   1   1   1 KR domain
+ThiF                 PF00899.20 sp|P48585|ADH_DROFL  -            0.00014   21.2   0.8     0.062   12.5   0.1   2.5   3   0   0   3   3   3   2 ThiF family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P48585.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P48585.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P48585.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:48:44 2019
+# [ok]

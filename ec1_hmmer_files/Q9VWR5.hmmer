@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|Q9VWR5|CP306_DROME -            4.2e-77  259.7   0.0   1.1e-75  255.1   0.0   2.0   1   1   0   1   1   1   1 Cytochrome P450
+DUF4746              PF15928.4  sp|Q9VWR5|CP306_DROME -               0.06   12.7   0.9      0.11   11.8   0.9   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF4746)
+Med17                PF10156.8  sp|Q9VWR5|CP306_DROME -               0.11   11.1   2.3      0.14   10.7   2.3   1.1   1   0   0   1   1   1   0 Subunit 17 of Mediator complex
+Gar1                 PF04410.13 sp|Q9VWR5|CP306_DROME -               0.97    9.1   3.9       1.6    8.4   3.9   1.3   1   0   0   1   1   1   0 Gar1/Naf1 RNA binding region
+Tom22                PF04281.12 sp|Q9VWR5|CP306_DROME -                2.3    7.9   8.0       4.1    7.1   8.0   1.3   1   0   0   1   1   1   0 Mitochondrial import receptor subunit Tom22
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9VWR5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9VWR5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9VWR5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:35:28 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|Q5UY95|GFO6_HALMA -            7.8e-22   78.2   0.2   1.4e-21   77.4   0.2   1.4   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+GFO_IDH_MocA_C       PF02894.16 sp|Q5UY95|GFO6_HALMA -              0.012   15.5   0.0     0.024   14.5   0.0   1.5   1   0   0   1   1   1   0 Oxidoreductase family, C-terminal alpha/beta domain
+Peptidase_M78        PF06114.12 sp|Q5UY95|GFO6_HALMA -              0.055   13.3   0.1      0.13   12.1   0.0   1.6   2   0   0   2   2   2   0 IrrE N-terminal-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5UY95.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5UY95.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5UY95.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:46:31 2019
+# [ok]

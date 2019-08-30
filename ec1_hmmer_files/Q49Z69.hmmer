@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Aldedh               PF00171.21 sp|Q49Z69|ALD1_STAS1 -           7.4e-166  552.1   0.1  8.3e-166  552.0   0.1   1.0   1   0   0   1   1   1   1 Aldehyde dehydrogenase family
+VASP_tetra           PF08776.10 sp|Q49Z69|ALD1_STAS1 -               0.28   10.7   1.4      0.46   10.0   0.4   1.9   2   0   0   2   2   2   0 VASP tetramerisation domain
+HSCB_C               PF07743.12 sp|Q49Z69|ALD1_STAS1 -               0.29   11.6   1.6      0.93    9.9   1.4   2.0   1   1   0   1   1   1   0 HSCB C-terminal oligomerisation domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q49Z69.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q49Z69.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q49Z69.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:33:26 2019
+# [ok]

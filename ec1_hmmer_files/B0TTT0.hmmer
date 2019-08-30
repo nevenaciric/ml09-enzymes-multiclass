@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|B0TTT0|ACDH_SHEHH -            4.7e-66  221.1   0.4   6.9e-66  220.6   0.4   1.3   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|B0TTT0|ACDH_SHEHH -            1.2e-09   38.6   0.0   2.5e-09   37.5   0.0   1.6   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|B0TTT0|ACDH_SHEHH -               0.09   13.3   0.0      0.23   11.9   0.0   1.8   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B0TTT0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B0TTT0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B0TTT0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:48:36 2019
+# [ok]

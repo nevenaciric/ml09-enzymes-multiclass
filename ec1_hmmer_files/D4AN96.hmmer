@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_10       PF13460.5  sp|D4AN96|SWNR_ARTBC -            4.2e-09   36.5   0.0   8.2e-09   35.5   0.0   1.4   1   0   0   1   1   1   1 NAD(P)H-binding
+NmrA                 PF05368.12 sp|D4AN96|SWNR_ARTBC -            6.4e-06   25.8   0.0   1.9e-05   24.2   0.0   1.7   1   1   0   1   1   1   1 NmrA-like family
+Epimerase            PF01370.20 sp|D4AN96|SWNR_ARTBC -              0.013   14.9   0.0       0.3   10.4   0.0   2.3   2   0   0   2   2   2   0 NAD dependent epimerase/dehydratase family
+TrkA_N               PF02254.17 sp|D4AN96|SWNR_ARTBC -               0.05   13.8   0.1      0.12   12.6   0.1   1.7   1   1   0   1   1   1   0 TrkA-N domain
+F420_oxidored        PF03807.16 sp|D4AN96|SWNR_ARTBC -               0.11   13.0   0.0      0.54   10.8   0.0   2.1   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/D4AN96.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/D4AN96.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/D4AN96.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:16:51 2019
+# [ok]

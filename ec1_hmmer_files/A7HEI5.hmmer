@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|A7HEI5|TDH_ANADF  -            3.1e-33  113.8   2.7   2.1e-31  108.0   2.1   2.2   2   0   0   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|A7HEI5|TDH_ANADF  -            2.5e-26   92.0   0.5     5e-26   91.0   0.5   1.5   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|A7HEI5|TDH_ANADF  -              5e-09   35.9   0.1   8.7e-09   35.1   0.1   1.4   1   1   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N_2         PF13602.5  sp|A7HEI5|TDH_ANADF  -            4.8e-07   30.8   1.1   5.8e-06   27.3   0.0   2.6   3   0   0   3   3   3   1 Zinc-binding dehydrogenase
+AlaDh_PNT_C          PF01262.20 sp|A7HEI5|TDH_ANADF  -             0.0039   16.4   0.7    0.0073   15.5   0.7   1.3   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+TetR_C               PF02909.16 sp|A7HEI5|TDH_ANADF  -              0.052   13.3   0.1      0.21   11.3   0.0   1.9   2   1   0   2   2   2   0 Tetracyclin repressor, C-terminal all-alpha domain
+FAD_binding_3        PF01494.18 sp|A7HEI5|TDH_ANADF  -               0.07   12.3   0.6      0.12   11.5   0.6   1.4   1   0   0   1   1   1   0 FAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7HEI5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7HEI5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7HEI5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:39:08 2019
+# [ok]

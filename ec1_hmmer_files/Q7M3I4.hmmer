@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q7M3I4|DHI1_RABIT -            2.1e-51  174.1   3.5   2.5e-51  173.8   3.5   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q7M3I4|DHI1_RABIT -            4.8e-23   81.8   1.9     6e-23   81.5   1.9   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q7M3I4|DHI1_RABIT -            7.3e-09   35.7   1.4   1.1e-08   35.2   1.4   1.1   1   0   0   1   1   1   1 KR domain
+DUF1776              PF08643.9  sp|Q7M3I4|DHI1_RABIT -            0.00017   21.0   0.1    0.0004   19.7   0.0   1.5   2   0   0   2   2   2   1 Fungal family of unknown function (DUF1776)
+THF_DHG_CYH_C        PF02882.18 sp|Q7M3I4|DHI1_RABIT -            0.00048   19.4   0.1   0.00094   18.4   0.1   1.4   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+AdoHcyase_NAD        PF00670.20 sp|Q7M3I4|DHI1_RABIT -             0.0065   16.4   2.8     0.024   14.6   2.2   2.0   1   1   1   2   2   2   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q7M3I4|DHI1_RABIT -             0.0082   16.1   0.1     0.014   15.3   0.1   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|Q7M3I4|DHI1_RABIT -               0.01   15.1   0.1     0.017   14.4   0.1   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Pyr_redox_3          PF13738.5  sp|Q7M3I4|DHI1_RABIT -              0.041   13.0   0.0     0.059   12.5   0.0   1.2   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+Epimerase            PF01370.20 sp|Q7M3I4|DHI1_RABIT -              0.073   12.4   0.1       3.8    6.8   0.1   2.1   2   0   0   2   2   2   0 NAD dependent epimerase/dehydratase family
+SIS                  PF01380.21 sp|Q7M3I4|DHI1_RABIT -               0.16   11.7   2.4       1.2    8.9   0.1   2.7   2   1   1   3   3   3   0 SIS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7M3I4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7M3I4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7M3I4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:00:25 2019
+# [ok]

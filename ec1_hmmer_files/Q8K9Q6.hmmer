@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q8K9Q6|FABI_BUCAP -            5.5e-66  222.4   0.0   6.2e-66  222.2   0.0   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q8K9Q6|FABI_BUCAP -            3.4e-14   52.7   0.1   4.5e-14   52.3   0.1   1.2   1   0   0   1   1   1   1 short chain dehydrogenase
+Enoyl_reductase      PF12241.7  sp|Q8K9Q6|FABI_BUCAP -             0.0012   18.2   0.2      0.15   11.3   0.2   2.2   1   1   1   2   2   2   2 Trans-2-enoyl-CoA reductase catalytic region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8K9Q6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8K9Q6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8K9Q6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:13:01 2019
+# [ok]

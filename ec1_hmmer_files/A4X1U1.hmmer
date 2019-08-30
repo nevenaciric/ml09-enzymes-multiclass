@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A4X1U1|HEM1_SALTO -            5.3e-43  146.0   0.1   8.5e-43  145.3   0.1   1.3   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A4X1U1|HEM1_SALTO -            3.3e-29  101.6   0.1   8.7e-29  100.3   0.0   1.8   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A4X1U1|HEM1_SALTO -            6.4e-24   84.1   0.0   2.8e-23   82.0   0.0   2.0   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+Glu_dehyd_C          PF16912.4  sp|A4X1U1|HEM1_SALTO -            7.1e-05   22.3   1.0   0.00017   21.1   1.0   1.5   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|A4X1U1|HEM1_SALTO -              0.017   15.6   4.4     0.025   15.1   0.8   2.7   3   0   0   3   3   3   0 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|A4X1U1|HEM1_SALTO -              0.026   14.6   0.2     0.067   13.3   0.2   1.6   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_binding_7        PF13241.5  sp|A4X1U1|HEM1_SALTO -              0.032   14.6   0.2     0.081   13.3   0.2   1.6   1   0   0   1   1   1   0 Putative NAD(P)-binding
+Dna2                 PF08696.10 sp|A4X1U1|HEM1_SALTO -              0.033   13.9   0.0      0.14   11.9   0.0   1.8   2   0   0   2   2   2   0 DNA replication factor Dna2
+ApbA                 PF02558.15 sp|A4X1U1|HEM1_SALTO -              0.063   12.8   0.5      0.11   12.0   0.5   1.4   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+DnaG_DnaB_bind       PF08278.10 sp|A4X1U1|HEM1_SALTO -               0.25   11.9   2.8        15    6.1   0.1   2.8   2   1   0   2   2   2   0 DNA primase DnaG DnaB-binding
+ThiF                 PF00899.20 sp|A4X1U1|HEM1_SALTO -               0.29   10.3   3.0      0.33   10.2   1.0   2.0   2   0   0   2   2   2   0 ThiF family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4X1U1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4X1U1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4X1U1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:32:06 2019
+# [ok]

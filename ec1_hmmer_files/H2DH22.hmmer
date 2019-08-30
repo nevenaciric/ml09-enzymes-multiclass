@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|H2DH22|C7A10_PANGI -           4.7e-107  358.5   0.0  5.7e-107  358.2   0.0   1.0   1   0   0   1   1   1   1 Cytochrome P450
+CbiQ                 PF02361.15 sp|H2DH22|C7A10_PANGI -               0.17   11.4   5.9      0.35   10.3   0.1   2.3   2   0   0   2   2   2   0 Cobalt transport protein
+DUF4468              PF14730.5  sp|H2DH22|C7A10_PANGI -               0.18   12.0   0.3       3.6    7.9   0.1   2.3   2   0   0   2   2   2   0 Domain of unknown function (DUF4468) with TBP-like fold
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/H2DH22.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/H2DH22.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/H2DH22.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:19:22 2019
+# [ok]

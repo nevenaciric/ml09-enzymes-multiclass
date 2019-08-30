@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+malic                PF00390.18 sp|O34962|MAO4_BACSU -            4.5e-33  114.5   0.2   9.6e-31  106.9   0.2   2.4   1   1   0   1   1   1   1 Malic enzyme, N-terminal domain
+Malic_M              PF03949.14 sp|O34962|MAO4_BACSU -            5.8e-28   97.8   7.1     8e-27   94.0   7.1   2.4   1   1   0   1   1   1   1 Malic enzyme, NAD binding domain
+ELFV_dehydrog        PF00208.20 sp|O34962|MAO4_BACSU -            0.00019   21.1   0.2   0.00019   21.1   0.2   2.3   3   0   0   3   3   3   1 Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+DXP_synthase_N       PF13292.5  sp|O34962|MAO4_BACSU -              0.076   12.1   0.3      0.15   11.1   0.1   1.6   2   0   0   2   2   2   0 1-deoxy-D-xylulose-5-phosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O34962.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O34962.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O34962.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:23:48 2019
+# [ok]

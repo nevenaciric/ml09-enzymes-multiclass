@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_hydroxylase       PF04116.12 sp|Q4R4P4|FA2H_MACFA -            9.5e-18   64.7  14.6   9.5e-18   64.7  14.6   1.9   2   0   0   2   2   2   1 Fatty acid hydroxylase superfamily
+Cyt-b5               PF00173.27 sp|Q4R4P4|FA2H_MACFA -            1.2e-14   54.1   0.2   3.2e-14   52.7   0.0   1.8   2   0   0   2   2   2   1 Cytochrome b5-like Heme/Steroid binding domain
+COX14                PF14880.5  sp|Q4R4P4|FA2H_MACFA -             0.0046   16.7   3.8     0.012   15.3   3.8   1.7   1   0   0   1   1   1   1 Cytochrome oxidase c assembly
+GH97_C               PF14509.5  sp|Q4R4P4|FA2H_MACFA -               0.15   12.2   0.0      0.25   11.5   0.0   1.3   1   0   0   1   1   1   0 Glycosyl-hydrolase 97 C-terminal, oligomerisation
+Anth_synt_I_N        PF04715.12 sp|Q4R4P4|FA2H_MACFA -               0.17   12.0   0.1      0.28   11.3   0.1   1.3   1   0   0   1   1   1   0 Anthranilate synthase component I, N terminal region
+TMEM189_B_dmain      PF10520.8  sp|Q4R4P4|FA2H_MACFA -                3.3    7.7   9.1         3    7.8   0.3   2.3   2   0   0   2   2   2   0 B domain of TMEM189, localisation domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4R4P4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4R4P4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4R4P4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:35:17 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_C              PF02866.17 sp|Q5U907|MDH_ACTSZ  -            1.4e-47  161.6   0.0   1.9e-47  161.2   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Ldh_1_N              PF00056.22 sp|Q5U907|MDH_ACTSZ  -            4.8e-45  153.0   0.1   7.2e-45  152.4   0.1   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Glyco_hydro_4        PF02056.15 sp|Q5U907|MDH_ACTSZ  -              0.016   14.7   0.9       1.7    8.0   0.4   3.0   2   1   1   3   3   3   0 Family 4 glycosyl hydrolase
+Semialdhyde_dh       PF01118.23 sp|Q5U907|MDH_ACTSZ  -              0.035   14.4   0.3      0.97    9.8   0.0   2.7   2   1   0   2   2   2   0 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5U907.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5U907.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5U907.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:46:26 2019
+# [ok]

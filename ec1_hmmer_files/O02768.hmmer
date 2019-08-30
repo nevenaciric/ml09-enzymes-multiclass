@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+An_peroxidase        PF03098.14 sp|O02768|PGH2_RABIT -              9e-54  182.8   0.1     6e-46  157.0   0.0   2.2   1   1   1   2   2   2   2 Animal haem peroxidase
+EGF                  PF00008.26 sp|O02768|PGH2_RABIT -            7.7e-05   22.8  12.2   0.00016   21.8  12.2   1.6   1   0   0   1   1   1   1 EGF-like domain
+EGF_2                PF07974.12 sp|O02768|PGH2_RABIT -               0.13   12.6  14.7      0.28   11.5  14.7   1.6   1   0   0   1   1   1   0 EGF-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O02768.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O02768.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O02768.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:20:29 2019
+# [ok]

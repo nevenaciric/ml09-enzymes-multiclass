@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mannitol_dh_C        PF08125.12 sp|Q04M75|MTLD_STRP2 -            3.3e-61  206.8   0.1   4.6e-61  206.3   0.1   1.2   1   0   0   1   1   1   1 Mannitol dehydrogenase C-terminal domain
+Mannitol_dh          PF01232.22 sp|Q04M75|MTLD_STRP2 -            4.5e-27   95.0   5.0   9.4e-27   93.9   0.6   2.7   3   0   0   3   3   3   1 Mannitol dehydrogenase Rossmann domain
+UPF0052              PF01933.17 sp|Q04M75|MTLD_STRP2 -              0.005   16.0   0.1    0.0083   15.3   0.1   1.4   1   0   0   1   1   1   1 Uncharacterised protein family UPF0052
+UDPG_MGDP_dh_N       PF03721.13 sp|Q04M75|MTLD_STRP2 -             0.0064   16.0   0.4     0.013   15.0   0.4   1.5   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Terminase_2          PF03592.15 sp|Q04M75|MTLD_STRP2 -              0.069   13.5   0.0      0.15   12.4   0.0   1.7   1   0   0   1   1   1   0 Terminase small subunit
+F420_oxidored        PF03807.16 sp|Q04M75|MTLD_STRP2 -               0.46   11.0   2.4       4.8    7.7   2.4   2.5   1   1   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q04M75.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q04M75.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q04M75.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:04:45 2019
+# [ok]

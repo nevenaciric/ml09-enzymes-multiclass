@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+3-HAO                PF06052.11 sp|Q59K86|3HAO_CANAL -            1.4e-65  219.5   0.2   1.5e-65  219.3   0.2   1.0   1   0   0   1   1   1   1 3-hydroxyanthranilic acid dioxygenase
+Cupin_2              PF07883.10 sp|Q59K86|3HAO_CANAL -              2e-06   27.3   0.0   3.1e-06   26.7   0.0   1.3   1   0   0   1   1   1   1 Cupin domain
+Cupin_1              PF00190.21 sp|Q59K86|3HAO_CANAL -              0.004   16.7   0.0    0.0054   16.2   0.0   1.2   1   0   0   1   1   1   1 Cupin
+DZR                  PF12773.6  sp|Q59K86|3HAO_CANAL -              0.008   16.1   0.7     0.038   13.9   0.7   2.0   1   1   0   1   1   1   1 Double zinc ribbon
+Rpr2                 PF04032.15 sp|Q59K86|3HAO_CANAL -              0.024   14.9   0.6      0.49   10.7   0.5   2.2   1   1   0   1   1   1   0 RNAse P Rpr2/Rpp21/SNM1 subunit domain
+Nudix_N_2            PF14803.5  sp|Q59K86|3HAO_CANAL -              0.039   13.8   0.7       4.2    7.3   0.1   2.6   2   0   0   2   2   2   0 Nudix N-terminal
+Zn-ribbon_8          PF09723.9  sp|Q59K86|3HAO_CANAL -              0.099   12.7   2.7      0.87    9.7   1.4   2.7   2   1   0   2   2   2   0 Zinc ribbon domain
+AraC_binding         PF02311.18 sp|Q59K86|3HAO_CANAL -               0.12   12.1   0.0      0.21   11.4   0.0   1.4   1   0   0   1   1   1   0 AraC-like ligand binding domain
+zf-ribbon_3          PF13248.5  sp|Q59K86|3HAO_CANAL -               0.19   11.1   2.2      0.33   10.3   0.2   2.2   2   0   0   2   2   2   0 zinc-ribbon domain
+ADK_lid              PF05191.13 sp|Q59K86|3HAO_CANAL -               0.27   11.2   4.5       9.1    6.3   0.0   2.9   3   0   0   3   3   3   0 Adenylate kinase, active site lid
+zinc_ribbon_2        PF13240.5  sp|Q59K86|3HAO_CANAL -               0.33   10.6   3.5       2.6    7.8   0.1   3.1   3   0   0   3   3   3   0 zinc-ribbon domain
+zf-RRN7              PF11781.7  sp|Q59K86|3HAO_CANAL -                5.4    6.7   9.4       4.7    6.9   2.0   2.6   2   0   0   2   2   2   0 Zinc-finger of RNA-polymerase I-specific TFIIB, Rrn7
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q59K86.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q59K86.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q59K86.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:40:16 2019
+# [ok]

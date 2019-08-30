@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|E8MJ15|LDH1_BIFL2 -            2.5e-29  102.1   0.2   3.6e-29  101.6   0.2   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|E8MJ15|LDH1_BIFL2 -            8.1e-27   94.1   0.0   1.2e-26   93.5   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+F420_oxidored        PF03807.16 sp|E8MJ15|LDH1_BIFL2 -             0.0029   18.0   0.1    0.0088   16.5   0.1   1.9   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|E8MJ15|LDH1_BIFL2 -             0.0082   16.5   0.2     0.013   15.8   0.2   1.4   1   0   0   1   1   1   1 Putative NAD(P)-binding
+UDPG_MGDP_dh_N       PF03721.13 sp|E8MJ15|LDH1_BIFL2 -              0.012   15.1   0.8      0.23   10.9   0.3   2.3   2   0   0   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|E8MJ15|LDH1_BIFL2 -               0.12   12.6   0.5      0.97    9.6   0.2   2.2   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+Pyr_redox_2          PF07992.13 sp|E8MJ15|LDH1_BIFL2 -                1.2    8.2   4.8       7.5    5.6   0.1   2.3   1   1   1   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/E8MJ15.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/E8MJ15.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/E8MJ15.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:17:54 2019
+# [ok]

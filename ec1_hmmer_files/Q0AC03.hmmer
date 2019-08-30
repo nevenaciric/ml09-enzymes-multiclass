@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q0AC03|HEM1_ALKEH -              9e-47  158.2   0.0   2.4e-46  156.8   0.0   1.7   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q0AC03|HEM1_ALKEH -            1.5e-44  151.3   0.0   3.3e-44  150.2   0.0   1.6   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q0AC03|HEM1_ALKEH -            1.1e-21   77.0   2.0   1.5e-21   76.5   0.5   2.1   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|Q0AC03|HEM1_ALKEH -             0.0019   18.6   0.5     0.018   15.5   0.0   2.6   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|Q0AC03|HEM1_ALKEH -              0.066   13.6   0.0      0.17   12.2   0.0   1.7   1   0   0   1   1   1   0 Putative NAD(P)-binding
+US22                 PF02393.15 sp|Q0AC03|HEM1_ALKEH -              0.075   13.2   0.9      0.19   11.9   0.9   1.7   1   0   0   1   1   1   0 US22 like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q0AC03.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q0AC03.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q0AC03.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:06:58 2019
+# [ok]

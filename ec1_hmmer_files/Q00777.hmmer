@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+F420_oxidored        PF03807.16 sp|Q00777|P5CR3_BACSU -            1.2e-13   51.4   0.0   3.9e-13   49.7   0.0   1.9   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+P5CR_dimer           PF14748.5  sp|Q00777|P5CR3_BACSU -            2.9e-13   49.9   0.0   5.1e-13   49.1   0.0   1.4   1   0   0   1   1   1   1 Pyrroline-5-carboxylate reductase dimerisation
+ApbA                 PF02558.15 sp|Q00777|P5CR3_BACSU -              3e-05   23.6   0.0   6.2e-05   22.6   0.0   1.6   1   1   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+NAD_binding_2        PF03446.14 sp|Q00777|P5CR3_BACSU -            0.00023   21.3   0.0    0.0025   17.9   0.0   2.2   1   1   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_Gly3P_dh_N       PF01210.22 sp|Q00777|P5CR3_BACSU -              0.003   17.4   0.0     0.005   16.7   0.0   1.5   1   1   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+Shikimate_DH         PF01488.19 sp|Q00777|P5CR3_BACSU -               0.02   14.8   0.0     0.066   13.2   0.0   1.9   2   0   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|Q00777|P5CR3_BACSU -              0.067   13.3   0.0      0.17   12.1   0.0   1.7   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+Semialdhyde_dh       PF01118.23 sp|Q00777|P5CR3_BACSU -              0.091   13.1   0.0      0.21   11.9   0.0   1.7   1   1   0   1   1   1   0 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q00777.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q00777.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q00777.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:02:53 2019
+# [ok]

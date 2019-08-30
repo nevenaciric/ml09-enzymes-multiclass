@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|B7JRW5|MDH_BACC0  -            2.7e-42  144.1   0.5   3.8e-42  143.6   0.5   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|B7JRW5|MDH_BACC0  -            4.9e-28   98.0   0.0   8.8e-28   97.2   0.0   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|B7JRW5|MDH_BACC0  -            4.2e-06   26.4   1.4   1.2e-05   24.9   1.4   1.7   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Glyco_hydro_4        PF02056.15 sp|B7JRW5|MDH_BACC0  -            0.00027   20.4   0.6    0.0082   15.6   0.1   2.5   1   1   1   2   2   2   1 Family 4 glycosyl hydrolase
+DAO                  PF01266.23 sp|B7JRW5|MDH_BACC0  -            0.00044   19.8   0.2    0.0024   17.4   0.1   2.2   1   1   1   2   2   2   1 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|B7JRW5|MDH_BACC0  -             0.0022   18.1   0.0    0.0044   17.1   0.0   1.5   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Shikimate_DH         PF01488.19 sp|B7JRW5|MDH_BACC0  -              0.005   16.8   0.2    0.0096   15.9   0.2   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+3HCDH_N              PF02737.17 sp|B7JRW5|MDH_BACC0  -             0.0074   16.1   0.1     0.023   14.5   0.1   1.9   1   1   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Pyr_redox_2          PF07992.13 sp|B7JRW5|MDH_BACC0  -              0.024   13.8   0.1     0.054   12.6   0.0   1.4   1   1   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+DUF1188              PF06690.10 sp|B7JRW5|MDH_BACC0  -              0.082   12.3   0.1      0.12   11.9   0.1   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF1188)
+LigB                 PF02900.17 sp|B7JRW5|MDH_BACC0  -               0.15   11.0   0.0      0.23   10.4   0.0   1.3   1   0   0   1   1   1   0 Catalytic LigB subunit of aromatic ring-opening dioxygenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B7JRW5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B7JRW5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B7JRW5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:04:07 2019
+# [ok]

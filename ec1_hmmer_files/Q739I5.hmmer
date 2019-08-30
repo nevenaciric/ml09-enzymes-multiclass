@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|Q739I5|ACDH_BACC1 -              8e-64  213.9   0.2   1.3e-63  213.2   0.2   1.3   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|Q739I5|ACDH_BACC1 -            3.3e-11   43.6   0.0   6.5e-11   42.6   0.0   1.5   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|Q739I5|ACDH_BACC1 -             0.0001   23.0   0.1   0.00024   21.8   0.1   1.6   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+NAD_binding_3        PF03447.15 sp|Q739I5|ACDH_BACC1 -            0.00087   19.8   0.0    0.0017   18.9   0.0   1.5   1   0   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+IlvN                 PF07991.11 sp|Q739I5|ACDH_BACC1 -            0.00097   18.6   0.6    0.0019   17.7   0.2   1.7   2   0   0   2   2   2   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+DapB_N               PF01113.19 sp|Q739I5|ACDH_BACC1 -             0.0015   18.6   0.1    0.0038   17.2   0.1   1.7   1   1   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+F420_oxidored        PF03807.16 sp|Q739I5|ACDH_BACC1 -             0.0039   17.6   0.2    0.0099   16.3   0.2   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+TrkA_N               PF02254.17 sp|Q739I5|ACDH_BACC1 -              0.013   15.7   0.1     0.035   14.3   0.0   1.8   1   1   0   1   1   1   0 TrkA-N domain
+CoA_binding          PF02629.18 sp|Q739I5|ACDH_BACC1 -              0.027   15.0   0.7      0.17   12.5   0.1   2.5   1   1   2   3   3   3   0 CoA binding domain
+Fumerase_C           PF05683.11 sp|Q739I5|ACDH_BACC1 -              0.051   12.8   0.6      0.42    9.8   0.0   2.5   2   1   1   3   3   3   0 Fumarase C-terminus
+ADH_zinc_N           PF00107.25 sp|Q739I5|ACDH_BACC1 -                0.1   12.4   0.0      0.25   11.2   0.0   1.8   1   0   0   1   1   1   0 Zinc-binding dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q739I5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q739I5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q739I5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:58:37 2019
+# [ok]

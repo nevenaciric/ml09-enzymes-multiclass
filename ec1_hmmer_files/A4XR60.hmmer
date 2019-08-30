@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A4XR60|HEM1_PSEMY -              2e-51  173.2   0.1   4.4e-51  172.1   0.1   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A4XR60|HEM1_PSEMY -            7.5e-50  168.5   0.1   1.5e-49  167.5   0.1   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A4XR60|HEM1_PSEMY -            1.6e-22   79.6   2.8   3.9e-22   78.4   2.8   1.7   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A4XR60|HEM1_PSEMY -            0.00017   22.0   1.5   0.00063   20.2   0.1   2.6   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+Sacchrp_dh_NADP      PF03435.17 sp|A4XR60|HEM1_PSEMY -             0.0016   18.6   0.4    0.0049   17.0   0.1   2.1   1   1   1   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_7        PF13241.5  sp|A4XR60|HEM1_PSEMY -             0.0078   16.5   0.9      0.22   11.9   0.9   2.4   1   1   0   1   1   1   1 Putative NAD(P)-binding
+OCD_Mu_crystall      PF02423.14 sp|A4XR60|HEM1_PSEMY -              0.028   13.3   0.1     0.052   12.4   0.1   1.4   1   0   0   1   1   1   0 Ornithine cyclodeaminase/mu-crystallin family
+Tht1                 PF04163.11 sp|A4XR60|HEM1_PSEMY -               0.19   10.3   0.0       2.6    6.6   0.0   2.1   2   0   0   2   2   2   0 Tht1-like nuclear fusion protein
+Rotamase_2           PF13145.5  sp|A4XR60|HEM1_PSEMY -               0.44   11.3   3.8      0.34   11.7   0.5   2.3   1   1   1   2   2   2   0 PPIC-type PPIASE domain
+Rnk_N                PF14760.5  sp|A4XR60|HEM1_PSEMY -                4.2    7.8   8.6        19    5.7   0.2   3.3   2   0   0   2   2   2   0 Rnk N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4XR60.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4XR60.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4XR60.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:32:18 2019
+# [ok]

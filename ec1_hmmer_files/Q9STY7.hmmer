@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q9STY7|HSD3_ARATH -            1.8e-48  164.5   0.0   2.3e-48  164.1   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q9STY7|HSD3_ARATH -            1.6e-34  119.4   0.0   2.1e-34  119.1   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q9STY7|HSD3_ARATH -              5e-10   39.5   0.0   6.5e-10   39.1   0.0   1.1   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q9STY7|HSD3_ARATH -             0.0063   15.9   0.1      0.04   13.3   0.1   2.0   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+NAD_binding_10       PF13460.5  sp|Q9STY7|HSD3_ARATH -              0.019   14.8   0.0      0.11   12.3   0.0   1.9   2   0   0   2   2   2   0 NAD(P)H-binding
+Sacchrp_dh_NADP      PF03435.17 sp|Q9STY7|HSD3_ARATH -              0.049   13.8   0.1     0.081   13.1   0.1   1.3   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9STY7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9STY7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9STY7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:33:35 2019
+# [ok]

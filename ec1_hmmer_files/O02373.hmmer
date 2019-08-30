@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UDPG_MGDP_dh_N       PF03721.13 sp|O02373|UGDH_DROME -            7.6e-68  227.7   0.2   1.3e-67  226.9   0.2   1.4   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+UDPG_MGDP_dh_C       PF03720.14 sp|O02373|UGDH_DROME -            5.4e-36  123.1   0.2   3.2e-34  117.4   0.1   2.5   2   0   0   2   2   2   1 UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain
+UDPG_MGDP_dh         PF00984.18 sp|O02373|UGDH_DROME -            1.7e-32  111.4   0.0   4.2e-32  110.1   0.0   1.7   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, central domain
+ApbA                 PF02558.15 sp|O02373|UGDH_DROME -              0.031   13.8   0.0      0.07   12.7   0.0   1.6   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+3HCDH_N              PF02737.17 sp|O02373|UGDH_DROME -              0.065   13.0   0.0       4.2    7.1   0.0   2.8   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|O02373|UGDH_DROME -                0.1   12.6   0.1         1    9.3   0.1   2.5   2   0   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O02373.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O02373.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O02373.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:20:27 2019
+# [ok]

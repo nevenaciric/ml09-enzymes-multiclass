@@ -1,0 +1,16 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name               accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------     -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_zinc_N           PF00107.25 sp|A0A089FS99|PRLC_FUNXX -            5.7e-12   45.6   0.3   1.3e-11   44.4   0.0   1.7   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+ADH_N                PF08240.11 sp|A0A089FS99|PRLC_FUNXX -            0.00017   21.3   1.5   0.00057   19.7   1.2   1.9   1   1   1   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+ADH_N_2              PF16884.4  sp|A0A089FS99|PRLC_FUNXX -              0.077   12.8   0.3        15    5.5   0.1   2.3   2   0   0   2   2   2   0 N-terminal domain of oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A0A089FS99.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A0A089FS99.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A0A089FS99.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:19:12 2019
+# [ok]

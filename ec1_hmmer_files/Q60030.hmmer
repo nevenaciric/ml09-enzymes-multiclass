@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ELFV_dehydrog_N      PF02812.17 sp|Q60030|DHLE_THEIN -            6.5e-27   93.9   0.1   1.4e-26   92.8   0.1   1.6   2   0   0   2   2   2   1 Glu/Leu/Phe/Val dehydrogenase, dimerisation domain
+ELFV_dehydrog        PF00208.20 sp|Q60030|DHLE_THEIN -            8.3e-20   71.4   1.7   1.5e-12   47.7   0.1   2.2   1   1   1   2   2   2   2 Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+AdoHcyase_NAD        PF00670.20 sp|Q60030|DHLE_THEIN -            5.4e-05   23.2   0.3   9.7e-05   22.4   0.3   1.4   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q60030|DHLE_THEIN -            9.5e-05   22.4   0.1    0.0028   17.6   0.0   2.3   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+adh_short_C2         PF13561.5  sp|Q60030|DHLE_THEIN -            0.00011   21.8   0.1   0.00041   19.9   0.1   2.0   1   1   1   2   2   2   1 Enoyl-(Acyl carrier protein) reductase
+ADH_zinc_N           PF00107.25 sp|Q60030|DHLE_THEIN -            0.00016   21.5   0.1   0.00044   20.1   0.0   1.9   2   1   0   2   2   2   1 Zinc-binding dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|Q60030|DHLE_THEIN -            0.00017   20.9   0.0   0.00035   19.9   0.0   1.6   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+adh_short            PF00106.24 sp|Q60030|DHLE_THEIN -            0.00046   19.6   0.1   0.00082   18.8   0.1   1.4   1   0   0   1   1   1   1 short chain dehydrogenase
+TrkA_N               PF02254.17 sp|Q60030|DHLE_THEIN -             0.0086   16.2   0.1     0.026   14.7   0.1   1.8   1   0   0   1   1   1   1 TrkA-N domain
+NAD_binding_7        PF13241.5  sp|Q60030|DHLE_THEIN -              0.037   14.4   0.4     0.093   13.1   0.4   1.7   1   1   0   1   1   1   0 Putative NAD(P)-binding
+NAD_binding_2        PF03446.14 sp|Q60030|DHLE_THEIN -              0.078   13.0   0.0      0.14   12.2   0.0   1.6   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+GFO_IDH_MocA         PF01408.21 sp|Q60030|DHLE_THEIN -              0.091   13.5   0.1       6.6    7.5   0.0   2.4   2   0   0   2   2   2   0 Oxidoreductase family, NAD-binding Rossmann fold
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q60030.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q60030.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q60030.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:47:59 2019
+# [ok]

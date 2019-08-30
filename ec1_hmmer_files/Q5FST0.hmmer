@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|Q5FST0|FOLD_GLUOX -              2e-64  215.6   2.0     2e-64  215.6   2.0   1.4   2   0   0   2   2   2   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|Q5FST0|FOLD_GLUOX -            1.5e-36  125.0   0.0   2.6e-36  124.3   0.0   1.4   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+adh_short            PF00106.24 sp|Q5FST0|FOLD_GLUOX -             0.0041   16.5   0.1     0.034   13.5   0.1   2.1   2   0   0   2   2   2   1 short chain dehydrogenase
+NAD_binding_2        PF03446.14 sp|Q5FST0|FOLD_GLUOX -              0.023   14.7   0.1     0.087   12.9   0.0   1.9   2   1   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+OCD_Mu_crystall      PF02423.14 sp|Q5FST0|FOLD_GLUOX -              0.045   12.6   0.2      0.09   11.6   0.2   1.5   1   0   0   1   1   1   0 Ornithine cyclodeaminase/mu-crystallin family
+Semialdhyde_dh       PF01118.23 sp|Q5FST0|FOLD_GLUOX -               0.12   12.7   0.1       1.4    9.3   0.0   2.0   1   1   0   1   1   1   0 Semialdehyde dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q5FST0|FOLD_GLUOX -                0.3   11.0   1.7         1    9.3   0.5   2.3   2   1   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5FST0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5FST0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5FST0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:41:39 2019
+# [ok]

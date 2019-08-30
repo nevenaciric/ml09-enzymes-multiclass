@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+3HCDH_N              PF02737.17 sp|P40939|ECHA_HUMAN -            8.1e-55  185.4   0.7   1.7e-54  184.4   0.7   1.6   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ECH_1                PF00378.19 sp|P40939|ECHA_HUMAN -            2.2e-37  128.7   0.0   3.6e-37  127.9   0.0   1.3   1   0   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+3HCDH                PF00725.21 sp|P40939|ECHA_HUMAN -            2.6e-35  120.8   0.0   2.2e-27   95.4   0.0   2.8   2   0   0   2   2   2   2 3-hydroxyacyl-CoA dehydrogenase, C-terminal domain
+ECH_2                PF16113.4  sp|P40939|ECHA_HUMAN -            1.4e-24   87.2   0.0   3.5e-24   85.8   0.0   1.7   2   0   0   2   2   2   1 Enoyl-CoA hydratase/isomerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P40939.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P40939.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P40939.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:46:00 2019
+# [ok]

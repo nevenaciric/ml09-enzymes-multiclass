@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_reductoisom      PF02670.15 sp|A0Q7Y5|DXR_FRATN  -            6.7e-43  146.4   1.9   1.6e-42  145.2   1.9   1.7   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXP_redisom_C        PF08436.11 sp|A0Q7Y5|DXR_FRATN  -            6.2e-40  135.2   0.1   1.8e-39  133.8   0.0   1.9   2   0   0   2   2   2   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+DXPR_C               PF13288.5  sp|A0Q7Y5|DXR_FRATN  -            3.8e-32  110.9   0.6   6.5e-32  110.1   0.6   1.4   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+NmrA                 PF05368.12 sp|A0Q7Y5|DXR_FRATN  -            0.00022   20.8   0.2   0.00038   20.0   0.2   1.4   1   0   0   1   1   1   1 NmrA-like family
+Semialdhyde_dh       PF01118.23 sp|A0Q7Y5|DXR_FRATN  -            0.00035   20.9   0.2    0.0032   17.8   0.1   2.7   2   1   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+DapB_N               PF01113.19 sp|A0Q7Y5|DXR_FRATN  -             0.0013   18.8   1.1    0.0028   17.7   0.2   2.0   2   0   0   2   2   2   1 Dihydrodipicolinate reductase, N-terminus
+Sacchrp_dh_NADP      PF03435.17 sp|A0Q7Y5|DXR_FRATN  -              0.003   17.7   0.5     0.027   14.6   0.2   2.7   2   1   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+RsbU_N               PF08673.9  sp|A0Q7Y5|DXR_FRATN  -              0.041   13.9   0.1      0.13   12.2   0.1   1.8   1   0   0   1   1   1   0 Phosphoserine phosphatase RsbU, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A0Q7Y5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A0Q7Y5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A0Q7Y5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:21:29 2019
+# [ok]

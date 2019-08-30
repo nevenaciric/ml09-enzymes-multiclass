@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DapB_C               PF05173.13 sp|Q2SMM6|DAPB_HAHCH -              2e-43  147.2   0.1     3e-43  146.6   0.1   1.3   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, C-terminus
+DapB_N               PF01113.19 sp|Q2SMM6|DAPB_HAHCH -              5e-41  139.6   0.2   1.1e-40  138.5   0.2   1.6   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+Semialdhyde_dh       PF01118.23 sp|Q2SMM6|DAPB_HAHCH -            0.00026   21.3   0.1   0.00073   19.9   0.1   1.8   2   0   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+ADH_zinc_N           PF00107.25 sp|Q2SMM6|DAPB_HAHCH -              0.001   18.9   0.3    0.0025   17.6   0.1   1.8   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|Q2SMM6|DAPB_HAHCH -             0.0034   17.6   0.4     0.035   14.3   0.4   2.2   1   1   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_3        PF03447.15 sp|Q2SMM6|DAPB_HAHCH -              0.011   16.3   0.1     0.019   15.5   0.1   1.4   1   0   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+CoA_binding_2        PF13380.5  sp|Q2SMM6|DAPB_HAHCH -              0.055   13.9   0.1      0.22   11.9   0.1   1.9   1   1   0   1   1   1   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2SMM6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2SMM6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2SMM6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:22:48 2019
+# [ok]

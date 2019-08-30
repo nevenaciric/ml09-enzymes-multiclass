@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_zinc_N           PF00107.25 sp|P05336|ADH1_HORVU -            8.7e-25   87.0   0.1   1.6e-24   86.2   0.1   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_N                PF08240.11 sp|P05336|ADH1_HORVU -            1.4e-22   79.6   0.9   3.5e-22   78.2   0.9   1.7   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+Glu_dehyd_C          PF16912.4  sp|P05336|ADH1_HORVU -            4.5e-06   26.2   0.1     1e-05   25.0   0.1   1.6   1   1   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N_2         PF13602.5  sp|P05336|ADH1_HORVU -            0.00047   21.1   0.0    0.0011   20.0   0.0   1.6   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|P05336|ADH1_HORVU -             0.0064   15.8   0.0      0.01   15.1   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+AlaDh_PNT_C          PF01262.20 sp|P05336|ADH1_HORVU -              0.013   14.7   0.4      0.02   14.1   0.4   1.3   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|P05336|ADH1_HORVU -              0.088   12.3   0.0      0.13   11.7   0.0   1.3   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+TrkA_N               PF02254.17 sp|P05336|ADH1_HORVU -               0.13   12.5   0.0       0.2   11.8   0.0   1.3   1   0   0   1   1   1   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P05336.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P05336.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P05336.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:29:42 2019
+# [ok]

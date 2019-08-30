@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DsrC                 PF04358.12 sp|P45573|DSVC_DESVH -            1.1e-33  115.8   0.0   1.3e-33  115.6   0.0   1.0   1   0   0   1   1   1   1 DsrC like protein
+LexA_DNA_bind        PF01726.15 sp|P45573|DSVC_DESVH -              0.015   14.9   0.0     0.021   14.5   0.0   1.2   1   0   0   1   1   1   0 LexA DNA binding domain
+EcoEI_R_C            PF08463.9  sp|P45573|DSVC_DESVH -               0.17   11.9   0.0      0.21   11.6   0.0   1.1   1   0   0   1   1   1   0 EcoEI R protein C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P45573.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P45573.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P45573.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:47:46 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PAPS_reduct          PF01507.18 sp|B4T473|CYSH_SALNS -            2.4e-52  177.4   0.0   3.2e-52  177.0   0.0   1.1   1   0   0   1   1   1   1 Phosphoadenosine phosphosulfate reductase family
+DDE_Tnp_1            PF01609.20 sp|B4T473|CYSH_SALNS -               0.09   12.3   0.0      0.17   11.4   0.0   1.5   1   1   0   1   1   1   0 Transposase DDE domain
+LisH                 PF08513.10 sp|B4T473|CYSH_SALNS -               0.16   11.9   0.2      0.34   10.9   0.2   1.6   1   0   0   1   1   1   0 LisH
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B4T473.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B4T473.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B4T473.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:58:23 2019
+# [ok]

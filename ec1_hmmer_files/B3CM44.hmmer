@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|B3CM44|MDH_WOLPP  -            7.9e-41  139.3   1.5   1.2e-40  138.8   1.5   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|B3CM44|MDH_WOLPP  -            3.3e-31  108.4   0.0   4.7e-31  107.9   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|B3CM44|MDH_WOLPP  -            6.3e-05   22.5   1.4    0.0002   20.9   1.4   1.8   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Glyco_hydro_4        PF02056.15 sp|B3CM44|MDH_WOLPP  -             0.0036   16.8   0.4     0.012   15.1   0.1   1.9   1   1   1   2   2   2   1 Family 4 glycosyl hydrolase
+MRF_C1               PF13887.5  sp|B3CM44|MDH_WOLPP  -              0.008   15.2   0.0     0.015   14.3   0.0   1.4   1   0   0   1   1   1   1 Myelin gene regulatory factor -C-terminal domain 1
+ApbA                 PF02558.15 sp|B3CM44|MDH_WOLPP  -               0.06   12.9   0.1      0.14   11.7   0.1   1.6   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+ThiF                 PF00899.20 sp|B3CM44|MDH_WOLPP  -              0.062   12.5   0.0       0.1   11.8   0.0   1.4   1   0   0   1   1   1   0 ThiF family
+F420_oxidored        PF03807.16 sp|B3CM44|MDH_WOLPP  -                3.8    8.1   5.3       3.3    8.3   1.4   2.7   2   1   1   3   3   3   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B3CM44.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B3CM44.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B3CM44.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:55:53 2019
+# [ok]

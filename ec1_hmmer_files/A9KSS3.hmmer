@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MurB_C               PF02873.15 sp|A9KSS3|MURB_LACP7 -            1.2e-33  115.3   0.0   2.8e-33  114.1   0.0   1.6   2   0   0   2   2   2   1 UDP-N-acetylenolpyruvoylglucosamine reductase, C-terminal domain
+FAD_binding_4        PF01565.22 sp|A9KSS3|MURB_LACP7 -            3.2e-24   85.1   0.1   7.3e-24   84.0   0.1   1.6   1   0   0   1   1   1   1 FAD binding domain
+Hpr_kinase_N         PF02603.15 sp|A9KSS3|MURB_LACP7 -               0.13   12.2   0.0       0.3   11.0   0.0   1.6   1   0   0   1   1   1   0 HPr Serine kinase N terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A9KSS3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A9KSS3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A9KSS3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:45:12 2019
+# [ok]

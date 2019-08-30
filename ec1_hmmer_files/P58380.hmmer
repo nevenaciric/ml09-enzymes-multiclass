@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|P58380|FABI1_RHIME -            5.2e-91  304.3   1.2     6e-91  304.1   1.2   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|P58380|FABI1_RHIME -            3.3e-21   75.5   0.3   4.4e-21   75.1   0.3   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|P58380|FABI1_RHIME -             0.0057   16.5   0.1     0.012   15.4   0.0   1.5   2   0   0   2   2   2   1 KR domain
+Enoyl_reductase      PF12241.7  sp|P58380|FABI1_RHIME -               0.02   14.1   0.2       4.3    6.5   0.1   2.3   1   1   1   2   2   2   0 Trans-2-enoyl-CoA reductase catalytic region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P58380.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P58380.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P58380.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:52:53 2019
+# [ok]

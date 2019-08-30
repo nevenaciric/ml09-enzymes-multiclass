@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Shikimate_DH         PF01488.19 sp|A1TTC3|HEM1_ACIAC -              1e-43  148.6   0.0   1.8e-43  147.8   0.0   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_N              PF05201.14 sp|A1TTC3|HEM1_ACIAC -            2.3e-43  147.1   0.0     5e-43  146.0   0.0   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+GlutR_dimer          PF00745.19 sp|A1TTC3|HEM1_ACIAC -            1.2e-26   92.9   0.5   3.4e-26   91.4   0.1   2.0   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A1TTC3|HEM1_ACIAC -              0.001   19.5   1.8    0.0033   17.9   0.0   2.7   3   1   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+AroM                 PF07302.10 sp|A1TTC3|HEM1_ACIAC -              0.034   13.5   0.4      0.13   11.5   0.1   2.0   2   0   0   2   2   2   0 AroM protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1TTC3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1TTC3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1TTC3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:24:53 2019
+# [ok]

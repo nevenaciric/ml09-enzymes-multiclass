@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Enoyl_reductase      PF12241.7  sp|Q5EU90|TER_EUGGR  -           2.9e-105  350.7   0.4  3.9e-105  350.3   0.4   1.1   1   0   0   1   1   1   1 Trans-2-enoyl-CoA reductase catalytic region
+Eno-Rase_NADH_b      PF12242.7  sp|Q5EU90|TER_EUGGR  -            6.6e-33  112.2   0.1   1.6e-32  111.0   0.1   1.7   1   0   0   1   1   1   1 NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+Eno-Rase_FAD_bd      PF07055.11 sp|Q5EU90|TER_EUGGR  -            4.8e-29  100.5   1.0   9.5e-29   99.5   1.0   1.5   1   0   0   1   1   1   1 Enoyl reductase FAD binding domain
+adh_short_C2         PF13561.5  sp|Q5EU90|TER_EUGGR  -              0.013   15.0   0.3         3    7.3   0.0   2.5   2   0   0   2   2   2   0 Enoyl-(Acyl carrier protein) reductase
+KfrA_N               PF11740.7  sp|Q5EU90|TER_EUGGR  -                1.1    9.8   8.4        13    6.4   0.1   4.1   4   0   0   4   4   4   0 Plasmid replication region DNA-binding N-term
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5EU90.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5EU90.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5EU90.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:41:14 2019
+# [ok]

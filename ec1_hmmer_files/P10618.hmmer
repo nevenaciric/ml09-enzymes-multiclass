@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Gp_dh_C              PF02800.19 sp|P10618|G3P_METFE  -            3.9e-35  120.7   0.2   5.7e-35  120.1   0.2   1.3   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain
+DapB_N               PF01113.19 sp|P10618|G3P_METFE  -            9.1e-11   41.9   0.2   2.5e-10   40.4   0.2   1.7   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+Gp_dh_N              PF00044.23 sp|P10618|G3P_METFE  -              2e-06   27.9   1.4   1.5e-05   25.2   0.3   2.7   2   1   0   2   2   2   1 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|P10618|G3P_METFE  -            0.00035   20.7   2.4    0.0013   18.9   0.1   3.0   4   0   0   4   4   4   1 TrkA-N domain
+2-Hacid_dh_C         PF02826.18 sp|P10618|G3P_METFE  -            0.00041   19.7   0.2     0.011   15.0   0.2   2.4   1   1   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|P10618|G3P_METFE  -            0.00051   20.2   0.1    0.0017   18.5   0.1   1.9   1   1   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_3        PF03447.15 sp|P10618|G3P_METFE  -            0.00059   20.4   1.3     0.022   15.3   0.0   3.1   3   0   0   3   3   3   1 Homoserine dehydrogenase, NAD binding domain
+Semialdhyde_dh       PF01118.23 sp|P10618|G3P_METFE  -             0.0025   18.2   0.1      0.01   16.1   0.0   2.0   2   0   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|P10618|G3P_METFE  -              0.032   14.9   0.2      0.25   12.1   0.0   2.4   2   1   0   2   2   2   0 Oxidoreductase family, NAD-binding Rossmann fold
+AdoHcyase_NAD        PF00670.20 sp|P10618|G3P_METFE  -              0.049   13.6   0.1         3    7.8   0.1   2.5   2   0   0   2   2   2   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+DUF348               PF03990.13 sp|P10618|G3P_METFE  -              0.059   13.0   0.2      0.68    9.6   0.0   2.5   2   0   0   2   2   2   0 Domain of unknown function (DUF348)
+F420_oxidored        PF03807.16 sp|P10618|G3P_METFE  -               0.07   13.6   0.1      0.79   10.3   0.1   2.3   1   1   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|P10618|G3P_METFE  -               0.64   10.4   2.3      0.76   10.2   0.1   2.2   3   0   0   3   3   3   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P10618.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P10618.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P10618.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:35:12 2019
+# [ok]

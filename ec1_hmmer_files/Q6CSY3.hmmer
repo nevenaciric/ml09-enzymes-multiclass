@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ALO                  PF04030.13 sp|Q6CSY3|ALO_KLULA  -           1.4e-105  352.7   0.5  1.8e-105  352.4   0.5   1.1   1   0   0   1   1   1   1 D-arabinono-1,4-lactone oxidase
+FAD_binding_4        PF01565.22 sp|Q6CSY3|ALO_KLULA  -            6.1e-27   93.9   0.1   8.9e-27   93.4   0.1   1.2   1   0   0   1   1   1   1 FAD binding domain
+SIS_2                PF13580.5  sp|Q6CSY3|ALO_KLULA  -             0.0019   18.1   0.0    0.0035   17.3   0.0   1.5   1   0   0   1   1   1   1 SIS domain
+UPF0180              PF03698.12 sp|Q6CSY3|ALO_KLULA  -              0.011   15.8   0.1     0.032   14.3   0.1   1.8   1   0   0   1   1   1   0 Uncharacterised protein family (UPF0180)
+BBE                  PF08031.11 sp|Q6CSY3|ALO_KLULA  -               0.07   13.1   0.0      0.23   11.5   0.0   1.9   1   0   0   1   1   1   0 Berberine and berberine like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6CSY3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6CSY3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6CSY3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:52:09 2019
+# [ok]

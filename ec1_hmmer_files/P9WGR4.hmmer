@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P9WGR4|Y484_MYCTO -            4.4e-45  153.4   0.7   5.7e-45  153.1   0.7   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P9WGR4|Y484_MYCTO -            5.9e-34  117.6   3.6   7.3e-34  117.2   3.6   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P9WGR4|Y484_MYCTO -            3.2e-09   36.8   2.5   4.9e-09   36.3   2.5   1.1   1   0   0   1   1   1   1 KR domain
+NAD_binding_10       PF13460.5  sp|P9WGR4|Y484_MYCTO -            4.7e-09   36.3   7.6   6.2e-09   35.9   7.6   1.4   1   1   0   1   1   1   1 NAD(P)H-binding
+Epimerase            PF01370.20 sp|P9WGR4|Y484_MYCTO -            1.2e-07   31.3   0.8   2.1e-07   30.6   0.8   1.4   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+Sacchrp_dh_NADP      PF03435.17 sp|P9WGR4|Y484_MYCTO -            6.2e-05   23.2   1.8   0.00011   22.3   1.4   1.6   1   1   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+NmrA                 PF05368.12 sp|P9WGR4|Y484_MYCTO -             0.0031   17.0   4.4    0.0061   16.0   4.4   1.6   1   1   0   1   1   1   1 NmrA-like family
+TrkA_N               PF02254.17 sp|P9WGR4|Y484_MYCTO -             0.0089   16.2   0.7    0.0089   16.2   0.7   1.9   3   0   0   3   3   3   1 TrkA-N domain
+Shikimate_DH         PF01488.19 sp|P9WGR4|Y484_MYCTO -              0.012   15.6   0.4     0.022   14.7   0.4   1.4   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|P9WGR4|Y484_MYCTO -              0.018   15.5   0.6     0.018   15.5   0.6   2.6   3   0   0   3   3   3   0 NADP oxidoreductase coenzyme F420-dependent
+RmlD_sub_bind        PF04321.16 sp|P9WGR4|Y484_MYCTO -              0.033   13.2   1.0     0.069   12.1   1.0   1.4   1   0   0   1   1   1   0 RmlD substrate binding domain
+ADH_zinc_N           PF00107.25 sp|P9WGR4|Y484_MYCTO -              0.035   13.9   3.6     0.068   13.0   3.6   1.5   1   0   0   1   1   1   0 Zinc-binding dehydrogenase
+LytR_C               PF13399.5  sp|P9WGR4|Y484_MYCTO -               0.06   14.2   9.6     0.062   14.2   5.4   2.8   2   2   0   2   2   2   0 LytR cell envelope-related transcriptional attenuator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WGR4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WGR4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WGR4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:00:32 2019
+# [ok]

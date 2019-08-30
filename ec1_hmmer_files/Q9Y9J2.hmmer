@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q9Y9J2|HEM1_AERPE -            9.4e-32  109.5   0.0   1.8e-31  108.6   0.0   1.5   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q9Y9J2|HEM1_AERPE -            2.6e-25   89.0   0.0   4.3e-25   88.3   0.0   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q9Y9J2|HEM1_AERPE -            2.5e-07   30.9   1.0   6.6e-07   29.6   1.0   1.7   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+DAO                  PF01266.23 sp|Q9Y9J2|HEM1_AERPE -              0.024   14.1   0.9      0.36   10.3   0.3   2.2   2   1   0   2   2   2   0 FAD dependent oxidoreductase
+CHAD                 PF05235.13 sp|Q9Y9J2|HEM1_AERPE -              0.034   14.0   1.0      0.05   13.5   0.2   1.7   2   0   0   2   2   2   0 CHAD domain
+GFO_IDH_MocA         PF01408.21 sp|Q9Y9J2|HEM1_AERPE -               0.04   14.7   0.0     0.093   13.5   0.0   1.7   1   0   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+Phage_int_SAM_1      PF02899.16 sp|Q9Y9J2|HEM1_AERPE -              0.087   13.0   0.9        20    5.4   0.0   2.6   2   0   0   2   2   2   0 Phage integrase, N-terminal SAM-like domain
+ParA                 PF10609.8  sp|Q9Y9J2|HEM1_AERPE -               0.32   10.3   0.6      0.56    9.5   0.6   1.4   1   0   0   1   1   1   0 NUBPL iron-transfer P-loop NTPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9Y9J2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9Y9J2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9Y9J2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:36:42 2019
+# [ok]

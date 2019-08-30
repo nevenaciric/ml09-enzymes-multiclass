@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_C              PF02866.17 sp|P83778|MDHC_CANAL -            3.4e-46  157.1   0.1   5.2e-46  156.5   0.1   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Ldh_1_N              PF00056.22 sp|P83778|MDHC_CANAL -            1.4e-41  141.8   0.2   2.3e-41  141.1   0.2   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+3Beta_HSD            PF01073.18 sp|P83778|MDHC_CANAL -            1.2e-05   24.4   0.0   1.8e-05   23.8   0.0   1.3   1   0   0   1   1   1   1 3-beta hydroxysteroid dehydrogenase/isomerase family
+NAD_binding_10       PF13460.5  sp|P83778|MDHC_CANAL -               0.11   12.2   0.0      0.28   11.0   0.0   1.6   1   0   0   1   1   1   0 NAD(P)H-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P83778.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P83778.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P83778.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:58:15 2019
+# [ok]

@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|B9DK67|MDH_STACT  -              5e-40  136.8   0.2   7.3e-40  136.2   0.2   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|B9DK67|MDH_STACT  -            6.4e-28   97.7   0.0   1.2e-27   96.8   0.0   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|B9DK67|MDH_STACT  -            9.2e-05   22.0   0.4   0.00022   20.7   0.4   1.6   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Glyco_hydro_4        PF02056.15 sp|B9DK67|MDH_STACT  -            0.00015   21.3   1.0   0.00096   18.7   0.0   2.3   1   1   1   2   2   2   1 Family 4 glycosyl hydrolase
+NAD_Gly3P_dh_N       PF01210.22 sp|B9DK67|MDH_STACT  -             0.0028   17.5   0.2     0.038   13.9   0.1   2.3   1   1   1   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+Thi4                 PF01946.16 sp|B9DK67|MDH_STACT  -              0.042   13.0   0.5      0.64    9.1   0.1   2.3   2   0   0   2   2   2   0 Thi4 family
+NAD_binding_8        PF13450.5  sp|B9DK67|MDH_STACT  -              0.051   13.7   0.0     0.099   12.8   0.0   1.6   1   0   0   1   1   1   0 NAD(P)-binding Rossmann-like domain
+F420_oxidored        PF03807.16 sp|B9DK67|MDH_STACT  -              0.079   13.4   2.5       1.1    9.8   1.0   2.8   1   1   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+LRR_9                PF14580.5  sp|B9DK67|MDH_STACT  -              0.094   12.1   0.0      0.15   11.5   0.0   1.4   1   0   0   1   1   1   0 Leucine-rich repeat
+3HCDH_N              PF02737.17 sp|B9DK67|MDH_STACT  -                0.1   12.4   0.0      0.36   10.6   0.0   1.9   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+DAO                  PF01266.23 sp|B9DK67|MDH_STACT  -               0.12   11.8   1.7      0.24   10.9   0.9   1.9   1   1   1   2   2   2   0 FAD dependent oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B9DK67.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B9DK67.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B9DK67.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:09:34 2019
+# [ok]

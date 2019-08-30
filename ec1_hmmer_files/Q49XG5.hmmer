@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PDH                  PF02153.16 sp|Q49XG5|TYRA_STAS1 -            1.1e-70  237.5   1.2   1.3e-70  237.2   1.2   1.1   1   0   0   1   1   1   1 Prephenate dehydrogenase
+ACT                  PF01842.24 sp|Q49XG5|TYRA_STAS1 -            1.3e-07   31.1   0.5     6e-07   29.0   0.0   2.4   3   0   0   3   3   3   1 ACT domain
+F420_oxidored        PF03807.16 sp|Q49XG5|TYRA_STAS1 -            2.7e-07   31.0   0.0   2.6e-06   27.8   0.0   2.2   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q49XG5|TYRA_STAS1 -              3e-07   30.6   0.0   1.2e-06   28.7   0.0   1.9   1   1   1   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GFO_IDH_MocA         PF01408.21 sp|Q49XG5|TYRA_STAS1 -             0.0029   18.3   0.0     0.031   15.0   0.0   2.4   1   1   1   2   2   2   1 Oxidoreductase family, NAD-binding Rossmann fold
+DapB_N               PF01113.19 sp|Q49XG5|TYRA_STAS1 -             0.0058   16.6   0.0     0.013   15.5   0.0   1.6   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+ACT_4                PF13291.5  sp|Q49XG5|TYRA_STAS1 -             0.0088   16.5   0.4     0.082   13.4   0.0   2.6   2   0   0   2   2   2   1 ACT domain
+TrkA_N               PF02254.17 sp|Q49XG5|TYRA_STAS1 -               0.01   16.0   0.1     0.049   13.8   0.0   2.1   2   1   0   2   2   2   0 TrkA-N domain
+ACT_6                PF13740.5  sp|Q49XG5|TYRA_STAS1 -              0.013   15.3   0.0     0.065   13.1   0.0   2.1   2   0   0   2   2   2   0 ACT domain
+NAD_Gly3P_dh_N       PF01210.22 sp|Q49XG5|TYRA_STAS1 -              0.027   14.3   0.1      0.15   11.9   0.0   2.1   2   0   0   2   2   2   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+Pectate_lyase_3      PF12708.6  sp|Q49XG5|TYRA_STAS1 -              0.031   14.1   2.8     0.043   13.6   2.0   1.5   1   1   0   1   1   1   0 Pectate lyase superfamily protein
+ApbA                 PF02558.15 sp|Q49XG5|TYRA_STAS1 -              0.055   13.0   0.5      0.21   11.1   0.3   2.1   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+IlvN                 PF07991.11 sp|Q49XG5|TYRA_STAS1 -              0.094   12.2   0.0      0.16   11.5   0.0   1.3   1   0   0   1   1   1   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+ACT_7                PF13840.5  sp|Q49XG5|TYRA_STAS1 -              0.098   12.4   0.0      0.75    9.5   0.0   2.3   2   0   0   2   2   2   0 ACT domain
+THF_DHG_CYH_C        PF02882.18 sp|Q49XG5|TYRA_STAS1 -                0.1   11.8   0.1      0.29   10.3   0.1   1.7   1   1   0   1   1   1   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+NAD_binding_7        PF13241.5  sp|Q49XG5|TYRA_STAS1 -               0.15   12.4   0.0      0.57   10.6   0.0   1.9   2   0   0   2   2   2   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q49XG5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q49XG5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q49XG5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:33:20 2019
+# [ok]

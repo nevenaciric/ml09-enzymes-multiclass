@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX3                 PF00510.17 sp|P80441|COX3_RHIST -             6e-120  399.8  29.2  6.8e-120  399.6  29.2   1.0   1   0   0   1   1   1   1 Cytochrome c oxidase subunit III
+PIG-P                PF08510.11 sp|P80441|COX3_RHIST -                1.1    9.1   5.7       0.3   10.9   1.1   2.4   2   0   0   2   2   2   0 PIG-P
+DUF2070              PF09843.8  sp|P80441|COX3_RHIST -                2.1    6.4  12.2       2.8    6.0  12.2   1.2   1   0   0   1   1   1   0 Predicted membrane protein (DUF2070)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P80441.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P80441.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P80441.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:57:13 2019
+# [ok]

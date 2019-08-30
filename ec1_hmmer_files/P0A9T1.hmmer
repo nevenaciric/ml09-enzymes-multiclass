@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-Hacid_dh_C         PF02826.18 sp|P0A9T1|SERA_ECOL6 -            1.4e-50  171.0   0.0   2.7e-50  170.1   0.0   1.5   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+2-Hacid_dh           PF00389.29 sp|P0A9T1|SERA_ECOL6 -            7.5e-39  132.4   0.0   1.2e-38  131.8   0.0   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain
+ACT                  PF01842.24 sp|P0A9T1|SERA_ECOL6 -            9.5e-08   31.6   0.1   5.3e-07   29.2   0.0   2.1   2   0   0   2   2   2   1 ACT domain
+NAD_binding_2        PF03446.14 sp|P0A9T1|SERA_ECOL6 -            2.9e-05   24.2   0.5   0.00034   20.7   0.0   2.6   3   0   0   3   3   3   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+ACT_4                PF13291.5  sp|P0A9T1|SERA_ECOL6 -              0.032   14.7   0.0      0.08   13.4   0.0   1.6   1   0   0   1   1   1   0 ACT domain
+3HCDH_N              PF02737.17 sp|P0A9T1|SERA_ECOL6 -              0.033   14.0   0.4       1.2    8.9   0.0   2.8   2   1   1   3   3   3   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Ldh_1_N              PF00056.22 sp|P0A9T1|SERA_ECOL6 -               0.12   12.4   0.0      0.27   11.2   0.0   1.6   1   0   0   1   1   1   0 lactate/malate dehydrogenase, NAD binding domain
+XdhC_C               PF13478.5  sp|P0A9T1|SERA_ECOL6 -               0.12   12.7   0.1       1.7    9.1   0.0   2.6   3   0   0   3   3   3   0 XdhC Rossmann domain
+AlaDh_PNT_C          PF01262.20 sp|P0A9T1|SERA_ECOL6 -               0.18   11.0   1.2       1.2    8.3   0.1   2.4   2   1   0   2   2   2   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0A9T1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0A9T1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0A9T1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:32:38 2019
+# [ok]

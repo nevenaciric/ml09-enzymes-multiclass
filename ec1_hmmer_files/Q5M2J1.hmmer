@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q5M2J1|GPDA_STRT2 -            5.1e-53  179.1   0.3   8.9e-53  178.4   0.3   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q5M2J1|GPDA_STRT2 -            4.8e-51  172.7   0.8   8.6e-51  171.8   0.8   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+ApbA                 PF02558.15 sp|Q5M2J1|GPDA_STRT2 -            1.3e-07   31.3   0.1   1.9e-07   30.7   0.1   1.3   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q5M2J1|GPDA_STRT2 -            4.3e-07   30.3   0.1   1.7e-06   28.4   0.1   2.0   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q5M2J1|GPDA_STRT2 -              5e-07   29.9   0.0     1e-06   28.9   0.0   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+UDPG_MGDP_dh_N       PF03721.13 sp|Q5M2J1|GPDA_STRT2 -            9.1e-06   25.3   0.2   3.4e-05   23.4   0.2   1.9   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+IlvN                 PF07991.11 sp|Q5M2J1|GPDA_STRT2 -            1.7e-05   24.3   0.4   8.3e-05   22.1   0.4   2.0   1   1   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+3HCDH_N              PF02737.17 sp|Q5M2J1|GPDA_STRT2 -            0.00073   19.4   0.0    0.0017   18.1   0.0   1.7   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Pyr_redox            PF00070.26 sp|Q5M2J1|GPDA_STRT2 -             0.0016   18.8   0.1        13    6.4   0.0   3.7   2   1   0   3   3   3   1 Pyridine nucleotide-disulphide oxidoreductase
+CoA_binding_2        PF13380.5  sp|Q5M2J1|GPDA_STRT2 -              0.034   14.5   0.2      0.32   11.4   0.1   2.4   1   1   0   1   1   1   0 CoA binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q5M2J1|GPDA_STRT2 -              0.043   14.0   0.0     0.074   13.2   0.0   1.4   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5M2J1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5M2J1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5M2J1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:43:53 2019
+# [ok]

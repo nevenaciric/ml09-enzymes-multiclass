@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|Q2G1C4|TARJ2_STAA8 -            2.9e-09   36.7   0.0   5.7e-09   35.7   0.0   1.5   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+Glu_dehyd_C          PF16912.4  sp|Q2G1C4|TARJ2_STAA8 -            1.7e-08   34.1   0.0   4.3e-08   32.8   0.0   1.6   2   0   0   2   2   2   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N           PF00107.25 sp|Q2G1C4|TARJ2_STAA8 -            1.9e-08   34.2   0.0   5.6e-08   32.7   0.0   1.8   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2G1C4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2G1C4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2G1C4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:19:54 2019
+# [ok]

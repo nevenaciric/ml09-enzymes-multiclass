@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|Q8RAD0|FOLD_CALS4 -            4.7e-68  227.4   1.0     6e-68  227.1   1.0   1.1   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|Q8RAD0|FOLD_CALS4 -            1.6e-33  115.3   0.2   2.4e-33  114.7   0.2   1.3   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+adh_short            PF00106.24 sp|Q8RAD0|FOLD_CALS4 -              0.011   15.1   0.1     0.036   13.4   0.2   1.8   2   0   0   2   2   2   0 short chain dehydrogenase
+Methyltr_RsmB-F      PF01189.16 sp|Q8RAD0|FOLD_CALS4 -               0.12   11.9   0.1      0.24   10.9   0.1   1.5   1   0   0   1   1   1   0 16S rRNA methyltransferase RsmB/F
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8RAD0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8RAD0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8RAD0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:15:26 2019
+# [ok]

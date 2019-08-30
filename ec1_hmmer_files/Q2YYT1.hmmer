@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Molybdopterin        PF00384.21 sp|Q2YYT1|FDHL_STAAB -            8.1e-78  262.2   0.0   1.1e-77  261.8   0.0   1.2   1   0   0   1   1   1   1 Molybdopterin oxidoreductase
+Molybdop_Fe4S4       PF04879.15 sp|Q2YYT1|FDHL_STAAB -            2.5e-19   68.9   1.2   1.5e-18   66.4   0.8   2.6   2   0   0   2   2   2   1 Molybdopterin oxidoreductase Fe4S4 domain
+Molydop_binding      PF01568.20 sp|Q2YYT1|FDHL_STAAB -              7e-19   67.8   0.0   1.3e-18   66.9   0.0   1.4   1   0   0   1   1   1   1 Molydopterin dinucleotide binding domain
+Fer4                 PF00037.26 sp|Q2YYT1|FDHL_STAAB -            1.3e-09   37.4  21.9   1.6e-05   24.4   6.1   3.5   3   0   0   3   3   3   2 4Fe-4S binding domain
+NADH-G_4Fe-4S_3      PF10588.8  sp|Q2YYT1|FDHL_STAAB -            2.5e-09   36.4   1.2     1e-08   34.4   1.2   2.2   1   0   0   1   1   1   1 NADH-ubiquinone oxidoreductase-G iron-sulfur binding region
+Fer2_4               PF13510.5  sp|Q2YYT1|FDHL_STAAB -            1.3e-08   34.6   0.1   1.3e-08   34.6   0.1   2.3   2   0   0   2   2   2   1 2Fe-2S iron-sulfur cluster binding domain
+Fer4_7               PF12838.6  sp|Q2YYT1|FDHL_STAAB -            7.6e-08   32.7   9.0   7.6e-08   32.7   9.0   3.9   4   0   0   4   4   3   1 4Fe-4S dicluster domain
+Fer4_21              PF14697.5  sp|Q2YYT1|FDHL_STAAB -            1.6e-07   31.2  11.6   1.6e-07   31.2  11.6   2.4   3   0   0   3   3   2   1 4Fe-4S dicluster domain
+Fer4_6               PF12837.6  sp|Q2YYT1|FDHL_STAAB -            2.1e-07   30.6  18.5    0.0028   17.5   3.8   3.1   2   0   0   2   2   2   2 4Fe-4S binding domain
+Fer4_10              PF13237.5  sp|Q2YYT1|FDHL_STAAB -            2.9e-05   24.0  21.6    0.0028   17.6   5.0   3.7   3   2   0   3   3   2   2 4Fe-4S dicluster domain
+Fer4_9               PF13187.5  sp|Q2YYT1|FDHL_STAAB -            0.00012   22.0  15.6   0.00012   22.0  15.6   4.1   4   1   1   5   5   4   2 4Fe-4S dicluster domain
+Fer2                 PF00111.26 sp|Q2YYT1|FDHL_STAAB -             0.0008   19.2   0.2    0.0008   19.2   0.2   2.2   2   0   0   2   2   1   1 2Fe-2S iron-sulfur cluster binding domain
+Fer4_15              PF13459.5  sp|Q2YYT1|FDHL_STAAB -             0.0018   18.9   6.6      0.52   11.0   1.2   2.9   2   0   0   2   2   2   2 4Fe-4S single cluster domain
+Fer4_8               PF13183.5  sp|Q2YYT1|FDHL_STAAB -             0.0054   17.1  12.3    0.0054   17.1  12.3   3.4   3   1   1   4   4   3   1 4Fe-4S dicluster domain
+Fer4_2               PF12797.6  sp|Q2YYT1|FDHL_STAAB -              0.015   15.3   2.2     0.015   15.3   2.2   3.7   5   0   0   5   5   2   0 4Fe-4S binding domain
+Fer4_17              PF13534.5  sp|Q2YYT1|FDHL_STAAB -              0.015   15.7  21.3     0.085   13.3   0.7   3.9   3   1   0   3   3   3   0 4Fe-4S dicluster domain
+zf-C2HE              PF16278.4  sp|Q2YYT1|FDHL_STAAB -              0.025   14.9   0.1       5.3    7.5   0.0   2.8   2   0   0   2   2   2   0 C2HE / C2H2 / C2HC zinc-binding finger
+Fer4_13              PF13370.5  sp|Q2YYT1|FDHL_STAAB -              0.031   14.7  11.2      0.31   11.5   1.0   2.9   2   0   0   2   2   2   0 4Fe-4S single cluster domain of Ferredoxin I
+Fer4_16              PF13484.5  sp|Q2YYT1|FDHL_STAAB -              0.038   14.8  26.1      0.47   11.3   9.7   4.9   4   2   0   4   4   3   0 4Fe-4S double cluster binding domain
+Fer4_22              PF17179.3  sp|Q2YYT1|FDHL_STAAB -               0.23   12.3  19.8      0.62   10.8   1.9   3.5   3   1   0   3   3   3   0 4Fe-4S dicluster domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2YYT1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2YYT1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2YYT1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:23:56 2019
+# [ok]

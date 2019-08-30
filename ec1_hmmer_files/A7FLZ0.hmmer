@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Flavodoxin_1         PF00258.24 sp|A7FLZ0|CYSJ_YERP3 -            2.9e-31  108.5   0.2   7.2e-31  107.2   0.2   1.6   1   0   0   1   1   1   1 Flavodoxin
+FAD_binding_1        PF00667.19 sp|A7FLZ0|CYSJ_YERP3 -            7.4e-28   97.5   0.0     1e-26   93.8   0.0   2.2   1   1   0   1   1   1   1 FAD binding domain
+NAD_binding_1        PF00175.20 sp|A7FLZ0|CYSJ_YERP3 -            2.6e-20   73.0   0.0   6.8e-20   71.6   0.0   1.8   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+Hydrolase_4          PF12146.7  sp|A7FLZ0|CYSJ_YERP3 -              0.073   12.2   0.0      0.25   10.5   0.0   2.0   1   1   0   1   1   1   0 Serine aminopeptidase, S33
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7FLZ0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7FLZ0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7FLZ0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:38:38 2019
+# [ok]

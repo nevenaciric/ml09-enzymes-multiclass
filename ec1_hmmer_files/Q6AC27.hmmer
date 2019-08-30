@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|Q6AC27|IOLG_LEIXX -            4.9e-22   78.9   0.0   8.8e-22   78.1   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+GFO_IDH_MocA_C       PF02894.16 sp|Q6AC27|IOLG_LEIXX -             0.0076   16.2   0.0     0.014   15.3   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, C-terminal alpha/beta domain
+NAD_binding_3        PF03447.15 sp|Q6AC27|IOLG_LEIXX -              0.088   13.4   0.7       1.2    9.7   0.2   2.2   2   0   0   2   2   2   0 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6AC27.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6AC27.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6AC27.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:51:21 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Fe-ADH               PF00465.18 sp|Q9F282|ADHA_THEET -            1.2e-92  310.5   0.5   1.4e-92  310.2   0.5   1.0   1   0   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Fe-ADH_2             PF13685.5  sp|Q9F282|ADHA_THEET -            7.5e-14   51.9   0.3   2.3e-09   37.2   0.0   2.2   2   0   0   2   2   2   2 Iron-containing alcohol dehydrogenase
+Radical_SAM          PF04055.20 sp|Q9F282|ADHA_THEET -              0.033   14.5   0.0       1.6    9.0   0.0   2.4   2   0   0   2   2   2   0 Radical SAM superfamily
+PFK                  PF00365.19 sp|Q9F282|ADHA_THEET -               0.16   11.1   0.5      0.89    8.7   0.5   2.2   1   1   0   1   1   1   0 Phosphofructokinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9F282.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9F282.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9F282.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:26:00 2019
+# [ok]

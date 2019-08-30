@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HMD                  PF03201.15 sp|O27211|HMD_METTH  -            7.8e-41  138.1   0.1     2e-40  136.8   0.1   1.7   1   0   0   1   1   1   1 H2-forming N5,N10-methylene-tetrahydromethanopterin dehydrogenase
+NAD_binding_2        PF03446.14 sp|O27211|HMD_METTH  -              0.093   12.8   0.0      0.22   11.6   0.0   1.7   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+Glyco_hydro_4        PF02056.15 sp|O27211|HMD_METTH  -               0.11   12.0   0.0      0.25   10.8   0.0   1.6   1   0   0   1   1   1   0 Family 4 glycosyl hydrolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O27211.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O27211.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O27211.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:22:35 2019
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Heme_oxygenase       PF01126.19 sp|O70252|HMOX2_MOUSE -            9.6e-81  270.4   7.8   1.2e-80  270.1   7.8   1.1   1   0   0   1   1   1   1 Heme oxygenase
+SsgA                 PF04686.11 sp|O70252|HMOX2_MOUSE -              0.058   13.3   0.0      0.12   12.3   0.0   1.5   1   0   0   1   1   1   0 Streptomyces sporulation and cell division protein, SsgA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O70252.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O70252.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O70252.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:26:27 2019
+# [ok]

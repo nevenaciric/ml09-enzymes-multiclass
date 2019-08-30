@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Flavodoxin_1         PF00258.24 sp|O32214|CYSJ_BACSU -              2e-34  118.8   0.0   3.7e-34  117.9   0.0   1.4   1   0   0   1   1   1   1 Flavodoxin
+FAD_binding_1        PF00667.19 sp|O32214|CYSJ_BACSU -            4.5e-34  117.9   0.0   8.1e-34  117.0   0.0   1.4   1   0   0   1   1   1   1 FAD binding domain
+NAD_binding_1        PF00175.20 sp|O32214|CYSJ_BACSU -            1.9e-18   67.0   0.1   4.9e-18   65.7   0.1   1.8   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+Flavodoxin_5         PF12724.6  sp|O32214|CYSJ_BACSU -             0.0039   17.4   0.0     0.025   14.7   0.0   2.1   2   0   0   2   2   2   1 Flavodoxin domain
+Flavodoxin_3         PF12641.6  sp|O32214|CYSJ_BACSU -              0.076   12.6   0.0      0.15   11.6   0.0   1.5   1   0   0   1   1   1   0 Flavodoxin domain
+SBP_bac_5            PF00496.21 sp|O32214|CYSJ_BACSU -              0.093   11.6   0.0      0.26   10.1   0.0   1.6   2   0   0   2   2   2   0 Bacterial extracellular solute-binding proteins, family 5 Middle
+FMN_red              PF03358.14 sp|O32214|CYSJ_BACSU -               0.14   11.8   0.0      0.37   10.4   0.0   1.7   1   0   0   1   1   1   0 NADPH-dependent FMN reductase
+DUF1180              PF06679.11 sp|O32214|CYSJ_BACSU -                  3    8.1   5.1      0.95    9.8   1.6   1.8   2   0   0   2   2   2   0 Protein of unknown function (DUF1180)
+Ribosomal_60s        PF00428.18 sp|O32214|CYSJ_BACSU -                  3    8.4   8.6        12    6.4   0.1   2.8   3   0   0   3   3   3   0 60s Acidic ribosomal protein
+RPAP1_N              PF08621.9  sp|O32214|CYSJ_BACSU -                3.1    7.5   5.0        12    5.7   0.2   3.4   3   0   0   3   3   3   0 RPAP1-like, N-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O32214.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O32214.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O32214.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:23:17 2019
+# [ok]

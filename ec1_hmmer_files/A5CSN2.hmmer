@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DapB_C               PF05173.13 sp|A5CSN2|DAPB_CLAM3 -              5e-25   87.8   0.0   9.5e-25   86.9   0.0   1.5   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, C-terminus
+DapB_N               PF01113.19 sp|A5CSN2|DAPB_CLAM3 -              3e-20   72.5   0.2   5.6e-19   68.4   0.2   2.3   1   1   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+Semialdhyde_dh       PF01118.23 sp|A5CSN2|DAPB_CLAM3 -             0.0016   18.8   1.6     0.016   15.5   0.1   2.7   1   1   2   3   3   3   1 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A5CSN2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A5CSN2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A5CSN2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:32:55 2019
+# [ok]

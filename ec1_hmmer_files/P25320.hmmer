@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ferritin             PF00210.23 sp|P25320|FRIH2_SCHMA -            1.9e-36  125.0   3.6   2.1e-36  124.8   3.6   1.0   1   0   0   1   1   1   1 Ferritin-like domain
+Rubrerythrin         PF02915.16 sp|P25320|FRIH2_SCHMA -            8.9e-05   22.8   3.7   0.00013   22.2   3.7   1.4   1   0   0   1   1   1   1 Rubrerythrin
+AA_permease_N        PF08403.9  sp|P25320|FRIH2_SCHMA -              0.054   12.9   0.1      0.12   11.8   0.1   1.5   1   0   0   1   1   1   0 Amino acid permease N-terminal
+FCH                  PF00611.22 sp|P25320|FRIH2_SCHMA -               0.18   12.0   2.5      0.52   10.5   2.5   2.0   1   1   0   1   1   1   0 Fes/CIP4, and EFC/F-BAR homology domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P25320.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P25320.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P25320.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:40:40 2019
+# [ok]

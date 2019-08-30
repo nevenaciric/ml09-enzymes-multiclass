@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Aldedh               PF00171.21 sp|Q5HMA0|ALD1_STAEQ -           8.2e-162  538.8   0.1  9.2e-162  538.6   0.1   1.0   1   0   0   1   1   1   1 Aldehyde dehydrogenase family
+VASP_tetra           PF08776.10 sp|Q5HMA0|ALD1_STAEQ -             0.0027   17.1   1.1     0.036   13.6   0.2   2.4   2   0   0   2   2   2   1 VASP tetramerisation domain
+Sec1                 PF00995.22 sp|Q5HMA0|ALD1_STAEQ -               0.12   11.4   0.3      0.28   10.3   0.1   1.6   2   0   0   2   2   2   0 Sec1 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5HMA0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5HMA0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5HMA0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:42:37 2019
+# [ok]

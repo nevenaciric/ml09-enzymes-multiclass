@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-Hacid_dh_C         PF02826.18 sp|Q9X1C1|HPR_THEMA  -            1.6e-66  223.0   0.2   2.3e-65  219.2   0.0   2.0   2   0   0   2   2   2   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+2-Hacid_dh           PF00389.29 sp|Q9X1C1|HPR_THEMA  -            3.9e-33  113.9   0.3   4.8e-33  113.6   0.3   1.0   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain
+NAD_binding_2        PF03446.14 sp|Q9X1C1|HPR_THEMA  -            7.6e-06   26.1   0.4   3.1e-05   24.1   0.0   2.1   2   1   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+AdoHcyase_NAD        PF00670.20 sp|Q9X1C1|HPR_THEMA  -            0.00041   20.4   0.6     0.032   14.2   0.0   2.4   2   1   0   2   2   2   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q9X1C1|HPR_THEMA  -              0.022   15.2   1.5     0.045   14.2   0.2   2.3   2   1   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|Q9X1C1|HPR_THEMA  -              0.074   13.4   0.1       0.4   11.1   0.0   2.1   2   0   0   2   2   2   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9X1C1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9X1C1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9X1C1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:35:52 2019
+# [ok]

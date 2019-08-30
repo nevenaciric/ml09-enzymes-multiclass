@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|B8H1Z0|XDH_CAUVN  -            9.1e-51  172.6   0.0   1.1e-50  172.3   0.0   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|B8H1Z0|XDH_CAUVN  -              3e-43  147.5   0.0   3.5e-43  147.2   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+Epimerase            PF01370.20 sp|B8H1Z0|XDH_CAUVN  -            1.9e-05   24.1   0.0   0.00024   20.5   0.0   2.0   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+KR                   PF08659.9  sp|B8H1Z0|XDH_CAUVN  -             0.0004   20.2   0.0   0.00061   19.7   0.0   1.2   1   0   0   1   1   1   1 KR domain
+3HCDH_N              PF02737.17 sp|B8H1Z0|XDH_CAUVN  -               0.13   12.0   0.1      0.19   11.5   0.1   1.3   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Glyco_transf_4       PF13439.5  sp|B8H1Z0|XDH_CAUVN  -               0.14   12.1   0.0         8    6.3   0.0   2.2   2   0   0   2   2   2   0 Glycosyltransferase Family 4
+DUF1776              PF08643.9  sp|B8H1Z0|XDH_CAUVN  -               0.15   11.3   0.0      0.21   10.8   0.0   1.1   1   0   0   1   1   1   0 Fungal family of unknown function (DUF1776)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B8H1Z0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B8H1Z0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B8H1Z0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:08:46 2019
+# [ok]

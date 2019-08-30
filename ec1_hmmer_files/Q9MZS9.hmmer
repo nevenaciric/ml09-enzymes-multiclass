@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|Q9MZS9|KMO_PIG    -            1.7e-20   73.5   0.0   2.3e-20   73.1   0.0   1.1   1   0   0   1   1   1   1 FAD binding domain
+NAD_binding_8        PF13450.5  sp|Q9MZS9|KMO_PIG    -            3.4e-06   27.1   0.0   1.1e-05   25.5   0.0   1.9   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+DAO                  PF01266.23 sp|Q9MZS9|KMO_PIG    -            4.5e-05   23.1   0.0     0.002   17.7   0.0   2.1   1   1   1   2   2   2   1 FAD dependent oxidoreductase
+SE                   PF08491.9  sp|Q9MZS9|KMO_PIG    -            0.00023   20.2   0.0      0.01   14.8   0.0   2.2   2   0   0   2   2   2   1 Squalene epoxidase
+3HCDH_N              PF02737.17 sp|Q9MZS9|KMO_PIG    -              0.018   14.8   0.0     0.027   14.3   0.0   1.2   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Pyr_redox            PF00070.26 sp|Q9MZS9|KMO_PIG    -               0.02   15.4   0.0     0.041   14.3   0.0   1.5   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox_2          PF07992.13 sp|Q9MZS9|KMO_PIG    -              0.082   12.0   0.0      0.17   11.0   0.0   1.4   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9MZS9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9MZS9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9MZS9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:30:57 2019
+# [ok]

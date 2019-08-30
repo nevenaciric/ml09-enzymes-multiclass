@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Me-amine-dh_H        PF06433.10 sp|Q49124|DHMH_METEA -           6.5e-209  692.6   0.0  7.7e-209  692.3   0.0   1.0   1   0   0   1   1   1   1 Methylamine dehydrogenase heavy chain (MADH)
+PQQ                  PF01011.20 sp|Q49124|DHMH_METEA -             0.0011   18.7   0.0       1.5    8.8   0.0   3.6   4   0   0   4   4   4   2 PQQ enzyme repeat
+PQQ_2                PF13360.5  sp|Q49124|DHMH_METEA -              0.064   12.7   0.0      0.42   10.0   0.0   2.2   2   0   0   2   2   2   0 PQQ-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q49124.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q49124.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q49124.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:32:55 2019
+# [ok]

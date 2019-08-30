@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|A8F7S0|ISPH_PSELT -              1e-78  264.2   6.4   1.2e-78  264.0   6.4   1.0   1   0   0   1   1   1   1 LytB protein
+Zeta_toxin           PF06414.11 sp|A8F7S0|ISPH_PSELT -               0.06   12.5   0.0      0.13   11.4   0.0   1.7   1   1   0   1   1   1   0 Zeta toxin
+TPP_enzyme_M         PF00205.21 sp|A8F7S0|ISPH_PSELT -              0.069   12.8   0.1      0.13   12.0   0.1   1.4   1   0   0   1   1   1   0 Thiamine pyrophosphate enzyme, central domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A8F7S0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A8F7S0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A8F7S0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:42:03 2019
+# [ok]

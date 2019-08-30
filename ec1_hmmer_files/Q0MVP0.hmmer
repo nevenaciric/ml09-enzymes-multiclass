@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Tyrosinase           PF00264.19 sp|Q0MVP0|TYRO_PELES -            7.3e-40  137.5   1.8   1.3e-39  136.7   1.8   1.4   1   0   0   1   1   1   1 Common central domain of tyrosinase
+Laminin_EGF          PF00053.23 sp|Q0MVP0|TYRO_PELES -             0.0044   17.0   3.9    0.0044   17.0   3.9   2.9   3   0   0   3   3   3   2 Laminin EGF domain
+DUF1191              PF06697.11 sp|Q0MVP0|TYRO_PELES -               0.16   11.1   0.0      0.25   10.5   0.0   1.2   1   0   0   1   1   1   0 Protein of unknown function (DUF1191)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q0MVP0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q0MVP0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q0MVP0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:09:10 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Enoyl_reductase      PF12241.7  sp|A3N8J6|FABV_BURP6 -             5e-106  353.3   0.0    6e-106  353.0   0.0   1.1   1   0   0   1   1   1   1 Trans-2-enoyl-CoA reductase catalytic region
+Eno-Rase_NADH_b      PF12242.7  sp|A3N8J6|FABV_BURP6 -            3.5e-37  125.9   0.2   6.8e-37  125.0   0.2   1.5   1   0   0   1   1   1   1 NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+Eno-Rase_FAD_bd      PF07055.11 sp|A3N8J6|FABV_BURP6 -            2.8e-27   94.8   0.1   4.5e-27   94.1   0.1   1.3   1   0   0   1   1   1   1 Enoyl reductase FAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A3N8J6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A3N8J6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A3N8J6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:28:21 2019
+# [ok]

@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|Q83MR9|ISPH_TROWT -            6.1e-84  281.3   0.0     7e-84  281.1   0.0   1.0   1   0   0   1   1   1   1 LytB protein
+CoA_binding_2        PF13380.5  sp|Q83MR9|ISPH_TROWT -               0.21   12.0   2.1       1.4    9.3   0.1   2.9   3   2   0   3   3   3   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q83MR9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q83MR9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q83MR9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:05:53 2019
+# [ok]

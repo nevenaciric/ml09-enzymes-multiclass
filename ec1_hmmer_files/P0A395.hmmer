@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Octopine_DH          PF02317.16 sp|P0A395|DHLO_AGRT9 -            5.7e-31  107.5   0.0   7.9e-31  107.1   0.0   1.2   1   0   0   1   1   1   1 NAD/NADP octopine/nopaline dehydrogenase, alpha-helical domain
+F420_oxidored        PF03807.16 sp|P0A395|DHLO_AGRT9 -             0.0007   20.0   0.3    0.0032   17.9   0.0   2.3   3   1   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_Gly3P_dh_N       PF01210.22 sp|P0A395|DHLO_AGRT9 -              0.024   14.5   0.0      0.12   12.3   0.0   2.2   1   1   0   1   1   1   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0A395.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0A395.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0A395.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:31:48 2019
+# [ok]

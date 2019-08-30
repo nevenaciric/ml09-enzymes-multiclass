@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|Q6ADV0|ISPH_LEIXX -            5.8e-88  294.5   0.1   6.7e-88  294.3   0.1   1.0   1   0   0   1   1   1   1 LytB protein
+Semialdhyde_dh       PF01118.23 sp|Q6ADV0|ISPH_LEIXX -              0.067   13.5   0.4       3.4    8.0   0.1   2.6   2   0   0   2   2   2   0 Semialdehyde dehydrogenase, NAD binding domain
+TIR_2                PF13676.5  sp|Q6ADV0|ISPH_LEIXX -               0.16   12.2   1.0       3.9    7.8   0.3   3.0   3   1   0   3   3   3   0 TIR domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6ADV0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6ADV0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6ADV0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:51:22 2019
+# [ok]

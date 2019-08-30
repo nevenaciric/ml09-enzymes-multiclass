@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+F420_oxidored        PF03807.16 sp|P22350|P5CR_METSM -            8.3e-17   61.5   0.0   1.7e-16   60.4   0.0   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+P5CR_dimer           PF14748.5  sp|P22350|P5CR_METSM -            3.6e-11   43.1   0.0   4.8e-11   42.7   0.0   1.2   1   0   0   1   1   1   1 Pyrroline-5-carboxylate reductase dimerisation
+NAD_binding_2        PF03446.14 sp|P22350|P5CR_METSM -            4.9e-06   26.7   0.0   9.7e-06   25.7   0.0   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+ApbA                 PF02558.15 sp|P22350|P5CR_METSM -             0.0026   17.3   1.8    0.0084   15.7   1.8   1.8   1   1   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+Shikimate_DH         PF01488.19 sp|P22350|P5CR_METSM -             0.0037   17.2   0.0    0.0072   16.3   0.0   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+NAD_Gly3P_dh_N       PF01210.22 sp|P22350|P5CR_METSM -              0.015   15.2   0.3      0.03   14.2   0.3   1.6   1   1   0   1   1   1   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+Sacchrp_dh_NADP      PF03435.17 sp|P22350|P5CR_METSM -              0.022   14.9   0.1      0.05   13.8   0.1   1.6   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P22350.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P22350.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P22350.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:39:32 2019
+# [ok]

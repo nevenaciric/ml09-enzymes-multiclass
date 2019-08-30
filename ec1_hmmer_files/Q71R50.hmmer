@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q71R50|DHR11_CHICK -            4.9e-48  163.1   0.1   5.9e-48  162.8   0.1   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q71R50|DHR11_CHICK -            5.8e-39  133.9   0.2   7.1e-39  133.7   0.2   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q71R50|DHR11_CHICK -              4e-10   39.8   0.2   5.2e-10   39.4   0.2   1.3   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q71R50|DHR11_CHICK -            0.00016   21.1   0.3    0.0012   18.2   0.3   2.4   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+F420_oxidored        PF03807.16 sp|Q71R50|DHR11_CHICK -            0.00072   20.0   0.0     0.022   15.2   0.0   2.4   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_10       PF13460.5  sp|Q71R50|DHR11_CHICK -             0.0035   17.2   0.1    0.0054   16.6   0.1   1.4   1   1   0   1   1   1   1 NAD(P)H-binding
+NmrA                 PF05368.12 sp|Q71R50|DHR11_CHICK -              0.025   14.0   0.1      0.13   11.7   0.0   2.1   2   1   1   3   3   3   0 NmrA-like family
+GDP_Man_Dehyd        PF16363.4  sp|Q71R50|DHR11_CHICK -               0.07   12.4   0.0      0.14   11.4   0.0   1.5   1   0   0   1   1   1   0 GDP-mannose 4,6 dehydratase
+Shikimate_DH         PF01488.19 sp|Q71R50|DHR11_CHICK -                0.1   12.5   0.0      0.21   11.6   0.0   1.6   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q71R50.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q71R50.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q71R50.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:57:57 2019
+# [ok]

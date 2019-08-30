@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|B4SP20|ISPH_STRM5 -            3.8e-92  308.2   0.0   4.3e-92  308.0   0.0   1.0   1   0   0   1   1   1   1 LytB protein
+TPP_enzyme_M         PF00205.21 sp|B4SP20|ISPH_STRM5 -              0.037   13.7   0.0      0.82    9.3   0.0   2.6   3   0   0   3   3   3   0 Thiamine pyrophosphate enzyme, central domain
+DUF1363              PF07101.10 sp|B4SP20|ISPH_STRM5 -              0.049   13.8   0.0      0.58   10.4   0.0   2.1   2   0   0   2   2   2   0 Protein of unknown function (DUF1363)
+Metallophos_2        PF12850.6  sp|B4SP20|ISPH_STRM5 -                0.1   12.7   0.5        13    5.8   0.1   2.2   2   0   0   2   2   2   0 Calcineurin-like phosphoesterase superfamily domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B4SP20.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B4SP20.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B4SP20.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:58:08 2019
+# [ok]

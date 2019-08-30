@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A1SE01|HEM11_NOCSJ -            5.3e-40  136.3   0.3   1.6e-39  134.7   0.0   1.9   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A1SE01|HEM11_NOCSJ -            1.6e-28   99.4   0.1   4.1e-28   98.1   0.1   1.7   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A1SE01|HEM11_NOCSJ -            2.9e-20   72.4   0.3   7.3e-20   71.1   0.3   1.7   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+2-Hacid_dh_C         PF02826.18 sp|A1SE01|HEM11_NOCSJ -            2.9e-05   23.4   0.1   5.2e-05   22.6   0.1   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|A1SE01|HEM11_NOCSJ -            0.00052   20.3   2.2    0.0013   19.1   0.9   2.3   2   0   0   2   2   2   1 Putative NAD(P)-binding
+F420_oxidored        PF03807.16 sp|A1SE01|HEM11_NOCSJ -            0.00064   20.2   2.2   0.00098   19.6   0.8   2.1   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+Sacchrp_dh_NADP      PF03435.17 sp|A1SE01|HEM11_NOCSJ -             0.0012   19.0   0.8     0.004   17.3   0.8   1.9   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+THF_DHG_CYH_C        PF02882.18 sp|A1SE01|HEM11_NOCSJ -             0.0039   16.4   6.0     0.052   12.8   2.8   2.9   2   1   0   2   2   2   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+Eno-Rase_NADH_b      PF12242.7  sp|A1SE01|HEM11_NOCSJ -              0.008   15.8   0.7     0.022   14.4   0.7   1.7   1   0   0   1   1   1   1 NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+NAD_binding_2        PF03446.14 sp|A1SE01|HEM11_NOCSJ -             0.0091   16.1   0.7     0.024   14.7   0.7   1.7   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GFO_IDH_MocA         PF01408.21 sp|A1SE01|HEM11_NOCSJ -               0.11   13.2   3.4      0.11   13.2   0.2   2.6   3   0   0   3   3   3   0 Oxidoreductase family, NAD-binding Rossmann fold
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1SE01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1SE01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1SE01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:24:28 2019
+# [ok]

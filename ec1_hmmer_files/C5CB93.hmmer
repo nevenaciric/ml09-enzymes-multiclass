@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|C5CB93|HEM1_MICLC -            4.4e-31  107.4   0.0     8e-31  106.5   0.0   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+GlutR_dimer          PF00745.19 sp|C5CB93|HEM1_MICLC -            6.3e-17   61.7   1.0   1.1e-16   60.9   1.0   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+Shikimate_DH         PF01488.19 sp|C5CB93|HEM1_MICLC -            3.1e-11   43.4   0.0   7.9e-11   42.1   0.0   1.6   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C5CB93.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C5CB93.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C5CB93.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:15:11 2019
+# [ok]

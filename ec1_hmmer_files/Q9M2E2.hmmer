@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q9M2E2|SDR1_ARATH -              1e-40  139.2   0.1   1.2e-30  106.4   0.0   2.5   2   1   0   2   2   2   2 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q9M2E2|SDR1_ARATH -            2.3e-33  115.6   0.0   9.9e-22   77.5   0.0   3.0   2   1   0   2   2   2   2 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q9M2E2|SDR1_ARATH -            1.6e-07   31.3   0.1   2.9e-07   30.5   0.1   1.4   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q9M2E2|SDR1_ARATH -              2e-05   24.1   0.1   5.5e-05   22.6   0.1   1.7   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+GDP_Man_Dehyd        PF16363.4  sp|Q9M2E2|SDR1_ARATH -             0.0002   20.8   0.0    0.0053   16.1   0.0   2.7   3   0   0   3   3   3   1 GDP-mannose 4,6 dehydratase
+Polysacc_synt_2      PF02719.14 sp|Q9M2E2|SDR1_ARATH -              0.013   14.5   0.0     0.024   13.7   0.0   1.4   1   0   0   1   1   1   0 Polysaccharide biosynthesis protein
+DUF762               PF05555.10 sp|Q9M2E2|SDR1_ARATH -              0.045   13.2   0.1     0.098   12.1   0.1   1.6   1   1   0   1   1   1   0 Coxiella burnetii protein of unknown function (DUF762)
+RmlD_sub_bind        PF04321.16 sp|Q9M2E2|SDR1_ARATH -              0.054   12.5   0.0     0.085   11.8   0.0   1.3   1   0   0   1   1   1   0 RmlD substrate binding domain
+NAD_binding_10       PF13460.5  sp|Q9M2E2|SDR1_ARATH -              0.081   12.7   0.0      0.18   11.6   0.0   1.8   1   1   0   1   1   1   0 NAD(P)H-binding
+3HCDH_N              PF02737.17 sp|Q9M2E2|SDR1_ARATH -               0.14   12.0   0.1       0.3   10.9   0.0   1.6   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9M2E2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9M2E2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9M2E2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:30:33 2019
+# [ok]

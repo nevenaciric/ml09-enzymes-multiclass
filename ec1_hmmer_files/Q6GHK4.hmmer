@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q6GHK4|FABG_STAAR -            7.6e-73  244.8   6.4   8.7e-73  244.6   6.4   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q6GHK4|FABG_STAAR -            2.9e-65  219.3   5.1   3.5e-65  219.0   5.1   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q6GHK4|FABG_STAAR -            2.5e-23   82.8   1.9   4.1e-23   82.1   1.6   1.5   1   1   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q6GHK4|FABG_STAAR -            0.00015   21.2   0.2   0.00026   20.4   0.2   1.4   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+F420_oxidored        PF03807.16 sp|Q6GHK4|FABG_STAAR -             0.0024   18.3   1.5       0.3   11.6   0.5   2.3   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q6GHK4|FABG_STAAR -              0.024   14.7   0.6     0.058   13.5   0.2   1.9   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+NmrA                 PF05368.12 sp|Q6GHK4|FABG_STAAR -              0.026   14.0   2.5      0.41   10.1   1.2   2.3   2   0   0   2   2   2   0 NmrA-like family
+3Beta_HSD            PF01073.18 sp|Q6GHK4|FABG_STAAR -              0.044   12.7   0.5     0.061   12.2   0.5   1.2   1   0   0   1   1   1   0 3-beta hydroxysteroid dehydrogenase/isomerase family
+NAD_binding_10       PF13460.5  sp|Q6GHK4|FABG_STAAR -              0.056   13.2   3.3      0.11   12.3   3.3   1.6   1   1   0   1   1   1   0 NAD(P)H-binding
+SPOR                 PF05036.12 sp|Q6GHK4|FABG_STAAR -              0.093   13.0   1.3      0.42   10.9   0.1   2.7   3   1   1   4   4   4   0 Sporulation related domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6GHK4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6GHK4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6GHK4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:54:21 2019
+# [ok]

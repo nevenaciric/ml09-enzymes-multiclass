@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|D4AWH1|NSCC_ARTBC -              7e-13   48.5   0.6   0.00038   19.7   0.0   3.1   3   0   0   3   3   3   3 FAD binding domain
+DAO                  PF01266.23 sp|D4AWH1|NSCC_ARTBC -            0.00049   19.7   0.2     0.012   15.1   0.1   2.1   2   0   0   2   2   2   1 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|D4AWH1|NSCC_ARTBC -            0.00073   19.6   0.0    0.0016   18.5   0.0   1.6   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox_2          PF07992.13 sp|D4AWH1|NSCC_ARTBC -              0.012   14.8   0.1      0.14   11.3   0.0   2.2   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+Shikimate_DH         PF01488.19 sp|D4AWH1|NSCC_ARTBC -              0.061   13.3   0.0      0.33   10.9   0.0   2.1   3   0   0   3   3   3   0 Shikimate / quinate 5-dehydrogenase
+Thi4                 PF01946.16 sp|D4AWH1|NSCC_ARTBC -               0.11   11.7   0.0      0.18   10.9   0.0   1.2   1   0   0   1   1   1   0 Thi4 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/D4AWH1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/D4AWH1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/D4AWH1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:16:54 2019
+# [ok]

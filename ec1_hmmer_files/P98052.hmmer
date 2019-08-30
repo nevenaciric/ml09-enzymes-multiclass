@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX2                 PF00116.19 sp|P98052|COX2_THETH -            4.8e-10   39.3   0.0   6.8e-10   38.8   0.0   1.2   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, periplasmic domain
+Cupredoxin_1         PF13473.5  sp|P98052|COX2_THETH -            6.8e-08   32.5   0.0   8.7e-08   32.1   0.0   1.2   1   0   0   1   1   1   1 Cupredoxin-like domain
+Cu-oxidase_2         PF07731.13 sp|P98052|COX2_THETH -             0.0041   16.8   0.5     0.052   13.2   0.1   2.4   1   1   2   3   3   3   1 Multicopper oxidase
+Filamin              PF00630.18 sp|P98052|COX2_THETH -              0.092   13.5   0.0      0.13   13.0   0.0   1.2   1   0   0   1   1   1   0 Filamin/ABP280 repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P98052.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P98052.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P98052.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:00:11 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|O28294|ILVC_ARCFU -            1.2e-75  252.6   0.6   1.5e-75  252.2   0.6   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|O28294|ILVC_ARCFU -            1.3e-63  213.5   1.7   2.1e-63  212.8   1.7   1.3   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|O28294|ILVC_ARCFU -            2.5e-06   26.9   0.0   4.1e-06   26.2   0.0   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+AdoHcyase_NAD        PF00670.20 sp|O28294|ILVC_ARCFU -              4e-06   26.9   0.0   6.7e-06   26.2   0.0   1.3   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+F420_oxidored        PF03807.16 sp|O28294|ILVC_ARCFU -            3.5e-05   24.2   0.0   9.1e-05   22.9   0.0   1.7   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|O28294|ILVC_ARCFU -            0.00052   20.1   0.1   0.00097   19.2   0.1   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Oxidored_nitro       PF00148.18 sp|O28294|ILVC_ARCFU -             0.0014   17.4   0.1    0.0022   16.7   0.1   1.4   1   0   0   1   1   1   1 Nitrogenase component 1 type Oxidoreductase
+NAD_binding_7        PF13241.5  sp|O28294|ILVC_ARCFU -               0.01   16.2   0.0      0.02   15.3   0.0   1.4   1   0   0   1   1   1   0 Putative NAD(P)-binding
+NAD_Gly3P_dh_N       PF01210.22 sp|O28294|ILVC_ARCFU -              0.064   13.1   0.8        10    6.0   0.1   2.6   2   1   1   3   3   3   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O28294.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O28294.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O28294.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:22:44 2019
+# [ok]

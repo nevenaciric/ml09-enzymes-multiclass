@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GDC-P                PF02347.15 sp|B4F0N7|GCSP_PROMH -           5.7e-195  648.1   4.1  5.7e-183  608.5   0.6   3.1   2   1   1   3   3   3   3 Glycine cleavage system P-protein
+Beta_elim_lyase      PF01212.20 sp|B4F0N7|GCSP_PROMH -            3.9e-08   32.8   3.7   3.3e-07   29.8   0.1   3.5   4   0   0   4   4   4   1 Beta-eliminating lyase
+Aminotran_5          PF00266.18 sp|B4F0N7|GCSP_PROMH -            2.1e-05   23.6   0.7    0.0002   20.3   0.1   2.2   2   0   0   2   2   2   1 Aminotransferase class-V
+Pyridoxal_deC        PF00282.18 sp|B4F0N7|GCSP_PROMH -             0.0059   15.3   0.5       2.6    6.6   0.0   2.6   3   0   0   3   3   3   2 Pyridoxal-dependent decarboxylase conserved domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B4F0N7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B4F0N7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B4F0N7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:57:26 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|A3PDH3|FOLD_PROM0 -            3.4e-64  214.9   0.8   5.5e-64  214.2   0.8   1.3   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|A3PDH3|FOLD_PROM0 -            3.5e-36  123.9   0.6   5.1e-36  123.4   0.6   1.3   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+AlaDh_PNT_C          PF01262.20 sp|A3PDH3|FOLD_PROM0 -             0.0015   17.7   0.0    0.0023   17.2   0.0   1.3   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+AdoHcyase_NAD        PF00670.20 sp|A3PDH3|FOLD_PROM0 -              0.089   12.8   0.2       1.7    8.6   0.2   2.3   1   1   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A3PDH3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A3PDH3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A3PDH3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:28:40 2019
+# [ok]

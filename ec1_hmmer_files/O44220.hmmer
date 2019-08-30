@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|O44220|C12B1_DROAC -            4.5e-69  233.3   0.0   5.1e-69  233.1   0.0   1.0   1   0   0   1   1   1   1 Cytochrome P450
+NPV_P10              PF05531.11 sp|O44220|C12B1_DROAC -             0.0017   18.7   0.1    0.0044   17.3   0.1   1.6   1   0   0   1   1   1   1 Nucleopolyhedrovirus P10 protein
+DUF848               PF05852.10 sp|O44220|C12B1_DROAC -             0.0097   15.9   0.1     0.021   14.8   0.1   1.5   1   0   0   1   1   1   1 Gammaherpesvirus protein of unknown function (DUF848)
+Med9                 PF07544.12 sp|O44220|C12B1_DROAC -              0.064   13.2   0.1       1.7    8.7   0.0   2.3   2   0   0   2   2   2   0 RNA polymerase II transcription mediator complex subunit 9
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O44220.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O44220.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O44220.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:24:09 2019
+# [ok]

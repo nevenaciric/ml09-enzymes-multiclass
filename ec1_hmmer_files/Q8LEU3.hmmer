@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q8LEU3|NOL_ARATH  -            1.5e-44  151.7   0.1   1.8e-44  151.4   0.1   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q8LEU3|NOL_ARATH  -            6.5e-34  117.4   0.1     9e-34  117.0   0.1   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q8LEU3|NOL_ARATH  -            8.6e-10   38.7   0.4   2.1e-09   37.4   0.0   1.7   2   0   0   2   2   2   1 KR domain
+Epimerase            PF01370.20 sp|Q8LEU3|NOL_ARATH  -            4.6e-05   22.9   0.0   9.4e-05   21.9   0.0   1.4   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+Polysacc_synt_2      PF02719.14 sp|Q8LEU3|NOL_ARATH  -             0.0012   17.9   0.0    0.0024   17.0   0.0   1.5   1   1   0   1   1   1   1 Polysaccharide biosynthesis protein
+F420_oxidored        PF03807.16 sp|Q8LEU3|NOL_ARATH  -             0.0046   17.4   0.0     0.013   15.9   0.0   1.8   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+GDP_Man_Dehyd        PF16363.4  sp|Q8LEU3|NOL_ARATH  -             0.0084   15.4   0.0      0.22   10.8   0.0   2.1   2   0   0   2   2   2   1 GDP-mannose 4,6 dehydratase
+NAD_binding_2        PF03446.14 sp|Q8LEU3|NOL_ARATH  -               0.03   14.4   0.1      0.16   12.1   0.0   2.2   2   1   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8LEU3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8LEU3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8LEU3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:13:32 2019
+# [ok]

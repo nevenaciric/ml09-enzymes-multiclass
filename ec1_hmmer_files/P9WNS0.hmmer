@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_reductoisom      PF02670.15 sp|P9WNS0|DXR_MYCTO  -            1.2e-37  129.4   1.6   2.6e-37  128.3   1.6   1.6   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXPR_C               PF13288.5  sp|P9WNS0|DXR_MYCTO  -            6.4e-35  119.8   0.0   1.2e-34  118.9   0.0   1.5   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+DXP_redisom_C        PF08436.11 sp|P9WNS0|DXR_MYCTO  -            2.9e-34  117.1   0.0   7.6e-34  115.7   0.0   1.7   2   0   0   2   2   2   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+Sacchrp_dh_NADP      PF03435.17 sp|P9WNS0|DXR_MYCTO  -              0.011   15.9   0.4     0.042   14.0   0.4   2.0   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+Semialdhyde_dh       PF01118.23 sp|P9WNS0|DXR_MYCTO  -               0.03   14.7   0.2      0.14   12.5   0.2   2.1   1   1   0   1   1   1   0 Semialdehyde dehydrogenase, NAD binding domain
+CoA_binding_3        PF13727.5  sp|P9WNS0|DXR_MYCTO  -              0.067   13.1   0.1      0.12   12.3   0.1   1.3   1   0   0   1   1   1   0 CoA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WNS0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WNS0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WNS0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:01:44 2019
+# [ok]

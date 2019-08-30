@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_2        PF03446.14 sp|P28811|MMSB_PSEAE -            2.9e-51  173.7   0.3   5.2e-51  172.9   0.3   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_binding_11       PF14833.5  sp|P28811|MMSB_PSEAE -            4.6e-36  123.6   0.3   9.3e-36  122.6   0.3   1.5   1   0   0   1   1   1   1 NAD-binding of NADP-dependent 3-hydroxyisobutyrate dehydrogenase
+F420_oxidored        PF03807.16 sp|P28811|MMSB_PSEAE -            7.4e-06   26.4   0.0   2.6e-05   24.6   0.0   2.0   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|P28811|MMSB_PSEAE -             0.0013   18.5   0.1    0.0027   17.5   0.1   1.5   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|P28811|MMSB_PSEAE -              0.025   14.1   0.0      0.17   11.3   0.0   2.0   2   0   0   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+ApbA                 PF02558.15 sp|P28811|MMSB_PSEAE -              0.029   13.9   0.2     0.065   12.8   0.2   1.6   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+Cecropin             PF00272.18 sp|P28811|MMSB_PSEAE -                0.2   11.2   1.6      0.73    9.4   0.0   2.7   2   0   0   2   2   2   0 Cecropin family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P28811.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P28811.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P28811.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:41:54 2019
+# [ok]

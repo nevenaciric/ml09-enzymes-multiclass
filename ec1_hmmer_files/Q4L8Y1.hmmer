@@ -1,0 +1,27 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q4L8Y1|Y0585_STAHJ -            6.4e-53  179.0   2.2   8.2e-53  178.7   2.2   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q4L8Y1|Y0585_STAHJ -            1.7e-41  142.2   0.9   2.2e-41  141.9   0.9   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q4L8Y1|Y0585_STAHJ -            3.9e-14   52.9   1.1     5e-14   52.5   1.1   1.1   1   0   0   1   1   1   1 KR domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q4L8Y1|Y0585_STAHJ -            2.6e-08   34.1   0.4   4.1e-08   33.5   0.4   1.4   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_10       PF13460.5  sp|Q4L8Y1|Y0585_STAHJ -            2.7e-07   30.6   0.2   3.6e-07   30.2   0.2   1.2   1   0   0   1   1   1   1 NAD(P)H-binding
+Epimerase            PF01370.20 sp|Q4L8Y1|Y0585_STAHJ -            2.1e-06   27.3   2.1   6.4e-06   25.7   1.1   2.2   2   1   0   2   2   2   1 NAD dependent epimerase/dehydratase family
+DUF1776              PF08643.9  sp|Q4L8Y1|Y0585_STAHJ -            0.00022   20.6   0.0     0.001   18.4   0.0   1.8   2   0   0   2   2   2   1 Fungal family of unknown function (DUF1776)
+Shikimate_DH         PF01488.19 sp|Q4L8Y1|Y0585_STAHJ -            0.00064   19.7   0.2    0.0012   18.8   0.2   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GDP_Man_Dehyd        PF16363.4  sp|Q4L8Y1|Y0585_STAHJ -             0.0088   15.3   1.1     0.023   14.0   0.7   1.8   1   1   1   2   2   2   1 GDP-mannose 4,6 dehydratase
+ApbA                 PF02558.15 sp|Q4L8Y1|Y0585_STAHJ -              0.016   14.8   0.0       2.7    7.5   0.0   2.2   2   0   0   2   2   2   0 Ketopantoate reductase PanE/ApbA
+HEM4                 PF02602.14 sp|Q4L8Y1|Y0585_STAHJ -              0.022   14.0   0.1      0.25   10.6   0.0   2.0   2   0   0   2   2   2   0 Uroporphyrinogen-III synthase HemD
+F420_oxidored        PF03807.16 sp|Q4L8Y1|Y0585_STAHJ -              0.045   14.2   0.2      0.11   13.0   0.2   1.6   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+ADH_zinc_N           PF00107.25 sp|Q4L8Y1|Y0585_STAHJ -               0.14   12.0   0.8      0.28   11.0   0.8   1.5   1   0   0   1   1   1   0 Zinc-binding dehydrogenase
+THF_DHG_CYH_C        PF02882.18 sp|Q4L8Y1|Y0585_STAHJ -               0.33   10.2   5.0      0.14   11.4   1.9   2.0   3   0   0   3   3   3   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4L8Y1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4L8Y1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4L8Y1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:34:50 2019
+# [ok]

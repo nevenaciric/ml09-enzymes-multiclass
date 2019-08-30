@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Shikimate_dh_N       PF08501.10 sp|B0V707|AROE_ACIBY -            3.5e-24   84.8   0.0   9.3e-24   83.4   0.0   1.7   2   0   0   2   2   2   1 Shikimate dehydrogenase substrate binding domain
+Shikimate_DH         PF01488.19 sp|B0V707|AROE_ACIBY -            1.8e-13   50.6   0.0   2.9e-13   50.0   0.0   1.3   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|B0V707|AROE_ACIBY -            1.3e-06   28.6   0.0   1.9e-06   28.1   0.0   1.3   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+F420_oxidored        PF03807.16 sp|B0V707|AROE_ACIBY -            0.00034   21.0   0.3    0.0011   19.4   0.1   1.9   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|B0V707|AROE_ACIBY -             0.0015   18.9   0.0    0.0027   18.0   0.0   1.4   1   0   0   1   1   1   1 Putative NAD(P)-binding
+Malic_M              PF03949.14 sp|B0V707|AROE_ACIBY -              0.021   14.0   0.2     0.031   13.5   0.2   1.2   1   0   0   1   1   1   0 Malic enzyme, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B0V707.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B0V707.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B0V707.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:49:04 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_8        PF08022.11 sp|Q3KTM0|FRO7_ARATH -            1.1e-18   67.2   0.0   9.1e-18   64.3   0.0   2.3   2   0   0   2   2   2   1 FAD-binding domain
+NAD_binding_6        PF08030.11 sp|Q3KTM0|FRO7_ARATH -            1.9e-18   67.0   0.0   7.8e-18   65.0   0.0   1.9   1   1   0   1   1   1   1 Ferric reductase NAD binding domain
+Ferric_reduct        PF01794.18 sp|Q3KTM0|FRO7_ARATH -            3.1e-17   62.8  14.7   3.1e-17   62.8  14.7   3.5   3   1   0   3   3   3   1 Ferric reductase like transmembrane component
+NAD_binding_1        PF00175.20 sp|Q3KTM0|FRO7_ARATH -            2.6e-05   24.7   0.0    0.0002   21.9   0.0   2.1   2   0   0   2   2   2   1 Oxidoreductase NAD-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3KTM0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3KTM0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3KTM0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:28:41 2019
+# [ok]

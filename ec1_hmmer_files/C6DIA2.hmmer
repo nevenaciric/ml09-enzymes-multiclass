@@ -1,0 +1,30 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|C6DIA2|GPDA_PECCP -            1.5e-52  177.6   0.5   2.6e-52  176.8   0.5   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|C6DIA2|GPDA_PECCP -            1.9e-49  167.6   0.0   2.5e-49  167.2   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|C6DIA2|GPDA_PECCP -            1.1e-11   44.4   0.0   1.8e-11   43.8   0.0   1.3   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|C6DIA2|GPDA_PECCP -            1.1e-06   29.0   0.0     2e-05   25.0   0.0   2.5   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|C6DIA2|GPDA_PECCP -              5e-06   26.7   0.0   1.1e-05   25.6   0.0   1.7   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GIDA                 PF01134.21 sp|C6DIA2|GPDA_PECCP -            0.00067   18.8   0.1     0.001   18.1   0.1   1.3   1   0   0   1   1   1   1 Glucose inhibited division protein A
+UDPG_MGDP_dh_N       PF03721.13 sp|C6DIA2|GPDA_PECCP -            0.00069   19.1   0.0     0.014   14.9   0.0   2.7   2   1   0   3   3   3   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Rossmann-like        PF10727.8  sp|C6DIA2|GPDA_PECCP -             0.0013   18.5   1.4    0.0021   17.8   0.5   1.8   2   0   0   2   2   2   1 Rossmann-like domain
+3HCDH_N              PF02737.17 sp|C6DIA2|GPDA_PECCP -             0.0016   18.3   0.1    0.0028   17.5   0.1   1.4   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_8        PF13450.5  sp|C6DIA2|GPDA_PECCP -             0.0024   18.0   0.1    0.0092   16.1   0.1   2.0   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox_2          PF07992.13 sp|C6DIA2|GPDA_PECCP -             0.0082   15.3   0.0     0.017   14.3   0.0   1.5   1   0   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+TrkA_N               PF02254.17 sp|C6DIA2|GPDA_PECCP -              0.022   14.9   0.0     0.091   12.9   0.0   2.1   2   0   0   2   2   2   0 TrkA-N domain
+Shikimate_DH         PF01488.19 sp|C6DIA2|GPDA_PECCP -              0.054   13.4   0.1       0.2   11.6   0.0   2.0   2   0   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+ApbA_C               PF08546.10 sp|C6DIA2|GPDA_PECCP -              0.066   13.3   0.0      0.25   11.5   0.0   2.1   2   1   0   2   2   2   0 Ketopantoate reductase PanE/ApbA C terminal
+IlvN                 PF07991.11 sp|C6DIA2|GPDA_PECCP -              0.098   12.1   0.1       1.2    8.5   0.1   2.5   2   1   0   2   2   2   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|C6DIA2|GPDA_PECCP -               0.12   12.6   0.0      0.27   11.4   0.0   1.7   2   0   0   2   2   1   0 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_7        PF13241.5  sp|C6DIA2|GPDA_PECCP -               0.12   12.8   0.0       2.1    8.8   0.0   2.6   1   1   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C6DIA2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C6DIA2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C6DIA2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:15:52 2019
+# [ok]

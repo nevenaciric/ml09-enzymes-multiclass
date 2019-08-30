@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|P38674|ILV5_NEUCR -            3.5e-46  156.7   0.0   5.9e-46  156.0   0.0   1.3   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|P38674|ILV5_NEUCR -            1.1e-39  136.0   0.0   1.6e-39  135.3   0.0   1.3   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+F420_oxidored        PF03807.16 sp|P38674|ILV5_NEUCR -              0.039   14.4   0.0      0.12   12.8   0.0   1.9   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|P38674|ILV5_NEUCR -              0.084   12.9   0.0       0.2   11.7   0.0   1.6   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P38674.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P38674.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P38674.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:45:16 2019
+# [ok]

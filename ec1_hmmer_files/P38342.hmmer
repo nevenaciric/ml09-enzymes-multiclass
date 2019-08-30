@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P38342|TSC10_YEAST -            2.3e-20   72.8   0.0     1e-11   44.5   0.0   2.1   1   1   1   2   2   2   2 short chain dehydrogenase
+KR                   PF08659.9  sp|P38342|TSC10_YEAST -            1.9e-10   40.8   0.0   2.8e-10   40.3   0.0   1.2   1   0   0   1   1   1   1 KR domain
+adh_short_C2         PF13561.5  sp|P38342|TSC10_YEAST -              7e-08   32.2   0.0   1.7e-07   30.9   0.0   1.5   1   1   1   2   2   2   1 Enoyl-(Acyl carrier protein) reductase
+Polysacc_synt_2      PF02719.14 sp|P38342|TSC10_YEAST -             0.0021   17.2   0.1    0.0064   15.6   0.0   1.7   2   0   0   2   2   2   1 Polysaccharide biosynthesis protein
+DUF3349              PF11829.7  sp|P38342|TSC10_YEAST -              0.086   13.5   0.0      0.18   12.5   0.0   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF3349)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P38342.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P38342.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P38342.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:45:10 2019
+# [ok]

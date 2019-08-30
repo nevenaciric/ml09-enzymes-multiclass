@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A0Q845|HEM1_FRATN -            1.8e-43  147.5   0.0   5.1e-43  146.0   0.0   1.8   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A0Q845|HEM1_FRATN -            3.9e-30  104.6   2.3   7.9e-30  103.6   0.2   2.2   2   1   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A0Q845|HEM1_FRATN -            3.9e-15   55.9   0.3   8.7e-15   54.8   0.3   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A0Q845|HEM1_FRATN -            4.1e-08   33.6   1.4     7e-08   32.8   0.2   2.0   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+Sacchrp_dh_NADP      PF03435.17 sp|A0Q845|HEM1_FRATN -            0.00014   22.0   0.7   0.00077   19.6   0.0   2.3   2   0   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+2-Hacid_dh_C         PF02826.18 sp|A0Q845|HEM1_FRATN -            0.00097   18.4   0.1    0.0023   17.2   0.0   1.6   2   0   0   2   2   2   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+THF_DHG_CYH_C        PF02882.18 sp|A0Q845|HEM1_FRATN -             0.0052   16.0   0.2     0.019   14.2   0.2   1.9   1   1   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+NAD_binding_2        PF03446.14 sp|A0Q845|HEM1_FRATN -             0.0066   16.5   0.1     0.061   13.4   0.0   2.3   2   1   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_binding_7        PF13241.5  sp|A0Q845|HEM1_FRATN -              0.015   15.7   0.1     0.056   13.8   0.1   1.9   1   0   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A0Q845.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A0Q845.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A0Q845.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:21:29 2019
+# [ok]

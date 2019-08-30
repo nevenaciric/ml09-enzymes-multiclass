@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|Q27518|C13A2_CAEEL -            1.4e-88  297.6   0.0   1.8e-88  297.2   0.0   1.1   1   0   0   1   1   1   1 Cytochrome P450
+KAP_NTPase           PF07693.13 sp|Q27518|C13A2_CAEEL -              0.039   13.1   0.1      0.41    9.7   0.0   2.0   2   0   0   2   2   2   0 KAP family P-loop domain
+UPF0154              PF03672.12 sp|Q27518|C13A2_CAEEL -               0.11   12.4   0.0      0.42   10.6   0.0   1.9   2   0   0   2   2   2   0 Uncharacterised protein family (UPF0154)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q27518.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q27518.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q27518.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:18:24 2019
+# [ok]

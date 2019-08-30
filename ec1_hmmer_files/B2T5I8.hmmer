@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_reductoisom      PF02670.15 sp|B2T5I8|DXR_PARPJ  -            3.2e-45  153.9   0.3   3.2e-45  153.9   0.3   1.7   2   0   0   2   2   2   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXPR_C               PF13288.5  sp|B2T5I8|DXR_PARPJ  -            7.6e-42  142.1   0.3   1.3e-41  141.4   0.3   1.4   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+DXP_redisom_C        PF08436.11 sp|B2T5I8|DXR_PARPJ  -            8.4e-40  134.8   0.0   1.8e-39  133.7   0.0   1.6   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+Semialdhyde_dh       PF01118.23 sp|B2T5I8|DXR_PARPJ  -              0.018   15.4   1.5      0.28   11.5   0.1   3.1   2   1   1   3   3   3   0 Semialdehyde dehydrogenase, NAD binding domain
+NmrA                 PF05368.12 sp|B2T5I8|DXR_PARPJ  -              0.034   13.6   0.1     0.054   12.9   0.1   1.4   1   0   0   1   1   1   0 NmrA-like family
+DUF2537              PF10801.7  sp|B2T5I8|DXR_PARPJ  -               0.13   12.4   1.3       2.3    8.4   0.1   2.7   2   1   0   2   2   2   0 Protein of unknown function (DUF2537)
+DnaB_bind            PF10410.8  sp|B2T5I8|DXR_PARPJ  -               0.19   11.8   0.8      0.44   10.7   0.8   1.5   1   0   0   1   1   1   0 DnaB-helicase binding domain of primase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B2T5I8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B2T5I8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B2T5I8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:54:50 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q7ZA45|GPD_LACTH  -              6e-53  178.9   0.1   9.4e-53  178.3   0.1   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q7ZA45|GPD_LACTH  -            2.2e-29  102.5   0.5   4.4e-29  101.5   0.5   1.5   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|Q7ZA45|GPD_LACTH  -             0.0025   18.3   0.0      0.62   10.6   0.0   2.7   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+CYLD_phos_site       PF16607.4  sp|Q7ZA45|GPD_LACTH  -               0.02   14.6   0.0     0.037   13.8   0.0   1.3   1   0   0   1   1   1   0 Phosphorylation region of CYLD, unstructured
+IlvN                 PF07991.11 sp|Q7ZA45|GPD_LACTH  -               0.11   11.9   0.1      0.71    9.3   0.0   2.2   3   0   0   3   3   3   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7ZA45.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7ZA45.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7ZA45.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:04:17 2019
+# [ok]

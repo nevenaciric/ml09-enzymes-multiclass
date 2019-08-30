@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mannitol_dh_C        PF08125.12 sp|B9DM96|MTLD_STACT -            2.3e-44  151.6   0.2   3.7e-44  151.0   0.2   1.3   1   0   0   1   1   1   1 Mannitol dehydrogenase C-terminal domain
+Mannitol_dh          PF01232.22 sp|B9DM96|MTLD_STACT -            2.5e-20   73.1   3.3   3.1e-20   72.8   0.5   2.5   3   1   0   3   3   3   1 Mannitol dehydrogenase Rossmann domain
+NAD_Gly3P_dh_N       PF01210.22 sp|B9DM96|MTLD_STACT -              0.003   17.5   0.2    0.0094   15.8   0.2   1.9   1   1   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+UDPG_MGDP_dh_N       PF03721.13 sp|B9DM96|MTLD_STACT -              0.055   12.9   0.1      0.11   11.9   0.1   1.6   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Tricorn_C1           PF14684.5  sp|B9DM96|MTLD_STACT -                0.1   12.6   0.0      0.25   11.4   0.0   1.7   1   0   0   1   1   1   0 Tricorn protease C1 domain
+NAD_binding_10       PF13460.5  sp|B9DM96|MTLD_STACT -               0.11   12.2   0.5      0.45   10.3   0.5   1.9   1   1   0   1   1   1   0 NAD(P)H-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B9DM96.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B9DM96.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B9DM96.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:09:35 2019
+# [ok]

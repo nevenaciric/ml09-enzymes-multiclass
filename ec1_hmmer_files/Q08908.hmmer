@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_8        PF08022.11 sp|Q08908|FRE5_YEAST -              1e-30  105.9   0.4   2.2e-30  104.9   0.0   1.8   2   0   0   2   2   2   1 FAD-binding domain
+NAD_binding_6        PF08030.11 sp|Q08908|FRE5_YEAST -            2.9e-28   98.8   0.0   4.9e-28   98.1   0.0   1.4   1   0   0   1   1   1   1 Ferric reductase NAD binding domain
+Ferric_reduct        PF01794.18 sp|Q08908|FRE5_YEAST -            2.2e-20   72.9  17.5   2.2e-20   72.9  17.5   2.4   3   0   0   3   3   3   1 Ferric reductase like transmembrane component
+DUF2025              PF09634.9  sp|Q08908|FRE5_YEAST -              0.062   13.2   0.0      0.13   12.2   0.0   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF2025)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q08908.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q08908.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q08908.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:06:25 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Sacchrp_dh_C         PF16653.4  sp|P38999|LYS9_YEAST -            2.3e-94  316.3   0.0   2.9e-94  315.9   0.0   1.1   1   0   0   1   1   1   1 Saccharopine dehydrogenase C-terminal domain
+Sacchrp_dh_NADP      PF03435.17 sp|P38999|LYS9_YEAST -            2.6e-25   89.1   0.1   3.8e-25   88.5   0.1   1.2   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_10       PF13460.5  sp|P38999|LYS9_YEAST -            5.4e-08   32.9   0.5   1.3e-07   31.6   0.1   1.8   2   0   0   2   2   2   1 NAD(P)H-binding
+Shikimate_DH         PF01488.19 sp|P38999|LYS9_YEAST -            5.4e-08   32.9   0.0   1.1e-07   31.9   0.0   1.5   1   1   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|P38999|LYS9_YEAST -             0.0006   20.2   0.0    0.0014   19.1   0.0   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_3        PF03447.15 sp|P38999|LYS9_YEAST -              0.021   15.4   0.1     0.047   14.2   0.1   1.7   1   0   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|P38999|LYS9_YEAST -              0.032   15.0   0.0     0.066   14.0   0.0   1.5   1   0   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+3Beta_HSD            PF01073.18 sp|P38999|LYS9_YEAST -              0.033   13.1   0.0     0.056   12.3   0.0   1.5   1   0   0   1   1   1   0 3-beta hydroxysteroid dehydrogenase/isomerase family
+Epimerase            PF01370.20 sp|P38999|LYS9_YEAST -               0.12   11.7   0.0      0.17   11.2   0.0   1.2   1   0   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P38999.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P38999.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P38999.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:45:22 2019
+# [ok]

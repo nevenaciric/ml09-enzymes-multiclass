@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|P9WQC5|ADHC_MYCTU -            4.1e-29  100.6   2.4   7.4e-29   99.7   2.4   1.4   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|P9WQC5|ADHC_MYCTU -            8.4e-17   61.2   0.0   1.3e-16   60.6   0.0   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_zinc_N_2         PF13602.5  sp|P9WQC5|ADHC_MYCTU -            0.00097   20.1   0.0    0.0016   19.4   0.0   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+AlaDh_PNT_C          PF01262.20 sp|P9WQC5|ADHC_MYCTU -             0.0056   15.9   0.0      0.01   15.0   0.0   1.3   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+2-Hacid_dh_C         PF02826.18 sp|P9WQC5|ADHC_MYCTU -               0.02   14.1   0.0     0.036   13.3   0.0   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|P9WQC5|ADHC_MYCTU -               0.13   12.6   0.0      0.24   11.7   0.0   1.3   1   0   0   1   1   1   0 Putative NAD(P)-binding
+3HCDH_N              PF02737.17 sp|P9WQC5|ADHC_MYCTU -               0.17   11.7   0.0      0.29   10.9   0.0   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WQC5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WQC5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WQC5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:02:26 2019
+# [ok]

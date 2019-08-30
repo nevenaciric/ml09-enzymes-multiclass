@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1_dh                PF00676.19 sp|P12694|ODBA_HUMAN -             2e-114  381.5   0.0  2.4e-114  381.3   0.0   1.1   1   0   0   1   1   1   1 Dehydrogenase E1 component
+TPP_enzyme_C         PF02775.20 sp|P12694|ODBA_HUMAN -            0.00034   20.3   0.2    0.0014   18.3   0.2   1.9   1   1   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+DXP_synthase_N       PF13292.5  sp|P12694|ODBA_HUMAN -             0.0024   17.0   0.0    0.0052   15.9   0.0   1.4   2   0   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+GspL_C               PF12693.6  sp|P12694|ODBA_HUMAN -                1.8    8.3   5.4      0.85    9.3   1.7   2.0   2   0   0   2   2   2   0 GspL periplasmic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P12694.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P12694.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P12694.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:35:57 2019
+# [ok]

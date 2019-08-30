@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|O81360|ABA2_PRUAR -            1.7e-11   44.0   0.9   4.9e-06   26.0   0.0   2.8   2   1   0   2   2   2   2 FAD binding domain
+FHA                  PF00498.25 sp|O81360|ABA2_PRUAR -            8.6e-11   41.9   0.2   8.5e-10   38.7   0.0   2.7   4   0   0   4   4   4   1 FHA domain
+NAD_binding_8        PF13450.5  sp|O81360|ABA2_PRUAR -              5e-05   23.4   0.5   0.00014   21.9   0.5   1.8   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+FAD_binding_2        PF00890.23 sp|O81360|ABA2_PRUAR -            0.00034   19.7   0.5   0.00057   19.0   0.5   1.3   1   0   0   1   1   1   1 FAD binding domain
+Pyr_redox_2          PF07992.13 sp|O81360|ABA2_PRUAR -             0.0004   19.6   2.6     0.016   14.4   2.6   2.1   1   1   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+Yop-YscD_cpl         PF16697.4  sp|O81360|ABA2_PRUAR -              0.015   15.5   0.0     0.051   13.8   0.0   1.9   2   0   0   2   2   2   0 Inner membrane component of T3SS, cytoplasmic domain
+DAO                  PF01266.23 sp|O81360|ABA2_PRUAR -              0.015   14.8   0.9      0.08   12.4   0.7   2.0   2   0   0   2   2   2   0 FAD dependent oxidoreductase
+N2227                PF07942.11 sp|O81360|ABA2_PRUAR -               0.11   11.6   0.0      0.17   11.0   0.0   1.2   1   0   0   1   1   1   0 N2227-like protein
+FAD_oxidored         PF12831.6  sp|O81360|ABA2_PRUAR -               0.11   11.7   0.2      0.16   11.2   0.2   1.2   1   0   0   1   1   1   0 FAD dependent oxidoreductase
+HI0933_like          PF03486.13 sp|O81360|ABA2_PRUAR -               0.24    9.9   0.3      0.36    9.4   0.3   1.2   1   0   0   1   1   1   0 HI0933-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O81360.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O81360.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O81360.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:27:15 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NO_synthase          PF02898.14 sp|Q06518|NOS2_RAT   -           4.9e-188  624.5   0.0  6.6e-188  624.1   0.0   1.2   1   0   0   1   1   1   1 Nitric oxide synthase, oxygenase domain
+FAD_binding_1        PF00667.19 sp|Q06518|NOS2_RAT   -            1.8e-77  259.8   0.0   3.4e-77  258.9   0.0   1.5   1   0   0   1   1   1   1 FAD binding domain
+Flavodoxin_1         PF00258.24 sp|Q06518|NOS2_RAT   -            1.5e-41  141.8   0.3   4.3e-41  140.4   0.3   1.8   1   0   0   1   1   1   1 Flavodoxin
+NAD_binding_1        PF00175.20 sp|Q06518|NOS2_RAT   -            4.3e-22   78.7   0.0   8.8e-22   77.7   0.0   1.6   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+NAD_binding_6        PF08030.11 sp|Q06518|NOS2_RAT   -             0.0038   17.3   0.0     0.015   15.3   0.0   1.9   1   1   1   2   2   2   1 Ferric reductase NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q06518.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q06518.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q06518.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:05:24 2019
+# [ok]

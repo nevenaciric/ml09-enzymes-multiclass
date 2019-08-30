@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q9RPT1|RHLG_PSEAE -            6.4e-55  186.2   0.3   7.5e-55  185.9   0.3   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q9RPT1|RHLG_PSEAE -              4e-46  156.8   0.0   4.7e-46  156.6   0.0   1.0   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q9RPT1|RHLG_PSEAE -            2.5e-08   33.9   0.5   6.3e-08   32.6   0.5   1.6   1   1   1   2   2   2   1 KR domain
+Epimerase            PF01370.20 sp|Q9RPT1|RHLG_PSEAE -            0.00082   18.8   0.0    0.0012   18.2   0.0   1.3   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+DUF1776              PF08643.9  sp|Q9RPT1|RHLG_PSEAE -             0.0017   17.7   0.0    0.0028   17.0   0.0   1.3   1   0   0   1   1   1   1 Fungal family of unknown function (DUF1776)
+FIST_C               PF10442.8  sp|Q9RPT1|RHLG_PSEAE -              0.011   15.6   1.6     0.031   14.2   1.6   1.8   1   1   0   1   1   1   0 FIST C domain
+THF_DHG_CYH_C        PF02882.18 sp|Q9RPT1|RHLG_PSEAE -              0.078   12.2   0.0      0.24   10.6   0.0   1.7   2   0   0   2   2   2   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+NAD_binding_10       PF13460.5  sp|Q9RPT1|RHLG_PSEAE -               0.15   11.9   0.2      0.56   10.0   0.1   1.9   2   0   0   2   2   2   0 NAD(P)H-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9RPT1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9RPT1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9RPT1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:32:24 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|Q6LVK9|GPDA_PHOPR -              9e-53  178.3   0.9   1.4e-52  177.7   0.9   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|Q6LVK9|GPDA_PHOPR -            5.5e-43  146.5   0.0   7.9e-43  146.0   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|Q6LVK9|GPDA_PHOPR -            9.9e-06   25.2   0.0   1.9e-05   24.3   0.0   1.5   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+GIDA                 PF01134.21 sp|Q6LVK9|GPDA_PHOPR -             0.0065   15.5   1.3    0.0066   15.5   0.1   1.5   2   0   0   2   2   2   1 Glucose inhibited division protein A
+F420_oxidored        PF03807.16 sp|Q6LVK9|GPDA_PHOPR -             0.0078   16.7   0.0      0.15   12.6   0.0   2.6   3   0   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|Q6LVK9|GPDA_PHOPR -              0.024   14.4   0.0     0.044   13.6   0.0   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+PDU_like             PF15953.4  sp|Q6LVK9|GPDA_PHOPR -              0.034   14.1   0.0       1.4    8.8   0.0   2.3   2   0   0   2   2   2   0 Putative propanediol utilisation
+ApbA_C               PF08546.10 sp|Q6LVK9|GPDA_PHOPR -              0.061   13.4   0.1      0.17   12.0   0.1   1.8   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA C terminal
+UDPG_MGDP_dh_N       PF03721.13 sp|Q6LVK9|GPDA_PHOPR -               0.09   12.2   0.0      0.17   11.3   0.0   1.5   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6LVK9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6LVK9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6LVK9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:55:39 2019
+# [ok]

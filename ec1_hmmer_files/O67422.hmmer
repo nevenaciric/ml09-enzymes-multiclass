@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MTHFR                PF02219.16 sp|O67422|METF_AQUAE -             3e-124  413.9   0.0  3.4e-124  413.7   0.0   1.0   1   0   0   1   1   1   1 Methylenetetrahydrofolate reductase
+Radical_SAM          PF04055.20 sp|O67422|METF_AQUAE -              0.047   14.0   0.1      0.79   10.0   0.1   2.6   1   1   0   1   1   1   0 Radical SAM superfamily
+ALG11_N              PF15924.4  sp|O67422|METF_AQUAE -              0.086   12.8   0.0      0.12   12.3   0.0   1.2   1   0   0   1   1   1   0 ALG11 mannosyltransferase N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O67422.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O67422.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O67422.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:26:06 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DapB_N               PF01113.19 sp|Q6NGP2|DAPB_CORDI -            4.5e-27   94.5   1.0   4.9e-26   91.2   1.0   2.2   1   1   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+DapB_C               PF05173.13 sp|Q6NGP2|DAPB_CORDI -            4.6e-27   94.4   0.0   6.1e-27   93.9   0.0   1.2   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, C-terminus
+Sacchrp_dh_NADP      PF03435.17 sp|Q6NGP2|DAPB_CORDI -             0.0001   22.5   1.5    0.0061   16.7   0.0   2.3   1   1   1   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_3        PF03447.15 sp|Q6NGP2|DAPB_CORDI -              0.017   15.7   0.1     0.044   14.3   0.1   1.7   1   1   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+NAD_binding_10       PF13460.5  sp|Q6NGP2|DAPB_CORDI -              0.032   14.0   0.2     0.062   13.1   0.2   1.4   1   1   0   1   1   1   0 NAD(P)H-binding
+HlyD                 PF00529.19 sp|Q6NGP2|DAPB_CORDI -               0.16   11.8   1.2      0.59    9.9   0.0   2.1   2   0   0   2   2   2   0 HlyD membrane-fusion protein of T1SS
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6NGP2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6NGP2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6NGP2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:56:13 2019
+# [ok]

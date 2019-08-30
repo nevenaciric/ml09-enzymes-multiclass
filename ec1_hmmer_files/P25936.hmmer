@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PsaA_PsaB            PF00223.18 sp|P25936|PSAA_THEVL -                  0 1304.5  40.5         0 1304.3  40.5   1.0   1   0   0   1   1   1   1 Photosystem I psaA/psaB protein
+DUF4431              PF14485.5  sp|P25936|PSAA_THEVL -               0.11   12.2   0.3      0.25   11.1   0.3   1.6   1   0   0   1   1   1   0 Domain of unknown function (DUF4431)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P25936.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P25936.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P25936.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:40:52 2019
+# [ok]

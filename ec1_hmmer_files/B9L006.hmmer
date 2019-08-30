@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXPR_C               PF13288.5  sp|B9L006|DXR_THERP  -            9.8e-40  135.3   0.0   2.4e-39  134.0   0.0   1.6   2   0   0   2   2   2   1 DXP reductoisomerase C-terminal domain
+DXP_redisom_C        PF08436.11 sp|B9L006|DXR_THERP  -            9.7e-38  128.2   0.0   1.8e-37  127.4   0.0   1.5   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+DXP_reductoisom      PF02670.15 sp|B9L006|DXR_THERP  -            1.1e-37  129.5   0.7   2.1e-37  128.6   0.7   1.5   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+Semialdhyde_dh       PF01118.23 sp|B9L006|DXR_THERP  -             0.0094   16.3   0.1      0.06   13.7   0.1   2.3   2   1   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|B9L006|DXR_THERP  -              0.015   15.8   0.1     0.039   14.5   0.1   1.6   1   0   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|B9L006|DXR_THERP  -              0.064   13.4   0.1      0.12   12.6   0.1   1.5   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B9L006.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B9L006.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B9L006.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:10:33 2019
+# [ok]

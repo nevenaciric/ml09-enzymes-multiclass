@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|B6HV34|ADRF_PENRW -            6.7e-49  166.5   1.7   8.3e-49  166.2   1.7   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|B6HV34|ADRF_PENRW -            2.6e-48  164.0   0.9   3.3e-48  163.7   0.9   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|B6HV34|ADRF_PENRW -            8.7e-07   28.9   2.9   7.7e-06   25.8   2.9   2.0   1   1   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|B6HV34|ADRF_PENRW -             0.0019   17.6   0.0    0.0031   16.9   0.0   1.4   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+Sarcoglycan_2        PF05510.12 sp|B6HV34|ADRF_PENRW -             0.0029   16.4   0.0    0.0037   16.0   0.0   1.1   1   0   0   1   1   1   1 Sarcoglycan alpha/epsilon
+Eno-Rase_NADH_b      PF12242.7  sp|B6HV34|ADRF_PENRW -                0.1   12.3   0.5      0.28   10.9   0.5   1.7   1   0   0   1   1   1   0 NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B6HV34.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B6HV34.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B6HV34.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:02:13 2019
+# [ok]

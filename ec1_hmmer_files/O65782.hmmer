@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|O65782|C83B1_ARATH -           1.5e-101  340.3   0.0  1.7e-101  340.1   0.0   1.0   1   0   0   1   1   1   1 Cytochrome P450
+Goodbye              PF17109.4  sp|O65782|C83B1_ARATH -               0.11   12.8   0.0       0.3   11.4   0.0   1.8   1   1   0   1   1   1   0 fungal STAND N-terminal Goodbye domain
+Transposase_31       PF04754.11 sp|O65782|C83B1_ARATH -               0.12   11.9   0.1      0.26   10.8   0.1   1.5   1   0   0   1   1   1   0 Putative transposase, YhgA-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O65782.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O65782.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O65782.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:25:51 2019
+# [ok]

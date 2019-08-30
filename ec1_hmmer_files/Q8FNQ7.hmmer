@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX2                 PF00116.19 sp|Q8FNQ7|COX2_COREF -            1.3e-12   47.6   0.0   4.9e-11   42.5   0.0   2.3   2   0   0   2   2   2   1 Cytochrome C oxidase subunit II, periplasmic domain
+COX2_TM              PF02790.14 sp|Q8FNQ7|COX2_COREF -             0.0013   18.7   1.1    0.0035   17.3   1.1   1.7   2   0   0   2   2   2   1 Cytochrome C oxidase subunit II, transmembrane domain
+DUF4293              PF14126.5  sp|Q8FNQ7|COX2_COREF -              0.033   14.3   0.2     0.054   13.6   0.2   1.2   1   0   0   1   1   1   0 Domain of unknown function (DUF4293)
+DUF2207              PF09972.8  sp|Q8FNQ7|COX2_COREF -               0.11   11.1   0.4      0.17   10.5   0.4   1.2   1   0   0   1   1   1   0 Predicted membrane protein (DUF2207)
+RELT                 PF12606.7  sp|Q8FNQ7|COX2_COREF -                7.3    6.0   6.3        17    4.8   6.3   1.6   1   0   0   1   1   1   0 Tumour necrosis factor receptor superfamily member 19
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8FNQ7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8FNQ7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8FNQ7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:11:36 2019
+# [ok]

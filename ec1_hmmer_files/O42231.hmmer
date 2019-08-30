@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|O42231|CP1A1_CHEAU -           2.6e-106  356.1   0.0  3.2e-106  355.8   0.0   1.0   1   0   0   1   1   1   1 Cytochrome P450
+Sec8_exocyst         PF04048.13 sp|O42231|CP1A1_CHEAU -              0.098   12.5   0.2      0.17   11.7   0.2   1.3   1   0   0   1   1   1   0 Sec8 exocyst complex component specific domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O42231.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O42231.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O42231.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:23:57 2019
+# [ok]

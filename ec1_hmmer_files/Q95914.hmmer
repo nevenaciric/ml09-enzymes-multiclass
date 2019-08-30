@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX3                 PF00510.17 sp|Q95914|COX3_POLOR -           6.1e-128  426.0  23.7  6.9e-128  425.8  23.7   1.0   1   0   0   1   1   1   1 Cytochrome c oxidase subunit III
+DUF1980              PF09323.9  sp|Q95914|COX3_POLOR -               0.32   10.8   1.1      0.68    9.7   1.1   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF1980)
+CopD                 PF05425.12 sp|Q95914|COX3_POLOR -                1.7    9.0  13.7      0.28   11.5   0.7   2.5   2   1   0   2   2   2   0 Copper resistance protein D
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q95914.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q95914.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q95914.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:21:48 2019
+# [ok]

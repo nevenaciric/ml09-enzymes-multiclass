@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_1        PF00175.20 sp|B6V6V6|KSHB_RHORH -            6.5e-15   55.6   0.0   1.5e-14   54.5   0.0   1.6   1   1   0   1   1   1   1 Oxidoreductase NAD-binding domain
+Fer2                 PF00111.26 sp|B6V6V6|KSHB_RHORH -            7.5e-14   51.4   1.8   1.5e-13   50.4   1.8   1.5   1   0   0   1   1   1   1 2Fe-2S iron-sulfur cluster binding domain
+FAD_binding_6        PF00970.23 sp|B6V6V6|KSHB_RHORH -              3e-10   40.3   0.0     6e-10   39.3   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase FAD-binding domain
+NAD_binding_6        PF08030.11 sp|B6V6V6|KSHB_RHORH -            0.00063   19.8   0.0    0.0056   16.7   0.0   2.0   1   1   1   2   2   2   1 Ferric reductase NAD binding domain
+Fer2_4               PF13510.5  sp|B6V6V6|KSHB_RHORH -              0.061   13.3   0.0      0.18   11.7   0.0   1.9   1   0   0   1   1   1   0 2Fe-2S iron-sulfur cluster binding domain
+Fer2_3               PF13085.5  sp|B6V6V6|KSHB_RHORH -               0.07   13.0   0.3      0.14   12.0   0.3   1.4   1   0   0   1   1   1   0 2Fe-2S iron-sulfur cluster binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B6V6V6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B6V6V6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B6V6V6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:02:57 2019
+# [ok]

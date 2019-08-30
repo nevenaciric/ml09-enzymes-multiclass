@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BcrAD_BadFG          PF01869.19 sp|O87876|BCRA_THAAR -           1.2e-130  434.7   1.2  1.4e-130  434.4   1.2   1.0   1   0   0   1   1   1   1 BadF/BadG/BcrA/BcrD ATPase family
+FGGY_N               PF00370.20 sp|O87876|BCRA_THAAR -            2.4e-05   23.9   0.0    0.0011   18.5   0.0   2.2   2   0   0   2   2   2   1 FGGY family of carbohydrate kinases, N-terminal domain
+DEDD_Tnp_IS110       PF01548.16 sp|O87876|BCRA_THAAR -              0.019   14.8   0.0      0.19   11.5   0.0   2.2   2   0   0   2   2   2   0 Transposase
+FtsA                 PF14450.5  sp|O87876|BCRA_THAAR -               0.15   12.4   0.6       1.1    9.6   0.0   2.5   2   1   0   2   2   2   0 Cell division protein FtsA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O87876.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O87876.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O87876.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:27:51 2019
+# [ok]

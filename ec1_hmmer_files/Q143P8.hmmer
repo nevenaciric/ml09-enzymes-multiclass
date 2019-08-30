@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|Q143P8|ACDH1_PARXL -              2e-65  219.1   0.6   2.7e-65  218.6   0.6   1.2   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|Q143P8|ACDH1_PARXL -            2.5e-13   50.4   0.0   7.2e-13   48.9   0.0   1.7   2   0   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|Q143P8|ACDH1_PARXL -            6.3e-05   23.7   0.0   0.00014   22.6   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+F420_oxidored        PF03807.16 sp|Q143P8|ACDH1_PARXL -               0.04   14.4   0.1     0.089   13.3   0.1   1.6   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+TrkA_N               PF02254.17 sp|Q143P8|ACDH1_PARXL -              0.078   13.1   0.2      0.38   10.9   0.0   2.2   3   0   0   3   3   3   0 TrkA-N domain
+NAD_binding_3        PF03447.15 sp|Q143P8|ACDH1_PARXL -              0.088   13.4   0.0      0.27   11.8   0.0   1.9   1   0   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+CoA_binding          PF02629.18 sp|Q143P8|ACDH1_PARXL -                0.2   12.3   2.7       2.1    9.0   0.1   2.9   3   1   0   3   3   3   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q143P8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q143P8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q143P8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:12:28 2019
+# [ok]

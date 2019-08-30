@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMC_oxred_N          PF00732.18 sp|Q3K5H3|BETA_PSEPF -            2.7e-96  322.3   0.0     4e-96  321.8   0.0   1.3   1   0   0   1   1   1   1 GMC oxidoreductase
+GMC_oxred_C          PF05199.12 sp|Q3K5H3|BETA_PSEPF -            3.3e-40  137.8   0.0   4.9e-40  137.3   0.0   1.3   1   0   0   1   1   1   1 GMC oxidoreductase
+FAD_binding_2        PF00890.23 sp|Q3K5H3|BETA_PSEPF -            0.00041   19.5   0.7       0.1   11.5   0.1   2.2   2   0   0   2   2   2   2 FAD binding domain
+DAO                  PF01266.23 sp|Q3K5H3|BETA_PSEPF -            0.00066   19.3   1.0     0.066   12.7   0.2   2.3   2   0   0   2   2   2   2 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|Q3K5H3|BETA_PSEPF -             0.0024   18.0   0.1    0.0055   16.8   0.1   1.6   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Lycopene_cycl        PF05834.11 sp|Q3K5H3|BETA_PSEPF -              0.003   16.6   0.0    0.0056   15.7   0.0   1.4   1   0   0   1   1   1   1 Lycopene cyclase protein
+Pyr_redox_2          PF07992.13 sp|Q3K5H3|BETA_PSEPF -             0.0072   15.5   0.1     0.028   13.6   0.0   1.8   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+Thi4                 PF01946.16 sp|Q3K5H3|BETA_PSEPF -              0.016   14.4   0.1     0.029   13.5   0.1   1.3   1   0   0   1   1   1   0 Thi4 family
+TrkA_N               PF02254.17 sp|Q3K5H3|BETA_PSEPF -               0.02   15.1   0.1      0.78    9.9   0.1   2.4   2   0   0   2   2   2   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3K5H3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3K5H3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3K5H3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:28:23 2019
+# [ok]

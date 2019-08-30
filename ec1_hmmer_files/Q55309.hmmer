@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PAPS_reduct          PF01507.18 sp|Q55309|CYSH_SYNE7 -              2e-53  180.9   0.0   2.4e-53  180.6   0.0   1.1   1   0   0   1   1   1   1 Phosphoadenosine phosphosulfate reductase family
+ATP_bind_3           PF01171.19 sp|Q55309|CYSH_SYNE7 -              0.073   12.7   0.1      0.72    9.5   0.1   2.1   1   1   0   1   1   1   0 PP-loop family
+Transglut_prok       PF09017.9  sp|Q55309|CYSH_SYNE7 -               0.13   11.5   0.0      0.16   11.1   0.0   1.1   1   0   0   1   1   1   0 Microbial transglutaminase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q55309.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q55309.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q55309.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:38:16 2019
+# [ok]

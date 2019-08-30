@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+OCD_Mu_crystall      PF02423.14 sp|Q63FA5|PY2CR_BACCZ -            3.2e-85  285.8   4.3   3.6e-85  285.6   4.3   1.0   1   0   0   1   1   1   1 Ornithine cyclodeaminase/mu-crystallin family
+Shikimate_DH         PF01488.19 sp|Q63FA5|PY2CR_BACCZ -            1.8e-13   50.6   0.3   3.9e-13   49.5   0.3   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|Q63FA5|PY2CR_BACCZ -            2.9e-06   27.7   0.4   8.1e-06   26.2   0.1   1.9   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|Q63FA5|PY2CR_BACCZ -            0.00049   19.4   0.1    0.0021   17.4   0.1   1.9   2   0   0   2   2   2   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|Q63FA5|PY2CR_BACCZ -             0.0071   16.4   0.1     0.021   14.9   0.1   1.8   2   1   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|Q63FA5|PY2CR_BACCZ -              0.044   13.9   0.1     0.087   13.0   0.1   1.6   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+AdoHcyase_NAD        PF00670.20 sp|Q63FA5|PY2CR_BACCZ -              0.067   13.2   0.6      0.41   10.6   0.6   2.2   1   1   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+OTCace               PF00185.23 sp|Q63FA5|PY2CR_BACCZ -               0.12   12.4   0.3      0.79    9.7   0.1   2.2   2   0   0   2   2   2   0 Aspartate/ornithine carbamoyltransferase, Asp/Orn binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q63FA5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q63FA5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q63FA5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:49:03 2019
+# [ok]

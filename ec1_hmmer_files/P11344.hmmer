@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Tyrosinase           PF00264.19 sp|P11344|TYRO_MOUSE -            1.5e-42  146.3   0.5   2.2e-42  145.7   0.5   1.2   1   0   0   1   1   1   1 Common central domain of tyrosinase
+LapA_dom             PF06305.10 sp|P11344|TYRO_MOUSE -              0.014   15.1   0.0     0.026   14.2   0.0   1.4   1   0   0   1   1   1   0 Lipopolysaccharide assembly protein A domain
+Laminin_EGF          PF00053.23 sp|P11344|TYRO_MOUSE -               0.91    9.6  15.7       4.2    7.5  10.6   2.8   2   1   0   2   2   2   0 Laminin EGF domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P11344.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P11344.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P11344.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:35:24 2019
+# [ok]

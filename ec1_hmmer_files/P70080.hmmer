@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Biopterin_H          PF00351.20 sp|P70080|TPH1_CHICK -           4.6e-177  587.9   0.1  5.7e-177  587.6   0.1   1.1   1   0   0   1   1   1   1 Biopterin-dependent aromatic amino acid hydroxylase
+ACT                  PF01842.24 sp|P70080|TPH1_CHICK -            1.1e-06   28.1   0.1   3.3e-06   26.7   0.0   1.8   2   0   0   2   2   2   1 ACT domain
+DUF5370              PF17340.1  sp|P70080|TPH1_CHICK -              0.022   14.5   0.0     0.081   12.7   0.0   1.9   2   0   0   2   2   2   0 Family of unknown function (DUF5370)
+ACT_4                PF13291.5  sp|P70080|TPH1_CHICK -               0.54   10.8   2.2       0.6   10.6   0.3   2.0   2   0   0   2   2   2   0 ACT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P70080.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P70080.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P70080.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:55:30 2019
+# [ok]

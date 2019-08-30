@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX15-CtaA           PF02628.14 sp|Q7CZN9|CTAA_AGRFC -           5.1e-117  390.4  18.4  6.1e-117  390.2  18.4   1.1   1   0   0   1   1   1   1 Cytochrome oxidase assembly protein
+DuoxA                PF10204.8  sp|Q7CZN9|CTAA_AGRFC -              0.023   13.6   1.9       1.5    7.6   0.1   2.4   2   0   0   2   2   2   0 Dual oxidase maturation factor
+COX14                PF14880.5  sp|Q7CZN9|CTAA_AGRFC -               0.69    9.7   7.8      0.22   11.3   0.5   3.0   3   0   0   3   3   3   0 Cytochrome oxidase c assembly
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7CZN9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7CZN9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7CZN9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:00:08 2019
+# [ok]

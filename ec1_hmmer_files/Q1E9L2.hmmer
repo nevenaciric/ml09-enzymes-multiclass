@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HEAT_2               PF13646.5  sp|Q1E9L2|DOHH_COCIM -              3e-28   97.9   6.4   8.5e-14   51.6   1.2   4.1   2   2   2   4   4   4   2 HEAT repeats
+HEAT_PBS             PF03130.15 sp|Q1E9L2|DOHH_COCIM -            9.8e-19   66.0   2.3     0.057   14.0   1.1   7.4   8   0   0   8   8   8   5 PBS lyase HEAT-like repeat
+HEAT                 PF02985.21 sp|Q1E9L2|DOHH_COCIM -            1.2e-07   31.2   5.6       1.5    9.2   0.0   7.2   8   0   0   8   8   8   2 HEAT repeat
+HEAT_EZ              PF13513.5  sp|Q1E9L2|DOHH_COCIM -            3.6e-05   24.0   6.1     0.016   15.6   0.0   5.3   3   3   3   6   6   6   1 HEAT-like repeat
+Cohesin_HEAT         PF12765.6  sp|Q1E9L2|DOHH_COCIM -              0.013   15.6   0.6      0.14   12.3   0.0   3.0   3   0   0   3   3   3   0 HEAT repeat associated with sister chromatid cohesion
+Arm                  PF00514.22 sp|Q1E9L2|DOHH_COCIM -              0.065   13.2   0.0        15    5.6   0.0   3.1   2   0   0   2   2   2   0 Armadillo/beta-catenin-like repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q1E9L2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q1E9L2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q1E9L2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:14:41 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACOX                 PF01756.18 sp|Q99424|ACOX2_HUMAN -            1.5e-61  207.0   2.0     2e-61  206.6   0.2   1.9   2   0   0   2   2   2   1 Acyl-CoA oxidase
+Acyl-CoA_ox_N        PF14749.5  sp|Q99424|ACOX2_HUMAN -            4.8e-28   98.1   0.1   1.4e-27   96.6   0.0   1.9   2   0   0   2   2   2   1 Acyl-coenzyme A oxidase N-terminal
+Acyl-CoA_dh_M        PF02770.18 sp|Q99424|ACOX2_HUMAN -            1.8e-08   34.4   0.0   3.1e-08   33.6   0.0   1.4   1   0   0   1   1   1   1 Acyl-CoA dehydrogenase, middle domain
+Acyl-CoA_dh_1        PF00441.23 sp|Q99424|ACOX2_HUMAN -             0.0034   17.5   0.0     0.012   15.7   0.0   2.0   1   0   0   1   1   1   1 Acyl-CoA dehydrogenase, C-terminal domain
+Sigma_reg_C          PF13791.5  sp|Q99424|ACOX2_HUMAN -               0.11   12.6   0.0       0.2   11.8   0.0   1.4   1   0   0   1   1   1   0 Sigma factor regulator C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q99424.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q99424.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q99424.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:23:22 2019
+# [ok]

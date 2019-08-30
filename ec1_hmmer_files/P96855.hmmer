@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Acyl-CoA_dh_1        PF00441.23 sp|P96855|CHSE3_MYCTU -            1.8e-28   99.5  22.8   4.3e-18   65.8   6.8   3.3   3   2   0   3   3   3   2 Acyl-CoA dehydrogenase, C-terminal domain
+Acyl-CoA_dh_N        PF02771.15 sp|P96855|CHSE3_MYCTU -            3.3e-22   79.2   4.4   1.5e-10   41.6   0.4   2.8   2   0   0   2   2   2   2 Acyl-CoA dehydrogenase, N-terminal domain
+Acyl-CoA_dh_M        PF02770.18 sp|P96855|CHSE3_MYCTU -            1.2e-19   70.2   0.0   2.9e-19   69.0   0.0   1.7   1   0   0   1   1   1   1 Acyl-CoA dehydrogenase, middle domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P96855.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P96855.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P96855.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:59:59 2019
+# [ok]

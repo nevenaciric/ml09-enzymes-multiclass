@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P37058|DHB3_HUMAN -              4e-49  166.6   0.1   5.5e-49  166.2   0.1   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P37058|DHB3_HUMAN -            3.4e-24   85.6   0.0   4.4e-24   85.2   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P37058|DHB3_HUMAN -            3.5e-05   23.7   0.0   8.9e-05   22.4   0.0   1.6   1   1   0   1   1   1   1 KR domain
+Sacchrp_dh_NADP      PF03435.17 sp|P37058|DHB3_HUMAN -             0.0022   18.2   0.4    0.0074   16.5   0.1   1.9   2   0   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+ApbA                 PF02558.15 sp|P37058|DHB3_HUMAN -              0.024   14.2   0.1     0.046   13.3   0.1   1.6   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+Shikimate_DH         PF01488.19 sp|P37058|DHB3_HUMAN -              0.052   13.5   0.1      0.17   11.8   0.0   1.9   2   0   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+DUF3993              PF13158.5  sp|P37058|DHB3_HUMAN -              0.095   12.8   0.1      0.18   11.9   0.1   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF3993)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P37058.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P37058.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P37058.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:44:31 2019
+# [ok]

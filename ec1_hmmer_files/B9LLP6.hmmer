@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|B9LLP6|MDH_CHLSY  -            1.2e-42  145.2   0.1   2.5e-42  144.2   0.1   1.5   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|B9LLP6|MDH_CHLSY  -            1.8e-32  112.5   0.0   2.4e-32  112.1   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|B9LLP6|MDH_CHLSY  -            3.1e-05   23.5   0.5   0.00014   21.4   0.4   2.0   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+DAO                  PF01266.23 sp|B9LLP6|MDH_CHLSY  -            0.00022   20.8   1.2    0.0012   18.4   0.3   2.2   1   1   1   2   2   2   1 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|B9LLP6|MDH_CHLSY  -              0.031   14.4   0.1     0.065   13.4   0.1   1.6   1   0   0   1   1   1   0 NAD(P)-binding Rossmann-like domain
+ApbA                 PF02558.15 sp|B9LLP6|MDH_CHLSY  -              0.053   13.1   0.4      0.64    9.6   0.1   2.5   3   0   0   3   3   3   0 Ketopantoate reductase PanE/ApbA
+Shikimate_DH         PF01488.19 sp|B9LLP6|MDH_CHLSY  -               0.11   12.4   0.0      0.25   11.3   0.0   1.7   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|B9LLP6|MDH_CHLSY  -               0.12   12.6   0.1      0.12   12.6   0.1   2.2   3   0   0   3   3   3   0 Saccharopine dehydrogenase NADP binding domain
+ThiF                 PF00899.20 sp|B9LLP6|MDH_CHLSY  -               0.16   11.2   0.1      0.41    9.9   0.1   1.6   1   0   0   1   1   1   0 ThiF family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B9LLP6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B9LLP6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B9LLP6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:10:40 2019
+# [ok]

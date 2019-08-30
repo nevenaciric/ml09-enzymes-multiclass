@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NiFe_hyd_SSU_C       PF14720.5  sp|P31884|MBHS_WOLSU -            5.8e-33  113.0   5.7   5.9e-33  113.0   3.2   2.0   2   0   0   2   2   2   1 NiFe/NiFeSe hydrogenase small subunit C-terminal
+Oxidored_q6          PF01058.21 sp|P31884|MBHS_WOLSU -            2.6e-29  101.6   0.0   3.7e-29  101.1   0.0   1.2   1   0   0   1   1   1   1 NADH ubiquinone oxidoreductase, 20 Kd subunit
+TAT_signal           PF10518.8  sp|P31884|MBHS_WOLSU -              6e-05   22.6   0.0     6e-05   22.6   0.0   2.9   3   0   0   3   3   3   1 TAT (twin-arginine translocation) pathway signal sequence
+UCR_Fe-S_N           PF10399.8  sp|P31884|MBHS_WOLSU -                1.2    8.5   4.0       3.6    6.9   0.0   2.5   2   0   0   2   2   2   0 Ubiquitinol-cytochrome C reductase Fe-S subunit TAT signal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P31884.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P31884.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P31884.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:43:02 2019
+# [ok]

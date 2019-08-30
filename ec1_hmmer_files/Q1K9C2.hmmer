@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NIR_SIR              PF01077.21 sp|Q1K9C2|MET5_SCHPO -              1e-52  177.8   0.4   1.9e-48  163.9   0.1   2.7   3   0   0   3   3   3   2 Nitrite and sulphite reductase 4Fe-4S domain
+NIR_SIR_ferr         PF03460.16 sp|Q1K9C2|MET5_SCHPO -            7.7e-29   99.3   0.0   2.4e-13   49.6   0.0   2.5   2   0   0   2   2   2   2 Nitrite/Sulfite reductase ferredoxin-like half domain
+Flavodoxin_1         PF00258.24 sp|Q1K9C2|MET5_SCHPO -            2.9e-27   95.5   0.0   5.9e-27   94.5   0.0   1.6   1   0   0   1   1   1   1 Flavodoxin
+Acyltransferase      PF01553.20 sp|Q1K9C2|MET5_SCHPO -               0.16   11.5   0.0      0.36   10.3   0.0   1.5   1   0   0   1   1   1   0 Acyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q1K9C2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q1K9C2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q1K9C2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:15:39 2019
+# [ok]

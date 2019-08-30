@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-Hacid_dh_C         PF02826.18 sp|A1JT62|GHRB_YERE8 -            2.5e-60  202.8   0.0   4.4e-60  202.0   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+2-Hacid_dh           PF00389.29 sp|A1JT62|GHRB_YERE8 -            6.9e-30  103.4   0.0   7.9e-30  103.2   0.0   1.0   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain
+NAD_binding_2        PF03446.14 sp|A1JT62|GHRB_YERE8 -            0.00081   19.5   0.1     0.004   17.2   0.0   1.9   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+F420_oxidored        PF03807.16 sp|A1JT62|GHRB_YERE8 -              0.025   15.1   0.0      0.09   13.3   0.0   2.0   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1JT62.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1JT62.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1JT62.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:23:34 2019
+# [ok]

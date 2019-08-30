@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A7HA35|HEM11_ANADF -            4.2e-44  149.6   1.2   5.4e-44  149.2   0.1   1.7   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A7HA35|HEM11_ANADF -            6.3e-39  133.1   0.0   1.3e-38  132.1   0.0   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A7HA35|HEM11_ANADF -            2.5e-24   85.4   0.4   6.9e-24   84.0   0.4   1.8   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+2-Hacid_dh_C         PF02826.18 sp|A7HA35|HEM11_ANADF -              5e-05   22.6   0.0   9.6e-05   21.7   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Glu_dehyd_C          PF16912.4  sp|A7HA35|HEM11_ANADF -            0.00038   19.9   0.1    0.0008   18.8   0.1   1.5   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+NAD_binding_7        PF13241.5  sp|A7HA35|HEM11_ANADF -             0.0018   18.6   0.4     0.017   15.4   0.4   2.3   1   1   0   1   1   1   1 Putative NAD(P)-binding
+GFO_IDH_MocA         PF01408.21 sp|A7HA35|HEM11_ANADF -              0.022   15.5   0.0     0.089   13.5   0.0   2.0   2   0   0   2   2   2   0 Oxidoreductase family, NAD-binding Rossmann fold
+ThiF                 PF00899.20 sp|A7HA35|HEM11_ANADF -              0.036   13.3   0.6     0.067   12.4   0.6   1.4   1   0   0   1   1   1   0 ThiF family
+AdoHcyase_NAD        PF00670.20 sp|A7HA35|HEM11_ANADF -               0.04   13.9   0.2      0.31   11.0   0.0   2.1   2   0   0   2   2   2   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7HA35.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7HA35.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7HA35.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:39:06 2019
+# [ok]

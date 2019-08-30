@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mannitol_dh_C        PF08125.12 sp|Q8EN87|MTLD_OCEIH -            7.9e-51  172.8   0.3   2.1e-50  171.4   0.0   1.8   2   1   0   2   2   2   1 Mannitol dehydrogenase C-terminal domain
+Mannitol_dh          PF01232.22 sp|Q8EN87|MTLD_OCEIH -            4.4e-27   95.0   0.5   1.1e-26   93.7   0.3   1.8   2   0   0   2   2   2   1 Mannitol dehydrogenase Rossmann domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q8EN87|MTLD_OCEIH -            0.00046   19.7   0.3   0.00074   19.0   0.3   1.4   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+DUF692               PF05114.12 sp|Q8EN87|MTLD_OCEIH -             0.0074   15.4   0.0     0.013   14.7   0.0   1.3   1   0   0   1   1   1   1 Protein of unknown function (DUF692)
+NAD_Gly3P_dh_N       PF01210.22 sp|Q8EN87|MTLD_OCEIH -              0.039   13.8   0.2      0.14   12.1   0.2   2.0   1   1   0   1   1   1   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|Q8EN87|MTLD_OCEIH -              0.095   12.2   0.0      0.17   11.5   0.0   1.4   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8EN87.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8EN87.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8EN87.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:10:54 2019
+# [ok]

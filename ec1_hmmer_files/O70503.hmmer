@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|O70503|DHB12_MOUSE -              5e-45  153.3   0.0   6.3e-45  152.9   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|O70503|DHB12_MOUSE -            2.2e-22   79.7   0.0     3e-22   79.2   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|O70503|DHB12_MOUSE -            5.9e-08   32.7   0.0   2.1e-05   24.4   0.0   2.2   2   0   0   2   2   2   2 KR domain
+Polysacc_synt_2      PF02719.14 sp|O70503|DHB12_MOUSE -             0.0012   18.0   0.2    0.0026   16.8   0.2   1.7   1   1   0   1   1   1   1 Polysaccharide biosynthesis protein
+Epimerase            PF01370.20 sp|O70503|DHB12_MOUSE -             0.0027   17.1   0.0    0.0063   15.9   0.0   1.6   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+3HCDH_N              PF02737.17 sp|O70503|DHB12_MOUSE -              0.016   15.0   0.0     0.026   14.3   0.0   1.2   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_10       PF13460.5  sp|O70503|DHB12_MOUSE -              0.026   14.4   0.0     0.037   13.9   0.0   1.2   1   0   0   1   1   1   0 NAD(P)H-binding
+GDP_Man_Dehyd        PF16363.4  sp|O70503|DHB12_MOUSE -              0.033   13.5   0.1      0.14   11.4   0.0   1.9   2   0   0   2   2   2   0 GDP-mannose 4,6 dehydratase
+2-Hacid_dh_C         PF02826.18 sp|O70503|DHB12_MOUSE -              0.042   13.1   0.0     0.065   12.5   0.0   1.2   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+ApbA                 PF02558.15 sp|O70503|DHB12_MOUSE -              0.062   12.8   0.0      0.11   12.1   0.0   1.3   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+TrkA_N               PF02254.17 sp|O70503|DHB12_MOUSE -              0.064   13.4   0.1      0.11   12.6   0.1   1.3   1   0   0   1   1   1   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O70503.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O70503.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O70503.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:26:29 2019
+# [ok]

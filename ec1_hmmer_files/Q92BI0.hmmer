@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q92BI0|LDH2_LISIN -            7.4e-33  113.5   0.1   1.1e-32  112.9   0.1   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q92BI0|LDH2_LISIN -            2.7e-24   85.9   0.0   5.7e-24   84.8   0.0   1.5   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+TrkA_N               PF02254.17 sp|Q92BI0|LDH2_LISIN -            0.00031   20.9   0.2   0.00062   19.9   0.2   1.6   1   0   0   1   1   1   1 TrkA-N domain
+CoA_binding          PF02629.18 sp|Q92BI0|LDH2_LISIN -            0.00035   21.1   0.3    0.0013   19.3   0.3   2.1   1   1   0   1   1   1   1 CoA binding domain
+F420_oxidored        PF03807.16 sp|Q92BI0|LDH2_LISIN -             0.0008   19.8   0.4    0.0016   18.9   0.4   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+UDPG_MGDP_dh_N       PF03721.13 sp|Q92BI0|LDH2_LISIN -             0.0015   18.1   0.2    0.0073   15.8   0.2   2.0   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+3HCDH_N              PF02737.17 sp|Q92BI0|LDH2_LISIN -             0.0065   16.3   0.2      0.01   15.6   0.2   1.4   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q92BI0|LDH2_LISIN -             0.0066   16.6   0.1     0.011   15.9   0.1   1.5   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+Shikimate_DH         PF01488.19 sp|Q92BI0|LDH2_LISIN -             0.0094   15.9   0.1     0.016   15.1   0.1   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GFO_IDH_MocA         PF01408.21 sp|Q92BI0|LDH2_LISIN -              0.033   14.9   0.1     0.062   14.0   0.1   1.4   1   0   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+AlaDh_PNT_C          PF01262.20 sp|Q92BI0|LDH2_LISIN -               0.04   13.1   0.4      0.06   12.5   0.4   1.3   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+NAD_binding_7        PF13241.5  sp|Q92BI0|LDH2_LISIN -              0.082   13.3   0.1      0.17   12.3   0.1   1.6   1   0   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q92BI0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q92BI0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q92BI0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:20:21 2019
+# [ok]

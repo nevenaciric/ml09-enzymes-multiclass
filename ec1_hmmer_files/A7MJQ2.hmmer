@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Gp_dh_C              PF02800.19 sp|A7MJQ2|E4PD_CROS8 -            2.5e-54  183.1   0.3   3.2e-54  182.7   0.3   1.2   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain
+Gp_dh_N              PF00044.23 sp|A7MJQ2|E4PD_CROS8 -            8.9e-35  119.0   0.1   3.2e-34  117.2   0.0   1.9   2   0   0   2   2   2   1 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|A7MJQ2|E4PD_CROS8 -              0.012   16.2   0.1     0.048   14.2   0.1   2.0   1   1   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+DAO_C                PF16901.4  sp|A7MJQ2|E4PD_CROS8 -              0.035   13.9   0.0     0.088   12.6   0.0   1.7   1   0   0   1   1   1   0 C-terminal domain of alpha-glycerophosphate oxidase
+TrkA_N               PF02254.17 sp|A7MJQ2|E4PD_CROS8 -              0.051   13.7   0.0      0.11   12.7   0.0   1.6   1   0   0   1   1   1   0 TrkA-N domain
+GFO_IDH_MocA         PF01408.21 sp|A7MJQ2|E4PD_CROS8 -              0.084   13.6   0.1      0.29   11.9   0.0   1.9   2   0   0   2   2   2   0 Oxidoreductase family, NAD-binding Rossmann fold
+DapB_N               PF01113.19 sp|A7MJQ2|E4PD_CROS8 -               0.12   12.4   1.0      0.25   11.4   0.2   2.1   2   1   0   2   2   2   0 Dihydrodipicolinate reductase, N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7MJQ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7MJQ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7MJQ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:39:39 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q5EA88|GPDA_BOVIN -            1.4e-55  187.5   0.4   4.2e-55  185.9   0.1   1.8   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q5EA88|GPDA_BOVIN -              1e-49  168.3   0.2   1.8e-49  167.5   0.2   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|Q5EA88|GPDA_BOVIN -            0.00097   19.6   2.5      0.16   12.4   0.0   3.1   4   0   0   4   4   4   2 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|Q5EA88|GPDA_BOVIN -              0.025   13.8   0.1     0.053   12.8   0.1   1.5   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+IlvN                 PF07991.11 sp|Q5EA88|GPDA_BOVIN -               0.19   11.2   1.0        22    4.5   0.3   2.6   2   0   0   2   2   2   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5EA88.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5EA88.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5EA88.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:41:11 2019
+# [ok]

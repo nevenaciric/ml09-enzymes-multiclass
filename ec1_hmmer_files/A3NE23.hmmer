@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A3NE23|HEM1_BURP6 -            3.8e-47  159.4   0.0   6.5e-47  158.6   0.0   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A3NE23|HEM1_BURP6 -            4.6e-45  153.0   0.0   8.1e-45  152.2   0.0   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A3NE23|HEM1_BURP6 -            4.4e-28   97.4   0.3   1.2e-27   96.0   0.1   1.8   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A3NE23|HEM1_BURP6 -            1.1e-06   29.0   0.0   4.5e-06   27.0   0.0   2.1   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+VirB8                PF04335.12 sp|A3NE23|HEM1_BURP6 -             0.0092   15.8   0.2     0.018   14.9   0.2   1.4   1   0   0   1   1   1   1 VirB8 protein
+NAD_binding_2        PF03446.14 sp|A3NE23|HEM1_BURP6 -               0.05   13.7   0.3       1.1    9.3   0.0   2.8   2   1   1   3   3   3   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+DUF2293              PF10056.8  sp|A3NE23|HEM1_BURP6 -                9.3    6.5  10.5         1    9.6   4.4   2.5   3   1   0   3   3   3   0 Uncharacterized conserved protein (DUF2293)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A3NE23.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A3NE23.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A3NE23.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:28:24 2019
+# [ok]

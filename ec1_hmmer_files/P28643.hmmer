@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|P28643|FABG_CUPLA -            1.2e-69  234.4   3.9   1.6e-69  233.9   3.9   1.2   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|P28643|FABG_CUPLA -              7e-67  224.6   5.7   9.1e-67  224.2   5.7   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|P28643|FABG_CUPLA -            6.9e-21   74.9   1.5     1e-20   74.3   1.5   1.2   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|P28643|FABG_CUPLA -              0.015   14.7   0.3     0.039   13.3   0.3   1.9   1   1   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P28643.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P28643.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P28643.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:41:46 2019
+# [ok]

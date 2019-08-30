@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A1JRU4|HEM1_YERE8 -            5.8e-50  168.5   0.0   1.3e-49  167.3   0.0   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A1JRU4|HEM1_YERE8 -            3.1e-49  166.5   0.3   3.1e-49  166.5   0.3   1.7   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A1JRU4|HEM1_YERE8 -            2.3e-24   85.5   2.0   2.3e-24   85.5   2.0   2.2   3   0   0   3   3   3   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A1JRU4|HEM1_YERE8 -            5.2e-05   23.6   3.1   9.9e-05   22.7   0.5   2.8   3   1   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+Sacchrp_dh_NADP      PF03435.17 sp|A1JRU4|HEM1_YERE8 -             0.0027   17.8   0.9    0.0094   16.1   0.1   2.3   2   0   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+OCD_Mu_crystall      PF02423.14 sp|A1JRU4|HEM1_YERE8 -             0.0027   16.6   0.3    0.0055   15.6   0.3   1.5   1   0   0   1   1   1   1 Ornithine cyclodeaminase/mu-crystallin family
+HTH_9                PF08221.10 sp|A1JRU4|HEM1_YERE8 -              0.037   14.0   0.0        30    4.7   0.0   3.6   3   0   0   3   3   3   0 RNA polymerase III subunit RPC82 helix-turn-helix domain
+GFO_IDH_MocA         PF01408.21 sp|A1JRU4|HEM1_YERE8 -               0.34   11.7   2.3      0.44   11.3   0.0   2.4   3   1   0   3   3   3   0 Oxidoreductase family, NAD-binding Rossmann fold
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1JRU4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1JRU4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1JRU4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:23:32 2019
+# [ok]

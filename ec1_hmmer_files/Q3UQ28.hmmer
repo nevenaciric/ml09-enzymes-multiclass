@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+An_peroxidase        PF03098.14 sp|Q3UQ28|PXDN_MOUSE -           1.3e-195  650.9   0.0  1.9e-195  650.4   0.0   1.2   1   0   0   1   1   1   1 Animal haem peroxidase
+I-set                PF07679.15 sp|Q3UQ28|PXDN_MOUSE -            3.4e-87  286.6   0.1   2.9e-22   78.4   0.0   4.3   4   0   0   4   4   4   4 Immunoglobulin I-set domain
+Ig_3                 PF13927.5  sp|Q3UQ28|PXDN_MOUSE -            1.6e-74  246.4   5.1   1.7e-18   66.9   0.2   4.6   4   0   0   4   4   4   4 Immunoglobulin domain
+Ig_2                 PF13895.5  sp|Q3UQ28|PXDN_MOUSE -            2.1e-50  168.9   1.4   5.8e-12   45.7   0.0   4.6   4   0   0   4   4   4   4 Immunoglobulin domain
+LRR_8                PF13855.5  sp|Q3UQ28|PXDN_MOUSE -              1e-40  137.2  22.3   1.2e-17   63.3   3.5   3.8   1   1   2   3   3   3   3 Leucine rich repeat
+ig                   PF00047.24 sp|Q3UQ28|PXDN_MOUSE -            2.7e-40  136.3   0.5   1.3e-11   44.4   0.0   4.6   4   0   0   4   4   4   4 Immunoglobulin domain
+V-set                PF07686.16 sp|Q3UQ28|PXDN_MOUSE -              2e-21   76.1  11.8   0.00022   21.3   0.1   7.9   4   4   2   6   6   6   5 Immunoglobulin V-set domain
+C2-set_2             PF08205.11 sp|Q3UQ28|PXDN_MOUSE -            1.1e-18   66.9   1.5    0.0012   18.8   0.0   4.6   4   0   0   4   4   4   4 CD80-like C2-set immunoglobulin domain
+Ig_5                 PF16681.4  sp|Q3UQ28|PXDN_MOUSE -            1.1e-16   60.9   0.0    0.0015   18.8   0.0   5.0   4   0   0   4   4   4   4 Ig-like domain on T-cell surface glycoprotein CD3 epsilon chain
+LRR_4                PF12799.6  sp|Q3UQ28|PXDN_MOUSE -            6.8e-15   54.8  22.8   4.7e-06   26.7   0.1   4.9   3   1   3   6   6   4   4 Leucine Rich repeats (2 copies)
+LRR_9                PF14580.5  sp|Q3UQ28|PXDN_MOUSE -            5.5e-12   45.4   2.3   1.6e-06   27.7   0.5   2.3   1   1   1   2   2   2   2 Leucine-rich repeat
+LRR_5                PF13306.5  sp|Q3UQ28|PXDN_MOUSE -            2.1e-11   43.8   0.2   7.2e-11   42.1   0.0   1.9   2   0   0   2   2   1   1 Leucine rich repeats (6 copies)
+VWC                  PF00093.17 sp|Q3UQ28|PXDN_MOUSE -            2.5e-07   30.8  18.1   2.5e-07   30.8  18.1   3.7   4   0   0   4   4   3   1 von Willebrand factor type C domain
+PSP94                PF05825.10 sp|Q3UQ28|PXDN_MOUSE -            1.3e-05   25.5   6.9   1.3e-05   25.5   6.9   2.3   2   0   0   2   2   2   1 Beta-microseminoprotein (PSP-94)
+Izumo-Ig             PF16706.4  sp|Q3UQ28|PXDN_MOUSE -            3.2e-05   23.8   0.1       8.8    6.4   0.0   4.6   4   0   0   4   4   4   0 Izumo-like Immunoglobulin domain
+LRR_1                PF00560.32 sp|Q3UQ28|PXDN_MOUSE -            0.00048   20.1  11.1       5.5    7.8   0.1   6.3   4   1   1   5   5   5   1 Leucine Rich Repeat
+LRRCT                PF01463.23 sp|Q3UQ28|PXDN_MOUSE -             0.0077   16.6   0.0     0.032   14.6   0.0   2.2   1   0   0   1   1   1   1 Leucine rich repeat C-terminal domain
+Herpes_gE            PF02480.15 sp|Q3UQ28|PXDN_MOUSE -              0.015   14.0   0.5       1.1    7.9   0.0   3.0   1   1   1   3   3   3   0 Alphaherpesvirus glycoprotein E
+B_lectin             PF01453.23 sp|Q3UQ28|PXDN_MOUSE -               0.12   12.3   0.0      0.34   10.8   0.0   1.7   1   0   0   1   1   1   0 D-mannose binding lectin
+Amnionless           PF14828.5  sp|Q3UQ28|PXDN_MOUSE -               0.26   10.0  14.7      0.43    9.3  14.7   1.2   1   0   0   1   1   1   0 Amnionless
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3UQ28.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3UQ28.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3UQ28.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:29:30 2019
+# [ok]

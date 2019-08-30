@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|B9M5B1|ILVC_GEODF -            3.4e-72  241.3   1.8   4.5e-72  240.9   1.8   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|B9M5B1|ILVC_GEODF -            6.4e-64  214.5   0.1   8.8e-64  214.0   0.1   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|B9M5B1|ILVC_GEODF -            2.7e-06   26.8   0.0   4.2e-06   26.1   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|B9M5B1|ILVC_GEODF -            8.8e-05   22.6   0.1    0.0002   21.4   0.1   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+AdoHcyase_NAD        PF00670.20 sp|B9M5B1|ILVC_GEODF -             0.0002   21.4   0.2   0.00042   20.3   0.2   1.5   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+F420_oxidored        PF03807.16 sp|B9M5B1|ILVC_GEODF -             0.0003   21.2   0.1   0.00069   20.0   0.1   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+ApbA                 PF02558.15 sp|B9M5B1|ILVC_GEODF -            0.00031   20.3   0.3    0.0018   17.9   0.3   2.2   1   1   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+NAD_binding_7        PF13241.5  sp|B9M5B1|ILVC_GEODF -             0.0042   17.4   0.2     0.011   16.1   0.1   1.7   2   0   0   2   2   1   1 Putative NAD(P)-binding
+GARS_N               PF02844.14 sp|B9M5B1|ILVC_GEODF -              0.023   15.4   0.4      0.19   12.5   0.2   2.5   1   1   1   2   2   2   0 Phosphoribosylglycinamide synthetase, N domain
+Rossmann-like        PF10727.8  sp|B9M5B1|ILVC_GEODF -              0.033   13.9   0.4     0.061   13.1   0.4   1.4   1   0   0   1   1   1   0 Rossmann-like domain
+CoA_binding          PF02629.18 sp|B9M5B1|ILVC_GEODF -              0.065   13.8   0.1      0.17   12.5   0.1   1.7   1   0   0   1   1   1   0 CoA binding domain
+GFO_IDH_MocA         PF01408.21 sp|B9M5B1|ILVC_GEODF -              0.092   13.5   0.2      0.21   12.3   0.2   1.8   1   1   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+Mur_ligase           PF01225.24 sp|B9M5B1|ILVC_GEODF -               0.13   12.5   0.4      0.63   10.3   0.2   2.1   2   0   0   2   2   2   0 Mur ligase family, catalytic domain
+Nitro_FeMo-Co        PF02579.16 sp|B9M5B1|ILVC_GEODF -               0.16   12.3   0.5      0.44   10.8   0.5   1.8   1   0   0   1   1   1   0 Dinitrogenase iron-molybdenum cofactor
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B9M5B1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B9M5B1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B9M5B1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:10:45 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q8FPR0|GPDA_COREF -            4.6e-55  185.8   0.0   8.1e-55  185.0   0.0   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q8FPR0|GPDA_COREF -              2e-51  173.9   0.3   3.2e-51  173.2   0.3   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+ApbA                 PF02558.15 sp|Q8FPR0|GPDA_COREF -            5.9e-08   32.4   0.0   1.2e-07   31.4   0.0   1.5   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q8FPR0|GPDA_COREF -              4e-07   30.4   0.0   1.8e-06   28.3   0.0   2.1   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q8FPR0|GPDA_COREF -            0.00013   22.0   0.5    0.0063   16.6   0.0   2.9   3   1   0   3   3   3   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|Q8FPR0|GPDA_COREF -            0.00031   20.6   0.0   0.00073   19.4   0.0   1.6   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Rossmann-like        PF10727.8  sp|Q8FPR0|GPDA_COREF -             0.0012   18.6   2.7      0.74    9.6   0.1   3.0   2   1   1   3   3   3   2 Rossmann-like domain
+NAD_binding_7        PF13241.5  sp|Q8FPR0|GPDA_COREF -              0.039   14.3   0.0      0.14   12.5   0.0   1.9   1   1   0   1   1   1   0 Putative NAD(P)-binding
+Pyr_redox            PF00070.26 sp|Q8FPR0|GPDA_COREF -              0.042   14.3   0.0      0.12   12.9   0.0   1.8   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+DUF1729              PF08354.9  sp|Q8FPR0|GPDA_COREF -              0.059   13.1   0.0      0.19   11.5   0.0   1.9   1   1   1   2   2   2   0 Domain of unknown function (DUF1729)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8FPR0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8FPR0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8FPR0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:11:39 2019
+# [ok]

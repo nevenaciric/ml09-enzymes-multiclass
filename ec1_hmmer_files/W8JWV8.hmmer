@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|W8JWV8|8HGO_CATRO -            8.2e-23   80.3   0.5   1.7e-22   79.3   0.5   1.6   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|W8JWV8|8HGO_CATRO -            5.3e-22   78.0   0.0   8.3e-22   77.4   0.0   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|W8JWV8|8HGO_CATRO -            1.9e-05   24.2   0.2   9.9e-05   21.8   0.2   1.9   1   1   0   1   1   1   1 Glucose dehydrogenase C-terminus
+AlaDh_PNT_C          PF01262.20 sp|W8JWV8|8HGO_CATRO -            4.2e-05   22.9   0.3   6.1e-05   22.3   0.3   1.3   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+2-Hacid_dh_C         PF02826.18 sp|W8JWV8|8HGO_CATRO -             0.0094   15.2   0.2     0.015   14.5   0.2   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+BIRC6                PF12356.7  sp|W8JWV8|8HGO_CATRO -               0.15   11.4   0.0      0.26   10.6   0.0   1.3   1   0   0   1   1   1   0 Baculoviral IAP repeat-containing protein 6
+AdoHcyase_NAD        PF00670.20 sp|W8JWV8|8HGO_CATRO -               0.38   10.7   2.3      0.94    9.4   0.7   2.0   2   0   0   2   2   2   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/W8JWV8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/W8JWV8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/W8JWV8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:38:47 2019
+# [ok]

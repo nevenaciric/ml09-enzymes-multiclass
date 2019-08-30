@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P45200|Y1430_HAEIN -            9.3e-54  181.8   0.0   1.3e-53  181.3   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P45200|Y1430_HAEIN -            5.4e-35  120.9   0.0   6.7e-35  120.6   0.0   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P45200|Y1430_HAEIN -            7.7e-11   42.1   0.0     1e-10   41.7   0.0   1.1   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|P45200|Y1430_HAEIN -            3.3e-05   23.4   0.2   0.00012   21.5   0.2   2.1   1   1   1   2   2   2   1 NAD dependent epimerase/dehydratase family
+Polysacc_synt_2      PF02719.14 sp|P45200|Y1430_HAEIN -             0.0013   17.9   0.0    0.0022   17.1   0.0   1.4   1   1   0   1   1   1   1 Polysaccharide biosynthesis protein
+GDP_Man_Dehyd        PF16363.4  sp|P45200|Y1430_HAEIN -              0.024   13.9   0.0      0.13   11.5   0.0   2.0   2   1   0   2   2   2   0 GDP-mannose 4,6 dehydratase
+NAD_binding_10       PF13460.5  sp|P45200|Y1430_HAEIN -              0.067   13.0   0.0       0.1   12.4   0.0   1.4   1   0   0   1   1   1   0 NAD(P)H-binding
+F420_oxidored        PF03807.16 sp|P45200|Y1430_HAEIN -              0.092   13.2   0.0      0.23   12.0   0.0   1.6   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P45200.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P45200.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P45200.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:47:38 2019
+# [ok]

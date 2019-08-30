@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q9WX15|HEM1_STRCO -            2.7e-44  150.1   0.1   4.7e-44  149.4   0.1   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q9WX15|HEM1_STRCO -              2e-23   82.9   0.8   7.1e-15   55.2   0.2   3.4   2   1   0   2   2   2   2 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q9WX15|HEM1_STRCO -            4.7e-20   71.7   0.0   1.1e-19   70.5   0.0   1.7   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q9WX15|HEM1_STRCO -            0.00044   20.4   0.2    0.0013   18.9   0.2   1.9   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+Glu_dehyd_C          PF16912.4  sp|Q9WX15|HEM1_STRCO -            0.00071   19.0   0.8    0.0021   17.5   0.8   1.7   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|Q9WX15|HEM1_STRCO -            0.00085   19.8   0.1    0.0023   18.4   0.1   1.8   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+ApbA                 PF02558.15 sp|Q9WX15|HEM1_STRCO -             0.0016   18.0   0.1    0.0037   16.8   0.1   1.6   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+NAD_binding_7        PF13241.5  sp|Q9WX15|HEM1_STRCO -             0.0052   17.1   0.1     0.016   15.6   0.1   1.8   1   0   0   1   1   1   1 Putative NAD(P)-binding
+ThiF                 PF00899.20 sp|Q9WX15|HEM1_STRCO -               0.02   14.2   0.2     0.037   13.3   0.2   1.3   1   0   0   1   1   1   0 ThiF family
+TfuA                 PF07812.11 sp|Q9WX15|HEM1_STRCO -                2.7    7.6   7.0      0.73    9.5   0.1   2.9   3   0   0   3   3   3   0 TfuA-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9WX15.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9WX15.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9WX15.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:35:41 2019
+# [ok]

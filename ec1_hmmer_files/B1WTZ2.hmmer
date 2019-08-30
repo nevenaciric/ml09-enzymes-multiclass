@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|B1WTZ2|ISPH_CYAA5 -            1.1e-84  283.8   0.3   1.4e-84  283.4   0.3   1.1   1   0   0   1   1   1   1 LytB protein
+PFK                  PF00365.19 sp|B1WTZ2|ISPH_CYAA5 -              0.015   14.5   0.1     0.044   13.0   0.0   1.6   1   1   0   1   1   1   0 Phosphofructokinase
+DUF5122              PF17164.3  sp|B1WTZ2|ISPH_CYAA5 -               0.83    9.9   2.1       1.7    8.9   0.1   2.5   3   0   0   3   3   3   0 Domain of unknown function (DUF5122) beta-propeller
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B1WTZ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B1WTZ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B1WTZ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:51:53 2019
+# [ok]

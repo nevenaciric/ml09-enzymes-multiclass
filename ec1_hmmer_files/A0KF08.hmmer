@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|A0KF08|GPDA_AERHH -            4.5e-51  172.8   1.0   6.5e-51  172.2   1.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|A0KF08|GPDA_AERHH -            3.3e-48  163.5   0.0   4.7e-48  163.0   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|A0KF08|GPDA_AERHH -            2.8e-09   36.7   0.0   4.9e-09   35.9   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|A0KF08|GPDA_AERHH -            3.6e-05   24.2   0.0   0.00012   22.5   0.0   1.9   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|A0KF08|GPDA_AERHH -            0.00012   22.1   0.0   0.00031   20.9   0.0   1.7   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GIDA                 PF01134.21 sp|A0KF08|GPDA_AERHH -             0.0066   15.5   0.0     0.013   14.5   0.0   1.5   2   0   0   2   2   2   1 Glucose inhibited division protein A
+UDPG_MGDP_dh_N       PF03721.13 sp|A0KF08|GPDA_AERHH -             0.0074   15.8   0.0     0.035   13.6   0.0   2.1   2   1   0   2   2   2   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Rossmann-like        PF10727.8  sp|A0KF08|GPDA_AERHH -              0.015   15.0   0.3     0.082   12.7   0.0   2.2   2   0   0   2   2   2   0 Rossmann-like domain
+3HCDH_N              PF02737.17 sp|A0KF08|GPDA_AERHH -              0.036   13.9   0.0     0.081   12.7   0.0   1.7   1   1   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ArsA_ATPase          PF02374.14 sp|A0KF08|GPDA_AERHH -               0.13   11.4   0.0      0.21   10.7   0.0   1.2   1   0   0   1   1   1   0 Anion-transporting ATPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A0KF08.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A0KF08.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A0KF08.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:20:39 2019
+# [ok]

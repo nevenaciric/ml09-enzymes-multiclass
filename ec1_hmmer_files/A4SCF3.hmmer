@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXPR_C               PF13288.5  sp|A4SCF3|DXR_CHLPM  -              4e-45  152.7   0.1   6.7e-45  152.0   0.1   1.4   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+DXP_reductoisom      PF02670.15 sp|A4SCF3|DXR_CHLPM  -            7.7e-45  152.6   1.3   1.5e-44  151.8   1.3   1.5   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXP_redisom_C        PF08436.11 sp|A4SCF3|DXR_CHLPM  -            6.8e-41  138.3   0.0   1.3e-40  137.5   0.0   1.5   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+Sacchrp_dh_NADP      PF03435.17 sp|A4SCF3|DXR_CHLPM  -             0.0027   17.8   0.0     0.014   15.5   0.0   2.1   2   0   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+Semialdhyde_dh       PF01118.23 sp|A4SCF3|DXR_CHLPM  -               0.06   13.7   0.9        18    5.7   0.0   3.0   3   1   0   3   3   3   0 Semialdehyde dehydrogenase, NAD binding domain
+PrpR_N               PF06506.10 sp|A4SCF3|DXR_CHLPM  -              0.095   12.2   0.4       1.7    8.1   0.0   3.0   4   1   0   4   4   4   0 Propionate catabolism activator
+NAD_binding_3        PF03447.15 sp|A4SCF3|DXR_CHLPM  -                0.1   13.2   1.0       1.9    9.1   1.0   2.5   1   1   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4SCF3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4SCF3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4SCF3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:30:37 2019
+# [ok]

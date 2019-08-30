@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|C1FMZ1|LDH_CLOBJ  -            1.6e-46  157.8   1.5   3.3e-46  156.8   1.5   1.5   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|C1FMZ1|LDH_CLOBJ  -              1e-34  119.8   1.5     1e-34  119.8   0.1   1.6   2   0   0   2   2   2   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|C1FMZ1|LDH_CLOBJ  -            0.00016   21.2   0.2   0.00016   21.2   0.2   2.2   3   0   0   3   3   3   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+ThiF                 PF00899.20 sp|C1FMZ1|LDH_CLOBJ  -             0.0017   17.6   0.1    0.0036   16.6   0.1   1.4   1   0   0   1   1   1   1 ThiF family
+Glyco_hydro_4        PF02056.15 sp|C1FMZ1|LDH_CLOBJ  -             0.0032   16.9   1.8     0.029   13.8   0.1   2.4   1   1   1   2   2   2   1 Family 4 glycosyl hydrolase
+DAO                  PF01266.23 sp|C1FMZ1|LDH_CLOBJ  -             0.0063   16.0   2.2    0.0084   15.6   1.6   1.4   1   1   0   1   1   1   1 FAD dependent oxidoreductase
+3HCDH_N              PF02737.17 sp|C1FMZ1|LDH_CLOBJ  -              0.011   15.5   0.2     0.028   14.2   0.2   1.7   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ApbA                 PF02558.15 sp|C1FMZ1|LDH_CLOBJ  -              0.013   15.0   0.2     0.025   14.1   0.2   1.5   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+Sacchrp_dh_NADP      PF03435.17 sp|C1FMZ1|LDH_CLOBJ  -              0.017   15.3   0.1     0.047   13.8   0.1   1.8   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+F420_oxidored        PF03807.16 sp|C1FMZ1|LDH_CLOBJ  -              0.032   14.7   0.4       0.1   13.1   0.3   2.0   1   1   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|C1FMZ1|LDH_CLOBJ  -              0.035   14.4   0.2       0.1   13.0   0.2   1.7   1   0   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C1FMZ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C1FMZ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C1FMZ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:12:42 2019
+# [ok]

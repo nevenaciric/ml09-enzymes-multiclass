@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|B2S3D9|ISPH_TREPS -              7e-79  264.7   0.0     9e-79  264.4   0.0   1.1   1   0   0   1   1   1   1 LytB protein
+CoA_binding_2        PF13380.5  sp|B2S3D9|ISPH_TREPS -              0.028   14.8   1.0     0.081   13.3   0.0   2.3   2   1   0   2   2   2   0 CoA binding domain
+Flagellin_N          PF00669.19 sp|B2S3D9|ISPH_TREPS -              0.056   13.5   0.2     0.097   12.7   0.2   1.3   1   0   0   1   1   1   0 Bacterial flagellin N-terminal helical region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B2S3D9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B2S3D9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B2S3D9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:54:25 2019
+# [ok]

@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ferritin             PF00210.23 sp|Q0P891|DPS_CAMJE  -            6.3e-28   97.4   4.9   6.8e-28   97.3   4.9   1.0   1   0   0   1   1   1   1 Ferritin-like domain
+DUF1910              PF08928.9  sp|Q0P891|DPS_CAMJE  -              0.045   13.7   1.8     0.062   13.2   0.1   1.9   2   1   0   2   2   2   0 Domain of unknown function (DUF1910)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q0P891.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q0P891.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q0P891.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:09:15 2019
+# [ok]

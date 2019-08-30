@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|Q9I0Q0|PQSH_PSEAE -            1.1e-21   77.5   0.4   8.6e-21   74.5   0.4   1.9   1   1   0   1   1   1   1 FAD binding domain
+Lycopene_cycl        PF05834.11 sp|Q9I0Q0|PQSH_PSEAE -            8.5e-05   21.7   0.0    0.0002   20.4   0.0   1.6   1   1   0   1   1   1   1 Lycopene cyclase protein
+Pyr_redox_2          PF07992.13 sp|Q9I0Q0|PQSH_PSEAE -             0.0017   17.6   0.1      0.16   11.1   0.0   2.3   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+NAD_binding_8        PF13450.5  sp|Q9I0Q0|PQSH_PSEAE -              0.003   17.6   0.1    0.0086   16.2   0.1   1.8   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+FAD_binding_2        PF00890.23 sp|Q9I0Q0|PQSH_PSEAE -               0.02   13.9   0.2     0.038   13.0   0.2   1.5   1   0   0   1   1   1   0 FAD binding domain
+DAO                  PF01266.23 sp|Q9I0Q0|PQSH_PSEAE -              0.024   14.1   0.2     0.024   14.1   0.2   2.1   2   0   0   2   2   2   0 FAD dependent oxidoreductase
+Pyr_redox            PF00070.26 sp|Q9I0Q0|PQSH_PSEAE -              0.027   14.9   0.0     0.072   13.6   0.0   1.8   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+SE                   PF08491.9  sp|Q9I0Q0|PQSH_PSEAE -               0.13   11.2   0.0      0.35    9.8   0.0   1.6   2   0   0   2   2   2   0 Squalene epoxidase
+Pyr_redox_3          PF13738.5  sp|Q9I0Q0|PQSH_PSEAE -               0.13   11.3   0.1      0.19   10.8   0.1   1.2   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9I0Q0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9I0Q0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9I0Q0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:27:47 2019
+# [ok]

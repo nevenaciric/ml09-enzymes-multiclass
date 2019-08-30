@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A4Y3J7|HEM1_SHEPC -            8.6e-52  174.4   0.2   4.2e-51  172.2   0.0   2.1   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A4Y3J7|HEM1_SHEPC -            1.4e-48  164.4   0.1   4.4e-48  162.8   0.0   1.9   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A4Y3J7|HEM1_SHEPC -            2.5e-20   72.6   1.0   5.9e-20   71.4   0.3   2.1   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A4Y3J7|HEM1_SHEPC -            8.5e-06   26.2   1.3   0.00049   20.5   0.0   3.5   4   0   0   4   4   4   1 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|A4Y3J7|HEM1_SHEPC -              0.033   13.5   0.1     0.055   12.7   0.1   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|A4Y3J7|HEM1_SHEPC -              0.073   13.4   0.1      0.27   11.6   0.0   2.0   2   0   0   2   2   2   0 Putative NAD(P)-binding
+IlvN                 PF07991.11 sp|A4Y3J7|HEM1_SHEPC -              0.083   12.4   0.0      0.31   10.5   0.0   2.0   2   0   0   2   2   2   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+EntA_Immun           PF08951.9  sp|A4Y3J7|HEM1_SHEPC -               0.13   12.5   0.5      0.87    9.9   0.2   2.2   2   0   0   2   2   2   0 Enterocin A Immunity
+HD_4                 PF13328.5  sp|A4Y3J7|HEM1_SHEPC -                1.6    8.4   6.6      0.47   10.1   0.7   2.7   3   0   0   3   3   3   0 HD domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4Y3J7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4Y3J7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4Y3J7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:32:30 2019
+# [ok]

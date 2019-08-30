@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|O55240|RDH5_MOUSE -            1.5e-37  128.9   0.0   1.9e-37  128.5   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|O55240|RDH5_MOUSE -            3.8e-26   92.0   0.0   5.4e-26   91.5   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|O55240|RDH5_MOUSE -             0.0026   17.6   0.0    0.0039   17.0   0.0   1.4   1   0   0   1   1   1   1 KR domain
+DUF1776              PF08643.9  sp|O55240|RDH5_MOUSE -               0.18   11.1   0.0       1.8    7.8   0.0   2.0   2   0   0   2   2   2   0 Fungal family of unknown function (DUF1776)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O55240.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O55240.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O55240.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:25:04 2019
+# [ok]

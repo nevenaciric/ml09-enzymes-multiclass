@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|B3E9A1|GPDA_GEOLS -            9.3e-55  184.7   2.3   1.8e-54  183.8   2.3   1.5   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|B3E9A1|GPDA_GEOLS -            7.1e-42  142.9   0.2   1.1e-41  142.3   0.2   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+F420_oxidored        PF03807.16 sp|B3E9A1|GPDA_GEOLS -            4.2e-08   33.6   0.4     3e-06   27.6   0.1   2.7   2   1   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|B3E9A1|GPDA_GEOLS -              3e-05   23.9   0.1    0.0059   16.4   0.1   2.4   2   0   0   2   2   2   2 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|B3E9A1|GPDA_GEOLS -            0.00011   22.3   1.9   0.00039   20.5   0.0   2.3   2   1   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+ApbA                 PF02558.15 sp|B3E9A1|GPDA_GEOLS -            0.00078   19.0   0.2    0.0018   17.9   0.2   1.6   1   1   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+Rossmann-like        PF10727.8  sp|B3E9A1|GPDA_GEOLS -             0.0058   16.4   3.7     0.038   13.7   3.7   2.5   1   1   0   1   1   1   1 Rossmann-like domain
+DUF4262              PF14081.5  sp|B3E9A1|GPDA_GEOLS -              0.093   12.8   0.1      0.84    9.7   0.0   2.3   2   0   0   2   2   2   0 Domain of unknown function (DUF4262)
+PDH                  PF02153.16 sp|B3E9A1|GPDA_GEOLS -               0.15   10.9   0.0      0.25   10.2   0.0   1.3   1   0   0   1   1   1   0 Prephenate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B3E9A1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B3E9A1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B3E9A1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:56:03 2019
+# [ok]

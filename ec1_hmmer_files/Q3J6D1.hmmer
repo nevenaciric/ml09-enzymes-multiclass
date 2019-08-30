@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|Q3J6D1|GPDA_RHOS4 -            5.2e-42  143.4   0.7   7.5e-42  142.9   0.7   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|Q3J6D1|GPDA_RHOS4 -            1.1e-20   74.1   0.3   1.4e-13   51.0   0.0   2.2   1   1   1   2   2   2   2 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+F420_oxidored        PF03807.16 sp|Q3J6D1|GPDA_RHOS4 -            0.00027   21.4   0.0   0.00084   19.8   0.0   1.9   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+ApbA                 PF02558.15 sp|Q3J6D1|GPDA_RHOS4 -             0.0057   16.2   0.3     0.011   15.3   0.3   1.5   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+Rossmann-like        PF10727.8  sp|Q3J6D1|GPDA_RHOS4 -               0.01   15.6   0.7      0.01   15.6   0.7   2.2   3   0   0   3   3   3   0 Rossmann-like domain
+ApbA_C               PF08546.10 sp|Q3J6D1|GPDA_RHOS4 -              0.082   13.0   0.0       2.9    8.0   0.0   2.4   2   0   0   2   2   2   0 Ketopantoate reductase PanE/ApbA C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3J6D1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3J6D1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3J6D1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:28:00 2019
+# [ok]

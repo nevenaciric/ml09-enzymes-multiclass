@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q10245|MKAR_SCHPO -            1.8e-37  128.6   0.1   2.6e-37  128.1   0.1   1.3   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q10245|MKAR_SCHPO -            5.7e-21   75.1   0.0   7.8e-21   74.6   0.0   1.2   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q10245|MKAR_SCHPO -            9.5e-07   28.8   0.2   2.1e-06   27.7   0.2   1.5   1   1   0   1   1   1   1 KR domain
+NAD_binding_10       PF13460.5  sp|Q10245|MKAR_SCHPO -             0.0027   17.5   0.1    0.0042   16.9   0.1   1.3   1   0   0   1   1   1   1 NAD(P)H-binding
+Sacchrp_dh_NADP      PF03435.17 sp|Q10245|MKAR_SCHPO -              0.012   15.8   0.1     0.023   14.9   0.1   1.5   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+Polysacc_synt_2      PF02719.14 sp|Q10245|MKAR_SCHPO -              0.028   13.4   0.1     0.042   12.9   0.1   1.3   1   0   0   1   1   1   0 Polysaccharide biosynthesis protein
+3HCDH_N              PF02737.17 sp|Q10245|MKAR_SCHPO -              0.031   14.1   0.2     0.049   13.4   0.2   1.3   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Dak1                 PF02733.16 sp|Q10245|MKAR_SCHPO -              0.067   11.9   0.7        12    4.5   0.0   2.8   2   1   1   3   3   3   0 Dak1 domain
+Shikimate_DH         PF01488.19 sp|Q10245|MKAR_SCHPO -              0.068   13.1   0.0      0.14   12.1   0.0   1.5   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|Q10245|MKAR_SCHPO -              0.084   13.4   0.0      0.19   12.2   0.0   1.5   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+ApbA                 PF02558.15 sp|Q10245|MKAR_SCHPO -                0.1   12.1   0.0      0.17   11.4   0.0   1.4   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+FMN_bind_2           PF04299.11 sp|Q10245|MKAR_SCHPO -               0.12   12.0   0.2      0.97    9.0   0.0   2.1   2   0   0   2   2   2   0 Putative FMN-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q10245.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q10245.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q10245.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:10:58 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Cytochrom_D1         PF02239.15 sp|P24474|NIRS_PSEAE -           3.6e-167  555.4   0.6  4.4e-167  555.1   0.6   1.1   1   0   0   1   1   1   1 Cytochrome D1 heme domain
+Cytochrome_CBB3      PF13442.5  sp|P24474|NIRS_PSEAE -              2e-11   44.0   0.0   6.2e-11   42.4   0.0   1.9   1   0   0   1   1   1   1 Cytochrome C oxidase, cbb3-type, subunit III
+Cytochrom_C          PF00034.20 sp|P24474|NIRS_PSEAE -            0.00058   20.9   0.1    0.0028   18.7   0.1   2.2   1   1   0   1   1   1   1 Cytochrome c
+Cytochrom_C550       PF14495.5  sp|P24474|NIRS_PSEAE -              0.033   13.8   0.0       2.7    7.6   0.0   2.4   2   0   0   2   2   2   0 Cytochrome c-550 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P24474.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P24474.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P24474.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:40:22 2019
+# [ok]

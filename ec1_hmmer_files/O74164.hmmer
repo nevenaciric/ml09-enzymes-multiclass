@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HMG-CoA_red          PF00368.17 sp|O74164|HMDH_CYBJA -           9.3e-144  478.9   0.2  1.2e-143  478.4   0.2   1.2   1   0   0   1   1   1   1 Hydroxymethylglutaryl-coenzyme A reductase
+Sterol-sensing       PF12349.7  sp|O74164|HMDH_CYBJA -            5.5e-10   39.2   4.7   1.3e-09   38.0   4.7   1.6   1   0   0   1   1   1   1 Sterol-sensing domain of SREBP cleavage-activation
+Patched              PF02460.17 sp|O74164|HMDH_CYBJA -             0.0001   20.5   7.6   0.00014   20.0   7.6   1.2   1   0   0   1   1   1   1 Patched family
+MadM                 PF03818.12 sp|O74164|HMDH_CYBJA -              0.032   14.0   0.2      0.17   11.7   0.2   2.4   1   0   0   1   1   1   0 Malonate/sodium symporter MadM subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O74164.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O74164.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O74164.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:26:34 2019
+# [ok]

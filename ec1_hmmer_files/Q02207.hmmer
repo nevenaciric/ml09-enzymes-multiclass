@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q02207|FOX2_YEAST -            7.3e-85  283.2   8.6     5e-43  146.7   0.5   2.4   2   0   0   2   2   2   2 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q02207|FOX2_YEAST -            3.7e-67  226.2   2.1     1e-34  120.1   0.1   2.3   2   0   0   2   2   2   2 Enoyl-(Acyl carrier protein) reductase
+MaoC_dehydratas      PF01575.18 sp|Q02207|FOX2_YEAST -            1.1e-37  128.2   0.0   2.3e-37  127.2   0.0   1.5   1   0   0   1   1   1   1 MaoC like domain
+KR                   PF08659.9  sp|Q02207|FOX2_YEAST -            8.4e-33  113.7   2.0   8.1e-16   58.4   0.4   2.3   2   0   0   2   2   2   2 KR domain
+MaoC_dehydrat_N      PF13452.5  sp|Q02207|FOX2_YEAST -             0.0063   16.5   0.0      0.18   11.8   0.0   2.5   2   0   0   2   2   2   1 N-terminal half of MaoC dehydratase
+3HCDH_N              PF02737.17 sp|Q02207|FOX2_YEAST -                0.6    9.9   5.7       1.9    8.2   0.2   2.7   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+PglL_A               PF15864.4  sp|Q02207|FOX2_YEAST -                  2    8.1   8.4       4.5    7.0   1.1   2.5   2   0   0   2   2   2   0 Protein glycosylation ligase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q02207.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q02207.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q02207.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:03:22 2019
+# [ok]

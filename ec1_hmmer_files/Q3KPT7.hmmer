@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q3KPT7|BDH2_XENLA -            9.1e-64  215.1   0.7   1.1e-63  214.9   0.7   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q3KPT7|BDH2_XENLA -            4.9e-48  163.1   0.9   6.8e-48  162.6   0.9   1.2   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q3KPT7|BDH2_XENLA -              3e-07   30.4   0.7   5.3e-07   29.6   0.7   1.4   1   0   0   1   1   1   1 KR domain
+AlaDh_PNT_C          PF01262.20 sp|Q3KPT7|BDH2_XENLA -             0.0011   18.3   1.1    0.0017   17.6   1.1   1.3   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+ADH_zinc_N           PF00107.25 sp|Q3KPT7|BDH2_XENLA -             0.0021   17.8   0.1    0.0034   17.2   0.1   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+NAD_binding_10       PF13460.5  sp|Q3KPT7|BDH2_XENLA -             0.0037   17.1   0.4    0.0054   16.6   0.4   1.5   1   1   0   1   1   1   1 NAD(P)H-binding
+Sacchrp_dh_NADP      PF03435.17 sp|Q3KPT7|BDH2_XENLA -              0.011   15.8   0.1     0.019   15.1   0.1   1.5   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q3KPT7|BDH2_XENLA -              0.043   13.3   0.1     0.093   12.2   0.1   1.5   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+FtsJ                 PF01728.18 sp|Q3KPT7|BDH2_XENLA -              0.051   13.6   0.1     0.065   13.2   0.1   1.3   1   0   0   1   1   1   0 FtsJ-like methyltransferase
+3HCDH_N              PF02737.17 sp|Q3KPT7|BDH2_XENLA -              0.058   13.2   0.1      0.11   12.3   0.1   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+DUF2325              PF10087.8  sp|Q3KPT7|BDH2_XENLA -               0.06   13.4   0.1      0.12   12.4   0.1   1.4   1   0   0   1   1   1   0 Uncharacterized protein conserved in bacteria (DUF2325)
+DUF1776              PF08643.9  sp|Q3KPT7|BDH2_XENLA -               0.12   11.6   0.0       0.6    9.3   0.0   1.8   1   1   1   2   2   2   0 Fungal family of unknown function (DUF1776)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3KPT7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3KPT7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3KPT7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:28:39 2019
+# [ok]

@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Molybdopterin        PF00384.21 sp|O34720|YJGC_BACSU -            1.8e-79  267.7   0.0   2.2e-79  267.3   0.0   1.1   1   0   0   1   1   1   1 Molybdopterin oxidoreductase
+Molydop_binding      PF01568.20 sp|O34720|YJGC_BACSU -            5.2e-21   74.7   0.0   1.1e-20   73.7   0.0   1.5   1   0   0   1   1   1   1 Molydopterin dinucleotide binding domain
+Molybdop_Fe4S4       PF04879.15 sp|O34720|YJGC_BACSU -            5.3e-18   64.7   0.4   5.3e-18   64.7   0.4   3.2   3   0   0   3   3   2   1 Molybdopterin oxidoreductase Fe4S4 domain
+Fer2_4               PF13510.5  sp|O34720|YJGC_BACSU -            1.8e-11   43.8   0.1   4.6e-11   42.5   0.1   1.7   1   0   0   1   1   1   1 2Fe-2S iron-sulfur cluster binding domain
+Fer4                 PF00037.26 sp|O34720|YJGC_BACSU -            6.1e-09   35.2  21.4   5.7e-05   22.7   3.0   3.6   3   0   0   3   3   3   2 4Fe-4S binding domain
+NADH-G_4Fe-4S_3      PF10588.8  sp|O34720|YJGC_BACSU -            1.6e-08   33.8   1.3   6.6e-08   31.9   1.3   2.1   1   0   0   1   1   1   1 NADH-ubiquinone oxidoreductase-G iron-sulfur binding region
+Fer4_10              PF13237.5  sp|O34720|YJGC_BACSU -            1.4e-07   31.4  12.9    0.0022   18.0   0.5   3.4   2   1   0   2   2   2   2 4Fe-4S dicluster domain
+Fer4_21              PF14697.5  sp|O34720|YJGC_BACSU -            1.5e-07   31.4  10.7   1.5e-07   31.4  10.7   2.7   3   0   0   3   3   3   1 4Fe-4S dicluster domain
+Fer4_6               PF12837.6  sp|O34720|YJGC_BACSU -            1.9e-07   30.8  18.1    0.0026   17.7   4.2   2.9   2   0   0   2   2   2   2 4Fe-4S binding domain
+Fer4_7               PF12838.6  sp|O34720|YJGC_BACSU -            2.3e-06   28.0  13.3   2.3e-06   28.0  13.3   3.7   3   1   1   4   4   4   2 4Fe-4S dicluster domain
+Fer4_8               PF13183.5  sp|O34720|YJGC_BACSU -            6.3e-05   23.3  10.0   6.3e-05   23.3  10.0   2.6   3   0   0   3   3   1   1 4Fe-4S dicluster domain
+Fer4_9               PF13187.5  sp|O34720|YJGC_BACSU -             0.0012   18.9  16.0    0.0012   18.9  16.0   3.8   3   1   1   4   4   3   2 4Fe-4S dicluster domain
+Fer4_2               PF12797.6  sp|O34720|YJGC_BACSU -              0.005   16.8   2.2     0.005   16.8   2.2   3.6   4   0   0   4   4   2   2 4Fe-4S binding domain
+Fer2_3               PF13085.5  sp|O34720|YJGC_BACSU -             0.0065   16.4   0.1     0.023   14.6   0.1   2.0   1   0   0   1   1   1   1 2Fe-2S iron-sulfur cluster binding domain
+Fer4_16              PF13484.5  sp|O34720|YJGC_BACSU -              0.059   14.2  18.3      0.26   12.1  14.1   3.4   1   1   1   2   2   2   0 4Fe-4S double cluster binding domain
+Fer4_15              PF13459.5  sp|O34720|YJGC_BACSU -              0.063   13.9   8.6      0.38   11.4   2.1   2.9   2   0   0   2   2   2   0 4Fe-4S single cluster domain
+Fer4_13              PF13370.5  sp|O34720|YJGC_BACSU -               0.66   10.5  15.2       2.2    8.8   3.1   2.8   2   0   0   2   2   2   0 4Fe-4S single cluster domain of Ferredoxin I
+Fer4_22              PF17179.3  sp|O34720|YJGC_BACSU -               0.73   10.6  17.8       1.1   10.1   1.8   3.1   3   1   0   3   3   2   0 4Fe-4S dicluster domain
+Fer4_17              PF13534.5  sp|O34720|YJGC_BACSU -                2.6    8.5  23.6      0.52   10.8  14.7   3.4   1   1   3   4   4   4   0 4Fe-4S dicluster domain
+Fer4_18              PF13746.5  sp|O34720|YJGC_BACSU -                8.4    6.5  19.5      0.96    9.6   2.6   3.2   3   1   1   4   4   3   0 4Fe-4S dicluster domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O34720.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O34720.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O34720.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:23:44 2019
+# [ok]

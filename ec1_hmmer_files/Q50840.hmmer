@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HMD                  PF03201.15 sp|Q50840|HMD_METVO  -            9.1e-40  134.7   0.1   1.7e-39  133.9   0.1   1.5   1   0   0   1   1   1   1 H2-forming N5,N10-methylene-tetrahydromethanopterin dehydrogenase
+NAD_binding_2        PF03446.14 sp|Q50840|HMD_METVO  -            0.00034   20.7   0.0    0.0011   19.0   0.0   1.8   1   1   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+CoA_binding          PF02629.18 sp|Q50840|HMD_METVO  -              0.033   14.8   1.2       5.6    7.6   0.2   2.8   2   0   0   2   2   2   0 CoA binding domain
+OCD_Mu_crystall      PF02423.14 sp|Q50840|HMD_METVO  -              0.046   12.5   0.1     0.088   11.6   0.1   1.5   1   0   0   1   1   1   0 Ornithine cyclodeaminase/mu-crystallin family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q50840.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q50840.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q50840.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:36:48 2019
+# [ok]

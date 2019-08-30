@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Malic_M              PF03949.14 sp|Q87Y79|MAO1_PSESM -           2.8e-100  334.7   0.7  3.7e-100  334.4   0.7   1.1   1   0   0   1   1   1   1 Malic enzyme, NAD binding domain
+malic                PF00390.18 sp|Q87Y79|MAO1_PSESM -            7.6e-75  250.6   0.0   1.2e-74  250.0   0.0   1.3   1   0   0   1   1   1   1 Malic enzyme, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q87Y79|MAO1_PSESM -               0.16   11.9   0.2      0.56   10.2   0.2   1.8   2   0   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q87Y79.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q87Y79.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q87Y79.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:07:29 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-Hacid_dh_C         PF02826.18 sp|Q9S7E4|FDH_ARATH  -              3e-52  176.5   0.0   4.2e-52  176.0   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+2-Hacid_dh           PF00389.29 sp|Q9S7E4|FDH_ARATH  -            2.8e-16   59.3   0.0   5.6e-16   58.3   0.0   1.6   1   1   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain
+NAD_binding_2        PF03446.14 sp|Q9S7E4|FDH_ARATH  -            5.2e-07   29.9   0.0   8.9e-07   29.1   0.0   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+IlvN                 PF07991.11 sp|Q9S7E4|FDH_ARATH  -             0.0017   17.8   0.1    0.0043   16.5   0.0   1.7   2   0   0   2   2   2   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+Shikimate_DH         PF01488.19 sp|Q9S7E4|FDH_ARATH  -              0.003   17.5   0.0     0.011   15.7   0.0   1.9   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|Q9S7E4|FDH_ARATH  -             0.0077   16.7   0.0     0.021   15.3   0.0   1.8   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+UDPG_MGDP_dh_C       PF03720.14 sp|Q9S7E4|FDH_ARATH  -              0.031   14.6   0.0      0.11   12.8   0.0   2.0   1   1   1   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain
+GFO_IDH_MocA         PF01408.21 sp|Q9S7E4|FDH_ARATH  -              0.066   13.9   0.0      0.24   12.1   0.0   2.0   2   1   0   2   2   2   0 Oxidoreductase family, NAD-binding Rossmann fold
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9S7E4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9S7E4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9S7E4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:32:47 2019
+# [ok]

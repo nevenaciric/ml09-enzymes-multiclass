@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|P39346|IDND_ECOLI -              2e-26   91.9   3.2   3.4e-26   91.1   2.2   1.9   2   0   0   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|P39346|IDND_ECOLI -            1.9e-25   89.1   0.0   3.5e-25   88.3   0.0   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|P39346|IDND_ECOLI -              2e-07   30.6   0.0     3e-07   30.1   0.0   1.3   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N_2         PF13602.5  sp|P39346|IDND_ECOLI -            9.5e-07   29.8   0.0   2.7e-06   28.4   0.0   1.7   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|P39346|IDND_ECOLI -              0.019   14.2   0.0     0.036   13.3   0.0   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+DapB_N               PF01113.19 sp|P39346|IDND_ECOLI -              0.025   14.6   0.1      0.12   12.4   0.1   2.0   2   0   0   2   2   2   0 Dihydrodipicolinate reductase, N-terminus
+ThiF                 PF00899.20 sp|P39346|IDND_ECOLI -               0.03   13.6   0.9      0.36   10.1   0.1   2.1   2   0   0   2   2   2   0 ThiF family
+Methyltransf_25      PF13649.5  sp|P39346|IDND_ECOLI -              0.043   14.4   0.0     0.091   13.4   0.0   1.5   1   0   0   1   1   1   0 Methyltransferase domain
+DUF4436              PF14494.5  sp|P39346|IDND_ECOLI -              0.055   12.6   0.0       1.6    7.9   0.0   2.4   2   1   0   2   2   2   0 Domain of unknown function (DUF4436)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P39346.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P39346.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P39346.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:45:26 2019
+# [ok]

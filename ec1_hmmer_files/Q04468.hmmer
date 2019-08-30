@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|Q04468|TCMO_HELTU -           1.1e-117  393.5   0.0  1.3e-117  393.3   0.0   1.0   1   0   0   1   1   1   1 Cytochrome P450
+AAA_assoc_C          PF09821.8  sp|Q04468|TCMO_HELTU -              0.043   14.2   0.0     0.099   13.1   0.0   1.7   1   0   0   1   1   1   0 C-terminal AAA-associated domain
+S_layer_C            PF05124.11 sp|Q04468|TCMO_HELTU -              0.064   13.1   0.1     0.086   12.7   0.1   1.2   1   0   0   1   1   1   0 S-layer like family, C-terminal region
+Phytoreo_S7          PF07236.10 sp|Q04468|TCMO_HELTU -               0.18   10.0   0.0      0.26    9.5   0.0   1.2   1   0   0   1   1   1   0 Phytoreovirus S7 protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q04468.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q04468.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q04468.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:04:24 2019
+# [ok]

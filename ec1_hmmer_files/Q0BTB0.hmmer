@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mqo                  PF06039.14 sp|Q0BTB0|MQO_GRABC  -           8.9e-226  750.0   0.0    1e-225  749.8   0.0   1.0   1   0   0   1   1   1   1 Malate:quinone oxidoreductase (Mqo)
+DAO                  PF01266.23 sp|Q0BTB0|MQO_GRABC  -            3.7e-10   39.8   0.1   7.4e-10   38.8   0.1   1.5   1   1   0   1   1   1   1 FAD dependent oxidoreductase
+FAD_binding_3        PF01494.18 sp|Q0BTB0|MQO_GRABC  -             0.0035   16.6   0.0     0.034   13.3   0.0   2.0   2   0   0   2   2   2   1 FAD binding domain
+NAD_binding_8        PF13450.5  sp|Q0BTB0|MQO_GRABC  -              0.028   14.6   0.0     0.097   12.8   0.0   2.0   1   0   0   1   1   1   0 NAD(P)-binding Rossmann-like domain
+K_oxygenase          PF13434.5  sp|Q0BTB0|MQO_GRABC  -              0.094   11.7   0.0      0.35    9.8   0.0   1.8   2   0   0   2   2   2   0 L-lysine 6-monooxygenase (NADPH-requiring)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q0BTB0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q0BTB0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q0BTB0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:07:35 2019
+# [ok]

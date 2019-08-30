@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|A1B3J7|GPDA_PARDP -            2.9e-40  137.7   0.2   4.1e-40  137.2   0.2   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|A1B3J7|GPDA_PARDP -            1.6e-27   96.3   0.0   2.6e-27   95.6   0.0   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+F420_oxidored        PF03807.16 sp|A1B3J7|GPDA_PARDP -            0.00079   19.9   0.0    0.0046   17.4   0.0   2.3   1   1   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+ApbA                 PF02558.15 sp|A1B3J7|GPDA_PARDP -             0.0013   18.3   0.0     0.002   17.7   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+DAO                  PF01266.23 sp|A1B3J7|GPDA_PARDP -             0.0018   17.8   6.7    0.0053   16.3   6.7   1.9   1   1   0   1   1   1   1 FAD dependent oxidoreductase
+Rossmann-like        PF10727.8  sp|A1B3J7|GPDA_PARDP -             0.0035   17.1   0.2     0.012   15.3   0.2   2.1   1   0   0   1   1   1   1 Rossmann-like domain
+ApbA_C               PF08546.10 sp|A1B3J7|GPDA_PARDP -               0.01   15.9   0.0     0.044   13.9   0.0   1.9   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA C terminal
+SpoVAD               PF07451.10 sp|A1B3J7|GPDA_PARDP -              0.085   11.4   0.0      0.14   10.7   0.0   1.3   1   0   0   1   1   1   0 Stage V sporulation protein AD (SpoVAD)
+Tyr_Deacylase        PF02580.15 sp|A1B3J7|GPDA_PARDP -               0.14   12.5   0.0      0.38   11.1   0.0   1.6   2   0   0   2   2   2   0 D-Tyr-tRNA(Tyr) deacylase
+3HCDH_N              PF02737.17 sp|A1B3J7|GPDA_PARDP -               0.15   11.8   0.0      0.28   11.0   0.0   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1B3J7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1B3J7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1B3J7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:22:48 2019
+# [ok]

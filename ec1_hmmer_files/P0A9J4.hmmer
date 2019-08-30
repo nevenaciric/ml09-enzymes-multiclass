@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ApbA_C               PF08546.10 sp|P0A9J4|PANE_ECOLI -            2.3e-38  131.1   0.2   3.4e-38  130.6   0.2   1.3   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA C terminal
+ApbA                 PF02558.15 sp|P0A9J4|PANE_ECOLI -            8.6e-25   87.1   0.1   1.3e-24   86.4   0.1   1.3   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+Rossmann-like        PF10727.8  sp|P0A9J4|PANE_ECOLI -             0.0017   18.1   0.1      0.56   10.0   0.0   2.6   1   1   1   2   2   2   2 Rossmann-like domain
+NAD_Gly3P_dh_N       PF01210.22 sp|P0A9J4|PANE_ECOLI -              0.029   14.2   0.2      0.25   11.2   0.1   2.5   2   1   0   2   2   2   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ATP-cone             PF03477.15 sp|P0A9J4|PANE_ECOLI -              0.058   13.9   0.1      0.16   12.5   0.1   1.8   2   0   0   2   2   2   0 ATP cone domain
+F420_oxidored        PF03807.16 sp|P0A9J4|PANE_ECOLI -               0.11   13.0   0.0      0.43   11.1   0.0   2.1   2   1   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+HbrB                 PF08539.10 sp|P0A9J4|PANE_ECOLI -               0.13   12.1   0.1      0.23   11.3   0.1   1.3   1   0   0   1   1   1   0 HbrB-like
+NAD_binding_2        PF03446.14 sp|P0A9J4|PANE_ECOLI -               0.16   12.0   0.0      0.42   10.7   0.0   1.7   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0A9J4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0A9J4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0A9J4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:32:27 2019
+# [ok]

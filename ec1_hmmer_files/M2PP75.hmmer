@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+K_oxygenase          PF13434.5  sp|M2PP75|SIDA_CERS8 -            6.7e-99  331.1   0.0   2.1e-98  329.5   0.0   1.7   1   1   0   1   1   1   1 L-lysine 6-monooxygenase (NADPH-requiring)
+Pyr_redox_2          PF07992.13 sp|M2PP75|SIDA_CERS8 -            2.1e-05   23.8   0.0   0.00025   20.3   0.0   2.2   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox            PF00070.26 sp|M2PP75|SIDA_CERS8 -             0.0033   17.8   0.1      0.39   11.2   0.0   2.7   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+DAO                  PF01266.23 sp|M2PP75|SIDA_CERS8 -             0.0068   15.9   0.0     0.049   13.1   0.0   2.0   2   0   0   2   2   2   1 FAD dependent oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/M2PP75.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/M2PP75.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/M2PP75.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:20:08 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+T4_deiodinase        PF00837.16 sp|P49896|IOD2_LITCT -           7.2e-108  359.2   0.0  8.2e-108  359.0   0.0   1.0   1   0   0   1   1   1   1 Iodothyronine deiodinase
+AhpC-TSA             PF00578.20 sp|P49896|IOD2_LITCT -            5.1e-05   23.1   0.0   0.00014   21.7   0.0   1.6   1   1   0   1   1   1   1 AhpC/TSA family
+PDEase_I_N           PF08499.11 sp|P49896|IOD2_LITCT -              0.049   13.4   0.1     0.084   12.6   0.1   1.4   1   0   0   1   1   1   0 3'5'-cyclic nucleotide phosphodiesterase N-terminal
+DUF2284              PF10050.8  sp|P49896|IOD2_LITCT -              0.081   12.6   0.2      0.18   11.4   0.2   1.6   1   1   0   1   1   1   0 Predicted metal-binding protein (DUF2284)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P49896.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P49896.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P49896.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:49:28 2019
+# [ok]

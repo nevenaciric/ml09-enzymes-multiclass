@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|B7J121|LDH_BORBZ  -            3.5e-46  156.7   2.2   6.1e-46  155.9   2.2   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|B7J121|LDH_BORBZ  -            2.7e-30  105.4   0.0   4.2e-30  104.8   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Sacchrp_dh_NADP      PF03435.17 sp|B7J121|LDH_BORBZ  -             0.0021   18.2   0.1    0.0049   17.0   0.1   1.7   2   0   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+F420_oxidored        PF03807.16 sp|B7J121|LDH_BORBZ  -              0.024   15.1   0.1     0.058   13.9   0.1   1.6   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+CoA_binding          PF02629.18 sp|B7J121|LDH_BORBZ  -               0.04   14.5   0.9      0.13   12.8   0.5   2.3   1   1   1   2   2   2   0 CoA binding domain
+ThiF                 PF00899.20 sp|B7J121|LDH_BORBZ  -              0.048   12.9   1.2     0.075   12.3   1.2   1.4   1   1   0   1   1   1   0 ThiF family
+AlaDh_PNT_C          PF01262.20 sp|B7J121|LDH_BORBZ  -              0.048   12.8   0.1     0.085   12.0   0.1   1.4   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+Shikimate_DH         PF01488.19 sp|B7J121|LDH_BORBZ  -              0.067   13.2   0.1      0.15   12.1   0.1   1.6   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+ApbA                 PF02558.15 sp|B7J121|LDH_BORBZ  -              0.074   12.6   0.1      0.13   11.8   0.1   1.5   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B7J121.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B7J121.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B7J121.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:03:55 2019
+# [ok]

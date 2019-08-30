@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AhpC-TSA             PF00578.20 sp|P34760|TSA1_YEAST -            2.6e-35  120.9   0.0     1e-34  119.0   0.0   1.8   2   0   0   2   2   2   1 AhpC/TSA family
+Redoxin              PF08534.9  sp|P34760|TSA1_YEAST -            3.1e-18   65.8   0.0   6.3e-18   64.8   0.0   1.4   2   0   0   2   2   2   1 Redoxin
+1-cysPrx_C           PF10417.8  sp|P34760|TSA1_YEAST -            4.4e-10   39.1   0.3   8.8e-10   38.2   0.3   1.5   1   0   0   1   1   1   1 C-terminal domain of 1-Cys peroxiredoxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P34760.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P34760.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P34760.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:43:59 2019
+# [ok]

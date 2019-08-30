@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|P07864|LDHC_HUMAN -            7.1e-48  162.2   0.4     1e-47  161.7   0.4   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|P07864|LDHC_HUMAN -            8.3e-28   97.3   0.0   1.7e-27   96.3   0.0   1.5   2   0   0   2   2   2   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|P07864|LDHC_HUMAN -             0.0029   17.1   2.8     0.011   15.2   0.2   2.4   2   1   0   3   3   3   1 Family 4 glycosyl hydrolase
+Pyr_redox_2          PF07992.13 sp|P07864|LDHC_HUMAN -              0.099   11.8   0.0      0.15   11.2   0.0   1.2   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P07864.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P07864.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P07864.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:30:29 2019
+# [ok]

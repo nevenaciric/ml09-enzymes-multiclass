@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mannitol_dh_C        PF08125.12 sp|B2K7G3|MTLD_YERPB -            9.6e-66  221.7   0.0   1.5e-65  221.1   0.0   1.3   1   0   0   1   1   1   1 Mannitol dehydrogenase C-terminal domain
+Mannitol_dh          PF01232.22 sp|B2K7G3|MTLD_YERPB -              1e-25   90.5   0.1   2.3e-25   89.5   0.1   1.6   1   0   0   1   1   1   1 Mannitol dehydrogenase Rossmann domain
+ApbA                 PF02558.15 sp|B2K7G3|MTLD_YERPB -             0.0007   19.2   0.1    0.0016   18.0   0.1   1.6   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+3HCDH_N              PF02737.17 sp|B2K7G3|MTLD_YERPB -              0.013   15.3   0.3     0.034   13.9   0.3   1.7   1   1   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|B2K7G3|MTLD_YERPB -              0.024   14.1   0.1     0.046   13.2   0.1   1.4   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|B2K7G3|MTLD_YERPB -              0.035   14.3   0.3     0.075   13.2   0.3   1.6   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B2K7G3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B2K7G3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B2K7G3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:54:15 2019
+# [ok]

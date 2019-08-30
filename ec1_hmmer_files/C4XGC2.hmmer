@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FMN_red              PF03358.14 sp|C4XGC2|NQOR_DESMR -            4.5e-12   45.9   0.1     6e-12   45.5   0.1   1.2   1   0   0   1   1   1   1 NADPH-dependent FMN reductase
+Flavodoxin_2         PF02525.16 sp|C4XGC2|NQOR_DESMR -            9.7e-08   31.9   0.0   1.3e-07   31.5   0.0   1.2   1   0   0   1   1   1   1 Flavodoxin-like fold
+Flavodoxin_5         PF12724.6  sp|C4XGC2|NQOR_DESMR -            1.2e-05   25.5   0.0     0.001   19.2   0.0   2.1   1   1   1   2   2   2   2 Flavodoxin domain
+Flavodoxin_1         PF00258.24 sp|C4XGC2|NQOR_DESMR -             0.0015   18.7   0.0      0.11   12.5   0.0   2.2   1   1   1   2   2   2   2 Flavodoxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C4XGC2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C4XGC2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C4XGC2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:14:22 2019
+# [ok]

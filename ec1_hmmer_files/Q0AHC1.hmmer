@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TP_methylase         PF00590.19 sp|Q0AHC1|CYSG_NITEC -            6.8e-54  182.9   0.1   2.1e-53  181.3   0.1   1.8   2   0   0   2   2   2   1 Tetrapyrrole (Corrin/Porphyrin) Methylases
+NAD_binding_7        PF13241.5  sp|Q0AHC1|CYSG_NITEC -            1.6e-30  105.5   0.1   6.7e-30  103.5   0.1   2.1   3   0   0   3   3   3   1 Putative NAD(P)-binding
+CysG_dimeriser       PF10414.8  sp|Q0AHC1|CYSG_NITEC -            1.7e-18   66.0   2.6   3.8e-18   64.8   2.6   1.6   1   0   0   1   1   1   1 Sirohaem synthase dimerisation region
+Sirohm_synth_M       PF14824.5  sp|Q0AHC1|CYSG_NITEC -            1.2e-06   27.8   0.4   2.7e-06   26.6   0.4   1.6   1   0   0   1   1   1   1 Sirohaem biosynthesis protein central
+Radical_SAM          PF04055.20 sp|Q0AHC1|CYSG_NITEC -              0.022   15.1   0.0      0.28   11.4   0.0   2.3   2   0   0   2   2   2   0 Radical SAM superfamily
+XdhC_C               PF13478.5  sp|Q0AHC1|CYSG_NITEC -              0.031   14.7   0.1      0.19   12.1   0.1   2.1   2   0   0   2   2   2   0 XdhC Rossmann domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q0AHC1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q0AHC1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q0AHC1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:07:02 2019
+# [ok]

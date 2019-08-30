@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|Q5FPS8|GPDA_GLUOX -            6.7e-44  149.5   1.3   9.4e-44  149.0   1.3   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|Q5FPS8|GPDA_GLUOX -            3.2e-34  118.1   0.0   6.2e-34  117.2   0.0   1.5   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|Q5FPS8|GPDA_GLUOX -            4.7e-07   29.5   0.0   1.1e-06   28.3   0.0   1.6   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+ApbA_C               PF08546.10 sp|Q5FPS8|GPDA_GLUOX -            0.00059   19.9   0.4    0.0025   17.9   0.4   1.9   1   1   0   1   1   1   1 Ketopantoate reductase PanE/ApbA C terminal
+Pyr_redox_2          PF07992.13 sp|Q5FPS8|GPDA_GLUOX -             0.0014   17.8   0.5     0.025   13.8   0.0   2.8   3   1   0   3   3   3   1 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox            PF00070.26 sp|Q5FPS8|GPDA_GLUOX -             0.0043   17.5   0.2     0.026   15.0   0.0   2.4   3   1   1   4   4   4   1 Pyridine nucleotide-disulphide oxidoreductase
+F420_oxidored        PF03807.16 sp|Q5FPS8|GPDA_GLUOX -             0.0049   17.3   0.0     0.018   15.5   0.0   2.0   1   1   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|Q5FPS8|GPDA_GLUOX -               0.03   14.1   0.1      0.03   14.1   0.1   1.9   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_8        PF13450.5  sp|Q5FPS8|GPDA_GLUOX -              0.039   14.1   0.1     0.039   14.1   0.1   2.9   3   1   0   3   3   3   0 NAD(P)-binding Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5FPS8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5FPS8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5FPS8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:41:35 2019
+# [ok]

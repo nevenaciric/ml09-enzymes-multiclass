@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_1        PF00175.20 sp|P38626|NCB5R_YEAST -            1.9e-34  118.5   0.0   2.9e-34  117.9   0.0   1.3   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+FAD_binding_6        PF00970.23 sp|P38626|NCB5R_YEAST -            9.4e-33  112.4   0.0   1.4e-32  111.8   0.0   1.3   1   0   0   1   1   1   1 Oxidoreductase FAD-binding domain
+NAD_binding_6        PF08030.11 sp|P38626|NCB5R_YEAST -              2e-07   31.2   0.0    0.0007   19.7   0.0   2.2   2   0   0   2   2   2   2 Ferric reductase NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P38626.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P38626.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P38626.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:45:15 2019
+# [ok]

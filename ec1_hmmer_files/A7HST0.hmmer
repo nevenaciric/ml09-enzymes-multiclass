@@ -1,0 +1,29 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|A7HST0|GPDA_PARL1 -            1.4e-50  171.3   1.4   2.3e-50  170.5   1.4   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|A7HST0|GPDA_PARL1 -            9.9e-47  158.7   2.1   1.6e-46  158.0   2.1   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+ApbA                 PF02558.15 sp|A7HST0|GPDA_PARL1 -            4.1e-10   39.4   0.1   6.4e-10   38.8   0.1   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|A7HST0|GPDA_PARL1 -            1.9e-08   34.7   1.4   3.2e-08   34.0   0.2   2.0   2   0   0   2   2   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|A7HST0|GPDA_PARL1 -            1.4e-07   31.7   1.4   1.4e-07   31.7   0.1   1.7   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|A7HST0|GPDA_PARL1 -            6.9e-06   26.0   0.2   1.6e-05   24.8   0.2   1.6   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Pyr_redox_2          PF07992.13 sp|A7HST0|GPDA_PARL1 -            9.2e-05   21.7   0.9   0.00016   20.9   0.1   1.9   2   1   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+IlvN                 PF07991.11 sp|A7HST0|GPDA_PARL1 -            0.00011   21.7   0.8   0.00029   20.4   0.1   2.2   2   1   0   2   2   2   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+Pyr_redox            PF00070.26 sp|A7HST0|GPDA_PARL1 -            0.00075   19.9   2.0    0.0066   16.9   0.1   2.7   3   0   0   3   3   2   1 Pyridine nucleotide-disulphide oxidoreductase
+NAD_binding_8        PF13450.5  sp|A7HST0|GPDA_PARL1 -             0.0092   16.1   0.3     0.028   14.5   0.1   2.0   2   0   0   2   2   2   1 NAD(P)-binding Rossmann-like domain
+XdhC_C               PF13478.5  sp|A7HST0|GPDA_PARL1 -               0.01   16.2   3.5     0.055   13.9   0.4   2.8   1   1   1   2   2   2   0 XdhC Rossmann domain
+2-Hacid_dh_C         PF02826.18 sp|A7HST0|GPDA_PARL1 -              0.021   14.1   0.0     0.052   12.8   0.0   1.7   2   0   0   2   2   2   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|A7HST0|GPDA_PARL1 -              0.029   14.5   2.4     0.046   13.9   0.3   2.3   2   0   0   2   2   2   0 TrkA-N domain
+UDPG_MGDP_dh_N       PF03721.13 sp|A7HST0|GPDA_PARL1 -              0.075   12.5   0.0      0.19   11.2   0.0   1.8   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+PDH                  PF02153.16 sp|A7HST0|GPDA_PARL1 -              0.079   11.9   0.0      0.12   11.3   0.0   1.3   1   0   0   1   1   1   0 Prephenate dehydrogenase
+ApbA_C               PF08546.10 sp|A7HST0|GPDA_PARL1 -              0.085   13.0   0.0      0.23   11.6   0.0   1.7   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7HST0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7HST0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7HST0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:39:12 2019
+# [ok]

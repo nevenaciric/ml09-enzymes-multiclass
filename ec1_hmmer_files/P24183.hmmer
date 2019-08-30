@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Molybdopterin        PF00384.21 sp|P24183|FDNG_ECOLI -            9.4e-36  123.6   0.1   1.7e-32  112.8   0.1   2.3   2   0   0   2   2   2   2 Molybdopterin oxidoreductase
+Molybdop_Fe4S4       PF04879.15 sp|P24183|FDNG_ECOLI -            1.6e-19   69.5   0.3   4.2e-19   68.2   0.1   1.9   2   0   0   2   2   2   1 Molybdopterin oxidoreductase Fe4S4 domain
+Molydop_binding      PF01568.20 sp|P24183|FDNG_ECOLI -            4.7e-17   61.9   0.1   1.5e-16   60.3   0.1   1.9   1   0   0   1   1   1   1 Molydopterin dinucleotide binding domain
+TAT_signal           PF10518.8  sp|P24183|FDNG_ECOLI -            0.00094   18.8   1.2    0.0028   17.3   1.2   1.9   1   0   0   1   1   1   1 TAT (twin-arginine translocation) pathway signal sequence
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P24183.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P24183.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P24183.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:40:13 2019
+# [ok]

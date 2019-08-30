@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|O97463|GPDA_DROKA -            2.4e-55  186.7   0.8   1.1e-54  184.6   0.2   2.1   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|O97463|GPDA_DROKA -            4.9e-48  162.9   0.0     1e-47  161.9   0.0   1.6   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|O97463|GPDA_DROKA -            4.3e-05   23.9   1.8    0.0018   18.7   1.0   2.9   2   1   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+Semialdhyde_dh       PF01118.23 sp|O97463|GPDA_DROKA -              0.069   13.5   0.0      0.54   10.6   0.0   2.3   2   0   0   2   2   2   0 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O97463.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O97463.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O97463.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:28:24 2019
+# [ok]

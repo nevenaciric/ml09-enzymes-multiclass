@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|B1VEJ5|HEM1_CORU7 -            8.3e-42  142.1   0.0   1.8e-41  141.0   0.0   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|B1VEJ5|HEM1_CORU7 -            1.2e-30  106.3   0.2   2.3e-30  105.4   0.2   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|B1VEJ5|HEM1_CORU7 -            2.9e-21   75.6   0.6   7.2e-21   74.3   0.6   1.7   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+Glu_dehyd_C          PF16912.4  sp|B1VEJ5|HEM1_CORU7 -            0.00055   19.4   0.6    0.0012   18.3   0.6   1.6   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+Sacchrp_dh_NADP      PF03435.17 sp|B1VEJ5|HEM1_CORU7 -             0.0016   18.6   2.5    0.0024   18.0   0.6   2.5   2   1   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+ThiF                 PF00899.20 sp|B1VEJ5|HEM1_CORU7 -             0.0055   16.0   0.2     0.012   14.9   0.2   1.5   1   0   0   1   1   1   1 ThiF family
+F420_oxidored        PF03807.16 sp|B1VEJ5|HEM1_CORU7 -              0.019   15.4   2.0     0.036   14.6   1.0   2.1   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+ApbA                 PF02558.15 sp|B1VEJ5|HEM1_CORU7 -              0.041   13.4   0.3      0.11   12.0   0.3   1.7   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+CHAD                 PF05235.13 sp|B1VEJ5|HEM1_CORU7 -              0.083   12.8   3.8     0.053   13.4   2.0   1.7   2   0   0   2   2   2   0 CHAD domain
+NAD_binding_7        PF13241.5  sp|B1VEJ5|HEM1_CORU7 -              0.088   13.2   0.7      0.23   11.8   0.7   1.7   1   0   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B1VEJ5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B1VEJ5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B1VEJ5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:51:42 2019
+# [ok]

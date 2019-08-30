@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|Q8G4L8|ISPH_BIFLO -            4.6e-83  278.4   0.0   5.4e-83  278.2   0.0   1.0   1   0   0   1   1   1   1 LytB protein
+CoA_binding_2        PF13380.5  sp|Q8G4L8|ISPH_BIFLO -             0.0059   17.0   1.7       3.3    8.1   0.2   2.6   1   1   1   2   2   2   2 CoA binding domain
+FlbD                 PF06289.10 sp|Q8G4L8|ISPH_BIFLO -               0.15   11.6   0.0      0.37   10.3   0.0   1.7   1   0   0   1   1   1   0 Flagellar protein (FlbD)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8G4L8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8G4L8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8G4L8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:11:52 2019
+# [ok]

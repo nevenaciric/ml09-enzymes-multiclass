@@ -1,0 +1,30 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|Q6GGT7|GPDA_STAAR -            4.5e-57  192.2   0.8   4.5e-57  192.2   0.8   1.8   2   1   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|Q6GGT7|GPDA_STAAR -            2.8e-52  176.8   0.7   5.1e-52  175.9   0.7   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+F420_oxidored        PF03807.16 sp|Q6GGT7|GPDA_STAAR -            1.3e-10   41.6   0.4     1e-09   38.7   0.1   2.7   3   1   0   3   3   2   1 NADP oxidoreductase coenzyme F420-dependent
+UDPG_MGDP_dh_N       PF03721.13 sp|Q6GGT7|GPDA_STAAR -            3.4e-09   36.4   0.4   1.1e-08   34.8   0.3   1.9   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+ApbA                 PF02558.15 sp|Q6GGT7|GPDA_STAAR -            1.7e-08   34.2   0.8   5.2e-08   32.6   0.1   2.0   2   0   0   2   2   2   1 Ketopantoate reductase PanE/ApbA
+NAD_binding_2        PF03446.14 sp|Q6GGT7|GPDA_STAAR -            3.3e-07   30.5   0.9   5.1e-07   29.9   0.3   1.8   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+IlvN                 PF07991.11 sp|Q6GGT7|GPDA_STAAR -            1.9e-05   24.2   0.2   1.9e-05   24.2   0.2   2.2   3   1   0   3   3   3   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+3HCDH_N              PF02737.17 sp|Q6GGT7|GPDA_STAAR -            5.5e-05   23.0   0.1   0.00014   21.7   0.1   1.8   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|Q6GGT7|GPDA_STAAR -            0.00092   19.4   0.2    0.0035   17.5   0.1   2.1   2   1   0   2   2   2   1 TrkA-N domain
+GCH_III              PF05165.11 sp|Q6GGT7|GPDA_STAAR -             0.0065   15.7   0.7    0.0065   15.7   0.7   2.0   2   0   0   2   2   2   1 GTP cyclohydrolase III
+2-Hacid_dh_C         PF02826.18 sp|Q6GGT7|GPDA_STAAR -             0.0076   15.5   0.8     0.053   12.8   0.0   2.5   2   2   0   2   2   2   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q6GGT7|GPDA_STAAR -              0.015   15.2   1.1     0.066   13.2   0.1   2.6   2   2   1   3   3   3   0 Shikimate / quinate 5-dehydrogenase
+ApbA_C               PF08546.10 sp|Q6GGT7|GPDA_STAAR -              0.018   15.2   0.0     0.068   13.3   0.0   2.0   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA C terminal
+PDH                  PF02153.16 sp|Q6GGT7|GPDA_STAAR -              0.028   13.3   0.2     0.039   12.8   0.2   1.3   1   0   0   1   1   1   0 Prephenate dehydrogenase
+adh_short            PF00106.24 sp|Q6GGT7|GPDA_STAAR -              0.036   13.4   0.0     0.079   12.3   0.0   1.6   1   0   0   1   1   1   0 short chain dehydrogenase
+NAD_binding_7        PF13241.5  sp|Q6GGT7|GPDA_STAAR -                0.1   12.9   0.1      0.33   11.3   0.1   1.8   1   0   0   1   1   1   0 Putative NAD(P)-binding
+DpaA_N               PF16924.4  sp|Q6GGT7|GPDA_STAAR -               0.11   12.5   0.1       1.9    8.5   0.2   2.7   2   1   0   2   2   2   0 Dipicolinate synthase subunit A N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6GGT7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6GGT7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6GGT7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:54:17 2019
+# [ok]

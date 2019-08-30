@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|B2S4P6|GPDA_TREPS -            1.5e-48  164.6   0.0   2.2e-48  164.1   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|B2S4P6|GPDA_TREPS -            5.6e-40  136.8   0.1   9.4e-40  136.1   0.1   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+ApbA                 PF02558.15 sp|B2S4P6|GPDA_TREPS -            2.7e-07   30.2   0.0     9e-07   28.6   0.0   1.8   2   0   0   2   2   2   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|B2S4P6|GPDA_TREPS -            2.6e-06   27.8   0.1   9.6e-06   26.0   0.0   2.0   2   1   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+Rossmann-like        PF10727.8  sp|B2S4P6|GPDA_TREPS -             0.0004   20.1   0.1    0.0015   18.3   0.1   2.0   1   0   0   1   1   1   1 Rossmann-like domain
+NAD_binding_2        PF03446.14 sp|B2S4P6|GPDA_TREPS -            0.00092   19.3   0.1    0.0021   18.1   0.0   1.6   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_binding_8        PF13450.5  sp|B2S4P6|GPDA_TREPS -              0.054   13.6   0.1      0.15   12.3   0.0   1.8   2   0   0   2   2   2   0 NAD(P)-binding Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B2S4P6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B2S4P6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B2S4P6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:54:26 2019
+# [ok]

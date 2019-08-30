@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_dioxygenase      PF03301.12 sp|B1KJM2|T23O_SHEWM -            1.2e-71  241.8   1.0   8.8e-68  229.1   1.0   3.0   1   1   0   1   1   1   1 Tryptophan 2,3-dioxygenase
+Hs1pro-1_C           PF07014.11 sp|B1KJM2|T23O_SHEWM -            1.5e-07   31.1   0.4   2.1e-06   27.3   0.4   2.1   1   1   0   1   1   1   1 Hs1pro-1 protein C-terminus
+MyTH4                PF00784.16 sp|B1KJM2|T23O_SHEWM -              0.055   13.9   0.6       3.9    7.9   0.2   2.6   2   2   0   2   2   2   0 MyTH4 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B1KJM2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B1KJM2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B1KJM2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:50:53 2019
+# [ok]

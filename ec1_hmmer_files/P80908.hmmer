@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+POR_N                PF01855.18 sp|P80908|VORB_METTM -            9.6e-52  175.9   0.1   1.2e-51  175.6   0.1   1.1   1   0   0   1   1   1   1 Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg
+PFOR_II              PF17147.3  sp|P80908|VORB_METTM -            2.3e-27   95.2   0.0   4.4e-27   94.3   0.0   1.5   1   0   0   1   1   1   1 Pyruvate:ferredoxin oxidoreductase core domain II
+Transketolase_C      PF02780.19 sp|P80908|VORB_METTM -            5.3e-06   26.2   0.0     1e-05   25.3   0.0   1.4   1   0   0   1   1   1   1 Transketolase, C-terminal domain
+TPP_enzyme_N         PF02776.17 sp|P80908|VORB_METTM -              0.013   15.0   0.3     0.023   14.2   0.3   1.4   1   0   0   1   1   1   0 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P80908.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P80908.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P80908.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:57:41 2019
+# [ok]

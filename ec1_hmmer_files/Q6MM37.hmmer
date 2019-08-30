@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_dioxygenase      PF03301.12 sp|Q6MM37|T23O_BDEBA -            3.5e-99  332.3   0.1   4.4e-99  332.0   0.1   1.0   1   0   0   1   1   1   1 Tryptophan 2,3-dioxygenase
+DUF1542              PF07564.10 sp|Q6MM37|T23O_BDEBA -              0.005   16.8   0.1    0.0081   16.2   0.1   1.3   1   0   0   1   1   1   1 Domain of Unknown Function (DUF1542)
+Hs1pro-1_C           PF07014.11 sp|Q6MM37|T23O_BDEBA -              0.032   13.6   0.0      0.06   12.7   0.0   1.4   1   0   0   1   1   1   0 Hs1pro-1 protein C-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6MM37.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6MM37.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6MM37.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:55:54 2019
+# [ok]

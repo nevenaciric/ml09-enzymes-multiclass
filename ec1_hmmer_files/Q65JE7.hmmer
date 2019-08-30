@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|Q65JE7|TDH_BACLD  -            6.1e-34  116.1   4.1   6.7e-34  116.0   2.8   1.8   2   0   0   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|Q65JE7|TDH_BACLD  -            5.3e-31  107.1   0.1   9.6e-31  106.3   0.1   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_zinc_N_2         PF13602.5  sp|Q65JE7|TDH_BACLD  -            1.7e-10   42.0   0.0   2.8e-10   41.2   0.0   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|Q65JE7|TDH_BACLD  -            1.8e-10   40.6   0.2   2.6e-10   40.1   0.2   1.2   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+AlaDh_PNT_C          PF01262.20 sp|Q65JE7|TDH_BACLD  -            9.5e-05   21.7   0.8   0.00022   20.5   0.8   1.6   2   0   0   2   2   2   1 Alanine dehydrogenase/PNT, C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q65JE7|TDH_BACLD  -             0.0028   17.2   0.2    0.0051   16.3   0.2   1.4   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+HI0933_like          PF03486.13 sp|Q65JE7|TDH_BACLD  -              0.024   13.2   1.0     0.036   12.7   1.0   1.2   1   0   0   1   1   1   0 HI0933-like protein
+TrkA_N               PF02254.17 sp|Q65JE7|TDH_BACLD  -              0.027   14.6   0.1     0.046   13.9   0.1   1.4   1   0   0   1   1   1   0 TrkA-N domain
+2-Hacid_dh_C         PF02826.18 sp|Q65JE7|TDH_BACLD  -              0.042   13.1   0.1     0.071   12.4   0.1   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Methyltransf_25      PF13649.5  sp|Q65JE7|TDH_BACLD  -              0.094   13.3   0.1      0.21   12.2   0.1   1.7   1   0   0   1   1   1   0 Methyltransferase domain
+NADH_4Fe-4S          PF10589.8  sp|Q65JE7|TDH_BACLD  -               0.26   11.3   1.6      0.57   10.2   1.0   1.8   2   0   0   2   2   2   0 NADH-ubiquinone oxidoreductase-F iron-sulfur binding region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q65JE7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q65JE7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q65JE7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:49:56 2019
+# [ok]

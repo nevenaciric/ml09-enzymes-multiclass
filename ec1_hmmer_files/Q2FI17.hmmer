@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX2_TM              PF02790.14 sp|Q2FI17|QOX2_STAA3 -            9.9e-12   44.7   2.6   1.8e-11   43.9   2.6   1.4   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, transmembrane domain
+COX2                 PF00116.19 sp|Q2FI17|QOX2_STAA3 -            3.1e-05   23.8   0.0   0.00012   21.9   0.0   1.9   1   1   1   2   2   2   1 Cytochrome C oxidase subunit II, periplasmic domain
+LPAM_1               PF08139.11 sp|Q2FI17|QOX2_STAA3 -             0.0034   17.8   2.9    0.0034   17.8   2.9   2.2   2   0   0   2   2   2   1 Prokaryotic membrane lipoprotein lipid attachment site
+Cupredoxin_1         PF13473.5  sp|Q2FI17|QOX2_STAA3 -              0.059   13.4   0.0      0.18   11.8   0.0   1.8   2   0   0   2   2   2   0 Cupredoxin-like domain
+Bac_export_2         PF01312.18 sp|Q2FI17|QOX2_STAA3 -              0.069   12.3   0.9      0.11   11.6   0.9   1.2   1   0   0   1   1   1   0 FlhB HrpN YscU SpaS Family
+HRG                  PF16954.4  sp|Q2FI17|QOX2_STAA3 -               0.34   11.3   4.0       0.6   10.5   2.3   2.4   2   1   0   2   2   2   0 Haem-transporter, endosomal/lysosomal, haem-responsive gene
+Bunya_G2             PF03563.12 sp|Q2FI17|QOX2_STAA3 -               0.37    9.9   2.6      0.56    9.3   2.6   1.2   1   0   0   1   1   1   0 Bunyavirus glycoprotein G2
+DHHC                 PF01529.19 sp|Q2FI17|QOX2_STAA3 -                1.6    8.7   6.0       3.4    7.7   6.0   1.5   1   0   0   1   1   1   0 DHHC palmitoyltransferase
+RELT                 PF12606.7  sp|Q2FI17|QOX2_STAA3 -                2.2    7.6   7.9       1.2    8.4   3.0   2.4   2   0   0   2   2   2   0 Tumour necrosis factor receptor superfamily member 19
+FtsX                 PF02687.20 sp|Q2FI17|QOX2_STAA3 -                4.2    7.8   7.9       3.7    8.0   6.6   1.6   1   1   0   1   1   1   0 FtsX-like permease family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2FI17.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2FI17.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2FI17.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:19:25 2019
+# [ok]

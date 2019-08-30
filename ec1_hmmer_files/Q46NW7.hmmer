@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|Q46NW7|ACDH_CUPNJ -            3.8e-64  214.9   0.8   6.1e-64  214.2   0.8   1.3   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|Q46NW7|ACDH_CUPNJ -            8.9e-12   45.4   0.1   3.2e-11   43.6   0.0   1.9   2   1   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|Q46NW7|ACDH_CUPNJ -              0.012   16.3   0.2     0.032   14.9   0.1   1.7   2   0   0   2   2   2   0 Oxidoreductase family, NAD-binding Rossmann fold
+NAD_binding_3        PF03447.15 sp|Q46NW7|ACDH_CUPNJ -              0.027   15.0   0.1      0.12   12.9   0.0   2.2   2   0   0   2   2   2   0 Homoserine dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q46NW7|ACDH_CUPNJ -              0.038   14.5   0.1      0.11   13.0   0.1   1.8   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+Goodbye              PF17109.4  sp|Q46NW7|ACDH_CUPNJ -              0.048   14.0   0.1     0.078   13.3   0.1   1.3   1   0   0   1   1   1   0 fungal STAND N-terminal Goodbye domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q46NW7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q46NW7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q46NW7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:31:42 2019
+# [ok]

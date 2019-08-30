@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_zinc_N           PF00107.25 sp|O45903|MECR1_CAEEL -            6.9e-22   77.6   0.0     1e-21   77.1   0.0   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_N                PF08240.11 sp|O45903|MECR1_CAEEL -              2e-08   34.0   0.0     5e-08   32.7   0.0   1.6   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N_2         PF13602.5  sp|O45903|MECR1_CAEEL -            1.6e-06   29.1   0.0   4.8e-06   27.5   0.0   1.8   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+FAM92                PF06730.10 sp|O45903|MECR1_CAEEL -            7.2e-05   22.2   0.0   0.00013   21.4   0.0   1.3   1   0   0   1   1   1   1 FAM92 protein
+CoA_binding_2        PF13380.5  sp|O45903|MECR1_CAEEL -             0.0016   18.8   0.0      0.03   14.7   0.0   2.4   1   1   0   1   1   1   1 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O45903.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O45903.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O45903.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:24:11 2019
+# [ok]

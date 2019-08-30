@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pyr_redox_2          PF07992.13 sp|Q5ATK1|AUSB_EMENI -            1.7e-07   30.7   0.0   9.9e-07   28.2   0.0   2.1   2   1   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+NAD_binding_8        PF13450.5  sp|Q5ATK1|AUSB_EMENI -            2.2e-07   30.9   0.1     7e-07   29.3   0.1   1.9   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+NAD_binding_9        PF13454.5  sp|Q5ATK1|AUSB_EMENI -            0.00011   22.1   0.2     0.011   15.7   0.0   3.2   3   0   0   3   3   3   1 FAD-NAD(P)-binding
+K_oxygenase          PF13434.5  sp|Q5ATK1|AUSB_EMENI -            0.00024   20.3   0.1    0.0091   15.1   0.0   2.5   3   0   0   3   3   3   1 L-lysine 6-monooxygenase (NADPH-requiring)
+Pyr_redox_3          PF13738.5  sp|Q5ATK1|AUSB_EMENI -            0.00078   18.7   0.1      0.17   11.0   0.0   3.1   2   1   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+Shikimate_DH         PF01488.19 sp|Q5ATK1|AUSB_EMENI -            0.00091   19.2   0.0     0.053   13.5   0.0   2.4   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|Q5ATK1|AUSB_EMENI -             0.0041   16.4   0.0    0.0096   15.2   0.0   1.5   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+FMO-like             PF00743.18 sp|Q5ATK1|AUSB_EMENI -             0.0079   14.6   0.0     0.018   13.4   0.0   1.5   2   0   0   2   2   2   1 Flavin-binding monooxygenase-like
+DAO                  PF01266.23 sp|Q5ATK1|AUSB_EMENI -              0.022   14.3   1.3      0.83    9.1   0.4   2.6   2   1   0   3   3   3   0 FAD dependent oxidoreductase
+ThiF                 PF00899.20 sp|Q5ATK1|AUSB_EMENI -               0.16   11.2   0.0       3.2    7.0   0.0   2.3   2   0   0   2   2   2   0 ThiF family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5ATK1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5ATK1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5ATK1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:40:31 2019
+# [ok]

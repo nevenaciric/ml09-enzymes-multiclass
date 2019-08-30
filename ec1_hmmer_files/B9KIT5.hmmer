@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_redisom_C        PF08436.11 sp|B9KIT5|DXR_ANAMF  -            5.6e-38  129.0   0.0   1.5e-37  127.6   0.0   1.8   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+DXP_reductoisom      PF02670.15 sp|B9KIT5|DXR_ANAMF  -            1.1e-29  103.6   2.2   2.5e-29  102.5   2.2   1.6   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXPR_C               PF13288.5  sp|B9KIT5|DXR_ANAMF  -            3.2e-29  101.4   0.0   5.8e-29  100.6   0.0   1.4   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+Semialdhyde_dh       PF01118.23 sp|B9KIT5|DXR_ANAMF  -             0.0006   20.1   0.1    0.0041   17.5   0.1   2.3   1   1   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+NmrA                 PF05368.12 sp|B9KIT5|DXR_ANAMF  -             0.0029   17.1   0.1    0.0062   16.0   0.1   1.5   1   1   0   1   1   1   1 NmrA-like family
+DapB_N               PF01113.19 sp|B9KIT5|DXR_ANAMF  -               0.01   15.8   0.1     0.033   14.2   0.1   1.9   1   1   0   1   1   1   0 Dihydrodipicolinate reductase, N-terminus
+NAD_binding_10       PF13460.5  sp|B9KIT5|DXR_ANAMF  -               0.32   10.8   2.9      0.83    9.4   2.9   1.8   1   1   0   1   1   1   0 NAD(P)H-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B9KIT5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B9KIT5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B9KIT5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:10:24 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|P62050|LDH_CORDI  -            1.5e-46  157.9   1.4   2.2e-46  157.3   1.4   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|P62050|LDH_CORDI  -            1.3e-33  116.2   0.0   2.3e-33  115.4   0.0   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Sacchrp_dh_NADP      PF03435.17 sp|P62050|LDH_CORDI  -              0.018   15.2   0.3     0.039   14.1   0.2   1.7   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+TrkA_N               PF02254.17 sp|P62050|LDH_CORDI  -               0.02   15.0   0.7     0.058   13.6   0.7   1.9   1   1   0   1   1   1   0 TrkA-N domain
+NAD_binding_7        PF13241.5  sp|P62050|LDH_CORDI  -              0.021   15.2   1.2     0.061   13.7   1.2   1.9   1   1   0   1   1   1   0 Putative NAD(P)-binding
+ThiF                 PF00899.20 sp|P62050|LDH_CORDI  -              0.026   13.8   1.0     0.035   13.4   0.4   1.5   2   0   0   2   2   2   0 ThiF family
+SHMT                 PF00464.18 sp|P62050|LDH_CORDI  -              0.035   12.6   0.1     0.054   12.0   0.1   1.3   1   0   0   1   1   1   0 Serine hydroxymethyltransferase
+F420_oxidored        PF03807.16 sp|P62050|LDH_CORDI  -               0.04   14.4   0.2      0.11   13.0   0.1   1.7   1   1   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+UDPG_MGDP_dh_N       PF03721.13 sp|P62050|LDH_CORDI  -              0.053   13.0   2.5      0.29   10.6   2.5   2.1   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Shikimate_DH         PF01488.19 sp|P62050|LDH_CORDI  -              0.072   13.1   0.4      0.22   11.5   0.4   2.0   1   1   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P62050.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P62050.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P62050.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:54:02 2019
+# [ok]

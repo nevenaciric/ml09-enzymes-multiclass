@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mannitol_dh_C        PF08125.12 sp|Q88ZS1|MTLD_LACPL -            9.8e-63  211.8   0.0   1.5e-62  211.2   0.0   1.2   1   0   0   1   1   1   1 Mannitol dehydrogenase C-terminal domain
+Mannitol_dh          PF01232.22 sp|Q88ZS1|MTLD_LACPL -            1.2e-24   87.0   1.0   2.1e-24   86.3   0.1   1.8   2   0   0   2   2   2   1 Mannitol dehydrogenase Rossmann domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q88ZS1|MTLD_LACPL -             0.0006   19.3   0.2    0.0013   18.3   0.2   1.5   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+3HCDH_N              PF02737.17 sp|Q88ZS1|MTLD_LACPL -              0.013   15.3   0.1     0.029   14.1   0.1   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q88ZS1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q88ZS1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q88ZS1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:08:12 2019
+# [ok]

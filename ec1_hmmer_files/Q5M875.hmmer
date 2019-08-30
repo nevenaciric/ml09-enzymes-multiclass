@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q5M875|DHB13_RAT  -            1.5e-47  161.5   0.0     2e-47  161.1   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q5M875|DHB13_RAT  -            6.1e-34  117.5   0.0     8e-34  117.1   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q5M875|DHB13_RAT  -            7.9e-12   45.3   0.0     1e-11   45.0   0.0   1.1   1   0   0   1   1   1   1 KR domain
+Methyltransf_25      PF13649.5  sp|Q5M875|DHB13_RAT  -               0.02   15.5   0.0     0.034   14.7   0.0   1.4   1   0   0   1   1   1   0 Methyltransferase domain
+2-Hacid_dh_C         PF02826.18 sp|Q5M875|DHB13_RAT  -               0.11   11.7   0.0      0.17   11.1   0.0   1.2   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5M875.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5M875.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5M875.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:43:57 2019
+# [ok]

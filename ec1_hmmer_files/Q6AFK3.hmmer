@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|Q6AFK3|GPDA_LEIXX -              1e-45  155.4   0.1   1.9e-45  154.5   0.1   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|Q6AFK3|GPDA_LEIXX -            5.1e-45  153.2   0.0   9.7e-45  152.3   0.0   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|Q6AFK3|GPDA_LEIXX -            3.3e-10   39.7   0.0   1.6e-09   37.5   0.0   1.9   2   0   0   2   2   2   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q6AFK3|GPDA_LEIXX -            1.7e-06   28.4   0.0   9.1e-06   26.1   0.0   2.2   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q6AFK3|GPDA_LEIXX -            0.00014   21.9   0.0    0.0012   19.0   0.0   2.2   1   1   1   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Pyr_redox            PF00070.26 sp|Q6AFK3|GPDA_LEIXX -              0.019   15.4   0.1      0.22   12.0   0.0   2.4   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6AFK3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6AFK3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6AFK3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:51:24 2019
+# [ok]

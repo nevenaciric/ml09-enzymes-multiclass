@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_zinc_N           PF00107.25 sp|P00327|ADH1E_HORSE -            3.2e-25   88.4   0.1   5.4e-25   87.7   0.1   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_N                PF08240.11 sp|P00327|ADH1E_HORSE -            2.5e-24   85.1   0.9   5.7e-24   84.0   0.9   1.6   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+Glu_dehyd_C          PF16912.4  sp|P00327|ADH1E_HORSE -            3.6e-05   23.3   0.0   5.7e-05   22.6   0.0   1.3   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N_2         PF13602.5  sp|P00327|ADH1E_HORSE -            7.6e-05   23.7   0.0   0.00014   22.8   0.0   1.5   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+UDPG_MGDP_dh_N       PF03721.13 sp|P00327|ADH1E_HORSE -             0.0012   18.3   0.2    0.0024   17.4   0.2   1.5   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|P00327|ADH1E_HORSE -             0.0088   15.3   0.3     0.014   14.6   0.3   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P00327.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P00327.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P00327.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:28:34 2019
+# [ok]

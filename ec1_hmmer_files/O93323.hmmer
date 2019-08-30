@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|O93323|CP26A_XENLA -            1.3e-64  218.6   0.0   1.6e-64  218.2   0.0   1.0   1   0   0   1   1   1   1 Cytochrome P450
+DUF5318              PF17249.1  sp|O93323|CP26A_XENLA -              0.045   13.4   0.0     0.091   12.4   0.0   1.4   1   0   0   1   1   1   0 Family of unknown function (DUF5318)
+HTH_Tnp_Tc5          PF03221.15 sp|O93323|CP26A_XENLA -              0.096   12.6   0.0      0.21   11.6   0.0   1.5   1   0   0   1   1   1   0 Tc5 transposase DNA-binding domain
+FAA_hydrolase_N      PF09298.10 sp|O93323|CP26A_XENLA -               0.14   12.3   0.1      0.46   10.6   0.0   1.8   2   0   0   2   2   2   0 Fumarylacetoacetase N-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O93323.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O93323.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O93323.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:27:59 2019
+# [ok]

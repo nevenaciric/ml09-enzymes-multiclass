@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mqo                  PF06039.14 sp|A7MNG1|MQO_CROS8  -           5.4e-232  770.5   0.1  6.2e-232  770.3   0.1   1.0   1   0   0   1   1   1   1 Malate:quinone oxidoreductase (Mqo)
+FAD_binding_3        PF01494.18 sp|A7MNG1|MQO_CROS8  -            0.00045   19.5   0.3    0.0096   15.1   0.3   2.1   1   1   0   1   1   1   1 FAD binding domain
+K_oxygenase          PF13434.5  sp|A7MNG1|MQO_CROS8  -              0.019   14.0   0.1      0.13   11.3   0.0   2.0   2   0   0   2   2   2   0 L-lysine 6-monooxygenase (NADPH-requiring)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7MNG1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7MNG1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7MNG1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:39:44 2019
+# [ok]

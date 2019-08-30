@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q5RCU5|CBR1_PONAB -            1.8e-33  115.6   0.0   1.2e-26   93.3   0.0   2.1   2   0   0   2   2   2   2 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q5RCU5|CBR1_PONAB -            1.3e-24   86.9   0.0   7.3e-18   64.9   0.0   2.1   2   0   0   2   2   2   2 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q5RCU5|CBR1_PONAB -            9.3e-08   32.1   0.0   1.4e-07   31.5   0.0   1.2   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q5RCU5|CBR1_PONAB -            0.00042   19.7   0.0   0.00081   18.8   0.0   1.5   2   0   0   2   2   2   1 NAD dependent epimerase/dehydratase family
+NAD_binding_4        PF07993.11 sp|Q5RCU5|CBR1_PONAB -              0.032   13.3   0.0     0.052   12.6   0.0   1.3   1   1   0   1   1   1   0 Male sterility protein
+Sacchrp_dh_NADP      PF03435.17 sp|Q5RCU5|CBR1_PONAB -               0.15   12.2   0.1      0.46   10.7   0.0   1.8   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5RCU5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5RCU5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5RCU5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:45:49 2019
+# [ok]

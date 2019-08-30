@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_reductoisom      PF02670.15 sp|P57985|DXR_PASMU  -            7.9e-49  165.5   1.1   1.6e-48  164.6   1.1   1.5   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXPR_C               PF13288.5  sp|P57985|DXR_PASMU  -            1.2e-40  138.3   0.1   2.3e-40  137.4   0.1   1.5   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+DXP_redisom_C        PF08436.11 sp|P57985|DXR_PASMU  -            8.3e-37  125.2   0.0   2.8e-36  123.5   0.0   2.0   2   0   0   2   2   2   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+NmrA                 PF05368.12 sp|P57985|DXR_PASMU  -              0.078   12.4   0.1      0.11   11.9   0.1   1.3   1   0   0   1   1   1   0 NmrA-like family
+Toprim_2             PF13155.5  sp|P57985|DXR_PASMU  -              0.083   13.2   0.6      0.46   10.9   0.0   2.4   3   0   0   3   3   3   0 Toprim-like
+NAD_binding_3        PF03447.15 sp|P57985|DXR_PASMU  -               0.11   13.1   0.6      0.78   10.3   0.6   2.3   1   1   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P57985.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P57985.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P57985.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:52:40 2019
+# [ok]

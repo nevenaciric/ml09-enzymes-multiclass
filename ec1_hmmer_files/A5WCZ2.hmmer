@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|A5WCZ2|ISPH_PSYWF -            4.3e-93  311.3   0.0   4.9e-93  311.1   0.0   1.0   1   0   0   1   1   1   1 LytB protein
+DUF1363              PF07101.10 sp|A5WCZ2|ISPH_PSYWF -              0.033   14.4   0.1     0.064   13.4   0.1   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF1363)
+TIR                  PF01582.19 sp|A5WCZ2|ISPH_PSYWF -              0.064   13.0   0.1      0.19   11.4   0.0   1.8   2   0   0   2   2   2   0 TIR domain
+DUF4817              PF16087.4  sp|A5WCZ2|ISPH_PSYWF -               0.18   11.6   0.0      0.75    9.6   0.0   2.0   2   0   0   2   2   2   0 Domain of unknown function (DUF4817)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A5WCZ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A5WCZ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A5WCZ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:35:35 2019
+# [ok]

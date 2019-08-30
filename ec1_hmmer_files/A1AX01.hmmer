@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A1AX01|HEM1_RUTMC -            1.6e-45  154.1   0.2   3.4e-45  153.1   0.2   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A1AX01|HEM1_RUTMC -            1.8e-43  147.8   0.9   3.4e-43  146.9   0.1   1.9   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A1AX01|HEM1_RUTMC -            5.2e-14   52.3   1.4   2.4e-13   50.2   0.1   2.6   3   1   1   4   4   4   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A1AX01|HEM1_RUTMC -            0.00014   22.3   0.7    0.0006   20.2   0.2   2.4   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+OCD_Mu_crystall      PF02423.14 sp|A1AX01|HEM1_RUTMC -            0.00055   18.9   0.1   0.00098   18.0   0.1   1.4   1   0   0   1   1   1   1 Ornithine cyclodeaminase/mu-crystallin family
+2-Hacid_dh_C         PF02826.18 sp|A1AX01|HEM1_RUTMC -              0.032   13.5   0.1     0.062   12.6   0.1   1.5   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+IlvC                 PF01450.18 sp|A1AX01|HEM1_RUTMC -               0.11   12.7   1.0       0.4   10.9   0.1   2.1   2   0   0   2   2   2   0 Acetohydroxy acid isomeroreductase, catalytic domain
+NAD_binding_7        PF13241.5  sp|A1AX01|HEM1_RUTMC -               0.12   12.7   0.0      0.35   11.2   0.0   1.8   1   0   0   1   1   1   0 Putative NAD(P)-binding
+GNAT_acetyltran      PF12746.6  sp|A1AX01|HEM1_RUTMC -               0.17   11.3   2.8      0.46    9.9   0.3   2.5   2   1   1   3   3   3   0 GNAT acetyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1AX01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1AX01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1AX01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:22:43 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX1                 PF00115.19 sp|O99818|COX1_RHISA -           1.5e-140  468.8  63.0  1.9e-140  468.4  63.0   1.2   1   0   0   1   1   1   1 Cytochrome C and Quinol oxidase polypeptide I
+DUF4408              PF14364.5  sp|O99818|COX1_RHISA -              0.011   15.4   0.6     0.048   13.3   0.6   2.2   1   0   0   1   1   1   0 Domain of unknown function (DUF4408)
+NapE                 PF06796.10 sp|O99818|COX1_RHISA -                6.3    6.3  12.3      0.33   10.4   1.0   2.9   2   0   0   2   2   2   0 Periplasmic nitrate reductase protein NapE
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O99818.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O99818.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O99818.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:28:28 2019
+# [ok]

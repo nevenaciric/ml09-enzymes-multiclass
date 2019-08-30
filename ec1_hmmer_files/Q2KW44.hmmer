@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHO_dh               PF01180.20 sp|Q2KW44|PYRD_BORA1 -            3.6e-87  292.2   0.1   4.2e-87  292.0   0.1   1.0   1   0   0   1   1   1   1 Dihydroorotate dehydrogenase
+DUF1357_C            PF17042.4  sp|Q2KW44|PYRD_BORA1 -              0.037   14.4   1.2       3.1    8.2   0.0   2.3   1   1   1   2   2   2   0 Putative nucleotide-binding of sugar-metabolising enzyme
+FMN_dh               PF01070.17 sp|Q2KW44|PYRD_BORA1 -              0.079   11.9   3.4      0.23   10.4   0.8   2.3   3   0   0   3   3   3   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2KW44.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2KW44.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2KW44.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:21:12 2019
+# [ok]

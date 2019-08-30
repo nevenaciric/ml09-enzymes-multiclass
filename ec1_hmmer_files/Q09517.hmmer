@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q09517|LE767_CAEEL -            1.6e-39  135.3   1.0   2.1e-39  134.9   1.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q09517|LE767_CAEEL -            1.4e-17   63.9   0.4   1.8e-17   63.6   0.4   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+DUF1776              PF08643.9  sp|Q09517|LE767_CAEEL -            4.8e-05   22.8   0.0      0.14   11.4   0.0   2.3   2   0   0   2   2   2   2 Fungal family of unknown function (DUF1776)
+KR                   PF08659.9  sp|Q09517|LE767_CAEEL -            6.5e-05   22.8   0.1   0.00024   21.0   0.1   1.9   1   1   0   1   1   1   1 KR domain
+NAD_binding_10       PF13460.5  sp|Q09517|LE767_CAEEL -              0.037   13.8   0.1      0.11   12.4   0.0   1.8   2   0   0   2   2   2   0 NAD(P)H-binding
+Epimerase            PF01370.20 sp|Q09517|LE767_CAEEL -              0.056   12.8   0.2      0.76    9.1   0.0   2.1   2   0   0   2   2   2   0 NAD dependent epimerase/dehydratase family
+ApbA                 PF02558.15 sp|Q09517|LE767_CAEEL -              0.079   12.5   0.0      0.14   11.7   0.0   1.4   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q09517.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q09517.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q09517.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:06:37 2019
+# [ok]

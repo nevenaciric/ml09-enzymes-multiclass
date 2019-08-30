@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+T4_deiodinase        PF00837.16 sp|A7YD35|IOD3_SPAAU -            5.9e-96  320.2   0.0   7.4e-96  319.9   0.0   1.0   1   0   0   1   1   1   1 Iodothyronine deiodinase
+AhpC-TSA             PF00578.20 sp|A7YD35|IOD3_SPAAU -             0.0022   17.8   0.0    0.0031   17.3   0.0   1.4   1   1   0   1   1   1   1 AhpC/TSA family
+DUF2284              PF10050.8  sp|A7YD35|IOD3_SPAAU -               0.04   13.6   0.0      0.26   10.9   0.0   2.0   2   0   0   2   2   2   0 Predicted metal-binding protein (DUF2284)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7YD35.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7YD35.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7YD35.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:40:19 2019
+# [ok]

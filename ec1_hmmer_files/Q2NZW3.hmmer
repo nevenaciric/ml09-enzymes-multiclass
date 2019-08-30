@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q2NZW3|HEM1_XANOM -            1.7e-47  160.5   0.0   3.4e-47  159.5   0.0   1.5   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q2NZW3|HEM1_XANOM -            3.2e-47  160.0   0.3     7e-47  158.9   0.1   1.6   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q2NZW3|HEM1_XANOM -            2.7e-18   66.1   1.6   4.7e-18   65.3   0.4   2.1   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+EntA_Immun           PF08951.9  sp|Q2NZW3|HEM1_XANOM -              0.058   13.7   0.1       0.2   11.9   0.1   2.0   1   1   0   1   1   1   0 Enterocin A Immunity
+OCD_Mu_crystall      PF02423.14 sp|Q2NZW3|HEM1_XANOM -              0.085   11.7   0.2      0.15   10.9   0.2   1.4   1   0   0   1   1   1   0 Ornithine cyclodeaminase/mu-crystallin family
+NAD_binding_7        PF13241.5  sp|Q2NZW3|HEM1_XANOM -              0.097   13.0   0.1       0.3   11.5   0.0   1.8   2   0   0   2   2   2   0 Putative NAD(P)-binding
+Ish1                 PF10281.8  sp|Q2NZW3|HEM1_XANOM -               0.17   12.1   0.1       1.2    9.4   0.1   2.5   2   0   0   2   2   2   0 Putative stress-responsive nuclear envelope protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2NZW3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2NZW3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2NZW3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:21:58 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|Q4J781|ADH_SULAC  -            1.2e-30  105.5   0.1     2e-30  104.8   0.1   1.4   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|Q4J781|ADH_SULAC  -            1.3e-22   80.0   0.1     2e-22   79.4   0.1   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_zinc_N_2         PF13602.5  sp|Q4J781|ADH_SULAC  -            1.8e-19   71.0   0.0   2.7e-19   70.4   0.0   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|Q4J781|ADH_SULAC  -            0.00013   21.4   0.1   0.00021   20.8   0.1   1.2   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+Methyltransf_31      PF13847.5  sp|Q4J781|ADH_SULAC  -             0.0028   17.4   0.0    0.0041   16.8   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_25      PF13649.5  sp|Q4J781|ADH_SULAC  -             0.0033   18.0   0.0    0.0061   17.2   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+DapB_N               PF01113.19 sp|Q4J781|ADH_SULAC  -              0.037   14.0   0.4     0.071   13.1   0.4   1.4   1   0   0   1   1   1   0 Dihydrodipicolinate reductase, N-terminus
+Methyltransf_12      PF08242.11 sp|Q4J781|ADH_SULAC  -              0.039   14.6   0.0     0.071   13.7   0.0   1.4   1   0   0   1   1   1   0 Methyltransferase domain
+ADH_N_2              PF16884.4  sp|Q4J781|ADH_SULAC  -               0.12   12.2   0.0      0.25   11.2   0.0   1.5   1   0   0   1   1   1   0 N-terminal domain of oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4J781.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4J781.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4J781.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:34:04 2019
+# [ok]

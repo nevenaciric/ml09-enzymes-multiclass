@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Molybdopterin        PF00384.21 sp|D3RNN8|SOEA_ALLVD -            8.5e-31  107.3   0.0   4.7e-19   68.6   0.0   3.2   2   2   0   2   2   2   2 Molybdopterin oxidoreductase
+Molybdop_Fe4S4       PF04879.15 sp|D3RNN8|SOEA_ALLVD -            4.2e-15   55.4   3.0   7.9e-15   54.5   3.0   1.5   1   0   0   1   1   1   1 Molybdopterin oxidoreductase Fe4S4 domain
+Molydop_binding      PF01568.20 sp|D3RNN8|SOEA_ALLVD -              3e-10   40.0   0.0   6.3e-10   39.0   0.0   1.5   1   0   0   1   1   1   1 Molydopterin dinucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/D3RNN8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/D3RNN8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/D3RNN8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:16:44 2019
+# [ok]

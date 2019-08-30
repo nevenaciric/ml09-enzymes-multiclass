@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|B3PQA3|GPDA_RHIE6 -            2.2e-40  138.1   0.6   4.9e-40  137.0   0.5   1.6   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|B3PQA3|GPDA_RHIE6 -            8.4e-38  129.7   0.0   1.3e-37  129.1   0.0   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|B3PQA3|GPDA_RHIE6 -            3.9e-10   39.5   0.0   6.2e-10   38.8   0.0   1.3   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|B3PQA3|GPDA_RHIE6 -            6.7e-09   36.1   0.6     4e-08   33.6   0.3   2.5   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+UDPG_MGDP_dh_N       PF03721.13 sp|B3PQA3|GPDA_RHIE6 -            0.00081   18.9   0.0     0.011   15.2   0.0   2.3   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Semialdhyde_dh       PF01118.23 sp|B3PQA3|GPDA_RHIE6 -             0.0027   18.0   0.0    0.0051   17.1   0.0   1.5   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|B3PQA3|GPDA_RHIE6 -             0.0095   16.0   0.0      0.02   14.9   0.0   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+TrkA_N               PF02254.17 sp|B3PQA3|GPDA_RHIE6 -               0.01   16.0   0.0     0.029   14.5   0.0   1.8   1   0   0   1   1   1   0 TrkA-N domain
+Pyr_redox_2          PF07992.13 sp|B3PQA3|GPDA_RHIE6 -              0.016   14.4   0.2     0.049   12.8   0.1   1.8   3   0   0   3   3   3   0 Pyridine nucleotide-disulphide oxidoreductase
+3HCDH_N              PF02737.17 sp|B3PQA3|GPDA_RHIE6 -              0.018   14.9   0.3     0.041   13.7   0.2   1.6   1   1   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B3PQA3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B3PQA3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B3PQA3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:56:38 2019
+# [ok]

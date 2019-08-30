@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q9KQ24|HEM1_VIBCH -            1.4e-52  177.0   0.3   2.7e-52  176.1   0.3   1.5   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q9KQ24|HEM1_VIBCH -            2.8e-50  169.9   0.1   4.8e-50  169.1   0.1   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q9KQ24|HEM1_VIBCH -            2.3e-22   79.1   0.7   2.3e-22   79.1   0.7   2.2   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|Q9KQ24|HEM1_VIBCH -            0.00021   21.7   0.1     0.001   19.5   0.1   2.3   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+OCD_Mu_crystall      PF02423.14 sp|Q9KQ24|HEM1_VIBCH -             0.0012   17.8   0.2    0.0023   16.8   0.2   1.4   1   0   0   1   1   1   1 Ornithine cyclodeaminase/mu-crystallin family
+2-Hacid_dh_C         PF02826.18 sp|Q9KQ24|HEM1_VIBCH -             0.0052   16.1   0.0    0.0093   15.2   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q9KQ24|HEM1_VIBCH -              0.014   15.6   0.0     0.041   14.0   0.0   1.9   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+CEP209_CC5           PF16574.4  sp|Q9KQ24|HEM1_VIBCH -              0.036   14.1   0.1      0.15   12.2   0.0   1.9   2   0   0   2   2   2   0 Coiled-coil region of centrosome protein CE290
+NAD_binding_7        PF13241.5  sp|Q9KQ24|HEM1_VIBCH -               0.09   13.1   0.0      0.24   11.8   0.0   1.8   1   0   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9KQ24.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9KQ24.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9KQ24.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:29:07 2019
+# [ok]

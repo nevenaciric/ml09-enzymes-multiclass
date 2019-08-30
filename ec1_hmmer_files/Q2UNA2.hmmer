@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|Q2UNA2|C505_ASPOR -            1.5e-83  281.0   0.0   2.2e-83  280.4   0.0   1.2   1   0   0   1   1   1   1 Cytochrome P450
+Flavodoxin_1         PF00258.24 sp|Q2UNA2|C505_ASPOR -            1.4e-25   90.0   0.0   1.1e-24   87.2   0.0   2.5   3   0   0   3   3   3   1 Flavodoxin
+FAD_binding_1        PF00667.19 sp|Q2UNA2|C505_ASPOR -            9.4e-25   87.4   0.0   1.4e-24   86.8   0.0   1.2   1   0   0   1   1   1   1 FAD binding domain
+NAD_binding_1        PF00175.20 sp|Q2UNA2|C505_ASPOR -            1.7e-09   38.2   0.0   5.1e-09   36.6   0.0   1.8   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+Flavodoxin_5         PF12724.6  sp|Q2UNA2|C505_ASPOR -             0.0063   16.7   0.0     0.012   15.7   0.0   1.4   1   0   0   1   1   1   1 Flavodoxin domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2UNA2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2UNA2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2UNA2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:23:08 2019
+# [ok]

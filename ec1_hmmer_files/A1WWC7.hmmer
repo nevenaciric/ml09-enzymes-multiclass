@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|A1WWC7|GPDA_HALHL -            2.8e-49  167.0   0.3   4.2e-49  166.4   0.3   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|A1WWC7|GPDA_HALHL -            1.5e-47  161.4   0.0   2.2e-47  160.8   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|A1WWC7|GPDA_HALHL -              1e-08   34.8   0.0   1.8e-08   34.0   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|A1WWC7|GPDA_HALHL -            7.5e-08   32.8   0.0   2.7e-07   31.0   0.0   1.9   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+Rossmann-like        PF10727.8  sp|A1WWC7|GPDA_HALHL -            1.5e-06   28.0   0.7   8.2e-06   25.6   0.1   2.4   2   0   0   2   2   2   1 Rossmann-like domain
+NAD_binding_2        PF03446.14 sp|A1WWC7|GPDA_HALHL -            0.00019   21.5   0.1    0.0027   17.8   0.0   2.3   2   1   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|A1WWC7|GPDA_HALHL -             0.0037   17.1   0.0     0.008   16.0   0.0   1.6   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ApbA_C               PF08546.10 sp|A1WWC7|GPDA_HALHL -             0.0078   16.3   0.2      0.21   11.7   0.2   2.4   1   1   0   1   1   1   1 Ketopantoate reductase PanE/ApbA C terminal
+Sacchrp_dh_NADP      PF03435.17 sp|A1WWC7|GPDA_HALHL -              0.026   14.7   0.0      0.23   11.6   0.0   2.1   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1WWC7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1WWC7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1WWC7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:25:49 2019
+# [ok]

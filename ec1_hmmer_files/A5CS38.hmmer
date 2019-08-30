@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHO_dh               PF01180.20 sp|A5CS38|PYRD_CLAM3 -            2.4e-89  299.4   0.0   2.8e-89  299.1   0.0   1.0   1   0   0   1   1   1   1 Dihydroorotate dehydrogenase
+NMO                  PF03060.14 sp|A5CS38|PYRD_CLAM3 -            6.3e-05   22.4   2.4   0.00014   21.3   2.4   1.6   1   1   0   1   1   1   1 Nitronate monooxygenase
+DUF1323              PF07037.10 sp|A5CS38|PYRD_CLAM3 -               0.01   16.1   0.0     0.092   13.0   0.0   2.1   1   1   0   1   1   1   0 Putative transcription regulator (DUF1323)
+FMN_dh               PF01070.17 sp|A5CS38|PYRD_CLAM3 -              0.037   13.0   0.7     0.096   11.6   0.3   1.8   2   0   0   2   2   2   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A5CS38.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A5CS38.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A5CS38.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:32:55 2019
+# [ok]

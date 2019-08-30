@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMC_oxred_N          PF00732.18 sp|A9M9H8|BETA_BRUC2 -            1.6e-96  323.1   0.0   2.5e-96  322.5   0.0   1.3   1   0   0   1   1   1   1 GMC oxidoreductase
+GMC_oxred_C          PF05199.12 sp|A9M9H8|BETA_BRUC2 -            1.4e-42  145.5   0.0   2.7e-42  144.6   0.0   1.5   1   0   0   1   1   1   1 GMC oxidoreductase
+FAD_binding_2        PF00890.23 sp|A9M9H8|BETA_BRUC2 -            9.5e-06   24.8   0.1    0.0019   17.3   0.0   2.3   2   0   0   2   2   2   2 FAD binding domain
+DAO                  PF01266.23 sp|A9M9H8|BETA_BRUC2 -            0.00024   20.7   0.6    0.0015   18.1   0.2   2.3   2   0   0   2   2   2   1 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|A9M9H8|BETA_BRUC2 -            0.00059   19.9   0.3    0.0025   17.9   0.1   2.3   2   0   0   2   2   2   1 NAD(P)-binding Rossmann-like domain
+Thi4                 PF01946.16 sp|A9M9H8|BETA_BRUC2 -             0.0038   16.4   0.3    0.0079   15.4   0.1   1.6   2   0   0   2   2   2   1 Thi4 family
+Pyr_redox_2          PF07992.13 sp|A9M9H8|BETA_BRUC2 -             0.0097   15.1   0.0     0.025   13.8   0.0   1.6   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+GIDA                 PF01134.21 sp|A9M9H8|BETA_BRUC2 -              0.035   13.1   0.0       7.1    5.5   0.0   2.2   2   0   0   2   2   2   0 Glucose inhibited division protein A
+Pyr_redox_3          PF13738.5  sp|A9M9H8|BETA_BRUC2 -               0.05   12.7   0.1      0.12   11.5   0.0   1.6   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+Lycopene_cycl        PF05834.11 sp|A9M9H8|BETA_BRUC2 -              0.074   12.0   0.0      0.16   10.8   0.0   1.5   2   0   0   2   2   2   0 Lycopene cyclase protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A9M9H8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A9M9H8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A9M9H8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:45:32 2019
+# [ok]

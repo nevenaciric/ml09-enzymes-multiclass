@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|B1YNW1|IOLG_BURA4 -            3.1e-24   86.0   0.1     5e-24   85.3   0.1   1.3   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+GFO_IDH_MocA_C       PF02894.16 sp|B1YNW1|IOLG_BURA4 -              5e-10   39.3   0.0   8.1e-10   38.6   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase family, C-terminal alpha/beta domain
+F420_oxidored        PF03807.16 sp|B1YNW1|IOLG_BURA4 -            0.00073   20.0   0.1    0.0014   19.1   0.1   1.5   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_3        PF03447.15 sp|B1YNW1|IOLG_BURA4 -              0.002   18.7   0.3     0.004   17.7   0.3   1.5   1   0   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|B1YNW1|IOLG_BURA4 -             0.0029   16.9   0.0    0.0053   16.0   0.0   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|B1YNW1|IOLG_BURA4 -              0.012   15.7   0.1     0.028   14.5   0.0   1.6   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+Gp_dh_N              PF00044.23 sp|B1YNW1|IOLG_BURA4 -              0.036   14.3   0.1     0.095   13.0   0.1   1.7   1   0   0   1   1   1   0 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+DapB_N               PF01113.19 sp|B1YNW1|IOLG_BURA4 -               0.12   12.4   0.1      0.26   11.3   0.1   1.6   1   0   0   1   1   1   0 Dihydrodipicolinate reductase, N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B1YNW1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B1YNW1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B1YNW1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:52:40 2019
+# [ok]

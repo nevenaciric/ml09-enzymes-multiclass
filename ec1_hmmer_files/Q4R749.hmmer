@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_desaturase        PF00487.23 sp|Q4R749|FADS2_MACFA -            1.9e-33  116.3  29.3   1.9e-33  116.3  29.3   2.0   1   1   1   2   2   2   2 Fatty acid desaturase
+Cyt-b5               PF00173.27 sp|Q4R749|FADS2_MACFA -            5.6e-21   74.4   0.0   1.1e-20   73.5   0.0   1.5   1   0   0   1   1   1   1 Cytochrome b5-like Heme/Steroid binding domain
+DUF5318              PF17249.1  sp|Q4R749|FADS2_MACFA -               0.23   11.2   0.3      0.43   10.2   0.3   1.4   1   0   0   1   1   1   0 Family of unknown function (DUF5318)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4R749.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4R749.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4R749.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:35:22 2019
+# [ok]

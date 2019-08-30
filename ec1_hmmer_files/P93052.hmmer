@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|P93052|LDH_BOTBR  -            3.9e-38  130.6   0.2     6e-38  130.0   0.2   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|P93052|LDH_BOTBR  -            2.1e-25   89.5   0.0     3e-25   89.0   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|P93052|LDH_BOTBR  -               0.02   14.4   0.0      0.06   12.8   0.0   1.8   1   0   0   1   1   1   0 Family 4 glycosyl hydrolase
+ThiF                 PF00899.20 sp|P93052|LDH_BOTBR  -               0.02   14.2   1.1     0.035   13.4   1.1   1.3   1   0   0   1   1   1   0 ThiF family
+F420_oxidored        PF03807.16 sp|P93052|LDH_BOTBR  -               0.16   12.5   1.8       1.1    9.8   1.5   2.6   2   1   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P93052.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P93052.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P93052.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:59:16 2019
+# [ok]

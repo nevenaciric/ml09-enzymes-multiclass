@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|O31767|YMFI_BACSU -            5.9e-52  176.5   1.0   6.7e-52  176.3   1.0   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|O31767|YMFI_BACSU -            2.4e-45  154.3   1.4   2.9e-45  154.0   1.4   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|O31767|YMFI_BACSU -            6.8e-14   52.1   1.0   8.7e-14   51.7   1.0   1.1   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|O31767|YMFI_BACSU -            3.6e-05   23.3   0.1     5e-05   22.8   0.1   1.3   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+GDP_Man_Dehyd        PF16363.4  sp|O31767|YMFI_BACSU -             0.0021   17.4   0.1    0.0031   16.8   0.1   1.4   1   0   0   1   1   1   1 GDP-mannose 4,6 dehydratase
+DUF1776              PF08643.9  sp|O31767|YMFI_BACSU -             0.0026   17.1   0.0    0.0031   16.8   0.0   1.2   1   0   0   1   1   1   1 Fungal family of unknown function (DUF1776)
+NAD_binding_10       PF13460.5  sp|O31767|YMFI_BACSU -             0.0031   17.3   0.1     0.004   17.0   0.1   1.3   1   0   0   1   1   1   1 NAD(P)H-binding
+FR47                 PF08445.9  sp|O31767|YMFI_BACSU -              0.024   14.5   0.2      0.26   11.2   0.0   2.5   3   0   0   3   3   3   0 FR47-like protein
+NmrA                 PF05368.12 sp|O31767|YMFI_BACSU -              0.092   12.2   0.1      0.14   11.6   0.1   1.4   1   0   0   1   1   1   0 NmrA-like family
+Polysacc_synt_2      PF02719.14 sp|O31767|YMFI_BACSU -              0.096   11.7   0.0      0.14   11.1   0.0   1.3   1   0   0   1   1   1   0 Polysaccharide biosynthesis protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O31767.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O31767.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O31767.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:23:10 2019
+# [ok]

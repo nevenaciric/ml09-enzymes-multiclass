@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|Q0HP88|GPDA_SHESM -              1e-50  171.6   0.8   1.5e-50  171.1   0.8   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|Q0HP88|GPDA_SHESM -            8.9e-49  165.4   0.0   1.3e-48  164.8   0.0   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|Q0HP88|GPDA_SHESM -            4.5e-09   36.0   0.0   7.5e-09   35.3   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q0HP88|GPDA_SHESM -            9.1e-05   22.9   0.0   0.00035   21.0   0.0   2.0   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q0HP88|GPDA_SHESM -            0.00048   20.2   0.0     0.001   19.2   0.0   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GIDA                 PF01134.21 sp|Q0HP88|GPDA_SHESM -             0.0011   18.0   0.1    0.0025   16.8   0.0   1.5   2   0   0   2   2   2   1 Glucose inhibited division protein A
+ArsA_ATPase          PF02374.14 sp|Q0HP88|GPDA_SHESM -              0.023   13.9   0.0     0.039   13.1   0.0   1.3   1   0   0   1   1   1   0 Anion-transporting ATPase
+3HCDH_N              PF02737.17 sp|Q0HP88|GPDA_SHESM -              0.029   14.1   0.0     0.067   13.0   0.0   1.6   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q0HP88|GPDA_SHESM -               0.11   12.0   0.0      0.22   11.0   0.0   1.6   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+ApbA_C               PF08546.10 sp|Q0HP88|GPDA_SHESM -               0.14   12.3   0.0      0.41   10.7   0.0   1.8   2   0   0   2   2   2   0 Ketopantoate reductase PanE/ApbA C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q0HP88.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q0HP88.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q0HP88.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:08:18 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q92EK7|Y452_LISIN -              7e-60  201.7   1.9   8.8e-60  201.4   1.9   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q92EK7|Y452_LISIN -            1.3e-41  142.6   1.5   1.6e-41  142.3   1.5   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q92EK7|Y452_LISIN -            2.2e-17   63.5   0.4   3.3e-17   62.9   0.4   1.2   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q92EK7|Y452_LISIN -            0.00012   21.5   0.2   0.00033   20.1   0.2   1.6   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+THF_DHG_CYH_C        PF02882.18 sp|Q92EK7|Y452_LISIN -              0.016   14.4   0.2      0.03   13.5   0.2   1.5   1   0   0   1   1   1   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+VIT1                 PF01988.18 sp|Q92EK7|Y452_LISIN -              0.052   13.3   0.2       1.2    8.8   0.0   2.2   1   1   1   2   2   2   0 VIT family
+Wax2_C               PF12076.7  sp|Q92EK7|Y452_LISIN -               0.12   12.0   0.0      0.46   10.1   0.1   1.8   2   0   0   2   2   2   0 WAX2 C-terminal domain
+CAP18_C              PF12153.7  sp|Q92EK7|Y452_LISIN -               0.16   11.8   0.4       0.3   11.0   0.4   1.4   1   0   0   1   1   1   0 LPS binding domain of CAP18 (C terminal)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q92EK7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q92EK7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q92EK7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:20:26 2019
+# [ok]

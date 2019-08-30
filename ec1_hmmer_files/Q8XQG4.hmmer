@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_2        PF00890.23 sp|Q8XQG4|NADB2_RALSO -            5.2e-83  279.4   5.2     7e-83  278.9   5.2   1.2   1   0   0   1   1   1   1 FAD binding domain
+Succ_DH_flav_C       PF02910.19 sp|Q8XQG4|NADB2_RALSO -            1.2e-12   47.8   0.5   1.7e-11   44.1   0.5   2.2   1   1   0   1   1   1   1 Fumarate reductase flavoprotein C-term
+Pyr_redox_2          PF07992.13 sp|Q8XQG4|NADB2_RALSO -              0.018   14.2   0.1      0.25   10.4   0.0   2.4   2   1   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+Surfac_D-trimer      PF09006.10 sp|Q8XQG4|NADB2_RALSO -              0.062   13.1   0.0      0.27   11.1   0.0   1.9   2   0   0   2   2   2   0 Lung surfactant protein D coiled-coil trimerisation
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8XQG4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8XQG4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8XQG4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:17:45 2019
+# [ok]

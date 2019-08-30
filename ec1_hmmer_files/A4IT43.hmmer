@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|A4IT43|ACDH_GEOTN -            2.1e-63  212.5   1.2   3.5e-63  211.8   1.2   1.4   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|A4IT43|ACDH_GEOTN -            7.8e-15   55.3   0.1   2.3e-14   53.7   0.0   1.8   2   0   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+DapB_N               PF01113.19 sp|A4IT43|ACDH_GEOTN -            4.1e-05   23.6   0.1    0.0001   22.3   0.0   1.7   2   0   0   2   2   2   1 Dihydrodipicolinate reductase, N-terminus
+F420_oxidored        PF03807.16 sp|A4IT43|ACDH_GEOTN -             0.0001   22.7   0.0   0.00023   21.6   0.0   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+GFO_IDH_MocA         PF01408.21 sp|A4IT43|ACDH_GEOTN -            0.00011   22.9   0.0   0.00024   21.8   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+UDPG_MGDP_dh_N       PF03721.13 sp|A4IT43|ACDH_GEOTN -             0.0079   15.7   0.0     0.015   14.7   0.0   1.5   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+TrkA_N               PF02254.17 sp|A4IT43|ACDH_GEOTN -              0.018   15.2   0.0     0.087   13.0   0.0   2.1   1   1   0   1   1   1   0 TrkA-N domain
+Sacchrp_dh_NADP      PF03435.17 sp|A4IT43|ACDH_GEOTN -              0.025   14.8   0.0     0.076   13.2   0.0   1.9   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+CoA_binding          PF02629.18 sp|A4IT43|ACDH_GEOTN -              0.036   14.7   0.3      0.25   11.9   0.0   2.5   3   0   0   3   3   3   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4IT43.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4IT43.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4IT43.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:29:45 2019
+# [ok]

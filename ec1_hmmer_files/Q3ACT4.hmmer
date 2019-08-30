@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q3ACT4|HEM1_CARHZ -            5.3e-49  165.4   0.0   1.1e-48  164.4   0.0   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q3ACT4|HEM1_CARHZ -            1.5e-43  148.1   0.0   3.4e-43  146.9   0.0   1.6   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q3ACT4|HEM1_CARHZ -            7.7e-27   93.5   2.1   9.9e-27   93.1   0.8   1.9   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+NAD_binding_7        PF13241.5  sp|Q3ACT4|HEM1_CARHZ -            0.00014   22.2   0.5    0.0021   18.3   0.0   2.3   2   0   0   2   2   2   1 Putative NAD(P)-binding
+F420_oxidored        PF03807.16 sp|Q3ACT4|HEM1_CARHZ -            0.00017   22.0   0.5   0.00058   20.3   0.0   2.2   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+Glu_dehyd_C          PF16912.4  sp|Q3ACT4|HEM1_CARHZ -              0.011   15.2   0.0     0.019   14.4   0.0   1.4   1   0   0   1   1   1   0 Glucose dehydrogenase C-terminus
+Sacchrp_dh_NADP      PF03435.17 sp|Q3ACT4|HEM1_CARHZ -              0.011   15.8   0.1     0.044   14.0   0.1   2.1   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+2-Hacid_dh_C         PF02826.18 sp|Q3ACT4|HEM1_CARHZ -               0.03   13.6   0.0     0.064   12.5   0.0   1.5   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3ACT4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3ACT4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3ACT4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:26:36 2019
+# [ok]

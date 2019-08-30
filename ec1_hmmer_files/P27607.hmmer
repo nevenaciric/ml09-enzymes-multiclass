@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+An_peroxidase        PF03098.14 sp|P27607|PGH2_CHICK -            1.1e-56  192.4   0.0   7.2e-50  169.9   0.0   2.3   1   1   1   2   2   2   2 Animal haem peroxidase
+EGF                  PF00008.26 sp|P27607|PGH2_CHICK -            3.8e-05   23.8  12.0   8.3e-05   22.7  12.0   1.6   1   0   0   1   1   1   1 EGF-like domain
+EGF_2                PF07974.12 sp|P27607|PGH2_CHICK -              0.026   14.8  12.6     0.058   13.7  12.6   1.5   1   0   0   1   1   1   0 EGF-like domain
+hEGF                 PF12661.6  sp|P27607|PGH2_CHICK -               0.48   11.1   4.9       1.1    9.9   4.9   1.7   1   0   0   1   1   1   0 Human growth factor-like EGF
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P27607.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P27607.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P27607.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:41:27 2019
+# [ok]

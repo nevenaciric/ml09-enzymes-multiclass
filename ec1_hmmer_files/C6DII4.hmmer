@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mannitol_dh_C        PF08125.12 sp|C6DII4|MTLD_PECCP -            1.4e-64  217.9   0.0   1.8e-64  217.5   0.0   1.2   1   0   0   1   1   1   1 Mannitol dehydrogenase C-terminal domain
+Mannitol_dh          PF01232.22 sp|C6DII4|MTLD_PECCP -              3e-23   82.5   0.1   2.5e-22   79.6   0.1   2.1   2   0   0   2   2   2   1 Mannitol dehydrogenase Rossmann domain
+ApbA                 PF02558.15 sp|C6DII4|MTLD_PECCP -              0.011   15.2   0.1      0.02   14.4   0.1   1.4   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+Sacchrp_dh_NADP      PF03435.17 sp|C6DII4|MTLD_PECCP -              0.059   13.5   0.1      0.13   12.4   0.1   1.7   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C6DII4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C6DII4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C6DII4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:15:53 2019
+# [ok]

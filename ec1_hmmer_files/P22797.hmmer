@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|P22797|ADH1_PELPE -            1.1e-26   92.8   1.0   2.2e-26   91.7   1.0   1.6   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|P22797|ADH1_PELPE -            1.3e-20   73.5   0.1   2.4e-20   72.6   0.1   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_zinc_N_2         PF13602.5  sp|P22797|ADH1_PELPE -              0.068   14.1   0.0      0.18   12.7   0.0   1.7   1   1   0   1   1   1   0 Zinc-binding dehydrogenase
+UDPG_MGDP_dh_N       PF03721.13 sp|P22797|ADH1_PELPE -               0.11   11.9   0.2      0.19   11.2   0.2   1.4   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P22797.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P22797.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P22797.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:39:40 2019
+# [ok]

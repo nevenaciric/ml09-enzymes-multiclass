@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_2        PF03446.14 sp|Q2TW47|REDAM_ASPOR -            8.5e-21   74.7   0.1   2.1e-20   73.4   0.0   1.7   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+F420_oxidored        PF03807.16 sp|Q2TW47|REDAM_ASPOR -            2.1e-07   31.3   0.1   3.9e-07   30.5   0.1   1.5   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+ApbA                 PF02558.15 sp|Q2TW47|REDAM_ASPOR -            8.8e-06   25.3   1.1   5.5e-05   22.8   1.0   2.0   1   1   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+2-Hacid_dh_C         PF02826.18 sp|Q2TW47|REDAM_ASPOR -             0.0002   20.7   0.1   0.00032   20.0   0.1   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q2TW47|REDAM_ASPOR -            0.00024   21.1   0.1   0.00048   20.1   0.1   1.5   1   1   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+NAD_Gly3P_dh_N       PF01210.22 sp|Q2TW47|REDAM_ASPOR -              0.002   18.0   0.5    0.0083   16.0   0.5   1.9   1   1   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+IlvN                 PF07991.11 sp|Q2TW47|REDAM_ASPOR -              0.025   14.0   0.0     0.041   13.4   0.0   1.3   1   0   0   1   1   1   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+3HCDH_N              PF02737.17 sp|Q2TW47|REDAM_ASPOR -              0.045   13.5   0.1     0.065   13.0   0.1   1.3   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q2TW47|REDAM_ASPOR -              0.045   13.9   0.1      0.09   12.9   0.1   1.5   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+DmpG_comm            PF07836.10 sp|Q2TW47|REDAM_ASPOR -               0.12   11.9   0.3      0.29   10.6   0.1   1.8   2   0   0   2   2   2   0 DmpG-like communication domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2TW47.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2TW47.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2TW47.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:23:02 2019
+# [ok]

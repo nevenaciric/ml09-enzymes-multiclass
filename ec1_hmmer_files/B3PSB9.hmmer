@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|B3PSB9|ISPH_RHIE6 -            1.7e-81  273.3   0.0     2e-81  273.1   0.0   1.0   1   0   0   1   1   1   1 LytB protein
+NAD_binding_10       PF13460.5  sp|B3PSB9|ISPH_RHIE6 -              0.012   15.5   0.2     0.043   13.6   0.1   1.9   2   0   0   2   2   2   0 NAD(P)H-binding
+Ferrochelatase       PF00762.18 sp|B3PSB9|ISPH_RHIE6 -              0.089   11.7   0.0      0.15   11.0   0.0   1.3   1   0   0   1   1   1   0 Ferrochelatase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B3PSB9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B3PSB9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B3PSB9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:56:39 2019
+# [ok]

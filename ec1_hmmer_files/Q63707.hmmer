@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHO_dh               PF01180.20 sp|Q63707|PYRD_RAT   -           7.5e-118  392.9   0.0  9.3e-118  392.6   0.0   1.1   1   0   0   1   1   1   1 Dihydroorotate dehydrogenase
+FMN_dh               PF01070.17 sp|Q63707|PYRD_RAT   -             0.0024   16.8   1.4      0.12   11.3   1.4   2.6   2   1   0   2   2   2   1 FMN-dependent dehydrogenase
+NMO                  PF03060.14 sp|Q63707|PYRD_RAT   -              0.037   13.3   0.3     0.075   12.3   0.3   1.5   2   0   0   2   2   2   0 Nitronate monooxygenase
+Trp_syntA            PF00290.19 sp|Q63707|PYRD_RAT   -              0.042   12.6   0.0     0.062   12.0   0.0   1.2   1   0   0   1   1   1   0 Tryptophan synthase alpha chain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q63707.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q63707.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q63707.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:48:55 2019
+# [ok]

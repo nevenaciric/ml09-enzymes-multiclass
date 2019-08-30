@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q3Z9A4|MDH_DEHM1  -            8.3e-41  139.3   0.3   1.2e-40  138.8   0.3   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q3Z9A4|MDH_DEHM1  -            6.8e-23   81.3   0.0   2.1e-22   79.7   0.0   1.7   2   0   0   2   2   2   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+F420_oxidored        PF03807.16 sp|Q3Z9A4|MDH_DEHM1  -            0.00036   21.0   1.2    0.0022   18.5   1.2   2.4   1   1   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+Glyco_hydro_4        PF02056.15 sp|Q3Z9A4|MDH_DEHM1  -             0.0022   17.5   0.0    0.0061   16.0   0.0   1.7   2   0   0   2   2   2   1 Family 4 glycosyl hydrolase
+NAD_Gly3P_dh_N       PF01210.22 sp|Q3Z9A4|MDH_DEHM1  -              0.033   14.1   0.2      0.16   11.8   0.2   2.3   1   1   0   1   1   1   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+Shikimate_DH         PF01488.19 sp|Q3Z9A4|MDH_DEHM1  -              0.039   13.9   0.2      0.11   12.5   0.2   1.9   1   1   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+3HCDH_N              PF02737.17 sp|Q3Z9A4|MDH_DEHM1  -              0.048   13.4   0.3     0.088   12.6   0.3   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q3Z9A4|MDH_DEHM1  -              0.099   12.1   0.4      0.16   11.4   0.4   1.5   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3Z9A4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3Z9A4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3Z9A4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:30:11 2019
+# [ok]

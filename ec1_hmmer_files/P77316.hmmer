@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|P77316|YBDR_ECOLI -            1.5e-30  105.2   0.1   3.8e-30  103.9   0.1   1.7   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|P77316|YBDR_ECOLI -            4.5e-12   45.9   0.1   2.7e-09   36.9   0.0   2.5   1   1   1   2   2   2   2 Zinc-binding dehydrogenase
+ADH_N_assoc          PF13823.5  sp|P77316|YBDR_ECOLI -            7.6e-12   44.8   0.2   1.5e-11   43.9   0.2   1.5   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-associated
+ADH_zinc_N_2         PF13602.5  sp|P77316|YBDR_ECOLI -            0.00011   23.2   0.2   0.00076   20.4   0.2   2.2   1   1   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|P77316|YBDR_ECOLI -            0.00085   18.8   0.0     0.003   17.0   0.0   1.9   2   1   0   2   2   2   1 Glucose dehydrogenase C-terminus
+AlaDh_PNT_C          PF01262.20 sp|P77316|YBDR_ECOLI -             0.0089   15.2   0.0     0.017   14.3   0.0   1.4   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P77316.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P77316.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P77316.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:56:24 2019
+# [ok]

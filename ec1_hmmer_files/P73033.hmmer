@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|P73033|GPDA_SYNY3 -            4.4e-47  159.8   0.0   7.2e-47  159.1   0.0   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|P73033|GPDA_SYNY3 -            1.3e-25   90.1   1.3   5.8e-18   65.2   0.1   2.3   1   1   1   2   2   2   2 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+F420_oxidored        PF03807.16 sp|P73033|GPDA_SYNY3 -            6.7e-05   23.3   0.3      0.21   12.1   0.1   3.4   3   1   1   4   4   4   2 NADP oxidoreductase coenzyme F420-dependent
+THF_DHG_CYH_C        PF02882.18 sp|P73033|GPDA_SYNY3 -              0.015   14.5   0.0     0.029   13.6   0.0   1.4   1   0   0   1   1   1   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+3HCDH_N              PF02737.17 sp|P73033|GPDA_SYNY3 -              0.067   13.0   0.0      0.39   10.5   0.0   2.1   1   1   1   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Pyr_redox            PF00070.26 sp|P73033|GPDA_SYNY3 -               0.11   13.0   0.0       9.8    6.7   0.0   2.6   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P73033.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P73033.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P73033.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:55:51 2019
+# [ok]

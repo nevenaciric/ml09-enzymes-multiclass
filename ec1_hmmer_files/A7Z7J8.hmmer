@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|A7Z7J8|MDH_BACVZ  -            1.1e-41  142.1   0.1   1.6e-41  141.6   0.1   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|A7Z7J8|MDH_BACVZ  -            2.7e-28   98.9   0.0   4.5e-28   98.2   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|A7Z7J8|MDH_BACVZ  -            8.3e-05   22.1   1.3   0.00027   20.5   1.3   1.8   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Glyco_hydro_4        PF02056.15 sp|A7Z7J8|MDH_BACVZ  -            0.00011   21.7   2.3    0.0043   16.5   0.1   2.8   2   1   1   3   3   3   1 Family 4 glycosyl hydrolase
+DAO                  PF01266.23 sp|A7Z7J8|MDH_BACVZ  -             0.0014   18.2   0.4     0.046   13.2   0.1   2.3   1   1   1   2   2   2   1 FAD dependent oxidoreductase
+3HCDH_N              PF02737.17 sp|A7Z7J8|MDH_BACVZ  -              0.015   15.1   0.8     0.029   14.1   0.1   1.9   2   1   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_8        PF13450.5  sp|A7Z7J8|MDH_BACVZ  -              0.026   14.6   0.0     0.055   13.6   0.0   1.5   1   0   0   1   1   1   0 NAD(P)-binding Rossmann-like domain
+AlaDh_PNT_C          PF01262.20 sp|A7Z7J8|MDH_BACVZ  -              0.036   13.3   0.2     0.055   12.7   0.2   1.3   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+Pyr_redox_2          PF07992.13 sp|A7Z7J8|MDH_BACVZ  -              0.042   13.0   0.0     0.058   12.5   0.0   1.3   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7Z7J8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7Z7J8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7Z7J8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:40:31 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DapB_N               PF01113.19 sp|Q4JV62|DAPB_CORJK -            1.8e-26   92.6   0.7   1.3e-25   89.9   0.7   2.2   1   1   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+DapB_C               PF05173.13 sp|Q4JV62|DAPB_CORJK -            4.8e-26   91.1   0.0   6.6e-26   90.6   0.0   1.2   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, C-terminus
+NAD_binding_10       PF13460.5  sp|Q4JV62|DAPB_CORJK -            0.00081   19.2   0.4    0.0013   18.6   0.4   1.4   1   0   0   1   1   1   1 NAD(P)H-binding
+Sacchrp_dh_NADP      PF03435.17 sp|Q4JV62|DAPB_CORJK -             0.0009   19.4   1.7     0.042   14.0   1.1   2.4   1   1   1   2   2   2   2 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_3        PF03447.15 sp|Q4JV62|DAPB_CORJK -             0.0075   16.8   0.7     0.054   14.0   0.7   2.1   1   1   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+Semialdhyde_dh       PF01118.23 sp|Q4JV62|DAPB_CORJK -              0.073   13.4   0.2      0.19   12.1   0.0   1.8   2   0   0   2   2   2   0 Semialdehyde dehydrogenase, NAD binding domain
+Epimerase            PF01370.20 sp|Q4JV62|DAPB_CORJK -              0.082   12.2   0.2      0.11   11.8   0.2   1.2   1   0   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4JV62.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4JV62.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4JV62.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:34:16 2019
+# [ok]

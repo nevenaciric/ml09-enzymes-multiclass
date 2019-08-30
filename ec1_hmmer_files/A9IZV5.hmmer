@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|A9IZV5|MDH_BART1  -              4e-39  133.8   0.6   5.7e-39  133.3   0.2   1.5   2   0   0   2   2   2   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|A9IZV5|MDH_BART1  -              4e-30  104.9   0.0   5.5e-30  104.4   0.0   1.1   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|A9IZV5|MDH_BART1  -            0.00037   20.0   0.3     0.015   14.7   0.0   2.4   1   1   1   2   2   2   1 Family 4 glycosyl hydrolase
+3Beta_HSD            PF01073.18 sp|A9IZV5|MDH_BART1  -              0.028   13.3   0.1     0.055   12.3   0.0   1.5   2   0   0   2   2   2   0 3-beta hydroxysteroid dehydrogenase/isomerase family
+F420_oxidored        PF03807.16 sp|A9IZV5|MDH_BART1  -               0.07   13.6   2.2      0.19   12.2   1.6   2.1   2   1   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+Ribosom_S12_S23      PF00164.24 sp|A9IZV5|MDH_BART1  -                0.1   12.1   0.1      0.43   10.1   0.1   2.0   2   0   0   2   2   2   0 Ribosomal protein S12/S23
+UDPG_MGDP_dh_N       PF03721.13 sp|A9IZV5|MDH_BART1  -               0.88    9.0   3.0       1.2    8.5   0.9   2.3   2   1   0   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A9IZV5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A9IZV5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A9IZV5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:45:02 2019
+# [ok]

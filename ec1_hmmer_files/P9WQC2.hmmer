@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|P9WQC2|ADH_MYCTO  -            1.6e-25   89.0   0.3     3e-25   88.1   0.3   1.5   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|P9WQC2|ADH_MYCTO  -            1.4e-24   86.4   3.7   2.2e-24   85.7   3.7   1.3   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|P9WQC2|ADH_MYCTO  -             0.0005   19.5   0.4   0.00076   18.9   0.4   1.2   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+DapB_N               PF01113.19 sp|P9WQC2|ADH_MYCTO  -              0.027   14.5   0.1     0.046   13.7   0.1   1.3   1   0   0   1   1   1   0 Dihydrodipicolinate reductase, N-terminus
+AlaDh_PNT_C          PF01262.20 sp|P9WQC2|ADH_MYCTO  -               0.44    9.7   6.6      0.94    8.6   6.6   1.5   1   1   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WQC2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WQC2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WQC2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:02:25 2019
+# [ok]

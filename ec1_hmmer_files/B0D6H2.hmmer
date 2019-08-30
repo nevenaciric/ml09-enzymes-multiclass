@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|B0D6H2|ARO1_LACBS -           1.6e-123  412.4   0.1    3e-123  411.5   0.1   1.4   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|B0D6H2|ARO1_LACBS -           6.8e-100  333.5   0.1   1.4e-99  332.5   0.0   1.6   2   0   0   2   2   2   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|B0D6H2|ARO1_LACBS -            2.1e-54  185.1   0.0   4.4e-54  184.1   0.0   1.6   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|B0D6H2|ARO1_LACBS -            9.1e-31  107.0   0.0   7.1e-30  104.1   0.0   2.2   2   0   0   2   2   2   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|B0D6H2|ARO1_LACBS -            7.4e-25   86.9   0.0     2e-24   85.5   0.0   1.8   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Fe-ADH_2             PF13685.5  sp|B0D6H2|ARO1_LACBS -            1.2e-07   31.6   0.0   3.4e-07   30.1   0.0   1.8   1   0   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Shikimate_DH         PF01488.19 sp|B0D6H2|ARO1_LACBS -            4.8e-06   26.6   0.0   1.3e-05   25.2   0.0   1.6   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|B0D6H2|ARO1_LACBS -              0.039   14.1   0.0        15    5.7   0.0   3.3   3   0   0   3   3   3   0 Saccharopine dehydrogenase NADP binding domain
+DegS                 PF05384.10 sp|B0D6H2|ARO1_LACBS -              0.057   12.8   0.0      0.11   11.8   0.0   1.4   1   0   0   1   1   1   0 Sensor protein DegS
+AAA_33               PF13671.5  sp|B0D6H2|ARO1_LACBS -               0.06   13.4   0.0      0.16   12.0   0.0   1.7   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B0D6H2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B0D6H2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B0D6H2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:47:25 2019
+# [ok]

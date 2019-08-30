@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PQQ                  PF01011.20 sp|P05465|DHGA_ACICA -            1.3e-45  151.1   3.8   1.9e-07   30.5   0.0   7.9   7   0   0   7   7   7   7 PQQ enzyme repeat
+PQQ_2                PF13360.5  sp|P05465|DHGA_ACICA -            1.3e-19   70.6   1.1   1.9e-06   27.5   0.0   4.2   2   1   1   3   3   3   3 PQQ-like domain
+PQQ_3                PF13570.5  sp|P05465|DHGA_ACICA -             0.0015   18.9  26.2       1.5    9.3   0.0   8.9   9   1   0   9   9   9   3 PQQ-like domain
+DUF2070              PF09843.8  sp|P05465|DHGA_ACICA -                1.2    7.3   7.7       1.7    6.8   7.7   1.1   1   0   0   1   1   1   0 Predicted membrane protein (DUF2070)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P05465.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P05465.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P05465.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:29:44 2019
+# [ok]

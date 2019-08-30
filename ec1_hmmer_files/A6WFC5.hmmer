@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|A6WFC5|IOLG_KINRD -            9.5e-30  103.8   0.6   5.3e-29  101.4   0.4   2.0   2   0   0   2   2   2   1 Oxidoreductase family, NAD-binding Rossmann fold
+F420_oxidored        PF03807.16 sp|A6WFC5|IOLG_KINRD -            2.1e-05   24.9   0.5   3.7e-05   24.1   0.5   1.4   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|A6WFC5|IOLG_KINRD -             0.0003   20.9   0.1   0.00045   20.3   0.1   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GFO_IDH_MocA_C       PF02894.16 sp|A6WFC5|IOLG_KINRD -             0.0015   18.5   0.0    0.0027   17.6   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, C-terminal alpha/beta domain
+Semialdhyde_dh       PF01118.23 sp|A6WFC5|IOLG_KINRD -               0.02   15.2   0.2     0.042   14.2   0.2   1.5   1   0   0   1   1   1   0 Semialdehyde dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|A6WFC5|IOLG_KINRD -              0.024   14.6   0.1      0.05   13.6   0.1   1.5   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+Ldh_1_N              PF00056.22 sp|A6WFC5|IOLG_KINRD -              0.064   13.3   0.3       0.1   12.6   0.3   1.3   1   0   0   1   1   1   0 lactate/malate dehydrogenase, NAD binding domain
+Reductase_C          PF14759.5  sp|A6WFC5|IOLG_KINRD -               0.15   12.6   0.8      0.89   10.1   0.7   2.2   2   0   0   2   2   2   0 Reductase C-terminal
+3HCDH_N              PF02737.17 sp|A6WFC5|IOLG_KINRD -               0.16   11.7   1.5      0.29   10.9   0.8   1.7   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A6WFC5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A6WFC5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A6WFC5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:37:58 2019
+# [ok]

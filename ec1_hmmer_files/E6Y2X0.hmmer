@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NmrA                 PF05368.12 sp|E6Y2X0|PILR2_LINUS -            1.3e-65  221.1   0.0   1.4e-65  221.0   0.0   1.1   1   0   0   1   1   1   1 NmrA-like family
+NAD_binding_10       PF13460.5  sp|E6Y2X0|PILR2_LINUS -            1.5e-12   47.7   0.0   4.3e-12   46.2   0.0   1.7   1   1   0   1   1   1   1 NAD(P)H-binding
+Epimerase            PF01370.20 sp|E6Y2X0|PILR2_LINUS -            1.6e-08   34.3   0.6   6.2e-05   22.5   0.3   2.5   1   1   0   2   2   2   2 NAD dependent epimerase/dehydratase family
+3Beta_HSD            PF01073.18 sp|E6Y2X0|PILR2_LINUS -             0.0038   16.2   0.2    0.0056   15.6   0.2   1.2   1   0   0   1   1   1   1 3-beta hydroxysteroid dehydrogenase/isomerase family
+GDP_Man_Dehyd        PF16363.4  sp|E6Y2X0|PILR2_LINUS -             0.0063   15.8   0.2     0.077   12.3   0.0   2.1   2   0   0   2   2   2   1 GDP-mannose 4,6 dehydratase
+AlaDh_PNT_C          PF01262.20 sp|E6Y2X0|PILR2_LINUS -              0.034   13.3   0.3     0.055   12.6   0.3   1.3   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+RmlD_sub_bind        PF04321.16 sp|E6Y2X0|PILR2_LINUS -               0.17   10.8   0.1      0.89    8.5   0.0   2.0   2   0   0   2   2   2   0 RmlD substrate binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/E6Y2X0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/E6Y2X0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/E6Y2X0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:17:49 2019
+# [ok]

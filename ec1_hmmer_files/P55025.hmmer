@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Tyrosinase           PF00264.19 sp|P55025|TYRO_ORYLA -            5.3e-43  147.8   1.5     9e-43  147.0   1.5   1.4   1   0   0   1   1   1   1 Common central domain of tyrosinase
+Laminin_EGF          PF00053.23 sp|P55025|TYRO_ORYLA -            0.00093   19.2   7.3    0.0018   18.3   3.5   2.5   2   0   0   2   2   2   1 Laminin EGF domain
+DUF1191              PF06697.11 sp|P55025|TYRO_ORYLA -              0.027   13.6   0.0     0.041   13.0   0.0   1.2   1   0   0   1   1   1   0 Protein of unknown function (DUF1191)
+LapA_dom             PF06305.10 sp|P55025|TYRO_ORYLA -              0.029   14.1   0.6     0.056   13.2   0.6   1.4   1   0   0   1   1   1   0 Lipopolysaccharide assembly protein A domain
+OATP                 PF03137.19 sp|P55025|TYRO_ORYLA -                0.1   10.8   0.0      0.15   10.2   0.0   1.2   1   0   0   1   1   1   0 Organic Anion Transporter Polypeptide (OATP) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P55025.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P55025.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P55025.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:51:40 2019
+# [ok]

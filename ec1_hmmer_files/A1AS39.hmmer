@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|A1AS39|ILVC_PELPD -            1.2e-77  259.1   1.0   1.5e-77  258.7   1.0   1.1   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|A1AS39|ILVC_PELPD -            3.2e-69  231.7   0.2   4.1e-69  231.3   0.2   1.1   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|A1AS39|ILVC_PELPD -            6.2e-08   32.1   0.0     1e-07   31.4   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|A1AS39|ILVC_PELPD -            2.9e-07   30.9   0.2   5.2e-07   30.1   0.2   1.4   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|A1AS39|ILVC_PELPD -            1.5e-06   28.4   0.1   2.6e-06   27.6   0.1   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Mur_ligase           PF01225.24 sp|A1AS39|ILVC_PELPD -             0.0091   16.2   0.5     0.039   14.2   0.2   2.0   2   0   0   2   2   2   1 Mur ligase family, catalytic domain
+AdoHcyase_NAD        PF00670.20 sp|A1AS39|ILVC_PELPD -              0.012   15.6   0.1     0.023   14.7   0.1   1.5   1   0   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+CoA_binding          PF02629.18 sp|A1AS39|ILVC_PELPD -              0.027   15.0   0.1     0.062   13.9   0.1   1.6   1   0   0   1   1   1   0 CoA binding domain
+ApbA                 PF02558.15 sp|A1AS39|ILVC_PELPD -              0.031   13.8   0.1     0.062   12.9   0.1   1.6   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1AS39.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1AS39.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1AS39.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:22:38 2019
+# [ok]

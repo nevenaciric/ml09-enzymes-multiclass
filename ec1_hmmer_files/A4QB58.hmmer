@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A4QB58|HEM1_CORGB -            4.8e-42  142.9   0.3     9e-42  142.0   0.3   1.5   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A4QB58|HEM1_CORGB -            1.4e-25   89.9   0.0   2.5e-25   89.0   0.0   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A4QB58|HEM1_CORGB -            1.6e-19   70.0   0.0   3.8e-19   68.8   0.0   1.7   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+Glu_dehyd_C          PF16912.4  sp|A4QB58|HEM1_CORGB -             0.0039   16.6   0.1     0.008   15.6   0.1   1.5   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+Sacchrp_dh_NADP      PF03435.17 sp|A4QB58|HEM1_CORGB -             0.0056   16.8   0.0     0.013   15.7   0.0   1.6   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+ApbA                 PF02558.15 sp|A4QB58|HEM1_CORGB -             0.0072   15.9   0.1     0.012   15.1   0.1   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|A4QB58|HEM1_CORGB -               0.02   15.4   0.1     0.084   13.4   0.0   2.2   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|A4QB58|HEM1_CORGB -              0.039   13.7   0.2      0.13   12.1   0.1   1.9   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+DnaJ-X               PF14308.5  sp|A4QB58|HEM1_CORGB -              0.042   13.2   0.0      0.34   10.2   0.0   2.0   2   0   0   2   2   2   0 X-domain of DnaJ-containing
+ThiF                 PF00899.20 sp|A4QB58|HEM1_CORGB -              0.069   12.4   0.4      0.16   11.2   0.2   1.7   2   0   0   2   2   2   0 ThiF family
+DUF2868              PF11067.7  sp|A4QB58|HEM1_CORGB -               0.18   11.1   1.9      0.16   11.3   0.4   1.7   2   0   0   2   2   2   0 Protein of unknown function (DUF2868)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4QB58.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4QB58.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4QB58.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:30:09 2019
+# [ok]

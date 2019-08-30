@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q0SP77|LDH_BORAP  -            4.1e-45  153.2   2.0   6.8e-45  152.5   2.0   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q0SP77|LDH_BORAP  -            5.2e-31  107.7   0.0   7.6e-31  107.2   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q0SP77|LDH_BORAP  -             0.0017   18.5   0.1    0.0035   17.5   0.1   1.5   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+F420_oxidored        PF03807.16 sp|Q0SP77|LDH_BORAP  -              0.011   16.2   0.1     0.027   14.9   0.1   1.7   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+ThiF                 PF00899.20 sp|Q0SP77|LDH_BORAP  -              0.043   13.1   0.9      0.04   13.2   0.9   1.4   1   1   0   1   1   1   0 ThiF family
+Shikimate_DH         PF01488.19 sp|Q0SP77|LDH_BORAP  -              0.063   13.2   0.1      0.15   12.0   0.1   1.7   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+CoA_binding          PF02629.18 sp|Q0SP77|LDH_BORAP  -              0.065   13.8   1.2      0.22   12.1   0.8   2.3   1   1   1   2   2   2   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q0SP77.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q0SP77.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q0SP77.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:09:37 2019
+# [ok]

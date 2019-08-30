@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Homoserine_dh        PF00742.18 sp|P29365|DHOM_PSEAE -            3.7e-64  215.7   0.2   9.5e-64  214.4   0.0   1.7   2   0   0   2   2   2   1 Homoserine dehydrogenase
+NAD_binding_3        PF03447.15 sp|P29365|DHOM_PSEAE -            1.6e-25   89.9   0.4     3e-25   89.0   0.4   1.5   1   0   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+ACT                  PF01842.24 sp|P29365|DHOM_PSEAE -            5.4e-17   61.2   0.3   3.8e-16   58.5   0.1   2.3   2   0   0   2   2   2   1 ACT domain
+ACT_4                PF13291.5  sp|P29365|DHOM_PSEAE -            6.1e-05   23.4   0.1   0.00016   22.1   0.1   1.7   1   0   0   1   1   1   1 ACT domain
+Sacchrp_dh_NADP      PF03435.17 sp|P29365|DHOM_PSEAE -             0.0044   17.2   0.3    0.0098   16.1   0.3   1.7   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+ACT_7                PF13840.5  sp|P29365|DHOM_PSEAE -             0.0096   15.6   0.0     0.034   13.8   0.0   1.9   1   0   0   1   1   1   1 ACT domain
+ACT_6                PF13740.5  sp|P29365|DHOM_PSEAE -              0.025   14.4   0.1     0.057   13.3   0.1   1.6   1   0   0   1   1   1   0 ACT domain
+GFO_IDH_MocA         PF01408.21 sp|P29365|DHOM_PSEAE -              0.034   14.9   0.2     0.086   13.6   0.2   1.7   1   0   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+DUF2478              PF10649.8  sp|P29365|DHOM_PSEAE -              0.058   12.9   0.2         7    6.1   0.1   2.5   2   0   0   2   2   2   0 Protein of unknown function (DUF2478)
+DXP_reductoisom      PF02670.15 sp|P29365|DHOM_PSEAE -              0.061   13.9   1.2      0.15   12.7   0.2   2.3   2   1   0   2   2   2   0 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P29365.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P29365.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P29365.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:42:07 2019
+# [ok]

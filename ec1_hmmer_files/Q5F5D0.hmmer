@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|Q5F5D0|FOLD_NEIG1 -            6.7e-69  230.2   1.1   8.9e-69  229.8   1.1   1.2   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|Q5F5D0|FOLD_NEIG1 -            3.2e-40  136.9   0.1   4.5e-40  136.4   0.1   1.2   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+AlaDh_PNT_C          PF01262.20 sp|Q5F5D0|FOLD_NEIG1 -              0.027   13.6   0.8      0.11   11.6   0.8   1.9   1   1   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5F5D0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5F5D0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5F5D0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:41:17 2019
+# [ok]

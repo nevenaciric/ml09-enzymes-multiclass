@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|B0KDA4|LDH_THEP3  -            2.7e-43  147.3   0.2   4.3e-43  146.7   0.2   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|B0KDA4|LDH_THEP3  -            1.6e-32  112.7   0.0   3.3e-32  111.6   0.0   1.5   2   0   0   2   2   2   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|B0KDA4|LDH_THEP3  -            2.4e-06   27.2   1.0   7.8e-06   25.5   0.2   2.0   2   0   0   2   2   2   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+DAO                  PF01266.23 sp|B0KDA4|LDH_THEP3  -            0.00041   19.9   0.3    0.0007   19.2   0.3   1.3   1   0   0   1   1   1   1 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|B0KDA4|LDH_THEP3  -              0.007   16.5   0.1     0.014   15.5   0.1   1.5   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Sacchrp_dh_NADP      PF03435.17 sp|B0KDA4|LDH_THEP3  -             0.0081   16.3   0.1     0.016   15.3   0.1   1.7   1   1   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+3HCDH_N              PF02737.17 sp|B0KDA4|LDH_THEP3  -              0.019   14.8   0.1     0.039   13.7   0.1   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ThiF                 PF00899.20 sp|B0KDA4|LDH_THEP3  -              0.074   12.3   0.1      0.14   11.4   0.1   1.4   1   0   0   1   1   1   0 ThiF family
+F420_oxidored        PF03807.16 sp|B0KDA4|LDH_THEP3  -              0.084   13.4   0.1      0.17   12.4   0.1   1.5   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+FAD_binding_3        PF01494.18 sp|B0KDA4|LDH_THEP3  -                0.2   10.8   0.1       0.3   10.2   0.1   1.2   1   0   0   1   1   1   0 FAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B0KDA4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B0KDA4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B0KDA4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:47:40 2019
+# [ok]

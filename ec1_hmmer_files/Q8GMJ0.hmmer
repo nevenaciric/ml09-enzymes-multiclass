@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q8GMJ0|LDH_LACRE  -            2.2e-43  147.6   0.4   4.7e-43  146.6   0.4   1.6   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q8GMJ0|LDH_LACRE  -            6.7e-38  130.1   0.0   1.1e-37  129.5   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Shikimate_DH         PF01488.19 sp|Q8GMJ0|LDH_LACRE  -             0.0018   18.2   0.0    0.0033   17.4   0.0   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|Q8GMJ0|LDH_LACRE  -             0.0042   17.5   0.9    0.0098   16.4   0.1   2.0   3   0   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|Q8GMJ0|LDH_LACRE  -              0.013   15.8   0.1     0.028   14.7   0.1   1.5   1   0   0   1   1   1   0 Putative NAD(P)-binding
+NAD_binding_10       PF13460.5  sp|Q8GMJ0|LDH_LACRE  -              0.026   14.4   0.3     0.055   13.3   0.3   1.6   1   0   0   1   1   1   0 NAD(P)H-binding
+Epimerase            PF01370.20 sp|Q8GMJ0|LDH_LACRE  -              0.034   13.5   0.1     0.067   12.5   0.1   1.5   1   0   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+Sacchrp_dh_NADP      PF03435.17 sp|Q8GMJ0|LDH_LACRE  -                0.1   12.7   0.4      0.36   11.0   0.2   2.0   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8GMJ0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8GMJ0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8GMJ0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:12:05 2019
+# [ok]

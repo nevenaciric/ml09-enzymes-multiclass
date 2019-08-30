@@ -1,0 +1,22 @@
+#                                                                    --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------      -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|A0A2P1GIW4|REDX1_CATRO -            2.3e-27   94.9   3.7   5.3e-27   93.8   3.7   1.6   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|A0A2P1GIW4|REDX1_CATRO -            5.3e-19   68.3   0.0   1.7e-18   66.7   0.1   1.8   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|A0A2P1GIW4|REDX1_CATRO -            4.6e-07   29.3   0.0   8.9e-07   28.3   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+ADH_zinc_N_2         PF13602.5  sp|A0A2P1GIW4|REDX1_CATRO -            2.9e-05   25.0   0.1     5e-05   24.3   0.1   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+AlaDh_PNT_C          PF01262.20 sp|A0A2P1GIW4|REDX1_CATRO -            4.2e-05   22.8   0.0   8.4e-05   21.9   0.0   1.4   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+Glu_dehyd_C          PF16912.4  sp|A0A2P1GIW4|REDX1_CATRO -             0.0015   18.0   0.1    0.0031   16.9   0.1   1.5   1   1   0   1   1   1   1 Glucose dehydrogenase C-terminus
+NAD_binding_2        PF03446.14 sp|A0A2P1GIW4|REDX1_CATRO -              0.012   15.7   0.3     0.035   14.2   0.0   1.8   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|A0A2P1GIW4|REDX1_CATRO -              0.026   14.3   0.1     0.049   13.4   0.1   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|A0A2P1GIW4|REDX1_CATRO -              0.031   14.6   0.0     0.065   13.6   0.0   1.6   1   0   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A0A2P1GIW4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A0A2P1GIW4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A0A2P1GIW4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:20:06 2019
+# [ok]

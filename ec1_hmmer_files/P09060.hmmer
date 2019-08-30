@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1_dh                PF00676.19 sp|P09060|ODBA_PSEPU -           6.7e-107  356.8   0.0  8.3e-107  356.5   0.0   1.0   1   0   0   1   1   1   1 Dehydrogenase E1 component
+OxoDH_E1alpha_N      PF12573.7  sp|P09060|ODBA_PSEPU -            1.6e-20   72.4   0.7   3.4e-20   71.4   0.7   1.6   1   0   0   1   1   1   1 2-oxoisovalerate dehydrogenase E1 alpha subunit N terminal
+TPP_enzyme_C         PF02775.20 sp|P09060|ODBA_PSEPU -             0.0024   17.6   0.2     0.005   16.5   0.2   1.5   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+DUF3560              PF12083.7  sp|P09060|ODBA_PSEPU -             0.0046   17.0   0.2    0.0095   16.0   0.2   1.5   1   0   0   1   1   1   1 Domain of unknown function (DUF3560)
+DUF3390              PF11870.7  sp|P09060|ODBA_PSEPU -              0.057   13.7   0.0      0.14   12.5   0.0   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF3390)
+DXP_synthase_N       PF13292.5  sp|P09060|ODBA_PSEPU -              0.073   12.2   0.2      0.13   11.4   0.2   1.4   1   0   0   1   1   1   0 1-deoxy-D-xylulose-5-phosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P09060.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P09060.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P09060.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:30:56 2019
+# [ok]

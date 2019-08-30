@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX1                 PF00115.19 sp|Q8FMT1|COX1_COREF -           1.7e-144  481.8  64.9  1.9e-144  481.6  64.9   1.0   1   0   0   1   1   1   1 Cytochrome C and Quinol oxidase polypeptide I
+SAM_2                PF07647.16 sp|Q8FMT1|COX1_COREF -               0.11   12.6   0.0      0.28   11.2   0.0   1.6   1   0   0   1   1   1   0 SAM domain (Sterile alpha motif)
+DUF3938              PF13074.5  sp|Q8FMT1|COX1_COREF -                1.6    8.8   4.6      0.45   10.6   0.1   2.4   3   0   0   3   3   3   0 Protein of unknown function (DUF3938)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8FMT1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8FMT1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8FMT1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:11:35 2019
+# [ok]

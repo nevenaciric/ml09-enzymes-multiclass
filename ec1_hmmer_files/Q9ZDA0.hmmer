@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q9ZDA0|GPDA_RICPR -            2.7e-36  124.8   0.0   5.6e-36  123.8   0.0   1.5   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q9ZDA0|GPDA_RICPR -            9.8e-28   97.1   0.2   3.8e-27   95.2   0.2   1.9   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+ApbA                 PF02558.15 sp|Q9ZDA0|GPDA_RICPR -            5.7e-07   29.2   0.0   9.5e-07   28.5   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q9ZDA0|GPDA_RICPR -            0.00015   22.1   0.1    0.0012   19.3   0.0   2.4   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+TrkA_N               PF02254.17 sp|Q9ZDA0|GPDA_RICPR -            0.00094   19.3   0.0    0.0028   17.8   0.0   1.9   1   0   0   1   1   1   1 TrkA-N domain
+Pyr_redox_2          PF07992.13 sp|Q9ZDA0|GPDA_RICPR -              0.063   12.4   0.0      0.12   11.5   0.0   1.4   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+3HCDH_N              PF02737.17 sp|Q9ZDA0|GPDA_RICPR -               0.11   12.3   0.0      0.23   11.2   0.0   1.6   1   1   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9ZDA0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9ZDA0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9ZDA0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:37:23 2019
+# [ok]

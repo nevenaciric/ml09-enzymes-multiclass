@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Shikimate_dh_N       PF08501.10 sp|A7GGC7|AROE_CLOBL -              1e-27   96.1   0.1   1.8e-27   95.3   0.1   1.4   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Shikimate_DH         PF01488.19 sp|A7GGC7|AROE_CLOBL -            1.1e-05   25.5   0.0   1.9e-05   24.6   0.0   1.4   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+NAD_binding_7        PF13241.5  sp|A7GGC7|AROE_CLOBL -             0.0013   19.0   0.0    0.0023   18.3   0.0   1.5   1   0   0   1   1   1   1 Putative NAD(P)-binding
+Methyltransf_15      PF09445.9  sp|A7GGC7|AROE_CLOBL -             0.0015   18.1   0.4    0.0027   17.3   0.2   1.6   1   1   0   1   1   1   1 RNA cap guanine-N2 methyltransferase
+F420_oxidored        PF03807.16 sp|A7GGC7|AROE_CLOBL -             0.0059   17.1   0.0     0.012   16.1   0.0   1.5   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+Sigma70_r1_1         PF03979.13 sp|A7GGC7|AROE_CLOBL -              0.028   14.4   1.1       4.4    7.3   0.1   3.0   3   0   0   3   3   3   0 Sigma-70 factor, region 1.1
+DUF325               PF03804.12 sp|A7GGC7|AROE_CLOBL -              0.033   14.1   1.3      0.95    9.4   1.2   2.7   2   1   1   3   3   3   0 Viral domain of unknown function
+DUF1188              PF06690.10 sp|A7GGC7|AROE_CLOBL -              0.045   13.2   0.1      0.18   11.2   0.0   1.9   1   1   0   2   2   2   0 Protein of unknown function (DUF1188)
+GARS_N               PF02844.14 sp|A7GGC7|AROE_CLOBL -               0.13   12.9   0.0       0.3   11.8   0.0   1.6   1   0   0   1   1   1   0 Phosphoribosylglycinamide synthetase, N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7GGC7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7GGC7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7GGC7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:38:47 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|B4RG67|ILVC_PHEZH -            2.3e-71  238.6   1.2     3e-71  238.2   1.2   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|B4RG67|ILVC_PHEZH -            1.6e-66  222.9   0.1   2.1e-66  222.5   0.1   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+F420_oxidored        PF03807.16 sp|B4RG67|ILVC_PHEZH -            3.6e-05   24.1   0.3   6.7e-05   23.3   0.3   1.5   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|B4RG67|ILVC_PHEZH -            4.5e-05   22.8   0.0   6.9e-05   22.2   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|B4RG67|ILVC_PHEZH -            0.00069   19.7   0.1    0.0013   18.8   0.1   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GFO_IDH_MocA         PF01408.21 sp|B4RG67|ILVC_PHEZH -             0.0051   17.5   0.1    0.0085   16.8   0.1   1.3   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+ThiF                 PF00899.20 sp|B4RG67|ILVC_PHEZH -             0.0064   15.8   0.0     0.013   14.8   0.0   1.4   1   0   0   1   1   1   1 ThiF family
+ApbA                 PF02558.15 sp|B4RG67|ILVC_PHEZH -              0.033   13.7   0.1     0.051   13.1   0.1   1.4   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+Shikimate_DH         PF01488.19 sp|B4RG67|ILVC_PHEZH -              0.048   13.6   0.1     0.093   12.7   0.1   1.4   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+CoA_binding          PF02629.18 sp|B4RG67|ILVC_PHEZH -              0.098   13.3   0.1      0.23   12.1   0.1   1.6   1   0   0   1   1   1   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B4RG67.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B4RG67.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B4RG67.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:57:42 2019
+# [ok]

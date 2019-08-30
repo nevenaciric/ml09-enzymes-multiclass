@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|A4Y1E6|GPDA_SHEPC -            2.8e-50  170.2   0.8     4e-50  169.7   0.8   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|A4Y1E6|GPDA_SHEPC -            6.1e-48  162.6   0.0   9.1e-48  162.1   0.0   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|A4Y1E6|GPDA_SHEPC -            2.3e-09   37.0   0.0   3.7e-09   36.3   0.0   1.3   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|A4Y1E6|GPDA_SHEPC -             0.0004   20.8   0.0     0.002   18.6   0.0   2.1   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|A4Y1E6|GPDA_SHEPC -             0.0018   18.3   0.0    0.0036   17.4   0.0   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GIDA                 PF01134.21 sp|A4Y1E6|GPDA_SHEPC -             0.0021   17.1   0.0    0.0037   16.3   0.0   1.4   1   0   0   1   1   1   1 Glucose inhibited division protein A
+3HCDH_N              PF02737.17 sp|A4Y1E6|GPDA_SHEPC -              0.077   12.8   0.0      0.18   11.6   0.0   1.6   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|A4Y1E6|GPDA_SHEPC -               0.13   11.7   0.0      0.26   10.7   0.0   1.6   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+ApbA_C               PF08546.10 sp|A4Y1E6|GPDA_SHEPC -               0.14   12.2   0.0      0.33   11.0   0.0   1.8   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4Y1E6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4Y1E6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4Y1E6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:32:28 2019
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+p450                 PF00067.21 sp|Q9D816|CP255_MOUSE -           1.7e-153  511.6   0.2    2e-153  511.4   0.2   1.0   1   0   0   1   1   1   1 Cytochrome P450
+Peptidase_M99_m      PF17130.3  sp|Q9D816|CP255_MOUSE -              0.013   15.3   0.1     0.032   14.1   0.1   1.6   1   0   0   1   1   1   0 beta-barrel domain of carboxypeptidase M99
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9D816.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9D816.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9D816.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:25:35 2019
+# [ok]

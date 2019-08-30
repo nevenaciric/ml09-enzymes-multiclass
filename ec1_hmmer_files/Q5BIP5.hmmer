@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|Q5BIP5|GFOD2_BOVIN -            4.6e-12   46.7   0.0   1.1e-11   45.5   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+F420_oxidored        PF03807.16 sp|Q5BIP5|GFOD2_BOVIN -             0.0016   18.9   0.0    0.0052   17.3   0.0   1.9   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+GFO_IDH_MocA_C       PF02894.16 sp|Q5BIP5|GFOD2_BOVIN -              0.025   14.5   0.0     0.054   13.4   0.0   1.6   1   0   0   1   1   1   0 Oxidoreductase family, C-terminal alpha/beta domain
+Shikimate_DH         PF01488.19 sp|Q5BIP5|GFOD2_BOVIN -              0.062   13.3   0.0      0.14   12.1   0.0   1.6   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+ANAPC2               PF08672.10 sp|Q5BIP5|GFOD2_BOVIN -              0.084   13.3   0.0      0.17   12.3   0.0   1.5   1   0   0   1   1   1   0 Anaphase promoting complex (APC) subunit 2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5BIP5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5BIP5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5BIP5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:40:46 2019
+# [ok]

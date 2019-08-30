@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX2                 PF00116.19 sp|P25002|COX2_PISOC -              2e-63  211.6   0.0   3.5e-63  210.8   0.0   1.4   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, periplasmic domain
+COX2_TM              PF02790.14 sp|P25002|COX2_PISOC -            3.2e-29  100.8   4.4     5e-29  100.2   4.4   1.3   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, transmembrane domain
+DHHC                 PF01529.19 sp|P25002|COX2_PISOC -               0.71    9.9   3.8       1.3    9.1   3.8   1.3   1   0   0   1   1   1   0 DHHC palmitoyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P25002.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P25002.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P25002.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:40:35 2019
+# [ok]

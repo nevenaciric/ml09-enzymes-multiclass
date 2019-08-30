@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mannitol_dh_C        PF08125.12 sp|Q89A37|MTLD_BUCBP -            2.4e-46  158.1   0.0     4e-46  157.4   0.0   1.4   1   0   0   1   1   1   1 Mannitol dehydrogenase C-terminal domain
+Mannitol_dh          PF01232.22 sp|Q89A37|MTLD_BUCBP -            1.3e-13   51.3   2.0   8.5e-13   48.6   2.0   2.2   1   1   0   1   1   1   1 Mannitol dehydrogenase Rossmann domain
+Trans_coact          PF16805.4  sp|Q89A37|MTLD_BUCBP -               0.11   12.5   0.7       5.2    7.1   0.1   2.7   1   1   1   2   2   2   0 Phage late-transcription coactivator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q89A37.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q89A37.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q89A37.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:08:18 2019
+# [ok]

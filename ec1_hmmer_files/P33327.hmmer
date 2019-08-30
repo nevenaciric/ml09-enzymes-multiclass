@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ELFV_dehydrog        PF00208.20 sp|P33327|DHE2_YEAST -              7e-66  222.3   0.0   1.6e-65  221.1   0.0   1.6   2   0   0   2   2   2   1 Glutamate/Leucine/Phenylalanine/Valine dehydrogenase
+Bac_GDH              PF05088.11 sp|P33327|DHE2_YEAST -            8.1e-18   63.3   0.0   1.3e-12   46.1   0.0   2.1   2   0   0   2   2   2   2 Bacterial NAD-glutamate dehydrogenase
+ELFV_dehydrog_N      PF02812.17 sp|P33327|DHE2_YEAST -             0.0013   18.5   0.0    0.0094   15.7   0.0   2.2   2   0   0   2   2   2   1 Glu/Leu/Phe/Val dehydrogenase, dimerisation domain
+Cadherin_2           PF08266.11 sp|P33327|DHE2_YEAST -              0.015   15.0   0.0       2.7    7.8   0.0   3.2   3   0   0   3   3   3   0 Cadherin-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P33327.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P33327.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P33327.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:43:40 2019
+# [ok]

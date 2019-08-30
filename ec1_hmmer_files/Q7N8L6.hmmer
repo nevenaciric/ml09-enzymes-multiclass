@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Flavodoxin_1         PF00258.24 sp|Q7N8L6|CYSJ_PHOLL -            6.4e-30  104.2   0.1   1.8e-29  102.7   0.1   1.8   1   0   0   1   1   1   1 Flavodoxin
+FAD_binding_1        PF00667.19 sp|Q7N8L6|CYSJ_PHOLL -            1.6e-28   99.7   0.0   4.4e-28   98.3   0.0   1.7   1   1   0   1   1   1   1 FAD binding domain
+NAD_binding_1        PF00175.20 sp|Q7N8L6|CYSJ_PHOLL -            2.5e-20   73.0   0.0   9.6e-20   71.2   0.0   2.1   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+DUF881               PF05949.11 sp|Q7N8L6|CYSJ_PHOLL -             0.0025   17.6   0.0    0.0066   16.2   0.0   1.7   1   0   0   1   1   1   1 Bacterial protein of unknown function (DUF881)
+Flavodoxin_3         PF12641.6  sp|Q7N8L6|CYSJ_PHOLL -              0.071   12.7   0.0      0.16   11.5   0.0   1.6   1   0   0   1   1   1   0 Flavodoxin domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7N8L6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7N8L6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7N8L6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:01:13 2019
+# [ok]

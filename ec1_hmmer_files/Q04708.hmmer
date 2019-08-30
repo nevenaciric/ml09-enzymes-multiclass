@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+P5CR_dimer           PF14748.5  sp|Q04708|P5CR_PEA   -            8.3e-41  138.3   0.4   8.3e-41  138.3   0.4   1.6   2   0   0   2   2   2   1 Pyrroline-5-carboxylate reductase dimerisation
+F420_oxidored        PF03807.16 sp|Q04708|P5CR_PEA   -              4e-19   68.9   0.2   8.4e-19   67.9   0.2   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q04708|P5CR_PEA   -            1.7e-05   24.9   0.0     3e-05   24.1   0.0   1.4   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_Gly3P_dh_N       PF01210.22 sp|Q04708|P5CR_PEA   -             0.0025   17.7   0.7    0.0044   16.9   0.7   1.6   1   1   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+Rossmann-like        PF10727.8  sp|Q04708|P5CR_PEA   -               0.01   15.6   0.2     0.022   14.5   0.2   1.5   1   0   0   1   1   1   0 Rossmann-like domain
+FAD_binding_4        PF01565.22 sp|Q04708|P5CR_PEA   -               0.01   15.4   0.1     0.032   13.9   0.0   1.9   2   0   0   2   2   2   0 FAD binding domain
+PDH                  PF02153.16 sp|Q04708|P5CR_PEA   -              0.018   14.0   0.1     0.025   13.5   0.1   1.2   1   0   0   1   1   1   0 Prephenate dehydrogenase
+OCD_Mu_crystall      PF02423.14 sp|Q04708|P5CR_PEA   -              0.082   11.7   0.0      0.15   10.9   0.0   1.4   1   0   0   1   1   1   0 Ornithine cyclodeaminase/mu-crystallin family
+Sacchrp_dh_NADP      PF03435.17 sp|Q04708|P5CR_PEA   -                0.1   12.8   0.0       0.2   11.8   0.0   1.5   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q04708.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q04708.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q04708.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:04:31 2019
+# [ok]

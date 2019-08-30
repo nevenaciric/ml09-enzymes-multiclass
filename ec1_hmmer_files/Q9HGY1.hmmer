@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|Q9HGY1|GPD2_ZYGRO -            5.5e-51  172.5   0.0   9.8e-51  171.7   0.0   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|Q9HGY1|GPD2_ZYGRO -            8.5e-41  139.4   0.1   1.4e-40  138.7   0.1   1.4   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|Q9HGY1|GPD2_ZYGRO -              0.025   15.0   0.0        11    6.5   0.0   2.6   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|Q9HGY1|GPD2_ZYGRO -              0.062   13.1   0.3       1.8    8.3   0.1   2.3   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9HGY1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9HGY1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9HGY1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:27:10 2019
+# [ok]

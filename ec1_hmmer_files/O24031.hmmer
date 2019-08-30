@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GSHPx                PF00255.18 sp|O24031|GPX4_SOLLC -            1.7e-41  140.1   0.3   2.1e-41  139.8   0.3   1.1   1   0   0   1   1   1   1 Glutathione peroxidase
+AhpC-TSA             PF00578.20 sp|O24031|GPX4_SOLLC -            5.3e-10   39.2   0.2   2.3e-09   37.1   0.2   1.9   1   1   0   1   1   1   1 AhpC/TSA family
+Redoxin              PF08534.9  sp|O24031|GPX4_SOLLC -            1.5e-07   31.1   0.1   1.7e-06   27.7   0.1   2.1   1   1   0   1   1   1   1 Redoxin
+SCO1-SenC            PF02630.13 sp|O24031|GPX4_SOLLC -            0.00041   20.1   0.5     0.025   14.3   0.1   2.5   1   1   2   3   3   3   1 SCO1/SenC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O24031.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O24031.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O24031.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:22:11 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Shikimate_DH         PF01488.19 sp|B3QWI0|HEM1_CHLT3 -            2.3e-40  137.7   0.3   4.7e-40  136.7   0.3   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_N              PF05201.14 sp|B3QWI0|HEM1_CHLT3 -            5.9e-38  129.6   0.1     1e-37  128.9   0.1   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+GlutR_dimer          PF00745.19 sp|B3QWI0|HEM1_CHLT3 -            3.2e-21   75.4   0.9   8.5e-21   74.1   0.9   1.8   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+NAD_binding_10       PF13460.5  sp|B3QWI0|HEM1_CHLT3 -              0.019   14.8   0.0     0.042   13.6   0.0   1.6   1   0   0   1   1   1   0 NAD(P)H-binding
+NAD_binding_7        PF13241.5  sp|B3QWI0|HEM1_CHLT3 -               0.04   14.2   0.0      0.12   12.7   0.0   1.8   1   0   0   1   1   1   0 Putative NAD(P)-binding
+THF_DHG_CYH_C        PF02882.18 sp|B3QWI0|HEM1_CHLT3 -              0.049   12.9   0.2      0.24   10.6   0.2   2.0   1   1   0   1   1   1   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+Eno-Rase_NADH_b      PF12242.7  sp|B3QWI0|HEM1_CHLT3 -               0.19   11.4   0.5      0.78    9.4   0.2   2.1   1   1   1   2   2   2   0 NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B3QWI0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B3QWI0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B3QWI0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:56:58 2019
+# [ok]

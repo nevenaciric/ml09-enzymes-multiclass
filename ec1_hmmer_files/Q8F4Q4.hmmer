@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IMPDH                PF00478.24 sp|Q8F4Q4|IMDH_LEPIN -           2.8e-132  440.8   1.4  3.2e-132  440.6   1.4   1.0   1   0   0   1   1   1   1 IMP dehydrogenase / GMP reductase domain
+CBS                  PF00571.27 sp|Q8F4Q4|IMDH_LEPIN -            8.9e-14   51.6   0.8   6.6e-08   32.8   0.1   2.6   2   0   0   2   2   2   2 CBS domain
+NMO                  PF03060.14 sp|Q8F4Q4|IMDH_LEPIN -            2.7e-10   40.1   0.5   7.7e-08   32.0   0.4   2.4   2   0   0   2   2   2   2 Nitronate monooxygenase
+FMN_dh               PF01070.17 sp|Q8F4Q4|IMDH_LEPIN -            5.2e-08   32.2   0.2   1.1e-07   31.2   0.2   1.5   1   0   0   1   1   1   1 FMN-dependent dehydrogenase
+His_biosynth         PF00977.20 sp|Q8F4Q4|IMDH_LEPIN -            0.00014   21.3   3.2   0.00077   18.9   3.2   2.0   1   1   0   1   1   1   1 Histidine biosynthesis protein
+B12-binding          PF02310.18 sp|Q8F4Q4|IMDH_LEPIN -              0.015   15.2   0.0     0.034   14.1   0.0   1.5   1   0   0   1   1   1   0 B12 binding domain
+UvrD-helicase        PF00580.20 sp|Q8F4Q4|IMDH_LEPIN -              0.017   14.6   0.0     0.023   14.1   0.0   1.2   1   0   0   1   1   1   0 UvrD/REP helicase N-terminal domain
+Aldolase             PF01081.18 sp|Q8F4Q4|IMDH_LEPIN -              0.023   14.0   0.8      0.11   11.8   0.6   2.1   1   1   1   2   2   2   0 KDPG and KHG aldolase
+Dus                  PF01207.16 sp|Q8F4Q4|IMDH_LEPIN -              0.079   11.9   1.1       1.5    7.7   0.1   2.2   2   0   0   2   2   2   0 Dihydrouridine synthase (Dus)
+ThiG                 PF05690.13 sp|Q8F4Q4|IMDH_LEPIN -                0.1   11.8   3.6       0.3   10.2   1.0   2.2   1   1   1   2   2   2   0 Thiazole biosynthesis protein ThiG
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8F4Q4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8F4Q4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8F4Q4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:11:10 2019
+# [ok]

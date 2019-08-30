@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|Q8R7K0|TDH_CALS4  -            1.5e-35  121.3   1.7   1.5e-35  121.3   1.7   1.6   2   0   0   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|Q8R7K0|TDH_CALS4  -            1.7e-27   95.8   0.0   2.9e-27   95.0   0.0   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_zinc_N_2         PF13602.5  sp|Q8R7K0|TDH_CALS4  -            7.3e-10   39.9   0.0   1.5e-09   38.9   0.0   1.5   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|Q8R7K0|TDH_CALS4  -            8.5e-08   31.8   0.0   1.2e-07   31.3   0.0   1.2   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_N_2              PF16884.4  sp|Q8R7K0|TDH_CALS4  -             0.0019   18.0   0.0    0.0039   17.0   0.0   1.4   1   0   0   1   1   1   1 N-terminal domain of oxidoreductase
+2-Hacid_dh_C         PF02826.18 sp|Q8R7K0|TDH_CALS4  -              0.098   11.9   0.0      0.18   11.1   0.0   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NADH_4Fe-4S          PF10589.8  sp|Q8R7K0|TDH_CALS4  -               0.14   12.1   0.9      0.53   10.3   0.9   1.9   2   0   0   2   2   2   0 NADH-ubiquinone oxidoreductase-F iron-sulfur binding region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8R7K0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8R7K0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8R7K0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:15:22 2019
+# [ok]

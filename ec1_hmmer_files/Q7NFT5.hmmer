@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PsaA_PsaB            PF00223.18 sp|Q7NFT5|PSAB_GLOVI -                  0 1136.6  33.3         0 1136.4  33.3   1.1   1   0   0   1   1   1   1 Photosystem I psaA/psaB protein
+OmpA                 PF00691.19 sp|Q7NFT5|PSAB_GLOVI -            2.7e-19   69.2   0.0   5.8e-19   68.2   0.0   1.5   1   0   0   1   1   1   1 OmpA family
+DUF1056              PF06341.10 sp|Q7NFT5|PSAB_GLOVI -               0.87    9.8   7.7       1.2    9.4   0.2   3.7   3   0   0   3   3   3   0 Protein of unknown function (DUF1056)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7NFT5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7NFT5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7NFT5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:01:20 2019
+# [ok]

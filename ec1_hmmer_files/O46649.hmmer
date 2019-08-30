@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|O46649|ADHP_RABIT -            1.1e-23   83.1   0.2   2.2e-23   82.1   0.2   1.5   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|O46649|ADHP_RABIT -              1e-20   73.9   0.4   2.2e-20   72.8   0.4   1.6   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_zinc_N_2         PF13602.5  sp|O46649|ADHP_RABIT -              0.001   20.0   0.0    0.0025   18.8   0.0   1.6   1   1   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|O46649|ADHP_RABIT -             0.0046   16.4   0.3      0.51    9.7   0.1   2.1   2   0   0   2   2   2   2 Glucose dehydrogenase C-terminus
+UDPG_MGDP_dh_N       PF03721.13 sp|O46649|ADHP_RABIT -               0.03   13.8   0.1     0.057   12.9   0.1   1.5   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+AlaDh_PNT_C          PF01262.20 sp|O46649|ADHP_RABIT -               0.11   11.7   3.7     0.068   12.4   1.2   1.8   1   1   1   2   2   2   0 Alanine dehydrogenase/PNT, C-terminal domain
+Nucleoporin_FG2      PF15967.4  sp|O46649|ADHP_RABIT -                5.6    5.3   6.1        11    4.4   6.1   1.4   1   1   0   1   1   1   0 Nucleoporin FG repeated region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O46649.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O46649.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O46649.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:24:17 2019
+# [ok]

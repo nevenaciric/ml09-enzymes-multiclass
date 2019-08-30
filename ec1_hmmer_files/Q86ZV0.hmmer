@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|Q86ZV0|XYL2_ASPOR -            1.9e-34  117.8   0.4   1.9e-34  117.8   0.4   1.6   2   0   0   2   2   2   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|Q86ZV0|XYL2_ASPOR -            1.1e-23   83.5   0.1   1.8e-23   82.8   0.1   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|Q86ZV0|XYL2_ASPOR -            1.4e-09   37.7   0.2     3e-09   36.6   0.2   1.5   1   1   0   1   1   1   1 Glucose dehydrogenase C-terminus
+ADH_zinc_N_2         PF13602.5  sp|Q86ZV0|XYL2_ASPOR -            5.5e-05   24.1   0.0   0.00013   22.9   0.0   1.6   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+UDPG_MGDP_dh_N       PF03721.13 sp|Q86ZV0|XYL2_ASPOR -             0.0024   17.4   0.0    0.0039   16.7   0.0   1.3   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+AlaDh_PNT_C          PF01262.20 sp|Q86ZV0|XYL2_ASPOR -             0.0033   16.6   0.8    0.0054   16.0   0.8   1.3   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+FtsJ                 PF01728.18 sp|Q86ZV0|XYL2_ASPOR -             0.0044   17.0   0.0    0.0092   16.0   0.0   1.5   1   1   0   1   1   1   1 FtsJ-like methyltransferase
+Pyr_redox_2          PF07992.13 sp|Q86ZV0|XYL2_ASPOR -             0.0081   15.3   0.0     0.021   14.0   0.0   1.7   2   0   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+Methyltransf_25      PF13649.5  sp|Q86ZV0|XYL2_ASPOR -              0.031   14.9   0.0     0.072   13.7   0.0   1.8   1   1   0   1   1   1   0 Methyltransferase domain
+2-Hacid_dh_C         PF02826.18 sp|Q86ZV0|XYL2_ASPOR -               0.14   11.4   0.0      0.23   10.7   0.0   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q86ZV0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q86ZV0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q86ZV0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:06:50 2019
+# [ok]

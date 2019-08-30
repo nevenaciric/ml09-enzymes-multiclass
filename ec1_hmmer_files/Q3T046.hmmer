@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q3T046|BDH2_BOVIN -            4.5e-62  209.6   0.1   5.3e-62  209.3   0.1   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q3T046|BDH2_BOVIN -              1e-49  168.5   0.5   1.3e-49  168.2   0.5   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q3T046|BDH2_BOVIN -            2.9e-05   24.0   0.6   5.5e-05   23.0   0.6   1.4   1   1   0   1   1   1   1 KR domain
+ADH_zinc_N           PF00107.25 sp|Q3T046|BDH2_BOVIN -             0.0047   16.7   0.0    0.0084   15.9   0.0   1.4   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+AlaDh_PNT_C          PF01262.20 sp|Q3T046|BDH2_BOVIN -             0.0057   15.9   0.4    0.0094   15.2   0.4   1.3   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+DUF1776              PF08643.9  sp|Q3T046|BDH2_BOVIN -             0.0063   15.8   0.1     0.022   14.0   0.1   1.8   1   1   0   1   1   1   1 Fungal family of unknown function (DUF1776)
+UDPG_MGDP_dh_N       PF03721.13 sp|Q3T046|BDH2_BOVIN -              0.027   13.9   0.0      0.06   12.8   0.0   1.6   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+3HCDH_N              PF02737.17 sp|Q3T046|BDH2_BOVIN -              0.099   12.4   0.1       0.2   11.4   0.1   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3T046.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3T046.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3T046.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:29:20 2019
+# [ok]

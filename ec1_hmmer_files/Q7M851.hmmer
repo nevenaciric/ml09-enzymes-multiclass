@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|Q7M851|ILVC_WOLSU -            4.5e-75  250.7   0.8   6.2e-75  250.2   0.8   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|Q7M851|ILVC_WOLSU -            1.9e-64  216.2   0.1   2.6e-64  215.7   0.1   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|Q7M851|ILVC_WOLSU -            1.2e-05   24.6   0.0     2e-05   23.9   0.0   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q7M851|ILVC_WOLSU -            2.2e-05   24.9   0.1   4.9e-05   23.7   0.1   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q7M851|ILVC_WOLSU -            0.00023   21.3   0.1   0.00052   20.1   0.1   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Nitro_FeMo-Co        PF02579.16 sp|Q7M851|ILVC_WOLSU -             0.0022   18.2   0.1    0.0057   16.9   0.1   1.7   1   0   0   1   1   1   1 Dinitrogenase iron-molybdenum cofactor
+GFO_IDH_MocA         PF01408.21 sp|Q7M851|ILVC_WOLSU -             0.0034   18.1   0.1    0.0063   17.2   0.1   1.4   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+AdoHcyase_NAD        PF00670.20 sp|Q7M851|ILVC_WOLSU -              0.013   15.4   0.0     0.026   14.5   0.0   1.5   1   0   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+CoA_binding          PF02629.18 sp|Q7M851|ILVC_WOLSU -              0.018   15.6   0.0     0.045   14.3   0.0   1.7   1   0   0   1   1   1   0 CoA binding domain
+NAD_Gly3P_dh_N       PF01210.22 sp|Q7M851|ILVC_WOLSU -               0.15   12.0   0.3       5.3    6.9   0.1   2.4   1   1   1   2   2   2   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7M851.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7M851.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7M851.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:00:27 2019
+# [ok]

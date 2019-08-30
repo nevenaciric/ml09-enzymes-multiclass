@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A1VKB7|HEM1_POLNA -            2.3e-46  156.9   0.0   3.9e-46  156.1   0.0   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A1VKB7|HEM1_POLNA -            6.3e-43  146.0   0.0   1.2e-42  145.1   0.0   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A1VKB7|HEM1_POLNA -            7.4e-28   96.7   1.1   1.1e-26   93.0   0.4   2.7   3   0   0   3   3   3   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A1VKB7|HEM1_POLNA -              0.014   15.9   3.9     0.022   15.2   0.0   3.2   4   1   0   4   4   4   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1VKB7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1VKB7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1VKB7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:25:24 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ALO                  PF04030.13 sp|P10867|GGLO_RAT   -            1.6e-90  303.3   4.8   2.2e-90  302.9   4.8   1.2   1   0   0   1   1   1   1 D-arabinono-1,4-lactone oxidase
+FAD_binding_4        PF01565.22 sp|P10867|GGLO_RAT   -            9.4e-34  116.0   1.0   1.3e-33  115.6   1.0   1.2   1   0   0   1   1   1   1 FAD binding domain
+FAD_binding_5        PF00941.20 sp|P10867|GGLO_RAT   -             0.0012   18.5   0.1    0.0021   17.7   0.1   1.4   1   0   0   1   1   1   1 FAD binding domain in molybdopterin dehydrogenase
+B12-binding          PF02310.18 sp|P10867|GGLO_RAT   -               0.12   12.3   0.1      0.47   10.4   0.0   1.9   2   0   0   2   2   2   0 B12 binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P10867.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P10867.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P10867.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:35:18 2019
+# [ok]

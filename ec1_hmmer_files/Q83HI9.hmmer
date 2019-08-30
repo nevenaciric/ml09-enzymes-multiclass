@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|Q83HI9|ILVC_TROW8 -            1.2e-71  239.5   0.0   1.7e-71  239.1   0.0   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|Q83HI9|ILVC_TROW8 -            2.5e-60  202.8   0.0   3.5e-60  202.4   0.0   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+F420_oxidored        PF03807.16 sp|Q83HI9|ILVC_TROW8 -            9.3e-06   26.0   0.1   1.7e-05   25.2   0.1   1.4   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q83HI9|ILVC_TROW8 -            1.4e-05   25.2   0.0     3e-05   24.1   0.0   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Rossmann-like        PF10727.8  sp|Q83HI9|ILVC_TROW8 -             0.0055   16.5   0.1    0.0094   15.7   0.1   1.3   1   0   0   1   1   1   1 Rossmann-like domain
+2-Hacid_dh_C         PF02826.18 sp|Q83HI9|ILVC_TROW8 -              0.007   15.7   0.0     0.011   15.0   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+CoA_binding          PF02629.18 sp|Q83HI9|ILVC_TROW8 -              0.049   14.2   0.0      0.15   12.7   0.0   1.8   1   0   0   1   1   1   0 CoA binding domain
+AdoHcyase_NAD        PF00670.20 sp|Q83HI9|ILVC_TROW8 -              0.052   13.5   0.0     0.093   12.7   0.0   1.3   1   0   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Mur_ligase           PF01225.24 sp|Q83HI9|ILVC_TROW8 -              0.098   12.9   0.2      0.31   11.3   0.2   1.9   1   1   0   1   1   1   0 Mur ligase family, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q83HI9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q83HI9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q83HI9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:05:46 2019
+# [ok]

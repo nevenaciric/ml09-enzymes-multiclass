@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MOSC_N               PF03476.15 sp|Q1LZH1|MARC2_BOVIN -            1.9e-37  127.7   0.0   2.7e-37  127.2   0.0   1.2   1   0   0   1   1   1   1 MOSC N-terminal beta barrel domain
+MOSC                 PF03473.16 sp|Q1LZH1|MARC2_BOVIN -            4.5e-35  120.4   0.0     8e-35  119.6   0.0   1.4   1   0   0   1   1   1   1 MOSC domain
+LPG_synthase_TM      PF03706.12 sp|Q1LZH1|MARC2_BOVIN -              0.034   13.6   1.5     0.044   13.2   1.5   1.1   1   0   0   1   1   1   0 Lysylphosphatidylglycerol synthase TM region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q1LZH1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q1LZH1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q1LZH1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:15:58 2019
+# [ok]

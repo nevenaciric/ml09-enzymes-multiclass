@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q14IT0|MDH_FRAT1  -            8.3e-43  145.8   1.7   1.3e-42  145.1   0.9   1.7   2   0   0   2   2   2   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q14IT0|MDH_FRAT1  -            1.6e-27   96.4   0.1   2.1e-27   96.0   0.1   1.1   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|Q14IT0|MDH_FRAT1  -            0.00048   19.6   1.0     0.012   15.0   0.2   2.5   1   1   1   2   2   2   2 Family 4 glycosyl hydrolase
+Glyco_hydro_4C       PF11975.7  sp|Q14IT0|MDH_FRAT1  -             0.0037   17.3   0.0    0.0084   16.1   0.0   1.4   1   1   0   1   1   1   1 Family 4 glycosyl hydrolase C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q14IT0|MDH_FRAT1  -              0.005   16.3   0.6     0.064   12.7   0.6   2.2   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Ribosom_S12_S23      PF00164.24 sp|Q14IT0|MDH_FRAT1  -               0.16   11.5   0.6      0.82    9.2   0.1   2.3   2   1   1   3   3   3   0 Ribosomal protein S12/S23
+3HCDH_N              PF02737.17 sp|Q14IT0|MDH_FRAT1  -                0.2   11.4   3.1       2.4    7.9   0.5   3.1   3   1   0   3   3   3   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q14IT0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q14IT0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q14IT0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:12:37 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|O66148|POR_LEPBY  -            8.3e-23   80.8   0.0   3.3e-20   72.3   0.0   2.3   2   0   0   2   2   2   2 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|O66148|POR_LEPBY  -            1.2e-12   47.8   0.0   4.6e-12   45.9   0.0   1.8   2   0   0   2   2   2   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|O66148|POR_LEPBY  -            6.3e-05   22.9   0.0   9.8e-05   22.2   0.0   1.3   1   0   0   1   1   1   1 KR domain
+NAD_binding_10       PF13460.5  sp|O66148|POR_LEPBY  -             0.0031   17.3   0.0     0.006   16.4   0.0   1.5   1   0   0   1   1   1   1 NAD(P)H-binding
+Epimerase            PF01370.20 sp|O66148|POR_LEPBY  -               0.01   15.2   0.0     0.023   14.1   0.0   1.5   2   0   0   2   2   2   0 NAD dependent epimerase/dehydratase family
+NmrA                 PF05368.12 sp|O66148|POR_LEPBY  -               0.19   11.1   0.0       0.3   10.5   0.0   1.2   1   0   0   1   1   1   0 NmrA-like family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O66148.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O66148.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O66148.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:25:55 2019
+# [ok]

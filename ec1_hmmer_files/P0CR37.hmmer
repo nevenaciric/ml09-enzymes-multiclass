@@ -1,0 +1,26 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P0CR37|TSC10_CRYNB -            2.2e-29  102.2   0.0   3.4e-29  101.6   0.0   1.3   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P0CR37|TSC10_CRYNB -              5e-18   65.4   0.0   6.6e-18   65.0   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P0CR37|TSC10_CRYNB -            1.3e-12   47.9   0.2   2.9e-12   46.8   0.0   1.6   2   0   0   2   2   2   1 KR domain
+Epimerase            PF01370.20 sp|P0CR37|TSC10_CRYNB -            1.3e-06   28.0   0.0   7.9e-06   25.4   0.0   2.0   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+THF_DHG_CYH_C        PF02882.18 sp|P0CR37|TSC10_CRYNB -             0.0017   17.6   0.0     0.003   16.8   0.0   1.4   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+NAD_binding_10       PF13460.5  sp|P0CR37|TSC10_CRYNB -             0.0018   18.1   0.0    0.0029   17.5   0.0   1.4   1   0   0   1   1   1   1 NAD(P)H-binding
+F420_oxidored        PF03807.16 sp|P0CR37|TSC10_CRYNB -             0.0026   18.2   0.0     0.005   17.3   0.0   1.5   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|P0CR37|TSC10_CRYNB -             0.0068   16.7   0.1     0.013   15.9   0.1   1.5   1   1   0   1   1   1   1 Putative NAD(P)-binding
+Glyco_tran_WecB      PF03808.12 sp|P0CR37|TSC10_CRYNB -              0.028   14.2   0.0      0.13   12.1   0.0   1.9   1   1   0   1   1   1   0 Glycosyl transferase WecB/TagA/CpsF family
+Shikimate_DH         PF01488.19 sp|P0CR37|TSC10_CRYNB -              0.045   13.7   0.0     0.076   13.0   0.0   1.3   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+DFP                  PF04127.14 sp|P0CR37|TSC10_CRYNB -              0.061   13.1   0.4      0.13   12.0   0.4   1.6   1   1   0   1   1   1   0 DNA / pantothenate metabolism flavoprotein
+NAD_binding_2        PF03446.14 sp|P0CR37|TSC10_CRYNB -               0.12   12.5   0.0      0.24   11.5   0.0   1.5   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+TrkA_N               PF02254.17 sp|P0CR37|TSC10_CRYNB -               0.12   12.6   0.0      0.22   11.7   0.0   1.5   1   0   0   1   1   1   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0CR37.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0CR37.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0CR37.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:34:18 2019
+# [ok]

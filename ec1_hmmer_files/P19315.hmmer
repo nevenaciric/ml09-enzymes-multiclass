@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Gp_dh_C              PF02800.19 sp|P19315|G3P_METFO  -            6.1e-31  107.0   0.0   8.9e-31  106.5   0.0   1.2   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain
+DapB_N               PF01113.19 sp|P19315|G3P_METFO  -            1.7e-09   37.7   0.1   4.1e-09   36.5   0.1   1.6   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+Gp_dh_N              PF00044.23 sp|P19315|G3P_METFO  -            2.1e-07   31.1   0.2   1.2e-06   28.7   0.2   2.2   1   1   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|P19315|G3P_METFO  -            3.9e-05   24.2   0.0   0.00096   19.7   0.0   2.4   2   0   0   2   2   2   1 Homoserine dehydrogenase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|P19315|G3P_METFO  -            0.00029   20.1   0.2    0.0086   15.3   0.2   2.2   1   1   1   2   2   2   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|P19315|G3P_METFO  -             0.0037   17.4   0.0    0.0097   16.1   0.0   1.8   1   0   0   1   1   1   1 TrkA-N domain
+F420_oxidored        PF03807.16 sp|P19315|G3P_METFO  -             0.0074   16.7   0.1     0.036   14.5   0.1   2.0   1   1   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+Sacchrp_dh_NADP      PF03435.17 sp|P19315|G3P_METFO  -              0.009   16.2   0.0     0.019   15.1   0.0   1.5   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+GFO_IDH_MocA         PF01408.21 sp|P19315|G3P_METFO  -              0.036   14.8   0.0     0.098   13.4   0.0   1.8   1   1   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+Semialdhyde_dh       PF01118.23 sp|P19315|G3P_METFO  -               0.11   12.8   0.0      0.22   11.9   0.0   1.5   1   0   0   1   1   1   0 Semialdehyde dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P19315.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P19315.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P19315.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:38:19 2019
+# [ok]

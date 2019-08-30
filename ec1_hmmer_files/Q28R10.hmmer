@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GcpE                 PF04551.13 sp|Q28R10|ISPG_JANSC -           1.9e-128  428.4   1.6  2.2e-128  428.2   1.6   1.0   1   0   0   1   1   1   1 GcpE protein
+DeoC                 PF01791.8  sp|Q28R10|ISPG_JANSC -             0.0094   15.5   2.7     0.014   14.9   0.3   2.4   2   1   1   3   3   3   1 DeoC/LacD family aldolase
+Laminin_II           PF06009.11 sp|Q28R10|ISPG_JANSC -               0.73    9.7   5.9       1.3    8.9   0.0   3.4   4   0   0   4   4   4   0 Laminin Domain II
+BKACE                PF05853.11 sp|Q28R10|ISPG_JANSC -                4.6    6.4  13.4       2.5    7.3   0.7   3.4   1   1   1   3   3   3   0 beta-keto acid cleavage enzyme
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q28R10.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q28R10.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q28R10.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:18:52 2019
+# [ok]

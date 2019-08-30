@@ -1,0 +1,30 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q8XP62|LDH_CLOPE  -            8.4e-47  158.7   0.5   1.4e-46  158.0   0.5   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q8XP62|LDH_CLOPE  -            1.3e-31  109.7   0.1   2.1e-31  109.0   0.1   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|Q8XP62|LDH_CLOPE  -            3.4e-07   29.9   2.0   0.00075   19.0   0.0   2.3   1   1   1   2   2   2   2 Family 4 glycosyl hydrolase
+UDPG_MGDP_dh_N       PF03721.13 sp|Q8XP62|LDH_CLOPE  -            7.3e-06   25.6   0.7   2.2e-05   24.0   0.7   2.0   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q8XP62|LDH_CLOPE  -            9.1e-05   22.6   0.5   0.00026   21.2   0.3   1.9   2   0   0   2   2   2   1 Saccharopine dehydrogenase NADP binding domain
+3Beta_HSD            PF01073.18 sp|Q8XP62|LDH_CLOPE  -            0.00049   19.1   0.1   0.00088   18.2   0.1   1.4   1   0   0   1   1   1   1 3-beta hydroxysteroid dehydrogenase/isomerase family
+Epimerase            PF01370.20 sp|Q8XP62|LDH_CLOPE  -            0.00056   19.3   0.0    0.0017   17.8   0.0   1.7   2   0   0   2   2   2   1 NAD dependent epimerase/dehydratase family
+F420_oxidored        PF03807.16 sp|Q8XP62|LDH_CLOPE  -            0.00087   19.7   0.6    0.0023   18.4   0.6   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+DAO                  PF01266.23 sp|Q8XP62|LDH_CLOPE  -             0.0015   18.1   0.2    0.0033   17.0   0.2   1.6   1   1   0   1   1   1   1 FAD dependent oxidoreductase
+TrkA_N               PF02254.17 sp|Q8XP62|LDH_CLOPE  -             0.0022   18.1   0.3    0.0051   17.0   0.3   1.6   1   0   0   1   1   1   1 TrkA-N domain
+AlaDh_PNT_C          PF01262.20 sp|Q8XP62|LDH_CLOPE  -             0.0023   17.2   0.6    0.0046   16.2   0.6   1.4   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+3HCDH_N              PF02737.17 sp|Q8XP62|LDH_CLOPE  -             0.0075   16.1   1.2     0.012   15.4   0.2   1.8   2   0   0   2   2   2   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q8XP62|LDH_CLOPE  -              0.011   15.7   0.0     0.028   14.4   0.0   1.7   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+NAD_binding_8        PF13450.5  sp|Q8XP62|LDH_CLOPE  -              0.024   14.8   0.1     0.052   13.7   0.1   1.6   1   0   0   1   1   1   0 NAD(P)-binding Rossmann-like domain
+ThiF                 PF00899.20 sp|Q8XP62|LDH_CLOPE  -              0.066   12.5   0.1      0.31   10.2   0.0   1.9   2   0   0   2   2   2   0 ThiF family
+GFO_IDH_MocA         PF01408.21 sp|Q8XP62|LDH_CLOPE  -              0.096   13.4   0.0      0.25   12.1   0.0   1.8   1   0   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+NAD_binding_7        PF13241.5  sp|Q8XP62|LDH_CLOPE  -                0.1   12.9   0.5      0.35   11.2   0.1   2.0   2   1   0   2   2   2   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8XP62.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8XP62.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8XP62.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:17:44 2019
+# [ok]

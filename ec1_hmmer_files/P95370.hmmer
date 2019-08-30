@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TP_methylase         PF00590.19 sp|P95370|CYSG_NEIMB -            7.4e-48  163.2   2.3   1.4e-47  162.3   2.3   1.5   1   0   0   1   1   1   1 Tetrapyrrole (Corrin/Porphyrin) Methylases
+NAD_binding_7        PF13241.5  sp|P95370|CYSG_NEIMB -            1.1e-26   93.2   0.3   2.2e-26   92.2   0.1   1.7   2   0   0   2   2   2   1 Putative NAD(P)-binding
+CysG_dimeriser       PF10414.8  sp|P95370|CYSG_NEIMB -            5.8e-20   70.7   2.8   2.2e-19   68.8   2.8   2.1   1   0   0   1   1   1   1 Sirohaem synthase dimerisation region
+Sirohm_synth_M       PF14824.5  sp|P95370|CYSG_NEIMB -            5.7e-10   38.4   2.5   8.4e-10   37.8   0.2   2.3   2   0   0   2   2   2   1 Sirohaem biosynthesis protein central
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P95370.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P95370.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P95370.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:59:41 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q566S6|DRS7B_DANRE -            1.2e-49  168.3   0.4   1.6e-49  168.0   0.4   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q566S6|DRS7B_DANRE -              2e-33  115.8   0.3   2.5e-33  115.5   0.3   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q566S6|DRS7B_DANRE -            1.1e-12   48.2   0.1   1.5e-12   47.7   0.1   1.2   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q566S6|DRS7B_DANRE -             0.0048   16.3   1.1     0.011   15.1   1.1   1.6   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+Shikimate_DH         PF01488.19 sp|Q566S6|DRS7B_DANRE -             0.0095   15.9   0.1     0.025   14.5   0.0   1.7   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+DUF1776              PF08643.9  sp|Q566S6|DRS7B_DANRE -              0.016   14.5   0.0     0.023   14.0   0.0   1.3   1   0   0   1   1   1   0 Fungal family of unknown function (DUF1776)
+Polysacc_synt_2      PF02719.14 sp|Q566S6|DRS7B_DANRE -              0.039   13.0   0.1     0.053   12.5   0.1   1.2   1   0   0   1   1   1   0 Polysaccharide biosynthesis protein
+THF_DHG_CYH_C        PF02882.18 sp|Q566S6|DRS7B_DANRE -               0.05   12.8   0.0      0.15   11.2   0.0   1.8   1   0   0   1   1   1   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q566S6|DRS7B_DANRE -              0.084   13.0   0.2       0.7   10.0   0.1   2.4   2   1   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q566S6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q566S6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q566S6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:38:41 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q12634|T4HR_MAGO7 -            3.9e-54  183.6   1.9   6.4e-54  182.9   1.9   1.3   1   1   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q12634|T4HR_MAGO7 -            1.9e-46  157.9   3.4   2.4e-46  157.6   3.4   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q12634|T4HR_MAGO7 -            6.5e-11   42.4   0.4   8.6e-11   42.0   0.4   1.1   1   0   0   1   1   1   1 KR domain
+THF_DHG_CYH_C        PF02882.18 sp|Q12634|T4HR_MAGO7 -              0.011   15.0   0.2     0.023   13.9   0.2   1.6   1   0   0   1   1   1   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+DUF1372              PF07116.10 sp|Q12634|T4HR_MAGO7 -              0.054   13.6   0.5      0.21   11.7   0.0   2.2   2   1   1   3   3   3   0 Protein of unknown function (DUF1372)
+2-Hacid_dh_C         PF02826.18 sp|Q12634|T4HR_MAGO7 -              0.097   11.9   0.1      0.15   11.3   0.1   1.3   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q12634.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q12634.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q12634.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:11:39 2019
+# [ok]

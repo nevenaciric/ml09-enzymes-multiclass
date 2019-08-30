@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|O42896|YBQ3_SCHPO -              6e-22   78.6   0.0   9.6e-22   78.0   0.0   1.3   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+GFO_IDH_MocA_C       PF02894.16 sp|O42896|YBQ3_SCHPO -            3.9e-17   62.2   0.0   7.4e-17   61.3   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, C-terminal alpha/beta domain
+NAD_binding_3        PF03447.15 sp|O42896|YBQ3_SCHPO -            1.7e-05   25.4   0.0     3e-05   24.5   0.0   1.3   1   0   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|O42896|YBQ3_SCHPO -              0.045   13.9   0.1     0.086   13.0   0.1   1.4   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+G6PD_N               PF00479.21 sp|O42896|YBQ3_SCHPO -              0.052   14.1   0.1      0.11   13.1   0.1   1.5   1   0   0   1   1   1   0 Glucose-6-phosphate dehydrogenase, NAD binding domain
+CoA_binding          PF02629.18 sp|O42896|YBQ3_SCHPO -              0.076   13.6   0.0      0.17   12.5   0.0   1.6   1   0   0   1   1   1   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O42896.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O42896.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O42896.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:24:02 2019
+# [ok]

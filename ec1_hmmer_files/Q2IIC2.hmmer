@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q2IIC2|MDH1_ANADE -            1.5e-40  138.5   1.2   2.1e-40  138.0   0.7   1.5   2   0   0   2   2   2   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q2IIC2|MDH1_ANADE -            1.8e-31  109.2   0.0   2.7e-31  108.7   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|Q2IIC2|MDH1_ANADE -            9.3e-05   22.0   2.3   0.00053   19.5   0.1   2.5   1   1   1   2   2   2   1 Family 4 glycosyl hydrolase
+UDPG_MGDP_dh_N       PF03721.13 sp|Q2IIC2|MDH1_ANADE -            0.00011   21.8   1.7   0.00033   20.2   1.7   1.7   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Phage_holin_3_6      PF07332.10 sp|Q2IIC2|MDH1_ANADE -               0.26   11.2   0.1      0.26   11.2   0.1   2.0   2   0   0   2   2   2   0 Putative Actinobacterial Holin-X, holin superfamily III
+F420_oxidored        PF03807.16 sp|Q2IIC2|MDH1_ANADE -               0.66   10.5   3.8      0.37   11.3   0.2   2.5   3   0   0   3   3   3   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2IIC2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2IIC2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2IIC2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:20:20 2019
+# [ok]

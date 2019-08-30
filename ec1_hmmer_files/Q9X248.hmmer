@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|Q9X248|FABG_THEMA -            4.8e-79  265.1   0.4   5.4e-79  265.0   0.4   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|Q9X248|FABG_THEMA -            1.3e-69  233.5   1.5   1.5e-69  233.3   1.5   1.0   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q9X248|FABG_THEMA -            4.2e-21   75.6   0.2   5.4e-21   75.2   0.2   1.1   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q9X248|FABG_THEMA -            3.2e-05   23.4   0.1   5.8e-05   22.6   0.2   1.4   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+THF_DHG_CYH_C        PF02882.18 sp|Q9X248|FABG_THEMA -             0.0012   18.1   0.1    0.0054   16.0   0.0   2.0   2   0   0   2   2   2   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+Methyltr_RsmB-F      PF01189.16 sp|Q9X248|FABG_THEMA -              0.014   15.0   0.0     0.015   14.8   0.0   1.1   1   0   0   1   1   1   0 16S rRNA methyltransferase RsmB/F
+NAD_binding_7        PF13241.5  sp|Q9X248|FABG_THEMA -              0.027   14.8   0.2     0.064   13.6   0.1   1.6   2   0   0   2   2   2   0 Putative NAD(P)-binding
+CbiA                 PF01656.22 sp|Q9X248|FABG_THEMA -              0.037   14.0   0.1     0.062   13.3   0.1   1.4   1   0   0   1   1   1   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9X248.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9X248.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9X248.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:35:54 2019
+# [ok]

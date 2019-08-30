@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Shikimate_DH         PF01488.19 sp|Q3JDR3|HEM1_NITOC -            1.8e-48  164.0   0.0   6.8e-48  162.1   0.0   1.9   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_N              PF05201.14 sp|Q3JDR3|HEM1_NITOC -            4.9e-47  159.0   0.0     1e-46  158.0   0.0   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+GlutR_dimer          PF00745.19 sp|Q3JDR3|HEM1_NITOC -            7.6e-26   90.3   0.4   1.5e-25   89.4   0.4   1.5   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+T2SSF                PF00482.22 sp|Q3JDR3|HEM1_NITOC -                0.1   12.5   0.1      0.45   10.4   0.0   2.0   2   0   0   2   2   2   0 Type II secretion system (T2SS), protein F
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3JDR3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3JDR3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3JDR3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:28:06 2019
+# [ok]

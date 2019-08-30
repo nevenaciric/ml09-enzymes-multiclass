@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Semialdhyde_dh       PF01118.23 sp|Q3JC91|ARGC_NITOC -            5.6e-39  133.2   0.0   9.7e-39  132.5   0.0   1.4   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+Semialdhyde_dhC      PF02774.17 sp|Q3JC91|ARGC_NITOC -            2.7e-17   63.3   0.0   4.3e-17   62.7   0.0   1.3   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, dimerisation domain
+F420_oxidored        PF03807.16 sp|Q3JC91|ARGC_NITOC -             0.0011   19.3   0.0    0.0026   18.2   0.0   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+DapB_N               PF01113.19 sp|Q3JC91|ARGC_NITOC -             0.0014   18.6   0.0    0.0024   17.9   0.0   1.3   1   0   0   1   1   1   1 Dihydrodipicolinate reductase, N-terminus
+GFO_IDH_MocA         PF01408.21 sp|Q3JC91|ARGC_NITOC -             0.0089   16.8   0.0     0.017   15.9   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+Epimerase            PF01370.20 sp|Q3JC91|ARGC_NITOC -               0.13   11.6   0.0       0.2   11.0   0.0   1.3   1   0   0   1   1   1   0 NAD dependent epimerase/dehydratase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q3JC91.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q3JC91.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q3JC91.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:28:04 2019
+# [ok]

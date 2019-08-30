@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P9WGS3|EPHD_MYCTU -            2.1e-49  167.6   1.1   2.9e-49  167.1   1.1   1.2   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P9WGS3|EPHD_MYCTU -            3.6e-42  144.4   1.7   5.4e-42  143.9   1.7   1.3   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+Abhydrolase_1        PF00561.19 sp|P9WGS3|EPHD_MYCTU -              9e-36  123.7   0.1   1.3e-35  123.2   0.1   1.2   1   0   0   1   1   1   1 alpha/beta hydrolase fold
+Abhydrolase_6        PF12697.6  sp|P9WGS3|EPHD_MYCTU -            2.4e-13   51.1  11.6   2.4e-13   51.1  11.6   1.7   2   0   0   2   2   2   1 Alpha/beta hydrolase family
+KR                   PF08659.9  sp|P9WGS3|EPHD_MYCTU -            3.5e-09   36.7   0.4   5.9e-09   36.0   0.4   1.3   1   0   0   1   1   1   1 KR domain
+Hydrolase_4          PF12146.7  sp|P9WGS3|EPHD_MYCTU -            6.5e-09   35.3   0.1   1.4e-08   34.2   0.1   1.7   1   1   0   1   1   1   1 Serine aminopeptidase, S33
+Epimerase            PF01370.20 sp|P9WGS3|EPHD_MYCTU -             0.0013   18.2   0.1     0.002   17.5   0.1   1.3   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+3HCDH_N              PF02737.17 sp|P9WGS3|EPHD_MYCTU -             0.0043   16.9   0.4    0.0069   16.2   0.4   1.3   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+UDPG_MGDP_dh_N       PF03721.13 sp|P9WGS3|EPHD_MYCTU -              0.041   13.3   0.1     0.069   12.6   0.1   1.3   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Polysacc_synt_2      PF02719.14 sp|P9WGS3|EPHD_MYCTU -               0.19   10.7   0.0      0.27   10.2   0.0   1.2   1   0   0   1   1   1   0 Polysaccharide biosynthesis protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WGS3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WGS3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WGS3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:00:35 2019
+# [ok]

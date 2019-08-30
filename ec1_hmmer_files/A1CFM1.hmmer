@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|A1CFM1|PATN_ASPCL -              6e-45  153.5   0.0   7.6e-45  153.2   0.0   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|A1CFM1|PATN_ASPCL -            4.3e-31  107.8   0.0   5.6e-31  107.4   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|A1CFM1|PATN_ASPCL -            0.00075   19.4   0.0     0.001   18.9   0.0   1.2   1   0   0   1   1   1   1 KR domain
+NAD_binding_7        PF13241.5  sp|A1CFM1|PATN_ASPCL -              0.058   13.7   0.0      0.12   12.8   0.0   1.6   1   0   0   1   1   1   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1CFM1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1CFM1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1CFM1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:23:02 2019
+# [ok]

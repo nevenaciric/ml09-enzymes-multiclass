@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Shikimate_DH         PF01488.19 sp|A7GTE7|HEM1_BACCN -            3.4e-46  156.6   0.0     1e-45  155.1   0.0   1.9   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+GlutR_N              PF05201.14 sp|A7GTE7|HEM1_BACCN -            5.1e-45  152.5   2.2   5.4e-45  152.4   0.8   1.8   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+GlutR_dimer          PF00745.19 sp|A7GTE7|HEM1_BACCN -            5.5e-20   71.5   1.4   5.5e-20   71.5   1.4   3.6   4   1   0   4   4   4   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A7GTE7|HEM1_BACCN -            9.9e-06   26.0   0.7   6.9e-05   23.3   0.0   2.7   3   0   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+ThiF                 PF00899.20 sp|A7GTE7|HEM1_BACCN -            6.6e-05   22.3   0.2   0.00012   21.4   0.2   1.4   1   0   0   1   1   1   1 ThiF family
+NAD_binding_2        PF03446.14 sp|A7GTE7|HEM1_BACCN -             0.0023   18.0   0.1    0.0066   16.5   0.1   1.8   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|A7GTE7|HEM1_BACCN -             0.0032   16.9   0.1    0.0068   15.8   0.1   1.5   1   0   0   1   1   1   1 Glucose dehydrogenase C-terminus
+NAD_binding_7        PF13241.5  sp|A7GTE7|HEM1_BACCN -             0.0084   16.4   1.9     0.029   14.7   0.0   2.6   3   1   0   3   3   3   1 Putative NAD(P)-binding
+2-Hacid_dh_C         PF02826.18 sp|A7GTE7|HEM1_BACCN -              0.011   15.0   0.2      0.02   14.2   0.2   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|A7GTE7|HEM1_BACCN -               0.02   15.1   0.0      0.06   13.5   0.0   1.9   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+THF_DHG_CYH_C        PF02882.18 sp|A7GTE7|HEM1_BACCN -              0.056   12.7   0.5         3    7.1   0.1   2.9   1   1   0   2   2   2   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+DUF2540              PF10802.7  sp|A7GTE7|HEM1_BACCN -               0.12   12.4   1.6      0.25   11.3   0.2   2.3   2   0   0   2   2   2   0 Protein of unknown function (DUF2540)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7GTE7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7GTE7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7GTE7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:38:56 2019
+# [ok]

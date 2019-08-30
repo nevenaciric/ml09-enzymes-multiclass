@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|O18404|HCD2_DROME -            1.9e-50  170.9   1.7   2.3e-50  170.7   1.7   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|O18404|HCD2_DROME -            1.1e-46  159.2   0.2   1.4e-46  158.9   0.2   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|O18404|HCD2_DROME -            3.1e-12   46.7   2.7   6.5e-12   45.6   2.7   1.5   1   1   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|O18404|HCD2_DROME -            3.7e-06   26.5   0.6     1e-05   25.0   0.6   1.8   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+Sacchrp_dh_NADP      PF03435.17 sp|O18404|HCD2_DROME -             0.0014   18.8   0.1    0.0025   18.0   0.1   1.4   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+3Beta_HSD            PF01073.18 sp|O18404|HCD2_DROME -              0.039   12.8   0.2      0.11   11.4   0.2   1.8   1   1   0   1   1   1   0 3-beta hydroxysteroid dehydrogenase/isomerase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O18404.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O18404.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O18404.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:21:44 2019
+# [ok]

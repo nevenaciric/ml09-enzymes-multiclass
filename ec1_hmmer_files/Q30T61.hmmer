@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|Q30T61|ILVC_SULDN -              1e-73  246.2   0.2   1.4e-73  245.8   0.2   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|Q30T61|ILVC_SULDN -            6.2e-62  208.0   0.1   8.3e-62  207.6   0.1   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+NAD_binding_2        PF03446.14 sp|Q30T61|ILVC_SULDN -            5.8e-06   26.5   0.0   1.2e-05   25.4   0.0   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|Q30T61|ILVC_SULDN -            7.9e-06   25.2   0.0   1.3e-05   24.6   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q30T61|ILVC_SULDN -            1.8e-05   25.1   0.1   4.4e-05   23.9   0.1   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+AdoHcyase_NAD        PF00670.20 sp|Q30T61|ILVC_SULDN -            0.00017   21.6   0.1   0.00038   20.5   0.0   1.6   2   0   0   2   2   2   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Mur_ligase           PF01225.24 sp|Q30T61|ILVC_SULDN -             0.0098   16.1   0.6      0.21   11.9   0.5   2.9   2   1   0   2   2   2   1 Mur ligase family, catalytic domain
+GFO_IDH_MocA         PF01408.21 sp|Q30T61|ILVC_SULDN -              0.029   15.1   0.0     0.049   14.4   0.0   1.4   1   0   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+CoA_binding          PF02629.18 sp|Q30T61|ILVC_SULDN -               0.05   14.2   0.0      0.11   13.1   0.0   1.6   1   0   0   1   1   1   0 CoA binding domain
+TrkA_N               PF02254.17 sp|Q30T61|ILVC_SULDN -              0.096   12.9   0.0      0.19   11.9   0.0   1.6   1   0   0   1   1   1   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q30T61.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q30T61.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q30T61.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:24:03 2019
+# [ok]

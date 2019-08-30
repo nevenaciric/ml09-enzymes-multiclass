@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NmrA                 PF05368.12 sp|B5KRH5|PILR1_LINCY -              1e-64  218.2   0.0   1.1e-64  218.1   0.0   1.0   1   0   0   1   1   1   1 NmrA-like family
+NAD_binding_10       PF13460.5  sp|B5KRH5|PILR1_LINCY -            1.1e-11   44.9   0.0     4e-11   43.1   0.0   1.9   2   1   0   2   2   2   1 NAD(P)H-binding
+Epimerase            PF01370.20 sp|B5KRH5|PILR1_LINCY -              4e-07   29.6   0.4   5.2e-05   22.7   0.1   2.6   3   0   0   3   3   3   2 NAD dependent epimerase/dehydratase family
+3Beta_HSD            PF01073.18 sp|B5KRH5|PILR1_LINCY -             0.0032   16.4   0.4    0.0051   15.7   0.4   1.3   1   0   0   1   1   1   1 3-beta hydroxysteroid dehydrogenase/isomerase family
+GDP_Man_Dehyd        PF16363.4  sp|B5KRH5|PILR1_LINCY -              0.084   12.1   0.1      0.14   11.4   0.1   1.3   1   0   0   1   1   1   0 GDP-mannose 4,6 dehydratase
+AlaDh_PNT_C          PF01262.20 sp|B5KRH5|PILR1_LINCY -               0.16   11.1   0.2       0.3   10.2   0.2   1.5   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B5KRH5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B5KRH5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B5KRH5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:00:22 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|A4QTE3|MKAR_MAGO7 -            3.8e-39  134.1   0.0   5.4e-39  133.6   0.0   1.2   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|A4QTE3|MKAR_MAGO7 -            1.3e-24   86.9   0.0   1.8e-24   86.5   0.0   1.2   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|A4QTE3|MKAR_MAGO7 -            1.4e-05   25.0   0.0   5.5e-05   23.0   0.0   1.9   1   1   0   1   1   1   1 KR domain
+Polysacc_synt_2      PF02719.14 sp|A4QTE3|MKAR_MAGO7 -             0.0011   18.1   0.0    0.0015   17.7   0.0   1.2   1   0   0   1   1   1   1 Polysaccharide biosynthesis protein
+NAD_binding_10       PF13460.5  sp|A4QTE3|MKAR_MAGO7 -             0.0012   18.7   0.0    0.0023   17.8   0.0   1.6   1   1   0   1   1   1   1 NAD(P)H-binding
+F420_oxidored        PF03807.16 sp|A4QTE3|MKAR_MAGO7 -              0.012   16.1   0.1     0.027   15.0   0.1   1.5   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+Sacchrp_dh_NADP      PF03435.17 sp|A4QTE3|MKAR_MAGO7 -              0.013   15.6   0.1     0.047   13.8   0.0   1.9   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+Shikimate_DH         PF01488.19 sp|A4QTE3|MKAR_MAGO7 -              0.016   15.2   0.1     0.036   14.0   0.1   1.5   1   1   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+LytR_C               PF13399.5  sp|A4QTE3|MKAR_MAGO7 -              0.052   14.4   0.1      0.12   13.2   0.1   1.6   1   0   0   1   1   1   0 LytR cell envelope-related transcriptional attenuator
+3HCDH_N              PF02737.17 sp|A4QTE3|MKAR_MAGO7 -              0.053   13.3   0.1       0.1   12.4   0.1   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A4QTE3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A4QTE3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A4QTE3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:30:34 2019
+# [ok]

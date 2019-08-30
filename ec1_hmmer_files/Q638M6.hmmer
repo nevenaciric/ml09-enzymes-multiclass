@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_reductoisom      PF02670.15 sp|Q638M6|DXR1_BACCZ -            7.7e-43  146.2   1.1   1.4e-42  145.3   1.1   1.5   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXPR_C               PF13288.5  sp|Q638M6|DXR1_BACCZ -            2.5e-42  143.7   0.0   4.3e-42  142.9   0.0   1.4   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+DXP_redisom_C        PF08436.11 sp|Q638M6|DXR1_BACCZ -              5e-39  132.4   0.0   1.1e-38  131.3   0.0   1.6   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+NAD_binding_3        PF03447.15 sp|Q638M6|DXR1_BACCZ -             0.0025   18.4   0.7     0.034   14.7   0.4   2.9   2   1   0   2   2   2   1 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q638M6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q638M6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q638M6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:48:55 2019
+# [ok]

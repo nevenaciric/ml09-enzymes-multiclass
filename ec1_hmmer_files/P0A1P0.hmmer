@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Gp_dh_C              PF02800.19 sp|P0A1P0|G3P_SALTY  -            3.8e-72  240.9   0.0   5.3e-72  240.5   0.0   1.2   1   0   0   1   1   1   1 Glyceraldehyde 3-phosphate dehydrogenase, C-terminal domain
+Gp_dh_N              PF00044.23 sp|P0A1P0|G3P_SALTY  -            2.8e-42  143.1   1.5   1.1e-41  141.1   0.4   2.1   2   0   0   2   2   2   1 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+DapB_N               PF01113.19 sp|P0A1P0|G3P_SALTY  -            0.00079   19.4   3.3     0.002   18.2   1.4   2.5   2   1   0   2   2   2   1 Dihydrodipicolinate reductase, N-terminus
+2-Hacid_dh_C         PF02826.18 sp|P0A1P0|G3P_SALTY  -              0.015   14.6   0.1     0.062   12.5   0.1   1.9   2   0   0   2   2   2   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0A1P0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0A1P0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0A1P0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:31:37 2019
+# [ok]

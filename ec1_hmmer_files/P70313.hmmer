@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NO_synthase          PF02898.14 sp|P70313|NOS3_MOUSE -           1.6e-182  606.4   0.0  2.1e-182  606.0   0.0   1.1   1   0   0   1   1   1   1 Nitric oxide synthase, oxygenase domain
+FAD_binding_1        PF00667.19 sp|P70313|NOS3_MOUSE -            5.5e-82  274.5   0.0     8e-82  274.0   0.0   1.2   1   0   0   1   1   1   1 FAD binding domain
+Flavodoxin_1         PF00258.24 sp|P70313|NOS3_MOUSE -            2.3e-52  176.9   0.0   4.2e-52  176.0   0.0   1.5   1   0   0   1   1   1   1 Flavodoxin
+NAD_binding_1        PF00175.20 sp|P70313|NOS3_MOUSE -            2.1e-16   60.4   0.0   6.6e-16   58.8   0.0   1.9   2   0   0   2   2   2   1 Oxidoreductase NAD-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P70313.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P70313.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P70313.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:55:31 2019
+# [ok]

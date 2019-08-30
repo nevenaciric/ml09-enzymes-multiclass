@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX2                 PF00116.19 sp|P9WP68|COX2_MYCTO -            5.4e-15   55.2   0.3   1.4e-13   50.7   0.0   2.3   2   0   0   2   2   2   1 Cytochrome C oxidase subunit II, periplasmic domain
+ABC2_membrane_3      PF12698.6  sp|P9WP68|COX2_MYCTO -              0.043   12.8   0.4     0.068   12.2   0.4   1.2   1   0   0   1   1   1   0 ABC-2 family transporter protein
+COX2_TM              PF02790.14 sp|P9WP68|COX2_MYCTO -              0.045   13.8   0.4     0.095   12.8   0.4   1.5   1   0   0   1   1   1   0 Cytochrome C oxidase subunit II, transmembrane domain
+DUF2062              PF09835.8  sp|P9WP68|COX2_MYCTO -               0.39   10.5   4.1       1.2    8.9   0.6   2.2   2   0   0   2   2   2   0 Uncharacterized protein conserved in bacteria (DUF2062)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WP68.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WP68.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WP68.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:02:00 2019
+# [ok]

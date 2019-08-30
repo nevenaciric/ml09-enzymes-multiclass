@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|O57656|GPDA_TAKRU -            2.7e-57  193.1   2.4   9.9e-57  191.2   0.7   2.2   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|O57656|GPDA_TAKRU -              4e-49  166.4   0.3   1.1e-48  165.0   0.1   1.8   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|O57656|GPDA_TAKRU -             0.0002   21.8   2.2    0.0071   16.8   1.1   3.1   2   1   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+DUF643               PF04867.11 sp|O57656|GPDA_TAKRU -              0.011   16.3   0.0     0.037   14.6   0.0   1.9   1   0   0   1   1   1   0 Protein of unknown function (DUF643)
+IlvN                 PF07991.11 sp|O57656|GPDA_TAKRU -               0.08   12.4   0.2       7.4    6.0   0.0   2.6   2   0   0   2   2   2   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+DUF726               PF05277.11 sp|O57656|GPDA_TAKRU -              0.087   11.6   0.0      0.15   10.8   0.0   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF726)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O57656.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O57656.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O57656.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:25:07 2019
+# [ok]

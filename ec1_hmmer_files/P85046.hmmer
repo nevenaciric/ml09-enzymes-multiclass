@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hemocyanin_C         PF03723.13 sp|P85046|PRP1_SIMDA -              6e-55  186.2   0.1   6.8e-55  186.0   0.1   1.0   1   0   0   1   1   1   1 Hemocyanin, ig-like domain
+DUF2470              PF10615.8  sp|P85046|PRP1_SIMDA -              0.012   16.2   0.0     0.018   15.5   0.0   1.7   1   1   0   1   1   1   0 Protein of unknown function (DUF2470)
+Hemocyanin_M         PF00372.18 sp|P85046|PRP1_SIMDA -              0.099   11.7   2.0      0.16   11.1   2.0   1.3   1   0   0   1   1   1   0 Hemocyanin, copper containing domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P85046.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P85046.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P85046.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:58:30 2019
+# [ok]

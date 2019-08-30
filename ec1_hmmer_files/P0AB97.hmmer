@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ArsC                 PF03960.14 sp|P0AB97|ARSC_SHIFL -            5.5e-20   71.0   0.0     1e-19   70.2   0.0   1.5   1   1   0   1   1   1   1 ArsC family
+PGM_PMM_IV           PF00408.19 sp|P0AB97|ARSC_SHIFL -            7.1e-05   22.8   0.1     0.004   17.2   0.0   2.3   2   0   0   2   2   2   1 Phosphoglucomutase/phosphomannomutase, C-terminal domain
+Glutaredoxin         PF00462.23 sp|P0AB97|ARSC_SHIFL -              0.048   13.8   0.0      0.43   10.7   0.0   2.1   1   1   1   2   2   2   0 Glutaredoxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0AB97.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0AB97.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0AB97.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:32:41 2019
+# [ok]

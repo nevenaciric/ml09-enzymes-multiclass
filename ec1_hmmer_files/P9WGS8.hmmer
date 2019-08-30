@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P9WGS8|DPRE2_MYCTO -            3.3e-28   98.4   0.0   3.9e-28   98.1   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P9WGS8|DPRE2_MYCTO -            8.2e-20   71.3   0.7   9.9e-20   71.0   0.7   1.0   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P9WGS8|DPRE2_MYCTO -              2e-05   24.5   0.3   3.6e-05   23.7   0.3   1.4   1   1   0   1   1   1   1 KR domain
+YjeF_N               PF03853.14 sp|P9WGS8|DPRE2_MYCTO -              0.026   14.3   0.2       4.8    6.9   0.0   2.2   1   1   0   2   2   2   0 YjeF-related protein N-terminus
+Phosphonate-bd       PF12974.6  sp|P9WGS8|DPRE2_MYCTO -              0.073   12.5   0.1      0.11   12.0   0.1   1.3   1   0   0   1   1   1   0 ABC transporter, phosphonate, periplasmic substrate-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WGS8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WGS8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WGS8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:00:37 2019
+# [ok]

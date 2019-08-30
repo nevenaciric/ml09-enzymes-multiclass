@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|C5D5V2|LDH_GEOSW  -            6.8e-52  175.2   0.0   1.2e-51  174.5   0.0   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|C5D5V2|LDH_GEOSW  -            4.3e-39  134.0   0.0     6e-39  133.6   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|C5D5V2|LDH_GEOSW  -            0.00047   19.7   0.0    0.0028   17.1   0.0   2.0   2   0   0   2   2   2   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+F420_oxidored        PF03807.16 sp|C5D5V2|LDH_GEOSW  -              0.024   15.1   0.0     0.059   13.9   0.0   1.7   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+Semialdhyde_dh       PF01118.23 sp|C5D5V2|LDH_GEOSW  -              0.033   14.5   0.0     0.072   13.4   0.0   1.6   1   0   0   1   1   1   0 Semialdehyde dehydrogenase, NAD binding domain
+3HCDH_N              PF02737.17 sp|C5D5V2|LDH_GEOSW  -              0.086   12.6   0.1      0.17   11.6   0.1   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C5D5V2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C5D5V2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C5D5V2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:15:22 2019
+# [ok]

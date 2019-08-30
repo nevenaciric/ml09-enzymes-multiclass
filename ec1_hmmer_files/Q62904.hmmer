@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q62904|DHB7_RAT   -            2.1e-27   95.7   0.0   2.8e-25   88.8   0.0   2.5   1   1   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q62904|DHB7_RAT   -            7.9e-14   51.7   0.0   1.6e-07   31.0   0.0   2.4   2   1   0   2   2   2   2 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q62904|DHB7_RAT   -            1.8e-06   27.9   0.0   3.3e-06   27.1   0.0   1.4   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q62904|DHB7_RAT   -             0.0041   16.5   0.0      0.46    9.8   0.0   2.1   2   0   0   2   2   2   2 NAD dependent epimerase/dehydratase family
+GDP_Man_Dehyd        PF16363.4  sp|Q62904|DHB7_RAT   -              0.038   13.3   0.0      0.43    9.8   0.0   2.0   2   0   0   2   2   2   0 GDP-mannose 4,6 dehydratase
+Sacchrp_dh_NADP      PF03435.17 sp|Q62904|DHB7_RAT   -              0.079   13.1   0.1      0.18   12.0   0.0   1.6   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_4        PF07993.11 sp|Q62904|DHB7_RAT   -              0.089   11.8   0.0       2.1    7.3   0.0   2.1   2   0   0   2   2   2   0 Male sterility protein
+NAD_binding_10       PF13460.5  sp|Q62904|DHB7_RAT   -                0.1   12.4   0.0      0.18   11.6   0.0   1.4   1   0   0   1   1   1   0 NAD(P)H-binding
+Eno-Rase_NADH_b      PF12242.7  sp|Q62904|DHB7_RAT   -               0.12   12.1   0.3      0.25   11.0   0.3   1.5   1   0   0   1   1   1   0 NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q62904.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q62904.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q62904.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:48:32 2019
+# [ok]

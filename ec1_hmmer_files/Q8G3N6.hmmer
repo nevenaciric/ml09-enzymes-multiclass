@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IMPDH                PF00478.24 sp|Q8G3N6|IMDH_BIFLO -           3.2e-151  503.1   3.8  3.8e-151  502.9   3.8   1.1   1   0   0   1   1   1   1 IMP dehydrogenase / GMP reductase domain
+CBS                  PF00571.27 sp|Q8G3N6|IMDH_BIFLO -            2.2e-16   59.9   1.7   8.2e-08   32.5   0.1   2.8   3   0   0   3   3   3   2 CBS domain
+NMO                  PF03060.14 sp|Q8G3N6|IMDH_BIFLO -            9.5e-11   41.5   9.2   6.5e-06   25.7   6.2   2.4   2   0   0   2   2   2   2 Nitronate monooxygenase
+FMN_dh               PF01070.17 sp|Q8G3N6|IMDH_BIFLO -            4.9e-06   25.7   5.6   1.1e-05   24.5   5.6   1.6   1   0   0   1   1   1   1 FMN-dependent dehydrogenase
+His_biosynth         PF00977.20 sp|Q8G3N6|IMDH_BIFLO -             0.0012   18.3   1.3       0.2   11.0   0.1   2.2   2   0   0   2   2   2   2 Histidine biosynthesis protein
+Glu_synthase         PF01645.16 sp|Q8G3N6|IMDH_BIFLO -               0.03   13.4   5.0     0.056   12.5   5.0   1.4   1   0   0   1   1   1   0 Conserved region in glutamate synthase
+ThiG                 PF05690.13 sp|Q8G3N6|IMDH_BIFLO -               0.31   10.2  11.2       1.1    8.4   3.8   3.2   1   1   2   3   3   3   0 Thiazole biosynthesis protein ThiG
+G3P_antiterm         PF04309.11 sp|Q8G3N6|IMDH_BIFLO -               0.31   10.3   1.8       6.8    6.0   0.1   2.9   3   0   0   3   3   3   0 Glycerol-3-phosphate responsive antiterminator
+NanE                 PF04131.13 sp|Q8G3N6|IMDH_BIFLO -               0.53    9.4   4.3        25    3.9   4.3   3.0   1   1   0   1   1   1   0 Putative N-acetylmannosamine-6-phosphate epimerase
+DHO_dh               PF01180.20 sp|Q8G3N6|IMDH_BIFLO -                2.1    7.4   8.2      0.86    8.7   1.3   2.2   1   1   1   2   2   2   0 Dihydroorotate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8G3N6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8G3N6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8G3N6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:11:51 2019
+# [ok]

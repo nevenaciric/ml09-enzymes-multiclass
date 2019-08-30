@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADH_N                PF08240.11 sp|O74685|FADH_PICPA -            6.3e-25   87.1   2.7   1.3e-24   86.1   2.7   1.6   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+ADH_zinc_N           PF00107.25 sp|O74685|FADH_PICPA -            1.9e-20   73.0   0.0   3.7e-20   72.0   0.0   1.5   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Glu_dehyd_C          PF16912.4  sp|O74685|FADH_PICPA -            0.00053   19.4   0.0    0.0021   17.5   0.0   1.9   1   1   0   1   1   1   1 Glucose dehydrogenase C-terminus
+UDPG_MGDP_dh_N       PF03721.13 sp|O74685|FADH_PICPA -             0.0093   15.5   0.1     0.016   14.7   0.1   1.4   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+AlaDh_PNT_C          PF01262.20 sp|O74685|FADH_PICPA -              0.012   14.8   0.1     0.019   14.1   0.1   1.4   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+F420_oxidored        PF03807.16 sp|O74685|FADH_PICPA -              0.017   15.6   0.7     0.035   14.6   0.1   1.8   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|O74685|FADH_PICPA -              0.017   14.3   0.1     0.028   13.7   0.1   1.2   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+IGFBP                PF00219.17 sp|O74685|FADH_PICPA -              0.021   15.4   0.3     0.068   13.7   0.3   1.8   1   0   0   1   1   1   0 Insulin-like growth factor binding protein
+ADH_zinc_N_2         PF13602.5  sp|O74685|FADH_PICPA -              0.035   15.0   0.0     0.058   14.3   0.0   1.4   1   0   0   1   1   1   0 Zinc-binding dehydrogenase
+Pep_deformylase      PF01327.20 sp|O74685|FADH_PICPA -              0.065   12.7   0.0      0.41   10.1   0.0   2.2   2   0   0   2   2   2   0 Polypeptide deformylase
+Peptidase_S6         PF02395.15 sp|O74685|FADH_PICPA -              0.066   11.1   0.0      0.12   10.2   0.0   1.4   1   0   0   1   1   1   0 Immunoglobulin A1 protease
+Imm70                PF15601.5  sp|O74685|FADH_PICPA -               0.14   11.6   0.0       0.6    9.6   0.0   1.9   2   0   0   2   2   2   0 Immunity protein 70
+Gp_dh_N              PF00044.23 sp|O74685|FADH_PICPA -               0.24   11.7   1.7       1.5    9.1   0.1   2.8   3   0   0   3   3   3   0 Glyceraldehyde 3-phosphate dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O74685.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O74685.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O74685.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:26:40 2019
+# [ok]

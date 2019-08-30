@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|B9KZS7|MDH_THERP  -            1.2e-40  138.7   0.2   1.8e-40  138.2   0.2   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|B9KZS7|MDH_THERP  -            6.9e-30  104.1   0.0   1.1e-29  103.5   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|B9KZS7|MDH_THERP  -            7.2e-05   22.3   1.2   0.00045   19.7   1.2   2.2   1   1   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+DAO                  PF01266.23 sp|B9KZS7|MDH_THERP  -            0.00041   19.9   0.6    0.0019   17.8   0.2   2.0   2   0   0   2   2   2   1 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|B9KZS7|MDH_THERP  -             0.0017   18.5   0.3    0.0065   16.6   0.3   2.0   1   1   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+ThiF                 PF00899.20 sp|B9KZS7|MDH_THERP  -             0.0087   15.3   0.1     0.021   14.1   0.1   1.5   1   0   0   1   1   1   1 ThiF family
+Shikimate_DH         PF01488.19 sp|B9KZS7|MDH_THERP  -              0.018   15.0   0.0     0.048   13.6   0.0   1.9   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+3HCDH_N              PF02737.17 sp|B9KZS7|MDH_THERP  -              0.054   13.3   1.2       0.2   11.4   0.1   2.2   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+YlzJ                 PF14035.5  sp|B9KZS7|MDH_THERP  -              0.068   13.3   0.0      0.13   12.4   0.0   1.5   1   0   0   1   1   1   0 YlzJ-like protein
+TrkA_N               PF02254.17 sp|B9KZS7|MDH_THERP  -              0.069   13.3   0.2      0.61   10.3   0.0   2.3   2   0   0   2   2   2   0 TrkA-N domain
+ApbA                 PF02558.15 sp|B9KZS7|MDH_THERP  -              0.079   12.5   0.1      0.19   11.3   0.1   1.6   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|B9KZS7|MDH_THERP  -               0.13   12.7   3.0      0.25   11.8   0.6   2.7   3   1   0   3   3   2   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B9KZS7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B9KZS7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B9KZS7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:10:33 2019
+# [ok]

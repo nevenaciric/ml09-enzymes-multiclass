@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|Q96375|ABA2_CAPAN -            9.9e-14   51.3   0.1   8.7e-07   28.4   0.0   2.4   2   1   0   2   2   2   2 FAD binding domain
+FHA                  PF00498.25 sp|Q96375|ABA2_CAPAN -            2.6e-06   27.6   0.0   5.4e-06   26.6   0.0   1.6   1   0   0   1   1   1   1 FHA domain
+NAD_binding_8        PF13450.5  sp|Q96375|ABA2_CAPAN -            0.00028   21.0   0.6   0.00071   19.7   0.6   1.7   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox_2          PF07992.13 sp|Q96375|ABA2_CAPAN -             0.0057   15.8   0.3     0.011   14.9   0.3   1.5   1   1   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+FAD_binding_2        PF00890.23 sp|Q96375|ABA2_CAPAN -              0.011   14.7   1.0      0.02   13.9   1.0   1.4   1   0   0   1   1   1   0 FAD binding domain
+DAO                  PF01266.23 sp|Q96375|ABA2_CAPAN -               0.16   11.5   0.6      0.27   10.7   0.6   1.4   1   0   0   1   1   1   0 FAD dependent oxidoreductase
+Topo_Zn_Ribbon       PF08272.10 sp|Q96375|ABA2_CAPAN -               0.18   11.5   1.6      0.62    9.7   0.2   2.4   3   0   0   3   3   3   0 Topoisomerase I zinc-ribbon-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q96375.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q96375.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q96375.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:22:00 2019
+# [ok]

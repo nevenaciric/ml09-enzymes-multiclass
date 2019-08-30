@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PQQ                  PF01011.20 sp|P28036|ADHA_GLUPO -            1.7e-32  109.7   6.8   2.1e-08   33.6   0.1   6.8   6   0   0   6   6   6   6 PQQ enzyme repeat
+PQQ_2                PF13360.5  sp|P28036|ADHA_GLUPO -              9e-28   97.4   1.8   1.5e-15   57.3   0.3   3.9   3   1   0   3   3   3   3 PQQ-like domain
+PQQ_3                PF13570.5  sp|P28036|ADHA_GLUPO -              7e-17   61.3  28.5   1.3e-07   31.8   0.3   7.7   8   0   0   8   8   8   3 PQQ-like domain
+Cytochrome_CBB3      PF13442.5  sp|P28036|ADHA_GLUPO -            8.8e-08   32.3   0.0   2.7e-07   30.7   0.0   1.9   1   0   0   1   1   1   1 Cytochrome C oxidase, cbb3-type, subunit III
+Cytochrom_C          PF00034.20 sp|P28036|ADHA_GLUPO -             0.0023   19.0   0.1    0.0095   17.0   0.1   2.1   1   1   0   1   1   1   1 Cytochrome c
+PepSY                PF03413.18 sp|P28036|ADHA_GLUPO -              0.016   15.7   4.2       4.6    7.8   0.0   5.3   7   0   0   7   7   7   0 Peptidase propeptide and YPEB domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P28036.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P28036.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P28036.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:41:36 2019
+# [ok]

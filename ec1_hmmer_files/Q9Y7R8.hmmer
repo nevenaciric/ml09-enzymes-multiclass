@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_C              PF02866.17 sp|Q9Y7R8|MDHM_SCHPO -            1.3e-42  145.4   0.0   3.2e-42  144.2   0.1   1.6   2   0   0   2   2   2   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Ldh_1_N              PF00056.22 sp|Q9Y7R8|MDHM_SCHPO -            5.7e-41  139.8   0.0   8.9e-41  139.2   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+3Beta_HSD            PF01073.18 sp|Q9Y7R8|MDHM_SCHPO -            6.1e-06   25.3   0.0     9e-06   24.8   0.0   1.2   1   0   0   1   1   1   1 3-beta hydroxysteroid dehydrogenase/isomerase family
+DapB_N               PF01113.19 sp|Q9Y7R8|MDHM_SCHPO -             0.0037   17.3   0.1      0.02   14.9   0.0   2.0   2   0   0   2   2   2   1 Dihydrodipicolinate reductase, N-terminus
+Glyco_hydro_4        PF02056.15 sp|Q9Y7R8|MDHM_SCHPO -              0.036   13.5   0.1       3.3    7.1   0.0   2.3   1   1   1   2   2   2   0 Family 4 glycosyl hydrolase
+THF_DHG_CYH_C        PF02882.18 sp|Q9Y7R8|MDHM_SCHPO -              0.074   12.3   0.1      0.65    9.2   0.1   2.2   1   1   0   1   1   1   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9Y7R8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9Y7R8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9Y7R8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:36:39 2019
+# [ok]

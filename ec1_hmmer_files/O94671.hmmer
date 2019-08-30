@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Homoserine_dh        PF00742.18 sp|O94671|DHOM_SCHPO -            3.3e-52  176.8   0.0     6e-52  176.0   0.0   1.4   1   0   0   1   1   1   1 Homoserine dehydrogenase
+NAD_binding_3        PF03447.15 sp|O94671|DHOM_SCHPO -            2.7e-19   69.9   0.0   1.7e-18   67.2   0.0   2.2   3   0   0   3   3   3   1 Homoserine dehydrogenase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|O94671|DHOM_SCHPO -               0.07   12.4   0.2      0.43    9.8   0.1   2.2   2   0   0   2   2   2   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O94671.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O94671.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O94671.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:28:16 2019
+# [ok]

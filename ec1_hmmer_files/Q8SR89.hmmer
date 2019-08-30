@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+G6PD_C               PF02781.15 sp|Q8SR89|G6PD_ENCCU -            5.3e-39  134.1   0.0   7.4e-39  133.6   0.0   1.1   1   0   0   1   1   1   1 Glucose-6-phosphate dehydrogenase, C-terminal domain
+G6PD_N               PF00479.21 sp|Q8SR89|G6PD_ENCCU -            6.8e-15   56.0   0.0   1.7e-14   54.7   0.0   1.7   1   0   0   1   1   1   1 Glucose-6-phosphate dehydrogenase, NAD binding domain
+COQ7                 PF03232.12 sp|Q8SR89|G6PD_ENCCU -              0.099   12.3   0.0      0.16   11.6   0.0   1.3   1   0   0   1   1   1   0 Ubiquinone biosynthesis protein COQ7
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8SR89.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8SR89.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8SR89.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:15:51 2019
+# [ok]

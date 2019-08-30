@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NIR_SIR              PF01077.21 sp|C6CLS0|CYSI_DICC1 -            4.9e-51  172.3   0.1   5.6e-46  155.8   0.0   2.2   2   0   0   2   2   2   2 Nitrite and sulphite reductase 4Fe-4S domain
+NIR_SIR_ferr         PF03460.16 sp|C6CLS0|CYSI_DICC1 -              3e-29  100.5   0.1   1.9e-13   50.0   0.0   2.6   2   0   0   2   2   2   2 Nitrite/Sulfite reductase ferredoxin-like half domain
+Peptidase_C25_C      PF03785.13 sp|C6CLS0|CYSI_DICC1 -              0.099   12.4   0.1      0.27   11.0   0.1   1.7   1   0   0   1   1   1   0 Peptidase family C25, C terminal ig-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C6CLS0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C6CLS0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C6CLS0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:15:41 2019
+# [ok]

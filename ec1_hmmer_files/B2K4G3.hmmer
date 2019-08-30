@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IMPDH                PF00478.24 sp|B2K4G3|GUAC_YERPB -            7.4e-79  265.1   0.4   9.4e-79  264.8   0.4   1.0   1   0   0   1   1   1   1 IMP dehydrogenase / GMP reductase domain
+FMN_dh               PF01070.17 sp|B2K4G3|GUAC_YERPB -              0.035   13.0   7.7     0.017   14.0   3.5   2.1   1   1   1   2   2   2   0 FMN-dependent dehydrogenase
+Aldolase             PF01081.18 sp|B2K4G3|GUAC_YERPB -              0.079   12.3   0.6      0.16   11.3   0.0   1.8   2   0   0   2   2   2   0 KDPG and KHG aldolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B2K4G3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B2K4G3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B2K4G3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:54:11 2019
+# [ok]

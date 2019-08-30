@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|A7H4H9|ILVC_CAMJD -            1.3e-75  252.5   2.3   1.8e-75  251.9   2.3   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|A7H4H9|ILVC_CAMJD -            1.3e-63  213.5   0.4   1.9e-63  213.0   0.4   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|A7H4H9|ILVC_CAMJD -              1e-06   28.1   0.1   1.8e-06   27.3   0.1   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|A7H4H9|ILVC_CAMJD -            1.7e-06   28.4   1.0   3.8e-06   27.3   1.0   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+AdoHcyase_NAD        PF00670.20 sp|A7H4H9|ILVC_CAMJD -              1e-05   25.6   0.1   2.2e-05   24.5   0.1   1.5   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|A7H4H9|ILVC_CAMJD -            0.00027   21.0   0.4   0.00065   19.8   0.4   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+CoA_binding          PF02629.18 sp|A7H4H9|ILVC_CAMJD -              0.002   18.7   0.4    0.0047   17.5   0.4   1.6   1   0   0   1   1   1   1 CoA binding domain
+ApbA                 PF02558.15 sp|A7H4H9|ILVC_CAMJD -               0.01   15.4   0.0     0.018   14.6   0.0   1.5   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+Mur_ligase           PF01225.24 sp|A7H4H9|ILVC_CAMJD -              0.037   14.3   0.2     0.092   13.0   0.2   1.7   1   0   0   1   1   1   0 Mur ligase family, catalytic domain
+Nitro_FeMo-Co        PF02579.16 sp|A7H4H9|ILVC_CAMJD -               0.07   13.4   0.2      0.18   12.0   0.2   1.7   1   0   0   1   1   1   0 Dinitrogenase iron-molybdenum cofactor
+NAD_Gly3P_dh_N       PF01210.22 sp|A7H4H9|ILVC_CAMJD -               0.19   11.6   1.2      0.55   10.1   0.2   2.2   2   1   1   3   3   3   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A7H4H9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A7H4H9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A7H4H9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:39:03 2019
+# [ok]

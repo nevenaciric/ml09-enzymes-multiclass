@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MIOX                 PF05153.14 sp|Q4V8T0|MIOX_DANRE -           5.9e-122  405.9   2.9  6.9e-122  405.7   2.9   1.0   1   0   0   1   1   1   1 Myo-inositol oxygenase
+Pentapeptide_3       PF13576.5  sp|Q4V8T0|MIOX_DANRE -              0.038   14.0   0.1       0.1   12.7   0.1   1.7   1   0   0   1   1   1   0 Pentapeptide repeats (9 copies)
+HD                   PF01966.21 sp|Q4V8T0|MIOX_DANRE -               0.16   12.1   0.0      0.33   11.1   0.0   1.5   1   0   0   1   1   1   0 HD domain
+RNA_pol_Rpb1_3       PF04983.17 sp|Q4V8T0|MIOX_DANRE -               0.18   11.6   0.1       0.3   10.9   0.1   1.3   1   0   0   1   1   1   0 RNA polymerase Rpb1, domain 3
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4V8T0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4V8T0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4V8T0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:35:52 2019
+# [ok]

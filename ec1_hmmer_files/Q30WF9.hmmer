@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Desulfoferrodox      PF01880.17 sp|Q30WF9|DFX_DESAG  -            1.6e-21   76.6   0.7   2.3e-21   76.1   0.7   1.3   1   0   0   1   1   1   1 Desulfoferrodoxin
+Desulfoferrod_N      PF06397.11 sp|Q30WF9|DFX_DESAG  -            8.5e-17   60.4   7.2   1.4e-16   59.7   7.2   1.4   1   0   0   1   1   1   1 Desulfoferrodoxin, N-terminal domain
+Zn-ribbon_8          PF09723.9  sp|Q30WF9|DFX_DESAG  -              0.026   14.5   0.6     0.073   13.1   0.6   1.8   1   1   0   1   1   1   0 Zinc ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q30WF9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q30WF9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q30WF9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:24:05 2019
+# [ok]

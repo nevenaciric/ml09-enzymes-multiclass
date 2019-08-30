@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ketoacyl-synt        PF00109.25 sp|Q5AV00|ATNF_EMENI -            4.5e-19   68.9   0.1     9e-19   67.9   0.1   1.5   1   0   0   1   1   1   1 Beta-ketoacyl synthase, N-terminal domain
+Ketoacyl-synt_C      PF02801.21 sp|Q5AV00|ATNF_EMENI -            1.7e-11   44.1   0.0   5.5e-11   42.4   0.0   1.9   1   0   0   1   1   1   1 Beta-ketoacyl synthase, C-terminal domain
+adh_short            PF00106.24 sp|Q5AV00|ATNF_EMENI -            0.00015   21.2   0.0   0.00037   19.9   0.0   1.7   1   0   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|Q5AV00|ATNF_EMENI -            0.00017   21.5   0.0   0.00036   20.4   0.0   1.5   1   0   0   1   1   1   1 KR domain
+GDP_Man_Dehyd        PF16363.4  sp|Q5AV00|ATNF_EMENI -             0.0032   16.8   0.0    0.0059   15.9   0.0   1.4   1   0   0   1   1   1   1 GDP-mannose 4,6 dehydratase
+Band_7               PF01145.24 sp|Q5AV00|ATNF_EMENI -              0.014   15.3   0.2       5.1    7.0   0.0   2.8   2   0   0   2   2   2   0 SPFH domain / Band 7 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5AV00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5AV00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5AV00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:40:35 2019
+# [ok]

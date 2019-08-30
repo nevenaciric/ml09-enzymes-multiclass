@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|A3D0G0|HEM1_SHEB5 -            2.3e-51  173.1   0.1   1.7e-50  170.3   0.0   2.2   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|A3D0G0|HEM1_SHEB5 -            2.5e-48  163.5   0.1   8.2e-48  161.9   0.1   1.9   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|A3D0G0|HEM1_SHEB5 -            3.4e-20   72.1   1.0     8e-20   71.0   0.4   2.0   2   0   0   2   2   2   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+F420_oxidored        PF03807.16 sp|A3D0G0|HEM1_SHEB5 -            6.7e-06   26.5   3.3   0.00053   20.4   0.2   4.0   3   2   0   3   3   3   1 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|A3D0G0|HEM1_SHEB5 -               0.04   13.2   0.1      0.07   12.4   0.1   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|A3D0G0|HEM1_SHEB5 -              0.096   13.0   0.1      0.32   11.4   0.0   2.0   2   0   0   2   2   2   0 Putative NAD(P)-binding
+EntA_Immun           PF08951.9  sp|A3D0G0|HEM1_SHEB5 -               0.15   12.3   0.5       0.5   10.7   0.2   2.0   2   0   0   2   2   2   0 Enterocin A Immunity
+HD_4                 PF13328.5  sp|A3D0G0|HEM1_SHEB5 -               0.91    9.2   6.3      0.43   10.2   0.9   2.7   2   1   1   3   3   3   0 HD domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A3D0G0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A3D0G0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A3D0G0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:27:32 2019
+# [ok]

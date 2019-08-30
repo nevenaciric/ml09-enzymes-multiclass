@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q9ZAU1|DNRU_STRPE -            3.4e-26   91.8   0.0   3.5e-25   88.5   0.0   2.0   1   1   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q9ZAU1|DNRU_STRPE -            2.4e-18   66.5   0.1   7.4e-18   64.9   0.1   1.8   1   1   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q9ZAU1|DNRU_STRPE -            7.2e-06   25.9   0.1   1.4e-05   25.0   0.1   1.5   1   0   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|Q9ZAU1|DNRU_STRPE -            4.1e-05   23.0   0.0   5.1e-05   22.7   0.0   1.1   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+NAD_binding_10       PF13460.5  sp|Q9ZAU1|DNRU_STRPE -              0.023   14.5   0.8       0.1   12.4   0.8   2.0   2   0   0   2   2   2   0 NAD(P)H-binding
+FAD_oxidored         PF12831.6  sp|Q9ZAU1|DNRU_STRPE -              0.048   12.9   5.6     0.051   12.8   5.6   1.3   1   1   0   1   1   1   0 FAD dependent oxidoreductase
+Eno-Rase_NADH_b      PF12242.7  sp|Q9ZAU1|DNRU_STRPE -              0.093   12.4   0.2      0.22   11.2   0.2   1.6   1   0   0   1   1   1   0 NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+3HCDH_N              PF02737.17 sp|Q9ZAU1|DNRU_STRPE -                0.2   11.4   0.0      0.29   10.9   0.0   1.2   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9ZAU1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9ZAU1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9ZAU1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:37:19 2019
+# [ok]

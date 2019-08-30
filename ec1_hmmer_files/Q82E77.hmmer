@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|Q82E77|HEM1_STRAW -            6.4e-45  152.2   0.2   1.1e-44  151.5   0.2   1.4   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|Q82E77|HEM1_STRAW -            1.8e-24   86.2   1.8     5e-18   65.4   0.1   2.6   3   0   0   3   3   3   2 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|Q82E77|HEM1_STRAW -            2.5e-20   72.6   0.0   6.4e-20   71.3   0.0   1.7   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+Glu_dehyd_C          PF16912.4  sp|Q82E77|HEM1_STRAW -            8.4e-08   31.9   1.9   3.9e-07   29.7   1.2   2.2   2   0   0   2   2   2   1 Glucose dehydrogenase C-terminus
+Sacchrp_dh_NADP      PF03435.17 sp|Q82E77|HEM1_STRAW -            7.6e-06   26.1   0.7   2.2e-05   24.7   0.7   1.8   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+ApbA                 PF02558.15 sp|Q82E77|HEM1_STRAW -            9.7e-06   25.2   0.2   2.2e-05   24.1   0.2   1.6   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q82E77|HEM1_STRAW -            4.6e-05   23.8   0.2   0.00015   22.2   0.2   1.9   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+3HCDH_N              PF02737.17 sp|Q82E77|HEM1_STRAW -              0.012   15.4   1.0     0.012   15.4   1.0   2.0   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|Q82E77|HEM1_STRAW -              0.024   15.0   2.6     0.025   14.9   0.5   2.0   2   0   0   2   2   2   0 Putative NAD(P)-binding
+ThiF                 PF00899.20 sp|Q82E77|HEM1_STRAW -              0.096   11.9   0.3       0.2   10.9   0.3   1.4   1   0   0   1   1   1   0 ThiF family
+NAD_binding_8        PF13450.5  sp|Q82E77|HEM1_STRAW -               0.72   10.0   6.6      0.82    9.9   0.2   3.3   3   0   0   3   3   3   0 NAD(P)-binding Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q82E77.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q82E77.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q82E77.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:05:15 2019
+# [ok]

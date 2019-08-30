@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Malic_M              PF03949.14 sp|Q086X9|MAO1_SHEFN -           1.1e-102  342.7   0.1  1.4e-102  342.3   0.1   1.2   1   0   0   1   1   1   1 Malic enzyme, NAD binding domain
+malic                PF00390.18 sp|Q086X9|MAO1_SHEFN -            2.5e-77  258.7   0.0   3.7e-77  258.1   0.0   1.3   1   0   0   1   1   1   1 Malic enzyme, N-terminal domain
+N_NLPC_P60           PF12912.6  sp|Q086X9|MAO1_SHEFN -              0.086   13.1   0.1      0.22   11.8   0.1   1.6   1   0   0   1   1   1   0 NLPC_P60 stabilising domain, N term
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q086X9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q086X9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q086X9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:06:21 2019
+# [ok]

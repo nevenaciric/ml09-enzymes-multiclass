@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|Q47B12|ACDH3_DECAR -              2e-64  215.8   0.5   3.1e-64  215.2   0.5   1.3   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|Q47B12|ACDH3_DECAR -            4.5e-10   39.9   0.0   1.3e-09   38.5   0.0   1.8   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|Q47B12|ACDH3_DECAR -              0.019   15.7   0.0     0.039   14.7   0.0   1.5   1   0   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+F420_oxidored        PF03807.16 sp|Q47B12|ACDH3_DECAR -              0.036   14.5   0.2      0.12   12.9   0.1   1.9   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_3        PF03447.15 sp|Q47B12|ACDH3_DECAR -               0.04   14.5   0.1      0.12   12.9   0.0   1.9   2   0   0   2   2   2   0 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q47B12.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q47B12.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q47B12.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:32:04 2019
+# [ok]

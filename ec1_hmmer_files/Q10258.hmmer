@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MTHFR                PF02219.16 sp|Q10258|MTHR1_SCHPO -           1.2e-127  425.0   0.0  1.7e-127  424.6   0.0   1.1   1   0   0   1   1   1   1 Methylenetetrahydrofolate reductase
+Radical_SAM          PF04055.20 sp|Q10258|MTHR1_SCHPO -             0.0043   17.4   0.0      0.54   10.5   0.0   3.3   3   1   0   3   3   3   1 Radical SAM superfamily
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q10258.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q10258.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q10258.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:10:58 2019
+# [ok]

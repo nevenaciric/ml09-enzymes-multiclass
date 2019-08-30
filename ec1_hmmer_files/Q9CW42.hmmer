@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MOSC_N               PF03476.15 sp|Q9CW42|MARC1_MOUSE -            1.1e-37  128.4   0.0   1.8e-37  127.8   0.0   1.3   1   0   0   1   1   1   1 MOSC N-terminal beta barrel domain
+MOSC                 PF03473.16 sp|Q9CW42|MARC1_MOUSE -            2.8e-34  117.9   0.0     4e-34  117.3   0.0   1.2   1   0   0   1   1   1   1 MOSC domain
+DUF202               PF02656.14 sp|Q9CW42|MARC1_MOUSE -              0.014   15.7   0.5     0.025   14.9   0.5   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF202)
+LPG_synthase_TM      PF03706.12 sp|Q9CW42|MARC1_MOUSE -              0.021   14.2   1.0     0.029   13.8   1.0   1.2   1   0   0   1   1   1   0 Lysylphosphatidylglycerol synthase TM region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9CW42.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9CW42.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9CW42.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:25:26 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q4R816|LDH6B_MACFA -            4.4e-44  149.9   0.2   6.1e-44  149.4   0.2   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q4R816|LDH6B_MACFA -            1.1e-24   87.2   0.0     2e-24   86.3   0.0   1.4   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q4R816|LDH6B_MACFA -              0.038   13.5   0.1     0.074   12.5   0.1   1.5   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+Glyco_hydro_4        PF02056.15 sp|Q4R816|LDH6B_MACFA -               0.13   11.7   0.3       8.1    5.9   0.1   2.4   2   0   0   2   2   2   0 Family 4 glycosyl hydrolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q4R816.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q4R816.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q4R816.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:35:23 2019
+# [ok]

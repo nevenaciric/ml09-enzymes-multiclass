@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_2        PF03446.14 sp|Q175F8|GLYR1_AEDAE -            2.3e-32  112.3   0.3   2.3e-32  112.3   0.3   1.8   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_binding_11       PF14833.5  sp|Q175F8|GLYR1_AEDAE -            9.6e-22   77.4   2.7   1.1e-21   77.2   0.8   2.0   2   0   0   2   2   2   1 NAD-binding of NADP-dependent 3-hydroxyisobutyrate dehydrogenase
+PWWP                 PF00855.16 sp|Q175F8|GLYR1_AEDAE -            5.2e-19   68.4   0.2   1.2e-18   67.2   0.2   1.7   1   0   0   1   1   1   1 PWWP domain
+F420_oxidored        PF03807.16 sp|Q175F8|GLYR1_AEDAE -            3.3e-08   33.9   0.1     2e-07   31.4   0.0   2.5   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+Shikimate_DH         PF01488.19 sp|Q175F8|GLYR1_AEDAE -            9.3e-05   22.4   0.0    0.0002   21.3   0.0   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+ApbA                 PF02558.15 sp|Q175F8|GLYR1_AEDAE -            0.00011   21.8   0.0   0.00033   20.2   0.0   1.8   2   0   0   2   2   2   1 Ketopantoate reductase PanE/ApbA
+2-Hacid_dh_C         PF02826.18 sp|Q175F8|GLYR1_AEDAE -              0.018   14.3   0.0     0.033   13.4   0.0   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+3HCDH_N              PF02737.17 sp|Q175F8|GLYR1_AEDAE -               0.03   14.1   0.0     0.087   12.6   0.0   1.8   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+AlaDh_PNT_N          PF05222.14 sp|Q175F8|GLYR1_AEDAE -               0.09   13.0   0.0      0.18   12.0   0.0   1.5   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q175F8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q175F8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q175F8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:13:04 2019
+# [ok]

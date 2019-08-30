@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|P90593|GPDA_TRYBB -            2.3e-49  167.3   0.1   5.8e-49  166.0   0.0   1.7   2   1   1   3   3   3   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|P90593|GPDA_TRYBB -            5.5e-43  146.5   0.2   8.5e-43  145.9   0.2   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|P90593|GPDA_TRYBB -            0.00081   19.8   0.0    0.0022   18.5   0.0   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+DUF1495              PF07381.10 sp|P90593|GPDA_TRYBB -              0.007   16.1   0.0     0.016   14.9   0.0   1.6   1   0   0   1   1   1   1 Winged helix DNA-binding domain (DUF1495)
+UDPG_MGDP_dh_N       PF03721.13 sp|P90593|GPDA_TRYBB -               0.02   14.4   0.0     0.047   13.2   0.0   1.6   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+NAD_binding_2        PF03446.14 sp|P90593|GPDA_TRYBB -              0.026   14.6   0.0     0.055   13.5   0.0   1.6   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+Pyr_redox            PF00070.26 sp|P90593|GPDA_TRYBB -              0.051   14.0   0.2       3.4    8.2   0.1   3.0   3   0   0   3   3   3   0 Pyridine nucleotide-disulphide oxidoreductase
+ApbA                 PF02558.15 sp|P90593|GPDA_TRYBB -              0.054   13.0   0.0      0.11   12.1   0.0   1.5   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+DUF4774              PF15999.4  sp|P90593|GPDA_TRYBB -              0.087   12.5   0.0      0.27   10.9   0.0   1.8   1   0   0   1   1   1   0 Domain of unknown function (DUF4774)
+Ribosomal_L40e       PF01020.16 sp|P90593|GPDA_TRYBB -               0.14   11.9   1.1      0.33   10.8   1.1   1.6   1   0   0   1   1   1   0 Ribosomal L40e family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P90593.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P90593.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P90593.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:59:07 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|Q87CM2|ILVC_XYLFT -            5.1e-68  227.7   0.1   7.3e-68  227.2   0.1   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|Q87CM2|ILVC_XYLFT -            1.4e-63  213.4   0.1     2e-63  212.9   0.1   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+F420_oxidored        PF03807.16 sp|Q87CM2|ILVC_XYLFT -            7.1e-07   29.6   0.0   1.4e-06   28.7   0.0   1.5   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q87CM2|ILVC_XYLFT -            3.3e-05   24.0   0.0   7.2e-05   22.9   0.0   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|Q87CM2|ILVC_XYLFT -            4.5e-05   22.8   0.0   8.1e-05   22.0   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+ApbA                 PF02558.15 sp|Q87CM2|ILVC_XYLFT -             0.0012   18.4   0.2    0.0029   17.2   0.2   1.7   1   1   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+GFO_IDH_MocA         PF01408.21 sp|Q87CM2|ILVC_XYLFT -              0.006   17.3   0.0     0.012   16.4   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+AdoHcyase_NAD        PF00670.20 sp|Q87CM2|ILVC_XYLFT -              0.011   15.7   0.0     0.023   14.7   0.0   1.5   1   0   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+CoA_binding          PF02629.18 sp|Q87CM2|ILVC_XYLFT -              0.023   15.3   0.0     0.059   14.0   0.0   1.7   1   0   0   1   1   1   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q87CM2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q87CM2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q87CM2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:07:01 2019
+# [ok]

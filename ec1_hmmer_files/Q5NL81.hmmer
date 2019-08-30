@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|Q5NL81|GPDA_ZYMMO -            1.3e-45  155.1   0.8   1.9e-45  154.5   0.8   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|Q5NL81|GPDA_ZYMMO -            5.9e-43  146.5   0.1   1.8e-42  144.9   0.0   1.8   3   0   0   3   3   3   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|Q5NL81|GPDA_ZYMMO -              3e-05   23.6   0.0   4.6e-05   23.0   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q5NL81|GPDA_ZYMMO -            0.00057   20.3   0.0    0.0024   18.3   0.0   2.1   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q5NL81.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q5NL81.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q5NL81.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:44:21 2019
+# [ok]

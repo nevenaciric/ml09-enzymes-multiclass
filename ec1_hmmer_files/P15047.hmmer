@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short_C2         PF13561.5  sp|P15047|ENTA_ECOLI -            1.4e-52  178.5   2.0   1.9e-52  178.1   2.0   1.2   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+adh_short            PF00106.24 sp|P15047|ENTA_ECOLI -            1.7e-46  158.0   3.4   3.8e-46  156.9   3.4   1.5   1   1   0   1   1   1   1 short chain dehydrogenase
+KR                   PF08659.9  sp|P15047|ENTA_ECOLI -            4.5e-11   42.9   6.5     1e-09   38.5   6.4   2.2   1   1   0   1   1   1   1 KR domain
+Epimerase            PF01370.20 sp|P15047|ENTA_ECOLI -            0.00074   19.0   0.2    0.0046   16.3   0.2   1.9   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+DFP                  PF04127.14 sp|P15047|ENTA_ECOLI -             0.0016   18.2   1.7    0.0027   17.5   1.7   1.4   1   1   0   1   1   1   1 DNA / pantothenate metabolism flavoprotein
+NAD_binding_7        PF13241.5  sp|P15047|ENTA_ECOLI -              0.023   15.0   0.0     0.078   13.3   0.1   1.9   2   1   0   2   2   2   0 Putative NAD(P)-binding
+THF_DHG_CYH_C        PF02882.18 sp|P15047|ENTA_ECOLI -               0.12   11.6   0.0      0.68    9.1   0.0   2.3   2   1   0   2   2   2   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P15047.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P15047.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P15047.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:36:49 2019
+# [ok]

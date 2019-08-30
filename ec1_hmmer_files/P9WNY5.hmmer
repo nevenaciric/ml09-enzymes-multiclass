@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_2        PF03446.14 sp|P9WNY5|MMSB_MYCTU -            1.6e-46  158.3   0.8   2.5e-46  157.6   0.8   1.3   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_binding_11       PF14833.5  sp|P9WNY5|MMSB_MYCTU -            4.5e-36  123.7   0.7   9.1e-36  122.7   0.7   1.5   1   0   0   1   1   1   1 NAD-binding of NADP-dependent 3-hydroxyisobutyrate dehydrogenase
+F420_oxidored        PF03807.16 sp|P9WNY5|MMSB_MYCTU -            9.7e-08   32.4   0.3   3.8e-07   30.5   0.1   2.0   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|P9WNY5|MMSB_MYCTU -            6.9e-05   22.2   0.0    0.0001   21.6   0.0   1.2   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+IlvN                 PF07991.11 sp|P9WNY5|MMSB_MYCTU -             0.0004   19.9   0.4   0.00084   18.9   0.0   1.7   2   0   0   2   2   2   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+PDH                  PF02153.16 sp|P9WNY5|MMSB_MYCTU -            0.00059   18.8   0.1   0.00085   18.3   0.1   1.2   1   0   0   1   1   1   1 Prephenate dehydrogenase
+3HCDH_N              PF02737.17 sp|P9WNY5|MMSB_MYCTU -              0.017   14.9   1.3      0.31   10.8   0.1   2.4   1   1   1   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P9WNY5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P9WNY5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P9WNY5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:01:51 2019
+# [ok]

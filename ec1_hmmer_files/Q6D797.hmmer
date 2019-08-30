@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|Q6D797|ACDH_PECAS -            4.1e-51  172.7   0.2   5.8e-51  172.2   0.2   1.2   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|Q6D797|ACDH_PECAS -            9.9e-11   42.0   0.0   2.6e-09   37.4   0.0   2.1   2   0   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q6D797|ACDH_PECAS -            0.00021   21.3   0.0   0.00067   19.6   0.0   1.8   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+F420_oxidored        PF03807.16 sp|Q6D797|ACDH_PECAS -            0.00036   21.0   0.0   0.00094   19.6   0.0   1.7   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+GFO_IDH_MocA         PF01408.21 sp|Q6D797|ACDH_PECAS -             0.0051   17.5   0.0     0.014   16.1   0.0   1.7   2   0   0   2   2   2   1 Oxidoreductase family, NAD-binding Rossmann fold
+DapB_N               PF01113.19 sp|Q6D797|ACDH_PECAS -               0.04   13.9   0.0       0.1   12.6   0.0   1.7   1   0   0   1   1   1   0 Dihydrodipicolinate reductase, N-terminus
+MTD                  PF01993.17 sp|Q6D797|ACDH_PECAS -              0.095   11.9   0.3       8.8    5.5   0.0   2.2   2   0   0   2   2   2   0 methylene-5,6,7,8-tetrahydromethanopterin dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6D797.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6D797.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6D797.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:52:29 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AhpC-TSA_2           PF13911.5  sp|Q8TBF2|PXL2B_HUMAN -            8.4e-23   80.6   0.0   1.1e-22   80.2   0.0   1.1   1   0   0   1   1   1   1 AhpC/TSA antioxidant enzyme
+AhpC-TSA             PF00578.20 sp|Q8TBF2|PXL2B_HUMAN -            0.00062   19.6   0.0    0.0011   18.7   0.0   1.4   1   0   0   1   1   1   1 AhpC/TSA family
+Redoxin              PF08534.9  sp|Q8TBF2|PXL2B_HUMAN -               0.05   13.2   0.0      0.12   12.0   0.0   1.6   1   1   0   1   1   1   0 Redoxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8TBF2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8TBF2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8TBF2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:15:57 2019
+# [ok]

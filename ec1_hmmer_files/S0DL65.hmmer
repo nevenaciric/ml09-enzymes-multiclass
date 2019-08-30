@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_4        PF01565.22 sp|S0DL65|APF9_GIBF5 -            2.6e-19   69.3   0.2   5.9e-19   68.1   0.2   1.7   1   0   0   1   1   1   1 FAD binding domain
+BBE                  PF08031.11 sp|S0DL65|APF9_GIBF5 -            2.5e-09   37.0   0.2     6e-09   35.8   0.2   1.7   1   0   0   1   1   1   1 Berberine and berberine like
+Cytokin-bind         PF09265.9  sp|S0DL65|APF9_GIBF5 -             0.0058   15.9   0.1    0.0093   15.3   0.1   1.2   1   0   0   1   1   1   1 Cytokinin dehydrogenase 1, FAD and cytokinin binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/S0DL65.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/S0DL65.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/S0DL65.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:38:19 2019
+# [ok]

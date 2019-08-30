@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_2        PF03446.14 sp|Q9XTI0|3HIDH_CAEEL -            1.9e-43  148.3   2.4   3.1e-43  147.6   2.4   1.2   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_binding_11       PF14833.5  sp|Q9XTI0|3HIDH_CAEEL -            2.2e-29  102.1   0.0   4.2e-29  101.2   0.0   1.5   1   0   0   1   1   1   1 NAD-binding of NADP-dependent 3-hydroxyisobutyrate dehydrogenase
+F420_oxidored        PF03807.16 sp|Q9XTI0|3HIDH_CAEEL -            6.1e-06   26.6   0.6   3.8e-05   24.1   0.2   2.2   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+TrkA_N               PF02254.17 sp|Q9XTI0|3HIDH_CAEEL -            0.00011   22.4   0.8   0.00034   20.8   0.1   2.1   2   0   0   2   2   2   1 TrkA-N domain
+2-Hacid_dh_C         PF02826.18 sp|Q9XTI0|3HIDH_CAEEL -            0.00018   20.8   0.8   0.00026   20.3   0.0   1.6   2   0   0   2   2   2   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+KR                   PF08659.9  sp|Q9XTI0|3HIDH_CAEEL -             0.0032   17.3   0.1    0.0062   16.4   0.1   1.5   1   0   0   1   1   1   1 KR domain
+ApbA                 PF02558.15 sp|Q9XTI0|3HIDH_CAEEL -              0.013   15.0   0.0      0.03   13.9   0.0   1.5   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+UDPG_MGDP_dh_N       PF03721.13 sp|Q9XTI0|3HIDH_CAEEL -              0.041   13.4   0.0       0.1   12.0   0.1   1.8   2   0   0   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+3HCDH_N              PF02737.17 sp|Q9XTI0|3HIDH_CAEEL -              0.057   13.2   1.1     0.083   12.7   0.2   1.7   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+PDH                  PF02153.16 sp|Q9XTI0|3HIDH_CAEEL -               0.17   10.7   0.6      0.26   10.2   0.6   1.2   1   0   0   1   1   1   0 Prephenate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9XTI0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9XTI0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9XTI0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:36:24 2019
+# [ok]

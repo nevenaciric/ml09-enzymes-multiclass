@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|A5FYL0|GPDA_ACICJ -            2.7e-38  131.3   1.9   3.8e-38  130.9   1.9   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|A5FYL0|GPDA_ACICJ -            6.1e-27   94.4   0.0   9.5e-27   93.8   0.0   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+F420_oxidored        PF03807.16 sp|A5FYL0|GPDA_ACICJ -            1.5e-06   28.6   0.0   4.5e-06   27.0   0.0   1.8   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+ApbA                 PF02558.15 sp|A5FYL0|GPDA_ACICJ -             0.0017   18.0   0.2    0.0034   16.9   0.0   1.6   2   0   0   2   2   2   1 Ketopantoate reductase PanE/ApbA
+3HCDH_N              PF02737.17 sp|A5FYL0|GPDA_ACICJ -             0.0026   17.6   0.0    0.0061   16.4   0.0   1.6   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|A5FYL0|GPDA_ACICJ -              0.034   14.1   0.1      0.13   12.3   0.0   1.9   2   0   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+NAD_binding_8        PF13450.5  sp|A5FYL0|GPDA_ACICJ -              0.036   14.2   0.2     0.036   14.2   0.2   2.5   2   0   0   2   2   2   0 NAD(P)-binding Rossmann-like domain
+Sacchrp_dh_NADP      PF03435.17 sp|A5FYL0|GPDA_ACICJ -               0.12   12.5   0.0      0.22   11.7   0.0   1.4   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+ApbA_C               PF08546.10 sp|A5FYL0|GPDA_ACICJ -               0.17   12.0   0.9       1.3    9.1   0.9   2.1   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA C terminal
+XdhC_C               PF13478.5  sp|A5FYL0|GPDA_ACICJ -               0.53   10.7   4.9       1.7    9.1   0.1   2.6   1   1   1   2   2   2   0 XdhC Rossmann domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A5FYL0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A5FYL0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A5FYL0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:33:44 2019
+# [ok]

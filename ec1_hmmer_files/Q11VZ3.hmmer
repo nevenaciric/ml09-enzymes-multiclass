@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|Q11VZ3|ILVC_CYTH3 -              2e-59  199.8   0.0   2.8e-59  199.3   0.0   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|Q11VZ3|ILVC_CYTH3 -            2.5e-50  170.4   0.2   4.9e-29  101.4   0.0   2.2   2   0   0   2   2   2   2 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|Q11VZ3|ILVC_CYTH3 -            4.5e-05   22.8   0.0   8.8e-05   21.8   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+ApbA                 PF02558.15 sp|Q11VZ3|ILVC_CYTH3 -            0.00041   19.9   0.0   0.00092   18.8   0.0   1.6   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+AdoHcyase_NAD        PF00670.20 sp|Q11VZ3|ILVC_CYTH3 -              0.003   17.6   0.0    0.0058   16.6   0.0   1.4   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|Q11VZ3|ILVC_CYTH3 -              0.023   15.1   0.0     0.055   13.8   0.0   1.6   1   0   0   1   1   1   0 Putative NAD(P)-binding
+NAD_binding_2        PF03446.14 sp|Q11VZ3|ILVC_CYTH3 -              0.039   14.0   0.0     0.071   13.2   0.0   1.4   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q11VZ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q11VZ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q11VZ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:11:25 2019
+# [ok]

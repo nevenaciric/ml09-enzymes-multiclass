@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mannitol_dh_C        PF08125.12 sp|Q45421|MTLD_GEOSE -            1.1e-56  192.0   0.2   2.2e-56  191.0   0.0   1.6   2   0   0   2   2   2   1 Mannitol dehydrogenase C-terminal domain
+Mannitol_dh          PF01232.22 sp|Q45421|MTLD_GEOSE -            5.1e-31  107.8   1.0   1.3e-30  106.5   0.3   2.0   2   0   0   2   2   2   1 Mannitol dehydrogenase Rossmann domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q45421|MTLD_GEOSE -             0.0001   21.8   0.1   0.00022   20.8   0.1   1.5   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+TrkA_N               PF02254.17 sp|Q45421|MTLD_GEOSE -            0.00021   21.5   0.1   0.00051   20.2   0.1   1.6   1   0   0   1   1   1   1 TrkA-N domain
+3HCDH_N              PF02737.17 sp|Q45421|MTLD_GEOSE -              0.011   15.5   0.0     0.027   14.2   0.0   1.7   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ApbA                 PF02558.15 sp|Q45421|MTLD_GEOSE -               0.02   14.5   0.0     0.041   13.4   0.0   1.5   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|Q45421|MTLD_GEOSE -              0.088   13.3   0.5      0.69   10.4   0.5   2.4   1   1   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q45421.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q45421.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q45421.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:31:11 2019
+# [ok]

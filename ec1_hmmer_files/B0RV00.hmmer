@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_3        PF01494.18 sp|B0RV00|KMO_XANCB  -            5.4e-22   78.4   1.5   3.1e-21   76.0   1.5   2.1   1   1   0   1   1   1   1 FAD binding domain
+NAD_binding_8        PF13450.5  sp|B0RV00|KMO_XANCB  -            1.6e-07   31.3   3.5   2.1e-05   24.6   0.2   2.9   3   0   0   3   3   3   2 NAD(P)-binding Rossmann-like domain
+DAO                  PF01266.23 sp|B0RV00|KMO_XANCB  -              5e-07   29.5   0.9    0.0031   17.0   0.3   2.3   1   1   0   2   2   2   2 FAD dependent oxidoreductase
+SE                   PF08491.9  sp|B0RV00|KMO_XANCB  -             0.0037   16.3   0.0    0.0058   15.6   0.0   1.2   1   0   0   1   1   1   1 Squalene epoxidase
+Pyr_redox_2          PF07992.13 sp|B0RV00|KMO_XANCB  -             0.0088   15.2   0.0     0.017   14.3   0.0   1.4   1   1   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox            PF00070.26 sp|B0RV00|KMO_XANCB  -              0.023   15.1   0.0     0.054   14.0   0.0   1.6   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+GIDA                 PF01134.21 sp|B0RV00|KMO_XANCB  -              0.034   13.1   0.0     0.061   12.3   0.0   1.4   1   0   0   1   1   1   0 Glucose inhibited division protein A
+ApbA                 PF02558.15 sp|B0RV00|KMO_XANCB  -               0.15   11.6   0.7      0.27   10.8   0.1   1.7   2   0   0   2   2   2   0 Ketopantoate reductase PanE/ApbA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B0RV00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B0RV00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B0RV00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:48:08 2019
+# [ok]

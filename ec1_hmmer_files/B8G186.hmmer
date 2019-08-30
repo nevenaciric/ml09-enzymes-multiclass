@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|B8G186|ACDH_DESHD -              3e-60  202.3   1.8     8e-60  200.9   0.8   1.9   2   0   0   2   2   2   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|B8G186|ACDH_DESHD -            2.9e-12   47.0   0.1   7.3e-12   45.7   0.1   1.6   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|B8G186|ACDH_DESHD -            0.00021   21.8   0.1   0.00058   20.4   0.1   1.8   1   0   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|B8G186|ACDH_DESHD -            0.00037   21.2   0.1   0.00071   20.3   0.1   1.4   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+Spore_GerAC          PF05504.10 sp|B8G186|ACDH_DESHD -              0.009   16.1   0.1      0.15   12.2   0.1   2.1   1   1   1   2   2   2   1 Spore germination B3/ GerAC like, C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B8G186.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B8G186.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B8G186.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:08:30 2019
+# [ok]

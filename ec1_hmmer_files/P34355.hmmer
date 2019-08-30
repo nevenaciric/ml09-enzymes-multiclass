@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACOX                 PF01756.18 sp|P34355|ACX15_CAEEL -            2.2e-49  167.4   1.6   2.4e-49  167.3   0.6   1.6   2   0   0   2   2   2   1 Acyl-CoA oxidase
+Acyl-CoA_ox_N        PF14749.5  sp|P34355|ACX15_CAEEL -            5.9e-23   81.7   0.8   2.7e-22   79.5   0.0   2.3   2   0   0   2   2   2   1 Acyl-coenzyme A oxidase N-terminal
+Acyl-CoA_dh_M        PF02770.18 sp|P34355|ACX15_CAEEL -            2.8e-12   46.5   0.1   7.4e-12   45.2   0.1   1.8   1   0   0   1   1   1   1 Acyl-CoA dehydrogenase, middle domain
+Acyl-CoA_dh_1        PF00441.23 sp|P34355|ACX15_CAEEL -            3.5e-06   27.2   0.1   1.3e-05   25.3   0.1   2.1   1   0   0   1   1   1   1 Acyl-CoA dehydrogenase, C-terminal domain
+DUF5063              PF16702.4  sp|P34355|ACX15_CAEEL -               0.02   15.2   0.1     0.086   13.1   0.1   2.1   2   0   0   2   2   2   0 Domain of unknown function (DUF5063)
+Acyl-CoA_dh_2        PF08028.10 sp|P34355|ACX15_CAEEL -                0.1   12.8   0.2       0.1   12.8   0.2   2.3   2   1   0   2   2   2   0 Acyl-CoA dehydrogenase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P34355.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P34355.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P34355.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:43:56 2019
+# [ok]

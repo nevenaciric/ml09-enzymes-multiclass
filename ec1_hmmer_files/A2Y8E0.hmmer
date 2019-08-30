@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_1        PF00175.20 sp|A2Y8E0|FENR1_ORYSI -            4.5e-30  104.4   0.0   9.1e-30  103.4   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+FAD_binding_6        PF00970.23 sp|A2Y8E0|FENR1_ORYSI -            0.00013   22.2   0.0   0.00023   21.4   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase FAD-binding domain
+FAD_binding_1        PF00667.19 sp|A2Y8E0|FENR1_ORYSI -             0.0013   18.2   0.0     0.028   13.9   0.0   2.2   2   0   0   2   2   2   1 FAD binding domain
+NAD_binding_6        PF08030.11 sp|A2Y8E0|FENR1_ORYSI -              0.038   14.0   0.0      0.41   10.6   0.0   2.1   1   1   1   2   2   2   0 Ferric reductase NAD binding domain
+DUF3854              PF12965.6  sp|A2Y8E0|FENR1_ORYSI -              0.073   13.0   0.0      0.13   12.2   0.0   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF3854)
+Nebulin              PF00880.17 sp|A2Y8E0|FENR1_ORYSI -               0.11   12.4   0.2      0.11   12.4   0.2   2.3   3   0   0   3   3   3   0 Nebulin repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A2Y8E0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A2Y8E0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A2Y8E0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:27:16 2019
+# [ok]

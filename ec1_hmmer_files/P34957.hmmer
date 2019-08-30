@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX2_TM              PF02790.14 sp|P34957|QOX2_BACSU -              1e-10   41.5   0.2   2.1e-10   40.5   0.2   1.5   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, transmembrane domain
+COX2                 PF00116.19 sp|P34957|QOX2_BACSU -            6.5e-06   25.9   0.1   7.4e-05   22.5   0.0   2.3   1   1   1   2   2   2   1 Cytochrome C oxidase subunit II, periplasmic domain
+Syndecan             PF01034.19 sp|P34957|QOX2_BACSU -             0.0042   16.9   0.1    0.0042   16.9   0.1   2.2   2   0   0   2   2   2   1 Syndecan domain
+PIRT                 PF15099.5  sp|P34957|QOX2_BACSU -              0.014   14.9   0.2     0.026   14.0   0.2   1.4   1   0   0   1   1   1   0 Phosphoinositide-interacting protein family
+COX_ARM              PF06481.13 sp|P34957|QOX2_BACSU -              0.072   12.9   0.1      0.17   11.7   0.1   1.7   1   0   0   1   1   1   0 COX Aromatic Rich Motif
+Peptidase_U4         PF03419.12 sp|P34957|QOX2_BACSU -              0.083   12.1   0.2      0.13   11.4   0.2   1.2   1   0   0   1   1   1   0 Sporulation factor SpoIIGA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P34957.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P34957.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P34957.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:44:05 2019
+# [ok]

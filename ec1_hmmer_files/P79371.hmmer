@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DAO                  PF01266.23 sp|P79371|SOX_RABIT  -            4.1e-51  174.5   0.0   4.7e-51  174.3   0.0   1.0   1   0   0   1   1   1   1 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|P79371|SOX_RABIT  -            0.00055   20.0   1.1     0.003   17.7   0.0   2.3   2   0   0   2   2   2   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox_2          PF07992.13 sp|P79371|SOX_RABIT  -             0.0068   15.6   0.0      0.47    9.6   0.0   2.8   2   1   0   2   2   2   1 Pyridine nucleotide-disulphide oxidoreductase
+HI0933_like          PF03486.13 sp|P79371|SOX_RABIT  -             0.0087   14.7   0.4       2.1    6.8   0.0   2.6   3   1   0   3   3   3   2 HI0933-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P79371.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P79371.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P79371.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:56:52 2019
+# [ok]

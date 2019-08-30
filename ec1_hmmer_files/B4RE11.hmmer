@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|B4RE11|FOLD_PHEZH -            2.5e-65  218.6   1.9   3.1e-65  218.3   1.3   1.4   2   0   0   2   2   2   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|B4RE11|FOLD_PHEZH -            5.3e-38  129.8   0.0   7.8e-38  129.2   0.0   1.3   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+YbjN                 PF10722.8  sp|B4RE11|FOLD_PHEZH -               0.16   11.9   0.0       0.3   11.0   0.0   1.4   1   0   0   1   1   1   0 Putative bacterial sensory transduction regulator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B4RE11.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B4RE11.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B4RE11.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:57:41 2019
+# [ok]

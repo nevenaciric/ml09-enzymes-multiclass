@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlutR_N              PF05201.14 sp|B9MRJ1|HEM1_CALBD -            4.7e-37  126.7   0.1   9.6e-37  125.7   0.1   1.5   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, N-terminal domain
+Shikimate_DH         PF01488.19 sp|B9MRJ1|HEM1_CALBD -            5.9e-21   74.9   0.4   1.6e-20   73.5   0.1   1.9   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+GlutR_dimer          PF00745.19 sp|B9MRJ1|HEM1_CALBD -              1e-11   45.0   0.9   2.5e-11   43.7   0.9   1.6   1   0   0   1   1   1   1 Glutamyl-tRNAGlu reductase, dimerisation domain
+ApbA                 PF02558.15 sp|B9MRJ1|HEM1_CALBD -             0.0023   17.5   0.0    0.0042   16.6   0.0   1.5   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+2-Hacid_dh_C         PF02826.18 sp|B9MRJ1|HEM1_CALBD -             0.0073   15.6   0.0     0.016   14.5   0.0   1.6   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|B9MRJ1|HEM1_CALBD -              0.018   15.5   0.0      0.15   12.5   0.0   2.4   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|B9MRJ1|HEM1_CALBD -              0.023   14.7   0.0      0.25   11.4   0.0   2.4   3   0   0   3   3   3   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+GlnE                 PF03710.14 sp|B9MRJ1|HEM1_CALBD -              0.033   13.5   0.1       2.3    7.4   0.0   2.2   2   0   0   2   2   2   0 Glutamate-ammonia ligase adenylyltransferase
+OCD_Mu_crystall      PF02423.14 sp|B9MRJ1|HEM1_CALBD -              0.086   11.7   0.0      0.16   10.8   0.0   1.4   1   0   0   1   1   1   0 Ornithine cyclodeaminase/mu-crystallin family
+UDPG_MGDP_dh_N       PF03721.13 sp|B9MRJ1|HEM1_CALBD -              0.098   12.1   1.2      0.45   10.0   0.0   2.4   3   0   0   3   3   3   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+TraC_F_IV            PF11130.7  sp|B9MRJ1|HEM1_CALBD -               0.13   11.7   0.1       0.2   11.1   0.1   1.2   1   0   0   1   1   1   0 F pilus assembly Type-IV secretion system for plasmid transfer
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B9MRJ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B9MRJ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B9MRJ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:10:53 2019
+# [ok]

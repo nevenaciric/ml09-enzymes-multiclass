@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PMSR                 PF01625.20 sp|O83641|MSRAB_TREPA -            2.8e-66  222.3   0.2   4.1e-66  221.8   0.2   1.2   1   0   0   1   1   1   1 Peptide methionine sulfoxide reductase
+SelR                 PF01641.17 sp|O83641|MSRAB_TREPA -            3.9e-44  149.5   0.0   7.6e-44  148.6   0.0   1.4   1   0   0   1   1   1   1 SelR domain
+Vsr                  PF03852.14 sp|O83641|MSRAB_TREPA -               0.12   12.1   0.1       0.4   10.5   0.1   2.0   1   1   0   1   1   1   0 DNA mismatch endonuclease Vsr
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/O83641.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/O83641.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/O83641.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:27:28 2019
+# [ok]

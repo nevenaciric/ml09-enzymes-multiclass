@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|P0DKC5|HSD1A_ARATH -            1.3e-48  165.0   0.0   1.8e-48  164.5   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|P0DKC5|HSD1A_ARATH -            4.2e-36  124.6   0.0   5.4e-36  124.2   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|P0DKC5|HSD1A_ARATH -            5.9e-12   45.8   0.0   8.4e-12   45.3   0.0   1.1   1   0   0   1   1   1   1 KR domain
+NAD_binding_10       PF13460.5  sp|P0DKC5|HSD1A_ARATH -              0.048   13.5   0.0      0.13   12.0   0.0   1.8   1   1   0   1   1   1   0 NAD(P)H-binding
+Herpes_TK_C          PF08465.9  sp|P0DKC5|HSD1A_ARATH -               0.11   12.1   0.4      0.65    9.7   0.0   2.1   2   0   0   2   2   2   0 Thymidine kinase from Herpesvirus C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P0DKC5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P0DKC5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P0DKC5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:34:50 2019
+# [ok]

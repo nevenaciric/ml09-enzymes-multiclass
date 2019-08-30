@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|P21696|GPD1_SCHPO -            4.6e-56  189.0   0.0   6.7e-56  188.5   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|P21696|GPD1_SCHPO -              3e-44  150.6   0.0   5.7e-44  149.7   0.0   1.5   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+F420_oxidored        PF03807.16 sp|P21696|GPD1_SCHPO -            0.00053   20.4   0.3    0.0056   17.1   0.3   2.4   1   1   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+Rossmann-like        PF10727.8  sp|P21696|GPD1_SCHPO -              0.051   13.3   2.8       4.6    7.0   0.0   2.8   3   0   0   3   3   3   0 Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P21696.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P21696.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P21696.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:39:13 2019
+# [ok]

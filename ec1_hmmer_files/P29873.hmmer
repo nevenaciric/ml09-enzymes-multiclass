@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX2                 PF00116.19 sp|P29873|COX2_EXERO -            3.8e-59  197.7   0.2   3.8e-59  197.7   0.2   1.7   2   0   0   2   2   2   1 Cytochrome C oxidase subunit II, periplasmic domain
+COX2_TM              PF02790.14 sp|P29873|COX2_EXERO -            3.7e-24   84.6  14.5   6.5e-24   83.8  14.5   1.4   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, transmembrane domain
+MTP18                PF10558.8  sp|P29873|COX2_EXERO -               0.78    9.6   2.8       1.5    8.7   2.8   1.5   1   0   0   1   1   1   0 Mitochondrial 18 KDa protein (MTP18)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P29873.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P29873.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P29873.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:42:24 2019
+# [ok]

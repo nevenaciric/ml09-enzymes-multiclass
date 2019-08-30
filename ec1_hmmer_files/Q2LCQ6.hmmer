@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX1                 PF00115.19 sp|Q2LCQ6|COX1_DICCI -           1.6e-123  412.6  59.0  1.6e-123  412.6  59.0   2.3   1   1   1   2   2   2   1 Cytochrome C and Quinol oxidase polypeptide I
+COX2                 PF00116.19 sp|Q2LCQ6|COX1_DICCI -            9.9e-59  196.4   0.1   2.6e-58  195.0   0.1   1.8   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, periplasmic domain
+COX2_TM              PF02790.14 sp|Q2LCQ6|COX1_DICCI -              4e-23   81.3   4.9     4e-23   81.3   4.9   4.6   3   1   0   3   3   3   1 Cytochrome C oxidase subunit II, transmembrane domain
+Cytochrome-c551      PF10643.8  sp|Q2LCQ6|COX1_DICCI -              0.026   14.0   2.3     0.041   13.4   1.0   2.0   1   1   0   1   1   1   0 Photosystem P840 reaction-centre cytochrome c-551
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2LCQ6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2LCQ6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2LCQ6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:21:22 2019
+# [ok]

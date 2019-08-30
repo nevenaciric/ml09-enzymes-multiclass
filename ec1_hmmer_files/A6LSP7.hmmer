@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_reductoisom      PF02670.15 sp|A6LSP7|DXR_CLOB8  -            7.9e-42  142.9   3.3   1.7e-41  141.9   3.3   1.6   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXP_redisom_C        PF08436.11 sp|A6LSP7|DXR_CLOB8  -            1.6e-41  140.4   0.1   8.2e-41  138.1   0.0   2.2   2   0   0   2   2   2   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+DXPR_C               PF13288.5  sp|A6LSP7|DXR_CLOB8  -            2.3e-39  134.1   0.5   2.3e-39  134.1   0.5   2.0   2   0   0   2   2   2   1 DXP reductoisomerase C-terminal domain
+Semialdhyde_dh       PF01118.23 sp|A6LSP7|DXR_CLOB8  -            0.00011   22.6   0.4     0.042   14.2   0.4   3.0   2   1   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+P3A                  PF08727.10 sp|A6LSP7|DXR_CLOB8  -              0.044   13.1   0.0      0.11   11.8   0.0   1.6   1   0   0   1   1   1   0 Poliovirus 3A protein like
+B12-binding          PF02310.18 sp|A6LSP7|DXR_CLOB8  -              0.044   13.7   0.2      0.56   10.2   0.0   2.3   1   1   0   2   2   2   0 B12 binding domain
+NAD_binding_3        PF03447.15 sp|A6LSP7|DXR_CLOB8  -              0.087   13.4   2.6       1.7    9.2   2.6   2.7   2   1   0   2   2   2   0 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A6LSP7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A6LSP7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A6LSP7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:35:58 2019
+# [ok]

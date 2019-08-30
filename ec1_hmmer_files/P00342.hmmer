@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|P00342|LDHC_MOUSE -            1.7e-46  157.7   0.7   2.4e-46  157.2   0.7   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|P00342|LDHC_MOUSE -            8.9e-24   84.2   0.0   1.4e-23   83.6   0.0   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+ThiF                 PF00899.20 sp|P00342|LDHC_MOUSE -             0.0056   16.0   0.2     0.011   15.1   0.2   1.3   1   0   0   1   1   1   1 ThiF family
+Glyco_hydro_4        PF02056.15 sp|P00342|LDHC_MOUSE -              0.035   13.5   0.4      0.27   10.7   0.0   2.1   2   0   0   2   2   2   0 Family 4 glycosyl hydrolase
+UDPG_MGDP_dh_N       PF03721.13 sp|P00342|LDHC_MOUSE -              0.059   12.8   0.1      0.12   11.9   0.1   1.5   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P00342.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P00342.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P00342.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:28:40 2019
+# [ok]

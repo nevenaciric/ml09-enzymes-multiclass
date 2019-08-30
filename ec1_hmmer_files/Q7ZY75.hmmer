@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|Q7ZY75|GFOD2_XENLA -            3.2e-14   53.7   0.0     7e-14   52.6   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+F420_oxidored        PF03807.16 sp|Q7ZY75|GFOD2_XENLA -             0.0012   19.3   0.0    0.0025   18.3   0.0   1.6   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+Semialdhyde_dh       PF01118.23 sp|Q7ZY75|GFOD2_XENLA -              0.026   14.9   0.0     0.054   13.8   0.0   1.5   1   0   0   1   1   1   0 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA_C       PF02894.16 sp|Q7ZY75|GFOD2_XENLA -               0.12   12.3   0.1      0.23   11.4   0.1   1.5   1   0   0   1   1   1   0 Oxidoreductase family, C-terminal alpha/beta domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7ZY75.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7ZY75.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7ZY75.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:04:22 2019
+# [ok]

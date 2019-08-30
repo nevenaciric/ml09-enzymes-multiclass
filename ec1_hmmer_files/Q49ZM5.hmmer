@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-Hacid_dh_C         PF02826.18 sp|Q49ZM5|Y606_STAS1 -            4.9e-60  201.8   0.0   8.3e-60  201.1   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+2-Hacid_dh           PF00389.29 sp|Q49ZM5|Y606_STAS1 -            5.1e-32  110.2   0.1   5.9e-32  110.0   0.1   1.0   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain
+IlvN                 PF07991.11 sp|Q49ZM5|Y606_STAS1 -             0.0001   21.8   0.2     0.002   17.6   0.1   2.2   2   0   0   2   2   2   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+NAD_binding_2        PF03446.14 sp|Q49ZM5|Y606_STAS1 -             0.0004   20.5   0.1    0.0011   19.1   0.0   1.7   2   0   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|Q49ZM5|Y606_STAS1 -             0.0014   18.8   1.2       1.2    9.3   0.0   3.1   2   1   0   2   2   2   2 Saccharopine dehydrogenase NADP binding domain
+F420_oxidored        PF03807.16 sp|Q49ZM5|Y606_STAS1 -             0.0028   18.1   0.4    0.0095   16.4   0.0   2.1   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_7        PF13241.5  sp|Q49ZM5|Y606_STAS1 -              0.075   13.4   0.0      0.34   11.3   0.0   2.0   2   0   0   2   2   2   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q49ZM5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q49ZM5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q49ZM5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:33:27 2019
+# [ok]

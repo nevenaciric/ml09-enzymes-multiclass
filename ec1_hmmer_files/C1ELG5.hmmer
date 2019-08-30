@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1_dh                PF00676.19 sp|C1ELG5|ODO1_BACC3 -            7.7e-63  212.1   0.1   1.1e-62  211.5   0.1   1.2   1   0   0   1   1   1   1 Dehydrogenase E1 component
+Transket_pyr         PF02779.23 sp|C1ELG5|ODO1_BACC3 -            6.7e-55  185.4   0.0   1.1e-54  184.7   0.0   1.4   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+OxoGdeHyase_C        PF16870.4  sp|C1ELG5|ODO1_BACC3 -            1.6e-37  128.4   0.0   2.9e-37  127.6   0.0   1.4   1   0   0   1   1   1   1 2-oxoglutarate dehydrogenase C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C1ELG5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C1ELG5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C1ELG5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:12:30 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Thioredoxin_4        PF13462.5  sp|Q68XQ3|DSB_RICTY  -            1.6e-34  119.4   0.2   1.6e-34  119.4   0.2   2.0   1   1   1   2   2   2   1 Thioredoxin
+DSBA                 PF01323.19 sp|Q68XQ3|DSB_RICTY  -            5.5e-06   26.2   0.2     0.003   17.3   0.0   2.4   1   1   1   2   2   2   2 DSBA-like thioredoxin domain
+Thioredoxin          PF00085.19 sp|Q68XQ3|DSB_RICTY  -              0.024   14.5   0.3     0.072   12.9   0.2   1.9   1   1   0   1   1   1   0 Thioredoxin
+Spore_YhaL           PF14147.5  sp|Q68XQ3|DSB_RICTY  -              0.072   12.7   0.3      0.16   11.6   0.3   1.5   1   0   0   1   1   1   0 Sporulation protein YhaL
+Alpha-amylase        PF00128.23 sp|Q68XQ3|DSB_RICTY  -                0.3   10.5   5.2       2.1    7.7   3.1   2.0   1   1   1   2   2   2   0 Alpha amylase, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q68XQ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q68XQ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q68XQ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:51:04 2019
+# [ok]

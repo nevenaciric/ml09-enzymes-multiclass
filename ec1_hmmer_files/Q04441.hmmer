@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+COX2                 PF00116.19 sp|Q04441|COX2_BACPE -              1e-20   73.7   1.3   4.7e-18   65.1   0.0   2.3   1   1   1   2   2   2   2 Cytochrome C oxidase subunit II, periplasmic domain
+Cytochrom_C          PF00034.20 sp|Q04441|COX2_BACPE -            3.8e-13   50.3   0.0   6.6e-13   49.5   0.0   1.4   1   0   0   1   1   1   1 Cytochrome c
+COX2_TM              PF02790.14 sp|Q04441|COX2_BACPE -            2.4e-10   40.3   2.5     4e-10   39.6   2.5   1.3   1   0   0   1   1   1   1 Cytochrome C oxidase subunit II, transmembrane domain
+Cytochrome_CBB3      PF13442.5  sp|Q04441|COX2_BACPE -              3e-08   33.8   0.0   5.2e-08   33.0   0.0   1.4   1   0   0   1   1   1   1 Cytochrome C oxidase, cbb3-type, subunit III
+FixO                 PF02433.14 sp|Q04441|COX2_BACPE -            0.00024   20.5   0.9      0.69    9.2   0.3   3.1   2   1   0   2   2   2   2 Cytochrome C oxidase, mono-heme subunit/FixO
+Orf78                PF06024.11 sp|Q04441|COX2_BACPE -              0.038   14.2   1.2     0.038   14.2   1.2   1.6   1   1   0   1   1   1   0 Orf78 (ac78)
+DUF898               PF05987.12 sp|Q04441|COX2_BACPE -              0.068   12.1   0.6      0.11   11.5   0.6   1.2   1   0   0   1   1   1   0 Bacterial protein of unknown function (DUF898)
+DHHC                 PF01529.19 sp|Q04441|COX2_BACPE -               0.11   12.6   0.1      0.17   11.9   0.1   1.3   1   0   0   1   1   1   0 DHHC palmitoyltransferase
+Cytochrom_C550       PF14495.5  sp|Q04441|COX2_BACPE -               0.15   11.7   0.5      0.64    9.6   0.5   2.0   1   1   0   1   1   1   0 Cytochrome c-550 domain
+DUF2207              PF09972.8  sp|Q04441|COX2_BACPE -                  3    6.4   4.8       3.6    6.1   0.3   1.9   1   1   1   2   2   2   0 Predicted membrane protein (DUF2207)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q04441.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q04441.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q04441.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:04:22 2019
+# [ok]

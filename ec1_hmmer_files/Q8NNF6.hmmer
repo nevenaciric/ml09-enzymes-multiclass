@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Transketolase_N      PF00456.20 sp|Q8NNF6|ODP1_CORGL -            1.2e-15   57.3   0.0   2.4e-09   36.5   0.0   2.3   2   0   0   2   2   2   2 Transketolase, thiamine diphosphate binding domain
+Transketolase_C      PF02780.19 sp|Q8NNF6|ODP1_CORGL -               0.11   12.2   0.0      0.35   10.7   0.0   1.8   1   0   0   1   1   1   0 Transketolase, C-terminal domain
+Transket_pyr         PF02779.23 sp|Q8NNF6|ODP1_CORGL -               0.17   11.4   1.2      0.58    9.7   0.1   2.3   3   0   0   3   3   3   0 Transketolase, pyrimidine binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8NNF6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8NNF6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8NNF6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:14:05 2019
+# [ok]

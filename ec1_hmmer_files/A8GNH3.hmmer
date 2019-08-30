@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_N       PF01210.22 sp|A8GNH3|GPDA_RICAH -            7.1e-35  120.2   0.0   1.5e-34  119.2   0.0   1.5   2   0   0   2   2   2   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_Gly3P_dh_C       PF07479.13 sp|A8GNH3|GPDA_RICAH -            2.8e-29  102.1   0.2     6e-29  101.0   0.2   1.5   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+ApbA                 PF02558.15 sp|A8GNH3|GPDA_RICAH -            1.8e-06   27.6   0.1     3e-06   26.9   0.1   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+F420_oxidored        PF03807.16 sp|A8GNH3|GPDA_RICAH -            3.9e-05   24.0   0.3   0.00037   20.9   0.0   2.3   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+TrkA_N               PF02254.17 sp|A8GNH3|GPDA_RICAH -            0.00097   19.3   0.5    0.0026   17.9   0.0   2.0   2   1   0   2   2   2   1 TrkA-N domain
+3HCDH_N              PF02737.17 sp|A8GNH3|GPDA_RICAH -             0.0066   16.3   0.1     0.029   14.2   0.0   2.0   2   0   0   2   2   2   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|A8GNH3|GPDA_RICAH -              0.047   13.9   0.2      0.36   11.0   0.0   2.4   3   0   0   3   3   3   0 Saccharopine dehydrogenase NADP binding domain
+Pyr_redox_2          PF07992.13 sp|A8GNH3|GPDA_RICAH -              0.051   12.7   0.0      0.11   11.6   0.0   1.6   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A8GNH3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A8GNH3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A8GNH3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:42:54 2019
+# [ok]

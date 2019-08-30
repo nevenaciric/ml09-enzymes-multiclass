@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IMPDH                PF00478.24 sp|Q32JY8|GUAC_SHIDS -            1.2e-77  261.1   0.6   1.6e-77  260.8   0.6   1.0   1   0   0   1   1   1   1 IMP dehydrogenase / GMP reductase domain
+FMN_dh               PF01070.17 sp|Q32JY8|GUAC_SHIDS -             0.0056   15.7   5.9     0.009   15.0   5.5   1.4   1   1   0   1   1   1   1 FMN-dependent dehydrogenase
+DUF1357_C            PF17042.4  sp|Q32JY8|GUAC_SHIDS -              0.068   13.6   0.1      0.44   10.9   0.0   2.0   1   1   1   2   2   2   0 Putative nucleotide-binding of sugar-metabolising enzyme
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q32JY8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q32JY8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q32JY8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:25:11 2019
+# [ok]

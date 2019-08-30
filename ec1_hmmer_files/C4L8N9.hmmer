@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|C4L8N9|ILVC_TOLAT -            2.1e-58  196.4   0.2   3.6e-58  195.7   0.2   1.4   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|C4L8N9|ILVC_TOLAT -            2.3e-46  157.6   0.2   9.6e-24   84.2   0.0   2.3   2   0   0   2   2   2   2 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|C4L8N9|ILVC_TOLAT -            2.6e-05   23.5   0.0   6.3e-05   22.3   0.0   1.6   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+AdoHcyase_NAD        PF00670.20 sp|C4L8N9|ILVC_TOLAT -             0.0014   18.6   0.1    0.0029   17.6   0.1   1.5   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|C4L8N9|ILVC_TOLAT -              0.025   14.9   0.0     0.081   13.3   0.0   1.8   2   0   0   2   2   2   0 Putative NAD(P)-binding
+ApbA                 PF02558.15 sp|C4L8N9|ILVC_TOLAT -              0.044   13.3   0.0     0.079   12.5   0.0   1.5   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+Sacchrp_dh_NADP      PF03435.17 sp|C4L8N9|ILVC_TOLAT -               0.11   12.7   0.0      0.36   11.0   0.0   1.9   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C4L8N9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C4L8N9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C4L8N9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:14:11 2019
+# [ok]

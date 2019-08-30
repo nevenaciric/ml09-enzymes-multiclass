@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q21CW7|MDH1_RHOPB -            4.5e-38  130.4   0.1   8.5e-38  129.5   0.1   1.5   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q21CW7|MDH1_RHOPB -            7.2e-31  107.3   0.0   9.8e-31  106.8   0.0   1.1   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|Q21CW7|MDH1_RHOPB -            0.00036   20.0   0.0     0.001   18.5   0.0   1.7   1   1   0   1   1   1   1 Family 4 glycosyl hydrolase
+F420_oxidored        PF03807.16 sp|Q21CW7|MDH1_RHOPB -                0.3   11.6   3.3       1.7    9.2   2.0   2.7   2   1   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q21CW7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q21CW7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q21CW7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:17:43 2019
+# [ok]

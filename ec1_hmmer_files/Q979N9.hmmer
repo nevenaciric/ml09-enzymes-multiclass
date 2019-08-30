@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ldh_1_N              PF00056.22 sp|Q979N9|MDH_THEVO  -            3.1e-39  134.2   0.3     5e-39  133.5   0.3   1.3   1   0   0   1   1   1   1 lactate/malate dehydrogenase, NAD binding domain
+Ldh_1_C              PF02866.17 sp|Q979N9|MDH_THEVO  -              4e-24   85.3   0.0   6.2e-24   84.7   0.0   1.2   1   0   0   1   1   1   1 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+Glyco_hydro_4        PF02056.15 sp|Q979N9|MDH_THEVO  -             0.0002   20.9   0.1   0.00053   19.5   0.0   1.7   2   0   0   2   2   2   1 Family 4 glycosyl hydrolase
+Shikimate_DH         PF01488.19 sp|Q979N9|MDH_THEVO  -              0.029   14.3   0.6      0.11   12.5   0.0   2.1   2   1   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+NAD_binding_8        PF13450.5  sp|Q979N9|MDH_THEVO  -              0.054   13.6   0.0      0.16   12.2   0.0   1.8   1   0   0   1   1   1   0 NAD(P)-binding Rossmann-like domain
+UDPG_MGDP_dh_N       PF03721.13 sp|Q979N9|MDH_THEVO  -              0.059   12.8   1.8       0.3   10.5   1.8   2.0   1   1   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+3HCDH_N              PF02737.17 sp|Q979N9|MDH_THEVO  -              0.066   13.0   0.2      0.16   11.8   0.1   1.7   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|Q979N9|MDH_THEVO  -              0.082   13.0   0.2        13    5.8   0.0   2.5   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_Gly3P_dh_N       PF01210.22 sp|Q979N9|MDH_THEVO  -               0.12   12.2   0.1      0.59   10.0   0.0   2.0   2   0   0   2   2   2   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+DAO                  PF01266.23 sp|Q979N9|MDH_THEVO  -               0.15   11.5   0.1      0.78    9.2   0.1   2.0   2   0   0   2   2   2   0 FAD dependent oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q979N9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q979N9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q979N9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:22:35 2019
+# [ok]

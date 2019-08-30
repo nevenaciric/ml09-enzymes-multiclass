@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_1        PF00175.20 sp|Q2HG02|MCR1_CHAGB -            7.5e-33  113.3   0.0   1.7e-32  112.2   0.0   1.6   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+FAD_binding_6        PF00970.23 sp|Q2HG02|MCR1_CHAGB -            9.4e-22   77.1   0.0   1.8e-21   76.2   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase FAD-binding domain
+NAD_binding_6        PF08030.11 sp|Q2HG02|MCR1_CHAGB -            3.8e-09   36.7   0.0   0.00023   21.2   0.0   2.6   3   0   0   3   3   3   2 Ferric reductase NAD binding domain
+FAD_binding_9        PF08021.10 sp|Q2HG02|MCR1_CHAGB -              0.098   12.8   0.0      0.32   11.1   0.0   1.9   3   0   0   3   3   3   0 Siderophore-interacting FAD-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q2HG02.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q2HG02.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q2HG02.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:20:13 2019
+# [ok]

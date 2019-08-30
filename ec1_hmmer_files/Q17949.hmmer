@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HEAT_2               PF13646.5  sp|Q17949|DOHH_CAEEL -            4.3e-32  110.3   0.6     1e-14   54.6   0.0   4.1   2   2   2   4   4   4   4 HEAT repeats
+HEAT_PBS             PF03130.15 sp|Q17949|DOHH_CAEEL -            4.7e-25   85.6   0.0    0.0023   18.3   0.0   6.8   7   0   0   7   7   7   6 PBS lyase HEAT-like repeat
+HEAT                 PF02985.21 sp|Q17949|DOHH_CAEEL -            3.6e-11   42.2   1.2      0.24   11.6   0.0   6.3   6   0   0   6   6   6   4 HEAT repeat
+HEAT_EZ              PF13513.5  sp|Q17949|DOHH_CAEEL -            5.5e-05   23.4   0.3        12    6.3   0.0   5.4   7   0   0   7   7   7   2 HEAT-like repeat
+Arm                  PF00514.22 sp|Q17949|DOHH_CAEEL -             0.0029   17.5   0.6       4.1    7.5   0.0   3.1   3   1   0   3   3   3   2 Armadillo/beta-catenin-like repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q17949.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q17949.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q17949.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:13:07 2019
+# [ok]

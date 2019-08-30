@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mqo                  PF06039.14 sp|A1AD63|MQO_ECOK1  -           7.2e-240  796.5   0.0  8.3e-240  796.3   0.0   1.0   1   0   0   1   1   1   1 Malate:quinone oxidoreductase (Mqo)
+DAO                  PF01266.23 sp|A1AD63|MQO_ECOK1  -            2.6e-08   33.8   0.0   3.5e-08   33.3   0.0   1.3   1   1   0   1   1   1   1 FAD dependent oxidoreductase
+FAD_binding_3        PF01494.18 sp|A1AD63|MQO_ECOK1  -            0.00011   21.5   0.0    0.0072   15.5   0.0   2.1   2   0   0   2   2   2   2 FAD binding domain
+K_oxygenase          PF13434.5  sp|A1AD63|MQO_ECOK1  -              0.036   13.1   0.2      0.77    8.7   0.0   2.2   2   0   0   2   2   2   0 L-lysine 6-monooxygenase (NADPH-requiring)
+FAD_binding_2        PF00890.23 sp|A1AD63|MQO_ECOK1  -              0.043   12.8   0.0     0.073   12.0   0.0   1.3   1   0   0   1   1   1   0 FAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A1AD63.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A1AD63.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A1AD63.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:22:26 2019
+# [ok]

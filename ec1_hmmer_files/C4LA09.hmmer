@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_Gly3P_dh_C       PF07479.13 sp|C4LA09|GPDA_TOLAT -            1.7e-51  174.2   1.1   2.6e-51  173.5   1.1   1.2   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus
+NAD_Gly3P_dh_N       PF01210.22 sp|C4LA09|GPDA_TOLAT -            1.2e-46  158.4   0.0   1.9e-46  157.8   0.0   1.3   1   0   0   1   1   1   1 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+ApbA                 PF02558.15 sp|C4LA09|GPDA_TOLAT -            2.8e-07   30.2   0.0   5.3e-07   29.3   0.0   1.5   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+NAD_binding_2        PF03446.14 sp|C4LA09|GPDA_TOLAT -             0.0071   16.4   0.0     0.018   15.1   0.0   1.8   2   1   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+UDPG_MGDP_dh_N       PF03721.13 sp|C4LA09|GPDA_TOLAT -              0.024   14.1   0.0      0.11   12.0   0.0   2.1   3   0   0   3   3   3   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+3HCDH_N              PF02737.17 sp|C4LA09|GPDA_TOLAT -              0.028   14.2   0.0     0.053   13.3   0.0   1.4   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+GIDA                 PF01134.21 sp|C4LA09|GPDA_TOLAT -              0.039   12.9   0.0     0.071   12.1   0.0   1.4   1   0   0   1   1   1   0 Glucose inhibited division protein A
+F420_oxidored        PF03807.16 sp|C4LA09|GPDA_TOLAT -              0.054   14.0   0.0      0.19   12.2   0.0   2.0   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+TrkA_N               PF02254.17 sp|C4LA09|GPDA_TOLAT -               0.14   12.4   0.0      0.74   10.0   0.0   2.1   2   0   0   2   2   2   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/C4LA09.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/C4LA09.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/C4LA09.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:14:13 2019
+# [ok]

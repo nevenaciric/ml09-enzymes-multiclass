@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IlvN                 PF07991.11 sp|Q7NH80|ILVC_GLOVI -            2.6e-77  257.9   0.1   3.6e-77  257.5   0.1   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+IlvC                 PF01450.18 sp|Q7NH80|ILVC_GLOVI -            5.8e-67  224.3   0.3   7.7e-67  223.9   0.3   1.2   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, catalytic domain
+2-Hacid_dh_C         PF02826.18 sp|Q7NH80|ILVC_GLOVI -            1.4e-05   24.4   0.0   2.6e-05   23.6   0.0   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|Q7NH80|ILVC_GLOVI -            4.3e-05   23.9   0.1   0.00011   22.6   0.0   1.7   2   0   0   2   2   2   1 NADP oxidoreductase coenzyme F420-dependent
+NAD_binding_2        PF03446.14 sp|Q7NH80|ILVC_GLOVI -            4.8e-05   23.5   0.0   9.7e-05   22.5   0.0   1.5   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+GFO_IDH_MocA         PF01408.21 sp|Q7NH80|ILVC_GLOVI -              0.035   14.8   0.0     0.085   13.6   0.0   1.6   1   0   0   1   1   1   0 Oxidoreductase family, NAD-binding Rossmann fold
+AdoHcyase_NAD        PF00670.20 sp|Q7NH80|ILVC_GLOVI -              0.058   13.4   0.0      0.11   12.5   0.0   1.4   1   0   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Oxidored_nitro       PF00148.18 sp|Q7NH80|ILVC_GLOVI -              0.058   12.0   0.1      0.16   10.5   0.0   1.8   2   0   0   2   2   2   0 Nitrogenase component 1 type Oxidoreductase
+Rossmann-like        PF10727.8  sp|Q7NH80|ILVC_GLOVI -               0.11   12.3   0.0      0.19   11.5   0.0   1.4   1   0   0   1   1   1   0 Rossmann-like domain
+ApbA                 PF02558.15 sp|Q7NH80|ILVC_GLOVI -               0.14   11.7   0.3      0.27   10.7   0.3   1.7   1   1   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7NH80.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7NH80.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7NH80.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:01:22 2019
+# [ok]

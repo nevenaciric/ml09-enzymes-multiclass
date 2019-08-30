@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1_dh                PF00676.19 sp|Q9I1M2|ODBA_PSEAE -            1.3e-98  329.5   0.0   1.6e-98  329.3   0.0   1.0   1   0   0   1   1   1   1 Dehydrogenase E1 component
+OxoDH_E1alpha_N      PF12573.7  sp|Q9I1M2|ODBA_PSEAE -            6.3e-21   73.8   2.1     1e-20   73.1   2.1   1.4   1   0   0   1   1   1   1 2-oxoisovalerate dehydrogenase E1 alpha subunit N terminal
+TPP_enzyme_C         PF02775.20 sp|Q9I1M2|ODBA_PSEAE -              0.013   15.2   0.1     0.025   14.2   0.1   1.5   1   0   0   1   1   1   0 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+DUF3390              PF11870.7  sp|Q9I1M2|ODBA_PSEAE -              0.046   14.0   0.0      0.12   12.6   0.0   1.6   1   0   0   1   1   1   0 Domain of unknown function (DUF3390)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9I1M2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9I1M2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9I1M2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:27:50 2019
+# [ok]

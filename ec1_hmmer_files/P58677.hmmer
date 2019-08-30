@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|P58677|ISPH_RALSO -            1.3e-93  313.0   0.0   1.5e-93  312.8   0.0   1.0   1   0   0   1   1   1   1 LytB protein
+CoA_binding_2        PF13380.5  sp|P58677|ISPH_RALSO -              0.026   14.9   0.7       1.2    9.5   0.0   3.4   2   2   0   2   2   2   0 CoA binding domain
+DHDPS                PF00701.21 sp|P58677|ISPH_RALSO -              0.028   13.0   0.0     0.051   12.2   0.0   1.4   1   0   0   1   1   1   0 Dihydrodipicolinate synthetase family
+TPP_enzyme_M         PF00205.21 sp|P58677|ISPH_RALSO -              0.039   13.6   0.3      0.69    9.6   0.0   2.6   2   1   0   2   2   2   0 Thiamine pyrophosphate enzyme, central domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P58677.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P58677.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P58677.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:53:04 2019
+# [ok]

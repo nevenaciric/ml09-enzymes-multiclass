@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q6P7J1|DHI1A_XENLA -            5.9e-41  140.0   1.5   7.4e-41  139.7   1.5   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q6P7J1|DHI1A_XENLA -            7.4e-23   81.2   1.7   9.6e-23   80.9   1.7   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q6P7J1|DHI1A_XENLA -            2.8e-06   27.3   3.2    0.0012   18.6   0.1   2.1   2   0   0   2   2   2   2 KR domain
+DUF1776              PF08643.9  sp|Q6P7J1|DHI1A_XENLA -              0.005   16.1   0.1    0.0097   15.2   0.0   1.4   2   0   0   2   2   2   1 Fungal family of unknown function (DUF1776)
+FMO-like             PF00743.18 sp|Q6P7J1|DHI1A_XENLA -              0.021   13.1   0.0     0.034   12.5   0.0   1.2   1   0   0   1   1   1   0 Flavin-binding monooxygenase-like
+THF_DHG_CYH_C        PF02882.18 sp|Q6P7J1|DHI1A_XENLA -              0.026   13.7   0.0     0.048   12.9   0.0   1.5   1   0   0   1   1   1   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+Eno-Rase_NADH_b      PF12242.7  sp|Q6P7J1|DHI1A_XENLA -              0.053   13.2   0.2      0.31   10.7   0.0   2.2   2   0   0   2   2   2   0 NAD(P)H binding domain of trans-2-enoyl-CoA reductase
+2-Hacid_dh_C         PF02826.18 sp|Q6P7J1|DHI1A_XENLA -              0.054   12.8   0.0     0.097   11.9   0.0   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q6P7J1|DHI1A_XENLA -               0.12   12.3   0.1       0.2   11.6   0.1   1.3   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6P7J1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6P7J1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6P7J1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:56:31 2019
+# [ok]

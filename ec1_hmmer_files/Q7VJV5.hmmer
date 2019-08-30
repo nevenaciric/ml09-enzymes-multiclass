@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LYTB                 PF02401.17 sp|Q7VJV5|ISPH_HELHP -              1e-84  283.9   2.3   1.1e-84  283.7   2.3   1.0   1   0   0   1   1   1   1 LytB protein
+PIN_2                PF10130.8  sp|Q7VJV5|ISPH_HELHP -              0.014   15.5   0.3       8.1    6.6   0.0   2.6   2   1   1   3   3   3   0 PIN domain
+FlpD                 PF02662.15 sp|Q7VJV5|ISPH_HELHP -              0.025   14.5   0.1      0.99    9.3   0.0   2.3   1   1   1   2   2   2   0 Methyl-viologen-reducing hydrogenase, delta subunit
+CbiJ                 PF02571.13 sp|Q7VJV5|ISPH_HELHP -              0.044   13.2   0.1     0.065   12.6   0.1   1.4   1   1   0   1   1   1   0 Precorrin-6x reductase CbiJ/CobK
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7VJV5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7VJV5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7VJV5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:02:59 2019
+# [ok]

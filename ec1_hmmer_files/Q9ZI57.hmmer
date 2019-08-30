@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|Q9ZI57|ACDH_PSEST -            9.3e-67  223.4   0.3   1.3e-66  222.9   0.3   1.2   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|Q9ZI57|ACDH_PSEST -            9.8e-11   42.1   0.0   1.7e-10   41.3   0.0   1.4   1   0   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+CofC                 PF01983.15 sp|Q9ZI57|ACDH_PSEST -              0.087   11.9   0.0      0.62    9.1   0.0   2.0   2   0   0   2   2   2   0 Guanylyl transferase CofC like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q9ZI57.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q9ZI57.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q9ZI57.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:37:37 2019
+# [ok]

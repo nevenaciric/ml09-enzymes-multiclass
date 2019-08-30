@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TP_methylase         PF00590.19 sp|Q21K21|CYSG_SACD2 -            2.1e-50  171.5   0.1     5e-50  170.3   0.0   1.6   2   0   0   2   2   2   1 Tetrapyrrole (Corrin/Porphyrin) Methylases
+NAD_binding_7        PF13241.5  sp|Q21K21|CYSG_SACD2 -            3.2e-28   98.1   0.7   3.5e-27   94.8   0.3   2.6   3   0   0   3   3   3   1 Putative NAD(P)-binding
+CysG_dimeriser       PF10414.8  sp|Q21K21|CYSG_SACD2 -            2.7e-20   71.8   1.2   6.8e-20   70.5   1.2   1.8   1   0   0   1   1   1   1 Sirohaem synthase dimerisation region
+Sirohm_synth_M       PF14824.5  sp|Q21K21|CYSG_SACD2 -            9.5e-05   21.7   0.5   0.00024   20.4   0.5   1.8   1   0   0   1   1   1   1 Sirohaem biosynthesis protein central
+Shikimate_DH         PF01488.19 sp|Q21K21|CYSG_SACD2 -             0.0087   16.0   0.0     0.036   14.0   0.0   1.9   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+Pyr_redox_2          PF07992.13 sp|Q21K21|CYSG_SACD2 -              0.071   12.2   0.0      0.17   11.0   0.0   1.7   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+2-Hacid_dh_C         PF02826.18 sp|Q21K21|CYSG_SACD2 -               0.14   11.4   0.0      0.29   10.4   0.0   1.5   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q21K21.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q21K21.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q21K21.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:17:50 2019
+# [ok]

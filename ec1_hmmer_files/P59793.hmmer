@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UDPG_MGDP_dh_N       PF03721.13 sp|P59793|ALGD_PSESY -            1.8e-64  216.7   0.1   9.8e-64  214.3   0.0   2.1   3   0   0   3   3   3   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+UDPG_MGDP_dh         PF00984.18 sp|P59793|ALGD_PSESY -            2.3e-29  101.3   0.0   4.5e-29  100.4   0.0   1.5   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, central domain
+UDPG_MGDP_dh_C       PF03720.14 sp|P59793|ALGD_PSESY -              8e-14   51.8   0.0   5.9e-13   49.1   0.0   2.3   3   0   0   3   3   3   1 UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain
+ApbA                 PF02558.15 sp|P59793|ALGD_PSESY -              0.006   16.1   0.0     0.011   15.3   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+NAD_binding_2        PF03446.14 sp|P59793|ALGD_PSESY -              0.031   14.4   0.0      0.15   12.2   0.0   2.2   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_Gly3P_dh_N       PF01210.22 sp|P59793|ALGD_PSESY -              0.054   13.4   0.0         3    7.7   0.0   2.5   2   1   0   2   2   2   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+NAD_binding_11       PF14833.5  sp|P59793|ALGD_PSESY -              0.091   12.9   0.0      0.47   10.6   0.0   2.1   1   1   0   1   1   1   0 NAD-binding of NADP-dependent 3-hydroxyisobutyrate dehydrogenase
+3HCDH_N              PF02737.17 sp|P59793|ALGD_PSESY -               0.12   12.2   0.0      0.24   11.2   0.0   1.5   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|P59793|ALGD_PSESY -               0.12   11.6   0.1      0.45    9.7   0.0   1.9   2   0   0   2   2   2   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/P59793.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/P59793.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/P59793.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:53:29 2019
+# [ok]

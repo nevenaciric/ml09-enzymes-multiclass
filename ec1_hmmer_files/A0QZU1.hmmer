@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetDehyd-dimer      PF09290.10 sp|A0QZU1|ACDH1_MYCS2 -            6.8e-63  210.9   0.2   1.2e-62  210.0   0.2   1.4   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Semialdhyde_dh       PF01118.23 sp|A0QZU1|ACDH1_MYCS2 -            7.9e-13   48.8   0.1   2.8e-12   47.0   0.1   1.9   2   0   0   2   2   2   1 Semialdehyde dehydrogenase, NAD binding domain
+GFO_IDH_MocA         PF01408.21 sp|A0QZU1|ACDH1_MYCS2 -             0.0013   19.5   0.0    0.0028   18.4   0.0   1.5   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+F420_oxidored        PF03807.16 sp|A0QZU1|ACDH1_MYCS2 -             0.0099   16.3   0.1     0.028   14.9   0.1   1.9   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+CoA_binding          PF02629.18 sp|A0QZU1|ACDH1_MYCS2 -              0.014   16.0   0.1     0.036   14.6   0.1   1.9   1   1   0   1   1   1   0 CoA binding domain
+DapB_N               PF01113.19 sp|A0QZU1|ACDH1_MYCS2 -              0.063   13.3   1.6     0.078   13.0   0.1   1.9   3   0   0   3   3   3   0 Dihydrodipicolinate reductase, N-terminus
+NAD_binding_3        PF03447.15 sp|A0QZU1|ACDH1_MYCS2 -              0.071   13.7   0.0       0.2   12.2   0.0   1.8   1   0   0   1   1   1   0 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A0QZU1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A0QZU1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A0QZU1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:21:44 2019
+# [ok]

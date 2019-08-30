@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Biopterin_H          PF00351.20 sp|Q92142|TPH_XENLA  -           6.7e-173  574.2   0.0  8.6e-173  573.8   0.0   1.1   1   0   0   1   1   1   1 Biopterin-dependent aromatic amino acid hydroxylase
+ACT                  PF01842.24 sp|Q92142|TPH_XENLA  -            1.1e-05   25.0   0.0   2.3e-05   24.0   0.0   1.6   1   0   0   1   1   1   1 ACT domain
+DUF5370              PF17340.1  sp|Q92142|TPH_XENLA  -              0.022   14.5   0.0     0.055   13.3   0.0   1.6   1   0   0   1   1   1   0 Family of unknown function (DUF5370)
+DUF262               PF03235.13 sp|Q92142|TPH_XENLA  -              0.022   14.8   2.1     0.022   14.8   2.1   1.9   2   0   0   2   2   2   0 Protein of unknown function DUF262
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q92142.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q92142.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q92142.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:20:01 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_redisom_C        PF08436.11 sp|A9KMX2|DXR_LACP7  -            2.7e-42  142.8   0.0   6.1e-42  141.7   0.0   1.6   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase C-terminal
+DXP_reductoisom      PF02670.15 sp|A9KMX2|DXR_LACP7  -            1.3e-41  142.2   1.9   2.6e-41  141.3   1.9   1.5   1   0   0   1   1   1   1 1-deoxy-D-xylulose 5-phosphate reductoisomerase
+DXPR_C               PF13288.5  sp|A9KMX2|DXR_LACP7  -            5.2e-39  133.0   0.0   9.6e-39  132.1   0.0   1.5   1   0   0   1   1   1   1 DXP reductoisomerase C-terminal domain
+Semialdhyde_dh       PF01118.23 sp|A9KMX2|DXR_LACP7  -             0.0012   19.2   0.1    0.0051   17.2   0.1   2.1   1   1   0   1   1   1   1 Semialdehyde dehydrogenase, NAD binding domain
+NAD_binding_3        PF03447.15 sp|A9KMX2|DXR_LACP7  -             0.0029   18.2   1.1     0.022   15.3   1.1   2.2   1   1   0   1   1   1   1 Homoserine dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|A9KMX2|DXR_LACP7  -             0.0029   17.7   0.3    0.0083   16.3   0.3   1.8   1   0   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+DapB_N               PF01113.19 sp|A9KMX2|DXR_LACP7  -              0.014   15.5   0.3     0.033   14.2   0.3   1.7   1   0   0   1   1   1   0 Dihydrodipicolinate reductase, N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/A9KMX2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/A9KMX2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/A9KMX2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 18:45:10 2019
+# [ok]

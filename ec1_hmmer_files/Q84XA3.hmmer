@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IMPDH                PF00478.24 sp|Q84XA3|IMDH_VIGUN -           1.3e-120  402.5   3.9  1.6e-120  402.2   3.9   1.1   1   0   0   1   1   1   1 IMP dehydrogenase / GMP reductase domain
+NMO                  PF03060.14 sp|Q84XA3|IMDH_VIGUN -            5.6e-08   32.4   7.7   1.5e-06   27.7   1.9   2.2   2   0   0   2   2   2   2 Nitronate monooxygenase
+FMN_dh               PF01070.17 sp|Q84XA3|IMDH_VIGUN -            1.3e-06   27.6   1.6   1.3e-06   27.6   1.6   2.0   2   0   0   2   2   2   1 FMN-dependent dehydrogenase
+His_biosynth         PF00977.20 sp|Q84XA3|IMDH_VIGUN -            6.7e-05   22.4   2.5    0.0004   19.8   2.5   2.2   1   1   0   1   1   1   1 Histidine biosynthesis protein
+ThiG                 PF05690.13 sp|Q84XA3|IMDH_VIGUN -             0.0006   19.1   2.3    0.0015   17.8   1.1   2.2   2   0   0   2   2   2   1 Thiazole biosynthesis protein ThiG
+PK                   PF00224.20 sp|Q84XA3|IMDH_VIGUN -             0.0011   17.8   0.0     0.002   17.0   0.0   1.4   1   0   0   1   1   1   1 Pyruvate kinase, barrel domain
+DUF561               PF04481.11 sp|Q84XA3|IMDH_VIGUN -              0.037   13.1   0.4     0.071   12.2   0.4   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF561)
+DUF1273              PF06908.10 sp|Q84XA3|IMDH_VIGUN -              0.065   13.1   0.0      0.11   12.4   0.0   1.2   1   0   0   1   1   1   0 Protein of unknown function (DUF1273)
+BATS                 PF06968.12 sp|Q84XA3|IMDH_VIGUN -              0.088   12.9   0.0      0.84    9.7   0.0   2.3   2   1   0   2   2   2   0 Biotin and Thiamin Synthesis associated domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q84XA3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q84XA3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q84XA3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:06:27 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMC_oxred_N          PF00732.18 sp|B7I895|BETA_ACIB5 -            3.3e-97  325.3   0.0   4.3e-97  325.0   0.0   1.2   1   0   0   1   1   1   1 GMC oxidoreductase
+GMC_oxred_C          PF05199.12 sp|B7I895|BETA_ACIB5 -            2.7e-41  141.3   0.0   4.3e-41  140.7   0.0   1.3   1   0   0   1   1   1   1 GMC oxidoreductase
+Lycopene_cycl        PF05834.11 sp|B7I895|BETA_ACIB5 -             0.0035   16.3   0.0    0.0053   15.8   0.0   1.2   1   0   0   1   1   1   1 Lycopene cyclase protein
+FAD_binding_2        PF00890.23 sp|B7I895|BETA_ACIB5 -             0.0049   15.9   0.1       0.3   10.0   0.0   2.2   2   0   0   2   2   2   1 FAD binding domain
+NAD_binding_8        PF13450.5  sp|B7I895|BETA_ACIB5 -             0.0082   16.3   0.1     0.021   15.0   0.1   1.7   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+HI0933_like          PF03486.13 sp|B7I895|BETA_ACIB5 -               0.03   12.9   0.1       0.2   10.2   0.0   1.9   2   0   0   2   2   2   0 HI0933-like protein
+Pyr_redox_2          PF07992.13 sp|B7I895|BETA_ACIB5 -              0.046   12.9   0.0      0.15   11.2   0.0   1.7   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+DAO                  PF01266.23 sp|B7I895|BETA_ACIB5 -              0.083   12.3   0.1      0.33   10.4   0.1   1.8   2   0   0   2   2   2   0 FAD dependent oxidoreductase
+Thi4                 PF01946.16 sp|B7I895|BETA_ACIB5 -               0.13   11.4   0.1      0.23   10.6   0.1   1.4   1   0   0   1   1   1   0 Thi4 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/B7I895.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/B7I895.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/B7I895.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 19:03:42 2019
+# [ok]

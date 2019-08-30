@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q6P3L6|DH12A_DANRE -            7.8e-42  142.8   0.0     1e-41  142.5   0.0   1.1   1   0   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q6P3L6|DH12A_DANRE -            1.8e-20   73.4   0.0   2.5e-20   73.0   0.0   1.1   1   0   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q6P3L6|DH12A_DANRE -            5.6e-06   26.3   0.0    0.0003   20.7   0.0   2.1   2   0   0   2   2   2   1 KR domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q6P3L6|DH12A_DANRE -              0.013   15.7   0.0     0.021   15.0   0.0   1.4   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+Polysacc_synt_2      PF02719.14 sp|Q6P3L6|DH12A_DANRE -              0.026   13.6   0.1     0.051   12.6   0.1   1.5   1   1   0   1   1   1   0 Polysaccharide biosynthesis protein
+NAD_binding_10       PF13460.5  sp|Q6P3L6|DH12A_DANRE -              0.029   14.2   0.0     0.042   13.6   0.0   1.2   1   0   0   1   1   1   0 NAD(P)H-binding
+Phage_int_SAM_3      PF14659.5  sp|Q6P3L6|DH12A_DANRE -               0.14   12.3   0.2      0.32   11.2   0.2   1.5   1   0   0   1   1   1   0 Phage integrase, N-terminal SAM-like domain
+3HCDH_N              PF02737.17 sp|Q6P3L6|DH12A_DANRE -               0.16   11.7   0.0      0.25   11.1   0.0   1.2   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q6P3L6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q6P3L6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q6P3L6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 20:56:27 2019
+# [ok]

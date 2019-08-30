@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+adh_short            PF00106.24 sp|Q8TC12|RDH11_HUMAN -            5.8e-38  130.2   0.3   5.1e-37  127.1   0.3   1.9   1   1   0   1   1   1   1 short chain dehydrogenase
+adh_short_C2         PF13561.5  sp|Q8TC12|RDH11_HUMAN -            2.4e-23   82.8   0.0   5.6e-23   81.6   0.0   1.5   1   1   0   1   1   1   1 Enoyl-(Acyl carrier protein) reductase
+KR                   PF08659.9  sp|Q8TC12|RDH11_HUMAN -            6.3e-09   35.9   0.1     1e-08   35.2   0.1   1.4   1   0   0   1   1   1   1 KR domain
+NAD_binding_10       PF13460.5  sp|Q8TC12|RDH11_HUMAN -             0.0052   16.6   0.2    0.0097   15.7   0.2   1.6   1   1   0   1   1   1   1 NAD(P)H-binding
+Epimerase            PF01370.20 sp|Q8TC12|RDH11_HUMAN -             0.0085   15.5   0.4     0.014   14.7   0.4   1.4   1   1   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+AdoHcyase_NAD        PF00670.20 sp|Q8TC12|RDH11_HUMAN -              0.022   14.7   1.2     0.067   13.2   0.4   2.0   1   1   1   2   2   2   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Glyco_trans_4_2      PF13477.5  sp|Q8TC12|RDH11_HUMAN -               0.05   13.5   0.0      0.14   12.1   0.0   1.8   2   0   0   2   2   2   0 Glycosyl transferase 4-like
+Shikimate_DH         PF01488.19 sp|Q8TC12|RDH11_HUMAN -              0.051   13.5   0.2      0.09   12.7   0.2   1.4   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+Acetyltransf_13      PF13880.5  sp|Q8TC12|RDH11_HUMAN -               0.12   12.3   0.2      0.28   11.1   0.2   1.6   1   0   0   1   1   1   0 ESCO1/2 acetyl-transferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q8TC12.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q8TC12.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q8TC12.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:15:57 2019
+# [ok]

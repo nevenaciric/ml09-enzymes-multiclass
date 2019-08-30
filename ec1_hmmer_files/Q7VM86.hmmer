@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|Q7VM86|FOLD_HAEDU -            9.6e-69  229.7   0.4   1.5e-68  229.1   0.4   1.3   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|Q7VM86|FOLD_HAEDU -            8.4e-39  132.4   0.7   1.2e-38  131.8   0.7   1.3   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+adh_short            PF00106.24 sp|Q7VM86|FOLD_HAEDU -              0.077   12.4   0.1      0.14   11.5   0.1   1.4   1   0   0   1   1   1   0 short chain dehydrogenase
+DUF1672              PF07901.10 sp|Q7VM86|FOLD_HAEDU -               0.16   11.2   0.0      0.24   10.6   0.0   1.2   1   0   0   1   1   1   0 Protein of unknown function (DUF1672)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec1_fasta_files/Q7VM86.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec1_hmmer_files/Q7VM86.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec1_fasta_files/Q7VM86.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Fri Aug 30 21:03:02 2019
+# [ok]
