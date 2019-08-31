@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q724W6|ATPA1_LISMF -            3.4e-68  229.4   0.1   4.8e-68  228.9   0.1   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q724W6|ATPA1_LISMF -            2.2e-27   95.8   0.6   3.7e-27   95.1   0.6   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATPase_2             PF01637.17 sp|Q724W6|ATPA1_LISMF -            8.7e-05   22.4   0.1   0.00036   20.4   0.1   2.3   1   1   0   1   1   1   1 ATPase domain predominantly from Archaea
+AAA_14               PF13173.5  sp|Q724W6|ATPA1_LISMF -             0.0024   17.8   0.0     0.028   14.4   0.0   2.5   1   1   0   1   1   1   1 AAA domain
+ATPase               PF06745.12 sp|Q724W6|ATPA1_LISMF -             0.0037   16.6   0.1     0.016   14.4   0.0   2.0   1   1   1   2   2   2   1 KaiC
+Glu-tRNAGln          PF02686.14 sp|Q724W6|ATPA1_LISMF -               0.12   12.6   1.2       1.6    9.0   0.2   2.4   2   0   0   2   2   2   0 Glu-tRNAGln amidotransferase C subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q724W6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q724W6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q724W6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:52:45 2019
+# [ok]

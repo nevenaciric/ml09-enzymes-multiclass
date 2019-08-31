@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A5GNB1|ATPB_SYNPW -            9.1e-63  211.7   0.0   1.3e-62  211.2   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|A5GNB1|ATPB_SYNPW -            3.4e-21   75.4   0.3   8.3e-21   74.2   0.3   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|A5GNB1|ATPB_SYNPW -            0.00011   21.5   0.4    0.0048   16.2   0.1   2.2   2   0   0   2   2   2   1 KaiC
+RsgA_GTPase          PF03193.15 sp|A5GNB1|ATPB_SYNPW -             0.0026   17.6   0.0    0.0051   16.6   0.0   1.4   1   0   0   1   1   1   1 RsgA GTPase
+AAA                  PF00004.28 sp|A5GNB1|ATPB_SYNPW -             0.0059   16.9   0.0      0.13   12.6   0.0   2.4   2   1   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+AAA_16               PF13191.5  sp|A5GNB1|ATPB_SYNPW -              0.011   16.0   0.1     0.029   14.7   0.1   1.8   1   1   0   1   1   1   0 AAA ATPase domain
+ATPase_2             PF01637.17 sp|A5GNB1|ATPB_SYNPW -              0.015   15.2   0.0     0.027   14.3   0.0   1.5   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+ABC_tran             PF00005.26 sp|A5GNB1|ATPB_SYNPW -              0.015   15.7   0.0     0.036   14.5   0.0   1.6   1   0   0   1   1   1   0 ABC transporter
+NACHT                PF05729.11 sp|A5GNB1|ATPB_SYNPW -               0.04   13.7   0.7     0.072   12.9   0.2   1.7   2   0   0   2   2   2   0 NACHT domain
+AAA_19               PF13245.5  sp|A5GNB1|ATPB_SYNPW -               0.06   13.6   1.1      0.21   11.8   0.1   2.3   3   0   0   3   3   3   0 AAA domain
+NB-ARC               PF00931.21 sp|A5GNB1|ATPB_SYNPW -              0.069   12.1   1.1     0.086   11.8   0.2   1.5   2   0   0   2   2   2   0 NB-ARC domain
+NTPase_1             PF03266.14 sp|A5GNB1|ATPB_SYNPW -              0.089   12.6   0.1      0.18   11.6   0.1   1.5   1   0   0   1   1   1   0 NTPase
+RNA_helicase         PF00910.21 sp|A5GNB1|ATPB_SYNPW -              0.097   13.0   0.0      0.21   11.9   0.0   1.6   1   0   0   1   1   1   0 RNA helicase
+TrwB_AAD_bind        PF10412.8  sp|A5GNB1|ATPB_SYNPW -                0.1   11.4   0.3      0.21   10.4   0.1   1.5   2   0   0   2   2   2   0 Type IV secretion-system coupling protein DNA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A5GNB1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A5GNB1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A5GNB1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:01:29 2019
+# [ok]

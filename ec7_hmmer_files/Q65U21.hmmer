@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_membrane         PF00664.22 sp|Q65U21|MSBA_MANSM -            2.6e-62  210.9  16.2   3.4e-62  210.5  16.2   1.1   1   0   0   1   1   1   1 ABC transporter transmembrane region
+ABC_tran             PF00005.26 sp|Q65U21|MSBA_MANSM -            1.6e-34  119.3   0.1   4.9e-34  117.7   0.0   1.8   2   0   0   2   2   2   1 ABC transporter
+SMC_N                PF02463.18 sp|Q65U21|MSBA_MANSM -            4.5e-10   39.2   3.3   3.6e-08   33.0   3.3   2.6   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+AAA_16               PF13191.5  sp|Q65U21|MSBA_MANSM -            1.6e-05   25.2   0.2   3.4e-05   24.2   0.2   1.5   1   0   0   1   1   1   1 AAA ATPase domain
+DEAD                 PF00270.28 sp|Q65U21|MSBA_MANSM -            0.00011   22.0   0.2   0.00033   20.4   0.0   1.8   2   0   0   2   2   2   1 DEAD/DEAH box helicase
+AAA_22               PF13401.5  sp|Q65U21|MSBA_MANSM -            0.00011   22.4   0.4    0.0008   19.6   0.4   2.3   1   1   0   1   1   1   1 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q65U21|MSBA_MANSM -            0.00029   20.7   0.0    0.0009   19.1   0.0   1.8   1   0   0   1   1   1   1 RsgA GTPase
+AAA_29               PF13555.5  sp|Q65U21|MSBA_MANSM -             0.0021   17.6   0.1    0.0069   16.0   0.1   1.9   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_30               PF13604.5  sp|Q65U21|MSBA_MANSM -             0.0047   16.6   1.0      0.02   14.5   0.3   2.2   2   1   0   2   2   2   1 AAA domain
+APS_kinase           PF01583.19 sp|Q65U21|MSBA_MANSM -             0.0059   16.4   0.1     0.018   14.9   0.0   1.8   2   0   0   2   2   2   1 Adenylylsulphate kinase
+AAA_25               PF13481.5  sp|Q65U21|MSBA_MANSM -              0.012   15.1   0.1      0.59    9.6   0.0   2.9   3   0   0   3   3   3   0 AAA domain
+Glyco_hydro_18       PF00704.27 sp|Q65U21|MSBA_MANSM -              0.015   14.9   0.0       5.3    6.6   0.0   2.2   2   0   0   2   2   2   0 Glycosyl hydrolases family 18
+SbcCD_C              PF13558.5  sp|Q65U21|MSBA_MANSM -              0.033   14.3   3.3       9.2    6.5   0.7   3.5   2   1   0   2   2   2   0 Putative exonuclease SbcCD, C subunit
+AAA_21               PF13304.5  sp|Q65U21|MSBA_MANSM -              0.055   13.2   0.5       8.9    5.9   0.0   2.3   2   0   0   2   2   2   0 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA                  PF00004.28 sp|Q65U21|MSBA_MANSM -              0.062   13.6   0.3       1.4    9.3   0.3   2.6   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+AAA_23               PF13476.5  sp|Q65U21|MSBA_MANSM -              0.072   13.5   0.1      0.25   11.7   0.0   1.9   2   0   0   2   2   2   0 AAA domain
+G-alpha              PF00503.19 sp|Q65U21|MSBA_MANSM -              0.093   11.8   0.0      0.16   11.0   0.0   1.4   1   0   0   1   1   1   0 G-protein alpha subunit
+AAA_24               PF13479.5  sp|Q65U21|MSBA_MANSM -                0.1   12.2   0.2      0.47   10.1   0.2   2.1   1   1   0   1   1   1   0 AAA domain
+MMR_HSR1             PF01926.22 sp|Q65U21|MSBA_MANSM -               0.12   12.3   0.8      0.41   10.6   0.8   2.1   1   1   0   1   1   1   0 50S ribosome-binding GTPase
+DUF87                PF01935.16 sp|Q65U21|MSBA_MANSM -               0.12   12.3   0.7       1.6    8.7   0.0   2.5   2   1   0   2   2   2   0 Domain of unknown function DUF87
+DUF2075              PF09848.8  sp|Q65U21|MSBA_MANSM -               0.13   11.4   0.1      0.22   10.6   0.1   1.3   1   0   0   1   1   1   0 Uncharacterized conserved protein (DUF2075)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q65U21.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q65U21.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q65U21.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:49:48 2019
+# [ok]

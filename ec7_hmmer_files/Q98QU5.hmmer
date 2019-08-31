@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q98QU5|ATPB1_MYCPU -            1.1e-68  230.9   0.0     2e-68  230.1   0.0   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q98QU5|ATPB1_MYCPU -            4.8e-18   65.3   0.2   9.5e-18   64.4   0.2   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+NACHT                PF05729.11 sp|Q98QU5|ATPB1_MYCPU -             0.0073   16.1   0.0     0.015   15.1   0.0   1.5   1   0   0   1   1   1   1 NACHT domain
+RsgA_GTPase          PF03193.15 sp|Q98QU5|ATPB1_MYCPU -              0.011   15.6   0.1     0.018   14.8   0.1   1.4   1   0   0   1   1   1   0 RsgA GTPase
+ATPase               PF06745.12 sp|Q98QU5|ATPB1_MYCPU -              0.018   14.3   0.5     0.041   13.1   0.5   1.6   1   0   0   1   1   1   0 KaiC
+AAA                  PF00004.28 sp|Q98QU5|ATPB1_MYCPU -              0.022   15.1   0.0     0.076   13.3   0.0   1.9   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+AAA_16               PF13191.5  sp|Q98QU5|ATPB1_MYCPU -              0.047   14.0   0.2      0.13   12.6   0.2   1.8   1   1   0   1   1   1   0 AAA ATPase domain
+ABC_tran             PF00005.26 sp|Q98QU5|ATPB1_MYCPU -               0.05   14.0   0.1      0.14   12.5   0.1   1.8   1   0   0   1   1   1   0 ABC transporter
+NB-ARC               PF00931.21 sp|Q98QU5|ATPB1_MYCPU -              0.065   12.1   1.3     0.072   12.0   0.2   1.5   2   0   0   2   2   2   0 NB-ARC domain
+RNA_helicase         PF00910.21 sp|Q98QU5|ATPB1_MYCPU -              0.088   13.1   0.0      0.23   11.8   0.0   1.7   1   0   0   1   1   1   0 RNA helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q98QU5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q98QU5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q98QU5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:02:55 2019
+# [ok]

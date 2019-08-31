@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|C3M9S1|ATPB_SINFN -            2.2e-63  213.6   0.0   4.1e-63  212.8   0.0   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|C3M9S1|ATPB_SINFN -            2.3e-24   85.6   1.7   5.7e-24   84.3   1.7   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+RnfC_N               PF13375.5  sp|C3M9S1|ATPB_SINFN -             0.0019   18.0   0.1     0.013   15.4   0.1   2.3   2   0   0   2   2   2   1 RnfC Barrel sandwich hybrid domain
+RsgA_GTPase          PF03193.15 sp|C3M9S1|ATPB_SINFN -              0.022   14.5   0.0     0.059   13.2   0.0   1.7   1   0   0   1   1   1   0 RsgA GTPase
+NB-ARC               PF00931.21 sp|C3M9S1|ATPB_SINFN -              0.034   13.1   0.6     0.099   11.6   0.1   1.8   2   0   0   2   2   2   0 NB-ARC domain
+ATPase               PF06745.12 sp|C3M9S1|ATPB_SINFN -              0.076   12.3   1.2      0.14   11.4   0.5   1.8   2   0   0   2   2   2   0 KaiC
+ATPase_2             PF01637.17 sp|C3M9S1|ATPB_SINFN -              0.079   12.8   0.0      0.15   11.8   0.0   1.5   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+AAA_19               PF13245.5  sp|C3M9S1|ATPB_SINFN -               0.86    9.8   4.5      0.27   11.5   0.2   2.2   3   0   0   3   3   3   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/C3M9S1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/C3M9S1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/C3M9S1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:16:04 2019
+# [ok]

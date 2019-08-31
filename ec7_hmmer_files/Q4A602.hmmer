@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q4A602|ATPA_MYCS5 -            3.4e-73  245.7   0.3   5.7e-73  245.0   0.3   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q4A602|ATPA_MYCS5 -            6.5e-38  129.8   1.1   1.2e-37  128.9   1.1   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|Q4A602|ATPA_MYCS5 -            2.1e-09   37.7   1.0   5.4e-09   36.3   1.0   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|Q4A602|ATPA_MYCS5 -             0.0011   18.2   0.2    0.0022   17.3   0.2   1.5   1   0   0   1   1   1   1 KaiC
+Guanylate_cyc        PF00211.19 sp|Q4A602|ATPA_MYCS5 -              0.049   13.2   0.0       0.1   12.1   0.0   1.4   1   0   0   1   1   1   0 Adenylate and Guanylate cyclase catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q4A602.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q4A602.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q4A602.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:44:57 2019
+# [ok]

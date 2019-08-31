@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Complex1_30kDa       PF00329.18 sp|Q1GIP0|NUOC_RUEST -              3e-46  156.9   0.1     4e-46  156.5   0.1   1.2   1   0   0   1   1   1   1 Respiratory-chain NADH dehydrogenase, 30 Kd subunit
+Nup96                PF12110.7  sp|Q1GIP0|NUOC_RUEST -              0.016   14.3   0.0     0.019   14.0   0.0   1.1   1   0   0   1   1   1   0 Nuclear protein 96
+PAH                  PF02671.20 sp|Q1GIP0|NUOC_RUEST -              0.079   13.0   0.0      0.45   10.6   0.0   2.2   2   1   0   2   2   2   0 Paired amphipathic helix repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q1GIP0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q1GIP0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q1GIP0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:34:19 2019
+# [ok]

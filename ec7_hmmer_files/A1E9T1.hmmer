@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A1E9T1|ATPB_SORBI -            3.5e-65  219.6   0.0   4.7e-65  219.1   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|A1E9T1|ATPB_SORBI -            3.4e-21   75.5   0.0   8.9e-21   74.1   0.0   1.8   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA                  PF00004.28 sp|A1E9T1|ATPB_SORBI -            3.6e-05   24.1   0.1    0.0028   18.0   0.0   2.3   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+ATPase               PF06745.12 sp|A1E9T1|ATPB_SORBI -            0.00042   19.6   0.1   0.00091   18.5   0.1   1.5   1   0   0   1   1   1   1 KaiC
+ATPase_2             PF01637.17 sp|A1E9T1|ATPB_SORBI -             0.0033   17.3   0.0    0.0064   16.3   0.0   1.4   1   0   0   1   1   1   1 ATPase domain predominantly from Archaea
+RsgA_GTPase          PF03193.15 sp|A1E9T1|ATPB_SORBI -              0.017   14.9   0.1     0.036   13.9   0.1   1.5   1   0   0   1   1   1   0 RsgA GTPase
+ABC_tran             PF00005.26 sp|A1E9T1|ATPB_SORBI -              0.028   14.8   0.0      0.07   13.6   0.0   1.6   1   0   0   1   1   1   0 ABC transporter
+AAA_25               PF13481.5  sp|A1E9T1|ATPB_SORBI -              0.049   13.1   0.0       0.1   12.0   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+AAA_16               PF13191.5  sp|A1E9T1|ATPB_SORBI -              0.083   13.2   0.1      0.19   12.0   0.1   1.7   1   1   0   1   1   1   0 AAA ATPase domain
+AAA_19               PF13245.5  sp|A1E9T1|ATPB_SORBI -               0.11   12.7   0.7      0.47   10.7   0.2   2.0   2   0   0   2   2   2   0 AAA domain
+RNA_helicase         PF00910.21 sp|A1E9T1|ATPB_SORBI -               0.13   12.5   0.0      0.31   11.3   0.0   1.6   1   0   0   1   1   1   0 RNA helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A1E9T1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A1E9T1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A1E9T1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 20:56:09 2019
+# [ok]

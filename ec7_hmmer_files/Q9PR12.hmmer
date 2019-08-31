@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q9PR12|ATPA_UREPA -            6.7e-73  244.8   0.1   1.3e-72  243.8   0.1   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q9PR12|ATPA_UREPA -            1.7e-33  115.5   0.9   1.7e-33  115.5   0.9   2.5   2   0   0   2   2   2   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|Q9PR12|ATPA_UREPA -            1.8e-12   47.5   3.0   1.8e-12   47.5   3.0   2.4   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|Q9PR12|ATPA_UREPA -            4.7e-05   22.7   0.2   0.00014   21.1   0.2   1.9   1   0   0   1   1   1   1 KaiC
+AAA_14               PF13173.5  sp|Q9PR12|ATPA_UREPA -              0.067   13.1   0.0      0.27   11.2   0.0   2.0   1   0   0   1   1   1   0 AAA domain
+Mastoparan_2         PF08251.10 sp|Q9PR12|ATPA_UREPA -               0.61   10.3   1.8       3.1    8.2   0.4   2.9   3   0   0   3   3   3   0 Mastoparan peptide
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q9PR12.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q9PR12.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q9PR12.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:05:29 2019
+# [ok]

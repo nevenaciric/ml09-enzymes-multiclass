@@ -1,0 +1,34 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q5V225|PSTB1_HALMA -            2.6e-30  105.6   0.0   4.4e-30  104.9   0.0   1.4   1   0   0   1   1   1   1 ABC transporter
+AAA_21               PF13304.5  sp|Q5V225|PSTB1_HALMA -            1.5e-11   44.6   0.0   8.7e-05   22.4   0.0   2.1   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+SMC_N                PF02463.18 sp|Q5V225|PSTB1_HALMA -            7.1e-09   35.3   0.3   7.3e-08   32.0   0.3   2.1   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+AAA_23               PF13476.5  sp|Q5V225|PSTB1_HALMA -            0.00011   22.6   0.4   0.00057   20.4   0.0   2.1   2   1   0   2   2   2   1 AAA domain
+AAA_15               PF13175.5  sp|Q5V225|PSTB1_HALMA -            0.00026   20.7   0.0    0.0082   15.7   0.0   2.2   1   1   1   2   2   2   1 AAA ATPase domain
+RsgA_GTPase          PF03193.15 sp|Q5V225|PSTB1_HALMA -            0.00036   20.4   0.0   0.00081   19.2   0.0   1.6   1   0   0   1   1   1   1 RsgA GTPase
+AAA_22               PF13401.5  sp|Q5V225|PSTB1_HALMA -             0.0017   18.5   0.0    0.0053   16.9   0.0   1.8   1   1   0   1   1   1   1 AAA domain
+AAA_29               PF13555.5  sp|Q5V225|PSTB1_HALMA -             0.0022   17.6   0.0    0.0051   16.4   0.0   1.6   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_25               PF13481.5  sp|Q5V225|PSTB1_HALMA -             0.0069   15.9   0.4     0.075   12.5   0.4   2.3   1   1   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|Q5V225|PSTB1_HALMA -              0.009   16.1   0.0     0.013   15.5   0.0   1.6   1   1   0   1   1   1   1 AAA domain
+AAA_30               PF13604.5  sp|Q5V225|PSTB1_HALMA -              0.015   14.9   0.4      0.39   10.3   0.0   2.1   2   0   0   2   2   2   0 AAA domain
+AAA_16               PF13191.5  sp|Q5V225|PSTB1_HALMA -               0.02   15.2   0.1     0.069   13.4   0.1   1.9   1   1   0   1   1   1   0 AAA ATPase domain
+DeoRC                PF00455.21 sp|Q5V225|PSTB1_HALMA -              0.024   14.5   0.0     0.042   13.7   0.0   1.3   1   0   0   1   1   1   0 DeoR C terminal sensor domain
+ABC_ATPase           PF09818.8  sp|Q5V225|PSTB1_HALMA -              0.038   12.7   0.1       6.2    5.4   0.0   2.1   2   0   0   2   2   2   0 Predicted ATPase of the ABC class
+Rad17                PF03215.14 sp|Q5V225|PSTB1_HALMA -              0.039   12.8   0.0     0.058   12.2   0.0   1.1   1   0   0   1   1   1   0 Rad17 cell cycle checkpoint protein
+Mg_chelatase         PF01078.20 sp|Q5V225|PSTB1_HALMA -              0.039   13.2   0.0     0.067   12.5   0.0   1.4   1   0   0   1   1   1   0 Magnesium chelatase, subunit ChlI
+PRK                  PF00485.17 sp|Q5V225|PSTB1_HALMA -              0.052   13.2   0.0       0.2   11.3   0.0   1.9   1   1   0   2   2   2   0 Phosphoribulokinase / Uridine kinase family
+KdpD                 PF02702.16 sp|Q5V225|PSTB1_HALMA -              0.054   12.9   0.2     0.097   12.0   0.2   1.4   1   0   0   1   1   1   0 Osmosensitive K+ channel His kinase sensor domain
+AAA_18               PF13238.5  sp|Q5V225|PSTB1_HALMA -              0.086   13.3   0.0      0.23   11.9   0.0   1.7   1   0   0   1   1   1   0 AAA domain
+AAA_24               PF13479.5  sp|Q5V225|PSTB1_HALMA -               0.13   11.9   0.1      0.75    9.4   0.0   2.1   2   1   0   2   2   2   0 AAA domain
+NB-ARC               PF00931.21 sp|Q5V225|PSTB1_HALMA -               0.16   10.9   0.0      0.29   10.0   0.0   1.4   1   0   0   1   1   1   0 NB-ARC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q5V225.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q5V225.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q5V225.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:48:36 2019
+# [ok]

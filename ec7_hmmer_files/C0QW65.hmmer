@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|C0QW65|ATPA_BRAHW -            7.2e-71  238.1   0.1   9.6e-71  237.7   0.1   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|C0QW65|ATPA_BRAHW -            5.3e-45  152.7   0.6   9.2e-45  151.9   0.6   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|C0QW65|ATPA_BRAHW -            9.8e-14   51.5   1.7   4.2e-13   49.5   1.5   2.2   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|C0QW65|ATPA_BRAHW -            2.9e-05   23.4   0.6   2.9e-05   23.4   0.6   1.8   2   0   0   2   2   2   1 KaiC
+AAA_16               PF13191.5  sp|C0QW65|ATPA_BRAHW -              0.029   14.7   0.2     0.064   13.5   0.2   1.6   1   1   0   1   1   1   0 AAA ATPase domain
+IstB_IS21            PF01695.16 sp|C0QW65|ATPA_BRAHW -               0.12   12.0   0.6       1.7    8.2   0.0   2.4   2   0   0   2   2   2   0 IstB-like ATP binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/C0QW65.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/C0QW65.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/C0QW65.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:15:28 2019
+# [ok]

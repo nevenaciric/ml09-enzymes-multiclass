@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_1        PF00175.20 sp|Q9CLA6|NQRF_PASMU -            9.8e-18   64.7   0.0   1.6e-17   64.0   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+Fer2                 PF00111.26 sp|Q9CLA6|NQRF_PASMU -            1.3e-11   44.1   0.1   2.5e-11   43.3   0.1   1.4   1   0   0   1   1   1   1 2Fe-2S iron-sulfur cluster binding domain
+FAD_binding_6        PF00970.23 sp|Q9CLA6|NQRF_PASMU -            1.6e-11   44.3   0.0   1.2e-10   41.5   0.0   2.2   2   0   0   2   2   2   1 Oxidoreductase FAD-binding domain
+NAD_binding_6        PF08030.11 sp|Q9CLA6|NQRF_PASMU -             0.0087   16.1   0.0     0.068   13.2   0.0   2.0   2   0   0   2   2   2   1 Ferric reductase NAD binding domain
+Fer2_4               PF13510.5  sp|Q9CLA6|NQRF_PASMU -               0.11   12.4   0.2      0.37   10.8   0.2   1.9   1   1   0   1   1   1   0 2Fe-2S iron-sulfur cluster binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q9CLA6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q9CLA6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q9CLA6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:03:30 2019
+# [ok]

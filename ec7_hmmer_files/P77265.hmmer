@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_membrane         PF00664.22 sp|P77265|MDLA_ECOLI -            4.9e-36  124.7   5.7   6.2e-36  124.4   5.7   1.1   1   0   0   1   1   1   1 ABC transporter transmembrane region
+ABC_tran             PF00005.26 sp|P77265|MDLA_ECOLI -            7.3e-32  110.6   0.0   1.4e-31  109.8   0.0   1.5   1   0   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|P77265|MDLA_ECOLI -            8.3e-05   22.0   0.1     0.026   13.9   0.0   2.3   2   0   0   2   2   2   2 RecF/RecN/SMC N terminal domain
+AAA_18               PF13238.5  sp|P77265|MDLA_ECOLI -            0.00058   20.3   0.2     0.032   14.6   0.0   3.0   3   0   0   3   3   3   1 AAA domain
+RsgA_GTPase          PF03193.15 sp|P77265|MDLA_ECOLI -             0.0011   18.8   0.0    0.0022   17.8   0.0   1.4   1   0   0   1   1   1   1 RsgA GTPase
+AAA_22               PF13401.5  sp|P77265|MDLA_ECOLI -             0.0026   17.9   0.1     0.011   15.9   0.1   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_23               PF13476.5  sp|P77265|MDLA_ECOLI -             0.0027   18.2   0.0    0.0044   17.4   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_29               PF13555.5  sp|P77265|MDLA_ECOLI -             0.0043   16.6   0.0      0.01   15.4   0.0   1.6   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_21               PF13304.5  sp|P77265|MDLA_ECOLI -             0.0055   16.5   0.0    0.0094   15.7   0.0   1.3   1   0   0   1   1   1   1 AAA domain, putative AbiEii toxin, Type IV TA system
+T2SSE                PF00437.19 sp|P77265|MDLA_ECOLI -              0.017   14.1   0.0     0.032   13.2   0.0   1.4   1   0   0   1   1   1   0 Type II/IV secretion system protein
+TMEM192              PF14802.5  sp|P77265|MDLA_ECOLI -              0.023   13.7   0.7     0.038   13.0   0.7   1.3   1   0   0   1   1   1   0 TMEM192 family
+AAA_16               PF13191.5  sp|P77265|MDLA_ECOLI -              0.079   13.2   0.0      0.36   11.1   0.0   2.1   2   0   0   2   2   2   0 AAA ATPase domain
+NB-ARC               PF00931.21 sp|P77265|MDLA_ECOLI -               0.15   11.0   0.1      0.34    9.8   0.0   1.5   2   0   0   2   2   2   0 NB-ARC domain
+dNK                  PF01712.18 sp|P77265|MDLA_ECOLI -               0.18   11.6   0.0       3.8    7.2   0.0   2.2   2   0   0   2   2   2   0 Deoxynucleoside kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P77265.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P77265.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P77265.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:27:15 2019
+# [ok]

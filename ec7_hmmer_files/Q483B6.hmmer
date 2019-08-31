@@ -1,0 +1,27 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_membrane         PF00664.22 sp|Q483B6|MSBA1_COLP3 -            4.8e-54  183.8  16.1   6.9e-54  183.2  16.1   1.2   1   0   0   1   1   1   1 ABC transporter transmembrane region
+ABC_tran             PF00005.26 sp|Q483B6|MSBA1_COLP3 -            1.8e-33  115.8   0.0   5.2e-33  114.4   0.0   1.8   1   0   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|Q483B6|MSBA1_COLP3 -            2.2e-09   37.0   4.0     2e-08   33.9   3.8   2.2   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+DEAD                 PF00270.28 sp|Q483B6|MSBA1_COLP3 -            0.00011   21.9   0.1   0.00028   20.6   0.1   1.7   1   0   0   1   1   1   1 DEAD/DEAH box helicase
+AAA_22               PF13401.5  sp|Q483B6|MSBA1_COLP3 -            0.00041   20.5   0.5    0.0025   18.0   0.5   2.2   1   1   0   1   1   1   1 AAA domain
+RNA_helicase         PF00910.21 sp|Q483B6|MSBA1_COLP3 -              0.001   19.3   0.0    0.0027   18.0   0.0   1.7   1   0   0   1   1   1   1 RNA helicase
+AAA_29               PF13555.5  sp|Q483B6|MSBA1_COLP3 -             0.0051   16.4   0.1     0.017   14.7   0.1   1.9   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+DUF87                PF01935.16 sp|Q483B6|MSBA1_COLP3 -             0.0083   16.1   1.3     0.035   14.1   0.2   2.4   1   1   1   2   2   2   1 Domain of unknown function DUF87
+RsgA_GTPase          PF03193.15 sp|Q483B6|MSBA1_COLP3 -              0.011   15.5   0.0     0.031   14.1   0.0   1.7   1   0   0   1   1   1   0 RsgA GTPase
+DUF4957              PF16318.4  sp|Q483B6|MSBA1_COLP3 -               0.05   13.4   0.4      0.21   11.4   0.4   2.1   1   1   0   1   1   1   0 Domain of unknown function (DUF4957)
+AAA_16               PF13191.5  sp|Q483B6|MSBA1_COLP3 -               0.12   12.6   1.2      0.35   11.1   1.2   1.8   1   1   0   1   1   1   0 AAA ATPase domain
+DUF2196              PF09962.8  sp|Q483B6|MSBA1_COLP3 -               0.13   12.1   0.2       1.1    9.2   0.3   2.1   2   0   0   2   2   2   0 Uncharacterized conserved protein (DUF2196)
+SbcCD_C              PF13558.5  sp|Q483B6|MSBA1_COLP3 -               0.25   11.5   1.9       6.4    7.0   0.7   3.4   2   1   0   2   2   2   0 Putative exonuclease SbcCD, C subunit
+DUF3671              PF12420.7  sp|Q483B6|MSBA1_COLP3 -                9.3    6.3   8.3        95    3.0   0.5   3.5   1   1   2   3   3   3   0 Protein of unknown function
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q483B6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q483B6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q483B6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:44:34 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A7I177|ATPB_CAMHC -            5.3e-65  218.9   0.0   7.5e-65  218.5   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|A7I177|ATPB_CAMHC -            5.5e-19   68.3   0.2   1.7e-18   66.8   0.2   1.9   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+RsgA_GTPase          PF03193.15 sp|A7I177|ATPB_CAMHC -              0.037   13.8   0.1     0.087   12.6   0.1   1.5   1   0   0   1   1   1   0 RsgA GTPase
+ATPase               PF06745.12 sp|A7I177|ATPB_CAMHC -              0.047   12.9   0.9      0.14   11.4   0.3   2.0   2   0   0   2   2   2   0 KaiC
+NB-ARC               PF00931.21 sp|A7I177|ATPB_CAMHC -               0.15   11.0   0.1       0.3   10.0   0.1   1.4   1   0   0   1   1   1   0 NB-ARC domain
+AAA_19               PF13245.5  sp|A7I177|ATPB_CAMHC -               0.16   12.2   1.0      0.25   11.6   1.0   1.6   1   1   0   1   1   1   0 AAA domain
+DUF2075              PF09848.8  sp|A7I177|ATPB_CAMHC -               0.23   10.5   0.1      0.37    9.9   0.1   1.2   1   0   0   1   1   1   0 Uncharacterized conserved protein (DUF2075)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A7I177.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A7I177.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A7I177.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:04:03 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Proton_antipo_M      PF00361.19 sp|Q5N5T8|NU2C_SYNP6 -              2e-80  270.1  21.3   3.4e-80  269.3  21.3   1.4   1   0   0   1   1   1   1 Proton-conducting membrane transporter
+Proton_antipo_N      PF00662.19 sp|Q5N5T8|NU2C_SYNP6 -               0.33   11.0   5.5      0.55   10.3   0.0   3.8   4   1   0   4   4   4   0 NADH-Ubiquinone oxidoreductase (complex I), chain 5 N-terminus
+HisKA_4TM            PF16926.4  sp|Q5N5T8|NU2C_SYNP6 -               0.57    9.6  18.2       5.2    6.5   4.3   3.4   3   0   0   3   3   3   0 Archaeal 4TM region of histidine kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q5N5T8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q5N5T8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q5N5T8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:47:56 2019
+# [ok]

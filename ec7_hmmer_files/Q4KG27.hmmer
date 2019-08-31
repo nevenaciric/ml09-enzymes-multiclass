@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q4KG27|CCMA_PSEF5 -            2.5e-28   99.2   0.0   3.1e-28   98.9   0.0   1.1   1   0   0   1   1   1   1 ABC transporter
+AAA_21               PF13304.5  sp|Q4KG27|CCMA_PSEF5 -            1.9e-06   27.8   0.2   0.00072   19.4   0.0   2.1   2   0   0   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+SMC_N                PF02463.18 sp|Q4KG27|CCMA_PSEF5 -            7.9e-06   25.4   0.0     0.085   12.2   0.0   2.1   1   1   1   2   2   2   2 RecF/RecN/SMC N terminal domain
+AAA_16               PF13191.5  sp|Q4KG27|CCMA_PSEF5 -            5.4e-05   23.5   0.1   7.4e-05   23.1   0.1   1.4   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_29               PF13555.5  sp|Q4KG27|CCMA_PSEF5 -            0.00049   19.7   0.0   0.00091   18.8   0.0   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+DUF3584              PF12128.7  sp|Q4KG27|CCMA_PSEF5 -             0.0011   16.6   0.1    0.0014   16.2   0.1   1.0   1   0   0   1   1   1   1 Protein of unknown function (DUF3584)
+AAA_30               PF13604.5  sp|Q4KG27|CCMA_PSEF5 -             0.0016   18.1   0.0    0.0029   17.2   0.0   1.5   1   1   0   1   1   1   1 AAA domain
+AAA_23               PF13476.5  sp|Q4KG27|CCMA_PSEF5 -             0.0016   18.9   0.0    0.0024   18.3   0.0   1.1   1   0   0   1   1   1   1 AAA domain
+Mg_chelatase         PF01078.20 sp|Q4KG27|CCMA_PSEF5 -              0.015   14.6   0.1     0.022   14.0   0.1   1.2   1   0   0   1   1   1   0 Magnesium chelatase, subunit ChlI
+AAA_18               PF13238.5  sp|Q4KG27|CCMA_PSEF5 -              0.023   15.1   0.0      0.14   12.6   0.0   2.1   1   1   1   2   2   2   0 AAA domain
+Zeta_toxin           PF06414.11 sp|Q4KG27|CCMA_PSEF5 -              0.027   13.6   0.1     0.043   13.0   0.1   1.2   1   0   0   1   1   1   0 Zeta toxin
+AAA_15               PF13175.5  sp|Q4KG27|CCMA_PSEF5 -              0.042   13.4   0.0     0.049   13.2   0.0   1.1   1   0   0   1   1   1   0 AAA ATPase domain
+RsgA_GTPase          PF03193.15 sp|Q4KG27|CCMA_PSEF5 -              0.063   13.1   0.0      0.12   12.2   0.0   1.4   1   0   0   1   1   1   0 RsgA GTPase
+NACHT                PF05729.11 sp|Q4KG27|CCMA_PSEF5 -              0.069   13.0   0.1      0.13   12.0   0.1   1.5   1   0   0   1   1   1   0 NACHT domain
+cobW                 PF02492.18 sp|Q4KG27|CCMA_PSEF5 -              0.079   12.4   0.0      0.11   12.0   0.0   1.2   1   0   0   1   1   1   0 CobW/HypB/UreG, nucleotide-binding domain
+AAA_28               PF13521.5  sp|Q4KG27|CCMA_PSEF5 -              0.082   13.1   0.0      0.12   12.5   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+AAA_35               PF14516.5  sp|Q4KG27|CCMA_PSEF5 -              0.093   11.4   0.1      0.26   10.0   0.0   1.6   1   1   0   2   2   2   0 AAA-like domain
+Thymidylate_kin      PF02223.16 sp|Q4KG27|CCMA_PSEF5 -                0.1   12.1   0.0      0.13   11.8   0.0   1.2   1   0   0   1   1   1   0 Thymidylate kinase
+AAA                  PF00004.28 sp|Q4KG27|CCMA_PSEF5 -               0.11   12.8   0.0      0.18   12.1   0.0   1.4   1   0   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+AAA_25               PF13481.5  sp|Q4KG27|CCMA_PSEF5 -               0.14   11.6   0.4       2.7    7.4   0.4   2.4   1   1   0   1   1   1   0 AAA domain
+AAA_13               PF13166.5  sp|Q4KG27|CCMA_PSEF5 -               0.26    9.8   0.0      0.35    9.4   0.0   1.1   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q4KG27.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q4KG27.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q4KG27.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:45:20 2019
+# [ok]

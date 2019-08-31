@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|P42465|ATPB_CHLP8 -            4.2e-66  222.6   0.0   6.2e-66  222.0   0.0   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|P42465|ATPB_CHLP8 -            2.3e-24   85.6   0.5   4.9e-24   84.5   0.5   1.6   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase_2             PF01637.17 sp|P42465|ATPB_CHLP8 -              0.016   15.0   0.0     0.034   14.0   0.0   1.5   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+RsgA_GTPase          PF03193.15 sp|P42465|ATPB_CHLP8 -              0.019   14.8   0.0     0.042   13.7   0.0   1.5   1   0   0   1   1   1   0 RsgA GTPase
+AAA                  PF00004.28 sp|P42465|ATPB_CHLP8 -              0.045   14.1   0.0      0.82   10.0   0.0   2.5   2   1   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+AAA_16               PF13191.5  sp|P42465|ATPB_CHLP8 -              0.046   14.0   0.1       0.3   11.4   0.1   2.3   1   1   0   1   1   1   0 AAA ATPase domain
+TrwB_AAD_bind        PF10412.8  sp|P42465|ATPB_CHLP8 -              0.075   11.8   0.2      0.24   10.1   0.1   1.8   2   0   0   2   2   2   0 Type IV secretion-system coupling protein DNA-binding domain
+AAA_19               PF13245.5  sp|P42465|ATPB_CHLP8 -              0.084   13.1   0.2      0.48   10.7   0.1   2.0   2   0   0   2   2   2   0 AAA domain
+NACHT                PF05729.11 sp|P42465|ATPB_CHLP8 -              0.092   12.6   0.0       0.2   11.5   0.0   1.6   1   0   0   1   1   1   0 NACHT domain
+NB-ARC               PF00931.21 sp|P42465|ATPB_CHLP8 -                0.1   11.5   0.2      0.22   10.4   0.1   1.5   2   0   0   2   2   2   0 NB-ARC domain
+ABC_tran             PF00005.26 sp|P42465|ATPB_CHLP8 -               0.14   12.6   0.0      0.32   11.4   0.0   1.6   1   0   0   1   1   1   0 ABC transporter
+MobB                 PF03205.13 sp|P42465|ATPB_CHLP8 -               0.16   11.7   0.2       5.7    6.7   0.0   2.7   3   0   0   3   3   3   0 Molybdopterin guanine dinucleotide synthesis protein B
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P42465.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P42465.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P42465.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:24:45 2019
+# [ok]

@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q6W2B1|TAUB_SINFN -            4.8e-28   98.3   0.0   6.3e-28   97.9   0.0   1.2   1   0   0   1   1   1   1 ABC transporter
+AAA_21               PF13304.5  sp|Q6W2B1|TAUB_SINFN -            2.2e-06   27.6   0.7     0.028   14.1   0.2   2.1   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_16               PF13191.5  sp|Q6W2B1|TAUB_SINFN -            0.00013   22.3   1.1   0.00039   20.7   1.1   2.0   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_22               PF13401.5  sp|Q6W2B1|TAUB_SINFN -              0.005   17.0   0.0     0.011   16.0   0.0   1.7   1   1   0   1   1   1   1 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q6W2B1|TAUB_SINFN -             0.0069   16.2   0.1     0.011   15.5   0.1   1.3   1   0   0   1   1   1   1 RsgA GTPase
+DUF2561              PF10812.7  sp|Q6W2B1|TAUB_SINFN -              0.027   14.4   0.2      0.07   13.1   0.0   1.6   2   0   0   2   2   2   0 Protein of unknown function (DUF2561)
+AAA_29               PF13555.5  sp|Q6W2B1|TAUB_SINFN -              0.029   14.0   0.5     0.075   12.7   0.1   1.9   2   0   0   2   2   2   0 P-loop containing region of AAA domain
+SMC_N                PF02463.18 sp|Q6W2B1|TAUB_SINFN -              0.043   13.1   0.1       1.2    8.5   0.1   2.1   2   0   0   2   2   2   0 RecF/RecN/SMC N terminal domain
+AAA_30               PF13604.5  sp|Q6W2B1|TAUB_SINFN -              0.075   12.6   0.0      0.15   11.7   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+MMR_HSR1             PF01926.22 sp|Q6W2B1|TAUB_SINFN -              0.097   12.7   0.1      0.27   11.2   0.1   1.7   2   0   0   2   2   2   0 50S ribosome-binding GTPase
+T2SSE                PF00437.19 sp|Q6W2B1|TAUB_SINFN -               0.17   10.9   0.0      0.24   10.3   0.0   1.2   1   0   0   1   1   1   0 Type II/IV secretion system protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q6W2B1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q6W2B1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q6W2B1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:52:21 2019
+# [ok]

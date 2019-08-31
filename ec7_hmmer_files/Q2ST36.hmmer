@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q2ST36|ATPA_MYCCT -            1.1e-73  247.4   0.1   1.6e-73  246.8   0.1   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q2ST36|ATPA_MYCCT -            1.5e-36  125.4   9.6   3.9e-36  124.1   9.6   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|Q2ST36|ATPA_MYCCT -            6.7e-14   52.1   2.5   1.6e-13   50.8   2.5   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|Q2ST36|ATPA_MYCCT -            0.00015   21.1   0.2   0.00015   21.1   0.2   2.1   3   0   0   3   3   3   1 KaiC
+HAS-barrel           PF09378.9  sp|Q2ST36|ATPA_MYCCT -              0.058   13.5   0.6      0.23   11.5   0.6   2.1   1   1   1   2   2   2   0 HAS barrel domain
+AAA_23               PF13476.5  sp|Q2ST36|ATPA_MYCCT -               0.86   10.0   9.7      0.37   11.2   5.7   2.2   2   0   0   2   2   2   0 AAA domain
+DivIC                PF04977.14 sp|Q2ST36|ATPA_MYCCT -                2.5    7.9   6.9       1.3    8.7   3.4   2.3   2   0   0   2   2   2   0 Septum formation initiator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q2ST36.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q2ST36.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q2ST36.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:38:42 2019
+# [ok]

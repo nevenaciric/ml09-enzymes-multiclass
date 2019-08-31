@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q9MRV8|ATPB_ARIMA -            2.4e-65  220.1   0.0   3.2e-65  219.7   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q9MRV8|ATPB_ARIMA -            2.2e-22   79.3   0.5   2.2e-22   79.3   0.5   1.9   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA                  PF00004.28 sp|Q9MRV8|ATPB_ARIMA -            0.00012   22.4   0.1    0.0033   17.7   0.0   2.3   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+ATPase               PF06745.12 sp|Q9MRV8|ATPB_ARIMA -              0.002   17.4   0.1    0.0043   16.3   0.1   1.5   1   0   0   1   1   1   1 KaiC
+ATPase_2             PF01637.17 sp|Q9MRV8|ATPB_ARIMA -             0.0087   15.9   0.0     0.016   15.0   0.0   1.4   1   0   0   1   1   1   1 ATPase domain predominantly from Archaea
+RsgA_GTPase          PF03193.15 sp|Q9MRV8|ATPB_ARIMA -              0.016   15.0   0.1     0.035   13.9   0.1   1.5   1   0   0   1   1   1   0 RsgA GTPase
+ABC_tran             PF00005.26 sp|Q9MRV8|ATPB_ARIMA -              0.027   14.9   0.1     0.067   13.6   0.0   1.6   2   0   0   2   2   2   0 ABC transporter
+AAA_25               PF13481.5  sp|Q9MRV8|ATPB_ARIMA -              0.038   13.5   0.0      0.08   12.4   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+AAA_16               PF13191.5  sp|Q9MRV8|ATPB_ARIMA -              0.069   13.4   0.1      0.15   12.4   0.1   1.6   1   1   0   1   1   1   0 AAA ATPase domain
+RNA_helicase         PF00910.21 sp|Q9MRV8|ATPB_ARIMA -               0.13   12.5   0.0      0.32   11.3   0.0   1.7   1   0   0   1   1   1   0 RNA helicase
+AAA_19               PF13245.5  sp|Q9MRV8|ATPB_ARIMA -               0.14   12.4   1.0      0.49   10.6   0.3   2.0   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q9MRV8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q9MRV8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q9MRV8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:05:01 2019
+# [ok]

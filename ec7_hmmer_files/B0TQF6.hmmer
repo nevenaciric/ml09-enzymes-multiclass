@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|B0TQF6|ATPA_SHEHH -            1.2e-71  240.6   0.1   1.8e-71  240.1   0.1   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|B0TQF6|ATPA_SHEHH -              2e-45  154.0   0.7   3.7e-45  153.2   0.7   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|B0TQF6|ATPA_SHEHH -            2.3e-13   50.3   0.3   5.6e-13   49.1   0.3   1.6   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|B0TQF6|ATPA_SHEHH -            0.00043   19.6   0.1   0.00082   18.7   0.1   1.5   1   0   0   1   1   1   1 KaiC
+HAS-barrel           PF09378.9  sp|B0TQF6|ATPA_SHEHH -            0.00084   19.4   0.4     0.003   17.6   0.1   2.1   2   1   0   2   2   2   1 HAS barrel domain
+ATPase_2             PF01637.17 sp|B0TQF6|ATPA_SHEHH -              0.027   14.3   0.0     0.049   13.4   0.0   1.4   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/B0TQF6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/B0TQF6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/B0TQF6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:07:48 2019
+# [ok]

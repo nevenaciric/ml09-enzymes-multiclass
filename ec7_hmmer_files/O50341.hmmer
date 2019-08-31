@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|O50341|ATPB_FERIS -            1.2e-66  224.4   0.0   1.6e-66  223.9   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|O50341|ATPB_FERIS -            2.5e-21   75.9   1.9   5.2e-21   74.8   1.9   1.6   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA_25               PF13481.5  sp|O50341|ATPB_FERIS -              0.042   13.3   0.0     0.082   12.4   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+AAA                  PF00004.28 sp|O50341|ATPB_FERIS -              0.044   14.1   0.1       0.2   12.0   0.0   2.1   2   0   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+RecA                 PF00154.20 sp|O50341|ATPB_FERIS -              0.053   12.9   0.9       2.3    7.5   0.1   2.2   2   0   0   2   2   2   0 recA bacterial DNA recombination protein
+NB-ARC               PF00931.21 sp|O50341|ATPB_FERIS -               0.12   11.3   0.7      0.18   10.7   0.1   1.5   2   0   0   2   2   2   0 NB-ARC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/O50341.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/O50341.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/O50341.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:18:10 2019
+# [ok]

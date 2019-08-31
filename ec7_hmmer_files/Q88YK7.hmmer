@@ -1,0 +1,33 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q88YK7|PSTB2_LACPL -            2.6e-31  108.9   0.0   3.8e-31  108.3   0.0   1.3   1   0   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|Q88YK7|PSTB2_LACPL -            1.9e-08   33.9   0.3   4.4e-06   26.2   0.3   2.2   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+AAA_21               PF13304.5  sp|Q88YK7|PSTB2_LACPL -            8.2e-08   32.3   0.3   6.3e-05   22.8   0.0   2.1   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_23               PF13476.5  sp|Q88YK7|PSTB2_LACPL -            6.6e-07   29.9   1.0   1.9e-06   28.4   0.3   2.0   2   0   0   2   2   2   1 AAA domain
+AAA_22               PF13401.5  sp|Q88YK7|PSTB2_LACPL -            5.6e-06   26.6   0.1   3.7e-05   23.9   0.1   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_15               PF13175.5  sp|Q88YK7|PSTB2_LACPL -            6.3e-06   26.0   0.0   1.1e-05   25.2   0.0   1.3   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_29               PF13555.5  sp|Q88YK7|PSTB2_LACPL -            4.1e-05   23.1   0.0   8.5e-05   22.1   0.0   1.6   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+RsgA_GTPase          PF03193.15 sp|Q88YK7|PSTB2_LACPL -              0.001   18.9   0.0    0.0019   18.0   0.0   1.5   1   0   0   1   1   1   1 RsgA GTPase
+AAA_16               PF13191.5  sp|Q88YK7|PSTB2_LACPL -             0.0019   18.5   0.0    0.0033   17.7   0.0   1.6   1   1   0   1   1   1   1 AAA ATPase domain
+Rad17                PF03215.14 sp|Q88YK7|PSTB2_LACPL -             0.0076   15.1   0.0     0.013   14.3   0.0   1.4   1   0   0   1   1   1   1 Rad17 cell cycle checkpoint protein
+PRK                  PF00485.17 sp|Q88YK7|PSTB2_LACPL -              0.011   15.4   0.0     0.019   14.6   0.0   1.4   1   0   0   1   1   1   0 Phosphoribulokinase / Uridine kinase family
+ABC_ATPase           PF09818.8  sp|Q88YK7|PSTB2_LACPL -              0.016   13.9   0.1         2    7.0   0.0   2.2   2   0   0   2   2   2   0 Predicted ATPase of the ABC class
+AAA                  PF00004.28 sp|Q88YK7|PSTB2_LACPL -              0.018   15.4   0.2       2.2    8.6   0.0   2.3   2   0   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+G-alpha              PF00503.19 sp|Q88YK7|PSTB2_LACPL -              0.028   13.5   0.0     0.056   12.5   0.0   1.3   1   1   0   1   1   1   0 G-protein alpha subunit
+SbcCD_C              PF13558.5  sp|Q88YK7|PSTB2_LACPL -              0.029   14.5   0.2      0.71   10.1   0.2   2.3   1   1   0   1   1   1   0 Putative exonuclease SbcCD, C subunit
+AAA_5                PF07728.13 sp|Q88YK7|PSTB2_LACPL -              0.035   14.0   0.1      0.87    9.5   0.0   2.4   2   1   0   2   2   2   0 AAA domain (dynein-related subfamily)
+AAA_33               PF13671.5  sp|Q88YK7|PSTB2_LACPL -              0.037   14.1   0.1     0.069   13.2   0.1   1.9   1   1   0   1   1   1   0 AAA domain
+AAA_18               PF13238.5  sp|Q88YK7|PSTB2_LACPL -              0.041   14.3   0.1     0.076   13.4   0.1   1.7   1   1   0   1   1   1   0 AAA domain
+Adeno_IVa2           PF02456.14 sp|Q88YK7|PSTB2_LACPL -              0.093   11.4   0.0      0.32    9.7   0.0   1.8   2   0   0   2   2   2   0 Adenovirus IVa2 protein
+AAA_25               PF13481.5  sp|Q88YK7|PSTB2_LACPL -               0.13   11.7   0.1      0.39   10.2   0.0   1.8   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q88YK7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q88YK7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q88YK7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:56:53 2019
+# [ok]

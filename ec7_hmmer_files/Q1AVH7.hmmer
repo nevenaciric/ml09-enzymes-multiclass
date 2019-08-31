@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q1AVH7|ATPA_RUBXD -            9.1e-72  241.1   0.0   1.3e-71  240.6   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q1AVH7|ATPA_RUBXD -            6.5e-48  162.1   0.2     1e-47  161.5   0.2   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|Q1AVH7|ATPA_RUBXD -            2.7e-14   53.3   3.1   2.7e-14   53.3   3.1   2.7   3   0   0   3   3   3   1 ATP synthase alpha/beta family, beta-barrel domain
+HAS-barrel           PF09378.9  sp|Q1AVH7|ATPA_RUBXD -            4.7e-07   29.8   1.2   5.1e-06   26.5   1.0   2.7   2   1   1   3   3   3   1 HAS barrel domain
+ATPase               PF06745.12 sp|Q1AVH7|ATPA_RUBXD -            1.4e-05   24.5   1.0   3.5e-05   23.2   0.1   2.1   2   0   0   2   2   2   1 KaiC
+COG5                 PF10392.8  sp|Q1AVH7|ATPA_RUBXD -              0.016   15.3   0.0     0.033   14.3   0.0   1.5   1   0   0   1   1   1   0 Golgi transport complex subunit 5
+AAA_16               PF13191.5  sp|Q1AVH7|ATPA_RUBXD -              0.027   14.7   0.3       9.8    6.4   0.2   2.5   2   0   0   2   2   2   0 AAA ATPase domain
+ATPase_2             PF01637.17 sp|Q1AVH7|ATPA_RUBXD -              0.038   13.8   0.1       0.1   12.4   0.0   1.8   2   0   0   2   2   2   0 ATPase domain predominantly from Archaea
+GPW_gp25             PF04965.13 sp|Q1AVH7|ATPA_RUBXD -              0.091   12.4   1.9        11    5.7   0.0   2.6   2   0   0   2   2   2   0 Gene 25-like lysozyme
+Ribonuc_2-5A         PF06479.11 sp|Q1AVH7|ATPA_RUBXD -              0.098   12.7   0.0       0.2   11.7   0.0   1.5   1   0   0   1   1   1   0 Ribonuclease 2-5A
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q1AVH7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q1AVH7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q1AVH7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:33:29 2019
+# [ok]

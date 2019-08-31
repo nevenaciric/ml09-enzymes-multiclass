@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q17Y78|ATPB_HELAH -            5.9e-66  222.1   0.0   1.1e-65  221.2   0.0   1.5   2   0   0   2   2   2   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q17Y78|ATPB_HELAH -            6.3e-18   65.0   1.1   1.2e-17   64.0   0.6   1.8   1   1   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+RsgA_GTPase          PF03193.15 sp|Q17Y78|ATPB_HELAH -              0.023   14.5   0.1     0.058   13.2   0.0   1.6   2   0   0   2   2   2   0 RsgA GTPase
+ATPase_2             PF01637.17 sp|Q17Y78|ATPB_HELAH -              0.075   12.8   0.0      0.15   11.9   0.0   1.5   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+ATPase               PF06745.12 sp|Q17Y78|ATPB_HELAH -              0.083   12.1   1.7      0.57    9.4   0.5   2.3   2   0   0   2   2   2   0 KaiC
+AAA_19               PF13245.5  sp|Q17Y78|ATPB_HELAH -               0.09   13.0   0.1      0.22   11.8   0.1   1.6   1   0   0   1   1   1   0 AAA domain
+NB-ARC               PF00931.21 sp|Q17Y78|ATPB_HELAH -              0.093   11.6   1.4      0.24   10.3   0.2   1.9   2   0   0   2   2   2   0 NB-ARC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q17Y78.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q17Y78.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q17Y78.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:33:14 2019
+# [ok]

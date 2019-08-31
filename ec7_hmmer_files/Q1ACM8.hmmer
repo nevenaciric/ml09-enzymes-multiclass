@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q1ACM8|ATPA_CHAVU -            7.1e-75  251.2   0.3   1.4e-74  250.3   0.3   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q1ACM8|ATPA_CHAVU -            3.1e-44  150.2   8.4   5.2e-44  149.5   8.4   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|Q1ACM8|ATPA_CHAVU -            1.4e-16   60.7   2.9   3.2e-16   59.5   2.9   1.6   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|Q1ACM8|ATPA_CHAVU -            0.00049   19.4   1.2     0.011   15.0   0.1   2.6   3   0   0   3   3   3   1 KaiC
+HAS-barrel           PF09378.9  sp|Q1ACM8|ATPA_CHAVU -             0.0027   17.7   0.1    0.0083   16.2   0.1   1.9   1   1   0   1   1   1   1 HAS barrel domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q1ACM8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q1ACM8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q1ACM8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:33:27 2019
+# [ok]

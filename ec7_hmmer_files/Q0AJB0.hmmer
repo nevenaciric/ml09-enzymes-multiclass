@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q0AJB0|ATPB1_NITEC -            1.9e-64  217.2   0.0   2.7e-64  216.6   0.0   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q0AJB0|ATPB1_NITEC -            5.8e-18   65.1   1.6   1.3e-17   64.0   1.6   1.6   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+RnfC_N               PF13375.5  sp|Q0AJB0|ATPB1_NITEC -              0.072   13.0   0.1       5.7    6.8   0.1   2.4   2   0   0   2   2   2   0 RnfC Barrel sandwich hybrid domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q0AJB0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q0AJB0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q0AJB0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:30:19 2019
+# [ok]

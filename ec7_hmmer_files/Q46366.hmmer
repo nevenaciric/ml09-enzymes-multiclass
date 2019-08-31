@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ArsA_ATPase          PF02374.14 sp|Q46366|ARSA_CHLTE -           8.9e-115  383.0   0.1    1e-114  382.8   0.1   1.0   1   0   0   1   1   1   1 Anion-transporting ATPase
+AAA_31               PF13614.5  sp|Q46366|ARSA_CHLTE -            3.2e-09   36.9   0.0   8.5e-09   35.5   0.0   1.7   1   0   0   1   1   1   1 AAA domain
+CbiA                 PF01656.22 sp|Q46366|ARSA_CHLTE -            4.2e-08   33.2   0.0   5.9e-08   32.7   0.0   1.4   1   1   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+ParA                 PF10609.8  sp|Q46366|ARSA_CHLTE -            1.7e-05   24.3   0.0   3.2e-05   23.4   0.0   1.5   1   0   0   1   1   1   1 NUBPL iron-transfer P-loop NTPase
+CBP_BcsQ             PF06564.11 sp|Q46366|ARSA_CHLTE -            3.8e-05   23.2   0.0   5.8e-05   22.6   0.0   1.3   1   0   0   1   1   1   1 Cellulose biosynthesis protein BcsQ
+Fer4_NifH            PF00142.17 sp|Q46366|ARSA_CHLTE -            0.00022   20.7   0.0   0.00039   19.9   0.0   1.4   1   0   0   1   1   1   1 4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+ArgK                 PF03308.15 sp|Q46366|ARSA_CHLTE -              0.017   14.0   0.1     0.032   13.1   0.1   1.4   1   0   0   1   1   1   0 ArgK protein
+APS_kinase           PF01583.19 sp|Q46366|ARSA_CHLTE -              0.025   14.4   0.0     0.048   13.5   0.0   1.5   1   0   0   1   1   1   0 Adenylylsulphate kinase
+PhoH                 PF02562.15 sp|Q46366|ARSA_CHLTE -              0.056   12.8   0.0      0.11   11.8   0.0   1.5   1   0   0   1   1   1   0 PhoH-like protein
+HMA                  PF00403.25 sp|Q46366|ARSA_CHLTE -                0.1   13.0   0.5      0.29   11.5   0.2   2.0   2   0   0   2   2   1   0 Heavy-metal-associated domain
+DUF724               PF05266.13 sp|Q46366|ARSA_CHLTE -               0.15   11.8   0.1      0.27   11.0   0.1   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF724)
+SRP54                PF00448.21 sp|Q46366|ARSA_CHLTE -               0.18   11.3   0.9      0.55    9.7   0.1   2.0   2   0   0   2   2   2   0 SRP54-type protein, GTPase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q46366.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q46366.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q46366.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:44:07 2019
+# [ok]

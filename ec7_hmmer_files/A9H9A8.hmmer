@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A9H9A8|ATPB_GLUDA -            1.6e-63  214.1   0.0   4.4e-63  212.7   0.0   1.7   2   0   0   2   2   2   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|A9H9A8|ATPB_GLUDA -            1.4e-19   70.3   2.8   3.4e-19   69.0   2.8   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+RsgA_GTPase          PF03193.15 sp|A9H9A8|ATPB_GLUDA -              0.002   18.0   0.0    0.0047   16.8   0.0   1.5   1   0   0   1   1   1   1 RsgA GTPase
+AAA_16               PF13191.5  sp|A9H9A8|ATPB_GLUDA -              0.014   15.7   0.4     0.055   13.8   0.1   2.1   2   1   0   2   2   2   0 AAA ATPase domain
+AAA_19               PF13245.5  sp|A9H9A8|ATPB_GLUDA -              0.041   14.1   0.4      0.12   12.7   0.4   1.7   1   0   0   1   1   1   0 AAA domain
+ABC_tran             PF00005.26 sp|A9H9A8|ATPB_GLUDA -              0.091   13.2   0.4      0.28   11.6   0.1   1.9   2   0   0   2   2   2   0 ABC transporter
+ATPase               PF06745.12 sp|A9H9A8|ATPB_GLUDA -              0.092   12.0   1.1       0.2   10.9   0.6   1.8   2   0   0   2   2   2   0 KaiC
+NACHT                PF05729.11 sp|A9H9A8|ATPB_GLUDA -              0.092   12.6   0.1      0.64    9.8   0.0   2.0   2   0   0   2   2   2   0 NACHT domain
+TrwB_AAD_bind        PF10412.8  sp|A9H9A8|ATPB_GLUDA -               0.17   10.6   0.2      0.37    9.6   0.2   1.4   1   0   0   1   1   1   0 Type IV secretion-system coupling protein DNA-binding domain
+NB-ARC               PF00931.21 sp|A9H9A8|ATPB_GLUDA -               0.35    9.8   1.8      0.26   10.2   0.3   1.5   2   0   0   2   2   2   0 NB-ARC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A9H9A8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A9H9A8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A9H9A8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:06:10 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q1LTV4|ATPB_BAUCH -            8.7e-65  218.3   0.0   1.2e-64  217.7   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q1LTV4|ATPB_BAUCH -            1.9e-17   63.4   2.4   3.8e-17   62.5   2.4   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA_14               PF13173.5  sp|Q1LTV4|ATPB_BAUCH -               0.15   12.0   0.1        28    4.6   0.0   3.3   3   1   0   3   3   3   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q1LTV4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q1LTV4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q1LTV4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:35:09 2019
+# [ok]

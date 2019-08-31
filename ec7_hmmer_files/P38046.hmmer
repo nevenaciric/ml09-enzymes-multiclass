@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|P38046|NRTD_SYNE7 -            1.3e-31  109.9   0.0   1.7e-31  109.5   0.0   1.2   1   0   0   1   1   1   1 ABC transporter
+AAA_22               PF13401.5  sp|P38046|NRTD_SYNE7 -            1.5e-05   25.2   0.4   5.4e-05   23.4   0.4   1.8   1   1   0   1   1   1   1 AAA domain
+AAA_21               PF13304.5  sp|P38046|NRTD_SYNE7 -            6.4e-05   22.8   0.2      0.23   11.1   0.0   2.1   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_16               PF13191.5  sp|P38046|NRTD_SYNE7 -             0.0002   21.7   0.1    0.0004   20.7   0.1   1.6   1   1   0   1   1   1   1 AAA ATPase domain
+RsgA_GTPase          PF03193.15 sp|P38046|NRTD_SYNE7 -            0.00031   20.6   0.1   0.00061   19.6   0.1   1.4   1   0   0   1   1   1   1 RsgA GTPase
+AAA_29               PF13555.5  sp|P38046|NRTD_SYNE7 -             0.0066   16.1   0.0     0.013   15.1   0.0   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+SMC_N                PF02463.18 sp|P38046|NRTD_SYNE7 -              0.009   15.4   0.2       2.5    7.4   0.1   2.1   2   0   0   2   2   2   2 RecF/RecN/SMC N terminal domain
+ABC_ATPase           PF09818.8  sp|P38046|NRTD_SYNE7 -               0.01   14.6   0.1      0.25   10.0   0.0   2.4   2   0   0   2   2   2   0 Predicted ATPase of the ABC class
+AAA                  PF00004.28 sp|P38046|NRTD_SYNE7 -              0.015   15.7   1.2      0.34   11.2   1.2   2.2   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+Dynamin_N            PF00350.22 sp|P38046|NRTD_SYNE7 -              0.024   14.6   0.7     0.093   12.7   0.2   2.0   2   0   0   2   2   2   0 Dynamin family
+AAA_33               PF13671.5  sp|P38046|NRTD_SYNE7 -              0.026   14.6   0.1      0.13   12.3   0.1   2.0   1   1   0   1   1   1   0 AAA domain
+PIG-L                PF02585.16 sp|P38046|NRTD_SYNE7 -              0.027   15.0   0.1     0.084   13.4   0.0   1.9   1   1   1   2   2   2   0 GlcNAc-PI de-N-acetylase
+MMR_HSR1             PF01926.22 sp|P38046|NRTD_SYNE7 -              0.036   14.0   0.4      0.08   12.9   0.2   1.7   2   0   0   2   2   2   0 50S ribosome-binding GTPase
+ATP-synt_ab          PF00006.24 sp|P38046|NRTD_SYNE7 -              0.059   12.9   0.0     0.075   12.6   0.0   1.2   1   0   0   1   1   1   0 ATP synthase alpha/beta family, nucleotide-binding domain
+AAA_15               PF13175.5  sp|P38046|NRTD_SYNE7 -              0.069   12.7   0.0      0.09   12.3   0.0   1.2   1   0   0   1   1   1   0 AAA ATPase domain
+RNA_helicase         PF00910.21 sp|P38046|NRTD_SYNE7 -              0.091   13.1   0.0      0.41   11.0   0.0   1.9   2   0   0   2   2   2   0 RNA helicase
+AAA_25               PF13481.5  sp|P38046|NRTD_SYNE7 -               0.11   12.0   0.3      0.46    9.9   0.3   2.1   1   1   0   1   1   1   0 AAA domain
+SbcCD_C              PF13558.5  sp|P38046|NRTD_SYNE7 -               0.15   12.2   0.1       1.2    9.3   0.1   2.2   1   1   0   1   1   1   0 Putative exonuclease SbcCD, C subunit
+AAA_23               PF13476.5  sp|P38046|NRTD_SYNE7 -                0.2   12.0   0.0      0.35   11.2   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+AAA_5                PF07728.13 sp|P38046|NRTD_SYNE7 -               0.21   11.5   0.6       2.6    8.0   0.0   2.3   2   1   0   2   2   2   0 AAA domain (dynein-related subfamily)
+NACHT                PF05729.11 sp|P38046|NRTD_SYNE7 -               0.23   11.3   0.9      0.35   10.7   0.1   1.7   2   1   0   2   2   2   0 NACHT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P38046.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P38046.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P38046.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:24:25 2019
+# [ok]

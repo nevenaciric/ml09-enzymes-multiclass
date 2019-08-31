@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A0PZC6|VATA_CLONN -            1.5e-93  312.2   0.0   2.1e-93  311.8   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_Xtn      PF16886.4  sp|A0PZC6|VATA_CLONN -            1.4e-46  157.2   1.2   3.1e-46  156.1   0.6   1.9   2   0   0   2   2   2   1 ATPsynthase alpha/beta subunit N-term extension
+ATP-synt_ab_N        PF02874.22 sp|A0PZC6|VATA_CLONN -            5.7e-15   55.5   1.5   1.5e-14   54.1   1.5   1.8   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA_22               PF13401.5  sp|A0PZC6|VATA_CLONN -              0.048   13.8   0.1      0.16   12.2   0.0   1.9   2   0   0   2   2   2   0 AAA domain
+SYCE1                PF15233.5  sp|A0PZC6|VATA_CLONN -              0.095   12.7   0.2      0.23   11.4   0.2   1.6   1   0   0   1   1   1   0 Synaptonemal complex central element protein 1
+INSC_LBD             PF16748.4  sp|A0PZC6|VATA_CLONN -               0.16   11.3   0.6        14    5.1   0.1   2.5   2   0   0   2   2   2   0 Inscuteable LGN-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A0PZC6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A0PZC6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A0PZC6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 20:55:28 2019
+# [ok]

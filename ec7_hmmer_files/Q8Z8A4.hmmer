@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q8Z8A4|MODC_SALTI -            1.9e-31  109.3   0.0   3.2e-31  108.6   0.0   1.3   1   0   0   1   1   1   1 ABC transporter
+TOBE                 PF03459.16 sp|Q8Z8A4|MODC_SALTI -            4.2e-17   62.1   0.0   3.3e-15   56.0   0.0   2.4   2   0   0   2   2   2   1 TOBE domain
+AAA_23               PF13476.5  sp|Q8Z8A4|MODC_SALTI -            0.00023   21.7   0.1   0.00034   21.1   0.1   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_29               PF13555.5  sp|Q8Z8A4|MODC_SALTI -            0.00032   20.2   0.1   0.00075   19.1   0.1   1.5   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_21               PF13304.5  sp|Q8Z8A4|MODC_SALTI -            0.00048   19.9   5.8     0.054   13.2   0.8   2.1   1   1   0   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+RsgA_GTPase          PF03193.15 sp|Q8Z8A4|MODC_SALTI -            0.00055   19.8   0.1    0.0011   18.8   0.1   1.5   1   0   0   1   1   1   1 RsgA GTPase
+SMC_N                PF02463.18 sp|Q8Z8A4|MODC_SALTI -             0.0021   17.4   0.2     0.081   12.2   0.2   2.3   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+MMR_HSR1             PF01926.22 sp|Q8Z8A4|MODC_SALTI -              0.013   15.5   0.0     0.027   14.5   0.0   1.5   1   0   0   1   1   1   0 50S ribosome-binding GTPase
+AAA_22               PF13401.5  sp|Q8Z8A4|MODC_SALTI -              0.045   13.9   1.0      0.52   10.5   0.2   2.4   2   0   0   2   2   2   0 AAA domain
+AAA_16               PF13191.5  sp|Q8Z8A4|MODC_SALTI -              0.047   14.0   0.2      0.14   12.4   0.1   1.6   1   1   0   1   1   1   0 AAA ATPase domain
+ABC_ATPase           PF09818.8  sp|Q8Z8A4|MODC_SALTI -              0.096   11.4   0.1        11    4.6   0.0   2.3   2   0   0   2   2   2   0 Predicted ATPase of the ABC class
+DLIC                 PF05783.10 sp|Q8Z8A4|MODC_SALTI -               0.12   11.0   0.0      0.18   10.5   0.0   1.1   1   0   0   1   1   1   0 Dynein light intermediate chain (DLIC)
+SbcCD_C              PF13558.5  sp|Q8Z8A4|MODC_SALTI -               0.13   12.4   0.1       3.4    7.9   0.1   2.3   1   1   0   1   1   1   0 Putative exonuclease SbcCD, C subunit
+Dynamin_N            PF00350.22 sp|Q8Z8A4|MODC_SALTI -               0.17   11.8   0.7      0.33   10.9   0.1   1.7   2   0   0   2   2   2   0 Dynamin family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q8Z8A4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q8Z8A4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q8Z8A4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:01:22 2019
+# [ok]

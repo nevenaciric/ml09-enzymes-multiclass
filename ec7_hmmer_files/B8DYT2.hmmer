@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|B8DYT2|ATPA_DICTD -            1.2e-68  230.9   0.0   1.6e-68  230.5   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|B8DYT2|ATPA_DICTD -            4.8e-36  123.8   0.5   7.5e-36  123.1   0.5   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|B8DYT2|ATPA_DICTD -            3.7e-10   40.1   1.2   1.1e-09   38.6   1.2   1.8   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|B8DYT2|ATPA_DICTD -            7.6e-06   25.3   0.4   2.1e-05   23.9   0.1   1.8   2   0   0   2   2   2   1 KaiC
+AAA_14               PF13173.5  sp|B8DYT2|ATPA_DICTD -              0.075   13.0   0.1      0.18   11.7   0.1   1.6   1   0   0   1   1   1   0 AAA domain
+DUF2187              PF09953.8  sp|B8DYT2|ATPA_DICTD -               0.14   12.1   1.1      0.54   10.2   0.4   2.2   2   0   0   2   2   2   0 Uncharacterized protein conserved in bacteria (DUF2187)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/B8DYT2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/B8DYT2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/B8DYT2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:14:36 2019
+# [ok]

@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q24MP1|ATPB_DESHY -            1.7e-66  223.8   0.0   2.4e-66  223.4   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q24MP1|ATPB_DESHY -            3.2e-23   81.9   0.3   6.3e-23   81.0   0.3   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA                  PF00004.28 sp|Q24MP1|ATPB_DESHY -            0.00034   20.9   0.0     0.021   15.2   0.0   2.6   2   1   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+RsgA_GTPase          PF03193.15 sp|Q24MP1|ATPB_DESHY -             0.0013   18.5   0.0    0.0032   17.3   0.0   1.6   1   0   0   1   1   1   1 RsgA GTPase
+ATPase               PF06745.12 sp|Q24MP1|ATPB_DESHY -              0.026   13.8   0.7     0.053   12.8   0.3   1.7   2   0   0   2   2   2   0 KaiC
+ABC_tran             PF00005.26 sp|Q24MP1|ATPB_DESHY -              0.053   13.9   0.1      0.15   12.4   0.0   1.7   2   0   0   2   2   2   0 ABC transporter
+NB-ARC               PF00931.21 sp|Q24MP1|ATPB_DESHY -              0.054   12.4   0.5     0.096   11.6   0.1   1.5   2   0   0   2   2   2   0 NB-ARC domain
+ATPase_2             PF01637.17 sp|Q24MP1|ATPB_DESHY -              0.066   13.0   0.0      0.17   11.7   0.0   1.7   2   0   0   2   2   2   0 ATPase domain predominantly from Archaea
+NACHT                PF05729.11 sp|Q24MP1|ATPB_DESHY -              0.067   13.0   0.0      0.14   11.9   0.0   1.6   1   0   0   1   1   1   0 NACHT domain
+RNA_helicase         PF00910.21 sp|Q24MP1|ATPB_DESHY -                0.1   12.9   0.0      0.53   10.6   0.0   2.2   3   0   0   3   3   3   0 RNA helicase
+AAA_19               PF13245.5  sp|Q24MP1|ATPB_DESHY -               0.12   12.6   0.0      0.25   11.5   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q24MP1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q24MP1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q24MP1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:36:18 2019
+# [ok]

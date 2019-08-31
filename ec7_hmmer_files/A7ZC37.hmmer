@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A7ZC37|ATPB_CAMC1 -            1.7e-65  220.6   0.0   2.3e-65  220.1   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|A7ZC37|ATPB_CAMC1 -            5.9e-17   61.9   0.1   1.4e-16   60.7   0.1   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+RsgA_GTPase          PF03193.15 sp|A7ZC37|ATPB_CAMC1 -              0.028   14.2   0.1     0.063   13.1   0.1   1.5   1   0   0   1   1   1   0 RsgA GTPase
+AAA_19               PF13245.5  sp|A7ZC37|ATPB_CAMC1 -               0.12   12.6   0.4      0.27   11.5   0.1   1.6   2   0   0   2   2   2   0 AAA domain
+NB-ARC               PF00931.21 sp|A7ZC37|ATPB_CAMC1 -               0.13   11.1   0.1      0.26   10.2   0.1   1.4   1   0   0   1   1   1   0 NB-ARC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A7ZC37.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A7ZC37.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A7ZC37.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:04:30 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q67TB7|ATPB_SYMTH -              3e-67  226.3   0.0   4.1e-67  225.9   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q67TB7|ATPB_SYMTH -            9.9e-22   77.2   0.1   2.6e-21   75.8   0.1   1.8   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|Q67TB7|ATPB_SYMTH -             0.0046   16.2   0.4    0.0087   15.3   0.4   1.4   1   0   0   1   1   1   1 KaiC
+RsgA_GTPase          PF03193.15 sp|Q67TB7|ATPB_SYMTH -              0.041   13.7   0.0     0.081   12.7   0.0   1.5   1   0   0   1   1   1   0 RsgA GTPase
+AAA                  PF00004.28 sp|Q67TB7|ATPB_SYMTH -              0.072   13.4   0.2       2.1    8.7   0.0   2.7   2   1   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+AAA_19               PF13245.5  sp|Q67TB7|ATPB_SYMTH -               0.16   12.2   0.5       0.9    9.8   0.1   2.1   2   0   0   2   2   2   0 AAA domain
+NB-ARC               PF00931.21 sp|Q67TB7|ATPB_SYMTH -                0.2   10.5   0.1      0.39    9.6   0.1   1.4   1   0   0   1   1   1   0 NB-ARC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q67TB7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q67TB7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q67TB7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:50:20 2019
+# [ok]

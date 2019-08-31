@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q1XDP5|ATPA_PYRYE -            3.1e-75  252.4   0.4   6.4e-75  251.3   0.2   1.6   2   0   0   2   2   2   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q1XDP5|ATPA_PYRYE -            1.4e-45  154.6   2.0   2.3e-45  153.9   2.0   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|Q1XDP5|ATPA_PYRYE -            6.5e-18   64.9   4.1   1.5e-17   63.8   4.1   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|Q1XDP5|ATPA_PYRYE -            3.6e-05   23.1   0.7   0.00018   20.9   0.1   2.1   2   0   0   2   2   2   1 KaiC
+HAS-barrel           PF09378.9  sp|Q1XDP5|ATPA_PYRYE -            0.00056   19.9   0.2    0.0016   18.5   0.2   1.8   1   1   0   1   1   1   1 HAS barrel domain
+ACP                  PF06857.10 sp|Q1XDP5|ATPA_PYRYE -               0.07   13.3   0.6      0.25   11.5   0.6   1.9   1   0   0   1   1   1   0 Malonate decarboxylase delta subunit (MdcD)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q1XDP5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q1XDP5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q1XDP5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:35:58 2019
+# [ok]

@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Cation_ATPase_C      PF00689.20 sp|O77696|AT2A3_PIG  -            2.7e-24   85.8   0.1     3e-24   85.6   0.1   1.1   1   0   0   1   1   1   1 Cation transporting ATPase, C-terminus
+Gag_p19              PF02228.15 sp|O77696|AT2A3_PIG  -              0.048   14.0   0.0      0.99    9.8   0.0   2.2   1   1   0   2   2   2   0 Major core protein p19
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/O77696.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/O77696.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/O77696.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:18:34 2019
+# [ok]

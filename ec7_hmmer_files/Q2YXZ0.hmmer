@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q2YXZ0|NIKE_STAAB -              3e-22   79.5   0.0   6.4e-22   78.4   0.0   1.6   1   1   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|Q2YXZ0|NIKE_STAAB -            0.00041   19.8   0.7     0.011   15.0   0.1   2.2   2   0   0   2   2   2   1 RecF/RecN/SMC N terminal domain
+AAA_16               PF13191.5  sp|Q2YXZ0|NIKE_STAAB -              0.001   19.4   0.2    0.0031   17.8   0.2   1.9   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_21               PF13304.5  sp|Q2YXZ0|NIKE_STAAB -             0.0072   16.1   3.4     0.078   12.7   0.4   2.1   1   1   0   2   2   2   1 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_22               PF13401.5  sp|Q2YXZ0|NIKE_STAAB -             0.0087   16.2   1.7     0.042   14.0   1.7   1.9   1   1   0   1   1   1   1 AAA domain
+AAA_5                PF07728.13 sp|Q2YXZ0|NIKE_STAAB -              0.032   14.1   0.3      0.45   10.4   0.0   2.3   2   0   0   2   2   2   0 AAA domain (dynein-related subfamily)
+Sigma54_activat      PF00158.25 sp|Q2YXZ0|NIKE_STAAB -              0.032   13.8   0.0      0.11   12.1   0.0   1.8   2   0   0   2   2   2   0 Sigma-54 interaction domain
+AAA_29               PF13555.5  sp|Q2YXZ0|NIKE_STAAB -              0.038   13.6   0.0     0.072   12.7   0.0   1.4   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+IstB_IS21            PF01695.16 sp|Q2YXZ0|NIKE_STAAB -              0.042   13.5   1.2      0.83    9.3   0.0   2.6   2   1   1   3   3   3   0 IstB-like ATP binding protein
+RsgA_GTPase          PF03193.15 sp|Q2YXZ0|NIKE_STAAB -              0.052   13.4   2.0     0.096   12.5   0.0   2.0   2   0   0   2   2   2   0 RsgA GTPase
+Mg_chelatase         PF01078.20 sp|Q2YXZ0|NIKE_STAAB -              0.077   12.3   0.0      0.13   11.5   0.0   1.3   1   0   0   1   1   1   0 Magnesium chelatase, subunit ChlI
+AAA                  PF00004.28 sp|Q2YXZ0|NIKE_STAAB -               0.09   13.1   0.2       0.6   10.4   0.2   2.1   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+RNA_helicase         PF00910.21 sp|Q2YXZ0|NIKE_STAAB -               0.12   12.7   0.1      0.74   10.1   0.0   2.2   2   0   0   2   2   2   0 RNA helicase
+ATP-synt_ab          PF00006.24 sp|Q2YXZ0|NIKE_STAAB -               0.18   11.3   0.0      0.29   10.6   0.0   1.3   1   0   0   1   1   1   0 ATP synthase alpha/beta family, nucleotide-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q2YXZ0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q2YXZ0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q2YXZ0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:39:22 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q9CH26|TAGH_LACLA -            1.6e-18   67.4   0.5   1.6e-18   67.4   0.5   2.6   2   2   0   2   2   2   1 ABC transporter
+LysM                 PF01476.19 sp|Q9CH26|TAGH_LACLA -            3.8e-10   39.6   0.0     9e-10   38.4   0.0   1.7   1   0   0   1   1   1   1 LysM domain
+RsgA_GTPase          PF03193.15 sp|Q9CH26|TAGH_LACLA -            0.00041   20.2   0.1    0.0013   18.5   0.1   1.9   1   0   0   1   1   1   1 RsgA GTPase
+MMR_HSR1             PF01926.22 sp|Q9CH26|TAGH_LACLA -             0.0057   16.6   0.3     0.023   14.7   0.3   2.2   1   0   0   1   1   1   1 50S ribosome-binding GTPase
+AAA_21               PF13304.5  sp|Q9CH26|TAGH_LACLA -             0.0067   16.2   0.9      0.39   10.4   1.9   2.5   1   1   1   2   2   2   1 AAA domain, putative AbiEii toxin, Type IV TA system
+Pho86                PF11124.7  sp|Q9CH26|TAGH_LACLA -             0.0075   15.7   1.0     0.012   15.0   1.0   1.2   1   0   0   1   1   1   1 Inorganic phosphate transporter Pho86
+SID-1_RNA_chan       PF13965.5  sp|Q9CH26|TAGH_LACLA -               0.27    9.6   6.5      0.36    9.1   6.5   1.1   1   0   0   1   1   1   0 dsRNA-gated channel SID-1
+FlgT_C               PF16538.4  sp|Q9CH26|TAGH_LACLA -                3.6    8.1   6.2       1.4    9.4   2.2   2.5   3   0   0   3   3   3   0 Flagellar assembly protein T, C-terminal domain
+Kei1                 PF08552.10 sp|Q9CH26|TAGH_LACLA -                  6    6.6   8.1       5.3    6.8   0.1   2.2   2   0   0   2   2   2   0 Inositolphosphorylceramide synthase subunit Kei1
+CrgA                 PF06781.11 sp|Q9CH26|TAGH_LACLA -                6.4    6.8   6.7       2.1    8.3   0.1   2.8   2   0   0   2   2   2   0 Cell division protein CrgA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q9CH26.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q9CH26.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q9CH26.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:03:27 2019
+# [ok]

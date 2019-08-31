@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SecA_DEAD            PF07517.13 sp|Q41062|SECA_PEA   -           2.2e-123  411.1   0.1    4e-123  410.2   0.1   1.4   1   0   0   1   1   1   1 SecA DEAD-like domain
+SecA_SW              PF07516.12 sp|Q41062|SECA_PEA   -            2.5e-53  181.0   3.9   2.5e-53  181.0   3.9   2.1   2   0   0   2   2   2   1 SecA Wing and Scaffold domain
+SecA_PP_bind         PF01043.19 sp|Q41062|SECA_PEA   -            8.6e-36  122.9   1.5   4.1e-35  120.7   0.4   2.7   2   0   0   2   2   2   1 SecA preprotein cross-linking domain
+DEAD                 PF00270.28 sp|Q41062|SECA_PEA   -            3.6e-06   26.8   0.0   1.2e-05   25.0   0.0   1.9   1   0   0   1   1   1   1 DEAD/DEAH box helicase
+Helicase_C           PF00271.30 sp|Q41062|SECA_PEA   -                0.2   11.9   0.8       1.1    9.5   0.0   2.4   2   0   0   2   2   2   0 Helicase conserved C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q41062.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q41062.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q41062.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:44:01 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q6MAK7|ATPB_PARUW -            5.2e-65  219.0   0.0   7.2e-65  218.5   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q6MAK7|ATPB_PARUW -            1.5e-17   63.7   0.0     3e-17   62.8   0.0   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA                  PF00004.28 sp|Q6MAK7|ATPB_PARUW -             0.0027   18.0   0.0      0.19   12.1   0.0   2.5   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+ATPase               PF06745.12 sp|Q6MAK7|ATPB_PARUW -              0.061   12.6   0.4      0.12   11.5   0.4   1.5   1   0   0   1   1   1   0 KaiC
+RsgA_GTPase          PF03193.15 sp|Q6MAK7|ATPB_PARUW -               0.14   11.9   0.2      0.32   10.8   0.0   1.6   2   0   0   2   2   2   0 RsgA GTPase
+RNA_helicase         PF00910.21 sp|Q6MAK7|ATPB_PARUW -               0.17   12.2   0.0      0.41   11.0   0.0   1.7   1   0   0   1   1   1   0 RNA helicase
+AAA_25               PF13481.5  sp|Q6MAK7|ATPB_PARUW -               0.19   11.2   0.0      0.38   10.2   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+NB-ARC               PF00931.21 sp|Q6MAK7|ATPB_PARUW -               0.45    9.4   1.3      0.43    9.4   0.2   1.5   2   0   0   2   2   2   0 NB-ARC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q6MAK7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q6MAK7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q6MAK7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:51:56 2019
+# [ok]

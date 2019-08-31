@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q0G9V5|ATPB_DAUCA -            4.2e-65  219.3   0.0   5.9e-65  218.8   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q0G9V5|ATPB_DAUCA -            1.5e-23   83.0   0.3   3.8e-23   81.7   0.3   1.8   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA                  PF00004.28 sp|Q0G9V5|ATPB_DAUCA -            4.3e-05   23.9   0.1    0.0033   17.8   0.0   2.3   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+ATPase               PF06745.12 sp|Q0G9V5|ATPB_DAUCA -             0.0015   17.8   0.1     0.003   16.8   0.1   1.5   1   0   0   1   1   1   1 KaiC
+ATPase_2             PF01637.17 sp|Q0G9V5|ATPB_DAUCA -             0.0063   16.4   0.0     0.012   15.4   0.0   1.4   1   0   0   1   1   1   1 ATPase domain predominantly from Archaea
+RsgA_GTPase          PF03193.15 sp|Q0G9V5|ATPB_DAUCA -              0.014   15.2   0.0     0.032   14.0   0.0   1.6   1   0   0   1   1   1   0 RsgA GTPase
+ABC_tran             PF00005.26 sp|Q0G9V5|ATPB_DAUCA -              0.024   15.1   0.1     0.062   13.7   0.0   1.7   2   0   0   2   2   2   0 ABC transporter
+AAA_25               PF13481.5  sp|Q0G9V5|ATPB_DAUCA -              0.055   12.9   0.1      0.13   11.7   0.1   1.6   1   1   0   1   1   1   0 AAA domain
+AAA_16               PF13191.5  sp|Q0G9V5|ATPB_DAUCA -              0.087   13.1   0.2      0.19   12.0   0.2   1.7   1   1   0   1   1   1   0 AAA ATPase domain
+AAA_19               PF13245.5  sp|Q0G9V5|ATPB_DAUCA -               0.11   12.7   1.1      0.47   10.7   0.2   2.1   2   0   0   2   2   2   0 AAA domain
+RNA_helicase         PF00910.21 sp|Q0G9V5|ATPB_DAUCA -               0.14   12.4   0.0      0.34   11.2   0.0   1.7   1   0   0   1   1   1   0 RNA helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q0G9V5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q0G9V5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q0G9V5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:30:49 2019
+# [ok]

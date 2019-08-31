@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q81K31|TAGH_BACAN -            3.2e-19   69.7   0.1   3.2e-19   69.7   0.1   3.0   2   2   0   2   2   2   1 ABC transporter
+SH3_3                PF08239.10 sp|Q81K31|TAGH_BACAN -            3.7e-08   33.4   0.0   9.6e-08   32.1   0.0   1.7   1   0   0   1   1   1   1 Bacterial SH3 domain
+AAA_29               PF13555.5  sp|Q81K31|TAGH_BACAN -             0.0037   16.9   0.1     0.009   15.6   0.1   1.6   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+SH3_8                PF13457.5  sp|Q81K31|TAGH_BACAN -              0.014   15.9   0.4      0.09   13.3   0.1   2.5   2   0   0   2   2   2   0 SH3-like domain
+AAA_21               PF13304.5  sp|Q81K31|TAGH_BACAN -              0.051   13.3   7.1       0.5   10.0   2.5   3.1   2   1   0   3   3   3   0 AAA domain, putative AbiEii toxin, Type IV TA system
+MMR_HSR1             PF01926.22 sp|Q81K31|TAGH_BACAN -              0.066   13.2   0.7      0.22   11.5   0.1   2.2   2   0   0   2   2   2   0 50S ribosome-binding GTPase
+CRPA                 PF05745.10 sp|Q81K31|TAGH_BACAN -              0.088   12.7   0.0      0.22   11.4   0.0   1.6   1   0   0   1   1   1   0 Chlamydia 15 kDa cysteine-rich outer membrane protein (CRPA)
+SMC_N                PF02463.18 sp|Q81K31|TAGH_BACAN -                0.3   10.4   2.2      0.41    9.9   0.2   2.2   2   0   0   2   2   2   0 RecF/RecN/SMC N terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q81K31.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q81K31.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q81K31.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:55:30 2019
+# [ok]

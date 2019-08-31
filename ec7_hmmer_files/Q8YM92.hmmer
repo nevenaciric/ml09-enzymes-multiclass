@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q8YM92|POTA_NOSS1 -            9.1e-33  113.6   0.0   1.7e-32  112.7   0.0   1.5   1   0   0   1   1   1   1 ABC transporter
+TOBE_2               PF08402.9  sp|Q8YM92|POTA_NOSS1 -            3.7e-10   39.7   0.0     1e-09   38.3   0.0   1.8   1   0   0   1   1   1   1 TOBE domain
+AAA_21               PF13304.5  sp|Q8YM92|POTA_NOSS1 -            1.8e-06   27.9   0.1     0.019   14.7   0.0   2.3   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+SMC_N                PF02463.18 sp|Q8YM92|POTA_NOSS1 -             0.0017   17.8   0.2     0.092   12.1   0.1   2.1   2   0   0   2   2   2   1 RecF/RecN/SMC N terminal domain
+AAA_22               PF13401.5  sp|Q8YM92|POTA_NOSS1 -             0.0094   16.1   0.1     0.026   14.7   0.1   1.8   1   1   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q8YM92|POTA_NOSS1 -              0.013   15.8   0.1     0.023   15.0   0.1   1.5   1   1   0   1   1   1   0 AAA ATPase domain
+AAA_23               PF13476.5  sp|Q8YM92|POTA_NOSS1 -              0.015   15.8   0.1     0.033   14.6   0.0   1.6   2   0   0   2   2   2   0 AAA domain
+AAA                  PF00004.28 sp|Q8YM92|POTA_NOSS1 -              0.018   15.4   0.4      0.12   12.7   0.4   2.2   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+Rad17                PF03215.14 sp|Q8YM92|POTA_NOSS1 -               0.02   13.7   0.0     0.027   13.3   0.0   1.2   1   0   0   1   1   1   0 Rad17 cell cycle checkpoint protein
+AAA_29               PF13555.5  sp|Q8YM92|POTA_NOSS1 -              0.061   13.0   0.0      0.14   11.8   0.0   1.6   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+AAA_28               PF13521.5  sp|Q8YM92|POTA_NOSS1 -               0.17   12.0   0.1       0.3   11.2   0.1   1.6   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q8YM92.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q8YM92.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q8YM92.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:01:10 2019
+# [ok]

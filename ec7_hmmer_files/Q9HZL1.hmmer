@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_1        PF00175.20 sp|Q9HZL1|NQRF_PSEAE -            7.7e-18   65.0   0.0   1.3e-17   64.3   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase NAD-binding domain
+FAD_binding_6        PF00970.23 sp|Q9HZL1|NQRF_PSEAE -            1.9e-11   44.1   0.0   1.2e-09   38.3   0.0   2.4   2   0   0   2   2   2   1 Oxidoreductase FAD-binding domain
+Fer2                 PF00111.26 sp|Q9HZL1|NQRF_PSEAE -            2.1e-11   43.5   0.5   3.6e-11   42.8   0.5   1.4   1   0   0   1   1   1   1 2Fe-2S iron-sulfur cluster binding domain
+Fer2_4               PF13510.5  sp|Q9HZL1|NQRF_PSEAE -            0.00067   19.6   0.7     0.003   17.4   0.7   2.1   1   1   0   1   1   1   1 2Fe-2S iron-sulfur cluster binding domain
+NAD_binding_6        PF08030.11 sp|Q9HZL1|NQRF_PSEAE -             0.0038   17.3   0.0     0.077   13.0   0.0   2.2   2   0   0   2   2   2   1 Ferric reductase NAD binding domain
+FAD_binding_9        PF08021.10 sp|Q9HZL1|NQRF_PSEAE -             0.0083   16.2   0.0     0.013   15.6   0.0   1.4   1   0   0   1   1   1   1 Siderophore-interacting FAD-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q9HZL1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q9HZL1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q9HZL1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:04:01 2019
+# [ok]

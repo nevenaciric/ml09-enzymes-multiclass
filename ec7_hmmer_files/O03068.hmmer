@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|O03068|ATPB_DENPU -            1.1e-61  208.2   0.1   1.5e-61  207.7   0.1   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|O03068|ATPB_DENPU -            2.6e-17   63.0   2.7     3e-17   62.8   0.3   2.2   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA                  PF00004.28 sp|O03068|ATPB_DENPU -              0.001   19.4   0.0    0.0084   16.4   0.0   2.1   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+RsgA_GTPase          PF03193.15 sp|O03068|ATPB_DENPU -               0.13   12.0   0.1      0.24   11.2   0.1   1.4   1   0   0   1   1   1   0 RsgA GTPase
+TrwB_AAD_bind        PF10412.8  sp|O03068|ATPB_DENPU -               0.26   10.1   0.5       1.1    8.0   0.1   2.1   2   0   0   2   2   2   0 Type IV secretion-system coupling protein DNA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/O03068.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/O03068.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/O03068.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:17:03 2019
+# [ok]

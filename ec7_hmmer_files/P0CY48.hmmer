@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UCR_Fe-S_N           PF10399.8  sp|P0CY48|UCRI_RHOCA -            4.6e-20   70.6   0.6   9.9e-20   69.5   0.6   1.6   1   0   0   1   1   1   1 Ubiquitinol-cytochrome C reductase Fe-S subunit TAT signal
+Rieske               PF00355.25 sp|P0CY48|UCRI_RHOCA -            3.9e-13   49.0   0.1   1.3e-12   47.3   0.1   1.8   1   1   0   1   1   1   1 Rieske [2Fe-2S] domain
+UCR_TM               PF02921.13 sp|P0CY48|UCRI_RHOCA -              0.057   13.8   0.1       0.5   10.8   0.1   2.2   2   0   0   2   2   2   0 Ubiquinol cytochrome reductase transmembrane region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P0CY48.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P0CY48.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P0CY48.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:21:50 2019
+# [ok]

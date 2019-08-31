@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q2J1U0|MODC_RHOP2 -            3.4e-29  102.0   0.0   5.5e-29  101.3   0.0   1.3   1   0   0   1   1   1   1 ABC transporter
+TOBE                 PF03459.16 sp|Q2J1U0|MODC_RHOP2 -            5.5e-14   52.1   1.0   1.1e-13   51.1   0.2   2.0   2   0   0   2   2   2   1 TOBE domain
+AAA_21               PF13304.5  sp|Q2J1U0|MODC_RHOP2 -            4.4e-08   33.2   0.1   0.00016   21.5   0.0   2.1   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+TOBE_3               PF12857.6  sp|Q2J1U0|MODC_RHOP2 -             0.0016   18.2   0.2    0.0041   16.9   0.2   1.7   1   0   0   1   1   1   1 TOBE-like domain
+AAA_23               PF13476.5  sp|Q2J1U0|MODC_RHOP2 -             0.0035   17.8   0.2    0.0051   17.2   0.2   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q2J1U0|MODC_RHOP2 -             0.0048   17.2   0.7    0.0083   16.4   0.3   2.0   1   1   1   2   2   2   1 AAA ATPase domain
+AAA_29               PF13555.5  sp|Q2J1U0|MODC_RHOP2 -              0.018   14.7   0.1     0.034   13.8   0.1   1.4   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+Rad17                PF03215.14 sp|Q2J1U0|MODC_RHOP2 -              0.048   12.5   0.1     0.067   12.0   0.1   1.1   1   0   0   1   1   1   0 Rad17 cell cycle checkpoint protein
+SMC_N                PF02463.18 sp|Q2J1U0|MODC_RHOP2 -              0.062   12.6   0.0       7.9    5.7   0.0   2.1   2   0   0   2   2   2   0 RecF/RecN/SMC N terminal domain
+AAA_22               PF13401.5  sp|Q2J1U0|MODC_RHOP2 -              0.092   12.9   2.8      0.13   12.4   0.7   2.0   2   0   0   2   2   2   0 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q2J1U0|MODC_RHOP2 -               0.11   12.3   0.0       0.2   11.4   0.0   1.3   1   0   0   1   1   1   0 RsgA GTPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q2J1U0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q2J1U0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q2J1U0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:37:07 2019
+# [ok]

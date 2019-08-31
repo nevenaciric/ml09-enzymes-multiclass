@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|P32016|CTRD_NEIMB -            8.1e-19   68.4   0.0   4.8e-18   65.9   0.0   1.9   1   1   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|P32016|CTRD_NEIMB -            0.00027   20.3   0.1      0.48    9.7   0.0   2.1   2   0   0   2   2   2   2 RecF/RecN/SMC N terminal domain
+AAA_21               PF13304.5  sp|P32016|CTRD_NEIMB -            0.00044   20.0   1.8    0.0014   18.4   0.2   2.2   2   1   0   3   3   3   1 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_29               PF13555.5  sp|P32016|CTRD_NEIMB -             0.0014   18.3   0.1    0.0024   17.4   0.1   1.3   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+MMR_HSR1             PF01926.22 sp|P32016|CTRD_NEIMB -             0.0038   17.2   0.1     0.008   16.2   0.1   1.5   1   0   0   1   1   1   1 50S ribosome-binding GTPase
+AAA_23               PF13476.5  sp|P32016|CTRD_NEIMB -              0.004   17.6   0.3     0.004   17.6   0.3   1.3   1   1   0   1   1   1   1 AAA domain
+RsgA_GTPase          PF03193.15 sp|P32016|CTRD_NEIMB -             0.0041   17.0   0.0    0.0069   16.2   0.0   1.3   1   0   0   1   1   1   1 RsgA GTPase
+AAA_13               PF13166.5  sp|P32016|CTRD_NEIMB -              0.017   13.7   0.0     0.024   13.2   0.0   1.2   1   0   0   1   1   1   0 AAA domain
+ArgK                 PF03308.15 sp|P32016|CTRD_NEIMB -              0.021   13.7   0.1     0.055   12.4   0.0   1.6   2   0   0   2   2   2   0 ArgK protein
+DLIC                 PF05783.10 sp|P32016|CTRD_NEIMB -              0.022   13.5   1.2     0.071   11.8   0.0   1.9   2   0   0   2   2   2   0 Dynein light intermediate chain (DLIC)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P32016.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P32016.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P32016.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:23:56 2019
+# [ok]

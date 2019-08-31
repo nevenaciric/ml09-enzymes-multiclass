@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q1I2I5|ATPA_PSEE4 -            7.6e-72  241.3   0.3   1.1e-71  240.8   0.3   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q1I2I5|ATPA_PSEE4 -            8.1e-45  152.1   1.2   1.3e-44  151.5   1.2   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|Q1I2I5|ATPA_PSEE4 -            3.2e-15   56.3   0.5   7.4e-15   55.1   0.5   1.6   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+HAS-barrel           PF09378.9  sp|Q1I2I5|ATPA_PSEE4 -            1.9e-08   34.3   0.7   5.3e-08   32.8   0.3   2.0   2   0   0   2   2   2   1 HAS barrel domain
+ATPase               PF06745.12 sp|Q1I2I5|ATPA_PSEE4 -             0.0044   16.3   0.1    0.0078   15.5   0.1   1.4   1   0   0   1   1   1   1 KaiC
+Nup54                PF13874.5  sp|Q1I2I5|ATPA_PSEE4 -              0.096   12.7   0.0      0.19   11.7   0.0   1.5   1   0   0   1   1   1   0 Nucleoporin complex subunit 54
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q1I2I5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q1I2I5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q1I2I5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:34:35 2019
+# [ok]

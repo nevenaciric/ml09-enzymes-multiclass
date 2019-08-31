@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Complex1_51K         PF01512.16 sp|A8GE00|RNFC_SERP5 -            9.8e-46  155.3   0.1   2.1e-45  154.2   0.1   1.6   1   0   0   1   1   1   1 Respiratory-chain NADH dehydrogenase 51 Kd subunit
+RnfC_N               PF13375.5  sp|A8GE00|RNFC_SERP5 -              5e-32  109.8   0.0   1.3e-31  108.5   0.0   1.8   1   0   0   1   1   1   1 RnfC Barrel sandwich hybrid domain
+Fer4                 PF00037.26 sp|A8GE00|RNFC_SERP5 -            3.3e-10   39.2  11.6   2.1e-05   24.1   1.6   2.5   2   0   0   2   2   2   2 4Fe-4S binding domain
+Fer4_10              PF13237.5  sp|A8GE00|RNFC_SERP5 -            3.5e-10   39.7  16.5   6.3e-09   35.7   7.9   2.0   1   1   1   2   2   2   2 4Fe-4S dicluster domain
+SLBB                 PF10531.8  sp|A8GE00|RNFC_SERP5 -            1.3e-09   37.7   0.1   2.6e-09   36.7   0.1   1.6   1   0   0   1   1   1   1 SLBB domain
+Fer4_7               PF12838.6  sp|A8GE00|RNFC_SERP5 -            1.5e-09   38.2   5.6   5.4e-09   36.4   5.8   1.9   1   1   0   1   1   1   1 4Fe-4S dicluster domain
+Fer4_8               PF13183.5  sp|A8GE00|RNFC_SERP5 -            3.8e-09   36.8   5.6   1.7e-08   34.7   5.6   2.1   1   0   0   1   1   1   1 4Fe-4S dicluster domain
+Fer4_16              PF13484.5  sp|A8GE00|RNFC_SERP5 -            1.8e-08   35.1   4.5    0.0042   17.9   1.1   3.1   2   0   0   2   2   2   2 4Fe-4S double cluster binding domain
+Fer4_17              PF13534.5  sp|A8GE00|RNFC_SERP5 -            4.6e-08   33.4   9.7   6.1e-07   29.8   8.1   2.9   1   1   1   2   2   2   2 4Fe-4S dicluster domain
+Fer4_9               PF13187.5  sp|A8GE00|RNFC_SERP5 -            7.2e-08   32.4  17.0   6.4e-07   29.3   7.8   2.2   1   1   1   2   2   2   2 4Fe-4S dicluster domain
+Fer4_2               PF12797.6  sp|A8GE00|RNFC_SERP5 -            2.5e-07   30.3  13.0   0.00052   19.9   3.3   2.5   2   0   0   2   2   2   2 4Fe-4S binding domain
+Fer4_6               PF12837.6  sp|A8GE00|RNFC_SERP5 -            5.6e-07   29.3  14.4    0.0001   22.1   1.8   2.7   2   0   0   2   2   2   2 4Fe-4S binding domain
+Fer4_18              PF13746.5  sp|A8GE00|RNFC_SERP5 -            1.7e-06   28.1   3.4     0.019   15.0   0.1   2.8   2   0   0   2   2   2   2 4Fe-4S dicluster domain
+Fer4_4               PF12800.6  sp|A8GE00|RNFC_SERP5 -            7.5e-06   26.0   9.4   0.00084   19.6   1.9   2.5   2   0   0   2   2   2   2 4Fe-4S binding domain
+NQRA                 PF05896.10 sp|A8GE00|RNFC_SERP5 -            2.4e-05   23.8   0.0   6.7e-05   22.4   0.0   1.7   1   0   0   1   1   1   1 Na(+)-translocating NADH-quinone reductase subunit A (NQRA)
+Fer4_22              PF17179.3  sp|A8GE00|RNFC_SERP5 -            0.00015   22.4   4.4      0.13   13.0   0.1   2.7   2   0   0   2   2   2   2 4Fe-4S dicluster domain
+Fer4_21              PF14697.5  sp|A8GE00|RNFC_SERP5 -            0.00037   20.5   9.8    0.0017   18.3   9.3   2.2   1   1   2   3   3   3   3 4Fe-4S dicluster domain
+Fer4_13              PF13370.5  sp|A8GE00|RNFC_SERP5 -              0.006   17.0   9.1       1.2    9.7   2.8   3.5   2   0   0   2   2   2   2 4Fe-4S single cluster domain of Ferredoxin I
+Fer4_3               PF12798.6  sp|A8GE00|RNFC_SERP5 -              0.025   15.4  20.6      0.17   12.8   4.5   2.8   3   0   0   3   3   2   0 4Fe-4S binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A8GE00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A8GE00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A8GE00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:05:11 2019
+# [ok]

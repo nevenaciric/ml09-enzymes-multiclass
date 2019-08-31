@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Molybdopterin        PF00384.21 sp|P0CB68|NDUS1_PONPY -            4.5e-75  253.1   0.0   1.9e-74  251.1   0.0   1.8   1   1   0   1   1   1   1 Molybdopterin oxidoreductase
+Fer2_4               PF13510.5  sp|P0CB68|NDUS1_PONPY -            1.1e-17   63.7   0.4   2.7e-17   62.5   0.4   1.7   1   0   0   1   1   1   1 2Fe-2S iron-sulfur cluster binding domain
+NADH-G_4Fe-4S_3      PF10588.8  sp|P0CB68|NDUS1_PONPY -            3.5e-17   61.5   0.2   8.7e-17   60.3   0.2   1.7   1   0   0   1   1   1   1 NADH-ubiquinone oxidoreductase-G iron-sulfur binding region
+NADH_dhqG_C          PF09326.10 sp|P0CB68|NDUS1_PONPY -            1.1e-16   61.1   0.0   2.5e-16   60.0   0.0   1.6   1   0   0   1   1   1   1 NADH-ubiquinone oxidoreductase subunit G, C-terminal
+Fer2                 PF00111.26 sp|P0CB68|NDUS1_PONPY -            1.8e-09   37.3   1.1   1.8e-09   37.3   1.1   2.1   2   0   0   2   2   2   1 2Fe-2S iron-sulfur cluster binding domain
+TPP_enzyme_M         PF00205.21 sp|P0CB68|NDUS1_PONPY -              0.027   14.1   0.3       6.2    6.5   0.1   2.6   2   1   0   2   2   2   0 Thiamine pyrophosphate enzyme, central domain
+Fer4                 PF00037.26 sp|P0CB68|NDUS1_PONPY -               0.37   10.6   2.4        15    5.5   0.4   2.7   2   0   0   2   2   2   0 4Fe-4S binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P0CB68.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P0CB68.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P0CB68.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:20:58 2019
+# [ok]

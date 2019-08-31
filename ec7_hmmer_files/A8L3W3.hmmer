@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A8L3W3|ATPA_FRASN -            4.4e-69  232.3   0.0   5.8e-69  231.9   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|A8L3W3|ATPA_FRASN -            5.1e-46  156.0   0.0   8.3e-46  155.3   0.0   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|A8L3W3|ATPA_FRASN -            6.1e-12   45.8   3.8   6.1e-12   45.8   3.8   2.0   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|A8L3W3|ATPA_FRASN -            0.00063   19.1   0.1    0.0014   17.9   0.1   1.6   1   0   0   1   1   1   1 KaiC
+AAA_25               PF13481.5  sp|A8L3W3|ATPA_FRASN -              0.019   14.5   0.0     0.036   13.5   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+AAA_14               PF13173.5  sp|A8L3W3|ATPA_FRASN -              0.076   12.9   0.0      0.66    9.9   0.0   2.2   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A8L3W3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A8L3W3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A8L3W3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:05:27 2019
+# [ok]

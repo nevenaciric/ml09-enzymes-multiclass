@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+H_PPase              PF03030.15 sp|Q8KY01|HPPA_RHOPL -           1.9e-262  872.6  45.6  2.1e-262  872.4  45.6   1.0   1   0   0   1   1   1   1 Inorganic H+ pyrophosphatase
+Fzo_mitofusin        PF04799.12 sp|Q8KY01|HPPA_RHOPL -               0.16   11.4   0.2      0.32   10.4   0.2   1.4   1   0   0   1   1   1   0 fzo-like conserved region
+SNN_transmemb        PF09049.9  sp|Q8KY01|HPPA_RHOPL -                  2    8.4   9.5      0.37   10.7   1.0   3.8   2   0   0   2   2   2   0 Stannin transmembrane
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q8KY01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q8KY01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q8KY01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:59:24 2019
+# [ok]

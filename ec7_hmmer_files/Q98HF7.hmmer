@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q98HF7|POTA_RHILO -            3.9e-33  114.8   0.0   6.9e-33  114.0   0.0   1.4   1   0   0   1   1   1   1 ABC transporter
+TOBE_2               PF08402.9  sp|Q98HF7|POTA_RHILO -            8.4e-17   61.0   0.4   2.3e-16   59.6   0.1   1.9   2   0   0   2   2   2   1 TOBE domain
+AAA_21               PF13304.5  sp|Q98HF7|POTA_RHILO -            1.4e-09   38.1   0.3   6.1e-05   22.9   0.0   2.1   1   1   0   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_22               PF13401.5  sp|Q98HF7|POTA_RHILO -            0.00023   21.4   1.1   0.00083   19.5   0.2   2.2   2   1   0   2   2   1   1 AAA domain
+SMC_N                PF02463.18 sp|Q98HF7|POTA_RHILO -            0.00027   20.3   0.2     0.021   14.2   0.1   2.2   2   0   0   2   2   2   1 RecF/RecN/SMC N terminal domain
+AAA                  PF00004.28 sp|Q98HF7|POTA_RHILO -              0.001   19.4   0.5     0.079   13.3   0.1   2.4   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+RsgA_GTPase          PF03193.15 sp|Q98HF7|POTA_RHILO -             0.0064   16.3   0.0     0.014   15.2   0.0   1.5   1   0   0   1   1   1   1 RsgA GTPase
+AAA_29               PF13555.5  sp|Q98HF7|POTA_RHILO -             0.0075   15.9   0.0      0.02   14.5   0.0   1.7   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_16               PF13191.5  sp|Q98HF7|POTA_RHILO -             0.0079   16.5   0.1      0.02   15.2   0.0   1.6   2   0   0   2   2   2   1 AAA ATPase domain
+AAA_25               PF13481.5  sp|Q98HF7|POTA_RHILO -              0.012   15.1   0.0      0.92    9.0   0.0   2.5   2   0   0   2   2   2   0 AAA domain
+AAA_28               PF13521.5  sp|Q98HF7|POTA_RHILO -              0.028   14.6   0.1      0.16   12.1   0.0   2.1   2   0   0   2   2   2   0 AAA domain
+PhoH                 PF02562.15 sp|Q98HF7|POTA_RHILO -               0.03   13.7   0.2      0.71    9.2   0.0   2.4   2   0   0   2   2   2   0 PhoH-like protein
+AAA_30               PF13604.5  sp|Q98HF7|POTA_RHILO -              0.038   13.6   0.2      0.16   11.6   0.0   2.2   2   1   0   2   2   2   0 AAA domain
+AAA_23               PF13476.5  sp|Q98HF7|POTA_RHILO -              0.043   14.2   0.0       0.1   13.0   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+sCache_3_2           PF17203.3  sp|Q98HF7|POTA_RHILO -              0.093   12.8   0.1      0.16   12.0   0.1   1.4   1   0   0   1   1   1   0 Single cache domain 3
+AAA_5                PF07728.13 sp|Q98HF7|POTA_RHILO -              0.095   12.6   0.1       0.3   11.0   0.1   1.8   1   0   0   1   1   1   0 AAA domain (dynein-related subfamily)
+TniB                 PF05621.10 sp|Q98HF7|POTA_RHILO -              0.095   11.8   0.1       1.2    8.2   0.1   2.1   2   0   0   2   2   2   0 Bacterial TniB protein
+AAA_24               PF13479.5  sp|Q98HF7|POTA_RHILO -              0.098   12.3   0.3       4.6    6.8   0.0   2.3   2   0   0   2   2   2   0 AAA domain
+NACHT                PF05729.11 sp|Q98HF7|POTA_RHILO -               0.12   12.2   0.1      0.26   11.1   0.1   1.6   1   0   0   1   1   1   0 NACHT domain
+NB-ARC               PF00931.21 sp|Q98HF7|POTA_RHILO -               0.13   11.1   0.0      0.32    9.9   0.0   1.5   2   0   0   2   2   2   0 NB-ARC domain
+ATPase_2             PF01637.17 sp|Q98HF7|POTA_RHILO -               0.14   11.9   0.0       0.3   10.9   0.0   1.5   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+Rad17                PF03215.14 sp|Q98HF7|POTA_RHILO -               0.16   10.8   0.0      0.23   10.2   0.0   1.1   1   0   0   1   1   1   0 Rad17 cell cycle checkpoint protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q98HF7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q98HF7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q98HF7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:02:50 2019
+# [ok]

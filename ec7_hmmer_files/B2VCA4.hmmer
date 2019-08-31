@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|B2VCA4|ATPB_ERWT9 -            2.5e-64  216.7   0.0   3.4e-64  216.3   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|B2VCA4|ATPB_ERWT9 -            3.2e-19   69.1   2.7   6.6e-19   68.1   2.7   1.6   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+TrwB_AAD_bind        PF10412.8  sp|B2VCA4|ATPB_ERWT9 -               0.12   11.2   0.1      0.23   10.2   0.1   1.4   1   0   0   1   1   1   0 Type IV secretion-system coupling protein DNA-binding domain
+RNA_helicase         PF00910.21 sp|B2VCA4|ATPB_ERWT9 -               0.18   12.1   0.0      0.33   11.3   0.0   1.4   1   0   0   1   1   1   0 RNA helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/B2VCA4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/B2VCA4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/B2VCA4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:10:27 2019
+# [ok]

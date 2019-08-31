@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|P35009|ATPA_GALSU -            3.2e-76  255.6   0.3   5.6e-76  254.8   0.3   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|P35009|ATPA_GALSU -            8.8e-45  152.0   6.6   1.6e-44  151.2   6.6   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|P35009|ATPA_GALSU -              2e-18   66.5   1.2   4.8e-18   65.3   1.2   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+HAS-barrel           PF09378.9  sp|P35009|ATPA_GALSU -            0.00046   20.2   0.4    0.0033   17.5   0.3   2.3   1   1   1   2   2   2   1 HAS barrel domain
+ATPase               PF06745.12 sp|P35009|ATPA_GALSU -             0.0015   17.8   0.1    0.0045   16.3   0.1   1.9   1   0   0   1   1   1   1 KaiC
+AAA_14               PF13173.5  sp|P35009|ATPA_GALSU -              0.018   15.0   1.0         2    8.3   0.1   2.8   2   1   0   2   2   2   0 AAA domain
+ATPase_2             PF01637.17 sp|P35009|ATPA_GALSU -              0.028   14.2   1.1      0.37   10.6   0.0   2.3   2   0   0   2   2   2   0 ATPase domain predominantly from Archaea
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P35009.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P35009.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P35009.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:24:16 2019
+# [ok]

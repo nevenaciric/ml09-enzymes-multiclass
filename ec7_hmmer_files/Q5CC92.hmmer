@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CytB6-F_Fe-S         PF08802.9  sp|Q5CC92|UCRIB_CYAPA -            2.1e-15   56.4   2.2   4.4e-15   55.3   0.3   2.3   2   0   0   2   2   2   1 Cytochrome B6-F complex Fe-S subunit
+Rieske               PF00355.25 sp|Q5CC92|UCRIB_CYAPA -            2.1e-13   49.9   0.1     4e-13   49.0   0.1   1.4   1   0   0   1   1   1   1 Rieske [2Fe-2S] domain
+WHAMM-JMY_N          PF15920.4  sp|Q5CC92|UCRIB_CYAPA -              0.011   15.5   0.1     0.022   14.5   0.1   1.5   1   0   0   1   1   1   0 N-terminal of Junction-mediating and WASP homolog-associated
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q5CC92.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q5CC92.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q5CC92.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:46:45 2019
+# [ok]

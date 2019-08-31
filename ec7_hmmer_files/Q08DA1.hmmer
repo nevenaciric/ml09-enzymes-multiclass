@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1-E2_ATPase         PF00122.19 sp|Q08DA1|AT1A1_BOVIN -            1.4e-45  154.9   0.7   1.4e-45  154.9   0.7   2.7   3   0   0   3   3   3   1 E1-E2 ATPase
+Cation_ATPase_C      PF00689.20 sp|Q08DA1|AT1A1_BOVIN -            4.5e-44  150.2   0.5   4.5e-44  150.2   0.5   2.1   2   0   0   2   2   2   1 Cation transporting ATPase, C-terminus
+Cation_ATPase        PF13246.5  sp|Q08DA1|AT1A1_BOVIN -            3.6e-23   81.4   0.0   8.1e-23   80.2   0.0   1.6   1   0   0   1   1   1   1 Cation transport ATPase (P-type)
+Hydrolase            PF00702.25 sp|Q08DA1|AT1A1_BOVIN -            1.7e-19   70.9   0.0   1.9e-10   41.3   0.0   2.7   1   1   1   2   2   2   2 haloacid dehalogenase-like hydrolase
+Cation_ATPase_N      PF00690.25 sp|Q08DA1|AT1A1_BOVIN -            6.7e-18   64.0   0.0   1.3e-17   63.1   0.0   1.5   1   0   0   1   1   1   1 Cation transporter/ATPase, N-terminus
+Hydrolase_3          PF08282.11 sp|Q08DA1|AT1A1_BOVIN -            6.7e-06   25.9   1.2   0.00078   19.2   0.5   2.5   2   0   0   2   2   2   1 haloacid dehalogenase-like hydrolase
+DUF1290              PF06947.11 sp|Q08DA1|AT1A1_BOVIN -              0.076   13.0   0.1      0.33   11.0   0.1   2.1   1   0   0   1   1   1   0 Protein of unknown function (DUF1290)
+DUF4455              PF14643.5  sp|Q08DA1|AT1A1_BOVIN -               0.23   10.0   1.1      0.96    8.0   0.0   2.0   2   0   0   2   2   2   0 Domain of unknown function (DUF4455)
+YuiB                 PF14068.5  sp|Q08DA1|AT1A1_BOVIN -                1.7    9.2   7.7         1    9.9   1.2   3.0   3   0   0   3   3   3   0 Putative membrane protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q08DA1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q08DA1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q08DA1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:29:48 2019
+# [ok]

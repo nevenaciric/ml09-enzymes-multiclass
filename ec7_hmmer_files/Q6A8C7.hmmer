@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q6A8C7|ATPB_CUTAK -            3.4e-65  219.6   0.0   4.8e-65  219.1   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q6A8C7|ATPB_CUTAK -            1.8e-21   76.3   1.0   4.9e-21   74.9   1.0   1.8   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|Q6A8C7|ATPB_CUTAK -            0.00019   20.7   0.7   0.00043   19.6   0.7   1.6   1   0   0   1   1   1   1 KaiC
+RsgA_GTPase          PF03193.15 sp|Q6A8C7|ATPB_CUTAK -             0.0067   16.3   0.0     0.016   15.1   0.0   1.5   1   0   0   1   1   1   1 RsgA GTPase
+AAA                  PF00004.28 sp|Q6A8C7|ATPB_CUTAK -              0.012   15.9   0.3       2.4    8.5   0.1   3.0   2   1   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+AAA_19               PF13245.5  sp|Q6A8C7|ATPB_CUTAK -              0.022   15.0   1.7      0.59   10.4   0.4   2.4   2   1   0   2   2   2   0 AAA domain
+Phospholip_B         PF04916.12 sp|Q6A8C7|ATPB_CUTAK -              0.076   11.5   0.0      0.11   10.9   0.0   1.1   1   0   0   1   1   1   0 Phospholipase B
+NB-ARC               PF00931.21 sp|Q6A8C7|ATPB_CUTAK -               0.13   11.2   1.4      0.34    9.8   0.2   1.9   2   0   0   2   2   2   0 NB-ARC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q6A8C7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q6A8C7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q6A8C7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:50:41 2019
+# [ok]

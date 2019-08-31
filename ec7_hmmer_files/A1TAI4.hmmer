@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|A1TAI4|POTA_MYCVP -            2.4e-33  115.5   0.0   3.5e-33  114.9   0.0   1.3   1   0   0   1   1   1   1 ABC transporter
+TOBE_2               PF08402.9  sp|A1TAI4|POTA_MYCVP -            3.2e-14   52.8   0.3   7.7e-14   51.5   0.3   1.7   1   0   0   1   1   1   1 TOBE domain
+TOBE                 PF03459.16 sp|A1TAI4|POTA_MYCVP -             0.0013   18.9   0.1     0.011   15.9   0.1   2.4   3   0   0   3   3   3   1 TOBE domain
+AAA_21               PF13304.5  sp|A1TAI4|POTA_MYCVP -             0.0054   16.5   0.1       1.3    8.7   0.0   2.1   1   1   0   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_22               PF13401.5  sp|A1TAI4|POTA_MYCVP -              0.043   14.0   0.1      0.11   12.7   0.1   1.8   1   1   0   1   1   1   0 AAA domain
+Mg_chelatase         PF01078.20 sp|A1TAI4|POTA_MYCVP -              0.045   13.0   0.0       0.1   11.8   0.0   1.6   2   0   0   2   2   2   0 Magnesium chelatase, subunit ChlI
+AAA                  PF00004.28 sp|A1TAI4|POTA_MYCVP -              0.093   13.1   0.0      0.19   12.1   0.0   1.5   1   0   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+Rad17                PF03215.14 sp|A1TAI4|POTA_MYCVP -               0.12   11.2   0.0      0.15   10.8   0.0   1.1   1   0   0   1   1   1   0 Rad17 cell cycle checkpoint protein
+HEV_ORF1             PF02444.15 sp|A1TAI4|POTA_MYCVP -               0.18   12.3   0.3      0.31   11.5   0.3   1.4   1   0   0   1   1   1   0 Hepatitis E virus ORF-2 (Putative capsid protein)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A1TAI4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A1TAI4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A1TAI4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 20:56:50 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PhoLip_ATPase_C      PF16212.4  sp|Q5BL50|AT8B1_XENTR -            1.1e-84  284.0  26.4   1.1e-84  284.0  26.4   2.2   2   0   0   2   2   2   1 Phospholipid-translocating P-type ATPase C-terminal
+PhoLip_ATPase_N      PF16209.4  sp|Q5BL50|AT8B1_XENTR -            6.3e-26   89.8   3.4   1.8e-25   88.4   3.4   1.9   1   0   0   1   1   1   1 Phospholipid-translocating ATPase N-terminal
+Cation_ATPase        PF13246.5  sp|Q5BL50|AT8B1_XENTR -            1.3e-12   47.5   0.0   5.7e-12   45.5   0.0   2.0   2   0   0   2   2   2   1 Cation transport ATPase (P-type)
+E1-E2_ATPase         PF00122.19 sp|Q5BL50|AT8B1_XENTR -            2.4e-08   33.6   2.6   4.2e-08   32.8   0.0   2.6   3   0   0   3   3   3   1 E1-E2 ATPase
+Hydrolase            PF00702.25 sp|Q5BL50|AT8B1_XENTR -            3.1e-08   34.1   2.4    0.0072   16.5   0.0   3.3   3   0   0   3   3   3   2 haloacid dehalogenase-like hydrolase
+Hydrolase_3          PF08282.11 sp|Q5BL50|AT8B1_XENTR -             0.0004   20.1   0.1    0.0014   18.3   0.0   2.0   2   0   0   2   2   2   1 haloacid dehalogenase-like hydrolase
+FimH_man-bind        PF09160.9  sp|Q5BL50|AT8B1_XENTR -               0.11   12.1   0.1       0.8    9.3   0.2   2.2   2   0   0   2   2   2   0 FimH, mannose binding
+ATP-synt_8           PF00895.19 sp|Q5BL50|AT8B1_XENTR -               0.16   12.3   8.4       1.6    9.1   0.7   3.8   3   0   0   3   3   3   0 ATP synthase protein 8
+MAP17                PF15807.4  sp|Q5BL50|AT8B1_XENTR -               0.44   10.7   3.1         1    9.5   0.0   2.5   2   0   0   2   2   2   0 Membrane-associated protein 117 kDa, PDZK1-interacting protein 1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q5BL50.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q5BL50.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q5BL50.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:46:44 2019
+# [ok]

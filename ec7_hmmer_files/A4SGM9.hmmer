@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A4SGM9|ATPA_CHLPM -            4.1e-72  242.2   0.0   5.7e-72  241.7   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|A4SGM9|ATPA_CHLPM -            1.2e-49  167.7   0.3   2.3e-49  166.8   0.3   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|A4SGM9|ATPA_CHLPM -            8.9e-18   64.5   1.2     3e-17   62.8   1.2   1.9   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+HAS-barrel           PF09378.9  sp|A4SGM9|ATPA_CHLPM -            0.00078   19.5   0.1    0.0018   18.2   0.1   1.6   1   0   0   1   1   1   1 HAS barrel domain
+ATPase               PF06745.12 sp|A4SGM9|ATPA_CHLPM -             0.0029   16.9   0.3    0.0057   15.9   0.3   1.5   1   0   0   1   1   1   1 KaiC
+Porin_1              PF00267.20 sp|A4SGM9|ATPA_CHLPM -              0.031   13.5   0.0     0.047   13.0   0.0   1.2   1   0   0   1   1   1   0 Gram-negative porin
+ATPase_2             PF01637.17 sp|A4SGM9|ATPA_CHLPM -              0.054   13.3   0.0       0.1   12.4   0.0   1.5   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A4SGM9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A4SGM9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A4SGM9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:00:09 2019
+# [ok]

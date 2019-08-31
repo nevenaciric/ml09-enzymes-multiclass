@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_membrane         PF00664.22 sp|Q2LVL0|MSBA_SYNAS -            2.7e-58  197.7  13.7   3.4e-58  197.4  13.7   1.1   1   0   0   1   1   1   1 ABC transporter transmembrane region
+ABC_tran             PF00005.26 sp|Q2LVL0|MSBA_SYNAS -            2.6e-34  118.6   0.0   4.8e-34  117.7   0.0   1.5   1   0   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|Q2LVL0|MSBA_SYNAS -            1.8e-07   30.8   0.0   9.1e-07   28.4   0.0   1.6   1   1   1   2   2   2   1 RecF/RecN/SMC N terminal domain
+RsgA_GTPase          PF03193.15 sp|Q2LVL0|MSBA_SYNAS -             0.0004   20.2   0.0    0.0019   18.0   0.0   2.0   2   0   0   2   2   2   1 RsgA GTPase
+ABC_ATPase           PF09818.8  sp|Q2LVL0|MSBA_SYNAS -             0.0088   14.8   0.2     0.056   12.1   0.0   2.0   2   0   0   2   2   2   1 Predicted ATPase of the ABC class
+AAA_16               PF13191.5  sp|Q2LVL0|MSBA_SYNAS -              0.014   15.7   0.1     0.058   13.7   0.1   2.2   1   1   0   1   1   1   0 AAA ATPase domain
+DUF3584              PF12128.7  sp|Q2LVL0|MSBA_SYNAS -               0.02   12.3   0.1     0.028   11.9   0.1   1.1   1   0   0   1   1   1   0 Protein of unknown function (DUF3584)
+AAA                  PF00004.28 sp|Q2LVL0|MSBA_SYNAS -              0.021   15.1   0.2      0.75   10.1   0.2   2.6   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+ThiS                 PF02597.19 sp|Q2LVL0|MSBA_SYNAS -              0.062   13.8   1.3       2.9    8.5   0.1   2.7   2   0   0   2   2   2   0 ThiS family
+AAA_22               PF13401.5  sp|Q2LVL0|MSBA_SYNAS -              0.083   13.1   0.3       1.9    8.6   0.3   2.6   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q2LVL0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q2LVL0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q2LVL0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:37:52 2019
+# [ok]

@@ -1,0 +1,31 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q44538|MODC2_AZOVI -            2.5e-21   76.6   0.0     4e-21   75.9   0.0   1.3   1   0   0   1   1   1   1 ABC transporter
+TOBE                 PF03459.16 sp|Q44538|MODC2_AZOVI -            2.8e-16   59.4   0.1   1.1e-14   54.3   0.0   2.6   2   0   0   2   2   2   1 TOBE domain
+AAA_21               PF13304.5  sp|Q44538|MODC2_AZOVI -            2.2e-05   24.3   1.7   0.00028   20.7   0.0   2.2   1   1   0   2   2   2   1 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_29               PF13555.5  sp|Q44538|MODC2_AZOVI -            0.00033   20.2   0.0    0.0007   19.2   0.0   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_23               PF13476.5  sp|Q44538|MODC2_AZOVI -             0.0011   19.4   0.0    0.0017   18.8   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_30               PF13604.5  sp|Q44538|MODC2_AZOVI -             0.0049   16.5   0.0    0.0086   15.7   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q44538|MODC2_AZOVI -             0.0052   17.1   0.4      0.01   16.1   0.4   1.7   1   1   0   1   1   1   1 AAA ATPase domain
+RsgA_GTPase          PF03193.15 sp|Q44538|MODC2_AZOVI -             0.0081   16.0   0.0     0.014   15.2   0.0   1.3   1   0   0   1   1   1   1 RsgA GTPase
+NACHT                PF05729.11 sp|Q44538|MODC2_AZOVI -             0.0098   15.7   0.1     0.025   14.4   0.1   1.6   1   0   0   1   1   1   1 NACHT domain
+AAA_22               PF13401.5  sp|Q44538|MODC2_AZOVI -              0.012   15.8   0.1     0.068   13.4   0.0   2.2   3   0   0   3   3   3   0 AAA domain
+AAA_25               PF13481.5  sp|Q44538|MODC2_AZOVI -              0.037   13.5   0.1      0.26   10.7   0.1   2.1   2   0   0   2   2   2   0 AAA domain
+AAA_33               PF13671.5  sp|Q44538|MODC2_AZOVI -              0.065   13.3   0.3      0.42   10.7   0.1   2.7   2   1   0   2   2   2   0 AAA domain
+DLIC                 PF05783.10 sp|Q44538|MODC2_AZOVI -              0.071   11.8   0.0       0.1   11.3   0.0   1.1   1   0   0   1   1   1   0 Dynein light intermediate chain (DLIC)
+cobW                 PF02492.18 sp|Q44538|MODC2_AZOVI -               0.15   11.6   0.2      0.22   11.0   0.2   1.2   1   0   0   1   1   1   0 CobW/HypB/UreG, nucleotide-binding domain
+PduV-EutP            PF10662.8  sp|Q44538|MODC2_AZOVI -               0.16   11.6   0.1      0.28   10.8   0.1   1.2   1   0   0   1   1   1   0 Ethanolamine utilisation - propanediol utilisation
+ATPase_2             PF01637.17 sp|Q44538|MODC2_AZOVI -               0.21   11.4   0.0       0.3   10.9   0.0   1.2   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+Phage-scaffold       PF09306.9  sp|Q44538|MODC2_AZOVI -               0.23   10.7   0.1        47    3.1   0.0   2.9   3   0   0   3   3   3   0 Bacteriophage, scaffolding protein
+G-alpha              PF00503.19 sp|Q44538|MODC2_AZOVI -               0.28   10.2   0.0      0.39    9.7   0.0   1.1   1   0   0   1   1   1   0 G-protein alpha subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q44538.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q44538.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q44538.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:44:07 2019
+# [ok]

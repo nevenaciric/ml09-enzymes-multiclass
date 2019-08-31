@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PhoLip_ATPase_C      PF16212.4  sp|Q8NB49|AT11C_HUMAN -            5.1e-73  245.8  30.8   5.1e-73  245.8  30.8   2.2   3   0   0   3   3   3   1 Phospholipid-translocating P-type ATPase C-terminal
+PhoLip_ATPase_N      PF16209.4  sp|Q8NB49|AT11C_HUMAN -            5.8e-22   77.1   0.9   5.8e-22   77.1   0.9   2.7   3   0   0   3   3   3   1 Phospholipid-translocating ATPase N-terminal
+E1-E2_ATPase         PF00122.19 sp|Q8NB49|AT11C_HUMAN -            4.8e-11   42.4   0.0   4.8e-11   42.4   0.0   2.8   2   1   0   3   3   3   1 E1-E2 ATPase
+Cation_ATPase        PF13246.5  sp|Q8NB49|AT11C_HUMAN -              1e-10   41.4   0.1   5.6e-10   39.1   0.0   2.2   2   0   0   2   2   2   1 Cation transport ATPase (P-type)
+Hydrolase            PF00702.25 sp|Q8NB49|AT11C_HUMAN -              2e-09   37.9   4.5   2.3e-06   28.0   3.7   3.0   2   1   0   2   2   2   2 haloacid dehalogenase-like hydrolase
+Hydrolase_3          PF08282.11 sp|Q8NB49|AT11C_HUMAN -              0.022   14.4   0.1      0.77    9.3   0.0   2.7   2   0   0   2   2   2   0 haloacid dehalogenase-like hydrolase
+HAD                  PF12710.6  sp|Q8NB49|AT11C_HUMAN -              0.098   13.0   0.0      0.55   10.5   0.0   2.2   2   0   0   2   2   2   0 haloacid dehalogenase-like hydrolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q8NB49.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q8NB49.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q8NB49.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:59:42 2019
+# [ok]

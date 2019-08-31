@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|B1I6J7|ATPB_DESAP -            1.1e-68  230.9   0.0   1.5e-68  230.5   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|B1I6J7|ATPB_DESAP -            2.9e-23   82.1   1.8   8.3e-23   80.6   1.8   1.9   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+RsgA_GTPase          PF03193.15 sp|B1I6J7|ATPB_DESAP -              0.014   15.2   0.3     0.028   14.2   0.3   1.4   1   0   0   1   1   1   0 RsgA GTPase
+AAA                  PF00004.28 sp|B1I6J7|ATPB_DESAP -              0.026   14.9   0.1      0.11   12.9   0.0   2.1   2   0   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+ABC_tran             PF00005.26 sp|B1I6J7|ATPB_DESAP -               0.13   12.7   0.2      0.28   11.6   0.2   1.5   1   0   0   1   1   1   0 ABC transporter
+TrwB_AAD_bind        PF10412.8  sp|B1I6J7|ATPB_DESAP -               0.21   10.3   0.6      0.35    9.6   0.6   1.2   1   0   0   1   1   1   0 Type IV secretion-system coupling protein DNA-binding domain
+ATPase               PF06745.12 sp|B1I6J7|ATPB_DESAP -               0.23   10.7   1.1      0.55    9.4   0.8   1.7   2   0   0   2   2   2   0 KaiC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/B1I6J7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/B1I6J7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/B1I6J7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:08:22 2019
+# [ok]

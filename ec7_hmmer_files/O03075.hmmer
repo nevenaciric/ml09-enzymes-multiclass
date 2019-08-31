@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|O03075|ATPB_MICSZ -            3.1e-59  200.1   0.1   4.3e-59  199.6   0.1   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|O03075|ATPB_MICSZ -            9.8e-17   61.1   2.4   1.4e-16   60.6   0.3   2.2   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA                  PF00004.28 sp|O03075|ATPB_MICSZ -            4.5e-06   27.0   0.0   0.00015   22.1   0.0   2.4   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+ABC_tran             PF00005.26 sp|O03075|ATPB_MICSZ -             0.0034   17.8   0.1    0.0076   16.7   0.1   1.6   1   0   0   1   1   1   1 ABC transporter
+RsgA_GTPase          PF03193.15 sp|O03075|ATPB_MICSZ -             0.0045   16.8   0.2    0.0082   16.0   0.2   1.4   1   0   0   1   1   1   1 RsgA GTPase
+ATPase               PF06745.12 sp|O03075|ATPB_MICSZ -              0.028   13.7   0.1     0.052   12.8   0.1   1.4   1   0   0   1   1   1   0 KaiC
+AAA_16               PF13191.5  sp|O03075|ATPB_MICSZ -               0.04   14.2   0.1     0.092   13.0   0.1   1.6   1   1   0   1   1   1   0 AAA ATPase domain
+NTPase_1             PF03266.14 sp|O03075|ATPB_MICSZ -              0.049   13.4   0.1      0.08   12.7   0.1   1.4   1   0   0   1   1   1   0 NTPase
+RNA_helicase         PF00910.21 sp|O03075|ATPB_MICSZ -               0.14   12.5   0.1      0.33   11.3   0.0   1.6   2   0   0   2   2   2   0 RNA helicase
+AAA_19               PF13245.5  sp|O03075|ATPB_MICSZ -               0.39   10.9   1.6      0.73   10.1   0.8   1.8   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/O03075.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/O03075.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/O03075.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:17:05 2019
+# [ok]

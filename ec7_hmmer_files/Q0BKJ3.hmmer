@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_membrane         PF00664.22 sp|Q0BKJ3|MSBA_FRATO -            2.3e-44  152.0  15.8   3.6e-44  151.4  15.8   1.3   1   0   0   1   1   1   1 ABC transporter transmembrane region
+ABC_tran             PF00005.26 sp|Q0BKJ3|MSBA_FRATO -            5.6e-35  120.7   0.2   1.3e-34  119.5   0.2   1.7   1   0   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|Q0BKJ3|MSBA_FRATO -            5.5e-10   39.0   4.4   4.4e-09   36.0   4.4   2.1   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+DEAD                 PF00270.28 sp|Q0BKJ3|MSBA_FRATO -             0.0012   18.6   0.1    0.0036   17.0   0.1   1.8   1   0   0   1   1   1   1 DEAD/DEAH box helicase
+AAA_30               PF13604.5  sp|Q0BKJ3|MSBA_FRATO -             0.0035   17.0   0.0    0.0091   15.6   0.0   1.6   1   1   0   1   1   1   1 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q0BKJ3|MSBA_FRATO -             0.0062   16.4   0.1     0.015   15.1   0.1   1.7   1   0   0   1   1   1   1 RsgA GTPase
+AAA_22               PF13401.5  sp|Q0BKJ3|MSBA_FRATO -               0.01   16.0   0.3     0.069   13.3   0.3   2.1   1   1   0   1   1   1   0 AAA domain
+AAA_29               PF13555.5  sp|Q0BKJ3|MSBA_FRATO -              0.011   15.4   0.3      0.03   14.0   0.3   1.7   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+SRP54                PF00448.21 sp|Q0BKJ3|MSBA_FRATO -              0.014   14.9   0.1     0.044   13.3   0.0   1.9   1   1   1   2   2   2   0 SRP54-type protein, GTPase domain
+AAA_16               PF13191.5  sp|Q0BKJ3|MSBA_FRATO -              0.014   15.7   0.1     0.031   14.6   0.1   1.5   1   0   0   1   1   1   0 AAA ATPase domain
+AAA_25               PF13481.5  sp|Q0BKJ3|MSBA_FRATO -              0.027   14.0   0.4      0.31   10.5   0.0   2.5   3   0   0   3   3   3   0 AAA domain
+ABC_ATPase           PF09818.8  sp|Q0BKJ3|MSBA_FRATO -              0.031   13.0   2.1     0.045   12.4   0.2   1.9   2   0   0   2   2   2   0 Predicted ATPase of the ABC class
+T2SSE                PF00437.19 sp|Q0BKJ3|MSBA_FRATO -              0.032   13.2   0.1     0.065   12.2   0.1   1.5   1   0   0   1   1   1   0 Type II/IV secretion system protein
+APS_kinase           PF01583.19 sp|Q0BKJ3|MSBA_FRATO -              0.075   12.8   0.1      0.15   11.8   0.1   1.5   1   0   0   1   1   1   0 Adenylylsulphate kinase
+AAA_15               PF13175.5  sp|Q0BKJ3|MSBA_FRATO -              0.082   12.4   0.1     0.082   12.4   0.1   2.1   2   0   0   2   2   2   0 AAA ATPase domain
+AAA_18               PF13238.5  sp|Q0BKJ3|MSBA_FRATO -              0.084   13.3   0.7      0.36   11.2   0.7   2.2   1   1   0   1   1   1   0 AAA domain
+AAA                  PF00004.28 sp|Q0BKJ3|MSBA_FRATO -              0.091   13.1   1.6       1.1    9.6   0.5   2.7   2   1   0   2   2   1   0 ATPase family associated with various cellular activities (AAA)
+CbiA                 PF01656.22 sp|Q0BKJ3|MSBA_FRATO -              0.096   12.6   0.2      0.31   11.0   0.2   2.0   1   1   0   1   1   1   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+NACHT                PF05729.11 sp|Q0BKJ3|MSBA_FRATO -               0.11   12.3   0.1       1.1    9.0   0.1   2.2   2   0   0   2   2   2   0 NACHT domain
+DUF87                PF01935.16 sp|Q0BKJ3|MSBA_FRATO -                0.6   10.1   5.3       2.7    7.9   0.2   3.4   3   1   0   4   4   4   0 Domain of unknown function DUF87
+AAA_33               PF13671.5  sp|Q0BKJ3|MSBA_FRATO -                1.2    9.2   2.9      0.93    9.6   0.7   2.1   2   1   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q0BKJ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q0BKJ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q0BKJ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:30:34 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q5ZR99|ATPA2_LEGPH -            8.9e-72  241.1   0.1   1.3e-71  240.5   0.1   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q5ZR99|ATPA2_LEGPH -            1.6e-46  157.6   0.6   2.5e-46  157.0   0.6   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|Q5ZR99|ATPA2_LEGPH -            1.5e-12   47.7   0.5   5.1e-12   46.0   0.3   2.0   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+HAS-barrel           PF09378.9  sp|Q5ZR99|ATPA2_LEGPH -            7.4e-06   25.9   0.2   2.7e-05   24.2   0.1   2.1   2   0   0   2   2   2   1 HAS barrel domain
+ATPase               PF06745.12 sp|Q5ZR99|ATPA2_LEGPH -              4e-05   23.0   0.1   0.00012   21.4   0.1   1.9   1   0   0   1   1   1   1 KaiC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q5ZR99.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q5ZR99.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q5ZR99.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:48:58 2019
+# [ok]

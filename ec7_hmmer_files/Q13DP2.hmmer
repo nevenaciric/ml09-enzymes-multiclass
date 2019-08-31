@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q13DP2|ATPB_RHOPS -            1.8e-63  213.9   0.0   3.2e-63  213.1   0.0   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q13DP2|ATPB_RHOPS -            4.7e-23   81.4   1.8   9.3e-23   80.4   1.8   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+RsgA_GTPase          PF03193.15 sp|Q13DP2|ATPB_RHOPS -              0.012   15.4   0.0     0.028   14.2   0.0   1.6   1   0   0   1   1   1   0 RsgA GTPase
+NB-ARC               PF00931.21 sp|Q13DP2|ATPB_RHOPS -              0.016   14.1   0.7     0.027   13.4   0.1   1.6   2   0   0   2   2   2   0 NB-ARC domain
+ATPase_2             PF01637.17 sp|Q13DP2|ATPB_RHOPS -              0.029   14.2   0.0     0.056   13.3   0.0   1.4   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+AAA_22               PF13401.5  sp|Q13DP2|ATPB_RHOPS -              0.031   14.4   0.0      0.43   10.7   0.0   2.3   2   0   0   2   2   2   0 AAA domain
+AAA_19               PF13245.5  sp|Q13DP2|ATPB_RHOPS -              0.037   14.3   0.9      0.21   11.8   0.2   2.1   2   0   0   2   2   2   0 AAA domain
+RnfC_N               PF13375.5  sp|Q13DP2|ATPB_RHOPS -              0.043   13.7   0.4      0.12   12.2   0.1   1.9   2   0   0   2   2   2   0 RnfC Barrel sandwich hybrid domain
+NACHT                PF05729.11 sp|Q13DP2|ATPB_RHOPS -              0.048   13.5   0.0       0.1   12.4   0.0   1.6   1   0   0   1   1   1   0 NACHT domain
+AAA_16               PF13191.5  sp|Q13DP2|ATPB_RHOPS -              0.077   13.3   0.2      0.23   11.7   0.2   1.9   1   1   0   1   1   1   0 AAA ATPase domain
+ATPase               PF06745.12 sp|Q13DP2|ATPB_RHOPS -               0.11   11.8   0.6      0.22   10.7   0.6   1.5   1   0   0   1   1   1   0 KaiC
+RNA_helicase         PF00910.21 sp|Q13DP2|ATPB_RHOPS -                0.2   12.0   0.0       0.4   11.0   0.0   1.5   1   0   0   1   1   1   0 RNA helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q13DP2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q13DP2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q13DP2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:32:43 2019
+# [ok]

@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q46TK4|PHNC_CUPNJ -            1.1e-30  106.8   0.0   1.5e-30  106.4   0.0   1.2   1   0   0   1   1   1   1 ABC transporter
+AAA_21               PF13304.5  sp|Q46TK4|PHNC_CUPNJ -            1.2e-06   28.5   0.1     0.038   13.7   0.0   2.1   2   0   0   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_16               PF13191.5  sp|Q46TK4|PHNC_CUPNJ -              1e-05   25.9   0.6   3.1e-05   24.3   0.6   1.7   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_29               PF13555.5  sp|Q46TK4|PHNC_CUPNJ -            8.6e-05   22.1   0.0   0.00017   21.1   0.0   1.5   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+SMC_N                PF02463.18 sp|Q46TK4|PHNC_CUPNJ -            9.7e-05   21.8   0.0    0.0085   15.4   0.0   2.1   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+RsgA_GTPase          PF03193.15 sp|Q46TK4|PHNC_CUPNJ -            0.00037   20.3   0.2    0.0014   18.5   0.0   1.9   2   0   0   2   2   2   1 RsgA GTPase
+AAA_25               PF13481.5  sp|Q46TK4|PHNC_CUPNJ -             0.0022   17.5   1.5     0.005   16.3   1.5   1.8   1   1   0   1   1   1   1 AAA domain
+AAA_19               PF13245.5  sp|Q46TK4|PHNC_CUPNJ -             0.0027   18.0   0.0    0.0052   17.0   0.0   1.5   1   1   0   1   1   1   1 AAA domain
+NACHT                PF05729.11 sp|Q46TK4|PHNC_CUPNJ -             0.0034   17.2   0.1    0.0071   16.2   0.0   1.6   2   0   0   2   2   2   1 NACHT domain
+AAA_33               PF13671.5  sp|Q46TK4|PHNC_CUPNJ -             0.0062   16.6   1.2     0.042   13.9   1.2   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_30               PF13604.5  sp|Q46TK4|PHNC_CUPNJ -             0.0064   16.1   0.2     0.019   14.6   0.0   1.9   2   0   0   2   2   2   1 AAA domain
+MMR_HSR1             PF01926.22 sp|Q46TK4|PHNC_CUPNJ -              0.019   14.9   0.3     0.096   12.7   0.1   2.2   3   0   0   3   3   3   0 50S ribosome-binding GTPase
+AAA_22               PF13401.5  sp|Q46TK4|PHNC_CUPNJ -              0.019   15.1   0.5      0.11   12.6   0.5   2.1   1   1   0   1   1   1   0 AAA domain
+AAA_28               PF13521.5  sp|Q46TK4|PHNC_CUPNJ -               0.02   15.0   0.0     0.047   13.8   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+SbcCD_C              PF13558.5  sp|Q46TK4|PHNC_CUPNJ -              0.025   14.7   0.2      0.26   11.4   0.2   2.2   1   1   0   1   1   1   0 Putative exonuclease SbcCD, C subunit
+G-alpha              PF00503.19 sp|Q46TK4|PHNC_CUPNJ -              0.041   12.9   0.0     0.053   12.6   0.0   1.2   1   1   0   1   1   1   0 G-protein alpha subunit
+AAA_5                PF07728.13 sp|Q46TK4|PHNC_CUPNJ -              0.068   13.1   0.1       0.2   11.6   0.0   1.8   2   0   0   2   2   2   0 AAA domain (dynein-related subfamily)
+AAA_18               PF13238.5  sp|Q46TK4|PHNC_CUPNJ -              0.078   13.4   0.0      0.19   12.2   0.0   1.7   2   0   0   2   2   2   0 AAA domain
+AAA_23               PF13476.5  sp|Q46TK4|PHNC_CUPNJ -                0.1   13.0   0.0      0.14   12.5   0.0   1.2   1   0   0   1   1   1   0 AAA domain
+AAA_13               PF13166.5  sp|Q46TK4|PHNC_CUPNJ -               0.12   10.9   0.0       1.4    7.4   0.0   1.9   2   0   0   2   2   2   0 AAA domain
+AAA_24               PF13479.5  sp|Q46TK4|PHNC_CUPNJ -               0.15   11.6   0.0      0.27   10.8   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q46TK4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q46TK4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q46TK4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:44:16 2019
+# [ok]

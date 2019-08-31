@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NdhL                 PF10716.8  sp|Q10W93|NDHL_TRIEI -            1.4e-30  105.0   8.1   1.5e-30  104.9   8.1   1.0   1   0   0   1   1   1   1 NADH dehydrogenase transmembrane subunit
+DUF2627              PF11118.7  sp|Q10W93|NDHL_TRIEI -              0.028   14.9   1.6     0.038   14.5   1.6   1.1   1   0   0   1   1   1   0 Protein of unknown function (DUF2627)
+DUF1129              PF06570.10 sp|Q10W93|NDHL_TRIEI -              0.048   13.0   1.9     0.057   12.8   1.9   1.1   1   0   0   1   1   1   0 Protein of unknown function (DUF1129)
+LapA_dom             PF06305.10 sp|Q10W93|NDHL_TRIEI -               0.14   11.9   0.7      0.21   11.3   0.1   1.5   2   0   0   2   2   2   0 Lipopolysaccharide assembly protein A domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q10W93.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q10W93.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q10W93.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:32:11 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|B5RQS2|VATA_BORRA -            2.8e-75  252.5   0.0   4.6e-75  251.8   0.0   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_Xtn      PF16886.4  sp|B5RQS2|VATA_BORRA -            2.4e-33  114.4   0.0   9.9e-33  112.5   0.0   2.0   2   0   0   2   2   2   1 ATPsynthase alpha/beta subunit N-term extension
+ATP-synt_ab_N        PF02874.22 sp|B5RQS2|VATA_BORRA -            7.2e-08   32.7   5.1   2.8e-07   30.9   5.4   1.9   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/B5RQS2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/B5RQS2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/B5RQS2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:12:26 2019
+# [ok]

@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q8S8W8|ATPB_ATRBE -              2e-65  220.3   0.0   2.8e-65  219.9   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q8S8W8|ATPB_ATRBE -            1.2e-21   76.8   0.5   3.2e-21   75.5   0.5   1.8   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA                  PF00004.28 sp|Q8S8W8|ATPB_ATRBE -            4.1e-05   23.9   0.1    0.0033   17.7   0.0   2.3   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+ATPase               PF06745.12 sp|Q8S8W8|ATPB_ATRBE -             0.0014   17.9   0.1     0.003   16.8   0.1   1.5   1   0   0   1   1   1   1 KaiC
+ATPase_2             PF01637.17 sp|Q8S8W8|ATPB_ATRBE -             0.0066   16.3   0.0     0.012   15.4   0.0   1.4   1   0   0   1   1   1   1 ATPase domain predominantly from Archaea
+RsgA_GTPase          PF03193.15 sp|Q8S8W8|ATPB_ATRBE -              0.015   15.1   0.0     0.032   14.0   0.0   1.5   1   0   0   1   1   1   0 RsgA GTPase
+ABC_tran             PF00005.26 sp|Q8S8W8|ATPB_ATRBE -              0.019   15.4   0.1     0.062   13.7   0.0   1.9   2   0   0   2   2   2   0 ABC transporter
+AAA_25               PF13481.5  sp|Q8S8W8|ATPB_ATRBE -              0.052   13.0   0.1      0.13   11.7   0.1   1.7   1   1   0   1   1   1   0 AAA domain
+AAA_16               PF13191.5  sp|Q8S8W8|ATPB_ATRBE -              0.075   13.3   0.2      0.19   12.0   0.2   1.8   1   1   0   1   1   1   0 AAA ATPase domain
+AAA_19               PF13245.5  sp|Q8S8W8|ATPB_ATRBE -               0.13   12.5   0.7      0.47   10.7   0.2   2.0   2   0   0   2   2   2   0 AAA domain
+RNA_helicase         PF00910.21 sp|Q8S8W8|ATPB_ATRBE -               0.15   12.3   0.0      0.34   11.2   0.0   1.6   1   0   0   1   1   1   0 RNA helicase
+TrwB_AAD_bind        PF10412.8  sp|Q8S8W8|ATPB_ATRBE -               0.22   10.3   0.2      0.53    9.0   0.2   1.5   1   0   0   1   1   1   0 Type IV secretion-system coupling protein DNA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q8S8W8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q8S8W8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q8S8W8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:00:10 2019
+# [ok]

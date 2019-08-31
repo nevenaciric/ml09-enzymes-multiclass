@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A0K2Y1|ATPA_BURCH -            1.3e-76  256.9   0.1   2.7e-76  255.8   0.1   1.5   2   0   0   2   2   2   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|A0K2Y1|ATPA_BURCH -            1.2e-46  158.1   0.2   1.8e-46  157.4   0.2   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|A0K2Y1|ATPA_BURCH -              1e-15   57.9   1.0   2.4e-15   56.7   1.0   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+HAS-barrel           PF09378.9  sp|A0K2Y1|ATPA_BURCH -            8.8e-06   25.7   0.8   2.7e-05   24.1   0.8   1.9   1   0   0   1   1   1   1 HAS barrel domain
+ATPase               PF06745.12 sp|A0K2Y1|ATPA_BURCH -            6.3e-05   22.3   0.1   0.00011   21.5   0.1   1.4   1   0   0   1   1   1   1 KaiC
+ATPase_2             PF01637.17 sp|A0K2Y1|ATPA_BURCH -             0.0022   17.8   0.0    0.0039   17.0   0.0   1.4   1   0   0   1   1   1   1 ATPase domain predominantly from Archaea
+DUF5403              PF17395.1  sp|A0K2Y1|ATPA_BURCH -              0.032   14.5   0.1        15    6.0   0.0   2.6   2   0   0   2   2   2   0 Family of unknown function (DUF5403)
+Arginosuc_synth      PF00764.18 sp|A0K2Y1|ATPA_BURCH -              0.051   12.8   0.1      0.08   12.1   0.1   1.2   1   0   0   1   1   1   0 Arginosuccinate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A0K2Y1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A0K2Y1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A0K2Y1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 20:55:01 2019
+# [ok]

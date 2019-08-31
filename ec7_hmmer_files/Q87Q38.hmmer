@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q87Q38|BTUD_VIBPA -            2.9e-22   79.5   0.0   6.7e-21   75.2   0.0   2.2   2   0   0   2   2   2   1 ABC transporter
+SMC_N                PF02463.18 sp|Q87Q38|BTUD_VIBPA -            1.3e-07   31.1   0.1   1.3e-06   28.0   0.1   2.0   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+AAA_29               PF13555.5  sp|Q87Q38|BTUD_VIBPA -            2.9e-06   26.8   0.2   6.1e-06   25.8   0.2   1.5   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_21               PF13304.5  sp|Q87Q38|BTUD_VIBPA -              3e-06   27.2   0.2   0.00026   20.8   0.0   2.1   2   0   0   2   2   2   1 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_23               PF13476.5  sp|Q87Q38|BTUD_VIBPA -            3.2e-06   27.7   0.0     4e-06   27.4   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_27               PF13514.5  sp|Q87Q38|BTUD_VIBPA -              0.001   18.6   0.0    0.0017   17.9   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q87Q38|BTUD_VIBPA -             0.0013   19.1   0.2    0.0028   18.0   0.2   1.8   1   1   0   1   1   1   1 AAA ATPase domain
+IstB_IS21            PF01695.16 sp|Q87Q38|BTUD_VIBPA -             0.0033   17.1   0.1       1.3    8.6   0.0   2.4   2   1   0   2   2   2   1 IstB-like ATP binding protein
+NACHT                PF05729.11 sp|Q87Q38|BTUD_VIBPA -             0.0046   16.8   0.1     0.011   15.6   0.0   1.7   2   0   0   2   2   2   1 NACHT domain
+AAA_30               PF13604.5  sp|Q87Q38|BTUD_VIBPA -             0.0056   16.3   0.1     0.041   13.5   0.0   2.0   2   0   0   2   2   2   1 AAA domain
+AAA_22               PF13401.5  sp|Q87Q38|BTUD_VIBPA -               0.01   16.0   0.1     0.047   13.9   0.1   2.0   1   1   0   1   1   1   0 AAA domain
+AAA_15               PF13175.5  sp|Q87Q38|BTUD_VIBPA -              0.017   14.6   0.0     0.025   14.1   0.0   1.2   1   0   0   1   1   1   0 AAA ATPase domain
+RsgA_GTPase          PF03193.15 sp|Q87Q38|BTUD_VIBPA -              0.019   14.8   0.1     0.035   13.9   0.1   1.4   1   0   0   1   1   1   0 RsgA GTPase
+AAA_33               PF13671.5  sp|Q87Q38|BTUD_VIBPA -              0.022   14.8   0.0     0.041   13.9   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+MMR_HSR1             PF01926.22 sp|Q87Q38|BTUD_VIBPA -              0.032   14.2   0.2     0.048   13.6   0.2   1.7   1   1   0   1   1   1   0 50S ribosome-binding GTPase
+NB-ARC               PF00931.21 sp|Q87Q38|BTUD_VIBPA -               0.04   12.8   0.1     0.078   11.9   0.1   1.4   1   0   0   1   1   1   0 NB-ARC domain
+AAA_25               PF13481.5  sp|Q87Q38|BTUD_VIBPA -              0.073   12.5   0.0      0.12   11.8   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+RNA_helicase         PF00910.21 sp|Q87Q38|BTUD_VIBPA -              0.075   13.3   0.0      0.28   11.5   0.0   1.8   2   0   0   2   2   2   0 RNA helicase
+ABC_ATPase           PF09818.8  sp|Q87Q38|BTUD_VIBPA -              0.094   11.4   0.1      0.25   10.0   0.1   1.6   1   0   0   1   1   1   0 Predicted ATPase of the ABC class
+AAA_14               PF13173.5  sp|Q87Q38|BTUD_VIBPA -               0.12   12.3   0.0      0.38   10.7   0.0   1.9   2   0   0   2   2   2   0 AAA domain
+DDT                  PF02791.16 sp|Q87Q38|BTUD_VIBPA -               0.13   12.5   0.0      0.28   11.4   0.0   1.6   1   0   0   1   1   1   0 DDT domain
+SbcCD_C              PF13558.5  sp|Q87Q38|BTUD_VIBPA -               0.15   12.2   0.0      0.41   10.8   0.0   1.8   1   0   0   1   1   1   0 Putative exonuclease SbcCD, C subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q87Q38.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q87Q38.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q87Q38.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:56:35 2019
+# [ok]

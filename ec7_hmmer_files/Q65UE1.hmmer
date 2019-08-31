@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q65UE1|POTA_MANSM -            6.7e-35  120.5   0.0   1.5e-34  119.3   0.0   1.6   1   0   0   1   1   1   1 ABC transporter
+TOBE_2               PF08402.9  sp|Q65UE1|POTA_MANSM -              1e-07   31.9   0.0     2e-07   30.9   0.0   1.6   1   0   0   1   1   1   1 TOBE domain
+SMC_N                PF02463.18 sp|Q65UE1|POTA_MANSM -            2.1e-06   27.2   1.0    0.0028   17.0   0.1   2.3   2   0   0   2   2   2   2 RecF/RecN/SMC N terminal domain
+AAA_21               PF13304.5  sp|Q65UE1|POTA_MANSM -            2.7e-06   27.3   0.4     0.072   12.8   0.0   2.5   2   1   0   3   3   3   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_22               PF13401.5  sp|Q65UE1|POTA_MANSM -            1.1e-05   25.6   0.6   6.7e-05   23.1   0.6   2.1   1   1   0   1   1   1   1 AAA domain
+AAA                  PF00004.28 sp|Q65UE1|POTA_MANSM -            0.00062   20.1   1.1     0.007   16.7   1.1   2.3   1   1   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+TniB                 PF05621.10 sp|Q65UE1|POTA_MANSM -             0.0012   18.0   1.6     0.021   13.9   0.6   2.3   2   0   0   2   2   2   1 Bacterial TniB protein
+AAA_16               PF13191.5  sp|Q65UE1|POTA_MANSM -             0.0014   18.9   0.1    0.0028   18.0   0.1   1.6   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_30               PF13604.5  sp|Q65UE1|POTA_MANSM -             0.0026   17.4   0.1     0.011   15.4   0.0   2.0   3   0   0   3   3   3   1 AAA domain
+AAA_28               PF13521.5  sp|Q65UE1|POTA_MANSM -             0.0033   17.6   0.1      0.61   10.2   0.0   2.9   2   1   0   2   2   2   1 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q65UE1|POTA_MANSM -             0.0083   16.0   0.2     0.041   13.7   0.0   2.1   2   0   0   2   2   2   1 RsgA GTPase
+Rad17                PF03215.14 sp|Q65UE1|POTA_MANSM -              0.011   14.6   0.0     0.021   13.7   0.0   1.4   1   0   0   1   1   1   0 Rad17 cell cycle checkpoint protein
+AAA_18               PF13238.5  sp|Q65UE1|POTA_MANSM -              0.015   15.7   0.0     0.051   14.0   0.0   2.2   1   1   0   1   1   1   0 AAA domain
+AAA_25               PF13481.5  sp|Q65UE1|POTA_MANSM -              0.017   14.6   0.0       1.3    8.5   0.0   2.4   2   0   0   2   2   2   0 AAA domain
+AAA_29               PF13555.5  sp|Q65UE1|POTA_MANSM -              0.024   14.2   0.0      0.05   13.2   0.0   1.5   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+sCache_3_2           PF17203.3  sp|Q65UE1|POTA_MANSM -               0.04   13.9   0.0      0.08   13.0   0.0   1.4   1   0   0   1   1   1   0 Single cache domain 3
+ATPase_2             PF01637.17 sp|Q65UE1|POTA_MANSM -               0.05   13.4   0.5      0.27   11.0   0.0   2.1   2   0   0   2   2   2   0 ATPase domain predominantly from Archaea
+AAA_23               PF13476.5  sp|Q65UE1|POTA_MANSM -              0.052   13.9   0.5     0.052   13.9   0.5   2.3   2   1   0   2   2   2   0 AAA domain
+ABC_ATPase           PF09818.8  sp|Q65UE1|POTA_MANSM -              0.065   11.9   0.6      0.44    9.2   0.0   2.3   2   1   0   2   2   2   0 Predicted ATPase of the ABC class
+PhoH                 PF02562.15 sp|Q65UE1|POTA_MANSM -               0.07   12.5   0.2       4.4    6.6   0.0   2.3   2   0   0   2   2   2   0 PhoH-like protein
+AAA_14               PF13173.5  sp|Q65UE1|POTA_MANSM -              0.072   13.0   0.0      0.52   10.2   0.0   2.2   2   0   0   2   2   2   0 AAA domain
+AAA_24               PF13479.5  sp|Q65UE1|POTA_MANSM -                0.1   12.2   0.1       2.6    7.6   0.0   2.2   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q65UE1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q65UE1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q65UE1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:49:50 2019
+# [ok]

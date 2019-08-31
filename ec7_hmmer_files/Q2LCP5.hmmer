@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Molybdopterin        PF00384.21 sp|Q2LCP5|NDUS1_DICCI -            6.5e-40  137.3   1.1   5.6e-31  107.9   0.3   2.2   1   1   0   2   2   2   2 Molybdopterin oxidoreductase
+NADH-G_4Fe-4S_3      PF10588.8  sp|Q2LCP5|NDUS1_DICCI -            7.8e-16   57.2   0.1   7.8e-16   57.2   0.1   1.8   2   0   0   2   2   2   1 NADH-ubiquinone oxidoreductase-G iron-sulfur binding region
+Fer2_4               PF13510.5  sp|Q2LCP5|NDUS1_DICCI -            6.5e-11   42.0   0.1   1.3e-10   41.1   0.1   1.5   1   0   0   1   1   1   1 2Fe-2S iron-sulfur cluster binding domain
+Fer2                 PF00111.26 sp|Q2LCP5|NDUS1_DICCI -            1.7e-09   37.4   2.3   1.7e-09   37.4   2.3   1.9   1   1   1   2   2   2   1 2Fe-2S iron-sulfur cluster binding domain
+NADH_dhqG_C          PF09326.10 sp|Q2LCP5|NDUS1_DICCI -              0.034   14.7   0.0      0.08   13.6   0.0   1.5   1   0   0   1   1   1   0 NADH-ubiquinone oxidoreductase subunit G, C-terminal
+Fer4                 PF00037.26 sp|Q2LCP5|NDUS1_DICCI -               0.25   11.1   1.8       6.3    6.7   0.6   2.7   2   0   0   2   2   2   0 4Fe-4S binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q2LCP5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q2LCP5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q2LCP5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:37:47 2019
+# [ok]

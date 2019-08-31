@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q0BWF7|CCMA_HYPNA -            7.9e-24   84.6   0.0   2.4e-22   79.8   0.0   2.1   2   0   0   2   2   2   1 ABC transporter
+AAA_21               PF13304.5  sp|Q0BWF7|CCMA_HYPNA -            2.9e-05   23.9   0.1     0.003   17.3   0.0   2.1   1   1   0   2   2   2   1 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_16               PF13191.5  sp|Q0BWF7|CCMA_HYPNA -            0.00081   19.7   0.1    0.0011   19.2   0.1   1.3   1   0   0   1   1   1   1 AAA ATPase domain
+AAA_28               PF13521.5  sp|Q0BWF7|CCMA_HYPNA -             0.0011   19.1   0.1    0.0021   18.2   0.0   1.5   2   0   0   2   2   2   1 AAA domain
+SMC_N                PF02463.18 sp|Q0BWF7|CCMA_HYPNA -             0.0021   17.4   0.0      0.17   11.2   0.0   2.1   2   0   0   2   2   2   1 RecF/RecN/SMC N terminal domain
+NACHT                PF05729.11 sp|Q0BWF7|CCMA_HYPNA -             0.0049   16.7   0.1     0.024   14.5   0.1   1.9   2   0   0   2   2   2   1 NACHT domain
+TsaE                 PF02367.16 sp|Q0BWF7|CCMA_HYPNA -             0.0055   16.6   0.4      0.02   14.8   0.1   1.9   2   0   0   2   2   2   1 Threonylcarbamoyl adenosine biosynthesis protein TsaE
+AAA_22               PF13401.5  sp|Q0BWF7|CCMA_HYPNA -             0.0076   16.4   0.0     0.013   15.7   0.0   1.3   1   1   0   1   1   1   1 AAA domain
+AAA_29               PF13555.5  sp|Q0BWF7|CCMA_HYPNA -              0.011   15.4   0.0      0.02   14.5   0.0   1.5   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+AAA_13               PF13166.5  sp|Q0BWF7|CCMA_HYPNA -              0.016   13.8   0.0     0.019   13.5   0.0   1.1   1   0   0   1   1   1   0 AAA domain
+AAA_30               PF13604.5  sp|Q0BWF7|CCMA_HYPNA -              0.021   14.5   0.5     0.031   13.9   0.5   1.5   1   1   0   1   1   1   0 AAA domain
+DUF3584              PF12128.7  sp|Q0BWF7|CCMA_HYPNA -              0.021   12.3   0.3     0.027   11.9   0.3   1.0   1   0   0   1   1   1   0 Protein of unknown function (DUF3584)
+AAA_23               PF13476.5  sp|Q0BWF7|CCMA_HYPNA -              0.029   14.8   0.0     0.038   14.4   0.0   1.2   1   0   0   1   1   1   0 AAA domain
+Zeta_toxin           PF06414.11 sp|Q0BWF7|CCMA_HYPNA -              0.042   13.0   0.3      0.16   11.1   0.1   1.9   2   0   0   2   2   2   0 Zeta toxin
+RsgA_GTPase          PF03193.15 sp|Q0BWF7|CCMA_HYPNA -               0.05   13.4   0.0     0.078   12.8   0.0   1.2   1   0   0   1   1   1   0 RsgA GTPase
+cobW                 PF02492.18 sp|Q0BWF7|CCMA_HYPNA -              0.052   13.0   0.1     0.084   12.4   0.1   1.3   1   0   0   1   1   1   0 CobW/HypB/UreG, nucleotide-binding domain
+AAA_33               PF13671.5  sp|Q0BWF7|CCMA_HYPNA -               0.07   13.2   0.2      0.14   12.2   0.1   1.7   1   1   0   1   1   1   0 AAA domain
+AAA_25               PF13481.5  sp|Q0BWF7|CCMA_HYPNA -              0.098   12.1   1.0      0.25   10.8   0.6   2.0   1   1   0   1   1   1   0 AAA domain
+SRP54                PF00448.21 sp|Q0BWF7|CCMA_HYPNA -               0.16   11.5   0.0      0.27   10.7   0.0   1.4   1   0   0   1   1   1   0 SRP54-type protein, GTPase domain
+AAA_14               PF13173.5  sp|Q0BWF7|CCMA_HYPNA -               0.18   11.7   0.0      0.49   10.3   0.0   1.7   2   0   0   2   2   2   0 AAA domain
+PduV-EutP            PF10662.8  sp|Q0BWF7|CCMA_HYPNA -               0.19   11.3   0.1       2.1    8.0   0.1   2.4   2   1   1   3   3   3   0 Ethanolamine utilisation - propanediol utilisation
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q0BWF7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q0BWF7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q0BWF7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:30:38 2019
+# [ok]

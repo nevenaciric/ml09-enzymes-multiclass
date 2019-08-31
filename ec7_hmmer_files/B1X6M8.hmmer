@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hydrolase            PF00702.25 sp|B1X6M8|KDPB_ECODH -            1.1e-38  133.6   4.1   2.1e-38  132.6   4.1   1.5   1   0   0   1   1   1   1 haloacid dehalogenase-like hydrolase
+E1-E2_ATPase         PF00122.19 sp|B1X6M8|KDPB_ECODH -            1.2e-33  116.0   0.7   1.2e-33  116.0   0.7   2.4   2   0   0   2   2   2   1 E1-E2 ATPase
+Hydrolase_3          PF08282.11 sp|B1X6M8|KDPB_ECODH -            4.1e-05   23.3   1.1   0.00016   21.4   0.3   2.1   2   0   0   2   2   2   1 haloacid dehalogenase-like hydrolase
+HAD                  PF12710.6  sp|B1X6M8|KDPB_ECODH -            0.00014   22.2   0.1   0.00072   19.9   0.1   2.1   1   1   0   1   1   1   1 haloacid dehalogenase-like hydrolase
+PCB_OB               PF17092.4  sp|B1X6M8|KDPB_ECODH -               0.13   13.0   0.0      0.36   11.5   0.0   1.7   1   0   0   1   1   1   0 Penicillin-binding protein OB-like domain
+FA_desaturase        PF00487.23 sp|B1X6M8|KDPB_ECODH -               0.54   10.0   6.2       0.6    9.8   0.9   2.3   2   0   0   2   2   2   0 Fatty acid desaturase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/B1X6M8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/B1X6M8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/B1X6M8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:09:14 2019
+# [ok]

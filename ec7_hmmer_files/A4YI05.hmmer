@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A4YI05|VATA_METS5 -            3.2e-84  281.8   0.0   4.4e-84  281.3   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_Xtn      PF16886.4  sp|A4YI05|VATA_METS5 -            2.6e-45  153.1   0.2   4.8e-45  152.2   0.2   1.5   1   0   0   1   1   1   1 ATPsynthase alpha/beta subunit N-term extension
+ATP-synt_ab_N        PF02874.22 sp|A4YI05|VATA_METS5 -            6.1e-12   45.8   2.6   7.3e-12   45.5   1.2   2.0   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA_22               PF13401.5  sp|A4YI05|VATA_METS5 -              0.024   14.8   0.0     0.062   13.5   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+Peptidase_M23        PF01551.21 sp|A4YI05|VATA_METS5 -               0.15   12.2   0.0         3    8.0   0.0   2.5   2   0   0   2   2   2   0 Peptidase family M23
+Peptidase_M17_N      PF02789.16 sp|A4YI05|VATA_METS5 -               0.15   11.8   0.0      0.62    9.8   0.0   2.0   2   0   0   2   2   2   0 Cytosol aminopeptidase family, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A4YI05.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A4YI05.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A4YI05.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:00:52 2019
+# [ok]

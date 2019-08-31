@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NdhM                 PF10664.8  sp|Q7VE46|NDHM_PROMA -            1.3e-51  173.2   0.1   1.5e-51  173.1   0.1   1.0   1   0   0   1   1   1   1 Cyanobacterial and plastid NDH-1 subunit M
+PAS_4                PF08448.9  sp|Q7VE46|NDHM_PROMA -              0.034   14.3   0.0     0.044   13.9   0.0   1.1   1   0   0   1   1   1   0 PAS fold
+PAS_10               PF13596.5  sp|Q7VE46|NDHM_PROMA -                0.1   13.1   0.0      0.14   12.6   0.0   1.2   1   0   0   1   1   1   0 PAS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q7VE46.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q7VE46.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q7VE46.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:54:43 2019
+# [ok]

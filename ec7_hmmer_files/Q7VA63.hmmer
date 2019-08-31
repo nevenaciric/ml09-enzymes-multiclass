@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q7VA63|ATPA_PROMA -            5.7e-74  248.3   0.8   9.5e-74  247.5   0.8   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q7VA63|ATPA_PROMA -            4.1e-45  153.1   4.7   7.2e-45  152.3   4.7   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|Q7VA63|ATPA_PROMA -            1.6e-18   66.9   3.6   5.8e-18   65.1   3.6   2.0   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|Q7VA63|ATPA_PROMA -             0.0001   21.6   0.2   0.00031   20.1   0.2   1.8   1   0   0   1   1   1   1 KaiC
+HAS-barrel           PF09378.9  sp|Q7VA63|ATPA_PROMA -              0.008   16.2   0.2     0.033   14.2   0.2   2.1   1   1   0   1   1   1   1 HAS barrel domain
+Arginosuc_synth      PF00764.18 sp|Q7VA63|ATPA_PROMA -              0.029   13.6   0.4     0.045   12.9   0.4   1.2   1   0   0   1   1   1   0 Arginosuccinate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q7VA63.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q7VA63.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q7VA63.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:54:38 2019
+# [ok]

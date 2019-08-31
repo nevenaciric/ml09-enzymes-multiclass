@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|A6H5F1|ATPA_CYCTA -            2.4e-76  256.0   0.9   5.9e-76  254.7   0.3   1.8   2   0   0   2   2   2   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|A6H5F1|ATPA_CYCTA -            1.4e-42  144.9   6.1   2.5e-42  144.1   6.1   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|A6H5F1|ATPA_CYCTA -            1.1e-15   57.8   4.9   2.6e-15   56.6   4.9   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+HAS-barrel           PF09378.9  sp|A6H5F1|ATPA_CYCTA -              0.001   19.1   0.3    0.0032   17.5   0.3   1.8   1   0   0   1   1   1   1 HAS barrel domain
+ATPase               PF06745.12 sp|A6H5F1|ATPA_CYCTA -             0.0027   17.0   0.2    0.0095   15.2   0.2   2.0   2   0   0   2   2   2   1 KaiC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A6H5F1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A6H5F1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A6H5F1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:02:20 2019
+# [ok]

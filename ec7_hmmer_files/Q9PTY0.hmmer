@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q9PTY0|ATPB_CYPCA -              2e-64  217.1   0.0   2.9e-64  216.5   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q9PTY0|ATPB_CYPCA -            2.9e-23   82.1   2.0   5.8e-23   81.1   2.0   1.6   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase_2             PF01637.17 sp|Q9PTY0|ATPB_CYPCA -             0.0071   16.2   0.0     0.013   15.4   0.0   1.3   1   0   0   1   1   1   1 ATPase domain predominantly from Archaea
+RsgA_GTPase          PF03193.15 sp|Q9PTY0|ATPB_CYPCA -              0.025   14.4   0.0     0.047   13.5   0.0   1.5   1   0   0   1   1   1   0 RsgA GTPase
+ATPase               PF06745.12 sp|Q9PTY0|ATPB_CYPCA -              0.029   13.6   0.1     0.047   12.9   0.1   1.4   1   0   0   1   1   1   0 KaiC
+NB-ARC               PF00931.21 sp|Q9PTY0|ATPB_CYPCA -              0.061   12.2   0.8      0.09   11.7   0.1   1.5   2   0   0   2   2   2   0 NB-ARC domain
+AAA                  PF00004.28 sp|Q9PTY0|ATPB_CYPCA -               0.07   13.5   0.0       1.1    9.7   0.0   2.5   2   1   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+AAA_16               PF13191.5  sp|Q9PTY0|ATPB_CYPCA -               0.11   12.8   0.1      0.39   11.0   0.1   2.0   1   1   0   1   1   1   0 AAA ATPase domain
+AAA_19               PF13245.5  sp|Q9PTY0|ATPB_CYPCA -               0.11   12.7   1.1      0.28   11.4   0.3   1.9   2   0   0   2   2   2   0 AAA domain
+ABC_tran             PF00005.26 sp|Q9PTY0|ATPB_CYPCA -               0.13   12.7   0.0       0.3   11.5   0.0   1.6   1   0   0   1   1   1   0 ABC transporter
+DUF2075              PF09848.8  sp|Q9PTY0|ATPB_CYPCA -               0.21   10.7   0.1       0.6    9.2   0.2   1.6   1   1   1   2   2   2   0 Uncharacterized conserved protein (DUF2075)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q9PTY0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q9PTY0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q9PTY0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:05:30 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q85V50|ATPB_PSECV -            6.9e-64  215.3   0.0   9.6e-64  214.8   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q85V50|ATPB_PSECV -            1.8e-22   79.5   0.6   4.8e-22   78.2   0.6   1.8   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+AAA                  PF00004.28 sp|Q85V50|ATPB_PSECV -            0.00012   22.4   0.0     0.013   15.8   0.0   2.3   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+ATPase               PF06745.12 sp|Q85V50|ATPB_PSECV -            0.00038   19.8   0.1   0.00081   18.7   0.1   1.5   1   0   0   1   1   1   1 KaiC
+AAA_25               PF13481.5  sp|Q85V50|ATPB_PSECV -             0.0024   17.4   0.0    0.0059   16.1   0.0   1.6   1   0   0   1   1   1   1 AAA domain
+ABC_tran             PF00005.26 sp|Q85V50|ATPB_PSECV -              0.064   13.7   0.1      0.16   12.4   0.0   1.7   2   0   0   2   2   2   0 ABC transporter
+RsgA_GTPase          PF03193.15 sp|Q85V50|ATPB_PSECV -              0.083   12.7   0.0      0.17   11.7   0.0   1.4   1   0   0   1   1   1   0 RsgA GTPase
+ATPase_2             PF01637.17 sp|Q85V50|ATPB_PSECV -               0.14   11.9   0.0      0.29   10.9   0.0   1.4   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q85V50.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q85V50.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q85V50.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:56:20 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q2GKK8|ATPB_ANAPZ -            2.6e-60  203.6   0.0   3.4e-60  203.2   0.0   1.1   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q2GKK8|ATPB_ANAPZ -            1.8e-18   66.7   0.2   4.2e-18   65.5   0.2   1.7   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|Q2GKK8|ATPB_ANAPZ -             0.0019   17.5   0.1      0.23   10.7   0.1   2.3   2   0   0   2   2   2   2 KaiC
+RsgA_GTPase          PF03193.15 sp|Q2GKK8|ATPB_ANAPZ -             0.0025   17.6   0.0    0.0055   16.5   0.0   1.5   1   0   0   1   1   1   1 RsgA GTPase
+ATPase_2             PF01637.17 sp|Q2GKK8|ATPB_ANAPZ -              0.029   14.2   0.0     0.054   13.3   0.0   1.4   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+NACHT                PF05729.11 sp|Q2GKK8|ATPB_ANAPZ -              0.067   13.0   0.1      0.19   11.6   0.0   1.8   2   0   0   2   2   2   0 NACHT domain
+AAA_16               PF13191.5  sp|Q2GKK8|ATPB_ANAPZ -              0.072   13.4   0.0      0.17   12.1   0.0   1.6   1   0   0   1   1   1   0 AAA ATPase domain
+AAA_19               PF13245.5  sp|Q2GKK8|ATPB_ANAPZ -              0.088   13.0   0.1      0.23   11.7   0.1   1.6   1   0   0   1   1   1   0 AAA domain
+NB-ARC               PF00931.21 sp|Q2GKK8|ATPB_ANAPZ -               0.17   10.8   0.5       0.3   10.0   0.0   1.6   2   0   0   2   2   2   0 NB-ARC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q2GKK8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q2GKK8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q2GKK8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:36:54 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q39ZT9|ATPA1_PELCD -            9.2e-76  254.1   0.0   1.3e-75  253.6   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_C        PF00306.26 sp|Q39ZT9|ATPA1_PELCD -            5.1e-49  165.7   0.5   8.4e-49  165.0   0.5   1.3   1   0   0   1   1   1   1 ATP synthase alpha/beta chain, C terminal domain
+ATP-synt_ab_N        PF02874.22 sp|Q39ZT9|ATPA1_PELCD -            9.2e-19   67.6   0.7   2.4e-18   66.3   0.5   1.9   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+HAS-barrel           PF09378.9  sp|Q39ZT9|ATPA1_PELCD -            2.2e-05   24.4   0.1   8.2e-05   22.6   0.1   2.0   1   1   0   1   1   1   1 HAS barrel domain
+ATPase               PF06745.12 sp|Q39ZT9|ATPA1_PELCD -            0.00031   20.1   0.2   0.00059   19.2   0.2   1.4   1   0   0   1   1   1   1 KaiC
+NAD_binding_10       PF13460.5  sp|Q39ZT9|ATPA1_PELCD -              0.028   14.2   0.1     0.056   13.3   0.1   1.4   1   0   0   1   1   1   0 NAD(P)H-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q39ZT9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q39ZT9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q39ZT9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:41:46 2019
+# [ok]

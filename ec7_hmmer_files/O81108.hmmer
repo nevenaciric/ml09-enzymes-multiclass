@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1-E2_ATPase         PF00122.19 sp|O81108|ACA2_ARATH -            6.1e-40  136.6   0.7   6.1e-40  136.6   0.7   2.4   2   0   0   2   2   2   1 E1-E2 ATPase
+Cation_ATPase_C      PF00689.20 sp|O81108|ACA2_ARATH -            1.2e-39  135.8   9.8   1.2e-39  135.8   9.8   2.7   3   0   0   3   3   3   1 Cation transporting ATPase, C-terminus
+CaATP_NAI            PF12515.7  sp|O81108|ACA2_ARATH -            3.8e-20   71.1   0.8   7.6e-20   70.2   0.8   1.5   1   0   0   1   1   1   1 Ca2+-ATPase N terminal autoinhibitory domain
+Cation_ATPase        PF13246.5  sp|O81108|ACA2_ARATH -              1e-18   67.1   0.0   2.3e-18   66.0   0.0   1.6   1   0   0   1   1   1   1 Cation transport ATPase (P-type)
+Hydrolase            PF00702.25 sp|O81108|ACA2_ARATH -            6.9e-17   62.3   3.0   6.1e-16   59.2   3.0   2.3   1   1   0   1   1   1   1 haloacid dehalogenase-like hydrolase
+Cation_ATPase_N      PF00690.25 sp|O81108|ACA2_ARATH -            7.4e-12   44.7   0.0   1.4e-11   43.8   0.0   1.5   1   0   0   1   1   1   1 Cation transporter/ATPase, N-terminus
+Hydrolase_3          PF08282.11 sp|O81108|ACA2_ARATH -            4.8e-05   23.1   1.8    0.0003   20.5   0.2   2.6   3   0   0   3   3   3   1 haloacid dehalogenase-like hydrolase
+EAR                  PF07897.10 sp|O81108|ACA2_ARATH -             0.0093   15.5   0.0      0.02   14.4   0.0   1.5   1   0   0   1   1   1   1 Ethylene-responsive binding factor-associated repression
+HAD                  PF12710.6  sp|O81108|ACA2_ARATH -              0.028   14.7   0.0      0.06   13.6   0.0   1.5   1   0   0   1   1   1   0 haloacid dehalogenase-like hydrolase
+DAGK_cat             PF00781.23 sp|O81108|ACA2_ARATH -              0.057   12.9   0.0      0.28   10.7   0.0   2.1   1   1   1   2   2   2   0 Diacylglycerol kinase catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/O81108.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/O81108.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/O81108.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:18:59 2019
+# [ok]

@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q99PE7|ABCG5_RAT  -            3.4e-27   95.5   0.0   5.6e-27   94.8   0.0   1.3   1   0   0   1   1   1   1 ABC transporter
+ABC2_membrane        PF01061.23 sp|Q99PE7|ABCG5_RAT  -            1.7e-22   79.8  11.9   2.9e-22   79.0  11.9   1.3   1   0   0   1   1   1   1 ABC-2 type transporter
+AAA_21               PF13304.5  sp|Q99PE7|ABCG5_RAT  -            3.1e-07   30.4   0.3     0.024   14.4   0.1   2.2   1   1   0   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_29               PF13555.5  sp|Q99PE7|ABCG5_RAT  -            2.7e-05   23.7   0.2   5.6e-05   22.7   0.2   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_16               PF13191.5  sp|Q99PE7|ABCG5_RAT  -            0.00065   20.0   0.0    0.0012   19.2   0.0   1.4   1   0   0   1   1   1   1 AAA ATPase domain
+NACHT                PF05729.11 sp|Q99PE7|ABCG5_RAT  -             0.0009   19.1   0.0     0.002   18.0   0.0   1.6   1   0   0   1   1   1   1 NACHT domain
+AAA_23               PF13476.5  sp|Q99PE7|ABCG5_RAT  -             0.0016   18.9   0.1    0.0031   18.0   0.1   1.4   1   0   0   1   1   1   1 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q99PE7|ABCG5_RAT  -             0.0019   18.0   0.0    0.0035   17.2   0.0   1.3   1   0   0   1   1   1   1 RsgA GTPase
+SMC_N                PF02463.18 sp|Q99PE7|ABCG5_RAT  -             0.0035   16.7   0.3      0.14   11.5   0.3   2.2   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+ATP-synt_ab          PF00006.24 sp|Q99PE7|ABCG5_RAT  -             0.0036   16.9   0.0    0.0073   15.9   0.0   1.4   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+PIF1                 PF05970.13 sp|Q99PE7|ABCG5_RAT  -              0.039   13.0   0.0     0.064   12.3   0.0   1.3   1   0   0   1   1   1   0 PIF1-like helicase
+IstB_IS21            PF01695.16 sp|Q99PE7|ABCG5_RAT  -              0.039   13.6   0.1      0.23   11.1   0.0   2.0   2   0   0   2   2   2   0 IstB-like ATP binding protein
+AAA_22               PF13401.5  sp|Q99PE7|ABCG5_RAT  -              0.046   13.9   0.0      0.64   10.2   0.0   2.4   2   0   0   2   2   2   0 AAA domain
+NTPase_1             PF03266.14 sp|Q99PE7|ABCG5_RAT  -              0.068   13.0   0.1       1.3    8.8   0.0   2.4   2   0   0   2   2   2   0 NTPase
+AAA_19               PF13245.5  sp|Q99PE7|ABCG5_RAT  -               0.11   12.8   0.0      0.29   11.4   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+MobB                 PF03205.13 sp|Q99PE7|ABCG5_RAT  -               0.12   12.1   0.1      0.22   11.3   0.1   1.4   1   0   0   1   1   1   0 Molybdopterin guanine dinucleotide synthesis protein B
+AAA_28               PF13521.5  sp|Q99PE7|ABCG5_RAT  -               0.14   12.3   0.0      0.25   11.5   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+AAA_30               PF13604.5  sp|Q99PE7|ABCG5_RAT  -               0.14   11.8   0.0      0.25   10.9   0.0   1.3   1   0   0   1   1   1   0 AAA domain
+T2SSE                PF00437.19 sp|Q99PE7|ABCG5_RAT  -               0.16   10.9   0.1       0.3   10.0   0.1   1.4   1   0   0   1   1   1   0 Type II/IV secretion system protein
+cobW                 PF02492.18 sp|Q99PE7|ABCG5_RAT  -               0.17   11.3   0.0      0.36   10.3   0.0   1.5   1   0   0   1   1   1   0 CobW/HypB/UreG, nucleotide-binding domain
+AAA_24               PF13479.5  sp|Q99PE7|ABCG5_RAT  -               0.23   11.1   0.1      0.36   10.4   0.1   1.3   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q99PE7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q99PE7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q99PE7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 22:02:56 2019
+# [ok]

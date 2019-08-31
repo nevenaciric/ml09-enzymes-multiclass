@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_membrane         PF00664.22 sp|Q88D92|MSBA_PSEPK -            1.3e-47  162.6   9.4     2e-47  162.1   9.4   1.1   1   0   0   1   1   1   1 ABC transporter transmembrane region
+ABC_tran             PF00005.26 sp|Q88D92|MSBA_PSEPK -            2.2e-33  115.6   0.0   4.3e-33  114.6   0.0   1.5   1   0   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|Q88D92|MSBA_PSEPK -              9e-09   35.0   0.4   1.2e-06   28.0   0.0   2.2   1   1   1   2   2   2   1 RecF/RecN/SMC N terminal domain
+AAA_22               PF13401.5  sp|Q88D92|MSBA_PSEPK -            2.9e-05   24.3   0.0   8.8e-05   22.7   0.0   1.8   1   1   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q88D92|MSBA_PSEPK -            0.00021   21.6   0.2    0.0005   20.4   0.2   1.6   1   0   0   1   1   1   1 AAA ATPase domain
+DEAD                 PF00270.28 sp|Q88D92|MSBA_PSEPK -             0.0027   17.4   0.0     0.011   15.5   0.0   2.0   1   1   0   1   1   1   1 DEAD/DEAH box helicase
+AAA_29               PF13555.5  sp|Q88D92|MSBA_PSEPK -             0.0042   16.7   0.0     0.014   15.0   0.0   1.9   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_30               PF13604.5  sp|Q88D92|MSBA_PSEPK -              0.012   15.2   0.1     0.073   12.7   0.1   2.2   1   1   0   1   1   1   0 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q88D92|MSBA_PSEPK -              0.014   15.2   0.0     0.031   14.1   0.0   1.6   1   0   0   1   1   1   0 RsgA GTPase
+APS_kinase           PF01583.19 sp|Q88D92|MSBA_PSEPK -               0.02   14.7   0.0     0.041   13.7   0.0   1.5   1   0   0   1   1   1   0 Adenylylsulphate kinase
+ABC_ATPase           PF09818.8  sp|Q88D92|MSBA_PSEPK -              0.036   12.8   0.0      0.24   10.1   0.0   2.3   2   1   0   2   2   2   0 Predicted ATPase of the ABC class
+IstB_IS21            PF01695.16 sp|Q88D92|MSBA_PSEPK -              0.041   13.5   0.1      0.94    9.1   0.0   2.3   2   0   0   2   2   2   0 IstB-like ATP binding protein
+DUF815               PF05673.12 sp|Q88D92|MSBA_PSEPK -              0.056   12.5   0.0       0.1   11.6   0.0   1.3   1   0   0   1   1   1   0 Protein of unknown function (DUF815)
+MMR_HSR1             PF01926.22 sp|Q88D92|MSBA_PSEPK -              0.058   13.4   0.0      0.13   12.2   0.0   1.8   1   1   0   1   1   1   0 50S ribosome-binding GTPase
+AAA_24               PF13479.5  sp|Q88D92|MSBA_PSEPK -              0.058   13.0   0.0      0.11   12.2   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+NB-ARC               PF00931.21 sp|Q88D92|MSBA_PSEPK -               0.06   12.3   0.0      0.12   11.3   0.0   1.4   1   0   0   1   1   1   0 NB-ARC domain
+Zeta_toxin           PF06414.11 sp|Q88D92|MSBA_PSEPK -               0.06   12.5   0.1       0.5    9.5   0.0   2.1   2   0   0   2   2   2   0 Zeta toxin
+DUF87                PF01935.16 sp|Q88D92|MSBA_PSEPK -               0.11   12.5   0.0      0.24   11.3   0.0   1.6   1   0   0   1   1   1   0 Domain of unknown function DUF87
+AAA_21               PF13304.5  sp|Q88D92|MSBA_PSEPK -               0.26   10.9   1.0       7.2    6.2   0.2   2.2   1   1   1   2   2   2   0 AAA domain, putative AbiEii toxin, Type IV TA system
+YwiC                 PF14256.5  sp|Q88D92|MSBA_PSEPK -               0.28   11.4  10.7      0.28   11.4   1.9   3.8   4   0   0   4   4   4   0 YwiC-like protein
+Peptidase_A24        PF01478.17 sp|Q88D92|MSBA_PSEPK -                5.6    7.3  10.1       1.3    9.4   1.5   2.8   3   0   0   3   3   2   0 Type IV leader peptidase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q88D92.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q88D92.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q88D92.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:56:47 2019
+# [ok]

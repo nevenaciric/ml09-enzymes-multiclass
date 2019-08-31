@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NQRA                 PF05896.10 sp|A1S8N5|NQRA_SHEAM -           1.9e-110  368.3   0.1  2.3e-110  368.0   0.1   1.1   1   0   0   1   1   1   1 Na(+)-translocating NADH-quinone reductase subunit A (NQRA)
+NQRA_SLBB            PF11973.7  sp|A1S8N5|NQRA_SHEAM -            6.4e-18   65.0   1.3   1.6e-17   63.8   1.3   1.7   1   0   0   1   1   1   1 NQRA C-terminal domain
+RnfC_N               PF13375.5  sp|A1S8N5|NQRA_SHEAM -            7.1e-06   25.8   0.2   1.8e-05   24.5   0.2   1.7   1   0   0   1   1   1   1 RnfC Barrel sandwich hybrid domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/A1S8N5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/A1S8N5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/A1S8N5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 20:56:39 2019
+# [ok]

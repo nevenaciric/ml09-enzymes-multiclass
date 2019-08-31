@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E1-E2_ATPase         PF00122.19 sp|P57700|KDPB_THEAC -            1.8e-37  128.5   3.3   1.8e-37  128.5   3.3   3.0   3   0   0   3   3   3   1 E1-E2 ATPase
+Hydrolase            PF00702.25 sp|P57700|KDPB_THEAC -            6.8e-25   88.5   0.2   1.4e-24   87.5   0.2   1.5   1   1   0   1   1   1   1 haloacid dehalogenase-like hydrolase
+Hydrolase_3          PF08282.11 sp|P57700|KDPB_THEAC -              1e-08   35.1   4.7   1.1e-05   25.3   2.7   2.5   1   1   1   2   2   2   2 haloacid dehalogenase-like hydrolase
+CBS                  PF00571.27 sp|P57700|KDPB_THEAC -              0.028   14.8   0.0     0.095   13.1   0.0   1.9   1   0   0   1   1   1   0 CBS domain
+HAD                  PF12710.6  sp|P57700|KDPB_THEAC -              0.028   14.7   0.0      0.11   12.8   0.0   1.9   1   1   0   1   1   1   0 haloacid dehalogenase-like hydrolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P57700.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P57700.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P57700.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:26:18 2019
+# [ok]

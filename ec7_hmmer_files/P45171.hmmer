@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|P45171|POTA_HAEIN -            6.8e-36  123.7   0.0   1.3e-35  122.8   0.0   1.5   1   0   0   1   1   1   1 ABC transporter
+TOBE_2               PF08402.9  sp|P45171|POTA_HAEIN -            3.8e-08   33.3   0.0   7.6e-08   32.3   0.0   1.5   1   0   0   1   1   1   1 TOBE domain
+AAA_21               PF13304.5  sp|P45171|POTA_HAEIN -              4e-07   30.0   0.1     0.023   14.4   0.1   2.2   1   1   0   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+SMC_N                PF02463.18 sp|P45171|POTA_HAEIN -            5.5e-06   25.9   1.5    0.0033   16.8   0.2   2.2   2   0   0   2   2   2   2 RecF/RecN/SMC N terminal domain
+AAA                  PF00004.28 sp|P45171|POTA_HAEIN -            3.3e-05   24.2   0.2    0.0014   19.0   0.2   2.4   1   1   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+AAA_22               PF13401.5  sp|P45171|POTA_HAEIN -            4.2e-05   23.7   1.4   0.00031   20.9   1.4   2.2   1   1   0   1   1   1   1 AAA domain
+AAA_28               PF13521.5  sp|P45171|POTA_HAEIN -            0.00083   19.5   0.2     0.092   12.9   0.0   2.8   2   1   1   3   3   3   1 AAA domain
+AAA_16               PF13191.5  sp|P45171|POTA_HAEIN -             0.0022   18.3   0.2    0.0042   17.4   0.2   1.6   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_18               PF13238.5  sp|P45171|POTA_HAEIN -             0.0045   17.4   0.3     0.011   16.2   0.1   2.0   2   1   0   2   2   1   1 AAA domain
+RsgA_GTPase          PF03193.15 sp|P45171|POTA_HAEIN -             0.0053   16.6   0.3     0.023   14.5   0.1   2.0   2   0   0   2   2   2   1 RsgA GTPase
+TniB                 PF05621.10 sp|P45171|POTA_HAEIN -             0.0071   15.5   1.6       0.1   11.7   0.8   2.2   2   0   0   2   2   2   1 Bacterial TniB protein
+Rad17                PF03215.14 sp|P45171|POTA_HAEIN -              0.017   14.0   0.0     0.024   13.5   0.0   1.2   1   0   0   1   1   1   0 Rad17 cell cycle checkpoint protein
+PhoH                 PF02562.15 sp|P45171|POTA_HAEIN -              0.019   14.3   0.1      0.75    9.1   0.0   2.4   2   0   0   2   2   2   0 PhoH-like protein
+ATPase               PF06745.12 sp|P45171|POTA_HAEIN -              0.023   14.0   1.2       2.1    7.6   0.2   2.3   2   0   0   2   2   2   0 KaiC
+ATPase_2             PF01637.17 sp|P45171|POTA_HAEIN -              0.023   14.5   0.1     0.064   13.1   0.1   1.8   1   1   0   1   1   1   0 ATPase domain predominantly from Archaea
+AAA_25               PF13481.5  sp|P45171|POTA_HAEIN -              0.023   14.1   0.0       0.7    9.3   0.0   2.4   2   0   0   2   2   2   0 AAA domain
+AAA_14               PF13173.5  sp|P45171|POTA_HAEIN -              0.028   14.4   0.0      0.19   11.7   0.0   2.2   2   0   0   2   2   2   0 AAA domain
+AAA_24               PF13479.5  sp|P45171|POTA_HAEIN -              0.029   14.0   0.1       1.1    8.8   0.0   2.2   2   0   0   2   2   2   0 AAA domain
+AAA_23               PF13476.5  sp|P45171|POTA_HAEIN -              0.059   13.8   0.7     0.059   13.8   0.7   2.1   2   0   0   2   2   2   0 AAA domain
+sCache_3_2           PF17203.3  sp|P45171|POTA_HAEIN -              0.064   13.3   0.0      0.12   12.4   0.0   1.3   1   0   0   1   1   1   0 Single cache domain 3
+AAA_30               PF13604.5  sp|P45171|POTA_HAEIN -               0.07   12.8   0.1      0.19   11.3   0.0   1.7   2   0   0   2   2   2   0 AAA domain
+AAA_29               PF13555.5  sp|P45171|POTA_HAEIN -              0.074   12.7   0.1      0.17   11.5   0.1   1.5   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P45171.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P45171.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P45171.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:25:02 2019
+# [ok]

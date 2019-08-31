@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UCR_TM               PF02921.13 sp|P47985|UCRI_HUMAN -            3.3e-31  107.4   1.4   5.4e-31  106.7   1.4   1.4   1   0   0   1   1   1   1 Ubiquinol cytochrome reductase transmembrane region
+Ubiq-Cytc-red_N      PF09165.9  sp|P47985|UCRI_HUMAN -            2.5e-26   92.3   6.1   5.9e-26   91.1   6.1   1.6   1   0   0   1   1   1   1 Ubiquinol-cytochrome c reductase 8 kDa, N-terminal
+Rieske               PF00355.25 sp|P47985|UCRI_HUMAN -            7.6e-12   44.9   0.0   1.7e-11   43.8   0.0   1.6   1   1   0   1   1   1   1 Rieske [2Fe-2S] domain
+TPK_B1_binding       PF04265.13 sp|P47985|UCRI_HUMAN -              0.098   12.3   0.0      0.18   11.5   0.0   1.4   1   0   0   1   1   1   0 Thiamin pyrophosphokinase, vitamin B1 binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P47985.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P47985.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P47985.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:25:10 2019
+# [ok]

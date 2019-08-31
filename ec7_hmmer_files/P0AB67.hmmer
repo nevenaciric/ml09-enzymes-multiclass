@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PNTB                 PF02233.15 sp|P0AB67|PNTB_ECOLI -           2.8e-203  675.9  19.7  3.2e-203  675.7  19.7   1.0   1   0   0   1   1   1   1 NAD(P) transhydrogenase beta subunit
+AA_kinase            PF00696.27 sp|P0AB67|PNTB_ECOLI -             0.0077   15.7   0.0     0.017   14.6   0.0   1.5   2   0   0   2   2   2   1 Amino acid kinase family
+TPP_enzyme_M         PF00205.21 sp|P0AB67|PNTB_ECOLI -              0.027   14.1   1.0       0.4   10.4   0.2   3.0   2   1   1   3   3   3   0 Thiamine pyrophosphate enzyme, central domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P0AB67.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P0AB67.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P0AB67.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:20:21 2019
+# [ok]

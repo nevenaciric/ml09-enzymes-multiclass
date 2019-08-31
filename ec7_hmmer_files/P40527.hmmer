@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PhoLip_ATPase_C      PF16212.4  sp|P40527|ATC7_YEAST -            4.5e-50  170.6  17.3   4.5e-50  170.6  17.3   2.0   2   0   0   2   2   2   1 Phospholipid-translocating P-type ATPase C-terminal
+PhoLip_ATPase_N      PF16209.4  sp|P40527|ATC7_YEAST -            4.9e-16   58.2   1.1   4.9e-16   58.2   1.1   2.3   2   0   0   2   2   2   1 Phospholipid-translocating ATPase N-terminal
+E1-E2_ATPase         PF00122.19 sp|P40527|ATC7_YEAST -            2.2e-15   56.5   0.0   6.1e-15   55.1   0.0   1.7   1   0   0   1   1   1   1 E1-E2 ATPase
+Hydrolase            PF00702.25 sp|P40527|ATC7_YEAST -            2.4e-11   44.2   0.2   0.00019   21.7   0.0   3.3   3   0   0   3   3   3   3 haloacid dehalogenase-like hydrolase
+Cation_ATPase        PF13246.5  sp|P40527|ATC7_YEAST -            5.7e-10   39.1   0.0     7e-09   35.6   0.0   2.5   2   0   0   2   2   2   1 Cation transport ATPase (P-type)
+Hydrolase_3          PF08282.11 sp|P40527|ATC7_YEAST -              0.001   18.8   0.1    0.0069   16.1   0.0   2.5   1   1   0   1   1   1   1 haloacid dehalogenase-like hydrolase
+DUF2070              PF09843.8  sp|P40527|ATC7_YEAST -               0.76    7.9  10.2       2.3    6.3  10.2   1.8   1   0   0   1   1   1   0 Predicted membrane protein (DUF2070)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P40527.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P40527.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P40527.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:24:31 2019
+# [ok]

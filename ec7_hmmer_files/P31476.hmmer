@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|P31476|ATPB_EUGGR -            8.5e-64  215.0   0.0   1.2e-63  214.5   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|P31476|ATPB_EUGGR -            6.2e-19   68.2   0.1   1.3e-18   67.2   0.1   1.6   1   0   0   1   1   1   1 ATP synthase alpha/beta family, beta-barrel domain
+ATPase               PF06745.12 sp|P31476|ATPB_EUGGR -            0.00013   21.3   0.4    0.0013   18.1   0.1   2.1   2   0   0   2   2   2   1 KaiC
+AAA                  PF00004.28 sp|P31476|ATPB_EUGGR -            0.00045   20.6   0.1    0.0099   16.2   0.0   2.4   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+RsgA_GTPase          PF03193.15 sp|P31476|ATPB_EUGGR -             0.0044   16.8   0.0    0.0087   15.9   0.0   1.4   1   0   0   1   1   1   1 RsgA GTPase
+ATPase_2             PF01637.17 sp|P31476|ATPB_EUGGR -             0.0069   16.2   0.0     0.013   15.3   0.0   1.4   1   0   0   1   1   1   1 ATPase domain predominantly from Archaea
+ABC_tran             PF00005.26 sp|P31476|ATPB_EUGGR -              0.028   14.8   0.0     0.072   13.5   0.0   1.6   1   0   0   1   1   1   0 ABC transporter
+AAA_16               PF13191.5  sp|P31476|ATPB_EUGGR -              0.054   13.8   0.1      0.11   12.7   0.1   1.6   1   1   0   1   1   1   0 AAA ATPase domain
+AAA_19               PF13245.5  sp|P31476|ATPB_EUGGR -               0.11   12.7   0.6      0.45   10.7   0.2   2.0   2   0   0   2   2   2   0 AAA domain
+AAA_25               PF13481.5  sp|P31476|ATPB_EUGGR -               0.13   11.7   0.1      0.27   10.7   0.1   1.5   1   1   0   1   1   1   0 AAA domain
+RNA_helicase         PF00910.21 sp|P31476|ATPB_EUGGR -               0.17   12.2   0.0      0.41   10.9   0.0   1.7   2   0   0   2   2   1   0 RNA helicase
+TrwB_AAD_bind        PF10412.8  sp|P31476|ATPB_EUGGR -               0.18   10.6   0.3      0.45    9.3   0.1   1.6   2   0   0   2   2   2   0 Type IV secretion-system coupling protein DNA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/P31476.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/P31476.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/P31476.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:23:55 2019
+# [ok]

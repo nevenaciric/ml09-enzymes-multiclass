@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|Q1CX36|ATPB_MYXXD -            4.7e-62  209.3   0.0   6.6e-62  208.8   0.0   1.2   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+ATP-synt_ab_N        PF02874.22 sp|Q1CX36|ATPB_MYXXD -            2.8e-23   82.1   0.8   5.6e-23   81.1   0.2   1.9   2   0   0   2   2   2   1 ATP synthase alpha/beta family, beta-barrel domain
+RsgA_GTPase          PF03193.15 sp|Q1CX36|ATPB_MYXXD -             0.0022   17.8   0.0    0.0047   16.7   0.0   1.5   1   0   0   1   1   1   1 RsgA GTPase
+ATPase               PF06745.12 sp|Q1CX36|ATPB_MYXXD -             0.0067   15.7   0.1     0.016   14.5   0.1   1.7   2   0   0   2   2   2   1 KaiC
+NB-ARC               PF00931.21 sp|Q1CX36|ATPB_MYXXD -              0.024   13.6   0.1     0.049   12.6   0.1   1.4   1   0   0   1   1   1   0 NB-ARC domain
+NACHT                PF05729.11 sp|Q1CX36|ATPB_MYXXD -              0.033   14.0   0.0     0.072   12.9   0.0   1.5   1   0   0   1   1   1   0 NACHT domain
+ABC_tran             PF00005.26 sp|Q1CX36|ATPB_MYXXD -              0.045   14.2   0.0      0.12   12.7   0.0   1.7   1   0   0   1   1   1   0 ABC transporter
+AAA_16               PF13191.5  sp|Q1CX36|ATPB_MYXXD -              0.068   13.4   0.1      0.17   12.1   0.1   1.7   1   1   0   1   1   1   0 AAA ATPase domain
+AAA                  PF00004.28 sp|Q1CX36|ATPB_MYXXD -               0.14   12.5   0.0       2.2    8.6   0.0   2.5   2   1   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+ATPase_2             PF01637.17 sp|Q1CX36|ATPB_MYXXD -               0.18   11.6   0.0       0.3   10.9   0.0   1.4   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec7_fasta_files/Q1CX36.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec7_hmmer_files/Q1CX36.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec7_fasta_files/Q1CX36.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sat Aug 31 21:34:10 2019
+# [ok]
