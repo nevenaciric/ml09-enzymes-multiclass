@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TP_methylase         PF00590.19 sp|A1AVU5|CYSG_RUTMC -            4.4e-49  167.2   0.0   6.3e-49  166.7   0.0   1.2   1   0   0   1   1   1   1 Tetrapyrrole (Corrin/Porphyrin) Methylases
+NAD_binding_7        PF13241.5  sp|A1AVU5|CYSG_RUTMC -            2.4e-27   95.3   0.1   7.7e-27   93.7   0.1   1.9   1   0   0   1   1   1   1 Putative NAD(P)-binding
+CysG_dimeriser       PF10414.8  sp|A1AVU5|CYSG_RUTMC -              5e-20   70.9   0.0   9.2e-20   70.0   0.0   1.5   1   0   0   1   1   1   1 Sirohaem synthase dimerisation region
+Sirohm_synth_M       PF14824.5  sp|A1AVU5|CYSG_RUTMC -            1.1e-07   31.0   0.6     3e-07   29.7   0.6   1.8   1   0   0   1   1   1   1 Sirohaem biosynthesis protein central
+DUF3895              PF13034.5  sp|A1AVU5|CYSG_RUTMC -              0.039   13.9   0.0       6.3    6.8   0.0   3.8   4   0   0   4   4   4   0 Protein of unknown function (DUF3895)
+Radical_SAM          PF04055.20 sp|A1AVU5|CYSG_RUTMC -               0.13   12.6   0.0       1.1    9.5   0.0   2.3   1   1   1   2   2   2   0 Radical SAM superfamily
+THF_DHG_CYH_C        PF02882.18 sp|A1AVU5|CYSG_RUTMC -               0.14   11.4   0.3      0.73    9.0   0.0   2.1   2   1   0   2   2   2   0 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A1AVU5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A1AVU5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A1AVU5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:42:15 2019
+# [ok]

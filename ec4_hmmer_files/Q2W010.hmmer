@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_syntA            PF00290.19 sp|Q2W010|TRPA_MAGSA -            1.2e-96  322.4   0.4   1.5e-96  322.2   0.4   1.0   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+His_biosynth         PF00977.20 sp|Q2W010|TRPA_MAGSA -            5.5e-05   22.6   0.3   0.00022   20.7   0.2   2.0   2   1   0   3   3   3   1 Histidine biosynthesis protein
+PcrB                 PF01884.16 sp|Q2W010|TRPA_MAGSA -            0.00056   19.3   0.4    0.0015   17.9   0.4   1.7   1   0   0   1   1   1   1 PcrB family
+Ntox1                PF15500.5  sp|Q2W010|TRPA_MAGSA -              0.075   13.3   0.0      0.19   12.0   0.0   1.6   1   0   0   1   1   1   0 Putative RNase-like toxin, toxin_1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q2W010.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q2W010.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q2W010.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:39:43 2019
+# [ok]

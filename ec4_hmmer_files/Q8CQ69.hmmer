@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+OMPdecase            PF00215.23 sp|Q8CQ69|HPS_STAES  -            3.8e-30  105.1   7.4   4.9e-30  104.7   7.4   1.1   1   0   0   1   1   1   1 Orotidine 5'-phosphate decarboxylase / HUMPS family
+Ribul_P_3_epim       PF00834.18 sp|Q8CQ69|HPS_STAES  -            4.8e-05   22.7   2.8   0.00023   20.5   2.8   2.3   1   1   0   1   1   1   1 Ribulose-phosphate 3 epimerase family
+PEP_mutase           PF13714.5  sp|Q8CQ69|HPS_STAES  -              0.011   15.0   0.4     0.027   13.8   0.3   1.6   1   1   0   1   1   1   0 Phosphoenolpyruvate phosphomutase
+PRAI                 PF00697.21 sp|Q8CQ69|HPS_STAES  -              0.022   14.4   3.8      0.27   10.9   3.6   2.1   1   1   0   1   1   1   0 N-(5'phosphoribosyl)anthranilate (PRA) isomerase
+QRPTase_C            PF01729.18 sp|Q8CQ69|HPS_STAES  -              0.045   13.4   4.4       0.2   11.3   0.5   2.4   1   1   1   2   2   2   0 Quinolinate phosphoribosyl transferase, C-terminal domain
+ADH_zinc_N           PF00107.25 sp|Q8CQ69|HPS_STAES  -              0.046   13.5   0.4      0.12   12.2   0.2   1.8   1   1   0   1   1   1   0 Zinc-binding dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8CQ69.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8CQ69.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8CQ69.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:18:42 2019
+# [ok]

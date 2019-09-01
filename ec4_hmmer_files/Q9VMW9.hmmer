@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GDP_Man_Dehyd        PF16363.4  sp|Q9VMW9|GMDS_DROME -           1.7e-159  530.5   0.2    2e-159  530.3   0.2   1.0   1   0   0   1   1   1   1 GDP-mannose 4,6 dehydratase
+Epimerase            PF01370.20 sp|Q9VMW9|GMDS_DROME -            3.3e-73  246.0   0.2   4.6e-73  245.5   0.2   1.2   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+RmlD_sub_bind        PF04321.16 sp|Q9VMW9|GMDS_DROME -              2e-06   27.0   0.0     3e-06   26.5   0.0   1.2   1   0   0   1   1   1   1 RmlD substrate binding domain
+Polysacc_synt_2      PF02719.14 sp|Q9VMW9|GMDS_DROME -            1.3e-05   24.4   0.0   2.1e-05   23.7   0.0   1.2   1   0   0   1   1   1   1 Polysaccharide biosynthesis protein
+NmrA                 PF05368.12 sp|Q9VMW9|GMDS_DROME -             0.0094   15.4   0.0     0.033   13.6   0.0   1.8   2   0   0   2   2   2   1 NmrA-like family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9VMW9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9VMW9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9VMW9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:37:51 2019
+# [ok]

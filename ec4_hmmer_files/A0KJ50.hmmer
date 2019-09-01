@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SBP_bac_3            PF00497.19 sp|A0KJ50|MLTF_AERHH -            5.4e-42  143.7   0.1   7.1e-42  143.3   0.1   1.2   1   0   0   1   1   1   1 Bacterial extracellular solute-binding proteins, family 3
+SLT                  PF01464.19 sp|A0KJ50|MLTF_AERHH -            7.4e-23   80.3   0.0   1.9e-22   79.0   0.0   1.7   2   0   0   2   2   2   1 Transglycosylase SLT domain
+Lysozyme_like        PF13702.5  sp|A0KJ50|MLTF_AERHH -            0.00063   19.4   0.0    0.0012   18.4   0.0   1.5   1   0   0   1   1   1   1 Lysozyme-like
+LysR_substrate       PF03466.19 sp|A0KJ50|MLTF_AERHH -             0.0032   16.8   0.0      0.54    9.5   0.0   2.4   2   0   0   2   2   2   2 LysR substrate binding domain
+Lig_chan-Glu_bd      PF10613.8  sp|A0KJ50|MLTF_AERHH -              0.018   15.1   0.0       0.1   12.7   0.0   2.3   2   1   0   2   2   2   0 Ligated ion channel L-glutamate- and glycine-binding site
+Phosphonate-bd       PF12974.6  sp|A0KJ50|MLTF_AERHH -              0.059   12.8   0.1      0.64    9.5   0.0   2.2   2   0   0   2   2   2   0 ABC transporter, phosphonate, periplasmic substrate-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A0KJ50.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A0KJ50.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A0KJ50.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:39:34 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PALP                 PF00291.24 sp|Q04513|ILVA_CORGL -              5e-70  236.1   5.8   6.2e-70  235.8   5.8   1.1   1   0   0   1   1   1   1 Pyridoxal-phosphate dependent enzyme
+Thr_dehydrat_C       PF00585.17 sp|Q04513|ILVA_CORGL -            3.1e-29  100.5   0.0   7.7e-29   99.2   0.0   1.7   1   0   0   1   1   1   1 C-terminal regulatory domain of Threonine dehydratase
+GARS_C               PF02843.15 sp|Q04513|ILVA_CORGL -              0.082   13.1   0.5      0.63   10.3   0.1   2.4   2   0   0   2   2   2   0 Phosphoribosylglycinamide synthetase, C domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q04513.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q04513.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q04513.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:22:13 2019
+# [ok]

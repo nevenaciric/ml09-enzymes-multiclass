@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FabA                 PF07977.12 sp|Q085D1|FABZ_SHEFN -            3.6e-40  136.7   0.1   4.1e-40  136.5   0.1   1.0   1   0   0   1   1   1   1 FabA-like domain
+MaoC_dehydratas      PF01575.18 sp|Q085D1|FABZ_SHEFN -              0.052   13.0   0.0     0.072   12.6   0.0   1.3   1   0   0   1   1   1   0 MaoC like domain
+Crystallin           PF00525.17 sp|Q085D1|FABZ_SHEFN -              0.083   13.0   0.1         4    7.6   0.1   2.8   2   1   0   2   2   2   0 Alpha crystallin A chain, N terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q085D1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q085D1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q085D1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:23:49 2019
+# [ok]

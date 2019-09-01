@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_syntA            PF00290.19 sp|Q5LV87|TRPA_RUEPO -            1.5e-94  315.6   0.2   1.7e-94  315.4   0.2   1.0   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+His_biosynth         PF00977.20 sp|Q5LV87|TRPA_RUEPO -             0.0016   17.9   0.5    0.0034   16.8   0.2   1.6   2   0   0   2   2   2   1 Histidine biosynthesis protein
+BtpA                 PF03437.14 sp|Q5LV87|TRPA_RUEPO -             0.0049   16.2   0.3     0.009   15.4   0.3   1.4   1   0   0   1   1   1   1 BtpA family
+PcrB                 PF01884.16 sp|Q5LV87|TRPA_RUEPO -              0.009   15.4   0.6     0.016   14.6   0.6   1.4   1   0   0   1   1   1   1 PcrB family
+DUF4217              PF13959.5  sp|Q5LV87|TRPA_RUEPO -               0.14   12.3   0.1      0.28   11.4   0.1   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF4217)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5LV87.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5LV87.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5LV87.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:57:33 2019
+# [ok]

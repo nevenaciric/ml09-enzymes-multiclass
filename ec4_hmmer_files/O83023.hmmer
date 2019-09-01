@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|O83023|PCKA_SELRU -           8.8e-204  677.4   0.8    1e-203  677.2   0.8   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+AAA_33               PF13671.5  sp|O83023|PCKA_SELRU -            0.00055   20.0   0.6      0.85    9.7   0.1   2.5   2   0   0   2   2   2   2 AAA domain
+FrhB_FdhB_C          PF04432.12 sp|O83023|PCKA_SELRU -             0.0018   18.0   0.0    0.0033   17.2   0.0   1.4   1   0   0   1   1   1   1 Coenzyme F420 hydrogenase/dehydrogenase, beta subunit C terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O83023.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O83023.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O83023.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:00:12 2019
+# [ok]

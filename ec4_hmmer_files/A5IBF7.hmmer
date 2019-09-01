@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PALP                 PF00291.24 sp|A5IBF7|TRPB_LEGPC -            1.3e-43  149.4   0.8   1.6e-43  149.1   0.8   1.1   1   0   0   1   1   1   1 Pyridoxal-phosphate dependent enzyme
+XdhC_C               PF13478.5  sp|A5IBF7|TRPB_LEGPC -               0.06   13.8   0.1      0.28   11.6   0.0   2.1   2   0   0   2   2   2   0 XdhC Rossmann domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A5IBF7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A5IBF7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A5IBF7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:57:19 2019
+# [ok]

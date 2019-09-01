@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Fapy_DNA_glyco       PF01149.23 sp|Q2YBI1|FPG_NITMU  -            5.7e-34  117.1   0.0     1e-33  116.3   0.0   1.4   1   0   0   1   1   1   1 Formamidopyrimidine-DNA glycosylase N-terminal domain
+H2TH                 PF06831.13 sp|Q2YBI1|FPG_NITMU  -            1.6e-23   82.4   0.0   2.7e-23   81.7   0.0   1.4   1   0   0   1   1   1   1 Formamidopyrimidine-DNA glycosylase H2TH domain
+zf-FPG_IleRS         PF06827.13 sp|Q2YBI1|FPG_NITMU  -            1.1e-10   41.1   6.9   2.6e-10   39.8   6.9   1.7   1   0   0   1   1   1   1 Zinc finger found in FPG and IleRS
+OrfB_Zn_ribbon       PF07282.10 sp|Q2YBI1|FPG_NITMU  -              0.044   13.6   2.7     0.082   12.7   2.7   1.4   1   0   0   1   1   1   0 Putative transposase DNA-binding domain
+Zn-ribbon_8          PF09723.9  sp|Q2YBI1|FPG_NITMU  -                0.2   11.7   1.4      0.39   10.8   1.4   1.5   1   0   0   1   1   1   0 Zinc ribbon domain
+zf-TFIIB             PF13453.5  sp|Q2YBI1|FPG_NITMU  -               0.55    9.5   3.1       1.1    8.5   3.1   1.5   1   0   0   1   1   1   0 Transcription factor zinc-finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q2YBI1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q2YBI1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q2YBI1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:39:58 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase               PF00117.27 sp|Q5V632|TRPG2_HALMA -              3e-45  154.2   0.0   3.4e-45  154.1   0.0   1.0   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|Q5V632|TRPG2_HALMA -            2.3e-07   30.7   1.1   1.1e-06   28.5   1.1   1.8   1   1   0   1   1   1   1 Peptidase C26
+Peripla_BP_2         PF01497.17 sp|Q5V632|TRPG2_HALMA -              0.021   14.3   0.0     0.032   13.7   0.0   1.2   1   0   0   1   1   1   0 Periplasmic binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5V632.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5V632.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5V632.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:59:58 2019
+# [ok]

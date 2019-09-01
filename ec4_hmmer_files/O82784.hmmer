@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMC_oxred_N          PF00732.18 sp|O82784|MDL4_PRUSE -            5.8e-30  104.6   0.2   1.8e-29  103.0   0.2   1.7   1   1   0   1   1   1   1 GMC oxidoreductase
+GMC_oxred_C          PF05199.12 sp|O82784|MDL4_PRUSE -            2.7e-22   79.7   0.0     5e-22   78.9   0.0   1.5   1   0   0   1   1   1   1 GMC oxidoreductase
+DAO                  PF01266.23 sp|O82784|MDL4_PRUSE -              0.003   17.1   0.1     0.022   14.3   0.1   2.1   2   0   0   2   2   2   1 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|O82784|MDL4_PRUSE -             0.0032   17.6   0.0    0.0072   16.4   0.0   1.6   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O82784.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O82784.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O82784.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:00:10 2019
+# [ok]

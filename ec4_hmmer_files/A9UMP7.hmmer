@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Enolase_C            PF00113.21 sp|A9UMP7|ENO4_XENLA -            7.6e-27   94.2   0.0   1.3e-26   93.5   0.0   1.3   1   0   0   1   1   1   1 Enolase, C-terminal TIM barrel domain
+Enolase_N            PF03952.15 sp|A9UMP7|ENO4_XENLA -            3.8e-11   43.2   0.1   1.5e-07   31.5   0.0   2.7   2   0   0   2   2   2   2 Enolase, N-terminal domain
+Phage_int_SAM_1      PF02899.16 sp|A9UMP7|ENO4_XENLA -               0.14   12.3   0.0      0.28   11.4   0.0   1.5   1   0   0   1   1   1   0 Phage integrase, N-terminal SAM-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A9UMP7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A9UMP7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A9UMP7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:13:51 2019
+# [ok]

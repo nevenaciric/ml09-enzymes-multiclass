@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPcase              PF00311.16 sp|Q8P1W7|CAPP_STRP8 -           3.1e-252  839.1   1.2  3.6e-252  838.9   1.2   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxylase
+PEPcase_2            PF14010.5  sp|Q8P1W7|CAPP_STRP8 -            2.5e-07   29.5   2.9   5.4e-07   28.4   0.0   2.8   3   1   1   4   4   4   1 Phosphoenolpyruvate carboxylase
+Bcl-2                PF00452.18 sp|Q8P1W7|CAPP_STRP8 -              0.099   13.1   0.1       6.7    7.3   0.0   3.0   2   0   0   2   2   2   0 Apoptosis regulator proteins, Bcl-2 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8P1W7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8P1W7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8P1W7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:22:52 2019
+# [ok]

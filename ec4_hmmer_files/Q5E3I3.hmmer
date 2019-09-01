@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHDPS                PF00701.21 sp|Q5E3I3|DAPA_ALIF1 -           4.1e-112  373.5   0.1  4.6e-112  373.4   0.1   1.0   1   0   0   1   1   1   1 Dihydrodipicolinate synthetase family
+YjgF_endoribonc      PF14588.5  sp|Q5E3I3|DAPA_ALIF1 -               0.12   12.4   0.3      0.54   10.3   0.1   2.0   1   1   1   2   2   2   0 YjgF/chorismate_mutase-like, putative endoribonuclease
+Pterin_4a            PF01329.18 sp|Q5E3I3|DAPA_ALIF1 -               0.16   12.1   0.0      0.68   10.1   0.0   1.9   2   0   0   2   2   2   0 Pterin 4 alpha carbinolamine dehydratase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5E3I3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5E3I3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5E3I3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:55:00 2019
+# [ok]

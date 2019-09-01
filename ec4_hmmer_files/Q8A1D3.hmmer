@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|Q8A1D3|ARLY_BACTN -            1.7e-50  172.1   0.0   2.6e-50  171.5   0.0   1.2   1   0   0   1   1   1   1 Lyase
+MnmE_helical         PF12631.6  sp|Q8A1D3|ARLY_BACTN -              0.014   15.5   0.0     0.029   14.4   0.0   1.5   1   0   0   1   1   1   0 MnmE helical domain
+ASL_C2               PF14698.5  sp|Q8A1D3|ARLY_BACTN -              0.015   16.0   0.0     0.047   14.3   0.0   1.9   1   0   0   1   1   1   0 Argininosuccinate lyase C-terminal
+Synapsin_N           PF10581.8  sp|Q8A1D3|ARLY_BACTN -              0.098   12.5   0.1      0.44   10.4   0.0   2.1   2   0   0   2   2   2   0 Synapsin N-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8A1D3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8A1D3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8A1D3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:18:14 2019
+# [ok]

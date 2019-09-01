@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IGPS                 PF00218.20 sp|A8LGR8|TRPC_FRASN -            3.3e-79  265.6   0.0   3.7e-79  265.4   0.0   1.0   1   0   0   1   1   1   1 Indole-3-glycerol phosphate synthase
+FMN_dh               PF01070.17 sp|A8LGR8|TRPC_FRASN -             0.0015   17.5   3.5     0.092   11.7   1.7   2.3   2   1   0   2   2   2   2 FMN-dependent dehydrogenase
+NanE                 PF04131.13 sp|A8LGR8|TRPC_FRASN -               0.01   15.0   0.3     0.041   13.0   0.2   2.1   2   1   0   2   2   2   0 Putative N-acetylmannosamine-6-phosphate epimerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A8LGR8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A8LGR8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A8LGR8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:09:48 2019
+# [ok]

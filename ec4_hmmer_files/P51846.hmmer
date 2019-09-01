@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|P51846|PDC2_TOBAC -              4e-36  124.1   0.0     8e-36  123.1   0.0   1.5   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_M         PF00205.21 sp|P51846|PDC2_TOBAC -            3.4e-19   68.9   0.0   6.7e-19   67.9   0.0   1.5   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, central domain
+TPP_enzyme_C         PF02775.20 sp|P51846|PDC2_TOBAC -            2.3e-15   56.6   0.1   1.6e-13   50.6   0.0   3.0   2   1   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+Cys_rich_CWC         PF14375.5  sp|P51846|PDC2_TOBAC -              0.051   13.9   0.1      0.16   12.3   0.1   1.8   1   0   0   1   1   1   0 Cysteine-rich CWC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P51846.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P51846.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P51846.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:13:57 2019
+# [ok]

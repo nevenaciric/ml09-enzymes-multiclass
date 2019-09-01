@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Aconitase_C          PF00694.18 sp|Q04DA2|LEUD_OENOB -            5.7e-36  123.7   0.0   7.8e-36  123.2   0.0   1.2   1   0   0   1   1   1   1 Aconitase C-terminal domain
+Laminin_B            PF00052.17 sp|Q04DA2|LEUD_OENOB -              0.067   13.0   0.0      0.15   11.9   0.0   1.5   1   1   0   1   1   1   0 Laminin B (Domain IV)
+Cbl_N3               PF02762.13 sp|Q04DA2|LEUD_OENOB -               0.11   12.3   0.0       0.2   11.4   0.0   1.5   1   0   0   1   1   1   0 CBL proto-oncogene N-terminus, SH2-like domain
+FAD_syn              PF06574.11 sp|Q04DA2|LEUD_OENOB -               0.14   11.9   0.0      0.38   10.5   0.0   1.7   1   1   0   1   1   1   0 FAD synthetase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q04DA2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q04DA2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q04DA2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:22:20 2019
+# [ok]

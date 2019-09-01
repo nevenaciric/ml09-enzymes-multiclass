@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Carb_anhydrase       PF00194.20 sp|O43570|CAH12_HUMAN -            2.7e-91  305.5   0.2   3.2e-91  305.3   0.2   1.0   1   0   0   1   1   1   1 Eukaryotic-type carbonic anhydrase
+Lamp                 PF01299.16 sp|O43570|CAH12_HUMAN -              0.037   13.5   0.6     0.058   12.8   0.6   1.2   1   0   0   1   1   1   0 Lysosome-associated membrane glycoprotein (Lamp)
+DUF4191              PF13829.5  sp|O43570|CAH12_HUMAN -              0.044   13.0   0.0     0.065   12.5   0.0   1.2   1   0   0   1   1   1   0 Domain of unknown function (DUF4191)
+DUF3149              PF11346.7  sp|O43570|CAH12_HUMAN -              0.056   13.0   1.8      0.11   12.0   1.8   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF3149)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O43570.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O43570.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O43570.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:58:36 2019
+# [ok]

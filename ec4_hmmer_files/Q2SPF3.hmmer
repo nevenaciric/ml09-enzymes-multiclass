@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Fapy_DNA_glyco       PF01149.23 sp|Q2SPF3|FPG_HAHCH  -            2.8e-34  118.1   0.0   4.5e-34  117.4   0.0   1.3   1   0   0   1   1   1   1 Formamidopyrimidine-DNA glycosylase N-terminal domain
+H2TH                 PF06831.13 sp|Q2SPF3|FPG_HAHCH  -            1.8e-27   95.1   0.0   5.6e-27   93.5   0.0   1.7   2   0   0   2   2   2   1 Formamidopyrimidine-DNA glycosylase H2TH domain
+zf-FPG_IleRS         PF06827.13 sp|Q2SPF3|FPG_HAHCH  -            9.4e-08   31.7   3.1   1.5e-07   31.1   3.1   1.3   1   0   0   1   1   1   1 Zinc finger found in FPG and IleRS
+zf-RING_7            PF02591.14 sp|Q2SPF3|FPG_HAHCH  -               0.11   12.6   0.5      0.28   11.3   0.5   1.8   1   1   0   1   1   1   0 C4-type zinc ribbon domain
+FbpA                 PF05833.10 sp|Q2SPF3|FPG_HAHCH  -               0.13   10.9   0.0      0.17   10.5   0.0   1.1   1   0   0   1   1   1   0 Fibronectin-binding protein A N-terminus (FbpA)
+zf-TFIIB             PF13453.5  sp|Q2SPF3|FPG_HAHCH  -               0.54    9.5   2.8       1.2    8.5   2.8   1.6   1   0   0   1   1   1   0 Transcription factor zinc-finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q2SPF3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q2SPF3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q2SPF3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:39:18 2019
+# [ok]

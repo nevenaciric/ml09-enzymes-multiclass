@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PS_Dcarbxylase       PF02666.14 sp|A6L1J5|PSD_BACV8  -            3.9e-27   95.0   1.2   1.8e-26   92.8   1.2   1.8   1   1   0   1   1   1   1 Phosphatidylserine decarboxylase
+RAG2_PHD             PF13341.5  sp|A6L1J5|PSD_BACV8  -               0.13   12.2   0.0      0.26   11.3   0.0   1.4   1   0   0   1   1   1   0 RAG2 PHD domain
+DUF3671              PF12420.7  sp|A6L1J5|PSD_BACV8  -               0.31   11.1   2.2      0.53   10.3   2.2   1.6   1   1   0   1   1   1   0 Protein of unknown function
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A6L1J5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A6L1J5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A6L1J5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:59:44 2019
+# [ok]

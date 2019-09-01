@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SBP_bac_3            PF00497.19 sp|Q0I361|MLTF_HAES1 -            1.9e-28   99.3   0.1   2.8e-28   98.8   0.1   1.2   1   0   0   1   1   1   1 Bacterial extracellular solute-binding proteins, family 3
+SLT                  PF01464.19 sp|Q0I361|MLTF_HAES1 -            3.2e-24   84.7   0.0     6e-24   83.9   0.0   1.4   1   0   0   1   1   1   1 Transglycosylase SLT domain
+LysR_substrate       PF03466.19 sp|Q0I361|MLTF_HAES1 -             0.0021   17.4   0.0      0.67    9.2   0.0   2.3   1   1   1   2   2   2   2 LysR substrate binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q0I361.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q0I361.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q0I361.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:25:50 2019
+# [ok]

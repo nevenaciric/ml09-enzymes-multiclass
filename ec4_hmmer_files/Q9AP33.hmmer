@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ectoine_synth        PF06339.11 sp|Q9AP33|ECTC_SPOPA -              3e-60  201.9   0.2   3.4e-60  201.7   0.2   1.0   1   0   0   1   1   1   1 Ectoine synthase
+Cupin_2              PF07883.10 sp|Q9AP33|ECTC_SPOPA -            9.6e-05   21.9   0.4   0.00014   21.4   0.4   1.2   1   0   0   1   1   1   1 Cupin domain
+DAGK_cat             PF00781.23 sp|Q9AP33|ECTC_SPOPA -                0.1   12.1   0.0      0.14   11.7   0.0   1.2   1   0   0   1   1   1   0 Diacylglycerol kinase catalytic domain
+PQQ_3                PF13570.5  sp|Q9AP33|ECTC_SPOPA -               0.34   11.4   2.0       5.4    7.5   2.0   2.9   1   1   0   1   1   1   0 PQQ-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9AP33.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9AP33.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9AP33.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:31:22 2019
+# [ok]

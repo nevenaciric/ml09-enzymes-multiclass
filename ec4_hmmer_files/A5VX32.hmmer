@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|A5VX32|PCKA_PSEP1 -           1.9e-187  623.5   0.0  2.2e-187  623.3   0.0   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+AAA_33               PF13671.5  sp|A5VX32|PCKA_PSEP1 -              0.047   13.7   0.1      0.29   11.2   0.0   2.1   2   0   0   2   2   2   0 AAA domain
+AAA_25               PF13481.5  sp|A5VX32|PCKA_PSEP1 -              0.072   12.6   0.0      0.19   11.2   0.0   1.7   1   0   0   1   1   1   0 AAA domain
+AAA_29               PF13555.5  sp|A5VX32|PCKA_PSEP1 -               0.12   12.0   1.0      0.29   10.8   0.1   2.1   2   0   0   2   2   2   0 P-loop containing region of AAA domain
+AAA_16               PF13191.5  sp|A5VX32|PCKA_PSEP1 -               0.16   12.3   0.0      0.26   11.5   0.0   1.3   1   0   0   1   1   1   0 AAA ATPase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A5VX32.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A5VX32.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A5VX32.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:59:14 2019
+# [ok]

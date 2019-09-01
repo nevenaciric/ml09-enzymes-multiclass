@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TP_methylase         PF00590.19 sp|Q5FP95|CYSG_GLUOX -            8.5e-51  172.8   0.1   1.6e-50  171.9   0.1   1.5   1   0   0   1   1   1   1 Tetrapyrrole (Corrin/Porphyrin) Methylases
+NAD_binding_7        PF13241.5  sp|Q5FP95|CYSG_GLUOX -            5.6e-19   68.4   0.0   1.2e-18   67.3   0.0   1.6   1   0   0   1   1   1   1 Putative NAD(P)-binding
+CysG_dimeriser       PF10414.8  sp|Q5FP95|CYSG_GLUOX -            8.5e-17   60.5   1.8     6e-16   57.8   0.6   2.8   1   1   1   2   2   2   1 Sirohaem synthase dimerisation region
+Sirohm_synth_M       PF14824.5  sp|Q5FP95|CYSG_GLUOX -            9.5e-09   34.5   0.1   2.1e-08   33.4   0.1   1.6   1   0   0   1   1   1   1 Sirohaem biosynthesis protein central
+DUF1956              PF09209.10 sp|Q5FP95|CYSG_GLUOX -              0.066   13.1   0.0      0.16   11.9   0.0   1.7   1   0   0   1   1   1   0 Domain of unknown function (DUF1956)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5FP95.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5FP95.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5FP95.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:55:33 2019
+# [ok]

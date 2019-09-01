@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|C4Y9D5|ARO1_CLAL4 -           4.9e-133  443.8   0.0  7.5e-133  443.1   0.0   1.2   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|C4Y9D5|ARO1_CLAL4 -           3.7e-101  337.6   0.6  6.3e-101  336.8   0.6   1.4   1   0   0   1   1   1   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|C4Y9D5|ARO1_CLAL4 -            5.4e-46  157.6   0.0   1.3e-45  156.3   0.0   1.7   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|C4Y9D5|ARO1_CLAL4 -            7.9e-35  120.2   0.3   1.2e-33  116.4   0.0   2.4   2   0   0   2   2   2   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|C4Y9D5|ARO1_CLAL4 -            9.7e-22   76.9   0.0   3.3e-21   75.2   0.0   2.0   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Fe-ADH_2             PF13685.5  sp|C4Y9D5|ARO1_CLAL4 -            2.2e-10   40.6   0.1   4.8e-10   39.5   0.1   1.6   1   0   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Shikimate_DH         PF01488.19 sp|C4Y9D5|ARO1_CLAL4 -            4.1e-06   26.8   0.0     1e-05   25.5   0.0   1.6   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+Fe-ADH               PF00465.18 sp|C4Y9D5|ARO1_CLAL4 -            8.3e-06   24.7   1.3   3.4e-05   22.7   1.3   2.0   1   1   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+AAA_33               PF13671.5  sp|C4Y9D5|ARO1_CLAL4 -             0.0022   18.1   0.0    0.0058   16.7   0.0   1.7   1   0   0   1   1   1   1 AAA domain
+Lon_C                PF05362.12 sp|C4Y9D5|ARO1_CLAL4 -              0.022   14.2   0.0     0.092   12.2   0.0   1.9   2   0   0   2   2   2   0 Lon protease (S16) C-terminal proteolytic domain
+CoA_binding          PF02629.18 sp|C4Y9D5|ARO1_CLAL4 -               0.12   12.9   0.3         1   10.0   0.0   2.8   2   0   0   2   2   2   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C4Y9D5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C4Y9D5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C4Y9D5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:52:21 2019
+# [ok]

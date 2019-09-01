@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RuBisCO_large        PF00016.19 sp|Q5ENN5|RBL2_HETTR -           2.3e-102  342.1   0.2  3.9e-102  341.4   0.2   1.4   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase large chain, catalytic domain
+RuBisCO_large_N      PF02788.15 sp|Q5ENN5|RBL2_HETTR -            4.2e-35  120.4   0.4   4.5e-34  117.1   0.1   2.2   2   0   0   2   2   2   1 Ribulose bisphosphate carboxylase large chain, N-terminal domain
+CelD_N               PF02927.13 sp|Q5ENN5|RBL2_HETTR -                0.1   13.4   0.2        75    4.2   0.0   3.7   3   0   0   3   3   3   0 Cellulase N-terminal ig-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5ENN5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5ENN5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5ENN5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:55:12 2019
+# [ok]

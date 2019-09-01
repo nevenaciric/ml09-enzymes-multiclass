@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PALP                 PF00291.24 sp|Q8TQD4|THRC_METAC -            7.3e-80  268.4   2.6   8.5e-80  268.2   2.6   1.0   1   0   0   1   1   1   1 Pyridoxal-phosphate dependent enzyme
+C1_2                 PF03107.15 sp|Q8TQD4|THRC_METAC -               0.18   12.1   1.8      0.42   10.9   1.8   1.6   1   0   0   1   1   1   0 C1 domain
+zinc_ribbon_2        PF13240.5  sp|Q8TQD4|THRC_METAC -               0.32   10.7   1.9      0.65    9.7   1.9   1.5   1   0   0   1   1   1   0 zinc-ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8TQD4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8TQD4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8TQD4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:24:35 2019
+# [ok]

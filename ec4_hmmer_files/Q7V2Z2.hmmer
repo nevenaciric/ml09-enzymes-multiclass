@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CpeS                 PF09367.9  sp|Q7V2Z2|CPES_PROMP -            9.5e-50  168.7   2.2   1.1e-49  168.6   2.2   1.0   1   0   0   1   1   1   1 CpeS-like protein
+Neuromodulin_N       PF10580.8  sp|Q7V2Z2|CPES_PROMP -               0.12   12.1   1.1      0.31   10.7   1.1   1.7   1   0   0   1   1   1   0 Gap junction protein N-terminal region
+Imm26                PF15428.5  sp|Q7V2Z2|CPES_PROMP -               0.17   12.1   1.7      0.28   11.3   0.2   2.0   2   0   0   2   2   2   0 Immunity protein 26
+DUF4898              PF16239.4  sp|Q7V2Z2|CPES_PROMP -               0.19   12.0   3.2      0.13   12.5   0.8   2.1   2   1   0   2   2   2   0 Domain of unknown function (DUF4898)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q7V2Z2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q7V2Z2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q7V2Z2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:12:15 2019
+# [ok]

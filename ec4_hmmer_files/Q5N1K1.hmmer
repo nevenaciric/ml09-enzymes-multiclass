@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|Q5N1K1|ARLY_SYNP6 -            1.5e-73  247.8   0.0   2.2e-73  247.3   0.0   1.2   1   0   0   1   1   1   1 Lyase
+ASL_C2               PF14698.5  sp|Q5N1K1|ARLY_SYNP6 -            3.9e-24   85.1   0.0   9.9e-24   83.8   0.0   1.7   1   0   0   1   1   1   1 Argininosuccinate lyase C-terminal
+NODP                 PF07684.11 sp|Q5N1K1|ARLY_SYNP6 -               0.12   12.4   0.4       2.5    8.2   0.1   2.5   2   0   0   2   2   2   0 NOTCH protein
+DUF1664              PF07889.11 sp|Q5N1K1|ARLY_SYNP6 -               0.18   11.7   0.0       1.6    8.7   0.0   2.4   3   0   0   3   3   3   0 Protein of unknown function (DUF1664)
+BMFP                 PF04380.12 sp|Q5N1K1|ARLY_SYNP6 -                4.9    7.6   7.0         3    8.3   0.2   3.5   3   1   1   4   4   4   0 Membrane fusogenic activity
+Apolipoprotein       PF01442.17 sp|Q5N1K1|ARLY_SYNP6 -                5.2    6.9   8.6      0.95    9.3   3.9   2.2   3   0   0   3   3   3   0 Apolipoprotein A1/A4/E domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5N1K1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5N1K1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5N1K1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:57:57 2019
+# [ok]

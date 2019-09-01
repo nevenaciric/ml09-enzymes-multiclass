@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHquinase_II         PF01220.18 sp|B1IMQ1|AROQ_CLOBK -            1.7e-57  192.9   1.0   1.9e-57  192.7   1.0   1.0   1   0   0   1   1   1   1 Dehydroquinase class II
+Kinase-PPPase        PF03618.13 sp|B1IMQ1|AROQ_CLOBK -             0.0005   19.8   0.1   0.00059   19.6   0.1   1.0   1   0   0   1   1   1   1 Kinase/pyrophosphorylase
+RNA_pol_Rpb1_7       PF04990.11 sp|B1IMQ1|AROQ_CLOBK -              0.061   13.2   0.1     0.083   12.8   0.1   1.2   1   0   0   1   1   1   0 RNA polymerase Rpb1, domain 7
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B1IMQ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B1IMQ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B1IMQ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:18:38 2019
+# [ok]

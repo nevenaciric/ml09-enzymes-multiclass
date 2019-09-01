@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+URO-D                PF01208.16 sp|B4U9S4|DCUP_HYDS0 -           1.3e-113  379.6   0.0  1.5e-113  379.4   0.0   1.0   1   0   0   1   1   1   1 Uroporphyrinogen decarboxylase (URO-D)
+Peptidase_C14        PF00656.21 sp|B4U9S4|DCUP_HYDS0 -            0.00071   19.5   0.0   0.00091   19.1   0.0   1.2   1   0   0   1   1   1   1 Caspase domain
+Lipase_GDSL_3        PF14606.5  sp|B4U9S4|DCUP_HYDS0 -              0.086   12.9   0.0       0.2   11.7   0.0   1.7   1   1   0   1   1   1   0 GDSL-like Lipase/Acylhydrolase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B4U9S4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B4U9S4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B4U9S4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:30:53 2019
+# [ok]

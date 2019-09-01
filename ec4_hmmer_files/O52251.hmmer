@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ectoine_synth        PF06339.11 sp|O52251|ECTC_HALED -              9e-54  181.0   0.1     1e-53  180.8   0.1   1.0   1   0   0   1   1   1   1 Ectoine synthase
+Cupin_2              PF07883.10 sp|O52251|ECTC_HALED -            3.5e-07   29.7   0.6   5.7e-07   29.1   0.6   1.3   1   0   0   1   1   1   1 Cupin domain
+AraC_binding         PF02311.18 sp|O52251|ECTC_HALED -            1.9e-05   24.5   1.3   2.6e-05   24.0   1.3   1.3   1   0   0   1   1   1   1 AraC-like ligand binding domain
+Pirin_C              PF05726.12 sp|O52251|ECTC_HALED -             0.0071   16.6   0.0      0.01   16.1   0.0   1.2   1   0   0   1   1   1   1 Pirin C-terminal cupin domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O52251.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O52251.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O52251.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:58:49 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|P59621|ARLY_XYLFT -              8e-47  160.0   0.0   1.1e-46  159.6   0.0   1.1   1   0   0   1   1   1   1 Lyase
+TilS                 PF09179.10 sp|P59621|ARLY_XYLFT -             0.0025   18.2   3.3    0.0045   17.4   1.5   2.4   2   0   0   2   2   2   1 TilS substrate binding domain
+ASL_C2               PF14698.5  sp|P59621|ARLY_XYLFT -             0.0039   17.8   0.3     0.018   15.7   0.3   2.2   1   0   0   1   1   1   1 Argininosuccinate lyase C-terminal
+Taxilin              PF09728.8  sp|P59621|ARLY_XYLFT -              0.028   13.6   0.0     0.043   13.0   0.0   1.2   1   0   0   1   1   1   0 Myosin-like coiled-coil protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P59621.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P59621.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P59621.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:15:49 2019
+# [ok]

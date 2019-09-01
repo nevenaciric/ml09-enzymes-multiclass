@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PS_Dcarbxylase       PF02666.14 sp|C1F3M6|PSD_ACIC5  -            1.6e-36  125.6   0.2   4.9e-35  120.8   0.2   2.0   1   1   0   1   1   1   1 Phosphatidylserine decarboxylase
+PTS_EIIA_1           PF00358.19 sp|C1F3M6|PSD_ACIC5  -            0.00048   19.8   0.1      0.15   11.7   0.0   2.9   3   1   0   3   3   3   1 phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+Peptidase_M23        PF01551.21 sp|C1F3M6|PSD_ACIC5  -             0.0019   18.3   1.7      0.47   10.6   0.1   3.2   2   1   1   3   3   3   1 Peptidase family M23
+RnfC_N               PF13375.5  sp|C1F3M6|PSD_ACIC5  -             0.0066   16.3   0.8       1.2    9.0   0.0   3.5   2   1   2   4   4   4   1 RnfC Barrel sandwich hybrid domain
+Biotin_lipoyl_2      PF13533.5  sp|C1F3M6|PSD_ACIC5  -             0.0069   16.1   3.0       1.9    8.3   0.0   3.9   4   0   0   4   4   4   1 Biotin-lipoyl like
+YwiC                 PF14256.5  sp|C1F3M6|PSD_ACIC5  -              0.028   14.7   4.4      0.06   13.6   4.4   1.5   1   0   0   1   1   1   0 YwiC-like protein
+DUF3329              PF11808.7  sp|C1F3M6|PSD_ACIC5  -              0.035   14.4   4.0     0.066   13.5   4.0   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF3329)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C1F3M6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C1F3M6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C1F3M6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:49:29 2019
+# [ok]

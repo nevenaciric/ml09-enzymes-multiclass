@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHquinase_II         PF01220.18 sp|B5FC62|AROQ_ALIFM -            4.4e-62  207.7   0.2     5e-62  207.5   0.2   1.0   1   0   0   1   1   1   1 Dehydroquinase class II
+MCM_N                PF14551.5  sp|B5FC62|AROQ_ALIFM -               0.03   14.8   0.7     0.045   14.2   0.2   1.4   2   0   0   2   2   2   0 MCM N-terminal domain
+GTF2I                PF02946.13 sp|B5FC62|AROQ_ALIFM -               0.13   12.2   0.1      0.51   10.3   0.0   1.9   2   0   0   2   2   2   0 GTF2I-like repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B5FC62.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B5FC62.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B5FC62.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:32:12 2019
+# [ok]

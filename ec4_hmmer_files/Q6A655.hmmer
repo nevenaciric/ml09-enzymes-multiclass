@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DeoC                 PF01791.8  sp|Q6A655|DEOC2_CUTAK -            6.6e-18   65.1   4.1     8e-18   64.8   4.1   1.0   1   0   0   1   1   1   1 DeoC/LacD family aldolase
+His_biosynth         PF00977.20 sp|Q6A655|DEOC2_CUTAK -              0.033   13.6   0.8      0.11   11.8   0.2   2.0   1   1   0   2   2   2   0 Histidine biosynthesis protein
+DHO_dh               PF01180.20 sp|Q6A655|DEOC2_CUTAK -               0.11   11.6   1.9      0.17   11.0   0.9   1.7   1   1   0   1   1   1   0 Dihydroorotate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q6A655.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q6A655.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q6A655.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:03:53 2019
+# [ok]

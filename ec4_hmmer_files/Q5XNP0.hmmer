@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|Q5XNP0|ARO1_SCLSC -           6.5e-127  423.6   0.0  9.9e-127  423.0   0.0   1.3   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|Q5XNP0|ARO1_SCLSC -           9.6e-103  342.8   0.0  1.8e-102  341.9   0.0   1.4   1   0   0   1   1   1   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|Q5XNP0|ARO1_SCLSC -            1.3e-58  198.9   0.0   2.7e-58  197.8   0.0   1.6   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|Q5XNP0|ARO1_SCLSC -            1.8e-34  119.1   0.0   9.3e-33  113.5   0.0   2.3   2   0   0   2   2   2   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|Q5XNP0|ARO1_SCLSC -            1.8e-23   82.5   0.0   4.7e-23   81.2   0.0   1.8   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Fe-ADH_2             PF13685.5  sp|Q5XNP0|ARO1_SCLSC -            8.4e-08   32.1   0.0   1.7e-07   31.1   0.0   1.5   1   0   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Shikimate_DH         PF01488.19 sp|Q5XNP0|ARO1_SCLSC -             0.0028   17.6   0.0    0.0071   16.3   0.0   1.6   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|Q5XNP0|ARO1_SCLSC -               0.12   12.5   0.0       2.3    8.4   0.0   2.4   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5XNP0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5XNP0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5XNP0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:00:43 2019
+# [ok]

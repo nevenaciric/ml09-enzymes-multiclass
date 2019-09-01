@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FabA                 PF07977.12 sp|Q5FGI7|FABZ_EHRRG -            4.1e-32  110.6   0.0   4.7e-32  110.4   0.0   1.0   1   0   0   1   1   1   1 FabA-like domain
+4HBT                 PF03061.21 sp|Q5FGI7|FABZ_EHRRG -             0.0023   18.2   0.0    0.0042   17.3   0.0   1.5   1   0   0   1   1   1   1 Thioesterase superfamily
+MaoC_dehydratas      PF01575.18 sp|Q5FGI7|FABZ_EHRRG -                0.1   12.1   0.1      0.26   10.7   0.0   1.9   1   1   1   2   2   2   0 MaoC like domain
+PS-DH                PF14765.5  sp|Q5FGI7|FABZ_EHRRG -               0.21   10.7   0.0      0.56    9.3   0.0   1.6   1   1   1   2   2   2   0 Polyketide synthase dehydratase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5FGI7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5FGI7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5FGI7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:55:25 2019
+# [ok]

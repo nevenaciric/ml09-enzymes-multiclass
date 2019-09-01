@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|Q88AZ4|PCKA_PSESM -           2.9e-187  622.9   0.0  3.4e-187  622.7   0.0   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+AAA_24               PF13479.5  sp|Q88AZ4|PCKA_PSESM -             0.0018   18.0   0.0    0.0032   17.1   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q88AZ4|PCKA_PSESM -              0.031   14.6   0.0     0.053   13.8   0.0   1.3   1   0   0   1   1   1   0 AAA ATPase domain
+AAA_25               PF13481.5  sp|Q88AZ4|PCKA_PSESM -              0.058   12.9   0.0       0.2   11.1   0.0   1.8   2   0   0   2   2   2   0 AAA domain
+AAA_33               PF13671.5  sp|Q88AZ4|PCKA_PSESM -               0.13   12.3   0.1       0.3   11.1   0.1   1.6   1   0   0   1   1   1   0 AAA domain
+AAA_29               PF13555.5  sp|Q88AZ4|PCKA_PSESM -               0.16   11.6   1.4      0.34   10.6   0.1   2.2   2   0   0   2   2   2   0 P-loop containing region of AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q88AZ4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q88AZ4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q88AZ4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:17:09 2019
+# [ok]

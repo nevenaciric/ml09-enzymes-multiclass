@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|Q9M039|PDC3_ARATH -            2.6e-35  121.5   0.0   4.6e-35  120.6   0.0   1.4   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_M         PF00205.21 sp|Q9M039|PDC3_ARATH -            5.3e-22   78.0   0.0   1.2e-21   76.8   0.0   1.6   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, central domain
+TPP_enzyme_C         PF02775.20 sp|Q9M039|PDC3_ARATH -            2.2e-17   63.2   1.0   7.5e-16   58.2   0.0   3.1   3   1   0   3   3   3   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9M039.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9M039.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9M039.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:35:24 2019
+# [ok]

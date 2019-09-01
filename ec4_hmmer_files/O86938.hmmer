@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_C         PF02775.20 sp|O86938|PPD_STRVT  -            7.4e-19   67.9   0.6   2.2e-18   66.4   0.6   1.8   1   1   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+TPP_enzyme_N         PF02776.17 sp|O86938|PPD_STRVT  -            9.4e-15   54.5   1.1   1.4e-13   50.7   0.0   2.3   2   1   0   2   2   2   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+POR_N                PF01855.18 sp|O86938|PPD_STRVT  -              0.013   15.2   0.3     0.033   13.9   0.0   1.9   2   0   0   2   2   2   0 Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O86938.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O86938.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O86938.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:00:29 2019
+# [ok]

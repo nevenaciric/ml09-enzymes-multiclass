@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ECH_1                PF00378.19 sp|Q5PIL1|CAID_SALPA -            4.2e-84  281.7   0.0   4.7e-84  281.5   0.0   1.0   1   0   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+ECH_2                PF16113.4  sp|Q5PIL1|CAID_SALPA -            1.3e-32  113.5   0.0   1.5e-32  113.3   0.0   1.1   1   0   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+Peptidase_S49        PF01343.17 sp|Q5PIL1|CAID_SALPA -             0.0022   17.9   0.0     0.043   13.7   0.0   2.1   2   0   0   2   2   2   1 Peptidase family S49
+Plectin              PF00681.19 sp|Q5PIL1|CAID_SALPA -              0.087   12.6   0.0      0.25   11.1   0.0   1.8   2   0   0   2   2   2   0 Plectin repeat
+SDH_sah              PF01972.15 sp|Q5PIL1|CAID_SALPA -               0.13   11.1   0.0      0.17   10.8   0.0   1.2   1   0   0   1   1   1   0 Serine dehydrogenase proteinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5PIL1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5PIL1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5PIL1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:58:49 2019
+# [ok]

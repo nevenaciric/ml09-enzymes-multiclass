@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Carb_anhydrase       PF00194.20 sp|Q50940|CAH_NEIGO  -            2.5e-45  154.9   0.3   5.3e-45  153.9   0.3   1.5   1   1   0   1   1   1   1 Eukaryotic-type carbonic anhydrase
+MmoB_DmpM            PF02406.16 sp|Q50940|CAH_NEIGO  -              0.072   13.2   0.0      0.16   12.1   0.0   1.5   1   0   0   1   1   1   0 MmoB/DmpM family
+Cu_amine_oxidN1      PF07833.10 sp|Q50940|CAH_NEIGO  -               0.11   13.0   0.0      0.19   12.2   0.0   1.4   1   0   0   1   1   1   0 Copper amine oxidase N-terminal domain
+Glyco_hydro_65C      PF03633.14 sp|Q50940|CAH_NEIGO  -                1.2    9.0   0.0       1.2    9.0   0.0   2.8   4   0   0   4   4   4   0 Glycosyl hydrolase family 65, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q50940.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q50940.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q50940.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:52:17 2019
+# [ok]

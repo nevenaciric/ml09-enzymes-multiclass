@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SBP_bac_3            PF00497.19 sp|A6VMD7|MLTF_ACTSZ -            6.6e-31  107.4   0.4   1.1e-30  106.6   0.4   1.4   1   0   0   1   1   1   1 Bacterial extracellular solute-binding proteins, family 3
+SLT                  PF01464.19 sp|A6VMD7|MLTF_ACTSZ -            2.7e-23   81.7   0.0   5.7e-23   80.7   0.0   1.6   1   0   0   1   1   1   1 Transglycosylase SLT domain
+Lysozyme_like        PF13702.5  sp|A6VMD7|MLTF_ACTSZ -             0.0027   17.3   0.0    0.0098   15.5   0.0   2.0   1   1   0   1   1   1   1 Lysozyme-like
+DctP                 PF03480.12 sp|A6VMD7|MLTF_ACTSZ -              0.012   14.9   0.1       1.9    7.6   0.0   2.3   2   0   0   2   2   2   0 Bacterial extracellular solute-binding protein, family 7
+Phosphonate-bd       PF12974.6  sp|A6VMD7|MLTF_ACTSZ -              0.056   12.9   0.1       0.2   11.1   0.1   1.9   1   1   0   1   1   1   0 ABC transporter, phosphonate, periplasmic substrate-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A6VMD7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A6VMD7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A6VMD7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:02:35 2019
+# [ok]

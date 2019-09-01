@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP_mutase           PF13714.5  sp|Q13Q00|OADC_PARXL -            1.5e-43  148.9   2.0   1.8e-43  148.6   2.0   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate phosphomutase
+Pantoate_transf      PF02548.14 sp|Q13Q00|OADC_PARXL -            4.4e-06   26.2   0.7   0.00054   19.3   0.1   2.9   2   1   0   2   2   2   2 Ketopantoate hydroxymethyltransferase
+ICL                  PF00463.20 sp|Q13Q00|OADC_PARXL -             0.0031   16.0   0.1    0.0041   15.6   0.1   1.1   1   0   0   1   1   1   1 Isocitrate lyase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q13Q00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q13Q00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q13Q00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:29:24 2019
+# [ok]

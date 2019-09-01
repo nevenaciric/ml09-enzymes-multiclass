@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP_mutase           PF13714.5  sp|Q135C1|OADC_RHOPS -            1.6e-40  138.9   4.1   2.1e-40  138.6   4.1   1.1   1   0   0   1   1   1   1 Phosphoenolpyruvate phosphomutase
+ICL                  PF00463.20 sp|Q135C1|OADC_RHOPS -              0.032   12.6   0.1     0.041   12.3   0.1   1.1   1   0   0   1   1   1   0 Isocitrate lyase family
+DAHP_synth_1         PF00793.19 sp|Q135C1|OADC_RHOPS -              0.059   12.1   0.0      0.33    9.7   0.0   1.9   1   1   1   2   2   2   0 DAHP synthetase I family
+PucR                 PF07905.10 sp|Q135C1|OADC_RHOPS -               0.16   12.2   2.1       8.2    6.6   0.0   3.5   2   1   2   4   4   4   0 Purine catabolism regulatory protein-like family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q135C1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q135C1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q135C1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:29:13 2019
+# [ok]

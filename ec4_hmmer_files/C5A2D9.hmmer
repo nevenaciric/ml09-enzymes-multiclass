@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_int_endo        PF01974.16 sp|C5A2D9|ENDA_THEGJ -            1.3e-32  111.6   0.2   1.9e-32  111.1   0.2   1.2   1   0   0   1   1   1   1 tRNA intron endonuclease, catalytic C-terminal domain
+tRNA_int_endo_N      PF02778.13 sp|C5A2D9|ENDA_THEGJ -            9.2e-21   73.2   0.5   9.2e-21   73.2   0.5   1.7   2   0   0   2   2   2   1 tRNA intron endonuclease, N-terminal domain
+tRNA_int_end_N2      PF12928.6  sp|C5A2D9|ENDA_THEGJ -            0.00058   19.9   0.2    0.0026   17.8   0.0   2.2   3   0   0   3   3   3   1 tRNA-splicing endonuclease subunit sen54 N-term
+Sen15                PF09631.9  sp|C5A2D9|ENDA_THEGJ -               0.02   15.1   0.0     0.035   14.3   0.0   1.5   1   1   0   1   1   1   0 Sen15 protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C5A2D9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C5A2D9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C5A2D9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:52:53 2019
+# [ok]

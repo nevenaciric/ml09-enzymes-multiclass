@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHquinase_I          PF01487.14 sp|P63592|AROD_STRP8 -            1.7e-49  169.1   0.0   1.9e-49  168.9   0.0   1.0   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+FAD_syn              PF06574.11 sp|P63592|AROD_STRP8 -             0.0076   16.1   0.1     0.011   15.5   0.1   1.2   1   0   0   1   1   1   1 FAD synthetase
+Radical_SAM          PF04055.20 sp|P63592|AROD_STRP8 -              0.055   13.7   0.0      0.58   10.4   0.0   2.0   1   1   0   1   1   1   0 Radical SAM superfamily
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P63592.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P63592.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P63592.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:16:37 2019
+# [ok]

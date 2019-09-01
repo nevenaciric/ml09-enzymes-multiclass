@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+F_bP_aldolase        PF01116.19 sp|Q9KAH3|IOLJ_BACHD -            5.7e-94  314.6   0.9   6.4e-94  314.4   0.9   1.0   1   0   0   1   1   1   1 Fructose-bisphosphate aldolase class-II
+ThiG                 PF05690.13 sp|Q9KAH3|IOLJ_BACHD -            0.00028   20.2   1.0      0.19   10.9   0.0   2.4   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+PGM_PMM_I            PF02878.15 sp|Q9KAH3|IOLJ_BACHD -               0.13   11.9   0.4       5.1    6.7   0.1   2.7   2   1   0   2   2   2   0 Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain I
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9KAH3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9KAH3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9KAH3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:34:16 2019
+# [ok]

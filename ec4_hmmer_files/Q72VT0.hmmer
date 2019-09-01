@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|Q72VT0|PCKA_LEPIC -           1.5e-218  726.1   0.1  1.7e-218  725.9   0.1   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+AAA_33               PF13671.5  sp|Q72VT0|PCKA_LEPIC -               0.14   12.2   0.2      0.85    9.7   0.0   2.1   2   0   0   2   2   2   0 AAA domain
+AAA_16               PF13191.5  sp|Q72VT0|PCKA_LEPIC -               0.15   12.4   0.0      0.29   11.4   0.0   1.4   1   0   0   1   1   1   0 AAA ATPase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q72VT0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q72VT0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q72VT0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:08:31 2019
+# [ok]

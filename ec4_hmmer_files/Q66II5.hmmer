@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_racemase         PF05544.10 sp|Q66II5|T3HPD_XENTR -           3.1e-111  371.4   0.1  3.5e-111  371.3   0.1   1.0   1   0   0   1   1   1   1 Proline racemase
+PrpF                 PF04303.12 sp|Q66II5|T3HPD_XENTR -              0.028   13.3   0.2     0.062   12.1   0.2   1.6   1   1   0   1   1   1   0 PrpF protein
+Slx4                 PF09494.9  sp|Q66II5|T3HPD_XENTR -              0.074   12.9   0.0      0.15   11.9   0.0   1.4   1   0   0   1   1   1   0 Slx4 endonuclease
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q66II5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q66II5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q66II5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:03:28 2019
+# [ok]

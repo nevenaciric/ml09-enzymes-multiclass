@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+OKR_DC_1             PF01276.19 sp|P24169|DCOS_ECOLI -           2.3e-200  665.6   0.0  2.7e-200  665.3   0.0   1.1   1   0   0   1   1   1   1 Orn/Lys/Arg decarboxylase, major domain
+OKR_DC_1_C           PF03711.14 sp|P24169|DCOS_ECOLI -            4.1e-49  166.2   0.2   1.1e-48  164.7   0.1   1.8   2   0   0   2   2   2   1 Orn/Lys/Arg decarboxylase, C-terminal domain
+OKR_DC_1_N           PF03709.14 sp|P24169|DCOS_ECOLI -            8.6e-23   80.6   0.0   1.6e-22   79.8   0.0   1.5   1   0   0   1   1   1   1 Orn/Lys/Arg decarboxylase, N-terminal domain
+Beta_elim_lyase      PF01212.20 sp|P24169|DCOS_ECOLI -              0.042   13.0   0.0     0.074   12.2   0.0   1.3   1   0   0   1   1   1   0 Beta-eliminating lyase
+NLPC_P60             PF00877.18 sp|P24169|DCOS_ECOLI -              0.098   12.6   0.0         7    6.6   0.0   2.8   2   1   0   2   2   2   0 NlpC/P60 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P24169.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P24169.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P24169.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:07:33 2019
+# [ok]

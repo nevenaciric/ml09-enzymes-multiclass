@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PDT                  PF00800.17 sp|Q44104|PHEA_AMYME -            4.4e-49  166.7   0.0   6.1e-49  166.2   0.0   1.2   1   0   0   1   1   1   1 Prephenate dehydratase
+ACT                  PF01842.24 sp|Q44104|PHEA_AMYME -            6.2e-09   35.4   0.0   1.6e-08   34.1   0.0   1.7   1   0   0   1   1   1   1 ACT domain
+SBP_bac_3            PF00497.19 sp|Q44104|PHEA_AMYME -            0.00061   19.2   0.6       0.9    8.8   0.2   2.5   2   0   0   2   2   2   2 Bacterial extracellular solute-binding proteins, family 3
+ACT_4                PF13291.5  sp|Q44104|PHEA_AMYME -              0.016   15.7   0.0     0.034   14.6   0.0   1.5   1   0   0   1   1   1   0 ACT domain
+Phosphonate-bd       PF12974.6  sp|Q44104|PHEA_AMYME -                0.5    9.8   3.7       1.4    8.3   1.0   2.3   1   1   0   2   2   2   0 ABC transporter, phosphonate, periplasmic substrate-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q44104.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q44104.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q44104.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:47:33 2019
+# [ok]

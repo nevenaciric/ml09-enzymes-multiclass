@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PALP                 PF00291.24 sp|Q58H57|CBS_MACFA  -            1.6e-65  221.4   0.0     2e-65  221.1   0.0   1.1   1   0   0   1   1   1   1 Pyridoxal-phosphate dependent enzyme
+CBS                  PF00571.27 sp|Q58H57|CBS_MACFA  -            1.8e-09   37.8   0.0   1.7e-07   31.4   0.0   2.9   2   0   0   2   2   2   1 CBS domain
+DUF1414              PF07208.10 sp|Q58H57|CBS_MACFA  -               0.12   12.3   0.0      0.25   11.3   0.0   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF1414)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q58H57.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q58H57.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q58H57.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:54:16 2019
+# [ok]

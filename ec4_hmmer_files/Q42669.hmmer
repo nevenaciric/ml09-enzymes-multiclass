@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Aconitase            PF00330.19 sp|Q42669|ACOC_CUCMC -           1.6e-153  511.9   0.0  1.9e-153  511.6   0.0   1.1   1   0   0   1   1   1   1 Aconitase family (aconitate hydratase)
+Aconitase_C          PF00694.18 sp|Q42669|ACOC_CUCMC -            6.1e-41  139.7   0.0   9.9e-41  139.1   0.0   1.3   1   0   0   1   1   1   1 Aconitase C-terminal domain
+PTS_IIB              PF02302.16 sp|Q42669|ACOC_CUCMC -              0.079   13.6   1.0       1.5    9.4   0.0   2.6   1   1   1   2   2   2   0 PTS system, Lactose/Cellobiose specific IIB subunit
+HypD                 PF01924.15 sp|Q42669|ACOC_CUCMC -               0.09   11.7   0.0      0.14   11.1   0.0   1.2   1   0   0   1   1   1   0 Hydrogenase formation hypA family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q42669.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q42669.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q42669.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:47:15 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|P06672|PDC_ZYMMO  -            6.7e-33  113.6   0.7   4.4e-32  110.9   0.8   2.1   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_C         PF02775.20 sp|P06672|PDC_ZYMMO  -            9.2e-23   80.6   1.8   3.8e-20   72.1   0.2   3.2   2   1   1   3   3   3   2 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+TPP_enzyme_M         PF00205.21 sp|P06672|PDC_ZYMMO  -              7e-19   67.8   0.0   1.5e-18   66.8   0.0   1.5   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, central domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P06672.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P06672.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P06672.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:02:03 2019
+# [ok]

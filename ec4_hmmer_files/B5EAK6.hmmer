@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_syntA            PF00290.19 sp|B5EAK6|TRPA_GEOBB -            8.9e-93  309.8   0.1     1e-92  309.6   0.1   1.0   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+PcrB                 PF01884.16 sp|B5EAK6|TRPA_GEOBB -            1.6e-05   24.4   1.2    0.0001   21.8   0.2   2.4   2   1   0   3   3   3   1 PcrB family
+His_biosynth         PF00977.20 sp|B5EAK6|TRPA_GEOBB -             0.0001   21.8   0.2   0.00032   20.1   0.0   1.9   3   0   0   3   3   3   1 Histidine biosynthesis protein
+BtpA                 PF03437.14 sp|B5EAK6|TRPA_GEOBB -              0.056   12.8   0.1      0.11   11.9   0.1   1.4   1   0   0   1   1   1   0 BtpA family
+DUF561               PF04481.11 sp|B5EAK6|TRPA_GEOBB -               0.14   11.2   0.2       3.5    6.6   0.0   2.4   2   1   0   2   2   2   0 Protein of unknown function (DUF561)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B5EAK6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B5EAK6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B5EAK6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:31:33 2019
+# [ok]

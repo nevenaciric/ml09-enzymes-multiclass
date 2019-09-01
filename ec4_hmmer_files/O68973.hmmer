@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PBS_linker_poly      PF00427.20 sp|O68973|APCE_SYNP2 -           1.7e-138  454.5   9.2   1.8e-45  153.9   0.1   3.3   3   0   0   3   3   3   3 Phycobilisome Linker polypeptide
+Phycobilisome        PF00502.18 sp|O68973|APCE_SYNP2 -            1.2e-26   93.4   1.2   4.1e-15   55.9   0.0   3.4   4   0   0   4   4   4   2 Phycobilisome protein
+CTP_transf_3         PF02348.18 sp|O68973|APCE_SYNP2 -              0.028   14.2   0.3      0.29   10.9   0.0   2.5   2   1   0   2   2   2   0 Cytidylyltransferase
+PSCyt2               PF07583.10 sp|O68973|APCE_SYNP2 -               0.14   12.0   0.1        14    5.4   0.0   2.9   3   0   0   3   3   3   0 Protein of unknown function (DUF1549)
+PSD1                 PF07587.10 sp|O68973|APCE_SYNP2 -                1.7    8.0   4.2        78    2.5   0.0   4.3   4   1   1   5   5   5   0 Protein of unknown function (DUF1553)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O68973.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O68973.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O68973.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:59:47 2019
+# [ok]

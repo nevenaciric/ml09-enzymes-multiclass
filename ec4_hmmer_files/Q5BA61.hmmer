@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pec_lyase_C          PF00544.18 sp|Q5BA61|PELB_EMENI -            6.5e-16   58.5  12.2   1.4e-14   54.1  12.2   2.2   1   1   0   1   1   1   1 Pectate lyase
+Beta_helix           PF13229.5  sp|Q5BA61|PELB_EMENI -            6.1e-05   22.8  16.7   0.00049   19.9   8.2   2.4   1   1   1   2   2   2   2 Right handed beta helix region
+Latrotoxin_C         PF15658.5  sp|Q5BA61|PELB_EMENI -              0.097   12.3   0.3      0.29   10.8   0.1   2.0   2   0   0   2   2   2   0 Latrotoxin C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5BA61.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5BA61.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5BA61.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:54:52 2019
+# [ok]

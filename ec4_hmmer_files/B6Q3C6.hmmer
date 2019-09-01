@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHquinase_II         PF01220.18 sp|B6Q3C6|3DHQ_TALMQ -            1.4e-63  212.6   0.4   1.6e-63  212.4   0.4   1.0   1   0   0   1   1   1   1 Dehydroquinase class II
+Enoyl_reductase      PF12241.7  sp|B6Q3C6|3DHQ_TALMQ -              0.048   12.9   0.0     0.067   12.4   0.0   1.2   1   0   0   1   1   1   0 Trans-2-enoyl-CoA reductase catalytic region
+DUF629               PF04780.11 sp|B6Q3C6|3DHQ_TALMQ -               0.11   10.9   0.0      0.15   10.5   0.0   1.2   1   0   0   1   1   1   0 Protein of unknown function (DUF629)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B6Q3C6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B6Q3C6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B6Q3C6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:35:59 2019
+# [ok]

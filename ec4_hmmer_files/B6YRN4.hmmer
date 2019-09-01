@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|B6YRN4|PCKA_AZOPC -           8.1e-198  657.7   0.1    1e-197  657.4   0.1   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+RNA_pol_Rpc34        PF05158.11 sp|B6YRN4|PCKA_AZOPC -              0.033   13.5   1.0      0.06   12.6   0.1   1.8   3   0   0   3   3   3   0 RNA polymerase Rpc34 subunit
+AAA_33               PF13671.5  sp|B6YRN4|PCKA_AZOPC -               0.14   12.2   0.7      0.46   10.5   0.1   2.2   3   0   0   3   3   3   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B6YRN4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B6YRN4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B6YRN4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:36:07 2019
+# [ok]

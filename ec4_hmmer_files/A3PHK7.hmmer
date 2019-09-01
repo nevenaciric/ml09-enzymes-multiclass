@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IGPS                 PF00218.20 sp|A3PHK7|TRPC_RHOS1 -            6.9e-95  316.9   0.0   7.9e-95  316.7   0.0   1.0   1   0   0   1   1   1   1 Indole-3-glycerol phosphate synthase
+FMN_dh               PF01070.17 sp|A3PHK7|TRPC_RHOS1 -              0.018   14.0   0.1     0.039   12.9   0.1   1.8   1   1   0   1   1   1   0 FMN-dependent dehydrogenase
+QRPTase_C            PF01729.18 sp|A3PHK7|TRPC_RHOS1 -              0.031   13.9   0.0     0.054   13.2   0.0   1.5   1   0   0   1   1   1   0 Quinolinate phosphoribosyl transferase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A3PHK7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A3PHK7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A3PHK7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:50:18 2019
+# [ok]

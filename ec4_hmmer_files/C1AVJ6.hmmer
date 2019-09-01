@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ectoine_synth        PF06339.11 sp|C1AVJ6|ECTC_RHOOB -            1.4e-55  186.8   0.1   1.6e-55  186.7   0.1   1.0   1   0   0   1   1   1   1 Ectoine synthase
+Cupin_2              PF07883.10 sp|C1AVJ6|ECTC_RHOOB -            2.2e-07   30.4   0.3   3.2e-07   29.9   0.3   1.3   1   0   0   1   1   1   1 Cupin domain
+AraC_binding         PF02311.18 sp|C1AVJ6|ECTC_RHOOB -            2.3e-05   24.2   0.0   0.00014   21.7   0.1   1.8   1   1   1   2   2   2   1 AraC-like ligand binding domain
+Cupin_6              PF12852.6  sp|C1AVJ6|ECTC_RHOOB -              0.006   16.2   0.0    0.0071   16.0   0.0   1.1   1   0   0   1   1   1   1 Cupin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C1AVJ6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C1AVJ6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C1AVJ6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:48:14 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AdoMet_dc            PF02675.14 sp|O28663|SPEH_ARCFU -            1.5e-35  121.6   0.0   1.6e-35  121.4   0.0   1.0   1   0   0   1   1   1   1 S-adenosylmethionine decarboxylase
+QueF                 PF14489.5  sp|O28663|SPEH_ARCFU -             0.0023   17.9   0.2     0.056   13.5   0.0   2.1   2   0   0   2   2   2   1 QueF-like protein
+Fucose_iso_N2        PF07882.11 sp|O28663|SPEH_ARCFU -              0.045   13.2   0.0     0.057   12.9   0.0   1.2   1   0   0   1   1   1   0 L-fucose isomerase, second N-terminal domain
+AhpC-TSA             PF00578.20 sp|O28663|SPEH_ARCFU -              0.058   13.2   0.0     0.097   12.5   0.0   1.4   1   1   1   2   2   2   0 AhpC/TSA family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O28663.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O28663.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O28663.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:57:47 2019
+# [ok]

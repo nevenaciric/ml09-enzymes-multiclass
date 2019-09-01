@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PBS_linker_poly      PF00427.20 sp|P28561|APCE_AGLNE -             3e-119  392.4  12.4   2.9e-41  140.4   1.2   3.6   3   0   0   3   3   3   3 Phycobilisome Linker polypeptide
+Phycobilisome        PF00502.18 sp|P28561|APCE_AGLNE -            1.2e-24   86.9   0.2   4.3e-13   49.4   0.0   3.0   3   0   0   3   3   3   2 Phycobilisome protein
+DUF1389              PF07146.10 sp|P28561|APCE_AGLNE -              0.087   12.0   4.4       1.3    8.1   1.0   2.6   2   0   0   2   2   2   0 Protein of unknown function (DUF1389)
+PSD1                 PF07587.10 sp|P28561|APCE_AGLNE -               0.16   11.3   5.6        20    4.5   0.0   5.2   5   1   1   6   6   6   0 Protein of unknown function (DUF1553)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P28561.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P28561.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P28561.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:09:20 2019
+# [ok]

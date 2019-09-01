@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PBS_linker_poly      PF00427.20 sp|P28035|APCE_SYNP6 -            5.1e-91  301.1   4.4   1.1e-44  151.4   0.6   2.3   2   0   0   2   2   2   2 Phycobilisome Linker polypeptide
+Phycobilisome        PF00502.18 sp|P28035|APCE_SYNP6 -              5e-28   97.9   0.1   9.7e-15   54.7   0.0   3.4   3   0   0   3   3   3   2 Phycobilisome protein
+GvpG                 PF05120.11 sp|P28035|APCE_SYNP6 -              0.098   12.6   0.0        22    5.1   0.0   2.5   2   0   0   2   2   2   0 Gas vesicle protein G
+KorB                 PF08535.9  sp|P28035|APCE_SYNP6 -               0.14   12.1   0.5       1.1    9.2   0.1   2.6   2   0   0   2   2   2   0 KorB domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P28035.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P28035.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P28035.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:08:39 2019
+# [ok]

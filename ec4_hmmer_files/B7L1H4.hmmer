@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PALP                 PF00291.24 sp|B7L1H4|TRPB_METC4 -            5.9e-40  137.4   0.1   7.3e-40  137.1   0.1   1.1   1   0   0   1   1   1   1 Pyridoxal-phosphate dependent enzyme
+Lipase3_N            PF03893.15 sp|B7L1H4|TRPB_METC4 -               0.13   12.2   0.0        12    5.9   0.0   3.0   3   0   0   3   3   3   0 Lipase 3 N-terminal region
+DUF2065              PF09838.8  sp|B7L1H4|TRPB_METC4 -               0.13   12.2   0.4        17    5.5   0.2   2.6   2   0   0   2   2   2   0 Uncharacterized protein conserved in bacteria (DUF2065)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B7L1H4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B7L1H4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B7L1H4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:38:10 2019
+# [ok]

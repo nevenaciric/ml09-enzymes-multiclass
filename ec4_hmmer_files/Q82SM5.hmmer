@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|Q82SM5|FUMC_NITEU -           1.7e-117  392.2   0.0  2.1e-117  391.9   0.0   1.1   1   0   0   1   1   1   1 Lyase
+FumaraseC_C          PF10415.8  sp|Q82SM5|FUMC_NITEU -            3.3e-26   91.4   0.2   7.5e-26   90.2   0.2   1.7   1   0   0   1   1   1   1 Fumarase C C-terminus
+YmaF                 PF12788.6  sp|Q82SM5|FUMC_NITEU -              0.021   15.2   0.6     0.064   13.7   0.1   2.1   2   1   0   2   2   2   0 YmaF family
+ADH_N                PF08240.11 sp|Q82SM5|FUMC_NITEU -              0.064   13.0   0.0      0.16   11.8   0.0   1.6   1   0   0   1   1   1   0 Alcohol dehydrogenase GroES-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q82SM5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q82SM5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q82SM5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:15:04 2019
+# [ok]

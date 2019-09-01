@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPcase              PF00311.16 sp|A3MA94|CAPP_ACIBT -           3.6e-280  931.5   2.6    5e-280  931.0   2.6   1.2   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxylase
+PEPcase_2            PF14010.5  sp|A3MA94|CAPP_ACIBT -            8.1e-08   31.1   0.0   1.6e-07   30.1   0.0   1.4   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxylase
+Seryl_tRNA_N         PF02403.21 sp|A3MA94|CAPP_ACIBT -               0.72   10.0   4.2       2.7    8.1   0.1   3.7   4   0   0   4   4   4   0 Seryl-tRNA synthetase N-terminal domain
+FTA4                 PF13093.5  sp|A3MA94|CAPP_ACIBT -                1.6    8.4   9.4      0.06   13.1   1.6   2.5   3   0   0   3   3   3   0 Kinetochore complex Fta4 of Sim4 subunit, or CENP-50
+Cortex-I_coil        PF09304.9  sp|A3MA94|CAPP_ACIBT -                5.2    7.2   9.4       9.4    6.4   0.8   3.6   3   1   0   3   3   3   0 Cortexillin I, coiled coil
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A3MA94.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A3MA94.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A3MA94.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:49:12 2019
+# [ok]

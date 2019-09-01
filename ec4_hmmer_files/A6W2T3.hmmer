@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHQ_synthase         PF01761.19 sp|A6W2T3|AROB_MARMS -           6.9e-107  356.4   0.0  8.5e-107  356.1   0.0   1.1   1   0   0   1   1   1   1 3-dehydroquinate synthase
+Fe-ADH_2             PF13685.5  sp|A6W2T3|AROB_MARMS -            5.9e-16   58.8   0.7   1.8e-14   53.9   0.7   2.1   1   1   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Fe-ADH               PF00465.18 sp|A6W2T3|AROB_MARMS -              8e-10   38.0   0.3     8e-10   38.0   0.3   1.6   2   0   0   2   2   2   1 Iron-containing alcohol dehydrogenase
+AlaDh_PNT_C          PF01262.20 sp|A6W2T3|AROB_MARMS -              0.033   13.4   0.2     0.085   12.0   0.2   1.7   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A6W2T3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A6W2T3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A6W2T3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:02:52 2019
+# [ok]

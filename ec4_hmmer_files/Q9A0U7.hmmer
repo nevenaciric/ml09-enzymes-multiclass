@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPcase              PF00311.16 sp|Q9A0U7|CAPP_STRP1 -           3.6e-253  842.2   2.5  4.3e-253  841.9   2.5   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxylase
+PEPcase_2            PF14010.5  sp|Q9A0U7|CAPP_STRP1 -            1.2e-07   30.5   0.0   1.2e-07   30.5   0.0   2.7   3   1   0   3   3   3   1 Phosphoenolpyruvate carboxylase
+Asn_synthase         PF00733.20 sp|Q9A0U7|CAPP_STRP1 -               0.11   12.0   0.0      0.25   10.8   0.0   1.5   1   0   0   1   1   1   0 Asparagine synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9A0U7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9A0U7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9A0U7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:31:01 2019
+# [ok]

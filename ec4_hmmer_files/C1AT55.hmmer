@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IGPS                 PF00218.20 sp|C1AT55|TRPC_RHOOB -            1.6e-82  276.4   0.1   1.8e-82  276.3   0.1   1.0   1   0   0   1   1   1   1 Indole-3-glycerol phosphate synthase
+FMN_dh               PF01070.17 sp|C1AT55|TRPC_RHOOB -            6.4e-06   25.3   2.2   0.00013   21.0   1.1   2.2   1   1   1   2   2   2   2 FMN-dependent dehydrogenase
+OMPdecase            PF00215.23 sp|C1AT55|TRPC_RHOOB -            5.5e-05   22.8   0.0   7.7e-05   22.3   0.0   1.2   1   1   0   1   1   1   1 Orotidine 5'-phosphate decarboxylase / HUMPS family
+NAD_binding_3        PF03447.15 sp|C1AT55|TRPC_RHOOB -                  1   10.0   5.5       4.8    7.8   1.4   3.4   2   2   0   2   2   2   0 Homoserine dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C1AT55.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C1AT55.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C1AT55.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:48:13 2019
+# [ok]

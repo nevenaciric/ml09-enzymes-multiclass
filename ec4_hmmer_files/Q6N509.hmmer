@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP_mutase           PF13714.5  sp|Q6N509|OADC_RHOPA -            9.4e-42  143.0   3.2   1.1e-41  142.7   3.2   1.1   1   0   0   1   1   1   1 Phosphoenolpyruvate phosphomutase
+DAHP_synth_1         PF00793.19 sp|Q6N509|OADC_RHOPA -             0.0016   17.3   0.0      0.18   10.5   0.0   2.1   1   1   0   2   2   2   2 DAHP synthetase I family
+Pantoate_transf      PF02548.14 sp|Q6N509|OADC_RHOPA -              0.016   14.5   0.9      0.92    8.7   0.1   2.6   1   1   1   3   3   3   0 Ketopantoate hydroxymethyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q6N509.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q6N509.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q6N509.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:07:14 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_syntA            PF00290.19 sp|B4SEN7|TRPA_PELPB -            7.8e-71  237.8   0.0   9.1e-71  237.6   0.0   1.0   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+BtpA                 PF03437.14 sp|B4SEN7|TRPA_PELPB -             0.0027   17.1   0.0    0.0053   16.1   0.0   1.5   1   0   0   1   1   1   1 BtpA family
+His_biosynth         PF00977.20 sp|B4SEN7|TRPA_PELPB -              0.029   13.7   0.0     0.043   13.2   0.0   1.2   1   0   0   1   1   1   0 Histidine biosynthesis protein
+Peripla_BP_4         PF13407.5  sp|B4SEN7|TRPA_PELPB -              0.049   13.1   0.0      0.21   11.0   0.0   1.9   2   1   0   2   2   2   0 Periplasmic binding protein domain
+Vps23_core           PF09454.9  sp|B4SEN7|TRPA_PELPB -              0.059   13.2   0.0      0.13   12.2   0.0   1.6   1   0   0   1   1   1   0 Vps23 core domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B4SEN7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B4SEN7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B4SEN7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:29:24 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HpcH_HpaI            PF03328.13 sp|A4WVF5|MCAL_RHOS5 -            6.6e-45  152.8   0.2   1.3e-44  151.9   0.0   1.5   2   0   0   2   2   2   1 HpcH/HpaI aldolase/citrate lyase family
+C-C_Bond_Lyase       PF15617.5  sp|A4WVF5|MCAL_RHOS5 -            5.1e-10   38.9   0.1   7.8e-05   21.9   0.1   2.2   2   0   0   2   2   2   2 C-C_Bond_Lyase of the TIM-Barrel fold
+Malate_synthase      PF01274.21 sp|A4WVF5|MCAL_RHOS5 -              0.099   10.8   0.0       2.4    6.2   0.0   2.0   2   0   0   2   2   2   0 Malate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A4WVF5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A4WVF5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A4WVF5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:54:23 2019
+# [ok]

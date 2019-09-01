@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|P20906|MDLC_PSEPU -            2.3e-49  167.2   0.4   3.1e-44  150.5   0.0   2.4   2   0   0   2   2   2   2 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_C         PF02775.20 sp|P20906|MDLC_PSEPU -            4.7e-34  117.3   1.0   1.3e-33  115.8   0.0   2.2   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+TPP_enzyme_M         PF00205.21 sp|P20906|MDLC_PSEPU -            5.3e-20   71.5   0.0   1.1e-19   70.5   0.0   1.5   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, central domain
+E1_dh                PF00676.19 sp|P20906|MDLC_PSEPU -              0.001   18.0   0.3    0.0032   16.3   0.3   1.9   1   1   0   1   1   1   1 Dehydrogenase E1 component
+XFP_N                PF09364.9  sp|P20906|MDLC_PSEPU -             0.0014   17.4   0.0    0.0022   16.7   0.0   1.2   1   0   0   1   1   1   1 XFP N-terminal domain
+F_bP_aldolase        PF01116.19 sp|P20906|MDLC_PSEPU -             0.0022   17.4   0.1     0.074   12.4   0.0   2.2   2   0   0   2   2   2   1 Fructose-bisphosphate aldolase class-II
+DXP_synthase_N       PF13292.5  sp|P20906|MDLC_PSEPU -             0.0091   15.1   0.1      0.22   10.6   0.0   2.8   4   0   0   4   4   4   1 1-deoxy-D-xylulose-5-phosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P20906.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P20906.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P20906.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:06:54 2019
+# [ok]

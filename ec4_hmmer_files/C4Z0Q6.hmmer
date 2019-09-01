@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|C4Z0Q6|PCKA_EUBE2 -             1e-205  683.8   0.5  1.2e-205  683.6   0.5   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+DUF4914              PF16260.4  sp|C4Z0Q6|PCKA_EUBE2 -             0.0016   16.5   0.2    0.0024   15.9   0.2   1.2   1   0   0   1   1   1   1 Domain of unknown function (DUF4914)
+AAA_33               PF13671.5  sp|C4Z0Q6|PCKA_EUBE2 -                0.1   12.6   0.2      0.82    9.7   0.1   2.2   2   0   0   2   2   2   0 AAA domain
+AAA_18               PF13238.5  sp|C4Z0Q6|PCKA_EUBE2 -               0.13   12.6   0.1       5.2    7.5   0.0   2.4   2   0   0   2   2   2   0 AAA domain
+AAA_30               PF13604.5  sp|C4Z0Q6|PCKA_EUBE2 -               0.58    9.7   2.2        28    4.3   0.1   2.9   4   0   0   4   4   4   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C4Z0Q6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C4Z0Q6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C4Z0Q6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:52:23 2019
+# [ok]

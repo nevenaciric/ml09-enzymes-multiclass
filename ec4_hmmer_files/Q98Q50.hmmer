@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Enolase_C            PF00113.21 sp|Q98Q50|ENO_MYCPU  -           5.8e-119  396.6   1.8  8.2e-119  396.1   1.8   1.2   1   0   0   1   1   1   1 Enolase, C-terminal TIM barrel domain
+Enolase_N            PF03952.15 sp|Q98Q50|ENO_MYCPU  -            6.8e-57  191.2   1.0   1.6e-56  189.9   0.2   1.9   2   0   0   2   2   2   1 Enolase, N-terminal domain
+MR_MLE_C             PF13378.5  sp|Q98Q50|ENO_MYCPU  -            0.00021   20.9   0.0    0.0004   20.0   0.0   1.4   1   0   0   1   1   1   1 Enolase C-terminal domain-like
+MAAL_C               PF07476.10 sp|Q98Q50|ENO_MYCPU  -             0.0032   16.6   0.5    0.0067   15.5   0.1   1.7   2   0   0   2   2   2   1 Methylaspartate ammonia-lyase C-terminus
+DUF2675              PF11247.7  sp|Q98Q50|ENO_MYCPU  -              0.072   13.1   0.1      0.18   11.8   0.1   1.6   1   0   0   1   1   1   0 Protein of unknown function (DUF2675)
+Dpoe2NT              PF12213.7  sp|Q98Q50|ENO_MYCPU  -               0.13   12.5   0.0      0.38   11.0   0.0   1.8   1   0   0   1   1   1   0 DNA polymerases epsilon N terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q98Q50.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q98Q50.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q98Q50.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:30:50 2019
+# [ok]

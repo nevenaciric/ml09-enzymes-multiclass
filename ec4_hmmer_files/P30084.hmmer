@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ECH_1                PF00378.19 sp|P30084|ECHM_HUMAN -           1.8e-103  345.1   1.9  2.3e-103  344.8   1.9   1.1   1   0   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+ECH_2                PF16113.4  sp|P30084|ECHM_HUMAN -            9.5e-41  140.3   2.2   4.6e-38  131.5   0.1   2.0   1   1   1   2   2   2   2 Enoyl-CoA hydratase/isomerase
+Peptidase_S49        PF01343.17 sp|P30084|ECHM_HUMAN -            0.00011   22.0   0.2     0.077   12.8   0.0   2.9   3   0   0   3   3   3   2 Peptidase family S49
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P30084.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P30084.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P30084.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:09:36 2019
+# [ok]

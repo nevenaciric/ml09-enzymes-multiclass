@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|A7GDQ7|HIS6_CLOBL -            5.1e-90  300.8   1.0   5.8e-90  300.7   1.0   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|A7GDQ7|HIS6_CLOBL -            1.4e-07   30.9   0.0    0.0069   15.4   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|A7GDQ7|HIS6_CLOBL -            1.5e-07   31.0   0.0   5.3e-05   22.7   0.0   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+TMP-TENI             PF02581.16 sp|A7GDQ7|HIS6_CLOBL -            1.7e-06   27.4   0.1      0.03   13.6   0.0   2.3   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+G3P_antiterm         PF04309.11 sp|A7GDQ7|HIS6_CLOBL -            0.00038   19.8   0.1     0.012   15.0   0.0   2.3   2   0   0   2   2   2   1 Glycerol-3-phosphate responsive antiterminator
+DHO_dh               PF01180.20 sp|A7GDQ7|HIS6_CLOBL -              0.016   14.3   0.0      0.47    9.5   0.0   2.5   3   0   0   3   3   3   0 Dihydroorotate dehydrogenase
+IMPDH                PF00478.24 sp|A7GDQ7|HIS6_CLOBL -              0.021   13.8   0.5      0.26   10.1   0.2   2.0   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+PcrB                 PF01884.16 sp|A7GDQ7|HIS6_CLOBL -              0.037   13.4   0.7     0.079   12.3   0.1   1.8   2   0   0   2   2   2   0 PcrB family
+ThiG                 PF05690.13 sp|A7GDQ7|HIS6_CLOBL -              0.046   12.9   0.0       5.7    6.1   0.0   2.3   1   1   0   2   2   2   0 Thiazole biosynthesis protein ThiG
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A7GDQ7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A7GDQ7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A7GDQ7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:03:58 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|A4RD09|ARO1_MAGO7 -           1.1e-129  432.8   0.0  1.5e-129  432.3   0.0   1.2   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|A4RD09|ARO1_MAGO7 -           1.2e-102  342.5   0.0    2e-102  341.7   0.0   1.4   1   0   0   1   1   1   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|A4RD09|ARO1_MAGO7 -            7.1e-61  206.3   0.0   1.2e-60  205.5   0.0   1.4   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|A4RD09|ARO1_MAGO7 -            4.5e-35  121.0   0.0   2.4e-33  115.4   0.0   2.3   2   0   0   2   2   2   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|A4RD09|ARO1_MAGO7 -            3.9e-25   87.8   0.0   9.7e-25   86.5   0.0   1.7   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Fe-ADH_2             PF13685.5  sp|A4RD09|ARO1_MAGO7 -            2.9e-08   33.7   0.0     7e-08   32.4   0.0   1.6   1   0   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Shikimate_DH         PF01488.19 sp|A4RD09|ARO1_MAGO7 -             0.0058   16.6   0.0     0.028   14.4   0.0   2.0   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+AAA_33               PF13671.5  sp|A4RD09|ARO1_MAGO7 -              0.054   13.6   0.0      0.14   12.2   0.0   1.7   1   0   0   1   1   1   0 AAA domain
+T6SS_VipA            PF05591.11 sp|A4RD09|ARO1_MAGO7 -              0.072   12.8   0.0      0.15   11.8   0.0   1.4   1   0   0   1   1   1   0 Type VI secretion system, VipA, VC_A0107 or Hcp2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A4RD09.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A4RD09.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A4RD09.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:52:23 2019
+# [ok]

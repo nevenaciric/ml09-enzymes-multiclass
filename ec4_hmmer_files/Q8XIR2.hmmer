@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DeoC                 PF01791.8  sp|Q8XIR2|DEOC_CLOPE -            1.7e-21   76.8   5.9   2.1e-21   76.5   5.9   1.1   1   0   0   1   1   1   1 DeoC/LacD family aldolase
+His_biosynth         PF00977.20 sp|Q8XIR2|DEOC_CLOPE -              0.015   14.6   1.6     0.051   12.9   0.2   2.1   1   1   1   2   2   2   0 Histidine biosynthesis protein
+PapC_N               PF13954.5  sp|Q8XIR2|DEOC_CLOPE -              0.032   14.2   0.0      0.05   13.5   0.0   1.3   1   0   0   1   1   1   0 PapC N-terminal domain
+DHO_dh               PF01180.20 sp|Q8XIR2|DEOC_CLOPE -               0.12   11.4   2.7      0.18   10.9   1.3   1.9   1   1   0   2   2   2   0 Dihydroorotate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8XIR2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8XIR2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8XIR2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:26:02 2019
+# [ok]

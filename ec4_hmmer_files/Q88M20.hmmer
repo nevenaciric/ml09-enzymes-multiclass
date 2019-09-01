@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|Q88M20|FUMC_PSEPK -           7.6e-105  350.6   0.0  9.6e-105  350.3   0.0   1.1   1   0   0   1   1   1   1 Lyase
+FumaraseC_C          PF10415.8  sp|Q88M20|FUMC_PSEPK -            2.2e-27   95.1   0.1   4.8e-27   94.1   0.1   1.6   1   0   0   1   1   1   1 Fumarase C C-terminus
+GHMP_kinases_N       PF00288.25 sp|Q88M20|FUMC_PSEPK -             0.0049   17.0   0.1     0.027   14.6   0.0   2.4   2   0   0   2   2   2   1 GHMP kinases N terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q88M20.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q88M20.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q88M20.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:17:21 2019
+# [ok]

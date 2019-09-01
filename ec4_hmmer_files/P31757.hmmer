@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Alliinase_C          PF04864.12 sp|P31757|ALLN_ALLCE -           3.1e-178  592.1   1.7  3.6e-178  591.9   1.7   1.0   1   0   0   1   1   1   1 Allinase
+EGF_alliinase        PF04863.12 sp|P31757|ALLN_ALLCE -            3.4e-26   91.3   7.2   6.4e-26   90.4   7.2   1.5   1   0   0   1   1   1   1 Alliinase EGF-like domain
+Aminotran_1_2        PF00155.20 sp|P31757|ALLN_ALLCE -            6.3e-06   25.5   0.0     0.024   13.7   0.0   2.3   2   0   0   2   2   2   2 Aminotransferase class I and II
+EGF_2                PF07974.12 sp|P31757|ALLN_ALLCE -              0.036   14.3   4.0     0.086   13.1   4.0   1.6   1   0   0   1   1   1   0 EGF-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P31757.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P31757.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P31757.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:10:05 2019
+# [ok]

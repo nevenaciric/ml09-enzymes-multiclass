@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DeoC                 PF01791.8  sp|C3PI20|DEOC_CORA7 -            8.7e-13   48.3   6.8   1.1e-12   48.0   6.8   1.1   1   0   0   1   1   1   1 DeoC/LacD family aldolase
+His_biosynth         PF00977.20 sp|C3PI20|DEOC_CORA7 -            0.00042   19.7   1.0    0.0031   16.9   0.2   2.1   1   1   0   2   2   2   1 Histidine biosynthesis protein
+DHO_dh               PF01180.20 sp|C3PI20|DEOC_CORA7 -              0.022   13.9   1.7     0.035   13.2   0.4   1.8   1   1   0   2   2   2   0 Dihydroorotate dehydrogenase
+Radical_SAM          PF04055.20 sp|C3PI20|DEOC_CORA7 -              0.064   13.5   0.0      0.11   12.8   0.0   1.7   1   1   0   1   1   1   0 Radical SAM superfamily
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C3PI20.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C3PI20.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C3PI20.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:51:36 2019
+# [ok]

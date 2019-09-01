@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ectoine_synth        PF06339.11 sp|A4TEW9|ECTC_MYCGI -            8.4e-56  187.5   0.2   9.6e-56  187.3   0.2   1.0   1   0   0   1   1   1   1 Ectoine synthase
+Cupin_2              PF07883.10 sp|A4TEW9|ECTC_MYCGI -            1.7e-08   33.9   2.3   2.5e-08   33.4   2.3   1.2   1   0   0   1   1   1   1 Cupin domain
+AraC_binding         PF02311.18 sp|A4TEW9|ECTC_MYCGI -            0.00023   21.0   0.9   0.00028   20.7   0.9   1.2   1   0   0   1   1   1   1 AraC-like ligand binding domain
+Cupin_6              PF12852.6  sp|A4TEW9|ECTC_MYCGI -             0.0019   17.9   0.1    0.0022   17.6   0.1   1.1   1   0   0   1   1   1   1 Cupin
+AraC_binding_2       PF14525.5  sp|A4TEW9|ECTC_MYCGI -              0.061   12.9   0.3      0.11   12.1   0.3   1.4   1   1   0   1   1   1   0 AraC-binding-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A4TEW9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A4TEW9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A4TEW9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:53:01 2019
+# [ok]

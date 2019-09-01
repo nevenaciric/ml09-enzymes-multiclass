@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHDPS                PF00701.21 sp|Q6G091|DAPA_BARQU -            3.2e-90  301.7   0.0   3.5e-90  301.5   0.0   1.0   1   0   0   1   1   1   1 Dihydrodipicolinate synthetase family
+Amidohydro_2         PF04909.13 sp|Q6G091|DAPA_BARQU -              0.026   14.2   0.0     0.044   13.5   0.0   1.3   1   0   0   1   1   1   0 Amidohydrolase
+PA                   PF02225.21 sp|Q6G091|DAPA_BARQU -              0.048   13.7   0.2      0.17   11.9   0.1   2.0   2   0   0   2   2   2   0 PA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q6G091.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q6G091.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q6G091.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:05:21 2019
+# [ok]

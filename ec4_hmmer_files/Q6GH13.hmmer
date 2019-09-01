@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHDPS                PF00701.21 sp|Q6GH13|DAPA_STAAR -            3.6e-74  249.0   0.6   4.2e-74  248.8   0.6   1.0   1   0   0   1   1   1   1 Dihydrodipicolinate synthetase family
+FtsZ_C               PF12327.7  sp|Q6GH13|DAPA_STAAR -               0.04   14.1   0.3     0.077   13.2   0.3   1.5   1   0   0   1   1   1   0 FtsZ family, C-terminal domain
+NIF3                 PF01784.17 sp|Q6GH13|DAPA_STAAR -              0.043   13.4   1.0      0.87    9.1   0.6   2.6   1   1   1   2   2   2   0 NIF3 (NGG1p interacting factor 3)
+SIS                  PF01380.21 sp|Q6GH13|DAPA_STAAR -              0.057   13.2   0.1      0.13   12.0   0.1   1.5   1   1   0   1   1   1   0 SIS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q6GH13.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q6GH13.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q6GH13.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:05:58 2019
+# [ok]

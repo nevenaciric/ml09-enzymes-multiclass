@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PS_Dcarbxylase       PF02666.14 sp|Q67NP3|PSD_SYMTH  -            1.8e-35  122.3   0.0   1.3e-34  119.5   0.0   1.9   1   1   0   1   1   1   1 Phosphatidylserine decarboxylase
+DUF4131              PF13567.5  sp|Q67NP3|PSD_SYMTH  -             0.0048   16.5   1.1     0.011   15.3   0.4   1.9   2   0   0   2   2   2   1 Domain of unknown function (DUF4131)
+Peptidase_M23        PF01551.21 sp|Q67NP3|PSD_SYMTH  -               0.12   12.4   0.0        32    4.7   0.0   2.9   2   1   1   3   3   3   0 Peptidase family M23
+HlyD_3               PF13437.5  sp|Q67NP3|PSD_SYMTH  -               0.16   12.6   0.1        34    5.1   0.0   2.6   3   0   0   3   3   3   0 HlyD family secretion protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q67NP3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q67NP3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q67NP3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:03:38 2019
+# [ok]

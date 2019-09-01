@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_syntA            PF00290.19 sp|B8FA37|TRPA_DESAL -            2.5e-90  301.7   0.0   2.9e-90  301.5   0.0   1.0   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+PcrB                 PF01884.16 sp|B8FA37|TRPA_DESAL -             0.0002   20.8   0.1     0.036   13.4   0.0   2.8   2   1   1   3   3   3   1 PcrB family
+His_biosynth         PF00977.20 sp|B8FA37|TRPA_DESAL -              0.036   13.4   0.1     0.071   12.5   0.1   1.5   1   0   0   1   1   1   0 Histidine biosynthesis protein
+BtpA                 PF03437.14 sp|B8FA37|TRPA_DESAL -              0.065   12.6   0.1      0.11   11.7   0.1   1.4   1   0   0   1   1   1   0 BtpA family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B8FA37.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B8FA37.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B8FA37.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:43:04 2019
+# [ok]

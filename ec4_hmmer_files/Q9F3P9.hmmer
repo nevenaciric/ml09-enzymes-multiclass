@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Enolase_C            PF00113.21 sp|Q9F3P9|ENO2_STRCO -           2.6e-116  387.9   0.0  3.3e-116  387.6   0.0   1.1   1   0   0   1   1   1   1 Enolase, C-terminal TIM barrel domain
+Enolase_N            PF03952.15 sp|Q9F3P9|ENO2_STRCO -            6.8e-55  184.7   0.3   1.5e-54  183.5   0.3   1.6   1   0   0   1   1   1   1 Enolase, N-terminal domain
+MR_MLE_C             PF13378.5  sp|Q9F3P9|ENO2_STRCO -            1.8e-08   34.2   0.7   2.5e-08   33.7   0.1   1.6   2   0   0   2   2   2   1 Enolase C-terminal domain-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9F3P9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9F3P9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9F3P9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:32:28 2019
+# [ok]

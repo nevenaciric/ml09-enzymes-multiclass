@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|C1DAK5|HIS6_LARHH -            1.1e-91  306.3   1.2   1.2e-91  306.1   1.2   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|C1DAK5|HIS6_LARHH -            8.8e-08   31.5   0.6   0.00013   21.1   0.1   2.1   1   1   1   2   2   2   2 Dihydrouridine synthase (Dus)
+ThiG                 PF05690.13 sp|C1DAK5|HIS6_LARHH -            1.3e-07   31.0   2.4    0.0029   16.8   0.4   2.1   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+NMO                  PF03060.14 sp|C1DAK5|HIS6_LARHH -            1.8e-07   30.8   4.1   0.00056   19.3   0.4   2.2   2   0   0   2   2   2   2 Nitronate monooxygenase
+G3P_antiterm         PF04309.11 sp|C1DAK5|HIS6_LARHH -            4.4e-06   26.1   0.3   0.00035   19.9   0.1   2.2   2   0   0   2   2   2   1 Glycerol-3-phosphate responsive antiterminator
+TMP-TENI             PF02581.16 sp|C1DAK5|HIS6_LARHH -            4.1e-05   22.9   0.2      0.15   11.3   0.0   2.5   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+DHO_dh               PF01180.20 sp|C1DAK5|HIS6_LARHH -            0.00065   18.9   0.3      0.11   11.6   0.0   2.1   2   0   0   2   2   2   2 Dihydroorotate dehydrogenase
+IMPDH                PF00478.24 sp|C1DAK5|HIS6_LARHH -              0.003   16.5   3.1      0.34    9.8   0.3   2.2   2   0   0   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+DUF561               PF04481.11 sp|C1DAK5|HIS6_LARHH -              0.069   12.2   0.1       1.9    7.5   0.0   2.1   2   0   0   2   2   2   0 Protein of unknown function (DUF561)
+PcrB                 PF01884.16 sp|C1DAK5|HIS6_LARHH -              0.076   12.4   0.0      0.14   11.5   0.0   1.5   1   0   0   1   1   1   0 PcrB family
+Radical_SAM          PF04055.20 sp|C1DAK5|HIS6_LARHH -               0.18   12.1   0.1       1.3    9.2   0.1   2.1   1   1   1   2   2   2   0 Radical SAM superfamily
+FMN_dh               PF01070.17 sp|C1DAK5|HIS6_LARHH -               0.44    9.4   7.3      0.13   11.1   0.2   2.7   1   1   2   3   3   3   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C1DAK5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C1DAK5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C1DAK5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:48:57 2019
+# [ok]

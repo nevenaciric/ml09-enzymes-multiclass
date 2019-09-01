@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Enolase_C            PF00113.21 sp|Q6M075|ENO_METMP  -           1.3e-126  421.7   1.6  1.8e-126  421.2   1.6   1.1   1   0   0   1   1   1   1 Enolase, C-terminal TIM barrel domain
+Enolase_N            PF03952.15 sp|Q6M075|ENO_METMP  -              2e-56  189.6   0.4   3.9e-56  188.7   0.4   1.5   1   0   0   1   1   1   1 Enolase, N-terminal domain
+MR_MLE_C             PF13378.5  sp|Q6M075|ENO_METMP  -            3.6e-06   26.7   0.0   4.9e-06   26.2   0.0   1.3   1   0   0   1   1   1   1 Enolase C-terminal domain-like
+FTR_C                PF02741.14 sp|Q6M075|ENO_METMP  -              0.034   14.1   0.1     0.078   12.9   0.1   1.6   1   0   0   1   1   1   0 FTR, proximal lobe
+MAAL_C               PF07476.10 sp|Q6M075|ENO_METMP  -              0.036   13.1   0.2     0.092   11.8   0.0   1.7   2   0   0   2   2   2   0 Methylaspartate ammonia-lyase C-terminus
+MR_MLE_N             PF02746.15 sp|Q6M075|ENO_METMP  -               0.12   12.5   0.2      0.23   11.6   0.2   1.5   1   0   0   1   1   1   0 Mandelate racemase / muconate lactonizing enzyme, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q6M075.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q6M075.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q6M075.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:07:01 2019
+# [ok]

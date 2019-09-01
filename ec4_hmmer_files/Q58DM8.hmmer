@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ECH_1                PF00378.19 sp|Q58DM8|ECHM_BOVIN -              1e-98  329.6   2.4   1.2e-98  329.4   2.4   1.0   1   0   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+ECH_2                PF16113.4  sp|Q58DM8|ECHM_BOVIN -            1.2e-37  130.0   4.3   4.5e-35  121.6   0.5   2.1   1   1   1   2   2   2   2 Enoyl-CoA hydratase/isomerase
+Peptidase_S49        PF01343.17 sp|Q58DM8|ECHM_BOVIN -            0.00013   21.9   0.1     0.073   12.9   0.0   2.5   2   0   0   2   2   2   2 Peptidase family S49
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q58DM8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q58DM8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q58DM8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:54:14 2019
+# [ok]

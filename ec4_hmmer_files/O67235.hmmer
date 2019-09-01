@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DPBB_1               PF03330.17 sp|O67235|RLPA_AQUAE -            9.8e-25   86.6   0.1     3e-24   85.0   0.0   1.8   2   1   0   2   2   2   1 Lytic transglycolase
+ribosomal_L24        PF17136.3  sp|O67235|RLPA_AQUAE -             0.0082   16.4   0.5     0.025   14.9   0.5   1.8   1   0   0   1   1   1   1 Ribosomal proteins 50S L24/mitochondrial 39S L24
+ABC_ATPase           PF09818.8  sp|O67235|RLPA_AQUAE -               0.12   11.0   0.0      0.18   10.5   0.0   1.2   1   0   0   1   1   1   0 Predicted ATPase of the ABC class
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O67235.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O67235.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O67235.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:59:37 2019
+# [ok]

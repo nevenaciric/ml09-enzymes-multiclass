@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|A8AY24|HIS6_STRGC -            4.9e-86  287.8   0.7   5.5e-86  287.6   0.7   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|A8AY24|HIS6_STRGC -            3.9e-10   39.2   0.0   3.3e-07   29.6   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+TMP-TENI             PF02581.16 sp|A8AY24|HIS6_STRGC -            5.7e-08   32.2   0.8   0.00054   19.2   0.0   3.1   2   1   2   4   4   4   2 Thiamine monophosphate synthase
+NMO                  PF03060.14 sp|A8AY24|HIS6_STRGC -            1.3e-07   31.3   1.1    0.0036   16.6   0.0   2.2   2   0   0   2   2   2   2 Nitronate monooxygenase
+DHO_dh               PF01180.20 sp|A8AY24|HIS6_STRGC -              2e-07   30.5   0.2    0.0012   18.0   0.0   2.2   2   0   0   2   2   2   2 Dihydroorotate dehydrogenase
+ThiG                 PF05690.13 sp|A8AY24|HIS6_STRGC -            6.9e-06   25.4   0.9    0.0033   16.7   0.1   2.1   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+IMPDH                PF00478.24 sp|A8AY24|HIS6_STRGC -            7.8e-06   25.0   2.7    0.0011   17.9   0.2   2.1   2   0   0   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+G3P_antiterm         PF04309.11 sp|A8AY24|HIS6_STRGC -            4.2e-05   22.9   0.3    0.0025   17.2   0.0   2.2   2   0   0   2   2   2   1 Glycerol-3-phosphate responsive antiterminator
+PcrB                 PF01884.16 sp|A8AY24|HIS6_STRGC -            0.00068   19.1   0.0    0.0015   18.0   0.0   1.5   2   0   0   2   2   2   1 PcrB family
+Trp_syntA            PF00290.19 sp|A8AY24|HIS6_STRGC -             0.0037   16.1   0.0    0.0069   15.2   0.0   1.4   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+FMN_dh               PF01070.17 sp|A8AY24|HIS6_STRGC -              0.037   13.0   0.3      0.15   10.9   0.0   2.0   2   0   0   2   2   2   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A8AY24.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A8AY24.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A8AY24.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:07:51 2019
+# [ok]

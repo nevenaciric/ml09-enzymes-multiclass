@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SLT                  PF01464.19 sp|B7N3Z9|EMTA_ECOLU -            4.5e-29  100.4   0.1   5.9e-29  100.0   0.1   1.1   1   0   0   1   1   1   1 Transglycosylase SLT domain
+Glucosaminidase      PF01832.19 sp|B7N3Z9|EMTA_ECOLU -              0.016   15.6   0.0     0.032   14.7   0.0   1.7   1   1   0   1   1   1   0 Mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase
+SLT_2                PF13406.5  sp|B7N3Z9|EMTA_ECOLU -               0.12   11.4   0.0      0.16   11.1   0.0   1.2   1   0   0   1   1   1   0 Transglycosylase SLT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B7N3Z9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B7N3Z9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B7N3Z9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:40:09 2019
+# [ok]

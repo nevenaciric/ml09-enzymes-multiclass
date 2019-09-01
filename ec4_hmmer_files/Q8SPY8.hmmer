@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RnaseA               PF00074.19 sp|Q8SPY8|RNAS2_NOMLE -            8.5e-35  119.8  10.4   9.9e-35  119.6  10.4   1.0   1   0   0   1   1   1   1 Pancreatic ribonuclease
+CXCL17               PF15211.5  sp|Q8SPY8|RNAS2_NOMLE -              0.006   17.2   1.7     0.012   16.3   1.7   1.4   1   0   0   1   1   1   1 VEGF co-regulated chemokine 1
+Peptidase_Mx1        PF15890.4  sp|Q8SPY8|RNAS2_NOMLE -                0.1   11.9   0.0      0.13   11.6   0.0   1.1   1   0   0   1   1   1   0 Putative zinc-binding metallo-peptidase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8SPY8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8SPY8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8SPY8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:24:16 2019
+# [ok]

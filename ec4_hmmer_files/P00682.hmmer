@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RnaseA               PF00074.19 sp|P00682|RNAS1_MESAU -            2.9e-42  143.9  11.0   3.3e-42  143.7  11.0   1.0   1   0   0   1   1   1   1 Pancreatic ribonuclease
+DAHP_synth_2         PF01474.15 sp|P00682|RNAS1_MESAU -              0.036   12.5   0.2     0.038   12.4   0.2   1.1   1   0   0   1   1   1   0 Class-II DAHP synthetase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P00682.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P00682.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P00682.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:01:03 2019
+# [ok]

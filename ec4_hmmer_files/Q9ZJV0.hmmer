@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_syntA            PF00290.19 sp|Q9ZJV0|TRPA_HELPJ -            6.7e-82  274.1   0.1   7.4e-82  274.0   0.1   1.0   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+His_biosynth         PF00977.20 sp|Q9ZJV0|TRPA_HELPJ -             0.0014   18.1   0.3    0.0059   16.0   0.1   1.8   1   1   0   2   2   2   1 Histidine biosynthesis protein
+PcrB                 PF01884.16 sp|Q9ZJV0|TRPA_HELPJ -              0.003   16.9   0.1      0.13   11.6   0.1   2.4   2   0   0   2   2   2   1 PcrB family
+ThiG                 PF05690.13 sp|Q9ZJV0|TRPA_HELPJ -              0.084   12.1   0.1      0.27   10.4   0.0   1.7   1   1   0   2   2   2   0 Thiazole biosynthesis protein ThiG
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9ZJV0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9ZJV0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9ZJV0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:39:30 2019
+# [ok]

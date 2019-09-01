@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|Q9XFA2|PCKA2_UROPA -           6.8e-213  707.4   0.0    8e-213  707.2   0.0   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+AAA_33               PF13671.5  sp|Q9XFA2|PCKA2_UROPA -              0.062   13.4   0.0      0.11   12.6   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+AAA_16               PF13191.5  sp|Q9XFA2|PCKA2_UROPA -                0.1   12.8   0.0      0.23   11.7   0.0   1.5   1   0   0   1   1   1   0 AAA ATPase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9XFA2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9XFA2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9XFA2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:38:35 2019
+# [ok]

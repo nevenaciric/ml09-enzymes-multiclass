@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DJ-1_PfpI            PF01965.23 sp|Q5AF03|HSP31_CANAL -            4.4e-10   39.5   0.0     1e-09   38.3   0.0   1.6   1   1   0   1   1   1   1 DJ-1/PfpI family
+TPR_11               PF13414.5  sp|Q5AF03|HSP31_CANAL -             0.0093   15.5   0.0     0.021   14.4   0.0   1.6   1   0   0   1   1   1   1 TPR repeat
+ThiJ_like            PF17124.4  sp|Q5AF03|HSP31_CANAL -              0.031   13.9   0.2     0.091   12.3   0.1   1.9   2   1   0   2   2   2   0 ThiJ/PfpI family-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5AF03.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5AF03.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5AF03.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:54:40 2019
+# [ok]

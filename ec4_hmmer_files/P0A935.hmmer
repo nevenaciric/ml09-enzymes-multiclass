@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MltA                 PF03562.16 sp|P0A935|MLTA_ECOLI -            5.5e-43  147.2   1.2   5.4e-41  140.7   1.2   2.1   1   1   0   1   1   1   1 MltA specific insert domain
+3D                   PF06725.10 sp|P0A935|MLTA_ECOLI -            1.5e-25   89.1   0.0   3.5e-25   87.9   0.0   1.7   1   0   0   1   1   1   1 3D domain
+DNA_pol_alpha_N      PF12254.7  sp|P0A935|MLTA_ECOLI -               0.12   12.4   0.0      0.65   10.0   0.0   2.1   2   0   0   2   2   2   0 DNA polymerase alpha subunit p180 N terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P0A935.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P0A935.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P0A935.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:03:28 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Cyanate_lyase        PF02560.13 sp|B1ME90|CYNS_MYCA9 -            1.4e-31  108.0   0.0   1.9e-31  107.6   0.0   1.2   1   0   0   1   1   1   1 Cyanate lyase C-terminal domain
+HTH_31               PF13560.5  sp|B1ME90|CYNS_MYCA9 -             0.0027   17.9   0.2    0.0053   17.0   0.2   1.5   1   1   0   1   1   1   1 Helix-turn-helix domain
+HTH_AraC             PF00165.22 sp|B1ME90|CYNS_MYCA9 -              0.068   13.2   0.0      0.32   11.0   0.0   1.9   2   0   0   2   2   2   0 Bacterial regulatory helix-turn-helix proteins, AraC family
+HTH_3                PF01381.21 sp|B1ME90|CYNS_MYCA9 -              0.089   12.8   0.0       1.3    9.0   0.0   2.2   2   0   0   2   2   2   0 Helix-turn-helix
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B1ME90.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B1ME90.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B1ME90.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:20:59 2019
+# [ok]

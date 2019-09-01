@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+F_bP_aldolase        PF01116.19 sp|Q9KIP8|KBAY_ECOLX -            7.5e-96  320.8   0.1   8.4e-96  320.6   0.1   1.0   1   0   0   1   1   1   1 Fructose-bisphosphate aldolase class-II
+SepSecS              PF05889.12 sp|Q9KIP8|KBAY_ECOLX -              0.034   12.7   0.1      0.28    9.7   0.0   2.0   2   1   0   2   2   2   0 O-phosphoseryl-tRNA(Sec) selenium transferase, SepSecS
+FMN_dh               PF01070.17 sp|Q9KIP8|KBAY_ECOLX -              0.074   12.0   0.0      0.15   10.9   0.0   1.5   2   0   0   2   2   2   0 FMN-dependent dehydrogenase
+PEP_mutase           PF13714.5  sp|Q9KIP8|KBAY_ECOLX -               0.09   12.1   0.2        12    5.2   0.0   2.9   1   1   1   3   3   3   0 Phosphoenolpyruvate phosphomutase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9KIP8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9KIP8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9KIP8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:34:28 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SBP_bac_3            PF00497.19 sp|A3N214|MLTF_ACTP2 -            9.2e-27   93.8   0.0   1.3e-26   93.3   0.0   1.2   1   0   0   1   1   1   1 Bacterial extracellular solute-binding proteins, family 3
+SLT                  PF01464.19 sp|A3N214|MLTF_ACTP2 -              7e-21   74.0   0.0   1.3e-20   73.1   0.0   1.4   1   0   0   1   1   1   1 Transglycosylase SLT domain
+Mgm101p              PF06420.11 sp|A3N214|MLTF_ACTP2 -              0.093   12.1   0.0      0.19   11.1   0.0   1.5   1   0   0   1   1   1   0 Mitochondrial genome maintenance MGM101
+LysR_substrate       PF03466.19 sp|A3N214|MLTF_ACTP2 -               0.15   11.3   0.0        11    5.2   0.0   2.3   2   0   0   2   2   2   0 LysR substrate binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A3N214.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A3N214.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A3N214.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:49:39 2019
+# [ok]

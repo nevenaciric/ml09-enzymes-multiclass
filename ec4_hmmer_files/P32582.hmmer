@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PALP                 PF00291.24 sp|P32582|CBS_YEAST  -            2.2e-58  197.9   0.0   2.8e-58  197.6   0.0   1.1   1   0   0   1   1   1   1 Pyridoxal-phosphate dependent enzyme
+CBS                  PF00571.27 sp|P32582|CBS_YEAST  -            6.6e-21   74.4   0.2   1.1e-11   44.9   0.2   2.6   2   0   0   2   2   2   2 CBS domain
+GHMP_kinases_C       PF08544.12 sp|P32582|CBS_YEAST  -               0.13   12.5   0.0       2.5    8.4   0.0   2.7   3   0   0   3   3   3   0 GHMP kinases C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P32582.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P32582.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P32582.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:10:16 2019
+# [ok]

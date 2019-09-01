@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q65RC1|HIS6_MANSM -            2.7e-75  252.7   0.7   3.1e-75  252.5   0.7   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+NMO                  PF03060.14 sp|Q65RC1|HIS6_MANSM -            3.5e-05   23.3   0.3     0.048   13.0   0.0   2.2   2   0   0   2   2   2   2 Nitronate monooxygenase
+Dus                  PF01207.16 sp|Q65RC1|HIS6_MANSM -            0.00022   20.3   0.1    0.0048   15.9   0.0   2.0   2   0   0   2   2   2   1 Dihydrouridine synthase (Dus)
+ThiG                 PF05690.13 sp|Q65RC1|HIS6_MANSM -             0.0006   19.1   0.3     0.031   13.5   0.0   2.1   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+TMP-TENI             PF02581.16 sp|Q65RC1|HIS6_MANSM -              0.011   15.0   0.0      0.15   11.2   0.0   2.2   2   0   0   2   2   2   0 Thiamine monophosphate synthase
+FMN_dh               PF01070.17 sp|Q65RC1|HIS6_MANSM -              0.065   12.1   0.3       3.5    6.5   0.0   2.0   1   1   0   2   2   2   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q65RC1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q65RC1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q65RC1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:02:53 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SNO                  PF01174.18 sp|A3MZT9|PDXT_ACTP2 -            2.5e-64  216.5   0.0   2.8e-64  216.3   0.0   1.0   1   0   0   1   1   1   1 SNO glutamine amidotransferase family
+GATase_3             PF07685.13 sp|A3MZT9|PDXT_ACTP2 -            8.4e-07   28.7   0.0   1.4e-06   27.9   0.0   1.4   1   0   0   1   1   1   1 CobB/CobQ-like glutamine amidotransferase domain
+GATase               PF00117.27 sp|A3MZT9|PDXT_ACTP2 -            2.4e-05   24.1   0.0     6e-05   22.8   0.0   1.6   1   1   0   1   1   1   1 Glutamine amidotransferase class-I
+DJ-1_PfpI            PF01965.23 sp|A3MZT9|PDXT_ACTP2 -             0.0012   18.6   0.0    0.0018   18.0   0.0   1.2   1   0   0   1   1   1   1 DJ-1/PfpI family
+Peptidase_S51        PF03575.16 sp|A3MZT9|PDXT_ACTP2 -              0.019   14.5   0.0     0.023   14.2   0.0   1.2   1   0   0   1   1   1   0 Peptidase family S51
+Peptidase_C26        PF07722.12 sp|A3MZT9|PDXT_ACTP2 -              0.021   14.5   0.1      0.23   11.1   0.0   2.2   1   1   1   2   2   2   0 Peptidase C26
+ThiJ_like            PF17124.4  sp|A3MZT9|PDXT_ACTP2 -              0.053   13.1   0.0     0.065   12.8   0.0   1.3   1   0   0   1   1   1   0 ThiJ/PfpI family-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A3MZT9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A3MZT9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A3MZT9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:49:34 2019
+# [ok]

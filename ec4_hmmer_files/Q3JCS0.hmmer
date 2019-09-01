@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TP_methylase         PF00590.19 sp|Q3JCS0|CYSG_NITOC -            9.6e-52  175.9   0.3   1.7e-51  175.1   0.3   1.4   1   0   0   1   1   1   1 Tetrapyrrole (Corrin/Porphyrin) Methylases
+NAD_binding_7        PF13241.5  sp|Q3JCS0|CYSG_NITOC -            7.5e-31  106.6   0.3   2.2e-30  105.0   0.1   2.0   2   0   0   2   2   2   1 Putative NAD(P)-binding
+CysG_dimeriser       PF10414.8  sp|Q3JCS0|CYSG_NITOC -            2.8e-21   74.9   4.1   6.6e-21   73.7   4.1   1.7   1   0   0   1   1   1   1 Sirohaem synthase dimerisation region
+Sirohm_synth_M       PF14824.5  sp|Q3JCS0|CYSG_NITOC -            2.1e-07   30.2   0.2   2.1e-07   30.2   0.2   1.9   2   0   0   2   2   2   1 Sirohaem biosynthesis protein central
+AlaDh_PNT_C          PF01262.20 sp|Q3JCS0|CYSG_NITOC -               0.01   15.0   0.2      0.01   15.0   0.2   1.8   2   0   0   2   2   2   0 Alanine dehydrogenase/PNT, C-terminal domain
+2-Hacid_dh_C         PF02826.18 sp|Q3JCS0|CYSG_NITOC -              0.016   14.5   0.0     0.041   13.1   0.0   1.6   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|Q3JCS0|CYSG_NITOC -              0.017   15.3   0.8     0.068   13.3   0.2   2.3   3   0   0   3   3   3   0 TrkA-N domain
+Shikimate_DH         PF01488.19 sp|Q3JCS0|CYSG_NITOC -               0.05   13.6   0.1      0.12   12.3   0.1   1.6   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+UDPG_MGDP_dh_C       PF03720.14 sp|Q3JCS0|CYSG_NITOC -               0.13   12.6   0.2      0.31   11.4   0.1   1.7   2   0   0   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain
+OTCace               PF00185.23 sp|Q3JCS0|CYSG_NITOC -               0.15   12.0   0.0       4.6    7.2   0.0   2.2   2   0   0   2   2   2   0 Aspartate/ornithine carbamoyltransferase, Asp/Orn binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q3JCS0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q3JCS0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q3JCS0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:44:57 2019
+# [ok]

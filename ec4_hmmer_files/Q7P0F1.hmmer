@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase               PF00117.27 sp|Q7P0F1|HIS5_CHRVO -              6e-18   65.2   0.0     7e-18   65.0   0.0   1.1   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+GATase_3             PF07685.13 sp|Q7P0F1|HIS5_CHRVO -            1.5e-05   24.6   0.0   2.5e-05   23.8   0.0   1.6   1   1   0   1   1   1   1 CobB/CobQ-like glutamine amidotransferase domain
+SNO                  PF01174.18 sp|Q7P0F1|HIS5_CHRVO -             0.0023   17.7   0.0     0.016   15.0   0.0   1.9   2   0   0   2   2   2   1 SNO glutamine amidotransferase family
+DJ-1_PfpI            PF01965.23 sp|Q7P0F1|HIS5_CHRVO -             0.0079   15.9   0.0     0.012   15.3   0.0   1.2   1   0   0   1   1   1   1 DJ-1/PfpI family
+Peptidase_C26        PF07722.12 sp|Q7P0F1|HIS5_CHRVO -              0.092   12.4   0.0      0.18   11.4   0.0   1.5   1   0   0   1   1   1   0 Peptidase C26
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q7P0F1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q7P0F1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q7P0F1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:11:20 2019
+# [ok]

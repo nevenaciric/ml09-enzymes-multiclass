@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ferrochelatase       PF00762.18 sp|C1F1C7|HEMH_ACIC5 -            3.9e-71  239.6   0.0   4.6e-71  239.4   0.0   1.0   1   0   0   1   1   1   1 Ferrochelatase
+DUF3048              PF11258.7  sp|C1F1C7|HEMH_ACIC5 -              0.015   15.3   0.0       2.7    8.0   0.0   2.2   2   0   0   2   2   2   0 Protein of unknown function (DUF3048) N-terminal domain
+CbiX                 PF01903.16 sp|C1F1C7|HEMH_ACIC5 -               0.06   13.5   0.0         7    6.9   0.0   2.8   2   1   0   2   2   2   0 CbiX
+PDZ_1                PF12812.6  sp|C1F1C7|HEMH_ACIC5 -               0.19   11.8   0.0      0.36   10.8   0.0   1.4   1   0   0   1   1   1   0 PDZ-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C1F1C7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C1F1C7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C1F1C7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:49:29 2019
+# [ok]

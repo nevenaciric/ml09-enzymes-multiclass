@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|B4F1G9|ARLY_PROMH -            2.1e-96  322.9   0.0   4.9e-96  321.7   0.0   1.6   2   0   0   2   2   2   1 Lyase
+ASL_C2               PF14698.5  sp|B4F1G9|ARLY_PROMH -              3e-24   85.4   0.5   9.8e-24   83.8   0.1   2.2   2   0   0   2   2   2   1 Argininosuccinate lyase C-terminal
+LMP                  PF04778.11 sp|B4F1G9|ARLY_PROMH -               0.14   12.0   0.8      0.83    9.5   0.1   2.3   2   0   0   2   2   2   0 LMP repeated region
+FumaraseC_C          PF10415.8  sp|B4F1G9|ARLY_PROMH -               0.64   10.4   3.2       9.3    6.7   0.1   3.5   4   0   0   4   4   4   0 Fumarase C C-terminus
+Fur_reg_FbpA         PF13076.5  sp|B4F1G9|ARLY_PROMH -                2.6    7.7   4.8       1.3    8.7   0.2   2.7   3   0   0   3   3   3   0 Fur-regulated basic protein A
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B4F1G9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B4F1G9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B4F1G9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:28:47 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SBP_bac_3            PF00497.19 sp|Q0HKV0|MLTF_SHESM -            5.1e-34  117.6   0.0   7.3e-34  117.1   0.0   1.2   1   0   0   1   1   1   1 Bacterial extracellular solute-binding proteins, family 3
+SLT                  PF01464.19 sp|Q0HKV0|MLTF_SHESM -            8.1e-19   67.3   0.0   1.6e-18   66.4   0.0   1.4   1   0   0   1   1   1   1 Transglycosylase SLT domain
+LysR_substrate       PF03466.19 sp|Q0HKV0|MLTF_SHESM -             0.0014   18.0   0.1     0.013   14.7   0.0   2.1   1   1   1   2   2   2   1 LysR substrate binding domain
+Phosphonate-bd       PF12974.6  sp|Q0HKV0|MLTF_SHESM -             0.0058   16.1   0.0    0.0094   15.5   0.0   1.3   1   0   0   1   1   1   1 ABC transporter, phosphonate, periplasmic substrate-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q0HKV0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q0HKV0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q0HKV0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:25:26 2019
+# [ok]

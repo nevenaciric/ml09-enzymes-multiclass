@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FabA                 PF07977.12 sp|Q5NZG4|FABZ_AROAE -            1.9e-40  137.6   0.0   2.2e-40  137.4   0.0   1.0   1   0   0   1   1   1   1 FabA-like domain
+MaoC_dehydratas      PF01575.18 sp|Q5NZG4|FABZ_AROAE -            0.00068   19.1   0.0   0.00089   18.7   0.0   1.2   1   0   0   1   1   1   1 MaoC like domain
+4HBT                 PF03061.21 sp|Q5NZG4|FABZ_AROAE -             0.0046   17.2   0.0    0.0076   16.5   0.0   1.4   1   1   0   1   1   1   1 Thioesterase superfamily
+AfsA                 PF03756.12 sp|Q5NZG4|FABZ_AROAE -              0.038   13.9   0.0     0.052   13.5   0.0   1.4   1   1   0   1   1   1   0 A-factor biosynthesis hotdog domain
+PS-DH                PF14765.5  sp|Q5NZG4|FABZ_AROAE -              0.042   13.0   0.0     0.048   12.8   0.0   1.2   1   0   0   1   1   1   0 Polyketide synthase dehydratase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5NZG4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5NZG4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5NZG4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:58:21 2019
+# [ok]

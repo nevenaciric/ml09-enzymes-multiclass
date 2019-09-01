@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q12NT0|HIS6_SHEDO -            8.6e-73  244.5   1.5   9.7e-73  244.3   1.5   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q12NT0|HIS6_SHEDO -            4.2e-05   22.7   0.1    0.0025   16.8   0.0   2.1   1   1   1   2   2   2   2 Dihydrouridine synthase (Dus)
+ThiG                 PF05690.13 sp|Q12NT0|HIS6_SHEDO -             0.0014   17.9   0.1      0.15   11.2   0.0   2.1   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+NMO                  PF03060.14 sp|Q12NT0|HIS6_SHEDO -             0.0042   16.4   0.3       2.2    7.5   0.1   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+DHO_dh               PF01180.20 sp|Q12NT0|HIS6_SHEDO -              0.047   12.8   0.1      0.66    9.0   0.0   2.0   2   0   0   2   2   2   0 Dihydroorotate dehydrogenase
+TMP-TENI             PF02581.16 sp|Q12NT0|HIS6_SHEDO -              0.071   12.3   0.1      0.64    9.2   0.0   2.1   2   0   0   2   2   2   0 Thiamine monophosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q12NT0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q12NT0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q12NT0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:28:58 2019
+# [ok]

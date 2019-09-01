@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Guanylate_cyc        PF00211.19 sp|P70106|GUC2C_CAVPO -            3.7e-63  212.4   0.0   6.1e-63  211.7   0.0   1.4   1   0   0   1   1   1   1 Adenylate and Guanylate cyclase catalytic domain
+Pkinase_Tyr          PF07714.16 sp|P70106|GUC2C_CAVPO -            3.8e-30  105.0   0.0   1.2e-29  103.3   0.0   1.8   1   1   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P70106|GUC2C_CAVPO -            2.8e-25   89.1   0.3   1.9e-24   86.4   0.0   2.2   2   0   0   2   2   2   1 Protein kinase domain
+ANF_receptor         PF01094.27 sp|P70106|GUC2C_CAVPO -            9.8e-09   34.7   0.0     2e-08   33.6   0.0   1.5   1   1   0   1   1   1   1 Receptor family ligand binding region
+Glycophorin_A        PF01102.17 sp|P70106|GUC2C_CAVPO -              0.031   14.4   0.0     0.065   13.4   0.0   1.5   1   0   0   1   1   1   0 Glycophorin A
+DUF2207              PF09972.8  sp|P70106|GUC2C_CAVPO -              0.074   11.7   0.0      0.23   10.1   0.0   1.8   2   0   0   2   2   2   0 Predicted membrane protein (DUF2207)
+Syndecan             PF01034.19 sp|P70106|GUC2C_CAVPO -               0.14   12.0   1.0      0.32   10.8   1.0   1.6   1   0   0   1   1   1   0 Syndecan domain
+LapA_dom             PF06305.10 sp|P70106|GUC2C_CAVPO -               0.15   11.8   0.3      0.33   10.7   0.3   1.5   1   0   0   1   1   1   0 Lipopolysaccharide assembly protein A domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P70106.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P70106.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P70106.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:18:00 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_syntA            PF00290.19 sp|B7VGU8|TRPA_VIBTL -            4.5e-99  330.4   0.2   5.1e-99  330.2   0.2   1.0   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+Amidohydro_2         PF04909.13 sp|B7VGU8|TRPA_VIBTL -               0.01   15.5   0.0     0.028   14.1   0.0   1.9   2   1   0   2   2   2   0 Amidohydrolase
+HMGL-like            PF00682.18 sp|B7VGU8|TRPA_VIBTL -              0.044   13.2   0.0      0.42   10.0   0.0   2.6   1   1   0   1   1   1   0 HMGL-like
+His_biosynth         PF00977.20 sp|B7VGU8|TRPA_VIBTL -              0.049   13.0   0.0      0.59    9.4   0.0   2.1   2   0   0   2   2   2   0 Histidine biosynthesis protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B7VGU8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B7VGU8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B7VGU8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:41:36 2019
+# [ok]

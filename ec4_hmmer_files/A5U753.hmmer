@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ECH_1                PF00378.19 sp|A5U753|ECH17_MYCTA -            8.7e-46  156.2   0.1   1.1e-45  155.9   0.1   1.0   1   0   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+ECH_2                PF16113.4  sp|A5U753|ECH17_MYCTA -            1.5e-19   70.6   0.1   1.7e-19   70.4   0.1   1.0   1   0   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+Peptidase_S49        PF01343.17 sp|A5U753|ECH17_MYCTA -              0.071   13.0   0.3       1.2    9.0   0.0   2.3   2   0   0   2   2   2   0 Peptidase family S49
+DLH                  PF01738.17 sp|A5U753|ECH17_MYCTA -               0.11   11.9   0.0      0.17   11.3   0.0   1.2   1   0   0   1   1   1   0 Dienelactone hydrolase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A5U753.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A5U753.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A5U753.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:58:11 2019
+# [ok]

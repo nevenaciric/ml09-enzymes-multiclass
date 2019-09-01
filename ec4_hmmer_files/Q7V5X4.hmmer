@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FabA                 PF07977.12 sp|Q7V5X4|FABZ_PROMM -            7.5e-32  109.7   0.0   8.7e-32  109.5   0.0   1.0   1   0   0   1   1   1   1 FabA-like domain
+MaoC_dehydratas      PF01575.18 sp|Q7V5X4|FABZ_PROMM -            2.3e-05   23.8   0.0   0.00012   21.5   0.0   1.8   1   1   0   2   2   2   1 MaoC like domain
+4HBT                 PF03061.21 sp|Q7V5X4|FABZ_PROMM -            0.00024   21.3   0.0   0.00036   20.7   0.0   1.4   1   0   0   1   1   1   1 Thioesterase superfamily
+AfsA                 PF03756.12 sp|Q7V5X4|FABZ_PROMM -               0.04   13.8   0.0     0.047   13.6   0.0   1.2   1   0   0   1   1   1   0 A-factor biosynthesis hotdog domain
+CDC48_2              PF02933.16 sp|Q7V5X4|FABZ_PROMM -               0.09   12.5   0.2         7    6.4   0.0   2.5   2   1   0   2   2   2   0 Cell division protein 48 (CDC48), domain 2
+MaoC_dehydrat_N      PF13452.5  sp|Q7V5X4|FABZ_PROMM -               0.12   12.4   0.0      0.15   12.1   0.0   1.2   1   0   0   1   1   1   0 N-terminal half of MaoC dehydratase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q7V5X4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q7V5X4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q7V5X4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:12:21 2019
+# [ok]

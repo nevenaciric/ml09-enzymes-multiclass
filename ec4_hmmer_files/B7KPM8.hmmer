@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|B7KPM8|HIS6_METC4 -            1.9e-88  295.7   0.7   2.1e-88  295.5   0.7   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+NMO                  PF03060.14 sp|B7KPM8|HIS6_METC4 -            5.8e-07   29.1  12.5   6.6e-05   22.4   5.3   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+Dus                  PF01207.16 sp|B7KPM8|HIS6_METC4 -            1.1e-05   24.5   0.1     0.011   14.7   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+DHO_dh               PF01180.20 sp|B7KPM8|HIS6_METC4 -            0.00046   19.4   1.0      0.35    9.9   0.0   2.1   2   0   0   2   2   2   2 Dihydroorotate dehydrogenase
+TMP-TENI             PF02581.16 sp|B7KPM8|HIS6_METC4 -             0.0016   17.7   0.4      0.33   10.2   0.0   2.3   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+ThiG                 PF05690.13 sp|B7KPM8|HIS6_METC4 -              0.018   14.2   9.7      0.22   10.7   1.2   2.4   3   0   0   3   3   3   0 Thiazole biosynthesis protein ThiG
+G3P_antiterm         PF04309.11 sp|B7KPM8|HIS6_METC4 -              0.039   13.3   0.2       1.2    8.5   0.0   2.2   2   0   0   2   2   2   0 Glycerol-3-phosphate responsive antiterminator
+FMN_dh               PF01070.17 sp|B7KPM8|HIS6_METC4 -               0.17   10.8  10.2      0.44    9.4   0.4   2.3   2   0   0   2   2   2   0 FMN-dependent dehydrogenase
+DUF5423              PF17461.1  sp|B7KPM8|HIS6_METC4 -                1.4    7.5   3.1      0.56    8.8   0.6   1.5   2   0   0   2   2   2   0 Family of unknown function (DUF5423)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B7KPM8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B7KPM8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B7KPM8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:38:06 2019
+# [ok]

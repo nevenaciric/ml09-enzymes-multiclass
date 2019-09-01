@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+F_bP_aldolase        PF01116.19 sp|A1ACW2|GATY_ECOK1 -            2.7e-98  328.8   1.0     3e-98  328.7   1.0   1.0   1   0   0   1   1   1   1 Fructose-bisphosphate aldolase class-II
+FMN_dh               PF01070.17 sp|A1ACW2|GATY_ECOK1 -             0.0042   16.1   0.1    0.0061   15.5   0.1   1.2   1   0   0   1   1   1   1 FMN-dependent dehydrogenase
+Pilus_CpaD           PF09476.9  sp|A1ACW2|GATY_ECOK1 -              0.071   12.7   0.0      0.16   11.6   0.0   1.5   1   0   0   1   1   1   0 Pilus biogenesis CpaD protein (pilus_cpaD)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A1ACW2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A1ACW2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A1ACW2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:41:51 2019
+# [ok]

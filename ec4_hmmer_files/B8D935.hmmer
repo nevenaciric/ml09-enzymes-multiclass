@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FabA                 PF07977.12 sp|B8D935|FABZ_BUCA5 -            1.3e-31  108.9   0.0   1.6e-31  108.7   0.0   1.0   1   0   0   1   1   1   1 FabA-like domain
+Peptidase_A4         PF01828.16 sp|B8D935|FABZ_BUCA5 -              0.081   12.3   0.0      0.11   11.9   0.0   1.1   1   0   0   1   1   1   0 Peptidase A4 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B8D935.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B8D935.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B8D935.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:42:10 2019
+# [ok]

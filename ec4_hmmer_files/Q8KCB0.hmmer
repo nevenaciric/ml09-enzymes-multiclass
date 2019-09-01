@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q8KCB0|HIS6_CHLTE -            2.5e-82  275.7   0.3   2.9e-82  275.5   0.3   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+ThiG                 PF05690.13 sp|Q8KCB0|HIS6_CHLTE -            0.00013   21.3   0.0      0.15   11.2   0.0   2.1   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+Dus                  PF01207.16 sp|Q8KCB0|HIS6_CHLTE -            0.00022   20.3   0.0     0.061   12.3   0.0   2.1   1   1   1   2   2   2   2 Dihydrouridine synthase (Dus)
+TMP-TENI             PF02581.16 sp|Q8KCB0|HIS6_CHLTE -             0.0012   18.1   0.2      0.42    9.8   0.0   2.2   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+PcrB                 PF01884.16 sp|Q8KCB0|HIS6_CHLTE -             0.0065   15.9   0.0     0.022   14.2   0.0   1.7   2   0   0   2   2   2   1 PcrB family
+NMO                  PF03060.14 sp|Q8KCB0|HIS6_CHLTE -             0.0074   15.6   1.7       0.2   10.9   0.3   2.1   1   1   1   2   2   2   1 Nitronate monooxygenase
+DHO_dh               PF01180.20 sp|Q8KCB0|HIS6_CHLTE -              0.016   14.3   0.1     0.093   11.8   0.0   1.9   2   0   0   2   2   2   0 Dihydroorotate dehydrogenase
+NIL                  PF09383.9  sp|Q8KCB0|HIS6_CHLTE -              0.085   12.6   0.0       1.8    8.4   0.0   2.3   2   0   0   2   2   2   0 NIL domain
+TonB_2               PF13103.5  sp|Q8KCB0|HIS6_CHLTE -               0.17   12.1   0.0      0.55   10.4   0.0   1.9   1   1   1   2   2   2   0 TonB C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8KCB0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8KCB0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8KCB0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:22:01 2019
+# [ok]

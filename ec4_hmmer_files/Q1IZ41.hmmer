@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|Q1IZ41|PCKA_DEIGD -           7.7e-219  727.0   0.0  8.9e-219  726.8   0.0   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+AAA_33               PF13671.5  sp|Q1IZ41|PCKA_DEIGD -               0.08   13.0   0.0      0.35   10.9   0.0   2.0   2   0   0   2   2   2   0 AAA domain
+DUF4914              PF16260.4  sp|Q1IZ41|PCKA_DEIGD -               0.21    9.6   0.0      0.69    7.8   0.0   1.7   2   0   0   2   2   2   0 Domain of unknown function (DUF4914)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q1IZ41.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q1IZ41.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q1IZ41.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:32:32 2019
+# [ok]

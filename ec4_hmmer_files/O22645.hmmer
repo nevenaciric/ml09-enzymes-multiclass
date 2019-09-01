@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RuBisCO_small        PF00101.19 sp|O22645|RBS5_FRIAG -            6.7e-38  128.5   0.0   9.1e-38  128.1   0.0   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase, small chain
+RbcS                 PF12338.7  sp|O22645|RBS5_FRIAG -            5.7e-15   55.1   9.2   2.4e-14   53.1   9.6   1.8   2   0   0   2   2   2   1 Ribulose-1,5-bisphosphate carboxylase small subunit
+DUF4645              PF15488.5  sp|O22645|RBS5_FRIAG -               0.18   11.1   1.6      0.25   10.7   1.6   1.2   1   0   0   1   1   1   0 Domain of unknown function (DUF4645)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O22645.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O22645.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O22645.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:57:07 2019
+# [ok]

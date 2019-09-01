@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IGPS                 PF00218.20 sp|Q03X00|TRPC_LEUMM -            1.5e-82  276.5   3.7   1.6e-82  276.4   3.7   1.0   1   0   0   1   1   1   1 Indole-3-glycerol phosphate synthase
+QRPTase_C            PF01729.18 sp|Q03X00|TRPC_LEUMM -             0.0088   15.7   0.7     0.018   14.8   0.3   1.7   2   0   0   2   2   2   1 Quinolinate phosphoribosyl transferase, C-terminal domain
+Dus                  PF01207.16 sp|Q03X00|TRPC_LEUMM -              0.086   11.8   0.0      0.14   11.1   0.0   1.3   1   0   0   1   1   1   0 Dihydrouridine synthase (Dus)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q03X00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q03X00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q03X00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:22:06 2019
+# [ok]

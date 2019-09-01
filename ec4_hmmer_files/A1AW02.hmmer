@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Fapy_DNA_glyco       PF01149.23 sp|A1AW02|FPG_RUTMC  -            1.3e-29  103.1   0.0   1.8e-29  102.6   0.0   1.2   1   0   0   1   1   1   1 Formamidopyrimidine-DNA glycosylase N-terminal domain
+H2TH                 PF06831.13 sp|A1AW02|FPG_RUTMC  -            9.4e-24   83.1   0.2     2e-23   82.1   0.0   1.6   2   0   0   2   2   2   1 Formamidopyrimidine-DNA glycosylase H2TH domain
+zf-FPG_IleRS         PF06827.13 sp|A1AW02|FPG_RUTMC  -            6.6e-06   25.8   3.0   1.3e-05   24.9   3.0   1.5   1   0   0   1   1   1   1 Zinc finger found in FPG and IleRS
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A1AW02.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A1AW02.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A1AW02.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:42:16 2019
+# [ok]

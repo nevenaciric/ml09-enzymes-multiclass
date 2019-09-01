@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHBP_synthase        PF00926.18 sp|B4S5Y8|RIBBA_PROA2 -            6.9e-80  267.0   0.1   1.5e-79  265.9   0.2   1.5   2   0   0   2   2   2   1 3,4-dihydroxy-2-butanone 4-phosphate synthase
+GTP_cyclohydro2      PF00925.19 sp|B4S5Y8|RIBBA_PROA2 -              3e-76  254.5   0.0   5.1e-76  253.7   0.0   1.4   1   0   0   1   1   1   1 GTP cyclohydrolase II
+NapD                 PF03927.12 sp|B4S5Y8|RIBBA_PROA2 -              0.034   14.1   0.4     0.093   12.7   0.4   1.7   1   0   0   1   1   1   0 NapD protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B4S5Y8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B4S5Y8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B4S5Y8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:29:15 2019
+# [ok]

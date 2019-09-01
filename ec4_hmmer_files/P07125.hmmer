@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HEAT_2               PF13646.5  sp|P07125|CPCE_NOSS1 -            1.5e-25   89.3   8.9   8.6e-14   51.6   0.1   4.1   3   1   1   4   4   4   3 HEAT repeats
+HEAT_PBS             PF03130.15 sp|P07125|CPCE_NOSS1 -            1.7e-23   80.8  27.3   1.7e-05   25.0   0.1   6.4   6   0   0   6   6   6   5 PBS lyase HEAT-like repeat
+HEAT                 PF02985.21 sp|P07125|CPCE_NOSS1 -            2.7e-09   36.3   4.2     0.045   13.9   0.0   6.2   6   0   0   6   6   6   3 HEAT repeat
+Arm                  PF00514.22 sp|P07125|CPCE_NOSS1 -            1.4e-07   31.2   1.4       0.2   11.7   0.0   6.7   7   1   0   7   7   7   2 Armadillo/beta-catenin-like repeat
+HEAT_EZ              PF13513.5  sp|P07125|CPCE_NOSS1 -            4.1e-06   27.0  18.0    0.0029   17.9   0.3   5.8   6   2   1   7   7   7   4 HEAT-like repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P07125.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P07125.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P07125.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:02:07 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase               PF00117.27 sp|P00901|TRPG_PSEPU -            1.1e-56  191.5   0.1   1.2e-56  191.4   0.1   1.0   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|P00901|TRPG_PSEPU -            2.3e-10   40.5   0.5   9.5e-10   38.5   0.5   1.8   1   1   0   1   1   1   1 Peptidase C26
+Orn_Arg_deC_N        PF02784.15 sp|P00901|TRPG_PSEPU -              0.075   12.3   0.1      0.39    9.9   0.0   1.9   2   0   0   2   2   2   0 Pyridoxal-dependent decarboxylase, pyridoxal binding domain
+MoCF_biosynth        PF00994.23 sp|P00901|TRPG_PSEPU -               0.13   11.8   0.0      0.18   11.4   0.0   1.2   1   0   0   1   1   1   0 Probable molybdopterin binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P00901.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P00901.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P00901.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:01:17 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Cyanate_lyase        PF02560.13 sp|B0C8H2|CYNS_ACAM1 -            6.8e-36  121.8   0.1     1e-35  121.3   0.1   1.3   1   0   0   1   1   1   1 Cyanate lyase C-terminal domain
+HTH_31               PF13560.5  sp|B0C8H2|CYNS_ACAM1 -             0.0065   16.7   0.0     0.011   16.0   0.0   1.4   2   0   0   2   2   2   1 Helix-turn-helix domain
+DUF768               PF05589.10 sp|B0C8H2|CYNS_ACAM1 -              0.021   14.7   1.2     0.045   13.7   1.2   1.7   1   1   0   1   1   1   0 Protein of unknown function (DUF768)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B0C8H2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B0C8H2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B0C8H2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:14:55 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHquinase_I          PF01487.14 sp|A8MJ87|AROD_ALKOO -            9.1e-70  235.4   0.8     1e-69  235.2   0.8   1.0   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+GcpE                 PF04551.13 sp|A8MJ87|AROD_ALKOO -              0.037   13.0   0.1     0.058   12.4   0.1   1.3   1   0   0   1   1   1   0 GcpE protein
+ComA                 PF02679.14 sp|A8MJ87|AROD_ALKOO -              0.091   12.1   1.1      0.69    9.2   1.1   2.1   1   1   0   1   1   1   0 (2R)-phospho-3-sulfolactate synthase (ComA)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A8MJ87.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A8MJ87.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A8MJ87.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:10:13 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HGD-D                PF06050.12 sp|Q5U923|HADC_CLODI -            3.1e-61  207.9   0.2   3.6e-61  207.6   0.2   1.0   1   0   0   1   1   1   1 2-hydroxyglutaryl-CoA dehydratase, D-component
+Rotamase             PF00639.20 sp|Q5U923|HADC_CLODI -              0.061   14.2   0.5        18    6.3   0.0   2.7   3   0   0   3   3   3   0 PPIC-type PPIASE domain
+Mt_ATP_synt          PF15704.4  sp|Q5U923|HADC_CLODI -                  1    9.2   3.9       8.2    6.2   0.1   3.3   4   0   0   4   4   4   0 Mitochondrial ATP synthase subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5U923.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5U923.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5U923.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:59:44 2019
+# [ok]

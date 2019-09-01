@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|Q2NGN7|ARLY_METST -            1.4e-60  205.2   0.1   1.8e-60  204.8   0.1   1.2   1   0   0   1   1   1   1 Lyase
+ASL_C2               PF14698.5  sp|Q2NGN7|ARLY_METST -            1.2e-17   64.4   0.0   3.4e-17   62.8   0.0   1.9   1   0   0   1   1   1   1 Argininosuccinate lyase C-terminal
+MCM_N                PF14551.5  sp|Q2NGN7|ARLY_METST -             0.0045   17.4   0.4     0.019   15.5   0.2   2.0   2   0   0   2   2   2   1 MCM N-terminal domain
+Peptidase_M24        PF00557.23 sp|Q2NGN7|ARLY_METST -              0.065   12.8   0.0       2.5    7.7   0.0   2.6   2   0   0   2   2   2   0 Metallopeptidase family M24
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q2NGN7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q2NGN7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q2NGN7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:38:00 2019
+# [ok]

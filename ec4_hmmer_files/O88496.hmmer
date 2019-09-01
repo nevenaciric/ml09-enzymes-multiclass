@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+VKG_Carbox           PF05090.13 sp|O88496|VKGC_RAT   -             1e-167  558.3   9.7  1.2e-167  558.1   9.7   1.1   1   0   0   1   1   1   1 Vitamin K-dependent gamma-carboxylase
+Cupin_2              PF07883.10 sp|O88496|VKGC_RAT   -              0.021   14.4   0.0     0.055   13.1   0.0   1.6   1   0   0   1   1   1   0 Cupin domain
+DoxX                 PF07681.11 sp|O88496|VKGC_RAT   -               0.23   12.0   4.5      0.27   11.8   0.8   2.5   2   0   0   2   2   2   0 DoxX
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O88496.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O88496.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O88496.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:00:34 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RuBisCO_large        PF00016.19 sp|Q48952|RBL_AURMS  -           2.4e-133  443.9   0.5    3e-133  443.5   0.5   1.1   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase large chain, catalytic domain
+RuBisCO_large_N      PF02788.15 sp|Q48952|RBL_AURMS  -            2.7e-47  159.8   0.0   5.4e-47  158.8   0.0   1.5   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase large chain, N-terminal domain
+PepSY_2              PF13670.5  sp|Q48952|RBL_AURMS  -              0.065   13.1   0.6      0.16   11.9   0.6   1.6   1   0   0   1   1   1   0 Peptidase propeptide and YPEB domain
+HMGL-like            PF00682.18 sp|Q48952|RBL_AURMS  -              0.082   12.3   0.0      0.44   10.0   0.0   1.9   2   0   0   2   2   2   0 HMGL-like
+OMPdecase            PF00215.23 sp|Q48952|RBL_AURMS  -               0.11   11.9   0.0       0.2   11.1   0.0   1.4   1   0   0   1   1   1   0 Orotidine 5'-phosphate decarboxylase / HUMPS family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q48952.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q48952.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q48952.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:48:55 2019
+# [ok]

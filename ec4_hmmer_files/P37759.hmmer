@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GDP_Man_Dehyd        PF16363.4  sp|P37759|RMLB1_ECOLI -            1.1e-96  324.0   0.0   1.3e-96  323.8   0.0   1.0   1   0   0   1   1   1   1 GDP-mannose 4,6 dehydratase
+Epimerase            PF01370.20 sp|P37759|RMLB1_ECOLI -            8.8e-74  247.9   0.1   1.2e-73  247.5   0.1   1.2   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+3Beta_HSD            PF01073.18 sp|P37759|RMLB1_ECOLI -            2.5e-15   56.1   0.0   4.2e-15   55.4   0.0   1.3   1   0   0   1   1   1   1 3-beta hydroxysteroid dehydrogenase/isomerase family
+Polysacc_synt_2      PF02719.14 sp|P37759|RMLB1_ECOLI -            7.4e-15   54.8   0.0   1.8e-14   53.4   0.0   1.6   2   0   0   2   2   2   1 Polysaccharide biosynthesis protein
+RmlD_sub_bind        PF04321.16 sp|P37759|RMLB1_ECOLI -            4.8e-13   48.8   0.0   8.3e-13   48.0   0.0   1.4   1   1   0   1   1   1   1 RmlD substrate binding domain
+NAD_binding_4        PF07993.11 sp|P37759|RMLB1_ECOLI -            1.2e-12   47.5   0.0   3.4e-09   36.2   0.0   2.1   2   0   0   2   2   2   2 Male sterility protein
+adh_short            PF00106.24 sp|P37759|RMLB1_ECOLI -            0.00064   19.1   0.4      0.56    9.5   0.1   2.5   2   1   0   2   2   2   2 short chain dehydrogenase
+KR                   PF08659.9  sp|P37759|RMLB1_ECOLI -             0.0029   17.5   0.0    0.0073   16.1   0.0   1.6   2   0   0   2   2   2   1 KR domain
+Sacchrp_dh_NADP      PF03435.17 sp|P37759|RMLB1_ECOLI -              0.035   14.3   0.0     0.056   13.6   0.0   1.3   1   0   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_10       PF13460.5  sp|P37759|RMLB1_ECOLI -               0.12   12.1   0.0      0.19   11.5   0.0   1.4   1   0   0   1   1   1   0 NAD(P)H-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P37759.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P37759.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P37759.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:10:56 2019
+# [ok]

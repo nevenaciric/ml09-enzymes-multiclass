@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Fapy_DNA_glyco       PF01149.23 sp|B3Q620|FPG_RHOPT  -            1.6e-35  122.1   0.1     3e-35  121.2   0.1   1.5   1   0   0   1   1   1   1 Formamidopyrimidine-DNA glycosylase N-terminal domain
+H2TH                 PF06831.13 sp|B3Q620|FPG_RHOPT  -            1.7e-22   79.1   0.0   2.8e-22   78.4   0.0   1.4   1   0   0   1   1   1   1 Formamidopyrimidine-DNA glycosylase H2TH domain
+zf-FPG_IleRS         PF06827.13 sp|B3Q620|FPG_RHOPT  -            6.5e-12   45.0   6.3   1.2e-11   44.1   6.3   1.5   1   0   0   1   1   1   1 Zinc finger found in FPG and IleRS
+Zn-ribbon_8          PF09723.9  sp|B3Q620|FPG_RHOPT  -              0.013   15.5   0.6      0.13   12.3   0.0   2.4   2   0   0   2   2   2   0 Zinc ribbon domain
+zinc-ribbons_6       PF07191.11 sp|B3Q620|FPG_RHOPT  -              0.031   14.2   0.5     0.058   13.3   0.5   1.4   1   0   0   1   1   1   0 zinc-ribbons
+Lar_restr_allev      PF14354.5  sp|B3Q620|FPG_RHOPT  -              0.033   14.5   2.4     0.064   13.6   2.4   1.5   1   0   0   1   1   1   0 Restriction alleviation protein Lar
+Zn_Tnp_IS1595        PF12760.6  sp|B3Q620|FPG_RHOPT  -               0.09   12.7   2.5      0.18   11.7   2.5   1.5   1   0   0   1   1   1   0 Transposase zinc-ribbon domain
+OrfB_Zn_ribbon       PF07282.10 sp|B3Q620|FPG_RHOPT  -               0.23   11.3   1.9      0.44   10.4   1.9   1.4   1   0   0   1   1   1   0 Putative transposase DNA-binding domain
+Anti-TRAP            PF15777.4  sp|B3Q620|FPG_RHOPT  -               0.33   10.8   2.1      0.44   10.4   0.7   2.0   2   0   0   2   2   2   0 Tryptophan RNA-binding attenuator protein inhibitory protein
+Prim_Zn_Ribbon       PF08273.11 sp|B3Q620|FPG_RHOPT  -                5.3    7.3   7.9        14    6.0   7.9   1.7   1   1   0   1   1   1   0 Zinc-binding domain of primase-helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B3Q620.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B3Q620.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B3Q620.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:27:47 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|A4ISR2|HIS6_GEOTN -            2.6e-90  301.8   1.2   2.9e-90  301.6   1.2   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+NMO                  PF03060.14 sp|A4ISR2|HIS6_GEOTN -            7.5e-10   38.6   3.5   4.1e-05   23.0   0.3   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+TMP-TENI             PF02581.16 sp|A4ISR2|HIS6_GEOTN -            8.6e-06   25.1   0.5     0.034   13.4   0.0   2.8   2   1   1   3   3   3   2 Thiamine monophosphate synthase
+Dus                  PF01207.16 sp|A4ISR2|HIS6_GEOTN -            5.6e-05   22.3   0.0    0.0044   16.1   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+ThiG                 PF05690.13 sp|A4ISR2|HIS6_GEOTN -            0.00013   21.3   0.4      0.36   10.0   0.1   2.4   2   1   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+G3P_antiterm         PF04309.11 sp|A4ISR2|HIS6_GEOTN -            0.00019   20.8   0.1    0.0058   16.0   0.0   2.1   2   0   0   2   2   2   1 Glycerol-3-phosphate responsive antiterminator
+IMPDH                PF00478.24 sp|A4ISR2|HIS6_GEOTN -             0.0019   17.2   1.3       0.1   11.4   0.2   2.1   2   0   0   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+DHO_dh               PF01180.20 sp|A4ISR2|HIS6_GEOTN -             0.0022   17.1   0.0      0.25   10.4   0.0   2.1   2   0   0   2   2   2   2 Dihydroorotate dehydrogenase
+Trp_syntA            PF00290.19 sp|A4ISR2|HIS6_GEOTN -              0.061   12.1   0.0      0.11   11.2   0.0   1.4   1   0   0   1   1   1   0 Tryptophan synthase alpha chain
+THDPS_N_2            PF14805.5  sp|A4ISR2|HIS6_GEOTN -               0.17   12.1   1.0       0.4   10.9   0.5   1.9   2   0   0   2   2   2   0 Tetrahydrodipicolinate N-succinyltransferase N-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A4ISR2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A4ISR2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A4ISR2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:51:36 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+OKR_DC_1             PF01276.19 sp|P52095|DCLZ_ECOLI -           9.9e-196  650.3   0.0  1.2e-195  650.0   0.0   1.1   1   0   0   1   1   1   1 Orn/Lys/Arg decarboxylase, major domain
+OKR_DC_1_C           PF03711.14 sp|P52095|DCLZ_ECOLI -              6e-47  159.2   0.0   1.5e-46  157.9   0.0   1.7   2   0   0   2   2   2   1 Orn/Lys/Arg decarboxylase, C-terminal domain
+OKR_DC_1_N           PF03709.14 sp|P52095|DCLZ_ECOLI -            2.2e-27   95.4   0.0   5.8e-27   94.1   0.0   1.7   2   0   0   2   2   2   1 Orn/Lys/Arg decarboxylase, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P52095.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P52095.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P52095.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:14:01 2019
+# [ok]

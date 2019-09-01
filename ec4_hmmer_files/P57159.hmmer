@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|P57159|ARLY_BUCAI -            1.3e-81  274.3   0.0   1.9e-81  273.8   0.0   1.3   1   0   0   1   1   1   1 Lyase
+ASL_C2               PF14698.5  sp|P57159|ARLY_BUCAI -            2.8e-19   69.5   0.0   7.6e-19   68.1   0.0   1.8   1   0   0   1   1   1   1 Argininosuccinate lyase C-terminal
+partial_CstF         PF15861.4  sp|P57159|ARLY_BUCAI -              0.048   13.3   1.6      0.13   12.0   0.4   2.4   2   0   0   2   2   2   0 Partial cleavage stimulation factor domain
+FumaraseC_C          PF10415.8  sp|P57159|ARLY_BUCAI -               0.15   12.4   0.1       0.6   10.5   0.1   1.9   1   1   0   1   1   1   0 Fumarase C C-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P57159.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P57159.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P57159.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:14:51 2019
+# [ok]

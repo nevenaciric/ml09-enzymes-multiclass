@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EutC                 PF05985.10 sp|Q187M6|EUTC_PEPD6 -            4.4e-82  274.8   0.0   5.8e-82  274.4   0.0   1.1   1   0   0   1   1   1   1 Ethanolamine ammonia-lyase light chain (EutC)
+Etmic-2              PF06670.10 sp|Q187M6|EUTC_PEPD6 -              0.099   11.5   0.0      0.15   10.9   0.0   1.2   1   0   0   1   1   1   0 Microneme protein Etmic-2
+CobW_C               PF07683.13 sp|Q187M6|EUTC_PEPD6 -               0.13   12.2   0.0      0.22   11.4   0.0   1.5   1   1   0   1   1   1   0 Cobalamin synthesis protein cobW C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q187M6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q187M6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q187M6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:30:12 2019
+# [ok]

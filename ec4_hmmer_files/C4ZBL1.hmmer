@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|C4ZBL1|PCKA_AGARV -           4.4e-205  681.6   0.2  5.1e-205  681.4   0.2   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+PEPCK_C              PF00821.17 sp|C4ZBL1|PCKA_AGARV -             0.0059   15.4   0.3      0.15   10.8   0.0   2.2   2   0   0   2   2   2   2 Phosphoenolpyruvate carboxykinase C-terminal P-loop domain
+AAA_33               PF13671.5  sp|C4ZBL1|PCKA_AGARV -               0.11   12.6   0.2      0.82    9.7   0.1   2.3   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C4ZBL1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C4ZBL1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C4ZBL1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:52:29 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DeoC                 PF01791.8  sp|Q66CP8|DEOC1_YERPS -            3.2e-18   66.1   6.5     4e-18   65.8   6.5   1.0   1   0   0   1   1   1   1 DeoC/LacD family aldolase
+DAP10                PF07213.10 sp|Q66CP8|DEOC1_YERPS -             0.0047   16.8   0.9     0.011   15.5   0.9   1.6   1   0   0   1   1   1   1 DAP10 membrane protein
+ComA                 PF02679.14 sp|Q66CP8|DEOC1_YERPS -              0.052   12.9   0.2       5.3    6.3   0.1   2.2   1   1   1   2   2   2   0 (2R)-phospho-3-sulfolactate synthase (ComA)
+ZnuA                 PF01297.16 sp|Q66CP8|DEOC1_YERPS -               0.11   11.8   0.0       5.3    6.3   0.0   2.1   1   1   1   2   2   2   0 Zinc-uptake complex component A periplasmic
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q66CP8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q66CP8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q66CP8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:03:16 2019
+# [ok]

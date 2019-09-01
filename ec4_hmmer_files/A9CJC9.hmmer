@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAD_binding_7        PF03441.13 sp|A9CJC9|PHRA_AGRFC -            2.6e-88  294.7   0.4   2.6e-88  294.7   0.4   1.5   2   0   0   2   2   2   1 FAD binding domain of DNA photolyase
+DNA_photolyase       PF00875.17 sp|A9CJC9|PHRA_AGRFC -            1.5e-48  164.8   0.0     3e-48  163.8   0.0   1.5   1   0   0   1   1   1   1 DNA photolyase
+HAD                  PF12710.6  sp|A9CJC9|PHRA_AGRFC -              0.042   14.1   0.1      0.52   10.6   0.0   2.4   3   0   0   3   3   3   0 haloacid dehalogenase-like hydrolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A9CJC9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A9CJC9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A9CJC9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:11:32 2019
+# [ok]

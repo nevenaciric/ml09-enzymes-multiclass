@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q47XB3|HIS6_COLP3 -            3.3e-77  258.9   0.9   3.7e-77  258.8   0.9   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q47XB3|HIS6_COLP3 -            2.6e-07   29.9   0.4    0.0029   16.7   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+ThiG                 PF05690.13 sp|Q47XB3|HIS6_COLP3 -            5.2e-05   22.6   0.1   0.00062   19.1   0.0   2.0   2   0   0   2   2   2   1 Thiazole biosynthesis protein ThiG
+TMP-TENI             PF02581.16 sp|Q47XB3|HIS6_COLP3 -            5.4e-05   22.5   0.1     0.017   14.4   0.0   2.4   2   1   0   2   2   2   2 Thiamine monophosphate synthase
+NMO                  PF03060.14 sp|Q47XB3|HIS6_COLP3 -            0.00053   19.4   0.0      0.02   14.2   0.0   2.2   2   0   0   2   2   2   1 Nitronate monooxygenase
+G3P_antiterm         PF04309.11 sp|Q47XB3|HIS6_COLP3 -             0.0094   15.3   0.1       0.1   11.9   0.0   2.1   2   0   0   2   2   2   1 Glycerol-3-phosphate responsive antiterminator
+DHO_dh               PF01180.20 sp|Q47XB3|HIS6_COLP3 -              0.019   14.1   0.0     0.064   12.3   0.0   1.7   2   0   0   2   2   2   0 Dihydroorotate dehydrogenase
+IMPDH                PF00478.24 sp|Q47XB3|HIS6_COLP3 -              0.033   13.1   1.0       1.4    7.7   0.1   2.1   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+PRAI                 PF00697.21 sp|Q47XB3|HIS6_COLP3 -              0.094   12.4   0.0      0.21   11.3   0.0   1.6   1   0   0   1   1   1   0 N-(5'phosphoribosyl)anthranilate (PRA) isomerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q47XB3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q47XB3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q47XB3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:48:46 2019
+# [ok]

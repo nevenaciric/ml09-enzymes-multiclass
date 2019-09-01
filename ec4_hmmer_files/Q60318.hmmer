@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HGD-D                PF06050.12 sp|Q60318|Y007_METJA -              1e-89  301.4   0.4   1.2e-89  301.2   0.4   1.0   1   0   0   1   1   1   1 2-hydroxyglutaryl-CoA dehydratase, D-component
+RTX_C                PF08339.9  sp|Q60318|Y007_METJA -               0.24   11.3   1.7       1.2    9.0   0.1   2.3   2   0   0   2   2   2   0 RTX C-terminal domain
+5_3_exonuc           PF01367.19 sp|Q60318|Y007_METJA -                0.4   11.2   3.2      0.44   11.1   0.6   2.4   2   0   0   2   2   2   0 5'-3' exonuclease, C-terminal SAM fold
+GLTSCR1              PF15249.5  sp|Q60318|Y007_METJA -                1.2    9.5   3.8      0.41   11.0   0.5   1.9   2   0   0   2   2   2   0 Conserved region of unknown function on GLTSCR protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q60318.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q60318.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q60318.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:01:18 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TP_methylase         PF00590.19 sp|B3GZA0|CYSG_ACTP7 -            4.9e-52  176.9   0.4     1e-51  175.8   0.4   1.5   1   0   0   1   1   1   1 Tetrapyrrole (Corrin/Porphyrin) Methylases
+NAD_binding_7        PF13241.5  sp|B3GZA0|CYSG_ACTP7 -              4e-28   97.8   0.2   1.1e-27   96.4   0.2   1.8   1   0   0   1   1   1   1 Putative NAD(P)-binding
+CysG_dimeriser       PF10414.8  sp|B3GZA0|CYSG_ACTP7 -            5.3e-17   61.2   2.0   1.8e-16   59.5   2.0   2.0   1   0   0   1   1   1   1 Sirohaem synthase dimerisation region
+Sirohm_synth_M       PF14824.5  sp|B3GZA0|CYSG_ACTP7 -            1.3e-07   30.9   0.4   1.3e-07   30.9   0.4   1.8   2   0   0   2   2   2   1 Sirohaem biosynthesis protein central
+Radical_SAM          PF04055.20 sp|B3GZA0|CYSG_ACTP7 -              0.028   14.7   0.0      0.19   12.0   0.0   2.4   2   1   0   2   2   2   0 Radical SAM superfamily
+Yop-YscD_cpl         PF16697.4  sp|B3GZA0|CYSG_ACTP7 -              0.072   13.3   0.3      0.25   11.6   0.2   2.0   2   0   0   2   2   2   0 Inner membrane component of T3SS, cytoplasmic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B3GZA0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B3GZA0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B3GZA0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:27:15 2019
+# [ok]

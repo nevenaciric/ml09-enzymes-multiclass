@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|C3PHA6|HIS6_CORA7 -            1.6e-87  292.6   0.2   1.9e-87  292.5   0.2   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+ThiG                 PF05690.13 sp|C3PHA6|HIS6_CORA7 -            4.8e-08   32.5   1.5   0.00031   20.1   0.5   2.2   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+G3P_antiterm         PF04309.11 sp|C3PHA6|HIS6_CORA7 -            2.2e-07   30.3   0.2    0.0013   18.0   0.0   2.2   2   0   0   2   2   2   2 Glycerol-3-phosphate responsive antiterminator
+DHO_dh               PF01180.20 sp|C3PHA6|HIS6_CORA7 -            1.5e-06   27.6   0.1     0.014   14.5   0.0   2.2   2   0   0   2   2   2   2 Dihydroorotate dehydrogenase
+NMO                  PF03060.14 sp|C3PHA6|HIS6_CORA7 -            1.7e-06   27.5   5.3    0.0004   19.8   2.2   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+Dus                  PF01207.16 sp|C3PHA6|HIS6_CORA7 -            8.5e-06   25.0   0.0     0.085   11.8   0.0   2.1   1   1   1   2   2   2   2 Dihydrouridine synthase (Dus)
+TMP-TENI             PF02581.16 sp|C3PHA6|HIS6_CORA7 -            1.9e-05   24.0   0.4      0.12   11.5   0.0   2.2   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+IMPDH                PF00478.24 sp|C3PHA6|HIS6_CORA7 -            0.00021   20.3   2.2     0.064   12.1   0.6   2.1   2   0   0   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+PcrB                 PF01884.16 sp|C3PHA6|HIS6_CORA7 -              0.018   14.4   0.3      0.36   10.2   0.0   2.1   2   0   0   2   2   2   0 PcrB family
+FMN_dh               PF01070.17 sp|C3PHA6|HIS6_CORA7 -               0.63    8.9  10.7   1.6e+02    1.0  10.6   2.2   1   1   0   1   1   1   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C3PHA6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C3PHA6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C3PHA6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:51:35 2019
+# [ok]

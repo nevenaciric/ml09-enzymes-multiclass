@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Aconitase_C          PF00694.18 sp|C3NMW1|LEUD_SULIN -            2.6e-22   79.5   0.1   4.9e-22   78.6   0.1   1.5   1   1   1   2   2   2   1 Aconitase C-terminal domain
+Aconitase_2_N        PF06434.12 sp|C3NMW1|LEUD_SULIN -                0.1   12.1   1.4       2.3    7.7   1.4   2.1   1   1   0   1   1   1   0 Aconitate hydratase 2 N-terminus
+PepSY                PF03413.18 sp|C3NMW1|LEUD_SULIN -               0.17   12.4   0.9       1.7    9.2   0.0   2.3   2   0   0   2   2   2   0 Peptidase propeptide and YPEB domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C3NMW1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C3NMW1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C3NMW1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:51:19 2019
+# [ok]

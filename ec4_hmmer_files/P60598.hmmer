@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase               PF00117.27 sp|P60598|HIS5_CORDI -            1.9e-19   70.0   0.0   2.3e-19   69.8   0.0   1.1   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+SNO                  PF01174.18 sp|P60598|HIS5_CORDI -            7.9e-05   22.5   0.0       0.1   12.3   0.0   2.1   2   0   0   2   2   2   2 SNO glutamine amidotransferase family
+GATase_3             PF07685.13 sp|P60598|HIS5_CORDI -            0.00078   19.0   0.0    0.0013   18.3   0.0   1.3   2   0   0   2   2   2   1 CobB/CobQ-like glutamine amidotransferase domain
+Peptidase_C26        PF07722.12 sp|P60598|HIS5_CORDI -             0.0016   18.2   0.5    0.0049   16.6   0.5   1.8   1   1   0   1   1   1   1 Peptidase C26
+Peptidase_S51        PF03575.16 sp|P60598|HIS5_CORDI -              0.038   13.5   0.0     0.051   13.1   0.0   1.2   1   0   0   1   1   1   0 Peptidase family S51
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P60598.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P60598.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P60598.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:15:55 2019
+# [ok]

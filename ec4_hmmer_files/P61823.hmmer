@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RnaseA               PF00074.19 sp|P61823|RNAS1_BOVIN -            7.8e-43  145.8  13.6   8.9e-43  145.6  13.6   1.0   1   0   0   1   1   1   1 Pancreatic ribonuclease
+Mesothelin           PF06060.11 sp|P61823|RNAS1_BOVIN -              0.075   11.2   1.8     0.095   10.8   1.8   1.0   1   0   0   1   1   1   0 Pre-pro-megakaryocyte potentiating factor precursor (Mesothelin)
+Conotoxin            PF02950.16 sp|P61823|RNAS1_BOVIN -               0.34   11.8   7.8       2.7    9.0   7.7   2.3   1   1   0   1   1   1   0 Conotoxin
+DUF4725              PF15854.4  sp|P61823|RNAS1_BOVIN -                  1    9.6   4.4      0.38   10.9   0.3   1.9   1   1   1   2   2   2   0 Domain of unknown function (DUF4725)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P61823.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P61823.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P61823.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:16:22 2019
+# [ok]

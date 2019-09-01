@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase               PF00117.27 sp|Q7XUS2|ASB1_ORYSJ -            4.7e-51  173.2   0.0   6.4e-51  172.7   0.0   1.1   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|Q7XUS2|ASB1_ORYSJ -            4.8e-11   42.7   0.1   9.9e-11   41.7   0.1   1.5   1   1   0   1   1   1   1 Peptidase C26
+KN_motif             PF12075.7  sp|Q7XUS2|ASB1_ORYSJ -              0.085   12.6   0.0      0.17   11.6   0.0   1.6   1   0   0   1   1   1   0 KN motif
+Titin_Z              PF09042.10 sp|Q7XUS2|ASB1_ORYSJ -                2.1    8.3   8.2       6.1    6.8   8.2   1.7   1   0   0   1   1   1   0 Titin Z
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q7XUS2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q7XUS2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q7XUS2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:13:55 2019
+# [ok]

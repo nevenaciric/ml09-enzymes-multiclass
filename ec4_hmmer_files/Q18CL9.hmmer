@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FabA                 PF07977.12 sp|Q18CL9|FABZ_PEPD6 -            1.7e-34  118.3   0.1     2e-34  118.1   0.1   1.0   1   0   0   1   1   1   1 FabA-like domain
+4HBT                 PF03061.21 sp|Q18CL9|FABZ_PEPD6 -            0.00019   21.6   0.0   0.00027   21.1   0.0   1.2   1   0   0   1   1   1   1 Thioesterase superfamily
+PS-DH                PF14765.5  sp|Q18CL9|FABZ_PEPD6 -            0.00024   20.3   0.0    0.0003   20.0   0.0   1.0   1   0   0   1   1   1   1 Polyketide synthase dehydratase
+MaoC_dehydratas      PF01575.18 sp|Q18CL9|FABZ_PEPD6 -               0.01   15.3   0.1     0.015   14.7   0.1   1.2   1   0   0   1   1   1   0 MaoC like domain
+RVT_N                PF13655.5  sp|Q18CL9|FABZ_PEPD6 -               0.14   12.4   0.0        32    4.8   0.0   3.0   3   0   0   3   3   3   0 N-terminal domain of reverse transcriptase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q18CL9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q18CL9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q18CL9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:30:16 2019
+# [ok]

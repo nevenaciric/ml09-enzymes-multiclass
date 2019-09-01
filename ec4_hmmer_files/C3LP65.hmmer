@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Chorismate_synt      PF01264.20 sp|C3LP65|AROC_VIBCM -           2.5e-145  483.2   0.0  2.8e-145  483.0   0.0   1.0   1   0   0   1   1   1   1 Chorismate synthase
+STAT_int             PF02865.16 sp|C3LP65|AROC_VIBCM -               0.12   12.8   0.0      0.18   12.1   0.0   1.2   1   0   0   1   1   1   0 STAT protein, protein interaction domain
+ChaB                 PF06150.11 sp|C3LP65|AROC_VIBCM -               0.15   12.6   0.1       0.3   11.6   0.1   1.5   1   0   0   1   1   1   0 ChaB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C3LP65.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C3LP65.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C3LP65.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:50:30 2019
+# [ok]

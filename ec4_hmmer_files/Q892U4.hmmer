@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DeoC                 PF01791.8  sp|Q892U4|DEOC_CLOTE -            6.9e-23   81.4   5.6   8.1e-23   81.2   5.6   1.0   1   0   0   1   1   1   1 DeoC/LacD family aldolase
+AP_endonuc_2         PF01261.23 sp|Q892U4|DEOC_CLOTE -              0.066   12.5   0.1       1.9    7.8   0.1   2.6   1   1   0   1   1   1   0 Xylose isomerase-like TIM barrel
+MH1                  PF03165.15 sp|Q892U4|DEOC_CLOTE -              0.085   13.0   1.2      0.29   11.3   0.1   2.3   3   0   0   3   3   3   0 MH1 domain
+DUF2124              PF09897.8  sp|Q892U4|DEOC_CLOTE -              0.093   12.5   1.7      0.31   10.8   0.8   2.1   1   1   1   2   2   2   0 Uncharacterized protein conserved in archaea (DUF2124)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q892U4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q892U4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q892U4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:17:42 2019
+# [ok]

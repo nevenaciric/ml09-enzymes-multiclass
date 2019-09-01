@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IGPS                 PF00218.20 sp|B8I0V0|TRPC_CLOCE -            1.1e-87  293.3   0.1   1.2e-87  293.2   0.1   1.0   1   0   0   1   1   1   1 Indole-3-glycerol phosphate synthase
+FMN_dh               PF01070.17 sp|B8I0V0|TRPC_CLOCE -             0.0021   17.0   0.2    0.0043   16.0   0.1   1.4   2   0   0   2   2   2   1 FMN-dependent dehydrogenase
+His_biosynth         PF00977.20 sp|B8I0V0|TRPC_CLOCE -               0.02   14.3   0.0     0.077   12.4   0.0   1.9   2   0   0   2   2   2   0 Histidine biosynthesis protein
+PK                   PF00224.20 sp|B8I0V0|TRPC_CLOCE -              0.035   12.9   0.3     0.076   11.8   0.2   1.5   1   1   0   1   1   1   0 Pyruvate kinase, barrel domain
+DHO_dh               PF01180.20 sp|B8I0V0|TRPC_CLOCE -              0.065   12.3   0.0      0.11   11.5   0.0   1.4   1   0   0   1   1   1   0 Dihydroorotate dehydrogenase
+Dioxygenase_N        PF04444.13 sp|B8I0V0|TRPC_CLOCE -              0.088   12.6   0.0      0.21   11.3   0.0   1.6   1   0   0   1   1   1   0 Catechol dioxygenase N terminus
+NanE                 PF04131.13 sp|B8I0V0|TRPC_CLOCE -              0.099   11.7   0.2      0.27   10.3   0.2   2.0   1   1   0   1   1   1   0 Putative N-acetylmannosamine-6-phosphate epimerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B8I0V0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B8I0V0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B8I0V0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:43:58 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|Q8CS25|PCKA_STAES -             7e-221  733.7   0.1  8.2e-221  733.5   0.1   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+PEPCK_C              PF00821.17 sp|Q8CS25|PCKA_STAES -            0.00057   18.7   0.1   0.00093   18.0   0.1   1.3   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase C-terminal P-loop domain
+AAA_22               PF13401.5  sp|Q8CS25|PCKA_STAES -               0.13   12.4   0.2       4.6    7.4   0.0   2.7   2   1   0   2   2   2   0 AAA domain
+AAA_33               PF13671.5  sp|Q8CS25|PCKA_STAES -               0.17   11.9   0.1       0.4   10.7   0.1   1.6   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8CS25.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8CS25.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8CS25.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:18:45 2019
+# [ok]

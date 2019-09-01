@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+URO-D                PF01208.16 sp|Q7V2A0|DCUP_PROMP -           3.9e-116  387.9   0.0  4.6e-116  387.7   0.0   1.0   1   0   0   1   1   1   1 Uroporphyrinogen decarboxylase (URO-D)
+Cas_Csm6             PF09659.9  sp|Q7V2A0|DCUP_PROMP -              0.019   13.6   0.0     0.032   12.9   0.0   1.3   1   0   0   1   1   1   0 CRISPR-associated protein (Cas_Csm6)
+NanE                 PF04131.13 sp|Q7V2A0|DCUP_PROMP -              0.087   11.9   0.1      0.27   10.3   0.1   1.7   2   0   0   2   2   2   0 Putative N-acetylmannosamine-6-phosphate epimerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q7V2A0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q7V2A0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q7V2A0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:12:12 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|B2VJU9|PCKA_ERWT9 -           1.6e-208  693.0   0.0  1.9e-208  692.8   0.0   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+AAA_33               PF13671.5  sp|B2VJU9|PCKA_ERWT9 -             0.0008   19.5   0.3      0.37   10.9   0.1   2.9   3   0   0   3   3   3   2 AAA domain
+WSK                  PF03832.12 sp|B2VJU9|PCKA_ERWT9 -             0.0059   16.2   0.0     0.014   15.0   0.0   1.6   1   0   0   1   1   1   1 WSK motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B2VJU9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B2VJU9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B2VJU9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:26:33 2019
+# [ok]

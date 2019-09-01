@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HMGL-like            PF00682.18 sp|Q63JB1|HOA_BURPS  -            1.4e-48  165.7   5.5     2e-48  165.2   5.5   1.2   1   0   0   1   1   1   1 HMGL-like
+DmpG_comm            PF07836.10 sp|Q63JB1|HOA_BURPS  -            1.7e-21   75.4   0.1   9.3e-21   73.0   0.0   2.2   2   0   0   2   2   2   1 DmpG-like communication domain
+ThiG                 PF05690.13 sp|Q63JB1|HOA_BURPS  -               0.02   14.1   0.2     0.049   12.8   0.2   1.7   1   0   0   1   1   1   0 Thiazole biosynthesis protein ThiG
+ComA                 PF02679.14 sp|Q63JB1|HOA_BURPS  -              0.096   12.0   0.0         3    7.1   0.0   2.7   3   0   0   3   3   3   0 (2R)-phospho-3-sulfolactate synthase (ComA)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q63JB1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q63JB1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q63JB1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:02:08 2019
+# [ok]

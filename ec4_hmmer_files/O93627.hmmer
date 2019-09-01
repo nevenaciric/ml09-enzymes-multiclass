@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RuBisCO_large        PF00016.19 sp|O93627|RBL_THEKO  -            5.7e-95  317.8   0.0     7e-95  317.6   0.0   1.1   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase large chain, catalytic domain
+RuBisCO_large_N      PF02788.15 sp|O93627|RBL_THEKO  -            1.3e-46  157.6   0.0   3.5e-46  156.2   0.0   1.7   2   0   0   2   2   2   1 Ribulose bisphosphate carboxylase large chain, N-terminal domain
+LigA                 PF07746.10 sp|O93627|RBL_THEKO  -              0.075   13.1   0.1       2.2    8.4   0.0   2.4   2   0   0   2   2   2   0 Aromatic-ring-opening dioxygenase LigAB, LigA subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O93627.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O93627.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O93627.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:00:36 2019
+# [ok]

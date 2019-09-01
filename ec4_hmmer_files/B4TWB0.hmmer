@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+F_bP_aldolase        PF01116.19 sp|B4TWB0|GATY_SALSV -            2.4e-99  332.3   0.2   2.9e-99  332.0   0.2   1.0   1   0   0   1   1   1   1 Fructose-bisphosphate aldolase class-II
+SepSecS              PF05889.12 sp|B4TWB0|GATY_SALSV -             0.0094   14.6   0.0     0.016   13.9   0.0   1.3   1   0   0   1   1   1   1 O-phosphoseryl-tRNA(Sec) selenium transferase, SepSecS
+FMN_dh               PF01070.17 sp|B4TWB0|GATY_SALSV -              0.063   12.2   0.0      0.12   11.3   0.0   1.4   1   0   0   1   1   1   0 FMN-dependent dehydrogenase
+DUF4797              PF16051.4  sp|B4TWB0|GATY_SALSV -              0.067   13.0   0.0      0.16   11.8   0.0   1.6   1   0   0   1   1   1   0 Domain of unknown function (DUF4797)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B4TWB0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B4TWB0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B4TWB0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:30:39 2019
+# [ok]

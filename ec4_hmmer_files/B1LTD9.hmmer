@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHDPS                PF00701.21 sp|B1LTD9|DAPA_METRJ -            1.2e-90  303.1   0.0   1.3e-90  302.9   0.0   1.0   1   0   0   1   1   1   1 Dihydrodipicolinate synthetase family
+PA                   PF02225.21 sp|B1LTD9|DAPA_METRJ -             0.0031   17.5   0.1    0.0064   16.5   0.1   1.6   1   0   0   1   1   1   1 PA domain
+PEP_mutase           PF13714.5  sp|B1LTD9|DAPA_METRJ -             0.0073   15.7   0.1     0.011   15.2   0.1   1.4   1   0   0   1   1   1   1 Phosphoenolpyruvate phosphomutase
+Amidohydro_2         PF04909.13 sp|B1LTD9|DAPA_METRJ -             0.0076   16.0   0.0     0.011   15.4   0.0   1.2   1   0   0   1   1   1   1 Amidohydrolase
+YadA_head            PF05658.13 sp|B1LTD9|DAPA_METRJ -               0.13   12.6   2.5      0.23   11.8   0.1   2.3   2   0   0   2   2   2   0 Head domain of trimeric autotransporter adhesin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B1LTD9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B1LTD9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B1LTD9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:20:48 2019
+# [ok]

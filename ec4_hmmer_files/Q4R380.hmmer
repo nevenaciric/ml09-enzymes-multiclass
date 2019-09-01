@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B_palm       PF14792.5  sp|Q4R380|DPOLL_MACFA -            2.7e-35  120.9   0.0     6e-35  119.8   0.0   1.6   1   0   0   1   1   1   1 DNA polymerase beta palm
+DNA_pol_lambd_f      PF10391.8  sp|Q4R380|DPOLL_MACFA -            5.7e-22   77.2   0.1   8.8e-21   73.4   0.2   2.6   2   0   0   2   2   2   1 Fingers domain of DNA polymerase lambda
+DNA_pol_B_thumb      PF14791.5  sp|Q4R380|DPOLL_MACFA -              8e-22   77.1   0.0     2e-21   75.8   0.0   1.7   1   0   0   1   1   1   1 DNA polymerase beta thumb
+HHH_8                PF14716.5  sp|Q4R380|DPOLL_MACFA -            2.2e-18   66.3   0.1     6e-18   64.9   0.1   1.8   1   0   0   1   1   1   1 Helix-hairpin-helix domain
+HHH_5                PF14520.5  sp|Q4R380|DPOLL_MACFA -              5e-06   26.9   0.1     0.059   13.9   0.0   3.6   3   0   0   3   3   3   2 Helix-hairpin-helix domain
+BRCT_2               PF16589.4  sp|Q4R380|DPOLL_MACFA -             0.0012   19.1   0.0    0.0023   18.2   0.0   1.4   1   0   0   1   1   1   1 BRCT domain, a BRCA1 C-terminus domain
+Cdd1                 PF11731.7  sp|Q4R380|DPOLL_MACFA -             0.0091   16.1   0.0       6.5    7.0   0.0   2.9   3   0   0   3   3   3   2 Pathogenicity locus
+NTP_transf_2         PF01909.22 sp|Q4R380|DPOLL_MACFA -              0.012   15.8   0.0     0.029   14.6   0.0   1.6   1   0   0   1   1   1   0 Nucleotidyltransferase domain
+HHH                  PF00633.22 sp|Q4R380|DPOLL_MACFA -              0.019   14.7   0.0      0.32   10.9   0.0   2.8   3   0   0   3   3   3   0 Helix-hairpin-helix motif
+HHH_2                PF12826.6  sp|Q4R380|DPOLL_MACFA -              0.095   12.7   0.0      0.47   10.5   0.0   2.2   2   0   0   2   2   2   0 Helix-hairpin-helix motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q4R380.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q4R380.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q4R380.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:51:23 2019
+# [ok]

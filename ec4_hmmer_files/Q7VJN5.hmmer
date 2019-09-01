@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHBP_synthase        PF00926.18 sp|Q7VJN5|RIBB_HELHP -            1.8e-79  265.7   0.1   2.3e-79  265.3   0.1   1.1   1   0   0   1   1   1   1 3,4-dihydroxy-2-butanone 4-phosphate synthase
+GTP_cyclohydro2      PF00925.19 sp|Q7VJN5|RIBB_HELHP -            1.2e-07   31.4   0.0   3.5e-05   23.4   0.0   3.1   2   1   0   2   2   2   1 GTP cyclohydrolase II
+DUF2431              PF10354.8  sp|Q7VJN5|RIBB_HELHP -             0.0038   17.4   0.0    0.0075   16.4   0.0   1.4   1   0   0   1   1   1   1 Domain of unknown function (DUF2431)
+Lip_A_acyltrans      PF03279.12 sp|Q7VJN5|RIBB_HELHP -              0.054   12.6   0.0      0.17   10.9   0.0   1.7   2   0   0   2   2   2   0 Bacterial lipid A biosynthesis acyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q7VJN5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q7VJN5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q7VJN5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:12:47 2019
+# [ok]

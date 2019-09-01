@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|A6WC96|HIS6_KINRD -            9.9e-83  277.0   0.1   1.1e-82  276.8   0.1   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+ThiG                 PF05690.13 sp|A6WC96|HIS6_KINRD -            3.4e-06   26.5   5.5    0.0084   15.3   0.1   2.7   2   1   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+IMPDH                PF00478.24 sp|A6WC96|HIS6_KINRD -            8.9e-06   24.8   2.0      0.02   13.8   0.2   2.2   2   0   0   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+Dus                  PF01207.16 sp|A6WC96|HIS6_KINRD -            9.4e-06   24.8   0.0   0.00024   20.2   0.0   2.0   2   0   0   2   2   2   1 Dihydrouridine synthase (Dus)
+TMP-TENI             PF02581.16 sp|A6WC96|HIS6_KINRD -            0.00036   19.8   0.5      0.69    9.1   0.2   2.3   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+DHO_dh               PF01180.20 sp|A6WC96|HIS6_KINRD -            0.00072   18.7   0.2     0.037   13.1   0.0   2.1   2   0   0   2   2   2   1 Dihydroorotate dehydrogenase
+G3P_antiterm         PF04309.11 sp|A6WC96|HIS6_KINRD -             0.0021   17.4   0.2     0.072   12.4   0.0   2.1   2   0   0   2   2   2   1 Glycerol-3-phosphate responsive antiterminator
+NMO                  PF03060.14 sp|A6WC96|HIS6_KINRD -             0.0043   16.4   9.3      0.13   11.5   0.2   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+FMN_dh               PF01070.17 sp|A6WC96|HIS6_KINRD -               0.03   13.3  14.0      0.13   11.2   0.5   2.7   1   1   2   3   3   3   0 FMN-dependent dehydrogenase
+Glu_synthase         PF01645.16 sp|A6WC96|HIS6_KINRD -              0.062   12.3   0.2      0.76    8.8   0.1   2.0   2   0   0   2   2   2   0 Conserved region in glutamate synthase
+DUF5423              PF17461.1  sp|A6WC96|HIS6_KINRD -               0.42    9.2   1.1      0.66    8.6   1.1   1.2   1   0   0   1   1   1   0 Family of unknown function (DUF5423)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A6WC96.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A6WC96.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A6WC96.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:02:56 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PS_Dcarbxylase       PF02666.14 sp|P39006|PSD1_YEAST -            1.8e-70  236.5   0.0   2.6e-70  236.0   0.0   1.2   1   0   0   1   1   1   1 Phosphatidylserine decarboxylase
+NADH_oxidored        PF08040.10 sp|P39006|PSD1_YEAST -             0.0013   18.3   0.0    0.0035   16.9   0.0   1.7   1   0   0   1   1   1   1 MNLL subunit
+Peptidase_M23        PF01551.21 sp|P39006|PSD1_YEAST -              0.037   14.1   0.3      0.72   10.0   0.0   2.7   3   1   1   4   4   4   0 Peptidase family M23
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P39006.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P39006.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P39006.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:11:02 2019
+# [ok]

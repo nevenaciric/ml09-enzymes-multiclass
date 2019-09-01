@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|Q0AQP4|PCKA_MARMM -             4e-206  685.1   0.0  4.7e-206  684.9   0.0   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+CHDNT                PF08073.11 sp|Q0AQP4|PCKA_MARMM -             0.0079   16.0   0.3      0.12   12.2   0.0   2.3   2   0   0   2   2   2   1 CHDNT (NUC034) domain
+AAA_24               PF13479.5  sp|Q0AQP4|PCKA_MARMM -              0.061   12.9   0.0      0.15   11.6   0.0   1.6   2   0   0   2   2   2   0 AAA domain
+AAA_25               PF13481.5  sp|Q0AQP4|PCKA_MARMM -               0.25   10.8   1.9       0.7    9.3   0.4   2.3   2   1   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q0AQP4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q0AQP4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q0AQP4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:24:31 2019
+# [ok]

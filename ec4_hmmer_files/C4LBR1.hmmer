@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Enolase_C            PF00113.21 sp|C4LBR1|ENO_TOLAT  -           9.2e-138  458.3   3.0  1.2e-137  457.9   3.0   1.1   1   0   0   1   1   1   1 Enolase, C-terminal TIM barrel domain
+Enolase_N            PF03952.15 sp|C4LBR1|ENO_TOLAT  -            8.4e-58  194.1   1.5     1e-57  193.8   0.4   1.8   2   0   0   2   2   2   1 Enolase, N-terminal domain
+MR_MLE_C             PF13378.5  sp|C4LBR1|ENO_TOLAT  -            8.7e-05   22.2   0.0    0.0002   21.0   0.0   1.7   1   1   0   1   1   1   1 Enolase C-terminal domain-like
+MAAL_C               PF07476.10 sp|C4LBR1|ENO_TOLAT  -            9.3e-05   21.6   1.9   0.00015   20.9   0.1   2.0   2   0   0   2   2   2   1 Methylaspartate ammonia-lyase C-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C4LBR1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C4LBR1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C4LBR1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:52:06 2019
+# [ok]

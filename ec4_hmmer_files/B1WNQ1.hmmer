@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_syntA            PF00290.19 sp|B1WNQ1|TRPA_CYAA5 -            1.3e-91  305.9   0.0   1.5e-91  305.8   0.0   1.0   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+His_biosynth         PF00977.20 sp|B1WNQ1|TRPA_CYAA5 -            3.1e-05   23.4   0.0   5.6e-05   22.6   0.0   1.4   1   0   0   1   1   1   1 Histidine biosynthesis protein
+ThiG                 PF05690.13 sp|B1WNQ1|TRPA_CYAA5 -             0.0015   17.8   0.0    0.0025   17.0   0.0   1.4   1   0   0   1   1   1   1 Thiazole biosynthesis protein ThiG
+NanE                 PF04131.13 sp|B1WNQ1|TRPA_CYAA5 -             0.0017   17.5   0.2    0.0061   15.7   0.2   1.9   1   1   0   1   1   1   1 Putative N-acetylmannosamine-6-phosphate epimerase
+Ribul_P_3_epim       PF00834.18 sp|B1WNQ1|TRPA_CYAA5 -             0.0021   17.4   0.1     0.013   14.8   0.1   2.0   1   1   1   2   2   2   1 Ribulose-phosphate 3 epimerase family
+PcrB                 PF01884.16 sp|B1WNQ1|TRPA_CYAA5 -             0.0031   16.9   0.0     0.036   13.4   0.0   2.4   3   0   0   3   3   3   1 PcrB family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B1WNQ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B1WNQ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B1WNQ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:21:23 2019
+# [ok]

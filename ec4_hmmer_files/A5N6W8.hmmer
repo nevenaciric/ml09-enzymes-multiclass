@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHquinase_I          PF01487.14 sp|A5N6W8|AROD_CLOK5 -            1.2e-74  251.4   1.1   1.3e-74  251.2   1.1   1.0   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+KH_5                 PF13184.5  sp|A5N6W8|AROD_CLOK5 -            0.00045   20.2   2.3      0.78    9.8   0.1   2.5   2   0   0   2   2   2   2 NusA-like KH domain
+Semialdhyde_dh       PF01118.23 sp|A5N6W8|AROD_CLOK5 -               0.03   14.7   0.0     0.047   14.0   0.0   1.4   1   0   0   1   1   1   0 Semialdehyde dehydrogenase, NAD binding domain
+Glycos_transf_N      PF04413.15 sp|A5N6W8|AROD_CLOK5 -              0.035   13.7   0.0     0.062   12.9   0.0   1.4   1   1   0   1   1   1   0 3-Deoxy-D-manno-octulosonic-acid transferase (kdotransferase)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A5N6W8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A5N6W8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A5N6W8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 19:57:53 2019
+# [ok]

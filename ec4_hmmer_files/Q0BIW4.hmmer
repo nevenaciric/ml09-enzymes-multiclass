@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q0BIW4|HIS6_BURCM -            1.1e-90  303.0   0.4   1.3e-90  302.8   0.4   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q0BIW4|HIS6_BURCM -            1.6e-06   27.3   0.1   0.00091   18.3   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+ThiG                 PF05690.13 sp|Q0BIW4|HIS6_BURCM -            9.5e-06   25.0   1.7     0.041   13.1   0.2   2.2   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+NMO                  PF03060.14 sp|Q0BIW4|HIS6_BURCM -            4.5e-05   22.9   6.0    0.0081   15.5   1.1   2.1   1   1   0   2   2   2   2 Nitronate monooxygenase
+TMP-TENI             PF02581.16 sp|Q0BIW4|HIS6_BURCM -            0.00026   20.3   0.1      0.12   11.6   0.0   2.4   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+G3P_antiterm         PF04309.11 sp|Q0BIW4|HIS6_BURCM -            0.00041   19.7   0.2    0.0035   16.7   0.0   2.0   2   0   0   2   2   2   1 Glycerol-3-phosphate responsive antiterminator
+IMPDH                PF00478.24 sp|Q0BIW4|HIS6_BURCM -              0.014   14.3   1.1       1.4    7.8   0.0   2.3   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+DHO_dh               PF01180.20 sp|Q0BIW4|HIS6_BURCM -               0.11   11.6   0.2       2.5    7.1   0.0   2.2   2   0   0   2   2   2   0 Dihydroorotate dehydrogenase
+FMN_dh               PF01070.17 sp|Q0BIW4|HIS6_BURCM -                1.5    7.7   5.9      0.88    8.4   0.2   2.3   2   1   0   2   2   2   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q0BIW4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q0BIW4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q0BIW4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:24:47 2019
+# [ok]

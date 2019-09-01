@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|B8J216|HIS6_DESDA -            1.5e-75  253.5   0.4   1.7e-75  253.3   0.4   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+NMO                  PF03060.14 sp|B8J216|HIS6_DESDA -            1.9e-07   30.7   5.6   0.00031   20.1   1.4   2.4   2   0   0   2   2   2   2 Nitronate monooxygenase
+Dus                  PF01207.16 sp|B8J216|HIS6_DESDA -             0.0001   21.4   0.1    0.0049   15.9   0.0   2.5   2   1   0   2   2   2   1 Dihydrouridine synthase (Dus)
+TMP-TENI             PF02581.16 sp|B8J216|HIS6_DESDA -             0.0011   18.3   0.8       0.4    9.9   0.1   2.3   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+DHO_dh               PF01180.20 sp|B8J216|HIS6_DESDA -             0.0012   18.0   1.6      0.31   10.1   0.1   2.1   2   0   0   2   2   2   2 Dihydroorotate dehydrogenase
+ThiG                 PF05690.13 sp|B8J216|HIS6_DESDA -             0.0034   16.6   4.8      0.19   10.9   0.6   2.1   1   1   1   2   2   2   2 Thiazole biosynthesis protein ThiG
+G3P_antiterm         PF04309.11 sp|B8J216|HIS6_DESDA -              0.011   15.1   0.4      0.12   11.6   0.1   2.1   2   0   0   2   2   2   0 Glycerol-3-phosphate responsive antiterminator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B8J216.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B8J216.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B8J216.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:44:11 2019
+# [ok]

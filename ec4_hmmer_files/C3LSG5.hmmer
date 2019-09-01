@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEPCK_ATP            PF01293.19 sp|C3LSG5|PCKA_VIBCM -           2.5e-210  699.0   0.0  2.8e-210  698.8   0.0   1.0   1   0   0   1   1   1   1 Phosphoenolpyruvate carboxykinase
+AAA_33               PF13671.5  sp|C3LSG5|PCKA_VIBCM -            0.00032   20.8   0.3      0.31   11.1   0.1   2.6   2   0   0   2   2   2   2 AAA domain
+AAA_25               PF13481.5  sp|C3LSG5|PCKA_VIBCM -              0.048   13.1   0.1      0.54    9.7   0.0   2.2   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/C3LSG5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/C3LSG5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/C3LSG5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:50:36 2019
+# [ok]

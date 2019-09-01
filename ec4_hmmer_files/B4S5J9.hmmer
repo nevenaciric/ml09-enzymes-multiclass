@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PS_Dcarbxylase       PF02666.14 sp|B4S5J9|PSD_PROA2  -            6.2e-31  107.4   0.4   9.3e-30  103.6   0.4   1.9   1   1   0   1   1   1   1 Phosphatidylserine decarboxylase
+PTS_EIIA_1           PF00358.19 sp|B4S5J9|PSD_PROA2  -              0.071   12.8   0.3      0.33   10.6   0.0   2.3   2   1   1   3   3   3   0 phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+PsbT                 PF01405.16 sp|B4S5J9|PSD_PROA2  -              0.091   12.5   0.2     0.091   12.5   0.2   1.9   2   0   0   2   2   2   0 Photosystem II reaction centre T protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B4S5J9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B4S5J9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B4S5J9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:29:15 2019
+# [ok]

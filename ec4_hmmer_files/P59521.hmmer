@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|P59521|HIS6_BUCBP -            1.4e-73  247.0   1.0   1.6e-73  246.8   1.0   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|P59521|HIS6_BUCBP -            3.7e-07   29.4   0.3   9.5e-05   21.5   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|P59521|HIS6_BUCBP -            5.5e-06   25.9   0.0    0.0035   16.7   0.0   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+TMP-TENI             PF02581.16 sp|P59521|HIS6_BUCBP -            9.2e-05   21.8   0.0      0.01   15.1   0.0   2.2   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+G3P_antiterm         PF04309.11 sp|P59521|HIS6_BUCBP -             0.0014   18.0   0.1    0.0098   15.2   0.1   2.1   2   0   0   2   2   2   1 Glycerol-3-phosphate responsive antiterminator
+ThiG                 PF05690.13 sp|P59521|HIS6_BUCBP -             0.0044   16.3   0.1     0.021   14.1   0.0   1.8   2   0   0   2   2   2   1 Thiazole biosynthesis protein ThiG
+FMN_dh               PF01070.17 sp|P59521|HIS6_BUCBP -               0.07   12.1   0.1       9.8    5.0   0.1   2.1   1   1   1   2   2   2   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P59521.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P59521.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P59521.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:15:44 2019
+# [ok]

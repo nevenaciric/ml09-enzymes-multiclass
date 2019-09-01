@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHQ_synthase         PF01761.19 sp|Q70KD0|DOIS_MICEC -            5.7e-69  232.1   0.4   7.2e-69  231.8   0.4   1.1   1   0   0   1   1   1   1 3-dehydroquinate synthase
+Fe-ADH_2             PF13685.5  sp|Q70KD0|DOIS_MICEC -            6.7e-13   48.8   1.8   5.4e-12   45.8   1.8   2.0   1   1   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Fe-ADH               PF00465.18 sp|Q70KD0|DOIS_MICEC -            0.00054   18.8   8.3    0.0085   14.9   8.3   2.2   1   1   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+PALP                 PF00291.24 sp|Q70KD0|DOIS_MICEC -              0.022   14.1   0.8      0.04   13.2   0.8   1.7   1   1   0   1   1   1   0 Pyridoxal-phosphate dependent enzyme
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q70KD0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q70KD0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q70KD0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:07:50 2019
+# [ok]

@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|B2I0P3|HIS6_ACIBC -              3e-89  298.3   1.4   3.4e-89  298.2   1.4   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|B2I0P3|HIS6_ACIBC -            5.3e-08   32.2   1.0   7.3e-05   21.9   0.1   2.1   1   1   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|B2I0P3|HIS6_ACIBC -            4.8e-07   29.4   7.2    0.0023   17.3   0.1   2.2   1   1   1   2   2   2   2 Nitronate monooxygenase
+ThiG                 PF05690.13 sp|B2I0P3|HIS6_ACIBC -            6.4e-07   28.8   0.7    0.0067   15.7   0.0   2.2   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+TMP-TENI             PF02581.16 sp|B2I0P3|HIS6_ACIBC -            2.2e-05   23.8   0.9      0.06   12.6   0.0   2.3   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+G3P_antiterm         PF04309.11 sp|B2I0P3|HIS6_ACIBC -            6.4e-05   22.3   0.1    0.0073   15.6   0.0   2.2   2   0   0   2   2   2   1 Glycerol-3-phosphate responsive antiterminator
+DHO_dh               PF01180.20 sp|B2I0P3|HIS6_ACIBC -            0.00041   19.6   0.1     0.083   12.0   0.0   2.1   2   0   0   2   2   2   2 Dihydroorotate dehydrogenase
+IMPDH                PF00478.24 sp|B2I0P3|HIS6_ACIBC -             0.0031   16.5   2.6      0.31    9.9   0.1   2.1   2   0   0   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+Trp_syntA            PF00290.19 sp|B2I0P3|HIS6_ACIBC -              0.043   12.6   0.1     0.082   11.6   0.1   1.4   1   0   0   1   1   1   0 Tryptophan synthase alpha chain
+PE                   PF00934.19 sp|B2I0P3|HIS6_ACIBC -              0.079   13.2   0.3      0.32   11.2   0.1   2.1   2   0   0   2   2   2   0 PE family
+FMN_dh               PF01070.17 sp|B2I0P3|HIS6_ACIBC -               0.45    9.4   3.7       5.3    5.9   3.6   2.4   1   1   0   1   1   1   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B2I0P3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B2I0P3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B2I0P3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:23:29 2019
+# [ok]

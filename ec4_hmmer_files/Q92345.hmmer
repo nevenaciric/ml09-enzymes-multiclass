@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|Q92345|PDC2_SCHPO -            6.3e-37  126.7   0.0   2.1e-35  121.8   0.1   2.3   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_C         PF02775.20 sp|Q92345|PDC2_SCHPO -            1.2e-24   86.8   0.6   3.6e-23   81.9   0.0   2.7   3   0   0   3   3   3   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+TPP_enzyme_M         PF00205.21 sp|Q92345|PDC2_SCHPO -            5.8e-22   77.8   0.0   1.1e-21   76.9   0.0   1.4   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, central domain
+CO_dh                PF02552.15 sp|Q92345|PDC2_SCHPO -            8.7e-05   22.2   0.0   0.00039   20.1   0.0   2.0   2   0   0   2   2   2   1 CO dehydrogenase beta subunit/acetyl-CoA synthase epsilon subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q92345.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q92345.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q92345.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:28:21 2019
+# [ok]

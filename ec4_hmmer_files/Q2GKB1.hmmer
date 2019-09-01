@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ThiC_Rad_SAM         PF01964.17 sp|Q2GKB1|THIC_ANAPZ -           7.6e-194  644.2   0.0    9e-194  643.9   0.0   1.0   1   0   0   1   1   1   1 Radical SAM ThiC family
+ThiC-associated      PF13667.5  sp|Q2GKB1|THIC_ANAPZ -            1.3e-18   66.5   0.1   2.7e-18   65.4   0.1   1.6   1   0   0   1   1   1   1 ThiC-associated domain
+Hexapep              PF00132.23 sp|Q2GKB1|THIC_ANAPZ -              0.048   13.3   0.4       4.8    7.0   0.0   2.7   2   0   0   2   2   2   0 Bacterial transferase hexapeptide (six repeats)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q2GKB1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q2GKB1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q2GKB1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:36:38 2019
+# [ok]

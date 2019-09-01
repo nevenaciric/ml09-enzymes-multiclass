@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Fapy_DNA_glyco       PF01149.23 sp|Q6APT2|FPG_DESPS  -            3.5e-29  101.7   0.0   6.1e-29  100.9   0.0   1.4   1   0   0   1   1   1   1 Formamidopyrimidine-DNA glycosylase N-terminal domain
+H2TH                 PF06831.13 sp|Q6APT2|FPG_DESPS  -            3.3e-25   87.8   0.0   4.7e-25   87.3   0.0   1.2   1   0   0   1   1   1   1 Formamidopyrimidine-DNA glycosylase H2TH domain
+zf-FPG_IleRS         PF06827.13 sp|Q6APT2|FPG_DESPS  -            7.5e-10   38.4   4.0   2.4e-09   36.8   2.0   2.4   2   0   0   2   2   2   1 Zinc finger found in FPG and IleRS
+zinc-ribbons_6       PF07191.11 sp|Q6APT2|FPG_DESPS  -             0.0025   17.6   0.3    0.0052   16.7   0.3   1.5   1   0   0   1   1   1   1 zinc-ribbons
+FbpA                 PF05833.10 sp|Q6APT2|FPG_DESPS  -              0.028   13.1   0.0     0.034   12.8   0.0   1.1   1   0   0   1   1   1   0 Fibronectin-binding protein A N-terminus (FbpA)
+Auto_anti-p27        PF06677.11 sp|Q6APT2|FPG_DESPS  -              0.079   13.0   0.8      0.15   12.2   0.8   1.4   1   0   0   1   1   1   0 Sjogren's syndrome/scleroderma autoantigen 1 (Autoantigen p27)
+Zn_Tnp_IS1595        PF12760.6  sp|Q6APT2|FPG_DESPS  -               0.13   12.1   1.7       0.3   11.0   1.7   1.6   1   0   0   1   1   1   0 Transposase zinc-ribbon domain
+Lar_restr_allev      PF14354.5  sp|Q6APT2|FPG_DESPS  -               0.27   11.6   1.9      0.64   10.3   1.9   1.7   1   0   0   1   1   1   0 Restriction alleviation protein Lar
+zf-RING_7            PF02591.14 sp|Q6APT2|FPG_DESPS  -               0.37   10.9   2.3       3.5    7.8   0.1   2.7   2   0   0   2   2   2   0 C4-type zinc ribbon domain
+Anti-TRAP            PF15777.4  sp|Q6APT2|FPG_DESPS  -                1.9    8.4   4.1       9.9    6.1   4.0   2.1   1   1   1   2   2   2   0 Tryptophan RNA-binding attenuator protein inhibitory protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q6APT2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q6APT2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q6APT2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:04:14 2019
+# [ok]

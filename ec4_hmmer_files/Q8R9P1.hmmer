@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ThiC_Rad_SAM         PF01964.17 sp|Q8R9P1|THIC_CALS4 -           2.6e-203  675.3   1.2  2.9e-203  675.2   1.2   1.0   1   0   0   1   1   1   1 Radical SAM ThiC family
+PcrB                 PF01884.16 sp|Q8R9P1|THIC_CALS4 -              0.032   13.6   0.2      0.81    9.0   0.1   2.5   2   0   0   2   2   2   0 PcrB family
+PdxJ                 PF03740.12 sp|Q8R9P1|THIC_CALS4 -               0.07   12.1   0.0      0.33   10.0   0.0   1.9   2   1   0   2   2   2   0 Pyridoxal phosphate biosynthesis protein PdxJ
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8R9P1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8R9P1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8R9P1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:23:48 2019
+# [ok]

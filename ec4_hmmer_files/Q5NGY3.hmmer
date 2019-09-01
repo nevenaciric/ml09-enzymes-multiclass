@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Fapy_DNA_glyco       PF01149.23 sp|Q5NGY3|FPG_FRATT  -            1.2e-28  100.0   0.0   2.4e-28   99.0   0.0   1.5   1   0   0   1   1   1   1 Formamidopyrimidine-DNA glycosylase N-terminal domain
+H2TH                 PF06831.13 sp|Q5NGY3|FPG_FRATT  -              3e-25   88.0   0.1   7.4e-25   86.7   0.1   1.7   1   0   0   1   1   1   1 Formamidopyrimidine-DNA glycosylase H2TH domain
+zf-FPG_IleRS         PF06827.13 sp|Q5NGY3|FPG_FRATT  -            1.5e-06   27.8   1.9   2.8e-06   27.0   1.9   1.4   1   0   0   1   1   1   1 Zinc finger found in FPG and IleRS
+FbpA                 PF05833.10 sp|Q5NGY3|FPG_FRATT  -             0.0049   15.6   0.1    0.0068   15.1   0.1   1.2   1   0   0   1   1   1   1 Fibronectin-binding protein A N-terminus (FbpA)
+DUF4428              PF14471.5  sp|Q5NGY3|FPG_FRATT  -               0.11   12.3   2.6      0.29   11.0   2.6   1.8   1   0   0   1   1   1   0 Domain of unknown function (DUF4428)
+ATPase_2             PF01637.17 sp|Q5NGY3|FPG_FRATT  -               0.23   11.3   5.4       0.2   11.4   2.1   2.0   2   0   0   2   2   2   0 ATPase domain predominantly from Archaea
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5NGY3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5NGY3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5NGY3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:58:09 2019
+# [ok]

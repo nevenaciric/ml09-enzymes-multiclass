@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|O26369|ARLY_METTH -            1.5e-70  238.0   0.3   1.8e-70  237.7   0.3   1.1   1   0   0   1   1   1   1 Lyase
+ASL_C2               PF14698.5  sp|O26369|ARLY_METTH -              3e-18   66.2   0.0   1.5e-17   64.0   0.0   2.3   2   0   0   2   2   2   1 Argininosuccinate lyase C-terminal
+Peptidase_M24        PF00557.23 sp|O26369|ARLY_METTH -              0.039   13.5   0.1     0.084   12.5   0.1   1.6   1   0   0   1   1   1   0 Metallopeptidase family M24
+GM_CSF               PF01109.16 sp|O26369|ARLY_METTH -               0.18   11.9   0.0      0.34   11.0   0.0   1.4   1   0   0   1   1   1   0 Granulocyte-macrophage colony-stimulating factor
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O26369.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O26369.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O26369.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:57:24 2019
+# [ok]

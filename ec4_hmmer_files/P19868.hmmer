@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PALP                 PF00291.24 sp|P19868|TRPB_GEOSE -            3.2e-50  171.1   0.9   4.2e-50  170.7   0.9   1.1   1   0   0   1   1   1   1 Pyridoxal-phosphate dependent enzyme
+Succ_CoA_lig         PF13607.5  sp|P19868|TRPB_GEOSE -              0.016   14.9   1.8     0.016   14.9   0.1   1.8   2   0   0   2   2   2   0 Succinyl-CoA ligase like flavodoxin domain
+HpcH_HpaI            PF03328.13 sp|P19868|TRPB_GEOSE -              0.057   12.4   0.4      0.22   10.5   0.2   1.9   2   0   0   2   2   2   0 HpcH/HpaI aldolase/citrate lyase family
+DUF4147              PF13660.5  sp|P19868|TRPB_GEOSE -              0.085   12.3   0.2       0.2   11.1   0.2   1.7   1   1   0   1   1   1   0 Domain of unknown function (DUF4147)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P19868.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P19868.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P19868.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:06:42 2019
+# [ok]

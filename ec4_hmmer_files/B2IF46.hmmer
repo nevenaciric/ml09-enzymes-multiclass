@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_syntA            PF00290.19 sp|B2IF46|TRPA_BEII9 -            5.7e-90  300.6   0.2   6.8e-90  300.3   0.2   1.0   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+PcrB                 PF01884.16 sp|B2IF46|TRPA_BEII9 -            7.5e-05   22.2   0.2   0.00064   19.1   0.2   2.0   2   0   0   2   2   2   1 PcrB family
+His_biosynth         PF00977.20 sp|B2IF46|TRPA_BEII9 -            0.00035   20.0   0.1   0.00086   18.7   0.1   1.6   2   0   0   2   2   2   1 Histidine biosynthesis protein
+IMPDH                PF00478.24 sp|B2IF46|TRPA_BEII9 -              0.068   12.1   4.0      0.77    8.6   3.0   2.5   3   0   0   3   3   3   0 IMP dehydrogenase / GMP reductase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B2IF46.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B2IF46.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B2IF46.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:23:47 2019
+# [ok]

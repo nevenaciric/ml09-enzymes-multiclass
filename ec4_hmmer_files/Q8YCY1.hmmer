@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+OCD_Mu_crystall      PF02423.14 sp|Q8YCY1|OCD_BRUME  -           3.1e-132  440.2   0.1  3.5e-132  440.1   0.1   1.0   1   0   0   1   1   1   1 Ornithine cyclodeaminase/mu-crystallin family
+IlvN                 PF07991.11 sp|Q8YCY1|OCD_BRUME  -             0.0062   16.0   0.1     0.012   15.1   0.1   1.4   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+UDPG_MGDP_dh_C       PF03720.14 sp|Q8YCY1|OCD_BRUME  -               0.11   12.9   0.0       0.3   11.4   0.0   1.7   1   1   1   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8YCY1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8YCY1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8YCY1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:26:42 2019
+# [ok]

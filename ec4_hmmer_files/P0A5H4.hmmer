@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ICL                  PF00463.20 sp|P0A5H4|ACEA1_MYCBO -           2.4e-101  339.7   3.6   8.7e-53  179.5   0.1   2.1   1   1   1   2   2   2   2 Isocitrate lyase family
+PEP_mutase           PF13714.5  sp|P0A5H4|ACEA1_MYCBO -            5.6e-17   61.9   0.1   1.1e-16   60.9   0.1   1.5   1   1   0   1   1   1   1 Phosphoenolpyruvate phosphomutase
+DUF3338              PF11819.7  sp|P0A5H4|ACEA1_MYCBO -               0.11   12.4   0.0      0.23   11.4   0.0   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF3338)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P0A5H4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P0A5H4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P0A5H4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:03:04 2019
+# [ok]

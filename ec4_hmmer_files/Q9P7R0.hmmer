@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|Q9P7R0|ARO1_SCHPO -           2.5e-125  418.4   0.0  3.4e-125  417.9   0.0   1.2   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|Q9P7R0|ARO1_SCHPO -            1.7e-97  325.6   0.0   2.7e-97  324.9   0.0   1.4   1   0   0   1   1   1   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|Q9P7R0|ARO1_SCHPO -            1.7e-56  192.0   0.0   3.2e-56  191.0   0.0   1.5   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|Q9P7R0|ARO1_SCHPO -              2e-36  125.4   0.2     2e-35  122.1   0.0   2.6   3   0   0   3   3   3   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|Q9P7R0|ARO1_SCHPO -            2.7e-25   88.3   0.0   7.1e-25   87.0   0.0   1.8   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Fe-ADH_2             PF13685.5  sp|Q9P7R0|ARO1_SCHPO -            1.3e-07   31.5   0.0   8.3e-07   28.9   0.0   2.2   1   1   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Shikimate_DH         PF01488.19 sp|Q9P7R0|ARO1_SCHPO -            0.00045   20.2   0.0    0.0012   18.8   0.0   1.7   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+AAA_18               PF13238.5  sp|Q9P7R0|ARO1_SCHPO -            0.00071   20.0   0.0    0.0021   18.5   0.0   1.9   1   0   0   1   1   1   1 AAA domain
+AAA                  PF00004.28 sp|Q9P7R0|ARO1_SCHPO -             0.0009   19.6   0.0    0.0062   16.9   0.0   2.3   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+AAA_14               PF13173.5  sp|Q9P7R0|ARO1_SCHPO -              0.016   15.2   0.0     0.067   13.1   0.0   2.2   1   0   0   1   1   1   0 AAA domain
+AAA_33               PF13671.5  sp|Q9P7R0|ARO1_SCHPO -              0.035   14.2   0.0     0.086   12.9   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+ABC_tran             PF00005.26 sp|Q9P7R0|ARO1_SCHPO -              0.036   14.5   0.3      0.11   13.0   0.3   1.8   1   0   0   1   1   1   0 ABC transporter
+Sacchrp_dh_NADP      PF03435.17 sp|Q9P7R0|ARO1_SCHPO -              0.041   14.0   0.0      0.25   11.5   0.0   2.4   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+Cytidylate_kin2      PF13189.5  sp|Q9P7R0|ARO1_SCHPO -              0.094   12.8   0.0       0.2   11.7   0.0   1.5   1   0   0   1   1   1   0 Cytidylate kinase-like family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9P7R0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9P7R0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9P7R0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:35:43 2019
+# [ok]

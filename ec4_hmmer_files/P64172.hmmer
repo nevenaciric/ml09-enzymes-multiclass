@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|P64172|FUMC_STAAM -           8.6e-113  376.7   0.0  1.1e-112  376.3   0.0   1.2   1   0   0   1   1   1   1 Lyase
+FumaraseC_C          PF10415.8  sp|P64172|FUMC_STAAM -              3e-26   91.5   0.1   1.3e-25   89.4   0.1   2.1   2   0   0   2   2   2   1 Fumarase C C-terminus
+NTase_sub_bind       PF08780.10 sp|P64172|FUMC_STAAM -              0.012   15.5   0.0     0.027   14.3   0.0   1.5   1   0   0   1   1   1   0 Nucleotidyltransferase substrate binding protein like
+HsbA                 PF12296.7  sp|P64172|FUMC_STAAM -               0.12   12.7   0.2      0.47   10.8   0.0   2.0   2   0   0   2   2   2   0 Hydrophobic surface binding protein A
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/P64172.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/P64172.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/P64172.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:17:01 2019
+# [ok]

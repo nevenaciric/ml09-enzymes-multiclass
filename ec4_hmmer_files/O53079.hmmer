@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CitF                 PF04223.11 sp|O53079|CILA_LEUMC -           1.5e-238  792.2  11.6  1.8e-238  792.0  11.6   1.0   1   0   0   1   1   1   1 Citrate lyase, alpha subunit (CitF)
+AcetylCoA_hyd_C      PF13336.5  sp|O53079|CILA_LEUMC -            6.1e-05   22.9   0.2   0.00016   21.5   0.2   1.7   1   0   0   1   1   1   1 Acetyl-CoA hydrolase/transferase C-terminal domain
+HicB_lk_antitox      PF15919.4  sp|O53079|CILA_LEUMC -              0.016   15.2   0.0       8.6    6.4   0.0   2.6   2   0   0   2   2   2   0 HicB_like antitoxin of bacterial toxin-antitoxin system
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/O53079.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/O53079.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/O53079.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:58:53 2019
+# [ok]

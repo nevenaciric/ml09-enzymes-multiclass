@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TP_methylase         PF00590.19 sp|Q6LM67|CYSG_PHOPR -            2.9e-45  154.7   0.6   6.3e-45  153.6   0.2   1.7   2   0   0   2   2   2   1 Tetrapyrrole (Corrin/Porphyrin) Methylases
+NAD_binding_7        PF13241.5  sp|Q6LM67|CYSG_PHOPR -            3.2e-30  104.5   0.5   3.7e-29  101.1   0.2   2.4   2   0   0   2   2   2   1 Putative NAD(P)-binding
+CysG_dimeriser       PF10414.8  sp|Q6LM67|CYSG_PHOPR -            7.2e-19   67.2   2.6   9.2e-19   66.8   0.6   2.3   2   0   0   2   2   2   1 Sirohaem synthase dimerisation region
+Sirohm_synth_M       PF14824.5  sp|Q6LM67|CYSG_PHOPR -            4.4e-08   32.3   0.3   8.1e-08   31.5   0.3   1.5   1   0   0   1   1   1   1 Sirohaem biosynthesis protein central
+F420_oxidored        PF03807.16 sp|Q6LM67|CYSG_PHOPR -              0.021   15.3   1.8     0.063   13.8   0.4   2.5   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+Pyr_redox_2          PF07992.13 sp|Q6LM67|CYSG_PHOPR -              0.024   13.8   0.0       0.5    9.5   0.0   2.4   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox            PF00070.26 sp|Q6LM67|CYSG_PHOPR -              0.026   15.0   0.0      0.82   10.2   0.0   2.5   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+2-Hacid_dh_C         PF02826.18 sp|Q6LM67|CYSG_PHOPR -                0.1   11.9   0.2       1.4    8.2   0.0   2.4   3   0   0   3   3   3   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+UDPG_MGDP_dh_C       PF03720.14 sp|Q6LM67|CYSG_PHOPR -               0.14   12.5   0.4      0.58   10.5   0.2   2.1   2   0   0   2   2   2   0 UDP-glucose/GDP-mannose dehydrogenase family, UDP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q6LM67.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q6LM67.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q6LM67.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:06:43 2019
+# [ok]

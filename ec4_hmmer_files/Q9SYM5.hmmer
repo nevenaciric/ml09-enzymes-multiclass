@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GDP_Man_Dehyd        PF16363.4  sp|Q9SYM5|RHM1_ARATH -            1.8e-79  267.4   0.0   2.3e-70  237.5   0.0   2.3   2   0   0   2   2   2   2 GDP-mannose 4,6 dehydratase
+Epimerase            PF01370.20 sp|Q9SYM5|RHM1_ARATH -              1e-69  234.6   0.0   9.5e-55  185.6   0.1   2.2   2   0   0   2   2   2   2 NAD dependent epimerase/dehydratase family
+RmlD_sub_bind        PF04321.16 sp|Q9SYM5|RHM1_ARATH -            1.2e-31  109.8   0.0   5.5e-16   58.4   0.0   2.4   2   1   0   2   2   2   2 RmlD substrate binding domain
+3Beta_HSD            PF01073.18 sp|Q9SYM5|RHM1_ARATH -            4.7e-29  101.2   0.0   6.8e-25   87.5   0.0   2.2   2   0   0   2   2   2   2 3-beta hydroxysteroid dehydrogenase/isomerase family
+Polysacc_synt_2      PF02719.14 sp|Q9SYM5|RHM1_ARATH -            4.1e-26   91.7   0.0   2.3e-19   69.5   0.0   3.1   2   1   0   2   2   2   2 Polysaccharide biosynthesis protein
+NAD_binding_4        PF07993.11 sp|Q9SYM5|RHM1_ARATH -              1e-23   83.7   0.0   1.3e-18   67.0   0.0   3.0   2   1   0   2   2   2   2 Male sterility protein
+NAD_binding_10       PF13460.5  sp|Q9SYM5|RHM1_ARATH -            5.3e-05   23.1   0.0    0.0001   22.2   0.0   1.5   1   0   0   1   1   1   1 NAD(P)H-binding
+adh_short            PF00106.24 sp|Q9SYM5|RHM1_ARATH -             0.0023   17.3   0.0       1.8    7.9   0.0   3.6   5   0   0   5   5   5   1 short chain dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|Q9SYM5|RHM1_ARATH -              0.022   14.9   0.0      0.98    9.6   0.0   2.7   3   0   0   3   3   3   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9SYM5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9SYM5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9SYM5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:37:16 2019
+# [ok]

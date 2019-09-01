@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lyase_1              PF00206.19 sp|Q8F9L0|FUMC_LEPIN -           3.8e-115  384.5   0.3  4.7e-115  384.2   0.3   1.1   1   0   0   1   1   1   1 Lyase
+FumaraseC_C          PF10415.8  sp|Q8F9L0|FUMC_LEPIN -            7.5e-26   90.2   0.0   7.5e-26   90.2   0.0   2.6   3   0   0   3   3   3   1 Fumarase C C-terminus
+DUF72                PF01904.17 sp|Q8F9L0|FUMC_LEPIN -               0.14   12.2   0.1      0.37   10.8   0.0   1.7   2   0   0   2   2   2   0 Protein of unknown function DUF72
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8F9L0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8F9L0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8F9L0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:20:32 2019
+# [ok]

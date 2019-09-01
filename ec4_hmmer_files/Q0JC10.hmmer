@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SAM_decarbox         PF01536.15 sp|Q0JC10|DCAM_ORYSJ -           3.8e-108  361.6   0.0  4.6e-108  361.3   0.0   1.1   1   0   0   1   1   1   1 Adenosylmethionine decarboxylase
+AdoMet_dc            PF02675.14 sp|Q0JC10|DCAM_ORYSJ -              0.065   13.4   0.2      0.49   10.6   0.1   2.3   1   1   1   2   2   2   0 S-adenosylmethionine decarboxylase
+DUF4551              PF15087.5  sp|Q0JC10|DCAM_ORYSJ -               0.18   10.5   0.1      0.26   10.0   0.1   1.1   1   0   0   1   1   1   0 Protein of unknown function (DUF4551)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q0JC10.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q0JC10.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q0JC10.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:26:07 2019
+# [ok]

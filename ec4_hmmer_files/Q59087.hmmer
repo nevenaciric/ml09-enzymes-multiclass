@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHquinase_I          PF01487.14 sp|Q59087|3DHQ_ACIAD -            1.5e-62  211.7   1.9   1.8e-62  211.5   1.9   1.0   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+Peptidase_S9         PF00326.20 sp|Q59087|3DHQ_ACIAD -              0.065   12.6   0.2       0.1   12.0   0.2   1.2   1   0   0   1   1   1   0 Prolyl oligopeptidase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q59087.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q59087.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q59087.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:54:19 2019
+# [ok]

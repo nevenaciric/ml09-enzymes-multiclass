@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_C       PF08544.12 sp|Q9HJS1|MBD_THEAC  -             0.0016   18.7   0.0    0.0044   17.2   0.0   1.7   1   0   0   1   1   1   1 GHMP kinases C terminal
+DUF2095              PF09868.8  sp|Q9HJS1|MBD_THEAC  -              0.059   13.3   0.1      0.13   12.2   0.1   1.5   1   0   0   1   1   1   0 Uncharacterized protein conserved in archaea (DUF2095)
+GHMP_kinases_N       PF00288.25 sp|Q9HJS1|MBD_THEAC  -              0.081   13.1   0.2      0.16   12.1   0.2   1.4   1   0   0   1   1   1   0 GHMP kinases N terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9HJS1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9HJS1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9HJS1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:32:52 2019
+# [ok]

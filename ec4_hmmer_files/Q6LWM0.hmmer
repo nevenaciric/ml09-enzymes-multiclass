@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_C         PF02775.20 sp|Q6LWM0|COME_METMP -            3.4e-17   62.5   0.1   7.3e-17   61.5   0.1   1.5   1   1   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+E1_dh                PF00676.19 sp|Q6LWM0|COME_METMP -               0.05   12.4   0.0     0.064   12.1   0.0   1.2   1   0   0   1   1   1   0 Dehydrogenase E1 component
+DUF3782              PF12644.6  sp|Q6LWM0|COME_METMP -               0.19   11.8   0.1       1.1    9.4   0.0   2.0   2   0   0   2   2   2   0 Protein of unknown function (DUF3782)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q6LWM0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q6LWM0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q6LWM0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:06:55 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trp_syntA            PF00290.19 sp|Q8XXY2|TRPA_RALSO -            1.1e-85  286.5   0.2   1.2e-85  286.4   0.2   1.0   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+Peripla_BP_6         PF13458.5  sp|Q8XXY2|TRPA_RALSO -            2.1e-05   24.3   0.3   6.2e-05   22.7   0.3   1.8   1   1   0   1   1   1   1 Periplasmic binding protein
+His_biosynth         PF00977.20 sp|Q8XXY2|TRPA_RALSO -             0.0034   16.8   0.1    0.0059   16.0   0.1   1.4   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Peptidase_M15_3      PF08291.10 sp|Q8XXY2|TRPA_RALSO -               0.04   13.9   0.0     0.075   13.0   0.0   1.5   1   0   0   1   1   1   0 Peptidase M15
+PcrB                 PF01884.16 sp|Q8XXY2|TRPA_RALSO -              0.075   12.4   0.5       0.2   11.0   0.3   1.8   1   1   1   2   2   2   0 PcrB family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q8XXY2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q8XXY2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q8XXY2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:26:22 2019
+# [ok]

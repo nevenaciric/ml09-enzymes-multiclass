@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RuBisCO_large        PF00016.19 sp|B3QB68|RBL2_RHOPT -           1.6e-123  411.6   0.1  2.9e-123  410.7   0.1   1.4   2   0   0   2   2   2   1 Ribulose bisphosphate carboxylase large chain, catalytic domain
+RuBisCO_large_N      PF02788.15 sp|B3QB68|RBL2_RHOPT -            5.8e-37  126.4   0.0   9.7e-37  125.7   0.0   1.4   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase large chain, N-terminal domain
+XdhC_CoxI            PF02625.15 sp|B3QB68|RBL2_RHOPT -               0.28   11.3   1.9        30    4.8   0.1   2.9   2   0   0   2   2   2   0 XdhC and CoxI family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B3QB68.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B3QB68.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B3QB68.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:27:54 2019
+# [ok]

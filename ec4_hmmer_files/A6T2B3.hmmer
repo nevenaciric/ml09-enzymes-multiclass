@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHquinase_II         PF01220.18 sp|A6T2B3|AROQ_JANMA -            1.8e-61  205.7   0.2   2.1e-61  205.5   0.2   1.0   1   0   0   1   1   1   1 Dehydroquinase class II
+SRP54                PF00448.21 sp|A6T2B3|AROQ_JANMA -             0.0059   16.2   0.0    0.0071   15.9   0.0   1.2   1   0   0   1   1   1   1 SRP54-type protein, GTPase domain
+Peripla_BP_1         PF00532.20 sp|A6T2B3|AROQ_JANMA -              0.056   12.8   0.2     0.075   12.3   0.2   1.1   1   0   0   1   1   1   0 Periplasmic binding proteins and sugar binding domain of LacI family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/A6T2B3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/A6T2B3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/A6T2B3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:00:48 2019
+# [ok]

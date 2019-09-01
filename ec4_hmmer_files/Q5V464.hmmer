@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MaoC_dehydratas      PF01575.18 sp|Q5V464|MCH_HALMA  -            1.1e-05   24.9   0.0   0.00018   21.0   0.0   2.1   2   0   0   2   2   2   1 MaoC like domain
+MaoC_dehydrat_N      PF13452.5  sp|Q5V464|MCH_HALMA  -            0.00075   19.5   0.1     0.011   15.8   0.0   2.3   2   0   0   2   2   2   1 N-terminal half of MaoC dehydratase
+4HBT_2               PF13279.5  sp|Q5V464|MCH_HALMA  -             0.0045   17.4   0.0     0.057   13.8   0.0   2.1   2   0   0   2   2   2   1 Thioesterase-like superfamily
+4HBT                 PF03061.21 sp|Q5V464|MCH_HALMA  -               0.13   12.6   0.5      0.69   10.2   0.0   2.4   2   1   0   2   2   2   0 Thioesterase superfamily
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5V464.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5V464.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5V464.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:59:55 2019
+# [ok]

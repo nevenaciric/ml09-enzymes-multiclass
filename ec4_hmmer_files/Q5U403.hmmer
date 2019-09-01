@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|Q5U403|MVD1_DANRE -              1e-06   28.8   3.6   2.4e-06   27.5   3.2   1.9   2   0   0   2   2   2   1 GHMP kinases N terminal domain
+zf-C3HC4_2           PF13923.5  sp|Q5U403|MVD1_DANRE -               0.21   11.4   0.5       1.1    9.1   0.2   2.2   2   0   0   2   2   2   0 Zinc finger, C3HC4 type (RING finger)
+zf-RING_2            PF13639.5  sp|Q5U403|MVD1_DANRE -               0.51   10.6   1.7      0.93    9.8   0.6   2.0   2   0   0   2   2   2   0 Ring finger domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5U403.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5U403.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5U403.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:59:43 2019
+# [ok]

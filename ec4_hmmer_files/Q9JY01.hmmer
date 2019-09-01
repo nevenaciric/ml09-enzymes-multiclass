@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DHQ_synthase         PF01761.19 sp|Q9JY01|AROB_NEIMB -           1.4e-107  358.7   0.0  1.6e-107  358.4   0.0   1.0   1   0   0   1   1   1   1 3-dehydroquinate synthase
+Fe-ADH_2             PF13685.5  sp|Q9JY01|AROB_NEIMB -            6.1e-16   58.8   0.1   5.5e-15   55.6   0.1   2.0   1   1   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Fe-ADH               PF00465.18 sp|Q9JY01|AROB_NEIMB -            6.7e-09   34.9   0.8   4.9e-08   32.1   0.1   1.9   2   0   0   2   2   2   1 Iron-containing alcohol dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q9JY01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q9JY01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q9JY01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:33:55 2019
+# [ok]

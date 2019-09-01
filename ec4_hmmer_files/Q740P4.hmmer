@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IGPS                 PF00218.20 sp|Q740P4|TRPC_MYCPA -            4.9e-80  268.3   0.0   5.5e-80  268.1   0.0   1.0   1   0   0   1   1   1   1 Indole-3-glycerol phosphate synthase
+OMPdecase            PF00215.23 sp|Q740P4|TRPC_MYCPA -            0.00011   21.8   0.1   0.00015   21.3   0.1   1.3   1   1   0   1   1   1   1 Orotidine 5'-phosphate decarboxylase / HUMPS family
+FMN_dh               PF01070.17 sp|Q740P4|TRPC_MYCPA -             0.0011   17.9   3.8     0.027   13.4   3.1   2.2   1   1   0   2   2   2   1 FMN-dependent dehydrogenase
+PEP_hydrolase        PF09370.9  sp|Q740P4|TRPC_MYCPA -               0.39    9.8   2.2       2.2    7.4   0.1   2.7   2   1   1   3   3   3   0 Phosphoenolpyruvate hydrolase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q740P4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q740P4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q740P4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 22:09:01 2019
+# [ok]

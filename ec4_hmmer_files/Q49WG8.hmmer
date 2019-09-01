@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ECH_1                PF00378.19 sp|Q49WG8|MENB_STAS1 -            5.6e-90  300.9   0.0     7e-90  300.6   0.0   1.0   1   0   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+ECH_2                PF16113.4  sp|Q49WG8|MENB_STAS1 -            8.5e-23   81.3   0.0   1.8e-22   80.2   0.0   1.4   1   1   1   2   2   2   1 Enoyl-CoA hydratase/isomerase
+Peptidase_S49        PF01343.17 sp|Q49WG8|MENB_STAS1 -               0.02   14.7   0.4         1    9.2   0.1   2.3   2   0   0   2   2   2   0 Peptidase family S49
+SDH_sah              PF01972.15 sp|Q49WG8|MENB_STAS1 -              0.046   12.6   0.1     0.089   11.7   0.0   1.5   2   0   0   2   2   2   0 Serine dehydrogenase proteinase
+SnoaL_3              PF13474.5  sp|Q49WG8|MENB_STAS1 -              0.049   13.8   0.2       1.5    9.0   0.1   2.5   3   0   0   3   3   3   0 SnoaL-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q49WG8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q49WG8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q49WG8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:49:33 2019
+# [ok]

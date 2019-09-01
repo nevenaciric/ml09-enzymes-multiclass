@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FBPase_3             PF01950.15 sp|B6YTP6|FBPAP_THEON -           1.1e-186  620.2   0.0  1.2e-186  620.1   0.0   1.0   1   0   0   1   1   1   1 Fructose-1,6-bisphosphatase
+Biotin_lipoyl        PF00364.21 sp|B6YTP6|FBPAP_THEON -             0.0098   15.6   0.2      0.12   12.2   0.1   2.4   1   1   1   2   2   2   1 Biotin-requiring enzyme
+LAGLIDADG_WhiA       PF14527.5  sp|B6YTP6|FBPAP_THEON -              0.023   14.6   0.0     0.054   13.5   0.0   1.6   1   0   0   1   1   1   0 WhiA LAGLIDADG-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B6YTP6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B6YTP6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B6YTP6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:36:09 2019
+# [ok]

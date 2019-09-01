@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IGPS                 PF00218.20 sp|B8HP79|TRPC_CYAP4 -            9.6e-87  290.2   0.2   1.1e-86  290.0   0.2   1.0   1   0   0   1   1   1   1 Indole-3-glycerol phosphate synthase
+FMN_dh               PF01070.17 sp|B8HP79|TRPC_CYAP4 -            0.00084   18.4   0.0      0.42    9.5   0.0   2.2   2   0   0   2   2   2   2 FMN-dependent dehydrogenase
+PA                   PF02225.21 sp|B8HP79|TRPC_CYAP4 -              0.012   15.6   0.1       1.1    9.3   0.0   2.5   2   1   0   2   2   2   0 PA domain
+ThiG                 PF05690.13 sp|B8HP79|TRPC_CYAP4 -              0.033   13.4   0.1       1.6    7.9   0.0   2.4   3   0   0   3   3   3   0 Thiazole biosynthesis protein ThiG
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/B8HP79.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/B8HP79.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/B8HP79.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 20:43:52 2019
+# [ok]

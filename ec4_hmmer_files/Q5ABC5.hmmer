@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PS_Dcarbxylase       PF02666.14 sp|Q5ABC5|PSD1_CANAL -            9.5e-75  250.4   0.1   6.1e-56  189.1   0.2   2.2   1   1   1   2   2   2   2 Phosphatidylserine decarboxylase
+Big_5                PF13205.5  sp|Q5ABC5|PSD1_CANAL -              0.011   16.3   0.2     0.025   15.1   0.2   1.6   1   0   0   1   1   1   0 Bacterial Ig-like domain
+PTS_EIIA_1           PF00358.19 sp|Q5ABC5|PSD1_CANAL -               0.18   11.4   0.2        15    5.3   0.0   2.3   2   0   0   2   2   2   0 phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec4_fasta_files/Q5ABC5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec4_hmmer_files/Q5ABC5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec4_fasta_files/Q5ABC5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Sun Sep  1 21:54:39 2019
+# [ok]
