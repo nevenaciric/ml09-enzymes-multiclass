@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q8G4S5|HIS4_BIFLO -            4.2e-62  209.5   0.4   4.7e-62  209.4   0.4   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+NMO                  PF03060.14 sp|Q8G4S5|HIS4_BIFLO -            0.00014   21.2   0.5    0.0031   16.9   0.1   2.1   2   0   0   2   2   2   1 Nitronate monooxygenase
+QRPTase_C            PF01729.18 sp|Q8G4S5|HIS4_BIFLO -             0.0014   18.3   0.0      0.62    9.7   0.0   2.2   2   0   0   2   2   2   2 Quinolinate phosphoribosyl transferase, C-terminal domain
+Ribul_P_3_epim       PF00834.18 sp|Q8G4S5|HIS4_BIFLO -             0.0079   15.5   0.5      0.69    9.2   0.1   2.9   2   1   0   2   2   2   1 Ribulose-phosphate 3 epimerase family
+FMN_dh               PF01070.17 sp|Q8G4S5|HIS4_BIFLO -              0.012   14.5   1.5     0.043   12.7   0.2   1.9   2   0   0   2   2   2   0 FMN-dependent dehydrogenase
+DHO_dh               PF01180.20 sp|Q8G4S5|HIS4_BIFLO -              0.033   13.3   0.0       0.2   10.7   0.0   1.9   2   0   0   2   2   2   0 Dihydroorotate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8G4S5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8G4S5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8G4S5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:30:55 2019
+# [ok]

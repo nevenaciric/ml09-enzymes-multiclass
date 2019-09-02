@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THUMP                PF02926.16 sp|Q2NE45|PUS10_METST -            4.1e-05   23.6   0.8   4.1e-05   23.6   0.8   2.3   2   1   1   3   3   3   1 THUMP domain
+DUF2703              PF10865.7  sp|Q2NE45|PUS10_METST -             0.0095   16.0   0.6     0.035   14.2   0.0   2.1   2   0   0   2   2   2   1 Domain of unknown function (DUF2703)
+DUF4107              PF13389.5  sp|Q2NE45|PUS10_METST -               0.09   12.8   0.4      0.17   12.0   0.4   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF4107)
+Luciferase_N         PF05295.10 sp|Q2NE45|PUS10_METST -               0.14   12.1   0.6      0.45   10.5   0.1   2.0   3   0   0   3   3   3   0 Luciferase/LBP N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q2NE45.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q2NE45.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q2NE45.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:09:19 2019
+# [ok]

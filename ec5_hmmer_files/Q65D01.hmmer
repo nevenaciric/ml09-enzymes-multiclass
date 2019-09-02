@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KduI                 PF04962.11 sp|Q65D01|IOLB_BACLD -           5.5e-107  356.8   0.2  6.2e-107  356.7   0.2   1.0   1   0   0   1   1   1   1 KduI/IolB family
+NigD_N               PF12667.6  sp|Q65D01|IOLB_BACLD -              0.046   13.7   0.0      0.16   12.0   0.0   1.9   1   0   0   1   1   1   0 NigD-like N-terminal OB domain
+Calpain_III          PF01067.21 sp|Q65D01|IOLB_BACLD -              0.064   13.4   0.1      0.32   11.1   0.0   2.1   1   1   1   2   2   2   0 Calpain large subunit, domain III
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q65D01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q65D01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q65D01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:21:17 2019
+# [ok]

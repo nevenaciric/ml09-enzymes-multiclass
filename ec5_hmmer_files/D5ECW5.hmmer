@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_topoisoIV        PF00521.19 sp|D5ECW5|GYRA_AMICL -           1.8e-158  527.8   0.0  2.2e-158  527.5   0.0   1.1   1   0   0   1   1   1   1 DNA gyrase/topoisomerase IV, subunit A
+DNA_gyraseA_C        PF03989.12 sp|D5ECW5|GYRA_AMICL -            1.3e-56  187.7  18.3   1.6e-15   56.2   0.0   6.7   7   0   0   7   7   7   6 DNA gyrase C-terminal domain, beta-propeller
+Val_tRNA-synt_C      PF10458.8  sp|D5ECW5|GYRA_AMICL -              0.069   13.3   0.2      0.17   12.1   0.2   1.6   1   0   0   1   1   1   0 Valyl tRNA synthetase tRNA binding arm
+DUF4032              PF13224.5  sp|D5ECW5|GYRA_AMICL -              0.094   12.5   0.1      0.22   11.3   0.1   1.6   1   0   0   1   1   1   0 Domain of unknown function (DUF4032)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/D5ECW5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/D5ECW5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/D5ECW5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:48:13 2019
+# [ok]

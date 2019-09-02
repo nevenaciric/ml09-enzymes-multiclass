@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q9PM74|HIS4_CAMJE -            1.3e-73  247.1   1.2   1.5e-73  246.9   1.2   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Trp_syntA            PF00290.19 sp|Q9PM74|HIS4_CAMJE -            7.7e-05   21.6   0.6      0.01   14.6   0.1   2.4   2   1   0   2   2   2   2 Tryptophan synthase alpha chain
+NanE                 PF04131.13 sp|Q9PM74|HIS4_CAMJE -             0.0015   17.6   0.0    0.0048   16.0   0.0   1.8   1   1   1   2   2   2   1 Putative N-acetylmannosamine-6-phosphate epimerase
+Dus                  PF01207.16 sp|Q9PM74|HIS4_CAMJE -             0.0015   17.6   0.1      0.03   13.3   0.0   2.1   1   1   0   2   2   2   1 Dihydrouridine synthase (Dus)
+QRPTase_C            PF01729.18 sp|Q9PM74|HIS4_CAMJE -             0.0033   17.1   0.1       1.9    8.2   0.0   2.2   2   0   0   2   2   2   2 Quinolinate phosphoribosyl transferase, C-terminal domain
+PEP_mutase           PF13714.5  sp|Q9PM74|HIS4_CAMJE -             0.0096   15.3   0.0     0.029   13.7   0.0   1.7   2   0   0   2   2   2   1 Phosphoenolpyruvate phosphomutase
+G3P_antiterm         PF04309.11 sp|Q9PM74|HIS4_CAMJE -              0.022   14.1   0.1     0.044   13.1   0.1   1.5   1   0   0   1   1   1   0 Glycerol-3-phosphate responsive antiterminator
+IGPS                 PF00218.20 sp|Q9PM74|HIS4_CAMJE -              0.022   13.8   1.0         5    6.1   0.1   2.6   3   1   0   3   3   3   0 Indole-3-glycerol phosphate synthase
+NMO                  PF03060.14 sp|Q9PM74|HIS4_CAMJE -              0.024   13.9   0.1     0.062   12.6   0.0   1.6   2   0   0   2   2   2   0 Nitronate monooxygenase
+PcrB                 PF01884.16 sp|Q9PM74|HIS4_CAMJE -               0.04   13.3   0.1     0.093   12.1   0.1   1.6   1   0   0   1   1   1   0 PcrB family
+Radical_SAM          PF04055.20 sp|Q9PM74|HIS4_CAMJE -              0.078   13.2   0.0      0.35   11.1   0.0   1.8   1   1   1   2   2   2   0 Radical SAM superfamily
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9PM74.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9PM74.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9PM74.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:38:39 2019
+# [ok]

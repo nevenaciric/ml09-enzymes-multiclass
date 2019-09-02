@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_topoisoIV        PF00521.19 sp|Q45066|PARC_BACSU -           5.9e-152  506.4   1.4  8.4e-152  505.8   1.4   1.2   1   0   0   1   1   1   1 DNA gyrase/topoisomerase IV, subunit A
+DNA_gyraseA_C        PF03989.12 sp|Q45066|PARC_BACSU -            1.1e-42  143.1   0.8   1.2e-09   37.4   0.0   6.0   6   0   0   6   6   6   5 DNA gyrase C-terminal domain, beta-propeller
+FliT                 PF05400.12 sp|Q45066|PARC_BACSU -               0.15   12.8   0.8      0.42   11.4   0.8   1.8   1   0   0   1   1   1   0 Flagellar protein FliT
+Sec2p                PF06428.10 sp|Q45066|PARC_BACSU -               0.71    9.8   7.1       0.5   10.2   1.8   3.0   3   0   0   3   3   3   0 GDP/GTP exchange factor Sec2p
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q45066.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q45066.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q45066.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:13:41 2019
+# [ok]

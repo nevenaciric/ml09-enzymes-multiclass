@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|P59520|HIS4_BUCBP -            9.3e-70  234.6   0.1     1e-69  234.4   0.1   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Trp_syntA            PF00290.19 sp|P59520|HIS4_BUCBP -             0.0016   17.2   0.0    0.0036   16.1   0.0   1.5   1   0   0   1   1   1   1 Tryptophan synthase alpha chain
+IGPS                 PF00218.20 sp|P59520|HIS4_BUCBP -              0.012   14.7   0.0       2.2    7.3   0.0   2.3   2   0   0   2   2   2   0 Indole-3-glycerol phosphate synthase
+FMN_dh               PF01070.17 sp|P59520|HIS4_BUCBP -              0.017   14.0   0.1       2.4    7.0   0.0   2.6   2   1   1   3   3   3   0 FMN-dependent dehydrogenase
+DLH                  PF01738.17 sp|P59520|HIS4_BUCBP -               0.12   11.8   0.0      0.17   11.3   0.0   1.2   1   0   0   1   1   1   0 Dienelactone hydrolase family
+Glu_synthase         PF01645.16 sp|P59520|HIS4_BUCBP -               0.14   11.2   0.0       2.4    7.1   0.0   2.0   2   0   0   2   2   2   0 Conserved region in glutamate synthase
+Dus                  PF01207.16 sp|P59520|HIS4_BUCBP -               0.16   10.9   0.0        16    4.4   0.0   2.1   2   0   0   2   2   2   0 Dihydrouridine synthase (Dus)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P59520.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P59520.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P59520.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:57:55 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_isomerase        PF00160.20 sp|P0CP93|CWC27_CRYNB -            5.4e-42  143.6   0.0   5.4e-42  143.6   0.0   2.9   4   0   0   4   4   4   1 Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+YcbB                 PF08664.9  sp|P0CP93|CWC27_CRYNB -               0.21   11.6   5.7         6    6.8   0.3   2.7   2   0   0   2   2   2   0 YcbB domain
+DUF5399              PF17377.1  sp|P0CP93|CWC27_CRYNB -               0.51   10.1   5.8      0.37   10.5   0.4   2.5   2   0   0   2   2   2   0 Family of unknown function (DUF5399)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P0CP93.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P0CP93.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P0CP93.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:53:01 2019
+# [ok]

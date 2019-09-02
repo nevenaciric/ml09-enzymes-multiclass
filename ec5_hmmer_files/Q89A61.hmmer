@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FKBP_C               PF00254.27 sp|Q89A61|FKBA_BUCBP -            2.6e-27   94.9   0.0   1.3e-26   92.6   0.0   1.9   2   0   0   2   2   2   1 FKBP-type peptidyl-prolyl cis-trans isomerase
+FKBP_N               PF01346.17 sp|Q89A61|FKBA_BUCBP -              1e-24   87.0   0.1   1.4e-24   86.6   0.1   1.1   1   0   0   1   1   1   1 Domain amino terminal to FKBP-type peptidyl-prolyl isomerase
+DUF4827              PF16109.4  sp|Q89A61|FKBA_BUCBP -              0.011   15.7   0.0     0.017   15.0   0.0   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF4827)
+YniB                 PF14002.5  sp|Q89A61|FKBA_BUCBP -              0.048   13.3   0.3     0.084   12.5   0.3   1.3   1   0   0   1   1   1   0 YniB-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q89A61.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q89A61.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q89A61.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:28:57 2019
+# [ok]

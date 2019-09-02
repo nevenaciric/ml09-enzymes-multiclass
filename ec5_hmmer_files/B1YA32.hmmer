@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FMN_dh               PF01070.17 sp|B1YA32|IDI2_PYRNV -            8.2e-20   71.0  10.8   1.5e-18   66.9  10.8   2.0   1   1   0   1   1   1   1 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|B1YA32|IDI2_PYRNV -            9.7e-05   21.4   8.3     0.062   12.2   6.7   3.1   1   1   1   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+Glu_synthase         PF01645.16 sp|B1YA32|IDI2_PYRNV -             0.0016   17.6   4.7    0.0062   15.6   3.6   2.3   2   1   0   2   2   2   1 Conserved region in glutamate synthase
+DHO_dh               PF01180.20 sp|B1YA32|IDI2_PYRNV -              0.051   12.7   0.2     0.092   11.8   0.2   1.4   1   0   0   1   1   1   0 Dihydroorotate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B1YA32.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B1YA32.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B1YA32.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:33:44 2019
+# [ok]

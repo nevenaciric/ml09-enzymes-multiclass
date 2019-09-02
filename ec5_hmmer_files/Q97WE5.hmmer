@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+bact-PGI_C           PF10432.8  sp|Q97WE5|PGMI_SACS2 -            4.8e-19   68.8   0.1   1.3e-18   67.4   0.1   1.7   1   1   0   1   1   1   1 Bacterial phospho-glucose isomerase C-terminal SIS domain
+SIS                  PF01380.21 sp|Q97WE5|PGMI_SACS2 -            0.00022   21.0   1.1    0.0062   16.3   0.1   2.7   3   0   0   3   3   3   1 SIS domain
+NadA                 PF02445.15 sp|Q97WE5|PGMI_SACS2 -              0.077   12.0   0.0      0.15   11.1   0.0   1.4   1   0   0   1   1   1   0 Quinolinate synthetase A protein
+PMBR                 PF09373.9  sp|Q97WE5|PGMI_SACS2 -              0.078   13.1   0.1      0.19   11.9   0.1   1.7   1   0   0   1   1   1   0 Pseudomurein-binding repeat
+SIS_2                PF13580.5  sp|Q97WE5|PGMI_SACS2 -               0.11   12.4   0.1      0.23   11.4   0.1   1.5   1   0   0   1   1   1   0 SIS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q97WE5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q97WE5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q97WE5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:35:36 2019
+# [ok]

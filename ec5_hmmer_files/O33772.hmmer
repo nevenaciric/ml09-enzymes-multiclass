@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|O33772|HIS4_SACS2 -              2e-51  174.5   2.6   2.3e-51  174.4   2.6   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+PcrB                 PF01884.16 sp|O33772|HIS4_SACS2 -            9.5e-05   21.9   2.5    0.0079   15.6   0.1   2.2   2   0   0   2   2   2   2 PcrB family
+CLU_N                PF15044.5  sp|O33772|HIS4_SACS2 -               0.04   14.3   0.0        12    6.3   0.0   2.4   2   0   0   2   2   2   0 Mitochondrial function, CLU-N-term
+B12-binding          PF02310.18 sp|O33772|HIS4_SACS2 -               0.14   12.1   0.2       3.7    7.5   0.0   2.3   2   0   0   2   2   2   0 B12 binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O33772.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O33772.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O33772.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:49:40 2019
+# [ok]

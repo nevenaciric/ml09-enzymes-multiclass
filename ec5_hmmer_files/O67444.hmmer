@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PseudoU_synth_2      PF00849.21 sp|O67444|Y1464_AQUAE -            4.1e-20   72.4   0.0   5.6e-20   72.0   0.0   1.2   1   0   0   1   1   1   1 RNA pseudouridylate synthase
+S4                   PF01479.24 sp|O67444|Y1464_AQUAE -            1.1e-14   53.8   3.3   1.1e-13   50.5   0.8   2.5   1   1   1   2   2   2   1 S4 domain
+S4_2                 PF13275.5  sp|O67444|Y1464_AQUAE -             0.0025   17.5   0.9    0.0025   17.5   0.9   1.9   2   0   0   2   2   2   1 S4 domain
+DUF2100              PF09873.8  sp|O67444|Y1464_AQUAE -              0.023   14.5   0.6      0.08   12.7   0.1   1.9   1   1   1   2   2   2   0 Uncharacterized protein conserved in archaea (DUF2100)
+Ub-Mut7C             PF14451.5  sp|O67444|Y1464_AQUAE -              0.034   13.9   0.1     0.073   12.8   0.1   1.5   1   0   0   1   1   1   0 Mut7-C ubiquitin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O67444.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O67444.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O67444.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:50:37 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_topoisoIV        PF00521.19 sp|C5C7X9|GYRA_MICLC -             1e-143  479.2   0.0  1.2e-143  479.0   0.0   1.1   1   0   0   1   1   1   1 DNA gyrase/topoisomerase IV, subunit A
+DNA_gyraseA_C        PF03989.12 sp|C5C7X9|GYRA_MICLC -            1.3e-64  213.3  11.9   3.4e-12   45.6   0.5   6.4   6   0   0   6   6   6   6 DNA gyrase C-terminal domain, beta-propeller
+LcrG                 PF07216.11 sp|C5C7X9|GYRA_MICLC -                1.7    8.5   5.4      0.63    9.9   1.1   2.4   2   0   0   2   2   2   0 LcrG protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/C5C7X9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/C5C7X9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/C5C7X9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:47:36 2019
+# [ok]

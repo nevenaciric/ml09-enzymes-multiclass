@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q31B81|HIS4_PROM9 -            1.6e-79  266.5   0.3   1.8e-79  266.4   0.3   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q31B81|HIS4_PROM9 -            1.5e-07   30.7   0.0     0.005   15.9   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|Q31B81|HIS4_PROM9 -            1.3e-06   27.9   0.1    0.0059   15.9   0.0   2.1   1   1   0   2   2   2   2 Nitronate monooxygenase
+ThiG                 PF05690.13 sp|Q31B81|HIS4_PROM9 -            9.7e-06   25.0   0.0     0.081   12.1   0.0   2.1   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+TMP-TENI             PF02581.16 sp|Q31B81|HIS4_PROM9 -            7.2e-05   22.1   0.3     0.037   13.3   0.1   2.2   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+G3P_antiterm         PF04309.11 sp|Q31B81|HIS4_PROM9 -            0.00061   19.1   0.4     0.081   12.2   0.1   2.3   2   0   0   2   2   2   2 Glycerol-3-phosphate responsive antiterminator
+PcrB                 PF01884.16 sp|Q31B81|HIS4_PROM9 -            0.00061   19.2   0.8     0.022   14.1   0.1   2.1   2   0   0   2   2   2   1 PcrB family
+Trp_syntA            PF00290.19 sp|Q31B81|HIS4_PROM9 -             0.0016   17.2   0.6     0.048   12.4   0.1   2.3   2   1   0   2   2   2   1 Tryptophan synthase alpha chain
+IF2_N                PF04760.14 sp|Q31B81|HIS4_PROM9 -             0.0029   17.3   0.2     0.062   13.0   0.0   2.5   1   1   1   2   2   2   1 Translation initiation factor IF-2, N-terminal region
+BtpA                 PF03437.14 sp|Q31B81|HIS4_PROM9 -              0.012   14.9   0.3      0.12   11.6   0.1   2.1   2   0   0   2   2   2   0 BtpA family
+IMPDH                PF00478.24 sp|Q31B81|HIS4_PROM9 -              0.042   12.7   0.1      0.55    9.1   0.0   2.0   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q31B81.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q31B81.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q31B81.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:10:44 2019
+# [ok]

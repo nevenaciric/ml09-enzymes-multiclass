@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_topoisoIV        PF00521.19 sp|Q5HK04|GYRA_STAEQ -           3.5e-160  533.5   0.4    5e-160  532.9   0.4   1.2   1   0   0   1   1   1   1 DNA gyrase/topoisomerase IV, subunit A
+DNA_gyraseA_C        PF03989.12 sp|Q5HK04|GYRA_STAEQ -            4.1e-78  256.6  12.5   1.9e-12   46.3   0.1   6.5   6   0   0   6   6   6   6 DNA gyrase C-terminal domain, beta-propeller
+Retrotran_gag_2      PF14223.5  sp|Q5HK04|GYRA_STAEQ -              0.081   12.5   0.6      0.18   11.4   0.6   1.5   1   0   0   1   1   1   0 gag-polypeptide of LTR copia-type
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q5HK04.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q5HK04.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q5HK04.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:18:07 2019
+# [ok]

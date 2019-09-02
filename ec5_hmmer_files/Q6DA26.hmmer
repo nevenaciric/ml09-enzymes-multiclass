@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rhaM                 PF05336.12 sp|Q6DA26|RHAM_PECAS -            8.5e-28   96.5   0.1   9.3e-28   96.3   0.1   1.0   1   0   0   1   1   1   1 L-rhamnose mutarotase
+ABM                  PF03992.15 sp|Q6DA26|RHAM_PECAS -              0.081   13.0   0.8       0.1   12.6   0.8   1.2   1   0   0   1   1   1   0 Antibiotic biosynthesis monooxygenase
+Fucose_iso_C         PF02952.16 sp|Q6DA26|RHAM_PECAS -               0.25   11.0   0.8       1.1    8.9   0.2   1.9   1   1   1   2   2   2   0 L-fucose isomerase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q6DA26.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q6DA26.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q6DA26.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:22:43 2019
+# [ok]

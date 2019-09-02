@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PseudoU_synth_1      PF01416.19 sp|Q9JI38|PUS3_MOUSE -              5e-32  110.5   0.0   2.1e-30  105.2   0.0   2.5   2   0   0   2   2   2   1 tRNA pseudouridine synthase
+DUF1192              PF06698.10 sp|Q9JI38|PUS3_MOUSE -               0.12   12.3   1.0       0.3   11.1   1.0   1.6   1   0   0   1   1   1   0 Protein of unknown function (DUF1192)
+WD40_alt             PF14077.5  sp|Q9JI38|PUS3_MOUSE -                6.3    6.6   7.6       1.5    8.6   3.7   2.0   2   0   0   2   2   2   0 Alternative WD40 repeat motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9JI38.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9JI38.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9JI38.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:37:13 2019
+# [ok]

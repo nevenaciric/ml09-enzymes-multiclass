@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|A7HSH1|HIS4_PARL1 -            7.7e-78  261.0   0.9   8.8e-78  260.8   0.9   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|A7HSH1|HIS4_PARL1 -            4.8e-10   38.9   0.3   0.00032   19.8   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|A7HSH1|HIS4_PARL1 -            0.00025   20.5   5.3    0.0071   15.7   0.4   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+TMP-TENI             PF02581.16 sp|A7HSH1|HIS4_PARL1 -            0.00027   20.2   1.0     0.093   12.0   0.1   2.2   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+ThiG                 PF05690.13 sp|A7HSH1|HIS4_PARL1 -              0.014   14.6   5.4       0.2   10.8   0.6   2.1   1   1   1   2   2   2   0 Thiazole biosynthesis protein ThiG
+Exosortase_EpsH      PF09721.9  sp|A7HSH1|HIS4_PARL1 -              0.031   13.7   0.1     0.066   12.6   0.0   1.5   2   0   0   2   2   2   0 Transmembrane exosortase (Exosortase_EpsH)
+DUF561               PF04481.11 sp|A7HSH1|HIS4_PARL1 -              0.059   12.4   1.2      0.11   11.5   0.3   1.8   2   0   0   2   2   2   0 Protein of unknown function (DUF561)
+IMPDH                PF00478.24 sp|A7HSH1|HIS4_PARL1 -               0.43    9.4   2.6      0.75    8.6   2.4   1.5   1   1   0   1   1   1   0 IMP dehydrogenase / GMP reductase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A7HSH1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A7HSH1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A7HSH1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:25:52 2019
+# [ok]

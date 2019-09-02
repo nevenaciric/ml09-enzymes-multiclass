@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_isomerase        PF00160.20 sp|Q5AUG9|CWC27_EMENI -            1.8e-39  135.5   0.0   6.1e-39  133.7   0.0   1.9   2   0   0   2   2   2   1 Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+DUF4604              PF15377.5  sp|Q5AUG9|CWC27_EMENI -             0.0065   16.8   0.5    0.0065   16.8   0.5   3.5   1   1   2   3   3   3   1 Domain of unknown function (DUF4604)
+Ribosomal_60s        PF00428.18 sp|Q5AUG9|CWC27_EMENI -                6.8    7.3  20.1       1.5    9.4   0.9   3.3   3   0   0   3   3   3   0 60s Acidic ribosomal protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q5AUG9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q5AUG9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q5AUG9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:17:20 2019
+# [ok]

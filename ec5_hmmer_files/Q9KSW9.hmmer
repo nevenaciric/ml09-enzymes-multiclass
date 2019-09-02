@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q9KSW9|HIS4_VIBCH -            9.8e-76  254.1   1.4   1.1e-75  253.9   1.4   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Trp_syntA            PF00290.19 sp|Q9KSW9|HIS4_VIBCH -            3.1e-05   22.9   0.2   0.00031   19.6   0.0   2.0   2   0   0   2   2   2   1 Tryptophan synthase alpha chain
+IGPS                 PF00218.20 sp|Q9KSW9|HIS4_VIBCH -            7.6e-05   21.9   0.1     0.086   11.9   0.0   2.5   3   0   0   3   3   3   2 Indole-3-glycerol phosphate synthase
+Dus                  PF01207.16 sp|Q9KSW9|HIS4_VIBCH -             0.0001   21.4   0.1      0.32    9.9   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+DHO_dh               PF01180.20 sp|Q9KSW9|HIS4_VIBCH -             0.0016   17.6   0.3    0.0027   16.9   0.0   1.4   2   0   0   2   2   2   1 Dihydroorotate dehydrogenase
+FMN_dh               PF01070.17 sp|Q9KSW9|HIS4_VIBCH -              0.015   14.3   3.4     0.071   12.0   0.4   2.4   2   1   1   3   3   3   0 FMN-dependent dehydrogenase
+NanE                 PF04131.13 sp|Q9KSW9|HIS4_VIBCH -              0.034   13.3   0.1      0.23   10.5   0.0   2.0   2   0   0   2   2   2   0 Putative N-acetylmannosamine-6-phosphate epimerase
+Ribul_P_3_epim       PF00834.18 sp|Q9KSW9|HIS4_VIBCH -               0.26   10.5   0.7         1    8.6   0.2   2.1   2   1   0   2   2   2   0 Ribulose-phosphate 3 epimerase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9KSW9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9KSW9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9KSW9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:37:45 2019
+# [ok]

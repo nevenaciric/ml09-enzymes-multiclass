@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AIRC                 PF00731.19 sp|O67239|PURE_AQUAE -              1e-69  232.7   0.2   1.2e-69  232.5   0.2   1.0   1   0   0   1   1   1   1 AIR carboxylase
+Fe-ADH               PF00465.18 sp|O67239|PURE_AQUAE -              0.012   14.4   0.2     0.021   13.5   0.0   1.4   2   0   0   2   2   2   0 Iron-containing alcohol dehydrogenase
+Glutaredoxin         PF00462.23 sp|O67239|PURE_AQUAE -               0.17   12.0   0.2      0.73   10.0   0.0   2.0   2   0   0   2   2   2   0 Glutaredoxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O67239.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O67239.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O67239.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:50:36 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trigger_N            PF05697.12 sp|O67358|TIG_AQUAE  -              1e-30  106.8  11.6     1e-30  106.8  11.6   4.0   3   2   0   3   3   3   1 Bacterial trigger factor protein (TF)
+Trigger_C            PF05698.13 sp|O67358|TIG_AQUAE  -            2.2e-24   86.2  14.1   2.2e-24   86.2  14.1   4.5   4   2   1   5   5   5   2 Bacterial trigger factor protein (TF) C-terminus
+DUF4854              PF16146.4  sp|O67358|TIG_AQUAE  -               0.55   10.5   9.8       2.5    8.4   0.3   4.0   4   0   0   4   4   4   0 Domain of unknown function (DUF4854)
+Linker_histone       PF00538.18 sp|O67358|TIG_AQUAE  -                7.7    6.9   7.8      0.77   10.1   1.4   2.6   3   0   0   3   3   3   0 linker histone H1 and H5 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O67358.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O67358.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O67358.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:50:37 2019
+# [ok]

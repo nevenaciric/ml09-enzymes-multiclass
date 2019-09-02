@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DAP_epimerase        PF01678.18 sp|A9L5F5|DAPF_SHEB9 -            1.8e-64  215.2   1.1   1.2e-33  115.8   0.0   2.0   2   0   0   2   2   2   2 Diaminopimelate epimerase
+PhzC-PhzF            PF02567.15 sp|A9L5F5|DAPF_SHEB9 -            1.2e-05   24.8   0.0   1.4e-05   24.6   0.0   1.1   1   0   0   1   1   1   1 Phenazine biosynthesis-like protein
+DHODB_Fe-S_bind      PF10418.8  sp|A9L5F5|DAPF_SHEB9 -                1.4    8.7   5.3      0.23   11.2   0.6   2.1   3   0   0   3   3   3   0 Iron-sulfur cluster binding domain of dihydroorotate dehydrogenase B
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A9L5F5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A9L5F5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A9L5F5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:29:21 2019
+# [ok]

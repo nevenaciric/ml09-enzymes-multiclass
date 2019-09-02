@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FKBP_C               PF00254.27 sp|Q57726|FKBP1_METJA -            1.3e-20   73.4   0.1   3.9e-20   71.9   0.1   1.7   1   1   0   1   1   1   1 FKBP-type peptidyl-prolyl cis-trans isomerase
+YajC                 PF02699.14 sp|Q57726|FKBP1_METJA -              0.098   12.5   0.7      0.38   10.6   0.0   2.2   3   0   0   3   3   3   0 Preprotein translocase subunit
+DUF150_C             PF17384.1  sp|Q57726|FKBP1_METJA -               0.23   11.5   7.1      0.83    9.7   0.1   2.9   3   0   0   3   3   3   0 RimP C-terminal SH3 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q57726.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q57726.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q57726.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:16:38 2019
+# [ok]

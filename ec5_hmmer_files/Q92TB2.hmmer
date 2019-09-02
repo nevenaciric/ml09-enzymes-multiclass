@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q92TB2|HIS4_RHIME -            1.4e-77  260.1   0.3   1.6e-77  259.9   0.3   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q92TB2|HIS4_RHIME -            5.3e-07   28.9   0.1   0.00094   18.3   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|Q92TB2|HIS4_RHIME -             0.0007   19.0   2.6     0.019   14.3   0.1   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+G3P_antiterm         PF04309.11 sp|Q92TB2|HIS4_RHIME -              0.039   13.3   0.2       6.6    6.0   0.0   2.2   2   0   0   2   2   2   0 Glycerol-3-phosphate responsive antiterminator
+Trp_syntA            PF00290.19 sp|Q92TB2|HIS4_RHIME -               0.08   11.7   0.0      0.19   10.5   0.0   1.6   1   0   0   1   1   1   0 Tryptophan synthase alpha chain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q92TB2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q92TB2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q92TB2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:34:53 2019
+# [ok]

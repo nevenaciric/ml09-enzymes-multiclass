@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LacAB_rpiB           PF02502.17 sp|C1CRA4|LACA_STRZT -            2.2e-38  131.3   0.7   2.5e-38  131.1   0.7   1.0   1   0   0   1   1   1   1 Ribose/Galactose Isomerase
+DUF1188              PF06690.10 sp|C1CRA4|LACA_STRZT -             0.0053   16.2   0.4       0.2   11.1   0.3   2.0   1   1   1   2   2   2   2 Protein of unknown function (DUF1188)
+CTP_transf_3         PF02348.18 sp|C1CRA4|LACA_STRZT -               0.11   12.3   0.0      0.13   12.0   0.0   1.3   1   0   0   1   1   1   0 Cytidylyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/C1CRA4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/C1CRA4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/C1CRA4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:45:47 2019
+# [ok]

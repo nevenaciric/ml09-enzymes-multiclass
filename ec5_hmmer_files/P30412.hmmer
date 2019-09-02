@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_isomerase        PF00160.20 sp|P30412|PPIC_MOUSE -            2.1e-47  161.3   0.1   2.4e-47  161.1   0.1   1.0   1   0   0   1   1   1   1 Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+PhnA                 PF03831.13 sp|P30412|PPIC_MOUSE -               0.03   14.1   0.2        12    5.7   0.0   2.5   3   0   0   3   3   3   0 PhnA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P30412.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P30412.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P30412.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:54:50 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TIM                  PF00121.17 sp|O27120|TPIS_METTH -              7e-10   38.6   0.1   9.8e-10   38.1   0.1   1.2   1   0   0   1   1   1   1 Triosephosphate isomerase
+NMO                  PF03060.14 sp|O27120|TPIS_METTH -            2.4e-05   23.8   1.4   2.4e-05   23.8   1.4   2.5   2   1   0   2   2   2   1 Nitronate monooxygenase
+FMN_dh               PF01070.17 sp|O27120|TPIS_METTH -             0.0026   16.8   3.0    0.0075   15.2   3.0   1.9   1   1   0   1   1   1   1 FMN-dependent dehydrogenase
+ThiG                 PF05690.13 sp|O27120|TPIS_METTH -             0.0038   16.5   0.5    0.0038   16.5   0.5   2.0   2   0   0   2   2   2   1 Thiazole biosynthesis protein ThiG
+His_biosynth         PF00977.20 sp|O27120|TPIS_METTH -              0.046   13.1   0.3       0.2   11.0   0.0   2.0   2   1   1   3   3   3   0 Histidine biosynthesis protein
+Glu_synthase         PF01645.16 sp|O27120|TPIS_METTH -              0.055   12.5   1.5     0.062   12.3   0.2   1.7   1   1   1   2   2   2   0 Conserved region in glutamate synthase
+DFP                  PF04127.14 sp|O27120|TPIS_METTH -              0.095   12.4   0.3      0.22   11.3   0.3   1.6   1   0   0   1   1   1   0 DNA / pantothenate metabolism flavoprotein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O27120.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O27120.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O27120.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:49:22 2019
+# [ok]

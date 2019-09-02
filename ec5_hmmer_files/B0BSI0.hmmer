@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NanE                 PF04131.13 sp|B0BSI0|NANE_ACTPJ -            2.9e-90  300.5   0.2   3.5e-90  300.3   0.2   1.0   1   0   0   1   1   1   1 Putative N-acetylmannosamine-6-phosphate epimerase
+NMO                  PF03060.14 sp|B0BSI0|NANE_ACTPJ -              0.012   14.9   0.2     0.029   13.7   0.1   1.6   1   1   0   1   1   1   0 Nitronate monooxygenase
+IMPDH                PF00478.24 sp|B0BSI0|NANE_ACTPJ -              0.037   12.9   0.2      0.43    9.4   0.0   2.0   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B0BSI0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B0BSI0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B0BSI0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:30:31 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|B1MBX5|HIS4_MYCA9 -            8.7e-60  201.9   0.9   9.8e-60  201.8   0.9   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+NMO                  PF03060.14 sp|B1MBX5|HIS4_MYCA9 -            3.9e-06   26.4   6.2    0.0028   17.0   0.4   2.2   2   0   0   2   2   2   2 Nitronate monooxygenase
+Dus                  PF01207.16 sp|B1MBX5|HIS4_MYCA9 -            8.6e-05   21.7   0.1      0.23   10.4   0.0   2.1   1   1   1   2   2   2   2 Dihydrouridine synthase (Dus)
+IMPDH                PF00478.24 sp|B1MBX5|HIS4_MYCA9 -              0.021   13.7   1.1      0.42    9.4   0.0   2.1   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+TMP-TENI             PF02581.16 sp|B1MBX5|HIS4_MYCA9 -              0.071   12.3   0.5      0.48    9.6   0.1   2.1   2   0   0   2   2   2   0 Thiamine monophosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B1MBX5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B1MBX5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B1MBX5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:33:11 2019
+# [ok]

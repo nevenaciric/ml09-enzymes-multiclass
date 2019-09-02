@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|A1TKZ3|HIS4_ACIAC -            6.3e-79  264.5   1.4   7.1e-79  264.4   1.4   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|A1TKZ3|HIS4_ACIAC -            3.3e-09   36.2   0.2   0.00036   19.6   0.1   2.2   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|A1TKZ3|HIS4_ACIAC -               0.16   11.2   5.4     0.032   13.5   0.8   1.8   2   0   0   2   2   2   0 Nitronate monooxygenase
+Trp_syntA            PF00290.19 sp|A1TKZ3|HIS4_ACIAC -               0.17   10.6   0.5      0.64    8.7   0.0   1.9   2   0   0   2   2   2   0 Tryptophan synthase alpha chain
+FMN_dh               PF01070.17 sp|A1TKZ3|HIS4_ACIAC -                6.5    5.6   7.7       5.3    5.9   0.7   2.1   2   0   0   2   2   2   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A1TKZ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A1TKZ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A1TKZ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:18:03 2019
+# [ok]

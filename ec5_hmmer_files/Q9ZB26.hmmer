@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LacAB_rpiB           PF02502.17 sp|Q9ZB26|ERYI_BRUA2 -            1.5e-39  135.1   1.4   1.7e-39  134.9   1.4   1.0   1   0   0   1   1   1   1 Ribose/Galactose Isomerase
+Esterase_phd         PF10503.8  sp|Q9ZB26|ERYI_BRUA2 -              0.017   14.5   1.9     0.025   14.0   1.6   1.7   1   1   1   2   2   2   0 Esterase PHB depolymerase
+Abhydrolase_3        PF07859.12 sp|Q9ZB26|ERYI_BRUA2 -               0.03   14.1   0.3     0.065   13.0   0.1   1.7   1   1   0   1   1   1   0 alpha/beta hydrolase fold
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9ZB26.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9ZB26.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9ZB26.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:40:16 2019
+# [ok]

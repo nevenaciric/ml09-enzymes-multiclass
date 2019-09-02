@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NanE                 PF04131.13 sp|P65523|NANE_STRP8 -              1e-89  298.7   1.5   1.2e-89  298.5   1.5   1.0   1   0   0   1   1   1   1 Putative N-acetylmannosamine-6-phosphate epimerase
+Dus                  PF01207.16 sp|P65523|NANE_STRP8 -             0.0054   15.8   0.0    0.0083   15.2   0.0   1.2   1   0   0   1   1   1   1 Dihydrouridine synthase (Dus)
+His_biosynth         PF00977.20 sp|P65523|NANE_STRP8 -              0.021   14.2   0.4      0.11   11.9   0.2   2.0   2   0   0   2   2   2   0 Histidine biosynthesis protein
+IGPS                 PF00218.20 sp|P65523|NANE_STRP8 -              0.024   13.7   0.0     0.043   12.9   0.0   1.4   1   0   0   1   1   1   0 Indole-3-glycerol phosphate synthase
+RraA-like            PF03737.14 sp|P65523|NANE_STRP8 -              0.028   14.5   0.1       2.8    8.0   0.0   2.9   3   0   0   3   3   3   0 Aldolase/RraA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P65523.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P65523.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P65523.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:58:44 2019
+# [ok]

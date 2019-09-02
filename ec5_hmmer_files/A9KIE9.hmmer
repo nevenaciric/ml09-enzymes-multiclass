@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IF-2B                PF01008.16 sp|A9KIE9|MTNA_LACP7 -            5.6e-75  252.0   0.0   6.8e-75  251.8   0.0   1.1   1   0   0   1   1   1   1 Initiation factor 2 subunit family
+PEP-utilizers        PF00391.22 sp|A9KIE9|MTNA_LACP7 -              0.029   14.0   0.0      0.19   11.4   0.0   2.4   3   0   0   3   3   3   0 PEP-utilising enzyme, mobile domain
+GATase_3             PF07685.13 sp|A9KIE9|MTNA_LACP7 -               0.06   12.8   0.0      0.27   10.7   0.0   1.8   2   0   0   2   2   2   0 CobB/CobQ-like glutamine amidotransferase domain
+Nsp3_PL2pro          PF12124.7  sp|A9KIE9|MTNA_LACP7 -               0.14   11.8   0.0      0.59    9.9   0.0   1.9   2   0   0   2   2   2   0 Coronavirus polyprotein cleavage domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A9KIE9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A9KIE9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A9KIE9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:29:11 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_isomerase        PF00160.20 sp|P0C1J0|CYP15_RHIO9 -            2.2e-49  167.6   0.1   4.3e-49  166.7   0.1   1.5   1   0   0   1   1   1   1 Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+WD40                 PF00400.31 sp|P0C1J0|CYP15_RHIO9 -            9.1e-09   35.7   5.5    0.0043   17.8   0.1   5.2   5   1   0   5   5   5   3 WD domain, G-beta repeat
+ANAPC4_WD40          PF12894.6  sp|P0C1J0|CYP15_RHIO9 -            0.00099   19.3   0.0       4.2    7.7   0.1   3.5   2   1   1   3   3   3   1 Anaphase-promoting complex subunit 4 WD40 domain
+Nup160               PF11715.7  sp|P0C1J0|CYP15_RHIO9 -              0.011   14.3   1.3      0.25    9.8   0.2   2.1   1   1   1   2   2   2   0 Nucleoporin Nup120/160
+PI-PLC-C1            PF16670.4  sp|P0C1J0|CYP15_RHIO9 -              0.034   13.1   0.0      0.25   10.3   0.0   2.1   2   0   0   2   2   2   0 Phosphoinositide phospholipase C, Ca2+-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P0C1J0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P0C1J0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P0C1J0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:52:40 2019
+# [ok]

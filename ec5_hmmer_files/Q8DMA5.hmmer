@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q8DMA5|HIS4_THEEB -            1.3e-74  250.4   0.0   1.5e-74  250.3   0.0   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q8DMA5|HIS4_THEEB -             0.0003   19.9   0.0     0.033   13.2   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+TMP-TENI             PF02581.16 sp|Q8DMA5|HIS4_THEEB -              0.012   14.9   0.0       1.5    8.0   0.0   2.3   2   0   0   2   2   2   0 Thiamine monophosphate synthase
+NMO                  PF03060.14 sp|Q8DMA5|HIS4_THEEB -              0.014   14.7   1.9      0.73    9.1   0.1   2.1   2   0   0   2   2   2   0 Nitronate monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8DMA5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8DMA5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8DMA5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:29:54 2019
+# [ok]

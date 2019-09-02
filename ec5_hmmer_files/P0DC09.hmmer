@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LacAB_rpiB           PF02502.17 sp|P0DC09|LACB1_STRPQ -            3.2e-41  140.5   0.7   3.8e-41  140.2   0.7   1.1   1   0   0   1   1   1   1 Ribose/Galactose Isomerase
+Gly_rich_SFCGS       PF14272.5  sp|P0DC09|LACB1_STRPQ -             0.0014   18.6   0.5    0.0024   17.8   0.5   1.4   1   0   0   1   1   1   1 Glycine-rich SFCGS
+Ku_PK_bind           PF08785.10 sp|P0DC09|LACB1_STRPQ -              0.042   13.9   0.0     0.077   13.1   0.0   1.3   1   0   0   1   1   1   0 Ku C terminal domain like
+UPF0180              PF03698.12 sp|P0DC09|LACB1_STRPQ -              0.046   13.8   0.0     0.094   12.8   0.0   1.6   1   1   0   1   1   1   0 Uncharacterised protein family (UPF0180)
+Ssu72                PF04722.12 sp|P0DC09|LACB1_STRPQ -              0.054   12.9   0.0      0.19   11.1   0.0   1.8   2   0   0   2   2   2   0 Ssu72-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P0DC09.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P0DC09.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P0DC09.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:53:13 2019
+# [ok]

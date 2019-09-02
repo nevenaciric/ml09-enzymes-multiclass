@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NanE                 PF04131.13 sp|Q5PG85|NANE1_SALPA -              2e-84  281.5   0.1   2.3e-84  281.3   0.1   1.0   1   0   0   1   1   1   1 Putative N-acetylmannosamine-6-phosphate epimerase
+IMPDH                PF00478.24 sp|Q5PG85|NANE1_SALPA -              0.048   12.6   0.5       2.7    6.8   0.0   2.3   2   1   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+Pantoate_transf      PF02548.14 sp|Q5PG85|NANE1_SALPA -              0.068   12.4   0.1      0.16   11.2   0.1   1.6   2   0   0   2   2   2   0 Ketopantoate hydroxymethyltransferase
+DUF1471              PF07338.12 sp|Q5PG85|NANE1_SALPA -                0.1   12.5   0.0      0.78    9.6   0.0   2.2   2   0   0   2   2   2   0 Protein of unknown function (DUF1471)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q5PG85.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q5PG85.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q5PG85.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:19:19 2019
+# [ok]

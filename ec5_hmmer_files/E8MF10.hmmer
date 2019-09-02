@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GDP_Man_Dehyd        PF16363.4  sp|E8MF10|GALE_BIFL2 -            2.9e-59  201.0   0.0   3.8e-59  200.6   0.0   1.1   1   0   0   1   1   1   1 GDP-mannose 4,6 dehydratase
+Epimerase            PF01370.20 sp|E8MF10|GALE_BIFL2 -            4.2e-53  180.2   0.0   5.1e-53  179.9   0.0   1.1   1   0   0   1   1   1   1 NAD dependent epimerase/dehydratase family
+3Beta_HSD            PF01073.18 sp|E8MF10|GALE_BIFL2 -            1.9e-13   50.0   0.0   2.7e-13   49.4   0.0   1.3   1   0   0   1   1   1   1 3-beta hydroxysteroid dehydrogenase/isomerase family
+Polysacc_synt_2      PF02719.14 sp|E8MF10|GALE_BIFL2 -            7.5e-12   44.9   0.0   5.1e-11   42.1   0.0   2.0   1   1   0   1   1   1   1 Polysaccharide biosynthesis protein
+RmlD_sub_bind        PF04321.16 sp|E8MF10|GALE_BIFL2 -            1.3e-08   34.2   0.0   2.1e-08   33.5   0.0   1.3   1   0   0   1   1   1   1 RmlD substrate binding domain
+NAD_binding_10       PF13460.5  sp|E8MF10|GALE_BIFL2 -            5.7e-07   29.5   0.0     1e-06   28.7   0.0   1.5   1   0   0   1   1   1   1 NAD(P)H-binding
+adh_short            PF00106.24 sp|E8MF10|GALE_BIFL2 -            3.9e-05   23.1   0.0     7e-05   22.3   0.0   1.4   1   0   0   1   1   1   1 short chain dehydrogenase
+NAD_binding_4        PF07993.11 sp|E8MF10|GALE_BIFL2 -            4.8e-05   22.6   0.1   0.00039   19.6   0.1   2.1   1   1   0   1   1   1   1 Male sterility protein
+KR                   PF08659.9  sp|E8MF10|GALE_BIFL2 -            0.00041   20.2   0.0   0.00082   19.2   0.0   1.5   1   1   0   1   1   1   1 KR domain
+NmrA                 PF05368.12 sp|E8MF10|GALE_BIFL2 -              0.021   14.3   0.1       4.4    6.7   0.0   2.3   2   0   0   2   2   2   0 NmrA-like family
+DUF4296              PF14129.5  sp|E8MF10|GALE_BIFL2 -               0.14   12.6   0.0      0.93   10.0   0.0   2.3   3   0   0   3   3   2   0 Domain of unknown function (DUF4296)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/E8MF10.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/E8MF10.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/E8MF10.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:48:30 2019
+# [ok]

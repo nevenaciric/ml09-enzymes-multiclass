@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|A1R562|HIS4_PAEAT -              8e-65  218.4   0.2     9e-65  218.2   0.2   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+NMO                  PF03060.14 sp|A1R562|HIS4_PAEAT -            0.00029   20.2   0.4       0.2   10.9   0.0   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+Dus                  PF01207.16 sp|A1R562|HIS4_PAEAT -            0.00039   19.5   0.0      0.64    9.0   0.0   2.1   1   1   1   2   2   2   2 Dihydrouridine synthase (Dus)
+ThiG                 PF05690.13 sp|A1R562|HIS4_PAEAT -             0.0062   15.8   0.1      0.85    8.8   0.0   2.2   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+TMP-TENI             PF02581.16 sp|A1R562|HIS4_PAEAT -             0.0095   15.2   0.0     0.047   12.9   0.0   1.9   2   0   0   2   2   2   1 Thiamine monophosphate synthase
+Radical_SAM          PF04055.20 sp|A1R562|HIS4_PAEAT -              0.017   15.4   0.0       3.4    7.9   0.0   2.7   1   1   2   3   3   3   0 Radical SAM superfamily
+DeoC                 PF01791.8  sp|A1R562|HIS4_PAEAT -              0.024   14.2   0.2       2.1    7.8   0.0   2.1   2   0   0   2   2   2   0 DeoC/LacD family aldolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A1R562.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A1R562.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A1R562.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:17:34 2019
+# [ok]

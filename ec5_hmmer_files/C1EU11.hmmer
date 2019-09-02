@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PGM_PMM_I            PF02878.15 sp|C1EU11|GLMM_BACC3 -            1.1e-43  148.1   0.0   2.1e-43  147.2   0.0   1.4   1   0   0   1   1   1   1 Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain I
+PGM_PMM_III          PF02880.15 sp|C1EU11|GLMM_BACC3 -            3.7e-36  123.7   0.3   6.8e-36  122.8   0.3   1.4   1   0   0   1   1   1   1 Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain III
+PGM_PMM_IV           PF00408.19 sp|C1EU11|GLMM_BACC3 -              2e-16   59.8   0.9   6.2e-16   58.2   0.9   1.9   1   0   0   1   1   1   1 Phosphoglucomutase/phosphomannomutase, C-terminal domain
+PGM_PMM_II           PF02879.15 sp|C1EU11|GLMM_BACC3 -            2.4e-16   60.1   0.1   7.1e-16   58.6   0.1   1.9   1   0   0   1   1   1   1 Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain II
+Peptidase_C8         PF03569.12 sp|C1EU11|GLMM_BACC3 -              0.074   12.5   0.0      0.15   11.5   0.0   1.4   1   0   0   1   1   1   0 Peptidase family C8
+DUF3659              PF12396.7  sp|C1EU11|GLMM_BACC3 -               0.36   10.7   2.8       1.4    8.8   2.8   2.0   1   0   0   1   1   1   0 Protein of unknown function (DUF3659)
+Cullin_Nedd8         PF10557.8  sp|C1EU11|GLMM_BACC3 -                1.9    8.5   4.1       2.3    8.2   0.0   2.7   2   1   0   2   2   2   0 Cullin protein neddylation domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/C1EU11.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/C1EU11.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/C1EU11.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:46:04 2019
+# [ok]

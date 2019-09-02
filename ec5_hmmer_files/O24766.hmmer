@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Asp_Glu_race         PF01177.21 sp|O24766|MAIA_ALCFA -            1.8e-08   34.5   0.2   3.8e-08   33.4   0.2   1.5   1   1   0   1   1   1   1 Asp/Glu/Hydantoin racemase
+ANF_receptor         PF01094.27 sp|O24766|MAIA_ALCFA -              0.087   11.8   0.0      0.15   11.0   0.0   1.5   1   0   0   1   1   1   0 Receptor family ligand binding region
+Nterm_IS4            PF13006.6  sp|O24766|MAIA_ALCFA -              0.096   12.8   0.1       8.2    6.6   0.0   2.3   2   0   0   2   2   2   0 Insertion element 4 transposase N-terminal
+CGGC                 PF08821.10 sp|O24766|MAIA_ALCFA -               0.16   12.1   0.0      0.99    9.5   0.0   2.0   2   0   0   2   2   2   0 CGGC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O24766.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O24766.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O24766.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:49:14 2019
+# [ok]

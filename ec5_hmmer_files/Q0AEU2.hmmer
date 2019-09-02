@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q0AEU2|HIS4_NITEC -            5.6e-77  258.2   1.8   6.4e-77  258.0   1.8   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q0AEU2|HIS4_NITEC -            1.3e-11   44.1   0.5   2.1e-06   27.0   0.1   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|Q0AEU2|HIS4_NITEC -              0.001   18.5   1.7      0.53    9.5   0.1   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+G3P_antiterm         PF04309.11 sp|Q0AEU2|HIS4_NITEC -             0.0038   16.6   1.3       1.1    8.6   0.1   2.6   2   1   1   3   3   3   2 Glycerol-3-phosphate responsive antiterminator
+DeoC                 PF01791.8  sp|Q0AEU2|HIS4_NITEC -             0.0054   16.3   0.1    0.0086   15.6   0.1   1.4   1   0   0   1   1   1   1 DeoC/LacD family aldolase
+TMP-TENI             PF02581.16 sp|Q0AEU2|HIS4_NITEC -             0.0069   15.6   1.1      0.13   11.4   0.1   2.3   2   0   0   2   2   2   1 Thiamine monophosphate synthase
+DHO_dh               PF01180.20 sp|Q0AEU2|HIS4_NITEC -              0.013   14.6   1.0       2.2    7.3   0.1   2.3   2   0   0   2   2   2   0 Dihydroorotate dehydrogenase
+FMN_dh               PF01070.17 sp|Q0AEU2|HIS4_NITEC -              0.025   13.5   2.5       1.9    7.3   0.3   2.1   2   0   0   2   2   2   0 FMN-dependent dehydrogenase
+CutC                 PF03932.13 sp|Q0AEU2|HIS4_NITEC -               0.12   11.7   1.1       7.2    5.9   0.0   2.8   2   1   1   3   3   3   0 CutC family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q0AEU2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q0AEU2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q0AEU2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:02:30 2019
+# [ok]

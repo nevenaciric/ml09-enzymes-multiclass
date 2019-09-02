@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRAI                 PF00697.21 sp|O67853|TRPF_AQUAE -            5.3e-45  153.5   0.0   5.9e-45  153.3   0.0   1.0   1   0   0   1   1   1   1 N-(5'phosphoribosyl)anthranilate (PRA) isomerase
+NanE                 PF04131.13 sp|O67853|TRPF_AQUAE -             0.0034   16.5   0.0     0.013   14.6   0.0   2.0   2   0   0   2   2   2   1 Putative N-acetylmannosamine-6-phosphate epimerase
+QRPTase_C            PF01729.18 sp|O67853|TRPF_AQUAE -               0.11   12.2   0.1      0.28   10.8   0.0   1.8   3   0   0   3   3   3   0 Quinolinate phosphoribosyl transferase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O67853.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O67853.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O67853.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:50:39 2019
+# [ok]

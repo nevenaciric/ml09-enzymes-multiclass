@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|P09095|TYCA_BREPA -           1.2e-107  360.0   0.0  1.6e-107  359.7   0.0   1.1   1   0   0   1   1   1   1 AMP-binding enzyme
+Condensation         PF00668.19 sp|P09095|TYCA_BREPA -           9.8e-106  354.1   0.9  1.4e-105  353.6   0.9   1.2   1   0   0   1   1   1   1 Condensation domain
+AMP-binding_C        PF13193.5  sp|P09095|TYCA_BREPA -            7.1e-15   55.6   0.0   1.9e-14   54.3   0.0   1.8   1   0   0   1   1   1   1 AMP-binding enzyme C-terminal domain
+PP-binding           PF00550.24 sp|P09095|TYCA_BREPA -            4.5e-11   42.9   0.0   1.1e-10   41.6   0.0   1.7   1   0   0   1   1   1   1 Phosphopantetheine attachment site
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P09095.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P09095.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P09095.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:51:39 2019
+# [ok]

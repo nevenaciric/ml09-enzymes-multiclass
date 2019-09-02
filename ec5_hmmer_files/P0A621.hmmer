@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Topoisom_bac         PF01131.19 sp|P0A621|TOP1_MYCBO -           1.8e-115  386.2   0.0  2.2e-115  385.9   0.0   1.1   1   0   0   1   1   1   1 DNA topoisomerase
+Toprim_C_rpt         PF13368.5  sp|P0A621|TOP1_MYCBO -              6e-64  211.8   1.9   2.9e-21   75.1   0.0   4.5   4   0   0   4   4   4   4 Topoisomerase C-terminal repeat
+Toprim               PF01751.21 sp|P0A621|TOP1_MYCBO -            2.9e-28   98.0   0.0     7e-28   96.8   0.0   1.7   1   0   0   1   1   1   1 Toprim domain
+Toprim_4             PF13662.5  sp|P0A621|TOP1_MYCBO -            8.9e-06   26.0   0.0   5.6e-05   23.5   0.0   2.5   2   1   0   2   2   2   1 Toprim domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P0A621.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P0A621.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P0A621.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:51:55 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_5        PF07994.11 sp|Q6FQI1|INO1_CANGA -           5.7e-144  479.3   0.0  6.7e-144  479.1   0.0   1.0   1   0   0   1   1   1   1 Myo-inositol-1-phosphate synthase
+Inos-1-P_synth       PF01658.16 sp|Q6FQI1|INO1_CANGA -            3.1e-44  149.6   0.2   6.5e-44  148.5   0.2   1.6   1   0   0   1   1   1   1 Myo-inositol-1-phosphate synthase
+IstB_IS21_ATP        PF08483.10 sp|Q6FQI1|INO1_CANGA -               0.17   11.7   0.1      0.47   10.3   0.0   1.8   2   0   0   2   2   2   0 IstB-like ATP binding N-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q6FQI1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q6FQI1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q6FQI1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:22:59 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q2NTX5|HIS4_SODGM -            5.5e-70  235.3   0.0   6.2e-70  235.1   0.0   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+IGPS                 PF00218.20 sp|Q2NTX5|HIS4_SODGM -            0.00016   20.8   0.0     0.038   13.0   0.0   2.1   2   0   0   2   2   2   2 Indole-3-glycerol phosphate synthase
+Dus                  PF01207.16 sp|Q2NTX5|HIS4_SODGM -            0.00031   19.9   0.0     0.042   12.9   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NanE                 PF04131.13 sp|Q2NTX5|HIS4_SODGM -             0.0056   15.8   0.0     0.059   12.5   0.0   2.0   2   0   0   2   2   2   1 Putative N-acetylmannosamine-6-phosphate epimerase
+DUF3391              PF11871.7  sp|Q2NTX5|HIS4_SODGM -              0.014   15.8   0.0      0.34   11.3   0.0   2.3   2   1   0   2   2   2   0 Domain of unknown function (DUF3391)
+DHO_dh               PF01180.20 sp|Q2NTX5|HIS4_SODGM -               0.11   11.6   0.1      0.25   10.4   0.0   1.5   2   0   0   2   2   2   0 Dihydroorotate dehydrogenase
+FMN_dh               PF01070.17 sp|Q2NTX5|HIS4_SODGM -               0.46    9.4   5.0       3.1    6.6   2.0   2.4   2   1   0   2   2   2   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q2NTX5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q2NTX5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q2NTX5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:09:26 2019
+# [ok]

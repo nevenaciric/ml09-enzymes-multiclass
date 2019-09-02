@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRAI                 PF00697.21 sp|B0K2U0|TRPF_THEPX -            1.4e-52  178.2   0.2   1.6e-52  178.0   0.2   1.0   1   0   0   1   1   1   1 N-(5'phosphoribosyl)anthranilate (PRA) isomerase
+DUF2185              PF09951.8  sp|B0K2U0|TRPF_THEPX -               0.02   14.6   0.1     0.053   13.3   0.1   1.7   1   0   0   1   1   1   0 Protein of unknown function (DUF2185)
+TMP-TENI             PF02581.16 sp|B0K2U0|TRPF_THEPX -              0.028   13.6   0.0      0.52    9.5   0.0   2.4   2   1   0   2   2   2   0 Thiamine monophosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B0K2U0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B0K2U0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B0K2U0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:30:46 2019
+# [ok]

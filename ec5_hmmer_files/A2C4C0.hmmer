@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TruB_N               PF01509.17 sp|A2C4C0|TRUB_PROM1 -            8.3e-51  172.2   0.0   1.2e-50  171.7   0.0   1.2   1   0   0   1   1   1   1 TruB family pseudouridylate synthase (N terminal domain)
+TruB_C_2             PF16198.4  sp|A2C4C0|TRUB_PROM1 -            1.4e-09   37.8   0.0   2.5e-09   37.0   0.0   1.4   1   0   0   1   1   1   1 tRNA pseudouridylate synthase B C-terminal domain
+MAGI_u1              PF16663.4  sp|A2C4C0|TRUB_PROM1 -               0.05   13.5   0.0      0.11   12.4   0.0   1.4   1   0   0   1   1   1   0 Unstructured region on MAGI
+DKCLD                PF08068.11 sp|A2C4C0|TRUB_PROM1 -               0.11   12.6   0.0      0.25   11.4   0.0   1.6   1   0   0   1   1   1   0 DKCLD (NUC011) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A2C4C0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A2C4C0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A2C4C0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:18:51 2019
+# [ok]

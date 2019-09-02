@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRAI                 PF00697.21 sp|P67007|TRPF_STAAW -            4.9e-38  130.8   0.4   5.6e-38  130.6   0.4   1.0   1   0   0   1   1   1   1 N-(5'phosphoribosyl)anthranilate (PRA) isomerase
+5_3_exonuc_N         PF02739.15 sp|P67007|TRPF_STAAW -              0.022   14.6   0.6     0.029   14.2   0.1   1.5   2   0   0   2   2   2   0 5'-3' exonuclease, N-terminal resolvase-like domain
+Mer2                 PF09074.9  sp|P67007|TRPF_STAAW -              0.069   12.9   1.0      0.11   12.2   1.0   1.3   1   0   0   1   1   1   0 Mer2
+DUF1995              PF09353.9  sp|P67007|TRPF_STAAW -               0.11   12.4   0.0      0.15   12.0   0.0   1.2   1   0   0   1   1   1   0 Domain of unknown function (DUF1995)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P67007.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P67007.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P67007.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:59:03 2019
+# [ok]

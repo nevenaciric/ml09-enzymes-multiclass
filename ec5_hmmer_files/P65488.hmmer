@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MM_CoA_mutase        PF01642.21 sp|P65488|MUTB_MYCBO -           6.1e-229  760.7   0.1  7.4e-229  760.4   0.1   1.1   1   0   0   1   1   1   1 Methylmalonyl-CoA mutase
+B12-binding          PF02310.18 sp|P65488|MUTB_MYCBO -            5.9e-15   55.3   0.8   1.3e-14   54.1   0.8   1.7   1   0   0   1   1   1   1 B12 binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P65488.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P65488.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P65488.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:58:41 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AIRC                 PF00731.19 sp|O58058|PURE_PYRHO -            3.8e-71  237.3   0.2   4.5e-71  237.1   0.2   1.0   1   0   0   1   1   1   1 AIR carboxylase
+PrpR_N               PF06506.10 sp|O58058|PURE_PYRHO -             0.0029   17.1   0.2    0.0051   16.3   0.2   1.5   1   1   0   1   1   1   1 Propionate catabolism activator
+Fe-ADH_2             PF13685.5  sp|O58058|PURE_PYRHO -              0.029   13.9   0.0      0.04   13.5   0.0   1.2   1   0   0   1   1   1   0 Iron-containing alcohol dehydrogenase
+UBA                  PF00627.30 sp|O58058|PURE_PYRHO -              0.063   13.1   0.8       1.9    8.4   0.0   2.6   3   0   0   3   3   3   0 UBA/TS-N domain
+CoA_binding_2        PF13380.5  sp|O58058|PURE_PYRHO -              0.076   13.4   0.1       1.5    9.3   0.0   2.1   1   1   1   2   2   2   0 CoA binding domain
+DAGK_cat             PF00781.23 sp|O58058|PURE_PYRHO -               0.12   11.9   0.0      0.31   10.6   0.0   1.6   2   0   0   2   2   2   0 Diacylglycerol kinase catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O58058.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O58058.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O58058.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:50:16 2019
+# [ok]

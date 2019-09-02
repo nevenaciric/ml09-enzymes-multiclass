@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_isomerase        PF00160.20 sp|Q9SSA5|CYP38_ARATH -            9.8e-24   84.3   0.0   1.9e-23   83.3   0.0   1.5   1   0   0   1   1   1   1 Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+HpcH_HpaI            PF03328.13 sp|Q9SSA5|CYP38_ARATH -              0.047   12.7   0.0     0.083   11.9   0.0   1.3   1   0   0   1   1   1   0 HpcH/HpaI aldolase/citrate lyase family
+BioT2                PF15368.5  sp|Q9SSA5|CYP38_ARATH -               0.16   11.8   0.1      0.32   10.8   0.1   1.5   1   1   0   1   1   1   0 Spermatogenesis family BioT2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9SSA5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9SSA5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9SSA5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:39:13 2019
+# [ok]

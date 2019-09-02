@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PseudoU_synth_2      PF00849.21 sp|O25441|Y745_HELPY -            2.1e-23   83.1   0.1   3.5e-23   82.4   0.1   1.4   1   0   0   1   1   1   1 RNA pseudouridylate synthase
+S4                   PF01479.24 sp|O25441|Y745_HELPY -            1.2e-06   28.0   0.0     2e-06   27.3   0.0   1.4   1   0   0   1   1   1   1 S4 domain
+DUF1062              PF06353.11 sp|O25441|Y745_HELPY -              0.032   14.9   0.0     0.083   13.6   0.0   1.7   1   0   0   1   1   1   0 Protein of unknown function (DUF1062)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O25441.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O25441.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O25441.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:49:16 2019
+# [ok]

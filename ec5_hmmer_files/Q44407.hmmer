@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+bact-PGI_C           PF10432.8  sp|Q44407|PGMI_CALBD -            1.9e-51  174.0   0.0   3.4e-51  173.2   0.0   1.4   1   0   0   1   1   1   1 Bacterial phospho-glucose isomerase C-terminal SIS domain
+SIS                  PF01380.21 sp|Q44407|PGMI_CALBD -            1.1e-07   31.6   0.2   2.8e-07   30.3   0.1   1.6   1   1   0   1   1   1   1 SIS domain
+SIS_2                PF13580.5  sp|Q44407|PGMI_CALBD -             0.0039   17.1   0.1      0.01   15.8   0.0   1.7   2   0   0   2   2   2   1 SIS domain
+BphX                 PF06139.11 sp|Q44407|PGMI_CALBD -               0.15   11.9   0.0      0.34   10.8   0.0   1.6   1   0   0   1   1   1   0 BphX-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q44407.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q44407.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q44407.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:13:37 2019
+# [ok]

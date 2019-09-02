@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|B3WED2|HIS4_LACCB -            2.1e-69  233.4   0.8   2.3e-69  233.3   0.8   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+BATS                 PF06968.12 sp|B3WED2|HIS4_LACCB -             0.0014   18.6   2.1       2.6    8.2   0.5   2.9   2   1   0   2   2   2   2 Biotin and Thiamin Synthesis associated domain
+IGPS                 PF00218.20 sp|B3WED2|HIS4_LACCB -             0.0052   15.9   0.1      0.15   11.1   0.0   2.1   2   0   0   2   2   2   1 Indole-3-glycerol phosphate synthase
+Peripla_BP_1         PF00532.20 sp|B3WED2|HIS4_LACCB -               0.01   15.2   0.3     0.024   14.0   0.1   1.6   1   1   1   2   2   2   1 Periplasmic binding proteins and sugar binding domain of LacI family
+IMPDH                PF00478.24 sp|B3WED2|HIS4_LACCB -              0.021   13.8   1.2       1.1    8.0   0.0   2.1   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+Trp_syntA            PF00290.19 sp|B3WED2|HIS4_LACCB -              0.068   11.9   0.1       1.7    7.3   0.0   2.3   2   1   0   2   2   2   0 Tryptophan synthase alpha chain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B3WED2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B3WED2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B3WED2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:36:32 2019
+# [ok]

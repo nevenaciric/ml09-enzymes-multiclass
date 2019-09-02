@@ -1,0 +1,31 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q2NHB3|HIS4_METST -            7.9e-80  267.5   1.8   8.9e-80  267.3   1.8   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q2NHB3|HIS4_METST -            5.4e-12   45.3   0.1   6.5e-05   22.1   0.0   2.2   1   1   1   2   2   2   2 Dihydrouridine synthase (Dus)
+ThiG                 PF05690.13 sp|Q2NHB3|HIS4_METST -            8.8e-09   34.9   0.4   0.00023   20.5   0.1   2.1   2   0   0   2   2   2   2 Thiazole biosynthesis protein ThiG
+DHO_dh               PF01180.20 sp|Q2NHB3|HIS4_METST -            3.9e-07   29.5   1.4    0.0029   16.8   0.1   2.2   2   0   0   2   2   2   2 Dihydroorotate dehydrogenase
+NanE                 PF04131.13 sp|Q2NHB3|HIS4_METST -            3.2e-06   26.4   0.1     0.052   12.6   0.0   2.2   2   0   0   2   2   2   2 Putative N-acetylmannosamine-6-phosphate epimerase
+PcrB                 PF01884.16 sp|Q2NHB3|HIS4_METST -            1.4e-05   24.6   1.4    0.0063   15.9   0.2   2.2   2   0   0   2   2   2   2 PcrB family
+FMN_dh               PF01070.17 sp|Q2NHB3|HIS4_METST -            1.8e-05   23.9   0.2     0.036   13.0   0.2   2.2   2   0   0   2   2   2   2 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|Q2NHB3|HIS4_METST -            2.3e-05   23.5   0.3      0.12   11.2   0.1   2.1   2   0   0   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+Trp_syntA            PF00290.19 sp|Q2NHB3|HIS4_METST -            0.00017   20.5   0.1     0.029   13.1   0.0   2.2   2   0   0   2   2   2   2 Tryptophan synthase alpha chain
+TMP-TENI             PF02581.16 sp|Q2NHB3|HIS4_METST -            0.00022   20.5   0.4     0.071   12.3   0.0   2.4   2   0   0   2   2   2   2 Thiamine monophosphate synthase
+IGPS                 PF00218.20 sp|Q2NHB3|HIS4_METST -            0.00025   20.2   0.6      0.75    8.8   0.0   3.2   2   2   1   4   4   4   2 Indole-3-glycerol phosphate synthase
+SOR_SNZ              PF01680.16 sp|Q2NHB3|HIS4_METST -             0.0025   17.5   0.1     0.063   13.0   0.0   2.4   2   1   1   3   3   3   1 SOR/SNZ family
+G3P_antiterm         PF04309.11 sp|Q2NHB3|HIS4_METST -             0.0028   17.0   1.0       1.5    8.1   0.2   2.4   2   0   0   2   2   2   2 Glycerol-3-phosphate responsive antiterminator
+NMO                  PF03060.14 sp|Q2NHB3|HIS4_METST -             0.0045   16.3   0.1      0.29   10.4   0.0   2.1   1   1   0   2   2   2   1 Nitronate monooxygenase
+B12-binding          PF02310.18 sp|Q2NHB3|HIS4_METST -              0.015   15.2   0.0      0.84    9.6   0.0   2.2   2   0   0   2   2   2   0 B12 binding domain
+Ets                  PF00178.21 sp|Q2NHB3|HIS4_METST -              0.027   14.8   0.0      0.96    9.9   0.0   2.2   2   0   0   2   2   2   0 Ets-domain
+Ribul_P_3_epim       PF00834.18 sp|Q2NHB3|HIS4_METST -               0.03   13.6   0.4       3.4    6.9   0.0   2.5   2   0   0   2   2   2   0 Ribulose-phosphate 3 epimerase family
+GRDA                 PF04723.13 sp|Q2NHB3|HIS4_METST -              0.048   13.3   0.0      0.46   10.2   0.0   2.2   2   0   0   2   2   2   0 Glycine reductase complex selenoprotein A
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q2NHB3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q2NHB3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q2NHB3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:09:21 2019
+# [ok]

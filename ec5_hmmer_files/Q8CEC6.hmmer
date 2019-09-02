@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_isomerase        PF00160.20 sp|Q8CEC6|PPWD1_MOUSE -            9.1e-51  172.2   0.2   1.9e-50  171.1   0.2   1.5   1   0   0   1   1   1   1 Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+WD40                 PF00400.31 sp|Q8CEC6|PPWD1_MOUSE -            6.9e-12   45.6   2.4     0.021   15.6   0.0   4.5   4   0   0   4   4   4   3 WD domain, G-beta repeat
+ANAPC4_WD40          PF12894.6  sp|Q8CEC6|PPWD1_MOUSE -            0.00076   19.6   0.0      0.75   10.0   0.0   3.5   4   0   0   4   4   4   2 Anaphase-promoting complex subunit 4 WD40 domain
+DUF505               PF04458.11 sp|Q8CEC6|PPWD1_MOUSE -             0.0098   14.2   0.0     0.015   13.6   0.0   1.1   1   0   0   1   1   1   1 Protein of unknown function (DUF505)
+Ge1_WD40             PF16529.4  sp|Q8CEC6|PPWD1_MOUSE -              0.056   12.3   0.5        21    3.8   0.0   3.6   2   2   1   3   3   3   0 WD40 region of Ge1, enhancer of mRNA-decapping protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8CEC6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8CEC6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8CEC6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:29:15 2019
+# [ok]

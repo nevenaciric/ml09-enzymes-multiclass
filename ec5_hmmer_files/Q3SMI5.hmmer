@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SIS_2                PF13580.5  sp|Q3SMI5|GMHA_THIDA -            8.3e-38  129.4   2.0   1.1e-37  129.0   2.0   1.2   1   0   0   1   1   1   1 SIS domain
+SIS                  PF01380.21 sp|Q3SMI5|GMHA_THIDA -            2.8e-09   36.8   0.4   7.9e-09   35.4   0.1   1.8   2   0   0   2   2   2   1 SIS domain
+DUF917               PF06032.11 sp|Q3SMI5|GMHA_THIDA -             0.0029   16.4   0.5    0.0054   15.5   0.5   1.6   1   1   0   1   1   1   1 Protein of unknown function (DUF917)
+TPP_enzyme_N         PF02776.17 sp|Q3SMI5|GMHA_THIDA -              0.065   12.7   1.6      0.12   11.8   1.6   1.8   1   1   0   1   1   1   0 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+DUF2529              PF10740.8  sp|Q3SMI5|GMHA_THIDA -               0.13   11.8   0.2         1    8.9   0.1   2.1   1   1   1   2   2   2   0 Domain of unknown function (DUF2529)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q3SMI5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q3SMI5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q3SMI5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:12:57 2019
+# [ok]

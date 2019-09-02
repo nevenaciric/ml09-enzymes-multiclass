@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q2RNA6|HIS4_RHORT -            1.2e-76  257.1   0.2   1.4e-76  256.9   0.2   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q2RNA6|HIS4_RHORT -            1.3e-09   37.6   0.1   0.00017   20.7   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+DeoC                 PF01791.8  sp|Q2RNA6|HIS4_RHORT -              0.013   15.0   0.1     0.023   14.2   0.1   1.4   1   0   0   1   1   1   0 DeoC/LacD family aldolase
+DUF2399              PF09664.9  sp|Q2RNA6|HIS4_RHORT -               0.12   12.2   0.9      0.57   10.0   0.2   2.0   1   1   1   2   2   2   0 Protein of unknown function C-terminus (DUF2399)
+Amidohydro_2         PF04909.13 sp|Q2RNA6|HIS4_RHORT -                4.3    6.9   6.4       3.7    7.1   4.8   1.5   1   1   0   1   1   1   0 Amidohydrolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q2RNA6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q2RNA6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q2RNA6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:09:50 2019
+# [ok]

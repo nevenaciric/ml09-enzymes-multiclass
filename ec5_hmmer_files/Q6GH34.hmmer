@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRAI                 PF00697.21 sp|Q6GH34|TRPF_STAAR -            4.8e-37  127.5   0.3   5.5e-37  127.3   0.3   1.0   1   0   0   1   1   1   1 N-(5'phosphoribosyl)anthranilate (PRA) isomerase
+5_3_exonuc_N         PF02739.15 sp|Q6GH34|TRPF_STAAR -               0.03   14.1   0.0     0.047   13.5   0.0   1.3   1   0   0   1   1   1   0 5'-3' exonuclease, N-terminal resolvase-like domain
+TMP-TENI             PF02581.16 sp|Q6GH34|TRPF_STAAR -              0.064   12.5   0.1       3.6    6.8   0.0   2.5   1   1   0   2   2   2   0 Thiamine monophosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q6GH34.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q6GH34.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q6GH34.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:23:24 2019
+# [ok]

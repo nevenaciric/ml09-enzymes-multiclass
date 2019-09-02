@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FKBP_N               PF01346.17 sp|Q5ZXE0|MIP_LEGPH  -            1.9e-36  124.9   5.8   2.8e-36  124.4   5.8   1.2   1   0   0   1   1   1   1 Domain amino terminal to FKBP-type peptidyl-prolyl isomerase
+FKBP_C               PF00254.27 sp|Q5ZXE0|MIP_LEGPH  -            2.9e-24   85.1   0.0   1.3e-23   83.0   0.0   2.0   2   0   0   2   2   2   1 FKBP-type peptidyl-prolyl cis-trans isomerase
+DUF4402              PF14352.5  sp|Q5ZXE0|MIP_LEGPH  -              0.092   13.3   2.3      0.19   12.3   0.2   2.2   2   1   0   2   2   2   0 Domain of unknown function (DUF4402)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q5ZXE0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q5ZXE0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q5ZXE0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:20:39 2019
+# [ok]

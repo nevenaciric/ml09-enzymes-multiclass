@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rib_5-P_isom_A       PF06026.13 sp|A9WIA0|RPIA_CHLAA -            7.9e-61  204.5   0.0     1e-60  204.2   0.0   1.1   1   0   0   1   1   1   1 Ribose 5-phosphate isomerase A (phosphoriboisomerase A)
+DeoRC                PF00455.21 sp|A9WIA0|RPIA_CHLAA -            4.1e-06   26.7   0.1   0.00097   19.0   0.1   2.2   2   0   0   2   2   2   2 DeoR C terminal sensor domain
+CoA_trans            PF01144.22 sp|A9WIA0|RPIA_CHLAA -              0.093   12.0   0.1      0.19   11.0   0.1   1.5   1   0   0   1   1   1   0 Coenzyme A transferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A9WIA0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A9WIA0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A9WIA0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:30:15 2019
+# [ok]

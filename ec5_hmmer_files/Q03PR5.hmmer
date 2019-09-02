@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Arabinose_Isome      PF02610.14 sp|Q03PR5|ARAA_LACBA -           5.6e-166  552.0   3.3  6.7e-166  551.8   3.3   1.1   1   0   0   1   1   1   1 L-arabinose isomerase
+Arabinose_Iso_C      PF11762.7  sp|Q03PR5|ARAA_LACBA -            1.3e-43  147.4   0.0   2.7e-43  146.3   0.0   1.6   1   0   0   1   1   1   1 L-arabinose isomerase C-terminal domain
+Flagellin_IN         PF07196.12 sp|Q03PR5|ARAA_LACBA -               0.21   11.7   1.0        35    4.6   0.0   3.0   3   0   0   3   3   3   0 Flagellin hook IN motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q03PR5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q03PR5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q03PR5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:01:22 2019
+# [ok]

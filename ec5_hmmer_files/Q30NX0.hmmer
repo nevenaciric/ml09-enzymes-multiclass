@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trigger_N            PF05697.12 sp|Q30NX0|TIG_SULDN  -              8e-29  100.7   7.5     8e-29  100.7   7.5   3.4   3   1   1   4   4   4   1 Bacterial trigger factor protein (TF)
+Trigger_C            PF05698.13 sp|Q30NX0|TIG_SULDN  -            6.6e-28   97.7  26.9   3.7e-26   92.0  13.9   3.6   4   0   0   4   4   4   2 Bacterial trigger factor protein (TF) C-terminus
+FKBP_C               PF00254.27 sp|Q30NX0|TIG_SULDN  -            2.9e-17   62.7   0.5   9.6e-17   61.0   0.5   1.9   1   0   0   1   1   1   1 FKBP-type peptidyl-prolyl cis-trans isomerase
+DIMCO_N              PF16844.4  sp|Q30NX0|TIG_SULDN  -               0.04   14.2   3.2      0.37   11.0   0.6   3.1   2   1   0   2   2   2   0 Dinitrogenase iron-molybdenum cofactor, N-terminal
+FtsK_SpoIIIE_N       PF12538.7  sp|Q30NX0|TIG_SULDN  -               0.28   11.3   3.0      0.31   11.2   0.4   2.2   2   0   0   2   2   2   0 DNA transporter
+PG_binding_4         PF12229.7  sp|Q30NX0|TIG_SULDN  -                0.3   11.3  14.7       0.1   12.8   2.7   3.5   3   1   2   5   5   5   0 Putative peptidoglycan binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q30NX0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q30NX0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q30NX0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:10:36 2019
+# [ok]

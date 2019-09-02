@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TruB_N               PF01509.17 sp|Q6KHH8|TRUB_MYCMO -            2.5e-51  173.8   0.2   4.4e-51  173.1   0.2   1.4   1   0   0   1   1   1   1 TruB family pseudouridylate synthase (N terminal domain)
+TruB_C_2             PF16198.4  sp|Q6KHH8|TRUB_MYCMO -            1.9e-05   24.6   0.0   3.7e-05   23.7   0.0   1.5   1   0   0   1   1   1   1 tRNA pseudouridylate synthase B C-terminal domain
+PseudoU_synth_2      PF00849.21 sp|Q6KHH8|TRUB_MYCMO -              0.065   13.2   0.1     0.085   12.9   0.1   1.5   1   1   0   1   1   1   0 RNA pseudouridylate synthase
+Methyltranf_PUA      PF13636.5  sp|Q6KHH8|TRUB_MYCMO -              0.084   12.8   0.1       0.2   11.6   0.1   1.6   1   0   0   1   1   1   0 RNA-binding PUA-like domain of methyltransferase RsmF
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q6KHH8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q6KHH8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q6KHH8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:23:43 2019
+# [ok]

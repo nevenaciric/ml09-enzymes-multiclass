@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|B0RSL8|HIS4_XANCB -            5.3e-69  232.1   0.3     6e-69  231.9   0.3   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+FMN_dh               PF01070.17 sp|B0RSL8|HIS4_XANCB -            0.00024   20.2   7.3     0.012   14.6   0.2   2.2   2   0   0   2   2   2   2 FMN-dependent dehydrogenase
+Trp_syntA            PF00290.19 sp|B0RSL8|HIS4_XANCB -            0.00026   19.8   0.2    0.0015   17.3   0.1   2.0   2   0   0   2   2   2   1 Tryptophan synthase alpha chain
+IMPDH                PF00478.24 sp|B0RSL8|HIS4_XANCB -             0.0014   17.6   4.0     0.019   13.9   0.4   2.1   2   0   0   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+PEP_mutase           PF13714.5  sp|B0RSL8|HIS4_XANCB -             0.0053   16.1   0.9     0.015   14.7   0.3   1.8   2   0   0   2   2   2   1 Phosphoenolpyruvate phosphomutase
+G3P_antiterm         PF04309.11 sp|B0RSL8|HIS4_XANCB -             0.0068   15.7   0.5    0.0099   15.2   0.0   1.5   2   0   0   2   2   2   1 Glycerol-3-phosphate responsive antiterminator
+PcrB                 PF01884.16 sp|B0RSL8|HIS4_XANCB -              0.021   14.2   0.3     0.045   13.1   0.1   1.6   2   0   0   2   2   2   0 PcrB family
+CutC                 PF03932.13 sp|B0RSL8|HIS4_XANCB -              0.043   13.2   0.4      0.63    9.4   0.0   2.4   2   0   0   2   2   2   0 CutC family
+MccV                 PF17508.1  sp|B0RSL8|HIS4_XANCB -               0.17   12.4   1.2       6.3    7.3   0.1   2.3   2   0   0   2   2   2   0 Microcin V bacteriocin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B0RSL8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B0RSL8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B0RSL8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:31:10 2019
+# [ok]

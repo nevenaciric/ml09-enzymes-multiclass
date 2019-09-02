@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Topoisom_bac         PF01131.19 sp|O34204|TOP1_FERIS -           1.3e-124  416.3   6.4  1.8e-124  415.8   6.4   1.2   1   0   0   1   1   1   1 DNA topoisomerase
+Toprim               PF01751.21 sp|O34204|TOP1_FERIS -            9.3e-22   77.1   0.8   3.5e-20   72.0   0.1   2.7   2   0   0   2   2   2   1 Toprim domain
+zf-C4_Topoisom       PF01396.18 sp|O34204|TOP1_FERIS -               0.01   15.5   1.8      0.02   14.6   1.8   1.5   1   0   0   1   1   1   0 Topoisomerase DNA binding C4 zinc finger
+HypA                 PF01155.18 sp|O34204|TOP1_FERIS -              0.057   13.3   0.0       0.2   11.6   0.0   1.9   1   0   0   1   1   1   0 Hydrogenase/urease nickel incorporation, metallochaperone, hypA
+zinc_ribbon_6        PF14599.5  sp|O34204|TOP1_FERIS -              0.087   12.7   0.3      0.24   11.3   0.3   1.7   1   0   0   1   1   1   0 Zinc-ribbon
+CBFD_NFYB_HMF        PF00808.22 sp|O34204|TOP1_FERIS -               0.32   11.2   2.2        13    6.1   0.1   3.4   3   0   0   3   3   3   0 Histone-like transcription factor (CBF/NF-Y) and archaeal histone
+zinc_ribbon_4        PF13717.5  sp|O34204|TOP1_FERIS -                  2    8.3   4.2       4.4    7.2   2.5   2.5   2   1   1   3   3   3   0 zinc-ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O34204.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O34204.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O34204.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:49:42 2019
+# [ok]

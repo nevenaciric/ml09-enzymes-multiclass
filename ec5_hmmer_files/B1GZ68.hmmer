@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UxaC                 PF02614.13 sp|B1GZ68|UXAC_UNCTG -             1e-209  697.1   0.1  1.1e-209  696.9   0.1   1.0   1   0   0   1   1   1   1 Glucuronate isomerase
+BT1                  PF03092.15 sp|B1GZ68|UXAC_UNCTG -               0.15   10.1   0.0      0.24    9.5   0.0   1.2   1   0   0   1   1   1   0 BT1 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B1GZ68.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B1GZ68.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B1GZ68.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:32:00 2019
+# [ok]

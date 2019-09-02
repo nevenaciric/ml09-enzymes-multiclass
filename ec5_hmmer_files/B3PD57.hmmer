@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Arabinose_Isome      PF02610.14 sp|B3PD57|ARAA_CELJU -           6.7e-167  555.1   0.7    8e-167  554.8   0.7   1.0   1   0   0   1   1   1   1 L-arabinose isomerase
+Arabinose_Iso_C      PF11762.7  sp|B3PD57|ARAA_CELJU -            3.6e-46  155.6   0.0   1.1e-45  154.0   0.0   1.9   1   0   0   1   1   1   1 L-arabinose isomerase C-terminal domain
+Fucose_iso_C         PF02952.16 sp|B3PD57|ARAA_CELJU -              0.085   12.5   0.2      0.46   10.2   0.0   2.2   2   0   0   2   2   2   0 L-fucose isomerase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B3PD57.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B3PD57.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B3PD57.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:36:11 2019
+# [ok]

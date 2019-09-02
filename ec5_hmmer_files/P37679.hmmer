@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AP_endonuc_2         PF01261.23 sp|P37679|SGBU_ECOLI -            5.2e-37  127.2   0.0   6.4e-37  126.9   0.0   1.1   1   0   0   1   1   1   1 Xylose isomerase-like TIM barrel
+Glyco_hydro_114      PF03537.12 sp|P37679|SGBU_ECOLI -             0.0093   15.2   0.6      0.03   13.6   0.1   2.0   3   0   0   3   3   3   1 Glycoside-hydrolase family GH114
+UxuA                 PF03786.12 sp|P37679|SGBU_ECOLI -              0.026   13.2   0.0     0.039   12.7   0.0   1.2   1   0   0   1   1   1   0 D-mannonate dehydratase (UxuA)
+PRMT5_TIM            PF17285.1  sp|P37679|SGBU_ECOLI -              0.056   12.5   0.0     0.086   11.9   0.0   1.2   1   0   0   1   1   1   0 PRMT5 TIM barrel domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P37679.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P37679.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P37679.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:55:28 2019
+# [ok]

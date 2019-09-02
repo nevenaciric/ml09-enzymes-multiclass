@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|A5VT42|HIS4_BRUO2 -            5.1e-78  261.6   0.5   5.9e-78  261.4   0.5   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|A5VT42|HIS4_BRUO2 -              1e-05   24.7   0.1    0.0068   15.4   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|A5VT42|HIS4_BRUO2 -             0.0047   16.3   2.0      0.04   13.2   0.2   2.1   2   0   0   2   2   2   1 Nitronate monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A5VT42.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A5VT42.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A5VT42.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:23:32 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ECH_1                PF00378.19 sp|O35459|ECH1_MOUSE -            2.8e-48  164.3   0.1   4.8e-48  163.5   0.1   1.3   1   1   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+ECH_2                PF16113.4  sp|O35459|ECH1_MOUSE -            7.7e-29  101.1   0.2   1.2e-26   93.9   0.0   2.2   1   1   1   2   2   2   2 Enoyl-CoA hydratase/isomerase
+Transglut_i_TM       PF14400.5  sp|O35459|ECH1_MOUSE -              0.036   14.0   0.2     0.065   13.2   0.2   1.4   1   0   0   1   1   1   0 Inactive transglutaminase fused to 7 transmembrane helices
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O35459.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O35459.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O35459.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:49:46 2019
+# [ok]

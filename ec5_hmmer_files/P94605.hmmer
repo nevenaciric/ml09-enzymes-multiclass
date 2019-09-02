@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_topoisoIV        PF00521.19 sp|P94605|GYRA_CLOAB -           2.6e-165  550.3   0.6  3.6e-165  549.9   0.6   1.2   1   0   0   1   1   1   1 DNA gyrase/topoisomerase IV, subunit A
+DNA_gyraseA_C        PF03989.12 sp|P94605|GYRA_CLOAB -            1.9e-75  248.1  17.7   5.1e-15   54.6   0.1   6.6   6   0   0   6   6   6   6 DNA gyrase C-terminal domain, beta-propeller
+MutL_C               PF08676.10 sp|P94605|GYRA_CLOAB -              0.075   12.7   0.4      0.28   10.8   0.0   2.0   2   0   0   2   2   2   0 MutL C terminal dimerisation domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P94605.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P94605.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P94605.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:59:58 2019
+# [ok]

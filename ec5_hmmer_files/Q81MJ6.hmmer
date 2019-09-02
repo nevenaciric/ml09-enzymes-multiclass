@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IF-2B                PF01008.16 sp|Q81MJ6|MTNA2_BACAN -            2.3e-86  289.4   0.8   2.7e-86  289.2   0.8   1.0   1   0   0   1   1   1   1 Initiation factor 2 subunit family
+Miga                 PF10265.8  sp|Q81MJ6|MTNA2_BACAN -              0.068   12.0   0.0     0.089   11.7   0.0   1.1   1   0   0   1   1   1   0 Mitoguardin
+ApbA                 PF02558.15 sp|Q81MJ6|MTNA2_BACAN -              0.092   12.3   0.0      0.27   10.8   0.0   1.8   2   0   0   2   2   2   0 Ketopantoate reductase PanE/ApbA
+Med1                 PF10744.8  sp|Q81MJ6|MTNA2_BACAN -               0.18   10.7   0.0      0.25   10.2   0.0   1.3   1   0   0   1   1   1   0 Mediator of RNA polymerase II transcription subunit 1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q81MJ6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q81MJ6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q81MJ6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:27:23 2019
+# [ok]

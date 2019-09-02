@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rib_5-P_isom_A       PF06026.13 sp|Q318Q3|RPIA_PROM9 -            5.7e-65  218.0   0.4   7.4e-65  217.7   0.4   1.1   1   0   0   1   1   1   1 Ribose 5-phosphate isomerase A (phosphoriboisomerase A)
+DeoRC                PF00455.21 sp|Q318Q3|RPIA_PROM9 -            2.4e-06   27.5   0.3   0.00019   21.3   0.2   2.2   2   0   0   2   2   2   2 DeoR C terminal sensor domain
+Shikimate_DH         PF01488.19 sp|Q318Q3|RPIA_PROM9 -               0.21   11.6   1.8        14    5.7   0.1   2.4   2   1   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q318Q3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q318Q3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q318Q3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:10:43 2019
+# [ok]

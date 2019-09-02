@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_gyraseB          PF00204.24 sp|Q44271|GYRB_ACIG6 -            5.8e-62  208.1   0.4   8.3e-62  207.6   0.4   1.2   1   0   0   1   1   1   1 DNA gyrase B
+Toprim               PF01751.21 sp|Q44271|GYRB_ACIG6 -            4.2e-07   30.0   0.0     4e-06   26.9   0.0   2.5   3   0   0   3   3   3   1 Toprim domain
+HATPase_c            PF02518.25 sp|Q44271|GYRB_ACIG6 -              0.013   16.0   0.0     0.033   14.7   0.0   1.7   1   0   0   1   1   1   0 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q44271.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q44271.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q44271.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:13:34 2019
+# [ok]

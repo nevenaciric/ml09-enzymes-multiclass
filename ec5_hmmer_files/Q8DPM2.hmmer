@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_topoisoIV        PF00521.19 sp|Q8DPM2|GYRA_STRR6 -           1.3e-159  531.5   0.5  1.7e-159  531.2   0.5   1.1   1   0   0   1   1   1   1 DNA gyrase/topoisomerase IV, subunit A
+DNA_gyraseA_C        PF03989.12 sp|Q8DPM2|GYRA_STRR6 -            8.8e-73  239.5  17.8   2.5e-13   49.2   0.0   6.4   6   0   0   6   6   6   6 DNA gyrase C-terminal domain, beta-propeller
+Uso1_p115_C          PF04871.12 sp|Q8DPM2|GYRA_STRR6 -              0.063   13.6   1.9      0.14   12.4   1.9   1.7   1   0   0   1   1   1   0 Uso1 / p115 like vesicle tethering protein, C terminal region
+SIS                  PF01380.21 sp|Q8DPM2|GYRA_STRR6 -               0.11   12.2   0.0         5    6.9   0.0   2.5   2   0   0   2   2   2   0 SIS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8DPM2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8DPM2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8DPM2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:29:56 2019
+# [ok]

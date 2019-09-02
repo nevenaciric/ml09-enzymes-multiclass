@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_gyraseB          PF00204.24 sp|Q9FAX2|GYRB_CHIJA -              1e-59  200.8   0.1   1.8e-59  200.0   0.1   1.4   1   0   0   1   1   1   1 DNA gyrase B
+Toprim               PF01751.21 sp|Q9FAX2|GYRB_CHIJA -            3.1e-19   69.0   0.1   9.1e-19   67.5   0.1   1.8   2   0   0   2   2   2   1 Toprim domain
+Toprim_4             PF13662.5  sp|Q9FAX2|GYRB_CHIJA -              0.038   14.4   0.1      0.13   12.8   0.1   1.9   1   0   0   1   1   1   0 Toprim domain
+HATPase_c            PF02518.25 sp|Q9FAX2|GYRB_CHIJA -              0.062   13.8   0.1      0.16   12.4   0.1   1.8   1   0   0   1   1   1   0 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Leg1                 PF05612.11 sp|Q9FAX2|GYRB_CHIJA -               0.17   10.9   0.0      0.27   10.2   0.0   1.2   1   0   0   1   1   1   0 Leg1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9FAX2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9FAX2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9FAX2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:36:37 2019
+# [ok]

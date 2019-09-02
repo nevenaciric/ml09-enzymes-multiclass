@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LacAB_rpiB           PF02502.17 sp|Q8CRJ2|LACA_STAES -            5.2e-39  133.3   0.5   5.7e-39  133.2   0.5   1.0   1   0   0   1   1   1   1 Ribose/Galactose Isomerase
+Glycos_trans_3N      PF02885.16 sp|Q8CRJ2|LACA_STAES -              0.068   12.9   0.0      0.15   11.8   0.0   1.7   2   0   0   2   2   2   0 Glycosyl transferase family, helical bundle domain
+FOP_dimer            PF09398.9  sp|Q8CRJ2|LACA_STAES -               0.17   12.0   0.1      0.31   11.2   0.1   1.5   1   1   0   1   1   1   0 FOP N terminal dimerisation domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8CRJ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8CRJ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8CRJ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:29:23 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q87C33|HIS4_XYLFT -            1.8e-67  227.1   0.3     2e-67  226.9   0.3   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Trp_syntA            PF00290.19 sp|Q87C33|HIS4_XYLFT -             0.0001   21.1   0.3   0.00032   19.5   0.0   1.8   2   0   0   2   2   2   1 Tryptophan synthase alpha chain
+FMN_dh               PF01070.17 sp|Q87C33|HIS4_XYLFT -             0.0064   15.5   9.6      0.17   10.8   1.6   2.2   2   0   0   2   2   2   2 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|Q87C33|HIS4_XYLFT -             0.0083   15.1   4.0      0.03   13.2   0.1   2.1   2   0   0   2   2   2   1 IMP dehydrogenase / GMP reductase domain
+G3P_antiterm         PF04309.11 sp|Q87C33|HIS4_XYLFT -              0.022   14.1   0.0     0.042   13.1   0.0   1.5   1   0   0   1   1   1   0 Glycerol-3-phosphate responsive antiterminator
+Glu_synthase         PF01645.16 sp|Q87C33|HIS4_XYLFT -              0.059   12.4   3.0       0.3   10.1   0.2   2.1   2   0   0   2   2   2   0 Conserved region in glutamate synthase
+DHO_dh               PF01180.20 sp|Q87C33|HIS4_XYLFT -               0.22   10.6   0.8      0.87    8.6   0.0   1.9   2   0   0   2   2   2   0 Dihydroorotate dehydrogenase
+NMO                  PF03060.14 sp|Q87C33|HIS4_XYLFT -                1.8    7.8   7.1      0.88    8.8   0.9   2.1   2   0   0   2   2   2   0 Nitronate monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q87C33.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q87C33.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q87C33.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:28:12 2019
+# [ok]

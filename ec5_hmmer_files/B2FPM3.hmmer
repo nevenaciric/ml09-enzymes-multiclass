@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|B2FPM3|HIS4_STRMK -              7e-69  231.7   0.1   7.9e-69  231.5   0.1   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Trp_syntA            PF00290.19 sp|B2FPM3|HIS4_STRMK -            0.00057   18.7   0.1    0.0046   15.8   0.0   2.0   2   0   0   2   2   2   1 Tryptophan synthase alpha chain
+IMPDH                PF00478.24 sp|B2FPM3|HIS4_STRMK -             0.0012   17.8   1.3      0.31    9.9   0.1   2.2   2   0   0   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+G3P_antiterm         PF04309.11 sp|B2FPM3|HIS4_STRMK -              0.071   12.4   0.1      0.45    9.8   0.0   1.9   2   0   0   2   2   2   0 Glycerol-3-phosphate responsive antiterminator
+IGPS                 PF00218.20 sp|B2FPM3|HIS4_STRMK -              0.086   11.9   0.0       2.1    7.4   0.0   2.1   2   0   0   2   2   2   0 Indole-3-glycerol phosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B2FPM3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B2FPM3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B2FPM3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:34:07 2019
+# [ok]

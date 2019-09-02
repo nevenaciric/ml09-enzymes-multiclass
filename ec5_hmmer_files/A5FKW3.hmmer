@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Arabinose_Isome      PF02610.14 sp|A5FKW3|ARAA_FLAJ1 -           3.3e-175  582.4   0.0  4.1e-175  582.1   0.0   1.1   1   0   0   1   1   1   1 L-arabinose isomerase
+Arabinose_Iso_C      PF11762.7  sp|A5FKW3|ARAA_FLAJ1 -            3.7e-52  174.9   0.0   7.4e-52  173.9   0.0   1.5   1   0   0   1   1   1   1 L-arabinose isomerase C-terminal domain
+pRN1_helical         PF13010.5  sp|A5FKW3|ARAA_FLAJ1 -              0.018   14.9   0.1     0.038   13.9   0.1   1.4   1   0   0   1   1   1   0 Primase helical domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A5FKW3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A5FKW3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A5FKW3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:22:25 2019
+# [ok]

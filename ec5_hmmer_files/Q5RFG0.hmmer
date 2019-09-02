@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ECH_1                PF00378.19 sp|Q5RFG0|ECH1_PONAB -            1.9e-49  168.1   0.2   3.9e-49  167.1   0.2   1.4   1   1   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+ECH_2                PF16113.4  sp|Q5RFG0|ECH1_PONAB -              1e-30  107.3   0.4   6.6e-28   98.1   0.0   2.0   1   1   1   2   2   2   2 Enoyl-CoA hydratase/isomerase
+PEP_hydrolase        PF09370.9  sp|Q5RFG0|ECH1_PONAB -              0.044   12.9   0.0     0.074   12.2   0.0   1.3   1   0   0   1   1   1   0 Phosphoenolpyruvate hydrolase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q5RFG0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q5RFG0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q5RFG0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:19:39 2019
+# [ok]

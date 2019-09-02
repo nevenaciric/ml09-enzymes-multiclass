@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rib_5-P_isom_A       PF06026.13 sp|B0V681|RPIA_ACIBY -            5.4e-59  198.6   0.7   6.7e-59  198.3   0.7   1.1   1   0   0   1   1   1   1 Ribose 5-phosphate isomerase A (phosphoriboisomerase A)
+DeoRC                PF00455.21 sp|B0V681|RPIA_ACIBY -            7.1e-06   25.9   0.6   7.1e-05   22.7   0.0   2.4   3   0   0   3   3   3   1 DeoR C terminal sensor domain
+HEM4                 PF02602.14 sp|B0V681|RPIA_ACIBY -              0.079   12.2   0.0      0.11   11.8   0.0   1.2   1   0   0   1   1   1   0 Uroporphyrinogen-III synthase HemD
+OMPdecase            PF00215.23 sp|B0V681|RPIA_ACIBY -              0.089   12.3   0.6       1.4    8.4   0.2   2.1   1   1   1   2   2   2   0 Orotidine 5'-phosphate decarboxylase / HUMPS family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B0V681.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B0V681.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B0V681.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:31:50 2019
+# [ok]

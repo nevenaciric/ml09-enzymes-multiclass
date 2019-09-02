@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FKBP_C               PF00254.27 sp|Q09734|MIP_TRYCR  -              3e-25   88.3   0.0   4.8e-25   87.6   0.0   1.3   1   0   0   1   1   1   1 FKBP-type peptidyl-prolyl cis-trans isomerase
+FKBP_N               PF01346.17 sp|Q09734|MIP_TRYCR  -              0.035   14.3   0.0     0.079   13.2   0.0   1.6   2   0   0   2   2   2   0 Domain amino terminal to FKBP-type peptidyl-prolyl isomerase
+Bap31                PF05529.11 sp|Q09734|MIP_TRYCR  -              0.074   12.5   0.0       0.1   12.1   0.0   1.2   1   0   0   1   1   1   0 B-cell receptor-associated protein 31-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q09734.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q09734.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q09734.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:02:23 2019
+# [ok]

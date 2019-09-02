@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lys-AminoMut_A       PF09043.10 sp|E3PY95|OAME_ACESD -            7.7e-45  153.2   0.2   1.1e-44  152.7   0.2   1.1   1   0   0   1   1   1   1 D-Lysine 5,6-aminomutase TIM-barrel domain of alpha subunit
+OAM_dimer            PF16554.4  sp|E3PY95|OAME_ACESD -            3.5e-29  101.0   0.1   9.5e-29   99.6   0.1   1.8   1   0   0   1   1   1   1 Dimerisation domain of d-ornithine 4,5-aminomutase
+B12-binding          PF02310.18 sp|E3PY95|OAME_ACESD -            8.4e-15   54.8   1.6   1.6e-14   53.9   1.6   1.4   1   0   0   1   1   1   1 B12 binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/E3PY95.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/E3PY95.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/E3PY95.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:48:26 2019
+# [ok]

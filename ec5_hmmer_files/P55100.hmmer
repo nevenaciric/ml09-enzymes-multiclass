@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+3HCDH_N              PF02737.17 sp|P55100|ECHP_CAVPO -            1.1e-57  194.8   0.3   1.5e-57  194.3   0.3   1.2   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ECH_1                PF00378.19 sp|P55100|ECHP_CAVPO -            1.3e-41  142.5   0.0   5.1e-41  140.5   0.0   1.8   1   1   1   2   2   2   1 Enoyl-CoA hydratase/isomerase
+3HCDH                PF00725.21 sp|P55100|ECHP_CAVPO -            1.6e-38  131.1   0.0   2.5e-27   95.3   0.0   2.5   2   0   0   2   2   2   2 3-hydroxyacyl-CoA dehydrogenase, C-terminal domain
+ECH_2                PF16113.4  sp|P55100|ECHP_CAVPO -            2.2e-25   89.8   0.0   5.1e-25   88.6   0.0   1.6   1   1   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+UDPG_MGDP_dh_N       PF03721.13 sp|P55100|ECHP_CAVPO -            0.00055   19.5   0.0   0.00094   18.7   0.0   1.3   1   0   0   1   1   1   1 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+TrkA_N               PF02254.17 sp|P55100|ECHP_CAVPO -             0.0026   17.9   0.0    0.0055   16.9   0.0   1.5   1   0   0   1   1   1   1 TrkA-N domain
+NAD_binding_2        PF03446.14 sp|P55100|ECHP_CAVPO -             0.0041   17.2   0.0    0.0083   16.2   0.0   1.6   1   0   0   1   1   1   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|P55100|ECHP_CAVPO -             0.0086   15.3   0.0     0.015   14.6   0.0   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+F420_oxidored        PF03807.16 sp|P55100|ECHP_CAVPO -             0.0087   16.5   0.1     0.024   15.1   0.1   1.8   1   0   0   1   1   1   1 NADP oxidoreductase coenzyme F420-dependent
+Peptidase_S49        PF01343.17 sp|P55100|ECHP_CAVPO -              0.028   14.3   0.0       3.2    7.6   0.0   2.9   3   0   0   3   3   3   0 Peptidase family S49
+PAX                  PF00292.17 sp|P55100|ECHP_CAVPO -               0.11   12.3   0.0       2.3    8.0   0.0   2.5   2   0   0   2   2   2   0 'Paired box' domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P55100.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P55100.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P55100.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:57:20 2019
+# [ok]

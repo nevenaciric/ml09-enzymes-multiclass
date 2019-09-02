@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|A7Z963|HIS4_BACVZ -            1.3e-75  253.7   1.4   1.5e-75  253.5   1.4   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+PcrB                 PF01884.16 sp|A7Z963|HIS4_BACVZ -              0.015   14.7   0.6       1.6    8.0   0.1   2.1   2   0   0   2   2   2   0 PcrB family
+IGPS                 PF00218.20 sp|A7Z963|HIS4_BACVZ -              0.081   12.0   0.1       1.6    7.7   0.0   2.3   2   0   0   2   2   2   0 Indole-3-glycerol phosphate synthase
+IMPDH                PF00478.24 sp|A7Z963|HIS4_BACVZ -              0.086   11.7   6.1       1.1    8.1   0.2   2.2   1   1   1   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+Cas_VVA1548          PF09652.9  sp|A7Z963|HIS4_BACVZ -               0.13   12.4   0.0      0.42   10.8   0.0   1.9   2   0   0   2   2   2   0 Putative CRISPR-associated protein (Cas_VVA1548)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A7Z963.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A7Z963.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A7Z963.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:26:37 2019
+# [ok]

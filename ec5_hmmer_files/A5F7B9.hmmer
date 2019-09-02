@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NanE                 PF04131.13 sp|A5F7B9|NANE_VIBC3 -            2.8e-89  297.3   0.9   3.3e-89  297.1   0.9   1.0   1   0   0   1   1   1   1 Putative N-acetylmannosamine-6-phosphate epimerase
+Pantoate_transf      PF02548.14 sp|A5F7B9|NANE_VIBC3 -            0.00042   19.7   1.0   0.00084   18.7   0.4   1.8   2   0   0   2   2   2   1 Ketopantoate hydroxymethyltransferase
+Sterol-sensing       PF12349.7  sp|A5F7B9|NANE_VIBC3 -             0.0075   16.0   0.0     0.013   15.3   0.0   1.3   1   0   0   1   1   1   1 Sterol-sensing domain of SREBP cleavage-activation
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A5F7B9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A5F7B9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A5F7B9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:22:20 2019
+# [ok]

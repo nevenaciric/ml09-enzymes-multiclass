@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rib_5-P_isom_A       PF06026.13 sp|B3H285|RPIA_ACTP7 -            4.5e-58  195.6   0.2     6e-58  195.2   0.2   1.2   1   0   0   1   1   1   1 Ribose 5-phosphate isomerase A (phosphoriboisomerase A)
+DeoRC                PF00455.21 sp|B3H285|RPIA_ACTP7 -            6.8e-05   22.8   1.0    0.0002   21.2   0.1   2.1   2   1   1   3   3   3   1 DeoR C terminal sensor domain
+Sugar-bind           PF04198.12 sp|B3H285|RPIA_ACTP7 -             0.0052   15.9   0.1    0.0086   15.1   0.1   1.4   1   0   0   1   1   1   1 Putative sugar-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B3H285.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B3H285.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B3H285.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:36:04 2019
+# [ok]

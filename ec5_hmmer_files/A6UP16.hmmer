@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRAI                 PF00697.21 sp|A6UP16|TRPF_METVS -            7.3e-26   91.0   0.1   8.9e-26   90.8   0.1   1.1   1   0   0   1   1   1   1 N-(5'phosphoribosyl)anthranilate (PRA) isomerase
+Cep3                 PF16846.4  sp|A6UP16|TRPF_METVS -              0.035   12.5   0.0     0.049   12.0   0.0   1.1   1   0   0   1   1   1   0 Centromere DNA-binding protein complex CBF3 subunit B
+Methyltr_RsmB-F      PF01189.16 sp|A6UP16|TRPF_METVS -              0.054   13.0   0.0     0.074   12.6   0.0   1.2   1   0   0   1   1   1   0 16S rRNA methyltransferase RsmB/F
+QRPTase_C            PF01729.18 sp|A6UP16|TRPF_METVS -              0.087   12.5   0.1      0.21   11.3   0.1   1.6   1   1   0   1   1   1   0 Quinolinate phosphoribosyl transferase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A6UP16.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A6UP16.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A6UP16.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:24:39 2019
+# [ok]

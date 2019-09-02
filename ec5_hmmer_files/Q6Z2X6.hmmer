@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SQHop_cyclase_C      PF13243.5  sp|Q6Z2X6|CAS_ORYSJ  -            6.1e-55  186.5   0.0   1.4e-48  165.6   0.1   2.2   2   0   0   2   2   2   2 Squalene-hopene cyclase C-terminal domain
+SQHop_cyclase_N      PF13249.5  sp|Q6Z2X6|CAS_ORYSJ  -            6.4e-41  140.3   0.0   1.7e-38  132.3   0.0   3.2   3   1   1   4   4   4   2 Squalene-hopene cyclase N-terminal domain
+Prenyltrans          PF00432.20 sp|Q6Z2X6|CAS_ORYSJ  -            1.2e-32  111.2   8.7     7e-11   41.6   0.0   4.9   5   0   0   5   5   5   3 Prenyltransferase and squalene oxidase repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q6Z2X6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q6Z2X6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q6Z2X6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:24:22 2019
+# [ok]

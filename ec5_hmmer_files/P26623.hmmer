@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FKBP_C               PF00254.27 sp|P26623|MIP_CHLTR  -            1.3e-21   76.6   0.0   1.6e-20   73.1   0.0   2.2   2   0   0   2   2   2   1 FKBP-type peptidyl-prolyl cis-trans isomerase
+FKBP_N               PF01346.17 sp|P26623|MIP_CHLTR  -            5.5e-16   58.9   2.5   8.1e-16   58.4   1.9   1.5   2   0   0   2   2   2   1 Domain amino terminal to FKBP-type peptidyl-prolyl isomerase
+HGTP_anticodon2      PF12745.6  sp|P26623|MIP_CHLTR  -               0.18   11.1   0.9      0.23   10.8   0.9   1.1   1   0   0   1   1   1   0 Anticodon binding domain of tRNAs
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P26623.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P26623.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P26623.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:54:29 2019
+# [ok]

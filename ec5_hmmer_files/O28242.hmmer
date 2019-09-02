@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IF-2B                PF01008.16 sp|O28242|R15PI_ARCFU -            4.7e-99  331.1   1.5   5.4e-99  330.8   1.5   1.0   1   0   0   1   1   1   1 Initiation factor 2 subunit family
+FumaraseC_C          PF10415.8  sp|O28242|R15PI_ARCFU -               0.31   11.4   0.1      0.31   11.4   0.1   2.6   3   0   0   3   3   3   0 Fumarase C C-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O28242.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O28242.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O28242.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:49:26 2019
+# [ok]

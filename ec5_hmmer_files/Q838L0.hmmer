@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+rhaM                 PF05336.12 sp|Q838L0|RHAM_ENTFA -            4.2e-28   97.4   2.5   4.6e-28   97.3   2.5   1.0   1   0   0   1   1   1   1 L-rhamnose mutarotase
+N6_N4_Mtase          PF01555.17 sp|Q838L0|RHAM_ENTFA -              0.035   13.7   0.1     0.037   13.6   0.1   1.1   1   0   0   1   1   1   0 DNA methylase
+HsdM_N               PF12161.7  sp|Q838L0|RHAM_ENTFA -              0.042   14.4   0.1     0.049   14.2   0.1   1.1   1   0   0   1   1   1   0 HsdM N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q838L0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q838L0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q838L0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:27:46 2019
+# [ok]

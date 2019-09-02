@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Tyrosinase           PF00264.19 sp|O93505|TYRP2_CHICK -            4.8e-32  112.0   0.0   6.5e-32  111.5   0.0   1.2   1   0   0   1   1   1   1 Common central domain of tyrosinase
+DUF1191              PF06697.11 sp|O93505|TYRP2_CHICK -              0.047   12.8   0.0     0.073   12.2   0.0   1.2   1   0   0   1   1   1   0 Protein of unknown function (DUF1191)
+Laminin_EGF          PF00053.23 sp|O93505|TYRP2_CHICK -              0.081   13.0   6.1      0.42   10.7   3.0   2.4   2   0   0   2   2   2   0 Laminin EGF domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O93505.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O93505.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O93505.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:51:11 2019
+# [ok]

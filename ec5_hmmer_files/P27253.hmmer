@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MM_CoA_mutase        PF01642.21 sp|P27253|SCPA_ECOLI -           9.9e-237  786.4   0.5  1.2e-236  786.2   0.5   1.1   1   0   0   1   1   1   1 Methylmalonyl-CoA mutase
+B12-binding          PF02310.18 sp|P27253|SCPA_ECOLI -            3.8e-16   59.1   0.8   7.6e-16   58.1   0.1   1.9   2   0   0   2   2   2   1 B12 binding domain
+sCache_like          PF16736.4  sp|P27253|SCPA_ECOLI -             0.0018   18.3   1.4    0.0035   17.3   1.2   1.6   1   1   0   1   1   1   1 Single Cache-like
+RE_Eco29kI           PF09517.9  sp|P27253|SCPA_ECOLI -               0.05   13.1   0.0     0.099   12.2   0.0   1.4   1   0   0   1   1   1   0 Eco29kI restriction endonuclease
+TetR_C_11            PF16859.4  sp|P27253|SCPA_ECOLI -               0.13   12.5   4.3      0.13   12.5   2.2   2.1   2   0   0   2   2   2   0 Bacterial transcriptional repressor C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P27253.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P27253.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P27253.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:54:33 2019
+# [ok]

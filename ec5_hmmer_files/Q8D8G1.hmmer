@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PseudoU_synth_2      PF00849.21 sp|Q8D8G1|RLUC_VIBVU -              2e-32  112.4   0.0   3.2e-32  111.8   0.0   1.3   1   0   0   1   1   1   1 RNA pseudouridylate synthase
+S4                   PF01479.24 sp|Q8D8G1|RLUC_VIBVU -            3.1e-10   39.5   1.5   5.9e-10   38.6   1.5   1.5   1   0   0   1   1   1   1 S4 domain
+DUF3603              PF12227.7  sp|Q8D8G1|RLUC_VIBVU -            0.00041   19.7   0.1   0.00066   19.0   0.1   1.3   1   0   0   1   1   1   1 Protein of unknown function (DUF3603)
+TGS                  PF02824.20 sp|Q8D8G1|RLUC_VIBVU -              0.048   13.6   0.0      0.13   12.2   0.0   1.8   1   0   0   1   1   1   0 TGS domain
+Orexin               PF02072.14 sp|Q8D8G1|RLUC_VIBVU -               0.14   12.0   0.0      0.24   11.3   0.0   1.3   1   0   0   1   1   1   0 Prepro-orexin
+TrkA_C               PF02080.20 sp|Q8D8G1|RLUC_VIBVU -               0.16   11.7   0.7        14    5.5   0.0   2.9   2   1   0   2   2   2   0 TrkA-C domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8D8G1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8D8G1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8D8G1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:29:41 2019
+# [ok]

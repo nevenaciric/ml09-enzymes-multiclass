@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NanE                 PF04131.13 sp|A9N831|NANE_SALPB -            4.7e-86  286.8   0.2   5.5e-86  286.6   0.2   1.0   1   0   0   1   1   1   1 Putative N-acetylmannosamine-6-phosphate epimerase
+RimM                 PF01782.17 sp|A9N831|NANE_SALPB -              0.073   13.2   0.0       8.7    6.5   0.0   2.2   2   0   0   2   2   2   0 RimM N-terminal domain
+Pantoate_transf      PF02548.14 sp|A9N831|NANE_SALPB -               0.16   11.2   0.9      0.63    9.3   0.2   2.0   2   0   0   2   2   2   0 Ketopantoate hydroxymethyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A9N831.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A9N831.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A9N831.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:29:50 2019
+# [ok]

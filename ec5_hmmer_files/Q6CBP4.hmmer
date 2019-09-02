@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_isomerase        PF00160.20 sp|Q6CBP4|PPID_YARLI -            2.3e-48  164.4   0.2   3.3e-48  163.8   0.2   1.3   1   0   0   1   1   1   1 Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+TPR_2                PF07719.16 sp|Q6CBP4|PPID_YARLI -            2.6e-07   30.1   4.7   0.00014   21.6   0.8   3.4   3   0   0   3   3   3   2 Tetratricopeptide repeat
+TPR_1                PF00515.27 sp|Q6CBP4|PPID_YARLI -            0.00012   21.6   5.4   0.00045   19.8   0.4   3.0   3   0   0   3   3   3   1 Tetratricopeptide repeat
+TPR_12               PF13424.5  sp|Q6CBP4|PPID_YARLI -              0.005   17.0   1.2       4.8    7.4   0.1   3.1   2   1   0   2   2   2   2 Tetratricopeptide repeat
+TPR_11               PF13414.5  sp|Q6CBP4|PPID_YARLI -              0.012   15.2   3.5      0.88    9.2   0.3   2.7   2   0   0   2   2   2   0 TPR repeat
+TPR_14               PF13428.5  sp|Q6CBP4|PPID_YARLI -               0.13   13.1   2.0      0.39   11.6   0.3   2.6   3   0   0   3   3   3   0 Tetratricopeptide repeat
+TPR_8                PF13181.5  sp|Q6CBP4|PPID_YARLI -               0.14   12.4   0.2      0.14   12.4   0.2   3.0   4   0   0   4   4   4   0 Tetratricopeptide repeat
+MIT                  PF04212.17 sp|Q6CBP4|PPID_YARLI -                3.8    7.6   8.0       0.9    9.6   0.3   2.9   2   1   0   2   2   2   0 MIT (microtubule interacting and transport) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q6CBP4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q6CBP4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q6CBP4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:22:25 2019
+# [ok]

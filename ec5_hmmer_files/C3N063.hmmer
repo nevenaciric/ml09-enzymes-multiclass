@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FMN_dh               PF01070.17 sp|C3N063|IDI2_SULIA -            8.9e-23   80.8   0.0   1.1e-19   70.6   0.0   2.1   1   1   0   1   1   1   1 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|C3N063|IDI2_SULIA -            2.3e-05   23.5   0.6     0.078   11.9   0.3   3.2   3   1   1   4   4   4   2 IMP dehydrogenase / GMP reductase domain
+Glu_synthase         PF01645.16 sp|C3N063|IDI2_SULIA -              0.015   14.4   0.1     0.031   13.3   0.1   1.5   1   0   0   1   1   1   0 Conserved region in glutamate synthase
+DHO_dh               PF01180.20 sp|C3N063|IDI2_SULIA -              0.086   11.9   0.8       0.5    9.4   0.1   2.4   2   1   0   2   2   2   0 Dihydroorotate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/C3N063.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/C3N063.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/C3N063.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:46:38 2019
+# [ok]

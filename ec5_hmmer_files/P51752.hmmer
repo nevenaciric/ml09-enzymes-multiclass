@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FKBP_N               PF01346.17 sp|P51752|MIP_COXBU  -            3.1e-33  114.6   5.8   1.7e-32  112.2   7.2   1.5   2   0   0   2   2   2   1 Domain amino terminal to FKBP-type peptidyl-prolyl isomerase
+FKBP_C               PF00254.27 sp|P51752|MIP_COXBU  -            4.1e-27   94.2   0.1   1.1e-26   92.8   0.0   1.7   2   1   0   2   2   2   1 FKBP-type peptidyl-prolyl cis-trans isomerase
+H2O2_YaaD            PF03883.13 sp|P51752|MIP_COXBU  -              0.016   14.7   1.0     0.021   14.2   1.0   1.1   1   0   0   1   1   1   0 Peroxide stress protein YaaA
+CSTF2_hinge          PF14327.5  sp|P51752|MIP_COXBU  -               0.11   12.8   4.5      0.23   11.8   4.5   1.5   1   0   0   1   1   1   0 Hinge domain of cleavage stimulation factor subunit 2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P51752.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P51752.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P51752.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:56:59 2019
+# [ok]

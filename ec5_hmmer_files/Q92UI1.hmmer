@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GPI                  PF06560.10 sp|Q92UI1|G6PI2_RHIME -              6e-73  243.9   0.1     7e-73  243.7   0.1   1.0   1   0   0   1   1   1   1 Glucose-6-phosphate isomerase (GPI)
+Cupin_2              PF07883.10 sp|Q92UI1|G6PI2_RHIME -             0.0085   15.7   0.1     0.015   14.9   0.1   1.4   1   0   0   1   1   1   1 Cupin domain
+Cupin_1              PF00190.21 sp|Q92UI1|G6PI2_RHIME -              0.059   12.9   0.0     0.086   12.3   0.0   1.2   1   0   0   1   1   1   0 Cupin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q92UI1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q92UI1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q92UI1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:34:54 2019
+# [ok]

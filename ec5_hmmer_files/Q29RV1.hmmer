@@ -1,0 +1,33 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Thioredoxin          PF00085.19 sp|Q29RV1|PDIA4_BOVIN -            2.7e-98  322.8   0.8     9e-32  109.0   0.0   3.4   3   0   0   3   3   3   3 Thioredoxin
+Thioredoxin_6        PF13848.5  sp|Q29RV1|PDIA4_BOVIN -            9.9e-26   90.7   9.9   3.4e-18   66.2   1.9   4.2   3   1   0   3   3   3   3 Thioredoxin-like domain
+OST3_OST6            PF04756.12 sp|Q29RV1|PDIA4_BOVIN -            2.4e-17   63.1   0.2   1.1e-05   24.9   0.0   3.7   4   0   0   4   4   4   3 OST3 / OST6 family, transporter family
+Thioredoxin_2        PF13098.5  sp|Q29RV1|PDIA4_BOVIN -            2.6e-16   59.9   1.6   0.00055   20.3   0.0   4.5   3   1   0   3   3   3   3 Thioredoxin-like domain
+Thioredoxin_8        PF13905.5  sp|Q29RV1|PDIA4_BOVIN -            2.3e-15   56.6   1.4    0.0085   16.3   0.0   6.4   4   2   2   6   6   6   4 Thioredoxin-like
+Thioredoxin_7        PF13899.5  sp|Q29RV1|PDIA4_BOVIN -            1.6e-12   47.3   0.0    0.0099   15.9   0.0   4.0   4   0   0   4   4   3   3 Thioredoxin-like
+Calsequestrin        PF01216.16 sp|Q29RV1|PDIA4_BOVIN -            3.5e-11   42.7   0.7   3.5e-11   42.7   0.7   3.6   1   1   2   4   4   3   1 Calsequestrin
+AhpC-TSA             PF00578.20 sp|Q29RV1|PDIA4_BOVIN -              9e-09   35.2   0.1      0.22   11.3   0.0   4.1   4   0   0   4   4   4   3 AhpC/TSA family
+TraF                 PF13728.5  sp|Q29RV1|PDIA4_BOVIN -            1.4e-07   31.5   0.1     0.037   13.8   0.0   4.4   4   0   0   4   4   4   1 F plasmid transfer operon protein
+Thioredoxin_4        PF13462.5  sp|Q29RV1|PDIA4_BOVIN -            5.2e-06   26.6   4.9       2.4    8.2   0.1   5.2   5   1   0   5   5   4   3 Thioredoxin
+Redoxin              PF08534.9  sp|Q29RV1|PDIA4_BOVIN -            5.7e-06   26.0   1.4         2    8.0   0.0   4.7   5   0   0   5   5   5   1 Redoxin
+HyaE                 PF07449.10 sp|Q29RV1|PDIA4_BOVIN -            6.9e-05   22.7   0.0       2.1    8.3   0.0   4.1   3   0   0   3   3   3   1 Hydrogenase-1 expression protein HyaE
+Thioredoxin_3        PF13192.5  sp|Q29RV1|PDIA4_BOVIN -             0.0025   17.7   0.0        12    5.9   0.0   3.5   3   0   0   3   3   3   0 Thioredoxin domain
+Thioredoxin_9        PF14595.5  sp|Q29RV1|PDIA4_BOVIN -             0.0067   16.1   0.1       4.9    6.8   0.0   3.3   3   0   0   3   3   3   1 Thioredoxin
+Ribosomal_60s        PF00428.18 sp|Q29RV1|PDIA4_BOVIN -              0.014   15.9   2.1     0.044   14.3   2.1   1.9   1   0   0   1   1   1   0 60s Acidic ribosomal protein
+DSBA                 PF01323.19 sp|Q29RV1|PDIA4_BOVIN -              0.014   15.1   0.7        32    4.1   0.1   4.4   3   2   2   5   5   5   0 DSBA-like thioredoxin domain
+FAM176               PF14851.5  sp|Q29RV1|PDIA4_BOVIN -                0.1   12.2   0.6      0.21   11.2   0.6   1.4   1   0   0   1   1   1   0 FAM176 family
+Pro-rich             PF15240.5  sp|Q29RV1|PDIA4_BOVIN -               0.11   12.8   0.2       0.2   11.9   0.2   1.4   1   0   0   1   1   1   0 Proline-rich
+CENP-B_dimeris       PF09026.9  sp|Q29RV1|PDIA4_BOVIN -               0.34   11.2  14.5       1.3    9.4  14.5   1.9   1   0   0   1   1   1   0 Centromere protein B dimerisation domain
+LAT                  PF15234.5  sp|Q29RV1|PDIA4_BOVIN -                8.1    6.0  12.1        77    2.8   0.0   3.2   3   0   0   3   3   3   0 Linker for activation of T-cells
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q29RV1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q29RV1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q29RV1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:08:14 2019
+# [ok]

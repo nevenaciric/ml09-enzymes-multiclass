@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LacAB_rpiB           PF02502.17 sp|Q8E4R5|LACA1_STRA3 -            1.8e-37  128.4   0.6     2e-37  128.2   0.6   1.0   1   0   0   1   1   1   1 Ribose/Galactose Isomerase
+CTP_transf_3         PF02348.18 sp|Q8E4R5|LACA1_STRA3 -               0.08   12.8   0.0     0.087   12.6   0.0   1.1   1   0   0   1   1   1   0 Cytidylyltransferase
+DUF1188              PF06690.10 sp|Q8E4R5|LACA1_STRA3 -               0.13   11.7   1.8       1.1    8.7   1.1   1.9   1   1   1   2   2   2   0 Protein of unknown function (DUF1188)
+DUF2268              PF10026.8  sp|Q8E4R5|LACA1_STRA3 -               0.14   11.6   0.0      0.14   11.6   0.0   1.3   1   1   0   1   1   1   0 Predicted Zn-dependent protease (DUF2268)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8E4R5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8E4R5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8E4R5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:30:09 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TruD                 PF01142.17 sp|Q9H0K6|PUS7L_HUMAN -            2.7e-74  250.4   0.0   3.6e-70  236.8   0.0   2.2   2   0   0   2   2   2   2 tRNA pseudouridine synthase D (TruD)
+R3H                  PF01424.21 sp|Q9H0K6|PUS7L_HUMAN -              0.023   14.6   0.0       0.1   12.5   0.0   2.1   1   0   0   1   1   1   0 R3H domain
+dTDP_sugar_isom      PF00908.16 sp|Q9H0K6|PUS7L_HUMAN -              0.054   13.1   0.1      0.11   12.0   0.1   1.4   1   0   0   1   1   1   0 dTDP-4-dehydrorhamnose 3,5-epimerase
+MCR_beta_N           PF02783.14 sp|Q9H0K6|PUS7L_HUMAN -               0.12   11.9   0.5      0.25   10.9   0.5   1.6   1   0   0   1   1   1   0 Methyl-coenzyme M reductase beta subunit, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9H0K6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9H0K6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9H0K6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:36:47 2019
+# [ok]

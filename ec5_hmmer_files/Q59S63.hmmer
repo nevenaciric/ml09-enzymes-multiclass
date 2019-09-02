@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PseudoU_synth_1      PF01416.19 sp|Q59S63|PUS1_CANAL -            5.5e-14   52.4   2.4   1.8e-11   44.3   0.0   3.2   4   0   0   4   4   4   2 tRNA pseudouridine synthase
+Mucin                PF01456.16 sp|Q59S63|PUS1_CANAL -                1.1    9.1  14.1       2.6    7.9  14.1   1.6   1   0   0   1   1   1   0 Mucin-like glycoprotein
+SSP160               PF06933.10 sp|Q59S63|PUS1_CANAL -                2.7    6.0   9.7       3.9    5.4   9.7   1.1   1   0   0   1   1   1   0 Special lobe-specific silk protein SSP160
+DUF3439              PF11921.7  sp|Q59S63|PUS1_CANAL -                3.6    7.5   8.8       7.6    6.4   8.8   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF3439)
+Pex14_N              PF04695.12 sp|Q59S63|PUS1_CANAL -                  4    8.0  19.7      0.23   12.0   3.0   3.3   3   0   0   3   3   3   0 Peroxisomal membrane anchor protein (Pex14p) conserved region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q59S63.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q59S63.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q59S63.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:17:14 2019
+# [ok]

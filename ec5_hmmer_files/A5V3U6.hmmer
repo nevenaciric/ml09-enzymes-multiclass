@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trigger_N            PF05697.12 sp|A5V3U6|TIG_SPHWW  -            4.4e-37  127.5   4.3   4.7e-37  127.4   0.4   3.0   4   0   0   4   4   4   1 Bacterial trigger factor protein (TF)
+Trigger_C            PF05698.13 sp|A5V3U6|TIG_SPHWW  -            2.8e-35  121.6   1.7   2.8e-35  121.6   1.7   3.0   3   0   0   3   3   3   1 Bacterial trigger factor protein (TF) C-terminus
+FKBP_C               PF00254.27 sp|A5V3U6|TIG_SPHWW  -            6.2e-14   52.0   0.1   1.6e-13   50.7   0.1   1.7   1   0   0   1   1   1   1 FKBP-type peptidyl-prolyl cis-trans isomerase
+ADSL_C               PF10397.8  sp|A5V3U6|TIG_SPHWW  -              0.094   13.2   0.9      0.38   11.2   0.9   2.1   1   1   0   1   1   1   0 Adenylosuccinate lyase C-terminus
+SurA_N_2             PF13623.5  sp|A5V3U6|TIG_SPHWW  -               0.44   10.3   5.1      0.17   11.7   1.8   2.0   2   0   0   2   2   2   0 SurA N-terminal domain
+SurA_N_3             PF13624.5  sp|A5V3U6|TIG_SPHWW  -                1.9    8.2  13.0      0.19   11.4   3.0   3.7   4   1   1   5   5   5   0 SurA N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A5V3U6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A5V3U6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A5V3U6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:23:23 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|B0U3A9|HIS4_XYLFM -            4.5e-66  222.5   0.3   5.2e-66  222.3   0.3   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Trp_syntA            PF00290.19 sp|B0U3A9|HIS4_XYLFM -            0.00031   19.6   0.4    0.0007   18.4   0.0   1.7   2   0   0   2   2   2   1 Tryptophan synthase alpha chain
+FMN_dh               PF01070.17 sp|B0U3A9|HIS4_XYLFM -             0.0067   15.4   9.3      0.18   10.7   1.4   2.2   2   0   0   2   2   2   2 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|B0U3A9|HIS4_XYLFM -              0.011   14.6   3.6     0.024   13.5   0.2   2.0   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+Glu_synthase         PF01645.16 sp|B0U3A9|HIS4_XYLFM -               0.03   13.4   2.7      0.22   10.5   0.2   2.1   2   0   0   2   2   2   0 Conserved region in glutamate synthase
+G3P_antiterm         PF04309.11 sp|B0U3A9|HIS4_XYLFM -              0.036   13.4   0.0     0.061   12.6   0.0   1.4   1   0   0   1   1   1   0 Glycerol-3-phosphate responsive antiterminator
+DHO_dh               PF01180.20 sp|B0U3A9|HIS4_XYLFM -               0.16   11.0   0.3      0.41    9.7   0.1   1.7   2   0   0   2   2   2   0 Dihydroorotate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B0U3A9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B0U3A9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B0U3A9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:31:37 2019
+# [ok]

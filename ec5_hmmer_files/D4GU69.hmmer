@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+dTDP_sugar_isom      PF00908.16 sp|D4GU69|AGL13_HALVD -            7.9e-17   61.3   0.0     1e-16   61.0   0.0   1.0   1   0   0   1   1   1   1 dTDP-4-dehydrorhamnose 3,5-epimerase
+FdtA                 PF05523.10 sp|D4GU69|AGL13_HALVD -             0.0001   21.9   0.0   0.00015   21.4   0.0   1.2   1   0   0   1   1   1   1 WxcM-like, C-terminal
+Cupin_2              PF07883.10 sp|D4GU69|AGL13_HALVD -              0.015   14.9   0.3      0.18   11.4   0.3   2.1   1   1   0   1   1   1   0 Cupin domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/D4GU69.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/D4GU69.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/D4GU69.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:48:11 2019
+# [ok]

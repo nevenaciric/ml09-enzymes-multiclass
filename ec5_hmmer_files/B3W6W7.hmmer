@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRAI                 PF00697.21 sp|B3W6W7|TRPF_LACCB -            2.3e-56  190.6   0.5   2.6e-56  190.4   0.5   1.0   1   0   0   1   1   1   1 N-(5'phosphoribosyl)anthranilate (PRA) isomerase
+BHD_1                PF10403.8  sp|B3W6W7|TRPF_LACCB -               0.14   11.9   0.0      0.33   10.7   0.0   1.6   1   0   0   1   1   1   0 Rad4 beta-hairpin domain 1
+Soyouz_module        PF14313.5  sp|B3W6W7|TRPF_LACCB -               0.33   10.7   1.6      0.82    9.4   0.1   2.1   2   0   0   2   2   2   0 N-terminal region of Paramyxovirinae phosphoprotein (P)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B3W6W7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B3W6W7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B3W6W7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:36:29 2019
+# [ok]

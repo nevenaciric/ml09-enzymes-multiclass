@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IF-2B                PF01008.16 sp|O57947|R15PI_PYRHO -            6.6e-93  310.9   0.6   7.6e-93  310.7   0.6   1.0   1   0   0   1   1   1   1 Initiation factor 2 subunit family
+BtrH_N               PF14399.5  sp|O57947|R15PI_PYRHO -             0.0077   16.4   0.2      0.74   10.0   0.0   2.4   1   1   0   2   2   2   2 Butirosin biosynthesis protein H, N-terminal
+DUF150_C             PF17384.1  sp|O57947|R15PI_PYRHO -              0.039   14.0   0.1        19    5.4   0.0   3.4   3   0   0   3   3   3   0 RimP C-terminal SH3 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O57947.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O57947.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O57947.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:50:15 2019
+# [ok]

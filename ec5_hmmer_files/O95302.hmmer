@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FKBP_C               PF00254.27 sp|O95302|FKBP9_HUMAN -             1e-113  371.8   0.0   1.2e-27   95.9   0.0   4.9   5   0   0   5   5   5   4 FKBP-type peptidyl-prolyl cis-trans isomerase
+EF-hand_1            PF00036.31 sp|O95302|FKBP9_HUMAN -            3.5e-09   35.5   4.9   0.00036   19.8   0.1   2.9   3   0   0   3   3   3   2 EF hand
+EF-hand_6            PF13405.5  sp|O95302|FKBP9_HUMAN -            2.9e-06   26.7   0.3     0.065   13.1   0.1   2.9   2   0   0   2   2   2   2 EF-hand domain
+EF-hand_7            PF13499.5  sp|O95302|FKBP9_HUMAN -            7.8e-06   26.2   0.4   8.5e-05   22.9   0.5   2.3   1   1   0   1   1   1   1 EF-hand domain pair
+EF-hand_5            PF13202.5  sp|O95302|FKBP9_HUMAN -            0.00018   20.8   8.5    0.0036   16.7   0.0   3.0   3   0   0   3   3   3   2 EF hand
+EF-hand_8            PF13833.5  sp|O95302|FKBP9_HUMAN -            0.00029   20.4   0.1      0.44   10.3   0.0   2.5   2   0   0   2   2   2   2 EF-hand domain pair
+DUF2895              PF11444.7  sp|O95302|FKBP9_HUMAN -              0.018   14.3   0.0       5.8    6.1   0.0   2.7   3   0   0   3   3   3   0 Protein of unknown function (DUF2895)
+DUF3047              PF11249.7  sp|O95302|FKBP9_HUMAN -               0.17   11.2   0.0       2.7    7.3   0.0   2.3   3   0   0   3   3   3   0 Protein of unknown function (DUF3047)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O95302.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O95302.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O95302.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:51:14 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_topoisoIV        PF00521.19 sp|P22446|GYRA_MYCPN -           1.2e-152  508.6   0.1  1.2e-152  508.6   0.1   1.4   2   0   0   2   2   2   1 DNA gyrase/topoisomerase IV, subunit A
+DNA_gyraseA_C        PF03989.12 sp|P22446|GYRA_MYCPN -            9.3e-60  197.8  11.5   1.1e-12   47.1   0.1   6.4   6   0   0   6   6   6   6 DNA gyrase C-terminal domain, beta-propeller
+Sec2p                PF06428.10 sp|P22446|GYRA_MYCPN -               0.11   12.4   2.9       0.4   10.6   2.9   2.0   1   0   0   1   1   1   0 GDP/GTP exchange factor Sec2p
+3-HAO                PF06052.11 sp|P22446|GYRA_MYCPN -               0.13   11.8   0.1      0.32   10.5   0.1   1.6   1   0   0   1   1   1   0 3-hydroxyanthranilic acid dioxygenase
+SlyX                 PF04102.11 sp|P22446|GYRA_MYCPN -                1.7    9.2   9.0        10    6.7   3.0   3.1   2   0   0   2   2   2   0 SlyX
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P22446.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P22446.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P22446.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:54:08 2019
+# [ok]

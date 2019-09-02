@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_Phos_1           PF00300.21 sp|B5Y7Q7|GPMA_COPPD -            4.4e-36  124.3   0.0   9.6e-33  113.4   0.0   2.0   1   1   0   1   1   1   1 Histidine phosphatase superfamily (branch 1)
+Linker_histone       PF00538.18 sp|B5Y7Q7|GPMA_COPPD -              0.037   14.3   0.6      0.29   11.4   0.2   2.1   2   0   0   2   2   2   0 linker histone H1 and H5 family
+YqbF                 PF14553.5  sp|B5Y7Q7|GPMA_COPPD -               0.18   11.6   0.9      0.28   11.0   0.2   1.7   2   0   0   2   2   2   0 YqbF, hypothetical protein domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B5Y7Q7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B5Y7Q7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B5Y7Q7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:39:10 2019
+# [ok]

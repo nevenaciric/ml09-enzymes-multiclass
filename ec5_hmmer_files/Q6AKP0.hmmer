@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PseudoU_synth_1      PF01416.19 sp|Q6AKP0|TRUA2_DESPS -            3.1e-24   85.4   0.0   1.5e-14   54.2   0.0   2.1   2   0   0   2   2   2   2 tRNA pseudouridine synthase
+DUF2344              PF10105.8  sp|Q6AKP0|TRUA2_DESPS -             0.0024   17.7   0.0    0.0035   17.1   0.0   1.2   1   0   0   1   1   1   1 Uncharacterized protein conserved in bacteria (DUF2344)
+Clp_N                PF02861.19 sp|Q6AKP0|TRUA2_DESPS -               0.13   12.3   0.0      0.25   11.4   0.0   1.5   1   0   0   1   1   1   0 Clp amino terminal domain, pathogenicity island component
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q6AKP0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q6AKP0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q6AKP0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:22:14 2019
+# [ok]

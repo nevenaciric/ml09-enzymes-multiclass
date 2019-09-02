@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_isomerase        PF00160.20 sp|P0CP91|PPIL2_CRYNB -            2.9e-49  167.3   0.0   5.2e-49  166.4   0.0   1.4   1   0   0   1   1   1   1 Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+Rtf2                 PF04641.11 sp|P0CP91|PPIL2_CRYNB -              0.012   14.9   6.4      0.84    8.8   1.3   3.7   3   1   0   3   3   3   0 Rtf2 RING-finger
+zf-NOSIP             PF15906.4  sp|P0CP91|PPIL2_CRYNB -              0.012   15.6   0.2     0.038   14.0   0.0   1.9   2   0   0   2   2   2   0 Zinc-finger of nitric oxide synthase-interacting protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P0CP91.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P0CP91.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P0CP91.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:53:00 2019
+# [ok]

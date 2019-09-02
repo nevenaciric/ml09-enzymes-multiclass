@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rib_5-P_isom_A       PF06026.13 sp|Q3T186|RPIA_BOVIN -              3e-65  218.9   0.0     4e-65  218.5   0.0   1.1   1   0   0   1   1   1   1 Ribose 5-phosphate isomerase A (phosphoriboisomerase A)
+Sugar-bind           PF04198.12 sp|Q3T186|RPIA_BOVIN -            8.2e-05   21.8   0.1   0.00011   21.3   0.1   1.2   1   0   0   1   1   1   1 Putative sugar-binding domain
+DeoRC                PF00455.21 sp|Q3T186|RPIA_BOVIN -            0.00075   19.4   0.1     0.035   13.9   0.1   2.2   1   1   1   2   2   2   2 DeoR C terminal sensor domain
+Peptidase_C93        PF06035.10 sp|Q3T186|RPIA_BOVIN -               0.18   11.5   0.0      0.29   10.8   0.0   1.3   1   0   0   1   1   1   0 Bacterial transglutaminase-like cysteine proteinase BTLCP
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q3T186.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q3T186.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q3T186.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:13:02 2019
+# [ok]

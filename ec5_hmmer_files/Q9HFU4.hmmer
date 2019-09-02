@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PMI_typeI            PF01238.20 sp|Q9HFU4|MPI_CRYNJ  -           2.7e-115  385.4   0.0  3.6e-115  385.0   0.0   1.2   1   0   0   1   1   1   1 Phosphomannose isomerase type I
+Cupin_2              PF07883.10 sp|Q9HFU4|MPI_CRYNJ  -             0.0013   18.3   0.0      0.45   10.2   0.1   2.3   2   0   0   2   2   2   2 Cupin domain
+Cupin_3              PF05899.11 sp|Q9HFU4|MPI_CRYNJ  -             0.0083   15.7   0.1     0.018   14.6   0.1   1.6   1   0   0   1   1   1   1 Protein of unknown function (DUF861)
+AraC_binding         PF02311.18 sp|Q9HFU4|MPI_CRYNJ  -              0.083   12.7   0.0       5.6    6.8   0.0   2.9   3   0   0   3   3   3   0 AraC-like ligand binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9HFU4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9HFU4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9HFU4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:36:49 2019
+# [ok]

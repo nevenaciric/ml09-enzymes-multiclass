@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Ribul_P_3_epim       PF00834.18 sp|O67098|RPE_AQUAE  -            3.5e-75  251.7   0.0     4e-75  251.5   0.0   1.0   1   0   0   1   1   1   1 Ribulose-phosphate 3 epimerase family
+PcrB                 PF01884.16 sp|O67098|RPE_AQUAE  -            3.2e-05   23.4   0.8     0.021   14.2   0.6   2.3   1   1   1   2   2   2   2 PcrB family
+OMPdecase            PF00215.23 sp|O67098|RPE_AQUAE  -            0.00024   20.7   0.1   0.00046   19.8   0.1   1.5   2   0   0   2   2   2   1 Orotidine 5'-phosphate decarboxylase / HUMPS family
+TMP-TENI             PF02581.16 sp|O67098|RPE_AQUAE  -            0.00075   18.8   0.0    0.0011   18.2   0.0   1.6   1   1   0   1   1   1   1 Thiamine monophosphate synthase
+QRPTase_C            PF01729.18 sp|O67098|RPE_AQUAE  -              0.002   17.8   0.1    0.0086   15.8   0.0   1.9   1   1   1   2   2   2   1 Quinolinate phosphoribosyl transferase, C-terminal domain
+His_biosynth         PF00977.20 sp|O67098|RPE_AQUAE  -             0.0049   16.2   0.2     0.012   15.0   0.1   1.6   2   0   0   2   2   2   1 Histidine biosynthesis protein
+Trp_syntA            PF00290.19 sp|O67098|RPE_AQUAE  -              0.023   13.4   0.1     0.037   12.8   0.1   1.4   1   1   0   1   1   1   0 Tryptophan synthase alpha chain
+FMN_dh               PF01070.17 sp|O67098|RPE_AQUAE  -              0.054   12.4   0.0     0.071   12.0   0.0   1.2   1   0   0   1   1   1   0 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|O67098|RPE_AQUAE  -              0.064   12.2   0.1       0.3    9.9   0.0   1.9   2   1   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+IGPS                 PF00218.20 sp|O67098|RPE_AQUAE  -              0.081   12.0   0.1       1.6    7.7   0.0   2.1   2   0   0   2   2   2   0 Indole-3-glycerol phosphate synthase
+TFX_C                PF14601.5  sp|O67098|RPE_AQUAE  -                0.1   12.5   0.1      0.73    9.7   0.0   2.3   2   0   0   2   2   2   0 DNA_binding protein, TFX, C-term
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O67098.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O67098.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O67098.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:50:34 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|O68006|BACA_BACLI -                  0 1631.4   0.0  4.1e-101  338.5   0.0   6.1   5   1   0   5   5   5   5 AMP-binding enzyme
+Condensation         PF00668.19 sp|O68006|BACA_BACLI -                  0 1619.6  48.7  1.2e-128  429.5   4.4   5.2   5   0   0   5   5   5   5 Condensation domain
+PP-binding           PF00550.24 sp|O68006|BACA_BACLI -            1.4e-68  227.1   0.0   7.1e-13   48.6   0.0   5.8   5   0   0   5   5   5   5 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|O68006|BACA_BACLI -            2.6e-62  207.6   0.0   1.5e-12   48.2   0.0   5.9   5   0   0   5   5   5   5 AMP-binding enzyme C-terminal domain
+Nrap_D2              PF17403.1  sp|O68006|BACA_BACLI -              0.065   12.9   0.7       4.8    6.8   0.2   3.0   2   0   0   2   2   2   0 Nrap protein PAP/OAS-like domain
+DUF1223              PF06764.10 sp|O68006|BACA_BACLI -              0.084   12.8   0.3        18    5.2   0.1   2.4   2   0   0   2   2   2   0 Protein of unknown function (DUF1223)
+V-ATPase_C           PF03223.14 sp|O68006|BACA_BACLI -               0.11   11.7   4.4         4    6.6   0.6   2.6   2   0   0   2   2   2   0 V-ATPase subunit C
+DUF5386              PF17360.1  sp|O68006|BACA_BACLI -               0.13   12.0   0.1        31    4.3   0.0   3.6   4   0   0   4   4   4   0 Family of unknown function (DUF5386)
+DUF1398              PF07166.10 sp|O68006|BACA_BACLI -               0.41   10.6   2.6   1.1e+02    2.8   0.1   5.3   6   0   0   6   6   6   0 Protein of unknown function (DUF1398)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O68006.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O68006.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O68006.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:50:41 2019
+# [ok]

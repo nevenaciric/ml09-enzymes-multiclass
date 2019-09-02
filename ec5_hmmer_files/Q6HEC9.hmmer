@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RuBisCO_large        PF00016.19 sp|Q6HEC9|MTNW_BACHK -            3.2e-36  124.9   0.0   3.5e-35  121.5   0.0   2.0   1   1   0   1   1   1   1 Ribulose bisphosphate carboxylase large chain, catalytic domain
+RuBisCO_large_N      PF02788.15 sp|Q6HEC9|MTNW_BACHK -            4.8e-05   23.4   0.0    0.0001   22.4   0.0   1.5   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase large chain, N-terminal domain
+ALAD                 PF00490.20 sp|Q6HEC9|MTNW_BACHK -              0.018   14.1   0.0     0.029   13.4   0.0   1.2   1   0   0   1   1   1   0 Delta-aminolevulinic acid dehydratase
+DeoC                 PF01791.8  sp|Q6HEC9|MTNW_BACHK -              0.024   14.2   0.0     0.046   13.2   0.0   1.4   1   0   0   1   1   1   0 DeoC/LacD family aldolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q6HEC9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q6HEC9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q6HEC9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:23:34 2019
+# [ok]

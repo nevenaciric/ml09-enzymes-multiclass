@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Fucose_iso_N1        PF07881.11 sp|B5RDV4|FUCI_SALG2 -            5.8e-84  280.0   0.2   1.1e-83  279.0   0.2   1.5   1   0   0   1   1   1   1 L-fucose isomerase, first N-terminal domain
+Fucose_iso_N2        PF07882.11 sp|B5RDV4|FUCI_SALG2 -            1.4e-79  265.8   1.2   1.9e-79  265.3   1.2   1.2   1   0   0   1   1   1   1 L-fucose isomerase, second N-terminal domain
+Fucose_iso_C         PF02952.16 sp|B5RDV4|FUCI_SALG2 -            9.5e-54  181.0   0.0   1.6e-53  180.2   0.0   1.4   1   0   0   1   1   1   1 L-fucose isomerase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B5RDV4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B5RDV4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B5RDV4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:38:47 2019
+# [ok]

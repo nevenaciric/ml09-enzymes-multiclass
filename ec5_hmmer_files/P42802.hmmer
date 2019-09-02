@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_binding_5        PF07994.11 sp|P42802|INO1_CITPA -           1.3e-141  471.6   0.0  1.5e-141  471.4   0.0   1.0   1   0   0   1   1   1   1 Myo-inositol-1-phosphate synthase
+Inos-1-P_synth       PF01658.16 sp|P42802|INO1_CITPA -            5.1e-37  126.4   0.6   8.3e-37  125.7   0.1   1.7   2   0   0   2   2   2   1 Myo-inositol-1-phosphate synthase
+PALB2_WD40           PF16756.4  sp|P42802|INO1_CITPA -              0.014   14.3   0.0     0.018   13.9   0.0   1.1   1   0   0   1   1   1   0 Partner and localizer of BRCA2 WD40 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P42802.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P42802.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P42802.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:56:02 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trigger_N            PF05697.12 sp|Q9F314|TIG_STRCO  -            1.5e-43  148.4   3.0   1.5e-43  148.4   3.0   2.7   3   1   0   3   3   3   1 Bacterial trigger factor protein (TF)
+Trigger_C            PF05698.13 sp|Q9F314|TIG_STRCO  -            3.5e-40  137.6  17.4   2.8e-39  134.6  12.3   2.8   3   0   0   3   3   3   2 Bacterial trigger factor protein (TF) C-terminus
+FKBP_C               PF00254.27 sp|Q9F314|TIG_STRCO  -            3.3e-06   27.2   0.1     9e-06   25.8   0.1   1.8   1   0   0   1   1   1   1 FKBP-type peptidyl-prolyl cis-trans isomerase
+BAR                  PF03114.17 sp|Q9F314|TIG_STRCO  -            8.4e-05   22.2   3.7   0.00023   20.8   3.7   1.7   1   0   0   1   1   1   1 BAR domain
+Ribosomal_S24e       PF01282.18 sp|Q9F314|TIG_STRCO  -              0.073   13.0   0.4        11    6.0   0.0   2.8   2   0   0   2   2   2   0 Ribosomal protein S24e
+ING                  PF12998.6  sp|Q9F314|TIG_STRCO  -               0.95   10.0   8.7       2.4    8.6   6.4   2.6   2   1   0   2   2   2   0 Inhibitor of growth proteins N-terminal histone-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9F314.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9F314.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9F314.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:36:35 2019
+# [ok]

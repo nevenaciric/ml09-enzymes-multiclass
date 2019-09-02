@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q1GNC2|HIS4_SPHAL -            8.6e-73  244.5   3.7   9.7e-73  244.3   3.7   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q1GNC2|HIS4_SPHAL -            1.6e-05   24.1   1.1     0.075   12.0   0.0   2.3   2   1   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|Q1GNC2|HIS4_SPHAL -              0.002   17.5   7.6      0.19   11.0   1.7   2.1   2   0   0   2   2   2   2 Nitronate monooxygenase
+Indigoidine_A        PF04227.11 sp|Q1GNC2|HIS4_SPHAL -               0.14   11.4   1.8      0.24   10.6   1.8   1.5   1   1   0   1   1   1   0 Indigoidine synthase A like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q1GNC2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q1GNC2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q1GNC2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:06:13 2019
+# [ok]

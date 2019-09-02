@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rib_5-P_isom_A       PF06026.13 sp|P47968|RPIA_MOUSE -            1.3e-65  220.1   0.0   1.6e-65  219.8   0.0   1.1   1   0   0   1   1   1   1 Ribose 5-phosphate isomerase A (phosphoriboisomerase A)
+Sugar-bind           PF04198.12 sp|P47968|RPIA_MOUSE -             0.0044   16.1   0.0     0.008   15.2   0.0   1.5   1   0   0   1   1   1   1 Putative sugar-binding domain
+DeoRC                PF00455.21 sp|P47968|RPIA_MOUSE -              0.034   14.0   0.1      0.25   11.2   0.1   2.0   1   1   0   1   1   1   0 DeoR C terminal sensor domain
+SpoVS                PF04232.11 sp|P47968|RPIA_MOUSE -               0.06   13.0   0.1      0.58    9.8   0.1   2.1   2   0   0   2   2   2   0 Stage V sporulation protein S (SpoVS)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P47968.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P47968.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P47968.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:56:41 2019
+# [ok]

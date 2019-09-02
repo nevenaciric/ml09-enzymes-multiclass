@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_topoisoIV        PF00521.19 sp|P72065|GYRA_MYCXE -              3e-53  181.2   0.5   4.5e-27   94.9   0.0   2.1   2   0   0   2   2   2   2 DNA gyrase/topoisomerase IV, subunit A
+Intein_splicing      PF14890.5  sp|P72065|GYRA_MYCXE -              1e-09   38.0   0.0   3.8e-06   26.4   0.0   2.1   1   1   1   2   2   2   2 Intein splicing domain
+PAS_6                PF08348.10 sp|P72065|GYRA_MYCXE -               0.18   11.6   0.0      0.27   11.0   0.0   1.3   1   0   0   1   1   1   0 YheO-like PAS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P72065.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P72065.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P72065.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:59:15 2019
+# [ok]

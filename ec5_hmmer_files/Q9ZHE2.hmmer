@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q9ZHE2|HIS4_BUCAP -            8.6e-69  231.4   0.6   9.6e-69  231.2   0.6   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q9ZHE2|HIS4_BUCAP -            0.00013   21.1   0.1      0.22   10.5   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+IGPS                 PF00218.20 sp|Q9ZHE2|HIS4_BUCAP -            0.00092   18.3   0.1       0.4    9.7   0.0   2.2   2   0   0   2   2   2   2 Indole-3-glycerol phosphate synthase
+Trp_syntA            PF00290.19 sp|Q9ZHE2|HIS4_BUCAP -             0.0014   17.4   0.1     0.003   16.3   0.0   1.5   2   0   0   2   2   2   1 Tryptophan synthase alpha chain
+FMN_dh               PF01070.17 sp|Q9ZHE2|HIS4_BUCAP -             0.0068   15.4   0.0      0.55    9.1   0.0   2.2   2   1   0   2   2   2   2 FMN-dependent dehydrogenase
+G3P_antiterm         PF04309.11 sp|Q9ZHE2|HIS4_BUCAP -              0.029   13.7   0.5      0.18   11.1   0.1   2.6   2   1   2   4   4   4   0 Glycerol-3-phosphate responsive antiterminator
+Radical_SAM          PF04055.20 sp|Q9ZHE2|HIS4_BUCAP -              0.049   13.9   0.2      0.61   10.3   0.2   2.2   1   1   1   2   2   2   0 Radical SAM superfamily
+NMO                  PF03060.14 sp|Q9ZHE2|HIS4_BUCAP -              0.061   12.6   0.0      0.18   11.1   0.0   1.7   2   0   0   2   2   2   0 Nitronate monooxygenase
+IMPDH                PF00478.24 sp|Q9ZHE2|HIS4_BUCAP -              0.062   12.2   0.0      0.29   10.0   0.0   1.8   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9ZHE2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9ZHE2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9ZHE2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:40:24 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pro_isomerase        PF00160.20 sp|Q2U256|PPIL4_ASPOR -              5e-35  121.0   0.0   7.9e-35  120.4   0.0   1.3   1   0   0   1   1   1   1 Cyclophilin type peptidyl-prolyl cis-trans isomerase/CLD
+RRM_1                PF00076.21 sp|Q2U256|PPIL4_ASPOR -            2.5e-15   55.9   0.0     5e-15   55.0   0.0   1.5   1   0   0   1   1   1   1 RNA recognition motif. (a.k.a. RRM, RBD, or RNP domain)
+Nup35_RRM_2          PF14605.5  sp|Q2U256|PPIL4_ASPOR -              0.095   12.6   0.0      0.21   11.5   0.0   1.5   1   0   0   1   1   1   0 Nup53/35/40-type RNA recognition motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q2U256.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q2U256.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q2U256.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:10:09 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rib_5-P_isom_A       PF06026.13 sp|Q1GX07|RPIA_SPHAL -            5.9e-59  198.4   0.0   7.4e-59  198.1   0.0   1.1   1   0   0   1   1   1   1 Ribose 5-phosphate isomerase A (phosphoriboisomerase A)
+DeoRC                PF00455.21 sp|Q1GX07|RPIA_SPHAL -            1.9e-05   24.5   0.2    0.0019   18.1   0.2   2.3   2   0   0   2   2   2   2 DeoR C terminal sensor domain
+NACHT                PF05729.11 sp|Q1GX07|RPIA_SPHAL -              0.034   14.0   0.0     0.063   13.1   0.0   1.4   2   0   0   2   2   2   0 NACHT domain
+Flavoprotein         PF02441.18 sp|Q1GX07|RPIA_SPHAL -              0.057   13.1   0.4     0.093   12.4   0.4   1.4   1   1   0   1   1   1   0 Flavoprotein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q1GX07.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q1GX07.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q1GX07.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:06:16 2019
+# [ok]

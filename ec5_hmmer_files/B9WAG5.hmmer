@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IF-2B                PF01008.16 sp|B9WAG5|MTNA_CANDC -            3.1e-60  203.7   2.8   2.3e-42  145.1   0.2   2.9   2   1   0   2   2   2   2 Initiation factor 2 subunit family
+DUF3854              PF12965.6  sp|B9WAG5|MTNA_CANDC -             0.0023   17.8   0.0    0.0071   16.2   0.0   1.9   1   0   0   1   1   1   1 Domain of unknown function (DUF3854)
+Init_tRNA_PT         PF04179.11 sp|B9WAG5|MTNA_CANDC -              0.018   15.3   0.1      0.55   10.5   0.1   2.6   2   0   0   2   2   2   0 Rit1 DUSP-like domain
+HSR                  PF03172.12 sp|B9WAG5|MTNA_CANDC -              0.038   14.1   0.1     0.089   12.9   0.1   1.6   1   0   0   1   1   1   0 HSR domain
+FPP                  PF05911.10 sp|B9WAG5|MTNA_CANDC -              0.089   10.9   2.0      0.16   10.1   0.1   1.8   2   0   0   2   2   2   0 Filament-like plant protein, long coiled-coil
+CUB_2                PF02408.19 sp|B9WAG5|MTNA_CANDC -               0.17   11.6   3.6      0.12   12.1   1.6   1.8   2   0   0   2   2   2   0 CUB-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B9WAG5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B9WAG5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B9WAG5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:44:53 2019
+# [ok]

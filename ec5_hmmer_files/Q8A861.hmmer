@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MR_MLE_C             PF13378.5  sp|Q8A861|AEEP_BACTN -            1.5e-34  119.5   0.0   2.4e-34  118.8   0.0   1.2   1   0   0   1   1   1   1 Enolase C-terminal domain-like
+MR_MLE_N             PF02746.15 sp|Q8A861|AEEP_BACTN -            4.6e-10   39.6   0.0   7.8e-10   38.9   0.0   1.4   1   0   0   1   1   1   1 Mandelate racemase / muconate lactonizing enzyme, N-terminal domain
+TAT_signal           PF10518.8  sp|Q8A861|AEEP_BACTN -               0.01   15.5   0.1     0.028   14.2   0.1   1.8   1   0   0   1   1   1   0 TAT (twin-arginine translocation) pathway signal sequence
+PEP_mutase           PF13714.5  sp|Q8A861|AEEP_BACTN -              0.031   13.6   0.0      0.12   11.7   0.0   2.0   2   0   0   2   2   2   0 Phosphoenolpyruvate phosphomutase
+UCR_Fe-S_N           PF10399.8  sp|Q8A861|AEEP_BACTN -              0.068   12.4   0.1      0.14   11.4   0.1   1.5   1   0   0   1   1   1   0 Ubiquitinol-cytochrome C reductase Fe-S subunit TAT signal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8A861.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8A861.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8A861.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:29:10 2019
+# [ok]

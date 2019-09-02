@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TIM                  PF00121.17 sp|P04828|TPIS_EMENI -            5.1e-92  307.5   1.9   5.8e-92  307.3   1.9   1.0   1   0   0   1   1   1   1 Triosephosphate isomerase
+DeoRC                PF00455.21 sp|P04828|TPIS_EMENI -              0.021   14.7   0.5       4.5    7.1   0.0   2.8   2   1   1   3   3   3   0 DeoR C terminal sensor domain
+CutC                 PF03932.13 sp|P04828|TPIS_EMENI -              0.044   13.1   0.0       0.1   12.0   0.0   1.4   1   1   0   1   1   1   0 CutC family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P04828.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P04828.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P04828.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:51:24 2019
+# [ok]

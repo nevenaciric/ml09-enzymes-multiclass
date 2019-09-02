@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rib_5-P_isom_A       PF06026.13 sp|A1A0A9|RPIA_BIFAA -            8.1e-64  214.3   0.6     1e-63  214.0   0.6   1.1   1   0   0   1   1   1   1 Ribose 5-phosphate isomerase A (phosphoriboisomerase A)
+DeoRC                PF00455.21 sp|A1A0A9|RPIA_BIFAA -            0.00062   19.6   0.2    0.0057   16.5   0.0   2.1   1   1   0   2   2   2   1 DeoR C terminal sensor domain
+Sugar-bind           PF04198.12 sp|A1A0A9|RPIA_BIFAA -             0.0028   16.8   0.1     0.099   11.7   0.1   2.2   2   0   0   2   2   2   1 Putative sugar-binding domain
+Nepo_coat_C          PF03688.13 sp|A1A0A9|RPIA_BIFAA -               0.13   12.0   0.0      0.18   11.6   0.0   1.2   1   0   0   1   1   1   0 Nepovirus coat protein, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A1A0A9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A1A0A9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A1A0A9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:16:43 2019
+# [ok]

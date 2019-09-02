@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IF-2B                PF01008.16 sp|A6ULQ4|MTNA_SINMW -            4.1e-62  209.8   0.0   5.1e-62  209.5   0.0   1.1   1   0   0   1   1   1   1 Initiation factor 2 subunit family
+HAP2-GCS1            PF10699.8  sp|A6ULQ4|MTNA_SINMW -              0.024   14.5   0.0     0.045   13.6   0.0   1.4   1   0   0   1   1   1   0 Male gamete fusion factor
+SH3_4                PF06347.12 sp|A6ULQ4|MTNA_SINMW -               0.12   12.1   0.1       7.1    6.5   0.0   2.6   1   1   1   2   2   2   0 Bacterial SH3 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A6ULQ4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A6ULQ4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A6ULQ4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:24:39 2019
+# [ok]

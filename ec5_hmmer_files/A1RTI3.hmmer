@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FMN_dh               PF01070.17 sp|A1RTI3|IDI2_PYRIL -            1.2e-23   83.7   3.0   2.2e-22   79.5   3.0   2.0   1   1   0   1   1   1   1 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|A1RTI3|IDI2_PYRIL -            1.9e-08   33.6   3.0   9.6e-05   21.4   2.2   3.1   1   1   1   2   2   2   2 IMP dehydrogenase / GMP reductase domain
+Glu_synthase         PF01645.16 sp|A1RTI3|IDI2_PYRIL -            2.6e-05   23.5   2.0     9e-05   21.7   1.6   2.0   2   1   0   2   2   2   1 Conserved region in glutamate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A1RTI3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A1RTI3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A1RTI3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:17:43 2019
+# [ok]

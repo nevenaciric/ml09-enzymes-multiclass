@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lipocalin            PF00061.22 sp|O09114|PTGDS_MOUSE -              1e-32  113.2   0.0   1.2e-32  113.0   0.0   1.0   1   0   0   1   1   1   1 Lipocalin / cytosolic fatty-acid binding protein family
+Triabin              PF03973.12 sp|O09114|PTGDS_MOUSE -             0.0021   17.9   0.0    0.0048   16.7   0.0   1.6   1   1   0   1   1   1   1 Triabin
+Viral_helicase1      PF01443.17 sp|O09114|PTGDS_MOUSE -              0.033   13.8   0.1     0.073   12.7   0.0   1.6   1   1   1   2   2   2   0 Viral (Superfamily 1) RNA helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O09114.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O09114.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O09114.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:49:01 2019
+# [ok]

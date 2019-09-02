@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PseudoU_synth_2      PF00849.21 sp|Q9HZ55|RLUB_PSEAE -            2.7e-15   56.8   0.0   6.2e-15   55.6   0.0   1.6   1   1   0   1   1   1   1 RNA pseudouridylate synthase
+S4                   PF01479.24 sp|Q9HZ55|RLUB_PSEAE -            8.1e-10   38.1   0.5     2e-09   36.9   0.5   1.7   1   0   0   1   1   1   1 S4 domain
+Phage_TTP_12         PF16461.4  sp|Q9HZ55|RLUB_PSEAE -               0.15   11.8   0.0      0.25   11.1   0.0   1.3   1   0   0   1   1   1   0 Lambda phage tail tube protein, TTP
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q9HZ55.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q9HZ55.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q9HZ55.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:37:07 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TIM                  PF00121.17 sp|Q5FL49|TPIS_LACAC -              1e-95  319.7   0.0   1.1e-95  319.5   0.0   1.0   1   0   0   1   1   1   1 Triosephosphate isomerase
+AP_endonuc_2         PF01261.23 sp|Q5FL49|TPIS_LACAC -             0.0079   15.6   0.0     0.013   14.9   0.0   1.4   1   1   0   1   1   1   1 Xylose isomerase-like TIM barrel
+DUF2624              PF11116.7  sp|Q5FL49|TPIS_LACAC -             0.0094   16.7   0.3       2.5    8.9   0.0   3.5   4   0   0   4   4   4   1 Protein of unknown function (DUF2624)
+DUF5105              PF17118.4  sp|Q5FL49|TPIS_LACAC -              0.025   14.3   0.0      0.07   12.8   0.1   1.6   2   0   0   2   2   2   0 Domain of unknown function (DUF5105)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q5FL49.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q5FL49.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q5FL49.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:17:41 2019
+# [ok]

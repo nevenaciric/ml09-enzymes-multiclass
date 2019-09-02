@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PseudoU_synth_2      PF00849.21 sp|Q8P8M6|RLUB_XANCP -              5e-17   62.4   0.0     9e-17   61.5   0.0   1.4   1   0   0   1   1   1   1 RNA pseudouridylate synthase
+S4                   PF01479.24 sp|Q8P8M6|RLUB_XANCP -            9.3e-10   38.0   0.2   2.4e-09   36.7   0.2   1.8   1   0   0   1   1   1   1 S4 domain
+S4_2                 PF13275.5  sp|Q8P8M6|RLUB_XANCP -              0.025   14.3   0.1     0.072   12.8   0.0   1.7   2   0   0   2   2   2   0 S4 domain
+PKD                  PF00801.19 sp|Q8P8M6|RLUB_XANCP -              0.086   12.6   0.1       1.1    9.1   0.0   2.4   2   0   0   2   2   2   0 PKD domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8P8M6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8P8M6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8P8M6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:31:51 2019
+# [ok]

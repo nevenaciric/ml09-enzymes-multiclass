@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AP_endonuc_2         PF01261.23 sp|P0CI80|XYLA_BACSU -            6.1e-09   35.5   0.2   2.7e-08   33.4   0.1   1.8   1   1   1   2   2   2   1 Xylose isomerase-like TIM barrel
+Glyco_hydro_125      PF06824.10 sp|P0CI80|XYLA_BACSU -              0.061   12.1   0.0      0.11   11.3   0.0   1.4   1   0   0   1   1   1   0 Metal-independent alpha-mannosidase (GH125)
+Ribosom_S30AE_C      PF16321.4  sp|P0CI80|XYLA_BACSU -               0.19   11.3   2.8      0.13   11.8   0.9   1.7   2   0   0   2   2   2   0 Sigma 54 modulation/S30EA ribosomal protein C terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P0CI80.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P0CI80.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P0CI80.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:52:53 2019
+# [ok]

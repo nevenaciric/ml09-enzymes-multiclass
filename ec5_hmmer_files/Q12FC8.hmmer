@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q12FC8|HIS4_POLSJ -            2.4e-79  265.9   1.5   2.7e-79  265.8   1.5   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q12FC8|HIS4_POLSJ -            1.3e-08   34.2   0.1    0.0013   17.8   0.0   2.1   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|Q12FC8|HIS4_POLSJ -              0.015   14.6   1.6     0.037   13.3   0.2   1.9   2   0   0   2   2   2   0 Nitronate monooxygenase
+IGPS                 PF00218.20 sp|Q12FC8|HIS4_POLSJ -              0.074   12.1   0.1         3    6.8   0.0   2.3   2   1   0   2   2   2   0 Indole-3-glycerol phosphate synthase
+TMP-TENI             PF02581.16 sp|Q12FC8|HIS4_POLSJ -              0.074   12.3   0.4      0.35   10.1   0.1   2.0   2   0   0   2   2   2   0 Thiamine monophosphate synthase
+G3P_antiterm         PF04309.11 sp|Q12FC8|HIS4_POLSJ -                0.2   10.9   0.6        12    5.2   0.1   2.2   2   0   0   2   2   2   0 Glycerol-3-phosphate responsive antiterminator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q12FC8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q12FC8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q12FC8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:04:38 2019
+# [ok]

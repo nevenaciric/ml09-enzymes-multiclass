@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MM_CoA_mutase        PF01642.21 sp|Q23381|MUTA_CAEEL -           9.1e-242  803.0   1.1  1.1e-241  802.7   1.1   1.1   1   0   0   1   1   1   1 Methylmalonyl-CoA mutase
+B12-binding          PF02310.18 sp|Q23381|MUTA_CAEEL -            9.5e-14   51.4   0.1   2.6e-13   49.9   0.1   1.8   1   0   0   1   1   1   1 B12 binding domain
+Gp68                 PF17469.1  sp|Q23381|MUTA_CAEEL -              0.064   13.6   0.8      0.23   11.8   0.5   2.1   2   0   0   2   2   2   0 Phage protein Gp68
+Aldolase             PF01081.18 sp|Q23381|MUTA_CAEEL -              0.087   12.1   0.0      0.26   10.6   0.0   1.7   1   0   0   1   1   1   0 KDPG and KHG aldolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q23381.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q23381.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q23381.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:07:52 2019
+# [ok]

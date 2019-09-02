@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NanE                 PF04131.13 sp|B5XSS5|NANE_KLEP3 -            1.3e-81  272.3   0.0   1.5e-81  272.1   0.0   1.0   1   0   0   1   1   1   1 Putative N-acetylmannosamine-6-phosphate epimerase
+IMPDH                PF00478.24 sp|B5XSS5|NANE_KLEP3 -               0.02   13.8   0.8       1.6    7.6   0.0   2.4   3   0   0   3   3   3   0 IMP dehydrogenase / GMP reductase domain
+DUF4035              PF13227.5  sp|B5XSS5|NANE_KLEP3 -               0.14   11.8   0.0      0.26   11.0   0.0   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF4035)
+ThiG                 PF05690.13 sp|B5XSS5|NANE_KLEP3 -               0.43    9.8   4.9      0.59    9.3   0.3   2.8   3   1   1   4   4   4   0 Thiazole biosynthesis protein ThiG
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B5XSS5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B5XSS5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B5XSS5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:39:00 2019
+# [ok]

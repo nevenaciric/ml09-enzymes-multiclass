@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Tautomerase          PF01361.20 sp|P70994|4OT_BACSU  -            1.4e-23   82.4   0.3   1.5e-23   82.3   0.3   1.0   1   0   0   1   1   1   1 Tautomerase enzyme
+Tautomerase_2        PF14552.5  sp|P70994|4OT_BACSU  -            1.1e-07   31.7   0.1   1.2e-07   31.6   0.1   1.0   1   0   0   1   1   1   1 Tautomerase enzyme
+DUF1904              PF08921.10 sp|P70994|4OT_BACSU  -              0.034   14.4   0.1     0.037   14.2   0.1   1.0   1   0   0   1   1   1   0 Domain of unknown function (DUF1904)
+Cas_Csn2             PF09711.9  sp|P70994|4OT_BACSU  -              0.067   12.7   0.1      0.08   12.5   0.1   1.0   1   0   0   1   1   1   0 CRISPR-associated protein (Cas_Csn2)
+AveC_like            PF17198.3  sp|P70994|4OT_BACSU  -                0.2   11.0   0.0       0.2   11.0   0.0   1.0   1   0   0   1   1   1   0 Spirocyclase AveC-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P70994.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P70994.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P70994.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:59:13 2019
+# [ok]

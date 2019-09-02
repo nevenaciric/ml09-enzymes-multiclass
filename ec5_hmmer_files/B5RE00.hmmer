@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NUDIX                PF00293.27 sp|B5RE00|IDI_SALG2  -              2e-19   69.8   0.0   2.7e-19   69.4   0.0   1.1   1   0   0   1   1   1   1 NUDIX domain
+APOBEC_C             PF05240.13 sp|B5RE00|IDI_SALG2  -              0.063   13.1   0.9      0.12   12.2   0.9   1.4   1   0   0   1   1   1   0 APOBEC-like C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/B5RE00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/B5RE00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/B5RE00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:38:48 2019
+# [ok]

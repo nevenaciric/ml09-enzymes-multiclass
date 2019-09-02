@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_biosynth         PF00977.20 sp|Q47AM2|HIS4_DECAR -              1e-75  254.0   1.0   1.2e-75  253.9   1.0   1.0   1   0   0   1   1   1   1 Histidine biosynthesis protein
+Dus                  PF01207.16 sp|Q47AM2|HIS4_DECAR -            7.2e-08   31.8   0.2    0.0011   18.1   0.0   2.2   2   0   0   2   2   2   2 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|Q47AM2|HIS4_DECAR -              0.019   14.3   5.8     0.097   11.9   0.2   2.1   2   0   0   2   2   2   0 Nitronate monooxygenase
+Transglut_core2      PF13369.5  sp|Q47AM2|HIS4_DECAR -               0.17   11.3   0.0      0.31   10.5   0.0   1.3   1   0   0   1   1   1   0 Transglutaminase-like superfamily
+DHO_dh               PF01180.20 sp|Q47AM2|HIS4_DECAR -               0.82    8.7   2.8         6    5.9   0.2   2.1   2   0   0   2   2   2   0 Dihydroorotate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q47AM2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q47AM2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q47AM2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:14:00 2019
+# [ok]

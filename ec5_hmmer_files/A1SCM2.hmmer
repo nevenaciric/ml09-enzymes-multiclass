@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_topoisoIV        PF00521.19 sp|A1SCM2|GYRA_NOCSJ -           3.7e-146  487.3   0.0  4.9e-146  486.8   0.0   1.2   1   0   0   1   1   1   1 DNA gyrase/topoisomerase IV, subunit A
+DNA_gyraseA_C        PF03989.12 sp|A1SCM2|GYRA_NOCSJ -            1.7e-65  216.1  10.3   4.6e-12   45.1   0.1   6.5   6   0   0   6   6   6   6 DNA gyrase C-terminal domain, beta-propeller
+DUF3802              PF12290.7  sp|A1SCM2|GYRA_NOCSJ -               0.75   10.2   6.1       1.1    9.7   3.8   2.4   1   1   1   2   2   2   0 Protein of unknown function (DUF3802)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A1SCM2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A1SCM2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A1SCM2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:17:51 2019
+# [ok]

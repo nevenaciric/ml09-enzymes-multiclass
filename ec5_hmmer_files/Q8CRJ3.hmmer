@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LacAB_rpiB           PF02502.17 sp|Q8CRJ3|LACB_STAES -            3.1e-43  147.0   0.2   3.9e-43  146.7   0.2   1.1   1   0   0   1   1   1   1 Ribose/Galactose Isomerase
+Ligase_CoA           PF00549.18 sp|Q8CRJ3|LACB_STAES -              0.011   15.4   0.2     0.023   14.4   0.1   1.6   1   1   0   1   1   1   0 CoA-ligase
+Gly_rich_SFCGS       PF14272.5  sp|Q8CRJ3|LACB_STAES -              0.047   13.6   0.2     0.076   12.9   0.2   1.4   1   0   0   1   1   1   0 Glycine-rich SFCGS
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8CRJ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8CRJ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8CRJ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:29:23 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+OAM_dimer            PF16554.4  sp|E3PRJ4|KAME_ACESD -            1.1e-33  115.4   0.0   2.7e-33  114.2   0.0   1.7   1   0   0   1   1   1   1 Dimerisation domain of d-ornithine 4,5-aminomutase
+B12-binding          PF02310.18 sp|E3PRJ4|KAME_ACESD -            4.9e-18   65.2   0.2   7.9e-18   64.6   0.2   1.3   1   0   0   1   1   1   1 B12 binding domain
+NapD                 PF03927.12 sp|E3PRJ4|KAME_ACESD -              0.035   14.1   0.2     0.092   12.7   0.2   1.6   1   0   0   1   1   1   0 NapD protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/E3PRJ4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/E3PRJ4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/E3PRJ4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:48:25 2019
+# [ok]

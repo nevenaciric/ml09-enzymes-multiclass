@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TIM                  PF00121.17 sp|Q93GB7|TPIS_LACDL -            5.2e-96  320.6   0.0   5.8e-96  320.5   0.0   1.0   1   0   0   1   1   1   1 Triosephosphate isomerase
+DUF2624              PF11116.7  sp|Q93GB7|TPIS_LACDL -               0.11   13.3   0.6       3.2    8.6   0.0   3.1   4   0   0   4   4   4   0 Protein of unknown function (DUF2624)
+CoA_binding_2        PF13380.5  sp|Q93GB7|TPIS_LACDL -               0.12   12.7   0.0      0.36   11.2   0.0   1.8   2   0   0   2   2   2   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q93GB7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q93GB7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q93GB7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:34:58 2019
+# [ok]

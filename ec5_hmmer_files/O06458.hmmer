@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Alpha-amylase        PF00128.23 sp|O06458|TRES_THETH -            5.7e-66  223.3   0.0   3.1e-65  220.9   0.0   2.1   1   1   0   1   1   1   1 Alpha amylase, catalytic domain
+Malt_amylase_C       PF16657.4  sp|O06458|TRES_THETH -            5.8e-26   90.3   0.0   1.3e-25   89.2   0.0   1.7   1   0   0   1   1   1   1 Maltogenic Amylase, C-terminal domain
+DUF3459              PF11941.7  sp|O06458|TRES_THETH -             0.0082   16.3   0.1    0.0082   16.3   0.1   2.6   2   0   0   2   2   2   1 Domain of unknown function (DUF3459)
+Alpha-amylase_C      PF02806.17 sp|O06458|TRES_THETH -                0.1   13.0   0.0       1.4    9.3   0.0   2.6   3   0   0   3   3   3   0 Alpha amylase, C-terminal all-beta domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O06458.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O06458.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O06458.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:48:57 2019
+# [ok]

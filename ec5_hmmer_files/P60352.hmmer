@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PseudoU_synth_1      PF01416.19 sp|P60352|TRUA_RHOPA -            5.9e-36  123.1   0.0     2e-25   89.2   0.0   2.1   2   0   0   2   2   2   2 tRNA pseudouridine synthase
+AAA_25               PF13481.5  sp|P60352|TRUA_RHOPA -              0.043   13.3   0.2      0.11   12.0   0.1   1.7   2   0   0   2   2   2   0 AAA domain
+DUF2344              PF10105.8  sp|P60352|TRUA_RHOPA -              0.097   12.4   0.0      0.13   12.0   0.0   1.1   1   0   0   1   1   1   0 Uncharacterized protein conserved in bacteria (DUF2344)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P60352.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P60352.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P60352.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:58:08 2019
+# [ok]

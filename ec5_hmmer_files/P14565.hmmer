@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TrwC                 PF08751.10 sp|P14565|TRAI1_ECOLI -            3.1e-75  253.3   0.6   8.1e-75  252.0   0.6   1.8   1   0   0   1   1   1   1 TrwC relaxase
+TraI                 PF07057.10 sp|P14565|TRAI1_ECOLI -            2.1e-56  189.4   0.0   7.6e-56  187.6   0.0   2.0   1   0   0   1   1   1   1 DNA helicase TraI
+AAA_30               PF13604.5  sp|P14565|TRAI1_ECOLI -            3.5e-37  127.9  12.6   1.6e-34  119.2   1.7   2.9   2   0   0   2   2   2   2 AAA domain
+AAA_19               PF13245.5  sp|P14565|TRAI1_ECOLI -            6.4e-10   39.4   0.5   9.7e-09   35.6   0.1   2.7   2   0   0   2   2   2   1 AAA domain
+FlgT_N               PF16548.4  sp|P14565|TRAI1_ECOLI -              0.005   17.3   3.9       2.9    8.5   0.0   5.1   4   0   0   4   4   4   1 Flagellar assembly protein T, N-terminal domain
+AAA_11               PF13086.5  sp|P14565|TRAI1_ECOLI -              0.085   12.5   4.1      0.13   11.9   0.0   3.1   3   0   0   3   3   3   0 AAA domain
+PKD                  PF00801.19 sp|P14565|TRAI1_ECOLI -               0.11   12.3   0.1      0.67    9.7   0.0   2.4   2   0   0   2   2   2   0 PKD domain
+UvrD_C_2             PF13538.5  sp|P14565|TRAI1_ECOLI -               0.14   11.9   0.1      0.51   10.1   0.1   2.0   2   0   0   2   2   2   0 UvrD-like helicase C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/P14565.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/P14565.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/P14565.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:53:43 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+3HCDH_N              PF02737.17 sp|O49809|MFPA_BRANA -            1.1e-61  207.8   0.2   1.7e-61  207.2   0.2   1.3   1   0   0   1   1   1   1 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+ECH_1                PF00378.19 sp|O49809|MFPA_BRANA -            3.1e-39  134.7   0.0     6e-39  133.8   0.0   1.4   1   0   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+3HCDH                PF00725.21 sp|O49809|MFPA_BRANA -            4.3e-27   94.5   0.0     8e-21   74.4   0.1   2.9   2   0   0   2   2   2   2 3-hydroxyacyl-CoA dehydrogenase, C-terminal domain
+ECH_2                PF16113.4  sp|O49809|MFPA_BRANA -            2.9e-23   82.8   0.0   1.2e-22   80.7   0.0   1.9   2   0   0   2   2   2   1 Enoyl-CoA hydratase/isomerase
+F420_oxidored        PF03807.16 sp|O49809|MFPA_BRANA -              0.061   13.8   0.5      0.16   12.4   0.5   1.8   1   0   0   1   1   1   0 NADP oxidoreductase coenzyme F420-dependent
+Pyr_redox_2          PF07992.13 sp|O49809|MFPA_BRANA -              0.073   12.2   0.0      0.13   11.3   0.0   1.4   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/O49809.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/O49809.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/O49809.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:49:59 2019
+# [ok]

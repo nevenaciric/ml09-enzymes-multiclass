@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IF-2B                PF01008.16 sp|C5M614|MTNA_CANTT -            5.6e-61  206.1   1.6   1.7e-60  204.6   1.6   1.7   1   1   0   1   1   1   1 Initiation factor 2 subunit family
+V-ATPase_H_C         PF11698.7  sp|C5M614|MTNA_CANTT -             0.0052   16.8   1.2     0.013   15.6   0.9   1.9   2   0   0   2   2   2   1 V-ATPase subunit H
+EF-hand_2            PF09068.10 sp|C5M614|MTNA_CANTT -               0.13   12.3   0.8      0.23   11.5   0.8   1.7   1   1   0   1   1   1   0 EF hand
+CsgA                 PF17334.1  sp|C5M614|MTNA_CANTT -               0.68   10.6   5.5      0.19   12.4   1.7   2.2   2   0   0   2   2   2   0 Sigma-G-dependent sporulation-specific SASP protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/C5M614.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/C5M614.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/C5M614.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:47:45 2019
+# [ok]

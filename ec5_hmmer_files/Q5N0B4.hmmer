@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PGI                  PF00342.18 sp|Q5N0B4|G6PI_SYNP6 -            2.9e-60  204.2   0.0   7.5e-50  169.8   0.0   2.0   2   0   0   2   2   2   2 Phosphoglucose isomerase
+HTH_AsnC-type        PF13404.5  sp|Q5N0B4|G6PI_SYNP6 -             0.0018   18.0   1.4     0.023   14.4   0.5   2.7   3   0   0   3   3   3   1 AsnC-type helix-turn-helix domain
+HTH_24               PF13412.5  sp|Q5N0B4|G6PI_SYNP6 -              0.015   14.7   2.8      0.12   11.9   0.5   2.5   2   0   0   2   2   2   0 Winged helix-turn-helix DNA-binding
+HTH_11               PF08279.11 sp|Q5N0B4|G6PI_SYNP6 -               0.02   14.7   0.3     0.056   13.3   0.3   1.8   1   0   0   1   1   1   0 HTH domain
+HTH_15               PF12324.7  sp|Q5N0B4|G6PI_SYNP6 -              0.022   14.6   0.1     0.066   13.1   0.1   1.8   1   0   0   1   1   1   0 Helix-turn-helix domain of alkylmercury lyase
+HTH_7                PF02796.14 sp|Q5N0B4|G6PI_SYNP6 -               0.17   11.9   0.0      0.71    9.9   0.1   2.1   2   0   0   2   2   2   0 Helix-turn-helix domain of resolvase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q5N0B4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q5N0B4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q5N0B4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:18:56 2019
+# [ok]

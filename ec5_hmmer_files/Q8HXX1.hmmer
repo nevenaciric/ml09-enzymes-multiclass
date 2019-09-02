@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MM_CoA_mutase        PF01642.21 sp|Q8HXX1|MUTA_MACFA -           2.1e-236  785.4   0.0  2.5e-236  785.1   0.0   1.1   1   0   0   1   1   1   1 Methylmalonyl-CoA mutase
+B12-binding          PF02310.18 sp|Q8HXX1|MUTA_MACFA -            7.2e-15   55.0   0.1   2.3e-14   53.4   0.1   1.9   1   0   0   1   1   1   1 B12 binding domain
+AAT                  PF03417.15 sp|Q8HXX1|MUTA_MACFA -               0.13   11.8   0.1      0.26   10.9   0.1   1.4   1   0   0   1   1   1   0 Acyl-coenzyme A:6-aminopenicillanic acid acyl-transferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q8HXX1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q8HXX1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q8HXX1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:31:02 2019
+# [ok]

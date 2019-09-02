@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IF-2B                PF01008.16 sp|C4YJ78|MTNA_CANAW -            2.7e-62  210.5   0.4   5.9e-60  202.8   0.4   2.6   1   1   0   1   1   1   1 Initiation factor 2 subunit family
+DUF3854              PF12965.6  sp|C4YJ78|MTNA_CANAW -             0.0055   16.6   0.0     0.016   15.1   0.0   1.8   1   0   0   1   1   1   1 Domain of unknown function (DUF3854)
+FPP                  PF05911.10 sp|C4YJ78|MTNA_CANAW -              0.051   11.7   0.2     0.067   11.3   0.2   1.1   1   0   0   1   1   1   0 Filament-like plant protein, long coiled-coil
+TFIIE_beta           PF02186.14 sp|C4YJ78|MTNA_CANAW -              0.079   13.2   0.4      0.28   11.4   0.4   2.1   1   0   0   1   1   1   0 TFIIE beta subunit core domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/C4YJ78.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/C4YJ78.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/C4YJ78.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:47:10 2019
+# [ok]

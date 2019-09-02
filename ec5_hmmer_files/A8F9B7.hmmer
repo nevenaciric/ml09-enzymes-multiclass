@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PseudoU_synth_1      PF01416.19 sp|A8F9B7|TRUA_BACP2 -            2.2e-46  156.7   0.0   4.1e-32  110.7   0.0   2.1   2   0   0   2   2   2   2 tRNA pseudouridine synthase
+DUF2344              PF10105.8  sp|A8F9B7|TRUA_BACP2 -             0.0031   17.3   0.0    0.0054   16.5   0.0   1.5   1   0   0   1   1   1   1 Uncharacterized protein conserved in bacteria (DUF2344)
+DevR                 PF01905.15 sp|A8F9B7|TRUA_BACP2 -              0.038   13.0   0.1      0.06   12.3   0.1   1.2   1   0   0   1   1   1   0 CRISPR-associated negative auto-regulator DevR/Csa2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/A8F9B7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/A8F9B7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/A8F9B7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:27:30 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_gyraseB          PF00204.24 sp|Q5YLB4|GYRB_NICBE -            6.3e-55  185.2   0.0     1e-54  184.5   0.0   1.4   1   0   0   1   1   1   1 DNA gyrase B
+DNA_gyraseB_C        PF00986.20 sp|Q5YLB4|GYRB_NICBE -              2e-25   88.6   0.1     4e-25   87.7   0.1   1.5   1   0   0   1   1   1   1 DNA gyrase B subunit, carboxyl terminus
+HATPase_c            PF02518.25 sp|Q5YLB4|GYRB_NICBE -            7.1e-23   81.2   0.0     2e-22   79.7   0.0   1.8   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Toprim               PF01751.21 sp|Q5YLB4|GYRB_NICBE -            6.3e-19   68.0   0.0     2e-18   66.4   0.0   1.9   1   0   0   1   1   1   1 Toprim domain
+HATPase_c_3          PF13589.5  sp|Q5YLB4|GYRB_NICBE -            0.00072   19.3   0.0    0.0017   18.1   0.0   1.6   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+TOPRIM_C             PF16898.4  sp|Q5YLB4|GYRB_NICBE -             0.0082   16.3   0.0     0.026   14.7   0.0   1.8   2   0   0   2   2   2   1 C-terminal associated domain of TOPRIM
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec5_fasta_files/Q5YLB4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec5_hmmer_files/Q5YLB4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec5_fasta_files/Q5YLB4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 18:20:28 2019
+# [ok]
