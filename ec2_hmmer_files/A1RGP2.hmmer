@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CobS                 PF02654.14 sp|A1RGP2|COBS_SHESW -            1.4e-55  188.5  11.2   1.7e-55  188.3  11.2   1.0   1   0   0   1   1   1   1 Cobalamin-5-phosphate synthase
+YwiC                 PF14256.5  sp|A1RGP2|COBS_SHESW -              0.027   14.7  10.8      0.37   11.0   0.2   3.0   3   0   0   3   3   3   0 YwiC-like protein
+E1-E2_ATPase         PF00122.19 sp|A1RGP2|COBS_SHESW -                2.5    7.5   5.1      0.58    9.6   0.3   2.1   2   1   0   2   2   2   0 E1-E2 ATPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1RGP2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1RGP2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1RGP2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:41:10 2019
+# [ok]

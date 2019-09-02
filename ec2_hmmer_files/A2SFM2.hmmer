@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A2SFM2|PNP_METPP  -            9.6e-44  149.0   0.0   5.9e-21   75.2   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|A2SFM2|PNP_METPP  -            6.3e-17   61.7   0.7   6.3e-17   61.7   0.7   2.2   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+RNase_PH_C           PF03725.14 sp|A2SFM2|PNP_METPP  -            3.2e-16   59.0   0.6   6.2e-09   35.7   0.0   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|A2SFM2|PNP_METPP  -            4.4e-16   58.9   0.7   4.4e-16   58.9   0.7   2.5   2   0   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|A2SFM2|PNP_METPP  -            6.8e-12   44.9   1.1     2e-11   43.4   1.1   1.9   1   0   0   1   1   1   1 KH domain
+KH_2                 PF07650.16 sp|A2SFM2|PNP_METPP  -            0.00091   18.9   0.1    0.0035   17.0   0.1   2.0   1   0   0   1   1   1   1 KH domain
+Phage_tube           PF04985.13 sp|A2SFM2|PNP_METPP  -              0.054   13.1   0.1      0.12   11.9   0.1   1.6   1   0   0   1   1   1   0 Phage tail tube protein FII
+KH_4                 PF13083.5  sp|A2SFM2|PNP_METPP  -               0.11   12.2   0.9      0.57   10.0   0.1   2.4   2   0   0   2   2   2   0 KH domain
+S1_2                 PF13509.5  sp|A2SFM2|PNP_METPP  -               0.13   12.3   0.7      0.54   10.3   0.0   2.4   3   0   0   3   3   3   0 S1 domain
+DNA_pol3_a_NI        PF14480.5  sp|A2SFM2|PNP_METPP  -               0.15   12.0   0.1      0.37   10.7   0.1   1.6   1   0   0   1   1   1   0 DNA polymerase III polC-type N-terminus I
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A2SFM2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A2SFM2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A2SFM2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:52:50 2019
+# [ok]

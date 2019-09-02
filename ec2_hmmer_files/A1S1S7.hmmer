@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transf_3         PF12804.6  sp|A1S1S7|MOBA_SHEAM -            3.1e-34  118.6   0.6   4.1e-34  118.1   0.5   1.2   1   1   0   1   1   1   1 MobA-like NTP transferase domain
+IspD                 PF01128.18 sp|A1S1S7|MOBA_SHEAM -            3.5e-05   23.6   0.8   0.00015   21.5   0.8   1.9   1   1   0   1   1   1   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+DUF2064              PF09837.8  sp|A1S1S7|MOBA_SHEAM -             0.0014   18.4   0.1    0.0023   17.6   0.1   1.4   1   0   0   1   1   1   1 Uncharacterized protein conserved in bacteria (DUF2064)
+NTP_transferase      PF00483.22 sp|A1S1S7|MOBA_SHEAM -              0.034   13.6   0.1     0.051   13.0   0.1   1.5   1   1   0   1   1   1   0 Nucleotidyl transferase
+CPT                  PF07931.11 sp|A1S1S7|MOBA_SHEAM -               0.11   12.3   0.0      0.14   11.8   0.0   1.2   1   0   0   1   1   1   0 Chloramphenicol phosphotransferase-like protein
+CTP_transf_3         PF02348.18 sp|A1S1S7|MOBA_SHEAM -               0.14   11.9   0.0      0.53   10.1   0.0   1.9   1   1   0   1   1   1   0 Cytidylyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1S1S7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1S1S7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1S1S7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:41:58 2019
+# [ok]

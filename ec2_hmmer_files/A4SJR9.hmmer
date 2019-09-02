@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A4SJR9|PNP_AERS4  -            5.6e-44  149.7   0.0   7.1e-22   78.2   0.0   2.4   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|A4SJR9|PNP_AERS4  -            1.4e-20   73.5   6.7   2.1e-20   72.9   2.7   2.5   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+RNase_PH_C           PF03725.14 sp|A4SJR9|PNP_AERS4  -            3.5e-19   68.5   1.9   2.5e-12   46.5   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|A4SJR9|PNP_AERS4  -            5.2e-19   68.3   2.5   1.6e-18   66.7   2.5   1.9   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|A4SJR9|PNP_AERS4  -            1.4e-10   40.8   1.7   2.1e-09   36.9   1.7   2.6   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|A4SJR9|PNP_AERS4  -            5.4e-05   22.8   1.5   0.00011   21.9   0.2   2.2   2   0   0   2   2   2   1 KH domain
+SLS                  PF14611.5  sp|A4SJR9|PNP_AERS4  -              0.061   13.0   0.6      0.15   11.8   0.2   1.8   2   0   0   2   2   2   0 Mitochondrial inner-membrane-bound regulator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4SJR9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4SJR9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4SJR9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:06:03 2019
+# [ok]

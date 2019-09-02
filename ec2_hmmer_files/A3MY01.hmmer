@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AdoMet_Synthase      PF01941.18 sp|A3MY01|METK_PYRCJ -           9.5e-172  571.1   3.8  1.1e-171  571.0   3.8   1.0   1   0   0   1   1   1   1 S-adenosylmethionine synthetase (AdoMet synthetase)
+S-AdoMet_synt_N      PF00438.19 sp|A3MY01|METK_PYRCJ -               0.24   12.0   4.0         1   10.0   0.0   3.1   3   1   1   4   4   4   0 S-adenosylmethionine synthetase, N-terminal domain
+Spore_YhcN_YlaJ      PF09580.9  sp|A3MY01|METK_PYRCJ -               0.87    9.5   2.7       2.9    7.8   0.4   2.1   2   0   0   2   2   2   0 Sporulation lipoprotein YhcN/YlaJ (Spore_YhcN_YlaJ)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A3MY01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A3MY01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A3MY01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:57:23 2019
+# [ok]

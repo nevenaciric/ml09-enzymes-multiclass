@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|A4ITU1|RLMH_GEOTN -            4.2e-60  202.1   1.1   4.7e-60  201.9   1.1   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+Methyltrn_RNA_4      PF09936.8  sp|A4ITU1|RLMH_GEOTN -              0.016   14.9   0.1      0.02   14.6   0.1   1.1   1   0   0   1   1   1   0 SAM-dependent RNA methyltransferase
+Peptidase_C80        PF11713.7  sp|A4ITU1|RLMH_GEOTN -              0.022   14.9   0.0     0.034   14.3   0.0   1.3   1   0   0   1   1   1   0 Peptidase C80 family
+AAA_10               PF12846.6  sp|A4ITU1|RLMH_GEOTN -              0.081   11.7   0.1      0.12   11.2   0.1   1.3   1   1   0   1   1   1   0 AAA-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4ITU1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4ITU1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4ITU1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:03:06 2019
+# [ok]

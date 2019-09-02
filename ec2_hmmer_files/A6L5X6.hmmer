@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_C       PF08544.12 sp|A6L5X6|ISPE_BACV8 -            9.2e-10   38.7   0.0   1.7e-09   37.8   0.0   1.4   1   0   0   1   1   1   1 GHMP kinases C terminal
+GHMP_kinases_N       PF00288.25 sp|A6L5X6|ISPE_BACV8 -            8.6e-09   35.4   0.0   1.6e-08   34.5   0.0   1.5   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+Tup_N                PF08581.9  sp|A6L5X6|ISPE_BACV8 -              0.045   14.0   0.0       0.1   12.8   0.0   1.5   1   0   0   1   1   1   0 Tup N-terminal
+TMP-TENI             PF02581.16 sp|A6L5X6|ISPE_BACV8 -               0.07   12.4   0.0     0.099   11.9   0.0   1.2   1   0   0   1   1   1   0 Thiamine monophosphate synthase
+AGT                  PF11440.7  sp|A6L5X6|ISPE_BACV8 -               0.11   11.5   0.0      0.15   11.0   0.0   1.1   1   0   0   1   1   1   0 DNA alpha-glucosyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6L5X6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6L5X6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6L5X6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:27:15 2019
+# [ok]

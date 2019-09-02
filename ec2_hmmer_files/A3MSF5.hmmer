@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HisG                 PF01634.17 sp|A3MSF5|HIS1_PYRCJ -            4.9e-45  153.3   0.0   6.3e-45  152.9   0.0   1.1   1   0   0   1   1   1   1 ATP phosphoribosyltransferase
+HisG_C               PF08029.10 sp|A3MSF5|HIS1_PYRCJ -            2.2e-23   82.1   0.2     6e-23   80.7   0.2   1.8   1   0   0   1   1   1   1 HisG, C-terminal domain
+Auxin_inducible      PF02519.13 sp|A3MSF5|HIS1_PYRCJ -              0.051   13.6   0.0     0.082   13.0   0.0   1.4   1   0   0   1   1   1   0 Auxin responsive protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A3MSF5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A3MSF5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A3MSF5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:57:10 2019
+# [ok]

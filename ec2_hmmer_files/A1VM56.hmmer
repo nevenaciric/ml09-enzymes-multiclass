@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A1VM56|PNP_POLNA  -            4.5e-42  143.6   0.0   8.3e-22   78.0   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|A1VM56|PNP_POLNA  -            2.8e-18   65.6   1.6   1.1e-11   44.4   0.1   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|A1VM56|PNP_POLNA  -            1.9e-16   60.0   1.1   1.9e-16   60.0   1.1   2.2   2   0   0   2   2   2   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|A1VM56|PNP_POLNA  -            6.3e-15   55.3   1.6   2.7e-14   53.3   0.2   2.5   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|A1VM56|PNP_POLNA  -            2.5e-11   43.1   0.9   8.2e-11   41.5   0.9   1.9   1   0   0   1   1   1   1 KH domain
+KH_2                 PF07650.16 sp|A1VM56|PNP_POLNA  -            0.00089   18.9   0.1    0.0025   17.5   0.1   1.8   1   0   0   1   1   1   1 KH domain
+Phage_tube           PF04985.13 sp|A1VM56|PNP_POLNA  -              0.012   15.3   0.2      0.03   13.9   0.2   1.8   1   0   0   1   1   1   0 Phage tail tube protein FII
+DNA_pol3_a_NI        PF14480.5  sp|A1VM56|PNP_POLNA  -              0.083   12.8   0.1      0.19   11.7   0.1   1.5   1   0   0   1   1   1   0 DNA polymerase III polC-type N-terminus I
+S1_2                 PF13509.5  sp|A1VM56|PNP_POLNA  -               0.19   11.7   0.6      0.91    9.5   0.0   2.4   3   0   0   3   3   3   0 S1 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1VM56.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1VM56.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1VM56.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:46:54 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AnmK                 PF03702.13 sp|A4JBK7|ANMK_BURVG -           1.8e-128  428.6   0.2    2e-128  428.5   0.2   1.0   1   0   0   1   1   1   1 Anhydro-N-acetylmuramic acid kinase
+PTS_IIB              PF02302.16 sp|A4JBK7|ANMK_BURVG -              0.043   14.4   0.0     0.082   13.5   0.0   1.4   1   0   0   1   1   1   0 PTS system, Lactose/Cellobiose specific IIB subunit
+NAD_binding_10       PF13460.5  sp|A4JBK7|ANMK_BURVG -              0.072   12.9   1.1       0.1   12.4   0.2   1.7   2   0   0   2   2   2   0 NAD(P)H-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4JBK7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4JBK7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4JBK7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:03:59 2019
+# [ok]

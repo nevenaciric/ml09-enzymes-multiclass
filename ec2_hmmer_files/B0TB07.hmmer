@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|B0TB07|MIAA_HELMI -            4.5e-84  281.7   0.2   5.5e-84  281.4   0.2   1.0   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|B0TB07|MIAA_HELMI -            6.1e-05   22.4   0.0   0.00011   21.6   0.0   1.4   1   0   0   1   1   1   1 Isopentenyl transferase
+AAA_18               PF13238.5  sp|B0TB07|MIAA_HELMI -              0.009   16.4   0.6       4.4    7.7   0.2   2.6   1   1   1   2   2   2   2 AAA domain
+Cytidylate_kin       PF02224.17 sp|B0TB07|MIAA_HELMI -               0.11   12.2   0.0      0.14   11.7   0.0   1.4   1   0   0   1   1   1   0 Cytidylate kinase
+HrcA_DNA-bdg         PF03444.14 sp|B0TB07|MIAA_HELMI -               0.15   11.7   0.0      0.31   10.6   0.0   1.5   1   0   0   1   1   1   0 Winged helix-turn-helix transcription repressor, HrcA DNA-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0TB07.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0TB07.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0TB07.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:18:08 2019
+# [ok]

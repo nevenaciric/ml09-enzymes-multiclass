@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A6SY02|PNP_JANMA  -            2.7e-47  160.5   0.0   3.6e-23   82.4   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|A6SY02|PNP_JANMA  -            1.3e-21   76.3   1.9   3.7e-14   52.4   0.1   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|A6SY02|PNP_JANMA  -            7.2e-18   64.8   1.7   2.8e-17   62.9   0.3   2.7   3   0   0   3   3   3   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|A6SY02|PNP_JANMA  -            5.6e-16   58.6   0.3     2e-15   56.8   0.3   2.1   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|A6SY02|PNP_JANMA  -              3e-10   39.7   4.0   5.8e-10   38.7   2.7   2.2   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|A6SY02|PNP_JANMA  -            0.00072   19.2   0.3    0.0025   17.5   0.3   2.0   1   0   0   1   1   1   1 KH domain
+S1_2                 PF13509.5  sp|A6SY02|PNP_JANMA  -               0.02   14.8   0.2      0.26   11.3   0.1   2.6   2   1   0   2   2   2   0 S1 domain
+KH_4                 PF13083.5  sp|A6SY02|PNP_JANMA  -              0.036   13.8   0.3      0.54   10.1   0.1   2.7   2   0   0   2   2   2   0 KH domain
+PCB_OB               PF17092.4  sp|A6SY02|PNP_JANMA  -               0.65   10.7   4.4      0.29   11.8   0.3   2.5   3   0   0   3   3   3   0 Penicillin-binding protein OB-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6SY02.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6SY02.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6SY02.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:30:21 2019
+# [ok]

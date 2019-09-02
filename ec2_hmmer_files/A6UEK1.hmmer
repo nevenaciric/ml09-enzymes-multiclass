@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRK                  PF00485.17 sp|A6UEK1|COAA_SINMW -            1.2e-14   54.5   0.0     1e-13   51.4   0.0   2.0   2   0   0   2   2   2   1 Phosphoribulokinase / Uridine kinase family
+AAA_18               PF13238.5  sp|A6UEK1|COAA_SINMW -              0.003   18.0   0.0     0.006   17.0   0.0   1.7   1   1   0   1   1   1   1 AAA domain
+AAA_22               PF13401.5  sp|A6UEK1|COAA_SINMW -               0.14   12.3   0.0       7.2    6.8   0.0   2.6   3   0   0   3   3   3   0 AAA domain
+Zeta_toxin           PF06414.11 sp|A6UEK1|COAA_SINMW -                0.2   10.8   0.0      0.34   10.1   0.0   1.5   1   0   0   1   1   1   0 Zeta toxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6UEK1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6UEK1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6UEK1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:33:03 2019
+# [ok]

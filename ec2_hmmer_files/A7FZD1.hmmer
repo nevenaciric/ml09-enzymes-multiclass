@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|A7FZD1|RLMH_CLOB1 -            1.2e-60  203.8   0.2   1.3e-60  203.7   0.2   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+Mis12                PF05859.11 sp|A7FZD1|RLMH_CLOB1 -               0.05   13.6   0.1     0.074   13.0   0.1   1.3   1   0   0   1   1   1   0 Mis12 protein
+eIF-4B               PF06273.10 sp|A7FZD1|RLMH_CLOB1 -                0.3   10.0   0.9      0.39    9.6   0.9   1.0   1   0   0   1   1   1   0 Plant specific eukaryotic initiation factor 4B
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7FZD1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7FZD1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7FZD1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:39:24 2019
+# [ok]

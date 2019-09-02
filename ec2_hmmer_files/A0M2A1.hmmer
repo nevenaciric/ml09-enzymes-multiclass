@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hexapep              PF00132.23 sp|A0M2A1|LPXD_GRAFK -            1.1e-32  110.4  29.5   3.2e-11   42.4   1.7   5.8   4   1   2   6   6   6   6 Bacterial transferase hexapeptide (six repeats)
+LpxD                 PF04613.13 sp|A0M2A1|LPXD_GRAFK -              2e-20   72.2   0.0     3e-20   71.7   0.0   1.3   1   0   0   1   1   1   1 UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase, LpxD
+Hexapep_2            PF14602.5  sp|A0M2A1|LPXD_GRAFK -            6.8e-15   54.4  25.0   1.1e-05   25.0   0.1   6.3   5   1   1   6   6   6   5 Hexapeptide repeat of succinyl-transferase
+Ribosomal_L27        PF01016.18 sp|A0M2A1|LPXD_GRAFK -              0.088   12.7   0.6        20    5.2   0.0   3.5   2   2   1   3   3   3   0 Ribosomal L27 protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A0M2A1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A0M2A1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A0M2A1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:30:31 2019
+# [ok]

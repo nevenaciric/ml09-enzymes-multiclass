@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HMGL-like            PF00682.18 sp|B0TCR1|LEU1_HELMI -            1.9e-99  332.4   0.4   2.6e-99  332.0   0.4   1.2   1   0   0   1   1   1   1 HMGL-like
+LeuA_dimer           PF08502.9  sp|B0TCR1|LEU1_HELMI -            3.8e-37  127.0   0.3   6.9e-37  126.2   0.3   1.4   1   0   0   1   1   1   1 LeuA allosteric (dimerisation) domain
+Hydrolase_6          PF13344.5  sp|B0TCR1|LEU1_HELMI -               0.04   13.9   0.1       1.6    8.8   0.0   3.2   4   0   0   4   4   4   0 Haloacid dehalogenase-like hydrolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0TCR1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0TCR1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0TCR1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:18:12 2019
+# [ok]

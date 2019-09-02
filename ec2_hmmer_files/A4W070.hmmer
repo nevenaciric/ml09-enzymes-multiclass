@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|A4W070|AROK_STRS2 -            5.8e-38  130.4   0.0   6.4e-38  130.3   0.0   1.0   1   0   0   1   1   1   1 Shikimate kinase
+AAA_18               PF13238.5  sp|A4W070|AROK_STRS2 -            1.1e-06   29.1   0.1   1.9e-06   28.3   0.1   1.4   1   1   0   1   1   1   1 AAA domain
+Thymidylate_kin      PF02223.16 sp|A4W070|AROK_STRS2 -              0.068   12.8   0.1      0.66    9.5   0.0   2.0   2   0   0   2   2   2   0 Thymidylate kinase
+dNK                  PF01712.18 sp|A4W070|AROK_STRS2 -              0.093   12.5   0.1         2    8.1   0.0   2.0   2   0   0   2   2   2   0 Deoxynucleoside kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4W070.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4W070.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4W070.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:09:22 2019
+# [ok]

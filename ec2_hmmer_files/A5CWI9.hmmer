@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|A5CWI9|MURA_VESOH -              5e-99  331.7   4.6   5.7e-99  331.5   4.6   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+GHMP_kinases_C       PF08544.12 sp|A5CWI9|MURA_VESOH -              0.022   15.0   0.1     0.058   13.7   0.1   1.7   1   0   0   1   1   1   0 GHMP kinases C terminal
+HupE_UreJ            PF04955.11 sp|A5CWI9|MURA_VESOH -               0.15   11.5   1.9       0.6    9.5   0.2   2.5   2   0   0   2   2   2   0 HupE / UreJ protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A5CWI9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A5CWI9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A5CWI9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:14:33 2019
+# [ok]

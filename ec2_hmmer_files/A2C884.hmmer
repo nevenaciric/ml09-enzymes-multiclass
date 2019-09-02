@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KaiB                 PF07689.11 sp|A2C884|SASA_PROM3 -            2.4e-32  110.4   0.2   6.7e-32  109.0   0.1   1.8   2   0   0   2   2   2   1 KaiB domain
+HATPase_c            PF02518.25 sp|A2C884|SASA_PROM3 -            3.6e-27   95.0   0.0   6.1e-27   94.3   0.0   1.4   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HisKA                PF00512.24 sp|A2C884|SASA_PROM3 -            4.6e-05   23.3   0.8   4.6e-05   23.3   0.8   2.1   2   0   0   2   2   2   1 His Kinase A (phospho-acceptor) domain
+HATPase_c_3          PF13589.5  sp|A2C884|SASA_PROM3 -              0.016   14.9   0.0     0.032   14.0   0.0   1.5   1   0   0   1   1   1   0 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HATPase_c_5          PF14501.5  sp|A2C884|SASA_PROM3 -              0.021   14.6   0.0     0.048   13.5   0.0   1.6   1   0   0   1   1   1   0 GHKL domain
+T3SS_needle_E        PF08988.9  sp|A2C884|SASA_PROM3 -               0.69   10.0  10.8       2.3    8.4   4.3   2.7   2   0   0   2   2   2   0 Type III secretion system, cytoplasmic E component of needle
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A2C884.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A2C884.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A2C884.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:50:52 2019
+# [ok]

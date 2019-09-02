@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PdxJ                 PF03740.12 sp|A2BRT6|PDXJ_PROMS -            2.2e-98  328.0   1.9   2.5e-98  327.8   1.9   1.0   1   0   0   1   1   1   1 Pyridoxal phosphate biosynthesis protein PdxJ
+Peptidase_C14        PF00656.21 sp|A2BRT6|PDXJ_PROMS -               0.03   14.2   0.0     0.043   13.7   0.0   1.2   1   0   0   1   1   1   0 Caspase domain
+NTPase_1             PF03266.14 sp|A2BRT6|PDXJ_PROMS -              0.044   13.6   0.0      0.09   12.6   0.0   1.5   1   1   0   1   1   1   0 NTPase
+AP_endonuc_2         PF01261.23 sp|A2BRT6|PDXJ_PROMS -              0.069   12.5   0.0      0.18   11.1   0.0   1.9   1   1   0   1   1   1   0 Xylose isomerase-like TIM barrel
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A2BRT6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A2BRT6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A2BRT6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:49:48 2019
+# [ok]

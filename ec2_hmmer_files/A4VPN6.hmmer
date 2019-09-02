@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A4VPN6|PNP_PSEU5  -            1.2e-43  148.7   0.0   2.7e-21   76.3   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|A4VPN6|PNP_PSEU5  -            5.9e-24   84.3   0.1   1.6e-23   82.9   0.1   1.8   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+RNase_PH_C           PF03725.14 sp|A4VPN6|PNP_PSEU5  -            2.7e-19   68.8   1.0   4.7e-11   42.5   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|A4VPN6|PNP_PSEU5  -            3.9e-18   65.4   4.4   3.9e-18   65.4   4.4   2.5   3   0   0   3   3   3   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|A4VPN6|PNP_PSEU5  -              7e-14   51.3   3.2     6e-13   48.3   0.9   2.9   2   0   0   2   2   2   1 KH domain
+S1_2                 PF13509.5  sp|A4VPN6|PNP_PSEU5  -             0.0045   16.9   1.5     0.033   14.2   0.4   2.9   2   1   0   2   2   2   1 S1 domain
+KH_2                 PF07650.16 sp|A4VPN6|PNP_PSEU5  -              0.026   14.3   1.5     0.057   13.1   0.1   2.3   3   0   0   3   3   3   0 KH domain
+Cauli_DNA-bind       PF03310.12 sp|A4VPN6|PNP_PSEU5  -               0.12   12.3   0.0      0.68    9.9   0.0   2.2   2   0   0   2   2   2   0 Caulimovirus DNA-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4VPN6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4VPN6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4VPN6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:08:50 2019
+# [ok]

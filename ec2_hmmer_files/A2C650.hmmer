@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|A2C650|AROK_PROM3 -              5e-47  159.9   0.0   5.7e-47  159.7   0.0   1.0   1   0   0   1   1   1   1 Shikimate kinase
+AAA_33               PF13671.5  sp|A2C650|AROK_PROM3 -            0.00055   20.0   0.0   0.00097   19.2   0.0   1.6   1   1   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|A2C650|AROK_PROM3 -            0.00064   20.1   0.0    0.0011   19.3   0.0   1.4   1   0   0   1   1   1   1 AAA domain
+Cytidylate_kin       PF02224.17 sp|A2C650|AROK_PROM3 -              0.026   14.2   0.0     0.034   13.8   0.0   1.1   1   0   0   1   1   1   0 Cytidylate kinase
+Cytidylate_kin2      PF13189.5  sp|A2C650|AROK_PROM3 -              0.038   14.1   0.0     0.063   13.3   0.0   1.4   1   0   0   1   1   1   0 Cytidylate kinase-like family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A2C650.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A2C650.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A2C650.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:50:45 2019
+# [ok]

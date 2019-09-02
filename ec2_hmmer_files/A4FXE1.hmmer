@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|A4FXE1|RLMH_METM5 -            2.2e-59  199.8   0.5   2.4e-59  199.6   0.5   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+Flo11                PF10182.8  sp|A4FXE1|RLMH_METM5 -              0.016   15.2   0.0      0.03   14.4   0.0   1.4   1   0   0   1   1   1   0 Flo11 domain
+Spore_Cse60          PF10957.7  sp|A4FXE1|RLMH_METM5 -               0.19   11.7   1.6       8.4    6.4   0.0   2.4   2   0   0   2   2   2   0 Sporulation protein Cse60
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4FXE1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4FXE1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4FXE1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:01:33 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|B0TZB0|MIAA_FRAP2 -            1.3e-80  270.4   0.6   1.5e-80  270.1   0.6   1.0   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|B0TZB0|MIAA_FRAP2 -            1.8e-07   30.7   0.1   1.8e-05   24.1   0.0   2.2   2   0   0   2   2   2   2 Isopentenyl transferase
+Cytidylate_kin       PF02224.17 sp|B0TZB0|MIAA_FRAP2 -             0.0025   17.5   0.1     0.024   14.3   0.0   2.1   2   0   0   2   2   2   1 Cytidylate kinase
+AAA                  PF00004.28 sp|B0TZB0|MIAA_FRAP2 -              0.022   15.1   0.0     0.088   13.1   0.0   2.1   2   0   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+AAA_33               PF13671.5  sp|B0TZB0|MIAA_FRAP2 -              0.048   13.7   0.0      0.14   12.3   0.0   1.9   2   2   0   2   2   2   0 AAA domain
+Hydin_ADK            PF17213.2  sp|B0TZB0|MIAA_FRAP2 -              0.057   13.6   1.1     0.085   13.0   0.2   1.7   2   0   0   2   2   2   0 Hydin Adenylate kinase-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0TZB0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0TZB0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0TZB0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:19:18 2019
+# [ok]

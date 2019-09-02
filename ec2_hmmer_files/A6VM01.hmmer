@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PNP_UDP_1            PF01048.19 sp|A6VM01|DEOD_ACTSZ -            2.2e-39  135.0   0.6   2.6e-39  134.8   0.6   1.0   1   0   0   1   1   1   1 Phosphorylase superfamily
+Haemolytic           PF01809.17 sp|A6VM01|DEOD_ACTSZ -              0.061   13.1   0.0      0.15   11.9   0.0   1.6   1   0   0   1   1   1   0 Haemolytic domain
+Transketolase_C      PF02780.19 sp|A6VM01|DEOD_ACTSZ -              0.099   12.4   0.1      0.19   11.5   0.1   1.4   1   0   0   1   1   1   0 Transketolase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6VM01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6VM01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6VM01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:35:13 2019
+# [ok]

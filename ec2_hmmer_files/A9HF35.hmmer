@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A9HF35|PNP_GLUDA  -            8.8e-49  165.3   0.0   1.3e-23   83.8   0.0   3.4   3   0   0   3   3   3   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|A9HF35|PNP_GLUDA  -            2.1e-21   75.6   0.3   1.8e-13   50.2   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|A9HF35|PNP_GLUDA  -            5.1e-16   58.7   2.3   1.1e-15   57.6   0.7   2.4   3   0   0   3   3   3   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|A9HF35|PNP_GLUDA  -            8.4e-15   54.9   1.0   1.9e-14   53.8   1.0   1.6   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|A9HF35|PNP_GLUDA  -            3.3e-11   42.7   3.5   8.4e-11   41.4   3.5   1.8   1   0   0   1   1   1   1 KH domain
+KH_2                 PF07650.16 sp|A9HF35|PNP_GLUDA  -              0.048   13.4   0.8      0.12   12.1   0.8   1.6   1   0   0   1   1   1   0 KH domain
+Cauli_DNA-bind       PF03310.12 sp|A9HF35|PNP_GLUDA  -              0.054   13.5   0.0      0.24   11.4   0.0   2.0   2   0   0   2   2   2   0 Caulimovirus DNA-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A9HF35.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A9HF35.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A9HF35.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:03:02 2019
+# [ok]

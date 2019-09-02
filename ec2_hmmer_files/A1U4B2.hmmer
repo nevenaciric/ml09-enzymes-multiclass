@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BATS                 PF06968.12 sp|A1U4B2|BIOB_MARHV -            5.8e-22   77.5   0.1   1.2e-21   76.5   0.1   1.6   1   0   0   1   1   1   1 Biotin and Thiamin Synthesis associated domain
+Radical_SAM          PF04055.20 sp|A1U4B2|BIOB_MARHV -              5e-17   62.7   0.7     2e-16   60.7   0.3   2.1   2   0   0   2   2   2   1 Radical SAM superfamily
+TMP-TENI             PF02581.16 sp|A1U4B2|BIOB_MARHV -               0.12   11.6   0.0      0.37   10.0   0.0   1.7   2   0   0   2   2   2   0 Thiamine monophosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1U4B2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1U4B2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1U4B2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:44:55 2019
+# [ok]

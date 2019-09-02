@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AdoMet_Synthase      PF01941.18 sp|A8MD44|METK_CALMQ -           5.7e-172  571.8   3.2  6.5e-172  571.7   3.2   1.0   1   0   0   1   1   1   1 S-adenosylmethionine synthetase (AdoMet synthetase)
+S-AdoMet_synt_N      PF00438.19 sp|A8MD44|METK_CALMQ -              0.089   13.4   0.3      0.71   10.5   0.0   2.6   2   1   0   2   2   2   0 S-adenosylmethionine synthetase, N-terminal domain
+Nup35_RRM_2          PF14605.5  sp|A8MD44|METK_CALMQ -               0.12   12.2   0.1       0.9    9.5   0.0   2.5   2   0   0   2   2   2   0 Nup53/35/40-type RNA recognition motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A8MD44.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A8MD44.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A8MD44.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:58:13 2019
+# [ok]

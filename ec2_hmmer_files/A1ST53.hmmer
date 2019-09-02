@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A1ST53|PNP_PSYIN  -            6.3e-43  146.3   0.0   2.6e-21   76.4   0.0   2.8   3   0   0   3   3   3   2 3' exoribonuclease family, domain 1
+S1                   PF00575.22 sp|A1ST53|PNP_PSYIN  -            4.9e-21   74.8   3.3   1.4e-20   73.3   3.3   1.9   1   0   0   1   1   1   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|A1ST53|PNP_PSYIN  -            1.1e-20   73.8   1.8   1.1e-20   73.8   1.8   2.1   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+RNase_PH_C           PF03725.14 sp|A1ST53|PNP_PSYIN  -            3.9e-20   71.5   2.7   3.7e-13   49.2   0.1   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+KH_1                 PF00013.28 sp|A1ST53|PNP_PSYIN  -            7.9e-11   41.5   3.8   9.5e-10   38.1   2.6   2.8   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|A1ST53|PNP_PSYIN  -             0.0019   17.9   2.9    0.0031   17.2   0.2   2.5   2   0   0   2   2   2   1 KH domain
+S1_2                 PF13509.5  sp|A1ST53|PNP_PSYIN  -             0.0058   16.6   0.1     0.043   13.8   0.1   2.6   1   1   0   1   1   1   1 S1 domain
+DUF3016              PF11454.7  sp|A1ST53|PNP_PSYIN  -              0.022   14.4   0.0     0.058   13.1   0.0   1.7   1   0   0   1   1   1   0 Protein of unknown function (DUF3016)
+Cauli_DNA-bind       PF03310.12 sp|A1ST53|PNP_PSYIN  -               0.04   13.9   0.0      0.17   11.9   0.0   2.0   1   0   0   1   1   1   0 Caulimovirus DNA-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1ST53.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1ST53.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1ST53.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:43:06 2019
+# [ok]

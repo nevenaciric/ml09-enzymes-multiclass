@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_M22        PF00814.24 sp|A4SRB1|TSAD_AERS4 -            1.5e-99  333.0   0.0   1.7e-99  332.8   0.0   1.0   1   0   0   1   1   1   1 Glycoprotease family
+Carbam_trans_N       PF02543.14 sp|A4SRB1|TSAD_AERS4 -            3.9e-05   23.4   0.0    0.0024   17.5   0.0   2.1   2   0   0   2   2   2   2 Carbamoyltransferase N-terminus
+FGGY_C               PF02782.15 sp|A4SRB1|TSAD_AERS4 -              0.012   15.2   0.0     0.021   14.5   0.0   1.4   1   0   0   1   1   1   0 FGGY family of carbohydrate kinases, C-terminal domain
+TrwC                 PF08751.10 sp|A4SRB1|TSAD_AERS4 -              0.012   15.0   0.0     0.014   14.9   0.0   1.2   1   0   0   1   1   1   0 TrwC relaxase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4SRB1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4SRB1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4SRB1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:06:27 2019
+# [ok]

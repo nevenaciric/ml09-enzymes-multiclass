@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_23      PF13489.5  sp|A9M0C4|UBIG_NEIM0 -            1.9e-24   86.3   0.0   2.5e-24   85.9   0.0   1.1   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_11      PF08241.11 sp|A9M0C4|UBIG_NEIM0 -            2.2e-21   76.2   0.1   7.5e-21   74.5   0.1   1.8   2   0   0   2   2   2   1 Methyltransferase domain
+Methyltransf_25      PF13649.5  sp|A9M0C4|UBIG_NEIM0 -            2.6e-19   69.6   0.1   5.4e-19   68.6   0.1   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_31      PF13847.5  sp|A9M0C4|UBIG_NEIM0 -            9.7e-18   64.3   0.0   1.2e-17   64.1   0.0   1.2   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_12      PF08242.11 sp|A9M0C4|UBIG_NEIM0 -            1.1e-14   54.9   0.0   2.1e-14   53.9   0.0   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+PrmA                 PF06325.12 sp|A9M0C4|UBIG_NEIM0 -            1.7e-12   47.2   0.0   2.2e-12   46.9   0.0   1.1   1   0   0   1   1   1   1 Ribosomal protein L11 methyltransferase (PrmA)
+CMAS                 PF02353.19 sp|A9M0C4|UBIG_NEIM0 -            6.2e-11   42.0   0.0   7.3e-11   41.8   0.0   1.1   1   0   0   1   1   1   1 Mycolic acid cyclopropane synthetase
+Ubie_methyltran      PF01209.17 sp|A9M0C4|UBIG_NEIM0 -            3.6e-10   39.5   0.0   1.8e-09   37.2   0.0   1.9   1   1   0   1   1   1   1 ubiE/COQ5 methyltransferase family
+Methyltransf_9       PF08003.10 sp|A9M0C4|UBIG_NEIM0 -              4e-10   39.0   0.0   6.4e-10   38.3   0.0   1.3   1   0   0   1   1   1   1 Protein of unknown function (DUF1698)
+NodS                 PF05401.10 sp|A9M0C4|UBIG_NEIM0 -            3.6e-09   36.4   0.0   4.7e-09   36.1   0.0   1.1   1   0   0   1   1   1   1 Nodulation protein S (NodS)
+MTS                  PF05175.13 sp|A9M0C4|UBIG_NEIM0 -            5.6e-08   32.4   0.0   8.1e-08   31.9   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase small domain
+TPMT                 PF05724.10 sp|A9M0C4|UBIG_NEIM0 -            0.00011   21.9   0.0   0.00019   21.1   0.0   1.4   1   0   0   1   1   1   1 Thiopurine S-methyltransferase (TPMT)
+DREV                 PF05219.11 sp|A9M0C4|UBIG_NEIM0 -            0.00018   20.6   0.0   0.00026   20.1   0.0   1.2   1   0   0   1   1   1   1 DREV methyltransferase
+MetW                 PF07021.11 sp|A9M0C4|UBIG_NEIM0 -            0.00042   19.9   0.0    0.0011   18.5   0.0   1.6   2   0   0   2   2   2   1 Methionine biosynthesis protein MetW
+Methyltransf_18      PF12847.6  sp|A9M0C4|UBIG_NEIM0 -             0.0018   18.1   0.1    0.0028   17.5   0.1   1.2   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_32      PF13679.5  sp|A9M0C4|UBIG_NEIM0 -              0.005   16.7   0.0    0.0074   16.2   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_PK      PF05891.11 sp|A9M0C4|UBIG_NEIM0 -               0.02   14.3   0.0     0.031   13.7   0.0   1.2   1   0   0   1   1   1   0 AdoMet dependent proline di-methyltransferase
+PCMT                 PF01135.18 sp|A9M0C4|UBIG_NEIM0 -              0.074   12.7   0.0      0.11   12.2   0.0   1.2   1   0   0   1   1   1   0 Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+TehB                 PF03848.13 sp|A9M0C4|UBIG_NEIM0 -              0.096   12.0   0.0      0.14   11.4   0.0   1.2   1   0   0   1   1   1   0 Tellurite resistance protein TehB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A9M0C4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A9M0C4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A9M0C4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:05:39 2019
+# [ok]

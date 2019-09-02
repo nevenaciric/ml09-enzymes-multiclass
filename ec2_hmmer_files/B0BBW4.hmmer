@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|B0BBW4|DXS_CHLTB  -              3e-94  315.2   0.0   4.2e-94  314.7   0.0   1.2   1   0   0   1   1   1   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transketolase_C      PF02780.19 sp|B0BBW4|DXS_CHLTB  -            4.4e-33  113.7   0.0   7.2e-33  113.0   0.0   1.4   1   0   0   1   1   1   1 Transketolase, C-terminal domain
+Transket_pyr         PF02779.23 sp|B0BBW4|DXS_CHLTB  -            2.5e-22   79.3   0.0   5.3e-22   78.2   0.0   1.5   2   0   0   2   2   2   1 Transketolase, pyrimidine binding domain
+PFOR_II              PF17147.3  sp|B0BBW4|DXS_CHLTB  -              0.071   13.3   0.0      0.19   12.0   0.0   1.7   1   0   0   1   1   1   0 Pyruvate:ferredoxin oxidoreductase core domain II
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0BBW4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0BBW4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0BBW4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:11:55 2019
+# [ok]

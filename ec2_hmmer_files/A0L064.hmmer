@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RrnaAD               PF00398.19 sp|A0L064|RSMA_SHESA -            9.8e-75  250.9   0.0   1.1e-74  250.8   0.0   1.0   1   0   0   1   1   1   1 Ribosomal RNA adenine dimethylase
+NodS                 PF05401.10 sp|A0L064|RSMA_SHESA -              0.005   16.4   0.0     0.015   14.8   0.0   1.7   2   0   0   2   2   2   1 Nodulation protein S (NodS)
+Methyltransf_25      PF13649.5  sp|A0L064|RSMA_SHESA -              0.051   14.2   0.0      0.11   13.2   0.0   1.5   1   0   0   1   1   1   0 Methyltransferase domain
+DUF4530              PF15039.5  sp|A0L064|RSMA_SHESA -              0.093   12.8   0.0       0.2   11.7   0.0   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF4530)
+Methyltransf_11      PF08241.11 sp|A0L064|RSMA_SHESA -               0.14   12.7   0.0      0.31   11.6   0.0   1.5   1   0   0   1   1   1   0 Methyltransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A0L064.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A0L064.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A0L064.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:29:14 2019
+# [ok]

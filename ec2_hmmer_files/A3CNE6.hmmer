@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_m1G_MT          PF01746.20 sp|A3CNE6|TRMD_STRSV -            3.4e-65  219.3   0.0     4e-65  219.1   0.0   1.0   1   0   0   1   1   1   1 tRNA (Guanine-1)-methyltransferase
+SPOUT_MTase          PF02590.16 sp|A3CNE6|TRMD_STRSV -              0.018   14.9   0.0     0.027   14.3   0.0   1.4   1   0   0   1   1   1   0 Predicted SPOUT methyltransferase
+DUF2573              PF10835.7  sp|A3CNE6|TRMD_STRSV -               0.04   14.1   0.2     0.074   13.3   0.2   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF2573)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A3CNE6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A3CNE6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A3CNE6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:54:19 2019
+# [ok]

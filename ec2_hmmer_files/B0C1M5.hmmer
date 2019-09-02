@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|B0C1M5|PNP_ACAM1  -            2.1e-34  118.8   0.0   1.2e-16   61.4   0.0   2.4   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|B0C1M5|PNP_ACAM1  -            5.9e-24   83.8   2.4   4.9e-17   61.6   0.1   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|B0C1M5|PNP_ACAM1  -            2.3e-16   60.0   2.6   5.4e-16   58.8   2.6   1.7   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|B0C1M5|PNP_ACAM1  -            3.6e-15   55.9   2.6   5.3e-15   55.4   0.9   2.3   2   0   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|B0C1M5|PNP_ACAM1  -            2.5e-12   46.3   4.9   3.1e-12   46.0   2.9   2.3   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|B0C1M5|PNP_ACAM1  -            2.8e-05   23.8   0.4   0.00012   21.7   0.4   2.1   1   0   0   1   1   1   1 KH domain
+SLS                  PF14611.5  sp|B0C1M5|PNP_ACAM1  -             0.0095   15.7   0.1      0.69    9.6   0.0   2.2   2   0   0   2   2   2   1 Mitochondrial inner-membrane-bound regulator
+KH_4                 PF13083.5  sp|B0C1M5|PNP_ACAM1  -              0.015   15.0   1.8     0.025   14.3   0.0   2.3   3   0   0   3   3   3   0 KH domain
+EXOSC1               PF10447.8  sp|B0C1M5|PNP_ACAM1  -              0.072   13.7   1.4      0.23   12.1   0.1   2.3   2   0   0   2   2   2   0 Exosome component EXOSC1/CSL4
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0C1M5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0C1M5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0C1M5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:12:52 2019
+# [ok]

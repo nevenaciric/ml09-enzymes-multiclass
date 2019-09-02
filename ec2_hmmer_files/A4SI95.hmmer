@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+G3P_acyltransf       PF02660.14 sp|A4SI95|PLSY_AERS4 -            5.6e-48  163.0   9.0   6.6e-48  162.8   9.0   1.0   1   0   0   1   1   1   1 Glycerol-3-phosphate acyltransferase
+Peptidase_U4         PF03419.12 sp|A4SI95|PLSY_AERS4 -              0.078   12.1   8.1      0.12   11.6   8.1   1.3   1   0   0   1   1   1   0 Sporulation factor SpoIIGA
+DUF4233              PF14017.5  sp|A4SI95|PLSY_AERS4 -                1.8    8.8   9.0      0.26   11.6   1.0   2.5   2   1   0   2   2   2   0 Protein of unknown function (DUF4233)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4SI95.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4SI95.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4SI95.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:05:57 2019
+# [ok]

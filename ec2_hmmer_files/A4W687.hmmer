@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MTS                  PF05175.13 sp|A4W687|RSMC_ENT38 -            3.1e-59  199.2   0.0   4.5e-59  198.7   0.0   1.2   1   0   0   1   1   1   1 Methyltransferase small domain
+MTS_N                PF08468.10 sp|A4W687|RSMC_ENT38 -            4.1e-57  192.5   0.0   6.9e-57  191.8   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase small domain N-terminal
+Methyltransf_25      PF13649.5  sp|A4W687|RSMC_ENT38 -              3e-10   40.6   0.1   1.2e-09   38.7   0.0   2.0   2   0   0   2   2   2   1 Methyltransferase domain
+Methyltransf_31      PF13847.5  sp|A4W687|RSMC_ENT38 -            4.5e-10   39.4   0.0   7.6e-10   38.7   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_12      PF08242.11 sp|A4W687|RSMC_ENT38 -            3.4e-08   34.0   0.0   6.1e-08   33.2   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+PrmA                 PF06325.12 sp|A4W687|RSMC_ENT38 -            2.6e-06   26.9   0.0   3.9e-06   26.4   0.0   1.2   1   0   0   1   1   1   1 Ribosomal protein L11 methyltransferase (PrmA)
+Methyltransf_11      PF08241.11 sp|A4W687|RSMC_ENT38 -            1.4e-05   25.5   0.0   2.6e-05   24.7   0.0   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_23      PF13489.5  sp|A4W687|RSMC_ENT38 -            3.6e-05   23.6   0.1   7.9e-05   22.4   0.0   1.6   2   0   0   2   2   2   1 Methyltransferase domain
+NodS                 PF05401.10 sp|A4W687|RSMC_ENT38 -            0.00013   21.5   0.0   0.00096   18.7   0.0   2.0   2   0   0   2   2   2   1 Nodulation protein S (NodS)
+Methyltransf_18      PF12847.6  sp|A4W687|RSMC_ENT38 -            0.00079   19.3   0.0    0.0017   18.2   0.0   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_10      PF05971.11 sp|A4W687|RSMC_ENT38 -             0.0012   18.2   0.0    0.0035   16.6   0.0   1.6   1   1   0   1   1   1   1 Protein of unknown function (DUF890)
+Methyltransf_2       PF00891.17 sp|A4W687|RSMC_ENT38 -             0.0068   15.5   0.0     0.012   14.8   0.0   1.3   1   0   0   1   1   1   1 O-methyltransferase
+Cons_hypoth95        PF03602.14 sp|A4W687|RSMC_ENT38 -              0.016   14.8   0.0     0.027   14.0   0.0   1.3   1   0   0   1   1   1   0 Conserved hypothetical protein 95
+Methyltransf_16      PF10294.8  sp|A4W687|RSMC_ENT38 -              0.028   14.1   0.0     0.049   13.3   0.0   1.3   1   0   0   1   1   1   0 Lysine methyltransferase
+GidB                 PF02527.14 sp|A4W687|RSMC_ENT38 -              0.029   13.6   0.1     0.049   12.9   0.1   1.3   1   0   0   1   1   1   0 rRNA small subunit methyltransferase G
+Methyltransf_32      PF13679.5  sp|A4W687|RSMC_ENT38 -               0.04   13.8   0.0     0.067   13.1   0.0   1.3   1   0   0   1   1   1   0 Methyltransferase domain
+UPF0020              PF01170.17 sp|A4W687|RSMC_ENT38 -              0.053   13.1   0.0     0.075   12.6   0.0   1.2   1   0   0   1   1   1   0 Putative RNA methylase family UPF0020
+PCMT                 PF01135.18 sp|A4W687|RSMC_ENT38 -              0.059   13.0   0.0     0.087   12.5   0.0   1.2   1   0   0   1   1   1   0 Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+MetW                 PF07021.11 sp|A4W687|RSMC_ENT38 -               0.11   12.0   0.0      0.19   11.2   0.0   1.3   1   0   0   1   1   1   0 Methionine biosynthesis protein MetW
+Methyltransf_20      PF12147.7  sp|A4W687|RSMC_ENT38 -               0.12   11.4   0.0      0.18   10.8   0.0   1.2   1   0   0   1   1   1   0 Putative methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4W687.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4W687.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4W687.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:09:42 2019
+# [ok]

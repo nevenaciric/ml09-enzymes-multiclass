@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B            PF00136.20 sp|A7U6F1|DPOL_CEV01 -            1.1e-81  274.9  11.7   1.6e-47  162.2   0.9   2.8   3   0   0   3   3   3   2 DNA polymerase family B
+DNA_pol_B_exo1       PF03104.18 sp|A7U6F1|DPOL_CEV01 -            2.6e-38  131.9  15.8   6.6e-21   74.7   0.8   3.2   3   0   0   3   3   3   2 DNA polymerase family B, exonuclease domain
+Intein_splicing      PF14890.5  sp|A7U6F1|DPOL_CEV01 -            2.2e-08   33.7   1.6   2.2e-08   33.7   1.6   2.9   2   2   0   2   2   2   1 Intein splicing domain
+LAGLIDADG_3          PF14528.5  sp|A7U6F1|DPOL_CEV01 -            0.00019   21.7   3.8      0.01   16.2   0.2   4.0   4   0   0   4   4   4   1 LAGLIDADG-like domain
+Hom_end              PF05204.13 sp|A7U6F1|DPOL_CEV01 -             0.0002   21.4   0.5    0.0022   18.1   0.4   2.5   1   1   1   2   2   2   1 Homing endonuclease
+DUF2719              PF10891.7  sp|A7U6F1|DPOL_CEV01 -              0.067   13.0   0.2       3.8    7.4   0.0   3.3   4   0   0   4   4   4   0 Protein of unknown function (DUF2719)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7U6F1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7U6F1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7U6F1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:45:54 2019
+# [ok]

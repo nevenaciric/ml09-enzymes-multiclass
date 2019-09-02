@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRK                  PF00485.17 sp|A9L4F4|URK_SHEB9  -            1.3e-41  142.4   0.0   1.5e-41  142.2   0.0   1.0   1   0   0   1   1   1   1 Phosphoribulokinase / Uridine kinase family
+AAA_18               PF13238.5  sp|A9L4F4|URK_SHEB9  -            1.9e-05   25.1   0.0   2.8e-05   24.5   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|A9L4F4|URK_SHEB9  -             0.0063   16.8   0.0      0.01   16.2   0.0   1.5   1   0   0   1   1   1   1 AAA ATPase domain
+CoaE                 PF01121.19 sp|A9L4F4|URK_SHEB9  -              0.012   15.2   0.1       2.1    7.9   0.0   2.2   2   0   0   2   2   2   0 Dephospho-CoA kinase
+AAA_22               PF13401.5  sp|A9L4F4|URK_SHEB9  -              0.022   14.9   0.0     0.047   13.9   0.0   1.7   1   1   0   1   1   1   0 AAA domain
+ABC_tran             PF00005.26 sp|A9L4F4|URK_SHEB9  -              0.028   14.8   0.0     0.042   14.3   0.0   1.4   1   0   0   1   1   1   0 ABC transporter
+Zeta_toxin           PF06414.11 sp|A9L4F4|URK_SHEB9  -               0.03   13.5   0.0     0.058   12.6   0.0   1.6   1   0   0   1   1   1   0 Zeta toxin
+APS_kinase           PF01583.19 sp|A9L4F4|URK_SHEB9  -              0.049   13.4   0.0       1.1    9.0   0.0   2.3   2   0   0   2   2   2   0 Adenylylsulphate kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A9L4F4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A9L4F4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A9L4F4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:05:21 2019
+# [ok]

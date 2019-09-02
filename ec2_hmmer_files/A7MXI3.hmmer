@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PrmA                 PF06325.12 sp|A7MXI3|PRMA_VIBCB -           2.1e-106  355.6   0.0  2.3e-106  355.4   0.0   1.0   1   0   0   1   1   1   1 Ribosomal protein L11 methyltransferase (PrmA)
+Methyltransf_31      PF13847.5  sp|A7MXI3|PRMA_VIBCB -              4e-11   42.8   0.0   8.5e-11   41.8   0.0   1.6   1   1   0   1   1   1   1 Methyltransferase domain
+MTS                  PF05175.13 sp|A7MXI3|PRMA_VIBCB -            8.1e-10   38.4   0.0   1.3e-09   37.7   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase small domain
+Methyltransf_25      PF13649.5  sp|A7MXI3|PRMA_VIBCB -            1.3e-08   35.4   0.0   2.7e-08   34.3   0.0   1.7   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_23      PF13489.5  sp|A7MXI3|PRMA_VIBCB -            6.3e-07   29.3   0.0   1.2e-06   28.4   0.0   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_11      PF08241.11 sp|A7MXI3|PRMA_VIBCB -            1.5e-06   28.7   0.0   9.4e-06   26.1   0.0   2.2   2   0   0   2   2   2   1 Methyltransferase domain
+Methyltransf_12      PF08242.11 sp|A7MXI3|PRMA_VIBCB -              4e-06   27.4   0.0   8.7e-06   26.3   0.0   1.6   1   0   0   1   1   1   1 Methyltransferase domain
+Cons_hypoth95        PF03602.14 sp|A7MXI3|PRMA_VIBCB -            1.2e-05   25.0   0.0     3e-05   23.6   0.0   1.6   2   0   0   2   2   2   1 Conserved hypothetical protein 95
+Methyltransf_18      PF12847.6  sp|A7MXI3|PRMA_VIBCB -            1.5e-05   24.9   0.0   2.4e-05   24.2   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+Met_10               PF02475.15 sp|A7MXI3|PRMA_VIBCB -            1.7e-05   24.6   0.0   2.8e-05   23.9   0.0   1.3   1   0   0   1   1   1   1 Met-10+ like-protein
+PCMT                 PF01135.18 sp|A7MXI3|PRMA_VIBCB -            1.8e-05   24.5   0.0   2.8e-05   23.9   0.0   1.2   1   0   0   1   1   1   1 Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+N6_N4_Mtase          PF01555.17 sp|A7MXI3|PRMA_VIBCB -            4.5e-05   23.2   0.0   8.9e-05   22.2   0.0   1.4   1   1   0   1   1   1   1 DNA methylase
+Methyltransf_32      PF13679.5  sp|A7MXI3|PRMA_VIBCB -            0.00012   22.0   0.0    0.0002   21.3   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_9       PF08003.10 sp|A7MXI3|PRMA_VIBCB -            0.00073   18.5   0.0     0.001   18.0   0.0   1.2   1   0   0   1   1   1   1 Protein of unknown function (DUF1698)
+CMAS                 PF02353.19 sp|A7MXI3|PRMA_VIBCB -             0.0024   17.1   0.0    0.0041   16.4   0.0   1.3   1   0   0   1   1   1   1 Mycolic acid cyclopropane synthetase
+Methyltransf_15      PF09445.9  sp|A7MXI3|PRMA_VIBCB -             0.0037   16.9   0.0    0.0055   16.3   0.0   1.2   1   0   0   1   1   1   1 RNA cap guanine-N2 methyltransferase
+Ubie_methyltran      PF01209.17 sp|A7MXI3|PRMA_VIBCB -             0.0052   16.1   0.0     0.011   15.0   0.0   1.4   1   0   0   1   1   1   1 ubiE/COQ5 methyltransferase family
+UPF0020              PF01170.17 sp|A7MXI3|PRMA_VIBCB -              0.019   14.6   0.7     0.084   12.4   0.7   1.9   1   1   0   1   1   1   0 Putative RNA methylase family UPF0020
+Methyltrans_SAM      PF10672.8  sp|A7MXI3|PRMA_VIBCB -              0.031   13.3   0.0     0.043   12.9   0.0   1.2   1   0   0   1   1   1   0 S-adenosylmethionine-dependent methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7MXI3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7MXI3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7MXI3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:44:36 2019
+# [ok]

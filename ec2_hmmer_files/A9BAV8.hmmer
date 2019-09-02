@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transferase      PF00483.22 sp|A9BAV8|GLMU_PROM4 -              3e-22   79.3   0.0   4.5e-22   78.7   0.0   1.2   1   0   0   1   1   1   1 Nucleotidyl transferase
+NTP_transf_3         PF12804.6  sp|A9BAV8|GLMU_PROM4 -            1.1e-20   74.5   0.0   1.6e-20   74.0   0.0   1.2   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+Hexapep              PF00132.23 sp|A9BAV8|GLMU_PROM4 -            1.2e-19   69.1  15.2   5.5e-07   29.0   1.0   4.9   2   1   2   5   5   5   5 Bacterial transferase hexapeptide (six repeats)
+Hexapep_2            PF14602.5  sp|A9BAV8|GLMU_PROM4 -            7.9e-09   35.0  10.3   7.2e-06   25.6   0.3   4.1   4   0   0   4   4   4   2 Hexapeptide repeat of succinyl-transferase
+IspD                 PF01128.18 sp|A9BAV8|GLMU_PROM4 -            7.8e-08   32.2   0.1   1.5e-07   31.3   0.1   1.4   1   0   0   1   1   1   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+Fucokinase           PF07959.11 sp|A9BAV8|GLMU_PROM4 -            0.00029   19.9   1.7      0.04   12.8   0.5   2.5   1   1   1   2   2   2   2 L-fucokinase
+CTP_transf_3         PF02348.18 sp|A9BAV8|GLMU_PROM4 -             0.0031   17.4   0.0    0.0052   16.6   0.0   1.3   1   0   0   1   1   1   1 Cytidylyltransferase
+CofC                 PF01983.15 sp|A9BAV8|GLMU_PROM4 -              0.016   14.3   0.0     0.048   12.7   0.0   1.7   2   0   0   2   2   2   0 Guanylyl transferase CofC like
+DUF4954              PF16314.4  sp|A9BAV8|GLMU_PROM4 -               0.04   11.9   3.8      0.14   10.1   2.7   2.2   1   1   1   2   2   2   0 Domain of unknown function (DUF4954)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A9BAV8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A9BAV8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A9BAV8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:01:41 2019
+# [ok]

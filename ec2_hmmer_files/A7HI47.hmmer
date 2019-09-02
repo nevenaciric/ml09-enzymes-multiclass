@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|A7HI47|MURA_ANADF -            1.7e-98  330.0   0.1   1.9e-98  329.8   0.1   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+Fer2_4               PF13510.5  sp|A7HI47|MURA_ANADF -              0.071   13.1   0.2      0.38   10.7   0.1   2.3   2   0   0   2   2   2   0 2Fe-2S iron-sulfur cluster binding domain
+RTC                  PF01137.20 sp|A7HI47|MURA_ANADF -              0.088   11.9   0.0       0.2   10.7   0.0   1.5   1   0   0   1   1   1   0 RNA 3'-terminal phosphate cyclase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7HI47.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7HI47.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7HI47.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:41:37 2019
+# [ok]

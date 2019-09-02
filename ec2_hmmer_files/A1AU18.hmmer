@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|A1AU18|MIAA2_PELPD -            1.7e-57  194.8   0.0   2.1e-57  194.4   0.0   1.0   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|A1AU18|MIAA2_PELPD -            2.2e-06   27.1   0.0     4e-06   26.3   0.0   1.4   1   0   0   1   1   1   1 Isopentenyl transferase
+AAA_33               PF13671.5  sp|A1AU18|MIAA2_PELPD -            3.7e-05   23.8   0.0   9.9e-05   22.4   0.0   2.0   1   1   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|A1AU18|MIAA2_PELPD -             0.0063   16.8   0.2      0.06   13.6   0.2   2.3   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_22               PF13401.5  sp|A1AU18|MIAA2_PELPD -              0.026   14.7   0.0      0.49   10.6   0.0   2.4   2   1   0   2   2   2   0 AAA domain
+AAA_18               PF13238.5  sp|A1AU18|MIAA2_PELPD -              0.032   14.7   1.2      0.11   12.9   0.0   2.4   3   0   0   3   3   3   0 AAA domain
+PPV_E1_C             PF00519.16 sp|A1AU18|MIAA2_PELPD -                0.1   11.3   0.0      0.15   10.8   0.0   1.2   1   0   0   1   1   1   0 Papillomavirus helicase
+Cytidylate_kin       PF02224.17 sp|A1AU18|MIAA2_PELPD -                0.1   12.2   0.2      0.25   10.9   0.0   1.7   2   0   0   2   2   2   0 Cytidylate kinase
+AAA                  PF00004.28 sp|A1AU18|MIAA2_PELPD -               0.13   12.6   0.0      0.26   11.6   0.0   1.5   1   0   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+Mg_chelatase         PF01078.20 sp|A1AU18|MIAA2_PELPD -               0.23   10.7   0.2        18    4.5   0.1   2.4   2   0   0   2   2   2   0 Magnesium chelatase, subunit ChlI
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1AU18.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1AU18.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1AU18.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:36:11 2019
+# [ok]

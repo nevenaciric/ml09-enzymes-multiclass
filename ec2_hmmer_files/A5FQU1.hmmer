@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LGT                  PF01790.17 sp|A5FQU1|LGT_DEHMB  -              2e-50  171.2  16.3   2.3e-50  171.0  16.3   1.0   1   0   0   1   1   1   1 Prolipoprotein diacylglyceryl transferase
+Syndecan             PF01034.19 sp|A5FQU1|LGT_DEHMB  -              0.087   12.6   0.0     0.087   12.6   0.0   3.4   4   1   1   5   5   5   0 Syndecan domain
+Gram_pos_anchor      PF00746.20 sp|A5FQU1|LGT_DEHMB  -                  3    7.8   4.0        45    4.0   0.2   3.4   3   0   0   3   3   3   0 LPXTG cell wall anchor motif
+P12                  PF12669.6  sp|A5FQU1|LGT_DEHMB  -                3.8    7.9   0.0       3.8    7.9   0.0   3.9   6   0   0   6   6   6   0 Virus attachment protein p12 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A5FQU1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A5FQU1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A5FQU1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:17:19 2019
+# [ok]

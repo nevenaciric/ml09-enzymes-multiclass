@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_30      PF05430.10 sp|A1ADH3|MNMC_ECOK1 -            1.5e-50  170.2   0.0   2.7e-50  169.3   0.0   1.5   1   0   0   1   1   1   1 S-adenosyl-L-methionine-dependent methyltransferase
+DAO                  PF01266.23 sp|A1ADH3|MNMC_ECOK1 -            2.2e-47  162.2   1.2   2.8e-47  161.9   0.1   1.7   2   0   0   2   2   2   1 FAD dependent oxidoreductase
+NAD_binding_9        PF13454.5  sp|A1ADH3|MNMC_ECOK1 -             0.0066   16.4   1.1      0.58   10.0   0.1   2.5   2   0   0   2   2   2   2 FAD-NAD(P)-binding
+Mqo                  PF06039.14 sp|A1ADH3|MNMC_ECOK1 -              0.022   13.2   0.1      0.53    8.7   0.0   2.1   2   0   0   2   2   2   0 Malate:quinone oxidoreductase (Mqo)
+NAD_binding_8        PF13450.5  sp|A1ADH3|MNMC_ECOK1 -              0.032   14.4   0.1      0.27   11.4   0.0   2.5   2   0   0   2   2   2   0 NAD(P)-binding Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1ADH3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1ADH3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1ADH3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:35:25 2019
+# [ok]

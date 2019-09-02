@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_Rpb1_1       PF04997.11 sp|A7Z0N0|RPOC_BACVZ -            4.5e-90  302.0   0.0   8.1e-90  301.2   0.0   1.4   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 1
+RNA_pol_Rpb1_5       PF04998.16 sp|A7Z0N0|RPOC_BACVZ -            3.9e-69  233.0   0.8   4.9e-67  226.1   0.8   2.4   1   1   0   1   1   1   1 RNA polymerase Rpb1, domain 5
+RNA_pol_Rpb1_2       PF00623.19 sp|A7Z0N0|RPOC_BACVZ -            8.5e-41  139.9   0.0     2e-29  102.9   0.0   2.6   1   1   1   2   2   2   2 RNA polymerase Rpb1, domain 2
+RNA_pol_Rpb1_3       PF04983.17 sp|A7Z0N0|RPOC_BACVZ -            4.2e-37  127.4   0.8   2.9e-36  124.7   0.0   2.6   3   0   0   3   3   3   1 RNA polymerase Rpb1, domain 3
+RNA_pol_Rpb1_4       PF05000.16 sp|A7Z0N0|RPOC_BACVZ -            8.8e-15   54.5   0.0   2.6e-14   53.0   0.0   1.8   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 4
+Peptidase_M23        PF01551.21 sp|A7Z0N0|RPOC_BACVZ -               0.05   13.7   1.0       0.2   11.8   0.0   2.4   3   0   0   3   3   3   0 Peptidase family M23
+Apocytochr_F_C       PF01333.18 sp|A7Z0N0|RPOC_BACVZ -              0.051   13.5   0.4      0.14   12.1   0.4   1.7   1   0   0   1   1   1   0 Apocytochrome F, C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7Z0N0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7Z0N0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7Z0N0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:46:41 2019
+# [ok]

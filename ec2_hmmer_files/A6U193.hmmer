@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A6U193|PNP_STAA2  -            4.1e-42  143.7   0.0   6.3e-23   81.6   0.0   2.4   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|A6U193|PNP_STAA2  -              4e-26   90.7   0.9     3e-15   55.9   0.1   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|A6U193|PNP_STAA2  -            3.5e-20   72.0   0.9   8.1e-20   70.8   0.9   1.7   1   0   0   1   1   1   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|A6U193|PNP_STAA2  -            2.4e-13   50.2   4.7   2.4e-13   50.2   4.7   2.3   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|A6U193|PNP_STAA2  -            6.1e-10   38.7   4.7   7.4e-09   35.2   3.4   2.8   2   0   0   2   2   2   1 KH domain
+S1_2                 PF13509.5  sp|A6U193|PNP_STAA2  -             0.0021   18.0   0.2     0.017   15.1   0.2   2.5   2   1   0   2   2   2   1 S1 domain
+TRAM                 PF01938.19 sp|A6U193|PNP_STAA2  -               0.03   14.2   0.5       0.1   12.5   0.5   2.0   1   0   0   1   1   1   0 TRAM domain
+SPATA25              PF15218.5  sp|A6U193|PNP_STAA2  -              0.036   13.7   0.0     0.062   12.9   0.0   1.2   1   0   0   1   1   1   0 Spermatogenesis-associated protein 25
+DUF3921              PF13060.5  sp|A6U193|PNP_STAA2  -               0.11   12.4   0.1       0.4   10.6   0.1   2.0   1   0   0   1   1   1   0 Protein of unknown function (DUF3921)
+DUF416               PF04222.11 sp|A6U193|PNP_STAA2  -               0.42    9.9   3.4      0.66    9.3   1.2   2.3   2   1   0   2   2   2   0 Protein of unknown function (DUF416)
+KH_2                 PF07650.16 sp|A6U193|PNP_STAA2  -                3.6    7.4   9.1      0.11   12.2   1.0   2.7   3   1   0   3   3   3   0 KH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6U193.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6U193.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6U193.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:32:19 2019
+# [ok]

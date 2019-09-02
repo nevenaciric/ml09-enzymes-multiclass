@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SpoU_methylase       PF00588.18 sp|A1L2E4|MRM3B_DANRE -            3.6e-23   82.2   0.0   5.8e-21   75.0   0.0   2.5   1   1   0   1   1   1   1 SpoU rRNA Methylase family
+SpoU_sub_bind        PF08032.11 sp|A1L2E4|MRM3B_DANRE -            0.00013   22.0   0.0   0.00034   20.7   0.0   1.8   1   0   0   1   1   1   1 RNA 2'-O ribose methyltransferase substrate binding
+CP12                 PF02672.14 sp|A1L2E4|MRM3B_DANRE -               0.37   11.5   2.0      0.87   10.3   2.0   1.6   1   0   0   1   1   1   0 CP12 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1L2E4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1L2E4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1L2E4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:40:33 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACCA                 PF03255.13 sp|A6LSD1|ACCA_CLOB8 -            1.7e-44  151.1   0.0   3.1e-44  150.2   0.0   1.4   1   0   0   1   1   1   1 Acetyl co-enzyme A carboxylase carboxyltransferase alpha subunit
+Carboxyl_trans       PF01039.21 sp|A6LSD1|ACCA_CLOB8 -            1.3e-14   53.7   0.1   1.4e-14   53.6   0.1   1.0   1   0   0   1   1   1   1 Carboxyl transferase domain
+MdcE                 PF06833.10 sp|A6LSD1|ACCA_CLOB8 -             0.0018   17.7   0.0    0.0023   17.4   0.0   1.2   1   0   0   1   1   1   1 Malonate decarboxylase gamma subunit (MdcE)
+ECH_1                PF00378.19 sp|A6LSD1|ACCA_CLOB8 -              0.015   14.5   0.0     0.028   13.6   0.0   1.6   1   1   0   1   1   1   0 Enoyl-CoA hydratase/isomerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6LSD1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6LSD1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6LSD1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:28:07 2019
+# [ok]

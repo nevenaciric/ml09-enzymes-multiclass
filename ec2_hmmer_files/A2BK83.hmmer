@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_N            PF01194.16 sp|A2BK83|RPON_HYPBU -            4.4e-26   90.8   0.2     5e-26   90.7   0.2   1.0   1   0   0   1   1   1   1 RNA polymerases N / 8 kDa subunit
+Chordopox_RPO7       PF05864.11 sp|A2BK83|RPON_HYPBU -             0.0024   18.0   0.1    0.0037   17.4   0.1   1.4   1   1   0   1   1   1   1 Chordopoxvirus DNA-directed RNA polymerase 7 kDa polypeptide (RPO7)
+Ribosomal_S14        PF00253.20 sp|A2BK83|RPON_HYPBU -              0.021   14.5   1.4       2.5    7.8   0.3   2.2   1   1   1   2   2   2   0 Ribosomal protein S14p/S29e
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A2BK83.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A2BK83.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A2BK83.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:49:29 2019
+# [ok]

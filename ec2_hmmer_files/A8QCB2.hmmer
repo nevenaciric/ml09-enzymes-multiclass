@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|A8QCB2|ARO1_MALGO -           2.2e-122  408.7   0.1  3.5e-122  408.0   0.1   1.3   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|A8QCB2|ARO1_MALGO -            4.7e-96  320.9   1.0   1.3e-95  319.5   0.3   1.9   2   0   0   2   2   2   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|A8QCB2|ARO1_MALGO -            3.5e-56  190.9   0.0   7.2e-56  189.9   0.0   1.6   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+Shikimate_dh_N       PF08501.10 sp|A8QCB2|ARO1_MALGO -            7.6e-25   86.9   0.0   2.6e-24   85.2   0.0   2.0   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+SKI                  PF01202.21 sp|A8QCB2|ARO1_MALGO -            5.3e-24   85.0   0.0   4.7e-22   78.7   0.0   2.4   2   0   0   2   2   2   1 Shikimate kinase
+Shikimate_DH         PF01488.19 sp|A8QCB2|ARO1_MALGO -            3.1e-08   33.7   0.0   6.8e-08   32.6   0.0   1.5   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+Fe-ADH_2             PF13685.5  sp|A8QCB2|ARO1_MALGO -            1.6e-06   27.9   0.3   1.6e-06   27.9   0.3   2.6   3   0   0   3   3   3   1 Iron-containing alcohol dehydrogenase
+AAA_33               PF13671.5  sp|A8QCB2|ARO1_MALGO -             0.0015   18.6   0.0    0.0095   16.0   0.0   2.2   2   0   0   2   2   2   1 AAA domain
+UreF                 PF01730.15 sp|A8QCB2|ARO1_MALGO -              0.064   13.7   0.1      0.27   11.7   0.1   2.1   1   0   0   1   1   1   0 UreF
+AAA_16               PF13191.5  sp|A8QCB2|ARO1_MALGO -               0.09   13.0   0.1      0.75   10.0   0.0   2.6   2   1   1   3   3   3   0 AAA ATPase domain
+AAA_18               PF13238.5  sp|A8QCB2|ARO1_MALGO -               0.13   12.7   0.0      0.26   11.7   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A8QCB2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A8QCB2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A8QCB2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:58:47 2019
+# [ok]

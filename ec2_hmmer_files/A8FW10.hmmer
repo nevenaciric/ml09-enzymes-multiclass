@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CTP_transf_3         PF02348.18 sp|A8FW10|KDSB_SHESH -            1.2e-49  169.1   0.0   1.5e-49  168.8   0.0   1.0   1   0   0   1   1   1   1 Cytidylyltransferase
+NTP_transf_3         PF12804.6  sp|A8FW10|KDSB_SHESH -            2.2e-13   50.8   0.0   2.4e-13   50.6   0.0   1.2   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+EF1_GNE              PF00736.18 sp|A8FW10|KDSB_SHESH -               0.11   12.6   0.1      0.86    9.7   0.0   2.3   1   1   1   2   2   2   0 EF-1 guanine nucleotide exchange domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A8FW10.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A8FW10.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A8FW10.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:53:47 2019
+# [ok]

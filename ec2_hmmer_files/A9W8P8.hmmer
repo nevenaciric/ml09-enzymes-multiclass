@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A9W8P8|PNP_METEP  -            3.6e-50  169.8   0.0   2.3e-24   86.3   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|A9W8P8|PNP_METEP  -            4.7e-23   81.4   1.9   2.3e-22   79.2   0.4   2.6   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+RNase_PH_C           PF03725.14 sp|A9W8P8|PNP_METEP  -            1.1e-18   66.9   2.8   1.4e-09   37.8   0.0   3.6   3   0   0   3   3   3   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|A9W8P8|PNP_METEP  -            1.1e-17   64.0   0.8     3e-17   62.6   0.8   1.8   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|A9W8P8|PNP_METEP  -            4.7e-11   42.3   3.6     3e-10   39.7   3.0   2.5   2   0   0   2   2   2   1 KH domain
+Cauli_DNA-bind       PF03310.12 sp|A9W8P8|PNP_METEP  -               0.11   12.5   0.0       0.5   10.3   0.0   2.1   2   0   0   2   2   2   0 Caulimovirus DNA-binding protein
+PHB_acc_N            PF07879.10 sp|A9W8P8|PNP_METEP  -               0.25   11.3   0.9      0.77    9.8   0.0   2.2   2   0   0   2   2   2   0 PHB/PHA accumulation regulator DNA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A9W8P8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A9W8P8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A9W8P8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:10:47 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|A5FRB9|DXS_DEHMB  -           7.5e-114  379.4   0.0  1.3e-113  378.6   0.0   1.4   1   0   0   1   1   1   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|A5FRB9|DXS_DEHMB  -            3.4e-41  140.8   0.0     6e-41  140.0   0.0   1.4   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|A5FRB9|DXS_DEHMB  -            2.5e-26   91.9   0.1   7.7e-26   90.3   0.0   1.9   2   0   0   2   2   2   1 Transketolase, C-terminal domain
+Transketolase_N      PF00456.20 sp|A5FRB9|DXS_DEHMB  -            1.7e-08   33.7   0.4    0.0011   17.9   0.3   2.6   2   1   0   2   2   2   2 Transketolase, thiamine diphosphate binding domain
+TPP_enzyme_C         PF02775.20 sp|A5FRB9|DXS_DEHMB  -            1.1e-06   28.4   0.6   4.9e-05   23.1   0.6   2.5   1   1   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+E1_dh                PF00676.19 sp|A5FRB9|DXS_DEHMB  -            4.9e-06   25.6   0.2     3e-05   23.0   0.1   2.1   2   0   0   2   2   2   1 Dehydrogenase E1 component
+PFOR_II              PF17147.3  sp|A5FRB9|DXS_DEHMB  -             0.0013   18.9   0.0    0.0033   17.6   0.0   1.7   1   0   0   1   1   1   1 Pyruvate:ferredoxin oxidoreductase core domain II
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A5FRB9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A5FRB9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A5FRB9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:17:22 2019
+# [ok]

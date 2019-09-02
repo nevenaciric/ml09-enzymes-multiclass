@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_M_2       PF16582.4  sp|A8FPR6|MEND_SHESH -            3.1e-64  216.4   7.4   4.7e-64  215.8   7.4   1.3   1   0   0   1   1   1   1 Middle domain of thiamine pyrophosphate
+TPP_enzyme_N         PF02776.17 sp|A8FPR6|MEND_SHESH -            1.9e-32  112.1   0.4   1.1e-31  109.7   0.0   2.3   3   0   0   3   3   3   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_C         PF02775.20 sp|A8FPR6|MEND_SHESH -            5.2e-09   36.0   0.0   1.5e-08   34.4   0.0   1.8   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+Se-cys_synth_N       PF12390.7  sp|A8FPR6|MEND_SHESH -              0.017   15.2   0.7      0.54   10.4   0.2   2.7   2   0   0   2   2   2   0 Selenocysteine synthase N terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A8FPR6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A8FPR6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A8FPR6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:53:28 2019
+# [ok]

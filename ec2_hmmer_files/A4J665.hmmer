@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_m1G_MT          PF01746.20 sp|A4J665|TRMD_DESRM -            5.2e-70  235.0   0.0   6.2e-70  234.8   0.0   1.1   1   0   0   1   1   1   1 tRNA (Guanine-1)-methyltransferase
+AAA_25               PF13481.5  sp|A4J665|TRMD_DESRM -              0.036   13.5   0.0     0.055   12.9   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+DUF2443              PF10398.8  sp|A4J665|TRMD_DESRM -              0.072   13.1   0.9       1.8    8.6   0.5   2.7   3   0   0   3   3   3   0 Protein of unknown function (DUF2443)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4J665.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4J665.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4J665.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:03:47 2019
+# [ok]

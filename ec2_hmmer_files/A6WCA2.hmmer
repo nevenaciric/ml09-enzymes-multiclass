@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DMRL_synthase        PF00885.18 sp|A6WCA2|RISB_KINRD -            1.7e-51  173.7   1.8   1.9e-51  173.5   1.8   1.0   1   0   0   1   1   1   1 6,7-dimethyl-8-ribityllumazine synthase
+Peripla_BP_6         PF13458.5  sp|A6WCA2|RISB_KINRD -             0.0048   16.5   1.0    0.0048   16.5   1.0   1.7   1   1   1   2   2   2   1 Periplasmic binding protein
+FeS_assembly_P       PF01883.18 sp|A6WCA2|RISB_KINRD -               0.61   10.2   5.2       1.1    9.4   0.2   2.7   3   1   0   3   3   3   0 Iron-sulfur cluster assembly protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6WCA2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6WCA2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6WCA2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:36:17 2019
+# [ok]

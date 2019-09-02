@@ -1,0 +1,33 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+I-set                PF07679.15 sp|A8DYP0|OBSCN_DROME -                  0 1046.4  11.9   1.7e-18   66.4   0.1  21.6  22   0   0  22  22  21  21 Immunoglobulin I-set domain
+Ig_3                 PF13927.5  sp|A8DYP0|OBSCN_DROME -           2.5e-210  681.6   0.5   4.1e-11   43.2   0.0  21.8  21   0   0  21  21  21  21 Immunoglobulin domain
+Ig_2                 PF13895.5  sp|A8DYP0|OBSCN_DROME -           1.8e-104  342.1   3.9   5.9e-06   26.4   0.0  22.0  20   2   1  21  21  21  17 Immunoglobulin domain
+Pkinase              PF00069.24 sp|A8DYP0|OBSCN_DROME -              1e-92  310.1   0.0   5.1e-49  166.9   0.0   2.4   2   0   0   2   2   2   2 Protein kinase domain
+ig                   PF00047.24 sp|A8DYP0|OBSCN_DROME -            3.8e-77  254.4   1.0   4.3e-05   23.5   0.0  19.1  19   0   0  19  19  19  13 Immunoglobulin domain
+V-set                PF07686.16 sp|A8DYP0|OBSCN_DROME -            1.9e-50  169.5  13.9    0.0002   21.4   0.0  22.4  20   5   0  20  20  18  12 Immunoglobulin V-set domain
+Pkinase_Tyr          PF07714.16 sp|A8DYP0|OBSCN_DROME -            7.4e-49  166.3   0.0   1.5e-23   83.3   0.0   2.3   2   0   0   2   2   2   2 Protein tyrosine kinase
+RhoGEF               PF00621.19 sp|A8DYP0|OBSCN_DROME -            2.1e-24   86.7   1.8   5.1e-24   85.4   1.8   1.7   1   0   0   1   1   1   1 RhoGEF domain
+C2-set_2             PF08205.11 sp|A8DYP0|OBSCN_DROME -            2.9e-21   75.2   0.5       2.7    8.1   0.0  16.4  19   0   0  19  19  18   2 CD80-like C2-set immunoglobulin domain
+fn3                  PF00041.20 sp|A8DYP0|OBSCN_DROME -              3e-21   75.4   0.0   5.3e-12   45.8   0.0   3.7   3   0   0   3   3   3   2 Fibronectin type III domain
+Receptor_2B4         PF11465.7  sp|A8DYP0|OBSCN_DROME -            6.9e-17   61.5  13.5      0.55   10.4   0.1  16.0  17   1   1  18  18  18   2 Natural killer cell receptor 2B4
+Izumo-Ig             PF16706.4  sp|A8DYP0|OBSCN_DROME -            9.3e-08   31.9  11.1       7.7    6.5   0.1  10.8  13   0   0  13  13  13   1 Izumo-like Immunoglobulin domain
+Herpes_gE            PF02480.15 sp|A8DYP0|OBSCN_DROME -            2.1e-05   23.4   7.8       7.1    5.2   0.0   7.9  10   1   0  11  11  11   1 Alphaherpesvirus glycoprotein E
+Kdo                  PF06293.13 sp|A8DYP0|OBSCN_DROME -            0.00023   20.5   0.3     0.003   16.8   0.0   2.2   2   0   0   2   2   2   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+Pur_ac_phosph_N      PF16656.4  sp|A8DYP0|OBSCN_DROME -             0.0027   18.1   6.7     0.031   14.8   0.0   4.1   4   0   0   4   4   2   1 Purple acid Phosphatase, N-terminal domain
+SH3_2                PF07653.16 sp|A8DYP0|OBSCN_DROME -              0.035   13.7   0.0      0.13   11.8   0.0   2.0   1   0   0   1   1   1   0 Variant SH3 domain
+DUF1831              PF08866.9  sp|A8DYP0|OBSCN_DROME -              0.068   13.5   0.1      0.26   11.7   0.1   2.0   1   0   0   1   1   1   0 Putative amino acid metabolism
+DUF1214              PF06742.10 sp|A8DYP0|OBSCN_DROME -               0.14   12.6   0.0       3.4    8.1   0.0   3.3   2   0   0   2   2   2   0 Protein of unknown function (DUF1214)
+Peptidase_A4         PF01828.16 sp|A8DYP0|OBSCN_DROME -               0.15   11.4   4.5      0.42    9.9   2.3   2.9   3   1   1   4   4   4   0 Peptidase A4 family
+V-set_CD47           PF08204.10 sp|A8DYP0|OBSCN_DROME -               0.48   10.3  20.9       4.3    7.2   0.2   8.5  10   0   0  10  10   9   0 CD47 immunoglobulin-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A8DYP0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A8DYP0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A8DYP0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:51:18 2019
+# [ok]

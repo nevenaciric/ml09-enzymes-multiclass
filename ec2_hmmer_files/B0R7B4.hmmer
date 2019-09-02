@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pribosyltran_N       PF13793.5  sp|B0R7B4|KPRS_HALS3 -            1.8e-23   82.6   0.0   7.3e-22   77.4   0.0   2.3   2   1   0   2   2   2   1 N-terminal domain of ribose phosphate pyrophosphokinase
+Pribosyltran         PF00156.26 sp|B0R7B4|KPRS_HALS3 -            6.7e-09   35.4   0.1   2.3e-08   33.6   0.4   1.8   2   0   0   2   2   2   1 Phosphoribosyl transferase domain
+UPRTase              PF14681.5  sp|B0R7B4|KPRS_HALS3 -              0.013   14.8   0.1     0.022   14.1   0.1   1.3   1   0   0   1   1   1   0 Uracil phosphoribosyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0R7B4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0R7B4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0R7B4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:16:00 2019
+# [ok]

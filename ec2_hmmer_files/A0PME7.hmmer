@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_M22        PF00814.24 sp|A0PME7|TSAD_MYCUA -            2.1e-86  289.9   0.2   2.4e-86  289.7   0.2   1.0   1   0   0   1   1   1   1 Glycoprotease family
+Carbam_trans_N       PF02543.14 sp|A0PME7|TSAD_MYCUA -            0.00068   19.3   0.0    0.0056   16.3   0.0   1.9   1   1   0   1   1   1   1 Carbamoyltransferase N-terminus
+Ser_hydrolase        PF06821.12 sp|A0PME7|TSAD_MYCUA -              0.092   12.5   0.0      0.16   11.7   0.0   1.4   1   0   0   1   1   1   0 Serine hydrolase
+GHMP_kinases_N       PF00288.25 sp|A0PME7|TSAD_MYCUA -               0.75   10.0   6.3      0.43   10.7   0.3   2.9   3   0   0   3   3   3   0 GHMP kinases N terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A0PME7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A0PME7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A0PME7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:30:50 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|A7GV80|KITH_BACCN -            7.1e-61  205.0   0.0     8e-61  204.9   0.0   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_14               PF13173.5  sp|A7GV80|KITH_BACCN -             0.0046   16.9   0.1    0.0065   16.4   0.1   1.2   1   0   0   1   1   1   1 AAA domain
+Zn-ribbon_8          PF09723.9  sp|A7GV80|KITH_BACCN -              0.021   14.8   0.3         8    6.6   0.1   2.5   2   0   0   2   2   2   0 Zinc ribbon domain
+UvrD-helicase        PF00580.20 sp|A7GV80|KITH_BACCN -              0.091   12.2   0.0      0.12   11.8   0.0   1.1   1   0   0   1   1   1   0 UvrD/REP helicase N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7GV80.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7GV80.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7GV80.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:40:28 2019
+# [ok]

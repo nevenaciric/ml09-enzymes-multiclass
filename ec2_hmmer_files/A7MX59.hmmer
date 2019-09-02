@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|A7MX59|PFKA_VIBCB -           3.8e-110  367.6   2.2  4.6e-110  367.3   2.2   1.1   1   0   0   1   1   1   1 Phosphofructokinase
+NAD_kinase           PF01513.20 sp|A7MX59|PFKA_VIBCB -             0.0024   17.0   0.0    0.0037   16.4   0.0   1.2   1   0   0   1   1   1   1 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|A7MX59|PFKA_VIBCB -              0.017   14.6   0.1      0.25   10.9   0.0   2.3   2   0   0   2   2   2   0 Diacylglycerol kinase catalytic domain
+Peripla_BP_1         PF00532.20 sp|A7MX59|PFKA_VIBCB -               0.11   11.8   0.0      0.19   11.0   0.0   1.3   1   0   0   1   1   1   0 Periplasmic binding proteins and sugar binding domain of LacI family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7MX59.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7MX59.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7MX59.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:44:33 2019
+# [ok]

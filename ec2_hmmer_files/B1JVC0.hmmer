@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PrmA                 PF06325.12 sp|B1JVC0|PRMA_BURCC -            4.6e-91  305.2   0.0   5.2e-91  305.0   0.0   1.0   1   0   0   1   1   1   1 Ribosomal protein L11 methyltransferase (PrmA)
+Methyltransf_23      PF13489.5  sp|B1JVC0|PRMA_BURCC -            9.3e-14   51.5   0.0   1.6e-13   50.7   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_31      PF13847.5  sp|B1JVC0|PRMA_BURCC -            1.5e-11   44.2   0.0   3.6e-11   43.0   0.0   1.6   1   0   0   1   1   1   1 Methyltransferase domain
+MTS                  PF05175.13 sp|B1JVC0|PRMA_BURCC -            6.1e-11   42.0   0.0   1.1e-10   41.2   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase small domain
+Methyltransf_25      PF13649.5  sp|B1JVC0|PRMA_BURCC -              7e-11   42.6   0.0   1.8e-10   41.3   0.0   1.8   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_11      PF08241.11 sp|B1JVC0|PRMA_BURCC -            2.7e-08   34.2   0.0     7e-08   32.9   0.0   1.8   1   0   0   1   1   1   1 Methyltransferase domain
+PCMT                 PF01135.18 sp|B1JVC0|PRMA_BURCC -            2.2e-07   30.7   0.0   3.9e-07   29.9   0.0   1.3   1   0   0   1   1   1   1 Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+Met_10               PF02475.15 sp|B1JVC0|PRMA_BURCC -            1.9e-05   24.4   0.0     3e-05   23.8   0.0   1.2   1   0   0   1   1   1   1 Met-10+ like-protein
+N6_N4_Mtase          PF01555.17 sp|B1JVC0|PRMA_BURCC -            2.5e-05   24.0   0.0   3.5e-05   23.5   0.0   1.3   1   0   0   1   1   1   1 DNA methylase
+Methyltransf_12      PF08242.11 sp|B1JVC0|PRMA_BURCC -            2.5e-05   24.8   0.0   4.5e-05   24.0   0.0   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_18      PF12847.6  sp|B1JVC0|PRMA_BURCC -            0.00075   19.4   0.0    0.0012   18.7   0.0   1.2   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_32      PF13679.5  sp|B1JVC0|PRMA_BURCC -             0.0012   18.7   0.0     0.002   18.0   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+MetW                 PF07021.11 sp|B1JVC0|PRMA_BURCC -             0.0047   16.4   0.0    0.0067   15.9   0.0   1.2   1   0   0   1   1   1   1 Methionine biosynthesis protein MetW
+CMAS                 PF02353.19 sp|B1JVC0|PRMA_BURCC -             0.0086   15.3   0.0     0.016   14.4   0.0   1.5   1   1   0   1   1   1   1 Mycolic acid cyclopropane synthetase
+TPMT                 PF05724.10 sp|B1JVC0|PRMA_BURCC -             0.0087   15.6   0.0     0.018   14.6   0.0   1.5   1   0   0   1   1   1   1 Thiopurine S-methyltransferase (TPMT)
+UPF0020              PF01170.17 sp|B1JVC0|PRMA_BURCC -             0.0087   15.7   0.2      0.11   12.1   0.2   2.2   1   1   0   1   1   1   1 Putative RNA methylase family UPF0020
+Cons_hypoth95        PF03602.14 sp|B1JVC0|PRMA_BURCC -              0.013   15.1   0.0     0.022   14.3   0.0   1.3   1   0   0   1   1   1   0 Conserved hypothetical protein 95
+TrkA_N               PF02254.17 sp|B1JVC0|PRMA_BURCC -              0.015   15.5   0.1       0.5   10.6   0.0   2.9   2   1   0   2   2   2   0 TrkA-N domain
+Methyltransf_4       PF02390.16 sp|B1JVC0|PRMA_BURCC -               0.13   11.7   0.0      0.31   10.4   0.0   1.6   2   0   0   2   2   2   0 Putative methyltransferase
+Ubie_methyltran      PF01209.17 sp|B1JVC0|PRMA_BURCC -               0.13   11.5   0.0      0.18   11.0   0.0   1.3   1   0   0   1   1   1   0 ubiE/COQ5 methyltransferase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B1JVC0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B1JVC0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B1JVC0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:26:37 2019
+# [ok]

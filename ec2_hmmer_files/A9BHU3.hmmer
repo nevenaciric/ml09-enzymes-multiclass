@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|A9BHU3|NADK_PETMO -            2.4e-41  141.7   0.2     3e-41  141.4   0.2   1.2   1   0   0   1   1   1   1 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|A9BHU3|NADK_PETMO -              0.045   13.3   0.0      0.12   11.9   0.0   1.9   1   0   0   1   1   1   0 Diacylglycerol kinase catalytic domain
+AIM24                PF01987.16 sp|A9BHU3|NADK_PETMO -               0.12   12.1   0.0      0.27   10.9   0.0   1.6   1   1   0   1   1   1   0 Mitochondrial biogenesis AIM24
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A9BHU3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A9BHU3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A9BHU3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:02:06 2019
+# [ok]

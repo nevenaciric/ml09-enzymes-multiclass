@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|A5VKT6|MIAA_LACRD -            1.1e-80  270.6   0.0   1.4e-80  270.3   0.0   1.1   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|A5VKT6|MIAA_LACRD -            9.7e-09   34.9   0.0   1.8e-08   33.9   0.0   1.4   1   0   0   1   1   1   1 Isopentenyl transferase
+AAA_33               PF13671.5  sp|A5VKT6|MIAA_LACRD -             0.0077   16.3   0.0     0.019   15.1   0.0   1.9   1   1   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|A5VKT6|MIAA_LACRD -             0.0083   16.5   0.2       1.9    8.9   0.1   2.6   1   1   0   2   2   2   1 AAA domain
+MMR_HSR1             PF01926.22 sp|A5VKT6|MIAA_LACRD -              0.092   12.7   0.0       0.2   11.6   0.0   1.7   1   0   0   1   1   1   0 50S ribosome-binding GTPase
+Cytidylate_kin       PF02224.17 sp|A5VKT6|MIAA_LACRD -              0.095   12.3   0.0      0.14   11.7   0.0   1.4   1   0   0   1   1   1   0 Cytidylate kinase
+AAA                  PF00004.28 sp|A5VKT6|MIAA_LACRD -               0.13   12.6   0.0         5    7.5   0.0   2.3   2   0   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A5VKT6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A5VKT6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A5VKT6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:24:42 2019
+# [ok]

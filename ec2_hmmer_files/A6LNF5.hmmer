@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A6LNF5|PNP_THEM4  -            4.1e-43  147.0   0.0   4.3e-22   78.9   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|A6LNF5|PNP_THEM4  -            4.4e-22   77.8   3.1   2.1e-14   53.2   0.5   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|A6LNF5|PNP_THEM4  -            9.9e-13   48.2   2.1   2.1e-12   47.1   1.2   2.1   2   0   0   2   2   2   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|A6LNF5|PNP_THEM4  -            9.1e-09   35.6   4.8   9.1e-09   35.6   4.8   2.2   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|A6LNF5|PNP_THEM4  -            3.2e-08   33.2   1.6   8.4e-08   31.8   1.6   1.8   1   0   0   1   1   1   1 KH domain
+Prophage_tail        PF06605.10 sp|A6LNF5|PNP_THEM4  -               0.16   11.4   0.3      0.48    9.8   0.1   1.8   2   0   0   2   2   2   0 Prophage endopeptidase tail
+DUF1497              PF07384.10 sp|A6LNF5|PNP_THEM4  -                3.7    7.9   6.6       1.5    9.2   2.4   2.3   2   0   0   2   2   2   0 Protein of unknown function (DUF1497)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6LNF5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6LNF5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6LNF5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:27:55 2019
+# [ok]

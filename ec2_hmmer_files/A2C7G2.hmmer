@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_M22        PF00814.24 sp|A2C7G2|TSAD_PROM3 -            2.4e-84  283.2   0.2   2.8e-84  283.0   0.2   1.0   1   0   0   1   1   1   1 Glycoprotease family
+Carbam_trans_N       PF02543.14 sp|A2C7G2|TSAD_PROM3 -            0.00014   21.5   0.0   0.00017   21.3   0.0   1.2   1   0   0   1   1   1   1 Carbamoyltransferase N-terminus
+BcrAD_BadFG          PF01869.19 sp|A2C7G2|TSAD_PROM3 -                0.1   11.9   0.1      0.34   10.3   0.0   1.8   2   0   0   2   2   2   0 BadF/BadG/BcrA/BcrD ATPase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A2C7G2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A2C7G2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A2C7G2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:50:50 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|A7J1T0|M313B_XENLA -            1.3e-64  217.9   0.0   1.9e-64  217.3   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|A7J1T0|M313B_XENLA -            5.4e-60  202.9   0.0   8.8e-60  202.2   0.0   1.3   1   0   0   1   1   1   1 Protein kinase domain
+DUF737               PF05300.10 sp|A7J1T0|M313B_XENLA -             0.0066   16.7   3.4     0.026   14.8   0.1   2.4   2   0   0   2   2   2   1 Protein of unknown function (DUF737)
+APH                  PF01636.22 sp|A7J1T0|M313B_XENLA -                0.1   12.4   0.0       1.4    8.7   0.1   2.4   2   0   0   2   2   2   0 Phosphotransferase enzyme family
+Tox-REase-2          PF15646.5  sp|A7J1T0|M313B_XENLA -               0.15   12.1   0.2       0.7   10.0   0.1   2.2   2   0   0   2   2   2   0 Restriction endonuclease fold toxin 2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7J1T0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7J1T0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7J1T0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:43:09 2019
+# [ok]

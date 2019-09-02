@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A1AMM6|PNP_PELPD  -            4.5e-42  143.6   0.0   1.2e-19   71.0   0.0   2.4   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|A1AMM6|PNP_PELPD  -            6.7e-24   83.6   1.2   1.7e-14   53.5   0.1   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|A1AMM6|PNP_PELPD  -            2.8e-18   66.1   0.6   8.3e-18   64.6   0.6   1.9   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|A1AMM6|PNP_PELPD  -              8e-17   61.3   1.7     8e-17   61.3   1.7   1.9   2   0   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|A1AMM6|PNP_PELPD  -            1.8e-10   40.4   6.4   3.8e-10   39.3   1.7   3.0   3   0   0   3   3   3   1 KH domain
+KH_2                 PF07650.16 sp|A1AMM6|PNP_PELPD  -             0.0083   15.8   0.7     0.025   14.3   0.2   2.1   2   0   0   2   2   2   1 KH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1AMM6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1AMM6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1AMM6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:35:57 2019
+# [ok]

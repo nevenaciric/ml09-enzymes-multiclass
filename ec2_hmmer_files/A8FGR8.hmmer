@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BATS                 PF06968.12 sp|A8FGR8|BIOB_BACP2 -            4.2e-16   58.8   0.0   2.1e-14   53.3   0.0   2.4   2   0   0   2   2   2   1 Biotin and Thiamin Synthesis associated domain
+Radical_SAM          PF04055.20 sp|A8FGR8|BIOB_BACP2 -            1.4e-14   54.7   0.3   3.1e-14   53.6   0.2   1.6   2   0   0   2   2   2   1 Radical SAM superfamily
+Ligase_CoA           PF00549.18 sp|A8FGR8|BIOB_BACP2 -             0.0048   16.6   0.2      0.07   12.8   0.0   2.3   1   1   1   2   2   2   1 CoA-ligase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A8FGR8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A8FGR8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A8FGR8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:52:51 2019
+# [ok]

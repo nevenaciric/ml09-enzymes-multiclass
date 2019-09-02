@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|B0K9C2|AROK_THEP3 -            3.5e-43  147.3   0.0   4.4e-43  147.0   0.0   1.0   1   0   0   1   1   1   1 Shikimate kinase
+Cytidylate_kin       PF02224.17 sp|B0K9C2|AROK_THEP3 -            3.6e-06   26.8   0.1    0.0012   18.5   0.0   2.1   2   0   0   2   2   2   2 Cytidylate kinase
+AAA_33               PF13671.5  sp|B0K9C2|AROK_THEP3 -            0.00037   20.6   0.0    0.0007   19.7   0.0   1.6   1   1   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|B0K9C2|AROK_THEP3 -            0.00066   20.1   0.2    0.0013   19.1   0.1   1.6   1   1   1   2   2   2   1 AAA domain
+CoaE                 PF01121.19 sp|B0K9C2|AROK_THEP3 -             0.0013   18.3   0.1    0.0029   17.2   0.1   1.5   1   0   0   1   1   1   1 Dephospho-CoA kinase
+Cytidylate_kin2      PF13189.5  sp|B0K9C2|AROK_THEP3 -             0.0024   18.0   0.1     0.004   17.2   0.1   1.7   1   1   0   1   1   1   1 Cytidylate kinase-like family
+AAA                  PF00004.28 sp|B0K9C2|AROK_THEP3 -             0.0035   17.7   0.3    0.0068   16.7   0.3   1.8   1   1   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+AAA_17               PF13207.5  sp|B0K9C2|AROK_THEP3 -               0.02   15.2   0.2      0.05   13.9   0.2   1.8   1   1   0   1   1   1   0 AAA domain
+AAA_22               PF13401.5  sp|B0K9C2|AROK_THEP3 -               0.17   12.1   0.1       0.3   11.3   0.1   1.6   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0K9C2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0K9C2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0K9C2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:14:41 2019
+# [ok]

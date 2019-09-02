@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_Rpb5_C       PF01191.18 sp|A6UV53|RPOH_META3 -            3.5e-29  100.3   0.5   3.9e-29  100.1   0.5   1.0   1   0   0   1   1   1   1 RNA polymerase Rpb5, C-terminal domain
+DUF1967              PF09269.10 sp|A6UV53|RPOH_META3 -              0.037   13.9   0.2      0.27   11.1   0.2   2.0   1   1   0   1   1   1   0 Domain of unknown function (DUF1967)
+Arg_repressor        PF01316.20 sp|A6UV53|RPOH_META3 -                0.1   12.2   1.6      0.12   12.0   0.6   1.6   2   0   0   2   2   2   0 Arginine repressor, DNA binding domain
+T4_neck-protein      PF11649.7  sp|A6UV53|RPOH_META3 -               0.14   11.3   0.0      0.14   11.3   0.0   1.0   1   0   0   1   1   1   0 Virus neck protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6UV53.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6UV53.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6UV53.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:33:39 2019
+# [ok]

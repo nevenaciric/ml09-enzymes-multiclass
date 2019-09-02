@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|A7ZEK1|MNMA_CAMC1 -            5.3e-99  331.3   2.8   5.9e-99  331.1   2.8   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+NAD_synthase         PF02540.16 sp|A7ZEK1|MNMA_CAMC1 -            5.8e-07   28.8   0.0   1.1e-05   24.6   0.0   2.4   1   1   1   2   2   2   1 NAD synthase
+QueC                 PF06508.12 sp|A7ZEK1|MNMA_CAMC1 -              1e-06   28.3   0.1     5e-06   26.1   0.1   1.9   1   1   0   1   1   1   1 Queuosine biosynthesis protein QueC
+ThiI                 PF02568.13 sp|A7ZEK1|MNMA_CAMC1 -             0.0012   18.4   0.1     0.005   16.3   0.0   2.0   2   0   0   2   2   2   1 Thiamine biosynthesis protein (ThiI)
+ATP_bind_3           PF01171.19 sp|A7ZEK1|MNMA_CAMC1 -             0.0025   17.5   0.0    0.0056   16.4   0.0   1.6   1   0   0   1   1   1   1 PP-loop family
+Arginosuc_synth      PF00764.18 sp|A7ZEK1|MNMA_CAMC1 -             0.0025   17.1   0.0    0.0039   16.5   0.0   1.3   1   0   0   1   1   1   1 Arginosuccinate synthase
+Diphthami_syn_2      PF01902.16 sp|A7ZEK1|MNMA_CAMC1 -              0.009   15.4   0.1     0.016   14.6   0.1   1.4   1   0   0   1   1   1   1 Diphthamide synthase
+PAPS_reduct          PF01507.18 sp|A7ZEK1|MNMA_CAMC1 -              0.016   15.2   0.0     0.027   14.4   0.0   1.4   1   0   0   1   1   1   0 Phosphoadenosine phosphosulfate reductase family
+DUF3659              PF12396.7  sp|A7ZEK1|MNMA_CAMC1 -              0.034   13.9   0.1     0.081   12.8   0.1   1.6   1   0   0   1   1   1   0 Protein of unknown function (DUF3659)
+Asn_synthase         PF00733.20 sp|A7ZEK1|MNMA_CAMC1 -               0.17   11.4   0.0      0.24   10.9   0.0   1.2   1   0   0   1   1   1   0 Asparagine synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7ZEK1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7ZEK1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7ZEK1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:47:28 2019
+# [ok]

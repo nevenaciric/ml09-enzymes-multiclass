@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ThiG                 PF05690.13 sp|A7FNH9|THIG_YERP3 -           7.7e-105  349.5   0.1  9.4e-105  349.3   0.1   1.0   1   0   0   1   1   1   1 Thiazole biosynthesis protein ThiG
+His_biosynth         PF00977.20 sp|A7FNH9|THIG_YERP3 -            2.7e-05   23.6   0.0   0.00031   20.2   0.0   2.0   2   0   0   2   2   2   1 Histidine biosynthesis protein
+FMN_dh               PF01070.17 sp|A7FNH9|THIG_YERP3 -            0.00053   19.0   0.1   0.00078   18.5   0.1   1.2   1   0   0   1   1   1   1 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|A7FNH9|THIG_YERP3 -              0.017   14.0   0.1     0.025   13.5   0.1   1.2   1   0   0   1   1   1   0 IMP dehydrogenase / GMP reductase domain
+NanE                 PF04131.13 sp|A7FNH9|THIG_YERP3 -              0.022   13.8   0.1     0.051   12.7   0.1   1.6   1   0   0   1   1   1   0 Putative N-acetylmannosamine-6-phosphate epimerase
+SpoVS                PF04232.11 sp|A7FNH9|THIG_YERP3 -               0.11   12.1   0.2       1.5    8.5   0.0   2.7   3   1   1   4   4   4   0 Stage V sporulation protein S (SpoVS)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7FNH9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7FNH9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7FNH9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:38:50 2019
+# [ok]

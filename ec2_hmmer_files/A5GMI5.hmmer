@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_m1G_MT          PF01746.20 sp|A5GMI5|TRMD_SYNPW -            2.1e-62  210.2   0.0   2.4e-62  210.0   0.0   1.0   1   0   0   1   1   1   1 tRNA (Guanine-1)-methyltransferase
+SPOUT_MTase          PF02590.16 sp|A5GMI5|TRMD_SYNPW -              0.045   13.6   0.0     0.072   13.0   0.0   1.2   1   0   0   1   1   1   0 Predicted SPOUT methyltransferase
+DUF3653              PF12375.7  sp|A5GMI5|TRMD_SYNPW -               0.12   12.4   0.5      0.24   11.4   0.0   1.8   2   0   0   2   2   2   0 Phage protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A5GMI5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A5GMI5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A5GMI5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:18:34 2019
+# [ok]

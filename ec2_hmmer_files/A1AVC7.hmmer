@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-sulfurylase      PF01747.16 sp|A1AVC7|SAT_RUTMC  -            1.3e-83  279.6   0.0   1.7e-83  279.2   0.0   1.1   1   0   0   1   1   1   1 ATP-sulfurylase
+PUA_2                PF14306.5  sp|A1AVC7|SAT_RUTMC  -            5.9e-51  172.2   0.1   1.8e-50  170.6   0.0   1.8   2   0   0   2   2   2   1 PUA-like domain
+zn-ribbon_14         PF16503.4  sp|A1AVC7|SAT_RUTMC  -               0.24   10.8   1.2      0.44   10.0   1.2   1.4   1   0   0   1   1   1   0 Zinc-ribbon
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1AVC7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1AVC7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1AVC7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:36:17 2019
+# [ok]

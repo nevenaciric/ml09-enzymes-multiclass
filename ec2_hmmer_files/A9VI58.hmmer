@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FGGY_N               PF00370.20 sp|A9VI58|GLPK_BACWK -            1.5e-91  306.3   0.3   1.9e-91  305.9   0.3   1.1   1   0   0   1   1   1   1 FGGY family of carbohydrate kinases, N-terminal domain
+FGGY_C               PF02782.15 sp|A9VI58|GLPK_BACWK -            7.7e-65  218.2   0.5   2.9e-64  216.4   0.2   1.9   2   0   0   2   2   2   1 FGGY family of carbohydrate kinases, C-terminal domain
+BcrAD_BadFG          PF01869.19 sp|A9VI58|GLPK_BACWK -              0.027   13.9   0.0       0.5    9.7   0.0   2.2   2   0   0   2   2   2   0 BadF/BadG/BcrA/BcrD ATPase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A9VI58.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A9VI58.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A9VI58.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:10:03 2019
+# [ok]

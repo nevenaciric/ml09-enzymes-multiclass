@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PNP_UDP_1            PF01048.19 sp|A5EV41|DEOD_DICNV -            6.2e-36  123.7   1.9   6.8e-36  123.6   1.9   1.0   1   0   0   1   1   1   1 Phosphorylase superfamily
+Haemolytic           PF01809.17 sp|A5EV41|DEOD_DICNV -              0.017   14.9   0.1     0.072   12.9   0.0   2.0   2   0   0   2   2   2   0 Haemolytic domain
+Mal_decarbox_Al      PF16957.4  sp|A5EV41|DEOD_DICNV -              0.065   11.4   0.0     0.091   11.0   0.0   1.2   1   0   0   1   1   1   0 Malonate decarboxylase, alpha subunit, transporter
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A5EV41.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A5EV41.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A5EV41.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:15:50 2019
+# [ok]

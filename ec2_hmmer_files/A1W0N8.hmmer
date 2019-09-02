@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A1W0N8|PNP_CAMJJ  -            1.4e-38  132.2   0.0   4.4e-20   72.4   0.0   2.7   3   0   0   3   3   3   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|A1W0N8|PNP_CAMJJ  -            7.8e-27   93.0   5.5     2e-16   59.7   1.0   3.6   2   1   0   2   2   2   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|A1W0N8|PNP_CAMJJ  -            2.3e-11   43.9   2.8   2.3e-11   43.9   2.8   2.9   3   0   0   3   3   3   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|A1W0N8|PNP_CAMJJ  -            1.2e-10   40.9   1.8   6.9e-10   38.5   1.5   2.4   2   0   0   2   2   2   1 KH domain
+S1                   PF00575.22 sp|A1W0N8|PNP_CAMJJ  -            1.3e-07   31.8   2.2   2.2e-07   31.0   0.1   2.6   3   1   0   3   3   3   1 S1 RNA binding domain
+DUF2501              PF10696.8  sp|A1W0N8|PNP_CAMJJ  -              0.028   14.6   0.2      0.12   12.5   0.2   2.1   1   0   0   1   1   1   0 Protein of unknown function (DUF2501)
+DUF2252              PF10009.8  sp|A1W0N8|PNP_CAMJJ  -               0.16   10.9   1.0       0.3   10.0   1.0   1.4   1   0   0   1   1   1   0 Uncharacterized protein conserved in bacteria (DUF2252)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1W0N8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1W0N8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1W0N8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:47:30 2019
+# [ok]

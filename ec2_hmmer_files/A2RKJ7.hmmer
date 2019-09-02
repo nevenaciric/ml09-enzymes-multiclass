@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TMP-TENI             PF02581.16 sp|A2RKJ7|THIE_LACLM -              8e-54  181.6   0.1   9.4e-54  181.4   0.1   1.1   1   0   0   1   1   1   1 Thiamine monophosphate synthase
+QRPTase_C            PF01729.18 sp|A2RKJ7|THIE_LACLM -              0.027   14.2   0.0     0.053   13.2   0.0   1.5   1   0   0   1   1   1   0 Quinolinate phosphoribosyl transferase, C-terminal domain
+Rad51                PF08423.10 sp|A2RKJ7|THIE_LACLM -              0.044   12.9   0.4     0.065   12.4   0.1   1.4   2   0   0   2   2   2   0 Rad51
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A2RKJ7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A2RKJ7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A2RKJ7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:52:00 2019
+# [ok]

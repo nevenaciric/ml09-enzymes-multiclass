@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transf_3         PF12804.6  sp|A1A1R9|GLMU_BIFAA -            2.3e-22   80.0   0.4   3.5e-22   79.3   0.4   1.4   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+NTP_transferase      PF00483.22 sp|A1A1R9|GLMU_BIFAA -            1.2e-19   70.8   0.1   1.7e-19   70.3   0.1   1.1   1   0   0   1   1   1   1 Nucleotidyl transferase
+Hexapep              PF00132.23 sp|A1A1R9|GLMU_BIFAA -              4e-17   61.1  11.9   4.4e-06   26.1   4.0   5.0   3   2   1   4   4   4   4 Bacterial transferase hexapeptide (six repeats)
+IspD                 PF01128.18 sp|A1A1R9|GLMU_BIFAA -            5.1e-11   42.6   1.6   8.5e-11   41.9   1.5   1.5   1   1   0   1   1   1   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+CTP_transf_3         PF02348.18 sp|A1A1R9|GLMU_BIFAA -             0.0008   19.3   0.1    0.0011   18.9   0.1   1.2   1   0   0   1   1   1   1 Cytidylyltransferase
+CofC                 PF01983.15 sp|A1A1R9|GLMU_BIFAA -             0.0032   16.6   0.0    0.0061   15.7   0.0   1.4   1   0   0   1   1   1   1 Guanylyl transferase CofC like
+Nop16                PF09420.9  sp|A1A1R9|GLMU_BIFAA -              0.007   16.4   0.0     0.011   15.7   0.0   1.3   1   0   0   1   1   1   1 Ribosome biogenesis protein Nop16
+Hexapep_2            PF14602.5  sp|A1A1R9|GLMU_BIFAA -              0.012   15.2   8.1      0.14   11.8   3.8   4.1   4   1   1   5   5   5   0 Hexapeptide repeat of succinyl-transferase
+DUF2064              PF09837.8  sp|A1A1R9|GLMU_BIFAA -               0.14   11.9   1.0      0.54   10.0   0.4   2.1   2   0   0   2   2   2   0 Uncharacterized protein conserved in bacteria (DUF2064)
+Pirin                PF02678.15 sp|A1A1R9|GLMU_BIFAA -               0.16   11.8   1.8      0.54   10.2   1.8   1.9   1   0   0   1   1   1   0 Pirin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1A1R9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1A1R9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1A1R9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:34:44 2019
+# [ok]

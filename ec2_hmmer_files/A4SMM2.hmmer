@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AAA_30               PF13604.5  sp|A4SMM2|SELU_AERS4 -             0.0037   16.9   1.0    0.0099   15.5   0.1   2.1   3   0   0   3   3   3   1 AAA domain
+AAA_16               PF13191.5  sp|A4SMM2|SELU_AERS4 -             0.0046   17.3   0.1     0.014   15.6   0.1   2.0   1   1   0   1   1   1   1 AAA ATPase domain
+NB-ARC               PF00931.21 sp|A4SMM2|SELU_AERS4 -             0.0054   15.7   0.0     0.016   14.2   0.0   1.7   2   0   0   2   2   2   1 NB-ARC domain
+AAA_22               PF13401.5  sp|A4SMM2|SELU_AERS4 -             0.0092   16.2   0.2     0.051   13.7   0.2   2.1   1   1   0   1   1   1   1 AAA domain
+cobW                 PF02492.18 sp|A4SMM2|SELU_AERS4 -              0.011   15.2   0.0     0.022   14.3   0.0   1.4   1   0   0   1   1   1   0 CobW/HypB/UreG, nucleotide-binding domain
+DUF1378              PF07125.10 sp|A4SMM2|SELU_AERS4 -              0.057   13.5   0.0      0.13   12.4   0.0   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF1378)
+T2SSE                PF00437.19 sp|A4SMM2|SELU_AERS4 -              0.072   12.0   0.0      0.12   11.3   0.0   1.3   1   0   0   1   1   1   0 Type II/IV secretion system protein
+AAA_23               PF13476.5  sp|A4SMM2|SELU_AERS4 -              0.085   13.3   0.0      0.14   12.6   0.0   1.3   1   0   0   1   1   1   0 AAA domain
+AAA_18               PF13238.5  sp|A4SMM2|SELU_AERS4 -               0.14   12.6   0.1       0.5   10.8   0.1   2.0   1   1   1   2   2   2   0 AAA domain
+AAA_19               PF13245.5  sp|A4SMM2|SELU_AERS4 -               0.18   12.1   0.2      0.56   10.4   0.0   1.9   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4SMM2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4SMM2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4SMM2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:06:13 2019
+# [ok]

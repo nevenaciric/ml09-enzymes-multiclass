@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|A8GP46|MURA_RICAH -            8.9e-94  314.4   2.8     1e-93  314.2   2.8   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+PP-binding_2         PF14573.5  sp|A8GP46|MURA_RICAH -              0.096   12.8   0.0      0.38   10.9   0.0   1.9   1   0   0   1   1   1   0 Acyl-carrier
+MutS_I               PF01624.19 sp|A8GP46|MURA_RICAH -               0.14   12.3   0.0      0.97    9.6   0.0   2.2   2   0   0   2   2   2   0 MutS domain I
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A8GP46.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A8GP46.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A8GP46.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:55:38 2019
+# [ok]

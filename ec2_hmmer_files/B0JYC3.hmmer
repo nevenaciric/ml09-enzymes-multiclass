@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|B0JYC3|PNP_MICAN  -            1.8e-38  131.9   0.0   2.2e-18   66.9   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|B0JYC3|PNP_MICAN  -            2.2e-23   82.0   0.4   4.1e-16   58.7   0.0   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|B0JYC3|PNP_MICAN  -              1e-16   61.0   1.6   2.6e-16   59.8   1.6   1.7   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|B0JYC3|PNP_MICAN  -            1.9e-14   53.6   1.9   1.9e-14   53.6   1.9   1.9   2   0   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|B0JYC3|PNP_MICAN  -            4.2e-14   52.0   2.3   4.4e-14   51.9   0.2   2.2   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|B0JYC3|PNP_MICAN  -             0.0041   16.8   0.2     0.013   15.2   0.1   1.9   1   1   0   1   1   1   1 KH domain
+KH_4                 PF13083.5  sp|B0JYC3|PNP_MICAN  -              0.012   15.4   0.0     0.042   13.6   0.0   1.9   1   0   0   1   1   1   0 KH domain
+EXOSC1               PF10447.8  sp|B0JYC3|PNP_MICAN  -              0.029   15.0   0.6     0.091   13.4   0.1   2.1   2   0   0   2   2   2   0 Exosome component EXOSC1/CSL4
+SLS                  PF14611.5  sp|B0JYC3|PNP_MICAN  -              0.051   13.3   0.1       0.3   10.7   0.0   2.0   2   0   0   2   2   2   0 Mitochondrial inner-membrane-bound regulator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0JYC3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0JYC3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0JYC3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:14:07 2019
+# [ok]

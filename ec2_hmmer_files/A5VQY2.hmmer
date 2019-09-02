@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_A_CTD        PF03118.14 sp|A5VQY2|RPOA_BRUO2 -            1.5e-25   88.6   0.3   3.8e-25   87.3   0.3   1.7   1   0   0   1   1   1   1 Bacterial RNA polymerase, alpha chain C terminal domain
+RNA_pol_A_bac        PF01000.25 sp|A5VQY2|RPOA_BRUO2 -            6.5e-25   87.6   0.0   1.3e-23   83.4   0.0   2.3   1   1   1   2   2   2   1 RNA polymerase Rpb3/RpoA insert domain
+RNA_pol_L            PF01193.23 sp|A5VQY2|RPOA_BRUO2 -              2e-22   78.3   0.0   3.8e-22   77.4   0.0   1.5   1   0   0   1   1   1   1 RNA polymerase Rpb3/Rpb11 dimerisation domain
+DUF211               PF02680.13 sp|A5VQY2|RPOA_BRUO2 -            0.00032   20.7   0.3      0.14   12.2   0.1   2.5   2   0   0   2   2   2   2 Uncharacterized ArCR, COG1888
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A5VQY2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A5VQY2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A5VQY2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:25:00 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|A7I809|NADK_METB6 -            1.3e-53  182.1   0.0   1.5e-53  181.9   0.0   1.1   1   0   0   1   1   1   1 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|A7I809|NADK_METB6 -              0.034   13.7   0.1     0.058   12.9   0.1   1.4   1   0   0   1   1   1   0 Diacylglycerol kinase catalytic domain
+CHASE4               PF05228.12 sp|A7I809|NADK_METB6 -               0.11   12.6   0.0       0.3   11.2   0.0   1.6   2   0   0   2   2   2   0 CHASE4 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A7I809.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A7I809.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A7I809.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:42:43 2019
+# [ok]

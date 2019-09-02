@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltr_RsmB-F      PF01189.16 sp|A0KKI5|RSMF_AERHH -            5.6e-48  163.2   0.0   9.3e-48  162.4   0.0   1.3   1   0   0   1   1   1   1 16S rRNA methyltransferase RsmB/F
+Methyltr_RsmF_N      PF17125.4  sp|A0KKI5|RSMF_AERHH -            4.2e-27   94.4   0.0   8.3e-27   93.4   0.0   1.5   1   0   0   1   1   1   1 N-terminal domain of 16S rRNA methyltransferase RsmF
+Methyltranf_PUA      PF13636.5  sp|A0KKI5|RSMF_AERHH -            7.6e-13   48.1   0.0   1.6e-12   47.1   0.0   1.6   1   0   0   1   1   1   1 RNA-binding PUA-like domain of methyltransferase RsmF
+Methyltransf_31      PF13847.5  sp|A0KKI5|RSMF_AERHH -              9e-07   28.7   0.0   1.4e-06   28.1   0.0   1.2   1   0   0   1   1   1   1 Methyltransferase domain
+RsmF_methylt_CI      PF17126.4  sp|A0KKI5|RSMF_AERHH -               0.03   14.3   0.0     0.069   13.1   0.0   1.6   1   0   0   1   1   1   0 RsmF rRNA methyltransferase first C-terminal domain
+Methyltransf_25      PF13649.5  sp|A0KKI5|RSMF_AERHH -              0.091   13.4   0.1      0.81   10.3   0.1   2.4   1   1   0   1   1   1   0 Methyltransferase domain
+Ubie_methyltran      PF01209.17 sp|A0KKI5|RSMF_AERHH -               0.15   11.3   0.0       1.7    7.8   0.0   2.1   2   0   0   2   2   2   0 ubiE/COQ5 methyltransferase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A0KKI5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A0KKI5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A0KKI5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:28:22 2019
+# [ok]

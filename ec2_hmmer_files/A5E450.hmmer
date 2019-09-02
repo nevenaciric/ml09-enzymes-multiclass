@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LIAS_N               PF16881.4  sp|A5E450|LIPA_LODEL -            2.6e-20   72.8   0.3   6.3e-20   71.5   0.3   1.7   1   0   0   1   1   1   1 N-terminal domain of lipoyl synthase of Radical_SAM family
+Radical_SAM          PF04055.20 sp|A5E450|LIPA_LODEL -            2.7e-12   47.3   0.0   4.6e-12   46.5   0.0   1.4   1   0   0   1   1   1   1 Radical SAM superfamily
+NUDE_C               PF04880.12 sp|A5E450|LIPA_LODEL -                2.9    8.2   8.2       3.5    8.0   6.5   1.9   2   0   0   2   2   2   0 NUDE protein, C-terminal conserved region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A5E450.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A5E450.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A5E450.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:15:20 2019
+# [ok]

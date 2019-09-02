@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Thymidylate_kin      PF02223.16 sp|A5CPG8|KTHY_CLAM3 -            3.6e-46  157.1   0.0   4.1e-46  156.9   0.0   1.0   1   0   0   1   1   1   1 Thymidylate kinase
+AAA_28               PF13521.5  sp|A5CPG8|KTHY_CLAM3 -             0.0066   16.6   1.7      0.01   16.0   1.7   1.4   1   1   0   1   1   1   1 AAA domain
+AAA_17               PF13207.5  sp|A5CPG8|KTHY_CLAM3 -               0.14   12.5   0.3       1.8    8.9   0.3   2.2   1   1   0   1   1   1   0 AAA domain
+ArsA_ATPase          PF02374.14 sp|A5CPG8|KTHY_CLAM3 -               0.23   10.6   0.1      0.35   10.0   0.1   1.2   1   0   0   1   1   1   0 Anion-transporting ATPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A5CPG8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A5CPG8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A5CPG8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:14:10 2019
+# [ok]

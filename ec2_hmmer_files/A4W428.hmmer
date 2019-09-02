@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol3_alpha       PF07733.11 sp|A4W428|DPO3_STRS2 -            2.2e-91  306.6   0.0   1.8e-89  300.3   0.0   2.3   1   1   0   1   1   1   1 Bacterial DNA polymerase III alpha subunit
+PHP                  PF02811.18 sp|A4W428|DPO3_STRS2 -            8.4e-49  166.0   1.8   1.1e-48  165.7   0.1   2.1   2   1   0   2   2   2   1 PHP domain
+RNase_T              PF00929.23 sp|A4W428|DPO3_STRS2 -            2.7e-32  112.5   0.0   3.9e-31  108.7   0.0   2.8   2   0   0   2   2   2   1 Exonuclease
+DNA_pol3_a_NII       PF11490.7  sp|A4W428|DPO3_STRS2 -            4.4e-24   84.5   0.0   1.7e-23   82.7   0.0   2.1   1   0   0   1   1   1   1 DNA polymerase III polC-type N-terminus II
+DNA_pol3_a_NI        PF14480.5  sp|A4W428|DPO3_STRS2 -            6.2e-18   64.5   0.2   1.9e-17   62.9   0.2   1.9   1   0   0   1   1   1   1 DNA polymerase III polC-type N-terminus I
+HHH_6                PF14579.5  sp|A4W428|DPO3_STRS2 -              4e-06   26.9   0.0   1.5e-05   25.0   0.0   2.1   1   0   0   1   1   1   1 Helix-hairpin-helix motif
+HHH_3                PF12836.6  sp|A4W428|DPO3_STRS2 -            0.00013   22.1   0.0     0.045   13.9   0.0   3.7   3   0   0   3   3   3   1 Helix-hairpin-helix motif
+tRNA_anti-codon      PF01336.24 sp|A4W428|DPO3_STRS2 -            0.00014   21.7   0.7   0.00042   20.1   0.7   1.9   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+B                    PF02216.15 sp|A4W428|DPO3_STRS2 -              0.031   14.2   0.1     0.088   12.7   0.1   1.7   1   0   0   1   1   1   0 B domain
+DUF4251              PF14059.5  sp|A4W428|DPO3_STRS2 -               0.97    9.3   3.4       4.1    7.2   0.2   2.9   3   0   0   3   3   3   0 Domain of unknown function (DUF4251)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4W428.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4W428.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4W428.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:09:35 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DiS_P_DiS            PF06750.12 sp|A2T195|LEP4_AERS4 -            4.2e-34  116.4   0.3   7.5e-34  115.6   0.3   1.4   1   0   0   1   1   1   1 Bacterial Peptidase A24 N-terminal domain
+Peptidase_A24        PF01478.17 sp|A2T195|LEP4_AERS4 -            3.5e-28   98.0  16.7   3.5e-28   98.0  16.7   2.3   3   0   0   3   3   3   1 Type IV leader peptidase family
+zf-HC3               PF16827.4  sp|A2T195|LEP4_AERS4 -               0.54   10.4   3.2       1.2    9.3   0.4   2.1   1   1   1   2   2   2   0 zinc-finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A2T195.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A2T195.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A2T195.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:53:21 2019
+# [ok]

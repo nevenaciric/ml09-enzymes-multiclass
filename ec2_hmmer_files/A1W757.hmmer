@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|A1W757|RLMH_ACISJ -            2.9e-47  160.4   0.0   3.3e-47  160.2   0.0   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+CPT                  PF07931.11 sp|A1W757|RLMH_ACISJ -              0.044   13.5   0.0     0.057   13.2   0.0   1.1   1   0   0   1   1   1   0 Chloramphenicol phosphotransferase-like protein
+NolB                 PF17398.1  sp|A1W757|RLMH_ACISJ -               0.18   12.1   0.0      0.24   11.7   0.0   1.2   1   0   0   1   1   1   0 Nodulation protein NolB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1W757.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1W757.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1W757.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:47:49 2019
+# [ok]

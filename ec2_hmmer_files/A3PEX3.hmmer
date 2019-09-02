@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_Rpb1_1       PF04997.11 sp|A3PEX3|RPOC1_PROM0 -            2.3e-77  260.3   0.0   3.5e-77  259.7   0.0   1.3   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 1
+RNA_pol_Rpb1_2       PF00623.19 sp|A3PEX3|RPOC1_PROM0 -            9.8e-40  136.4   0.0   2.3e-27   96.1   0.0   2.5   1   1   1   2   2   2   2 RNA polymerase Rpb1, domain 2
+RNA_pol_Rpb1_3       PF04983.17 sp|A3PEX3|RPOC1_PROM0 -            7.3e-10   38.9   0.0   2.1e-09   37.4   0.0   1.8   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 3
+Cas9-BH              PF16593.4  sp|A3PEX3|RPOC1_PROM0 -             0.0025   17.4   1.3    0.0092   15.6   1.3   2.0   1   0   0   1   1   1   1 Bridge helix of CRISPR-associated endonuclease Cas9
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A3PEX3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A3PEX3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A3PEX3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:59:23 2019
+# [ok]

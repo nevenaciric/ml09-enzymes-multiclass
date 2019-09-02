@@ -1,0 +1,32 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name               accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------     -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ketoacyl-synt        PF00109.25 sp|A0A179H0J7|LCSC_PURLI -            2.3e-67  227.2   1.9   3.5e-67  226.5   0.1   2.4   3   0   0   3   3   3   1 Beta-ketoacyl synthase, N-terminal domain
+PS-DH                PF14765.5  sp|A0A179H0J7|LCSC_PURLI -            3.9e-65  219.9   0.2   7.4e-65  219.0   0.2   1.4   1   0   0   1   1   1   1 Polyketide synthase dehydratase
+KR                   PF08659.9  sp|A0A179H0J7|LCSC_PURLI -            3.4e-54  183.4   1.5   7.4e-54  182.3   1.5   1.6   1   0   0   1   1   1   1 KR domain
+Acyl_transf_1        PF00698.20 sp|A0A179H0J7|LCSC_PURLI -            1.6e-48  165.8   0.0   4.2e-48  164.4   0.0   1.7   1   0   0   1   1   1   1 Acyl transferase domain
+Ketoacyl-synt_C      PF02801.21 sp|A0A179H0J7|LCSC_PURLI -            1.3e-34  118.7   0.2   3.1e-34  117.4   0.2   1.7   1   0   0   1   1   1   1 Beta-ketoacyl synthase, C-terminal domain
+Methyltransf_12      PF08242.11 sp|A0A179H0J7|LCSC_PURLI -            1.4e-18   67.3   0.0   9.1e-18   64.7   0.0   2.3   2   0   0   2   2   2   1 Methyltransferase domain
+ADH_zinc_N_2         PF13602.5  sp|A0A179H0J7|LCSC_PURLI -            6.1e-17   62.8   0.0   3.5e-15   57.1   0.0   2.7   2   0   0   2   2   2   1 Zinc-binding dehydrogenase
+ADH_zinc_N           PF00107.25 sp|A0A179H0J7|LCSC_PURLI -            1.3e-14   54.1   0.0   4.8e-14   52.3   0.0   2.0   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+Methyltransf_25      PF13649.5  sp|A0A179H0J7|LCSC_PURLI -            1.5e-11   44.7   0.0   1.3e-10   41.8   0.0   2.5   2   0   0   2   2   2   1 Methyltransferase domain
+Methyltransf_11      PF08241.11 sp|A0A179H0J7|LCSC_PURLI -            2.8e-11   43.8   0.0     1e-10   42.0   0.0   2.1   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_31      PF13847.5  sp|A0A179H0J7|LCSC_PURLI -              4e-10   39.6   0.0   1.8e-09   37.5   0.0   2.0   2   0   0   2   2   2   1 Methyltransferase domain
+Methyltransf_23      PF13489.5  sp|A0A179H0J7|LCSC_PURLI -            9.3e-10   38.5   0.0     3e-09   36.8   0.0   1.9   1   0   0   1   1   1   1 Methyltransferase domain
+PP-binding           PF00550.24 sp|A0A179H0J7|LCSC_PURLI -            1.1e-08   35.1   0.1   1.5e-07   31.5   0.0   2.5   2   0   0   2   2   2   1 Phosphopantetheine attachment site
+adh_short            PF00106.24 sp|A0A179H0J7|LCSC_PURLI -            1.4e-05   24.6   0.3   0.00012   21.5   0.1   2.5   2   0   0   2   2   2   1 short chain dehydrogenase
+Ubie_methyltran      PF01209.17 sp|A0A179H0J7|LCSC_PURLI -              2e-05   24.0   0.0   4.2e-05   22.9   0.0   1.4   1   0   0   1   1   1   1 ubiE/COQ5 methyltransferase family
+ADH_N                PF08240.11 sp|A0A179H0J7|LCSC_PURLI -            3.1e-05   23.7   0.0   8.1e-05   22.4   0.0   1.7   1   0   0   1   1   1   1 Alcohol dehydrogenase GroES-like domain
+Thiolase_N           PF00108.22 sp|A0A179H0J7|LCSC_PURLI -            0.00036   19.9   0.2    0.0008   18.7   0.2   1.5   1   0   0   1   1   1   1 Thiolase, N-terminal domain
+adh_short_C2         PF13561.5  sp|A0A179H0J7|LCSC_PURLI -             0.0016   17.9   0.1     0.016   14.7   0.3   2.3   2   0   0   2   2   2   1 Enoyl-(Acyl carrier protein) reductase
+Methyltransf_16      PF10294.8  sp|A0A179H0J7|LCSC_PURLI -              0.019   14.6   0.0      0.15   11.7   0.0   2.4   1   1   0   1   1   1   0 Lysine methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A0A179H0J7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A0A179H0J7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A0A179H0J7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:25:50 2019
+# [ok]

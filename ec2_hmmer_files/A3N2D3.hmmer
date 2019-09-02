@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Phos_pyr_kin         PF08543.11 sp|A3N2D3|PDXY_ACTP2 -            4.6e-18   65.4   0.0   5.7e-18   65.1   0.0   1.1   1   0   0   1   1   1   1 Phosphomethylpyrimidine kinase
+PfkB                 PF00294.23 sp|A3N2D3|PDXY_ACTP2 -            2.8e-10   39.9   1.1   2.4e-09   36.8   0.3   2.4   2   1   0   2   2   2   1 pfkB family carbohydrate kinase
+Carb_kinase          PF01256.16 sp|A3N2D3|PDXY_ACTP2 -              0.031   13.6   0.4       0.1   11.9   0.4   1.8   1   1   0   1   1   1   0 Carbohydrate kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A3N2D3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A3N2D3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A3N2D3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:57:50 2019
+# [ok]

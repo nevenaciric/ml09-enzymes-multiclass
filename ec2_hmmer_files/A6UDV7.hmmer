@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|A6UDV7|PROB_SINMW -              8e-42  143.4   3.5   1.3e-41  142.7   3.5   1.4   1   0   0   1   1   1   1 Amino acid kinase family
+PUA                  PF01472.19 sp|A6UDV7|PROB_SINMW -              2e-20   72.4   2.2   3.4e-20   71.7   0.3   2.4   2   0   0   2   2   2   1 PUA domain
+Acyl-CoA_dh_N        PF02771.15 sp|A6UDV7|PROB_SINMW -               0.01   16.4   0.4         4    8.0   0.0   2.5   2   0   0   2   2   2   2 Acyl-CoA dehydrogenase, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6UDV7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6UDV7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6UDV7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:33:00 2019
+# [ok]

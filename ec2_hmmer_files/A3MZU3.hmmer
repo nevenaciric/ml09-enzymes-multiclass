@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A3MZU3|PNP_ACTP2  -            4.5e-43  146.8   0.0   5.4e-22   78.6   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|A3MZU3|PNP_ACTP2  -            2.7e-22   78.9   2.4   2.7e-22   78.9   2.4   2.4   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+RNase_PH_C           PF03725.14 sp|A3MZU3|PNP_ACTP2  -            4.2e-22   77.9   3.4   3.9e-14   52.3   0.0   2.9   3   0   0   3   3   3   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|A3MZU3|PNP_ACTP2  -            2.1e-20   72.7   7.1     5e-20   71.5   4.3   2.6   2   0   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|A3MZU3|PNP_ACTP2  -            9.7e-11   41.2   1.4     9e-10   38.1   0.6   2.7   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|A3MZU3|PNP_ACTP2  -             0.0012   18.5   0.6    0.0099   15.6   0.0   2.6   2   0   0   2   2   2   1 KH domain
+S1_2                 PF13509.5  sp|A3MZU3|PNP_ACTP2  -              0.017   15.0   0.1     0.091   12.7   0.1   2.3   1   1   0   1   1   1   0 S1 domain
+SLS                  PF14611.5  sp|A3MZU3|PNP_ACTP2  -              0.018   14.7   0.2     0.036   13.8   0.2   1.5   1   0   0   1   1   1   0 Mitochondrial inner-membrane-bound regulator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A3MZU3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A3MZU3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A3MZU3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:57:35 2019
+# [ok]

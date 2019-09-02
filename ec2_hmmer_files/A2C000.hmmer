@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_5       PF01795.18 sp|A2C000|RSMH_PROM1 -            1.7e-87  293.7   0.0     1e-86  291.1   0.0   1.8   1   1   0   1   1   1   1 MraW methylase family
+Methyltransf_25      PF13649.5  sp|A2C000|RSMH_PROM1 -             0.0008   20.0   0.0    0.0017   18.9   0.0   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+MTS                  PF05175.13 sp|A2C000|RSMH_PROM1 -              0.058   12.8   0.0      0.29   10.6   0.0   1.9   2   0   0   2   2   2   0 Methyltransferase small domain
+Methyltransf_12      PF08242.11 sp|A2C000|RSMH_PROM1 -              0.092   13.4   0.0      0.23   12.1   0.0   1.7   1   0   0   1   1   1   0 Methyltransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A2C000.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A2C000.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A2C000.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:50:23 2019
+# [ok]

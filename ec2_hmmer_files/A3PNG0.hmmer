@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A3PNG0|PNP_RHOS1  -            3.1e-43  147.3   0.0   1.4e-21   77.2   0.0   2.3   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+S1                   PF00575.22 sp|A3PNG0|PNP_RHOS1  -            2.6e-19   69.2   0.8   5.3e-19   68.2   0.8   1.6   1   0   0   1   1   1   1 S1 RNA binding domain
+RNase_PH_C           PF03725.14 sp|A3PNG0|PNP_RHOS1  -            2.6e-18   65.7   1.0   3.7e-08   33.2   0.0   2.9   3   0   0   3   3   3   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|A3PNG0|PNP_RHOS1  -              5e-15   55.7   0.9   1.5e-14   54.2   0.6   2.0   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|A3PNG0|PNP_RHOS1  -            7.3e-12   44.8   0.7   2.6e-11   43.1   0.7   2.0   1   0   0   1   1   1   1 KH domain
+BioW                 PF03744.12 sp|A3PNG0|PNP_RHOS1  -               0.11   12.0   0.0       0.2   11.1   0.0   1.4   1   0   0   1   1   1   0 6-carboxyhexanoate--CoA ligase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A3PNG0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A3PNG0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A3PNG0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:59:52 2019
+# [ok]

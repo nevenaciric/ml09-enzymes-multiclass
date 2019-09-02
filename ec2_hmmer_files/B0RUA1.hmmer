@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|B0RUA1|ISPE_XANCB -            3.9e-10   39.7   0.1   9.5e-10   38.5   0.1   1.7   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|B0RUA1|ISPE_XANCB -            1.6e-05   25.0   0.1   4.6e-05   23.6   0.1   1.7   1   0   0   1   1   1   1 GHMP kinases C terminal
+RRM_1                PF00076.21 sp|B0RUA1|ISPE_XANCB -              0.058   13.1   0.0      0.14   11.9   0.0   1.6   2   0   0   2   2   2   0 RNA recognition motif. (a.k.a. RRM, RBD, or RNP domain)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0RUA1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0RUA1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0RUA1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:16:43 2019
+# [ok]

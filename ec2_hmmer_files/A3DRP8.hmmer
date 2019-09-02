@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Flu_PB1              PF00602.16 sp|A3DRP8|RDRP_I96A2 -                  0 1280.6   5.1         0 1280.4   5.1   1.0   1   0   0   1   1   1   1 Influenza RNA-dependent RNA polymerase subunit PB1
+eIF-5_eIF-2B         PF01873.16 sp|A3DRP8|RDRP_I96A2 -                0.1   12.4   0.4         2    8.2   0.0   2.5   2   0   0   2   2   2   0 Domain found in IF2B/IF5
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A3DRP8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A3DRP8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A3DRP8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:56:00 2019
+# [ok]

@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_C       PF08544.12 sp|B0CC88|ISPE_ACAM1 -            6.8e-11   42.3   0.0   1.7e-10   41.0   0.0   1.7   1   0   0   1   1   1   1 GHMP kinases C terminal
+GHMP_kinases_N       PF00288.25 sp|B0CC88|ISPE_ACAM1 -            2.7e-09   37.0   1.2   6.9e-09   35.7   1.0   1.8   1   1   0   1   1   1   1 GHMP kinases N terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0CC88.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0CC88.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0CC88.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:13:03 2019
+# [ok]

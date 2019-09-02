@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|A6Q1Z6|DXS_NITSB  -           9.8e-104  346.3   0.0  1.7e-102  342.2   0.0   2.1   2   0   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|A6Q1Z6|DXS_NITSB  -            3.8e-31  108.0   0.0   1.6e-30  106.0   0.0   2.0   2   0   0   2   2   2   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|A6Q1Z6|DXS_NITSB  -            5.3e-13   48.8   0.0   1.7e-12   47.2   0.0   2.0   1   0   0   1   1   1   1 Transketolase, C-terminal domain
+E1_dh                PF00676.19 sp|A6Q1Z6|DXS_NITSB  -            2.5e-07   29.9   0.0   4.9e-07   28.9   0.0   1.4   1   0   0   1   1   1   1 Dehydrogenase E1 component
+TPP_enzyme_C         PF02775.20 sp|A6Q1Z6|DXS_NITSB  -            2.7e-05   23.9   0.0   7.6e-05   22.4   0.0   1.8   1   1   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+Transketolase_N      PF00456.20 sp|A6Q1Z6|DXS_NITSB  -              0.021   13.7   0.0       3.1    6.6   0.0   2.3   2   0   0   2   2   2   0 Transketolase, thiamine diphosphate binding domain
+Ldh_1_C              PF02866.17 sp|A6Q1Z6|DXS_NITSB  -                0.1   12.5   0.1      0.96    9.3   0.0   2.1   2   0   0   2   2   2   0 lactate/malate dehydrogenase, alpha/beta C-terminal domain
+TatD_DNase           PF01026.20 sp|A6Q1Z6|DXS_NITSB  -               0.11   11.8   0.0       0.2   10.9   0.0   1.5   1   0   0   1   1   1   0 TatD related DNase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6Q1Z6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6Q1Z6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6Q1Z6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:28:46 2019
+# [ok]

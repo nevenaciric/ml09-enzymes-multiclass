@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|A9A6R4|PYRH_METM6 -            1.5e-29  103.2   3.7     5e-29  101.5   3.7   1.7   1   1   0   1   1   1   1 Amino acid kinase family
+B12-binding          PF02310.18 sp|A9A6R4|PYRH_METM6 -              0.015   15.2   0.2       3.8    7.5   0.0   2.3   1   1   0   2   2   2   0 B12 binding domain
+Mur_ligase_C         PF02875.20 sp|A9A6R4|PYRH_METM6 -              0.084   13.0   0.1       1.9    8.7   0.0   2.6   2   1   0   2   2   2   0 Mur ligase family, glutamate ligase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A9A6R4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A9A6R4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A9A6R4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:00:36 2019
+# [ok]

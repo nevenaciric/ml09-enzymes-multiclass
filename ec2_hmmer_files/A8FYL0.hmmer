@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|A8FYL0|DXS_SHESH  -           8.1e-120  399.0   0.1  1.7e-119  397.9   0.1   1.6   2   0   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|A8FYL0|DXS_SHESH  -            6.7e-39  133.3   0.0   1.2e-38  132.5   0.0   1.4   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|A8FYL0|DXS_SHESH  -            1.4e-27   96.0   1.5   4.6e-27   94.2   0.1   2.6   3   1   1   4   4   4   1 Transketolase, C-terminal domain
+TPP_enzyme_C         PF02775.20 sp|A8FYL0|DXS_SHESH  -            2.6e-07   30.4   0.7   1.1e-06   28.4   0.1   2.2   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+Transketolase_N      PF00456.20 sp|A8FYL0|DXS_SHESH  -             0.0015   17.5   0.0    0.0043   16.0   0.0   1.8   2   0   0   2   2   2   1 Transketolase, thiamine diphosphate binding domain
+E1_dh                PF00676.19 sp|A8FYL0|DXS_SHESH  -             0.0017   17.2   0.1    0.0026   16.7   0.1   1.2   1   0   0   1   1   1   1 Dehydrogenase E1 component
+DUF1194              PF06707.10 sp|A8FYL0|DXS_SHESH  -              0.028   13.5   0.2     0.046   12.8   0.2   1.3   1   0   0   1   1   1   0 Protein of unknown function (DUF1194)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A8FYL0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A8FYL0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A8FYL0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:53:53 2019
+# [ok]

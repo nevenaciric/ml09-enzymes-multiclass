@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|A1A008|PNP_BIFAA  -            1.1e-30  106.7   0.0   6.6e-14   52.4   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|A1A008|PNP_BIFAA  -            5.6e-18   65.1   5.2   6.4e-18   64.9   3.1   2.3   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|A1A008|PNP_BIFAA  -            1.1e-15   57.6   0.3   2.4e-15   56.5   0.3   1.6   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|A1A008|PNP_BIFAA  -            7.5e-12   44.8   2.7     3e-11   42.9   2.7   2.1   1   0   0   1   1   1   1 KH domain
+RNase_PH_C           PF03725.14 sp|A1A008|PNP_BIFAA  -            1.7e-06   27.8   0.0    0.0046   16.9   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+KH_2                 PF07650.16 sp|A1A008|PNP_BIFAA  -             0.0029   17.3   0.1    0.0078   15.9   0.1   1.7   1   0   0   1   1   1   1 KH domain
+BUD22                PF09073.9  sp|A1A008|PNP_BIFAA  -              0.031   13.5  16.0     0.058   12.6  16.0   1.4   1   0   0   1   1   1   0 BUD22
+S1_2                 PF13509.5  sp|A1A008|PNP_BIFAA  -              0.045   13.7   0.4      0.31   11.0   0.4   2.4   1   1   0   1   1   1   0 S1 domain
+PCB_OB               PF17092.4  sp|A1A008|PNP_BIFAA  -              0.048   14.3   0.4      0.14   12.9   0.1   1.9   2   0   0   2   2   1   0 Penicillin-binding protein OB-like domain
+Ribonucleas_3_2      PF11469.7  sp|A1A008|PNP_BIFAA  -               0.15   12.3   0.1      0.41   10.9   0.1   1.7   1   0   0   1   1   1   0 Ribonuclease III
+KH_5                 PF13184.5  sp|A1A008|PNP_BIFAA  -               0.59   10.2   3.2       1.5    8.9   0.3   2.5   2   0   0   2   2   2   0 NusA-like KH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1A008.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1A008.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1A008.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:34:37 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GIDA                 PF01134.21 sp|B0UI96|TRMFO_METS4 -           5.9e-106  354.8   0.0  6.9e-106  354.5   0.0   1.0   1   0   0   1   1   1   1 Glucose inhibited division protein A
+FAD_binding_2        PF00890.23 sp|B0UI96|TRMFO_METS4 -             0.0004   19.5   0.3   0.00078   18.5   0.2   1.5   1   1   0   1   1   1   1 FAD binding domain
+DAO                  PF01266.23 sp|B0UI96|TRMFO_METS4 -            0.00072   19.1   1.0    0.0043   16.6   0.4   2.0   1   1   1   2   2   2   1 FAD dependent oxidoreductase
+NAD_binding_8        PF13450.5  sp|B0UI96|TRMFO_METS4 -             0.0027   17.8   0.0    0.0094   16.1   0.0   1.9   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Pyr_redox_2          PF07992.13 sp|B0UI96|TRMFO_METS4 -             0.0053   15.9   0.0    0.0094   15.1   0.0   1.4   1   1   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+FAD_oxidored         PF12831.6  sp|B0UI96|TRMFO_METS4 -              0.015   14.6   0.1     0.022   14.0   0.1   1.2   1   0   0   1   1   1   0 FAD dependent oxidoreductase
+3HCDH_N              PF02737.17 sp|B0UI96|TRMFO_METS4 -              0.016   15.0   0.0     0.024   14.4   0.0   1.2   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+AlaDh_PNT_C          PF01262.20 sp|B0UI96|TRMFO_METS4 -              0.037   13.2   0.0      0.06   12.5   0.0   1.2   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0UI96.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0UI96.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0UI96.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:20:01 2019
+# [ok]

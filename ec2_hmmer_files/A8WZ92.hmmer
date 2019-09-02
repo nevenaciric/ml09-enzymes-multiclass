@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|A8WZ92|SPE8_CAEBR -            1.1e-54  185.4   0.1   4.8e-51  173.4   0.0   2.2   1   1   1   2   2   2   2 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|A8WZ92|SPE8_CAEBR -            8.3e-36  123.6   0.4   6.6e-34  117.4   0.0   2.3   1   1   1   2   2   2   2 Protein kinase domain
+SH2                  PF00017.23 sp|A8WZ92|SPE8_CAEBR -            4.4e-13   49.0   0.6     9e-13   48.0   0.6   1.6   1   0   0   1   1   1   1 SH2 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A8WZ92.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A8WZ92.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A8WZ92.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:59:02 2019
+# [ok]

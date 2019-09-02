@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hexapep              PF00132.23 sp|A0PW60|GLMU_MYCUA -              8e-22   76.0   8.2   4.2e-06   26.2   0.0   5.4   3   2   2   5   5   5   5 Bacterial transferase hexapeptide (six repeats)
+NTP_transf_3         PF12804.6  sp|A0PW60|GLMU_MYCUA -              3e-21   76.3   2.7   5.6e-21   75.5   2.7   1.6   1   1   0   1   1   1   1 MobA-like NTP transferase domain
+NTP_transferase      PF00483.22 sp|A0PW60|GLMU_MYCUA -            6.5e-17   61.8   0.0   9.8e-17   61.3   0.0   1.2   1   0   0   1   1   1   1 Nucleotidyl transferase
+IspD                 PF01128.18 sp|A0PW60|GLMU_MYCUA -            1.3e-12   47.9   0.8   1.3e-12   47.9   0.8   2.0   2   1   0   2   2   2   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+Hexapep_2            PF14602.5  sp|A0PW60|GLMU_MYCUA -              4e-09   36.0  10.1    0.0017   18.0   0.0   5.6   5   1   0   5   5   5   3 Hexapeptide repeat of succinyl-transferase
+CTP_transf_3         PF02348.18 sp|A0PW60|GLMU_MYCUA -             0.0033   17.3   0.0    0.0054   16.6   0.0   1.4   1   0   0   1   1   1   1 Cytidylyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A0PW60.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A0PW60.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A0PW60.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:31:15 2019
+# [ok]

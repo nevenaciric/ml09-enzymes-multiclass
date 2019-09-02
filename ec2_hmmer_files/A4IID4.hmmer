@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PI3_PI4_kinase       PF00454.26 sp|A4IID4|PI4KB_XENTR -            1.5e-33  116.6   0.2   1.6e-30  106.7   0.2   2.4   1   1   0   1   1   1   1 Phosphatidylinositol 3- and 4-kinase
+DUF4135              PF13575.5  sp|A4IID4|PI4KB_XENTR -              0.016   14.4   0.0     0.028   13.6   0.0   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF4135)
+PI3Ka                PF00613.19 sp|A4IID4|PI4KB_XENTR -               0.15   11.3   2.6      0.38   10.0   0.1   2.6   3   0   0   3   3   3   0 Phosphoinositide 3-kinase family, accessory domain (PIK domain)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4IID4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4IID4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4IID4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:02:33 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|A2YA15|OHK2_ORYSI -            1.3e-24   86.8   0.0   2.7e-24   85.8   0.0   1.5   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Response_reg         PF00072.23 sp|A2YA15|OHK2_ORYSI -            1.2e-23   83.4   3.6   2.4e-23   82.3   0.4   2.9   3   0   0   3   3   3   1 Response regulator receiver domain
+HisKA                PF00512.24 sp|A2YA15|OHK2_ORYSI -            6.5e-07   29.2   0.2   4.4e-06   26.5   0.0   2.6   2   0   0   2   2   2   1 His Kinase A (phospho-acceptor) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A2YA15.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A2YA15.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A2YA15.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:53:50 2019
+# [ok]

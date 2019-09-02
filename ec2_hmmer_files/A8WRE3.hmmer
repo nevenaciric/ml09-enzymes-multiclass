@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ThiF                 PF00899.20 sp|A8WRE3|MOCS3_CAEBR -            1.7e-60  204.3   0.0   2.3e-60  203.9   0.0   1.1   1   0   0   1   1   1   1 ThiF family
+Rhodanese            PF00581.19 sp|A8WRE3|MOCS3_CAEBR -            2.8e-10   40.6   0.0   5.8e-10   39.6   0.0   1.6   1   0   0   1   1   1   1 Rhodanese-like domain
+Shikimate_DH         PF01488.19 sp|A8WRE3|MOCS3_CAEBR -              0.021   14.8   0.1     0.081   12.9   0.0   1.9   1   1   1   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+FAD_binding_3        PF01494.18 sp|A8WRE3|MOCS3_CAEBR -              0.026   13.7   0.1     0.034   13.3   0.1   1.2   1   0   0   1   1   1   0 FAD binding domain
+ApbA                 PF02558.15 sp|A8WRE3|MOCS3_CAEBR -               0.12   11.9   0.1      0.41   10.2   0.2   1.9   3   0   0   3   3   3   0 Ketopantoate reductase PanE/ApbA
+Sacchrp_dh_NADP      PF03435.17 sp|A8WRE3|MOCS3_CAEBR -               0.15   12.2   0.3      0.48   10.6   0.3   1.9   1   1   0   1   1   1   0 Saccharopine dehydrogenase NADP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A8WRE3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A8WRE3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A8WRE3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:58:55 2019
+# [ok]

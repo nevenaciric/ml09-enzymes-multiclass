@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|A9BP16|ISPE_DELAS -              3e-08   33.7   0.0   6.2e-08   32.7   0.0   1.6   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|A9BP16|ISPE_DELAS -              7e-07   29.4   0.0   1.6e-06   28.3   0.0   1.6   1   0   0   1   1   1   1 GHMP kinases C terminal
+EF-hand_1            PF00036.31 sp|A9BP16|ISPE_DELAS -              0.094   12.2   0.0      0.22   11.0   0.0   1.6   1   0   0   1   1   1   0 EF hand
+EF-hand_6            PF13405.5  sp|A9BP16|ISPE_DELAS -                0.1   12.5   0.1       1.1    9.3   0.0   2.5   3   0   0   3   3   3   0 EF-hand domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A9BP16.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A9BP16.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A9BP16.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:02:17 2019
+# [ok]

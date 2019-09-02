@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|A6UV05|PYRH_META3 -            6.5e-29  101.1   4.2   2.1e-28   99.5   4.2   1.7   1   1   0   1   1   1   1 Amino acid kinase family
+Pyr_redox_2          PF07992.13 sp|A6UV05|PYRH_META3 -            0.00028   20.1   0.3   0.00035   19.8   0.3   1.2   1   0   0   1   1   1   1 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox            PF00070.26 sp|A6UV05|PYRH_META3 -              0.025   15.1   0.2      0.16   12.5   0.0   2.3   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+Mur_ligase_C         PF02875.20 sp|A6UV05|PYRH_META3 -              0.029   14.5   0.1      0.63   10.2   0.1   2.5   2   1   0   2   2   2   0 Mur ligase family, glutamate ligase domain
+PFK                  PF00365.19 sp|A6UV05|PYRH_META3 -               0.03   13.6   0.2      0.16   11.2   0.0   1.9   1   1   1   2   2   2   0 Phosphofructokinase
+ATP-synt_ab          PF00006.24 sp|A6UV05|PYRH_META3 -               0.11   12.1   0.1      0.23   11.0   0.1   1.5   1   1   0   1   1   1   0 ATP synthase alpha/beta family, nucleotide-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6UV05.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6UV05.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6UV05.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:33:37 2019
+# [ok]

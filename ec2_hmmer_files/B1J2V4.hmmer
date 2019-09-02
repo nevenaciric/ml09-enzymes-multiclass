@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Meth_synt_2          PF01717.17 sp|B1J2V4|METE_PSEPW -           9.7e-158  524.5   0.0  1.7e-151  504.0   0.0   2.7   2   1   0   2   2   2   2 Cobalamin-independent synthase, Catalytic domain
+Meth_synt_1          PF08267.11 sp|B1J2V4|METE_PSEPW -           1.9e-127  425.0   0.0  2.1e-119  398.6   0.0   2.8   3   0   0   3   3   3   2 Cobalamin-independent synthase, N-terminal domain
+CHASE2               PF05226.10 sp|B1J2V4|METE_PSEPW -               0.11   12.0   0.1       0.5    9.9   0.0   2.1   2   1   0   2   2   2   0 CHASE2 domain
+Antibiotic_NAT       PF02522.13 sp|B1J2V4|METE_PSEPW -               0.12   12.1   0.0       1.8    8.2   0.0   2.6   3   0   0   3   3   3   0 Aminoglycoside 3-N-acetyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B1J2V4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B1J2V4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B1J2V4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:25:02 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACCA                 PF03255.13 sp|A0K8K0|ACCA_BURCH -            4.4e-66  221.1   0.0   6.1e-66  220.6   0.0   1.2   1   0   0   1   1   1   1 Acetyl co-enzyme A carboxylase carboxyltransferase alpha subunit
+Carboxyl_trans       PF01039.21 sp|A0K8K0|ACCA_BURCH -            3.5e-19   68.8   0.0     4e-19   68.6   0.0   1.0   1   0   0   1   1   1   1 Carboxyl transferase domain
+CLP_protease         PF00574.22 sp|A0K8K0|ACCA_BURCH -               0.06   13.1   1.8       1.3    8.8   0.4   2.9   2   1   1   3   3   3   0 Clp protease
+Osmo_CC              PF08946.9  sp|A0K8K0|ACCA_BURCH -               0.07   13.3   1.1       1.2    9.4   0.3   2.6   2   0   0   2   2   2   0 Osmosensory transporter coiled coil
+ABC_tran_CTD         PF16326.4  sp|A0K8K0|ACCA_BURCH -              0.084   13.0   0.5      0.29   11.3   0.5   1.9   2   0   0   2   2   2   0 ABC transporter C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A0K8K0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A0K8K0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A0K8K0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:27:45 2019
+# [ok]

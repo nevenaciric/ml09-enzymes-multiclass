@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|A3D4A6|AROA_SHEB5 -           1.2e-149  498.5   0.0  1.3e-149  498.3   0.0   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+BH4                  PF02180.16 sp|A3D4A6|AROA_SHEB5 -               0.04   13.6   0.0     0.091   12.5   0.0   1.6   1   0   0   1   1   1   0 Bcl-2 homology region 4
+YscJ_FliF            PF01514.16 sp|A3D4A6|AROA_SHEB5 -               0.17   11.4   0.0      0.31   10.6   0.0   1.4   1   0   0   1   1   1   0 Secretory protein of YscJ/FliF family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A3D4A6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A3D4A6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A3D4A6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:55:07 2019
+# [ok]

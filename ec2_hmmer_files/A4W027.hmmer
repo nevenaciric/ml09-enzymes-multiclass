@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|A4W027|PROB_STRS2 -            4.5e-44  150.8   3.0   4.5e-44  150.7   1.4   1.7   2   0   0   2   2   2   1 Amino acid kinase family
+PUA                  PF01472.19 sp|A4W027|PROB_STRS2 -            5.8e-16   58.1   0.3   2.6e-15   56.0   0.5   2.0   2   0   0   2   2   2   1 PUA domain
+Nic96                PF04097.13 sp|A4W027|PROB_STRS2 -              0.014   13.8   0.2     0.017   13.5   0.2   1.1   1   0   0   1   1   1   0 Nup93/Nic96
+DUF768               PF05589.10 sp|A4W027|PROB_STRS2 -               0.14   12.1   1.4         4    7.4   0.0   3.7   4   1   0   4   4   4   0 Protein of unknown function (DUF768)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A4W027.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A4W027.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A4W027.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:09:22 2019
+# [ok]

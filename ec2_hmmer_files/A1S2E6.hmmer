@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FGGY_N               PF00370.20 sp|A1S2E6|GLPK_SHEAM -            1.5e-84  283.4   0.0   1.9e-84  283.0   0.0   1.1   1   0   0   1   1   1   1 FGGY family of carbohydrate kinases, N-terminal domain
+FGGY_C               PF02782.15 sp|A1S2E6|GLPK_SHEAM -            3.1e-62  209.7   0.4   7.6e-62  208.5   0.5   1.6   2   0   0   2   2   2   1 FGGY family of carbohydrate kinases, C-terminal domain
+Stimulus_sens_1      PF13756.5  sp|A1S2E6|GLPK_SHEAM -               0.05   14.1   0.0      0.13   12.8   0.0   1.7   1   0   0   1   1   1   0 Stimulus-sensing domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1S2E6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1S2E6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1S2E6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:42:03 2019
+# [ok]

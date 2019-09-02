@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AICARFT_IMPCHas      PF01808.17 sp|A1KTP9|PUR9_NEIMF -             1e-115  386.1   0.8  1.3e-115  385.9   0.8   1.1   1   0   0   1   1   1   1 AICARFT/IMPCHase bienzyme
+MGS                  PF02142.21 sp|A1KTP9|PUR9_NEIMF -            3.1e-32  110.5   0.1   2.3e-30  104.6   0.0   2.5   2   0   0   2   2   2   1 MGS-like domain
+CoA_binding_2        PF13380.5  sp|A1KTP9|PUR9_NEIMF -               0.23   11.8   1.5       6.9    7.1   0.0   3.3   3   1   0   3   3   3   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A1KTP9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A1KTP9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A1KTP9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 20:40:14 2019
+# [ok]

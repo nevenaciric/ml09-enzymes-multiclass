@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+S-AdoMet_synt_C      PF02773.15 sp|A5VBQ3|METK_SPHWW -            1.2e-62  209.8   0.1   2.2e-62  209.0   0.1   1.4   1   0   0   1   1   1   1 S-adenosylmethionine synthetase, C-terminal domain
+S-AdoMet_synt_N      PF00438.19 sp|A5VBQ3|METK_SPHWW -            1.6e-36  124.9   0.0   2.9e-36  124.0   0.0   1.5   1   0   0   1   1   1   1 S-adenosylmethionine synthetase, N-terminal domain
+S-AdoMet_synt_M      PF02772.15 sp|A5VBQ3|METK_SPHWW -              2e-36  124.7   0.0   3.8e-36  123.8   0.0   1.5   1   0   0   1   1   1   1 S-adenosylmethionine synthetase, central domain
+Ketoacyl-synt_C      PF02801.21 sp|A5VBQ3|METK_SPHWW -              0.078   12.9   0.0      0.23   11.4   0.0   1.8   1   0   0   1   1   1   0 Beta-ketoacyl synthase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A5VBQ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A5VBQ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A5VBQ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:24:20 2019
+# [ok]

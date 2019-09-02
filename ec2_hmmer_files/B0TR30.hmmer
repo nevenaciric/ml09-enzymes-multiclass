@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|B0TR30|ISPE_SHEHH -            4.7e-10   39.5   0.0   8.6e-10   38.6   0.0   1.5   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|B0TR30|ISPE_SHEHH -            8.1e-06   26.0   0.0   1.8e-05   24.9   0.0   1.5   1   0   0   1   1   1   1 GHMP kinases C terminal
+Hce2                 PF14856.5  sp|B0TR30|ISPE_SHEHH -              0.065   13.4   0.0       2.6    8.3   0.0   2.2   2   0   0   2   2   2   0 Pathogen effector; putative necrosis-inducing factor
+SPOR                 PF05036.12 sp|B0TR30|ISPE_SHEHH -               0.15   12.3   0.0      0.67   10.3   0.0   2.0   2   0   0   2   2   2   0 Sporulation related domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B0TR30.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B0TR30.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B0TR30.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 22:18:50 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hexapep              PF00132.23 sp|A6LDS1|LPXD_PARD8 -            6.2e-33  111.2  29.9   8.2e-09   34.7   3.8   6.1   5   1   0   6   6   6   5 Bacterial transferase hexapeptide (six repeats)
+LpxD                 PF04613.13 sp|A6LDS1|LPXD_PARD8 -            1.2e-19   69.7   0.1     2e-19   69.1   0.1   1.4   1   0   0   1   1   1   1 UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase, LpxD
+Hexapep_2            PF14602.5  sp|A6LDS1|LPXD_PARD8 -            3.8e-13   48.9  23.8   0.00041   19.9   0.1   6.3   5   2   2   7   7   7   5 Hexapeptide repeat of succinyl-transferase
+Med9                 PF07544.12 sp|A6LDS1|LPXD_PARD8 -               0.09   12.8   0.2      0.18   11.8   0.2   1.5   1   0   0   1   1   1   0 RNA polymerase II transcription mediator complex subunit 9
+Peptidase_C34        PF05413.10 sp|A6LDS1|LPXD_PARD8 -              0.098   12.8   1.6      0.14   12.3   0.2   1.9   2   0   0   2   2   2   0 Putative closterovirus papain-like endopeptidase
+Bactofilin           PF04519.12 sp|A6LDS1|LPXD_PARD8 -                1.2    9.4  12.3        55    4.1   8.7   3.7   3   2   0   3   3   3   0 Polymer-forming cytoskeletal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/A6LDS1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/A6LDS1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/A6LDS1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 21:27:29 2019
+# [ok]
