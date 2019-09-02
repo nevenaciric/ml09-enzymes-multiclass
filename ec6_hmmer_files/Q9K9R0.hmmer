@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HIGH_NTase1          PF05636.10 sp|Q9K9R0|TMCAL_BACHD -           6.5e-135  450.3   0.0  7.5e-135  450.1   0.0   1.0   1   0   0   1   1   1   1 HIGH Nucleotidyl Transferase
+CTP_transf_like      PF01467.25 sp|Q9K9R0|TMCAL_BACHD -            2.1e-06   27.9   0.1   5.1e-06   26.6   0.0   1.8   2   0   0   2   2   2   1 Cytidylyltransferase-like
+Citrate_ly_lig       PF08218.10 sp|Q9K9R0|TMCAL_BACHD -             0.0018   17.9   0.0       1.9    8.0   0.0   2.4   2   0   0   2   2   2   2 Citrate lyase ligase C-terminal domain
+AstE_AspA            PF04952.13 sp|Q9K9R0|TMCAL_BACHD -              0.038   13.0   0.1      0.29   10.0   0.0   2.2   2   0   0   2   2   2   0 Succinylglutamate desuccinylase / Aspartoacylase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9K9R0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9K9R0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9K9R0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:55:53 2019
+# [ok]

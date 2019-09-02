@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|Q7SIA2|SYEP_CRIGR -           3.6e-125  416.9   0.3  6.1e-125  416.2   0.3   1.4   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+WHEP-TRS             PF00458.19 sp|Q7SIA2|SYEP_CRIGR -            2.2e-68  226.1  22.8   1.1e-23   83.0   4.8   3.9   3   0   0   3   3   3   3 WHEP-TRS domain
+tRNA-synt_1c_C       PF03950.17 sp|Q7SIA2|SYEP_CRIGR -            1.2e-40  139.2   0.0   3.2e-40  137.7   0.0   1.9   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+HGTP_anticodon       PF03129.19 sp|Q7SIA2|SYEP_CRIGR -            1.2e-19   70.2   0.3     7e-19   67.7   0.0   2.4   2   0   0   2   2   2   1 Anticodon binding domain
+ProRS-C_1            PF09180.10 sp|Q7SIA2|SYEP_CRIGR -            1.8e-19   69.6   0.1     5e-19   68.2   0.1   1.9   1   0   0   1   1   1   1 Prolyl-tRNA synthetase, C-terminal
+tRNA-synt_2b         PF00587.24 sp|Q7SIA2|SYEP_CRIGR -            6.4e-18   65.3   0.1   1.2e-16   61.1   0.0   2.6   2   0   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+GST_C                PF00043.24 sp|Q7SIA2|SYEP_CRIGR -            0.00015   21.8   0.1   0.00015   21.8   0.1   2.9   3   0   0   3   3   3   1 Glutathione S-transferase, C-terminal domain
+GST_C_3              PF14497.5  sp|Q7SIA2|SYEP_CRIGR -            0.00026   21.0   2.5    0.0018   18.3   0.0   3.7   3   1   1   4   4   4   1 Glutathione S-transferase, C-terminal domain
+tRNA-synt_1e         PF01406.18 sp|Q7SIA2|SYEP_CRIGR -             0.0057   15.9   1.2     0.015   14.6   0.4   2.0   2   0   0   2   2   2   1 tRNA synthetases class I (C) catalytic domain
+GST_C_2              PF13410.5  sp|Q7SIA2|SYEP_CRIGR -              0.042   13.8   0.0      0.12   12.3   0.0   1.8   1   0   0   1   1   1   0 Glutathione S-transferase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q7SIA2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q7SIA2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q7SIA2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:30:56 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q5LQK5|SYY_RUEPO  -            2.8e-73  246.7   0.0   3.5e-73  246.4   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|Q5LQK5|SYY_RUEPO  -            0.00063   19.3   0.0    0.0016   18.0   0.0   1.6   1   0   0   1   1   1   1 S4 domain
+S4_2                 PF13275.5  sp|Q5LQK5|SYY_RUEPO  -             0.0024   17.6   0.0    0.0059   16.3   0.0   1.6   1   0   0   1   1   1   1 S4 domain
+TyrRSs_C             PF16714.4  sp|Q5LQK5|SYY_RUEPO  -              0.014   15.1   0.0     0.029   14.1   0.0   1.5   1   0   0   1   1   1   0 Tyrosyl-tRNA synthetase C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5LQK5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5LQK5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5LQK5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:14:25 2019
+# [ok]

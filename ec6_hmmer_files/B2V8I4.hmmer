@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|B2V8I4|SUCC_SULSY -            2.7e-80  268.6   0.1   3.7e-80  268.2   0.1   1.2   1   0   0   1   1   1   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|B2V8I4|SUCC_SULSY -            1.6e-22   79.8   0.3     3e-22   79.0   0.3   1.4   1   0   0   1   1   1   1 CoA-ligase
+ATP-grasp_5          PF13549.5  sp|B2V8I4|SUCC_SULSY -            1.4e-13   50.7   0.6   5.9e-13   48.7   0.6   1.9   1   1   0   1   1   1   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|B2V8I4|SUCC_SULSY -            7.7e-06   25.4   0.2   2.9e-05   23.6   0.1   1.9   2   0   0   2   2   2   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+Succ_CoA_lig         PF13607.5  sp|B2V8I4|SUCC_SULSY -            0.00043   20.0   0.2      0.01   15.5   0.0   2.3   2   0   0   2   2   2   1 Succinyl-CoA ligase like flavodoxin domain
+GARS_A               PF01071.18 sp|B2V8I4|SUCC_SULSY -             0.0017   18.0   0.0    0.0034   17.1   0.0   1.4   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+Citrate_bind         PF16114.4  sp|B2V8I4|SUCC_SULSY -             0.0044   16.5   0.0    0.0091   15.4   0.0   1.5   1   0   0   1   1   1   1 ATP citrate lyase citrate-binding
+ATP-grasp            PF02222.21 sp|B2V8I4|SUCC_SULSY -              0.071   12.6   0.0      0.12   11.8   0.0   1.4   1   0   0   1   1   1   0 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2V8I4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2V8I4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2V8I4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:52:29 2019
+# [ok]

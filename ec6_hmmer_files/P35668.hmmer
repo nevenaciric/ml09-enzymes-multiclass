@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GSH_synth_ATP        PF03917.16 sp|P35668|GSHB_XENLA -           2.1e-134  447.9   0.0  2.4e-134  447.7   0.0   1.0   1   0   0   1   1   1   1 Eukaryotic glutathione synthase, ATP binding domain
+GSH_synthase         PF03199.14 sp|P35668|GSHB_XENLA -            4.4e-33  113.7   0.1     1e-32  112.5   0.1   1.6   1   0   0   1   1   1   1 Eukaryotic glutathione synthase
+Nif11                PF07862.10 sp|P35668|GSHB_XENLA -              0.059   13.6   0.2       5.4    7.3   0.0   2.8   2   0   0   2   2   2   0 Nif11 domain
+U62_UL91             PF17442.1  sp|P35668|GSHB_XENLA -               0.13   12.2   0.3      0.41   10.6   0.3   1.9   1   0   0   1   1   1   0 Functional domain of U62 and UL91 proteins
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P35668.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P35668.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P35668.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:27:50 2019
+# [ok]

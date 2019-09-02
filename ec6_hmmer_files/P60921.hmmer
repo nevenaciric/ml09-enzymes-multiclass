@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|P60921|SYH_METMP  -            2.3e-66  224.1   0.0     3e-66  223.7   0.0   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+HGTP_anticodon       PF03129.19 sp|P60921|SYH_METMP  -            7.2e-15   54.8   1.5   9.3e-15   54.5   0.3   1.9   2   0   0   2   2   2   1 Anticodon binding domain
+tRNA-synt_2b         PF00587.24 sp|P60921|SYH_METMP  -            6.4e-11   42.4   0.0     1e-10   41.8   0.0   1.5   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_2          PF00152.19 sp|P60921|SYH_METMP  -            4.6e-08   32.4   1.7     2e-05   23.7   1.3   2.7   2   1   0   2   2   2   2 tRNA synthetases class II (D, K and N)
+tRNA-synt_2d         PF01409.19 sp|P60921|SYH_METMP  -            4.7e-05   22.9   0.1     8e-05   22.1   0.1   1.3   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P60921.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P60921.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P60921.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:31:14 2019
+# [ok]

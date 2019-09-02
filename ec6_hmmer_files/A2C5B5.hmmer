@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP_bind_3           PF01171.19 sp|A2C5B5|TILS_PROM1 -            6.6e-39  133.4   0.4   9.6e-39  132.9   0.4   1.2   1   0   0   1   1   1   1 PP-loop family
+PAPS_reduct          PF01507.18 sp|A2C5B5|TILS_PROM1 -               0.04   13.8   0.1      0.07   13.1   0.1   1.5   1   0   0   1   1   1   0 Phosphoadenosine phosphosulfate reductase family
+Fumerase             PF05681.13 sp|A2C5B5|TILS_PROM1 -               0.12   11.7   0.0      0.18   11.1   0.0   1.2   1   0   0   1   1   1   0 Fumarate hydratase (Fumerase)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A2C5B5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A2C5B5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A2C5B5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:13:18 2019
+# [ok]

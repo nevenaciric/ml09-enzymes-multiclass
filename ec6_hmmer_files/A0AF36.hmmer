@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|A0AF36|SYE_LISW6  -           3.3e-126  420.3   0.0    4e-126  420.1   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+tRNA-synt_1f         PF01921.17 sp|A0AF36|SYE_LISW6  -             0.0027   16.6   0.0       1.8    7.3   0.0   2.2   2   0   0   2   2   2   2 tRNA synthetases class I (K)
+HycI                 PF01750.17 sp|A0AF36|SYE_LISW6  -              0.069   12.9   0.3      0.15   11.8   0.0   1.6   2   0   0   2   2   2   0 Hydrogenase maturation protease
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A0AF36.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A0AF36.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A0AF36.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:05:12 2019
+# [ok]

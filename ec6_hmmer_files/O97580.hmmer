@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|O97580|SUCB1_PIG  -            1.1e-74  250.3   0.7   1.1e-74  250.3   0.7   1.9   2   0   0   2   2   2   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|O97580|SUCB1_PIG  -            4.9e-27   94.5   2.2   9.2e-27   93.6   2.2   1.5   1   0   0   1   1   1   1 CoA-ligase
+ATP-grasp_5          PF13549.5  sp|O97580|SUCB1_PIG  -            1.5e-11   44.1   0.8   2.6e-11   43.3   0.1   1.7   2   0   0   2   2   2   1 ATP-grasp domain
+GARS_A               PF01071.18 sp|O97580|SUCB1_PIG  -             0.0017   18.1   0.8    0.0051   16.5   0.8   1.8   1   1   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+CPSase_L_D2          PF02786.16 sp|O97580|SUCB1_PIG  -             0.0041   16.5   2.0     0.016   14.6   0.2   2.3   2   0   0   2   2   2   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+PASTA                PF03793.18 sp|O97580|SUCB1_PIG  -              0.084   12.6   0.1        55    3.6   0.0   3.8   4   0   0   4   4   4   0 PASTA domain
+nsp7                 PF08716.9  sp|O97580|SUCB1_PIG  -               0.14   12.7   0.9       3.1    8.4   0.3   2.6   2   0   0   2   2   2   0 nsp7 replicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O97580.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O97580.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O97580.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:24:14 2019
+# [ok]

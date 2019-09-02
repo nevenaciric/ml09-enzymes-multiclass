@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q929Y1|MURD_LISIN -            5.2e-34  117.8   2.4     9e-34  117.1   2.4   1.4   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q929Y1|MURD_LISIN -            6.1e-07   29.5   0.0   6.8e-06   26.2   0.0   2.8   3   1   0   3   3   3   1 Mur ligase family, glutamate ligase domain
+AlaDh_PNT_C          PF01262.20 sp|Q929Y1|MURD_LISIN -              0.032   13.4   0.0     0.066   12.4   0.0   1.6   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q929Y1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q929Y1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q929Y1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:50:05 2019
+# [ok]

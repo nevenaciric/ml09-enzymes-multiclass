@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|P96575|YDAB_BACSU -            9.8e-96  320.8   0.1   1.2e-95  320.5   0.1   1.0   1   0   0   1   1   1   1 AMP-binding enzyme
+AMP-binding_C        PF13193.5  sp|P96575|YDAB_BACSU -            6.2e-16   59.0   0.1   1.5e-15   57.8   0.1   1.7   1   0   0   1   1   1   1 AMP-binding enzyme C-terminal domain
+Trigger_C            PF05698.13 sp|P96575|YDAB_BACSU -              0.027   14.4   0.0     0.047   13.6   0.0   1.4   1   0   0   1   1   1   0 Bacterial trigger factor protein (TF) C-terminus
+AMP-binding_C_2      PF14535.5  sp|P96575|YDAB_BACSU -              0.065   13.5   0.1      0.14   12.4   0.1   1.5   1   0   0   1   1   1   0 AMP-binding enzyme C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P96575.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P96575.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P96575.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:33:42 2019
+# [ok]

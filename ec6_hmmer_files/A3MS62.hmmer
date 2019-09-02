@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|A3MS62|DNLI_PYRCJ -            5.8e-64  215.4   0.0   8.5e-64  214.9   0.0   1.2   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|A3MS62|DNLI_PYRCJ -            2.6e-40  138.5   0.1   2.1e-38  132.3   0.1   2.4   1   1   1   2   2   2   2 DNA ligase N terminus
+DNA_ligase_A_C       PF04679.14 sp|A3MS62|DNLI_PYRCJ -              8e-24   84.0   0.0   2.5e-23   82.4   0.0   1.9   2   0   0   2   2   2   1 ATP dependent DNA ligase C terminal region
+RNA_ligase           PF09414.9  sp|A3MS62|DNLI_PYRCJ -              6e-06   26.6   0.0     1e-05   25.8   0.0   1.4   1   0   0   1   1   1   1 RNA ligase
+DNA_ligase_OB_2      PF14743.5  sp|A3MS62|DNLI_PYRCJ -              0.025   14.5   0.1      0.22   11.5   0.0   2.6   3   0   0   3   3   3   0 DNA ligase OB-like domain
+HECT                 PF00632.24 sp|A3MS62|DNLI_PYRCJ -               0.12   11.7   0.0      0.23   10.8   0.0   1.4   1   0   0   1   1   1   0 HECT-domain (ubiquitin-transferase)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A3MS62.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A3MS62.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A3MS62.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:15:21 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|B1ZP17|SUCC_OPITP -            1.3e-74  250.0   0.0   2.1e-74  249.4   0.0   1.3   1   0   0   1   1   1   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|B1ZP17|SUCC_OPITP -            2.7e-22   79.2   4.0   3.5e-22   78.8   1.8   2.0   2   0   0   2   2   2   1 CoA-ligase
+ATP-grasp_5          PF13549.5  sp|B1ZP17|SUCC_OPITP -              7e-05   22.3   0.3     0.001   18.4   0.3   2.3   1   1   0   1   1   1   1 ATP-grasp domain
+GARS_A               PF01071.18 sp|B1ZP17|SUCC_OPITP -              0.074   12.7   0.5      0.23   11.1   0.5   1.7   1   1   0   1   1   1   0 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+ATPgrasp_Ter         PF15632.5  sp|B1ZP17|SUCC_OPITP -               0.16   10.5   0.1      0.48    9.0   0.0   1.8   2   0   0   2   2   2   0 ATP-grasp in the biosynthetic pathway with Ter operon
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B1ZP17.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B1ZP17.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B1ZP17.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:48:35 2019
+# [ok]

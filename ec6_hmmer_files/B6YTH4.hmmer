@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-Thr_ED          PF08915.10 sp|B6YTH4|SYT_THEON  -              1e-56  190.7   0.5   2.2e-56  189.6   0.5   1.6   1   0   0   1   1   1   1 Archaea-specific editing domain of threonyl-tRNA synthetase
+HGTP_anticodon       PF03129.19 sp|B6YTH4|SYT_THEON  -            3.3e-25   88.0   5.3     1e-24   86.4   1.9   2.7   2   1   0   2   2   2   1 Anticodon binding domain
+tRNA-synt_2b         PF00587.24 sp|B6YTH4|SYT_THEON  -            4.8e-19   68.9   0.1     1e-18   67.8   0.1   1.6   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B6YTH4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B6YTH4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B6YTH4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:01:36 2019
+# [ok]

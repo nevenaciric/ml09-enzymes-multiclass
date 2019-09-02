@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Dala_Dala_lig_C      PF07478.12 sp|Q163J4|DDL_ROSDO  -            5.1e-34  117.5   0.0   6.3e-34  117.2   0.0   1.1   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+Dala_Dala_lig_N      PF01820.20 sp|Q163J4|DDL_ROSDO  -            7.7e-18   64.8   0.1   5.4e-16   58.8   0.1   2.3   1   1   0   1   1   1   1 D-ala D-ala ligase N-terminus
+NAD_binding_8        PF13450.5  sp|Q163J4|DDL_ROSDO  -             0.0016   18.6   0.1     0.011   15.9   0.1   2.3   2   0   0   2   2   2   1 NAD(P)-binding Rossmann-like domain
+ATP-grasp_4          PF13535.5  sp|Q163J4|DDL_ROSDO  -               0.11   11.9   0.0      0.28   10.7   0.0   1.8   1   1   0   1   1   1   0 ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|Q163J4|DDL_ROSDO  -               0.22   10.6   0.0      0.54    9.4   0.0   1.6   2   0   0   2   2   2   0 Sugar-transfer associated ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q163J4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q163J4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q163J4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:44:00 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GatB_N               PF02934.14 sp|B0RGB2|GATB_CLAMS -           2.1e-100  335.5   0.0  2.7e-100  335.2   0.0   1.1   1   0   0   1   1   1   1 GatB/GatE catalytic domain
+GatB_Yqey            PF02637.17 sp|B0RGB2|GATB_CLAMS -            1.5e-33  115.7   0.2   2.4e-33  115.0   0.2   1.2   1   0   0   1   1   1   1 GatB domain
+YqeY                 PF09424.9  sp|B0RGB2|GATB_CLAMS -              0.011   15.7   0.2     0.025   14.6   0.2   1.6   1   0   0   1   1   1   0 Yqey-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B0RGB2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B0RGB2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B0RGB2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:42:23 2019
+# [ok]

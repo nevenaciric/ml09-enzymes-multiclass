@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|A2RMQ1|SYN_LACLM  -            5.4e-79  265.4   0.0   6.6e-79  265.1   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+tRNA_anti-codon      PF01336.24 sp|A2RMQ1|SYN_LACLM  -              1e-14   54.2   0.2   1.9e-14   53.3   0.2   1.5   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+tRNA-synt_2d         PF01409.19 sp|A2RMQ1|SYN_LACLM  -              0.051   13.0   0.0       2.1    7.7   0.0   2.3   2   0   0   2   2   2   0 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A2RMQ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A2RMQ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A2RMQ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:13:48 2019
+# [ok]

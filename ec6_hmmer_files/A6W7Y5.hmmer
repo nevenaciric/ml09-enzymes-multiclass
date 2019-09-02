@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|A6W7Y5|SYP_KINRD  -            1.6e-41  142.1   0.0   2.1e-41  141.7   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA_edit            PF04073.14 sp|A6W7Y5|SYP_KINRD  -            2.5e-20   72.7   0.0     5e-20   71.7   0.0   1.5   1   0   0   1   1   1   1 Aminoacyl-tRNA editing domain
+HGTP_anticodon       PF03129.19 sp|A6W7Y5|SYP_KINRD  -            4.1e-16   58.8   0.0   8.7e-16   57.8   0.0   1.5   1   0   0   1   1   1   1 Anticodon binding domain
+MdcG                 PF10620.8  sp|A6W7Y5|SYP_KINRD  -              0.011   15.4   0.6      0.03   14.0   0.1   1.8   2   0   0   2   2   2   0 Phosphoribosyl-dephospho-CoA transferase MdcG
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A6W7Y5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A6W7Y5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A6W7Y5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:28:43 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|B5Z999|SYS_HELPG  -            1.1e-32  113.4   0.3     2e-32  112.5   0.1   1.5   2   0   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+Seryl_tRNA_N         PF02403.21 sp|B5Z999|SYS_HELPG  -            8.4e-20   70.9   8.3   8.4e-20   70.9   8.3   1.7   2   0   0   2   2   2   1 Seryl-tRNA synthetase N-terminal domain
+Spc7                 PF08317.10 sp|B5Z999|SYS_HELPG  -               0.19   10.4   6.7      0.38    9.5   6.7   1.4   1   0   0   1   1   1   0 Spc7 kinetochore protein
+DUF1664              PF07889.11 sp|B5Z999|SYS_HELPG  -               0.39   10.6   3.5       0.8    9.6   3.5   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF1664)
+DUF2730              PF10805.7  sp|B5Z999|SYS_HELPG  -               0.55   10.2   4.1       2.6    8.1   4.1   2.1   1   1   0   1   1   1   0 Protein of unknown function (DUF2730)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B5Z999.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B5Z999.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B5Z999.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:00:06 2019
+# [ok]

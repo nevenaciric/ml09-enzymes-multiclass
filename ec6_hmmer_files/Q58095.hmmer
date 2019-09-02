@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RtcB                 PF01139.16 sp|Q58095|RTCB_METJA -           4.5e-186  618.9   0.2  5.4e-186  618.6   0.2   1.1   1   0   0   1   1   1   1 tRNA-splicing ligase RtcB
+LAGLIDADG_3          PF14528.5  sp|Q58095|RTCB_METJA -            1.9e-20   73.0   6.3   1.3e-16   60.7   0.1   3.5   4   0   0   4   4   4   2 LAGLIDADG-like domain
+Intein_splicing      PF14890.5  sp|Q58095|RTCB_METJA -              1e-18   67.5   3.7     1e-18   67.5   3.7   1.8   2   0   0   2   2   2   1 Intein splicing domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q58095.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q58095.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q58095.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:10:21 2019
+# [ok]

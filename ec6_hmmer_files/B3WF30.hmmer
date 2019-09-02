@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HIGH_NTase1          PF05636.10 sp|B3WF30|TMCAL_LACCB -           6.5e-108  361.4   0.0  7.9e-108  361.1   0.0   1.0   1   0   0   1   1   1   1 HIGH Nucleotidyl Transferase
+CTP_transf_like      PF01467.25 sp|B3WF30|TMCAL_LACCB -            5.5e-06   26.5   0.0   1.2e-05   25.5   0.0   1.6   1   0   0   1   1   1   1 Cytidylyltransferase-like
+TIR_2                PF13676.5  sp|B3WF30|TMCAL_LACCB -             0.0039   17.4   0.3     0.018   15.3   0.0   2.2   2   1   0   2   2   2   1 TIR domain
+RP1-2                PF12042.7  sp|B3WF30|TMCAL_LACCB -              0.019   14.7   1.6     0.051   13.4   1.6   1.7   1   0   0   1   1   1   0 Tubuliform egg casing silk strands structural domain
+Citrate_ly_lig       PF08218.10 sp|B3WF30|TMCAL_LACCB -              0.021   14.4   0.1       1.4    8.5   0.0   2.3   2   0   0   2   2   2   0 Citrate lyase ligase C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B3WF30.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B3WF30.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B3WF30.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:54:48 2019
+# [ok]

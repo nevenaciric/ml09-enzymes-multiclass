@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|A5VWJ1|SYGB_PSEP1 -           6.3e-206  685.3   0.0  7.7e-206  685.0   0.0   1.1   1   0   0   1   1   1   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|A5VWJ1|SYGB_PSEP1 -            8.2e-08   32.3   0.7   1.9e-07   31.2   0.7   1.5   1   0   0   1   1   1   1 DALR anticodon binding domain
+DUF3322              PF11795.7  sp|A5VWJ1|SYGB_PSEP1 -                0.1   12.5   1.3      0.19   11.6   0.1   2.0   2   0   0   2   2   2   0 Uncharacterized protein conserved in bacteria N-term (DUF3322)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A5VWJ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A5VWJ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A5VWJ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:24:35 2019
+# [ok]

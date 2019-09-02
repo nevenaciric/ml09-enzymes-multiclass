@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GSH_synth_ATP        PF03917.16 sp|P48637|GSHB_HUMAN -           3.5e-130  434.0   0.0  4.5e-130  433.7   0.0   1.0   1   0   0   1   1   1   1 Eukaryotic glutathione synthase, ATP binding domain
+GSH_synthase         PF03199.14 sp|P48637|GSHB_HUMAN -            1.6e-33  115.1   0.0     3e-33  114.3   0.0   1.5   1   0   0   1   1   1   1 Eukaryotic glutathione synthase
+MerR_1               PF13411.5  sp|P48637|GSHB_HUMAN -               0.11   12.5   0.0      0.32   11.0   0.0   1.7   1   0   0   1   1   1   0 MerR HTH family regulatory protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P48637.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P48637.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P48637.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:29:18 2019
+# [ok]

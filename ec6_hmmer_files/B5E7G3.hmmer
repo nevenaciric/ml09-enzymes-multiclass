@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HIGH_NTase1          PF05636.10 sp|B5E7G3|TMCAL_STRP4 -           2.7e-108  362.7   0.0  3.2e-108  362.4   0.0   1.0   1   0   0   1   1   1   1 HIGH Nucleotidyl Transferase
+CTP_transf_like      PF01467.25 sp|B5E7G3|TMCAL_STRP4 -            0.00095   19.3   0.0     0.004   17.2   0.0   2.0   2   0   0   2   2   2   1 Cytidylyltransferase-like
+Citrate_ly_lig       PF08218.10 sp|B5E7G3|TMCAL_STRP4 -             0.0011   18.6   0.1     0.031   13.8   0.0   2.6   3   0   0   3   3   3   1 Citrate lyase ligase C-terminal domain
+Sec1                 PF00995.22 sp|B5E7G3|TMCAL_STRP4 -               0.03   13.5   0.4     0.096   11.8   0.1   1.7   2   0   0   2   2   2   0 Sec1 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B5E7G3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B5E7G3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B5E7G3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:57:36 2019
+# [ok]

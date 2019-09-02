@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|O58028|SYH_PYRHO  -            1.1e-65  221.9   0.0   1.3e-65  221.6   0.0   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+HGTP_anticodon       PF03129.19 sp|O58028|SYH_PYRHO  -              1e-18   67.2   2.6   2.4e-18   66.0   2.6   1.7   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2b         PF00587.24 sp|O58028|SYH_PYRHO  -            2.6e-14   53.5   0.0   7.8e-14   51.9   0.0   1.8   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_2          PF00152.19 sp|O58028|SYH_PYRHO  -              3e-06   26.5   1.6   0.00038   19.5   0.4   2.7   3   1   0   3   3   3   2 tRNA synthetases class II (D, K and N)
+tRNA-synt_2d         PF01409.19 sp|O58028|SYH_PYRHO  -             0.0089   15.4   0.0     0.028   13.8   0.0   1.7   2   1   0   2   2   2   1 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O58028.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O58028.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O58028.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:22:46 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q4PEM9|FER3_USTMA -           1.4e-197  656.3   0.0   3.8e-68  229.9   0.0   3.2   3   0   0   3   3   3   3 AMP-binding enzyme
+Condensation         PF00668.19 sp|Q4PEM9|FER3_USTMA -           1.1e-138  462.7   1.0   4.1e-43  147.6   0.0   5.3   5   0   0   5   5   5   5 Condensation domain
+PP-binding           PF00550.24 sp|Q4PEM9|FER3_USTMA -            3.7e-46  155.2  11.1   6.2e-11   42.4   0.1   6.5   6   0   0   6   6   6   5 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|Q4PEM9|FER3_USTMA -            4.1e-11   43.6   0.0    0.0041   18.0   0.0   4.2   3   0   0   3   3   3   3 AMP-binding enzyme C-terminal domain
+AATase               PF07247.11 sp|Q4PEM9|FER3_USTMA -            8.8e-05   21.4   0.5       4.6    5.8   0.0   4.7   5   1   0   5   5   5   2 Alcohol acetyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q4PEM9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q4PEM9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q4PEM9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:07:41 2019
+# [ok]

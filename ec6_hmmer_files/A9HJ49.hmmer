@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|A9HJ49|SYH_GLUDA  -              3e-35  121.9   0.1   1.3e-34  119.8   0.1   1.9   1   1   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|A9HJ49|SYH_GLUDA  -            9.4e-21   74.5   0.0   1.3e-20   74.0   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A9HJ49|SYH_GLUDA  -            1.2e-11   44.5   0.0     2e-11   43.8   0.0   1.4   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2d         PF01409.19 sp|A9HJ49|SYH_GLUDA  -            0.00017   21.1   0.0   0.00066   19.1   0.0   1.8   2   0   0   2   2   2   1 tRNA synthetases class II core domain (F)
+ADH_zinc_N           PF00107.25 sp|A9HJ49|SYH_GLUDA  -               0.02   14.7   0.3      0.05   13.4   0.3   1.7   1   0   0   1   1   1   0 Zinc-binding dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A9HJ49.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A9HJ49.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A9HJ49.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:37:55 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AIRS_C               PF02769.21 sp|A3N1A1|PUR5_ACTP2 -            2.7e-38  131.5   0.0   4.3e-38  130.8   0.0   1.4   1   0   0   1   1   1   1 AIR synthase related protein, C-terminal domain
+AIRS                 PF00586.23 sp|A3N1A1|PUR5_ACTP2 -            6.5e-16   58.7   0.6   1.4e-15   57.6   0.5   1.6   1   1   0   1   1   1   1 AIR synthase related protein, N-terminal domain
+Biotin_lipoyl_2      PF13533.5  sp|A3N1A1|PUR5_ACTP2 -              0.043   13.6   0.0      0.11   12.2   0.0   1.7   1   0   0   1   1   1   0 Biotin-lipoyl like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A3N1A1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A3N1A1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A3N1A1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:15:35 2019
+# [ok]

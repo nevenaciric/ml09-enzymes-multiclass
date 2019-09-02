@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RimK                 PF08443.10 sp|A8GCA7|RIMK_SERP5 -            9.2e-73  243.8   0.0   1.1e-72  243.5   0.0   1.1   1   0   0   1   1   1   1 RimK-like ATP-grasp domain
+GSH-S_ATP            PF02955.15 sp|A8GCA7|RIMK_SERP5 -              1e-17   64.0   0.2   1.6e-17   63.3   0.2   1.3   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, ATP-grasp domain
+ATP-grasp_3          PF02655.13 sp|A8GCA7|RIMK_SERP5 -            4.1e-09   36.6   0.0   6.3e-09   36.0   0.0   1.2   1   0   0   1   1   1   1 ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|A8GCA7|RIMK_SERP5 -              3e-07   29.9   0.0    0.0026   17.0   0.0   2.7   1   1   1   2   2   2   2 Sugar-transfer associated ATP-grasp
+Dala_Dala_lig_C      PF07478.12 sp|A8GCA7|RIMK_SERP5 -            0.00012   21.6   0.3   0.00066   19.2   0.3   1.8   1   1   0   1   1   1   1 D-ala D-ala ligase C-terminus
+ATPgrasp_YheCD       PF14398.5  sp|A8GCA7|RIMK_SERP5 -             0.0021   17.2   0.1     0.014   14.5   0.1   2.3   1   1   1   2   2   2   1 YheC/D like ATP-grasp
+Arm-DNA-bind_3       PF13356.5  sp|A8GCA7|RIMK_SERP5 -              0.017   15.4   0.2     0.054   13.8   0.0   1.9   2   0   0   2   2   2   0 Arm DNA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A8GCA7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A8GCA7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A8GCA7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:34:49 2019
+# [ok]

@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GARS_A               PF01071.18 sp|Q8CT26|PUR2_STAES -            8.8e-67  224.5   0.1   2.4e-66  223.1   0.1   1.7   2   0   0   2   2   2   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+GARS_N               PF02844.14 sp|Q8CT26|PUR2_STAES -            5.8e-33  113.4   0.1   1.5e-32  112.1   0.1   1.8   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, N domain
+GARS_C               PF02843.15 sp|Q8CT26|PUR2_STAES -            6.7e-24   83.9   0.0   1.6e-23   82.7   0.0   1.7   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, C domain
+ATP-grasp_3          PF02655.13 sp|Q8CT26|PUR2_STAES -            1.1e-06   28.7   0.0   1.7e-06   28.1   0.0   1.3   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp            PF02222.21 sp|Q8CT26|PUR2_STAES -            9.7e-06   25.2   0.1   2.2e-05   24.0   0.0   1.6   2   0   0   2   2   2   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|Q8CT26|PUR2_STAES -            0.00013   21.4   0.0   0.00055   19.4   0.0   2.0   2   0   0   2   2   2   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATP-grasp_5          PF13549.5  sp|Q8CT26|PUR2_STAES -             0.0069   15.8   0.0     0.014   14.7   0.0   1.4   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_4          PF13535.5  sp|Q8CT26|PUR2_STAES -               0.02   14.4   0.1      0.15   11.6   0.2   2.3   2   1   0   2   2   2   0 ATP-grasp domain
+GSH-S_ATP            PF02955.15 sp|Q8CT26|PUR2_STAES -               0.02   14.2   0.0      0.25   10.7   0.0   2.2   1   1   0   1   1   1   0 Prokaryotic glutathione synthetase, ATP-grasp domain
+RimK                 PF08443.10 sp|Q8CT26|PUR2_STAES -              0.026   14.0   0.0       0.2   11.1   0.0   2.1   1   1   0   1   1   1   0 RimK-like ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|Q8CT26|PUR2_STAES -              0.041   13.0   0.0       2.1    7.4   0.0   2.2   2   0   0   2   2   2   0 Sugar-transfer associated ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8CT26.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8CT26.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8CT26.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:39:20 2019
+# [ok]

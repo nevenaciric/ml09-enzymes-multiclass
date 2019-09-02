@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|Q0SP28|SYH_BORAP  -            1.2e-42  146.2   0.0   1.8e-42  145.6   0.0   1.3   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+HGTP_anticodon       PF03129.19 sp|Q0SP28|SYH_BORAP  -            8.2e-15   54.6   0.7   1.6e-14   53.7   0.7   1.5   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2b         PF00587.24 sp|Q0SP28|SYH_BORAP  -              3e-08   33.8   1.0   2.5e-07   30.7   1.0   2.3   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_2          PF00152.19 sp|Q0SP28|SYH_BORAP  -             0.0039   16.2   6.4    0.0094   15.0   0.3   2.9   1   1   0   2   2   2   1 tRNA synthetases class II (D, K and N)
+HGTP_anticodon2      PF12745.6  sp|Q0SP28|SYH_BORAP  -              0.019   14.3   1.0     0.044   13.1   0.6   1.7   2   0   0   2   2   2   0 Anticodon binding domain of tRNAs
+tRNA-synt_2d         PF01409.19 sp|Q0SP28|SYH_BORAP  -              0.076   12.4   1.1      0.36   10.2   0.0   2.4   3   0   0   3   3   3   0 tRNA synthetases class II core domain (F)
+GldH_lipo            PF14109.5  sp|Q0SP28|SYH_BORAP  -               0.12   13.0   0.9      0.25   12.0   0.9   1.5   1   0   0   1   1   1   0 GldH lipoprotein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q0SP28.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q0SP28.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q0SP28.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:40:58 2019
+# [ok]

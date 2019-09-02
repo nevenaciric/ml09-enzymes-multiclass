@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|Q55806|SYT_SYNY3  -            1.6e-38  132.3   0.0     3e-38  131.5   0.0   1.4   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q55806|SYT_SYNY3  -            3.4e-20   71.9   0.1   7.4e-20   70.8   0.1   1.6   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA_SAD             PF07973.13 sp|Q55806|SYT_SYNY3  -            2.5e-12   46.6   0.0   6.8e-12   45.2   0.0   1.8   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+DUF2666              PF10869.7  sp|Q55806|SYT_SYNY3  -               0.18   12.0   2.5      0.83    9.8   0.0   2.3   2   0   0   2   2   2   0 Protein of unknown function (DUF2666)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q55806.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q55806.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q55806.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:09:35 2019
+# [ok]

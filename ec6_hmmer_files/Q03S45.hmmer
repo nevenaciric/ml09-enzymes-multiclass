@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FTHFS                PF01268.18 sp|Q03S45|FTHS_LACBA -           1.1e-254  845.7   1.2  1.3e-254  845.5   1.2   1.0   1   0   0   1   1   1   1 Formate--tetrahydrofolate ligase
+CbiA                 PF01656.22 sp|Q03S45|FTHS_LACBA -             0.0025   17.8   0.0     0.045   13.7   0.0   2.7   1   1   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+DNA_primase_lrg      PF04104.13 sp|Q03S45|FTHS_LACBA -               0.26   10.6   0.0      0.42    9.9   0.0   1.2   1   0   0   1   1   1   0 Eukaryotic and archaeal DNA primase, large subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q03S45.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q03S45.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q03S45.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:36:14 2019
+# [ok]

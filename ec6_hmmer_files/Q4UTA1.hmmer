@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|Q4UTA1|SYN_XANC8  -            5.1e-81  272.1   0.0   6.4e-81  271.7   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+tRNA_anti-codon      PF01336.24 sp|Q4UTA1|SYN_XANC8  -            2.5e-10   40.1   0.1   6.1e-10   38.9   0.1   1.7   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+tRNA-synt_2d         PF01409.19 sp|Q4UTA1|SYN_XANC8  -             0.0044   16.4   0.0      0.68    9.3   0.0   2.7   3   0   0   3   3   3   2 tRNA synthetases class II core domain (F)
+tRNA_int_endo        PF01974.16 sp|Q4UTA1|SYN_XANC8  -               0.02   14.9   0.3       6.9    6.7   0.3   2.8   3   0   0   3   3   3   0 tRNA intron endonuclease, catalytic C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q4UTA1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q4UTA1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q4UTA1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:08:21 2019
+# [ok]

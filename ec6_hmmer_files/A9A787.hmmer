@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ProRS-C_2            PF09181.9  sp|A9A787|SYP_METM6  -            1.7e-31  108.0   1.0   1.7e-31  108.0   1.0   2.2   2   0   0   2   2   2   1 Prolyl-tRNA synthetase, C-terminal
+tRNA-synt_2b         PF00587.24 sp|A9A787|SYP_METM6  -            9.7e-26   90.7   0.0     2e-25   89.7   0.0   1.5   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A9A787|SYP_METM6  -            1.7e-17   63.2   0.2     4e-17   62.0   0.2   1.6   1   0   0   1   1   1   1 Anticodon binding domain
+DHDPS                PF00701.21 sp|A9A787|SYP_METM6  -              0.092   11.3   0.4       0.4    9.2   0.1   1.9   2   0   0   2   2   2   0 Dihydrodipicolinate synthetase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A9A787.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A9A787.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A9A787.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:36:58 2019
+# [ok]

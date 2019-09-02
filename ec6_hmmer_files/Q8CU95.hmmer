@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Seryl_tRNA_N         PF02403.21 sp|Q8CU95|SYS_STAES  -            7.2e-34  116.2  12.7   1.4e-33  115.2  12.7   1.5   1   0   0   1   1   1   1 Seryl-tRNA synthetase N-terminal domain
+tRNA-synt_2b         PF00587.24 sp|Q8CU95|SYS_STAES  -            1.7e-33  116.0   0.0   3.1e-33  115.2   0.0   1.4   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+DUF4047              PF13256.5  sp|Q8CU95|SYS_STAES  -              0.001   19.2   2.2    0.0025   17.9   2.2   1.6   1   0   0   1   1   1   1 Domain of unknown function (DUF4047)
+FapA                 PF03961.12 sp|Q8CU95|SYS_STAES  -               0.01   14.4   5.4     0.015   13.8   5.4   1.1   1   0   0   1   1   1   0 Flagellar Assembly Protein A
+Pox_A_type_inc       PF04508.11 sp|Q8CU95|SYS_STAES  -              0.011   15.4   1.0       1.4    8.8   0.1   3.2   2   0   0   2   2   2   0 Viral A-type inclusion protein repeat
+SHE3                 PF17078.4  sp|Q8CU95|SYS_STAES  -              0.018   14.7   4.1     0.028   14.1   3.3   1.6   2   0   0   2   2   2   0 SWI5-dependent HO expression protein 3
+DUF3450              PF11932.7  sp|Q8CU95|SYS_STAES  -                0.1   11.8   2.8      0.19   10.9   2.8   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF3450)
+Med30                PF11315.7  sp|Q8CU95|SYS_STAES  -               0.13   12.4   5.3       5.7    7.1   6.5   2.6   2   1   1   3   3   3   0 Mediator complex subunit 30
+DUF1465              PF07323.11 sp|Q8CU95|SYS_STAES  -               0.15   11.8   2.7       0.3   10.8   2.7   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF1465)
+DUF2203              PF09969.8  sp|Q8CU95|SYS_STAES  -               0.15   12.7   1.8      0.43   11.2   1.8   1.7   1   0   0   1   1   1   0 Uncharacterized conserved protein (DUF2203)
+Spc7                 PF08317.10 sp|Q8CU95|SYS_STAES  -               0.24   10.2   5.4       0.4    9.4   5.4   1.3   1   0   0   1   1   1   0 Spc7 kinetochore protein
+TMPIT                PF07851.12 sp|Q8CU95|SYS_STAES  -               0.29   10.3   2.0      0.46    9.6   2.0   1.2   1   0   0   1   1   1   0 TMPIT-like protein
+eIF3_N               PF09440.9  sp|Q8CU95|SYS_STAES  -               0.34   11.3   3.9       1.1    9.6   2.2   2.5   3   0   0   3   3   2   0 eIF3 subunit 6 N terminal domain
+APG6                 PF04111.11 sp|Q8CU95|SYS_STAES  -                0.4    9.9   3.5      0.75    9.0   3.5   1.4   1   0   0   1   1   1   0 Autophagy protein Apg6
+DUF1664              PF07889.11 sp|Q8CU95|SYS_STAES  -               0.53   10.2   5.6       1.1    9.2   5.6   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF1664)
+Fib_alpha            PF08702.9  sp|Q8CU95|SYS_STAES  -               0.94    9.6   4.4       1.7    8.7   4.4   1.4   1   0   0   1   1   1   0 Fibrinogen alpha/beta chain family
+DUF948               PF06103.10 sp|Q8CU95|SYS_STAES  -                1.2    9.3   2.8       1.8    8.8   1.4   2.0   2   1   0   2   2   2   0 Bacterial protein of unknown function (DUF948)
+Cauli_AT             PF03233.12 sp|Q8CU95|SYS_STAES  -                1.3    8.8   6.3       2.7    7.8   6.3   1.5   1   0   0   1   1   1   0 Aphid transmission protein
+IncA                 PF04156.13 sp|Q8CU95|SYS_STAES  -                1.6    8.4   3.8       2.7    7.7   3.8   1.3   1   0   0   1   1   1   0 IncA protein
+ZapB                 PF06005.11 sp|Q8CU95|SYS_STAES  -                5.1    7.5   9.3        24    5.4   8.3   2.4   1   1   1   2   2   2   0 Cell division protein ZapB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8CU95.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8CU95.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8CU95.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:39:24 2019
+# [ok]

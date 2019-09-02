@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q73XY1|MBTB_MYCPA -            2.1e-87  293.4   0.0   3.2e-87  292.8   0.0   1.3   1   0   0   1   1   1   1 AMP-binding enzyme
+Condensation         PF00668.19 sp|Q73XY1|MBTB_MYCPA -            2.6e-26   92.2   0.0   3.9e-26   91.6   0.0   1.1   1   0   0   1   1   1   1 Condensation domain
+PP-binding           PF00550.24 sp|Q73XY1|MBTB_MYCPA -            1.4e-22   79.7   2.9     3e-10   40.2   0.7   2.8   2   0   0   2   2   2   2 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|Q73XY1|MBTB_MYCPA -            0.00021   22.1   0.4   0.00068   20.5   0.4   2.0   1   0   0   1   1   1   1 AMP-binding enzyme C-terminal domain
+Transferase          PF02458.14 sp|Q73XY1|MBTB_MYCPA -              0.078   11.5   0.0      0.18   10.3   0.0   1.5   2   0   0   2   2   2   0 Transferase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q73XY1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q73XY1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q73XY1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:28:16 2019
+# [ok]

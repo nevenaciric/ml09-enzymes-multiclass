@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|O14055|SYYC_SCHPO -            2.4e-73  246.9   0.0   3.4e-73  246.4   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+HrpJ                 PF07201.10 sp|O14055|SYYC_SCHPO -              0.019   15.2   2.1     0.031   14.5   2.1   1.3   1   0   0   1   1   1   0 HrpJ-like domain
+Viral_P18            PF04521.12 sp|O14055|SYYC_SCHPO -              0.024   14.3   0.0     0.053   13.2   0.0   1.5   1   0   0   1   1   1   0 ssRNA positive strand viral 18kD cysteine rich protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O14055.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O14055.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O14055.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:21:11 2019
+# [ok]

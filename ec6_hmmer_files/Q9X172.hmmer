@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|Q9X172|SYE1_THEMA -           4.8e-101  337.7   0.0  6.6e-101  337.2   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+AD                   PF09793.8  sp|Q9X172|SYE1_THEMA -              0.026   14.5   0.1     0.087   12.9   0.0   1.8   2   0   0   2   2   2   0 Anticodon-binding domain
+IDO                  PF01231.17 sp|Q9X172|SYE1_THEMA -              0.077   11.7   0.0      0.12   11.1   0.0   1.2   1   0   0   1   1   1   0 Indoleamine 2,3-dioxygenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9X172.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9X172.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9X172.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:59:16 2019
+# [ok]

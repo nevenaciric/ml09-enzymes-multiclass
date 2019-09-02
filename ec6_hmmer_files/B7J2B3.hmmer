@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|B7J2B3|DNLJ_BORBZ -           3.1e-117  391.1   0.2  4.2e-117  390.7   0.2   1.2   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|B7J2B3|DNLJ_BORBZ -            4.9e-24   83.9   1.0   9.2e-24   83.0   1.0   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+BRCT                 PF00533.25 sp|B7J2B3|DNLJ_BORBZ -            7.3e-13   48.6   0.2   3.9e-12   46.3   0.2   2.3   2   0   0   2   2   2   1 BRCA1 C Terminus (BRCT) domain
+HHH_5                PF14520.5  sp|B7J2B3|DNLJ_BORBZ -            6.2e-05   23.4   0.1   0.00027   21.4   0.0   2.2   2   0   0   2   2   2   1 Helix-hairpin-helix domain
+HHH_2                PF12826.6  sp|B7J2B3|DNLJ_BORBZ -            0.00024   21.0   0.3     0.001   19.1   0.2   2.2   1   1   0   1   1   1   1 Helix-hairpin-helix motif
+DNA_ligase_ZBD       PF03119.15 sp|B7J2B3|DNLJ_BORBZ -            0.00039   20.3   2.7   0.00083   19.2   2.7   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+PTCB-BRCT            PF12738.6  sp|B7J2B3|DNLJ_BORBZ -            0.00063   19.5   0.0    0.0013   18.5   0.0   1.5   1   0   0   1   1   1   1 twin BRCT domain
+GerPB                PF10803.7  sp|B7J2B3|DNLJ_BORBZ -              0.059   13.4   0.2      0.17   11.9   0.2   1.8   1   0   0   1   1   1   0 Spore germination GerPB
+CEBP_ZZ              PF16366.4  sp|B7J2B3|DNLJ_BORBZ -               0.34   11.1   2.3      0.69   10.1   2.3   1.4   1   0   0   1   1   1   0 Cytoplasmic polyadenylation element-binding protein ZZ domain
+zf-C6H2              PF15801.4  sp|B7J2B3|DNLJ_BORBZ -                4.1    7.7   6.8        16    5.8   0.7   2.3   1   1   1   2   2   2   0 zf-MYND-like zinc finger, mRNA-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B7J2B3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B7J2B3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B7J2B3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:02:56 2019
+# [ok]

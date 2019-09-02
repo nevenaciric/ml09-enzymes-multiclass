@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q216E0|MURD_RHOPB -            7.6e-32  110.8   0.0   1.6e-31  109.7   0.0   1.5   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q216E0|MURD_RHOPB -            3.3e-06   27.2   0.0   1.1e-05   25.5   0.0   2.0   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+IlvN                 PF07991.11 sp|Q216E0|MURD_RHOPB -             0.0021   17.6   0.1     0.005   16.3   0.1   1.6   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+AdoHcyase_NAD        PF00670.20 sp|Q216E0|MURD_RHOPB -             0.0038   17.2   0.2    0.0077   16.2   0.2   1.4   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|Q216E0|MURD_RHOPB -             0.0046   16.2   0.0    0.0091   15.3   0.0   1.5   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+ADH_zinc_N           PF00107.25 sp|Q216E0|MURD_RHOPB -               0.11   12.3   2.7      0.13   12.1   0.2   2.3   2   0   0   2   2   2   0 Zinc-binding dehydrogenase
+CbiA                 PF01656.22 sp|Q216E0|MURD_RHOPB -               0.12   12.4   1.2      0.31   11.0   0.2   2.1   2   1   0   2   2   2   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q216E0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q216E0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q216E0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:50:05 2019
+# [ok]

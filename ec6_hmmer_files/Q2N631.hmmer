@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2d         PF01409.19 sp|Q2N631|SYFA_ERYLH -            2.4e-97  325.1   0.0     3e-97  324.8   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+Phe_tRNA-synt_N      PF02912.17 sp|Q2N631|SYFA_ERYLH -              2e-18   65.9   2.0   3.5e-18   65.2   2.0   1.4   1   0   0   1   1   1   1 Aminoacyl tRNA synthetase class II, N-terminal domain
+NAF                  PF03822.13 sp|Q2N631|SYFA_ERYLH -              0.031   14.4   0.0     0.059   13.5   0.0   1.5   1   0   0   1   1   1   0 NAF domain
+DctP                 PF03480.12 sp|Q2N631|SYFA_ERYLH -               0.18   11.0   0.0      0.34   10.1   0.0   1.3   1   0   0   1   1   1   0 Bacterial extracellular solute-binding protein, family 7
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2N631.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2N631.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2N631.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:54:01 2019
+# [ok]

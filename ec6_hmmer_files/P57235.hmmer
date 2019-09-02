@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|P57235|SYGB_BUCAI -             3e-185  617.1   0.4  4.1e-185  616.6   0.4   1.2   1   0   0   1   1   1   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|P57235|SYGB_BUCAI -            2.4e-10   40.5   3.7   7.4e-10   39.0   0.7   2.7   2   0   0   2   2   2   1 DALR anticodon binding domain
+Glutaredoxin2_C      PF04399.12 sp|P57235|SYGB_BUCAI -               0.42   10.3   5.9      0.79    9.5   0.1   3.5   4   0   0   4   4   4   0 Glutaredoxin 2, C terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P57235.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P57235.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P57235.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:30:12 2019
+# [ok]

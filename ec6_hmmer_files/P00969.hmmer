@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|P00969|DNLI_BPT7  -            3.9e-47  160.5   0.0   4.9e-47  160.1   0.0   1.1   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_OB_2      PF14743.5  sp|P00969|DNLI_BPT7  -              0.019   14.9   0.0      0.22   11.5   0.0   2.5   3   0   0   3   3   3   0 DNA ligase OB-like domain
+RNA_ligase           PF09414.9  sp|P00969|DNLI_BPT7  -              0.019   15.1   0.2     0.037   14.2   0.2   1.5   1   1   0   1   1   1   0 RNA ligase
+DNA_ligase_A_C       PF04679.14 sp|P00969|DNLI_BPT7  -              0.062   13.8   0.0      0.35   11.4   0.0   2.2   2   0   0   2   2   2   0 ATP dependent DNA ligase C terminal region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P00969.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P00969.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P00969.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:24:20 2019
+# [ok]

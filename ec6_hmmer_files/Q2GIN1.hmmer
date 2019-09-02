@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q2GIN1|SYY_ANAPZ  -              7e-70  235.6   0.0   8.3e-70  235.3   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|Q2GIN1|SYY_ANAPZ  -            0.00015   21.3   0.0    0.0003   20.3   0.0   1.5   1   0   0   1   1   1   1 S4 domain
+TyrRSs_C             PF16714.4  sp|Q2GIN1|SYY_ANAPZ  -               0.13   11.9   0.0      0.27   11.0   0.0   1.4   1   0   0   1   1   1   0 Tyrosyl-tRNA synthetase C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2GIN1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2GIN1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2GIN1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:52:31 2019
+# [ok]

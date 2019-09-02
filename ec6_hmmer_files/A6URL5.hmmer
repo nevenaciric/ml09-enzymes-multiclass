@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QueC                 PF06508.12 sp|A6URL5|QUEC_METVS -            1.5e-61  207.5   0.0   1.7e-61  207.3   0.0   1.0   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+Asn_synthase         PF00733.20 sp|A6URL5|QUEC_METVS -            1.6e-05   24.7   0.0   2.3e-05   24.1   0.0   1.2   1   0   0   1   1   1   1 Asparagine synthase
+ThiI                 PF02568.13 sp|A6URL5|QUEC_METVS -            0.00011   21.7   0.1    0.0038   16.7   0.1   2.3   3   0   0   3   3   3   1 Thiamine biosynthesis protein (ThiI)
+NAD_synthase         PF02540.16 sp|A6URL5|QUEC_METVS -            0.00083   18.4   0.1    0.0012   17.9   0.1   1.3   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|A6URL5|QUEC_METVS -              0.031   13.0   0.0     0.043   12.5   0.0   1.2   1   0   0   1   1   1   0 tRNA methyl transferase
+ATP_bind_3           PF01171.19 sp|A6URL5|QUEC_METVS -               0.11   12.1   0.0      0.57    9.8   0.0   1.9   2   0   0   2   2   2   0 PP-loop family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A6URL5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A6URL5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A6URL5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:27:30 2019
+# [ok]

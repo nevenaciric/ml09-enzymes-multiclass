@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q47QX1|MURD_THEFY -            1.1e-25   90.6   0.0   1.9e-25   89.9   0.0   1.4   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q47QX1|MURD_THEFY -            1.4e-05   25.1   0.8   4.2e-05   23.6   0.1   2.1   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+NAD_binding_7        PF13241.5  sp|Q47QX1|MURD_THEFY -             0.0072   16.7   0.1     0.028   14.7   0.1   2.1   1   1   0   1   1   1   1 Putative NAD(P)-binding
+3HCDH_N              PF02737.17 sp|Q47QX1|MURD_THEFY -              0.013   15.3   0.1     0.073   12.9   0.0   2.1   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+XdhC_C               PF13478.5  sp|Q47QX1|MURD_THEFY -              0.017   15.5   0.0     0.073   13.5   0.0   2.1   1   0   0   1   1   1   0 XdhC Rossmann domain
+NAD_binding_2        PF03446.14 sp|Q47QX1|MURD_THEFY -               0.04   14.0   0.0      0.12   12.4   0.0   2.0   1   1   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+Pyr_redox_2          PF07992.13 sp|Q47QX1|MURD_THEFY -              0.043   13.0   0.3      0.59    9.2   0.1   2.4   1   1   1   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+Pyr_redox            PF00070.26 sp|Q47QX1|MURD_THEFY -              0.048   14.1   0.0      0.15   12.6   0.0   1.9   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+TrkA_N               PF02254.17 sp|Q47QX1|MURD_THEFY -              0.062   13.5   0.4      0.33   11.1   0.0   2.4   2   0   0   2   2   2   0 TrkA-N domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q47QX1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q47QX1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q47QX1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:04:42 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AAA_26               PF13500.5  sp|Q65ML0|BIOD_BACLD -            1.1e-47  162.4   0.0   1.2e-47  162.2   0.0   1.0   1   0   0   1   1   1   1 AAA domain
+CbiA                 PF01656.22 sp|Q65ML0|BIOD_BACLD -            9.3e-09   35.3   0.0   2.6e-08   33.9   0.0   1.7   1   1   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+ParA                 PF10609.8  sp|Q65ML0|BIOD_BACLD -            0.00065   19.1   0.2      0.13   11.6   0.1   2.5   2   1   0   2   2   2   2 NUBPL iron-transfer P-loop NTPase
+ArsA_ATPase          PF02374.14 sp|Q65ML0|BIOD_BACLD -              0.028   13.6   0.5      0.77    8.8   0.4   2.2   2   0   0   2   2   2   0 Anion-transporting ATPase
+Fer4_NifH            PF00142.17 sp|Q65ML0|BIOD_BACLD -              0.064   12.6   0.0      0.19   11.0   0.0   1.7   2   0   0   2   2   2   0 4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+NACHT                PF05729.11 sp|Q65ML0|BIOD_BACLD -               0.17   11.7   0.0      0.26   11.1   0.0   1.3   1   0   0   1   1   1   0 NACHT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q65ML0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q65ML0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q65ML0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:20:25 2019
+# [ok]

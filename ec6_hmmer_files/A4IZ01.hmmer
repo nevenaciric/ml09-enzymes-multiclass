@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2c         PF01411.18 sp|A4IZ01|SYA_FRATW  -           1.6e-220  733.3   0.6  2.4e-220  732.7   0.6   1.2   1   0   0   1   1   1   1 tRNA synthetases class II (A)
+DHHA1                PF02272.18 sp|A4IZ01|SYA_FRATW  -            1.2e-21   77.5  12.3   5.4e-21   75.4   6.1   3.1   3   0   0   3   3   3   2 DHHA1 domain
+tRNA_SAD             PF07973.13 sp|A4IZ01|SYA_FRATW  -            2.9e-19   68.8   0.4   9.2e-19   67.2   0.4   2.0   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A4IZ01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A4IZ01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A4IZ01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:17:20 2019
+# [ok]

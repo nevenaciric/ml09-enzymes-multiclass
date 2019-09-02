@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2d         PF01409.19 sp|A8LLH4|SYFA_DINSH -           7.2e-101  336.7   0.0  8.8e-101  336.4   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+Phe_tRNA-synt_N      PF02912.17 sp|A8LLH4|SYFA_DINSH -            5.3e-21   74.2   4.1   8.6e-21   73.6   4.1   1.3   1   0   0   1   1   1   1 Aminoacyl tRNA synthetase class II, N-terminal domain
+DUF5076              PF16826.4  sp|A8LLH4|SYFA_DINSH -              0.024   14.5   0.6     0.045   13.6   0.6   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF5076)
+PDCD9                PF07147.11 sp|A8LLH4|SYFA_DINSH -               0.27   10.3   0.1      0.42    9.7   0.1   1.1   1   0   0   1   1   1   0 Mitochondrial 28S ribosomal protein S30 (PDCD9)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A8LLH4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A8LLH4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A8LLH4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:35:53 2019
+# [ok]

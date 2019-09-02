@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|P49590|SYHM_HUMAN -              2e-38  132.4   0.0   2.5e-38  132.0   0.0   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+HGTP_anticodon       PF03129.19 sp|P49590|SYHM_HUMAN -            5.7e-17   61.6   0.1     1e-16   60.8   0.1   1.4   1   0   0   1   1   1   1 Anticodon binding domain
+HGTP_anticodon2      PF12745.6  sp|P49590|SYHM_HUMAN -            2.9e-09   36.6   0.1   4.2e-09   36.2   0.1   1.2   1   0   0   1   1   1   1 Anticodon binding domain of tRNAs
+TPP_enzyme_N         PF02776.17 sp|P49590|SYHM_HUMAN -              0.071   12.6   0.0         7    6.1   0.0   2.4   2   0   0   2   2   2   0 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P49590.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P49590.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P49590.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:29:24 2019
+# [ok]

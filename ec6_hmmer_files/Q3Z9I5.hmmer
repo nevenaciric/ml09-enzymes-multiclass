@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|Q3Z9I5|SYP_DEHM1  -            5.8e-50  169.6   0.0   8.1e-50  169.2   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA_edit            PF04073.14 sp|Q3Z9I5|SYP_DEHM1  -            1.7e-24   86.1   0.0   3.3e-24   85.2   0.0   1.5   1   0   0   1   1   1   1 Aminoacyl-tRNA editing domain
+HGTP_anticodon       PF03129.19 sp|Q3Z9I5|SYP_DEHM1  -            1.8e-16   60.0   0.0   7.4e-16   58.0   0.0   2.1   1   0   0   1   1   1   1 Anticodon binding domain
+zinc_ribbon_9        PF14369.5  sp|Q3Z9I5|SYP_DEHM1  -              0.014   15.6   0.4       5.1    7.3   0.1   2.5   2   0   0   2   2   2   0 zinc-ribbon
+tRNA-synt_His        PF13393.5  sp|Q3Z9I5|SYP_DEHM1  -              0.095   11.9   0.0      0.14   11.3   0.0   1.2   1   0   0   1   1   1   0 Histidyl-tRNA synthetase
+zf-H2C2_2            PF13465.5  sp|Q3Z9I5|SYP_DEHM1  -              0.095   13.1   1.6        11    6.6   0.0   2.4   2   0   0   2   2   2   0 Zinc-finger double domain
+TIR_2                PF13676.5  sp|Q3Z9I5|SYP_DEHM1  -               0.13   12.5   0.0      0.28   11.4   0.0   1.5   1   0   0   1   1   1   0 TIR domain
+zf-C2H2_4            PF13894.5  sp|Q3Z9I5|SYP_DEHM1  -               0.26   12.1   0.5       1.5    9.7   0.0   2.3   2   0   0   2   2   2   0 C2H2-type zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3Z9I5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3Z9I5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3Z9I5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:03:12 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|B0S1S2|NADE_FINM2 -            1.5e-74  250.1   0.0   1.9e-74  249.7   0.0   1.1   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|B0S1S2|NADE_FINM2 -              9e-05   21.3   0.0   0.00035   19.4   0.0   1.9   2   0   0   2   2   2   1 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|B0S1S2|NADE_FINM2 -             0.0012   18.5   0.0    0.0014   18.2   0.0   1.2   1   0   0   1   1   1   1 Asparagine synthase
+QueC                 PF06508.12 sp|B0S1S2|NADE_FINM2 -             0.0028   17.1   0.0      0.24   10.8   0.0   2.2   2   0   0   2   2   2   2 Queuosine biosynthesis protein QueC
+PAPS_reduct          PF01507.18 sp|B0S1S2|NADE_FINM2 -              0.029   14.3   0.0      0.66    9.9   0.0   2.3   1   1   0   1   1   1   0 Phosphoadenosine phosphosulfate reductase family
+ThiI                 PF02568.13 sp|B0S1S2|NADE_FINM2 -              0.037   13.5   0.0       8.8    5.8   0.0   2.3   2   0   0   2   2   2   0 Thiamine biosynthesis protein (ThiI)
+DNA_pol_B_exo2       PF10108.8  sp|B0S1S2|NADE_FINM2 -              0.072   12.7   0.5      0.35   10.4   0.0   2.0   2   0   0   2   2   2   0 Predicted 3'-5' exonuclease related to the exonuclease domain of PolB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B0S1S2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B0S1S2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B0S1S2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:42:40 2019
+# [ok]

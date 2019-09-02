@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|Q979A1|DNLI_THEVO -            1.6e-55  187.8   0.0   2.6e-55  187.2   0.0   1.3   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|Q979A1|DNLI_THEVO -            2.6e-35  122.2   0.8   5.2e-35  121.2   0.8   1.5   1   0   0   1   1   1   1 DNA ligase N terminus
+DNA_ligase_A_C       PF04679.14 sp|Q979A1|DNLI_THEVO -            2.6e-20   72.8   0.0     5e-20   71.9   0.0   1.5   1   0   0   1   1   1   1 ATP dependent DNA ligase C terminal region
+RNA_ligase           PF09414.9  sp|Q979A1|DNLI_THEVO -            1.4e-06   28.6   0.1   5.4e-06   26.7   0.1   2.0   2   0   0   2   2   2   1 RNA ligase
+mRNA_cap_enzyme      PF01331.18 sp|Q979A1|DNLI_THEVO -            0.00044   20.0   0.1      0.42   10.3   0.0   2.4   2   0   0   2   2   2   2 mRNA capping enzyme, catalytic domain
+DNA_ligase_OB_2      PF14743.5  sp|Q979A1|DNLI_THEVO -               0.13   12.2   0.3       0.5   10.4   0.1   2.1   2   0   0   2   2   2   0 DNA ligase OB-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q979A1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q979A1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q979A1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:51:19 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q9PR27|SYY_UREPA  -            1.8e-65  221.0   1.3   2.3e-65  220.7   1.3   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|Q9PR27|SYY_UREPA  -              0.014   15.0   0.0      0.03   13.9   0.0   1.6   1   0   0   1   1   1   0 S4 domain
+Phage_rep_org_N      PF09681.9  sp|Q9PR27|SYY_UREPA  -              0.023   14.5   0.2     0.023   14.5   0.2   3.1   4   0   0   4   4   4   0 N-terminal phage replisome organiser (Phage_rep_org_N)
+S4_2                 PF13275.5  sp|Q9PR27|SYY_UREPA  -              0.039   13.7   0.1      0.13   12.1   0.1   1.9   1   0   0   1   1   1   0 S4 domain
+AAA_assoc_2          PF16193.4  sp|Q9PR27|SYY_UREPA  -               0.13   12.5   0.2      0.43   10.8   0.2   1.9   1   0   0   1   1   1   0 AAA C-terminal domain
+POTRA_1              PF08478.9  sp|Q9PR27|SYY_UREPA  -               0.47   10.7   3.3        14    6.0   0.1   3.6   3   1   1   4   4   4   0 POTRA domain, FtsQ-type
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9PR27.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9PR27.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9PR27.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:57:48 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|B1L9R9|MURD_THESQ -            1.4e-15   57.7   0.0     3e-15   56.6   0.0   1.6   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|B1L9R9|MURD_THESQ -            0.00018   21.6   0.0    0.0006   19.9   0.0   1.9   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+F420_oxidored        PF03807.16 sp|B1L9R9|MURD_THESQ -               0.11   13.0   0.0       0.5   10.9   0.0   2.0   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+CbiA                 PF01656.22 sp|B1L9R9|MURD_THESQ -               0.17   11.8   0.2      0.46   10.5   0.2   1.6   1   1   0   1   1   1   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B1L9R9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B1L9R9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B1L9R9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:46:24 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1d         PF00750.18 sp|Q02W95|SYR_LACLS  -           5.5e-101  337.9   1.2  7.5e-101  337.4   1.2   1.2   1   0   0   1   1   1   1 tRNA synthetases class I (R)
+DALR_1               PF05746.14 sp|Q02W95|SYR_LACLS  -            6.7e-35  119.7   1.0   1.8e-34  118.4   1.0   1.8   1   0   0   1   1   1   1 DALR anticodon binding domain
+Arg_tRNA_synt_N      PF03485.15 sp|Q02W95|SYR_LACLS  -            7.5e-18   64.8   0.2   7.5e-18   64.8   0.2   2.2   2   0   0   2   2   2   1 Arginyl tRNA synthetase N terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q02W95.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q02W95.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q02W95.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:35:20 2019
+# [ok]

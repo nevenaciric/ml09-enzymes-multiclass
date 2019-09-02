@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QueC                 PF06508.12 sp|C1F844|QUEC_ACIC5 -            4.6e-71  238.5   0.0   5.3e-71  238.4   0.0   1.0   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+Asn_synthase         PF00733.20 sp|C1F844|QUEC_ACIC5 -            1.4e-07   31.4   0.0   1.9e-07   31.0   0.0   1.1   1   0   0   1   1   1   1 Asparagine synthase
+NAD_synthase         PF02540.16 sp|C1F844|QUEC_ACIC5 -             0.0022   17.1   0.0    0.0076   15.3   0.0   1.7   2   0   0   2   2   2   1 NAD synthase
+ThiI                 PF02568.13 sp|C1F844|QUEC_ACIC5 -             0.0052   16.3   0.0      0.27   10.7   0.0   2.2   2   0   0   2   2   2   1 Thiamine biosynthesis protein (ThiI)
+ATP_bind_3           PF01171.19 sp|C1F844|QUEC_ACIC5 -              0.087   12.5   0.1      0.28   10.8   0.0   1.8   2   0   0   2   2   2   0 PP-loop family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C1F844.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C1F844.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C1F844.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:14:33 2019
+# [ok]

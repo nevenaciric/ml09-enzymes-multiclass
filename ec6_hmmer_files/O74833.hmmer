@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|O74833|DNLI4_SCHPO -            1.7e-56  191.0   0.0   2.8e-56  190.3   0.0   1.4   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|O74833|DNLI4_SCHPO -            6.2e-35  121.0   0.0   1.6e-34  119.6   0.0   1.8   1   0   0   1   1   1   1 DNA ligase N terminus
+RNA_ligase           PF09414.9  sp|O74833|DNLI4_SCHPO -            1.8e-15   57.5   0.0   3.7e-15   56.5   0.0   1.6   1   0   0   1   1   1   1 RNA ligase
+DNA_ligase_A_C       PF04679.14 sp|O74833|DNLI4_SCHPO -            1.3e-14   54.5   0.0   3.7e-14   53.0   0.0   1.9   1   0   0   1   1   1   1 ATP dependent DNA ligase C terminal region
+BRCT_2               PF16589.4  sp|O74833|DNLI4_SCHPO -              9e-08   32.3   0.0   6.4e-06   26.4   0.0   2.7   2   0   0   2   2   2   1 BRCT domain, a BRCA1 C-terminus domain
+BRCT                 PF00533.25 sp|O74833|DNLI4_SCHPO -              4e-05   23.8   0.1     0.017   15.4   0.0   3.8   3   1   0   3   3   3   1 BRCA1 C Terminus (BRCT) domain
+mRNA_cap_enzyme      PF01331.18 sp|O74833|DNLI4_SCHPO -            7.8e-05   22.5   0.4     0.044   13.5   0.0   3.2   3   0   0   3   3   3   2 mRNA capping enzyme, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O74833.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O74833.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O74833.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:23:30 2019
+# [ok]

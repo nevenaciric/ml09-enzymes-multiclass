@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|C6DZK4|MURD_GEOSM -            1.1e-35  123.3   0.0   1.7e-35  122.7   0.0   1.3   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|C6DZK4|MURD_GEOSM -            9.2e-07   28.9   0.0   4.8e-06   26.6   0.0   2.3   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+Shikimate_DH         PF01488.19 sp|C6DZK4|MURD_GEOSM -             0.0021   18.0   0.3     0.034   14.1   0.0   2.5   3   0   0   3   3   3   1 Shikimate / quinate 5-dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|C6DZK4|MURD_GEOSM -               0.01   15.1   0.0     0.019   14.2   0.0   1.4   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|C6DZK4|MURD_GEOSM -              0.017   15.5   0.4     0.058   13.7   0.4   2.0   1   1   0   1   1   1   0 Putative NAD(P)-binding
+XdhC_C               PF13478.5  sp|C6DZK4|MURD_GEOSM -              0.037   14.4   0.1      0.11   12.8   0.1   1.8   1   0   0   1   1   1   0 XdhC Rossmann domain
+DUF1188              PF06690.10 sp|C6DZK4|MURD_GEOSM -              0.049   13.1   0.0     0.079   12.4   0.0   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF1188)
+adh_short            PF00106.24 sp|C6DZK4|MURD_GEOSM -              0.082   12.3   0.1      0.18   11.1   0.1   1.6   1   0   0   1   1   1   0 short chain dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C6DZK4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C6DZK4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C6DZK4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:19:33 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q98KB1|MURD_RHILO -            4.7e-31  108.2   0.0   6.8e-31  107.7   0.0   1.2   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q98KB1|MURD_RHILO -            6.8e-06   26.2   0.0     2e-05   24.7   0.0   1.8   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+2-Hacid_dh_C         PF02826.18 sp|Q98KB1|MURD_RHILO -             0.0021   17.3   0.0    0.0086   15.4   0.0   1.9   2   0   0   2   2   2   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|Q98KB1|MURD_RHILO -              0.022   14.9   0.1      0.61   10.3   0.0   2.7   3   0   0   3   3   3   0 TrkA-N domain
+NAD_binding_2        PF03446.14 sp|Q98KB1|MURD_RHILO -               0.03   14.4   0.0     0.095   12.8   0.0   1.8   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q98KB1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q98KB1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q98KB1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:52:22 2019
+# [ok]

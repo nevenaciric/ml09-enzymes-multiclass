@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CN_hydrolase         PF00795.21 sp|O74940|NADE_SCHPO -            1.2e-47  162.3   0.0   1.7e-47  161.9   0.0   1.2   1   0   0   1   1   1   1 Carbon-nitrogen hydrolase
+NAD_synthase         PF02540.16 sp|O74940|NADE_SCHPO -              2e-23   82.7   0.0   6.4e-23   81.0   0.0   1.7   1   1   0   1   1   1   1 NAD synthase
+BPS                  PF08947.9  sp|O74940|NADE_SCHPO -              0.098   12.4   0.0      0.21   11.4   0.0   1.4   1   0   0   1   1   1   0 BPS (Between PH and SH2)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O74940.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O74940.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O74940.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:23:31 2019
+# [ok]

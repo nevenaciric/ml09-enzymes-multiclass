@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|B2KWH8|NPS1_AJECA -            3.6e-75  253.0   0.0   3.5e-73  246.5   0.0   2.2   2   0   0   2   2   2   2 AMP-binding enzyme
+Condensation         PF00668.19 sp|B2KWH8|NPS1_AJECA -            4.9e-58  196.8   0.0   2.6e-32  112.0   0.0   3.2   3   0   0   3   3   3   2 Condensation domain
+PP-binding           PF00550.24 sp|B2KWH8|NPS1_AJECA -            6.9e-26   90.3   0.4   7.6e-12   45.3   0.1   2.9   2   0   0   2   2   2   2 Phosphopantetheine attachment site
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2KWH8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2KWH8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2KWH8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:50:41 2019
+# [ok]

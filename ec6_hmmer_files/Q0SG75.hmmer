@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|Q0SG75|DNLI_RHOJR -            2.5e-39  134.9   0.0   3.7e-39  134.4   0.0   1.3   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_C       PF04679.14 sp|Q0SG75|DNLI_RHOJR -            2.5e-11   43.9   0.0     8e-11   42.3   0.0   1.9   1   0   0   1   1   1   1 ATP dependent DNA ligase C terminal region
+DNA_ligase_A_N       PF04675.13 sp|Q0SG75|DNLI_RHOJR -            3.5e-11   43.6   0.0   4.5e-08   33.5   0.0   2.2   1   1   1   2   2   2   2 DNA ligase N terminus
+RNA_ligase           PF09414.9  sp|Q0SG75|DNLI_RHOJR -              0.053   13.7   0.0      0.12   12.6   0.0   1.6   1   1   0   1   1   1   0 RNA ligase
+mRNA_cap_enzyme      PF01331.18 sp|Q0SG75|DNLI_RHOJR -               0.22   11.2   0.0       0.7    9.6   0.0   1.7   2   0   0   2   2   2   0 mRNA capping enzyme, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q0SG75.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q0SG75.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q0SG75.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:40:46 2019
+# [ok]

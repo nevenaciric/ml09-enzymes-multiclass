@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATPgrasp_Ter         PF15632.5  sp|H8L902|ASL_ENTFU  -            1.4e-05   23.9   0.0      0.11   11.1   0.0   2.2   2   0   0   2   2   2   2 ATP-grasp in the biosynthetic pathway with Ter operon
+CPSase_L_D2          PF02786.16 sp|H8L902|ASL_ENTFU  -              0.033   13.6   0.0     0.085   12.2   0.0   1.7   1   0   0   1   1   1   0 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATPgrasp_ST          PF14397.5  sp|H8L902|ASL_ENTFU  -               0.16   11.1   0.0      0.41    9.8   0.0   1.7   1   1   0   2   2   2   0 Sugar-transfer associated ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/H8L902.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/H8L902.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/H8L902.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:20:41 2019
+# [ok]

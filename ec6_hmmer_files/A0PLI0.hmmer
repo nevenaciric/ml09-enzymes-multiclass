@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SAICAR_synt          PF01259.17 sp|A0PLI0|PUR7_MYCUA -            8.4e-96  320.3   0.0   9.9e-96  320.1   0.0   1.0   1   0   0   1   1   1   1 SAICAR synthetase
+SSXRD                PF09514.9  sp|A0PLI0|PUR7_MYCUA -               0.71    9.4   0.0      0.71    9.4   0.0   2.0   2   0   0   2   2   2   0 SSXRD motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A0PLI0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A0PLI0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A0PLI0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:06:46 2019
+# [ok]

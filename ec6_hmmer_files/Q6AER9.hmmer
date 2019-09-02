@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q6AER9|NADE_LEIXX -              9e-70  234.4   0.0   1.1e-69  234.2   0.0   1.0   1   0   0   1   1   1   1 NAD synthase
+Pilus_CpaD           PF09476.9  sp|Q6AER9|NADE_LEIXX -              0.014   15.0   0.1     0.037   13.7   0.1   1.7   2   0   0   2   2   2   0 Pilus biogenesis CpaD protein (pilus_cpaD)
+ATP_bind_3           PF01171.19 sp|Q6AER9|NADE_LEIXX -              0.096   12.3   0.0      0.14   11.8   0.0   1.3   1   0   0   1   1   1   0 PP-loop family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6AER9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6AER9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6AER9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:22:02 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q8DS44|SYY_STRMU  -            3.9e-83  279.1   0.2     5e-83  278.7   0.2   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|Q8DS44|SYY_STRMU  -            6.4e-08   32.1   0.3   1.7e-07   30.7   0.1   1.9   2   0   0   2   2   2   1 S4 domain
+Pepsin-I3            PF06394.12 sp|Q8DS44|SYY_STRMU  -              0.017   15.1   1.5       2.9    8.1   0.0   3.0   3   0   0   3   3   3   0 Pepsin inhibitor-3-like repeated domain
+S4_2                 PF13275.5  sp|Q8DS44|SYY_STRMU  -               0.13   12.0   0.4       1.2    9.0   0.2   2.3   2   0   0   2   2   2   0 S4 domain
+DUF2833              PF11090.7  sp|Q8DS44|SYY_STRMU  -               0.38   11.1   4.1         1    9.7   0.2   3.4   4   1   0   4   4   4   0 Protein of unknown function (DUF2833)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8DS44.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8DS44.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8DS44.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:40:34 2019
+# [ok]

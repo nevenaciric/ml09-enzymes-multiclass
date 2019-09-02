@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q92BB1|SYY_LISIN  -            4.7e-83  278.8   0.0   9.1e-83  277.8   0.0   1.4   2   0   0   2   2   2   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|Q92BB1|SYY_LISIN  -            8.9e-08   31.6   0.1   2.3e-07   30.3   0.1   1.8   1   0   0   1   1   1   1 S4 domain
+TPR_20               PF14561.5  sp|Q92BB1|SYY_LISIN  -               0.22   11.8   1.9      0.64   10.3   1.4   2.0   2   0   0   2   2   2   0 Tetratricopeptide repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q92BB1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q92BB1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q92BB1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:50:12 2019
+# [ok]

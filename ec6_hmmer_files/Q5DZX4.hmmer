@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q5DZX4|NADE_ALIF1 -            1.1e-63  214.5   0.1   1.4e-63  214.1   0.1   1.1   1   0   0   1   1   1   1 NAD synthase
+ATP_bind_3           PF01171.19 sp|Q5DZX4|NADE_ALIF1 -             0.0052   16.5   0.0     0.011   15.4   0.0   1.5   1   0   0   1   1   1   1 PP-loop family
+QueC                 PF06508.12 sp|Q5DZX4|NADE_ALIF1 -              0.015   14.7   0.2      0.61    9.4   0.1   2.4   2   1   0   2   2   2   0 Queuosine biosynthesis protein QueC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5DZX4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5DZX4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5DZX4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:10:55 2019
+# [ok]

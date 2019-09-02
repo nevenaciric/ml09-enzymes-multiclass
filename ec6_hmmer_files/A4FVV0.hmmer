@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BioW                 PF03744.12 sp|A4FVV0|BIOW_METM5 -            2.8e-79  266.0   2.7   3.1e-79  265.8   2.7   1.0   1   0   0   1   1   1   1 6-carboxyhexanoate--CoA ligase
+Abhydro_lipase       PF04083.15 sp|A4FVV0|BIOW_METM5 -              0.048   13.1   0.0     0.097   12.2   0.0   1.5   1   0   0   1   1   1   0 Partial alpha/beta-hydrolase lipase region
+TetR_C_10            PF16295.4  sp|A4FVV0|BIOW_METM5 -              0.063   13.5   0.1      0.14   12.4   0.1   1.7   1   0   0   1   1   1   0 Tetracycline repressor, C-terminal all-alpha domain
+Peptidase_S76        PF13611.5  sp|A4FVV0|BIOW_METM5 -              0.099   12.9   3.2      0.29   11.4   1.9   2.3   2   1   0   2   2   2   0 Serine peptidase of plant viral polyprotein, P1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A4FVV0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A4FVV0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A4FVV0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:16:43 2019
+# [ok]

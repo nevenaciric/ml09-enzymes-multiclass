@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|P46655|SYEC_YEAST -           2.6e-122  407.5   0.1  3.5e-122  407.1   0.1   1.2   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+tRNA-synt_1c_C       PF03950.17 sp|P46655|SYEC_YEAST -            1.8e-38  132.0   0.9   4.6e-38  130.7   0.9   1.7   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+GST_C_2              PF13410.5  sp|P46655|SYEC_YEAST -              0.047   13.6   0.0      0.13   12.2   0.0   1.7   1   0   0   1   1   1   0 Glutathione S-transferase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P46655.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P46655.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P46655.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:29:01 2019
+# [ok]

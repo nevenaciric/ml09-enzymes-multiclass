@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GatB_N               PF02934.14 sp|B9J1N1|GATB_BACCQ -           2.7e-112  374.5   0.0  3.5e-112  374.2   0.0   1.1   1   0   0   1   1   1   1 GatB/GatE catalytic domain
+GatB_Yqey            PF02637.17 sp|B9J1N1|GATB_BACCQ -            4.4e-56  188.8   3.2   6.6e-56  188.2   3.2   1.3   1   0   0   1   1   1   1 GatB domain
+Aconitase_B_N        PF11791.7  sp|B9J1N1|GATB_BACCQ -               0.03   14.3   0.2       0.1   12.6   0.2   1.8   1   0   0   1   1   1   0 Aconitate B N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B9J1N1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B9J1N1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B9J1N1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:09:54 2019
+# [ok]

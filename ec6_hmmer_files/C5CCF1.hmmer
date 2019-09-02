@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CPSase_L_D2          PF02786.16 sp|C5CCF1|CARB_MICLC -             4e-103  343.3   0.4   2.6e-66  223.0   0.1   2.6   3   0   0   3   3   3   2 Carbamoyl-phosphate synthase L chain, ATP binding domain
+CPSase_L_D3          PF02787.18 sp|C5CCF1|CARB_MICLC -            2.2e-34  118.3   0.0   5.2e-34  117.1   0.0   1.7   1   0   0   1   1   1   1 Carbamoyl-phosphate synthetase large chain, oligomerisation domain
+MGS                  PF02142.21 sp|C5CCF1|CARB_MICLC -            2.3e-19   69.3   0.1   3.6e-18   65.4   0.0   3.0   3   0   0   3   3   3   1 MGS-like domain
+ATPgrasp_Ter         PF15632.5  sp|C5CCF1|CARB_MICLC -            3.7e-18   65.2   0.0   6.2e-08   31.6   0.0   4.4   3   1   0   3   3   3   3 ATP-grasp in the biosynthetic pathway with Ter operon
+Dala_Dala_lig_C      PF07478.12 sp|C5CCF1|CARB_MICLC -            3.6e-13   49.4   0.0   3.4e-06   26.6   0.0   2.5   2   0   0   2   2   2   2 D-ala D-ala ligase C-terminus
+ATP-grasp            PF02222.21 sp|C5CCF1|CARB_MICLC -              2e-11   43.7   0.0   8.7e-05   22.1   0.0   2.6   2   0   0   2   2   2   2 ATP-grasp domain
+ATP-grasp_4          PF13535.5  sp|C5CCF1|CARB_MICLC -            6.5e-08   32.2   0.0    0.0074   15.8   0.0   4.4   4   1   0   4   4   4   3 ATP-grasp domain
+ATP-grasp_3          PF02655.13 sp|C5CCF1|CARB_MICLC -            1.6e-05   24.9   0.0     0.041   13.8   0.0   2.6   2   0   0   2   2   2   2 ATP-grasp domain
+CoA_binding_2        PF13380.5  sp|C5CCF1|CARB_MICLC -             0.0018   18.7   0.4       1.3    9.4   0.0   3.6   3   1   0   3   3   3   1 CoA binding domain
+ATP-grasp_5          PF13549.5  sp|C5CCF1|CARB_MICLC -              0.015   14.7   0.0         3    7.2   0.0   2.6   2   0   0   2   2   2   0 ATP-grasp domain
+ATP-grasp_2          PF08442.9  sp|C5CCF1|CARB_MICLC -              0.078   12.4   0.1       4.6    6.6   0.0   2.8   2   1   0   2   2   2   0 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C5CCF1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C5CCF1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C5CCF1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:18:39 2019
+# [ok]

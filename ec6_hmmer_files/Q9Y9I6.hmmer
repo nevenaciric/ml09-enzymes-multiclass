@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2d         PF01409.19 sp|Q9Y9I6|SYFA_AERPE -            3.2e-82  275.6   0.0   4.2e-82  275.2   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+tRNA-synt_His        PF13393.5  sp|Q9Y9I6|SYFA_AERPE -            0.00024   20.4   0.8      0.74    8.9   0.0   3.2   3   0   0   3   3   3   2 Histidyl-tRNA synthetase
+tRNA-synt_2          PF00152.19 sp|Q9Y9I6|SYFA_AERPE -             0.0035   16.4   0.0         4    6.3   0.0   3.2   3   0   0   3   3   3   2 tRNA synthetases class II (D, K and N)
+MarR_2               PF12802.6  sp|Q9Y9I6|SYFA_AERPE -             0.0058   16.4   6.8     0.028   14.2   0.1   4.1   4   0   0   4   4   4   1 MarR family
+NQRA                 PF05896.10 sp|Q9Y9I6|SYFA_AERPE -              0.064   12.6   0.0       0.1   11.9   0.0   1.2   1   0   0   1   1   1   0 Na(+)-translocating NADH-quinone reductase subunit A (NQRA)
+TrmB                 PF01978.18 sp|Q9Y9I6|SYFA_AERPE -               0.19   11.5   0.9      0.68    9.8   0.3   2.3   2   0   0   2   2   2   0 Sugar-specific transcriptional regulator TrmB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9Y9I6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9Y9I6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9Y9I6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:59:34 2019
+# [ok]

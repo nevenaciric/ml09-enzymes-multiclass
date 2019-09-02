@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|Q3AM35|SYS_SYNSC  -              5e-34  117.7   0.0   7.5e-34  117.1   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+Seryl_tRNA_N         PF02403.21 sp|Q3AM35|SYS_SYNSC  -            5.5e-21   74.7   2.5   9.6e-21   73.9   2.5   1.4   1   0   0   1   1   1   1 Seryl-tRNA synthetase N-terminal domain
+FapA                 PF03961.12 sp|Q3AM35|SYS_SYNSC  -              0.039   12.5   1.3     0.054   12.0   1.3   1.1   1   0   0   1   1   1   0 Flagellar Assembly Protein A
+tRNA-synt_His        PF13393.5  sp|Q3AM35|SYS_SYNSC  -              0.056   12.6   0.0      0.11   11.6   0.0   1.5   1   0   0   1   1   1   0 Histidyl-tRNA synthetase
+ZapB                 PF06005.11 sp|Q3AM35|SYS_SYNSC  -                2.1    8.8   8.5      0.29   11.5   2.3   2.2   2   0   0   2   2   2   0 Cell division protein ZapB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3AM35.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3AM35.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3AM35.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:59:29 2019
+# [ok]

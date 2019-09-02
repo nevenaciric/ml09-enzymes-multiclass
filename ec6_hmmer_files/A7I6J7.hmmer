@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GARS_A               PF01071.18 sp|A7I6J7|PUR2_METB6 -            2.3e-56  190.6   0.0   3.5e-56  190.0   0.0   1.3   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+GARS_N               PF02844.14 sp|A7I6J7|PUR2_METB6 -            1.4e-25   89.8   0.2   3.2e-25   88.6   0.2   1.6   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, N domain
+GARS_C               PF02843.15 sp|A7I6J7|PUR2_METB6 -            7.6e-15   54.9   0.4   2.2e-13   50.2   0.0   2.9   3   0   0   3   3   3   1 Phosphoribosylglycinamide synthetase, C domain
+ATPgrasp_Ter         PF15632.5  sp|A7I6J7|PUR2_METB6 -            2.8e-06   26.2   0.0   4.8e-05   22.1   0.0   2.1   2   0   0   2   2   2   1 ATP-grasp in the biosynthetic pathway with Ter operon
+ATP-grasp_3          PF02655.13 sp|A7I6J7|PUR2_METB6 -              0.031   14.2   0.0     0.088   12.8   0.0   1.7   1   1   0   1   1   1   0 ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|A7I6J7|PUR2_METB6 -              0.076   12.1   0.0      0.22   10.6   0.0   1.7   2   0   0   2   2   2   0 Sugar-transfer associated ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A7I6J7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A7I6J7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A7I6J7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:31:01 2019
+# [ok]

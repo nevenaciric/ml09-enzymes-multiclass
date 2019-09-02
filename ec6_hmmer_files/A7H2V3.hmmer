@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase           PF01225.24 sp|A7H2V3|MURC_CAMJD -            1.1e-23   83.2   0.0   2.6e-23   82.0   0.0   1.7   1   0   0   1   1   1   1 Mur ligase family, catalytic domain
+Mur_ligase_C         PF02875.20 sp|A7H2V3|MURC_CAMJD -            4.4e-19   68.4   0.0   5.1e-18   65.0   0.0   2.2   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+Mur_ligase_M         PF08245.11 sp|A7H2V3|MURC_CAMJD -            4.2e-10   39.8   0.6   6.4e-10   39.2   0.1   1.7   2   0   0   2   2   2   1 Mur ligase middle domain
+NAD_binding_2        PF03446.14 sp|A7H2V3|MURC_CAMJD -              0.028   14.5   0.0     0.078   13.1   0.0   1.8   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+F420_oxidored        PF03807.16 sp|A7H2V3|MURC_CAMJD -              0.056   13.9   0.2       0.3   11.6   0.1   2.3   1   1   1   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A7H2V3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A7H2V3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A7H2V3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:30:19 2019
+# [ok]

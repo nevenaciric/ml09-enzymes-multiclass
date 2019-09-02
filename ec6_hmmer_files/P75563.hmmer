@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+B3_4                 PF03483.16 sp|P75563|SYFB_MYCPN -            8.4e-43  145.9   0.2   2.3e-42  144.5   0.0   1.8   2   0   0   2   2   2   1 B3/4 domain
+tRNA_bind            PF01588.19 sp|P75563|SYFB_MYCPN -            3.6e-11   42.9   0.1   7.9e-11   41.8   0.1   1.6   1   0   0   1   1   1   1 Putative tRNA binding domain
+B5                   PF03484.14 sp|P75563|SYFB_MYCPN -              9e-08   32.2   0.0    0.0032   17.6   0.0   3.7   4   1   0   4   4   4   2 tRNA synthetase B5 domain
+RraA-like            PF03737.14 sp|P75563|SYFB_MYCPN -              0.031   14.3   0.1       0.8    9.8   0.0   2.3   2   0   0   2   2   2   0 Aldolase/RraA
+FDX-ACB              PF03147.13 sp|P75563|SYFB_MYCPN -              0.078   13.3   2.1       1.5    9.2   0.2   3.2   4   0   0   4   4   4   0 Ferredoxin-fold anticodon binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P75563.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P75563.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P75563.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:33:13 2019
+# [ok]

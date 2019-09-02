@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GSH-S_ATP            PF02955.15 sp|P45480|GSHB_NOSS1 -            5.5e-71  237.5   0.1   7.2e-71  237.1   0.1   1.1   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, ATP-grasp domain
+GSH-S_N              PF02951.13 sp|P45480|GSHB_NOSS1 -            2.5e-39  134.0   0.1   3.5e-39  133.5   0.1   1.2   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, N-terminal domain
+RimK                 PF08443.10 sp|P45480|GSHB_NOSS1 -            1.7e-17   63.5   0.0   2.4e-17   63.0   0.0   1.2   1   0   0   1   1   1   1 RimK-like ATP-grasp domain
+ATPgrasp_YheCD       PF14398.5  sp|P45480|GSHB_NOSS1 -             0.0003   20.0   0.0    0.0016   17.6   0.0   1.9   2   0   0   2   2   2   1 YheC/D like ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P45480.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P45480.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P45480.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:28:50 2019
+# [ok]

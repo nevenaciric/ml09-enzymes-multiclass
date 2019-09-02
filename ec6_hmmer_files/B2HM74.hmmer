@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|B2HM74|SYT_MYCMM  -            4.9e-39  134.0   0.0   8.2e-39  133.3   0.0   1.3   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|B2HM74|SYT_MYCMM  -            4.9e-15   55.4   0.1   1.1e-14   54.3   0.1   1.6   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA_SAD             PF07973.13 sp|B2HM74|SYT_MYCMM  -            1.1e-12   47.7   0.0     2e-12   46.9   0.0   1.4   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+DUF1839              PF08893.9  sp|B2HM74|SYT_MYCMM  -               0.13   11.3   0.0      0.25   10.4   0.0   1.3   1   0   0   1   1   1   0 Domain of unknown function (DUF1839)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2HM74.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2HM74.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2HM74.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:49:32 2019
+# [ok]

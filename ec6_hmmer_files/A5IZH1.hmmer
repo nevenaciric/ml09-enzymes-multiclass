@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|A5IZH1|SYY_MYCAP  -              1e-63  215.3   0.1   1.3e-63  214.9   0.1   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|A5IZH1|SYY_MYCAP  -              0.042   13.4   0.2      0.61    9.7   0.0   2.5   2   0   0   2   2   2   0 S4 domain
+Phage_int_SAM_4      PF13495.5  sp|A5IZH1|SYY_MYCAP  -              0.083   13.3   0.1      0.34   11.3   0.2   1.9   2   0   0   2   2   2   0 Phage integrase, N-terminal SAM-like domain
+RTTN_N               PF14726.5  sp|A5IZH1|SYY_MYCAP  -               0.13   13.1   0.4      0.79   10.5   0.1   2.4   2   0   0   2   2   2   0 Rotatin, an armadillo repeat protein, centriole functioning
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A5IZH1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A5IZH1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A5IZH1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:23:05 2019
+# [ok]

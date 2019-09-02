@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2d         PF01409.19 sp|Q5LZ70|SYFA_STRT1 -           1.8e-108  361.6   0.0  2.4e-108  361.2   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+Phe_tRNA-synt_N      PF02912.17 sp|Q5LZ70|SYFA_STRT1 -            7.2e-24   83.4   1.4   7.2e-24   83.4   1.4   1.8   2   0   0   2   2   2   1 Aminoacyl tRNA synthetase class II, N-terminal domain
+tRNA-synt_2b         PF00587.24 sp|Q5LZ70|SYFA_STRT1 -                0.1   12.5   0.0      0.18   11.7   0.0   1.4   1   0   0   1   1   1   0 tRNA synthetase class II core domain (G, H, P, S and T)
+Sec2p                PF06428.10 sp|Q5LZ70|SYFA_STRT1 -                0.3   11.0   3.0       2.3    8.1   0.1   2.6   2   0   0   2   2   2   0 GDP/GTP exchange factor Sec2p
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5LZ70.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5LZ70.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5LZ70.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:14:38 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q5WTI5|MURD_LEGPL -            2.3e-30  105.9   0.0   3.3e-30  105.4   0.0   1.2   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q5WTI5|MURD_LEGPL -            2.4e-07   30.8   0.0   1.6e-06   28.2   0.0   2.3   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+TrkA_N               PF02254.17 sp|Q5WTI5|MURD_LEGPL -            1.3e-05   25.4   0.0   0.00091   19.4   0.0   2.6   2   0   0   2   2   2   1 TrkA-N domain
+NAD_binding_2        PF03446.14 sp|Q5WTI5|MURD_LEGPL -               0.03   14.4   0.1      0.12   12.5   0.0   2.0   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+NAD_binding_8        PF13450.5  sp|Q5WTI5|MURD_LEGPL -              0.044   13.9   0.0      0.13   12.5   0.0   1.8   1   0   0   1   1   1   0 NAD(P)-binding Rossmann-like domain
+XdhC_C               PF13478.5  sp|Q5WTI5|MURD_LEGPL -              0.072   13.5   0.0       1.3    9.4   0.0   2.4   2   0   0   2   2   2   0 XdhC Rossmann domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5WTI5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5WTI5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5WTI5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:17:35 2019
+# [ok]

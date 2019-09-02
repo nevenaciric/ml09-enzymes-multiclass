@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|Q5FUI5|DNLJ_GLUOX -           5.3e-110  367.3   0.0    7e-110  367.0   0.0   1.1   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|Q5FUI5|DNLJ_GLUOX -            2.3e-34  117.0   0.8   4.9e-34  116.0   0.8   1.6   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+HHH_2                PF12826.6  sp|Q5FUI5|DNLJ_GLUOX -            5.3e-13   48.8   0.1   2.5e-12   46.6   0.1   2.2   1   1   0   1   1   1   1 Helix-hairpin-helix motif
+BRCT                 PF00533.25 sp|Q5FUI5|DNLJ_GLUOX -            1.3e-12   47.9   0.0   2.2e-12   47.1   0.0   1.3   1   0   0   1   1   1   1 BRCA1 C Terminus (BRCT) domain
+DNA_ligase_ZBD       PF03119.15 sp|Q5FUI5|DNLJ_GLUOX -            5.1e-10   39.1   5.3   1.1e-09   38.0   5.3   1.7   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+PTCB-BRCT            PF12738.6  sp|Q5FUI5|DNLJ_GLUOX -            5.5e-06   26.1   0.1   1.1e-05   25.2   0.1   1.4   1   0   0   1   1   1   1 twin BRCT domain
+zf-NADH-PPase        PF09297.10 sp|Q5FUI5|DNLJ_GLUOX -                1.3    8.7   4.5       3.6    7.2   4.5   1.7   1   0   0   1   1   1   0 NADH pyrophosphatase zinc ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5FUI5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5FUI5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5FUI5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:12:00 2019
+# [ok]

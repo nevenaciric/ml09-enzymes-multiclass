@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|Q3SRG6|SYP_NITWN  -            5.6e-35  120.8   0.0     1e-34  120.0   0.0   1.4   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q3SRG6|SYP_NITWN  -            3.4e-19   68.7   0.0   6.7e-19   67.8   0.0   1.5   1   0   0   1   1   1   1 Anticodon binding domain
+TIR_2                PF13676.5  sp|Q3SRG6|SYP_NITWN  -               0.15   12.3   0.0      0.34   11.2   0.0   1.5   1   0   0   1   1   1   0 TIR domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3SRG6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3SRG6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3SRG6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:02:26 2019
+# [ok]

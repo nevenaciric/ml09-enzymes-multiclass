@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|Q17VP5|SYH_HELAH  -            1.1e-47  162.7   0.0   1.4e-47  162.4   0.0   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+HGTP_anticodon       PF03129.19 sp|Q17VP5|SYH_HELAH  -            4.6e-15   55.5   0.0   1.6e-14   53.7   0.0   2.0   2   0   0   2   2   2   1 Anticodon binding domain
+tRNA-synt_2b         PF00587.24 sp|Q17VP5|SYH_HELAH  -            6.8e-08   32.6   0.2   6.1e-07   29.5   0.2   2.6   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_2          PF00152.19 sp|Q17VP5|SYH_HELAH  -            7.1e-07   28.5   0.1   4.3e-05   22.6   0.0   2.5   2   0   0   2   2   2   1 tRNA synthetases class II (D, K and N)
+tRNA-synt_2d         PF01409.19 sp|Q17VP5|SYH_HELAH  -             0.0078   15.6   0.0     0.032   13.6   0.0   2.0   2   0   0   2   2   2   1 tRNA synthetases class II core domain (F)
+UreE_N               PF02814.14 sp|Q17VP5|SYH_HELAH  -               0.16   11.5   0.0      0.35   10.4   0.0   1.6   1   0   0   1   1   1   0 UreE urease accessory protein, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q17VP5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q17VP5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q17VP5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:44:13 2019
+# [ok]

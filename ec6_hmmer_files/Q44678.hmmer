@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp            PF02222.21 sp|Q44678|PURK_CORAM -            3.9e-45  153.4   0.0   5.7e-45  152.9   0.0   1.2   1   0   0   1   1   1   1 ATP-grasp domain
+NAD_binding_10       PF13460.5  sp|Q44678|PURK_CORAM -             0.0025   17.6   0.2    0.0047   16.8   0.2   1.4   1   0   0   1   1   1   1 NAD(P)H-binding
+CPSase_L_D2          PF02786.16 sp|Q44678|PURK_CORAM -             0.0071   15.8   0.0     0.013   15.0   0.0   1.4   1   0   0   1   1   1   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATPgrasp_Ter         PF15632.5  sp|Q44678|PURK_CORAM -              0.055   12.1   0.0     0.085   11.5   0.0   1.2   1   0   0   1   1   1   0 ATP-grasp in the biosynthetic pathway with Ter operon
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q44678.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q44678.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q44678.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:03:35 2019
+# [ok]

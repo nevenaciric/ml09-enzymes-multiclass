@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|A1AZK7|MURD_PARDP -            5.9e-30  104.6   0.0   8.6e-30  104.1   0.0   1.3   1   0   0   1   1   1   1 Mur ligase middle domain
+2-Hacid_dh_C         PF02826.18 sp|A1AZK7|MURD_PARDP -            9.9e-06   24.9   0.1   2.2e-05   23.8   0.1   1.5   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Mur_ligase_C         PF02875.20 sp|A1AZK7|MURD_PARDP -              1e-05   25.6   0.0   4.6e-05   23.5   0.0   2.2   3   0   0   3   3   2   1 Mur ligase family, glutamate ligase domain
+IlvN                 PF07991.11 sp|A1AZK7|MURD_PARDP -            0.00062   19.3   0.0    0.0023   17.4   0.0   1.9   2   0   0   2   2   2   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+TrkA_N               PF02254.17 sp|A1AZK7|MURD_PARDP -             0.0044   17.2   0.0     0.038   14.2   0.0   2.6   4   0   0   4   4   4   1 TrkA-N domain
+AlaDh_PNT_C          PF01262.20 sp|A1AZK7|MURD_PARDP -               0.01   15.0   0.3     0.019   14.1   0.3   1.3   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+ApbA                 PF02558.15 sp|A1AZK7|MURD_PARDP -              0.026   14.1   0.1     0.061   12.9   0.1   1.7   1   0   0   1   1   1   0 Ketopantoate reductase PanE/ApbA
+NAD_binding_2        PF03446.14 sp|A1AZK7|MURD_PARDP -              0.074   13.1   0.0      0.19   11.8   0.0   1.7   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+3HCDH_N              PF02737.17 sp|A1AZK7|MURD_PARDP -               0.15   11.8   0.1      0.33   10.7   0.1   1.6   1   0   0   1   1   1   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+NAD_Gly3P_dh_N       PF01210.22 sp|A1AZK7|MURD_PARDP -               0.16   11.8   0.2      0.34   10.8   0.2   1.5   1   0   0   1   1   1   0 NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus
+GARS_C               PF02843.15 sp|A1AZK7|MURD_PARDP -                3.2    8.0   5.2       4.1    7.6   0.1   3.1   4   0   0   4   4   3   0 Phosphoribosylglycinamide synthetase, C domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A1AZK7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A1AZK7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A1AZK7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:08:41 2019
+# [ok]

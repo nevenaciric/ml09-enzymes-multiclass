@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|C8VPS9|EASA_EMENI -                  0 1279.1   2.0   4.6e-79  265.9   0.0   5.2   5   0   0   5   5   5   5 AMP-binding enzyme
+Condensation         PF00668.19 sp|C8VPS9|EASA_EMENI -           2.7e-283  939.4   0.0   8.3e-50  169.7   0.0  10.3   8   3   0   8   8   8   8 Condensation domain
+PP-binding           PF00550.24 sp|C8VPS9|EASA_EMENI -            1.1e-69  230.7   0.1   1.5e-11   44.3   0.1   7.3   7   0   0   7   7   7   6 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|C8VPS9|EASA_EMENI -            2.7e-10   41.0   0.0      0.49   11.3   0.0   5.8   5   0   0   5   5   5   3 AMP-binding enzyme C-terminal domain
+Transferase          PF02458.14 sp|C8VPS9|EASA_EMENI -               0.01   14.4   0.0       1.9    7.0   0.0   3.4   5   0   0   5   5   5   0 Transferase family
+WES_acyltransf       PF03007.15 sp|C8VPS9|EASA_EMENI -              0.051   13.2   0.0       8.5    5.9   0.0   3.3   3   0   0   3   3   3   0 Wax ester synthase-like Acyl-CoA acyltransferase domain
+DUF2007              PF09413.9  sp|C8VPS9|EASA_EMENI -              0.076   13.1   0.0      0.35   10.9   0.0   2.2   1   0   0   1   1   1   0 Putative prokaryotic signal transducing protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C8VPS9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C8VPS9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C8VPS9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:19:49 2019
+# [ok]

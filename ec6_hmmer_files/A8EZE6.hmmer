@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|A8EZE6|SYH_RICCK  -            1.9e-40  139.0   0.0   3.5e-40  138.1   0.0   1.5   1   1   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|A8EZE6|SYH_RICCK  -            5.3e-15   55.7   0.0   1.5e-14   54.2   0.0   1.7   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A8EZE6|SYH_RICCK  -            1.2e-10   41.3   1.4   4.9e-10   39.3   0.3   2.3   2   0   0   2   2   2   1 Anticodon binding domain
+tRNA-synt_2d         PF01409.19 sp|A8EZE6|SYH_RICCK  -              7e-08   32.1   0.1   2.4e-06   27.1   0.0   2.3   2   0   0   2   2   2   1 tRNA synthetases class II core domain (F)
+HGTP_anticodon2      PF12745.6  sp|A8EZE6|SYH_RICCK  -              0.016   14.5   0.1     0.028   13.8   0.1   1.4   1   0   0   1   1   1   0 Anticodon binding domain of tRNAs
+bact-PGI_C           PF10432.8  sp|A8EZE6|SYH_RICCK  -              0.034   14.1   0.0      0.08   12.9   0.0   1.6   1   0   0   1   1   1   0 Bacterial phospho-glucose isomerase C-terminal SIS domain
+MNE1                 PF13762.5  sp|A8EZE6|SYH_RICCK  -              0.054   13.4   0.5       5.1    7.0   0.0   2.3   2   0   0   2   2   2   0 Mitochondrial splicing apparatus component
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A8EZE6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A8EZE6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A8EZE6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:33:44 2019
+# [ok]

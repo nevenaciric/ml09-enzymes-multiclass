@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PPS_PS               PF02006.15 sp|Q57662|PASYA_METJA -            1.2e-74  249.6   4.1   1.5e-74  249.2   4.1   1.1   1   0   0   1   1   1   1 Phosphopantothenate/pantothenate synthetase
+D5_N                 PF08706.10 sp|Q57662|PASYA_METJA -              0.015   15.5   1.2      0.03   14.5   0.2   1.8   2   0   0   2   2   2   0 D5 N terminal like
+vWA-TerF-like        PF10138.8  sp|Q57662|PASYA_METJA -              0.073   13.1   0.2      0.14   12.2   0.0   1.5   2   0   0   2   2   2   0 vWA found in TerF C terminus
+TPP_enzyme_M         PF00205.21 sp|Q57662|PASYA_METJA -               0.15   11.8   0.9      0.46   10.2   0.9   2.1   1   1   0   1   1   1   0 Thiamine pyrophosphate enzyme, central domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q57662.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q57662.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q57662.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:09:45 2019
+# [ok]

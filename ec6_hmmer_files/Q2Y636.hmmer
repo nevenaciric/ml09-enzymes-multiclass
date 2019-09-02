@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q2Y636|MURD_NITMU -            1.2e-32  113.4   0.0   1.8e-32  112.8   0.0   1.3   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q2Y636|MURD_NITMU -            2.2e-07   30.9   0.1   5.2e-06   26.5   0.0   2.8   3   0   0   3   3   3   1 Mur ligase family, glutamate ligase domain
+POR                  PF01558.17 sp|Q2Y636|MURD_NITMU -              0.051   13.5   0.2       0.3   11.0   0.0   2.3   2   0   0   2   2   2   0 Pyruvate ferredoxin/flavodoxin oxidoreductase
+2-Hacid_dh_C         PF02826.18 sp|Q2Y636|MURD_NITMU -              0.063   12.5   0.0      0.12   11.6   0.0   1.5   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+PG_binding_3         PF09374.9  sp|Q2Y636|MURD_NITMU -              0.077   13.2   0.0      0.24   11.6   0.0   1.9   1   0   0   1   1   1   0 Predicted Peptidoglycan domain
+CbiA                 PF01656.22 sp|Q2Y636|MURD_NITMU -               0.16   11.9   0.1      0.47   10.4   0.1   1.8   1   0   0   1   1   1   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2Y636.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2Y636.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2Y636.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:56:09 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|Q6KIP6|SYK_MYCMO  -            2.5e-77  259.9   0.7   3.2e-77  259.6   0.7   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+tRNA_anti-codon      PF01336.24 sp|Q6KIP6|SYK_MYCMO  -            1.1e-06   28.4   0.0   2.1e-06   27.5   0.0   1.5   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+tRNA-synt_2d         PF01409.19 sp|Q6KIP6|SYK_MYCMO  -            1.9e-06   27.5   0.1    0.0025   17.2   0.1   2.4   2   0   0   2   2   2   2 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6KIP6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6KIP6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6KIP6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:24:54 2019
+# [ok]

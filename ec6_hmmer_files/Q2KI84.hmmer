@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|Q2KI84|SYHC_BOVIN -            5.7e-41  140.7   0.0     1e-40  139.8   0.0   1.4   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+HGTP_anticodon       PF03129.19 sp|Q2KI84|SYHC_BOVIN -            4.6e-17   61.9   0.8   1.1e-16   60.6   0.8   1.7   1   0   0   1   1   1   1 Anticodon binding domain
+WHEP-TRS             PF00458.19 sp|Q2KI84|SYHC_BOVIN -            1.4e-11   44.2   2.9   1.4e-11   44.2   2.9   2.1   2   0   0   2   2   2   1 WHEP-TRS domain
+HGTP_anticodon2      PF12745.6  sp|Q2KI84|SYHC_BOVIN -              2e-11   43.8   0.5   3.3e-11   43.0   0.5   1.2   1   0   0   1   1   1   1 Anticodon binding domain of tRNAs
+HHH_3                PF12836.6  sp|Q2KI84|SYHC_BOVIN -             0.0098   16.0   0.0     0.031   14.4   0.0   1.9   1   0   0   1   1   1   1 Helix-hairpin-helix motif
+tRNA-synt_2          PF00152.19 sp|Q2KI84|SYHC_BOVIN -              0.013   14.5   0.0     0.032   13.2   0.0   1.5   2   0   0   2   2   2   0 tRNA synthetases class II (D, K and N)
+Virul_Fac            PF10139.8  sp|Q2KI84|SYHC_BOVIN -               0.12   10.5   0.0      0.17   10.0   0.0   1.1   1   0   0   1   1   1   0 Putative bacterial virulence factor
+Sugarporin_N         PF11471.7  sp|Q2KI84|SYHC_BOVIN -               0.35   10.8   5.0      0.44   10.5   3.8   1.7   1   1   0   1   1   1   0 Maltoporin periplasmic N-terminal extension
+DUF16                PF01519.15 sp|Q2KI84|SYHC_BOVIN -                4.7    7.6   6.3        18    5.8   0.8   2.5   2   0   0   2   2   2   0 Protein of unknown function DUF16
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2KI84.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2KI84.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2KI84.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:53:37 2019
+# [ok]

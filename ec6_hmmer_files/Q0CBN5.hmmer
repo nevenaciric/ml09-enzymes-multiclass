@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q0CBN5|PNGA_ASPTN -            1.6e-54  185.0   0.0     3e-54  184.1   0.0   1.4   1   1   0   1   1   1   1 AMP-binding enzyme
+Thioesterase         PF00975.19 sp|Q0CBN5|PNGA_ASPTN -              2e-28  100.0   0.0   6.8e-28   98.3   0.0   1.9   2   0   0   2   2   2   1 Thioesterase domain
+PP-binding           PF00550.24 sp|Q0CBN5|PNGA_ASPTN -            8.1e-06   26.0   0.3   2.3e-05   24.5   0.3   1.8   1   0   0   1   1   1   1 Phosphopantetheine attachment site
+Abhydrolase_6        PF12697.6  sp|Q0CBN5|PNGA_ASPTN -             0.0015   19.1   0.1    0.0039   17.8   0.1   1.7   1   0   0   1   1   1   1 Alpha/beta hydrolase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q0CBN5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q0CBN5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q0CBN5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:39:30 2019
+# [ok]

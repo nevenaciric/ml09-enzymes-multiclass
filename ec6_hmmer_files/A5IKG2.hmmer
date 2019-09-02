@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Dala_Dala_lig_C      PF07478.12 sp|A5IKG2|DDL_THEP1  -            4.4e-48  163.4   0.0   6.1e-48  163.0   0.0   1.2   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+Dala_Dala_lig_N      PF01820.20 sp|A5IKG2|DDL_THEP1  -            7.5e-22   77.6   0.1   5.4e-21   74.9   0.1   2.1   1   1   0   1   1   1   1 D-ala D-ala ligase N-terminus
+ATP-grasp_3          PF02655.13 sp|A5IKG2|DDL_THEP1  -            2.1e-15   57.0   0.0   3.7e-15   56.2   0.0   1.3   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_4          PF13535.5  sp|A5IKG2|DDL_THEP1  -            2.1e-07   30.6   0.0   3.2e-06   26.7   0.0   2.2   1   1   0   1   1   1   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|A5IKG2|DDL_THEP1  -            1.3e-05   24.7   0.0   5.6e-05   22.6   0.0   1.8   1   1   0   1   1   1   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATP-grasp            PF02222.21 sp|A5IKG2|DDL_THEP1  -            4.1e-05   23.1   0.0   7.8e-05   22.2   0.0   1.5   1   0   0   1   1   1   1 ATP-grasp domain
+RimK                 PF08443.10 sp|A5IKG2|DDL_THEP1  -            0.00025   20.6   0.0    0.0049   16.4   0.0   2.5   2   1   0   2   2   2   1 RimK-like ATP-grasp domain
+GARS_A               PF01071.18 sp|A5IKG2|DDL_THEP1  -             0.0033   17.1   0.0    0.0051   16.5   0.0   1.3   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+Glutaredoxin         PF00462.23 sp|A5IKG2|DDL_THEP1  -              0.037   14.2   0.1      0.21   11.7   0.1   2.3   2   0   0   2   2   2   0 Glutaredoxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A5IKG2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A5IKG2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A5IKG2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:22:40 2019
+# [ok]

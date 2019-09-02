@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Dala_Dala_lig_C      PF07478.12 sp|B1KI99|DDL_SHEWM  -            1.2e-53  181.6   0.2   1.5e-53  181.3   0.2   1.1   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+Dala_Dala_lig_N      PF01820.20 sp|B1KI99|DDL_SHEWM  -            5.3e-16   58.9   0.0   1.4e-15   57.5   0.0   1.7   2   0   0   2   2   2   1 D-ala D-ala ligase N-terminus
+ATP-grasp            PF02222.21 sp|B1KI99|DDL_SHEWM  -            5.1e-07   29.3   0.4   1.1e-06   28.2   0.4   1.5   1   1   0   1   1   1   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|B1KI99|DDL_SHEWM  -             0.0019   17.6   0.1    0.0029   17.0   0.1   1.2   1   0   0   1   1   1   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+DUF4355              PF14265.5  sp|B1KI99|DDL_SHEWM  -              0.047   13.8   0.4      0.22   11.7   0.3   1.9   2   0   0   2   2   2   0 Domain of unknown function (DUF4355)
+RimK                 PF08443.10 sp|B1KI99|DDL_SHEWM  -              0.067   12.7   0.0      0.14   11.7   0.0   1.4   1   1   0   1   1   1   0 RimK-like ATP-grasp domain
+ATPgrasp_YheCD       PF14398.5  sp|B1KI99|DDL_SHEWM  -              0.078   12.1   0.0       8.7    5.4   0.0   2.1   2   0   0   2   2   2   0 YheC/D like ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B1KI99.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B1KI99.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B1KI99.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:45:59 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2d         PF01409.19 sp|B4SB89|SYFA_PELPB -           4.8e-101  337.3   0.0  5.9e-101  337.0   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+Phe_tRNA-synt_N      PF02912.17 sp|B4SB89|SYFA_PELPB -            9.8e-16   57.4   0.7   1.9e-15   56.4   0.7   1.5   1   0   0   1   1   1   1 Aminoacyl tRNA synthetase class II, N-terminal domain
+Glyco_hydro_65C      PF03633.14 sp|B4SB89|SYFA_PELPB -                0.1   12.4   0.0        21    5.0   0.0   2.8   3   0   0   3   3   3   0 Glycosyl hydrolase family 65, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B4SB89.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B4SB89.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B4SB89.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:55:51 2019
+# [ok]

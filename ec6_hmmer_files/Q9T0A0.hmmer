@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q9T0A0|LACS4_ARATH -           1.1e-104  350.3   0.0  1.3e-104  350.0   0.0   1.1   1   0   0   1   1   1   1 AMP-binding enzyme
+AMP-binding_C        PF13193.5  sp|Q9T0A0|LACS4_ARATH -             0.0018   19.1   0.0    0.0051   17.7   0.0   1.8   1   0   0   1   1   1   1 AMP-binding enzyme C-terminal domain
+EIAV_GP90            PF00971.17 sp|Q9T0A0|LACS4_ARATH -              0.083   11.5   0.0      0.12   11.0   0.0   1.2   1   0   0   1   1   1   0 EIAV coat protein, gp90
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9T0A0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9T0A0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9T0A0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:58:27 2019
+# [ok]

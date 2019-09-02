@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q2JVR9|MURD_SYNJA -            2.4e-23   83.1   0.0   3.5e-23   82.5   0.0   1.3   1   0   0   1   1   1   1 Mur ligase middle domain
+NAD_binding_8        PF13450.5  sp|Q2JVR9|MURD_SYNJA -             0.0021   18.1   0.0    0.0065   16.6   0.0   1.8   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+Mur_ligase           PF01225.24 sp|Q2JVR9|MURD_SYNJA -             0.0042   17.3   0.0     0.013   15.7   0.0   1.9   1   1   0   1   1   1   1 Mur ligase family, catalytic domain
+AlaDh_PNT_C          PF01262.20 sp|Q2JVR9|MURD_SYNJA -               0.19   10.9   0.0      0.33   10.1   0.0   1.3   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2JVR9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2JVR9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2JVR9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:53:23 2019
+# [ok]

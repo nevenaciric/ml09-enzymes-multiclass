@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|A7H1S0|SYT_CAMJD  -            1.4e-39  135.8   0.0   2.8e-39  134.9   0.0   1.5   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A7H1S0|SYT_CAMJD  -            1.8e-22   79.2   2.1   1.8e-22   79.2   2.1   2.7   3   0   0   3   3   3   1 Anticodon binding domain
+tRNA_SAD             PF07973.13 sp|A7H1S0|SYT_CAMJD  -            2.8e-14   52.8   1.8     4e-14   52.3   0.0   2.3   3   0   0   3   3   3   1 Threonyl and Alanyl tRNA synthetase second additional domain
+ArsD                 PF06953.10 sp|A7H1S0|SYT_CAMJD  -               0.13   12.5   0.4        16    5.7   0.1   2.6   2   0   0   2   2   2   0 Arsenical resistance operon trans-acting repressor ArsD
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A7H1S0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A7H1S0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A7H1S0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:30:17 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP_bind_3           PF01171.19 sp|Q6FYQ5|TILS_BARQU -            1.8e-44  151.6   2.9   1.1e-43  149.0   2.9   2.0   1   1   0   1   1   1   1 PP-loop family
+QueC                 PF06508.12 sp|Q6FYQ5|TILS_BARQU -             0.0033   16.9   0.1    0.0054   16.1   0.1   1.4   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+tRNA_Me_trans        PF03054.15 sp|Q6FYQ5|TILS_BARQU -              0.036   12.8   2.8      0.61    8.7   0.4   2.5   2   1   0   2   2   2   0 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|Q6FYQ5|TILS_BARQU -               0.06   12.9   0.0      0.11   12.0   0.0   1.4   1   1   0   1   1   1   0 Asparagine synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6FYQ5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6FYQ5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6FYQ5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:23:21 2019
+# [ok]

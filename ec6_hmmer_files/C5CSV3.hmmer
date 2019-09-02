@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CTP_synth_N          PF06418.13 sp|C5CSV3|PYRG_VARPS -           2.2e-123  410.7   0.0  3.4e-123  410.0   0.0   1.3   1   0   0   1   1   1   1 CTP synthase N-terminus
+GATase               PF00117.27 sp|C5CSV3|PYRG_VARPS -            1.8e-53  181.0   0.0   2.7e-53  180.5   0.0   1.3   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|C5CSV3|PYRG_VARPS -            1.5e-05   24.8   0.1     0.028   14.1   0.0   2.3   2   0   0   2   2   2   2 Peptidase C26
+CbiA                 PF01656.22 sp|C5CSV3|PYRG_VARPS -            0.00047   20.1   0.0   0.00061   19.7   0.0   1.6   1   1   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+ArsA_ATPase          PF02374.14 sp|C5CSV3|PYRG_VARPS -               0.12   11.5   0.1      0.41    9.7   0.2   1.9   1   1   0   2   2   2   0 Anion-transporting ATPase
+AAA_31               PF13614.5  sp|C5CSV3|PYRG_VARPS -               0.14   11.9   0.0      0.24   11.2   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+DJ-1_PfpI            PF01965.23 sp|C5CSV3|PYRG_VARPS -               0.15   11.8   0.0       0.5   10.1   0.0   1.8   2   0   0   2   2   2   0 DJ-1/PfpI family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C5CSV3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C5CSV3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C5CSV3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:18:44 2019
+# [ok]

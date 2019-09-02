@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CPSase_L_D2          PF02786.16 sp|P00968|CARB_ECOLI -           9.5e-118  391.1   2.6   1.6e-77  259.6   0.0   2.4   2   0   0   2   2   2   2 Carbamoyl-phosphate synthase L chain, ATP binding domain
+CPSase_L_D3          PF02787.18 sp|P00968|CARB_ECOLI -            2.7e-40  137.4   0.0     7e-40  136.1   0.0   1.8   1   0   0   1   1   1   1 Carbamoyl-phosphate synthetase large chain, oligomerisation domain
+ATPgrasp_Ter         PF15632.5  sp|P00968|CARB_ECOLI -            9.8e-21   73.7   1.4   1.4e-11   43.7   0.3   3.9   3   1   0   3   3   3   3 ATP-grasp in the biosynthetic pathway with Ter operon
+MGS                  PF02142.21 sp|P00968|CARB_ECOLI -            6.4e-19   67.8   0.6   3.2e-18   65.6   0.0   2.6   3   0   0   3   3   3   1 MGS-like domain
+ATP-grasp            PF02222.21 sp|P00968|CARB_ECOLI -            3.4e-15   55.9   0.5   1.6e-07   30.9   0.3   2.3   2   0   0   2   2   2   2 ATP-grasp domain
+ATP-grasp_3          PF02655.13 sp|P00968|CARB_ECOLI -            2.4e-11   43.9   0.7   1.1e-07   31.9   0.0   2.9   3   0   0   3   3   3   2 ATP-grasp domain
+ATP-grasp_4          PF13535.5  sp|P00968|CARB_ECOLI -            5.5e-10   39.0   0.1   7.5e-05   22.3   0.0   4.5   4   2   0   4   4   4   2 ATP-grasp domain
+Radical_SAM          PF04055.20 sp|P00968|CARB_ECOLI -            9.1e-05   22.8   0.4      0.16   12.3   0.0   4.0   5   0   0   5   5   5   1 Radical SAM superfamily
+CoA_binding_2        PF13380.5  sp|P00968|CARB_ECOLI -            0.00024   21.5   0.0         4    7.9   0.0   3.9   3   1   0   3   3   3   2 CoA binding domain
+ATP-grasp_5          PF13549.5  sp|P00968|CARB_ECOLI -             0.0029   17.0   0.1       3.5    6.9   0.0   3.4   3   0   0   3   3   3   1 ATP-grasp domain
+SmpA_OmlA            PF04355.12 sp|P00968|CARB_ECOLI -              0.035   13.8   0.0      0.08   12.7   0.0   1.5   1   0   0   1   1   1   0 SmpA / OmlA family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P00968.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P00968.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P00968.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:24:20 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase           PF01225.24 sp|C0M809|MURC_STRE4 -            3.6e-27   94.4   0.0   1.5e-26   92.4   0.0   2.1   2   0   0   2   2   2   1 Mur ligase family, catalytic domain
+Mur_ligase_M         PF08245.11 sp|C0M809|MURC_STRE4 -            1.3e-22   80.6   0.4   3.1e-22   79.4   0.4   1.7   1   1   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|C0M809|MURC_STRE4 -            1.1e-16   60.7   0.3   5.5e-16   58.5   0.1   2.2   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C0M809.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C0M809.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C0M809.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:11:26 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|A3MYU1|SYT_ACTP2  -            7.9e-50  169.2   0.0   2.3e-49  167.7   0.0   1.7   2   0   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A3MYU1|SYT_ACTP2  -            6.1e-23   80.7   0.5   3.5e-22   78.3   0.5   2.3   2   0   0   2   2   2   1 Anticodon binding domain
+tRNA_SAD             PF07973.13 sp|A3MYU1|SYT_ACTP2  -            2.4e-14   53.0   0.0     5e-14   52.0   0.0   1.5   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+TGS                  PF02824.20 sp|A3MYU1|SYT_ACTP2  -            4.6e-11   42.5   0.1   2.7e-10   40.0   0.0   2.3   2   0   0   2   2   2   1 TGS domain
+STN                  PF07660.13 sp|A3MYU1|SYT_ACTP2  -               0.11   12.2   0.2         1    9.1   0.1   2.2   2   0   0   2   2   2   0 Secretin and TonB N terminus short domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A3MYU1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A3MYU1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A3MYU1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:15:30 2019
+# [ok]

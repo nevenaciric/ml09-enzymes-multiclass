@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q8DST2|MURE_STRMU -            8.4e-34  117.1   1.1   1.9e-32  112.7   0.3   2.4   2   0   0   2   2   2   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q8DST2|MURE_STRMU -            1.1e-16   60.8   0.0   3.1e-16   59.3   0.0   1.8   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+RibD_C               PF01872.16 sp|Q8DST2|MURE_STRMU -              0.073   12.8   0.0       1.7    8.4   0.0   2.2   2   0   0   2   2   2   0 RibD C-terminal domain
+Mur_ligase           PF01225.24 sp|Q8DST2|MURE_STRMU -              0.073   13.3   0.0       0.3   11.3   0.0   2.1   2   0   0   2   2   2   0 Mur ligase family, catalytic domain
+DUF5335              PF17269.1  sp|Q8DST2|MURE_STRMU -               0.14   11.9   0.5      0.37   10.5   0.1   1.8   2   0   0   2   2   2   0 Family of unknown function (DUF5335)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8DST2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8DST2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8DST2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:40:39 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2c         PF01411.18 sp|Q3MGN4|SYA_ANAVT  -           7.9e-212  704.5   1.1    1e-211  704.2   1.1   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (A)
+DHHA1                PF02272.18 sp|Q3MGN4|SYA_ANAVT  -              1e-23   84.1   1.0     1e-23   84.1   1.0   2.2   2   0   0   2   2   2   1 DHHA1 domain
+tRNA_SAD             PF07973.13 sp|Q3MGN4|SYA_ANAVT  -            2.2e-17   62.8   0.3   6.1e-17   61.3   0.3   1.8   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+GTP_EFTU_D2          PF03144.24 sp|Q3MGN4|SYA_ANAVT  -              0.026   14.8   0.0     0.097   13.0   0.0   2.0   1   0   0   1   1   1   0 Elongation factor Tu domain 2
+P5CR_dimer           PF14748.5  sp|Q3MGN4|SYA_ANAVT  -              0.045   13.9   0.1      0.25   11.5   0.1   2.2   2   0   0   2   2   2   0 Pyrroline-5-carboxylate reductase dimerisation
+Syntaxin-6_N         PF09177.10 sp|Q3MGN4|SYA_ANAVT  -               0.66   10.5   4.0      0.66   10.5   0.1   2.8   2   1   0   2   2   2   0 Syntaxin 6, N-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3MGN4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3MGN4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3MGN4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:02:09 2019
+# [ok]

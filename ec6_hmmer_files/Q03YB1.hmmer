@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FTHFS                PF01268.18 sp|Q03YB1|FTHS_LEUMM -           5.7e-254  843.4   1.8  6.4e-254  843.2   1.8   1.0   1   0   0   1   1   1   1 Formate--tetrahydrofolate ligase
+CbiA                 PF01656.22 sp|Q03YB1|FTHS_LEUMM -             0.0052   16.7   0.2      0.42   10.6   0.0   2.6   2   0   0   2   2   2   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+ATP_bind_1           PF03029.16 sp|Q03YB1|FTHS_LEUMM -               0.09   12.4   0.0      0.52    9.9   0.0   2.1   2   0   0   2   2   2   0 Conserved hypothetical ATP binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q03YB1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q03YB1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q03YB1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:36:21 2019
+# [ok]

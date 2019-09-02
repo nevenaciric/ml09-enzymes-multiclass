@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase_3             PF07685.13 sp|Q3ZWJ9|CBIA_DEHMC -            5.7e-39  133.6   0.0   7.7e-39  133.2   0.0   1.2   1   0   0   1   1   1   1 CobB/CobQ-like glutamine amidotransferase domain
+CbiA                 PF01656.22 sp|Q3ZWJ9|CBIA_DEHMC -            5.3e-18   65.2   0.0   9.7e-18   64.4   0.0   1.4   1   0   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+AAA_26               PF13500.5  sp|Q3ZWJ9|CBIA_DEHMC -            3.7e-15   56.2   0.0     6e-08   32.6   0.0   2.5   3   0   0   3   3   3   2 AAA domain
+Fer4_NifH            PF00142.17 sp|Q3ZWJ9|CBIA_DEHMC -             0.0043   16.4   0.2       1.1    8.5   0.0   2.2   1   1   0   2   2   2   2 4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+CTP_synth_N          PF06418.13 sp|Q3ZWJ9|CBIA_DEHMC -              0.011   14.9   0.1     0.018   14.2   0.1   1.2   1   0   0   1   1   1   0 CTP synthase N-terminus
+MobB                 PF03205.13 sp|Q3ZWJ9|CBIA_DEHMC -              0.013   15.3   0.0     0.044   13.6   0.0   1.9   2   0   0   2   2   2   0 Molybdopterin guanine dinucleotide synthesis protein B
+DUF1611              PF07755.10 sp|Q3ZWJ9|CBIA_DEHMC -              0.039   13.1   0.1       0.1   11.8   0.1   1.9   1   1   0   1   1   1   0 Domain of unknown function (DUF1611_C) P-loop domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3ZWJ9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3ZWJ9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3ZWJ9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:03:18 2019
+# [ok]

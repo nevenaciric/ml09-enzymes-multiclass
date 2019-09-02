@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|B8E3Q5|SYGB_SHEB2 -           9.2e-207  688.1   0.5  1.2e-206  687.7   0.5   1.2   1   0   0   1   1   1   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|B8E3Q5|SYGB_SHEB2 -            2.3e-10   40.6   1.8   1.1e-09   38.3   2.0   2.1   2   0   0   2   2   2   1 DALR anticodon binding domain
+ISN1                 PF06437.10 sp|B8E3Q5|SYGB_SHEB2 -              0.047   12.5   0.0       4.2    6.1   0.0   2.1   2   0   0   2   2   2   0 IMP-specific 5'-nucleotidase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B8E3Q5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B8E3Q5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B8E3Q5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:06:52 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GSH-S_ATP            PF02955.15 sp|Q8DKF1|GSHB_THEEB -            6.3e-75  250.3   0.1   8.3e-75  249.9   0.1   1.1   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, ATP-grasp domain
+GSH-S_N              PF02951.13 sp|Q8DKF1|GSHB_THEEB -            4.8e-39  133.1   0.0   7.1e-39  132.5   0.0   1.3   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, N-terminal domain
+RimK                 PF08443.10 sp|Q8DKF1|GSHB_THEEB -            1.3e-14   54.2   0.0   1.7e-14   53.7   0.0   1.1   1   0   0   1   1   1   1 RimK-like ATP-grasp domain
+ATPgrasp_YheCD       PF14398.5  sp|Q8DKF1|GSHB_THEEB -            3.7e-06   26.3   0.0   6.9e-06   25.4   0.0   1.4   1   0   0   1   1   1   1 YheC/D like ATP-grasp
+ATPgrasp_ST          PF14397.5  sp|Q8DKF1|GSHB_THEEB -              0.006   15.8   0.1     0.016   14.4   0.0   1.7   2   0   0   2   2   2   1 Sugar-transfer associated ATP-grasp
+ATP-grasp_3          PF02655.13 sp|Q8DKF1|GSHB_THEEB -              0.052   13.5   0.0      0.11   12.4   0.0   1.5   1   1   0   1   1   1   0 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8DKF1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8DKF1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8DKF1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:40:15 2019
+# [ok]

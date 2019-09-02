@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q3Z5S1|MURD_SHISS -            3.3e-29  102.2   0.1   5.2e-29  101.5   0.1   1.3   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q3Z5S1|MURD_SHISS -            3.7e-11   43.0   0.0   2.2e-10   40.5   0.0   2.2   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+NAD_binding_7        PF13241.5  sp|Q3Z5S1|MURD_SHISS -              0.013   15.8   0.0     0.044   14.1   0.0   1.9   2   0   0   2   2   2   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3Z5S1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3Z5S1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3Z5S1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:03:03 2019
+# [ok]

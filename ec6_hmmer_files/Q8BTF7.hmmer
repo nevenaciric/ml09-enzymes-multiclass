@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|Q8BTF7|DNLI4_MOUSE -            2.4e-52  177.4   0.4   2.4e-52  177.4   0.4   1.9   3   0   0   3   3   3   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|Q8BTF7|DNLI4_MOUSE -            1.9e-41  142.2   0.8   4.3e-41  141.0   0.8   1.6   1   0   0   1   1   1   1 DNA ligase N terminus
+DNA_ligase_A_C       PF04679.14 sp|Q8BTF7|DNLI4_MOUSE -            9.4e-19   67.8   0.0   3.3e-18   66.0   0.0   2.0   2   0   0   2   2   2   1 ATP dependent DNA ligase C terminal region
+BRCT                 PF00533.25 sp|Q8BTF7|DNLI4_MOUSE -              4e-18   65.5   0.0   2.4e-09   37.4   0.0   4.1   4   0   0   4   4   4   2 BRCA1 C Terminus (BRCT) domain
+DNA_ligase_IV        PF11411.7  sp|Q8BTF7|DNLI4_MOUSE -            1.9e-17   62.9   0.5   4.1e-17   61.9   0.5   1.6   1   0   0   1   1   1   1 DNA ligase IV
+BRCT_2               PF16589.4  sp|Q8BTF7|DNLI4_MOUSE -            2.9e-15   56.3   0.0   7.5e-10   39.0   0.0   2.8   2   0   0   2   2   2   2 BRCT domain, a BRCA1 C-terminus domain
+RNA_ligase           PF09414.9  sp|Q8BTF7|DNLI4_MOUSE -            1.2e-09   38.5   0.1   2.2e-09   37.7   0.1   1.5   1   0   0   1   1   1   1 RNA ligase
+mRNA_cap_enzyme      PF01331.18 sp|Q8BTF7|DNLI4_MOUSE -              0.015   15.1   0.8       0.4   10.4   0.8   2.6   1   1   0   1   1   1   0 mRNA capping enzyme, catalytic domain
+RTT107_BRCT_5        PF16770.4  sp|Q8BTF7|DNLI4_MOUSE -              0.058   13.2   0.0       3.4    7.5   0.0   2.8   2   0   0   2   2   2   0 Regulator of Ty1 transposition protein 107 BRCT domain
+LIG3_BRCT            PF16759.4  sp|Q8BTF7|DNLI4_MOUSE -              0.067   13.4   0.0      0.26   11.5   0.0   2.1   2   0   0   2   2   2   0 DNA ligase 3 BRCT domain
+APG17                PF04108.11 sp|Q8BTF7|DNLI4_MOUSE -               0.24   10.4   1.8       0.3   10.0   0.4   1.8   2   0   0   2   2   2   0 Autophagy protein Apg17
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8BTF7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8BTF7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8BTF7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:38:57 2019
+# [ok]

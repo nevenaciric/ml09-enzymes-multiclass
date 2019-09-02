@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QueC                 PF06508.12 sp|Q21HP4|QUEC_SACD2 -            5.8e-83  277.4   0.0   6.6e-83  277.2   0.0   1.0   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+Asn_synthase         PF00733.20 sp|Q21HP4|QUEC_SACD2 -            4.2e-06   26.6   0.1   5.5e-06   26.2   0.1   1.1   1   0   0   1   1   1   1 Asparagine synthase
+ThiI                 PF02568.13 sp|Q21HP4|QUEC_SACD2 -            0.00012   21.6   0.0     0.073   12.5   0.0   2.3   2   0   0   2   2   2   2 Thiamine biosynthesis protein (ThiI)
+ATP_bind_3           PF01171.19 sp|Q21HP4|QUEC_SACD2 -             0.0075   15.9   0.1      0.22   11.2   0.1   2.1   2   0   0   2   2   2   1 PP-loop family
+PAPS_reduct          PF01507.18 sp|Q21HP4|QUEC_SACD2 -             0.0085   16.1   0.0      0.13   12.2   0.0   2.0   2   0   0   2   2   2   1 Phosphoadenosine phosphosulfate reductase family
+tRNA_Me_trans        PF03054.15 sp|Q21HP4|QUEC_SACD2 -              0.022   13.5   0.1     0.032   12.9   0.1   1.2   1   0   0   1   1   1   0 tRNA methyl transferase
+Arginosuc_synth      PF00764.18 sp|Q21HP4|QUEC_SACD2 -              0.028   13.6   0.1      0.04   13.1   0.1   1.2   1   0   0   1   1   1   0 Arginosuccinate synthase
+NAD_synthase         PF02540.16 sp|Q21HP4|QUEC_SACD2 -                0.1   11.6   0.1      0.24   10.4   0.1   1.6   2   0   0   2   2   2   0 NAD synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q21HP4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q21HP4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q21HP4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:50:11 2019
+# [ok]

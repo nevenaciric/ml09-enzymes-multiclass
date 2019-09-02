@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pantoate_ligase      PF02569.14 sp|B2VD18|PANC_ERWT9 -           7.9e-101  336.6   0.0  8.9e-101  336.5   0.0   1.0   1   0   0   1   1   1   1 Pantoate-beta-alanine ligase
+CTP_transf_like      PF01467.25 sp|B2VD18|PANC_ERWT9 -              0.041   14.0   0.0     0.061   13.4   0.0   1.4   1   0   0   1   1   1   0 Cytidylyltransferase-like
+FAD_syn              PF06574.11 sp|B2VD18|PANC_ERWT9 -               0.12   12.1   0.0      0.74    9.6   0.0   2.1   2   0   0   2   2   2   0 FAD synthetase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2VD18.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2VD18.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2VD18.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:52:35 2019
+# [ok]

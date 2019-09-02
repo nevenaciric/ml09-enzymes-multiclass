@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|O30836|SYGB_HAEAE -            2.8e-56  191.5   1.2   2.5e-55  188.3   0.1   2.0   2   0   0   2   2   2   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|O30836|SYGB_HAEAE -            5.8e-10   39.3   0.5   1.9e-09   37.6   0.4   1.9   2   0   0   2   2   2   1 DALR anticodon binding domain
+Methyltransf_25      PF13649.5  sp|O30836|SYGB_HAEAE -              0.055   14.1   0.5      0.23   12.1   0.1   2.1   1   1   1   2   2   2   0 Methyltransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O30836.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O30836.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O30836.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:22:10 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AAA_26               PF13500.5  sp|P13000|BIOD1_ECOLI -            4.6e-40  137.5   0.0   5.5e-40  137.2   0.0   1.0   1   0   0   1   1   1   1 AAA domain
+CbiA                 PF01656.22 sp|P13000|BIOD1_ECOLI -            2.7e-14   53.2   0.0   3.2e-14   53.0   0.0   1.1   1   0   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+DUF1611              PF07755.10 sp|P13000|BIOD1_ECOLI -            9.7e-07   28.2   0.4   0.00031   20.0   0.1   2.4   2   0   0   2   2   2   2 Domain of unknown function (DUF1611_C) P-loop domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P13000.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P13000.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P13000.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:26:20 2019
+# [ok]

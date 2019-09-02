@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|Q317V3|SYDND_PROM9 -           4.2e-107  357.7   0.0  5.2e-107  357.5   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+GAD                  PF02938.13 sp|Q317V3|SYDND_PROM9 -            1.9e-21   76.0   0.2   5.1e-21   74.6   0.2   1.8   1   0   0   1   1   1   1 GAD domain
+tRNA_anti-codon      PF01336.24 sp|Q317V3|SYDND_PROM9 -            3.6e-18   65.2   0.2   1.1e-17   63.7   0.0   1.9   2   0   0   2   2   2   1 OB-fold nucleic acid binding domain
+tRNA-synt_2d         PF01409.19 sp|Q317V3|SYDND_PROM9 -             0.0015   18.0   0.2      0.84    9.0   0.0   2.7   3   0   0   3   3   3   2 tRNA synthetases class II core domain (F)
+DUF3091              PF11291.7  sp|Q317V3|SYDND_PROM9 -               0.06   13.4   0.7      0.93    9.6   0.0   2.7   2   0   0   2   2   2   0 Protein of unknown function (DUF3091)
+SSPI                 PF14098.5  sp|Q317V3|SYDND_PROM9 -              0.068   13.2   1.1      0.16   12.0   0.1   2.2   2   0   0   2   2   2   0 Small, acid-soluble spore protein I
+tRNA-synt_2b         PF00587.24 sp|Q317V3|SYDND_PROM9 -                0.1   12.4   0.1      0.28   11.0   0.1   1.7   2   0   0   2   2   2   0 tRNA synthetase class II core domain (G, H, P, S and T)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q317V3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q317V3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q317V3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:57:12 2019
+# [ok]

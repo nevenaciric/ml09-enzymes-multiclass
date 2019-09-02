@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|Q9Y105|SYQ_DROME  -           7.2e-109  363.4   0.0  1.9e-108  362.0   0.0   1.7   2   0   0   2   2   2   1 tRNA synthetases class I (E and Q), catalytic domain
+tRNA_synt_1c_R1      PF04558.14 sp|Q9Y105|SYQ_DROME  -            3.3e-50  170.2   0.9   5.8e-50  169.3   0.9   1.4   1   0   0   1   1   1   1 Glutaminyl-tRNA synthetase, non-specific RNA binding region part 1
+tRNA-synt_1c_C       PF03950.17 sp|Q9Y105|SYQ_DROME  -            2.5e-46  157.6   0.2   3.1e-44  150.8   0.0   2.4   2   0   0   2   2   2   2 tRNA synthetases class I (E and Q), anti-codon binding domain
+tRNA_synt_1c_R2      PF04557.14 sp|Q9Y105|SYQ_DROME  -            4.6e-29  101.1   2.0     1e-28  100.0   2.0   1.6   1   0   0   1   1   1   1 Glutaminyl-tRNA synthetase, non-specific RNA binding region part 2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9Y105.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9Y105.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9Y105.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:59:29 2019
+# [ok]

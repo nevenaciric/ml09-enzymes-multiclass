@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2d         PF01409.19 sp|B8F4T5|SYFA_HAEPS -           3.8e-103  344.1   0.1  4.6e-103  343.8   0.1   1.1   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+Phe_tRNA-synt_N      PF02912.17 sp|B8F4T5|SYFA_HAEPS -            1.5e-26   92.0   2.0   3.1e-26   91.0   1.4   1.9   2   0   0   2   2   2   1 Aminoacyl tRNA synthetase class II, N-terminal domain
+PepSY                PF03413.18 sp|B8F4T5|SYFA_HAEPS -               0.12   12.8   1.5      0.74   10.3   0.2   2.4   2   0   0   2   2   2   0 Peptidase propeptide and YPEB domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B8F4T5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B8F4T5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B8F4T5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:07:12 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|Q2YTA7|SYT_STAAB  -            6.3e-33  114.1   0.6   8.4e-32  110.5   0.1   2.2   2   0   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q2YTA7|SYT_STAAB  -            6.2e-26   90.3   1.6   2.9e-25   88.2   1.6   2.2   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA_SAD             PF07973.13 sp|Q2YTA7|SYT_STAAB  -            3.1e-17   62.3   0.0   6.6e-17   61.2   0.0   1.6   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+TGS                  PF02824.20 sp|Q2YTA7|SYT_STAAB  -            5.5e-15   55.1   0.0   1.5e-14   53.7   0.0   1.8   1   0   0   1   1   1   1 TGS domain
+tRNA-synt_His        PF13393.5  sp|Q2YTA7|SYT_STAAB  -              0.013   14.7   0.0     0.024   13.8   0.0   1.4   1   0   0   1   1   1   0 Histidyl-tRNA synthetase
+DUF2015              PF09435.9  sp|Q2YTA7|SYT_STAAB  -              0.021   14.6   0.1     0.063   13.0   0.1   1.8   1   0   0   1   1   1   0 Fungal protein of unknown function (DUF2015)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2YTA7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2YTA7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2YTA7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:56:37 2019
+# [ok]

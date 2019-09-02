@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|P78600|SYPC_CANAX -            1.1e-33  116.6   0.0     2e-33  115.8   0.0   1.4   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|P78600|SYPC_CANAX -            4.3e-08   33.1   0.1     1e-07   31.9   0.1   1.7   1   0   0   1   1   1   1 Anticodon binding domain
+Mit_KHE1             PF10173.8  sp|P78600|SYPC_CANAX -              0.045   13.7   0.2      0.14   12.2   0.2   1.8   1   0   0   1   1   1   0 Mitochondrial K+-H+ exchange-related
+tRNA-synt_2          PF00152.19 sp|P78600|SYPC_CANAX -               0.17   10.8   2.3       0.5    9.3   2.3   2.1   1   1   0   1   1   1   0 tRNA synthetases class II (D, K and N)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P78600.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P78600.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P78600.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:33:20 2019
+# [ok]

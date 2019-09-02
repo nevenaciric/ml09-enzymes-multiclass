@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|A7IAS7|NADE_METB6 -            7.1e-70  234.8   0.0   9.1e-70  234.4   0.0   1.0   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|A7IAS7|NADE_METB6 -            9.5e-05   21.2   0.1    0.0011   17.7   0.0   2.2   2   0   0   2   2   2   1 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|A7IAS7|NADE_METB6 -             0.0025   17.5   0.0    0.0025   17.5   0.0   1.2   1   0   0   1   1   1   1 Asparagine synthase
+QueC                 PF06508.12 sp|A7IAS7|NADE_METB6 -              0.018   14.4   0.0       0.2   11.1   0.0   2.0   2   0   0   2   2   2   0 Queuosine biosynthesis protein QueC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A7IAS7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A7IAS7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A7IAS7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:31:05 2019
+# [ok]

@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMP_synt_C           PF00958.21 sp|Q8ZN60|GUAA_SALTY -              3e-44  148.9   0.0   6.3e-44  147.9   0.0   1.6   1   0   0   1   1   1   1 GMP synthase C terminal domain
+GATase               PF00117.27 sp|Q8ZN60|GUAA_SALTY -              1e-41  142.8   0.0   1.5e-41  142.2   0.0   1.2   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+NAD_synthase         PF02540.16 sp|Q8ZN60|GUAA_SALTY -            3.7e-09   36.0   0.1   1.1e-06   27.9   0.0   2.3   2   0   0   2   2   2   2 NAD synthase
+Peptidase_C26        PF07722.12 sp|Q8ZN60|GUAA_SALTY -            9.3e-09   35.3   0.0   2.1e-08   34.1   0.0   1.6   1   1   0   1   1   1   1 Peptidase C26
+tRNA_Me_trans        PF03054.15 sp|Q8ZN60|GUAA_SALTY -            1.7e-05   23.7   0.1   9.9e-05   21.2   0.1   2.0   2   0   0   2   2   2   1 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|Q8ZN60|GUAA_SALTY -             0.0034   17.0   0.0     0.021   14.4   0.0   1.9   2   0   0   2   2   2   1 Asparagine synthase
+QueC                 PF06508.12 sp|Q8ZN60|GUAA_SALTY -             0.0058   16.1   0.0       1.9    7.8   0.0   2.5   3   0   0   3   3   3   2 Queuosine biosynthesis protein QueC
+ThiI                 PF02568.13 sp|Q8ZN60|GUAA_SALTY -              0.016   14.7   0.1     0.028   13.9   0.1   1.3   1   0   0   1   1   1   0 Thiamine biosynthesis protein (ThiI)
+SNO                  PF01174.18 sp|Q8ZN60|GUAA_SALTY -              0.017   14.9   0.0      0.13   12.0   0.0   2.2   1   1   0   1   1   1   0 SNO glutamine amidotransferase family
+PAPS_reduct          PF01507.18 sp|Q8ZN60|GUAA_SALTY -              0.027   14.4   0.0     0.056   13.4   0.0   1.5   2   0   0   2   2   2   0 Phosphoadenosine phosphosulfate reductase family
+ATP_bind_3           PF01171.19 sp|Q8ZN60|GUAA_SALTY -              0.084   12.5   0.0      0.17   11.5   0.0   1.7   1   0   0   1   1   1   0 PP-loop family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8ZN60.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8ZN60.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8ZN60.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:49:35 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|A7I1U5|SYH_CAMHC  -            8.9e-45  153.2   0.0   1.2e-44  152.7   0.0   1.2   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|A7I1U5|SYH_CAMHC  -            3.9e-15   56.2   0.0   8.5e-15   55.1   0.0   1.6   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A7I1U5|SYH_CAMHC  -            2.5e-07   30.6   0.5   2.5e-06   27.5   0.4   2.4   2   0   0   2   2   2   1 Anticodon binding domain
+tRNA-synt_2d         PF01409.19 sp|A7I1U5|SYH_CAMHC  -            0.00057   19.3   1.1     0.001   18.5   0.0   2.0   3   0   0   3   3   3   1 tRNA synthetases class II core domain (F)
+tRNA-synt_2          PF00152.19 sp|A7I1U5|SYH_CAMHC  -            0.00067   18.7   0.1     0.025   13.6   0.0   2.8   3   0   0   3   3   3   1 tRNA synthetases class II (D, K and N)
+MinC_N               PF05209.12 sp|A7I1U5|SYH_CAMHC  -              0.088   12.7   0.0        14    5.6   0.0   2.6   2   0   0   2   2   2   0 Septum formation inhibitor MinC, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A7I1U5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A7I1U5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A7I1U5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:30:55 2019
+# [ok]

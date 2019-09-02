@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HIGH_NTase1          PF05636.10 sp|B0K9Y8|TMCAL_THEP3 -           4.8e-150  500.1   5.1  5.9e-150  499.9   5.1   1.0   1   0   0   1   1   1   1 HIGH Nucleotidyl Transferase
+CTP_transf_like      PF01467.25 sp|B0K9Y8|TMCAL_THEP3 -            5.5e-05   23.3   0.0   0.00018   21.7   0.0   2.1   2   1   0   2   2   2   1 Cytidylyltransferase-like
+HIGH_NTase1_ass      PF16581.4  sp|B0K9Y8|TMCAL_THEP3 -            0.00054   19.9   1.5   0.00054   19.9   1.5   2.1   1   1   1   2   2   2   1 Cytidyltransferase-related C-terminal region
+Citrate_ly_lig       PF08218.10 sp|B0K9Y8|TMCAL_THEP3 -            0.00087   18.9   0.0      0.81    9.2   0.0   2.8   2   1   0   2   2   2   2 Citrate lyase ligase C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B0K9Y8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B0K9Y8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B0K9Y8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:41:52 2019
+# [ok]

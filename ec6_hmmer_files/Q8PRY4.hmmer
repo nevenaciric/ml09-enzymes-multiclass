@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-Thr_ED          PF08915.10 sp|Q8PRY4|SYT_METMA  -            2.4e-53  179.8   0.5   4.7e-53  178.8   0.5   1.5   1   0   0   1   1   1   1 Archaea-specific editing domain of threonyl-tRNA synthetase
+HGTP_anticodon       PF03129.19 sp|Q8PRY4|SYT_METMA  -            1.7e-18   66.4   1.7   1.7e-18   66.4   1.7   2.2   2   0   0   2   2   2   1 Anticodon binding domain
+tRNA-synt_2b         PF00587.24 sp|Q8PRY4|SYT_METMA  -            1.9e-15   57.2   0.3   3.4e-15   56.4   0.3   1.4   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+Heme_oxygenase       PF01126.19 sp|Q8PRY4|SYT_METMA  -              0.021   14.5   0.1      0.05   13.3   0.1   1.6   1   0   0   1   1   1   0 Heme oxygenase
+DLD                  PF14878.5  sp|Q8PRY4|SYT_METMA  -              0.041   14.4   0.3       5.7    7.5   0.0   2.9   3   0   0   3   3   3   0 Death-like domain of SPT6
+PTPlike_phytase      PF14566.5  sp|Q8PRY4|SYT_METMA  -               0.17   11.9   5.9         6    6.8   0.0   3.9   3   1   0   4   4   4   0 Inositol hexakisphosphate
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8PRY4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8PRY4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8PRY4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:45:02 2019
+# [ok]

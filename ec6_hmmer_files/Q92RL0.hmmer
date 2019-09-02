@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GARS_A               PF01071.18 sp|Q92RL0|PUR2_RHIME -              4e-80  268.1   0.0   6.3e-80  267.4   0.0   1.3   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+GARS_N               PF02844.14 sp|Q92RL0|PUR2_RHIME -            8.3e-36  122.6   0.0   1.5e-35  121.8   0.0   1.4   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, N domain
+GARS_C               PF02843.15 sp|Q92RL0|PUR2_RHIME -            2.2e-28   98.2   1.3   6.3e-28   96.8   0.8   2.0   2   0   0   2   2   2   1 Phosphoribosylglycinamide synthetase, C domain
+ATP-grasp_3          PF02655.13 sp|Q92RL0|PUR2_RHIME -            3.2e-06   27.2   0.0   5.1e-06   26.5   0.0   1.3   1   0   0   1   1   1   1 ATP-grasp domain
+ATPgrasp_Ter         PF15632.5  sp|Q92RL0|PUR2_RHIME -             0.0017   17.1   0.0    0.0066   15.1   0.0   1.8   1   1   0   1   1   1   1 ATP-grasp in the biosynthetic pathway with Ter operon
+CPSase_L_D2          PF02786.16 sp|Q92RL0|PUR2_RHIME -             0.0019   17.6   0.7    0.0033   16.9   0.2   1.6   2   0   0   2   2   2   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATP-grasp            PF02222.21 sp|Q92RL0|PUR2_RHIME -             0.0085   15.6   0.0     0.015   14.7   0.0   1.3   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_5          PF13549.5  sp|Q92RL0|PUR2_RHIME -               0.05   13.0   0.0      0.12   11.7   0.0   1.6   1   0   0   1   1   1   0 ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|Q92RL0|PUR2_RHIME -              0.097   11.8   0.0       1.2    8.2   0.0   2.1   2   0   0   2   2   2   0 Sugar-transfer associated ATP-grasp
+Glug                 PF07581.11 sp|Q92RL0|PUR2_RHIME -               0.28   11.6   1.5      0.89   10.0   1.5   1.9   1   0   0   1   1   1   0 The GLUG motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q92RL0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q92RL0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q92RL0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:50:45 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|Q2T132|SYDND_BURTA -             3e-107  358.2   0.0  3.6e-107  358.0   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+GAD                  PF02938.13 sp|Q2T132|SYDND_BURTA -            1.6e-26   92.2   0.0   3.6e-26   91.1   0.0   1.6   1   0   0   1   1   1   1 GAD domain
+tRNA_anti-codon      PF01336.24 sp|Q2T132|SYDND_BURTA -            5.4e-18   64.7   0.1   1.2e-17   63.6   0.1   1.6   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+tRNA-synt_2b         PF00587.24 sp|Q2T132|SYDND_BURTA -             0.0011   18.8   0.1    0.0023   17.8   0.1   1.5   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_2d         PF01409.19 sp|Q2T132|SYDND_BURTA -             0.0094   15.4   1.7      0.07   12.5   0.3   2.6   3   0   0   3   3   3   1 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2T132.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2T132.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2T132.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:55:52 2019
+# [ok]

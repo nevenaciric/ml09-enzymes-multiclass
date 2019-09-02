@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMP_synt_C           PF00958.21 sp|Q46D96|GUAAB_METBF -            3.4e-30  103.8   0.0   6.8e-30  102.9   0.0   1.5   1   0   0   1   1   1   1 GMP synthase C terminal domain
+NAD_synthase         PF02540.16 sp|Q46D96|GUAAB_METBF -            1.7e-08   33.8   0.0    0.0006   18.9   0.0   2.2   2   0   0   2   2   2   2 NAD synthase
+DUF2674              PF10879.7  sp|Q46D96|GUAAB_METBF -            0.00061   19.6   0.3       1.1    9.2   0.1   2.7   2   0   0   2   2   2   2 Protein of unknown function (DUF2674)
+QueC                 PF06508.12 sp|Q46D96|GUAAB_METBF -            0.00069   19.1   0.0    0.0016   17.9   0.0   1.6   2   0   0   2   2   2   1 Queuosine biosynthesis protein QueC
+tRNA_Me_trans        PF03054.15 sp|Q46D96|GUAAB_METBF -            0.00084   18.1   0.0     0.027   13.2   0.0   2.2   2   0   0   2   2   2   1 tRNA methyl transferase
+PAPS_reduct          PF01507.18 sp|Q46D96|GUAAB_METBF -              0.013   15.5   0.0      0.02   14.8   0.0   1.3   1   0   0   1   1   1   0 Phosphoadenosine phosphosulfate reductase family
+Asn_synthase         PF00733.20 sp|Q46D96|GUAAB_METBF -              0.032   13.8   0.0     0.056   13.0   0.0   1.3   1   0   0   1   1   1   0 Asparagine synthase
+ATP_bind_3           PF01171.19 sp|Q46D96|GUAAB_METBF -               0.17   11.5   0.0      0.24   11.0   0.0   1.4   1   0   0   1   1   1   0 PP-loop family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q46D96.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q46D96.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q46D96.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:03:48 2019
+# [ok]

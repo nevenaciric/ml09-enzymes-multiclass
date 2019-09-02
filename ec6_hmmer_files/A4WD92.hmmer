@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|A4WD92|SYH_ENT38  -            9.5e-48  162.9   0.0   1.2e-47  162.6   0.0   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|A4WD92|SYH_ENT38  -              1e-39  136.2   0.0     2e-39  135.3   0.0   1.5   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A4WD92|SYH_ENT38  -            1.1e-09   38.3   0.0   2.6e-09   37.0   0.0   1.6   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2          PF00152.19 sp|A4WD92|SYH_ENT38  -            0.00036   19.6   0.0     0.053   12.5   0.0   2.8   2   1   0   2   2   2   1 tRNA synthetases class II (D, K and N)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A4WD92.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A4WD92.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A4WD92.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:19:21 2019
+# [ok]

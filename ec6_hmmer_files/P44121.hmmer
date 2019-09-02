@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_OB_2      PF14743.5  sp|P44121|DNLI_HAEIN -            1.1e-26   92.5   0.4   1.8e-26   91.9   0.4   1.3   1   0   0   1   1   1   1 DNA ligase OB-like domain
+DNA_ligase_A_M       PF01068.20 sp|P44121|DNLI_HAEIN -            3.1e-11   43.2   0.0   6.5e-11   42.2   0.0   1.6   1   1   0   1   1   1   1 ATP dependent DNA ligase domain
+RNA_ligase           PF09414.9  sp|P44121|DNLI_HAEIN -            1.3e-07   31.9   0.1   9.3e-07   29.2   0.1   1.9   1   1   0   1   1   1   1 RNA ligase
+DUF3670              PF12419.7  sp|P44121|DNLI_HAEIN -               0.14   11.9   0.0      0.26   11.0   0.0   1.4   1   0   0   1   1   1   0 SNF2 Helicase protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P44121.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P44121.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P44121.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:28:41 2019
+# [ok]

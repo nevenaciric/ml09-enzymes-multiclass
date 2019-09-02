@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Adenylsucc_synt      PF00709.20 sp|Q2NCV0|PURA_ERYLH -           3.5e-166  553.2   0.0    4e-166  553.0   0.0   1.0   1   0   0   1   1   1   1 Adenylosuccinate synthetase
+MLD                  PF11647.7  sp|Q2NCV0|PURA_ERYLH -               0.25   11.6   0.4        31    4.8   0.0   3.3   3   1   0   3   3   3   0 Membrane Localization Domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2NCV0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2NCV0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2NCV0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:54:07 2019
+# [ok]

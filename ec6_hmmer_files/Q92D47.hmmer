@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q92D47|DLTA_LISIN -            2.6e-87  293.1   0.0   3.2e-87  292.7   0.0   1.1   1   0   0   1   1   1   1 AMP-binding enzyme
+AMP-binding_C        PF13193.5  sp|Q92D47|DLTA_LISIN -            6.3e-09   36.6   0.0   4.3e-08   33.9   0.0   2.3   2   0   0   2   2   2   1 AMP-binding enzyme C-terminal domain
+SRP_TPR_like         PF17004.4  sp|Q92D47|DLTA_LISIN -               0.14   12.1   0.1      0.57   10.1   0.1   1.9   2   0   0   2   2   2   0 Putative TPR-like repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q92D47.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q92D47.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q92D47.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:50:17 2019
+# [ok]

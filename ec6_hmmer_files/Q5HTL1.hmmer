@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GARS_A               PF01071.18 sp|Q5HTL1|PUR2_CAMJR -            1.6e-74  249.8   0.0   2.8e-74  249.0   0.0   1.4   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+GARS_N               PF02844.14 sp|Q5HTL1|PUR2_CAMJR -            2.1e-23   82.8   0.0   4.8e-23   81.7   0.0   1.7   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, N domain
+GARS_C               PF02843.15 sp|Q5HTL1|PUR2_CAMJR -            1.2e-22   79.8   0.1   2.9e-22   78.6   0.0   1.7   2   0   0   2   2   2   1 Phosphoribosylglycinamide synthetase, C domain
+CPSase_L_D2          PF02786.16 sp|Q5HTL1|PUR2_CAMJR -            1.7e-05   24.3   0.0   2.7e-05   23.6   0.0   1.4   1   0   0   1   1   1   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATP-grasp_3          PF02655.13 sp|Q5HTL1|PUR2_CAMJR -            1.8e-05   24.8   0.0   3.1e-05   24.0   0.0   1.4   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp            PF02222.21 sp|Q5HTL1|PUR2_CAMJR -            4.1e-05   23.1   0.0   7.1e-05   22.3   0.0   1.3   1   0   0   1   1   1   1 ATP-grasp domain
+RimK                 PF08443.10 sp|Q5HTL1|PUR2_CAMJR -             0.0023   17.5   0.0    0.0058   16.1   0.0   1.6   2   0   0   2   2   2   1 RimK-like ATP-grasp domain
+ATP-grasp_2          PF08442.9  sp|Q5HTL1|PUR2_CAMJR -             0.0054   16.2   0.0     0.011   15.2   0.0   1.4   1   0   0   1   1   1   1 ATP-grasp domain
+Corona_3             PF04694.11 sp|Q5HTL1|PUR2_CAMJR -              0.053   13.8   0.0      0.18   12.1   0.0   1.9   1   0   0   1   1   1   0 Coronavirus ORF3 protein
+ATPgrasp_ST          PF14397.5  sp|Q5HTL1|PUR2_CAMJR -              0.078   12.1   0.1      0.24   10.5   0.0   1.8   2   0   0   2   2   2   0 Sugar-transfer associated ATP-grasp
+Jag_N                PF14804.5  sp|Q5HTL1|PUR2_CAMJR -               0.16   12.3   1.1        20    5.5   0.1   2.6   2   0   0   2   2   2   0 Jag N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5HTL1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5HTL1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5HTL1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:13:16 2019
+# [ok]

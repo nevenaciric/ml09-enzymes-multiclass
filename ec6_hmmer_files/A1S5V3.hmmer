@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|A1S5V3|NADE_SHEAM -            2.2e-63  213.5   0.0   2.9e-63  213.1   0.0   1.1   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|A1S5V3|NADE_SHEAM -              0.019   13.7   0.0      0.15   10.8   0.0   2.1   2   0   0   2   2   2   0 tRNA methyl transferase
+ThiI                 PF02568.13 sp|A1S5V3|NADE_SHEAM -              0.038   13.5   0.0       8.8    5.8   0.0   2.2   2   0   0   2   2   2   0 Thiamine biosynthesis protein (ThiI)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A1S5V3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A1S5V3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A1S5V3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:10:32 2019
+# [ok]

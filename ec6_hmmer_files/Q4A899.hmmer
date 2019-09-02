@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|Q4A899|DNLJ_MYCH7 -            1.4e-89  300.3   2.7   3.4e-89  299.0   2.7   1.7   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|Q4A899|DNLJ_MYCH7 -            1.7e-21   75.8   0.0   3.3e-21   74.9   0.0   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+HHH_2                PF12826.6  sp|Q4A899|DNLJ_MYCH7 -            5.5e-13   48.7   0.0   3.6e-12   46.1   0.0   2.4   2   0   0   2   2   2   1 Helix-hairpin-helix motif
+BRCT                 PF00533.25 sp|Q4A899|DNLJ_MYCH7 -            4.4e-11   42.9   0.4   4.1e-10   39.8   0.0   2.7   2   0   0   2   2   2   1 BRCA1 C Terminus (BRCT) domain
+PTCB-BRCT            PF12738.6  sp|Q4A899|DNLJ_MYCH7 -            1.3e-07   31.4   0.0   2.9e-07   30.2   0.0   1.6   1   0   0   1   1   1   1 twin BRCT domain
+DNA_ligase_ZBD       PF03119.15 sp|Q4A899|DNLJ_MYCH7 -            2.1e-05   24.4   0.6   4.4e-05   23.3   0.6   1.6   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+zf-TFIIB             PF13453.5  sp|Q4A899|DNLJ_MYCH7 -               0.22   10.8   0.6       0.7    9.2   0.6   1.9   1   0   0   1   1   1   0 Transcription factor zinc-finger
+Sec8_exocyst         PF04048.13 sp|Q4A899|DNLJ_MYCH7 -               0.51   10.1   5.1      0.14   12.0   1.4   1.9   2   0   0   2   2   2   0 Sec8 exocyst complex component specific domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q4A899.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q4A899.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q4A899.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:06:05 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|O66522|SYH_AQUAE  -            4.5e-50  170.6   0.0   5.3e-50  170.3   0.0   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|O66522|SYH_AQUAE  -            2.5e-22   79.6   0.0     9e-22   77.8   0.0   1.9   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|O66522|SYH_AQUAE  -            8.4e-18   64.2   1.0   2.5e-17   62.7   0.5   2.1   2   0   0   2   2   2   1 Anticodon binding domain
+tRNA-synt_2d         PF01409.19 sp|O66522|SYH_AQUAE  -            0.00019   20.9   0.0   0.00089   18.7   0.0   1.9   2   0   0   2   2   2   1 tRNA synthetases class II core domain (F)
+FYVE_2               PF02318.15 sp|O66522|SYH_AQUAE  -            0.00088   19.4   1.9    0.0017   18.5   1.9   1.4   1   0   0   1   1   1   1 FYVE-type zinc finger
+tRNA-synt_2          PF00152.19 sp|O66522|SYH_AQUAE  -             0.0047   15.9   0.0     0.012   14.6   0.0   1.6   2   1   0   2   2   2   1 tRNA synthetases class II (D, K and N)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O66522.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O66522.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O66522.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:23:03 2019
+# [ok]

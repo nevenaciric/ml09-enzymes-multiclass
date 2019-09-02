@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|B2IB12|ACSA_BEII9 -            5.7e-90  301.8   0.1   6.8e-90  301.6   0.1   1.0   1   0   0   1   1   1   1 AMP-binding enzyme
+AMP-binding_C        PF13193.5  sp|B2IB12|ACSA_BEII9 -            3.9e-24   85.3   0.0   7.7e-24   84.4   0.0   1.5   1   0   0   1   1   1   1 AMP-binding enzyme C-terminal domain
+ACAS_N               PF16177.4  sp|B2IB12|ACSA_BEII9 -            3.5e-22   78.0   0.4   8.6e-22   76.7   0.4   1.7   1   0   0   1   1   1   1 Acetyl-coenzyme A synthetase N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2IB12.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2IB12.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2IB12.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:49:53 2019
+# [ok]

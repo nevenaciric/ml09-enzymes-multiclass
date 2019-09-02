@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|A8FL10|DNLJ_CAMJ8 -           2.2e-101  339.1   0.6  6.2e-101  337.5   0.2   1.9   2   0   0   2   2   2   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|A8FL10|DNLJ_CAMJ8 -            6.6e-31  105.9   1.3   1.3e-30  105.0   1.3   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+BRCT                 PF00533.25 sp|A8FL10|DNLJ_CAMJ8 -            5.5e-13   49.0   0.2   2.7e-12   46.8   0.1   2.2   2   0   0   2   2   2   1 BRCA1 C Terminus (BRCT) domain
+PTCB-BRCT            PF12738.6  sp|A8FL10|DNLJ_CAMJ8 -              3e-07   30.2   0.0   7.3e-07   28.9   0.0   1.6   1   0   0   1   1   1   1 twin BRCT domain
+HHH_2                PF12826.6  sp|A8FL10|DNLJ_CAMJ8 -            3.2e-07   30.2   0.1   2.9e-06   27.2   0.0   2.8   2   0   0   2   2   2   1 Helix-hairpin-helix motif
+HHH_5                PF14520.5  sp|A8FL10|DNLJ_CAMJ8 -             0.0015   19.0   0.2      0.07   13.6   0.0   3.5   5   0   0   5   5   5   1 Helix-hairpin-helix domain
+BRCT_2               PF16589.4  sp|A8FL10|DNLJ_CAMJ8 -             0.0029   17.9   0.1     0.013   15.8   0.0   2.1   2   0   0   2   2   2   1 BRCT domain, a BRCA1 C-terminus domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A8FL10.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A8FL10.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A8FL10.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:34:19 2019
+# [ok]

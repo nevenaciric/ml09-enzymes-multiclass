@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|A3NZL7|MURD_BURP0 -            3.6e-28   98.8   0.0   2.9e-27   95.8   0.0   2.0   1   1   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|A3NZL7|MURD_BURP0 -              2e-06   27.8   0.0     7e-06   26.1   0.0   2.0   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+DUF364               PF04016.11 sp|A3NZL7|MURD_BURP0 -             0.0065   15.9   0.0       2.8    7.4   0.0   2.5   2   0   0   2   2   2   2 Putative heavy-metal chelation
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A3NZL7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A3NZL7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A3NZL7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:15:57 2019
+# [ok]

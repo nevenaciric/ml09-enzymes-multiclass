@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|P40871|DHBE_BACSU -            1.1e-85  287.7   0.0   1.9e-85  286.9   0.0   1.4   2   0   0   2   2   2   1 AMP-binding enzyme
+AMP-binding_C        PF13193.5  sp|P40871|DHBE_BACSU -            1.3e-15   58.0   0.1     4e-15   56.4   0.0   1.9   2   0   0   2   2   2   1 AMP-binding enzyme C-terminal domain
+GH3                  PF03321.12 sp|P40871|DHBE_BACSU -               0.11   11.2   0.1        12    4.6   0.0   2.5   2   1   0   2   2   2   0 GH3 auxin-responsive promoter
+SAP                  PF02037.26 sp|P40871|DHBE_BACSU -               0.17   11.6   0.1      0.32   10.7   0.1   1.5   1   0   0   1   1   1   0 SAP domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P40871.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P40871.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P40871.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:28:21 2019
+# [ok]

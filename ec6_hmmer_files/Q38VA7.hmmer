@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q38VA7|NADE_LACSS -            7.3e-68  228.2   0.1   8.5e-68  228.0   0.1   1.0   1   0   0   1   1   1   1 NAD synthase
+End_tail_spike       PF12219.7  sp|Q38VA7|NADE_LACSS -               0.03   14.3   0.2      0.14   12.1   0.1   1.9   1   1   1   2   2   2   0 Catalytic domain of bacteriophage endosialidase
+ATP_bind_3           PF01171.19 sp|Q38VA7|NADE_LACSS -              0.032   13.9   0.0      0.05   13.2   0.0   1.4   1   0   0   1   1   1   0 PP-loop family
+QueC                 PF06508.12 sp|Q38VA7|NADE_LACSS -              0.092   12.1   0.4      0.29   10.5   0.2   2.0   2   1   0   2   2   2   0 Queuosine biosynthesis protein QueC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q38VA7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q38VA7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q38VA7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:58:17 2019
+# [ok]

@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|Q2RHW0|SYH_MOOTA  -            7.5e-51  173.1   0.0   9.7e-51  172.8   0.0   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|Q2RHW0|SYH_MOOTA  -            8.6e-22   77.9   0.0   3.2e-21   76.0   0.0   1.9   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q2RHW0|SYH_MOOTA  -            7.7e-13   48.3   0.1   1.7e-12   47.2   0.0   1.6   2   0   0   2   2   1   1 Anticodon binding domain
+tRNA-synt_2d         PF01409.19 sp|Q2RHW0|SYH_MOOTA  -            5.8e-05   22.6   0.1     0.032   13.6   0.0   2.2   2   0   0   2   2   2   2 tRNA synthetases class II core domain (F)
+zinc_ribbon_9        PF14369.5  sp|Q2RHW0|SYH_MOOTA  -               0.14   12.3   7.4       1.1    9.5   0.6   3.1   3   0   0   3   3   3   0 zinc-ribbon
+Glyco_hydro_30       PF02055.15 sp|Q2RHW0|SYH_MOOTA  -               0.17   10.7   0.0      0.27   10.1   0.0   1.2   1   0   0   1   1   1   0 Glycosyl hydrolase family 30 TIM-barrel domain
+IBR                  PF01485.20 sp|Q2RHW0|SYH_MOOTA  -                0.4   10.9   3.4       4.2    7.6   0.7   2.3   1   1   1   2   2   2   0 IBR domain, a half RING-finger domain
+DUF1272              PF06906.10 sp|Q2RHW0|SYH_MOOTA  -               0.64   10.1   7.8       1.3    9.1   0.4   2.6   3   0   0   3   3   2   0 Protein of unknown function (DUF1272)
+zf-UDP               PF14569.5  sp|Q2RHW0|SYH_MOOTA  -               0.67   10.0   5.7       6.3    6.9   0.7   2.3   1   1   1   2   2   2   0 Zinc-binding RING-finger
+zinc-ribbons_6       PF07191.11 sp|Q2RHW0|SYH_MOOTA  -                1.4    8.8   5.3         5    7.1   5.3   1.8   1   1   0   1   1   1   0 zinc-ribbons
+Anti-TRAP            PF15777.4  sp|Q2RHW0|SYH_MOOTA  -                4.5    7.2  10.1        11    6.0   0.8   3.1   1   1   2   3   3   3   0 Tryptophan RNA-binding attenuator protein inhibitory protein
+OrfB_Zn_ribbon       PF07282.10 sp|Q2RHW0|SYH_MOOTA  -                7.3    6.5   5.4        14    5.6   0.5   2.5   1   1   0   2   2   2   0 Putative transposase DNA-binding domain
+zf-TFIIB             PF13453.5  sp|Q2RHW0|SYH_MOOTA  -                9.2    5.6  10.7       4.7    6.5   4.3   3.2   1   1   1   2   2   2   0 Transcription factor zinc-finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2RHW0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2RHW0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2RHW0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:54:57 2019
+# [ok]

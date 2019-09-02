@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|B1L097|SYH_CLOBM  -            4.3e-48  164.1   0.0   7.4e-48  163.3   0.0   1.4   2   0   0   2   2   2   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|B1L097|SYH_CLOBM  -            1.6e-16   60.7   0.0     3e-16   59.8   0.0   1.5   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|B1L097|SYH_CLOBM  -            1.7e-14   53.7   0.8   3.7e-14   52.6   0.8   1.5   1   0   0   1   1   1   1 Anticodon binding domain
+DZR                  PF12773.6  sp|B1L097|SYH_CLOBM  -               0.95    9.4   5.3       4.8    7.2   5.3   2.1   1   1   0   1   1   1   0 Double zinc ribbon
+Zn-ribbon_8          PF09723.9  sp|B1L097|SYH_CLOBM  -                3.8    7.6  10.7       2.2    8.4   0.1   3.4   2   1   0   3   3   3   0 Zinc ribbon domain
+zinc-ribbons_6       PF07191.11 sp|B1L097|SYH_CLOBM  -                4.8    7.1   7.3        69    3.4   7.3   2.3   1   1   0   1   1   1   0 zinc-ribbons
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B1L097.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B1L097.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B1L097.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:46:13 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|Q11GT5|DNLJ_CHESB -             2e-120  401.6   0.0  2.9e-120  401.1   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|Q11GT5|DNLJ_CHESB -            2.3e-34  117.0   1.2   4.3e-34  116.2   1.2   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+HHH_2                PF12826.6  sp|Q11GT5|DNLJ_CHESB -            1.5e-13   50.5   0.3   2.3e-11   43.5   0.2   3.6   2   1   0   2   2   2   1 Helix-hairpin-helix motif
+BRCT                 PF00533.25 sp|Q11GT5|DNLJ_CHESB -            3.6e-12   46.4   0.0   7.4e-12   45.4   0.0   1.5   1   0   0   1   1   1   1 BRCA1 C Terminus (BRCT) domain
+PTCB-BRCT            PF12738.6  sp|Q11GT5|DNLJ_CHESB -            4.9e-05   23.1   0.0    0.0001   22.1   0.0   1.5   1   0   0   1   1   1   1 twin BRCT domain
+DNA_ligase_ZBD       PF03119.15 sp|Q11GT5|DNLJ_CHESB -              0.092   12.7   0.2      0.22   11.5   0.2   1.6   1   0   0   1   1   1   0 NAD-dependent DNA ligase C4 zinc finger domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q11GT5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q11GT5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q11GT5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:42:25 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q9KUQ0|SYY1_VIBCH -            1.1e-80  271.0   0.0   1.4e-80  270.6   0.0   1.0   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|Q9KUQ0|SYY1_VIBCH -              1e-09   37.8   0.0   2.6e-09   36.5   0.0   1.7   1   0   0   1   1   1   1 S4 domain
+Alph_Pro_TM          PF09608.9  sp|Q9KUQ0|SYY1_VIBCH -               0.13   12.0   0.0      0.23   11.2   0.0   1.3   1   0   0   1   1   1   0 Putative transmembrane protein (Alph_Pro_TM)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9KUQ0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9KUQ0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9KUQ0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:56:27 2019
+# [ok]

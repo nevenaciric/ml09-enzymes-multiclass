@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|Q11PQ4|SYE_CYTH3  -              3e-92  308.8   0.0   4.8e-91  304.8   0.0   2.2   1   1   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+FCD                  PF07729.11 sp|Q11PQ4|SYE_CYTH3  -              0.011   16.1   0.0     0.023   15.0   0.0   1.5   1   0   0   1   1   1   0 FCD domain
+Sec5                 PF15469.5  sp|Q11PQ4|SYE_CYTH3  -              0.038   13.7   0.1      0.06   13.0   0.1   1.3   1   0   0   1   1   1   0 Exocyst complex component Sec5
+HTH_Tnp_Tc3_2        PF01498.17 sp|Q11PQ4|SYE_CYTH3  -               0.15   12.2   0.1       1.7    8.8   0.1   2.7   3   0   0   3   3   3   0 Transposase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q11PQ4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q11PQ4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q11PQ4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:42:33 2019
+# [ok]

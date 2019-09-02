@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q74LL0|SYY_LACJO  -            3.8e-88  295.5   0.0   4.9e-88  295.1   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|Q74LL0|SYY_LACJO  -            1.5e-07   30.9   0.0     4e-07   29.5   0.0   1.7   1   0   0   1   1   1   1 S4 domain
+DUF2492              PF10678.8  sp|Q74LL0|SYY_LACJO  -              0.042   14.0   0.2      0.12   12.6   0.2   1.7   1   0   0   1   1   1   0 Protein of unknown function (DUF2492)
+NIBRIN_BRCT_II       PF16508.4  sp|Q74LL0|SYY_LACJO  -               0.11   12.7   0.0         8    6.7   0.0   2.5   2   0   0   2   2   2   0 Second BRCT domain on Nijmegen syndrome breakage protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q74LL0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q74LL0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q74LL0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:28:45 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+F420_ligase          PF01996.15 sp|A1KNR4|FBIB_MYCBP -            9.9e-43  146.1   0.3     1e-39  136.3   0.3   2.1   1   1   0   1   1   1   1 F420-0:Gamma-glutamyl ligase
+Nitroreductase       PF00881.23 sp|A1KNR4|FBIB_MYCBP -            9.7e-27   94.0   0.0   1.8e-26   93.1   0.0   1.5   1   0   0   1   1   1   1 Nitroreductase family
+TM1586_NiRdase       PF14512.5  sp|A1KNR4|FBIB_MYCBP -             0.0002   20.9   0.0    0.0074   15.8   0.0   2.2   2   0   0   2   2   2   1 Putative TM nitroreductase
+Phosphonate-bd       PF12974.6  sp|A1KNR4|FBIB_MYCBP -              0.033   13.7   0.4      0.87    9.0   0.2   2.3   1   1   1   2   2   2   0 ABC transporter, phosphonate, periplasmic substrate-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A1KNR4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A1KNR4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A1KNR4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:09:37 2019
+# [ok]

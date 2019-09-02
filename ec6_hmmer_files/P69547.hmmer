@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Phage_CRI            PF05144.13 sp|P69547|REP_BPM13  -           1.7e-106  355.4   0.0    2e-106  355.1   0.0   1.1   1   0   0   1   1   1   1 Phage replication protein CRI
+Phage_X              PF05155.14 sp|P69547|REP_BPM13  -            9.3e-34  115.6   0.0   2.4e-33  114.3   0.0   1.7   1   0   0   1   1   1   1 Phage X family
+HTH_psq              PF05225.15 sp|P69547|REP_BPM13  -              0.087   12.5   0.3      0.54    9.9   0.0   2.5   3   0   0   3   3   3   0 helix-turn-helix, Psq domain
+DnaG_DnaB_bind       PF08278.10 sp|P69547|REP_BPM13  -               0.11   13.0   0.1      0.18   12.3   0.1   1.3   1   0   0   1   1   1   0 DNA primase DnaG DnaB-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P69547.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P69547.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P69547.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:32:47 2019
+# [ok]

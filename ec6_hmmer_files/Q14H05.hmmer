@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP_bind_3           PF01171.19 sp|Q14H05|TILS_FRAT1 -            4.7e-50  169.8   0.1   1.2e-49  168.4   0.0   1.7   2   0   0   2   2   2   1 PP-loop family
+TilS                 PF09179.10 sp|Q14H05|TILS_FRAT1 -              2e-10   40.9   0.0   4.4e-10   39.8   0.0   1.6   1   0   0   1   1   1   1 TilS substrate binding domain
+TilS_C               PF11734.7  sp|Q14H05|TILS_FRAT1 -            1.7e-09   36.8   0.1   3.7e-09   35.8   0.1   1.6   1   0   0   1   1   1   1 TilS substrate C-terminal domain
+tRNA_Me_trans        PF03054.15 sp|Q14H05|TILS_FRAT1 -             0.0014   17.4   0.2     0.022   13.5   0.0   2.2   2   0   0   2   2   2   1 tRNA methyl transferase
+PAPS_reduct          PF01507.18 sp|Q14H05|TILS_FRAT1 -              0.023   14.7   0.1      0.12   12.3   0.0   2.3   2   1   0   2   2   2   0 Phosphoadenosine phosphosulfate reductase family
+NAD_synthase         PF02540.16 sp|Q14H05|TILS_FRAT1 -              0.025   13.6   0.0      0.05   12.6   0.0   1.6   1   0   0   1   1   1   0 NAD synthase
+MRP-S33              PF08293.10 sp|Q14H05|TILS_FRAT1 -              0.044   13.9   0.7       4.6    7.4   0.3   3.2   2   1   1   3   3   3   0 Mitochondrial ribosomal subunit S27
+DUF5328              PF17262.1  sp|Q14H05|TILS_FRAT1 -               0.41   10.5   5.9       0.1   12.4   1.9   2.0   2   0   0   2   2   2   0 Family of unknown function (DUF5328)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q14H05.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q14H05.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q14H05.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:43:39 2019
+# [ok]

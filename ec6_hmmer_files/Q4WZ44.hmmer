@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q4WZ44|NRPS7_ASPFU -             8e-154  512.2   0.0   1.6e-85  287.1   0.0   2.3   2   0   0   2   2   2   2 AMP-binding enzyme
+Condensation         PF00668.19 sp|Q4WZ44|NRPS7_ASPFU -            2.7e-66  224.1   0.0     2e-28   99.2   0.0   3.6   3   1   0   3   3   3   3 Condensation domain
+PP-binding           PF00550.24 sp|Q4WZ44|NRPS7_ASPFU -            7.8e-19   67.7   2.9   1.2e-08   35.1   0.0   2.8   2   0   0   2   2   2   2 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|Q4WZ44|NRPS7_ASPFU -              5e-08   33.7   0.4    0.0011   19.8   0.1   2.8   2   0   0   2   2   2   2 AMP-binding enzyme C-terminal domain
+O-FucT               PF10250.8  sp|Q4WZ44|NRPS7_ASPFU -               0.18   11.4   0.0      0.36   10.4   0.0   1.4   1   0   0   1   1   1   0 GDP-fucose protein O-fucosyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q4WZ44.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q4WZ44.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q4WZ44.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:08:45 2019
+# [ok]

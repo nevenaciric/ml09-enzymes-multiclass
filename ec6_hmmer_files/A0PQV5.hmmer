@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1e         PF01406.18 sp|A0PQV5|MSHC_MYCUA -            2.5e-81  273.3   0.0     3e-81  273.0   0.0   1.0   1   0   0   1   1   1   1 tRNA synthetases class I (C) catalytic domain
+tRNA-synt_1g         PF09334.10 sp|A0PQV5|MSHC_MYCUA -            6.1e-07   28.5   0.0    0.0052   15.5   0.0   2.1   2   0   0   2   2   2   2 tRNA synthetases class I (M)
+DALR_2               PF09190.10 sp|A0PQV5|MSHC_MYCUA -             0.0067   16.8   0.1      0.02   15.3   0.0   1.8   2   0   0   2   2   2   1 DALR domain
+tRNA-synt_1          PF00133.21 sp|A0PQV5|MSHC_MYCUA -              0.017   13.3   0.0     0.036   12.2   0.0   1.5   2   0   0   2   2   2   0 tRNA synthetases class I (I, L, M and V)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A0PQV5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A0PQV5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A0PQV5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:06:51 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QueC                 PF06508.12 sp|Q9KS93|QUEC_VIBCH -            1.1e-85  286.3   0.0   1.3e-85  286.1   0.0   1.0   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+Arginosuc_synth      PF00764.18 sp|Q9KS93|QUEC_VIBCH -            9.3e-05   21.8   0.1   0.00014   21.2   0.1   1.2   1   0   0   1   1   1   1 Arginosuccinate synthase
+NAD_synthase         PF02540.16 sp|Q9KS93|QUEC_VIBCH -            0.00012   21.2   0.1   0.00021   20.4   0.1   1.4   2   0   0   2   2   2   1 NAD synthase
+PAPS_reduct          PF01507.18 sp|Q9KS93|QUEC_VIBCH -            0.00079   19.4   0.1    0.0012   18.8   0.1   1.3   1   0   0   1   1   1   1 Phosphoadenosine phosphosulfate reductase family
+ATP_bind_3           PF01171.19 sp|Q9KS93|QUEC_VIBCH -            0.00097   18.8   0.1    0.0014   18.3   0.1   1.3   1   0   0   1   1   1   1 PP-loop family
+Asn_synthase         PF00733.20 sp|Q9KS93|QUEC_VIBCH -             0.0013   18.3   0.1    0.0018   17.9   0.1   1.1   1   0   0   1   1   1   1 Asparagine synthase
+Diphthami_syn_2      PF01902.16 sp|Q9KS93|QUEC_VIBCH -             0.0034   16.8   0.1    0.0048   16.3   0.1   1.2   1   0   0   1   1   1   1 Diphthamide synthase
+ThiI                 PF02568.13 sp|Q9KS93|QUEC_VIBCH -             0.0036   16.8   0.0     0.037   13.5   0.0   2.1   1   1   0   1   1   1   1 Thiamine biosynthesis protein (ThiI)
+DSBA                 PF01323.19 sp|Q9KS93|QUEC_VIBCH -              0.091   12.4   0.0      0.14   11.8   0.0   1.2   1   0   0   1   1   1   0 DSBA-like thioredoxin domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9KS93.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9KS93.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9KS93.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:56:18 2019
+# [ok]

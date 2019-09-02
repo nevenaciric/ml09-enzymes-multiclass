@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Dala_Dala_lig_C      PF07478.12 sp|Q2W0H0|DDL_MAGSA  -            1.8e-38  132.0   0.0   2.8e-38  131.4   0.0   1.3   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+Dala_Dala_lig_N      PF01820.20 sp|Q2W0H0|DDL_MAGSA  -            2.2e-20   72.9   0.0   1.1e-19   70.7   0.0   1.9   1   1   0   1   1   1   1 D-ala D-ala ligase N-terminus
+B12-binding          PF02310.18 sp|Q2W0H0|DDL_MAGSA  -            5.5e-07   29.5   0.2   2.5e-06   27.5   0.2   2.0   1   1   1   2   2   2   1 B12 binding domain
+ATP-grasp_3          PF02655.13 sp|Q2W0H0|DDL_MAGSA  -            0.00097   19.1   0.0    0.0017   18.3   0.0   1.4   1   1   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_4          PF13535.5  sp|Q2W0H0|DDL_MAGSA  -             0.0027   17.2   0.0      0.57    9.7   0.1   2.2   1   1   1   2   2   2   2 ATP-grasp domain
+GARS_A               PF01071.18 sp|Q2W0H0|DDL_MAGSA  -              0.065   12.9   0.0       0.7    9.5   0.0   2.4   2   1   0   2   2   2   0 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2W0H0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2W0H0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2W0H0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:56:01 2019
+# [ok]

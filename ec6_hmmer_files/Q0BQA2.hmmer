@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2e         PF02091.14 sp|Q0BQA2|SYGA_GRABC -           3.5e-143  475.8   0.0  4.1e-143  475.6   0.0   1.0   1   0   0   1   1   1   1 Glycyl-tRNA synthetase alpha subunit
+N-glycanase_C        PF09113.9  sp|Q0BQA2|SYGA_GRABC -             0.0024   17.6   0.0    0.0042   16.8   0.0   1.4   1   0   0   1   1   1   1 Peptide-N-glycosidase F, C terminal
+DUF1937              PF09152.9  sp|Q0BQA2|SYGA_GRABC -              0.082   13.7   0.0      0.13   13.0   0.0   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF1937)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q0BQA2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q0BQA2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q0BQA2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:39:12 2019
+# [ok]

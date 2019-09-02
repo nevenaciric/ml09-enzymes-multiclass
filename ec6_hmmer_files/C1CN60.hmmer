@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|C1CN60|SYD_STRZP  -           9.9e-106  353.3   0.0  1.2e-105  352.9   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+GAD                  PF02938.13 sp|C1CN60|SYD_STRZP  -            5.9e-25   87.2   0.5   1.8e-24   85.6   0.5   1.9   1   0   0   1   1   1   1 GAD domain
+tRNA_anti-codon      PF01336.24 sp|C1CN60|SYD_STRZP  -            8.3e-15   54.4   0.1     2e-14   53.2   0.1   1.7   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+tRNA-synt_2b         PF00587.24 sp|C1CN60|SYD_STRZP  -              0.008   16.1   0.0     0.019   14.9   0.0   1.8   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_2d         PF01409.19 sp|C1CN60|SYD_STRZP  -              0.071   12.5   0.1        14    5.0   0.0   2.5   2   0   0   2   2   2   0 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C1CN60.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C1CN60.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C1CN60.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:13:38 2019
+# [ok]

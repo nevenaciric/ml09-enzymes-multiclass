@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GSH-S_ATP            PF02955.15 sp|Q7VY62|GSHB_BORPE -            1.5e-73  245.8   0.0   1.9e-73  245.5   0.0   1.1   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, ATP-grasp domain
+GSH-S_N              PF02951.13 sp|Q7VY62|GSHB_BORPE -              2e-38  131.0   0.0   3.2e-38  130.4   0.0   1.3   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, N-terminal domain
+RimK                 PF08443.10 sp|Q7VY62|GSHB_BORPE -            1.2e-07   31.4   0.0   1.8e-07   30.9   0.0   1.2   1   0   0   1   1   1   1 RimK-like ATP-grasp domain
+ATPgrasp_YheCD       PF14398.5  sp|Q7VY62|GSHB_BORPE -             0.0031   16.7   0.0    0.0048   16.1   0.0   1.2   1   0   0   1   1   1   1 YheC/D like ATP-grasp
+ATPgrasp_ST          PF14397.5  sp|Q7VY62|GSHB_BORPE -               0.13   11.4   0.0      0.39    9.8   0.0   1.8   2   0   0   2   2   2   0 Sugar-transfer associated ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q7VY62.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q7VY62.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q7VY62.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:33:11 2019
+# [ok]

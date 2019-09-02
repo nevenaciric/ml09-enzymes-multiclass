@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pantoate_ligase      PF02569.14 sp|A0PXQ4|PANC_CLONN -           5.3e-108  360.2   0.0  6.3e-108  359.9   0.0   1.0   1   0   0   1   1   1   1 Pantoate-beta-alanine ligase
+Gp5_OB               PF06714.10 sp|A0PXQ4|PANC_CLONN -              0.011   15.8   0.0      0.17   12.0   0.0   2.2   2   0   0   2   2   2   0 Gp5 N-terminal OB domain
+FAD_syn              PF06574.11 sp|A0PXQ4|PANC_CLONN -              0.056   13.2   0.2      0.86    9.4   0.2   2.6   1   1   0   1   1   1   0 FAD synthetase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A0PXQ4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A0PXQ4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A0PXQ4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:06:56 2019
+# [ok]

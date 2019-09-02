@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|Q5X9E6|SYD_STRP6  -           1.7e-105  352.5   0.1  2.1e-105  352.2   0.1   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+GAD                  PF02938.13 sp|Q5X9E6|SYD_STRP6  -            7.2e-25   87.0   1.0   1.3e-24   86.2   0.3   1.8   2   0   0   2   2   2   1 GAD domain
+tRNA_anti-codon      PF01336.24 sp|Q5X9E6|SYD_STRP6  -            5.1e-16   58.3   0.1   1.2e-15   57.1   0.1   1.7   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+tRNA-synt_2b         PF00587.24 sp|Q5X9E6|SYD_STRP6  -            0.00095   19.1   0.0    0.0032   17.4   0.0   1.9   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+DUF4867              PF16161.4  sp|Q5X9E6|SYD_STRP6  -              0.061   12.7   0.0      0.24   10.8   0.0   1.8   2   0   0   2   2   2   0 Domain of unknown function (DUF4867)
+VRR_NUC              PF08774.10 sp|Q5X9E6|SYD_STRP6  -              0.068   13.1   0.0      0.18   11.8   0.0   1.7   1   0   0   1   1   1   0 VRR-NUC domain
+tRNA-synt_2d         PF01409.19 sp|Q5X9E6|SYD_STRP6  -              0.091   12.1   0.1        12    5.2   0.0   2.6   2   0   0   2   2   2   0 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5X9E6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5X9E6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5X9E6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:18:00 2019
+# [ok]

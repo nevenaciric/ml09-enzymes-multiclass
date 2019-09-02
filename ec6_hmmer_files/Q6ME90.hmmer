@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|Q6ME90|SYH_PARUW  -            2.3e-46  158.4   0.0   3.3e-46  157.9   0.0   1.2   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|Q6ME90|SYH_PARUW  -            1.9e-17   63.7   0.0   3.5e-17   62.9   0.0   1.5   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q6ME90|SYH_PARUW  -            4.7e-16   58.6   0.0   1.2e-15   57.3   0.0   1.8   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2          PF00152.19 sp|Q6ME90|SYH_PARUW  -            0.00056   19.0   1.7     0.067   12.2   0.2   3.0   2   1   0   2   2   2   2 tRNA synthetases class II (D, K and N)
+RasGAP               PF00616.18 sp|Q6ME90|SYH_PARUW  -              0.029   14.0   0.6     0.048   13.3   0.6   1.4   1   1   0   1   1   1   0 GTPase-activator protein for Ras-like GTPase
+Acyl_transf_2        PF02273.14 sp|Q6ME90|SYH_PARUW  -              0.073   12.2   0.0       1.4    7.9   0.0   2.1   2   0   0   2   2   2   0 Acyl transferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6ME90.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6ME90.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6ME90.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:25:39 2019
+# [ok]

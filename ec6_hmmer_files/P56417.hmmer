@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|P56417|SYY_HELPY  -            2.3e-82  276.5   0.1   2.9e-82  276.2   0.1   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|P56417|SYY_HELPY  -            7.8e-12   44.6   0.1   1.7e-11   43.6   0.1   1.6   1   0   0   1   1   1   1 S4 domain
+S4_2                 PF13275.5  sp|P56417|SYY_HELPY  -              0.043   13.6   0.2      0.17   11.6   0.1   2.0   2   0   0   2   2   2   0 S4 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P56417.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P56417.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P56417.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:30:02 2019
+# [ok]

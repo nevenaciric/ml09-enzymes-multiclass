@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|C6DBH3|SYH_PECCP  -            1.6e-46  158.9   0.0   2.1e-46  158.6   0.0   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|C6DBH3|SYH_PECCP  -              3e-37  128.2   0.0   1.8e-36  125.7   0.0   2.0   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|C6DBH3|SYH_PECCP  -              2e-10   40.6   0.0   4.1e-10   39.6   0.0   1.5   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2          PF00152.19 sp|C6DBH3|SYH_PECCP  -             0.0052   15.8   0.1       2.1    7.3   0.1   2.9   2   1   1   3   3   3   2 tRNA synthetases class II (D, K and N)
+DUF4581              PF15167.5  sp|C6DBH3|SYH_PECCP  -              0.017   15.3   0.0     0.034   14.3   0.0   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF4581)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C6DBH3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C6DBH3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C6DBH3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:19:20 2019
+# [ok]

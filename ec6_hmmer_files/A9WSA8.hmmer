@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CPSase_L_D2          PF02786.16 sp|A9WSA8|CARB_RENSM -           1.1e-100  335.3   0.0   8.5e-66  221.4   0.0   2.3   2   0   0   2   2   2   2 Carbamoyl-phosphate synthase L chain, ATP binding domain
+CPSase_L_D3          PF02787.18 sp|A9WSA8|CARB_RENSM -              3e-38  130.8   0.0   6.8e-38  129.6   0.0   1.6   1   0   0   1   1   1   1 Carbamoyl-phosphate synthetase large chain, oligomerisation domain
+MGS                  PF02142.21 sp|A9WSA8|CARB_RENSM -            1.7e-21   76.1   0.1   9.5e-21   73.7   0.1   2.4   2   0   0   2   2   2   1 MGS-like domain
+ATPgrasp_Ter         PF15632.5  sp|A9WSA8|CARB_RENSM -            2.1e-15   56.2   0.0   1.4e-05   23.9   0.1   4.3   4   0   0   4   4   4   4 ATP-grasp in the biosynthetic pathway with Ter operon
+Dala_Dala_lig_C      PF07478.12 sp|A9WSA8|CARB_RENSM -            2.1e-12   46.9   0.0   1.5e-05   24.5   0.0   2.4   2   0   0   2   2   2   2 D-ala D-ala ligase C-terminus
+ATP-grasp            PF02222.21 sp|A9WSA8|CARB_RENSM -            6.9e-08   32.2   0.0      0.01   15.3   0.0   2.4   2   0   0   2   2   2   2 ATP-grasp domain
+ATP-grasp_4          PF13535.5  sp|A9WSA8|CARB_RENSM -            0.00016   21.2   0.2     0.011   15.2   0.0   3.6   4   2   0   4   4   4   1 ATP-grasp domain
+ATP-grasp_3          PF02655.13 sp|A9WSA8|CARB_RENSM -            0.00017   21.6   0.0       0.1   12.5   0.0   2.7   2   0   0   2   2   2   2 ATP-grasp domain
+CoA_binding_2        PF13380.5  sp|A9WSA8|CARB_RENSM -              0.011   16.2   0.1      0.17   12.3   0.0   2.8   2   1   0   2   2   2   0 CoA binding domain
+AP_endonuc_2         PF01261.23 sp|A9WSA8|CARB_RENSM -               0.07   12.4   0.2      0.74    9.1   0.0   2.8   2   1   0   2   2   2   0 Xylose isomerase-like TIM barrel
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A9WSA8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A9WSA8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A9WSA8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:40:31 2019
+# [ok]

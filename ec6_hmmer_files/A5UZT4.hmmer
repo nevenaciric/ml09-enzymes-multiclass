@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|A5UZT4|MURD_ROSS1 -            1.2e-30  106.9   0.0   1.5e-30  106.5   0.0   1.1   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|A5UZT4|MURD_ROSS1 -            3.1e-10   40.0   0.1   8.1e-09   35.5   0.1   2.6   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+SRP54                PF00448.21 sp|A5UZT4|MURD_ROSS1 -               0.02   14.4   0.0     0.044   13.3   0.0   1.5   1   0   0   1   1   1   0 SRP54-type protein, GTPase domain
+AdoHcyase_NAD        PF00670.20 sp|A5UZT4|MURD_ROSS1 -              0.055   13.4   0.0     0.099   12.6   0.0   1.4   1   0   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A5UZT4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A5UZT4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A5UZT4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:24:05 2019
+# [ok]

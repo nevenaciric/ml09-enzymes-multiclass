@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase               PF00117.27 sp|A7I661|GUAAA_METB6 -            2.4e-31  108.9   0.0   2.9e-31  108.6   0.0   1.0   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|A7I661|GUAAA_METB6 -              6e-10   39.1   0.3   5.1e-08   32.8   0.2   2.8   1   1   1   2   2   2   1 Peptidase C26
+GATase_3             PF07685.13 sp|A7I661|GUAAA_METB6 -               0.23   10.9   0.4       2.3    7.6   0.4   2.1   1   1   0   1   1   1   0 CobB/CobQ-like glutamine amidotransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A7I661.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A7I661.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A7I661.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:31:00 2019
+# [ok]

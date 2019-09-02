@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q988H0|NADE_RHILO -            3.1e-49  167.2   0.2   9.8e-27   93.5   0.1   2.0   2   0   0   2   2   2   2 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|Q988H0|NADE_RHILO -            9.6e-06   24.5   0.1   0.00033   19.5   0.0   2.1   2   0   0   2   2   2   1 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|Q988H0|NADE_RHILO -              0.001   18.7   0.0    0.0017   18.0   0.0   1.4   1   0   0   1   1   1   1 Asparagine synthase
+QueC                 PF06508.12 sp|Q988H0|NADE_RHILO -             0.0047   16.4   0.0     0.092   12.1   0.0   2.3   2   0   0   2   2   2   1 Queuosine biosynthesis protein QueC
+PAPS_reduct          PF01507.18 sp|Q988H0|NADE_RHILO -              0.041   13.8   0.0       1.4    8.8   0.0   2.3   2   0   0   2   2   2   0 Phosphoadenosine phosphosulfate reductase family
+LBP_M                PF17385.1  sp|Q988H0|NADE_RHILO -               0.17   11.3   0.0      0.27   10.7   0.0   1.3   1   0   0   1   1   1   0 Lacto-N-biose phosphorylase central domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q988H0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q988H0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q988H0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:52:15 2019
+# [ok]

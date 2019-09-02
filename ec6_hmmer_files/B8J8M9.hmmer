@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|B8J8M9|SYS_ANAD2  -            5.6e-34  117.6   0.0   8.5e-34  117.0   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+Seryl_tRNA_N         PF02403.21 sp|B8J8M9|SYS_ANAD2  -            4.4e-15   55.7   1.0   7.5e-15   55.0   1.0   1.4   1   0   0   1   1   1   1 Seryl-tRNA synthetase N-terminal domain
+Spc7                 PF08317.10 sp|B8J8M9|SYS_ANAD2  -               0.13   11.0   1.6       0.2   10.4   1.6   1.2   1   0   0   1   1   1   0 Spc7 kinetochore protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B8J8M9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B8J8M9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B8J8M9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:08:31 2019
+# [ok]

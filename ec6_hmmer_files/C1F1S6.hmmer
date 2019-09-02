@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CPSase_L_D2          PF02786.16 sp|C1F1S6|CARB_ACIC5 -           1.9e-110  367.2   0.0   6.2e-71  238.1   0.0   2.3   2   0   0   2   2   2   2 Carbamoyl-phosphate synthase L chain, ATP binding domain
+CPSase_L_D3          PF02787.18 sp|C1F1S6|CARB_ACIC5 -            9.6e-38  129.2   0.0     5e-37  126.9   0.0   2.3   2   0   0   2   2   2   1 Carbamoyl-phosphate synthetase large chain, oligomerisation domain
+MGS                  PF02142.21 sp|C1F1S6|CARB_ACIC5 -            4.1e-20   71.7   0.1   4.6e-19   68.3   0.1   2.8   3   0   0   3   3   3   1 MGS-like domain
+ATPgrasp_Ter         PF15632.5  sp|C1F1S6|CARB_ACIC5 -            1.2e-18   66.9   0.0   5.3e-11   41.7   0.0   4.0   3   1   0   3   3   3   3 ATP-grasp in the biosynthetic pathway with Ter operon
+ATP-grasp            PF02222.21 sp|C1F1S6|CARB_ACIC5 -            2.6e-11   43.3   0.0   5.2e-06   26.0   0.0   2.5   2   0   0   2   2   2   2 ATP-grasp domain
+ATP-grasp_3          PF02655.13 sp|C1F1S6|CARB_ACIC5 -            6.1e-09   36.0   0.0   1.3e-06   28.5   0.0   2.5   2   0   0   2   2   2   1 ATP-grasp domain
+Dala_Dala_lig_C      PF07478.12 sp|C1F1S6|CARB_ACIC5 -            5.4e-08   32.5   0.0    0.0015   18.0   0.0   2.4   2   0   0   2   2   2   2 D-ala D-ala ligase C-terminus
+GARS_A               PF01071.18 sp|C1F1S6|CARB_ACIC5 -            2.8e-07   30.4   0.0   3.4e-05   23.6   0.0   2.5   2   0   0   2   2   2   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+ATP-grasp_5          PF13549.5  sp|C1F1S6|CARB_ACIC5 -             0.0009   18.7   0.0     0.042   13.2   0.0   2.4   2   0   0   2   2   2   1 ATP-grasp domain
+CoA_binding_2        PF13380.5  sp|C1F1S6|CARB_ACIC5 -              0.071   13.5   0.0      0.52   10.7   0.0   2.5   1   0   0   1   1   1   0 CoA binding domain
+DUF4176              PF13780.5  sp|C1F1S6|CARB_ACIC5 -               0.14   12.1   0.0        26    4.9   0.0   2.7   2   0   0   2   2   2   0 Domain of unknown function (DUF4176)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C1F1S6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C1F1S6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C1F1S6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:14:30 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q8VM67|DLTA_STRA3 -            4.2e-81  272.6   0.0   4.9e-81  272.4   0.0   1.1   1   0   0   1   1   1   1 AMP-binding enzyme
+AMP-binding_C        PF13193.5  sp|Q8VM67|DLTA_STRA3 -            2.4e-08   34.8   0.0   1.1e-07   32.7   0.0   2.1   2   0   0   2   2   2   1 AMP-binding enzyme C-terminal domain
+P120R                PF08062.10 sp|Q8VM67|DLTA_STRA3 -              0.042   14.1   0.2      0.08   13.2   0.2   1.4   1   0   0   1   1   1   0 P120R (NUC006) repeat
+AA_synth             PF06684.10 sp|Q8VM67|DLTA_STRA3 -               0.11   11.9   0.0      0.91    8.9   0.0   2.0   2   0   0   2   2   2   0 Amino acid synthesis
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8VM67.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8VM67.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8VM67.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:47:16 2019
+# [ok]

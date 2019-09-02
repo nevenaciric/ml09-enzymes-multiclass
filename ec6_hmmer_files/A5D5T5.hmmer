@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pantoate_ligase      PF02569.14 sp|A5D5T5|PANC_PELTS -           1.1e-107  359.1   0.0  1.3e-107  358.9   0.0   1.0   1   0   0   1   1   1   1 Pantoate-beta-alanine ligase
+ATP-sulfurylase      PF01747.16 sp|A5D5T5|PANC_PELTS -              0.012   15.0   0.0     0.023   14.1   0.0   1.4   1   0   0   1   1   1   0 ATP-sulfurylase
+CTP_transf_like      PF01467.25 sp|A5D5T5|PANC_PELTS -               0.12   12.5   0.0      0.25   11.4   0.0   1.5   1   0   0   1   1   1   0 Cytidylyltransferase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A5D5T5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A5D5T5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A5D5T5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:21:01 2019
+# [ok]

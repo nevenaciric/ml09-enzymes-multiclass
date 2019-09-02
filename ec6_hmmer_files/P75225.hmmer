@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|P75225|SYT_MYCPN  -            1.5e-30  106.4   0.1   5.9e-30  104.5   0.1   2.0   2   0   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|P75225|SYT_MYCPN  -            5.7e-19   68.0   1.8   1.6e-18   66.5   1.8   1.8   1   0   0   1   1   1   1 Anticodon binding domain
+HSL_N                PF06350.11 sp|P75225|SYT_MYCPN  -              0.016   14.1   0.2     0.048   12.6   0.0   1.8   2   0   0   2   2   2   0 Hormone-sensitive lipase (HSL) N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P75225.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P75225.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P75225.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:33:07 2019
+# [ok]

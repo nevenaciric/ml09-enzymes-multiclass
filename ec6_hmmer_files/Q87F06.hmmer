@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q87F06|SYY_XYLFT  -            3.2e-69  233.4   0.0   4.1e-69  233.0   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|Q87F06|SYY_XYLFT  -            4.5e-05   23.0   0.0   8.4e-05   22.1   0.0   1.5   1   0   0   1   1   1   1 S4 domain
+Glu-tRNAGln          PF02686.14 sp|Q87F06|SYY_XYLFT  -              0.059   13.6   0.0       1.2    9.4   0.0   2.6   2   1   0   2   2   2   0 Glu-tRNAGln amidotransferase C subunit
+tRNA-synt_1          PF00133.21 sp|Q87F06|SYY_XYLFT  -               0.09   10.9   0.0      0.29    9.2   0.0   1.7   2   0   0   2   2   2   0 tRNA synthetases class I (I, L, M and V)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q87F06.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q87F06.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q87F06.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:36:49 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FTHFS                PF01268.18 sp|A0PXN0|FTHS_CLONN -             6e-277  919.2   5.4  6.7e-277  919.1   5.4   1.0   1   0   0   1   1   1   1 Formate--tetrahydrofolate ligase
+ATP_bind_1           PF03029.16 sp|A0PXN0|FTHS_CLONN -              0.004   16.9   0.1      0.77    9.4   0.0   2.8   3   0   0   3   3   3   2 Conserved hypothetical ATP binding protein
+CbiA                 PF01656.22 sp|A0PXN0|FTHS_CLONN -              0.012   15.5   0.0      0.11   12.5   0.0   2.3   1   1   0   1   1   1   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A0PXN0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A0PXN0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A0PXN0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:06:55 2019
+# [ok]

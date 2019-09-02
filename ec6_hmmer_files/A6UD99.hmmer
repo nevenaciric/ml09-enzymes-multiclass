@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|A6UD99|SYE_SINMW  -           2.1e-120  401.3   0.0  2.6e-120  400.9   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+HTH_37               PF13744.5  sp|A6UD99|SYE_SINMW  -             0.0045   16.8   0.1     0.045   13.6   0.0   2.6   3   0   0   3   3   3   1 Helix-turn-helix domain
+Imm-NTF2             PF15655.5  sp|A6UD99|SYE_SINMW  -               0.12   12.6   0.0      0.28   11.3   0.0   1.6   1   0   0   1   1   1   0 NTF2 fold immunity protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A6UD99.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A6UD99.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A6UD99.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:27:20 2019
+# [ok]

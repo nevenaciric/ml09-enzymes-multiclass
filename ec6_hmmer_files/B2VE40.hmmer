@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|B2VE40|DNLJ_ERWT9 -           2.7e-138  460.3   0.0  3.8e-138  459.8   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|B2VE40|DNLJ_ERWT9 -            4.5e-34  116.1   2.4   4.5e-34  116.1   2.4   2.9   3   0   0   3   3   3   1 NAD-dependent DNA ligase OB-fold domain
+HHH_2                PF12826.6  sp|B2VE40|DNLJ_ERWT9 -            2.1e-24   85.3   0.4   2.6e-21   75.4   0.2   2.9   2   0   0   2   2   2   2 Helix-hairpin-helix motif
+HHH_5                PF14520.5  sp|B2VE40|DNLJ_ERWT9 -            5.6e-17   62.0   0.3   1.6e-08   34.9   0.0   2.6   2   0   0   2   2   2   2 Helix-hairpin-helix domain
+BRCT                 PF00533.25 sp|B2VE40|DNLJ_ERWT9 -            4.7e-14   52.4   0.0   1.2e-13   51.2   0.0   1.6   1   0   0   1   1   1   1 BRCA1 C Terminus (BRCT) domain
+DNA_ligase_ZBD       PF03119.15 sp|B2VE40|DNLJ_ERWT9 -            2.6e-11   43.3   4.8   6.3e-11   42.0   4.8   1.7   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+PTCB-BRCT            PF12738.6  sp|B2VE40|DNLJ_ERWT9 -            5.3e-06   26.2   0.0   1.8e-05   24.5   0.0   1.9   1   0   0   1   1   1   1 twin BRCT domain
+HHH                  PF00633.22 sp|B2VE40|DNLJ_ERWT9 -            5.4e-05   22.8   0.0    0.0012   18.5   0.0   3.1   4   0   0   4   4   4   1 Helix-hairpin-helix motif
+5_3_exonuc           PF01367.19 sp|B2VE40|DNLJ_ERWT9 -              0.016   15.7   0.1     0.091   13.3   0.0   2.2   2   0   0   2   2   2   0 5'-3' exonuclease, C-terminal SAM fold
+Zn-ribbon_8          PF09723.9  sp|B2VE40|DNLJ_ERWT9 -               0.11   12.5   0.1      0.27   11.3   0.1   1.6   1   0   0   1   1   1   0 Zinc ribbon domain
+zf-NADH-PPase        PF09297.10 sp|B2VE40|DNLJ_ERWT9 -               0.21   11.2   2.5      0.45   10.1   2.5   1.6   1   0   0   1   1   1   0 NADH pyrophosphatase zinc ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2VE40.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2VE40.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2VE40.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:52:36 2019
+# [ok]

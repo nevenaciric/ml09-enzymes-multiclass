@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|C6A5B5|NADE_THESM -            8.4e-90  300.0   0.1   9.5e-90  299.8   0.1   1.0   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|C6A5B5|NADE_THESM -              1e-06   27.7   0.2   4.2e-05   22.4   0.2   3.0   3   1   0   3   3   3   1 tRNA methyl transferase
+QueC                 PF06508.12 sp|C6A5B5|NADE_THESM -            3.4e-06   26.6   0.0   0.00078   18.9   0.0   2.2   2   0   0   2   2   2   2 Queuosine biosynthesis protein QueC
+Asn_synthase         PF00733.20 sp|C6A5B5|NADE_THESM -              0.022   14.3   0.0     0.022   14.3   0.0   1.2   1   0   0   1   1   1   0 Asparagine synthase
+ATP_bind_3           PF01171.19 sp|C6A5B5|NADE_THESM -              0.035   13.8   0.0     0.079   12.6   0.0   1.7   1   1   0   1   1   1   0 PP-loop family
+ThiI                 PF02568.13 sp|C6A5B5|NADE_THESM -              0.082   12.4   0.2         2    7.9   0.1   2.3   2   0   0   2   2   2   0 Thiamine biosynthesis protein (ThiI)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C6A5B5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C6A5B5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C6A5B5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:19:11 2019
+# [ok]

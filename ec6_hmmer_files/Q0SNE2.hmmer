@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HGTP_anticodon       PF03129.19 sp|Q0SNE2|SYG_BORAP  -            5.4e-22   77.7   0.2   1.1e-21   76.7   0.2   1.5   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2b         PF00587.24 sp|Q0SNE2|SYG_BORAP  -            9.1e-08   32.2   0.2   1.4e-07   31.6   0.2   1.5   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+zinc_ribbon_6        PF14599.5  sp|Q0SNE2|SYG_BORAP  -               0.11   12.4   1.5      0.28   11.1   1.5   1.6   1   0   0   1   1   1   0 Zinc-ribbon
+HypA                 PF01155.18 sp|Q0SNE2|SYG_BORAP  -               0.17   11.8   0.2      0.39   10.6   0.2   1.5   1   0   0   1   1   1   0 Hydrogenase/urease nickel incorporation, metallochaperone, hypA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q0SNE2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q0SNE2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q0SNE2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:40:55 2019
+# [ok]

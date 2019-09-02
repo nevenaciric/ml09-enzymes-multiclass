@@ -1,0 +1,18 @@
+#                                                                   --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name               accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------     -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|A0A319A6V2|MLFA_ASPLB -                  0 1010.6   0.0   2.9e-79  266.5   0.0   4.3   4   0   0   4   4   4   4 AMP-binding enzyme
+Condensation         PF00668.19 sp|A0A319A6V2|MLFA_ASPLB -           1.2e-208  693.3   0.0   4.4e-50  170.6   0.5   7.7   6   2   0   6   6   6   5 Condensation domain
+PP-binding           PF00550.24 sp|A0A319A6V2|MLFA_ASPLB -              3e-52  174.7   1.7     1e-13   51.3   0.1   4.9   4   0   0   4   4   4   4 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|A0A319A6V2|MLFA_ASPLB -            1.5e-07   32.1   0.1       2.4    9.1   0.0   5.9   5   0   0   5   5   5   1 AMP-binding enzyme C-terminal domain
+GH3                  PF03321.12 sp|A0A319A6V2|MLFA_ASPLB -            0.00023   20.0   1.7         1    8.0   0.0   4.9   6   0   0   6   6   6   2 GH3 auxin-responsive promoter
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A0A319A6V2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A0A319A6V2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A0A319A6V2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:05:07 2019
+# [ok]

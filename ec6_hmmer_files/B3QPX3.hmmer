@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ProRS-C_1            PF09180.10 sp|B3QPX3|SYP_CHLP8  -            7.3e-21   74.1   0.2   1.8e-20   72.8   0.2   1.7   1   0   0   1   1   1   1 Prolyl-tRNA synthetase, C-terminal
+tRNA-synt_2b         PF00587.24 sp|B3QPX3|SYP_CHLP8  -            1.1e-17   64.5   0.0   2.3e-17   63.4   0.0   1.5   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|B3QPX3|SYP_CHLP8  -            2.1e-17   62.9   0.1   4.9e-17   61.8   0.1   1.7   1   0   0   1   1   1   1 Anticodon binding domain
+Duffy_binding        PF05424.10 sp|B3QPX3|SYP_CHLP8  -              0.073   13.0   1.5      0.12   12.3   0.8   1.7   2   0   0   2   2   2   0 Duffy binding domain
+CbiG_N               PF11760.7  sp|B3QPX3|SYP_CHLP8  -               0.12   12.3   0.0      0.42   10.5   0.0   1.9   2   0   0   2   2   2   0 Cobalamin synthesis G N-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B3QPX3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B3QPX3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B3QPX3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:54:20 2019
+# [ok]

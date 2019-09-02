@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q21SW7|MURD_RHOFT -            1.1e-25   90.7   0.0   4.4e-25   88.7   0.0   1.9   1   1   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q21SW7|MURD_RHOFT -            2.9e-06   27.3   0.0   9.1e-06   25.7   0.0   1.9   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+AlaDh_PNT_C          PF01262.20 sp|Q21SW7|MURD_RHOFT -             0.0047   16.2   0.1    0.0083   15.3   0.1   1.4   1   0   0   1   1   1   1 Alanine dehydrogenase/PNT, C-terminal domain
+2-Hacid_dh_C         PF02826.18 sp|Q21SW7|MURD_RHOFT -             0.0058   15.9   0.0     0.013   14.8   0.0   1.6   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Sacchrp_dh_NADP      PF03435.17 sp|Q21SW7|MURD_RHOFT -              0.013   15.7   0.1      0.88    9.7   0.0   2.5   2   0   0   2   2   2   0 Saccharopine dehydrogenase NADP binding domain
+XdhC_C               PF13478.5  sp|Q21SW7|MURD_RHOFT -              0.014   15.8   0.5     0.088   13.2   0.0   2.5   2   0   0   2   2   2   0 XdhC Rossmann domain
+NAD_binding_7        PF13241.5  sp|Q21SW7|MURD_RHOFT -              0.028   14.8   0.0     0.057   13.8   0.0   1.5   1   0   0   1   1   1   0 Putative NAD(P)-binding
+ThiF                 PF00899.20 sp|Q21SW7|MURD_RHOFT -              0.061   12.6   0.1      0.12   11.6   0.1   1.4   1   0   0   1   1   1   0 ThiF family
+NAD_binding_8        PF13450.5  sp|Q21SW7|MURD_RHOFT -              0.072   13.2   0.1      0.64   10.2   0.1   2.5   2   0   0   2   2   2   0 NAD(P)-binding Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q21SW7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q21SW7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q21SW7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:50:22 2019
+# [ok]

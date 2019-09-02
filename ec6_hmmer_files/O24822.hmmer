@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|O24822|SYDND_HALVO -            3.7e-79  266.0   0.0   4.4e-79  265.7   0.0   1.0   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+tRNA_anti-codon      PF01336.24 sp|O24822|SYDND_HALVO -            5.7e-14   51.8   0.2   9.8e-14   51.0   0.2   1.4   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+tRNA-synt_2d         PF01409.19 sp|O24822|SYDND_HALVO -              0.018   14.5   0.2      0.13   11.7   0.1   2.2   2   0   0   2   2   2   0 tRNA synthetases class II core domain (F)
+BOF                  PF04076.12 sp|O24822|SYDND_HALVO -              0.052   13.5   0.1      0.12   12.4   0.1   1.6   1   0   0   1   1   1   0 Bacterial OB fold (BOF) protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O24822.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O24822.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O24822.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:21:24 2019
+# [ok]

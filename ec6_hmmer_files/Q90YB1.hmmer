@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|Q90YB1|DNLI4_CHICK -            1.7e-55  187.8   0.4   3.2e-55  186.9   0.4   1.5   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|Q90YB1|DNLI4_CHICK -            4.8e-42  144.1   0.2     1e-41  143.0   0.2   1.6   1   0   0   1   1   1   1 DNA ligase N terminus
+DNA_ligase_A_C       PF04679.14 sp|Q90YB1|DNLI4_CHICK -            7.4e-19   68.1   0.0   4.2e-18   65.7   0.0   2.3   2   0   0   2   2   2   1 ATP dependent DNA ligase C terminal region
+DNA_ligase_IV        PF11411.7  sp|Q90YB1|DNLI4_CHICK -            1.9e-18   66.2   0.9   4.5e-18   64.9   0.9   1.7   1   0   0   1   1   1   1 DNA ligase IV
+BRCT                 PF00533.25 sp|Q90YB1|DNLI4_CHICK -            1.8e-15   57.0   0.0   8.5e-10   38.8   0.0   3.5   3   0   0   3   3   3   2 BRCA1 C Terminus (BRCT) domain
+BRCT_2               PF16589.4  sp|Q90YB1|DNLI4_CHICK -              6e-13   48.9   0.0   7.8e-10   38.9   0.0   2.8   2   0   0   2   2   2   2 BRCT domain, a BRCA1 C-terminus domain
+RNA_ligase           PF09414.9  sp|Q90YB1|DNLI4_CHICK -            2.1e-11   44.3   0.2   7.8e-11   42.4   0.1   2.0   2   0   0   2   2   2   1 RNA ligase
+mRNA_cap_enzyme      PF01331.18 sp|Q90YB1|DNLI4_CHICK -             0.0039   16.9   1.1     0.054   13.2   1.1   2.3   1   1   0   1   1   1   1 mRNA capping enzyme, catalytic domain
+SKA1                 PF07160.11 sp|Q90YB1|DNLI4_CHICK -              0.071   12.8   2.2     0.081   12.7   0.6   1.9   2   0   0   2   2   2   0 Spindle and kinetochore-associated protein 1
+DUF2922              PF11148.7  sp|Q90YB1|DNLI4_CHICK -              0.088   12.5   0.0      0.53   10.0   0.0   2.4   2   0   0   2   2   2   0 Protein of unknown function (DUF2922)
+APG17                PF04108.11 sp|Q90YB1|DNLI4_CHICK -                0.1   11.6   0.5      0.22   10.5   0.5   1.5   1   0   0   1   1   1   0 Autophagy protein Apg17
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q90YB1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q90YB1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q90YB1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:49:55 2019
+# [ok]

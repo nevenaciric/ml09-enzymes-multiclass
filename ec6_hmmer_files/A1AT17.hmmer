@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase_3             PF07685.13 sp|A1AT17|CBIA_PELPD -            8.9e-33  113.4   0.0   1.5e-32  112.7   0.0   1.4   1   0   0   1   1   1   1 CobB/CobQ-like glutamine amidotransferase domain
+CbiA                 PF01656.22 sp|A1AT17|CBIA_PELPD -            1.2e-17   64.1   0.0   1.7e-17   63.6   0.0   1.2   1   0   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+AAA_26               PF13500.5  sp|A1AT17|CBIA_PELPD -            1.8e-13   50.7   0.0     2e-08   34.2   0.0   2.1   2   0   0   2   2   2   2 AAA domain
+Fer4_NifH            PF00142.17 sp|A1AT17|CBIA_PELPD -              0.035   13.4   0.1      0.16   11.3   0.0   1.8   1   1   1   2   2   2   0 4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+MobB                 PF03205.13 sp|A1AT17|CBIA_PELPD -               0.18   11.6   0.0      0.32   10.8   0.0   1.4   1   0   0   1   1   1   0 Molybdopterin guanine dinucleotide synthesis protein B
+MipZ                 PF09140.10 sp|A1AT17|CBIA_PELPD -               0.22   10.7   0.0      0.34   10.1   0.0   1.2   1   0   0   1   1   1   0 ATPase MipZ
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A1AT17.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A1AT17.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A1AT17.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:08:26 2019
+# [ok]

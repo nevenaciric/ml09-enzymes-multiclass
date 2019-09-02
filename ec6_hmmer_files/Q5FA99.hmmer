@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QueC                 PF06508.12 sp|Q5FA99|QUEC_NEIG1 -            1.6e-77  259.7   0.1   1.8e-77  259.5   0.1   1.0   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+NAD_synthase         PF02540.16 sp|Q5FA99|QUEC_NEIG1 -            9.7e-06   24.8   0.0   4.2e-05   22.7   0.1   1.8   2   0   0   2   2   2   1 NAD synthase
+Asn_synthase         PF00733.20 sp|Q5FA99|QUEC_NEIG1 -             0.0061   16.2   0.0    0.0074   15.9   0.0   1.1   1   0   0   1   1   1   1 Asparagine synthase
+ATP_bind_3           PF01171.19 sp|Q5FA99|QUEC_NEIG1 -              0.014   15.0   0.0     0.071   12.8   0.0   1.9   2   0   0   2   2   2   0 PP-loop family
+Diphthami_syn_2      PF01902.16 sp|Q5FA99|QUEC_NEIG1 -               0.16   11.4   0.0      0.48    9.8   0.0   1.7   1   1   1   2   2   2   0 Diphthamide synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5FA99.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5FA99.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5FA99.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:11:25 2019
+# [ok]

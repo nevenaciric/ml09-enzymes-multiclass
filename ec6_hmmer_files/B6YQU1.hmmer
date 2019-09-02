@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1e         PF01406.18 sp|B6YQU1|SYC_AZOPC  -           5.8e-101  337.7   0.3    1e-100  336.9   0.3   1.4   1   0   0   1   1   1   1 tRNA synthetases class I (C) catalytic domain
+tRNA-synt_1g         PF09334.10 sp|B6YQU1|SYC_AZOPC  -            1.5e-10   40.3   0.3     2e-05   23.4   0.0   2.3   2   0   0   2   2   2   2 tRNA synthetases class I (M)
+DALR_2               PF09190.10 sp|B6YQU1|SYC_AZOPC  -            4.9e-10   39.6   1.0   2.2e-09   37.6   0.2   2.3   2   0   0   2   2   2   1 DALR domain
+tRNA-synt_1          PF00133.21 sp|B6YQU1|SYC_AZOPC  -            0.00052   18.3   0.1      0.31    9.1   0.0   2.4   2   0   0   2   2   2   2 tRNA synthetases class I (I, L, M and V)
+Cas_Cas7             PF05107.11 sp|B6YQU1|SYC_AZOPC  -              0.024   14.1   0.1     0.045   13.2   0.1   1.4   1   0   0   1   1   1   0 CRISPR-associated protein Cas7
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B6YQU1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B6YQU1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B6YQU1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:01:30 2019
+# [ok]

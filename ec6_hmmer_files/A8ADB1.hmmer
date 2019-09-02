@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SAICAR_synt          PF01259.17 sp|A8ADB1|PUR7_CITK8 -              1e-58  198.8   0.0   1.1e-58  198.7   0.0   1.0   1   0   0   1   1   1   1 SAICAR synthetase
+IF2_N                PF04760.14 sp|A8ADB1|PUR7_CITK8 -              0.011   15.5   0.1       4.7    7.0   0.1   2.5   2   0   0   2   2   2   0 Translation initiation factor IF-2, N-terminal region
+Peptidase_M42        PF05343.13 sp|A8ADB1|PUR7_CITK8 -              0.022   13.7   0.0     0.032   13.1   0.0   1.2   1   0   0   1   1   1   0 M42 glutamyl aminopeptidase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A8ADB1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A8ADB1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A8ADB1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:33:08 2019
+# [ok]

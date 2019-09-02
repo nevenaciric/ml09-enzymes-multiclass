@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q6G2Q3|MURD_BARHE -            3.1e-27   95.7   0.1   5.2e-27   95.0   0.1   1.4   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q6G2Q3|MURD_BARHE -            1.1e-05   25.5   0.0   8.7e-05   22.6   0.0   2.7   3   1   0   3   3   3   1 Mur ligase family, glutamate ligase domain
+CbiA                 PF01656.22 sp|Q6G2Q3|MURD_BARHE -             0.0026   17.7   0.1    0.0063   16.5   0.0   2.0   2   1   0   2   2   2   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+2-Hacid_dh_C         PF02826.18 sp|Q6G2Q3|MURD_BARHE -             0.0084   15.4   0.0     0.016   14.5   0.0   1.4   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|Q6G2Q3|MURD_BARHE -              0.014   15.5   0.0       0.1   12.7   0.0   2.4   2   0   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+UDPG_MGDP_dh_N       PF03721.13 sp|Q6G2Q3|MURD_BARHE -              0.056   12.9   0.0      0.11   12.0   0.0   1.4   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+TrkA_N               PF02254.17 sp|Q6G2Q3|MURD_BARHE -              0.068   13.3   0.0      0.26   11.5   0.0   2.0   1   0   0   1   1   1   0 TrkA-N domain
+NAD_binding_7        PF13241.5  sp|Q6G2Q3|MURD_BARHE -              0.075   13.4   0.0       1.1    9.7   0.0   2.3   2   0   0   2   2   2   0 Putative NAD(P)-binding
+IlvN                 PF07991.11 sp|Q6G2Q3|MURD_BARHE -              0.079   12.4   0.0      0.18   11.3   0.0   1.6   1   0   0   1   1   1   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6G2Q3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6G2Q3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6G2Q3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:23:35 2019
+# [ok]

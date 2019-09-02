@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|Q5WHP4|SYH1_BACSK -            1.2e-46  159.3   0.0   2.2e-46  158.5   0.0   1.4   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|Q5WHP4|SYH1_BACSK -            3.3e-15   56.4   0.0   6.7e-15   55.4   0.0   1.6   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q5WHP4|SYH1_BACSK -            3.9e-15   55.7   0.1   1.6e-14   53.7   0.1   2.1   2   0   0   2   2   2   1 Anticodon binding domain
+HGTP_anticodon2      PF12745.6  sp|Q5WHP4|SYH1_BACSK -              0.011   15.0   0.0     0.017   14.5   0.0   1.2   1   0   0   1   1   1   0 Anticodon binding domain of tRNAs
+Glyco_hydro_30       PF02055.15 sp|Q5WHP4|SYH1_BACSK -               0.08   11.8   0.0      0.12   11.2   0.0   1.2   1   0   0   1   1   1   0 Glycosyl hydrolase family 30 TIM-barrel domain
+DUF2064              PF09837.8  sp|Q5WHP4|SYH1_BACSK -               0.13   12.0   0.1      0.34   10.7   0.1   1.7   1   0   0   1   1   1   0 Uncharacterized protein conserved in bacteria (DUF2064)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5WHP4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5WHP4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5WHP4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:17:27 2019
+# [ok]

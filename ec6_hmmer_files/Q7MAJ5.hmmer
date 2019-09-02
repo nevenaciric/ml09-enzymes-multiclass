@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q7MAJ5|NADE_WOLSU -            2.9e-82  275.3   0.0   3.3e-82  275.1   0.0   1.0   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|Q7MAJ5|NADE_WOLSU -            7.6e-06   24.8   0.1   7.2e-05   21.6   0.1   2.1   2   0   0   2   2   2   1 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|Q7MAJ5|NADE_WOLSU -            0.00025   20.7   0.1   0.00082   19.0   0.0   1.7   2   0   0   2   2   2   1 Asparagine synthase
+QueC                 PF06508.12 sp|Q7MAJ5|NADE_WOLSU -             0.0043   16.5   0.0     0.024   14.1   0.0   1.9   2   0   0   2   2   2   1 Queuosine biosynthesis protein QueC
+ATP_bind_3           PF01171.19 sp|Q7MAJ5|NADE_WOLSU -             0.0074   16.0   0.1     0.032   13.9   0.0   1.9   2   0   0   2   2   2   1 PP-loop family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q7MAJ5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q7MAJ5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q7MAJ5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:29:21 2019
+# [ok]

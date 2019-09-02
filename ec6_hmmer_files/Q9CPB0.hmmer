@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q9CPB0|MURD_PASMU -              1e-30  107.0   1.2   1.5e-30  106.5   1.2   1.2   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q9CPB0|MURD_PASMU -            9.4e-07   28.9   0.0     5e-06   26.6   0.0   2.3   3   0   0   3   3   3   1 Mur ligase family, glutamate ligase domain
+NAD_binding_7        PF13241.5  sp|Q9CPB0|MURD_PASMU -              3e-05   24.3   0.1   8.2e-05   22.9   0.0   1.8   2   0   0   2   2   2   1 Putative NAD(P)-binding
+Shikimate_DH         PF01488.19 sp|Q9CPB0|MURD_PASMU -            0.00023   21.1   0.0    0.0006   19.8   0.0   1.7   1   0   0   1   1   1   1 Shikimate / quinate 5-dehydrogenase
+TrkA_N               PF02254.17 sp|Q9CPB0|MURD_PASMU -              0.017   15.3   0.1       0.1   12.7   0.0   2.3   3   0   0   3   3   3   0 TrkA-N domain
+2-Hacid_dh_C         PF02826.18 sp|Q9CPB0|MURD_PASMU -               0.02   14.1   0.0     0.046   13.0   0.0   1.6   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_2        PF03446.14 sp|Q9CPB0|MURD_PASMU -              0.023   14.8   0.3       0.2   11.7   0.0   2.6   2   1   0   2   2   2   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+AlaDh_PNT_C          PF01262.20 sp|Q9CPB0|MURD_PASMU -              0.051   12.8   0.0      0.12   11.5   0.0   1.6   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+Pyr_redox_2          PF07992.13 sp|Q9CPB0|MURD_PASMU -               0.06   12.5   0.1       0.1   11.7   0.1   1.5   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9CPB0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9CPB0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9CPB0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:53:59 2019
+# [ok]

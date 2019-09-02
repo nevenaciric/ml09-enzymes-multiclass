@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|B3QWT5|MURD_CHLT3 -            1.3e-31  110.1   0.5   2.3e-31  109.2   0.5   1.4   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|B3QWT5|MURD_CHLT3 -            2.1e-06   27.8   0.1   1.1e-05   25.5   0.0   2.2   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+NAD_binding_7        PF13241.5  sp|B3QWT5|MURD_CHLT3 -              0.011   16.0   0.2      0.11   12.8   0.0   2.5   3   0   0   3   3   3   0 Putative NAD(P)-binding
+Pyr_redox_3          PF13738.5  sp|B3QWT5|MURD_CHLT3 -              0.019   14.1   0.0     0.043   13.0   0.0   1.7   1   1   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+Mur_ligase           PF01225.24 sp|B3QWT5|MURD_CHLT3 -              0.069   13.4   0.1      0.72   10.1   0.0   2.7   2   1   0   2   2   2   0 Mur ligase family, catalytic domain
+FAD_binding_3        PF01494.18 sp|B3QWT5|MURD_CHLT3 -              0.096   11.8   0.0      0.19   10.9   0.0   1.4   1   0   0   1   1   1   0 FAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B3QWT5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B3QWT5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B3QWT5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:54:28 2019
+# [ok]

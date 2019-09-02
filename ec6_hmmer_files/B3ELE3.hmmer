@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|B3ELE3|NADE_CHLPB -            5.1e-76  254.9   0.0   6.2e-76  254.6   0.0   1.0   1   0   0   1   1   1   1 NAD synthase
+QueC                 PF06508.12 sp|B3ELE3|NADE_CHLPB -             0.0003   20.3   0.0    0.0019   17.7   0.0   1.9   2   0   0   2   2   2   1 Queuosine biosynthesis protein QueC
+Asn_synthase         PF00733.20 sp|B3ELE3|NADE_CHLPB -            0.00079   19.1   0.0    0.0011   18.6   0.0   1.2   1   0   0   1   1   1   1 Asparagine synthase
+tRNA_Me_trans        PF03054.15 sp|B3ELE3|NADE_CHLPB -                0.1   11.2   0.0      0.35    9.5   0.0   1.8   2   0   0   2   2   2   0 tRNA methyl transferase
+ATP_bind_3           PF01171.19 sp|B3ELE3|NADE_CHLPB -               0.15   11.7   0.0      0.25   11.0   0.0   1.4   1   0   0   1   1   1   0 PP-loop family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B3ELE3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B3ELE3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B3ELE3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:53:26 2019
+# [ok]

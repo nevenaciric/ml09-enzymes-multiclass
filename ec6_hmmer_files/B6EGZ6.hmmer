@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GMP_synt_C           PF00958.21 sp|B6EGZ6|GUAA_ALISL -            1.8e-43  146.4   0.0   3.2e-43  145.6   0.0   1.4   1   0   0   1   1   1   1 GMP synthase C terminal domain
+GATase               PF00117.27 sp|B6EGZ6|GUAA_ALISL -            1.9e-42  145.1   0.0   2.7e-42  144.6   0.0   1.3   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+NAD_synthase         PF02540.16 sp|B6EGZ6|GUAA_ALISL -            1.6e-10   40.4   0.0   5.9e-08   32.0   0.1   2.2   2   0   0   2   2   2   2 NAD synthase
+Peptidase_C26        PF07722.12 sp|B6EGZ6|GUAA_ALISL -            7.7e-09   35.5   0.1   2.5e-08   33.9   0.0   1.9   1   1   1   2   2   2   1 Peptidase C26
+Asn_synthase         PF00733.20 sp|B6EGZ6|GUAA_ALISL -            0.00042   20.0   0.0    0.0007   19.3   0.0   1.3   1   0   0   1   1   1   1 Asparagine synthase
+QueC                 PF06508.12 sp|B6EGZ6|GUAA_ALISL -            0.00046   19.6   0.0     0.013   14.9   0.0   2.3   1   1   0   1   1   1   1 Queuosine biosynthesis protein QueC
+tRNA_Me_trans        PF03054.15 sp|B6EGZ6|GUAA_ALISL -            0.00075   18.3   0.0    0.0037   16.0   0.1   1.9   2   0   0   2   2   2   1 tRNA methyl transferase
+PAPS_reduct          PF01507.18 sp|B6EGZ6|GUAA_ALISL -             0.0023   17.9   0.0     0.011   15.7   0.0   1.9   2   0   0   2   2   2   1 Phosphoadenosine phosphosulfate reductase family
+ATP_bind_3           PF01171.19 sp|B6EGZ6|GUAA_ALISL -              0.037   13.7   0.0     0.079   12.6   0.0   1.6   1   1   0   1   1   1   0 PP-loop family
+ThiI                 PF02568.13 sp|B6EGZ6|GUAA_ALISL -                0.1   12.0   0.1       0.2   11.1   0.1   1.4   1   0   0   1   1   1   0 Thiamine biosynthesis protein (ThiI)
+RinB                 PF06116.11 sp|B6EGZ6|GUAA_ALISL -               0.12   12.4   0.1      0.26   11.3   0.1   1.5   1   0   0   1   1   1   0 Transcriptional activator RinB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B6EGZ6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B6EGZ6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B6EGZ6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:00:25 2019
+# [ok]

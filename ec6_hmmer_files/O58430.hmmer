@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-Thr_ED          PF08915.10 sp|O58430|SYT_PYRHO  -            4.2e-56  188.7   2.0   5.3e-56  188.4   0.6   2.0   2   0   0   2   2   2   1 Archaea-specific editing domain of threonyl-tRNA synthetase
+HGTP_anticodon       PF03129.19 sp|O58430|SYT_PYRHO  -            8.1e-27   93.1   5.2   1.1e-26   92.8   2.9   2.4   3   0   0   3   3   3   1 Anticodon binding domain
+tRNA-synt_2b         PF00587.24 sp|O58430|SYT_PYRHO  -            8.6e-21   74.6   0.1   1.8e-20   73.6   0.1   1.5   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+DUF965               PF06135.11 sp|O58430|SYT_PYRHO  -             0.0082   16.2   0.3     0.045   13.9   0.0   2.4   2   0   0   2   2   2   1 Bacterial protein of unknown function (DUF965)
+ATPase               PF06745.12 sp|O58430|SYT_PYRHO  -              0.048   12.9   1.8      0.99    8.6   0.1   2.4   2   0   0   2   2   2   0 KaiC
+Phage_connect_1      PF05135.12 sp|O58430|SYT_PYRHO  -              0.061   13.7   0.3      0.38   11.2   0.1   2.4   3   0   0   3   3   3   0 Phage gp6-like head-tail connector protein
+CBM60                PF16841.4  sp|O58430|SYT_PYRHO  -              0.082   13.2   0.0      0.71   10.2   0.0   2.3   2   0   0   2   2   2   0 Ca-dependent carbohydrate-binding module xylan-binding
+TRM                  PF02005.15 sp|O58430|SYT_PYRHO  -               0.13   11.3   0.2      0.28   10.2   0.1   1.5   2   0   0   2   2   2   0 N2,N2-dimethylguanosine tRNA methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O58430.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O58430.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O58430.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:22:49 2019
+# [ok]

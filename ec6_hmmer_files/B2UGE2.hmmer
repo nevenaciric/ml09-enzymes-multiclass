@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|B2UGE2|SUCC_RALPJ -            4.9e-80  267.8   1.0   5.7e-80  267.6   0.3   1.4   2   0   0   2   2   2   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|B2UGE2|SUCC_RALPJ -            2.3e-26   92.4   1.4   4.1e-26   91.5   1.4   1.4   1   0   0   1   1   1   1 CoA-ligase
+ATP-grasp_5          PF13549.5  sp|B2UGE2|SUCC_RALPJ -            5.4e-10   39.0   2.5   1.2e-09   37.9   0.5   2.4   2   1   0   2   2   2   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|B2UGE2|SUCC_RALPJ -              5e-05   22.8   0.7   7.4e-05   22.2   0.1   1.7   2   0   0   2   2   2   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+GARS_A               PF01071.18 sp|B2UGE2|SUCC_RALPJ -            0.00093   18.9   0.1     0.002   17.8   0.1   1.5   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+ATP-grasp            PF02222.21 sp|B2UGE2|SUCC_RALPJ -             0.0045   16.5   0.0    0.0089   15.5   0.0   1.5   1   0   0   1   1   1   1 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2UGE2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2UGE2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2UGE2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:52:01 2019
+# [ok]

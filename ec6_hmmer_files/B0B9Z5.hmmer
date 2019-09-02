@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|B0B9Z5|SYDND_CHLTB -           6.9e-102  340.6   0.0    9e-102  340.2   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+GAD                  PF02938.13 sp|B0B9Z5|SYDND_CHLTB -            2.3e-28   98.2   0.1   4.1e-28   97.4   0.1   1.4   1   0   0   1   1   1   1 GAD domain
+tRNA_anti-codon      PF01336.24 sp|B0B9Z5|SYDND_CHLTB -            7.2e-12   45.0   0.0   1.2e-11   44.3   0.0   1.4   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+tRNA-synt_2d         PF01409.19 sp|B0B9Z5|SYDND_CHLTB -             0.0024   17.3   0.1      0.34   10.3   0.0   2.3   2   0   0   2   2   2   2 tRNA synthetases class II core domain (F)
+tRNA-synt_2b         PF00587.24 sp|B0B9Z5|SYDND_CHLTB -               0.12   12.2   0.0      0.23   11.3   0.0   1.5   1   0   0   1   1   1   0 tRNA synthetase class II core domain (G, H, P, S and T)
+Prok_Ub              PF14454.5  sp|B0B9Z5|SYDND_CHLTB -               0.12   11.9   0.0      0.33   10.5   0.0   1.6   1   0   0   1   1   1   0 Prokaryotic Ubiquitin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B0B9Z5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B0B9Z5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B0B9Z5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:40:46 2019
+# [ok]

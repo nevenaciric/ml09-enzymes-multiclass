@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GatB_N               PF02934.14 sp|Q2SRE4|GATB_MYCCT -           3.3e-100  334.9   0.5  3.3e-100  334.9   0.5   1.5   2   0   0   2   2   2   1 GatB/GatE catalytic domain
+GatB_Yqey            PF02637.17 sp|Q2SRE4|GATB_MYCCT -            6.2e-37  126.7  11.0   6.2e-37  126.7  11.0   2.0   2   0   0   2   2   2   1 GatB domain
+MqsR_toxin           PF15723.4  sp|Q2SRE4|GATB_MYCCT -              0.023   14.9   0.0     0.094   13.0   0.0   2.1   1   1   0   1   1   1   0 Motility quorum-sensing regulator, toxin of MqsA
+DUF1818              PF08848.10 sp|Q2SRE4|GATB_MYCCT -                0.1   12.6   0.1      0.27   11.2   0.1   1.7   1   0   0   1   1   1   0 Domain of unknown function (DUF1818)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2SRE4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2SRE4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2SRE4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:55:39 2019
+# [ok]

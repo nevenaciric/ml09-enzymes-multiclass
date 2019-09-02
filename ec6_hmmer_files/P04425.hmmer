@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GSH-S_ATP            PF02955.15 sp|P04425|GSHB_ECOLI -            7.4e-80  266.4   0.0     1e-79  265.9   0.0   1.2   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, ATP-grasp domain
+GSH-S_N              PF02951.13 sp|P04425|GSHB_ECOLI -            1.2e-46  157.6   0.0   1.8e-46  157.0   0.0   1.3   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, N-terminal domain
+RimK                 PF08443.10 sp|P04425|GSHB_ECOLI -            1.8e-11   43.9   0.0   2.5e-11   43.4   0.0   1.2   1   0   0   1   1   1   1 RimK-like ATP-grasp domain
+ATPgrasp_YheCD       PF14398.5  sp|P04425|GSHB_ECOLI -            2.6e-07   30.1   0.0   4.4e-07   29.3   0.0   1.3   1   0   0   1   1   1   1 YheC/D like ATP-grasp
+ATP-grasp_3          PF02655.13 sp|P04425|GSHB_ECOLI -              0.019   14.9   0.0     0.031   14.2   0.0   1.3   1   0   0   1   1   1   0 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P04425.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P04425.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P04425.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:24:25 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|A8MC04|SYP_CALMQ  -            7.8e-25   87.8   0.2   1.4e-24   86.9   0.0   1.5   2   0   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A8MC04|SYP_CALMQ  -            2.2e-24   85.3   0.0   4.2e-24   84.4   0.0   1.5   1   0   0   1   1   1   1 Anticodon binding domain
+ProRS-C_1            PF09180.10 sp|A8MC04|SYP_CALMQ  -            1.7e-12   47.2   0.0   2.4e-11   43.6   0.0   2.3   2   0   0   2   2   2   1 Prolyl-tRNA synthetase, C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A8MC04.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A8MC04.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A8MC04.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:36:08 2019
+# [ok]

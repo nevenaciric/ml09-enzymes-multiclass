@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|P16272|DNLI_VACCW -            2.5e-60  203.5   0.0   4.5e-60  202.7   0.0   1.4   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|P16272|DNLI_VACCW -            8.1e-27   94.6   0.4   1.5e-26   93.7   0.4   1.5   1   0   0   1   1   1   1 DNA ligase N terminus
+DNA_ligase_A_C       PF04679.14 sp|P16272|DNLI_VACCW -            7.3e-17   61.7   0.0   1.4e-16   60.8   0.0   1.5   1   0   0   1   1   1   1 ATP dependent DNA ligase C terminal region
+RNA_ligase           PF09414.9  sp|P16272|DNLI_VACCW -            2.8e-08   34.1   0.1   4.9e-08   33.3   0.1   1.4   1   0   0   1   1   1   1 RNA ligase
+mRNA_cap_enzyme      PF01331.18 sp|P16272|DNLI_VACCW -             0.0047   16.7   0.8     0.034   13.9   0.3   2.5   2   1   0   2   2   2   1 mRNA capping enzyme, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P16272.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P16272.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P16272.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:26:38 2019
+# [ok]

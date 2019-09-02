@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP_bind_3           PF01171.19 sp|Q6YR87|TILS_ONYPE -            8.1e-45  152.7   0.2   1.2e-44  152.2   0.2   1.2   1   0   0   1   1   1   1 PP-loop family
+TilS_C               PF11734.7  sp|Q6YR87|TILS_ONYPE -              9e-07   28.1   0.0   1.6e-06   27.3   0.0   1.4   1   0   0   1   1   1   1 TilS substrate C-terminal domain
+Rop                  PF01815.15 sp|Q6YR87|TILS_ONYPE -              0.042   13.6   1.5     0.072   12.9   0.2   2.1   2   0   0   2   2   2   0 Rop protein
+QueC                 PF06508.12 sp|Q6YR87|TILS_ONYPE -              0.082   12.3   0.0      0.23   10.8   0.0   1.8   2   0   0   2   2   2   0 Queuosine biosynthesis protein QueC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6YR87.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6YR87.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6YR87.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:26:35 2019
+# [ok]

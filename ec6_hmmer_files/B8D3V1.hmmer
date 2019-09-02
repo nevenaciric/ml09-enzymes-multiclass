@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|B8D3V1|SYS_DESA1  -            2.4e-31  109.0   0.0     4e-31  108.3   0.0   1.3   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+Seryl_tRNA_N         PF02403.21 sp|B8D3V1|SYS_DESA1  -            4.8e-22   78.1   4.4   8.5e-22   77.3   4.4   1.4   1   0   0   1   1   1   1 Seryl-tRNA synthetase N-terminal domain
+Sec5                 PF15469.5  sp|B8D3V1|SYS_DESA1  -               0.06   13.0   0.1      0.25   11.0   0.0   1.9   2   0   0   2   2   2   0 Exocyst complex component Sec5
+Mnd1                 PF03962.14 sp|B8D3V1|SYS_DESA1  -               0.32   10.7   3.7        16    5.2   3.9   2.2   1   1   1   2   2   2   0 Mnd1 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B8D3V1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B8D3V1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B8D3V1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:06:05 2019
+# [ok]

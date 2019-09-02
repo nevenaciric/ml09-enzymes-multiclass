@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|B2S3M4|DNLJ_TREPS -            2.4e-41  141.8   0.0   3.6e-41  141.2   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+BRCT                 PF00533.25 sp|B2S3M4|DNLJ_TREPS -            8.9e-32  109.2   0.0   2.3e-12   47.0   0.0   3.7   3   0   0   3   3   3   3 BRCA1 C Terminus (BRCT) domain
+PTCB-BRCT            PF12738.6  sp|B2S3M4|DNLJ_TREPS -            4.3e-15   55.3   0.0   4.6e-07   29.6   0.0   3.6   3   0   0   3   3   3   3 twin BRCT domain
+DNA_ligase_OB        PF03120.15 sp|B2S3M4|DNLJ_TREPS -            4.6e-14   52.0   0.1   1.2e-13   50.7   0.1   1.7   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+HHH_2                PF12826.6  sp|B2S3M4|DNLJ_TREPS -            2.2e-13   50.0   0.6   2.1e-06   27.6   0.1   2.9   2   0   0   2   2   2   2 Helix-hairpin-helix motif
+HHH_5                PF14520.5  sp|B2S3M4|DNLJ_TREPS -            1.1e-10   41.8   0.1   4.8e-05   23.8   0.0   2.8   2   0   0   2   2   2   2 Helix-hairpin-helix domain
+BRCT_2               PF16589.4  sp|B2S3M4|DNLJ_TREPS -            0.00078   19.7   0.0       1.2    9.4   0.0   3.2   3   0   0   3   3   3   1 BRCT domain, a BRCA1 C-terminus domain
+MutS_III             PF05192.17 sp|B2S3M4|DNLJ_TREPS -              0.037   14.2   0.0     0.089   12.9   0.0   1.5   1   1   0   1   1   1   0 MutS domain III
+DNA_pol_lambd_f      PF10391.8  sp|B2S3M4|DNLJ_TREPS -               0.06   13.1   0.0      0.76    9.6   0.0   2.6   2   0   0   2   2   2   0 Fingers domain of DNA polymerase lambda
+RNA_pol_A_CTD        PF03118.14 sp|B2S3M4|DNLJ_TREPS -              0.076   12.7   0.0       1.5    8.5   0.0   2.4   2   0   0   2   2   2   0 Bacterial RNA polymerase, alpha chain C terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2S3M4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2S3M4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2S3M4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:50:56 2019
+# [ok]

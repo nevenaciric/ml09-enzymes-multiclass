@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase_3             PF07685.13 sp|Q980B1|CBIA_SACS2 -            6.2e-43  146.6   0.3   8.9e-43  146.1   0.3   1.2   1   0   0   1   1   1   1 CobB/CobQ-like glutamine amidotransferase domain
+AAA_26               PF13500.5  sp|Q980B1|CBIA_SACS2 -              4e-14   52.8   0.2   1.4e-09   38.0   0.0   2.4   1   1   1   2   2   2   2 AAA domain
+CbiA                 PF01656.22 sp|Q980B1|CBIA_SACS2 -            1.2e-12   47.9   0.0   2.9e-12   46.7   0.0   1.7   1   0   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q980B1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q980B1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q980B1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:52:09 2019
+# [ok]

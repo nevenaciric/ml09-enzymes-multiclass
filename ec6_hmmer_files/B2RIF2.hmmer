@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|B2RIF2|MURC_PORG3 -              3e-24   86.0   0.0     4e-24   85.6   0.0   1.2   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|B2RIF2|MURC_PORG3 -              7e-23   80.6   0.0   1.8e-22   79.3   0.0   1.7   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+Mur_ligase           PF01225.24 sp|B2RIF2|MURC_PORG3 -            3.1e-20   72.2   0.0   8.8e-20   70.7   0.0   1.8   1   0   0   1   1   1   1 Mur ligase family, catalytic domain
+NAD_binding_2        PF03446.14 sp|B2RIF2|MURC_PORG3 -              0.023   14.8   0.0     0.046   13.8   0.0   1.5   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+2-Hacid_dh_C         PF02826.18 sp|B2RIF2|MURC_PORG3 -              0.042   13.1   0.0      0.11   11.8   0.0   1.7   2   0   0   2   2   2   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2RIF2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2RIF2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2RIF2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:50:43 2019
+# [ok]

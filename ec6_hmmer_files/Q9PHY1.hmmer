@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|Q9PHY1|SUCC_CAMJE -            1.3e-72  243.5   2.4   1.3e-72  243.5   2.4   1.5   2   0   0   2   2   2   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|Q9PHY1|SUCC_CAMJE -            1.4e-23   83.4   0.8   3.4e-23   82.0   0.8   1.7   1   0   0   1   1   1   1 CoA-ligase
+ATP-grasp_5          PF13549.5  sp|Q9PHY1|SUCC_CAMJE -              1e-08   34.8   0.1   2.9e-08   33.4   0.1   1.8   1   1   0   1   1   1   1 ATP-grasp domain
+GARS_A               PF01071.18 sp|Q9PHY1|SUCC_CAMJE -               0.02   14.6   0.3     0.071   12.8   0.1   1.9   2   0   0   2   2   2   0 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+DUF1983              PF09327.10 sp|Q9PHY1|SUCC_CAMJE -              0.056   13.4   0.6      0.14   12.1   0.4   1.9   2   0   0   2   2   2   0 Domain of unknown function (DUF1983)
+Succ_CoA_lig         PF13607.5  sp|Q9PHY1|SUCC_CAMJE -              0.099   12.3   0.1      0.18   11.5   0.1   1.4   1   0   0   1   1   1   0 Succinyl-CoA ligase like flavodoxin domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9PHY1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9PHY1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9PHY1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:57:15 2019
+# [ok]

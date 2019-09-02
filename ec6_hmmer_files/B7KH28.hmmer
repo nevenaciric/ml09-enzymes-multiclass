@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|B7KH28|MURD_CYAP7 -            9.8e-28   97.3   0.0   2.4e-27   96.1   0.0   1.7   2   0   0   2   2   2   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|B7KH28|MURD_CYAP7 -              3e-08   33.7   0.0     7e-08   32.5   0.0   1.6   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+NAD_binding_8        PF13450.5  sp|B7KH28|MURD_CYAP7 -              0.033   14.3   0.0       0.2   11.8   0.0   2.3   2   0   0   2   2   2   0 NAD(P)-binding Rossmann-like domain
+TrkA_N               PF02254.17 sp|B7KH28|MURD_CYAP7 -               0.04   14.1   0.0       1.1    9.5   0.0   2.7   3   0   0   3   3   3   0 TrkA-N domain
+PolC_DP2             PF03833.12 sp|B7KH28|MURD_CYAP7 -              0.064   11.0   0.0      0.11   10.2   0.0   1.3   1   0   0   1   1   1   0 DNA polymerase II large subunit DP2
+2-Hacid_dh_C         PF02826.18 sp|B7KH28|MURD_CYAP7 -                0.1   11.9   0.0      0.24   10.6   0.0   1.6   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B7KH28.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B7KH28.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B7KH28.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:03:29 2019
+# [ok]

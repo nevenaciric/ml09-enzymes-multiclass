@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|Q9CDZ7|SYE_LACLA  -           6.3e-111  370.1   0.1  7.6e-111  369.9   0.1   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+tRNA-synt_1f         PF01921.17 sp|Q9CDZ7|SYE_LACLA  -             0.0011   17.9   0.0      0.28    9.9   0.0   2.2   2   0   0   2   2   2   2 tRNA synthetases class I (K)
+Put_DNA-bind_N       PF06971.12 sp|Q9CDZ7|SYE_LACLA  -               0.13   12.2   0.5      0.26   11.2   0.5   1.5   1   0   0   1   1   1   0 Putative DNA-binding protein N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9CDZ7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9CDZ7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9CDZ7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:53:35 2019
+# [ok]

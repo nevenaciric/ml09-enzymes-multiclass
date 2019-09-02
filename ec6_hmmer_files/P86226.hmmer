@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|P86226|SUCB1_MESAU -            6.5e-25   87.8   5.9   5.7e-20   71.6   0.1   4.0   3   1   1   4   4   4   3 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|P86226|SUCB1_MESAU -             0.0073   16.0   0.3      0.03   14.0   0.3   2.0   1   1   0   1   1   1   1 CoA-ligase
+nsp7                 PF08716.9  sp|P86226|SUCB1_MESAU -               0.21   12.1   1.2       1.1    9.8   0.4   2.2   2   0   0   2   2   2   0 nsp7 replicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P86226.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P86226.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P86226.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:33:28 2019
+# [ok]

@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GARS_A               PF01071.18 sp|O29108|PUR2_ARCFU -            1.1e-84  282.9   0.3   2.2e-84  282.0   0.3   1.5   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+GARS_N               PF02844.14 sp|O29108|PUR2_ARCFU -            3.6e-26   91.7   0.0   8.3e-26   90.5   0.0   1.7   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, N domain
+GARS_C               PF02843.15 sp|O29108|PUR2_ARCFU -            5.6e-19   68.1   0.2   1.6e-18   66.6   0.2   1.8   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, C domain
+ATP-grasp_2          PF08442.9  sp|O29108|PUR2_ARCFU -            0.00021   20.9   0.5   0.00059   19.4   0.1   1.9   2   0   0   2   2   2   1 ATP-grasp domain
+ATP-grasp            PF02222.21 sp|O29108|PUR2_ARCFU -            0.00022   20.7   0.1    0.0006   19.3   0.1   1.7   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_3          PF02655.13 sp|O29108|PUR2_ARCFU -             0.0036   17.3   0.1     0.011   15.7   0.1   1.8   1   1   0   1   1   1   1 ATP-grasp domain
+Dala_Dala_lig_C      PF07478.12 sp|O29108|PUR2_ARCFU -             0.0039   16.7   0.0    0.0069   15.8   0.0   1.4   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+ATPgrasp_Ter         PF15632.5  sp|O29108|PUR2_ARCFU -             0.0042   15.7   0.2     0.011   14.4   0.0   1.7   2   0   0   2   2   2   1 ATP-grasp in the biosynthetic pathway with Ter operon
+ATPgrasp_ST          PF14397.5  sp|O29108|PUR2_ARCFU -              0.015   14.5   0.0      0.03   13.5   0.0   1.5   1   0   0   1   1   1   0 Sugar-transfer associated ATP-grasp
+DUF448               PF04296.12 sp|O29108|PUR2_ARCFU -              0.047   13.5   0.1      0.13   12.0   0.1   1.8   1   0   0   1   1   1   0 Protein of unknown function (DUF448)
+Baculo_LEF5_C        PF11792.7  sp|O29108|PUR2_ARCFU -                2.9    7.6   5.2       5.8    6.6   0.1   3.0   3   0   0   3   3   3   0 Baculoviridae late expression factor 5 C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O29108.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O29108.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O29108.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:22:00 2019
+# [ok]

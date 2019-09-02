@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|A7MT45|SYQ_VIBCB  -           1.2e-126  421.8   0.0  1.6e-126  421.4   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+tRNA-synt_1c_C       PF03950.17 sp|A7MT45|SYQ_VIBCB  -            1.3e-63  213.9   0.0   2.3e-63  213.1   0.0   1.4   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+Peptidase_S37        PF05576.10 sp|A7MT45|SYQ_VIBCB  -               0.12   10.9   0.0      0.18   10.4   0.0   1.1   1   0   0   1   1   1   0 PS-10 peptidase S37
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A7MT45.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A7MT45.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A7MT45.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:31:26 2019
+# [ok]

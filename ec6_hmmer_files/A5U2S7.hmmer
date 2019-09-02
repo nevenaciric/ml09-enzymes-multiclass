@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AAA_26               PF13500.5  sp|A5U2S7|BIOD_MYCTA -            3.9e-29  101.8   0.1   4.7e-29  101.5   0.1   1.0   1   0   0   1   1   1   1 AAA domain
+CbiA                 PF01656.22 sp|A5U2S7|BIOD_MYCTA -            1.6e-06   28.1   0.0   3.1e-06   27.2   0.0   1.4   1   1   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+DUF1611              PF07755.10 sp|A5U2S7|BIOD_MYCTA -              0.002   17.4   6.8    0.0033   16.7   2.2   2.5   2   1   1   3   3   3   1 Domain of unknown function (DUF1611_C) P-loop domain
+ParA                 PF10609.8  sp|A5U2S7|BIOD_MYCTA -               0.14   11.5   1.2      0.24   10.7   1.2   1.4   1   0   0   1   1   1   0 NUBPL iron-transfer P-loop NTPase
+CBP_BcsQ             PF06564.11 sp|A5U2S7|BIOD_MYCTA -               0.27   10.6   3.3      0.12   11.8   0.6   1.7   2   0   0   2   2   2   0 Cellulose biosynthesis protein BcsQ
+ArsA_ATPase          PF02374.14 sp|A5U2S7|BIOD_MYCTA -                1.2    8.2   3.8         1    8.4   2.5   1.5   2   0   0   2   2   2   0 Anion-transporting ATPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A5U2S7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A5U2S7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A5U2S7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:23:20 2019
+# [ok]

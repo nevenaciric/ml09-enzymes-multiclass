@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|Q7VF68|SYH_HELHP  -            1.4e-48  165.7   0.0   1.8e-48  165.3   0.0   1.2   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|Q7VF68|SYH_HELHP  -              3e-13   50.0   0.2   1.1e-12   48.1   0.2   1.9   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q7VF68|SYH_HELHP  -            1.4e-11   44.3   0.0   3.6e-11   43.0   0.0   1.7   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2          PF00152.19 sp|Q7VF68|SYH_HELHP  -            3.8e-05   22.8   0.3   0.00073   18.6   0.1   2.6   2   1   0   2   2   2   1 tRNA synthetases class II (D, K and N)
+tRNA-synt_2d         PF01409.19 sp|Q7VF68|SYH_HELHP  -             0.0012   18.3   0.0    0.0041   16.5   0.0   1.9   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+DUF4269              PF14091.5  sp|Q7VF68|SYH_HELHP  -              0.012   15.7   0.1     0.032   14.4   0.0   1.7   2   0   0   2   2   2   0 Domain of unknown function (DUF4269)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q7VF68.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q7VF68.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q7VF68.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:32:22 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|A8M9D7|SYE_CALMQ  -            7.5e-66  222.1   0.0     1e-65  221.6   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+tRNA-synt_1c_C       PF03950.17 sp|A8M9D7|SYE_CALMQ  -            4.7e-27   94.9   0.0   8.7e-27   94.0   0.0   1.5   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+bPH_2                PF03703.13 sp|A8M9D7|SYE_CALMQ  -              0.068   13.3   0.1      0.21   11.7   0.0   1.9   2   0   0   2   2   2   0 Bacterial PH domain
+tRNA-synt_1e         PF01406.18 sp|A8M9D7|SYE_CALMQ  -              0.097   11.9   0.1        12    5.1   0.0   2.7   2   1   0   2   2   2   0 tRNA synthetases class I (C) catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A8M9D7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A8M9D7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A8M9D7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:36:06 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+F420_ligase          PF01996.15 sp|Q82DE3|FBIB_STRAW -            7.5e-45  153.1   4.1   1.9e-34  119.0   1.0   2.2   1   1   1   2   2   2   2 F420-0:Gamma-glutamyl ligase
+Nitroreductase       PF00881.23 sp|Q82DE3|FBIB_STRAW -            2.9e-29  102.2   0.1   4.6e-29  101.5   0.1   1.3   1   0   0   1   1   1   1 Nitroreductase family
+TM1586_NiRdase       PF14512.5  sp|Q82DE3|FBIB_STRAW -              0.049   13.1   0.0       4.1    6.8   0.0   2.6   2   1   1   3   3   3   0 Putative TM nitroreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q82DE3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q82DE3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q82DE3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:34:52 2019
+# [ok]

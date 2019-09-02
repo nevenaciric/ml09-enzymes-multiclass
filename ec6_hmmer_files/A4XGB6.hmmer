@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AAA_26               PF13500.5  sp|A4XGB6|BIOD_CALS8 -            5.7e-48  163.3   0.0   7.1e-48  163.0   0.0   1.0   1   0   0   1   1   1   1 AAA domain
+CbiA                 PF01656.22 sp|A4XGB6|BIOD_CALS8 -            1.1e-08   35.1   0.5   2.4e-07   30.8   0.5   2.6   1   1   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+DUF1611              PF07755.10 sp|A4XGB6|BIOD_CALS8 -            0.00092   18.4   0.2     0.026   13.7   0.0   2.5   2   1   0   2   2   2   1 Domain of unknown function (DUF1611_C) P-loop domain
+Fer4_NifH            PF00142.17 sp|A4XGB6|BIOD_CALS8 -             0.0043   16.4   0.3     0.011   15.1   0.3   1.5   1   1   0   1   1   1   1 4Fe-4S iron sulfur cluster binding proteins, NifH/frxC family
+ParA                 PF10609.8  sp|A4XGB6|BIOD_CALS8 -               0.02   14.2   0.3       3.2    7.0   0.1   2.3   2   0   0   2   2   2   0 NUBPL iron-transfer P-loop NTPase
+MobB                 PF03205.13 sp|A4XGB6|BIOD_CALS8 -               0.13   12.1   0.0         1    9.1   0.0   2.2   2   0   0   2   2   2   0 Molybdopterin guanine dinucleotide synthesis protein B
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A4XGB6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A4XGB6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A4XGB6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:19:45 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AIRS_C               PF02769.21 sp|A2CBX4|PUR5_PROM3 -            1.8e-30  106.0   0.0     3e-30  105.3   0.0   1.3   1   0   0   1   1   1   1 AIR synthase related protein, C-terminal domain
+AIRS                 PF00586.23 sp|A2CBX4|PUR5_PROM3 -            1.1e-15   58.0   1.5   1.5e-15   57.5   0.4   1.8   2   0   0   2   2   2   1 AIR synthase related protein, N-terminal domain
+PDZ                  PF00595.23 sp|A2CBX4|PUR5_PROM3 -            0.00087   19.5   0.0    0.0019   18.4   0.0   1.6   1   0   0   1   1   1   1 PDZ domain (Also known as DHR or GLGF)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A2CBX4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A2CBX4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A2CBX4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:13:25 2019
+# [ok]

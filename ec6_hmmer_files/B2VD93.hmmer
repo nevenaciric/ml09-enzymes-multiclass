@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Dala_Dala_lig_C      PF07478.12 sp|B2VD93|DDL_ERWT9  -            8.9e-67  224.5   0.0   1.1e-66  224.2   0.0   1.1   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+Dala_Dala_lig_N      PF01820.20 sp|B2VD93|DDL_ERWT9  -            1.8e-19   70.0   0.2   3.5e-18   65.9   0.2   2.3   1   1   0   1   1   1   1 D-ala D-ala ligase N-terminus
+ATP-grasp_4          PF13535.5  sp|B2VD93|DDL_ERWT9  -            7.7e-08   32.0   0.0   8.9e-07   28.5   0.0   2.1   1   1   0   1   1   1   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|B2VD93|DDL_ERWT9  -            7.7e-07   28.7   0.0   1.9e-06   27.4   0.0   1.6   1   1   0   1   1   1   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATP-grasp_3          PF02655.13 sp|B2VD93|DDL_ERWT9  -            3.7e-05   23.7   0.0   6.7e-05   22.9   0.0   1.4   1   1   0   1   1   1   1 ATP-grasp domain
+ATPgrasp_Ter         PF15632.5  sp|B2VD93|DDL_ERWT9  -            8.8e-05   21.3   0.0    0.0012   17.6   0.0   2.4   1   1   0   1   1   1   1 ATP-grasp in the biosynthetic pathway with Ter operon
+ATP-grasp            PF02222.21 sp|B2VD93|DDL_ERWT9  -             0.0021   17.6   0.0     0.005   16.3   0.0   1.6   1   1   0   1   1   1   1 ATP-grasp domain
+TTL                  PF03133.14 sp|B2VD93|DDL_ERWT9  -              0.025   13.6   0.0       0.1   11.6   0.0   1.8   2   0   0   2   2   2   0 Tubulin-tyrosine ligase family
+RimK                 PF08443.10 sp|B2VD93|DDL_ERWT9  -              0.043   13.3   0.0      0.17   11.3   0.0   1.8   2   0   0   2   2   2   0 RimK-like ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|B2VD93|DDL_ERWT9  -               0.21   10.7   0.0      0.49    9.5   0.0   1.5   2   0   0   2   2   2   0 Sugar-transfer associated ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2VD93.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2VD93.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2VD93.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:52:35 2019
+# [ok]

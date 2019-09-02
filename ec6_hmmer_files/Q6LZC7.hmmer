@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RimK                 PF08443.10 sp|Q6LZC7|MPTN_METMP -            4.8e-34  117.5   0.1   6.6e-34  117.0   0.1   1.2   1   0   0   1   1   1   1 RimK-like ATP-grasp domain
+GSH-S_ATP            PF02955.15 sp|Q6LZC7|MPTN_METMP -            9.5e-14   51.1   0.1   1.5e-13   50.4   0.1   1.2   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, ATP-grasp domain
+ATPgrasp_YheCD       PF14398.5  sp|Q6LZC7|MPTN_METMP -            5.9e-06   25.6   0.1    0.0024   17.1   0.1   2.4   1   1   0   1   1   1   1 YheC/D like ATP-grasp
+ATP-grasp_3          PF02655.13 sp|Q6LZC7|MPTN_METMP -            3.1e-05   24.0   0.6   0.00019   21.4   0.6   2.0   1   1   0   1   1   1   1 ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|Q6LZC7|MPTN_METMP -            0.00011   21.4   0.2      0.04   13.1   0.0   2.2   1   1   0   2   2   2   2 Sugar-transfer associated ATP-grasp
+ATPgrasp_Ter         PF15632.5  sp|Q6LZC7|MPTN_METMP -            0.00078   18.2   0.0    0.0028   16.3   0.0   1.9   1   1   0   1   1   1   1 ATP-grasp in the biosynthetic pathway with Ter operon
+GSP_synth            PF03738.13 sp|Q6LZC7|MPTN_METMP -             0.0017   17.5   0.0    0.0032   16.6   0.0   1.5   1   1   0   1   1   1   1 Glutathionylspermidine synthase preATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6LZC7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6LZC7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6LZC7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:25:26 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q8CT93|DLTA_STAES -            3.8e-72  243.1   0.0   5.3e-72  242.6   0.0   1.2   1   0   0   1   1   1   1 AMP-binding enzyme
+AMP-binding_C        PF13193.5  sp|Q8CT93|DLTA_STAES -              6e-11   43.1   0.1   1.5e-10   41.8   0.1   1.7   1   0   0   1   1   1   1 AMP-binding enzyme C-terminal domain
+YolD                 PF08863.9  sp|Q8CT93|DLTA_STAES -             0.0056   16.6   0.1      0.03   14.3   0.1   2.3   2   0   0   2   2   2   1 YolD-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8CT93.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8CT93.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8CT93.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:39:21 2019
+# [ok]

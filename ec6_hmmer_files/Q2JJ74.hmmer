@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP_bind_3           PF01171.19 sp|Q2JJ74|TILS_SYNJB -            1.3e-38  132.5   0.0   1.8e-38  132.0   0.0   1.2   1   0   0   1   1   1   1 PP-loop family
+PAPS_reduct          PF01507.18 sp|Q2JJ74|TILS_SYNJB -              0.092   12.7   0.0      0.15   12.0   0.0   1.6   1   1   0   1   1   1   0 Phosphoadenosine phosphosulfate reductase family
+TilS                 PF09179.10 sp|Q2JJ74|TILS_SYNJB -                8.9    6.8  15.2      0.35   11.3   0.4   4.1   4   1   0   4   4   4   0 TilS substrate binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2JJ74.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2JJ74.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2JJ74.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:53:09 2019
+# [ok]

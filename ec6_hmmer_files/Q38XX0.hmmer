@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SAICAR_synt          PF01259.17 sp|Q38XX0|PUR7_LACSS -            1.8e-60  204.6   0.2     2e-60  204.4   0.2   1.0   1   0   0   1   1   1   1 SAICAR synthetase
+Pyr_redox            PF00070.26 sp|Q38XX0|PUR7_LACSS -              0.041   14.3   0.4      0.24   11.9   0.1   2.3   2   0   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+NTF2                 PF02136.19 sp|Q38XX0|PUR7_LACSS -              0.058   13.8   0.0      0.14   12.6   0.0   1.7   1   1   1   2   2   2   0 Nuclear transport factor 2 (NTF2) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q38XX0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q38XX0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q38XX0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:58:26 2019
+# [ok]

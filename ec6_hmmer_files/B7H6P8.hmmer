@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|B7H6P8|MURD_BACC4 -            3.1e-32  112.0   2.3   5.9e-32  111.1   2.3   1.5   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|B7H6P8|MURD_BACC4 -            5.2e-11   42.6   0.0   2.5e-10   40.4   0.0   2.1   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+AlaDh_PNT_C          PF01262.20 sp|B7H6P8|MURD_BACC4 -             0.0042   16.3   4.0      0.14   11.3   0.8   2.9   3   1   0   3   3   3   2 Alanine dehydrogenase/PNT, C-terminal domain
+2-Hacid_dh_C         PF02826.18 sp|B7H6P8|MURD_BACC4 -             0.0092   15.3   0.1     0.047   12.9   0.1   2.2   2   0   0   2   2   2   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Mur_ligase           PF01225.24 sp|B7H6P8|MURD_BACC4 -              0.015   15.5   0.2      0.12   12.6   0.2   2.4   1   1   0   1   1   1   0 Mur ligase family, catalytic domain
+DUF1188              PF06690.10 sp|B7H6P8|MURD_BACC4 -              0.028   13.9   0.0     0.063   12.7   0.0   1.6   1   0   0   1   1   1   0 Protein of unknown function (DUF1188)
+SsgA                 PF04686.11 sp|B7H6P8|MURD_BACC4 -              0.079   12.9   0.0      0.22   11.4   0.0   1.8   1   0   0   1   1   1   0 Streptomyces sporulation and cell division protein, SsgA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B7H6P8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B7H6P8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B7H6P8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:02:07 2019
+# [ok]

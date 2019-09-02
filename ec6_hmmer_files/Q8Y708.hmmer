@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|Q8Y708|SYH_LISMO  -            1.1e-47  162.8   0.0   2.1e-47  161.8   0.0   1.5   1   1   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|Q8Y708|SYH_LISMO  -            4.8e-20   72.2   0.0   2.5e-19   69.8   0.0   2.0   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q8Y708|SYH_LISMO  -            9.2e-13   48.1   1.3   2.2e-12   46.8   0.6   2.0   3   0   0   3   3   3   1 Anticodon binding domain
+tRNA-synt_2d         PF01409.19 sp|Q8Y708|SYH_LISMO  -            0.00046   19.6   0.4      0.57    9.5   0.0   2.3   2   0   0   2   2   2   2 tRNA synthetases class II core domain (F)
+Glyco_hydro_30       PF02055.15 sp|Q8Y708|SYH_LISMO  -              0.021   13.7   0.0      0.28   10.0   0.0   2.1   2   0   0   2   2   2   0 Glycosyl hydrolase family 30 TIM-barrel domain
+PGM_PMM_IV           PF00408.19 sp|Q8Y708|SYH_LISMO  -               0.13   12.4   0.0      0.32   11.1   0.0   1.7   1   0   0   1   1   1   0 Phosphoglucomutase/phosphomannomutase, C-terminal domain
+tRNA-synt_2          PF00152.19 sp|Q8Y708|SYH_LISMO  -               0.38    9.7   3.3        12    4.7   3.0   2.7   1   1   0   1   1   1   0 tRNA synthetases class II (D, K and N)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8Y708.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8Y708.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8Y708.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:48:20 2019
+# [ok]

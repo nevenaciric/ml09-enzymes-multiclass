@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|B8EI82|SYY_METSB  -            5.5e-69  232.6   0.0   6.4e-69  232.4   0.0   1.0   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|B8EI82|SYY_METSB  -            2.4e-05   23.8   0.1   8.2e-05   22.1   0.1   1.9   2   0   0   2   2   2   1 S4 domain
+TyrRSs_C             PF16714.4  sp|B8EI82|SYY_METSB  -              0.099   12.4   0.1      0.19   11.4   0.1   1.4   1   0   0   1   1   1   0 Tyrosyl-tRNA synthetase C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B8EI82.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B8EI82.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B8EI82.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:07:01 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase_5             PF13507.5  sp|Q1D9V4|PUR4_MYXXD -           1.3e-101  338.9   0.0  2.3e-101  338.2   0.0   1.4   1   0   0   1   1   1   1 CobB/CobQ-like glutamine amidotransferase domain
+AIRS_C               PF02769.21 sp|Q1D9V4|PUR4_MYXXD -            1.7e-46  158.1   1.7   1.1e-31  110.0   0.1   2.5   2   0   0   2   2   2   2 AIR synthase related protein, C-terminal domain
+AIRS                 PF00586.23 sp|Q1D9V4|PUR4_MYXXD -            0.00087   19.8   1.6     0.051   14.1   0.0   3.5   3   0   0   3   3   3   1 AIR synthase related protein, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q1D9V4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q1D9V4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q1D9V4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:46:00 2019
+# [ok]

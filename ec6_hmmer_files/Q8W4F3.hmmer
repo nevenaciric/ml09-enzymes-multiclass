@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|Q8W4F3|SYQ_ARATH  -           9.2e-118  392.6   0.6  9.2e-118  392.6   0.6   1.5   2   0   0   2   2   2   1 tRNA synthetases class I (E and Q), catalytic domain
+tRNA_synt_1c_R1      PF04558.14 sp|Q8W4F3|SYQ_ARATH  -            1.1e-56  191.3   0.0   1.9e-56  190.4   0.0   1.5   1   0   0   1   1   1   1 Glutaminyl-tRNA synthetase, non-specific RNA binding region part 1
+tRNA-synt_1c_C       PF03950.17 sp|Q8W4F3|SYQ_ARATH  -            4.4e-43  147.0   1.0   1.4e-42  145.4   0.0   2.3   2   0   0   2   2   2   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+tRNA_synt_1c_R2      PF04557.14 sp|Q8W4F3|SYQ_ARATH  -            1.3e-12   48.4   5.8   2.7e-12   47.3   5.8   1.6   1   0   0   1   1   1   1 Glutaminyl-tRNA synthetase, non-specific RNA binding region part 2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8W4F3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8W4F3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8W4F3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:47:18 2019
+# [ok]

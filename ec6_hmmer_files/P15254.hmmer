@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase_5             PF13507.5  sp|P15254|PUR4_ECOLI -           3.4e-105  350.7   0.0  5.4e-105  350.1   0.0   1.2   1   0   0   1   1   1   1 CobB/CobQ-like glutamine amidotransferase domain
+AIRS_C               PF02769.21 sp|P15254|PUR4_ECOLI -            4.8e-42  143.6   2.3   6.7e-26   91.2   0.0   2.4   2   0   0   2   2   2   2 AIR synthase related protein, C-terminal domain
+AIRS                 PF00586.23 sp|P15254|PUR4_ECOLI -               0.03   14.9   0.6      0.71   10.5   0.0   3.2   3   0   0   3   3   3   0 AIR synthase related protein, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P15254.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P15254.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P15254.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:26:35 2019
+# [ok]

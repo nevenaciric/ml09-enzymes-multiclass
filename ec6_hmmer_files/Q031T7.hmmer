@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q031T7|SYY_LACLS  -            1.4e-82  277.2   0.2   1.9e-82  276.8   0.2   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|Q031T7|SYY_LACLS  -            1.1e-08   34.6   0.0   2.4e-08   33.5   0.0   1.6   1   0   0   1   1   1   1 S4 domain
+Acetyltransf_6       PF13480.6  sp|Q031T7|SYY_LACLS  -               0.14   12.2   0.0      0.37   10.8   0.0   1.7   1   0   0   1   1   1   0 Acetyltransferase (GNAT) domain
+CAF1-p150_C2         PF15539.5  sp|Q031T7|SYY_LACLS  -               0.16   11.3   0.0      0.24   10.7   0.0   1.2   1   0   0   1   1   1   0 CAF1 complex subunit p150, region binding to CAF1-p60 at C-term
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q031T7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q031T7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q031T7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:35:29 2019
+# [ok]

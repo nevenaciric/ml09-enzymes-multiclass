@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GARS_A               PF01071.18 sp|Q5XEF0|PUR2_STRP6 -            9.4e-81  270.1   0.1   1.4e-80  269.6   0.1   1.2   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+GARS_N               PF02844.14 sp|Q5XEF0|PUR2_STRP6 -            2.8e-31  108.1   0.5   1.5e-30  105.7   0.1   2.3   2   0   0   2   2   2   1 Phosphoribosylglycinamide synthetase, N domain
+GARS_C               PF02843.15 sp|Q5XEF0|PUR2_STRP6 -            2.7e-20   72.3   0.8   5.1e-19   68.2   0.0   2.5   2   1   0   2   2   2   1 Phosphoribosylglycinamide synthetase, C domain
+ATP-grasp_3          PF02655.13 sp|Q5XEF0|PUR2_STRP6 -            3.3e-06   27.1   0.0     8e-06   25.9   0.0   1.7   1   0   0   1   1   1   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|Q5XEF0|PUR2_STRP6 -            3.2e-05   23.4   0.3   5.1e-05   22.8   0.3   1.3   1   0   0   1   1   1   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATP-grasp            PF02222.21 sp|Q5XEF0|PUR2_STRP6 -            8.8e-05   22.0   0.1   0.00017   21.1   0.1   1.4   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_2          PF08442.9  sp|Q5XEF0|PUR2_STRP6 -             0.0006   19.3   0.1     0.001   18.6   0.1   1.3   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_4          PF13535.5  sp|Q5XEF0|PUR2_STRP6 -              0.001   18.6   0.0    0.0023   17.4   0.0   1.6   1   0   0   1   1   1   1 ATP-grasp domain
+RimK                 PF08443.10 sp|Q5XEF0|PUR2_STRP6 -             0.0092   15.5   0.0     0.033   13.7   0.0   1.8   2   0   0   2   2   2   1 RimK-like ATP-grasp domain
+ATPgrasp_Ter         PF15632.5  sp|Q5XEF0|PUR2_STRP6 -               0.02   13.5   0.1     0.077   11.6   0.1   1.9   1   1   0   1   1   1   0 ATP-grasp in the biosynthetic pathway with Ter operon
+ATP-grasp_5          PF13549.5  sp|Q5XEF0|PUR2_STRP6 -               0.13   11.6   0.5      0.42    9.9   0.5   1.8   1   1   0   1   1   1   0 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5XEF0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5XEF0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5XEF0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:18:15 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|A1S5R7|DNLJ_SHEAM -           7.3e-128  426.0   0.0  1.1e-127  425.5   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|A1S5R7|DNLJ_SHEAM -            7.5e-35  118.6   2.4   7.5e-35  118.6   2.4   2.4   2   0   0   2   2   2   1 NAD-dependent DNA ligase OB-fold domain
+HHH_2                PF12826.6  sp|A1S5R7|DNLJ_SHEAM -            1.8e-24   85.5   0.7   1.9e-23   82.2   0.4   2.7   2   0   0   2   2   2   1 Helix-hairpin-helix motif
+HHH_5                PF14520.5  sp|A1S5R7|DNLJ_SHEAM -            1.1e-13   51.4   0.4     4e-06   27.2   0.0   2.6   2   0   0   2   2   2   2 Helix-hairpin-helix domain
+BRCT                 PF00533.25 sp|A1S5R7|DNLJ_SHEAM -            1.9e-12   47.3   0.0   3.5e-12   46.4   0.0   1.4   1   0   0   1   1   1   1 BRCA1 C Terminus (BRCT) domain
+DNA_ligase_ZBD       PF03119.15 sp|A1S5R7|DNLJ_SHEAM -            1.2e-10   41.2   3.0   3.1e-10   39.8   3.0   1.8   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+PTCB-BRCT            PF12738.6  sp|A1S5R7|DNLJ_SHEAM -            2.5e-05   24.0   0.2   8.8e-05   22.3   0.1   1.9   2   0   0   2   2   2   1 twin BRCT domain
+HHH                  PF00633.22 sp|A1S5R7|DNLJ_SHEAM -             0.0033   17.1   0.1     0.021   14.6   0.0   2.5   2   0   0   2   2   2   1 Helix-hairpin-helix motif
+5_3_exonuc           PF01367.19 sp|A1S5R7|DNLJ_SHEAM -              0.039   14.4   0.0      0.26   11.8   0.0   2.4   2   0   0   2   2   2   0 5'-3' exonuclease, C-terminal SAM fold
+MazE_antitoxin       PF04014.17 sp|A1S5R7|DNLJ_SHEAM -               0.35   10.8   1.8       1.6    8.6   0.2   2.5   2   0   0   2   2   2   0 Antidote-toxin recognition MazE, bacterial antitoxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A1S5R7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A1S5R7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A1S5R7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:10:32 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|B0BB49|SYY_CHLTB  -            3.2e-77  259.6   0.0   4.1e-77  259.3   0.0   1.0   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|B0BB49|SYY_CHLTB  -            1.5e-09   37.3   0.0   3.2e-09   36.3   0.0   1.6   1   0   0   1   1   1   1 S4 domain
+TyrRSs_C             PF16714.4  sp|B0BB49|SYY_CHLTB  -            0.00059   19.5   0.0    0.0012   18.6   0.0   1.5   1   0   0   1   1   1   1 Tyrosyl-tRNA synthetase C-terminal domain
+Phage_holin_6_1      PF09682.9  sp|B0BB49|SYY_CHLTB  -              0.063   13.6   0.4      0.13   12.6   0.4   1.5   1   0   0   1   1   1   0 Bacteriophage holin of superfamily 6 (Holin_LLH)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B0BB49.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B0BB49.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B0BB49.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:40:51 2019
+# [ok]

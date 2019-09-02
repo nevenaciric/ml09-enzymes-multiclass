@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q6HCM0|SYY1_BACHK -            9.4e-88  294.2   0.0   1.2e-87  293.9   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|Q6HCM0|SYY1_BACHK -            6.4e-08   32.1   0.1   1.3e-07   31.1   0.1   1.5   1   0   0   1   1   1   1 S4 domain
+DUF2833              PF11090.7  sp|Q6HCM0|SYY1_BACHK -               0.15   12.4   0.3      0.53   10.6   0.1   2.1   2   0   0   2   2   2   0 Protein of unknown function (DUF2833)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6HCM0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6HCM0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6HCM0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:24:31 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|P52496|DNLI4_CANAL -            4.4e-65  219.0   0.0   7.9e-65  218.2   0.0   1.4   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|P52496|DNLI4_CANAL -            2.2e-28   99.7   0.2   6.4e-28   98.1   0.3   1.8   2   0   0   2   2   2   1 DNA ligase N terminus
+BRCT_2               PF16589.4  sp|P52496|DNLI4_CANAL -            4.6e-19   68.5   0.2   4.9e-11   42.8   0.0   2.9   2   0   0   2   2   2   2 BRCT domain, a BRCA1 C-terminus domain
+BRCT                 PF00533.25 sp|P52496|DNLI4_CANAL -            5.5e-12   45.8   0.1   2.1e-08   34.4   0.0   3.0   2   1   0   2   2   2   2 BRCA1 C Terminus (BRCT) domain
+RNA_ligase           PF09414.9  sp|P52496|DNLI4_CANAL -            4.1e-10   40.1   0.0   8.7e-10   39.0   0.0   1.6   1   0   0   1   1   1   1 RNA ligase
+mRNA_cap_enzyme      PF01331.18 sp|P52496|DNLI4_CANAL -            4.5e-06   26.5   0.4     0.031   14.0   0.0   3.0   2   1   0   2   2   2   2 mRNA capping enzyme, catalytic domain
+LIG3_BRCT            PF16759.4  sp|P52496|DNLI4_CANAL -             0.0089   16.2   0.0     0.024   14.8   0.0   1.8   1   0   0   1   1   1   1 DNA ligase 3 BRCT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P52496.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P52496.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P52496.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:29:37 2019
+# [ok]

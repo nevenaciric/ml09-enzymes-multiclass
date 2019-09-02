@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|Q08387|DNLI4_YEAST -            6.2e-56  189.2   0.0   1.1e-55  188.4   0.0   1.4   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|Q08387|DNLI4_YEAST -            2.3e-24   86.6   0.0     8e-24   84.8   0.0   2.0   2   0   0   2   2   2   1 DNA ligase N terminus
+BRCT                 PF00533.25 sp|Q08387|DNLI4_YEAST -            1.5e-21   76.5   0.4     7e-12   45.5   0.1   2.7   2   0   0   2   2   2   2 BRCA1 C Terminus (BRCT) domain
+BRCT_2               PF16589.4  sp|Q08387|DNLI4_YEAST -            2.7e-18   66.0   0.3   8.7e-10   38.8   0.0   2.8   2   0   0   2   2   2   2 BRCT domain, a BRCA1 C-terminus domain
+RNA_ligase           PF09414.9  sp|Q08387|DNLI4_YEAST -            1.4e-10   41.6   0.0   4.7e-10   39.9   0.0   1.9   2   0   0   2   2   2   1 RNA ligase
+DNA_ligase_A_C       PF04679.14 sp|Q08387|DNLI4_YEAST -             0.0038   17.7   0.0    0.0081   16.6   0.0   1.5   1   0   0   1   1   1   1 ATP dependent DNA ligase C terminal region
+mRNA_cap_enzyme      PF01331.18 sp|Q08387|DNLI4_YEAST -              0.012   15.4   0.5       2.2    8.0   0.0   2.5   2   0   0   2   2   2   0 mRNA capping enzyme, catalytic domain
+Fve                  PF09259.10 sp|Q08387|DNLI4_YEAST -              0.017   15.2   0.0      0.38   10.8   0.0   2.5   2   0   0   2   2   2   0 Fungal immunomodulatory protein Fve
+LIG3_BRCT            PF16759.4  sp|Q08387|DNLI4_YEAST -              0.043   14.0   0.1       1.1    9.5   0.1   2.6   2   0   0   2   2   2   0 DNA ligase 3 BRCT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q08387.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q08387.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q08387.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:37:58 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|B0R5U5|SUCC_HALS3 -              5e-66  222.0   1.6   9.3e-66  221.1   1.6   1.4   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_5          PF13549.5  sp|B0R5U5|SUCC_HALS3 -            3.8e-22   78.7   5.8   3.1e-21   75.8   5.2   2.3   2   1   0   2   2   2   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|B0R5U5|SUCC_HALS3 -            9.9e-14   51.3   0.5   2.1e-13   50.3   0.5   1.5   1   0   0   1   1   1   1 CoA-ligase
+CPSase_L_D2          PF02786.16 sp|B0R5U5|SUCC_HALS3 -            3.2e-13   49.6   2.0     3e-11   43.1   0.6   2.4   2   0   0   2   2   2   2 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATP-grasp            PF02222.21 sp|B0R5U5|SUCC_HALS3 -            3.8e-08   33.0   0.1   7.4e-08   32.0   0.1   1.5   1   0   0   1   1   1   1 ATP-grasp domain
+GARS_A               PF01071.18 sp|B0R5U5|SUCC_HALS3 -            3.9e-07   29.9   1.5   5.1e-07   29.6   0.3   1.7   2   0   0   2   2   2   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+RimK                 PF08443.10 sp|B0R5U5|SUCC_HALS3 -              0.045   13.2   0.0     0.087   12.3   0.0   1.4   1   0   0   1   1   1   0 RimK-like ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B0R5U5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B0R5U5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B0R5U5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:42:13 2019
+# [ok]

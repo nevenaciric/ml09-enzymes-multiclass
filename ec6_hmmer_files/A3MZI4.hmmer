@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FTHFS                PF01268.18 sp|A3MZI4|FTHS_ACTP2 -           1.9e-269  894.5   3.7  2.1e-269  894.3   3.7   1.0   1   0   0   1   1   1   1 Formate--tetrahydrofolate ligase
+CbiA                 PF01656.22 sp|A3MZI4|FTHS_ACTP2 -              0.011   15.7   0.0     0.067   13.1   0.0   2.4   1   1   0   1   1   1   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+NB-ARC               PF00931.21 sp|A3MZI4|FTHS_ACTP2 -              0.071   12.0   0.0      0.13   11.2   0.0   1.4   1   0   0   1   1   1   0 NB-ARC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A3MZI4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A3MZI4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A3MZI4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:15:31 2019
+# [ok]

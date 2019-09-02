@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RimK                 PF08443.10 sp|Q8EEU3|RIMK2_SHEON -            1.3e-66  223.8   0.0   1.6e-66  223.4   0.0   1.1   1   0   0   1   1   1   1 RimK-like ATP-grasp domain
+GSH-S_ATP            PF02955.15 sp|Q8EEU3|RIMK2_SHEON -            1.2e-17   63.8   0.2   1.7e-17   63.2   0.2   1.2   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, ATP-grasp domain
+ATP-grasp_3          PF02655.13 sp|Q8EEU3|RIMK2_SHEON -            2.5e-08   34.0   0.0   3.6e-08   33.5   0.0   1.2   1   0   0   1   1   1   1 ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|Q8EEU3|RIMK2_SHEON -            1.6e-06   27.5   0.1     0.044   12.9   0.0   2.9   1   1   1   2   2   2   2 Sugar-transfer associated ATP-grasp
+Dala_Dala_lig_C      PF07478.12 sp|Q8EEU3|RIMK2_SHEON -            0.00022   20.7   0.1    0.0033   16.9   0.1   2.1   1   1   0   1   1   1   1 D-ala D-ala ligase C-terminus
+ATPgrasp_YheCD       PF14398.5  sp|Q8EEU3|RIMK2_SHEON -             0.0064   15.7   0.0     0.071   12.2   0.0   2.4   1   1   1   2   2   2   1 YheC/D like ATP-grasp
+Glyco_trans_4_2      PF13477.5  sp|Q8EEU3|RIMK2_SHEON -              0.082   12.8   0.0      0.19   11.7   0.0   1.6   1   0   0   1   1   1   0 Glycosyl transferase 4-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8EEU3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8EEU3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8EEU3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:41:21 2019
+# [ok]

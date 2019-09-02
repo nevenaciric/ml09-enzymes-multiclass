@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|Q1D7R9|SYGB_MYXXD -           1.1e-198  661.4   0.0  1.3e-198  661.1   0.0   1.0   1   0   0   1   1   1   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|Q1D7R9|SYGB_MYXXD -            2.1e-06   27.8   0.0   6.9e-06   26.1   0.0   1.9   2   0   0   2   2   2   1 DALR anticodon binding domain
+PEP-utilisers_N      PF05524.12 sp|Q1D7R9|SYGB_MYXXD -              0.038   14.1   3.5      0.76    9.9   0.1   3.2   3   0   0   3   3   3   0 PEP-utilising enzyme, N-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q1D7R9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q1D7R9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q1D7R9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:45:58 2019
+# [ok]

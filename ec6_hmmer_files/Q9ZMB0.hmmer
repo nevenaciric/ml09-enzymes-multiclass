@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q9ZMB0|NADE_HELPJ -              4e-92  307.6   0.0   4.5e-92  307.4   0.0   1.0   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|Q9ZMB0|NADE_HELPJ -             0.0001   21.1   0.0     0.028   13.1   0.0   2.2   2   0   0   2   2   2   2 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|Q9ZMB0|NADE_HELPJ -              0.012   15.2   0.0     0.016   14.8   0.0   1.2   1   0   0   1   1   1   0 Asparagine synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9ZMB0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9ZMB0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9ZMB0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 17:00:32 2019
+# [ok]

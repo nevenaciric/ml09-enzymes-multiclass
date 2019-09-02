@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP_bind_3           PF01171.19 sp|Q7VRC9|TILS_BLOFL -            1.8e-49  167.8   0.1   2.7e-49  167.3   0.1   1.2   1   0   0   1   1   1   1 PP-loop family
+TilS_C               PF11734.7  sp|Q7VRC9|TILS_BLOFL -            5.8e-29   99.2   0.0     1e-28   98.5   0.0   1.4   1   0   0   1   1   1   1 TilS substrate C-terminal domain
+TilS                 PF09179.10 sp|Q7VRC9|TILS_BLOFL -            1.3e-13   51.1   0.1   8.2e-13   48.6   0.0   2.4   2   0   0   2   2   2   1 TilS substrate binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q7VRC9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q7VRC9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q7VRC9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:32:56 2019
+# [ok]

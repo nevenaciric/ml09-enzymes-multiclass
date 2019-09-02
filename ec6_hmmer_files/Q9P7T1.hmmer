@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q9P7T1|SIB1_SCHPO -           1.2e-168  561.0   0.0     7e-81  271.9   0.0   4.5   5   0   0   5   5   5   4 AMP-binding enzyme
+Condensation         PF00668.19 sp|Q9P7T1|SIB1_SCHPO -           5.3e-150  500.0   7.2   1.2e-32  113.1   0.1   7.3   6   1   1   7   7   7   7 Condensation domain
+PP-binding           PF00550.24 sp|Q9P7T1|SIB1_SCHPO -            3.7e-41  139.2   7.8   3.1e-10   40.1   0.0   6.7   6   0   0   6   6   6   6 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|Q9P7T1|SIB1_SCHPO -            3.4e-07   31.0   0.1     0.085   13.8   0.0   3.5   4   0   0   4   4   4   2 AMP-binding enzyme C-terminal domain
+Transferase          PF02458.14 sp|Q9P7T1|SIB1_SCHPO -              0.038   12.5   0.0       5.1    5.5   0.0   3.7   4   0   0   4   4   4   0 Transferase family
+RraB                 PF06877.10 sp|Q9P7T1|SIB1_SCHPO -              0.058   14.0   0.3       1.2    9.8   0.1   3.5   3   0   0   3   3   3   0 Regulator of ribonuclease activity B
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9P7T1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9P7T1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9P7T1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:56:56 2019
+# [ok]

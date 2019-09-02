@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|Q4FMP8|SYDND_PELUB -            2.4e-96  322.4   0.2   3.2e-96  322.0   0.2   1.2   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+tRNA_anti-codon      PF01336.24 sp|Q4FMP8|SYDND_PELUB -            6.1e-15   54.9   0.3   1.8e-14   53.4   0.3   1.9   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+GAD                  PF02938.13 sp|Q4FMP8|SYDND_PELUB -            1.1e-14   54.3   0.4   2.7e-14   53.1   0.4   1.7   1   0   0   1   1   1   1 GAD domain
+Adeno_terminal       PF02459.14 sp|Q4FMP8|SYDND_PELUB -              0.036   12.4   0.2     0.054   11.8   0.2   1.1   1   0   0   1   1   1   0 Adenoviral DNA terminal protein
+tRNA-synt_2b         PF00587.24 sp|Q4FMP8|SYDND_PELUB -               0.04   13.8   0.0     0.087   12.7   0.0   1.6   1   0   0   1   1   1   0 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_2d         PF01409.19 sp|Q4FMP8|SYDND_PELUB -                0.2   11.0   1.1       5.9    6.2   0.2   2.7   3   0   0   3   3   3   0 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q4FMP8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q4FMP8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q4FMP8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:06:20 2019
+# [ok]

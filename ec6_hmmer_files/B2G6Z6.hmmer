@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|B2G6Z6|SYGB_LACRJ -           1.2e-206  687.7   0.1  1.5e-206  687.4   0.1   1.1   1   0   0   1   1   1   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|B2G6Z6|SYGB_LACRJ -             0.0013   18.8   0.5      0.01   15.9   0.2   2.4   2   0   0   2   2   2   1 DALR anticodon binding domain
+ATP-synt_F6          PF05511.10 sp|B2G6Z6|SYGB_LACRJ -                0.1   12.9   0.2      0.61   10.4   0.1   2.3   2   0   0   2   2   2   0 Mitochondrial ATP synthase coupling factor 6
+GatB_Yqey            PF02637.17 sp|B2G6Z6|SYGB_LACRJ -               0.18   11.6   3.4       1.2    8.9   0.2   3.4   4   0   0   4   4   4   0 GatB domain
+E2F_TDP              PF02319.19 sp|B2G6Z6|SYGB_LACRJ -               0.38   10.7   2.6         2    8.4   0.1   2.9   3   0   0   3   3   3   0 E2F/DP family winged-helix DNA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2G6Z6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2G6Z6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2G6Z6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:49:05 2019
+# [ok]

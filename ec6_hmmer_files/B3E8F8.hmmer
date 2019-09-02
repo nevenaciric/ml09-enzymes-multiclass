@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|B3E8F8|DNLJ_GEOLS -           1.7e-124  415.0   0.0  2.4e-124  414.5   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|B3E8F8|DNLJ_GEOLS -            3.9e-35  119.5   3.3   8.7e-35  118.4   2.9   1.9   2   0   0   2   2   2   1 NAD-dependent DNA ligase OB-fold domain
+HHH_2                PF12826.6  sp|B3E8F8|DNLJ_GEOLS -            6.8e-28   96.5   0.2   9.9e-27   92.7   0.0   2.9   2   0   0   2   2   2   1 Helix-hairpin-helix motif
+HHH_5                PF14520.5  sp|B3E8F8|DNLJ_GEOLS -            3.2e-14   53.2   0.1     1e-05   25.9   0.1   2.8   2   0   0   2   2   2   2 Helix-hairpin-helix domain
+BRCT                 PF00533.25 sp|B3E8F8|DNLJ_GEOLS -            7.8e-13   48.5   0.0   1.6e-12   47.5   0.0   1.5   1   0   0   1   1   1   1 BRCA1 C Terminus (BRCT) domain
+DNA_ligase_ZBD       PF03119.15 sp|B3E8F8|DNLJ_GEOLS -            9.6e-09   35.0   5.7     2e-08   34.0   5.7   1.6   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+PTCB-BRCT            PF12738.6  sp|B3E8F8|DNLJ_GEOLS -            1.2e-07   31.4   0.0   2.4e-07   30.5   0.0   1.5   1   0   0   1   1   1   1 twin BRCT domain
+HHH                  PF00633.22 sp|B3E8F8|DNLJ_GEOLS -            2.8e-06   26.8   0.0   1.1e-05   25.0   0.0   2.1   1   0   0   1   1   1   1 Helix-hairpin-helix motif
+5_3_exonuc           PF01367.19 sp|B3E8F8|DNLJ_GEOLS -               0.06   13.8   0.0      0.46   11.0   0.0   2.3   2   0   0   2   2   2   0 5'-3' exonuclease, C-terminal SAM fold
+E1-E2_ATPase         PF00122.19 sp|B3E8F8|DNLJ_GEOLS -              0.067   12.6   0.2      0.14   11.5   0.2   1.5   1   0   0   1   1   1   0 E1-E2 ATPase
+HHH_3                PF12836.6  sp|B3E8F8|DNLJ_GEOLS -              0.083   13.1   0.0        14    6.0   0.0   3.5   3   0   0   3   3   3   0 Helix-hairpin-helix motif
+Fur_reg_FbpA         PF13076.5  sp|B3E8F8|DNLJ_GEOLS -               0.11   12.1   0.2      0.11   12.1   0.2   2.3   2   0   0   2   2   2   0 Fur-regulated basic protein A
+zf-NADH-PPase        PF09297.10 sp|B3E8F8|DNLJ_GEOLS -                2.6    7.7   6.1         6    6.5   6.1   1.6   1   0   0   1   1   1   0 NADH pyrophosphatase zinc ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B3E8F8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B3E8F8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B3E8F8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:53:12 2019
+# [ok]

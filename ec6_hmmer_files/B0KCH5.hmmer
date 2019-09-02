@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|B0KCH5|SYP_THEP3  -            4.1e-55  186.4   0.0     8e-55  185.5   0.0   1.5   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA_edit            PF04073.14 sp|B0KCH5|SYP_THEP3  -            4.7e-28   97.6   0.0   9.1e-28   96.7   0.0   1.5   1   0   0   1   1   1   1 Aminoacyl-tRNA editing domain
+HGTP_anticodon       PF03129.19 sp|B0KCH5|SYP_THEP3  -            4.2e-20   71.6   3.4   9.1e-20   70.5   3.4   1.6   1   0   0   1   1   1   1 Anticodon binding domain
+TIR_2                PF13676.5  sp|B0KCH5|SYP_THEP3  -             0.0068   16.6   0.0     0.017   15.3   0.0   1.6   1   0   0   1   1   1   1 TIR domain
+zf-TFIIB             PF13453.5  sp|B0KCH5|SYP_THEP3  -              0.028   13.7   0.2         3    7.2   0.0   2.4   2   0   0   2   2   2   0 Transcription factor zinc-finger
+Phos_pyr_kin         PF08543.11 sp|B0KCH5|SYP_THEP3  -              0.042   13.1   0.6     0.077   12.3   0.2   1.5   2   0   0   2   2   2   0 Phosphomethylpyrimidine kinase
+GP3_package          PF16677.4  sp|B0KCH5|SYP_THEP3  -              0.086   12.9   1.4         5    7.2   0.0   2.9   2   1   0   2   2   2   0 DNA-packaging protein gp3
+DZR                  PF12773.6  sp|B0KCH5|SYP_THEP3  -               0.21   11.5   0.5        26    4.9   0.2   2.3   2   0   0   2   2   2   0 Double zinc ribbon
+zf-ribbon_3          PF13248.5  sp|B0KCH5|SYP_THEP3  -                0.3   10.5   4.4      0.53    9.7   0.2   2.4   2   0   0   2   2   2   0 zinc-ribbon domain
+zinc_ribbon_2        PF13240.5  sp|B0KCH5|SYP_THEP3  -               0.39   10.4   3.3       3.6    7.3   0.2   2.7   2   0   0   2   2   2   0 zinc-ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B0KCH5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B0KCH5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B0KCH5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:41:58 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Dala_Dala_lig_C      PF07478.12 sp|Q83G28|DDL_TROWT  -            1.8e-47  161.4   0.0   2.3e-47  161.1   0.0   1.1   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+Dala_Dala_lig_N      PF01820.20 sp|Q83G28|DDL_TROWT  -            1.3e-25   89.7   0.0   2.7e-25   88.7   0.0   1.5   1   0   0   1   1   1   1 D-ala D-ala ligase N-terminus
+ATP-grasp_3          PF02655.13 sp|Q83G28|DDL_TROWT  -              0.015   15.3   0.0     0.037   14.0   0.0   1.6   1   1   0   1   1   1   0 ATP-grasp domain
+ATPgrasp_TupA        PF14305.5  sp|Q83G28|DDL_TROWT  -               0.11   12.2   0.0      0.17   11.5   0.0   1.4   1   0   0   1   1   1   0 TupA-like ATPgrasp
+ATP-grasp            PF02222.21 sp|Q83G28|DDL_TROWT  -               0.17   11.3   0.0      0.75    9.2   0.0   1.9   1   1   0   1   1   1   0 ATP-grasp domain
+RimK                 PF08443.10 sp|Q83G28|DDL_TROWT  -               0.21   11.1   0.0       1.4    8.4   0.0   2.0   2   0   0   2   2   2   0 RimK-like ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q83G28.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q83G28.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q83G28.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:35:45 2019
+# [ok]

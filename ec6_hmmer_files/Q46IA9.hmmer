@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|Q46IA9|DNLJ_PROMT -           1.3e-116  389.0   0.1  2.7e-116  388.0   0.1   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|Q46IA9|DNLJ_PROMT -            1.5e-29  101.6   0.2   2.8e-29  100.7   0.2   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+BRCT                 PF00533.25 sp|Q46IA9|DNLJ_PROMT -            1.7e-18   66.7   0.3     7e-18   64.7   0.1   2.2   2   0   0   2   2   2   1 BRCA1 C Terminus (BRCT) domain
+HHH_2                PF12826.6  sp|Q46IA9|DNLJ_PROMT -            1.7e-17   63.1   0.9   1.1e-14   54.2   0.0   3.7   4   0   0   4   4   4   1 Helix-hairpin-helix motif
+HHH_5                PF14520.5  sp|Q46IA9|DNLJ_PROMT -            3.8e-13   49.7   0.0   1.3e-06   28.8   0.0   2.9   2   0   0   2   2   2   2 Helix-hairpin-helix domain
+PTCB-BRCT            PF12738.6  sp|Q46IA9|DNLJ_PROMT -            2.5e-08   33.6   0.0   7.1e-08   32.2   0.0   1.8   1   0   0   1   1   1   1 twin BRCT domain
+DNA_ligase_ZBD       PF03119.15 sp|Q46IA9|DNLJ_PROMT -            3.5e-06   26.8   1.2   7.4e-06   25.8   1.2   1.6   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+BRCT_2               PF16589.4  sp|Q46IA9|DNLJ_PROMT -            0.00012   22.3   0.0   0.00028   21.1   0.0   1.6   1   0   0   1   1   1   1 BRCT domain, a BRCA1 C-terminus domain
+5_3_exonuc           PF01367.19 sp|Q46IA9|DNLJ_PROMT -             0.0098   16.4   0.2      0.81   10.2   0.0   3.7   3   1   0   3   3   3   1 5'-3' exonuclease, C-terminal SAM fold
+RNA_pol_A_CTD        PF03118.14 sp|Q46IA9|DNLJ_PROMT -               0.66    9.7   6.0      0.26   11.0   0.5   2.9   3   0   0   3   3   3   0 Bacterial RNA polymerase, alpha chain C terminal domain
+Ribosomal_L12        PF00542.18 sp|Q46IA9|DNLJ_PROMT -                  1    9.7   3.8       8.6    6.7   0.1   3.4   3   0   0   3   3   3   0 Ribosomal protein L7/L12 C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q46IA9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q46IA9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q46IA9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:04:01 2019
+# [ok]

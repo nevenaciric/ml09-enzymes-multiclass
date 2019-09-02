@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1e         PF01406.18 sp|A4WH15|SYC_PYRAR  -           5.5e-113  377.2   0.0  9.9e-113  376.4   0.0   1.4   2   0   0   2   2   2   1 tRNA synthetases class I (C) catalytic domain
+tRNA-synt_1g         PF09334.10 sp|A4WH15|SYC_PYRAR  -              4e-10   38.9   0.1   2.8e-06   26.3   0.0   2.2   2   0   0   2   2   2   2 tRNA synthetases class I (M)
+tRNA-synt_1          PF00133.21 sp|A4WH15|SYC_PYRAR  -            2.3e-08   32.7   0.0   1.6e-07   29.9   0.0   2.0   2   0   0   2   2   2   1 tRNA synthetases class I (I, L, M and V)
+DALR_2               PF09190.10 sp|A4WH15|SYC_PYRAR  -            5.3e-08   33.1   0.0   2.1e-07   31.2   0.0   2.1   2   0   0   2   2   2   1 DALR domain
+tRNA-synt_1f         PF01921.17 sp|A4WH15|SYC_PYRAR  -            2.3e-07   30.0   0.0   0.00026   19.9   0.0   2.3   2   0   0   2   2   2   2 tRNA synthetases class I (K)
+MIEAP                PF16026.4  sp|A4WH15|SYC_PYRAR  -              0.041   13.9   0.0      0.37   10.8   0.0   2.3   1   1   1   2   2   2   0 Mitochondria-eating protein
+tRNA-synt_1c         PF00749.20 sp|A4WH15|SYC_PYRAR  -               0.09   11.5   0.3      0.67    8.7   0.1   2.2   2   0   0   2   2   2   0 tRNA synthetases class I (E and Q), catalytic domain
+DUF3235              PF11574.7  sp|A4WH15|SYC_PYRAR  -               0.22   12.3   0.5       5.1    7.9   0.0   2.5   2   0   0   2   2   2   0 Protein of unknown function (DUF3235)
+14-3-3               PF00244.19 sp|A4WH15|SYC_PYRAR  -                2.9    7.2   5.2       7.6    5.8   0.1   3.6   2   1   3   5   5   5   0 14-3-3 protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A4WH15.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A4WH15.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A4WH15.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:19:24 2019
+# [ok]

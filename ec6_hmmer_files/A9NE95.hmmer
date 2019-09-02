@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FTHFS                PF01268.18 sp|A9NE95|FTHS_ACHLI -           9.4e-207  687.5   0.1  1.1e-206  687.3   0.1   1.0   1   0   0   1   1   1   1 Formate--tetrahydrofolate ligase
+CbiA                 PF01656.22 sp|A9NE95|FTHS_ACHLI -            2.7e-05   24.1   0.0    0.0008   19.4   0.2   2.3   2   1   0   2   2   2   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+RsgA_GTPase          PF03193.15 sp|A9NE95|FTHS_ACHLI -              0.043   13.6   0.2      0.22   11.3   0.0   2.2   2   0   0   2   2   2   0 RsgA GTPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A9NE95.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A9NE95.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A9NE95.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:39:46 2019
+# [ok]

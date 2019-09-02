@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|A6Q433|DNLJ_NITSB -           3.7e-114  381.0   0.9  5.8e-114  380.3   0.9   1.3   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|A6Q433|DNLJ_NITSB -            3.2e-32  110.2   4.6   7.7e-32  108.9   4.6   1.7   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+HHH_5                PF14520.5  sp|A6Q433|DNLJ_NITSB -            9.8e-12   45.2   0.2   2.2e-08   34.5   0.1   2.8   2   0   0   2   2   2   2 Helix-hairpin-helix domain
+HHH_2                PF12826.6  sp|A6Q433|DNLJ_NITSB -            2.8e-10   40.0   0.2   5.7e-08   32.6   0.0   3.1   3   0   0   3   3   3   1 Helix-hairpin-helix motif
+BRCT                 PF00533.25 sp|A6Q433|DNLJ_NITSB -            1.9e-08   34.5   0.0   7.3e-08   32.6   0.0   2.0   1   0   0   1   1   1   1 BRCA1 C Terminus (BRCT) domain
+DNA_ligase_ZBD       PF03119.15 sp|A6Q433|DNLJ_NITSB -              4e-05   23.5   2.5   9.5e-05   22.2   2.5   1.7   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+PTCB-BRCT            PF12738.6  sp|A6Q433|DNLJ_NITSB -            0.00023   20.9   0.0   0.00065   19.5   0.0   1.8   1   0   0   1   1   1   1 twin BRCT domain
+P4Ha_N               PF08336.10 sp|A6Q433|DNLJ_NITSB -              0.029   14.3   5.2      0.12   12.3   0.1   3.1   3   0   0   3   3   3   0 Prolyl 4-Hydroxylase alpha-subunit, N-terminal region
+HHH_3                PF12836.6  sp|A6Q433|DNLJ_NITSB -               0.04   14.1   0.0       5.8    7.2   0.0   3.0   3   0   0   3   3   3   0 Helix-hairpin-helix motif
+OAS1_C               PF10421.8  sp|A6Q433|DNLJ_NITSB -              0.061   12.7   0.7      0.14   11.5   0.2   1.8   2   0   0   2   2   2   0 2'-5'-oligoadenylate synthetase 1, domain 2, C-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A6Q433.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A6Q433.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A6Q433.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:25:43 2019
+# [ok]

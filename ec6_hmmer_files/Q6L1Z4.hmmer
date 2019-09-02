@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2c         PF01411.18 sp|Q6L1Z4|SYA_PICTO  -            2.1e-93  313.7   0.1   1.2e-92  311.2   0.1   1.9   1   1   0   1   1   1   1 tRNA synthetases class II (A)
+tRNA_SAD             PF07973.13 sp|Q6L1Z4|SYA_PICTO  -            5.5e-14   51.9   0.7   1.5e-13   50.5   0.7   1.8   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+zf-RRN7              PF11781.7  sp|Q6L1Z4|SYA_PICTO  -               0.51   10.0   2.1      0.46   10.1   0.1   1.9   2   0   0   2   2   2   0 Zinc-finger of RNA-polymerase I-specific TFIIB, Rrn7
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6L1Z4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6L1Z4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6L1Z4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:25:01 2019
+# [ok]

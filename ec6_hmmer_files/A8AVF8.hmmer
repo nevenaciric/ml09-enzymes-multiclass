@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HIGH_NTase1          PF05636.10 sp|A8AVF8|TMCAL_STRGC -           7.2e-106  354.7   0.0  8.6e-106  354.4   0.0   1.0   1   0   0   1   1   1   1 HIGH Nucleotidyl Transferase
+Citrate_ly_lig       PF08218.10 sp|A8AVF8|TMCAL_STRGC -            0.00065   19.3   0.0    0.0063   16.1   0.0   2.3   2   0   0   2   2   2   1 Citrate lyase ligase C-terminal domain
+CTP_transf_like      PF01467.25 sp|A8AVF8|TMCAL_STRGC -             0.0045   17.1   0.0    0.0099   16.0   0.0   1.8   1   1   0   1   1   1   1 Cytidylyltransferase-like
+Sec1                 PF00995.22 sp|A8AVF8|TMCAL_STRGC -              0.051   12.7   0.1     0.074   12.2   0.1   1.1   1   0   0   1   1   1   0 Sec1 family
+N1221                PF07923.12 sp|A8AVF8|TMCAL_STRGC -              0.068   12.3   0.0     0.094   11.8   0.0   1.2   1   0   0   1   1   1   0 N1221-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A8AVF8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A8AVF8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A8AVF8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:33:21 2019
+# [ok]

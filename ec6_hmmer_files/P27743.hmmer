@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|P27743|ACVS_AMYLA -             3e-261  866.1   0.0   3.7e-87  292.6   0.0   3.2   3   0   0   3   3   3   3 AMP-binding enzyme
+Condensation         PF00668.19 sp|P27743|ACVS_AMYLA -             7e-227  753.4   0.0   6.7e-84  282.1   0.0   4.2   4   0   0   4   4   4   4 Condensation domain
+PP-binding           PF00550.24 sp|P27743|ACVS_AMYLA -            1.6e-43  146.8   0.2   9.7e-15   54.6   0.0   3.8   3   0   0   3   3   3   3 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|P27743|ACVS_AMYLA -            1.2e-32  112.5   4.8   4.3e-11   43.5   0.1   4.2   3   0   0   3   3   3   3 AMP-binding enzyme C-terminal domain
+Thioesterase         PF00975.19 sp|P27743|ACVS_AMYLA -            1.5e-21   77.5   0.0     4e-21   76.1   0.0   1.8   1   0   0   1   1   1   1 Thioesterase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P27743.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P27743.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P27743.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:27:24 2019
+# [ok]

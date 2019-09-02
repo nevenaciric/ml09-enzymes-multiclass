@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q8KGD2|MURD_CHLTE -            2.8e-41  141.6   0.0     4e-41  141.0   0.0   1.2   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q8KGD2|MURD_CHLTE -            0.00013   22.1   0.0    0.0005   20.2   0.0   2.0   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+PT-VENN              PF04829.12 sp|Q8KGD2|MURD_CHLTE -              0.035   14.1   0.3      0.13   12.3   0.3   2.0   1   0   0   1   1   1   0 Pre-toxin domain with VENN motif
+FAD_binding_3        PF01494.18 sp|Q8KGD2|MURD_CHLTE -              0.095   11.9   0.3      0.15   11.2   0.3   1.2   1   0   0   1   1   1   0 FAD binding domain
+GIDA                 PF01134.21 sp|Q8KGD2|MURD_CHLTE -               0.11   11.5   0.4      0.16   10.9   0.4   1.3   1   0   0   1   1   1   0 Glucose inhibited division protein A
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8KGD2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8KGD2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8KGD2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:43:42 2019
+# [ok]

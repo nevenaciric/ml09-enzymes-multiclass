@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+B5                   PF03484.14 sp|Q6MT18|SYFB_MYCMS -            2.1e-16   59.9   0.0   8.3e-14   51.5   0.1   3.2   2   1   0   2   2   2   2 tRNA synthetase B5 domain
+FDX-ACB              PF03147.13 sp|Q6MT18|SYFB_MYCMS -              3e-14   53.1   1.6     3e-14   53.1   1.6   2.2   3   0   0   3   3   3   1 Ferredoxin-fold anticodon binding domain
+tRNA_bind            PF01588.19 sp|Q6MT18|SYFB_MYCMS -            9.7e-12   44.8   0.2     2e-11   43.7   0.2   1.5   1   0   0   1   1   1   1 Putative tRNA binding domain
+B3_4                 PF03483.16 sp|Q6MT18|SYFB_MYCMS -            9.5e-06   25.3   0.1   2.7e-05   23.8   0.1   1.8   1   0   0   1   1   1   1 B3/4 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6MT18.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6MT18.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6MT18.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:25:55 2019
+# [ok]

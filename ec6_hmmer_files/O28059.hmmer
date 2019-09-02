@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1          PF00133.21 sp|O28059|SYV_ARCFU  -             2e-146  488.6   2.4    3e-145  484.8   2.4   2.0   1   1   0   1   1   1   1 tRNA synthetases class I (I, L, M and V)
+Anticodon_1          PF08264.12 sp|O28059|SYV_ARCFU  -            8.5e-44  149.1   0.4   1.9e-43  148.0   0.4   1.6   1   0   0   1   1   1   1 Anticodon-binding domain of tRNA
+tRNA-synt_1g         PF09334.10 sp|O28059|SYV_ARCFU  -            1.8e-25   89.4   3.5   1.1e-14   54.0   0.0   3.7   4   0   0   4   4   4   3 tRNA synthetases class I (M)
+tRNA-synt_1e         PF01406.18 sp|O28059|SYV_ARCFU  -            3.5e-07   29.8   0.0    0.0063   15.8   0.0   2.4   2   0   0   2   2   2   2 tRNA synthetases class I (C) catalytic domain
+tRNA-synt_1_2        PF13603.5  sp|O28059|SYV_ARCFU  -            0.00039   19.9   0.0   0.00077   18.9   0.0   1.5   1   0   0   1   1   1   1 Leucyl-tRNA synthetase, Domain 2
+DZR                  PF12773.6  sp|O28059|SYV_ARCFU  -            0.00074   19.4   1.4      0.13   12.2   0.3   3.2   3   0   0   3   3   3   1 Double zinc ribbon
+Zn-ribbon_8          PF09723.9  sp|O28059|SYV_ARCFU  -              0.019   15.0   3.0     0.066   13.2   0.8   2.7   2   0   0   2   2   2   0 Zinc ribbon domain
+HypA                 PF01155.18 sp|O28059|SYV_ARCFU  -              0.035   14.0   0.3       1.4    8.8   0.0   3.0   3   0   0   3   3   3   0 Hydrogenase/urease nickel incorporation, metallochaperone, hypA
+zf-RRN7              PF11781.7  sp|O28059|SYV_ARCFU  -               0.25   11.0   4.1       2.6    7.7   0.4   2.7   2   0   0   2   2   2   0 Zinc-finger of RNA-polymerase I-specific TFIIB, Rrn7
+TF_Zn_Ribbon         PF08271.11 sp|O28059|SYV_ARCFU  -               0.71    9.3   6.1       8.2    5.9   0.2   3.7   3   0   0   3   3   3   0 TFIIB zinc-binding
+DUF35_N              PF12172.7  sp|O28059|SYV_ARCFU  -                2.3    8.1   7.9        15    5.4   1.0   3.4   3   0   0   3   3   3   0 Rubredoxin-like zinc ribbon domain (DUF35_N)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O28059.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O28059.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O28059.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:21:51 2019
+# [ok]

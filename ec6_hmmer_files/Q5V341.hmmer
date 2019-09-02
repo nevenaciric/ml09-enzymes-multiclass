@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase_3             PF07685.13 sp|Q5V341|CBIA_HALMA -              4e-33  114.6   0.0   5.2e-33  114.2   0.0   1.1   1   0   0   1   1   1   1 CobB/CobQ-like glutamine amidotransferase domain
+CbiA                 PF01656.22 sp|Q5V341|CBIA_HALMA -            1.1e-08   35.0   0.0   1.9e-08   34.3   0.0   1.4   1   0   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+AAA_26               PF13500.5  sp|Q5V341|CBIA_HALMA -            1.8e-07   31.1   0.3   0.00026   20.8   0.3   2.2   1   1   0   1   1   1   1 AAA domain
+SNO                  PF01174.18 sp|Q5V341|CBIA_HALMA -              0.028   14.2   0.0     0.046   13.5   0.0   1.3   1   0   0   1   1   1   0 SNO glutamine amidotransferase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5V341.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5V341.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5V341.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:17:12 2019
+# [ok]

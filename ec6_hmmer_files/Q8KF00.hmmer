@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QueC                 PF06508.12 sp|Q8KF00|QUEC_CHLTE -              7e-73  244.5   0.0   7.9e-73  244.3   0.0   1.0   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+ThiI                 PF02568.13 sp|Q8KF00|QUEC_CHLTE -            5.7e-07   29.2   0.0    0.0015   18.0   0.0   2.2   2   0   0   2   2   2   2 Thiamine biosynthesis protein (ThiI)
+ATP_bind_3           PF01171.19 sp|Q8KF00|QUEC_CHLTE -            0.00012   21.8   0.1    0.0021   17.8   0.0   2.2   2   0   0   2   2   2   1 PP-loop family
+tRNA_Me_trans        PF03054.15 sp|Q8KF00|QUEC_CHLTE -              0.032   12.9   0.0      0.04   12.6   0.0   1.2   1   0   0   1   1   1   0 tRNA methyl transferase
+PAPS_reduct          PF01507.18 sp|Q8KF00|QUEC_CHLTE -               0.08   12.9   0.0      0.15   12.0   0.0   1.4   2   0   0   2   2   2   0 Phosphoadenosine phosphosulfate reductase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8KF00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8KF00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8KF00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:43:38 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|P75114|SYE_MYCPN  -           9.9e-106  353.1   0.0  1.3e-105  352.7   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+FbpA                 PF05833.10 sp|P75114|SYE_MYCPN  -              0.043   12.5   1.1       1.6    7.3   0.0   2.2   2   0   0   2   2   2   0 Fibronectin-binding protein A N-terminus (FbpA)
+GAT                  PF03127.13 sp|P75114|SYE_MYCPN  -               0.12   12.7   0.2      0.29   11.4   0.2   1.6   1   0   0   1   1   1   0 GAT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P75114.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P75114.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P75114.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:33:06 2019
+# [ok]

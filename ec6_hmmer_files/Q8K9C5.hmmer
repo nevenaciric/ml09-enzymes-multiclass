@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|Q8K9C5|SYK_BUCAP  -            7.4e-84  281.4   3.6     1e-83  281.0   3.6   1.2   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+tRNA_anti-codon      PF01336.24 sp|Q8K9C5|SYK_BUCAP  -            4.5e-14   52.1   0.2     1e-13   50.9   0.2   1.7   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+tRNA-synt_2d         PF01409.19 sp|Q8K9C5|SYK_BUCAP  -            3.9e-07   29.7   0.2   0.00031   20.2   0.1   2.5   2   0   0   2   2   2   2 tRNA synthetases class II core domain (F)
+DUF1108              PF06531.10 sp|Q8K9C5|SYK_BUCAP  -               0.19   11.8   5.3      0.12   12.4   0.5   2.9   3   0   0   3   3   3   0 Protein of unknown function (DUF1108)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8K9C5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8K9C5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8K9C5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:43:21 2019
+# [ok]

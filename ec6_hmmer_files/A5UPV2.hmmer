@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FTHFS                PF01268.18 sp|A5UPV2|FTHS_ROSS1 -           4.9e-256  850.2   0.0  5.5e-256  850.0   0.0   1.0   1   0   0   1   1   1   1 Formate--tetrahydrofolate ligase
+CbiA                 PF01656.22 sp|A5UPV2|FTHS_ROSS1 -            0.00038   20.4   0.0    0.0011   18.9   0.0   2.1   1   1   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+HTH_Tnp_ISL3         PF13542.5  sp|A5UPV2|FTHS_ROSS1 -              0.074   12.4   0.5       1.6    8.2   0.0   2.8   2   0   0   2   2   2   0 Helix-turn-helix domain of transposase family ISL3
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A5UPV2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A5UPV2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A5UPV2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:23:59 2019
+# [ok]

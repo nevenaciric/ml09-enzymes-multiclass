@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QueC                 PF06508.12 sp|Q220R7|QUEC_RHOFT -            8.9e-68  227.8   0.0     1e-67  227.6   0.0   1.0   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+ATP_bind_3           PF01171.19 sp|Q220R7|QUEC_RHOFT -               0.17   11.5   0.0      0.33   10.6   0.0   1.4   1   0   0   1   1   1   0 PP-loop family
+ThiI                 PF02568.13 sp|Q220R7|QUEC_RHOFT -               0.22   11.0   0.0       1.1    8.7   0.0   2.1   1   1   0   1   1   1   0 Thiamine biosynthesis protein (ThiI)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q220R7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q220R7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q220R7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:50:29 2019
+# [ok]

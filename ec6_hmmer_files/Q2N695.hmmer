@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|Q2N695|SUCC_ERYLH -            1.3e-73  246.8   0.3   1.8e-73  246.3   0.3   1.2   1   0   0   1   1   1   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|Q2N695|SUCC_ERYLH -            5.4e-27   94.4   0.7     1e-26   93.5   0.7   1.5   1   0   0   1   1   1   1 CoA-ligase
+ATP-grasp_5          PF13549.5  sp|Q2N695|SUCC_ERYLH -            1.1e-10   41.3   0.8   2.6e-10   40.0   0.8   1.7   1   1   0   1   1   1   1 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2N695.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2N695.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2N695.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:54:02 2019
+# [ok]

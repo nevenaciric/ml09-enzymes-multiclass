@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CTP_synth_N          PF06418.13 sp|Q5F3Z1|PYRG2_CHICK -           1.4e-130  434.2   0.3  1.8e-130  433.9   0.3   1.1   1   0   0   1   1   1   1 CTP synthase N-terminus
+GATase               PF00117.27 sp|Q5F3Z1|PYRG2_CHICK -            1.4e-56  191.2   0.0   2.4e-56  190.4   0.0   1.4   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|Q5F3Z1|PYRG2_CHICK -            2.7e-09   37.0   0.0   7.1e-09   35.6   0.0   1.7   1   0   0   1   1   1   1 Peptidase C26
+CbiA                 PF01656.22 sp|Q5F3Z1|PYRG2_CHICK -             0.0052   16.7   0.0     0.014   15.3   0.0   1.5   1   1   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5F3Z1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5F3Z1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5F3Z1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:11:11 2019
+# [ok]

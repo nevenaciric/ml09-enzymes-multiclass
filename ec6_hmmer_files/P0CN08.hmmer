@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|P0CN08|DNLI4_CRYNJ -            4.7e-40  137.3   0.1   9.5e-40  136.3   0.1   1.6   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|P0CN08|DNLI4_CRYNJ -            1.9e-35  122.6   0.0   3.6e-35  121.7   0.0   1.5   1   0   0   1   1   1   1 DNA ligase N terminus
+BRCT_2               PF16589.4  sp|P0CN08|DNLI4_CRYNJ -            9.1e-18   64.4   0.0   1.1e-09   38.5   0.0   3.1   3   0   0   3   3   3   2 BRCT domain, a BRCA1 C-terminus domain
+BRCT                 PF00533.25 sp|P0CN08|DNLI4_CRYNJ -            2.5e-12   46.9   0.0   8.7e-05   22.7   0.0   2.7   2   0   0   2   2   2   2 BRCA1 C Terminus (BRCT) domain
+RNA_ligase           PF09414.9  sp|P0CN08|DNLI4_CRYNJ -            8.5e-12   45.6   2.5   1.2e-10   41.8   0.5   2.9   3   0   0   3   3   3   1 RNA ligase
+LIG3_BRCT            PF16759.4  sp|P0CN08|DNLI4_CRYNJ -            1.4e-06   28.4   0.1   0.00099   19.3   0.0   2.5   2   0   0   2   2   2   2 DNA ligase 3 BRCT domain
+DNA_ligase_A_C       PF04679.14 sp|P0CN08|DNLI4_CRYNJ -            3.4e-06   27.5   0.0   6.3e-05   23.4   0.0   2.8   3   0   0   3   3   3   1 ATP dependent DNA ligase C terminal region
+PTCB-BRCT            PF12738.6  sp|P0CN08|DNLI4_CRYNJ -             0.0015   18.4   0.0      0.45   10.4   0.0   2.7   2   0   0   2   2   2   1 twin BRCT domain
+RTT107_BRCT_5        PF16770.4  sp|P0CN08|DNLI4_CRYNJ -               0.07   12.9   0.0       0.2   11.5   0.0   1.8   1   0   0   1   1   1   0 Regulator of Ty1 transposition protein 107 BRCT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P0CN08.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P0CN08.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P0CN08.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:25:30 2019
+# [ok]

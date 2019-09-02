@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GARS_A               PF01071.18 sp|Q87VR8|PUR2_PSESM -            2.5e-82  275.2   0.1   3.4e-82  274.9   0.1   1.2   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+GARS_N               PF02844.14 sp|Q87VR8|PUR2_PSESM -            8.7e-34  116.1   0.1   1.9e-33  115.0   0.1   1.6   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, N domain
+GARS_C               PF02843.15 sp|Q87VR8|PUR2_PSESM -            1.3e-27   95.8   1.0   5.2e-27   93.9   0.2   2.3   2   0   0   2   2   2   1 Phosphoribosylglycinamide synthetase, C domain
+ATP-grasp_3          PF02655.13 sp|Q87VR8|PUR2_PSESM -            4.6e-05   23.4   0.0   0.00015   21.8   0.0   1.8   1   1   0   1   1   1   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|Q87VR8|PUR2_PSESM -            6.1e-05   22.5   0.0     8e-05   22.1   0.0   1.3   1   0   0   1   1   1   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATP-grasp            PF02222.21 sp|Q87VR8|PUR2_PSESM -            0.00023   20.7   0.0    0.0004   19.9   0.0   1.3   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_4          PF13535.5  sp|Q87VR8|PUR2_PSESM -              0.011   15.2   0.0      0.03   13.8   0.0   1.8   1   1   0   1   1   1   0 ATP-grasp domain
+ATPgrasp_Ter         PF15632.5  sp|Q87VR8|PUR2_PSESM -              0.091   11.4   0.0       0.3    9.7   0.0   1.8   2   1   0   2   2   2   0 ATP-grasp in the biosynthetic pathway with Ter operon
+RimK                 PF08443.10 sp|Q87VR8|PUR2_PSESM -              0.092   12.2   0.0      0.16   11.4   0.0   1.3   1   0   0   1   1   1   0 RimK-like ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q87VR8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q87VR8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q87VR8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:37:12 2019
+# [ok]

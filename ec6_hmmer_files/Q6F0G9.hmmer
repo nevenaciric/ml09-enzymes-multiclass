@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CTP_synth_N          PF06418.13 sp|Q6F0G9|PYRG_MESFL -           3.6e-120  400.1   1.4  4.6e-120  399.8   1.4   1.1   1   0   0   1   1   1   1 CTP synthase N-terminus
+GATase               PF00117.27 sp|Q6F0G9|PYRG_MESFL -            4.8e-54  182.9   0.0   1.3e-53  181.5   0.0   1.8   2   0   0   2   2   2   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|Q6F0G9|PYRG_MESFL -            1.4e-06   28.2   0.0   2.5e-05   24.0   0.0   3.0   1   1   1   2   2   2   1 Peptidase C26
+CbiA                 PF01656.22 sp|Q6F0G9|PYRG_MESFL -             0.0022   18.0   0.0    0.0044   17.0   0.0   1.8   1   1   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+MAF_flag10           PF01973.17 sp|Q6F0G9|PYRG_MESFL -              0.054   13.1   0.1      0.17   11.4   0.1   1.9   2   0   0   2   2   2   0 Protein of unknown function DUF115
+TPK_catalytic        PF04263.15 sp|Q6F0G9|PYRG_MESFL -               0.17   11.9   0.3      0.65   10.0   0.1   2.1   2   0   0   2   2   2   0 Thiamin pyrophosphokinase, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6F0G9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6F0G9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6F0G9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:22:54 2019
+# [ok]

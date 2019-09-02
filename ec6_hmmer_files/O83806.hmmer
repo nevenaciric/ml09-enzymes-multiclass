@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|O83806|SYY_TREPA  -            4.3e-83  278.9   0.0   5.1e-83  278.7   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+TyrRSs_C             PF16714.4  sp|O83806|SYY_TREPA  -            0.00026   20.7   0.4    0.0034   17.1   0.6   2.4   2   1   0   2   2   2   1 Tyrosyl-tRNA synthetase C-terminal domain
+Acetyltransf_6       PF13480.6  sp|O83806|SYY_TREPA  -              0.082   13.0   1.7      0.68   10.0   0.1   2.8   3   0   0   3   3   3   0 Acetyltransferase (GNAT) domain
+S4                   PF01479.24 sp|O83806|SYY_TREPA  -               0.14   11.8   0.6      0.33   10.6   0.0   1.9   2   0   0   2   2   2   0 S4 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O83806.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O83806.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O83806.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:23:45 2019
+# [ok]

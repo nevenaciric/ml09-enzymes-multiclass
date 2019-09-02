@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|Q2U6A1|DNLI4_ASPOR -            1.6e-47  161.7   0.1   9.5e-47  159.2   0.0   2.4   2   0   0   2   2   2   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|Q2U6A1|DNLI4_ASPOR -            1.2e-44  152.6   0.0   3.5e-44  151.1   0.0   1.8   2   0   0   2   2   2   1 DNA ligase N terminus
+BRCT_2               PF16589.4  sp|Q2U6A1|DNLI4_ASPOR -            4.5e-21   74.9   0.1   1.9e-14   53.7   0.0   2.6   2   0   0   2   2   2   2 BRCT domain, a BRCA1 C-terminus domain
+RNA_ligase           PF09414.9  sp|Q2U6A1|DNLI4_ASPOR -            3.6e-17   63.0   0.0   8.3e-17   61.9   0.0   1.7   1   0   0   1   1   1   1 RNA ligase
+DNA_ligase_A_C       PF04679.14 sp|Q2U6A1|DNLI4_ASPOR -            1.9e-16   60.4   1.2   6.7e-16   58.6   0.0   2.7   4   0   0   4   4   3   1 ATP dependent DNA ligase C terminal region
+LIG3_BRCT            PF16759.4  sp|Q2U6A1|DNLI4_ASPOR -            1.1e-12   48.0   0.3   1.5e-05   25.1   0.0   2.5   2   0   0   2   2   2   2 DNA ligase 3 BRCT domain
+BRCT                 PF00533.25 sp|Q2U6A1|DNLI4_ASPOR -            1.5e-11   44.5   0.0   5.3e-08   33.0   0.0   2.9   2   0   0   2   2   2   2 BRCA1 C Terminus (BRCT) domain
+DNA_ligase_IV        PF11411.7  sp|Q2U6A1|DNLI4_ASPOR -             0.0002   21.2   0.1   0.00039   20.3   0.1   1.5   1   0   0   1   1   1   1 DNA ligase IV
+PTCB-BRCT            PF12738.6  sp|Q2U6A1|DNLI4_ASPOR -               0.01   15.7   0.1       1.5    8.7   0.0   2.6   2   0   0   2   2   2   0 twin BRCT domain
+RTT107_BRCT_5        PF16770.4  sp|Q2U6A1|DNLI4_ASPOR -              0.036   13.9   0.0       1.9    8.3   0.0   2.6   2   0   0   2   2   2   0 Regulator of Ty1 transposition protein 107 BRCT domain
+mRNA_cap_enzyme      PF01331.18 sp|Q2U6A1|DNLI4_ASPOR -              0.057   13.1   0.3       0.4   10.4   0.0   2.6   2   2   0   2   2   2   0 mRNA capping enzyme, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2U6A1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2U6A1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2U6A1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:55:57 2019
+# [ok]

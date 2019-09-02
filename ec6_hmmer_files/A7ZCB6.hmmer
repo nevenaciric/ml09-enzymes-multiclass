@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|A7ZCB6|SYE1_CAMC1 -            3.8e-80  269.0   0.0   4.7e-80  268.7   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+RRXRR                PF14239.5  sp|A7ZCB6|SYE1_CAMC1 -               0.12   12.1   0.2       3.1    7.5   0.0   2.8   2   1   1   3   3   3   0 RRXRR protein
+DUF4116              PF13475.5  sp|A7ZCB6|SYE1_CAMC1 -               0.27   10.9   3.4      0.67    9.6   0.3   2.5   2   0   0   2   2   2   0 Domain of unknown function (DUF4116)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A7ZCB6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A7ZCB6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A7ZCB6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:32:28 2019
+# [ok]

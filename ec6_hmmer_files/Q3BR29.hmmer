@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q3BR29|MURD2_XANC5 -              1e-23   84.2   0.0   1.7e-23   83.5   0.0   1.4   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q3BR29|MURD2_XANC5 -            7.5e-07   29.2   0.0   2.5e-06   27.6   0.0   1.9   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+CbiA                 PF01656.22 sp|Q3BR29|MURD2_XANC5 -              0.017   15.1   0.4     0.037   14.0   0.4   1.5   1   0   0   1   1   1   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3BR29.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3BR29.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3BR29.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:00:11 2019
+# [ok]

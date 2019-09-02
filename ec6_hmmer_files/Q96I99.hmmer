@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|Q96I99|SUCB2_HUMAN -            9.9e-78  260.2   0.7   1.9e-77  259.3   0.7   1.4   1   0   0   1   1   1   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|Q96I99|SUCB2_HUMAN -              7e-27   94.0   0.3     7e-27   94.0   0.3   1.8   2   0   0   2   2   2   1 CoA-ligase
+ATP-grasp_5          PF13549.5  sp|Q96I99|SUCB2_HUMAN -            5.4e-10   39.0   0.3   1.5e-09   37.5   0.1   1.7   2   0   0   2   2   2   1 ATP-grasp domain
+GARS_A               PF01071.18 sp|Q96I99|SUCB2_HUMAN -             0.0013   18.5   0.1    0.0024   17.5   0.1   1.4   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+ATP-grasp            PF02222.21 sp|Q96I99|SUCB2_HUMAN -              0.062   12.8   0.1      0.32   10.4   0.1   2.1   1   1   0   1   1   1   0 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q96I99.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q96I99.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q96I99.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:50:59 2019
+# [ok]

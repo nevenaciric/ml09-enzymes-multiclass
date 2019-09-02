@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|Q7Z7W5|DNLI4_COPCI -            1.2e-54  185.0   0.0   2.4e-54  184.0   0.0   1.5   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|Q7Z7W5|DNLI4_COPCI -              9e-42  143.2   1.0     2e-41  142.1   0.2   2.0   2   0   0   2   2   2   1 DNA ligase N terminus
+BRCT_2               PF16589.4  sp|Q7Z7W5|DNLI4_COPCI -            7.3e-23   80.7   0.0   5.5e-12   45.8   0.0   3.0   2   0   0   2   2   2   2 BRCT domain, a BRCA1 C-terminus domain
+DNA_ligase_A_C       PF04679.14 sp|Q7Z7W5|DNLI4_COPCI -            1.3e-16   60.9   0.0   6.8e-16   58.6   0.0   2.3   2   0   0   2   2   2   1 ATP dependent DNA ligase C terminal region
+RNA_ligase           PF09414.9  sp|Q7Z7W5|DNLI4_COPCI -            5.8e-12   46.1   0.1   2.1e-11   44.3   0.0   2.0   2   0   0   2   2   2   1 RNA ligase
+BRCT                 PF00533.25 sp|Q7Z7W5|DNLI4_COPCI -            3.7e-10   40.0   0.7   0.00021   21.5   0.1   3.0   3   0   0   3   3   3   2 BRCA1 C Terminus (BRCT) domain
+LIG3_BRCT            PF16759.4  sp|Q7Z7W5|DNLI4_COPCI -            0.00038   20.6   0.1    0.0035   17.5   0.0   2.5   2   1   0   2   2   2   1 DNA ligase 3 BRCT domain
+PTCB-BRCT            PF12738.6  sp|Q7Z7W5|DNLI4_COPCI -            0.00066   19.5   0.1      0.89    9.4   0.0   3.0   3   0   0   3   3   3   2 twin BRCT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q7Z7W5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q7Z7W5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q7Z7W5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:33:47 2019
+# [ok]

@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GARS_A               PF01071.18 sp|Q8U3N5|PUR2_PYRFU -            9.4e-61  204.9   0.0   1.8e-60  204.0   0.0   1.5   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+GARS_N               PF02844.14 sp|Q8U3N5|PUR2_PYRFU -              4e-24   85.1   0.5   9.8e-24   83.9   0.2   1.8   2   0   0   2   2   2   1 Phosphoribosylglycinamide synthetase, N domain
+GARS_C               PF02843.15 sp|Q8U3N5|PUR2_PYRFU -            2.3e-14   53.3   1.7   3.4e-13   49.6   0.0   3.1   3   1   0   3   3   3   1 Phosphoribosylglycinamide synthetase, C domain
+ATPgrasp_Ter         PF15632.5  sp|Q8U3N5|PUR2_PYRFU -            5.1e-07   28.6   0.0   2.4e-06   26.4   0.0   1.9   2   0   0   2   2   2   1 ATP-grasp in the biosynthetic pathway with Ter operon
+ATP-grasp_3          PF02655.13 sp|Q8U3N5|PUR2_PYRFU -            9.3e-07   28.9   0.0   1.9e-06   27.9   0.0   1.6   1   1   0   1   1   1   1 ATP-grasp domain
+Dala_Dala_lig_C      PF07478.12 sp|Q8U3N5|PUR2_PYRFU -            1.3e-05   24.7   0.0   3.5e-05   23.3   0.0   1.6   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+ATP-grasp_4          PF13535.5  sp|Q8U3N5|PUR2_PYRFU -            0.00011   21.7   0.2      0.11   12.0   0.5   2.9   2   1   0   2   2   2   2 ATP-grasp domain
+ATP-grasp            PF02222.21 sp|Q8U3N5|PUR2_PYRFU -            0.00027   20.4   0.1   0.00066   19.2   0.1   1.6   1   0   0   1   1   1   1 ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|Q8U3N5|PUR2_PYRFU -              0.008   15.4   0.0      0.26   10.4   0.0   2.1   2   0   0   2   2   2   1 Sugar-transfer associated ATP-grasp
+ATP-grasp_2          PF08442.9  sp|Q8U3N5|PUR2_PYRFU -               0.01   15.3   0.0     0.036   13.5   0.0   1.9   2   0   0   2   2   2   0 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|Q8U3N5|PUR2_PYRFU -              0.015   14.7   0.0     0.043   13.2   0.0   1.8   2   0   0   2   2   2   0 Carbamoyl-phosphate synthase L chain, ATP binding domain
+GSH-S_ATP            PF02955.15 sp|Q8U3N5|PUR2_PYRFU -              0.074   12.3   0.0      0.15   11.4   0.0   1.4   1   0   0   1   1   1   0 Prokaryotic glutathione synthetase, ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8U3N5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8U3N5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8U3N5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:46:53 2019
+# [ok]

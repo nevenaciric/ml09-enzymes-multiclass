@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|Q3AS30|SYDND_CHLCH -           5.3e-100  334.4   0.1  6.6e-100  334.1   0.1   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+GAD                  PF02938.13 sp|Q3AS30|SYDND_CHLCH -            5.3e-22   77.8   0.1   1.2e-21   76.7   0.1   1.6   1   0   0   1   1   1   1 GAD domain
+tRNA_anti-codon      PF01336.24 sp|Q3AS30|SYDND_CHLCH -            2.6e-17   62.5   0.0   1.5e-15   56.8   0.0   2.8   2   1   0   2   2   2   1 OB-fold nucleic acid binding domain
+tRNA-synt_2d         PF01409.19 sp|Q3AS30|SYDND_CHLCH -              0.028   13.8   3.1       0.5    9.7   0.0   3.2   3   1   0   3   3   3   0 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3AS30.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3AS30.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3AS30.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:59:39 2019
+# [ok]

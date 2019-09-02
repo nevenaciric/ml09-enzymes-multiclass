@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|A7GVZ2|SYT_CAMC5  -            3.2e-41  141.2   0.0   5.7e-41  140.3   0.0   1.4   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A7GVZ2|SYT_CAMC5  -            6.4e-22   77.4   0.8   6.4e-22   77.4   0.8   2.6   3   0   0   3   3   3   1 Anticodon binding domain
+tRNA_SAD             PF07973.13 sp|A7GVZ2|SYT_CAMC5  -            5.5e-12   45.5   0.0   1.3e-11   44.3   0.0   1.7   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+Peptidase_M20        PF01546.27 sp|A7GVZ2|SYT_CAMC5  -              0.066   12.8   0.0      0.16   11.6   0.0   1.6   1   0   0   1   1   1   0 Peptidase family M20/M25/M40
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A7GVZ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A7GVZ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A7GVZ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:30:07 2019
+# [ok]

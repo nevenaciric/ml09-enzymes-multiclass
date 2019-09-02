@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2d         PF01409.19 sp|O83938|SYFA_TREPA -            3.3e-81  272.3   0.0   4.7e-81  271.8   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+tRNA-synt_2          PF00152.19 sp|O83938|SYFA_TREPA -             0.0028   16.7   0.0     0.048   12.6   0.0   2.2   2   0   0   2   2   2   1 tRNA synthetases class II (D, K and N)
+DUF2582              PF10771.8  sp|O83938|SYFA_TREPA -              0.033   14.2   0.0       0.7   10.0   0.0   2.6   3   0   0   3   3   3   0 Winged helix-turn-helix domain (DUF2582)
+PG_binding_2         PF08823.10 sp|O83938|SYFA_TREPA -              0.092   13.0   0.0        19    5.6   0.0   2.9   3   0   0   3   3   3   0 Putative peptidoglycan binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O83938.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O83938.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O83938.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:23:47 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|A1RSR6|SYP_PYRIL  -            2.3e-26   92.7   0.1     4e-26   92.0   0.1   1.4   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A1RSR6|SYP_PYRIL  -            6.8e-23   80.6   0.1   1.4e-22   79.5   0.1   1.6   1   0   0   1   1   1   1 Anticodon binding domain
+ProRS-C_1            PF09180.10 sp|A1RSR6|SYP_PYRIL  -            6.4e-09   35.8   0.0   1.7e-08   34.5   0.0   1.8   2   0   0   2   2   2   1 Prolyl-tRNA synthetase, C-terminal
+Lambda_tail_I        PF06805.11 sp|A1RSR6|SYP_PYRIL  -              0.029   14.6   0.1     0.065   13.5   0.1   1.5   1   0   0   1   1   1   0 Bacteriophage lambda tail assembly protein I
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A1RSR6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A1RSR6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A1RSR6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:10:19 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CPSase_L_D2          PF02786.16 sp|A7I6J1|CARB_METB6 -           5.5e-105  349.4   0.6   4.5e-67  225.5   0.0   2.4   2   0   0   2   2   2   2 Carbamoyl-phosphate synthase L chain, ATP binding domain
+CPSase_L_D3          PF02787.18 sp|A7I6J1|CARB_METB6 -            8.9e-32  109.9   0.0   3.3e-31  108.1   0.0   2.0   2   0   0   2   2   2   1 Carbamoyl-phosphate synthetase large chain, oligomerisation domain
+MGS                  PF02142.21 sp|A7I6J1|CARB_METB6 -            1.5e-22   79.5   0.2     4e-20   71.7   0.0   4.0   4   0   0   4   4   4   1 MGS-like domain
+ATPgrasp_Ter         PF15632.5  sp|A7I6J1|CARB_METB6 -            5.9e-22   77.7   0.0   9.8e-08   31.0   0.0   4.3   4   1   0   4   4   4   3 ATP-grasp in the biosynthetic pathway with Ter operon
+ATP-grasp            PF02222.21 sp|A7I6J1|CARB_METB6 -            4.3e-18   65.4   0.1   1.8e-08   34.1   0.0   2.3   2   0   0   2   2   2   2 ATP-grasp domain
+Dala_Dala_lig_C      PF07478.12 sp|A7I6J1|CARB_METB6 -            1.9e-15   56.9   0.1     1e-07   31.6   0.1   2.6   2   1   0   2   2   2   2 D-ala D-ala ligase C-terminus
+ATP-grasp_3          PF02655.13 sp|A7I6J1|CARB_METB6 -            1.4e-13   51.1   0.3     2e-07   31.1   0.1   2.6   2   0   0   2   2   2   2 ATP-grasp domain
+Glyco_trans_4_2      PF13477.5  sp|A7I6J1|CARB_METB6 -            0.00048   20.1   0.0      0.44   10.5   0.0   3.5   3   0   0   3   3   3   1 Glycosyl transferase 4-like
+Amidinotransf        PF02274.16 sp|A7I6J1|CARB_METB6 -              0.067   12.2   0.0       4.7    6.1   0.0   2.2   2   0   0   2   2   2   0 Amidinotransferase
+ATP-grasp_2          PF08442.9  sp|A7I6J1|CARB_METB6 -              0.081   12.4   0.0        13    5.2   0.0   3.2   2   1   0   2   2   2   0 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A7I6J1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A7I6J1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A7I6J1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:31:01 2019
+# [ok]

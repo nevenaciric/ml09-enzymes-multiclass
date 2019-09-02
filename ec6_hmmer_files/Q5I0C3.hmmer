@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CPSase_L_D2          PF02786.16 sp|Q5I0C3|MCCA_RAT   -            9.2e-77  257.2   1.1   1.2e-76  256.8   0.1   1.6   2   0   0   2   2   2   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+Biotin_carb_N        PF00289.21 sp|Q5I0C3|MCCA_RAT   -              7e-49  164.9   1.1   4.3e-47  159.1   0.2   2.6   2   0   0   2   2   2   1 Biotin carboxylase, N-terminal domain
+Biotin_carb_C        PF02785.18 sp|Q5I0C3|MCCA_RAT   -              5e-36  123.0   0.0   4.2e-35  120.0   0.0   2.3   2   0   0   2   2   2   1 Biotin carboxylase C-terminal domain
+Biotin_lipoyl        PF00364.21 sp|Q5I0C3|MCCA_RAT   -            9.6e-16   57.3   0.4   2.7e-15   55.9   0.1   1.9   2   0   0   2   2   2   1 Biotin-requiring enzyme
+Dala_Dala_lig_C      PF07478.12 sp|Q5I0C3|MCCA_RAT   -            5.2e-14   52.2   0.0   1.2e-13   50.9   0.0   1.6   1   1   0   1   1   1   1 D-ala D-ala ligase C-terminus
+ATPgrasp_Ter         PF15632.5  sp|Q5I0C3|MCCA_RAT   -            2.5e-11   42.8   0.0   1.2e-10   40.5   0.0   1.9   1   1   0   1   1   1   1 ATP-grasp in the biosynthetic pathway with Ter operon
+ATP-grasp            PF02222.21 sp|Q5I0C3|MCCA_RAT   -              6e-11   42.1   0.1   1.3e-10   41.0   0.1   1.5   1   0   0   1   1   1   1 ATP-grasp domain
+Biotin_lipoyl_2      PF13533.5  sp|Q5I0C3|MCCA_RAT   -            1.6e-07   30.9   0.1   7.2e-05   22.4   0.0   2.7   3   0   0   3   3   2   1 Biotin-lipoyl like
+ATP-grasp_3          PF02655.13 sp|Q5I0C3|MCCA_RAT   -            3.9e-06   26.9   0.0   6.9e-06   26.1   0.0   1.4   1   0   0   1   1   1   1 ATP-grasp domain
+RimK                 PF08443.10 sp|Q5I0C3|MCCA_RAT   -            1.2e-05   24.8   0.0   8.1e-05   22.2   0.0   2.1   1   1   0   1   1   1   1 RimK-like ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|Q5I0C3|MCCA_RAT   -            0.00018   20.8   1.0     0.014   14.6   0.1   2.8   3   0   0   3   3   3   1 Sugar-transfer associated ATP-grasp
+ATP-grasp_4          PF13535.5  sp|Q5I0C3|MCCA_RAT   -             0.0067   15.9   0.0     0.014   14.9   0.0   1.5   1   0   0   1   1   1   1 ATP-grasp domain
+GARS_A               PF01071.18 sp|Q5I0C3|MCCA_RAT   -              0.012   15.3   0.1     0.023   14.4   0.1   1.4   1   0   0   1   1   1   0 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+PTS_EIIA_1           PF00358.19 sp|Q5I0C3|MCCA_RAT   -              0.015   15.0   0.6       1.8    8.2   0.1   3.2   2   1   0   2   2   2   0 phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+HlyD_3               PF13437.5  sp|Q5I0C3|MCCA_RAT   -              0.017   15.7   0.0       1.7    9.3   0.0   3.0   2   0   0   2   2   2   0 HlyD family secretion protein
+Ntox43               PF15537.5  sp|Q5I0C3|MCCA_RAT   -               0.03   14.2   0.0     0.068   13.1   0.0   1.6   1   0   0   1   1   1   0 Bacterial toxin 43
+HlyD_D23             PF16576.4  sp|Q5I0C3|MCCA_RAT   -              0.032   13.3   0.0      0.24   10.5   0.0   2.1   1   1   1   2   2   2   0 Barrel-sandwich domain of CusB or HlyD membrane-fusion
+RnfC_N               PF13375.5  sp|Q5I0C3|MCCA_RAT   -               0.11   12.4   0.0      0.28   11.1   0.0   1.7   1   0   0   1   1   1   0 RnfC Barrel sandwich hybrid domain
+DUF2118              PF09891.8  sp|Q5I0C3|MCCA_RAT   -               0.11   12.3   0.0      0.27   11.1   0.0   1.6   1   0   0   1   1   1   0 Uncharacterized protein conserved in archaea (DUF2118)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5I0C3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5I0C3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5I0C3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:13:29 2019
+# [ok]

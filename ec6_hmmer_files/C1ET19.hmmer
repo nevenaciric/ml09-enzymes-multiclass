@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1e         PF01406.18 sp|C1ET19|SYC_BACC3  -             2e-137  457.5   0.1    2e-137  457.5   0.1   1.5   2   0   0   2   2   2   1 tRNA synthetases class I (C) catalytic domain
+tRNA-synt_1g         PF09334.10 sp|C1ET19|SYC_BACC3  -            2.4e-16   59.5   2.6   8.7e-10   37.8   0.1   2.6   3   0   0   3   3   3   2 tRNA synthetases class I (M)
+DALR_2               PF09190.10 sp|C1ET19|SYC_BACC3  -            7.1e-15   55.1   1.2   1.6e-14   54.0   1.2   1.6   1   0   0   1   1   1   1 DALR domain
+tRNA-synt_1          PF00133.21 sp|C1ET19|SYC_BACC3  -            8.6e-09   34.1   0.1   2.5e-05   22.7   0.0   2.6   2   1   0   2   2   2   2 tRNA synthetases class I (I, L, M and V)
+tRNA-synt_1f         PF01921.17 sp|C1ET19|SYC_BACC3  -            2.2e-08   33.3   0.0   8.3e-05   21.6   0.0   2.2   2   0   0   2   2   2   2 tRNA synthetases class I (K)
+DUF1447              PF07288.10 sp|C1ET19|SYC_BACC3  -             0.0031   17.4   0.2      0.08   12.9   0.0   2.8   2   0   0   2   2   2   1 Protein of unknown function (DUF1447)
+DUF3502              PF12010.7  sp|C1ET19|SYC_BACC3  -              0.014   15.9   0.2     0.036   14.6   0.2   1.7   1   0   0   1   1   1   0 Domain of unknown function (DUF3502)
+tRNA-synt_1c         PF00749.20 sp|C1ET19|SYC_BACC3  -              0.023   13.5   0.0      0.12   11.1   0.0   2.1   2   0   0   2   2   2   0 tRNA synthetases class I (E and Q), catalytic domain
+B12-binding          PF02310.18 sp|C1ET19|SYC_BACC3  -               0.15   12.0   0.0       3.5    7.6   0.0   2.5   2   1   0   2   2   2   0 B12 binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C1ET19.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C1ET19.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C1ET19.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:14:23 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2d         PF01409.19 sp|C4ZBJ4|SYFA_AGARV -           1.1e-101  339.3   0.0  1.4e-101  339.0   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+Phe_tRNA-synt_N      PF02912.17 sp|C4ZBJ4|SYFA_AGARV -            5.7e-24   83.7   1.7   1.8e-23   82.2   1.7   1.9   1   0   0   1   1   1   1 Aminoacyl tRNA synthetase class II, N-terminal domain
+HA                   PF03457.13 sp|C4ZBJ4|SYFA_AGARV -              0.049   13.9   0.0      0.12   12.7   0.0   1.6   1   0   0   1   1   1   0 Helicase associated domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C4ZBJ4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C4ZBJ4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C4ZBJ4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:17:50 2019
+# [ok]

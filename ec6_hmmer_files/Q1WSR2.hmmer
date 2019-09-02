@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q1WSR2|NADE_LACS1 -            1.3e-69  233.9   0.0   1.5e-69  233.7   0.0   1.0   1   0   0   1   1   1   1 NAD synthase
+DUF4168              PF13767.5  sp|Q1WSR2|NADE_LACS1 -               0.02   16.0   0.4     0.043   14.9   0.4   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF4168)
+End_tail_spike       PF12219.7  sp|Q1WSR2|NADE_LACS1 -              0.073   13.0   0.0      0.13   12.2   0.0   1.5   1   1   0   1   1   1   0 Catalytic domain of bacteriophage endosialidase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q1WSR2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q1WSR2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q1WSR2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:49:43 2019
+# [ok]

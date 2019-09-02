@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|B6ELH7|MURD_ALISL -            1.7e-29  103.1   0.1   2.5e-29  102.6   0.1   1.2   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|B6ELH7|MURD_ALISL -              1e-07   32.0   0.0   6.4e-07   29.4   0.0   2.2   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+NAD_binding_9        PF13454.5  sp|B6ELH7|MURD_ALISL -             0.0016   18.3   0.0    0.0035   17.3   0.0   1.5   1   0   0   1   1   1   1 FAD-NAD(P)-binding
+NAD_binding_7        PF13241.5  sp|B6ELH7|MURD_ALISL -             0.0069   16.7   0.0     0.025   14.9   0.0   1.9   2   0   0   2   2   2   1 Putative NAD(P)-binding
+DAO                  PF01266.23 sp|B6ELH7|MURD_ALISL -               0.02   14.4   0.0     0.063   12.8   0.0   1.8   2   0   0   2   2   2   0 FAD dependent oxidoreductase
+NAD_binding_3        PF03447.15 sp|B6ELH7|MURD_ALISL -              0.021   15.4   0.0      0.17   12.5   0.0   2.3   2   0   0   2   2   2   0 Homoserine dehydrogenase, NAD binding domain
+TrkA_N               PF02254.17 sp|B6ELH7|MURD_ALISL -                0.1   12.7   0.0      0.53   10.5   0.0   2.2   2   0   0   2   2   2   0 TrkA-N domain
+Shikimate_DH         PF01488.19 sp|B6ELH7|MURD_ALISL -               0.16   11.9   0.1       0.5   10.3   0.0   1.8   2   0   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B6ELH7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B6ELH7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B6ELH7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:00:31 2019
+# [ok]

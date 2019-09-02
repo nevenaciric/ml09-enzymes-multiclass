@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|A4YD25|DNLI_METS5 -            5.9e-63  212.1   0.1   1.1e-62  211.2   0.1   1.5   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|A4YD25|DNLI_METS5 -            7.7e-41  140.2   0.0   1.6e-40  139.2   0.0   1.6   1   0   0   1   1   1   1 DNA ligase N terminus
+DNA_ligase_A_C       PF04679.14 sp|A4YD25|DNLI_METS5 -            3.5e-26   91.6   0.0   6.5e-26   90.7   0.0   1.4   1   0   0   1   1   1   1 ATP dependent DNA ligase C terminal region
+PGAP1                PF07819.12 sp|A4YD25|DNLI_METS5 -              0.037   13.6   0.0       4.6    6.8   0.0   2.3   2   0   0   2   2   2   0 PGAP1-like protein
+PHA_synth_III_E      PF09712.9  sp|A4YD25|DNLI_METS5 -              0.064   12.3   0.0      0.16   10.9   0.0   1.7   2   0   0   2   2   2   0 Poly(R)-hydroxyalkanoic acid synthase subunit (PHA_synth_III_E)
+DNA_ligase_OB_2      PF14743.5  sp|A4YD25|DNLI_METS5 -               0.12   12.3   0.5       5.2    7.1   0.0   2.7   3   0   0   3   3   3   0 DNA ligase OB-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A4YD25.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A4YD25.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A4YD25.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:20:18 2019
+# [ok]

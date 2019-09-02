@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q31I61|MURD_HYDCU -            1.6e-22   80.4   0.0     3e-22   79.5   0.0   1.5   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q31I61|MURD_HYDCU -            2.3e-09   37.3   0.0   6.1e-09   35.9   0.0   1.7   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+His_biosynth         PF00977.20 sp|Q31I61|MURD_HYDCU -              0.072   12.4   1.1      0.22   10.9   0.2   2.0   2   0   0   2   2   2   0 Histidine biosynthesis protein
+ParA                 PF10609.8  sp|Q31I61|MURD_HYDCU -              0.074   12.4   0.6      0.16   11.3   0.6   1.5   1   0   0   1   1   1   0 NUBPL iron-transfer P-loop NTPase
+CbiA                 PF01656.22 sp|Q31I61|MURD_HYDCU -               0.27   11.2   2.2      0.29   11.1   0.6   1.8   2   1   0   2   2   2   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q31I61.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q31I61.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q31I61.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:57:32 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RimK                 PF08443.10 sp|A1SAF6|RIMK2_SHEAM -            4.7e-68  228.4   0.0   5.9e-68  228.1   0.0   1.1   1   0   0   1   1   1   1 RimK-like ATP-grasp domain
+GSH-S_ATP            PF02955.15 sp|A1SAF6|RIMK2_SHEAM -            4.9e-19   68.3   0.2     7e-19   67.8   0.2   1.2   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, ATP-grasp domain
+ATP-grasp_3          PF02655.13 sp|A1SAF6|RIMK2_SHEAM -              1e-07   32.1   0.0   2.1e-07   31.0   0.0   1.5   1   0   0   1   1   1   1 ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|A1SAF6|RIMK2_SHEAM -              3e-06   26.6   0.1     0.054   12.6   0.0   3.0   1   1   1   2   2   2   2 Sugar-transfer associated ATP-grasp
+ATPgrasp_YheCD       PF14398.5  sp|A1SAF6|RIMK2_SHEAM -              0.001   18.3   0.0     0.052   12.7   0.0   2.7   1   1   1   2   2   2   1 YheC/D like ATP-grasp
+Dala_Dala_lig_C      PF07478.12 sp|A1SAF6|RIMK2_SHEAM -              0.005   16.3   0.1     0.028   13.8   0.1   1.9   1   1   0   1   1   1   1 D-ala D-ala ligase C-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A1SAF6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A1SAF6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A1SAF6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:10:39 2019
+# [ok]

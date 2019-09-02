@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|Q5F4Y7|SYGB_NEIG1 -           3.6e-207  689.4   0.3  3.6e-207  689.4   0.3   1.8   2   0   0   2   2   2   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|Q5F4Y7|SYGB_NEIG1 -            1.8e-08   34.5   3.7   2.1e-08   34.2   1.2   2.5   2   0   0   2   2   2   1 DALR anticodon binding domain
+MnmE_helical         PF12631.6  sp|Q5F4Y7|SYGB_NEIG1 -             0.0075   16.4   0.2     0.017   15.2   0.2   1.9   1   1   0   1   1   1   1 MnmE helical domain
+HsbA                 PF12296.7  sp|Q5F4Y7|SYGB_NEIG1 -               0.18   12.2   5.3       1.8    8.9   5.3   2.6   1   1   0   1   1   1   0 Hydrophobic surface binding protein A
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5F4Y7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5F4Y7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5F4Y7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:11:12 2019
+# [ok]

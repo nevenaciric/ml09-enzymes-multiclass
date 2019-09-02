@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q74I36|NADE_LACJO -            2.1e-69  233.2   0.1   2.5e-69  233.0   0.1   1.0   1   0   0   1   1   1   1 NAD synthase
+Prenyltransf         PF01255.18 sp|Q74I36|NADE_LACJO -              0.099   12.0   0.0      0.14   11.5   0.0   1.4   1   0   0   1   1   1   0 Putative undecaprenyl diphosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q74I36.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q74I36.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q74I36.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:28:36 2019
+# [ok]

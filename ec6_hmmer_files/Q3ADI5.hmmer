@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QueC                 PF06508.12 sp|Q3ADI5|QUEC_CARHZ -              2e-55  187.5   0.0   2.4e-55  187.2   0.0   1.0   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+NAD_synthase         PF02540.16 sp|Q3ADI5|QUEC_CARHZ -             0.0058   15.7   0.0     0.018   14.1   0.0   1.8   2   0   0   2   2   2   1 NAD synthase
+ThiI                 PF02568.13 sp|Q3ADI5|QUEC_CARHZ -             0.0069   15.9   0.2     0.067   12.7   0.1   2.2   1   1   0   1   1   1   1 Thiamine biosynthesis protein (ThiI)
+DnaB_2               PF07261.10 sp|Q3ADI5|QUEC_CARHZ -              0.022   14.4   0.1      0.62    9.8   0.0   2.4   2   1   0   2   2   2   0 Replication initiation and membrane attachment
+tRNA_Me_trans        PF03054.15 sp|Q3ADI5|QUEC_CARHZ -               0.13   10.9   0.0      0.38    9.4   0.0   1.7   2   0   0   2   2   2   0 tRNA methyl transferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3ADI5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3ADI5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3ADI5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:59:17 2019
+# [ok]

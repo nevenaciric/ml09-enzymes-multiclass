@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|A2BLB9|NADE_HYPBU -            3.8e-82  275.0   0.0   4.3e-82  274.8   0.0   1.0   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|A2BLB9|NADE_HYPBU -            4.8e-08   32.1   0.0   9.7e-06   24.5   0.0   2.1   2   0   0   2   2   2   2 tRNA methyl transferase
+Sigma70_r3           PF04539.15 sp|A2BLB9|NADE_HYPBU -              0.007   16.3   0.1     0.022   14.8   0.1   1.9   1   1   0   1   1   1   1 Sigma-70 region 3
+QueC                 PF06508.12 sp|A2BLB9|NADE_HYPBU -              0.012   15.0   0.0     0.023   14.1   0.0   1.4   2   0   0   2   2   2   0 Queuosine biosynthesis protein QueC
+HTH_23               PF13384.5  sp|A2BLB9|NADE_HYPBU -              0.018   14.8   1.1      0.29   10.9   0.0   3.3   4   0   0   4   4   4   0 Homeodomain-like domain
+ATP_bind_3           PF01171.19 sp|A2BLB9|NADE_HYPBU -               0.12   12.0   0.0      0.17   11.5   0.0   1.2   1   0   0   1   1   1   0 PP-loop family
+Asn_synthase         PF00733.20 sp|A2BLB9|NADE_HYPBU -               0.15   11.6   0.0       0.5    9.9   0.0   1.7   2   0   0   2   2   2   0 Asparagine synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A2BLB9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A2BLB9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A2BLB9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:12:52 2019
+# [ok]

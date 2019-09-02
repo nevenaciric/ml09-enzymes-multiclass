@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Dala_Dala_lig_C      PF07478.12 sp|A5U6Z2|DDL_MYCTA  -            1.4e-73  246.7   0.0   1.7e-73  246.4   0.0   1.1   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+Dala_Dala_lig_N      PF01820.20 sp|A5U6Z2|DDL_MYCTA  -            1.3e-30  105.8   0.0   2.2e-30  105.0   0.0   1.4   1   0   0   1   1   1   1 D-ala D-ala ligase N-terminus
+ATP-grasp            PF02222.21 sp|A5U6Z2|DDL_MYCTA  -              3e-08   33.3   0.0   2.1e-06   27.3   0.0   2.1   1   1   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_3          PF02655.13 sp|A5U6Z2|DDL_MYCTA  -            3.3e-08   33.6   0.0    0.0041   17.1   0.0   2.1   2   0   0   2   2   2   2 ATP-grasp domain
+ATP-grasp_4          PF13535.5  sp|A5U6Z2|DDL_MYCTA  -            0.00041   19.9   0.0    0.0034   16.9   0.0   2.3   1   1   0   1   1   1   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|A5U6Z2|DDL_MYCTA  -            0.00049   19.6   0.0    0.0081   15.6   0.0   2.3   1   1   0   1   1   1   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+RimK                 PF08443.10 sp|A5U6Z2|DDL_MYCTA  -            0.00078   19.0   0.0     0.009   15.5   0.0   2.0   2   0   0   2   2   2   1 RimK-like ATP-grasp domain
+ATPgrasp_ST          PF14397.5  sp|A5U6Z2|DDL_MYCTA  -             0.0025   17.0   0.0      0.19   10.9   0.0   2.1   2   0   0   2   2   2   1 Sugar-transfer associated ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A5U6Z2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A5U6Z2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A5U6Z2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:23:24 2019
+# [ok]

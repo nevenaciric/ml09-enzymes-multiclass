@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|B2TDV9|NADE_PARPJ -            3.3e-62  209.7   0.0   3.9e-62  209.4   0.0   1.1   1   0   0   1   1   1   1 NAD synthase
+COQ7                 PF03232.12 sp|B2TDV9|NADE_PARPJ -              0.046   13.4   0.1     0.077   12.7   0.1   1.3   1   0   0   1   1   1   0 Ubiquinone biosynthesis protein COQ7
+QueC                 PF06508.12 sp|B2TDV9|NADE_PARPJ -               0.13   11.7   0.1      0.33   10.3   0.0   1.7   2   0   0   2   2   2   0 Queuosine biosynthesis protein QueC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2TDV9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2TDV9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2TDV9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:51:29 2019
+# [ok]

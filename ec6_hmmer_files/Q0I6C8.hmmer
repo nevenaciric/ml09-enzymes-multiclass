@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|Q0I6C8|DNLJ_SYNS3 -           8.3e-114  379.8   0.0  1.2e-113  379.3   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|Q0I6C8|DNLJ_SYNS3 -            9.6e-31  105.4   0.1     2e-30  104.4   0.1   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+HHH_2                PF12826.6  sp|Q0I6C8|DNLJ_SYNS3 -            3.2e-15   55.9   0.0   1.9e-14   53.4   0.0   2.2   2   0   0   2   2   2   1 Helix-hairpin-helix motif
+BRCT                 PF00533.25 sp|Q0I6C8|DNLJ_SYNS3 -            2.1e-14   53.6   0.0   6.3e-14   52.0   0.0   1.8   1   0   0   1   1   1   1 BRCA1 C Terminus (BRCT) domain
+HHH_5                PF14520.5  sp|Q0I6C8|DNLJ_SYNS3 -            9.2e-10   38.9   0.1   6.5e-06   26.6   0.3   2.8   2   0   0   2   2   2   2 Helix-hairpin-helix domain
+DNA_ligase_ZBD       PF03119.15 sp|Q0I6C8|DNLJ_SYNS3 -            1.1e-09   38.1   4.2   1.1e-09   38.1   4.2   1.9   2   0   0   2   2   2   1 NAD-dependent DNA ligase C4 zinc finger domain
+PTCB-BRCT            PF12738.6  sp|Q0I6C8|DNLJ_SYNS3 -            1.4e-07   31.2   0.1   4.4e-07   29.6   0.0   1.8   2   0   0   2   2   2   1 twin BRCT domain
+BRCT_2               PF16589.4  sp|Q0I6C8|DNLJ_SYNS3 -              0.058   13.7   0.0      0.13   12.6   0.0   1.5   1   0   0   1   1   1   0 BRCT domain, a BRCA1 C-terminus domain
+zf-ribbon_3          PF13248.5  sp|Q0I6C8|DNLJ_SYNS3 -               0.16   11.4   0.1      0.34   10.3   0.1   1.5   1   0   0   1   1   1   0 zinc-ribbon domain
+zf-NADH-PPase        PF09297.10 sp|Q0I6C8|DNLJ_SYNS3 -                0.3   10.7   1.6      0.71    9.5   1.6   1.6   1   0   0   1   1   1   0 NADH pyrophosphatase zinc ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q0I6C8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q0I6C8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q0I6C8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:40:10 2019
+# [ok]

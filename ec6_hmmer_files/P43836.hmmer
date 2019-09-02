@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|P43836|SYY_HAEIN  -            2.2e-87  293.0   0.0   2.8e-87  292.6   0.0   1.0   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|P43836|SYY_HAEIN  -            5.7e-08   32.2   0.0   1.1e-07   31.4   0.0   1.5   1   0   0   1   1   1   1 S4 domain
+TyrRSs_C             PF16714.4  sp|P43836|SYY_HAEIN  -             0.0041   16.8   0.0    0.0089   15.7   0.0   1.5   1   0   0   1   1   1   1 Tyrosyl-tRNA synthetase C-terminal domain
+RGS12_us2            PF16611.4  sp|P43836|SYY_HAEIN  -              0.014   15.7   0.3      0.22   11.9   0.0   2.5   2   0   0   2   2   2   0 Unstructured region between RBD and GoLoco
+S4_2                 PF13275.5  sp|P43836|SYY_HAEIN  -              0.045   13.5   0.1      0.11   12.3   0.1   1.6   1   0   0   1   1   1   0 S4 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P43836.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P43836.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P43836.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:28:39 2019
+# [ok]

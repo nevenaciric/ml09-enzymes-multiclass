@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2d         PF01409.19 sp|Q669Z5|SYFA_YERPS -           4.5e-107  357.0   0.1  5.5e-107  356.7   0.1   1.1   1   0   0   1   1   1   1 tRNA synthetases class II core domain (F)
+Phe_tRNA-synt_N      PF02912.17 sp|Q669Z5|SYFA_YERPS -            7.3e-26   89.8   3.3   1.2e-25   89.1   2.5   1.8   2   0   0   2   2   2   1 Aminoacyl tRNA synthetase class II, N-terminal domain
+FAD-oxidase_C        PF02913.18 sp|Q669Z5|SYFA_YERPS -              0.037   13.6   0.3      0.58    9.6   0.1   2.0   1   1   1   2   2   2   0 FAD linked oxidases, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q669Z5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q669Z5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q669Z5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:21:01 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|B1Y963|SYP_PYRNV  -            5.8e-27   94.7   0.2     2e-26   93.0   0.1   1.8   2   0   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|B1Y963|SYP_PYRNV  -            1.8e-20   72.8   1.4   2.5e-20   72.3   0.1   2.0   2   0   0   2   2   2   1 Anticodon binding domain
+ProRS-C_1            PF09180.10 sp|B1Y963|SYP_PYRNV  -            3.2e-10   40.0   0.0   6.6e-10   39.0   0.0   1.6   1   0   0   1   1   1   1 Prolyl-tRNA synthetase, C-terminal
+Lambda_tail_I        PF06805.11 sp|B1Y963|SYP_PYRNV  -              0.021   15.1   0.2     0.052   13.8   0.2   1.6   1   0   0   1   1   1   0 Bacteriophage lambda tail assembly protein I
+IMS_C                PF11799.7  sp|B1Y963|SYP_PYRNV  -               0.37   11.4   1.9       0.7   10.5   0.0   2.4   4   1   0   4   4   4   0 impB/mucB/samB family C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B1Y963.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B1Y963.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B1Y963.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:48:03 2019
+# [ok]

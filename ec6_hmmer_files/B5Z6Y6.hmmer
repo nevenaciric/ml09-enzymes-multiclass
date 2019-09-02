@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|B5Z6Y6|DNLJ_HELPG -           4.7e-119  397.1   0.1  7.9e-119  396.3   0.1   1.4   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|B5Z6Y6|DNLJ_HELPG -            3.3e-28   97.3   0.7   6.4e-28   96.4   0.7   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+BRCT                 PF00533.25 sp|B5Z6Y6|DNLJ_HELPG -            3.1e-14   53.0   0.0   9.4e-14   51.5   0.0   1.9   1   0   0   1   1   1   1 BRCA1 C Terminus (BRCT) domain
+PTCB-BRCT            PF12738.6  sp|B5Z6Y6|DNLJ_HELPG -            9.4e-06   25.4   0.0   2.4e-05   24.1   0.0   1.7   1   0   0   1   1   1   1 twin BRCT domain
+HHH_2                PF12826.6  sp|B5Z6Y6|DNLJ_HELPG -            0.00048   20.1   0.3    0.0023   17.9   0.1   2.3   2   0   0   2   2   2   1 Helix-hairpin-helix motif
+HHH_5                PF14520.5  sp|B5Z6Y6|DNLJ_HELPG -             0.0036   17.8   1.1     0.039   14.5   0.7   2.5   2   0   0   2   2   2   1 Helix-hairpin-helix domain
+DUF4951              PF16309.4  sp|B5Z6Y6|DNLJ_HELPG -              0.016   15.1   0.0     0.069   13.1   0.0   2.1   1   0   0   1   1   1   0 Domian of unknown function (DUF4951)
+RNA_ligase           PF09414.9  sp|B5Z6Y6|DNLJ_HELPG -              0.049   13.8   0.1      0.41   10.8   0.0   2.3   2   1   0   2   2   2   0 RNA ligase
+DNA_ligase_ZBD       PF03119.15 sp|B5Z6Y6|DNLJ_HELPG -              0.091   12.7   3.4      0.18   11.8   3.4   1.5   1   0   0   1   1   1   0 NAD-dependent DNA ligase C4 zinc finger domain
+TSLP                 PF15216.5  sp|B5Z6Y6|DNLJ_HELPG -               0.13   12.4   0.3        17    5.6   0.0   2.8   3   0   0   3   3   3   0 Thymic stromal lymphopoietin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B5Z6Y6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B5Z6Y6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B5Z6Y6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:00:01 2019
+# [ok]

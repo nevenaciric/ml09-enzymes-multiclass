@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|Q0I2E8|SYH_HAES1  -            1.1e-46  159.5   0.0   1.4e-46  159.1   0.0   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|Q0I2E8|SYH_HAES1  -            8.2e-32  110.5   0.0   1.5e-31  109.7   0.0   1.4   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q0I2E8|SYH_HAES1  -              1e-10   41.5   0.0   2.1e-10   40.5   0.0   1.6   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2d         PF01409.19 sp|Q0I2E8|SYH_HAES1  -            0.00024   20.5   0.0    0.0019   17.7   0.0   2.0   2   0   0   2   2   2   1 tRNA synthetases class II core domain (F)
+tRNA-synt_2          PF00152.19 sp|Q0I2E8|SYH_HAES1  -             0.0013   17.8   0.1      0.18   10.8   0.1   2.8   2   1   0   2   2   2   1 tRNA synthetases class II (D, K and N)
+YqzH                 PF14164.5  sp|Q0I2E8|SYH_HAES1  -              0.025   14.6   0.0      0.77    9.8   0.0   2.6   2   0   0   2   2   2   0 YqzH-like protein
+vATP-synt_E          PF01991.17 sp|Q0I2E8|SYH_HAES1  -              0.089   12.1   0.3      0.16   11.2   0.3   1.5   1   0   0   1   1   1   0 ATP synthase (E/31 kDa) subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q0I2E8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q0I2E8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q0I2E8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:40:01 2019
+# [ok]

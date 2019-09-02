@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CTP_synth_N          PF06418.13 sp|Q5HM95|PYRG_STAEQ -           1.9e-128  427.3   0.2  2.4e-128  426.9   0.2   1.1   1   0   0   1   1   1   1 CTP synthase N-terminus
+GATase               PF00117.27 sp|Q5HM95|PYRG_STAEQ -            1.6e-58  197.5   0.0   2.7e-58  196.8   0.0   1.4   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|Q5HM95|PYRG_STAEQ -            9.2e-11   41.8   0.1   5.5e-08   32.7   0.0   3.0   1   1   1   2   2   2   2 Peptidase C26
+CbiA                 PF01656.22 sp|Q5HM95|PYRG_STAEQ -             0.0056   16.6   0.0     0.025   14.5   0.0   1.7   2   1   0   2   2   2   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+DJ-1_PfpI            PF01965.23 sp|Q5HM95|PYRG_STAEQ -              0.011   15.4   0.0      0.03   14.0   0.0   1.7   1   0   0   1   1   1   0 DJ-1/PfpI family
+GATase_3             PF07685.13 sp|Q5HM95|PYRG_STAEQ -              0.064   12.8   0.0      0.16   11.4   0.0   1.6   1   0   0   1   1   1   0 CobB/CobQ-like glutamine amidotransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5HM95.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5HM95.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5HM95.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:12:56 2019
+# [ok]

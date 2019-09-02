@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FTHFS                PF01268.18 sp|Q605Q9|FTHS_METCA -             9e-264  875.7   1.2    1e-263  875.6   1.2   1.0   1   0   0   1   1   1   1 Formate--tetrahydrofolate ligase
+CbiA                 PF01656.22 sp|Q605Q9|FTHS_METCA -             0.0067   16.4   0.0     0.034   14.1   0.3   1.9   2   1   0   2   2   2   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+AAA_31               PF13614.5  sp|Q605Q9|FTHS_METCA -               0.16   11.7   0.1      0.37   10.6   0.1   1.5   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q605Q9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q605Q9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q605Q9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:19:01 2019
+# [ok]

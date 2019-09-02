@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|A9MVP4|LIGB_SALPB -            5.6e-28   97.8   0.0   1.3e-26   93.3   0.0   2.1   1   1   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|A9MVP4|LIGB_SALPB -            2.2e-19   69.0   0.2     4e-19   68.2   0.2   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+RNA_ligase           PF09414.9  sp|A9MVP4|LIGB_SALPB -               0.11   12.6   0.0      0.23   11.7   0.0   1.5   1   0   0   1   1   1   0 RNA ligase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A9MVP4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A9MVP4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A9MVP4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:39:23 2019
+# [ok]

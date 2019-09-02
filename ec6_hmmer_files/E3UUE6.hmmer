@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|E3UUE6|FAC19_RHORH -            4.9e-64  216.4   0.0   6.2e-64  216.0   0.0   1.0   1   0   0   1   1   1   1 AMP-binding enzyme
+AMP-binding_C        PF13193.5  sp|E3UUE6|FAC19_RHORH -            2.7e-17   63.4   1.7   5.1e-17   62.5   0.3   2.1   2   0   0   2   2   2   1 AMP-binding enzyme C-terminal domain
+Prot_ATP_ID_OB       PF16450.4  sp|E3UUE6|FAC19_RHORH -              0.071   12.5   0.2       1.4    8.4   0.0   2.7   3   0   0   3   3   3   0 Proteasomal ATPase OB/ID domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/E3UUE6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/E3UUE6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/E3UUE6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:20:21 2019
+# [ok]

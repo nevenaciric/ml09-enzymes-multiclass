@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|B0SKC1|DNLJ_LEPBP -            1.1e-91  307.2   0.0   1.6e-91  306.6   0.0   1.2   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|B0SKC1|DNLJ_LEPBP -            2.7e-24   84.7   0.2   5.1e-24   83.9   0.2   1.4   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+BRCT                 PF00533.25 sp|B0SKC1|DNLJ_LEPBP -            1.9e-13   50.5   0.4   7.9e-12   45.3   0.0   3.7   3   1   1   4   4   4   1 BRCA1 C Terminus (BRCT) domain
+HHH_5                PF14520.5  sp|B0SKC1|DNLJ_LEPBP -            1.8e-10   41.2   0.1   5.1e-06   26.9   0.0   3.1   3   0   0   3   3   3   2 Helix-hairpin-helix domain
+PTCB-BRCT            PF12738.6  sp|B0SKC1|DNLJ_LEPBP -            4.6e-09   36.0   0.1   2.7e-08   33.5   0.0   2.2   2   0   0   2   2   2   1 twin BRCT domain
+DNA_ligase_ZBD       PF03119.15 sp|B0SKC1|DNLJ_LEPBP -            4.8e-06   26.4   0.4   8.4e-06   25.6   0.4   1.4   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+HHH_2                PF12826.6  sp|B0SKC1|DNLJ_LEPBP -             0.0041   17.1   0.0     0.034   14.1   0.0   2.6   3   0   0   3   3   3   1 Helix-hairpin-helix motif
+DUF4332              PF14229.5  sp|B0SKC1|DNLJ_LEPBP -               0.15   12.2   0.1      0.65   10.2   0.0   2.2   3   0   0   3   3   3   0 Domain of unknown function (DUF4332)
+TcdB_N               PF12918.6  sp|B0SKC1|DNLJ_LEPBP -               0.34   11.1   1.8      0.85    9.9   0.2   2.6   2   0   0   2   2   2   0 TcdB toxin N-terminal helical domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B0SKC1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B0SKC1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B0SKC1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:42:50 2019
+# [ok]

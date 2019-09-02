@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|Q14I20|SYT_FRAT1  -            8.9e-44  149.5   0.0   1.6e-43  148.7   0.0   1.4   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q14I20|SYT_FRAT1  -            1.7e-19   69.7   0.4   5.2e-19   68.1   0.1   2.0   2   0   0   2   2   2   1 Anticodon binding domain
+tRNA_SAD             PF07973.13 sp|Q14I20|SYT_FRAT1  -              2e-13   50.1   0.0   4.3e-13   49.0   0.0   1.6   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+TGS                  PF02824.20 sp|Q14I20|SYT_FRAT1  -            6.5e-08   32.4   0.0   1.6e-07   31.2   0.0   1.7   1   0   0   1   1   1   1 TGS domain
+SUA5                 PF03481.12 sp|Q14I20|SYT_FRAT1  -               0.16   12.5   0.0      0.72   10.3   0.0   2.0   2   0   0   2   2   2   0 Putative GTP-binding controlling metal-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q14I20.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q14I20.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q14I20.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:43:42 2019
+# [ok]

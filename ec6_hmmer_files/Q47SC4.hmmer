@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Glu-tRNAGln          PF02686.14 sp|Q47SC4|GATC_THEFY -            1.5e-15   57.1   0.1     2e-15   56.7   0.1   1.2   1   0   0   1   1   1   1 Glu-tRNAGln amidotransferase C subunit
+HAMP                 PF00672.24 sp|Q47SC4|GATC_THEFY -             0.0021   18.4   1.6       5.4    7.5   0.0   3.1   1   1   1   2   2   2   2 HAMP domain
+NAD_binding_4        PF07993.11 sp|Q47SC4|GATC_THEFY -               0.19   10.8   0.0      0.22   10.5   0.0   1.2   1   0   0   1   1   1   0 Male sterility protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q47SC4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q47SC4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q47SC4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:04:45 2019
+# [ok]

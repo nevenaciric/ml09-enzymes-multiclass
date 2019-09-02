@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FTHFS                PF01268.18 sp|O96553|C1TC_DROME -           1.7e-248  825.3   0.5  2.2e-248  825.0   0.5   1.1   1   0   0   1   1   1   1 Formate--tetrahydrofolate ligase
+THF_DHG_CYH_C        PF02882.18 sp|O96553|C1TC_DROME -            2.7e-64  215.2   0.5   2.7e-64  215.2   0.5   2.1   2   0   0   2   2   2   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|O96553|C1TC_DROME -            3.7e-36  123.8   0.3     8e-36  122.7   0.3   1.6   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+AcetDehyd-dimer      PF09290.10 sp|O96553|C1TC_DROME -             0.0018   18.4   0.0    0.0063   16.6   0.0   1.9   1   0   0   1   1   1   1 Prokaryotic acetaldehyde dehydrogenase, dimerisation
+Peptidase_C39        PF03412.14 sp|O96553|C1TC_DROME -              0.074   12.8   0.0      0.17   11.6   0.0   1.5   1   0   0   1   1   1   0 Peptidase C39 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O96553.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O96553.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O96553.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:24:13 2019
+# [ok]

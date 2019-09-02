@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CTP_synth_N          PF06418.13 sp|O85347|PYRG_NITEU -           9.7e-126  418.4   0.0  1.3e-125  418.0   0.0   1.2   1   0   0   1   1   1   1 CTP synthase N-terminus
+GATase               PF00117.27 sp|O85347|PYRG_NITEU -              2e-59  200.4   0.0   3.4e-59  199.7   0.0   1.4   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|O85347|PYRG_NITEU -            6.9e-05   22.6   1.1   0.00079   19.1   0.5   2.6   2   1   0   2   2   2   1 Peptidase C26
+CbiA                 PF01656.22 sp|O85347|PYRG_NITEU -             0.0041   17.1   0.0    0.0075   16.2   0.0   1.5   1   1   0   1   1   1   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O85347.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O85347.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O85347.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:24:00 2019
+# [ok]

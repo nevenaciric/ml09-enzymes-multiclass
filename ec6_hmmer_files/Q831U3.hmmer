@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|Q831U3|SYGB_ENTFA -           2.8e-209  696.4   4.4  3.6e-209  696.0   4.4   1.1   1   0   0   1   1   1   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|Q831U3|SYGB_ENTFA -              8e-07   29.2   0.8   2.8e-06   27.4   0.8   2.0   1   0   0   1   1   1   1 DALR anticodon binding domain
+NAF                  PF03822.13 sp|Q831U3|SYGB_ENTFA -               0.01   15.9   0.6       0.6   10.2   0.0   3.1   3   0   0   3   3   3   0 NAF domain
+DUF2652              PF10851.7  sp|Q831U3|SYGB_ENTFA -              0.069   13.2   0.3      0.27   11.2   0.3   2.1   1   0   0   1   1   1   0 Protein of unknown function (DUF2652)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q831U3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q831U3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q831U3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:35:17 2019
+# [ok]

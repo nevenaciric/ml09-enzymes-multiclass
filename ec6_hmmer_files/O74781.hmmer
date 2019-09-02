@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1d         PF00750.18 sp|O74781|SYRC_SCHPO -             8e-107  357.1   3.1    1e-106  356.7   3.1   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (R)
+DALR_1               PF05746.14 sp|O74781|SYRC_SCHPO -            6.4e-28   97.2   0.1   2.1e-27   95.6   0.1   1.9   1   0   0   1   1   1   1 DALR anticodon binding domain
+POT1                 PF02765.16 sp|O74781|SYRC_SCHPO -             0.0011   18.7   0.1     0.045   13.5   0.0   2.4   2   0   0   2   2   2   1 Telomeric single stranded DNA binding POT1/CDC13
+Arg_tRNA_synt_N      PF03485.15 sp|O74781|SYRC_SCHPO -             0.0027   18.2   0.1     0.011   16.2   0.0   2.0   2   0   0   2   2   2   1 Arginyl tRNA synthetase N terminal domain
+DUF349               PF03993.11 sp|O74781|SYRC_SCHPO -              0.095   12.9   0.2      0.51   10.6   0.0   2.3   2   0   0   2   2   2   0 Domain of Unknown Function (DUF349)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O74781.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O74781.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O74781.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:23:30 2019
+# [ok]

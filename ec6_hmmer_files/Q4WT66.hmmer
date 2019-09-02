@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q4WT66|NRPS1_ASPFU -           3.8e-274  908.6   0.0     6e-81  272.1   0.0   4.2   4   0   0   4   4   4   4 AMP-binding enzyme
+Condensation         PF00668.19 sp|Q4WT66|NRPS1_ASPFU -           1.2e-268  891.1   0.0   8.5e-53  179.5   0.0   9.4   8   1   1   9   9   9   9 Condensation domain
+PP-binding           PF00550.24 sp|Q4WT66|NRPS1_ASPFU -            2.4e-53  178.3   4.0   4.3e-11   42.9   0.0   6.5   6   0   0   6   6   6   5 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|Q4WT66|NRPS1_ASPFU -             0.0014   19.4   0.1        14    6.7   0.0   4.1   3   0   0   3   3   3   1 AMP-binding enzyme C-terminal domain
+Transferase          PF02458.14 sp|Q4WT66|NRPS1_ASPFU -             0.0031   16.1   0.0      0.52    8.8   0.0   2.4   2   0   0   2   2   2   2 Transferase family
+DUF5122              PF17164.3  sp|Q4WT66|NRPS1_ASPFU -              0.035   14.3   3.2        19    5.6   0.0   4.1   4   0   0   4   4   4   0 Domain of unknown function (DUF5122) beta-propeller
+PAN_2                PF08276.10 sp|Q4WT66|NRPS1_ASPFU -              0.053   13.6   0.8      0.17   11.9   0.8   1.9   1   0   0   1   1   1   0 PAN-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q4WT66.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q4WT66.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q4WT66.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:08:40 2019
+# [ok]

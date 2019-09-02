@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|B3E621|SYGB_GEOLS -           6.6e-209  695.2   0.0  7.8e-209  694.9   0.0   1.0   1   0   0   1   1   1   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|B3E621|SYGB_GEOLS -            4.3e-05   23.6   1.5   6.1e-05   23.1   0.2   1.9   2   0   0   2   2   2   1 DALR anticodon binding domain
+CENP-F_C_Rb_bdg      PF10490.8  sp|B3E621|SYGB_GEOLS -              0.063   12.6   0.1      0.15   11.4   0.1   1.6   1   0   0   1   1   1   0 Rb-binding domain of kinetochore protein Cenp-F/LEK1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B3E621.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B3E621.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B3E621.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:53:11 2019
+# [ok]

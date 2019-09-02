@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|Q9A6T4|SYS_CAUVC  -              1e-34  119.9   0.0   2.1e-34  118.9   0.0   1.5   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+Seryl_tRNA_N         PF02403.21 sp|Q9A6T4|SYS_CAUVC  -            1.9e-25   89.1   1.4   4.3e-25   88.0   1.4   1.6   1   0   0   1   1   1   1 Seryl-tRNA synthetase N-terminal domain
+DUF4407              PF14362.5  sp|Q9A6T4|SYS_CAUVC  -                0.1   11.9   3.9       0.2   10.9   3.9   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF4407)
+Uso1_p115_C          PF04871.12 sp|Q9A6T4|SYS_CAUVC  -                4.5    7.5  11.4      0.66   10.3   7.2   1.7   2   0   0   2   2   2   0 Uso1 / p115 like vesicle tethering protein, C terminal region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9A6T4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9A6T4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9A6T4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:53:11 2019
+# [ok]

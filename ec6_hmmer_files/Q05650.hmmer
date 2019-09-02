@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GSIII_N              PF12437.7  sp|Q05650|GLNA3_BUTFI -            7.8e-22   77.5   0.0   1.8e-21   76.3   0.0   1.7   1   0   0   1   1   1   1 Glutamine synthetase type III N terminal
+Gln-synt_C           PF00120.23 sp|Q05650|GLNA3_BUTFI -              5e-21   75.0   0.0     1e-20   73.9   0.0   1.5   1   0   0   1   1   1   1 Glutamine synthetase, catalytic domain
+T3SSipB              PF16535.4  sp|Q05650|GLNA3_BUTFI -              0.082   13.3   0.0      0.21   12.0   0.0   1.6   1   0   0   1   1   1   0 Type III cell invasion protein SipB
+Fibrinogen_C         PF00147.17 sp|Q05650|GLNA3_BUTFI -               0.35   10.6   3.8       6.4    6.4   0.1   2.8   3   0   0   3   3   3   0 Fibrinogen beta and gamma chains, C-terminal globular domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q05650.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q05650.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q05650.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:37:31 2019
+# [ok]

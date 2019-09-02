@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|A1B3B3|SYY_PARDP  -            4.8e-74  249.2   0.0   6.1e-74  248.9   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|A1B3B3|SYY_PARDP  -            0.00063   19.3   0.0     0.002   17.7   0.0   1.8   2   0   0   2   2   2   1 S4 domain
+S4_2                 PF13275.5  sp|A1B3B3|SYY_PARDP  -              0.003   17.2   0.1    0.0076   16.0   0.1   1.6   1   0   0   1   1   1   1 S4 domain
+Acetyltransf_6       PF13480.6  sp|A1B3B3|SYY_PARDP  -              0.059   13.4   0.1       2.7    8.0   0.0   2.7   2   1   0   2   2   2   0 Acetyltransferase (GNAT) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A1B3B3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A1B3B3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A1B3B3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:08:45 2019
+# [ok]

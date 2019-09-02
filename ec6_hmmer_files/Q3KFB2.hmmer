@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|Q3KFB2|DNLJ_PSEPF -           1.4e-127  425.1   0.0  2.5e-127  424.3   0.0   1.4   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|Q3KFB2|DNLJ_PSEPF -            3.8e-35  119.5   2.4   8.3e-35  118.4   2.4   1.6   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+HHH_2                PF12826.6  sp|Q3KFB2|DNLJ_PSEPF -            3.6e-30  103.7   2.4   1.5e-20   73.0   0.0   4.2   6   0   0   6   6   6   2 Helix-hairpin-helix motif
+HHH_5                PF14520.5  sp|Q3KFB2|DNLJ_PSEPF -            5.3e-11   42.9   0.0     0.024   15.2   0.0   3.8   3   0   0   3   3   3   3 Helix-hairpin-helix domain
+DNA_ligase_ZBD       PF03119.15 sp|Q3KFB2|DNLJ_PSEPF -            6.8e-11   41.9   1.8   1.3e-10   40.9   1.8   1.5   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+BRCT                 PF00533.25 sp|Q3KFB2|DNLJ_PSEPF -            4.6e-07   30.0   0.0   1.5e-06   28.4   0.0   1.8   2   0   0   2   2   2   1 BRCA1 C Terminus (BRCT) domain
+5_3_exonuc           PF01367.19 sp|Q3KFB2|DNLJ_PSEPF -            0.00085   19.8   0.0       2.7    8.5   0.0   2.7   2   0   0   2   2   2   2 5'-3' exonuclease, C-terminal SAM fold
+PTCB-BRCT            PF12738.6  sp|Q3KFB2|DNLJ_PSEPF -              0.006   16.4   0.1     0.013   15.3   0.1   1.5   1   0   0   1   1   1   1 twin BRCT domain
+HHH                  PF00633.22 sp|Q3KFB2|DNLJ_PSEPF -              0.044   13.6   0.1        30    4.6   0.0   3.7   3   0   0   3   3   3   0 Helix-hairpin-helix motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3KFB2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3KFB2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3KFB2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:01:41 2019
+# [ok]

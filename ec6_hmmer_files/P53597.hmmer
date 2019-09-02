@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoA_binding          PF02629.18 sp|P53597|SUCA_HUMAN -            4.5e-33  113.7   2.0     7e-33  113.1   0.4   2.1   2   0   0   2   2   2   1 CoA binding domain
+Ligase_CoA           PF00549.18 sp|P53597|SUCA_HUMAN -            1.9e-23   82.9   0.1   3.7e-23   81.9   0.1   1.5   1   0   0   1   1   1   1 CoA-ligase
+Succ_CoA_lig         PF13607.5  sp|P53597|SUCA_HUMAN -            1.9e-08   34.1   0.0     4e-08   33.0   0.0   1.6   1   0   0   1   1   1   1 Succinyl-CoA ligase like flavodoxin domain
+CoA_binding_2        PF13380.5  sp|P53597|SUCA_HUMAN -            3.3e-05   24.3   0.0   7.7e-05   23.1   0.0   1.6   1   0   0   1   1   1   1 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P53597.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P53597.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P53597.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:29:48 2019
+# [ok]

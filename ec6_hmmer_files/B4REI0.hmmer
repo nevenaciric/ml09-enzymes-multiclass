@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GARS_A               PF01071.18 sp|B4REI0|PUR2_PHEZH -            1.5e-68  230.4   0.0   1.9e-68  230.0   0.0   1.1   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+GARS_N               PF02844.14 sp|B4REI0|PUR2_PHEZH -            5.9e-31  107.0   0.1   1.1e-30  106.1   0.1   1.5   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, N domain
+GARS_C               PF02843.15 sp|B4REI0|PUR2_PHEZH -            5.9e-28   96.9   0.4   1.3e-27   95.8   0.4   1.6   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, C domain
+ATP-grasp            PF02222.21 sp|B4REI0|PUR2_PHEZH -            7.2e-06   25.6   0.0   1.8e-05   24.2   0.0   1.6   2   0   0   2   2   2   1 ATP-grasp domain
+ATP-grasp_3          PF02655.13 sp|B4REI0|PUR2_PHEZH -            0.00022   21.2   0.0   0.00042   20.3   0.0   1.5   1   1   0   1   1   1   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|B4REI0|PUR2_PHEZH -             0.0098   15.3   0.2     0.022   14.1   0.2   1.5   2   0   0   2   2   2   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATP-grasp_2          PF08442.9  sp|B4REI0|PUR2_PHEZH -              0.013   15.0   0.0      0.02   14.4   0.0   1.2   1   0   0   1   1   1   0 ATP-grasp domain
+ATP-grasp_5          PF13549.5  sp|B4REI0|PUR2_PHEZH -              0.027   13.8   0.0     0.047   13.0   0.0   1.3   1   0   0   1   1   1   0 ATP-grasp domain
+DUF3197              PF11432.7  sp|B4REI0|PUR2_PHEZH -               0.12   12.2   0.3      0.36   10.6   0.3   1.8   1   0   0   1   1   1   0 Protein of unknown function (DUF3197)
+HCBP_related         PF06594.10 sp|B4REI0|PUR2_PHEZH -               0.15   11.9   0.1      0.36   10.7   0.1   1.6   1   0   0   1   1   1   0 Haemolysin-type calcium binding protein related domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B4REI0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B4REI0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B4REI0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:55:23 2019
+# [ok]

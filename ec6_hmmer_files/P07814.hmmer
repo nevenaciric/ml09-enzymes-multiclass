@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1c         PF00749.20 sp|P07814|SYEP_HUMAN -           1.3e-125  418.4   0.3  2.3e-125  417.6   0.3   1.4   1   0   0   1   1   1   1 tRNA synthetases class I (E and Q), catalytic domain
+WHEP-TRS             PF00458.19 sp|P07814|SYEP_HUMAN -            1.1e-65  217.5  20.8   5.5e-24   84.0   2.6   4.2   3   0   0   3   3   3   3 WHEP-TRS domain
+tRNA-synt_1c_C       PF03950.17 sp|P07814|SYEP_HUMAN -            5.2e-39  133.8   0.0   5.2e-39  133.8   0.0   2.0   2   0   0   2   2   2   1 tRNA synthetases class I (E and Q), anti-codon binding domain
+ProRS-C_1            PF09180.10 sp|P07814|SYEP_HUMAN -            2.3e-21   75.7   0.2   6.3e-21   74.3   0.2   1.9   1   0   0   1   1   1   1 Prolyl-tRNA synthetase, C-terminal
+HGTP_anticodon       PF03129.19 sp|P07814|SYEP_HUMAN -            8.7e-18   64.2   0.8   5.2e-17   61.7   0.0   2.8   3   0   0   3   3   3   1 Anticodon binding domain
+tRNA-synt_2b         PF00587.24 sp|P07814|SYEP_HUMAN -            1.2e-17   64.4   0.1   1.5e-16   60.8   0.0   2.5   3   0   0   3   3   3   1 tRNA synthetase class II core domain (G, H, P, S and T)
+GST_C                PF00043.24 sp|P07814|SYEP_HUMAN -            0.00017   21.7   0.0   0.00017   21.7   0.0   2.6   3   0   0   3   3   3   1 Glutathione S-transferase, C-terminal domain
+GST_C_3              PF14497.5  sp|P07814|SYEP_HUMAN -            0.00072   19.6   0.1    0.0077   16.3   0.0   2.9   2   0   0   2   2   2   1 Glutathione S-transferase, C-terminal domain
+tRNA-synt_1e         PF01406.18 sp|P07814|SYEP_HUMAN -              0.016   14.5   0.4     0.036   13.3   0.4   1.5   1   0   0   1   1   1   0 tRNA synthetases class I (C) catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P07814.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P07814.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P07814.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:24:38 2019
+# [ok]

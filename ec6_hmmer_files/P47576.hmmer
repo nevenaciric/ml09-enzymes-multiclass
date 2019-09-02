@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1          PF00133.21 sp|P47576|SYV_MYCGE  -           1.8e-160  535.1   8.4  1.5e-157  525.4   8.4   3.1   1   1   0   1   1   1   1 tRNA synthetases class I (I, L, M and V)
+Anticodon_1          PF08264.12 sp|P47576|SYV_MYCGE  -              5e-25   88.1   2.8     5e-25   88.1   2.8   2.7   2   0   0   2   2   2   1 Anticodon-binding domain of tRNA
+tRNA-synt_1g         PF09334.10 sp|P47576|SYV_MYCGE  -            9.2e-23   80.6  18.1   2.4e-15   56.1   4.5   3.7   3   2   0   3   3   3   2 tRNA synthetases class I (M)
+tRNA-synt_1_2        PF13603.5  sp|P47576|SYV_MYCGE  -            2.9e-11   43.1   0.1   8.1e-09   35.2   0.0   3.1   1   1   1   2   2   2   2 Leucyl-tRNA synthetase, Domain 2
+tRNA-synt_1e         PF01406.18 sp|P47576|SYV_MYCGE  -            6.7e-10   38.7   0.4   0.00035   19.9   0.0   3.6   3   0   0   3   3   3   3 tRNA synthetases class I (C) catalytic domain
+Val_tRNA-synt_C      PF10458.8  sp|P47576|SYV_MYCGE  -            6.4e-06   26.3   7.2   6.4e-06   26.3   7.2   2.9   3   0   0   3   3   3   1 Valyl tRNA synthetase tRNA binding arm
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P47576.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P47576.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P47576.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:29:12 2019
+# [ok]

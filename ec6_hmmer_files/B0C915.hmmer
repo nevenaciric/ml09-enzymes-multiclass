@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|B0C915|MURD_ACAM1 -            7.7e-24   84.7   0.0   4.1e-23   82.3   0.0   2.1   2   1   0   2   2   2   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|B0C915|MURD_ACAM1 -              8e-07   29.1   0.0   1.6e-06   28.1   0.0   1.5   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+NodS                 PF05401.10 sp|B0C915|MURD_ACAM1 -             0.0012   18.4   0.0     0.002   17.7   0.0   1.2   1   0   0   1   1   1   1 Nodulation protein S (NodS)
+NAD_binding_8        PF13450.5  sp|B0C915|MURD_ACAM1 -             0.0078   16.3   0.3     0.018   15.2   0.3   1.6   1   0   0   1   1   1   1 NAD(P)-binding Rossmann-like domain
+TrkA_N               PF02254.17 sp|B0C915|MURD_ACAM1 -              0.035   14.3   0.0       0.2   11.8   0.0   2.2   2   0   0   2   2   2   0 TrkA-N domain
+XdhC_C               PF13478.5  sp|B0C915|MURD_ACAM1 -              0.067   13.6   0.0        17    5.9   0.0   2.4   2   0   0   2   2   2   0 XdhC Rossmann domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B0C915.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B0C915.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B0C915.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:41:17 2019
+# [ok]

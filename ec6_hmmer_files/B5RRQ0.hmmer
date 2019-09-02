@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|B5RRQ0|SYDND_BORRA -           3.1e-101  338.5   1.8  3.8e-101  338.2   1.8   1.1   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+GAD                  PF02938.13 sp|B5RRQ0|SYDND_BORRA -            1.1e-24   86.3   1.4   1.7e-24   85.7   0.2   2.0   2   0   0   2   2   2   1 GAD domain
+tRNA_anti-codon      PF01336.24 sp|B5RRQ0|SYDND_BORRA -            4.4e-13   48.9   0.3   1.1e-12   47.6   0.3   1.7   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+tRNA-synt_2b         PF00587.24 sp|B5RRQ0|SYDND_BORRA -             0.0069   16.3   4.9    0.0086   16.0   1.9   2.6   2   1   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA-synt_2d         PF01409.19 sp|B5RRQ0|SYDND_BORRA -             0.0093   15.4   0.1       0.4   10.0   0.1   2.4   2   0   0   2   2   2   1 tRNA synthetases class II core domain (F)
+Urm1                 PF09138.10 sp|B5RRQ0|SYDND_BORRA -               0.26   11.6   3.0      0.29   11.4   0.1   2.7   3   0   0   3   3   3   0 Urm1 (Ubiquitin related modifier)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B5RRQ0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B5RRQ0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B5RRQ0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:59:06 2019
+# [ok]

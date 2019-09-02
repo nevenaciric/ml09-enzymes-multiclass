@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Dala_Dala_lig_C      PF07478.12 sp|A5F083|DDL_VIBC3  -            3.9e-53  179.9   0.0   5.3e-53  179.5   0.0   1.1   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+Dala_Dala_lig_N      PF01820.20 sp|A5F083|DDL_VIBC3  -            4.3e-22   78.4   0.0   1.3e-21   76.9   0.0   1.8   1   0   0   1   1   1   1 D-ala D-ala ligase N-terminus
+ATP-grasp            PF02222.21 sp|A5F083|DDL_VIBC3  -            1.8e-08   34.1   0.0   3.7e-08   33.0   0.0   1.5   1   1   0   1   1   1   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|A5F083|DDL_VIBC3  -             0.0024   17.3   0.1      0.69    9.3   0.1   2.1   2   0   0   2   2   2   2 Carbamoyl-phosphate synthase L chain, ATP binding domain
+ATPgrasp_YheCD       PF14398.5  sp|A5F083|DDL_VIBC3  -              0.018   14.2   0.0      0.27   10.4   0.0   2.1   2   0   0   2   2   2   0 YheC/D like ATP-grasp
+Glutaminase          PF04960.14 sp|A5F083|DDL_VIBC3  -              0.069   12.2   0.0      0.12   11.5   0.0   1.3   1   0   0   1   1   1   0 Glutaminase
+ATPgrasp_ST          PF14397.5  sp|A5F083|DDL_VIBC3  -               0.13   11.4   0.0      0.85    8.7   0.0   2.0   2   0   0   2   2   2   0 Sugar-transfer associated ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A5F083.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A5F083.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A5F083.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:21:21 2019
+# [ok]

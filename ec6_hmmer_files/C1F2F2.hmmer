@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|C1F2F2|SUCC_ACIC5 -            3.6e-80  268.2   2.2   3.6e-80  268.2   2.2   1.5   2   0   0   2   2   2   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|C1F2F2|SUCC_ACIC5 -            3.5e-19   69.0   1.5   3.5e-19   69.0   1.5   1.7   2   0   0   2   2   2   1 CoA-ligase
+ATP-grasp_5          PF13549.5  sp|C1F2F2|SUCC_ACIC5 -            3.8e-10   39.5   3.5     6e-10   38.8   2.2   2.0   2   1   0   2   2   2   1 ATP-grasp domain
+GARS_A               PF01071.18 sp|C1F2F2|SUCC_ACIC5 -            5.5e-06   26.2   0.3   1.1e-05   25.2   0.3   1.5   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+CPSase_L_D2          PF02786.16 sp|C1F2F2|SUCC_ACIC5 -              0.014   14.8   0.3     0.031   13.7   0.3   1.6   1   0   0   1   1   1   0 Carbamoyl-phosphate synthase L chain, ATP binding domain
+Trp_dioxygenase      PF03301.12 sp|C1F2F2|SUCC_ACIC5 -              0.053   12.7   0.0     0.081   12.1   0.0   1.2   1   0   0   1   1   1   0 Tryptophan 2,3-dioxygenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C1F2F2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C1F2F2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C1F2F2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:14:30 2019
+# [ok]

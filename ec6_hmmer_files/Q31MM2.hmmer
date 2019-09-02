@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q31MM2|MURD_SYNE7 -            5.2e-26   91.7   0.0   7.6e-26   91.2   0.0   1.3   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q31MM2|MURD_SYNE7 -            7.4e-07   29.2   0.0   2.2e-06   27.7   0.0   1.8   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+XdhC_C               PF13478.5  sp|Q31MM2|MURD_SYNE7 -              0.023   15.1   0.0       3.3    8.1   0.0   2.6   2   0   0   2   2   2   0 XdhC Rossmann domain
+GIDA                 PF01134.21 sp|Q31MM2|MURD_SYNE7 -              0.058   12.4   0.0     0.088   11.8   0.0   1.2   1   0   0   1   1   1   0 Glucose inhibited division protein A
+ApbA                 PF02558.15 sp|Q31MM2|MURD_SYNE7 -              0.061   12.9   0.1      0.26   10.8   0.0   2.0   2   0   0   2   2   2   0 Ketopantoate reductase PanE/ApbA
+NAD_binding_8        PF13450.5  sp|Q31MM2|MURD_SYNE7 -               0.14   12.3   0.1       0.4   10.9   0.1   1.8   1   0   0   1   1   1   0 NAD(P)-binding Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q31MM2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q31MM2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q31MM2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:57:37 2019
+# [ok]

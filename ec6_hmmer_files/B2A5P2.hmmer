@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|B2A5P2|SYT_NATTJ  -            7.5e-39  133.4   0.1   2.5e-38  131.7   0.0   2.0   2   0   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|B2A5P2|SYT_NATTJ  -            6.5e-28   96.7   4.5   1.3e-26   92.5   1.7   2.9   2   0   0   2   2   2   1 Anticodon binding domain
+TGS                  PF02824.20 sp|B2A5P2|SYT_NATTJ  -            1.1e-15   57.3   0.0   2.8e-15   56.0   0.0   1.7   1   0   0   1   1   1   1 TGS domain
+tRNA_SAD             PF07973.13 sp|B2A5P2|SYT_NATTJ  -            7.5e-12   45.1   0.0   1.7e-11   43.9   0.0   1.6   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+DUF3804              PF12707.6  sp|B2A5P2|SYT_NATTJ  -              0.024   14.2   0.0     0.067   12.8   0.0   1.7   1   0   0   1   1   1   0 Protein of unknown function (DUF3804)
+ThiS                 PF02597.19 sp|B2A5P2|SYT_NATTJ  -              0.033   14.7   0.1      0.14   12.7   0.1   2.1   1   0   0   1   1   1   0 ThiS family
+OmpH                 PF03938.13 sp|B2A5P2|SYT_NATTJ  -               0.74    9.7   0.0      0.74    9.7   0.0   3.1   4   0   0   4   4   4   0 Outer membrane protein (OmpH-like)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2A5P2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2A5P2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2A5P2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:48:46 2019
+# [ok]

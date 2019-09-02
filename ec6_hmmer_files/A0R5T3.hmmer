@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|A0R5T3|LIGC2_MYCS2 -            3.5e-34  118.2   0.0   4.7e-34  117.7   0.0   1.1   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_C       PF04679.14 sp|A0R5T3|LIGC2_MYCS2 -            2.9e-14   53.3   0.0   5.1e-14   52.6   0.0   1.4   1   0   0   1   1   1   1 ATP dependent DNA ligase C terminal region
+mRNA_cap_enzyme      PF01331.18 sp|A0R5T3|LIGC2_MYCS2 -               0.15   11.8   0.0       2.7    7.7   0.0   2.2   2   0   0   2   2   2   0 mRNA capping enzyme, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A0R5T3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A0R5T3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A0R5T3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:07:36 2019
+# [ok]

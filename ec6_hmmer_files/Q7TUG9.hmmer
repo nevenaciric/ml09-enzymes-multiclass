@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GSH-S_ATP            PF02955.15 sp|Q7TUG9|GSHB_PROMP -              3e-70  235.1   0.8   3.9e-70  234.7   0.8   1.1   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, ATP-grasp domain
+GSH-S_N              PF02951.13 sp|Q7TUG9|GSHB_PROMP -            2.6e-37  127.5   0.0   3.9e-37  126.9   0.0   1.3   1   0   0   1   1   1   1 Prokaryotic glutathione synthetase, N-terminal domain
+RimK                 PF08443.10 sp|Q7TUG9|GSHB_PROMP -            3.4e-23   82.1   0.5   4.8e-23   81.6   0.5   1.1   1   0   0   1   1   1   1 RimK-like ATP-grasp domain
+ATPgrasp_YheCD       PF14398.5  sp|Q7TUG9|GSHB_PROMP -            1.6e-05   24.2   0.1   0.00016   20.9   0.0   2.1   2   0   0   2   2   2   1 YheC/D like ATP-grasp
+ATPgrasp_Ter         PF15632.5  sp|Q7TUG9|GSHB_PROMP -              0.033   12.8   0.0      0.06   11.9   0.0   1.4   1   1   0   1   1   1   0 ATP-grasp in the biosynthetic pathway with Ter operon
+ATPgrasp_ST          PF14397.5  sp|Q7TUG9|GSHB_PROMP -              0.051   12.7   0.0      0.08   12.1   0.0   1.4   1   0   0   1   1   1   0 Sugar-transfer associated ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q7TUG9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q7TUG9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q7TUG9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:30:59 2019
+# [ok]

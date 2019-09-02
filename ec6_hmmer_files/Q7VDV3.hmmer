@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Glu-tRNAGln          PF02686.14 sp|Q7VDV3|GATC_PROMA -            2.5e-19   69.2   0.6   3.1e-19   68.9   0.6   1.1   1   0   0   1   1   1   1 Glu-tRNAGln amidotransferase C subunit
+PurA                 PF04845.12 sp|Q7VDV3|GATC_PROMA -              0.014   14.6   0.1     0.015   14.5   0.1   1.0   1   0   0   1   1   1   0 PurA ssDNA and RNA-binding protein
+Ferritin             PF00210.23 sp|Q7VDV3|GATC_PROMA -               0.02   14.7   0.1     0.024   14.5   0.1   1.1   1   0   0   1   1   1   0 Ferritin-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q7VDV3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q7VDV3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q7VDV3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:32:16 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|A6Q371|SYH_NITSB  -            1.4e-43  149.2   0.0   2.1e-43  148.7   0.0   1.2   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|A6Q371|SYH_NITSB  -            2.2e-18   66.7   0.0   5.4e-11   42.7   0.0   2.2   2   0   0   2   2   2   2 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A6Q371|SYH_NITSB  -            2.5e-09   37.1   0.2   2.6e-08   33.8   0.1   2.3   2   0   0   2   2   2   1 Anticodon binding domain
+zf-tcix              PF14952.5  sp|A6Q371|SYH_NITSB  -              0.003   17.0   0.1    0.0078   15.7   0.1   1.7   1   0   0   1   1   1   1 Putative treble-clef, zinc-finger, Zn-binding
+DUF1313              PF07011.10 sp|A6Q371|SYH_NITSB  -              0.012   15.4   0.3     0.022   14.5   0.3   1.3   1   0   0   1   1   1   0 Protein of unknown function (DUF1313)
+tRNA-synt_2d         PF01409.19 sp|A6Q371|SYH_NITSB  -              0.035   13.5   0.0      0.15   11.5   0.0   1.9   2   0   0   2   2   2   0 tRNA synthetases class II core domain (F)
+tRNA-synt_2          PF00152.19 sp|A6Q371|SYH_NITSB  -              0.037   13.0   1.0       7.8    5.4   0.0   3.4   4   0   0   4   4   4   0 tRNA synthetases class II (D, K and N)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A6Q371.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A6Q371.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A6Q371.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:25:40 2019
+# [ok]

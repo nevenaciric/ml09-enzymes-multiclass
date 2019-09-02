@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q4JCP0|NADE_SULAC -              7e-76  254.4   0.0     8e-76  254.2   0.0   1.0   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|Q4JCP0|NADE_SULAC -            0.00021   20.1   0.0    0.0066   15.2   0.0   2.1   2   0   0   2   2   2   1 tRNA methyl transferase
+ThiI                 PF02568.13 sp|Q4JCP0|NADE_SULAC -             0.0023   17.5   0.0    0.0035   16.9   0.0   1.2   1   0   0   1   1   1   1 Thiamine biosynthesis protein (ThiI)
+Sigma70_r4           PF04545.15 sp|Q4JCP0|NADE_SULAC -              0.026   13.9   0.2      0.12   11.8   0.1   2.1   3   0   0   3   3   3   0 Sigma-70, region 4
+Asn_synthase         PF00733.20 sp|Q4JCP0|NADE_SULAC -              0.031   13.8   0.0     0.035   13.7   0.0   1.1   1   0   0   1   1   1   0 Asparagine synthase
+QueC                 PF06508.12 sp|Q4JCP0|NADE_SULAC -              0.086   12.2   0.0      0.26   10.7   0.0   1.8   2   0   0   2   2   2   0 Queuosine biosynthesis protein QueC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q4JCP0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q4JCP0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q4JCP0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:06:52 2019
+# [ok]

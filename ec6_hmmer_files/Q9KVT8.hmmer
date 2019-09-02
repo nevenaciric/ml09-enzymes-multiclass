@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp            PF02222.21 sp|Q9KVT8|PURK_VIBCH -            7.1e-51  172.1   0.1     1e-50  171.6   0.1   1.2   1   0   0   1   1   1   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|Q9KVT8|PURK_VIBCH -            2.2e-05   23.9   0.0   3.2e-05   23.4   0.0   1.2   1   0   0   1   1   1   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+GARS_A               PF01071.18 sp|Q9KVT8|PURK_VIBCH -               0.12   12.1   0.0      0.27   10.9   0.0   1.6   2   0   0   2   2   2   0 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9KVT8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9KVT8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9KVT8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:56:28 2019
+# [ok]

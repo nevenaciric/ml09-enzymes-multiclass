@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|Q1GE74|SYGB_RUEST -           1.5e-200  667.6   0.0  1.9e-200  667.2   0.0   1.1   1   0   0   1   1   1   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|Q1GE74|SYGB_RUEST -              2e-08   34.3   0.1   4.9e-08   33.1   0.1   1.7   1   0   0   1   1   1   1 DALR anticodon binding domain
+Guanylate_kin        PF00625.20 sp|Q1GE74|SYGB_RUEST -              0.023   14.3   0.0       3.6    7.1   0.0   2.2   2   0   0   2   2   2   0 Guanylate kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q1GE74.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q1GE74.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q1GE74.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:46:15 2019
+# [ok]

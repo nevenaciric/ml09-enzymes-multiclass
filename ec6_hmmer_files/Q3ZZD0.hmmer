@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|Q3ZZD0|SYP_DEHMC  -            1.3e-49  168.5   0.0   1.8e-49  168.0   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA_edit            PF04073.14 sp|Q3ZZD0|SYP_DEHMC  -            3.2e-24   85.3   0.1   5.7e-24   84.4   0.1   1.4   1   0   0   1   1   1   1 Aminoacyl-tRNA editing domain
+HGTP_anticodon       PF03129.19 sp|Q3ZZD0|SYP_DEHMC  -            5.6e-17   61.6   0.1   4.6e-16   58.7   0.0   2.4   2   0   0   2   2   2   1 Anticodon binding domain
+Zn-ribbon_8          PF09723.9  sp|Q3ZZD0|SYP_DEHMC  -              0.014   15.4   0.6       6.5    6.9   0.1   2.6   2   0   0   2   2   2   0 Zinc ribbon domain
+zinc_ribbon_9        PF14369.5  sp|Q3ZZD0|SYP_DEHMC  -               0.03   14.5   1.5       2.3    8.5   0.4   2.6   2   0   0   2   2   2   0 zinc-ribbon
+TIR_2                PF13676.5  sp|Q3ZZD0|SYP_DEHMC  -              0.075   13.3   0.0      0.18   12.1   0.0   1.6   1   0   0   1   1   1   0 TIR domain
+tRNA-synt_His        PF13393.5  sp|Q3ZZD0|SYP_DEHMC  -               0.17   11.0   0.0      0.26   10.4   0.0   1.2   1   0   0   1   1   1   0 Histidyl-tRNA synthetase
+zf-H2C2_2            PF13465.5  sp|Q3ZZD0|SYP_DEHMC  -               0.22   11.9   1.9        17    5.9   0.0   2.4   2   0   0   2   2   2   0 Zinc-finger double domain
+zf-C2H2_4            PF13894.5  sp|Q3ZZD0|SYP_DEHMC  -               0.52   11.2   2.1       1.4    9.9   0.0   2.6   3   0   0   3   3   3   0 C2H2-type zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q3ZZD0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q3ZZD0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q3ZZD0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:03:26 2019
+# [ok]

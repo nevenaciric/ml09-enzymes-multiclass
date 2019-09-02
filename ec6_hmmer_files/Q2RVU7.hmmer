@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Dala_Dala_lig_C      PF07478.12 sp|Q2RVU7|DDL_RHORT  -            1.3e-44  152.1   0.0   1.6e-44  151.8   0.0   1.1   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+Dala_Dala_lig_N      PF01820.20 sp|Q2RVU7|DDL_RHORT  -            7.5e-18   64.8   0.0   6.3e-17   61.8   0.0   2.1   1   1   0   1   1   1   1 D-ala D-ala ligase N-terminus
+ATP-grasp_3          PF02655.13 sp|Q2RVU7|DDL_RHORT  -              2e-06   27.9   0.0   2.6e-06   27.5   0.0   1.2   1   0   0   1   1   1   1 ATP-grasp domain
+ATP-grasp_4          PF13535.5  sp|Q2RVU7|DDL_RHORT  -            3.5e-06   26.6   0.0   0.00013   21.4   0.0   2.1   1   1   0   1   1   1   1 ATP-grasp domain
+GARS_A               PF01071.18 sp|Q2RVU7|DDL_RHORT  -            0.00013   21.7   0.0   0.00018   21.2   0.0   1.2   1   0   0   1   1   1   1 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+B12-binding          PF02310.18 sp|Q2RVU7|DDL_RHORT  -            0.00085   19.3   0.2    0.0032   17.4   0.1   1.9   1   1   1   2   2   2   1 B12 binding domain
+ATP-grasp            PF02222.21 sp|Q2RVU7|DDL_RHORT  -              0.029   13.9   0.0     0.043   13.3   0.0   1.2   1   0   0   1   1   1   0 ATP-grasp domain
+NAD_binding_8        PF13450.5  sp|Q2RVU7|DDL_RHORT  -              0.058   13.5   0.0      0.25   11.5   0.1   2.0   2   0   0   2   2   2   0 NAD(P)-binding Rossmann-like domain
+ATPgrasp_ST          PF14397.5  sp|Q2RVU7|DDL_RHORT  -               0.13   11.4   0.0      0.98    8.5   0.0   2.0   2   0   0   2   2   2   0 Sugar-transfer associated ATP-grasp
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2RVU7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2RVU7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2RVU7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:55:12 2019
+# [ok]

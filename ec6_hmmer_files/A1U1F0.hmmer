@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|A1U1F0|SYP_MARHV  -            5.1e-47  160.0   0.0     7e-47  159.6   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+tRNA_edit            PF04073.14 sp|A1U1F0|SYP_MARHV  -            3.3e-29  101.3   0.1   1.3e-28   99.4   0.0   1.9   2   0   0   2   2   2   1 Aminoacyl-tRNA editing domain
+HGTP_anticodon       PF03129.19 sp|A1U1F0|SYP_MARHV  -            1.6e-17   63.4   0.0   3.2e-17   62.4   0.0   1.6   1   0   0   1   1   1   1 Anticodon binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A1U1F0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A1U1F0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A1U1F0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:11:22 2019
+# [ok]

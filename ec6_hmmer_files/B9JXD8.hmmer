@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|B9JXD8|SYS_AGRVS  -            1.1e-31  110.0   0.0   4.6e-31  108.1   0.0   1.8   2   0   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+Seryl_tRNA_N         PF02403.21 sp|B9JXD8|SYS_AGRVS  -            1.6e-31  108.6   4.6   2.3e-31  108.1   4.6   1.3   1   0   0   1   1   1   1 Seryl-tRNA synthetase N-terminal domain
+FAM184               PF15665.4  sp|B9JXD8|SYS_AGRVS  -              0.019   14.6   2.2     0.032   13.9   2.2   1.3   1   0   0   1   1   1   0 Family with sequence similarity 184, A and B
+KELK                 PF15796.4  sp|B9JXD8|SYS_AGRVS  -               0.17   12.3   4.3      0.62   10.5   4.3   1.9   1   1   0   1   1   1   0 KELK-motif containing domain of MRCK Ser/Thr protein kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B9JXD8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B9JXD8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B9JXD8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:10:06 2019
+# [ok]

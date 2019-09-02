@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|A6VV07|SYH_MARMS  -            3.6e-47  161.0   0.1   4.6e-47  160.7   0.1   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|A6VV07|SYH_MARMS  -            1.7e-29  102.9   0.0   3.3e-29  102.0   0.0   1.5   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|A6VV07|SYH_MARMS  -            1.7e-10   40.8   0.0   3.6e-10   39.8   0.0   1.6   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2          PF00152.19 sp|A6VV07|SYH_MARMS  -             0.0012   18.0   0.1     0.079   11.9   0.0   2.4   3   0   0   3   3   3   1 tRNA synthetases class II (D, K and N)
+TraB                 PF01963.16 sp|A6VV07|SYH_MARMS  -              0.022   14.6   0.4     0.033   14.0   0.4   1.4   1   1   0   1   1   1   0 TraB family
+tRNA-synt_2d         PF01409.19 sp|A6VV07|SYH_MARMS  -               0.04   13.3   0.0      0.93    8.8   0.0   2.2   2   0   0   2   2   2   0 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A6VV07.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A6VV07.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A6VV07.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:28:28 2019
+# [ok]

@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mg_chelatase         PF01078.20 sp|P48101|CHLI_CYAPA -            1.7e-12   47.1   0.0   2.6e-07   30.1   0.0   2.6   2   1   1   3   3   3   2 Magnesium chelatase, subunit ChlI
+MCM                  PF00493.22 sp|P48101|CHLI_CYAPA -            3.8e-08   32.7   1.0     5e-05   22.4   0.2   3.5   2   2   0   2   2   2   2 MCM2/3/5 family
+AAA_5                PF07728.13 sp|P48101|CHLI_CYAPA -            2.1e-07   30.9   0.0    0.0017   18.3   0.0   2.6   1   1   0   2   2   2   2 AAA domain (dynein-related subfamily)
+AAA_22               PF13401.5  sp|P48101|CHLI_CYAPA -            8.1e-06   26.1   0.0   2.1e-05   24.7   0.0   1.7   1   0   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|P48101|CHLI_CYAPA -            1.3e-05   25.6   0.0     4e-05   24.0   0.0   1.8   2   0   0   2   2   2   1 AAA ATPase domain
+Sigma54_activat      PF00158.25 sp|P48101|CHLI_CYAPA -            0.00027   20.6   0.0      0.16   11.5   0.0   2.3   2   0   0   2   2   2   2 Sigma-54 interaction domain
+ABC_tran             PF00005.26 sp|P48101|CHLI_CYAPA -            0.00041   20.8   0.2     0.022   15.2   0.0   2.3   2   0   0   2   2   2   1 ABC transporter
+tRNA_lig_kinase      PF08303.10 sp|P48101|CHLI_CYAPA -            0.00063   19.8   0.1     0.007   16.4   0.0   2.3   2   0   0   2   2   2   1 tRNA ligase kinase domain
+AAA_29               PF13555.5  sp|P48101|CHLI_CYAPA -             0.0014   18.2   0.0     0.003   17.1   0.0   1.5   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA                  PF00004.28 sp|P48101|CHLI_CYAPA -              0.002   18.5   0.0     0.023   15.0   0.0   2.5   1   1   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+AAA_18               PF13238.5  sp|P48101|CHLI_CYAPA -             0.0023   18.4   0.2     0.014   15.8   0.0   2.4   2   1   0   2   2   2   1 AAA domain
+DUF815               PF05673.12 sp|P48101|CHLI_CYAPA -             0.0051   15.9   0.0     0.013   14.5   0.0   1.7   1   0   0   1   1   1   1 Protein of unknown function (DUF815)
+FtsK_SpoIIIE         PF01580.17 sp|P48101|CHLI_CYAPA -             0.0053   16.1   0.1      0.76    9.0   0.0   2.8   3   0   0   3   3   3   1 FtsK/SpoIIIE family
+AAA_7                PF12775.6  sp|P48101|CHLI_CYAPA -              0.012   14.9   0.0     0.018   14.2   0.0   1.2   1   0   0   1   1   1   0 P-loop containing dynein motor region D3
+AAA_30               PF13604.5  sp|P48101|CHLI_CYAPA -               0.02   14.5   0.3      0.17   11.5   0.1   2.4   2   1   0   2   2   2   0 AAA domain
+MMR_HSR1             PF01926.22 sp|P48101|CHLI_CYAPA -              0.028   14.4   0.0     0.086   12.8   0.0   1.7   1   1   0   1   1   1   0 50S ribosome-binding GTPase
+TIP49                PF06068.12 sp|P48101|CHLI_CYAPA -              0.031   13.1   0.0       4.9    5.9   0.0   2.3   2   0   0   2   2   2   0 TIP49 C-terminus
+AAA_28               PF13521.5  sp|P48101|CHLI_CYAPA -              0.047   13.9   0.0      0.27   11.3   0.0   2.1   2   0   0   2   2   2   0 AAA domain
+AAA_27               PF13514.5  sp|P48101|CHLI_CYAPA -              0.071   12.6   0.0      0.16   11.4   0.0   1.6   2   0   0   2   2   2   0 AAA domain
+AAA_19               PF13245.5  sp|P48101|CHLI_CYAPA -               0.11   12.7   0.1      0.48   10.7   0.1   2.0   1   1   0   1   1   1   0 AAA domain
+AAA_23               PF13476.5  sp|P48101|CHLI_CYAPA -               0.11   12.9   0.4       1.5    9.2   0.0   2.3   2   0   0   2   2   2   0 AAA domain
+RNA_helicase         PF00910.21 sp|P48101|CHLI_CYAPA -               0.18   12.1   0.0      0.67   10.3   0.0   1.9   2   0   0   2   2   2   0 RNA helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P48101.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P48101.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P48101.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:29:15 2019
+# [ok]

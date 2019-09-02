@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q67QM7|MURD_SYMTH -            9.5e-36  123.5   0.0   1.3e-35  123.1   0.0   1.2   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q67QM7|MURD_SYMTH -            6.5e-08   32.6   0.0     3e-07   30.5   0.0   2.2   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+NAD_binding_8        PF13450.5  sp|Q67QM7|MURD_SYMTH -              0.045   13.9   1.0        12    6.1   0.2   2.6   2   0   0   2   2   2   0 NAD(P)-binding Rossmann-like domain
+DUF2188              PF09954.8  sp|Q67QM7|MURD_SYMTH -              0.081   13.0   0.5       3.3    7.8   0.2   2.7   2   0   0   2   2   2   0 Uncharacterized protein conserved in bacteria (DUF2188)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q67QM7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q67QM7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q67QM7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:21:24 2019
+# [ok]

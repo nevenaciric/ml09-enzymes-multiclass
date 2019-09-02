@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|A4TDS2|DNLI_MYCGI -            5.3e-44  150.2   0.0   7.2e-44  149.8   0.0   1.2   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|A4TDS2|DNLI_MYCGI -            1.9e-13   51.1   0.1     1e-08   35.6   0.0   3.2   1   1   2   3   3   3   3 DNA ligase N terminus
+DNA_ligase_A_C       PF04679.14 sp|A4TDS2|DNLI_MYCGI -            1.7e-11   44.4   0.0   4.4e-11   43.2   0.0   1.7   1   0   0   1   1   1   1 ATP dependent DNA ligase C terminal region
+APH                  PF01636.22 sp|A4TDS2|DNLI_MYCGI -                1.5    8.6  10.8        10    5.9  10.7   2.2   1   1   0   1   1   1   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A4TDS2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A4TDS2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A4TDS2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:18:31 2019
+# [ok]

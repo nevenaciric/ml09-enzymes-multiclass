@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q979W4|NADE_THEVO -            1.7e-70  236.8   0.0     2e-70  236.5   0.0   1.1   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|Q979W4|NADE_THEVO -            0.00024   19.9   0.1   0.00046   19.0   0.0   1.5   2   0   0   2   2   2   1 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|Q979W4|NADE_THEVO -               0.02   14.5   0.0     0.028   14.0   0.0   1.1   1   0   0   1   1   1   0 Asparagine synthase
+QueC                 PF06508.12 sp|Q979W4|NADE_THEVO -              0.039   13.4   0.0      0.11   11.9   0.0   1.7   2   0   0   2   2   2   0 Queuosine biosynthesis protein QueC
+TrmB                 PF01978.18 sp|Q979W4|NADE_THEVO -              0.059   13.2   0.0       3.7    7.4   0.0   2.8   3   0   0   3   3   3   0 Sugar-specific transcriptional regulator TrmB
+SCIMP                PF15050.5  sp|Q979W4|NADE_THEVO -              0.061   13.7   0.0      0.11   12.8   0.0   1.4   1   0   0   1   1   1   0 SCIMP protein
+NCD1                 PF04904.12 sp|Q979W4|NADE_THEVO -               0.11   12.4   0.0      0.61   10.0   0.0   2.0   2   0   0   2   2   2   0 NAB conserved region 1 (NCD1)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q979W4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q979W4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q979W4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:51:23 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q6Q883|SIRP_LEPMC -           1.3e-148  495.0   0.0   1.6e-76  257.5   0.0   2.2   2   0   0   2   2   2   2 AMP-binding enzyme
+Condensation         PF00668.19 sp|Q6Q883|SIRP_LEPMC -            2.1e-69  234.3   0.0   2.8e-38  131.7   0.4   2.6   2   1   0   2   2   2   2 Condensation domain
+PP-binding           PF00550.24 sp|Q6Q883|SIRP_LEPMC -            6.1e-23   80.9   1.6   9.3e-08   32.2   0.0   3.8   3   0   0   3   3   3   3 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|Q6Q883|SIRP_LEPMC -            7.5e-09   36.4   0.0   3.4e-05   24.6   0.0   2.6   2   0   0   2   2   2   2 AMP-binding enzyme C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q6Q883.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q6Q883.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q6Q883.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:26:27 2019
+# [ok]

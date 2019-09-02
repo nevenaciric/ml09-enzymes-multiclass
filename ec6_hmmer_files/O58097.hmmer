@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Gln-synt_C           PF00120.23 sp|O58097|GLN1A_PYRHO -           5.4e-128  426.7   0.0  6.4e-128  426.5   0.0   1.1   1   0   0   1   1   1   1 Glutamine synthetase, catalytic domain
+Gln-synt_N           PF03951.18 sp|O58097|GLN1A_PYRHO -            3.1e-23   81.2   0.0     5e-23   80.5   0.0   1.3   1   0   0   1   1   1   1 Glutamine synthetase, beta-Grasp domain
+Gln-synt_N_2         PF16952.4  sp|O58097|GLN1A_PYRHO -             0.0052   16.5   0.0     0.019   14.7   0.0   1.9   1   1   0   1   1   1   1 Glutamine synthetase N-terminal domain
+MraZ                 PF02381.17 sp|O58097|GLN1A_PYRHO -               0.11   12.3   0.0      0.24   11.3   0.0   1.5   1   0   0   1   1   1   0 MraZ protein, putative antitoxin-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/O58097.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/O58097.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/O58097.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:22:48 2019
+# [ok]

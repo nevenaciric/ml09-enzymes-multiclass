@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q10WA5|MURD_TRIEI -            5.2e-27   95.0   0.2     1e-26   94.1   0.2   1.5   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q10WA5|MURD_TRIEI -            4.2e-09   36.4   0.0   8.8e-09   35.4   0.0   1.5   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+ApbA                 PF02558.15 sp|Q10WA5|MURD_TRIEI -             0.0029   17.2   0.0    0.0055   16.3   0.0   1.4   1   0   0   1   1   1   1 Ketopantoate reductase PanE/ApbA
+XdhC_C               PF13478.5  sp|Q10WA5|MURD_TRIEI -              0.003   17.9   0.0      0.18   12.2   0.0   3.0   3   0   0   3   3   3   1 XdhC Rossmann domain
+IlvN                 PF07991.11 sp|Q10WA5|MURD_TRIEI -             0.0072   15.8   0.0     0.018   14.5   0.0   1.7   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+NAD_binding_8        PF13450.5  sp|Q10WA5|MURD_TRIEI -              0.068   13.3   0.0      0.24   11.5   0.0   2.0   2   0   0   2   2   2   0 NAD(P)-binding Rossmann-like domain
+F420_oxidored        PF03807.16 sp|Q10WA5|MURD_TRIEI -              0.098   13.2   0.0        26    5.4   0.0   2.5   2   0   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+2-Hacid_dh_C         PF02826.18 sp|Q10WA5|MURD_TRIEI -                0.1   11.8   0.0      0.25   10.6   0.0   1.7   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q10WA5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q10WA5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q10WA5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:42:13 2019
+# [ok]

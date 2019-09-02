@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ProRS-C_1            PF09180.10 sp|Q2SSG0|SYP_MYCCT  -            4.6e-19   68.3   4.0   5.5e-19   68.0   2.2   2.2   2   0   0   2   2   2   1 Prolyl-tRNA synthetase, C-terminal
+tRNA-synt_2b         PF00587.24 sp|Q2SSG0|SYP_MYCCT  -              2e-16   60.4   0.1   4.2e-16   59.3   0.1   1.5   1   0   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q2SSG0|SYP_MYCCT  -            4.1e-15   55.6   3.3   4.1e-15   55.6   3.3   1.8   2   0   0   2   2   2   1 Anticodon binding domain
+ER                   PF01133.16 sp|Q2SSG0|SYP_MYCCT  -              0.015   15.2   1.8     0.034   14.0   0.6   2.2   2   0   0   2   2   2   0 Enhancer of rudimentary
+PTPS                 PF01242.18 sp|Q2SSG0|SYP_MYCCT  -              0.032   14.1   0.4      0.12   12.3   0.2   2.0   2   0   0   2   2   2   0 6-pyruvoyl tetrahydropterin synthase
+FPRL1_inhibitor      PF16104.4  sp|Q2SSG0|SYP_MYCCT  -               0.72    9.9   5.1       1.5    8.9   2.6   2.4   1   1   1   2   2   2   0 Formyl peptide receptor-like 1 inhibitory protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2SSG0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2SSG0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2SSG0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:55:42 2019
+# [ok]

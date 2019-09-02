@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|B2IN18|SYY_STRPS  -            1.1e-83  280.9   0.0   1.4e-83  280.5   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|B2IN18|SYY_STRPS  -            8.9e-08   31.6   0.1   2.4e-07   30.2   0.1   1.7   1   0   0   1   1   1   1 S4 domain
+DUF2833              PF11090.7  sp|B2IN18|SYY_STRPS  -                0.4   11.0   2.1       1.4    9.3   0.1   2.8   3   1   1   4   4   4   0 Protein of unknown function (DUF2833)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/B2IN18.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/B2IN18.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/B2IN18.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:50:02 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_synt_2f         PF02092.16 sp|Q04F69|SYGB_OENOB -             8e-190  632.2   0.4  9.7e-190  631.9   0.4   1.1   1   0   0   1   1   1   1 Glycyl-tRNA synthetase beta subunit
+DALR_1               PF05746.14 sp|Q04F69|SYGB_OENOB -            0.00017   21.6   0.4    0.0011   19.0   0.1   2.6   2   0   0   2   2   2   1 DALR anticodon binding domain
+PIN_3                PF13470.5  sp|Q04F69|SYGB_OENOB -              0.092   13.4   0.0      0.55   10.9   0.0   2.2   2   0   0   2   2   2   0 PIN domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q04F69.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q04F69.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q04F69.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:36:50 2019
+# [ok]

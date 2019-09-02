@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q5D6D3|NPS6_COCH4 -            1.1e-65  221.8   0.0   1.5e-65  221.3   0.0   1.2   1   0   0   1   1   1   1 AMP-binding enzyme
+Condensation         PF00668.19 sp|Q5D6D3|NPS6_COCH4 -            4.9e-64  216.6   0.0   6.6e-35  120.6   0.0   2.6   2   1   0   2   2   2   2 Condensation domain
+PP-binding           PF00550.24 sp|Q5D6D3|NPS6_COCH4 -            1.9e-41  140.2   6.6   2.2e-13   50.2   0.2   4.0   4   0   0   4   4   4   3 Phosphopantetheine attachment site
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5D6D3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5D6D3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5D6D3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:10:53 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_aden      PF01653.17 sp|Q0AAV2|DNLJ_ALKEH -           4.3e-127  423.5   0.0  5.7e-127  423.1   0.0   1.1   1   0   0   1   1   1   1 NAD-dependent DNA ligase adenylation domain
+DNA_ligase_OB        PF03120.15 sp|Q0AAV2|DNLJ_ALKEH -            1.7e-33  114.3   4.3   3.8e-33  113.1   4.3   1.6   1   0   0   1   1   1   1 NAD-dependent DNA ligase OB-fold domain
+HHH_2                PF12826.6  sp|Q0AAV2|DNLJ_ALKEH -            8.3e-25   86.6   0.1   6.7e-24   83.7   0.1   2.7   2   1   0   2   2   2   1 Helix-hairpin-helix motif
+HHH_5                PF14520.5  sp|Q0AAV2|DNLJ_ALKEH -            5.4e-18   65.3   0.0     5e-09   36.5   0.0   2.7   2   0   0   2   2   2   2 Helix-hairpin-helix domain
+BRCT                 PF00533.25 sp|Q0AAV2|DNLJ_ALKEH -            1.4e-14   54.1   0.0   3.2e-14   53.0   0.0   1.6   2   0   0   2   2   2   1 BRCA1 C Terminus (BRCT) domain
+DNA_ligase_ZBD       PF03119.15 sp|Q0AAV2|DNLJ_ALKEH -            4.6e-11   42.4   2.2   1.3e-10   41.0   2.2   1.9   1   0   0   1   1   1   1 NAD-dependent DNA ligase C4 zinc finger domain
+PTCB-BRCT            PF12738.6  sp|Q0AAV2|DNLJ_ALKEH -            8.4e-06   25.5   0.0   1.8e-05   24.5   0.0   1.5   1   0   0   1   1   1   1 twin BRCT domain
+HHH                  PF00633.22 sp|Q0AAV2|DNLJ_ALKEH -             0.0012   18.5   0.6      0.03   14.1   0.0   3.4   4   0   0   4   4   4   1 Helix-hairpin-helix motif
+5_3_exonuc           PF01367.19 sp|Q0AAV2|DNLJ_ALKEH -              0.018   15.6   0.0      0.12   12.9   0.0   2.3   2   0   0   2   2   2   0 5'-3' exonuclease, C-terminal SAM fold
+PASTA                PF03793.18 sp|Q0AAV2|DNLJ_ALKEH -               0.12   12.2   0.2      0.88    9.4   0.1   2.4   2   0   0   2   2   2   0 PASTA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q0AAV2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q0AAV2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q0AAV2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:38:19 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|C8V7P4|IVOA_EMENI -            6.7e-76  255.5   0.0   9.7e-76  254.9   0.0   1.2   1   0   0   1   1   1   1 AMP-binding enzyme
+Condensation         PF00668.19 sp|C8V7P4|IVOA_EMENI -            3.1e-48  164.5   3.0   6.8e-28   97.4   0.1   5.2   3   2   1   4   4   4   3 Condensation domain
+PP-binding           PF00550.24 sp|C8V7P4|IVOA_EMENI -            9.3e-08   32.2   0.6   8.3e-07   29.2   0.1   2.9   3   0   0   3   3   3   1 Phosphopantetheine attachment site
+AATase               PF07247.11 sp|C8V7P4|IVOA_EMENI -               0.21   10.2   0.8        24    3.4   0.0   3.2   3   1   1   4   4   4   0 Alcohol acetyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C8V7P4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C8V7P4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C8V7P4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:19:48 2019
+# [ok]

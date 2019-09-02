@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|Q9Z2I9|SUCB1_MOUSE -            3.9e-75  251.8   1.6   3.9e-75  251.8   1.6   1.7   2   0   0   2   2   2   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|Q9Z2I9|SUCB1_MOUSE -            4.2e-28   98.0   2.7   8.1e-28   97.1   2.7   1.5   1   0   0   1   1   1   1 CoA-ligase
+ATP-grasp_5          PF13549.5  sp|Q9Z2I9|SUCB1_MOUSE -            9.2e-10   38.2   1.6   1.1e-09   38.0   0.4   1.8   2   0   0   2   2   2   1 ATP-grasp domain
+CPSase_L_D2          PF02786.16 sp|Q9Z2I9|SUCB1_MOUSE -              0.001   18.5   1.8    0.0046   16.4   0.2   2.3   2   0   0   2   2   2   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+GARS_A               PF01071.18 sp|Q9Z2I9|SUCB1_MOUSE -              0.027   14.1   0.7      0.08   12.6   0.7   1.8   1   1   0   1   1   1   0 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+nsp7                 PF08716.9  sp|Q9Z2I9|SUCB1_MOUSE -               0.11   13.0   1.1       3.8    8.1   0.3   2.6   2   0   0   2   2   2   0 nsp7 replicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9Z2I9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9Z2I9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9Z2I9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:59:46 2019
+# [ok]

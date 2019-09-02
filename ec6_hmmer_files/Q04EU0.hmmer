@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SAICAR_synt          PF01259.17 sp|Q04EU0|PUR7_OENOB -            5.8e-54  183.2   0.3   6.7e-54  183.0   0.3   1.0   1   0   0   1   1   1   1 SAICAR synthetase
+ATP-grasp            PF02222.21 sp|Q04EU0|PUR7_OENOB -             0.0028   17.1   0.0    0.0063   16.0   0.0   1.5   1   0   0   1   1   1   1 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q04EU0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q04EU0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q04EU0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:36:49 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP_bind_3           PF01171.19 sp|Q73N15|TILS_TREDE -            1.3e-51  174.9   0.0   2.5e-51  173.9   0.0   1.5   1   0   0   1   1   1   1 PP-loop family
+TilS_C               PF11734.7  sp|Q73N15|TILS_TREDE -             0.0017   17.7   0.0    0.0038   16.5   0.0   1.6   1   0   0   1   1   1   1 TilS substrate C-terminal domain
+PAPS_reduct          PF01507.18 sp|Q73N15|TILS_TREDE -               0.05   13.5   0.1      0.19   11.7   0.1   1.9   1   1   0   1   1   1   0 Phosphoadenosine phosphosulfate reductase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q73N15.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q73N15.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q73N15.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:28:07 2019
+# [ok]

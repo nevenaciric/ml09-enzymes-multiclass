@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pantoate_ligase      PF02569.14 sp|Q2NVR3|PANC_SODGM -            7.5e-98  326.9   0.0   8.5e-98  326.7   0.0   1.0   1   0   0   1   1   1   1 Pantoate-beta-alanine ligase
+Mannitol_dh          PF01232.22 sp|Q2NVR3|PANC_SODGM -                0.1   12.7   0.0        15    5.6   0.0   2.3   2   0   0   2   2   2   0 Mannitol dehydrogenase Rossmann domain
+FAD_syn              PF06574.11 sp|Q2NVR3|PANC_SODGM -               0.14   11.9   0.0      0.33   10.8   0.0   1.5   1   0   0   1   1   1   0 FAD synthetase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q2NVR3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q2NVR3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q2NVR3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:54:35 2019
+# [ok]

@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q8U4I9|NADE_PYRFU -              5e-85  284.4   0.0   5.6e-85  284.2   0.0   1.0   1   0   0   1   1   1   1 NAD synthase
+QueC                 PF06508.12 sp|Q8U4I9|NADE_PYRFU -            1.2e-07   31.4   0.4   1.2e-05   24.8   0.0   2.4   3   0   0   3   3   3   1 Queuosine biosynthesis protein QueC
+tRNA_Me_trans        PF03054.15 sp|Q8U4I9|NADE_PYRFU -            6.4e-06   25.1   0.1   4.3e-05   22.4   0.1   2.2   2   1   0   2   2   2   1 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|Q8U4I9|NADE_PYRFU -            5.6e-05   22.9   0.0   0.00023   20.8   0.0   1.6   1   1   0   2   2   2   1 Asparagine synthase
+MerR_1               PF13411.5  sp|Q8U4I9|NADE_PYRFU -              0.022   14.8   0.1      0.65   10.0   0.0   2.7   3   0   0   3   3   3   0 MerR HTH family regulatory protein
+PASTA                PF03793.18 sp|Q8U4I9|NADE_PYRFU -              0.049   13.4   0.0      0.11   12.2   0.0   1.7   1   0   0   1   1   1   0 PASTA domain
+ThiI                 PF02568.13 sp|Q8U4I9|NADE_PYRFU -              0.064   12.7   0.2       1.5    8.3   0.1   2.4   2   0   0   2   2   2   0 Thiamine biosynthesis protein (ThiI)
+DUF296               PF03479.14 sp|Q8U4I9|NADE_PYRFU -              0.064   13.7   0.2      0.19   12.1   0.0   1.8   2   0   0   2   2   2   0 Domain of unknown function (DUF296)
+HTH_23               PF13384.5  sp|Q8U4I9|NADE_PYRFU -              0.068   12.9   0.0      0.84    9.4   0.0   2.5   2   0   0   2   2   2   0 Homeodomain-like domain
+ATP_bind_3           PF01171.19 sp|Q8U4I9|NADE_PYRFU -               0.12   12.0   0.0      0.33   10.6   0.0   1.7   1   1   1   2   2   2   0 PP-loop family
+Sigma70_r4           PF04545.15 sp|Q8U4I9|NADE_PYRFU -               0.16   11.4   0.1       1.1    8.7   0.0   2.3   2   0   0   2   2   2   0 Sigma-70, region 4
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q8U4I9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q8U4I9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q8U4I9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:46:57 2019
+# [ok]

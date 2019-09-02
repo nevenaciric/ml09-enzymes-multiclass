@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|A1BJY0|MURD_CHLPD -            6.3e-36  124.1   0.0     3e-35  121.9   0.0   1.9   2   0   0   2   2   2   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|A1BJY0|MURD_CHLPD -            5.6e-08   32.8   0.1   2.9e-07   30.5   0.0   2.3   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+Oxidored_q6          PF01058.21 sp|A1BJY0|MURD_CHLPD -               0.13   12.0   0.0      0.28   10.9   0.0   1.5   1   0   0   1   1   1   0 NADH ubiquinone oxidoreductase, 20 Kd subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A1BJY0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A1BJY0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A1BJY0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:08:58 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|P0CL75|DNLI_PYRAB -            4.9e-69  231.9   1.4     9e-69  231.1   1.4   1.5   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|P0CL75|DNLI_PYRAB -            3.9e-40  137.9   0.4   1.1e-39  136.5   0.4   1.8   1   0   0   1   1   1   1 DNA ligase N terminus
+DNA_ligase_A_C       PF04679.14 sp|P0CL75|DNLI_PYRAB -            6.2e-24   84.4   0.0     3e-23   82.2   0.0   2.2   2   0   0   2   2   2   1 ATP dependent DNA ligase C terminal region
+DNA_ligase_OB_2      PF14743.5  sp|P0CL75|DNLI_PYRAB -              0.016   15.1   0.1     0.096   12.6   0.1   2.3   1   1   0   1   1   1   0 DNA ligase OB-like domain
+TPR_1                PF00515.27 sp|P0CL75|DNLI_PYRAB -              0.058   13.1   0.2      0.73    9.7   0.0   2.6   2   0   0   2   2   2   0 Tetratricopeptide repeat
+Sel1                 PF08238.11 sp|P0CL75|DNLI_PYRAB -              0.074   13.7   0.0      0.19   12.4   0.0   1.7   1   0   0   1   1   1   0 Sel1 repeat
+TPR_8                PF13181.5  sp|P0CL75|DNLI_PYRAB -               0.23   11.7   1.2       4.8    7.5   0.1   3.2   3   0   0   3   3   3   0 Tetratricopeptide repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P0CL75.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P0CL75.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P0CL75.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:25:30 2019
+# [ok]

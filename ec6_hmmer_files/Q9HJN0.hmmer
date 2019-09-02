@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2b         PF00587.24 sp|Q9HJN0|SYP_THEAC  -            2.4e-26   92.7   0.2   7.5e-26   91.1   0.0   1.8   2   0   0   2   2   2   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|Q9HJN0|SYP_THEAC  -            6.6e-19   67.8   0.0   1.6e-18   66.5   0.0   1.7   1   0   0   1   1   1   1 Anticodon binding domain
+ProRS-C_1            PF09180.10 sp|Q9HJN0|SYP_THEAC  -              1e-11   44.8   0.4   2.2e-11   43.7   0.4   1.6   1   0   0   1   1   1   1 Prolyl-tRNA synthetase, C-terminal
+WG_beta_rep          PF14903.5  sp|Q9HJN0|SYP_THEAC  -              0.049   13.9   0.9      0.23   11.7   0.0   2.7   3   0   0   3   3   3   0 WG containing repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q9HJN0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q9HJN0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q9HJN0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:54:27 2019
+# [ok]

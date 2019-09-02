@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2c         PF01411.18 sp|Q1CS22|SYA_HELPH  -             3e-214  712.5   0.0  4.2e-214  712.1   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetases class II (A)
+DHHA1                PF02272.18 sp|Q1CS22|SYA_HELPH  -            1.4e-20   74.0   5.0   4.3e-20   72.4   5.0   1.9   1   0   0   1   1   1   1 DHHA1 domain
+tRNA_SAD             PF07973.13 sp|Q1CS22|SYA_HELPH  -            6.7e-17   61.2   1.8   1.6e-16   60.0   1.8   1.7   1   0   0   1   1   1   1 Threonyl and Alanyl tRNA synthetase second additional domain
+ATP-synt_D           PF01813.16 sp|Q1CS22|SYA_HELPH  -              0.034   13.9   1.7     0.082   12.7   0.5   2.1   2   0   0   2   2   2   0 ATP synthase subunit D
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q1CS22.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q1CS22.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q1CS22.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:45:44 2019
+# [ok]

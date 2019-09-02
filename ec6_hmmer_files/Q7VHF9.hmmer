@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_synthase         PF02540.16 sp|Q7VHF9|NADE_HELHP -            1.4e-74  250.2   0.0   1.8e-74  249.8   0.0   1.1   1   0   0   1   1   1   1 NAD synthase
+tRNA_Me_trans        PF03054.15 sp|Q7VHF9|NADE_HELHP -            0.00025   19.8   0.0    0.0046   15.7   0.0   2.2   2   0   0   2   2   2   1 tRNA methyl transferase
+QueC                 PF06508.12 sp|Q7VHF9|NADE_HELHP -              0.005   16.3   0.0     0.015   14.7   0.0   1.7   2   0   0   2   2   2   1 Queuosine biosynthesis protein QueC
+DUF4479              PF14794.5  sp|Q7VHF9|NADE_HELHP -              0.008   15.9   0.2     0.026   14.3   0.1   1.8   2   0   0   2   2   2   1 Domain of unknown function (DUF4479)
+Asn_synthase         PF00733.20 sp|Q7VHF9|NADE_HELHP -              0.016   14.8   0.0     0.025   14.1   0.0   1.5   1   0   0   1   1   1   0 Asparagine synthase
+UPF0180              PF03698.12 sp|Q7VHF9|NADE_HELHP -              0.072   13.2   0.0       2.3    8.4   0.0   2.3   2   0   0   2   2   2   0 Uncharacterised protein family (UPF0180)
+ThiI                 PF02568.13 sp|Q7VHF9|NADE_HELHP -              0.075   12.5   0.0      0.24   10.9   0.0   1.8   2   0   0   2   2   2   0 Thiamine biosynthesis protein (ThiI)
+NAD_binding_2        PF03446.14 sp|Q7VHF9|NADE_HELHP -               0.11   12.6   0.0      0.23   11.5   0.0   1.5   1   0   0   1   1   1   0 NAD binding domain of 6-phosphogluconate dehydrogenase
+ATP_bind_3           PF01171.19 sp|Q7VHF9|NADE_HELHP -               0.14   11.8   0.1      0.34   10.5   0.1   1.7   1   1   0   1   1   1   0 PP-loop family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q7VHF9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q7VHF9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q7VHF9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:32:27 2019
+# [ok]

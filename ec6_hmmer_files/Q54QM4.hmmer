@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_ligase_A_M       PF01068.20 sp|Q54QM4|DNLI3_DICDI -            7.3e-53  179.2   0.1   1.4e-52  178.2   0.1   1.5   1   0   0   1   1   1   1 ATP dependent DNA ligase domain
+DNA_ligase_A_N       PF04675.13 sp|Q54QM4|DNLI3_DICDI -            9.9e-29  100.8   0.1   2.4e-28   99.5   0.1   1.7   1   0   0   1   1   1   1 DNA ligase N terminus
+DNA_ligase_A_C       PF04679.14 sp|Q54QM4|DNLI3_DICDI -            7.8e-16   58.4   0.0     2e-15   57.1   0.0   1.8   1   0   0   1   1   1   1 ATP dependent DNA ligase C terminal region
+LIG3_BRCT            PF16759.4  sp|Q54QM4|DNLI3_DICDI -            6.7e-15   55.1   1.1   3.9e-13   49.4   0.1   3.3   3   1   0   3   3   3   1 DNA ligase 3 BRCT domain
+BRCT_2               PF16589.4  sp|Q54QM4|DNLI3_DICDI -            3.1e-14   53.0  13.8   1.7e-09   37.8   3.5   4.7   5   1   0   5   5   5   2 BRCT domain, a BRCA1 C-terminus domain
+BRCT                 PF00533.25 sp|Q54QM4|DNLI3_DICDI -            2.6e-12   46.9  15.1   1.4e-06   28.5   3.8   4.1   3   1   1   4   4   4   2 BRCA1 C Terminus (BRCT) domain
+PTCB-BRCT            PF12738.6  sp|Q54QM4|DNLI3_DICDI -            4.2e-10   39.3   0.1   0.00031   20.5   0.0   2.7   2   0   0   2   2   2   2 twin BRCT domain
+RNA_ligase           PF09414.9  sp|Q54QM4|DNLI3_DICDI -            6.2e-08   33.0   0.1   1.5e-07   31.8   0.1   1.7   1   0   0   1   1   1   1 RNA ligase
+mRNA_cap_enzyme      PF01331.18 sp|Q54QM4|DNLI3_DICDI -              0.047   13.4   0.1     0.047   13.4   0.1   3.0   3   1   0   3   3   3   0 mRNA capping enzyme, catalytic domain
+Mucin                PF01456.16 sp|Q54QM4|DNLI3_DICDI -                3.4    7.5  28.8      0.69    9.8   6.3   3.5   3   0   0   3   3   3   0 Mucin-like glycoprotein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q54QM4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q54QM4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q54QM4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:09:23 2019
+# [ok]

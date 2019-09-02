@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|A3Q0S2|SYY_MYCSJ  -            8.2e-81  271.4   0.0   9.8e-81  271.2   0.0   1.0   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+S4                   PF01479.24 sp|A3Q0S2|SYY_MYCSJ  -            0.00065   19.3   0.0    0.0013   18.3   0.0   1.5   1   0   0   1   1   1   1 S4 domain
+TyrRSs_C             PF16714.4  sp|A3Q0S2|SYY_MYCSJ  -               0.01   15.5   0.6      0.42   10.3   0.6   2.3   1   1   0   1   1   1   0 Tyrosyl-tRNA synthetase C-terminal domain
+DUF951               PF06107.10 sp|A3Q0S2|SYY_MYCSJ  -              0.022   14.5   0.0      0.12   12.2   0.0   2.1   2   0   0   2   2   2   0 Bacterial protein of unknown function (DUF951)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A3Q0S2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A3Q0S2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A3Q0S2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:16:20 2019
+# [ok]

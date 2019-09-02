@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACC_central          PF08326.11 sp|P11029|ACAC_CHICK -             4e-293  974.1   5.9  4.9e-293  973.8   5.9   1.1   1   0   0   1   1   1   1 Acetyl-CoA carboxylase, central region
+Carboxyl_trans       PF01039.21 sp|P11029|ACAC_CHICK -           5.6e-182  605.7   0.0  7.5e-182  605.3   0.0   1.2   1   0   0   1   1   1   1 Carboxyl transferase domain
+CPSase_L_D2          PF02786.16 sp|P11029|ACAC_CHICK -            4.5e-54  183.0   0.0   9.4e-54  182.0   0.0   1.5   1   0   0   1   1   1   1 Carbamoyl-phosphate synthase L chain, ATP binding domain
+Biotin_carb_N        PF00289.21 sp|P11029|ACAC_CHICK -              1e-31  109.6   0.0   2.2e-31  108.5   0.0   1.6   1   0   0   1   1   1   1 Biotin carboxylase, N-terminal domain
+Biotin_carb_C        PF02785.18 sp|P11029|ACAC_CHICK -            3.4e-23   81.7   0.0     2e-22   79.2   0.0   2.3   2   0   0   2   2   2   1 Biotin carboxylase C-terminal domain
+Biotin_lipoyl        PF00364.21 sp|P11029|ACAC_CHICK -            3.1e-16   58.9   0.0   9.9e-16   57.2   0.0   1.9   1   0   0   1   1   1   1 Biotin-requiring enzyme
+ATPgrasp_Ter         PF15632.5  sp|P11029|ACAC_CHICK -            2.6e-08   32.9   0.0    0.0014   17.3   0.0   2.9   2   1   0   2   2   2   2 ATP-grasp in the biosynthetic pathway with Ter operon
+ATP-grasp            PF02222.21 sp|P11029|ACAC_CHICK -            6.8e-06   25.7   0.0   1.4e-05   24.6   0.0   1.5   1   0   0   1   1   1   1 ATP-grasp domain
+Dala_Dala_lig_C      PF07478.12 sp|P11029|ACAC_CHICK -            7.5e-06   25.5   0.0   2.2e-05   24.0   0.0   1.7   1   0   0   1   1   1   1 D-ala D-ala ligase C-terminus
+ATP-grasp_3          PF02655.13 sp|P11029|ACAC_CHICK -            2.4e-05   24.3   0.0   7.3e-05   22.8   0.0   1.8   1   1   0   1   1   1   1 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/P11029.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/P11029.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/P11029.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:26:10 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-grasp_2          PF08442.9  sp|A4WNM6|SUCC_RHOS5 -            2.7e-76  255.5   0.2   4.6e-76  254.8   0.1   1.5   2   0   0   2   2   2   1 ATP-grasp domain
+Ligase_CoA           PF00549.18 sp|A4WNM6|SUCC_RHOS5 -            1.6e-28   99.4   2.3   3.4e-28   98.3   2.3   1.6   1   0   0   1   1   1   1 CoA-ligase
+ATP-grasp_5          PF13549.5  sp|A4WNM6|SUCC_RHOS5 -            6.3e-09   35.5   0.3   8.5e-08   31.8   0.3   2.4   1   1   0   1   1   1   1 ATP-grasp domain
+GARS_A               PF01071.18 sp|A4WNM6|SUCC_RHOS5 -              0.034   13.8   0.0      0.17   11.5   0.0   2.1   1   1   0   1   1   1   0 Phosphoribosylglycinamide synthetase, ATP-grasp (A) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A4WNM6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A4WNM6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A4WNM6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:19:30 2019
+# [ok]

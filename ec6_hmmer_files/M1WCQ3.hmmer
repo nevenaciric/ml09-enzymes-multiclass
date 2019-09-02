@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|M1WCQ3|TCPP_CLAP2 -           1.7e-138  461.7   0.0   2.6e-72  243.6   0.0   2.2   2   0   0   2   2   2   2 AMP-binding enzyme
+Condensation         PF00668.19 sp|M1WCQ3|TCPP_CLAP2 -            6.5e-75  252.4   0.0     4e-39  134.5   0.0   2.6   2   1   0   2   2   2   2 Condensation domain
+PP-binding           PF00550.24 sp|M1WCQ3|TCPP_CLAP2 -            6.2e-22   77.6   1.0   1.5e-10   41.2   0.1   2.8   2   0   0   2   2   2   2 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|M1WCQ3|TCPP_CLAP2 -            5.5e-11   43.2   0.0    0.0002   22.2   0.0   2.9   2   0   0   2   2   2   2 AMP-binding enzyme C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/M1WCQ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/M1WCQ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/M1WCQ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:20:53 2019
+# [ok]

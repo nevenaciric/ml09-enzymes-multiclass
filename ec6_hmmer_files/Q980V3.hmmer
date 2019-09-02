@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_2          PF00152.19 sp|Q980V3|SYDND_SACS2 -              7e-92  307.8   0.0   8.2e-92  307.5   0.0   1.0   1   0   0   1   1   1   1 tRNA synthetases class II (D, K and N)
+tRNA_anti-codon      PF01336.24 sp|Q980V3|SYDND_SACS2 -              8e-14   51.3   1.1     2e-13   50.0   1.1   1.7   2   0   0   2   2   2   1 OB-fold nucleic acid binding domain
+RBD                  PF02196.14 sp|Q980V3|SYDND_SACS2 -              0.048   13.7   0.0      0.11   12.5   0.0   1.6   1   0   0   1   1   1   0 Raf-like Ras-binding domain
+MAT1                 PF06391.12 sp|Q980V3|SYDND_SACS2 -              0.065   12.9   0.4      0.11   12.3   0.4   1.2   1   0   0   1   1   1   0 CDK-activating kinase assembly factor MAT1
+tRNA-synt_2d         PF01409.19 sp|Q980V3|SYDND_SACS2 -                0.1   12.0   0.0       8.6    5.7   0.0   2.3   2   0   0   2   2   2   0 tRNA synthetases class II core domain (F)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q980V3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q980V3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q980V3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:52:11 2019
+# [ok]

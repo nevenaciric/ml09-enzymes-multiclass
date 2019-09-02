@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CPSase_sm_chain      PF00988.21 sp|Q819S2|CARA_BACCR -            2.9e-52  175.7   0.0   4.9e-52  175.0   0.0   1.4   1   0   0   1   1   1   1 Carbamoyl-phosphate synthase small chain, CPSase domain
+GATase               PF00117.27 sp|Q819S2|CARA_BACCR -            1.8e-48  164.7   0.0   4.1e-48  163.6   0.0   1.6   2   0   0   2   2   2   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|Q819S2|CARA_BACCR -            2.1e-08   34.1   0.6   7.5e-06   25.7   0.7   2.5   2   1   0   2   2   2   1 Peptidase C26
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q819S2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q819S2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q819S2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:34:00 2019
+# [ok]

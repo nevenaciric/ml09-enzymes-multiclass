@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QueC                 PF06508.12 sp|A8GTC6|QUEC_RICRS -            1.3e-73  246.8   0.0   1.5e-73  246.7   0.0   1.0   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+ThiI                 PF02568.13 sp|A8GTC6|QUEC_RICRS -            0.00017   21.1   0.1      0.46    9.9   0.0   2.2   2   0   0   2   2   2   2 Thiamine biosynthesis protein (ThiI)
+ATP_bind_3           PF01171.19 sp|A8GTC6|QUEC_RICRS -             0.0003   20.5   0.0     0.027   14.1   0.0   2.1   2   0   0   2   2   2   2 PP-loop family
+Asn_synthase         PF00733.20 sp|A8GTC6|QUEC_RICRS -              0.058   12.9   0.0     0.079   12.5   0.0   1.1   1   0   0   1   1   1   0 Asparagine synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/A8GTC6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/A8GTC6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/A8GTC6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 14:35:14 2019
+# [ok]

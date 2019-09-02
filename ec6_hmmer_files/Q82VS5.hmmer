@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q82VS5|MURD_NITEU -            1.7e-38  132.4   0.0   3.2e-38  131.5   0.0   1.5   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q82VS5|MURD_NITEU -            1.6e-09   37.8   0.0   2.5e-08   34.0   0.0   2.7   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+Shikimate_DH         PF01488.19 sp|Q82VS5|MURD_NITEU -              0.002   18.1   0.0       1.3    9.0   0.0   3.3   3   0   0   3   3   3   1 Shikimate / quinate 5-dehydrogenase
+Sacchrp_dh_NADP      PF03435.17 sp|Q82VS5|MURD_NITEU -              0.016   15.4   0.0       4.5    7.4   0.0   3.1   3   1   0   3   3   3   0 Saccharopine dehydrogenase NADP binding domain
+2-Hacid_dh_C         PF02826.18 sp|Q82VS5|MURD_NITEU -              0.075   12.3   0.0      0.22   10.8   0.0   1.8   1   0   0   1   1   1   0 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+PG_binding_3         PF09374.9  sp|Q82VS5|MURD_NITEU -               0.12   12.6   0.0      0.26   11.5   0.0   1.5   1   0   0   1   1   1   0 Predicted Peptidoglycan domain
+XdhC_C               PF13478.5  sp|Q82VS5|MURD_NITEU -               0.12   12.8   0.1       1.8    9.0   0.0   2.7   3   0   0   3   3   3   0 XdhC Rossmann domain
+Peripla_BP_4         PF13407.5  sp|Q82VS5|MURD_NITEU -                2.7    7.4   5.3       0.8    9.1   1.9   1.9   2   1   0   2   2   2   0 Periplasmic binding protein domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q82VS5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q82VS5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q82VS5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:35:08 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_His        PF13393.5  sp|C3N7K1|SYH_SULIY  -            2.8e-65  220.5   0.0   3.4e-65  220.3   0.0   1.1   1   0   0   1   1   1   1 Histidyl-tRNA synthetase
+tRNA-synt_2b         PF00587.24 sp|C3N7K1|SYH_SULIY  -              2e-14   53.9   0.1   2.8e-13   50.1   0.1   2.2   1   1   0   1   1   1   1 tRNA synthetase class II core domain (G, H, P, S and T)
+HGTP_anticodon       PF03129.19 sp|C3N7K1|SYH_SULIY  -              6e-11   42.3   0.3     2e-10   40.6   0.3   1.9   1   0   0   1   1   1   1 Anticodon binding domain
+tRNA-synt_2d         PF01409.19 sp|C3N7K1|SYH_SULIY  -            2.9e-08   33.4   0.0   1.1e-07   31.5   0.0   2.0   2   0   0   2   2   2   1 tRNA synthetases class II core domain (F)
+RB_B                 PF01857.19 sp|C3N7K1|SYH_SULIY  -              0.012   15.6   1.1     0.025   14.5   1.1   1.5   1   0   0   1   1   1   0 Retinoblastoma-associated protein B domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/C3N7K1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/C3N7K1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/C3N7K1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 15:16:07 2019
+# [ok]

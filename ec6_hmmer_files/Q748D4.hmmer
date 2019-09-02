@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q748D4|MURD_GEOSL -            4.7e-33  114.7   0.0   7.2e-33  114.1   0.0   1.3   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q748D4|MURD_GEOSL -            2.1e-08   34.2   0.0     7e-08   32.5   0.0   2.0   1   0   0   1   1   1   1 Mur ligase family, glutamate ligase domain
+NAD_binding_7        PF13241.5  sp|Q748D4|MURD_GEOSL -             0.0055   17.0   0.1     0.016   15.5   0.1   1.9   1   1   0   1   1   1   1 Putative NAD(P)-binding
+2-Hacid_dh_C         PF02826.18 sp|Q748D4|MURD_GEOSL -             0.0077   15.5   0.1     0.013   14.8   0.1   1.3   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+Mur_ligase           PF01225.24 sp|Q748D4|MURD_GEOSL -              0.023   14.9   0.1     0.065   13.5   0.1   1.8   1   0   0   1   1   1   0 Mur ligase family, catalytic domain
+XdhC_C               PF13478.5  sp|Q748D4|MURD_GEOSL -              0.025   15.0   0.1     0.055   13.9   0.1   1.6   1   0   0   1   1   1   0 XdhC Rossmann domain
+AdoHcyase_NAD        PF00670.20 sp|Q748D4|MURD_GEOSL -              0.031   14.3   0.0     0.054   13.5   0.0   1.4   1   0   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+TrkA_N               PF02254.17 sp|Q748D4|MURD_GEOSL -              0.063   13.4   0.1      0.54   10.4   0.0   2.5   2   0   0   2   2   2   0 TrkA-N domain
+adh_short_C2         PF13561.5  sp|Q748D4|MURD_GEOSL -               0.09   12.2   0.3      0.16   11.4   0.3   1.4   1   0   0   1   1   1   0 Enoyl-(Acyl carrier protein) reductase
+Pribosyltran         PF00156.26 sp|Q748D4|MURD_GEOSL -              0.098   12.1   0.3      0.43   10.0   0.1   2.0   2   0   0   2   2   2   0 Phosphoribosyl transferase domain
+DUF1188              PF06690.10 sp|Q748D4|MURD_GEOSL -                0.2   11.1   0.0      0.33   10.4   0.0   1.3   1   0   0   1   1   1   0 Protein of unknown function (DUF1188)
+CbiA                 PF01656.22 sp|Q748D4|MURD_GEOSL -                3.1    7.8   4.3        11    6.0   1.6   2.6   2   0   0   2   2   2   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q748D4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q748D4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q748D4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:28:26 2019
+# [ok]

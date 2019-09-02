@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GATase               PF00117.27 sp|Q46E00|GUAAA_METBF -              1e-41  142.7   0.0   1.1e-41  142.6   0.0   1.0   1   0   0   1   1   1   1 Glutamine amidotransferase class-I
+Peptidase_C26        PF07722.12 sp|Q46E00|GUAAA_METBF -            3.1e-13   49.9   1.6   9.9e-12   45.0   0.6   2.7   1   1   1   2   2   2   1 Peptidase C26
+DUF4043              PF13252.5  sp|Q46E00|GUAAA_METBF -               0.19   10.9   0.0      0.24   10.5   0.0   1.1   1   0   0   1   1   1   0 Protein of unknown function (DUF4043)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q46E00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q46E00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q46E00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:03:49 2019
+# [ok]

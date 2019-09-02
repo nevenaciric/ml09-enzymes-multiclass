@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mur_ligase_M         PF08245.11 sp|Q47AA2|MURD_DECAR -            9.1e-28   97.5   0.0   1.3e-27   97.0   0.0   1.2   1   0   0   1   1   1   1 Mur ligase middle domain
+Mur_ligase_C         PF02875.20 sp|Q47AA2|MURD_DECAR -            2.1e-07   31.0   0.0   3.3e-06   27.1   0.0   2.7   2   0   0   2   2   2   1 Mur ligase family, glutamate ligase domain
+2-Hacid_dh_C         PF02826.18 sp|Q47AA2|MURD_DECAR -             0.0065   15.8   0.0     0.014   14.7   0.0   1.6   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+NAD_binding_7        PF13241.5  sp|Q47AA2|MURD_DECAR -             0.0066   16.8   0.0     0.015   15.7   0.0   1.6   1   0   0   1   1   1   1 Putative NAD(P)-binding
+NAD_binding_2        PF03446.14 sp|Q47AA2|MURD_DECAR -             0.0082   16.2   0.1      0.11   12.6   0.0   2.5   2   1   0   2   2   2   1 NAD binding domain of 6-phosphogluconate dehydrogenase
+Pyr_redox_3          PF13738.5  sp|Q47AA2|MURD_DECAR -              0.033   13.3   0.0     0.057   12.6   0.0   1.4   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+IlvN                 PF07991.11 sp|Q47AA2|MURD_DECAR -              0.034   13.6   0.0      0.12   11.8   0.0   2.0   1   0   0   1   1   1   0 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+AdoHcyase_NAD        PF00670.20 sp|Q47AA2|MURD_DECAR -              0.049   13.6   0.1      0.16   12.0   0.0   1.9   2   0   0   2   2   2   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+Shikimate_DH         PF01488.19 sp|Q47AA2|MURD_DECAR -               0.17   11.9   0.0       0.4   10.6   0.0   1.7   1   0   0   1   1   1   0 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q47AA2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q47AA2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q47AA2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:04:24 2019
+# [ok]

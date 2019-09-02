@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA-synt_1b         PF00579.24 sp|Q5E2G5|SYW_ALIF1  -            1.3e-77  261.0   0.0   1.5e-77  260.7   0.0   1.1   1   0   0   1   1   1   1 tRNA synthetases class I (W and Y)
+Sec20                PF03908.12 sp|Q5E2G5|SYW_ALIF1  -              0.072   12.9   0.3      0.22   11.4   0.1   1.8   2   0   0   2   2   2   0 Sec20
+Prefoldin_2          PF01920.19 sp|Q5E2G5|SYW_ALIF1  -               0.21   11.5   1.5      0.79    9.6   0.2   2.2   2   0   0   2   2   2   0 Prefoldin subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec6_fasta_files/Q5E2G5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec6_hmmer_files/Q5E2G5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec6_fasta_files/Q5E2G5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Mon Sep  2 16:10:57 2019
+# [ok]
