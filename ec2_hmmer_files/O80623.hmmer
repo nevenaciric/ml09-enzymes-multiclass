@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O80623|Y2393_ARATH -            1.3e-48  165.4   0.0   2.1e-48  164.8   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O80623|Y2393_ARATH -            2.9e-44  151.3   0.0   4.2e-44  150.8   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+Malectin_like        PF12819.6  sp|O80623|Y2393_ARATH -            1.3e-34  119.7   0.2   1.8e-34  119.4   0.2   1.1   1   0   0   1   1   1   1 Carbohydrate-binding protein of the ER
+Malectin             PF11721.7  sp|O80623|Y2393_ARATH -            1.4e-11   44.7   0.2   3.1e-07   30.6   0.1   2.4   2   0   0   2   2   2   2 Di-glucose binding within endoplasmic reticulum
+APH                  PF01636.22 sp|O80623|Y2393_ARATH -             0.0034   17.3   0.1     0.024   14.5   0.0   2.0   1   1   1   2   2   2   1 Phosphotransferase enzyme family
+DAP10                PF07213.10 sp|O80623|Y2393_ARATH -              0.012   15.5   0.5     0.029   14.2   0.1   1.8   2   0   0   2   2   2   0 DAP10 membrane protein
+PIP49_C              PF12260.7  sp|O80623|Y2393_ARATH -              0.019   14.5   0.3      0.14   11.7   0.0   2.2   2   0   0   2   2   2   0 Protein-kinase domain of FAM69
+ABC1                 PF03109.15 sp|O80623|Y2393_ARATH -              0.053   13.6   0.0      0.11   12.6   0.0   1.5   1   0   0   1   1   1   0 ABC1 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O80623.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O80623.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O80623.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:28:46 2019
+# [ok]

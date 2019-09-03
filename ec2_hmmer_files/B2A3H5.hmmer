@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UPRTase              PF14681.5  sp|B2A3H5|UPP_NATTJ  -            1.3e-76  256.5   0.0   1.5e-76  256.3   0.0   1.0   1   0   0   1   1   1   1 Uracil phosphoribosyltransferase
+Pribosyltran         PF00156.26 sp|B2A3H5|UPP_NATTJ  -            1.7e-06   27.6   0.0   2.7e-06   26.9   0.0   1.4   1   1   0   1   1   1   1 Phosphoribosyl transferase domain
+PAS_6                PF08348.10 sp|B2A3H5|UPP_NATTJ  -              0.039   13.7   0.0      0.11   12.3   0.0   1.7   2   0   0   2   2   2   0 YheO-like PAS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2A3H5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2A3H5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2A3H5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:34:30 2019
+# [ok]

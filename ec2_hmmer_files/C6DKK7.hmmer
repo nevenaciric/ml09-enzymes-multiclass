@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|C6DKK7|PNP_PECCP  -            4.4e-44  150.1   0.0     1e-22   80.9   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|C6DKK7|PNP_PECCP  -            1.1e-23   83.4   2.2   1.1e-23   83.4   2.2   2.1   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|C6DKK7|PNP_PECCP  -            7.4e-23   80.6   3.9   7.4e-23   80.6   3.9   2.7   2   0   0   2   2   2   1 S1 RNA binding domain
+RNase_PH_C           PF03725.14 sp|C6DKK7|PNP_PECCP  -            1.6e-21   76.0   1.1   1.8e-13   50.2   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+KH_1                 PF00013.28 sp|C6DKK7|PNP_PECCP  -            2.9e-09   36.5   3.7   2.9e-09   36.5   3.7   2.2   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|C6DKK7|PNP_PECCP  -            0.00084   19.0   4.2   0.00084   19.0   0.5   2.6   2   0   0   2   2   2   1 KH domain
+S1_2                 PF13509.5  sp|C6DKK7|PNP_PECCP  -             0.0018   18.2   0.0      0.01   15.8   0.0   2.4   1   1   0   1   1   1   1 S1 domain
+CsrA                 PF02599.15 sp|C6DKK7|PNP_PECCP  -              0.067   13.0   0.2       2.6    8.0   0.0   2.7   2   0   0   2   2   2   0 Global regulator protein family
+DUF4172              PF13776.5  sp|C6DKK7|PNP_PECCP  -               0.24   11.6   0.6       1.2    9.5   0.1   2.3   2   0   0   2   2   2   0 Domain of unknown function (DUF4172)
+DUF2110              PF09883.8  sp|C6DKK7|PNP_PECCP  -               0.66    9.5   6.0     0.067   12.7   0.6   2.1   3   0   0   3   3   3   0 Uncharacterized protein conserved in archaea (DUF2110)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C6DKK7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C6DKK7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C6DKK7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:04:42 2019
+# [ok]

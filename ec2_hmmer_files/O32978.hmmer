@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PALP                 PF00291.24 sp|O32978|CYSK_MYCLE -            4.8e-71  239.5   2.5   5.4e-71  239.3   2.5   1.0   1   0   0   1   1   1   1 Pyridoxal-phosphate dependent enzyme
+ADH_zinc_N           PF00107.25 sp|O32978|CYSK_MYCLE -              0.016   15.0   0.2      0.57   10.0   0.0   2.8   2   1   0   2   2   2   0 Zinc-binding dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O32978.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O32978.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O32978.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:20:21 2019
+# [ok]

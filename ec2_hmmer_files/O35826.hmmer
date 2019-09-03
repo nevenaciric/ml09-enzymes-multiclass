@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Epimerase_2          PF02350.18 sp|O35826|GLCNE_RAT  -            2.4e-66  223.9   0.1   3.9e-66  223.2   0.1   1.3   1   0   0   1   1   1   1 UDP-N-acetylglucosamine 2-epimerase
+ROK                  PF00480.19 sp|O35826|GLCNE_RAT  -            5.3e-55  186.9   1.8   9.1e-55  186.1   1.8   1.4   1   0   0   1   1   1   1 ROK family
+DRTGG                PF07085.11 sp|O35826|GLCNE_RAT  -             0.0015   18.2   0.1     0.005   16.5   0.1   1.9   1   0   0   1   1   1   1 DRTGG domain
+FGGY_N               PF00370.20 sp|O35826|GLCNE_RAT  -             0.0017   17.9   0.0    0.0031   17.0   0.0   1.4   1   0   0   1   1   1   1 FGGY family of carbohydrate kinases, N-terminal domain
+Hexokinase_1         PF00349.20 sp|O35826|GLCNE_RAT  -              0.007   16.3   0.0     0.014   15.4   0.0   1.4   1   0   0   1   1   1   1 Hexokinase
+BcrAD_BadFG          PF01869.19 sp|O35826|GLCNE_RAT  -               0.13   11.7   0.6       1.3    8.4   0.6   2.3   1   1   0   1   1   1   0 BadF/BadG/BcrA/BcrD ATPase family
+Glucokinase          PF02685.15 sp|O35826|GLCNE_RAT  -               0.34    9.7   0.0      0.34    9.7   0.0   2.3   3   0   0   3   3   3   0 Glucokinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O35826.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O35826.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O35826.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:21:22 2019
+# [ok]

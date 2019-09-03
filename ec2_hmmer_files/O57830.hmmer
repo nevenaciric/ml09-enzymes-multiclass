@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PPDK_N               PF01326.18 sp|O57830|PPSA_PYRHO -           2.6e-117  391.7   7.0  7.9e-117  390.1   7.0   1.7   1   1   0   1   1   1   1 Pyruvate phosphate dikinase, PEP/pyruvate binding domain
+PEP-utilizers_C      PF02896.17 sp|O57830|PPSA_PYRHO -           4.6e-100  334.4   0.0  9.3e-100  333.4   0.0   1.5   1   0   0   1   1   1   1 PEP-utilising enzyme, TIM barrel domain
+PEP-utilizers        PF00391.22 sp|O57830|PPSA_PYRHO -            3.2e-29  100.3   1.0     1e-28   98.8   1.0   1.9   1   0   0   1   1   1   1 PEP-utilising enzyme, mobile domain
+FliS                 PF02561.13 sp|O57830|PPSA_PYRHO -              0.079   13.1   0.1      0.23   11.7   0.1   1.8   1   0   0   1   1   1   0 Flagellar protein FliS
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O57830.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O57830.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O57830.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:24:07 2019
+# [ok]

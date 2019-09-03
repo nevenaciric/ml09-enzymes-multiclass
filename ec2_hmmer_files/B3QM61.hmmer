@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NadA                 PF02445.15 sp|B3QM61|NADA_CHLP8 -           2.3e-114  381.5   0.0  2.7e-114  381.3   0.0   1.0   1   0   0   1   1   1   1 Quinolinate synthetase A protein
+Ribosomal_L29        PF00831.22 sp|B3QM61|NADA_CHLP8 -              0.043   13.7   0.5     0.078   12.9   0.5   1.4   1   0   0   1   1   1   0 Ribosomal L29 protein
+DUF1192              PF06698.10 sp|B3QM61|NADA_CHLP8 -              0.081   12.9   0.3      0.17   11.9   0.3   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF1192)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B3QM61.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B3QM61.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B3QM61.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:51:17 2019
+# [ok]

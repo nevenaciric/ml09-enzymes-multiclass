@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PPTA                 PF01239.21 sp|O60052|FNTA_SCHPO -            7.7e-46  152.5  21.7     2e-11   43.1   0.7   5.4   5   0   0   5   5   5   5 Protein prenyltransferase alpha subunit repeat
+Glyco_hydro_42C      PF08533.9  sp|O60052|FNTA_SCHPO -              0.054   13.1   0.1      0.12   12.0   0.1   1.5   1   0   0   1   1   1   0 Beta-galactosidase C-terminal domain
+DUF4219              PF13961.5  sp|O60052|FNTA_SCHPO -                4.6    7.0  10.6        23    4.8   0.2   3.5   3   0   0   3   3   3   0 Domain of unknown function (DUF4219)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O60052.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O60052.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O60052.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:24:49 2019
+# [ok]

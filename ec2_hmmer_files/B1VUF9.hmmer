@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RrnaAD               PF00398.19 sp|B1VUF9|RSMA_STRGG -            4.9e-45  153.6   0.0   6.4e-45  153.2   0.0   1.0   1   0   0   1   1   1   1 Ribosomal RNA adenine dimethylase
+RelB_transactiv      PF16181.4  sp|B1VUF9|RSMA_STRGG -              0.016   15.4   0.3     0.032   14.4   0.1   1.6   2   0   0   2   2   2   0 RelB transactivation domain
+Methyltransf_25      PF13649.5  sp|B1VUF9|RSMA_STRGG -              0.037   14.6   0.0      0.07   13.7   0.0   1.5   1   0   0   1   1   1   0 Methyltransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B1VUF9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B1VUF9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B1VUF9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:30:22 2019
+# [ok]

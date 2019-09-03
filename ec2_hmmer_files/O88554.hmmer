@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PARP                 PF00644.19 sp|O88554|PARP2_MOUSE -            2.2e-69  232.9   0.0   4.8e-69  231.8   0.0   1.6   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase catalytic domain
+PARP_reg             PF02877.13 sp|O88554|PARP2_MOUSE -            2.4e-47  160.3   0.1   4.9e-47  159.3   0.1   1.5   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase, regulatory domain
+WGR                  PF05406.14 sp|O88554|PARP2_MOUSE -            4.2e-28   97.1   1.9     1e-27   95.9   1.9   1.7   1   0   0   1   1   1   1 WGR domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O88554.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O88554.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O88554.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:30:46 2019
+# [ok]

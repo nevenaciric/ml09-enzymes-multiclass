@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PTS_2-RNA            PF01885.15 sp|O29841|KPTA1_ARCFU -            8.8e-30  104.0   0.1   1.1e-29  103.6   0.1   1.0   1   0   0   1   1   1   1 RNA 2'-phosphotransferase, Tpt1 / KptA family
+UPF0565              PF10561.8  sp|O29841|KPTA1_ARCFU -             0.0054   15.9   0.0    0.0083   15.3   0.0   1.2   1   0   0   1   1   1   1 Uncharacterised protein family UPF0565
+OST-HTH              PF12872.6  sp|O29841|KPTA1_ARCFU -               0.12   12.3   0.0      0.66    9.8   0.0   2.0   2   0   0   2   2   2   0 OST-HTH/LOTUS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O29841.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O29841.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O29841.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:19:17 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+S-AdoMet_synt_C      PF02773.15 sp|B8E5U7|METK_SHEB2 -            7.4e-69  230.0   0.0   1.4e-68  229.1   0.0   1.5   1   0   0   1   1   1   1 S-adenosylmethionine synthetase, C-terminal domain
+S-AdoMet_synt_M      PF02772.15 sp|B8E5U7|METK_SHEB2 -            3.6e-44  149.7   0.0   1.2e-43  148.0   0.0   1.8   2   0   0   2   2   2   1 S-adenosylmethionine synthetase, central domain
+S-AdoMet_synt_N      PF00438.19 sp|B8E5U7|METK_SHEB2 -            5.8e-44  148.7   0.1     1e-43  147.9   0.1   1.4   1   0   0   1   1   1   1 S-adenosylmethionine synthetase, N-terminal domain
+AdoMet_Synthase      PF01941.18 sp|B8E5U7|METK_SHEB2 -              0.053   12.2   0.2       1.1    7.9   0.1   2.2   1   1   1   2   2   2   0 S-adenosylmethionine synthetase (AdoMet synthetase)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8E5U7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8E5U7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8E5U7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:31:48 2019
+# [ok]

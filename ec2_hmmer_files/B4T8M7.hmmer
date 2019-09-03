@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|B4T8M7|AROL_SALHS -              2e-47  161.1   0.0   2.3e-47  161.0   0.0   1.0   1   0   0   1   1   1   1 Shikimate kinase
+AAA_18               PF13238.5  sp|B4T8M7|AROL_SALHS -            5.9e-06   26.7   0.0   1.2e-05   25.8   0.0   1.5   1   1   0   1   1   1   1 AAA domain
+AAA                  PF00004.28 sp|B4T8M7|AROL_SALHS -            1.9e-05   25.0   0.0   3.4e-05   24.2   0.0   1.5   1   0   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+AAA_33               PF13671.5  sp|B4T8M7|AROL_SALHS -            0.00033   20.7   0.1    0.0011   19.1   0.1   1.9   1   1   0   1   1   1   1 AAA domain
+AAA_5                PF07728.13 sp|B4T8M7|AROL_SALHS -             0.0018   18.1   0.0    0.0032   17.4   0.0   1.5   1   0   0   1   1   1   1 AAA domain (dynein-related subfamily)
+Cytidylate_kin2      PF13189.5  sp|B4T8M7|AROL_SALHS -             0.0063   16.6   0.0     0.072   13.1   0.0   2.0   1   1   0   2   2   2   1 Cytidylate kinase-like family
+AAA_16               PF13191.5  sp|B4T8M7|AROL_SALHS -              0.012   15.9   0.1     0.023   15.0   0.1   1.7   1   1   0   1   1   1   0 AAA ATPase domain
+AAA_14               PF13173.5  sp|B4T8M7|AROL_SALHS -              0.014   15.3   0.0     0.027   14.4   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+AAA_25               PF13481.5  sp|B4T8M7|AROL_SALHS -              0.023   14.2   0.5     0.034   13.6   0.5   1.5   1   1   0   1   1   1   0 AAA domain
+Cytidylate_kin       PF02224.17 sp|B4T8M7|AROL_SALHS -              0.025   14.2   0.0      0.15   11.7   0.0   2.0   2   0   0   2   2   2   0 Cytidylate kinase
+IPT                  PF01745.15 sp|B4T8M7|AROL_SALHS -              0.026   13.8   0.0     0.047   13.0   0.0   1.4   1   0   0   1   1   1   0 Isopentenyl transferase
+AAA_28               PF13521.5  sp|B4T8M7|AROL_SALHS -              0.031   14.4   1.0       0.1   12.8   0.2   2.1   2   1   0   2   2   2   0 AAA domain
+AAA_23               PF13476.5  sp|B4T8M7|AROL_SALHS -              0.038   14.4   0.0     0.057   13.8   0.0   1.2   1   0   0   1   1   1   0 AAA domain
+RNA_helicase         PF00910.21 sp|B4T8M7|AROL_SALHS -              0.045   14.1   0.0     0.079   13.3   0.0   1.5   1   0   0   1   1   1   0 RNA helicase
+dNK                  PF01712.18 sp|B4T8M7|AROL_SALHS -              0.052   13.3   0.0         2    8.1   0.0   2.1   2   0   0   2   2   2   0 Deoxynucleoside kinase
+Thymidylate_kin      PF02223.16 sp|B4T8M7|AROL_SALHS -              0.054   13.1   0.1         1    8.9   0.0   2.1   2   0   0   2   2   2   0 Thymidylate kinase
+AAA_22               PF13401.5  sp|B4T8M7|AROL_SALHS -              0.066   13.4   0.5      0.39   10.9   0.5   2.1   1   1   0   1   1   1   0 AAA domain
+SpoVT_C              PF15714.4  sp|B4T8M7|AROL_SALHS -              0.077   12.9   0.0      0.14   12.1   0.0   1.4   1   0   0   1   1   1   0 Stage V sporulation protein T C-terminal, transcription factor
+ABC_tran             PF00005.26 sp|B4T8M7|AROL_SALHS -              0.094   13.1   0.0      0.18   12.2   0.0   1.5   1   0   0   1   1   1   0 ABC transporter
+ADK                  PF00406.21 sp|B4T8M7|AROL_SALHS -               0.15   12.0   0.1       9.4    6.2   0.0   2.1   2   0   0   2   2   2   0 Adenylate kinase
+Sigma54_activ_2      PF14532.5  sp|B4T8M7|AROL_SALHS -               0.19   11.7   0.0      0.32   11.0   0.0   1.5   1   0   0   1   1   1   0 Sigma-54 interaction domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4T8M7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4T8M7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4T8M7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:57:39 2019
+# [ok]

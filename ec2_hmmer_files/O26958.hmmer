@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|O26958|NADK_METTH -            3.3e-80  269.3   0.7     6e-80  268.5   0.7   1.4   1   1   0   1   1   1   1 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|O26958|NADK_METTH -            2.7e-05   23.7   0.0   6.2e-05   22.5   0.0   1.6   1   0   0   1   1   1   1 Diacylglycerol kinase catalytic domain
+PK_C                 PF02887.15 sp|O26958|NADK_METTH -              0.093   12.9   0.0      0.24   11.5   0.0   1.7   1   1   0   1   1   1   0 Pyruvate kinase, alpha/beta domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O26958.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O26958.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O26958.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:18:15 2019
+# [ok]

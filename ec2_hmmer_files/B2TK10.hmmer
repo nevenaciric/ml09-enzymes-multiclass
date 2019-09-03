@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+S-AdoMet_synt_C      PF02773.15 sp|B2TK10|METK_CLOBB -            3.9e-70  234.1   0.5   1.4e-69  232.3   0.0   1.9   2   0   0   2   2   2   1 S-adenosylmethionine synthetase, C-terminal domain
+S-AdoMet_synt_M      PF02772.15 sp|B2TK10|METK_CLOBB -            5.3e-50  168.5   0.0     1e-49  167.6   0.0   1.5   1   0   0   1   1   1   1 S-adenosylmethionine synthetase, central domain
+S-AdoMet_synt_N      PF00438.19 sp|B2TK10|METK_CLOBB -            5.9e-46  155.1   0.3   1.5e-45  153.8   0.3   1.7   1   0   0   1   1   1   1 S-adenosylmethionine synthetase, N-terminal domain
+DUF4367              PF14285.5  sp|B2TK10|METK_CLOBB -              0.026   14.9   1.4       3.1    8.2   0.2   2.4   2   0   0   2   2   2   0 Domain of unknown function (DUF4367)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2TK10.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2TK10.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2TK10.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:43:02 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|B7K612|MIAA_CYAP8 -            1.1e-70  237.9   0.0   1.3e-70  237.6   0.0   1.0   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|B7K612|MIAA_CYAP8 -            3.8e-07   29.6   0.3   2.1e-06   27.2   0.0   1.9   2   0   0   2   2   2   1 Isopentenyl transferase
+AAA_33               PF13671.5  sp|B7K612|MIAA_CYAP8 -             0.0016   18.5   0.0    0.0056   16.7   0.0   2.0   3   0   0   3   3   3   1 AAA domain
+AAA_18               PF13238.5  sp|B7K612|MIAA_CYAP8 -              0.019   15.4   0.0      0.25   11.8   0.0   2.2   2   0   0   2   2   2   0 AAA domain
+KTI12                PF08433.9  sp|B7K612|MIAA_CYAP8 -              0.026   13.9   0.0     0.045   13.1   0.0   1.3   1   0   0   1   1   1   0 Chromatin associated protein KTI12
+Cytidylate_kin       PF02224.17 sp|B7K612|MIAA_CYAP8 -              0.045   13.4   0.0     0.084   12.5   0.0   1.5   1   0   0   1   1   1   0 Cytidylate kinase
+AAA_22               PF13401.5  sp|B7K612|MIAA_CYAP8 -                0.1   12.7   0.0      0.18   12.0   0.0   1.7   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B7K612.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B7K612.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B7K612.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:19:46 2019
+# [ok]

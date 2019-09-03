@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SQS_PSY              PF00494.18 sp|D0VFU8|SLSS_SOLLC -            5.3e-46  157.2   0.0   7.1e-46  156.7   0.0   1.1   1   0   0   1   1   1   1 Squalene/phytoene synthase
+DUF2172              PF09940.8  sp|D0VFU8|SLSS_SOLLC -              0.083   13.2   0.1      0.76   10.1   0.0   2.2   2   0   0   2   2   2   0 Domain of unknown function (DUF2172)
+Tiny_TM_bacill       PF09680.9  sp|D0VFU8|SLSS_SOLLC -                9.6    5.9  10.8       7.3    6.2   8.4   1.9   2   0   0   2   2   2   0 Protein of unknown function (Tiny_TM_bacill)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/D0VFU8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/D0VFU8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/D0VFU8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:06:24 2019
+# [ok]

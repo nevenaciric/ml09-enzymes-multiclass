@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_A            PF00476.19 sp|O52225|DPO1_THEFI -             3e-148  493.7   0.0  4.3e-148  493.2   0.0   1.1   1   0   0   1   1   1   1 DNA polymerase family A
+5_3_exonuc_N         PF02739.15 sp|O52225|DPO1_THEFI -            1.1e-49  168.2   0.0   2.3e-49  167.2   0.0   1.5   1   0   0   1   1   1   1 5'-3' exonuclease, N-terminal resolvase-like domain
+Taq-exonuc           PF09281.9  sp|O52225|DPO1_THEFI -            2.3e-41  140.7   0.7     5e-41  139.6   0.7   1.6   1   0   0   1   1   1   1 Taq polymerase, exonuclease
+5_3_exonuc           PF01367.19 sp|O52225|DPO1_THEFI -            2.7e-30  104.7   0.0   7.5e-30  103.3   0.0   1.8   1   0   0   1   1   1   1 5'-3' exonuclease, C-terminal SAM fold
+HHH_5                PF14520.5  sp|O52225|DPO1_THEFI -              0.019   15.5   0.0     0.061   13.8   0.0   1.9   1   0   0   1   1   1   0 Helix-hairpin-helix domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O52225.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O52225.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O52225.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:23:08 2019
+# [ok]

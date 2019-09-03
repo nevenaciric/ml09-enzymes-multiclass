@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|B2TJ61|PNP_CLOBB  -            4.3e-39  133.9   0.0     3e-19   69.7   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|B2TJ61|PNP_CLOBB  -              2e-19   69.8   3.5     2e-19   69.8   3.5   2.1   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|B2TJ61|PNP_CLOBB  -            4.7e-19   68.4   3.6   1.5e-18   66.8   3.6   1.9   1   0   0   1   1   1   1 S1 RNA binding domain
+RNase_PH_C           PF03725.14 sp|B2TJ61|PNP_CLOBB  -            1.3e-17   63.4   0.7   7.7e-15   54.6   0.1   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+KH_1                 PF00013.28 sp|B2TJ61|PNP_CLOBB  -            4.7e-10   39.0   4.2   4.7e-10   39.0   4.2   2.7   3   0   0   3   3   3   1 KH domain
+KH_2                 PF07650.16 sp|B2TJ61|PNP_CLOBB  -              0.021   14.6   1.5     0.074   12.8   1.5   2.0   1   0   0   1   1   1   0 KH domain
+EXOSC1               PF10447.8  sp|B2TJ61|PNP_CLOBB  -              0.076   13.7   0.3     0.076   13.7   0.3   3.0   4   0   0   4   4   4   0 Exosome component EXOSC1/CSL4
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2TJ61.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2TJ61.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2TJ61.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:42:59 2019
+# [ok]

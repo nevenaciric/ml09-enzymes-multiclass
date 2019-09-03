@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Phos_pyr_kin         PF08543.11 sp|O48881|TPS1_BRANA -            1.1e-85  286.8   0.0   2.1e-85  285.9   0.0   1.5   1   0   0   1   1   1   1 Phosphomethylpyrimidine kinase
+TMP-TENI             PF02581.16 sp|O48881|TPS1_BRANA -            2.5e-66  222.4   0.1   4.4e-66  221.6   0.1   1.4   1   0   0   1   1   1   1 Thiamine monophosphate synthase
+PfkB                 PF00294.23 sp|O48881|TPS1_BRANA -            2.5e-08   33.5   0.8   4.2e-08   32.8   0.0   1.8   2   0   0   2   2   2   1 pfkB family carbohydrate kinase
+Carb_kinase          PF01256.16 sp|O48881|TPS1_BRANA -              0.013   14.9   0.4      0.03   13.7   0.4   1.7   1   1   0   1   1   1   0 Carbohydrate kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O48881.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O48881.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O48881.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:22:25 2019
+# [ok]

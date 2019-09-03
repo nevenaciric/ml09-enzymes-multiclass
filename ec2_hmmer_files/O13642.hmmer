@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LIAS_N               PF16881.4  sp|O13642|LIPA_SCHPO -            6.3e-26   90.8   0.0   1.6e-25   89.5   0.0   1.7   1   0   0   1   1   1   1 N-terminal domain of lipoyl synthase of Radical_SAM family
+Radical_SAM          PF04055.20 sp|O13642|LIPA_SCHPO -            1.9e-14   54.3   0.0   3.4e-14   53.5   0.0   1.4   1   0   0   1   1   1   1 Radical SAM superfamily
+Spore_GerAC          PF05504.10 sp|O13642|LIPA_SCHPO -               0.12   12.4   0.0      0.21   11.7   0.0   1.4   1   0   0   1   1   1   0 Spore germination B3/ GerAC like, C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O13642.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O13642.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O13642.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:15:29 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O13147|EPHB3_DANRE -            2.7e-95  318.5   0.0   3.5e-95  318.1   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O13147|EPHB3_DANRE -            1.4e-44  152.4   0.0     2e-44  151.9   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+EphA2_TM             PF14575.5  sp|O13147|EPHB3_DANRE -            1.2e-21   77.2   0.1   2.5e-21   76.2   0.1   1.6   1   0   0   1   1   1   1 Ephrin type-A receptor 2 transmembrane domain
+fn3                  PF00041.20 sp|O13147|EPHB3_DANRE -            3.3e-06   27.2   0.3   1.3e-05   25.4   0.1   2.1   2   0   0   2   2   2   1 Fibronectin type III domain
+Haspin_kinase        PF12330.7  sp|O13147|EPHB3_DANRE -              0.023   13.6   0.0     0.041   12.7   0.0   1.3   1   0   0   1   1   1   0 Haspin like kinase domain
+Pur_ac_phosph_N      PF16656.4  sp|O13147|EPHB3_DANRE -               0.03   14.8   0.2     0.064   13.7   0.2   1.5   1   0   0   1   1   1   0 Purple acid Phosphatase, N-terminal domain
+SAM_1                PF00536.29 sp|O13147|EPHB3_DANRE -              0.038   14.3   0.0      0.11   12.9   0.0   1.7   1   0   0   1   1   1   0 SAM domain (Sterile alpha motif)
+DAG1                 PF05454.10 sp|O13147|EPHB3_DANRE -              0.051   12.9   0.0      0.09   12.0   0.0   1.3   1   0   0   1   1   1   0 Dystroglycan (Dystrophin-associated glycoprotein 1)
+Cadherin_C_2         PF16492.4  sp|O13147|EPHB3_DANRE -              0.074   13.8   0.0      0.22   12.2   0.0   1.7   1   0   0   1   1   1   0 Cadherin cytoplasmic C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O13147.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O13147.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O13147.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:15:21 2019
+# [ok]

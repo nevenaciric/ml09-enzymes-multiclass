@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_A            PF00476.19 sp|O32801|DPO1_LACLM -           1.9e-153  510.9   0.3  3.8e-153  509.9   0.3   1.5   1   0   0   1   1   1   1 DNA polymerase family A
+5_3_exonuc_N         PF02739.15 sp|O32801|DPO1_LACLM -            6.8e-50  169.0   0.0   1.4e-49  168.0   0.0   1.6   1   0   0   1   1   1   1 5'-3' exonuclease, N-terminal resolvase-like domain
+5_3_exonuc           PF01367.19 sp|O32801|DPO1_LACLM -            1.1e-31  109.2   0.3   1.1e-31  109.2   0.3   4.1   5   0   0   5   5   5   1 5'-3' exonuclease, C-terminal SAM fold
+HHH_2                PF12826.6  sp|O32801|DPO1_LACLM -              0.026   14.5   0.0       0.1   12.6   0.0   2.0   1   0   0   1   1   1   0 Helix-hairpin-helix motif
+PPP5                 PF08321.11 sp|O32801|DPO1_LACLM -              0.045   13.9   0.0       1.9    8.7   0.0   3.3   3   0   0   3   3   3   0 PPP5 TPR repeat region
+DUF2120              PF09893.8  sp|O32801|DPO1_LACLM -               0.18   11.8   1.6       5.9    6.9   0.0   3.0   2   0   0   2   2   2   0 Uncharacterized protein conserved in archaea (DUF2120)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O32801.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O32801.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O32801.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:20:12 2019
+# [ok]

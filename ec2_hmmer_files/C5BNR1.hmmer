@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|C5BNR1|PFKA_TERTT -           5.1e-109  363.9   0.2    6e-109  363.7   0.2   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+NAD_kinase           PF01513.20 sp|C5BNR1|PFKA_TERTT -             0.0023   17.1   0.1    0.0091   15.1   0.0   1.6   1   1   1   2   2   2   1 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|C5BNR1|PFKA_TERTT -              0.024   14.1   0.2     0.089   12.3   0.0   1.9   2   0   0   2   2   2   0 Diacylglycerol kinase catalytic domain
+CBS                  PF00571.27 sp|C5BNR1|PFKA_TERTT -              0.075   13.4   0.1       7.7    7.0   0.0   3.2   3   0   0   3   3   3   0 CBS domain
+PcrB                 PF01884.16 sp|C5BNR1|PFKA_TERTT -               0.12   11.7   0.0      0.19   11.1   0.0   1.2   1   0   0   1   1   1   0 PcrB family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C5BNR1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C5BNR1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C5BNR1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:01:35 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_M22        PF00814.24 sp|O57716|KAE1_PYRHO -            3.6e-98  328.5   0.0   4.2e-98  328.3   0.0   1.0   1   0   0   1   1   1   1 Glycoprotease family
+Carbam_trans_N       PF02543.14 sp|O57716|KAE1_PYRHO -            0.00011   21.9   0.0      0.12   12.0   0.0   2.2   2   0   0   2   2   2   2 Carbamoyltransferase N-terminus
+Thiolase_C           PF02803.17 sp|O57716|KAE1_PYRHO -              0.076   12.6   0.1      0.64    9.6   0.0   2.2   2   0   0   2   2   2   0 Thiolase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O57716.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O57716.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O57716.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:24:05 2019
+# [ok]

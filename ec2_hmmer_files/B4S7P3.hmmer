@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PP_kinase_C          PF13090.5  sp|B4S7P3|PPK1_PROA2 -           4.7e-156  518.9   0.2  6.2e-156  518.5   0.2   1.1   1   0   0   1   1   1   1 Polyphosphate kinase C-terminal domain
+PP_kinase            PF02503.16 sp|B4S7P3|PPK1_PROA2 -            1.5e-65  220.4   0.5   8.3e-65  217.9   0.4   2.0   2   0   0   2   2   2   1 Polyphosphate kinase middle domain
+PP_kinase_N          PF13089.5  sp|B4S7P3|PPK1_PROA2 -            3.6e-38  130.0   0.0   7.9e-38  129.0   0.0   1.6   1   0   0   1   1   1   1 Polyphosphate kinase N-terminal domain
+PLDc_2               PF13091.5  sp|B4S7P3|PPK1_PROA2 -            1.7e-07   31.1   0.3     0.003   17.3   0.1   3.3   2   1   0   2   2   2   2 PLD-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4S7P3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4S7P3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4S7P3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:55:45 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PPDK_N               PF01326.18 sp|O27190|PPSA_METTH -           4.5e-118  394.2   0.0  6.7e-118  393.6   0.0   1.2   1   0   0   1   1   1   1 Pyruvate phosphate dikinase, PEP/pyruvate binding domain
+PEP-utilizers_C      PF02896.17 sp|O27190|PPSA_METTH -            5.6e-53  179.9   0.5   1.2e-52  178.8   0.3   1.6   2   0   0   2   2   2   1 PEP-utilising enzyme, TIM barrel domain
+PEP-utilizers        PF00391.22 sp|O27190|PPSA_METTH -            8.7e-28   95.8   2.1   2.2e-27   94.5   2.1   1.8   1   0   0   1   1   1   1 PEP-utilising enzyme, mobile domain
+Epimerase_2          PF02350.18 sp|O27190|PPSA_METTH -              0.012   14.4   1.1      0.11   11.2   0.1   2.7   4   0   0   4   4   4   0 UDP-N-acetylglucosamine 2-epimerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O27190.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O27190.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O27190.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:18:22 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|B6HLP9|CHYA_PENRW -           5.5e-138  460.0   0.0     1e-75  254.9   0.0   2.1   2   0   0   2   2   2   2 AMP-binding enzyme
+Condensation         PF00668.19 sp|B6HLP9|CHYA_PENRW -            6.2e-81  272.3   0.0   1.1e-40  139.6   0.0   3.6   4   0   0   4   4   4   3 Condensation domain
+PP-binding           PF00550.24 sp|B6HLP9|CHYA_PENRW -            8.3e-21   74.0   0.1   2.4e-10   40.5   0.0   2.8   2   0   0   2   2   2   2 Phosphopantetheine attachment site
+AMP-binding_C        PF13193.5  sp|B6HLP9|CHYA_PENRW -            4.2e-07   30.8   0.0     0.004   18.0   0.0   2.9   2   0   0   2   2   2   2 AMP-binding enzyme C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B6HLP9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B6HLP9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B6HLP9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:11:49 2019
+# [ok]

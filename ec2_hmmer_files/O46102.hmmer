@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PAP_assoc            PF03828.18 sp|O46102|PAPD1_DROME -            4.3e-10   39.6   0.0   8.3e-10   38.6   0.0   1.5   1   0   0   1   1   1   1 Cid1 family poly A polymerase
+RRM_1                PF00076.21 sp|O46102|PAPD1_DROME -             0.0035   17.0   0.0    0.0089   15.7   0.0   1.7   1   0   0   1   1   1   1 RNA recognition motif. (a.k.a. RRM, RBD, or RNP domain)
+NTP_transf_2         PF01909.22 sp|O46102|PAPD1_DROME -              0.076   13.2   0.0       0.2   11.9   0.0   1.7   1   1   0   1   1   1   0 Nucleotidyltransferase domain
+Fam20C               PF06702.11 sp|O46102|PAPD1_DROME -                0.1   12.3   0.0       0.2   11.4   0.0   1.4   1   0   0   1   1   1   0 Golgi casein kinase, C-terminal, Fam20
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O46102.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O46102.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O46102.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:22:15 2019
+# [ok]

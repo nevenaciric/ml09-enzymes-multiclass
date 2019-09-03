@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACCA                 PF03255.13 sp|B6JAC0|ACCA_OLICO -            3.6e-60  201.9   0.0   6.4e-60  201.1   0.0   1.4   1   0   0   1   1   1   1 Acetyl co-enzyme A carboxylase carboxyltransferase alpha subunit
+Carboxyl_trans       PF01039.21 sp|B6JAC0|ACCA_OLICO -            1.1e-18   67.1   0.6   1.5e-18   66.7   0.6   1.1   1   0   0   1   1   1   1 Carboxyl transferase domain
+Rbsn                 PF11464.7  sp|B6JAC0|ACCA_OLICO -              0.035   13.8   0.1     0.072   12.7   0.1   1.5   1   0   0   1   1   1   0 Rabenosyn Rab binding domain
+DUF3813              PF12758.6  sp|B6JAC0|ACCA_OLICO -               0.14   12.5   0.5       9.3    6.6   0.1   2.8   3   0   0   3   3   3   0 Protein of unknown function (DUF3813)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B6JAC0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B6JAC0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B6JAC0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:13:49 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|B9MEL0|PNP_ACIET  -            1.2e-42  145.5   0.2   1.1e-20   74.4   0.0   2.7   3   0   0   3   3   3   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|B9MEL0|PNP_ACIET  -            4.4e-18   65.4   0.6   4.4e-18   65.4   0.6   2.8   3   0   0   3   3   3   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|B9MEL0|PNP_ACIET  -            3.4e-17   62.5   1.6   1.5e-16   60.3   1.6   2.3   1   0   0   1   1   1   1 S1 RNA binding domain
+RNase_PH_C           PF03725.14 sp|B9MEL0|PNP_ACIET  -            1.4e-16   60.2   1.1   1.2e-08   34.8   0.0   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+KH_1                 PF00013.28 sp|B9MEL0|PNP_ACIET  -            2.7e-12   46.2   0.7   8.8e-12   44.6   0.7   2.0   1   0   0   1   1   1   1 KH domain
+KH_2                 PF07650.16 sp|B9MEL0|PNP_ACIET  -             0.0013   18.4   0.2    0.0054   16.4   0.2   2.1   1   0   0   1   1   1   1 KH domain
+Phage_tube           PF04985.13 sp|B9MEL0|PNP_ACIET  -              0.015   14.9   0.2     0.036   13.7   0.2   1.6   1   0   0   1   1   1   0 Phage tail tube protein FII
+KH_4                 PF13083.5  sp|B9MEL0|PNP_ACIET  -              0.021   14.6   0.6     0.091   12.6   0.1   2.3   2   0   0   2   2   2   0 KH domain
+SLS                  PF14611.5  sp|B9MEL0|PNP_ACIET  -              0.073   12.8   0.0      0.16   11.7   0.0   1.5   1   0   0   1   1   1   0 Mitochondrial inner-membrane-bound regulator
+S1_2                 PF13509.5  sp|B9MEL0|PNP_ACIET  -               0.23   11.4   1.3      0.86    9.6   0.1   2.5   3   0   0   3   3   3   0 S1 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B9MEL0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B9MEL0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B9MEL0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:42:27 2019
+# [ok]

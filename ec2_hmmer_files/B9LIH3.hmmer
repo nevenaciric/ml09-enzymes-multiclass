@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DMRL_synthase        PF00885.18 sp|B9LIH3|RISB_CHLSY -            8.2e-60  200.6   0.4   9.3e-60  200.4   0.4   1.0   1   0   0   1   1   1   1 6,7-dimethyl-8-ribityllumazine synthase
+TPP_enzyme_N         PF02776.17 sp|B9LIH3|RISB_CHLSY -              0.059   12.9   0.4      0.28   10.7   0.2   1.9   1   1   1   2   2   2   0 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B9LIH3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B9LIH3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B9LIH3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:41:31 2019
+# [ok]

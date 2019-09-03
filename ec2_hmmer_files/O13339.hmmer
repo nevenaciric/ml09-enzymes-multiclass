@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Telomerase_RBD       PF12009.7  sp|O13339|TERT_SCHPO -            3.4e-41  140.4   6.9   3.4e-41  140.4   6.9   2.7   2   0   0   2   2   2   1 Telomerase ribonucleoprotein complex - RNA binding domain
+RVT_1                PF00078.26 sp|O13339|TERT_SCHPO -            1.1e-14   54.5   7.7   4.4e-11   42.6   1.1   2.5   1   1   1   2   2   2   2 Reverse transcriptase (RNA-dependent DNA polymerase)
+N-Term_TEN           PF11474.7  sp|O13339|TERT_SCHPO -             0.0033   17.0   0.1     0.022   14.3   0.1   2.5   1   1   0   1   1   1   1 Telomerase reverse transcriptase TEN domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O13339.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O13339.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O13339.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:15:23 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TMP-TENI             PF02581.16 sp|C0QR82|THIE_PERMH -            5.6e-67  224.5   0.8   6.6e-67  224.2   0.8   1.1   1   0   0   1   1   1   1 Thiamine monophosphate synthase
+CutC                 PF03932.13 sp|C0QR82|THIE_PERMH -             0.0038   16.6   0.1    0.0067   15.8   0.1   1.5   1   1   0   1   1   1   1 CutC family
+SepSecS              PF05889.12 sp|C0QR82|THIE_PERMH -              0.037   12.6   1.0     0.057   12.0   0.2   1.8   2   1   0   2   2   2   0 O-phosphoseryl-tRNA(Sec) selenium transferase, SepSecS
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C0QR82.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C0QR82.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C0QR82.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:45:18 2019
+# [ok]

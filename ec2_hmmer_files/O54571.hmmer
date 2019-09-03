@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GidB                 PF02527.14 sp|O54571|RSMG_STRCO -            6.9e-57  191.6   0.0   8.6e-57  191.3   0.0   1.0   1   0   0   1   1   1   1 rRNA small subunit methyltransferase G
+MTS                  PF05175.13 sp|O54571|RSMG_STRCO -              0.041   13.3   0.0       0.1   12.1   0.0   1.5   1   1   0   1   1   1   0 Methyltransferase small domain
+TetR_N               PF00440.22 sp|O54571|RSMG_STRCO -               0.12   12.1   1.5      0.64    9.8   0.1   2.5   3   0   0   3   3   3   0 Bacterial regulatory proteins, tetR family
+Methyltransf_16      PF10294.8  sp|O54571|RSMG_STRCO -               0.21   11.2   0.0      0.31   10.7   0.0   1.2   1   0   0   1   1   1   0 Lysine methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O54571.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O54571.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O54571.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:23:30 2019
+# [ok]

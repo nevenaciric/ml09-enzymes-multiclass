@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|B4U5Q9|ISPE_HYDS0 -              2e-06   27.9   0.0   4.6e-06   26.7   0.0   1.6   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|B4U5Q9|ISPE_HYDS0 -            3.8e-06   27.1   0.0   1.2e-05   25.5   0.0   1.8   1   0   0   1   1   1   1 GHMP kinases C terminal
+DUF2007              PF09413.9  sp|B4U5Q9|ISPE_HYDS0 -              0.029   14.4   0.1     0.066   13.2   0.1   1.6   1   0   0   1   1   1   0 Putative prokaryotic signal transducing protein
+HicA_toxin           PF07927.11 sp|B4U5Q9|ISPE_HYDS0 -               0.13   12.2   0.0        57    3.8   0.0   3.2   3   0   0   3   3   3   0 HicA toxin of bacterial toxin-antitoxin,
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4U5Q9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4U5Q9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4U5Q9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:59:45 2019
+# [ok]

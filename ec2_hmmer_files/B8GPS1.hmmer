@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THDPS_N_2            PF14805.5  sp|B8GPS1|DAPD_THISH -            2.3e-24   85.3   0.8   3.5e-24   84.7   0.8   1.3   1   0   0   1   1   1   1 Tetrahydrodipicolinate N-succinyltransferase N-terminal
+Hexapep_2            PF14602.5  sp|B8GPS1|DAPD_THISH -            6.2e-13   48.2   1.4   6.2e-13   48.2   1.4   3.6   4   0   0   4   4   4   1 Hexapeptide repeat of succinyl-transferase
+Hexapep              PF00132.23 sp|B8GPS1|DAPD_THISH -            4.8e-12   45.0  10.6     7e-07   28.6   0.9   3.5   2   1   1   3   3   3   2 Bacterial transferase hexapeptide (six repeats)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8GPS1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8GPS1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8GPS1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:33:57 2019
+# [ok]

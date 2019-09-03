@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|C1DFK5|PNP_AZOVD  -            2.2e-44  151.0   0.0   3.1e-22   79.4   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|C1DFK5|PNP_AZOVD  -              2e-22   79.3   0.4   5.3e-22   78.0   0.4   1.8   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+RNase_PH_C           PF03725.14 sp|C1DFK5|PNP_AZOVD  -            2.5e-18   65.8   1.2   2.1e-10   40.4   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|C1DFK5|PNP_AZOVD  -            2.6e-18   66.0   9.0   3.9e-18   65.4   4.4   3.2   3   0   0   3   3   3   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|C1DFK5|PNP_AZOVD  -            2.7e-14   52.6   2.9   2.1e-13   49.8   0.8   2.8   2   0   0   2   2   2   1 KH domain
+S1_2                 PF13509.5  sp|C1DFK5|PNP_AZOVD  -             0.0026   17.7   1.1     0.033   14.2   0.4   3.0   2   1   0   2   2   2   1 S1 domain
+Cauli_DNA-bind       PF03310.12 sp|C1DFK5|PNP_AZOVD  -              0.044   13.8   0.0      0.17   11.8   0.0   2.0   1   0   0   1   1   1   0 Caulimovirus DNA-binding protein
+KH_2                 PF07650.16 sp|C1DFK5|PNP_AZOVD  -              0.083   12.6   0.3     0.083   12.6   0.3   2.5   2   1   0   2   2   2   0 KH domain
+DUF2459              PF09601.9  sp|C1DFK5|PNP_AZOVD  -               0.18   11.5   0.0      0.57    9.9   0.0   1.7   1   1   0   1   1   1   0 Protein of unknown function (DUF2459)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C1DFK5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C1DFK5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C1DFK5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:49:56 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPMT                 PF05724.10 sp|O55060|TPMT_MOUSE -            9.1e-81  270.6   0.0     1e-80  270.4   0.0   1.0   1   0   0   1   1   1   1 Thiopurine S-methyltransferase (TPMT)
+Methyltransf_25      PF13649.5  sp|O55060|TPMT_MOUSE -             0.0075   16.9   0.0      0.11   13.1   0.0   2.4   1   1   0   1   1   1   1 Methyltransferase domain
+Methyltransf_11      PF08241.11 sp|O55060|TPMT_MOUSE -              0.012   16.2   0.0     0.033   14.7   0.0   1.7   1   1   0   1   1   1   0 Methyltransferase domain
+Methyltransf_23      PF13489.5  sp|O55060|TPMT_MOUSE -              0.025   14.3   0.0     0.046   13.5   0.0   1.5   1   0   0   1   1   1   0 Methyltransferase domain
+UDPG_MGDP_dh_N       PF03721.13 sp|O55060|TPMT_MOUSE -                0.2   11.1   0.0      0.32   10.4   0.0   1.2   1   0   0   1   1   1   0 UDP-glucose/GDP-mannose dehydrogenase family, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O55060.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O55060.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O55060.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:23:46 2019
+# [ok]

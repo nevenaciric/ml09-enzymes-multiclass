@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|F4HQ20|LRL25_ARATH -            3.6e-47  160.7   0.0   5.4e-47  160.2   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|F4HQ20|LRL25_ARATH -            6.5e-47  160.0   0.0   9.6e-47  159.4   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+WAK_assoc            PF14380.5  sp|F4HQ20|LRL25_ARATH -            3.6e-18   66.1   0.1   7.4e-18   65.1   0.1   1.6   1   0   0   1   1   1   1 Wall-associated receptor kinase C-terminal
+ABC1                 PF03109.15 sp|F4HQ20|LRL25_ARATH -              0.012   15.6   0.0      0.03   14.4   0.0   1.6   1   0   0   1   1   1   0 ABC1 family
+APH                  PF01636.22 sp|F4HQ20|LRL25_ARATH -              0.096   12.5   0.0      0.18   11.6   0.0   1.4   1   0   0   1   1   1   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/F4HQ20.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/F4HQ20.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/F4HQ20.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:10:25 2019
+# [ok]

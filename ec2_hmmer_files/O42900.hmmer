@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|O42900|PPK19_SCHPO -            8.8e-24   84.2   0.0   1.4e-23   83.5   0.0   1.3   1   0   0   1   1   1   1 Protein kinase domain
+HEAT                 PF02985.21 sp|O42900|PPK19_SCHPO -            3.9e-11   42.1   9.2     0.014   15.5   0.0   7.3   7   0   0   7   7   7   3 HEAT repeat
+Pkinase_Tyr          PF07714.16 sp|O42900|PPK19_SCHPO -            1.6e-06   27.5   0.0   2.4e-06   26.9   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Cnd1                 PF12717.6  sp|O42900|PPK19_SCHPO -            0.00026   20.9   1.3      0.34   10.8   0.1   3.4   2   1   1   3   3   3   2 non-SMC mitotic condensation complex subunit 1
+Adaptin_N            PF01602.19 sp|O42900|PPK19_SCHPO -              0.023   13.1   4.7       1.2    7.5   0.6   2.8   1   1   1   2   2   2   0 Adaptin N terminal region
+U3snoRNP10           PF12397.7  sp|O42900|PPK19_SCHPO -              0.091   13.1   3.2      0.23   11.7   0.1   3.1   3   0   0   3   3   3   0 U3 small nucleolar RNA-associated protein 10
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O42900.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O42900.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O42900.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:21:49 2019
+# [ok]

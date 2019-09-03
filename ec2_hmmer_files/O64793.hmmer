@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O64793|Y1675_ARATH -            1.6e-47  161.9   0.0   2.2e-47  161.4   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O64793|Y1675_ARATH -              8e-46  156.4   0.0   1.1e-45  155.9   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+B_lectin             PF01453.23 sp|O64793|Y1675_ARATH -            5.1e-25   87.5   1.5   7.3e-25   87.0   0.4   1.8   2   0   0   2   2   2   1 D-mannose binding lectin
+PAN_2                PF08276.10 sp|O64793|Y1675_ARATH -              5e-07   29.7   0.5   1.1e-06   28.5   0.5   1.5   1   0   0   1   1   1   1 PAN-like domain
+Haspin_kinase        PF12330.7  sp|O64793|Y1675_ARATH -              0.014   14.2   0.0     0.042   12.7   0.0   1.6   1   1   0   1   1   1   0 Haspin like kinase domain
+Otopetrin            PF03189.12 sp|O64793|Y1675_ARATH -              0.032   13.0   0.4      0.05   12.3   0.4   1.2   1   0   0   1   1   1   0 Otopetrin
+DUF5373              PF17343.1  sp|O64793|Y1675_ARATH -              0.072   12.8   2.0      0.14   11.9   2.0   1.4   1   0   0   1   1   1   0 Family of unknown function (DUF5373)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O64793.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O64793.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O64793.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:25:33 2019
+# [ok]

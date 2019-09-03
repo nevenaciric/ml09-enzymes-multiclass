@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_2       PF00891.17 sp|O24305|M3OM1_PEA  -              1e-51  175.3   0.1   1.5e-51  174.7   0.1   1.1   1   0   0   1   1   1   1 O-methyltransferase
+Dimerisation         PF08100.10 sp|O24305|M3OM1_PEA  -            1.4e-18   66.5   0.3   2.5e-18   65.7   0.3   1.5   1   0   0   1   1   1   1 Dimerisation domain
+Dimerisation2        PF16864.4  sp|O24305|M3OM1_PEA  -              0.013   15.4   0.0     0.028   14.3   0.0   1.7   1   0   0   1   1   1   0 Dimerisation domain
+HTH_IclR             PF09339.9  sp|O24305|M3OM1_PEA  -               0.04   13.6   0.0     0.079   12.7   0.0   1.4   1   0   0   1   1   1   0 IclR helix-turn-helix domain
+Methyltransf_23      PF13489.5  sp|O24305|M3OM1_PEA  -              0.041   13.6   0.0      0.11   12.3   0.0   1.7   1   1   0   1   1   1   0 Methyltransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O24305.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O24305.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O24305.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:17:25 2019
+# [ok]

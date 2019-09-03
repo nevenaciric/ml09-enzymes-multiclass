@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PolyA_pol            PF01743.19 sp|B7GZN3|CCA_ACIB3  -            7.1e-21   74.8   0.0     2e-20   73.4   0.0   1.8   1   1   0   1   1   1   1 Poly A polymerase head domain
+PolyA_pol_RNAbd      PF12627.6  sp|B7GZN3|CCA_ACIB3  -            1.6e-17   62.9   0.0     3e-17   62.0   0.0   1.5   1   0   0   1   1   1   1 Probable RNA and SrmB- binding site of polymerase A
+HD                   PF01966.21 sp|B7GZN3|CCA_ACIB3  -            0.00014   22.0   0.0    0.0006   19.9   0.0   2.0   2   0   0   2   2   2   1 HD domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B7GZN3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B7GZN3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B7GZN3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:15:54 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Porphobil_deam       PF01379.19 sp|C1D679|HEM3_LARHH -            7.2e-77  257.4   0.1   9.2e-77  257.1   0.1   1.1   1   0   0   1   1   1   1 Porphobilinogen deaminase, dipyromethane cofactor binding domain
+Porphobil_deamC      PF03900.14 sp|C1D679|HEM3_LARHH -            4.1e-17   62.2   0.1   8.2e-17   61.3   0.1   1.5   1   0   0   1   1   1   1 Porphobilinogen deaminase, C-terminal domain
+LysR_substrate       PF03466.19 sp|C1D679|HEM3_LARHH -              0.003   16.8   0.4      0.12   11.7   0.0   3.2   2   1   1   3   3   3   1 LysR substrate binding domain
+dCMP_cyt_deam_1      PF00383.22 sp|C1D679|HEM3_LARHH -              0.074   12.8   0.1      0.14   11.9   0.1   1.4   1   0   0   1   1   1   0 Cytidine and deoxycytidylate deaminase zinc-binding region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C1D679.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C1D679.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C1D679.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:49:34 2019
+# [ok]

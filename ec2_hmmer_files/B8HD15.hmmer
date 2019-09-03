@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_Rpb1_1       PF04997.11 sp|B8HD15|RPOC_PSECP -            1.8e-79  267.2   0.0   2.7e-79  266.6   0.0   1.3   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 1
+RNA_pol_Rpb1_5       PF04998.16 sp|B8HD15|RPOC_PSECP -            6.6e-62  209.3   0.2     2e-60  204.4   0.2   2.2   1   1   0   1   1   1   1 RNA polymerase Rpb1, domain 5
+RNA_pol_Rpb1_2       PF00623.19 sp|B8HD15|RPOC_PSECP -            1.9e-38  132.2   0.0   1.7e-27   96.6   0.0   2.5   1   1   1   2   2   2   2 RNA polymerase Rpb1, domain 2
+RNA_pol_Rpb1_3       PF04983.17 sp|B8HD15|RPOC_PSECP -            3.6e-20   72.4   0.0   9.7e-20   71.0   0.0   1.8   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 3
+RNA_pol_Rpb1_4       PF05000.16 sp|B8HD15|RPOC_PSECP -            3.6e-10   39.7   0.0   9.5e-10   38.3   0.0   1.7   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 4
+Cluap1               PF10234.8  sp|B8HD15|RPOC_PSECP -              0.018   14.4   0.5      0.03   13.6   0.5   1.3   1   0   0   1   1   1   0 Clusterin-associated protein-1
+DUF4407              PF14362.5  sp|B8HD15|RPOC_PSECP -                0.3   10.3   1.7      0.63    9.3   1.7   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF4407)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8HD15.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8HD15.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8HD15.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:34:40 2019
+# [ok]

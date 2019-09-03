@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UQ_con               PF00179.25 sp|O13685|UBC13_SCHPO -            7.8e-47  158.3   0.0   8.8e-47  158.2   0.0   1.0   1   0   0   1   1   1   1 Ubiquitin-conjugating enzyme
+Prok-E2_B            PF14461.5  sp|O13685|UBC13_SCHPO -            0.00036   20.1   0.0   0.00048   19.7   0.0   1.2   1   0   0   1   1   1   1 Prokaryotic E2 family B
+UEV                  PF05743.12 sp|O13685|UBC13_SCHPO -              0.011   15.6   0.1     0.018   14.8   0.1   1.4   1   1   0   1   1   1   0 UEV domain
+RWD                  PF05773.21 sp|O13685|UBC13_SCHPO -              0.097   12.9   0.1      0.15   12.3   0.1   1.6   1   1   0   1   1   1   0 RWD domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O13685.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O13685.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O13685.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:15:30 2019
+# [ok]

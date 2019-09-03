@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|C4QXA5|PFKA2_KOMPG -           4.8e-185  613.3   2.3  3.4e-104  348.0   0.6   2.1   2   0   0   2   2   2   2 Phosphofructokinase
+Glyoxalase           PF00903.24 sp|C4QXA5|PFKA2_KOMPG -               0.06   13.5   0.0      0.12   12.4   0.0   1.5   1   0   0   1   1   1   0 Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily
+DAGK_cat             PF00781.23 sp|C4QXA5|PFKA2_KOMPG -               0.13   11.8   0.1       0.4   10.2   0.1   1.8   1   0   0   1   1   1   0 Diacylglycerol kinase catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C4QXA5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C4QXA5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C4QXA5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:59:00 2019
+# [ok]

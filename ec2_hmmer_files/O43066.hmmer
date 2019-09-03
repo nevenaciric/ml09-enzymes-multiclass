@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|O43066|PPK30_SCHPO -            2.2e-42  145.1   0.0   5.2e-42  143.9   0.0   1.5   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|O43066|PPK30_SCHPO -            1.3e-29  103.2   0.0   2.1e-29  102.5   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+APH                  PF01636.22 sp|O43066|PPK30_SCHPO -              0.045   13.6   0.0      0.36   10.6   0.0   2.1   1   1   0   1   1   1   0 Phosphotransferase enzyme family
+Kinase-like          PF14531.5  sp|O43066|PPK30_SCHPO -              0.056   12.6   0.0     0.098   11.9   0.0   1.4   1   0   0   1   1   1   0 Kinase-like
+RFXA_RFXANK_bdg      PF15289.5  sp|O43066|PPK30_SCHPO -              0.057   13.6  10.2      0.28   11.4   0.3   3.4   1   1   1   3   3   3   0 Regulatory factor X-associated C-terminal binding domain
+Syntaxin             PF00804.24 sp|O43066|PPK30_SCHPO -               0.13   11.8   6.4      0.19   11.3   3.9   2.3   1   1   1   2   2   2   0 Syntaxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O43066.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O43066.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O43066.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:21:53 2019
+# [ok]

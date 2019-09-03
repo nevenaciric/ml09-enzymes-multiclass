@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_viral_C      PF00336.17 sp|P03160|DPOL_WHV1  -            1.2e-91  306.8   6.9   1.8e-91  306.2   6.9   1.3   1   0   0   1   1   1   1 DNA polymerase (viral) C-terminal domain
+DNA_pol_viral_N      PF00242.16 sp|P03160|DPOL_WHV1  -              1e-64  218.9  16.6   2.1e-62  211.3  16.6   2.1   1   1   0   1   1   1   1 DNA polymerase (viral) N-terminal domain
+RVT_1                PF00078.26 sp|P03160|DPOL_WHV1  -            2.5e-12   46.7   0.0   4.3e-11   42.7   0.0   2.4   2   0   0   2   2   2   1 Reverse transcriptase (RNA-dependent DNA polymerase)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P03160.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P03160.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P03160.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:33:11 2019
+# [ok]

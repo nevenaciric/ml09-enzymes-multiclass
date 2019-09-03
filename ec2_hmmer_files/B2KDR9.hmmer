@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|B2KDR9|MIAA_ELUMP -            4.8e-62  209.6   0.1   5.8e-62  209.4   0.1   1.0   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|B2KDR9|MIAA_ELUMP -            5.8e-07   29.0   0.1   9.5e-06   25.1   0.0   2.1   2   0   0   2   2   2   1 Isopentenyl transferase
+AAA_18               PF13238.5  sp|B2KDR9|MIAA_ELUMP -              0.001   19.5   0.0      0.12   12.8   0.0   2.5   2   0   0   2   2   2   1 AAA domain
+dNK                  PF01712.18 sp|B2KDR9|MIAA_ELUMP -              0.011   15.5   0.1       2.7    7.7   0.0   2.3   2   0   0   2   2   2   0 Deoxynucleoside kinase
+AAA_33               PF13671.5  sp|B2KDR9|MIAA_ELUMP -              0.019   15.0   0.1      0.13   12.4   0.1   2.2   1   1   0   1   1   1   0 AAA domain
+Hydin_ADK            PF17213.2  sp|B2KDR9|MIAA_ELUMP -              0.093   12.9   0.2       0.2   11.8   0.1   1.6   2   0   0   2   2   2   0 Hydin Adenylate kinase-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2KDR9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2KDR9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2KDR9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:40:08 2019
+# [ok]

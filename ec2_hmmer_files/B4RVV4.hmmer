@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PolyA_pol            PF01743.19 sp|B4RVV4|CCA_ALTMD  -            1.5e-19   70.6   0.0   5.4e-19   68.8   0.0   2.0   2   0   0   2   2   2   1 Poly A polymerase head domain
+PolyA_pol_RNAbd      PF12627.6  sp|B4RVV4|CCA_ALTMD  -            1.3e-09   37.6   0.0   2.6e-09   36.6   0.0   1.6   1   0   0   1   1   1   1 Probable RNA and SrmB- binding site of polymerase A
+tRNA_NucTran2_2      PF13735.5  sp|B4RVV4|CCA_ALTMD  -              0.032   14.1   0.9     0.093   12.6   0.9   1.8   1   1   0   1   1   1   0 tRNA nucleotidyltransferase domain 2 putative
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4RVV4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4RVV4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4RVV4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:55:18 2019
+# [ok]

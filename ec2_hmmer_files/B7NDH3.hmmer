@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|B7NDH3|MURA_ECOLU -           4.8e-131  437.2   0.7  5.5e-131  437.0   0.7   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+Phage_gp49_66        PF13876.5  sp|B7NDH3|MURA_ECOLU -              0.017   15.4   0.1     0.035   14.3   0.1   1.5   1   0   0   1   1   1   0 Phage protein (N4 Gp49/phage Sf6 gene 66) family
+Hexapep              PF00132.23 sp|B7NDH3|MURA_ECOLU -              0.067   12.8   1.3        12    5.7   0.0   3.6   3   0   0   3   3   3   0 Bacterial transferase hexapeptide (six repeats)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B7NDH3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B7NDH3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B7NDH3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:25:35 2019
+# [ok]

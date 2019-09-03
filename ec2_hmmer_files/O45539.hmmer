@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O45539|SRC2_CAEEL -            1.2e-94  316.4   0.0   1.5e-94  316.0   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O45539|SRC2_CAEEL -            2.7e-49  167.8   0.0   3.8e-49  167.3   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|O45539|SRC2_CAEEL -            6.5e-24   83.7   0.2   1.2e-23   82.9   0.2   1.5   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|O45539|SRC2_CAEEL -            7.8e-17   60.5   0.1   1.9e-16   59.3   0.1   1.7   1   0   0   1   1   1   1 SH3 domain
+SH3_9                PF14604.5  sp|O45539|SRC2_CAEEL -            1.8e-14   53.2   0.0     7e-14   51.3   0.0   2.0   2   0   0   2   2   2   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|O45539|SRC2_CAEEL -            2.1e-11   43.2   0.0   5.5e-11   41.9   0.0   1.6   1   0   0   1   1   1   1 Variant SH3 domain
+Haspin_kinase        PF12330.7  sp|O45539|SRC2_CAEEL -            2.4e-06   26.6   0.0   6.8e-06   25.2   0.0   1.7   1   1   0   1   1   1   1 Haspin like kinase domain
+DUF707               PF05212.11 sp|O45539|SRC2_CAEEL -             0.0029   16.8   0.1     0.017   14.3   0.1   1.9   2   0   0   2   2   2   1 Protein of unknown function (DUF707)
+Kdo                  PF06293.13 sp|O45539|SRC2_CAEEL -              0.029   13.6   0.1     0.065   12.5   0.1   1.5   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O45539.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O45539.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O45539.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:22:12 2019
+# [ok]

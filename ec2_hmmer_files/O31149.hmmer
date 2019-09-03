@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP-utilizers_C      PF02896.17 sp|O31149|PT1_LISMO  -           1.4e-126  421.4   0.0  4.8e-126  419.7   0.0   1.7   2   0   0   2   2   2   1 PEP-utilising enzyme, TIM barrel domain
+PEP-utilisers_N      PF05524.12 sp|O31149|PT1_LISMO  -              7e-36  122.8   1.9   1.3e-35  121.9   0.5   2.2   2   0   0   2   2   2   1 PEP-utilising enzyme, N-terminal
+PEP-utilizers        PF00391.22 sp|O31149|PT1_LISMO  -            1.3e-24   85.6   0.8     3e-24   84.4   0.8   1.7   1   0   0   1   1   1   1 PEP-utilising enzyme, mobile domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O31149.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O31149.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O31149.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:19:35 2019
+# [ok]

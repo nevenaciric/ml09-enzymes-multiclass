@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Kinase-PPPase        PF03618.13 sp|B2T5H8|PSRP_PARPJ -            2.4e-80  269.9   0.0   2.7e-80  269.7   0.0   1.0   1   0   0   1   1   1   1 Kinase/pyrophosphorylase
+ATPase_2             PF01637.17 sp|B2T5H8|PSRP_PARPJ -              0.018   14.9   0.1     0.038   13.8   0.1   1.5   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+TIR_2                PF13676.5  sp|B2T5H8|PSRP_PARPJ -               0.12   12.6   0.0       3.9    7.8   0.0   2.7   2   1   0   2   2   2   0 TIR domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2T5H8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2T5H8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2T5H8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:42:40 2019
+# [ok]

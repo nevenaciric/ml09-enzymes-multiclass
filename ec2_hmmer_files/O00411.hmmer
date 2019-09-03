@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol              PF00940.18 sp|O00411|RPOM_HUMAN -           7.9e-165  548.6   0.0    1e-164  548.2   0.0   1.2   1   0   0   1   1   1   1 DNA-dependent RNA polymerase
+RPOL_N               PF14700.5  sp|O00411|RPOM_HUMAN -            9.5e-53  179.6   0.1   1.9e-52  178.6   0.1   1.5   1   0   0   1   1   1   1 DNA-directed RNA polymerase N-terminal
+PSD2                 PF07624.10 sp|O00411|RPOM_HUMAN -             0.0012   18.5   0.0      0.22   11.2   0.0   3.1   2   0   0   2   2   2   1 Protein of unknown function (DUF1585)
+PPR_3                PF13812.5  sp|O00411|RPOM_HUMAN -              0.031   14.3   0.0     0.078   13.0   0.0   1.7   1   0   0   1   1   1   0 Pentatricopeptide repeat domain
+DUF615               PF04751.13 sp|O00411|RPOM_HUMAN -              0.037   13.9   1.2     0.096   12.6   0.1   2.3   3   0   0   3   3   3   0 Protein of unknown function (DUF615)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O00411.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O00411.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O00411.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:13:39 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PINIT                PF14324.5  sp|O94451|PLI1_SCHPO -            1.3e-31  109.8   1.6     2e-31  109.2   0.3   2.0   2   0   0   2   2   2   1 PINIT domain
+zf-MIZ               PF02891.19 sp|O94451|PLI1_SCHPO -            7.9e-24   83.1   4.1   1.4e-23   82.3   4.1   1.4   1   0   0   1   1   1   1 MIZ/SP-RING zinc finger
+SAP                  PF02037.26 sp|O94451|PLI1_SCHPO -            3.6e-09   36.1   1.0   6.7e-09   35.2   0.1   1.9   2   0   0   2   2   2   1 SAP domain
+zf-Nse               PF11789.7  sp|O94451|PLI1_SCHPO -            4.9e-09   35.8   1.2   1.2e-08   34.5   1.2   1.7   1   0   0   1   1   1   1 Zinc-finger of the MIZ type in Nse subunit
+DEDD_Tnp_IS110       PF01548.16 sp|O94451|PLI1_SCHPO -              0.094   12.5   0.1      0.21   11.3   0.1   1.5   1   0   0   1   1   1   0 Transposase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O94451.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O94451.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O94451.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:31:41 2019
+# [ok]

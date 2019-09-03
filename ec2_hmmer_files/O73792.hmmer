@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O73792|TIE1_DANRE -            6.2e-65  219.0   0.0   7.2e-65  218.7   0.0   1.0   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O73792|TIE1_DANRE -            3.3e-24   85.6   0.0   4.2e-24   85.2   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Haspin_kinase        PF12330.7  sp|O73792|TIE1_DANRE -             0.0054   15.6   0.0     0.011   14.6   0.0   1.5   2   0   0   2   2   2   1 Haspin like kinase domain
+APH                  PF01636.22 sp|O73792|TIE1_DANRE -              0.021   14.6   0.0     0.039   13.8   0.0   1.4   1   0   0   1   1   1   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O73792.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O73792.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O73792.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:27:29 2019
+# [ok]

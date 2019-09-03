@@ -1,0 +1,34 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O42422|EPHA7_CHICK -              2e-97  325.5   0.0     3e-97  324.8   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+Ephrin_lbd           PF01404.18 sp|O42422|EPHA7_CHICK -            7.1e-72  241.1   0.3   1.3e-71  240.2   0.3   1.5   1   0   0   1   1   1   1 Ephrin receptor ligand binding domain
+Pkinase              PF00069.24 sp|O42422|EPHA7_CHICK -            4.3e-46  157.3   0.0   7.2e-46  156.6   0.0   1.3   1   0   0   1   1   1   1 Protein kinase domain
+fn3                  PF00041.20 sp|O42422|EPHA7_CHICK -            1.6e-29  102.0   8.1   1.8e-15   56.9   1.3   3.7   4   0   0   4   4   4   2 Fibronectin type III domain
+SAM_1                PF00536.29 sp|O42422|EPHA7_CHICK -            2.9e-22   78.8   0.0     5e-22   78.0   0.0   1.4   1   0   0   1   1   1   1 SAM domain (Sterile alpha motif)
+SAM_2                PF07647.16 sp|O42422|EPHA7_CHICK -            4.7e-21   74.6   0.0   8.9e-21   73.7   0.0   1.5   1   0   0   1   1   1   1 SAM domain (Sterile alpha motif)
+EphA2_TM             PF14575.5  sp|O42422|EPHA7_CHICK -            1.7e-20   73.5   0.0   3.9e-20   72.3   0.0   1.6   1   0   0   1   1   1   1 Ephrin type-A receptor 2 transmembrane domain
+Ephrin_rec_like      PF07699.12 sp|O42422|EPHA7_CHICK -            8.8e-06   25.3  10.4   8.8e-06   25.3  10.4   2.6   2   0   0   2   2   2   1 Putative ephrin-receptor like
+Pur_ac_phosph_N      PF16656.4  sp|O42422|EPHA7_CHICK -            0.00015   22.1   2.7   0.00046   20.6   0.7   2.6   2   1   0   2   2   2   1 Purple acid Phosphatase, N-terminal domain
+Tissue_fac           PF01108.16 sp|O42422|EPHA7_CHICK -             0.0016   18.2   0.4      0.15   11.8   0.0   2.6   2   0   0   2   2   2   1 Tissue factor
+fn3_2                PF16893.4  sp|O42422|EPHA7_CHICK -             0.0041   17.2   0.8       2.4    8.3   0.0   2.6   2   0   0   2   2   2   2 Fibronectin type III domain
+DUF2318              PF10080.8  sp|O42422|EPHA7_CHICK -             0.0089   16.0   1.9     0.032   14.3   1.9   1.9   1   0   0   1   1   1   1 Predicted membrane protein (DUF2318)
+Interfer-bind        PF09294.9  sp|O42422|EPHA7_CHICK -             0.0094   16.2   0.3      0.17   12.1   0.1   2.7   3   0   0   3   3   3   1 Interferon-alpha/beta receptor, fibronectin type III
+DUF4998              PF16389.4  sp|O42422|EPHA7_CHICK -              0.011   15.2   0.0     0.024   14.1   0.0   1.6   1   0   0   1   1   1   0 Domain of unknown function
+Haspin_kinase        PF12330.7  sp|O42422|EPHA7_CHICK -              0.012   14.5   0.0     0.021   13.7   0.0   1.3   1   0   0   1   1   1   0 Haspin like kinase domain
+SusE                 PF14292.5  sp|O42422|EPHA7_CHICK -              0.023   15.0   0.3       6.7    7.0   0.1   2.6   2   0   0   2   2   2   0 SusE outer membrane protein
+Y_Y_Y                PF07495.12 sp|O42422|EPHA7_CHICK -              0.044   13.7   0.4      0.89    9.5   0.6   2.5   2   0   0   2   2   2   0 Y_Y_Y domain
+Kdo                  PF06293.13 sp|O42422|EPHA7_CHICK -              0.079   12.2   0.0      0.15   11.3   0.0   1.3   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+GPI-anchored         PF10342.8  sp|O42422|EPHA7_CHICK -               0.12   13.1   0.1       1.2    9.9   0.2   2.4   2   0   0   2   2   2   0 Ser-Thr-rich glycosyl-phosphatidyl-inositol-anchored membrane family
+PRIMA1               PF16101.4  sp|O42422|EPHA7_CHICK -                1.6    8.7   5.1        10    6.1   0.0   2.4   2   0   0   2   2   2   0 Proline-rich membrane anchor 1
+EGF_MSP1_1           PF12946.6  sp|O42422|EPHA7_CHICK -                2.5    8.1   6.6      0.35   10.9   1.7   2.1   2   0   0   2   2   2   0 MSP1 EGF domain 1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O42422.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O42422.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O42422.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:21:42 2019
+# [ok]

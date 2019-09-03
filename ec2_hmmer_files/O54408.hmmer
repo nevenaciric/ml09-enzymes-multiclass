@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HD_4                 PF13328.5  sp|O54408|RELA_BACSU -            1.3e-50  171.1   0.1   1.3e-50  171.1   0.1   1.8   2   0   0   2   2   2   1 HD domain
+RelA_SpoT            PF04607.16 sp|O54408|RELA_BACSU -            1.1e-39  135.2   5.1   1.5e-39  134.8   0.0   3.4   3   1   0   3   3   3   1 Region found in RelA / SpoT proteins
+TGS                  PF02824.20 sp|O54408|RELA_BACSU -            1.4e-23   82.6   0.0   4.2e-23   81.1   0.0   1.9   1   0   0   1   1   1   1 TGS domain
+ACT_4                PF13291.5  sp|O54408|RELA_BACSU -            8.8e-21   74.2   4.3   8.8e-21   74.2   4.3   2.0   2   0   0   2   2   2   1 ACT domain
+HD                   PF01966.21 sp|O54408|RELA_BACSU -            3.8e-10   39.9   0.4   3.8e-10   39.9   0.4   2.7   2   1   0   2   2   2   1 HD domain
+ACT                  PF01842.24 sp|O54408|RELA_BACSU -            2.5e-09   36.6   0.4     7e-09   35.2   0.4   1.8   1   0   0   1   1   1   1 ACT domain
+DNA_pol3_gamma3      PF12169.7  sp|O54408|RELA_BACSU -              0.014   15.2   0.2      0.14   12.0   0.1   2.3   2   0   0   2   2   2   0 DNA polymerase III subunits gamma and tau domain III
+ThiS                 PF02597.19 sp|O54408|RELA_BACSU -              0.015   15.8   0.0      0.12   12.9   0.0   2.6   2   0   0   2   2   2   0 ThiS family
+Ub-Mut7C             PF14451.5  sp|O54408|RELA_BACSU -              0.084   12.6   0.2      0.46   10.3   0.0   2.3   2   0   0   2   2   2   0 Mut7-C ubiquitin
+RsgI_N               PF12791.6  sp|O54408|RELA_BACSU -                0.1   12.5   0.0      0.34   10.8   0.0   1.9   1   0   0   1   1   1   0 Anti-sigma factor N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O54408.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O54408.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O54408.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:23:28 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B            PF00136.20 sp|O29753|DPOL_ARCFU -            1.2e-74  251.6   0.0   1.6e-74  251.2   0.0   1.2   1   0   0   1   1   1   1 DNA polymerase family B
+DNA_pol_B_exo1       PF03104.18 sp|O29753|DPOL_ARCFU -              4e-34  118.2   0.6   1.3e-16   60.6   0.1   2.8   1   1   1   2   2   2   2 DNA polymerase family B, exonuclease domain
+DNA_pol_B_exo2       PF10108.8  sp|O29753|DPOL_ARCFU -            4.1e-12   46.1   0.0     1e-11   44.9   0.0   1.6   1   0   0   1   1   1   1 Predicted 3'-5' exonuclease related to the exonuclease domain of PolB
+RNase_H_2            PF13482.5  sp|O29753|DPOL_ARCFU -            5.3e-10   39.4   0.1     2e-09   37.6   0.0   2.0   2   0   0   2   2   2   1 RNase_H superfamily
+NAD_synthase         PF02540.16 sp|O29753|DPOL_ARCFU -              0.028   13.5   0.0       3.1    6.8   0.0   2.4   2   0   0   2   2   2   0 NAD synthase
+DNA_pol_B_2          PF03175.12 sp|O29753|DPOL_ARCFU -               0.08   11.7   0.6      0.16   10.7   0.0   1.7   2   0   0   2   2   2   0 DNA polymerase type B, organellar and viral
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O29753.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O29753.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O29753.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:19:17 2019
+# [ok]

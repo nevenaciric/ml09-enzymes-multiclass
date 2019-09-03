@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|B7HY90|KITH_BACC7 -            7.2e-61  205.0   0.0   8.1e-61  204.8   0.0   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_14               PF13173.5  sp|B7HY90|KITH_BACC7 -             0.0058   16.6   0.0    0.0078   16.1   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+Zn-ribbon_8          PF09723.9  sp|B7HY90|KITH_BACC7 -              0.011   15.7   0.3       6.3    6.9   0.0   2.5   2   0   0   2   2   2   0 Zinc ribbon domain
+UvrD-helicase        PF00580.20 sp|B7HY90|KITH_BACC7 -              0.037   13.4   0.0     0.049   13.1   0.0   1.1   1   0   0   1   1   1   0 UvrD/REP helicase N-terminal domain
+DZR                  PF12773.6  sp|B7HY90|KITH_BACC7 -              0.038   13.9   0.3     0.073   13.0   0.3   1.5   1   0   0   1   1   1   0 Double zinc ribbon
+zf-C4_ClpX           PF06689.12 sp|B7HY90|KITH_BACC7 -              0.079   12.8   0.0       0.2   11.5   0.0   1.7   1   0   0   1   1   1   0 ClpX C4-type zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B7HY90.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B7HY90.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B7HY90.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:17:12 2019
+# [ok]

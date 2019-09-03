@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|B3WF00|MIAA_LACCB -            2.2e-79  266.4   0.0   2.6e-79  266.1   0.0   1.1   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|B3WF00|MIAA_LACCB -            1.2e-08   34.5   0.1   1.3e-06   27.9   0.0   2.1   2   0   0   2   2   2   2 Isopentenyl transferase
+AAA_33               PF13671.5  sp|B3WF00|MIAA_LACCB -            0.00078   19.5   0.1    0.0067   16.5   0.1   2.3   1   1   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|B3WF00|MIAA_LACCB -              0.013   15.9   0.0      0.23   11.9   0.0   2.3   2   0   0   2   2   2   0 AAA domain
+RNA_helicase         PF00910.21 sp|B3WF00|MIAA_LACCB -              0.097   13.0   0.0       2.4    8.5   0.0   2.7   3   0   0   3   3   3   0 RNA helicase
+Hpr_kinase_C         PF07475.11 sp|B3WF00|MIAA_LACCB -               0.12   11.8   0.0       0.2   11.0   0.0   1.4   1   0   0   1   1   1   0 HPr Serine kinase C-terminal domain
+Cytidylate_kin       PF02224.17 sp|B3WF00|MIAA_LACCB -               0.13   11.9   0.0      0.27   10.8   0.0   1.6   1   0   0   1   1   1   0 Cytidylate kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B3WF00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B3WF00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B3WF00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:52:30 2019
+# [ok]

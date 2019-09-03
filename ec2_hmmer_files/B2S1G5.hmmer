@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|B2S1G5|MIAA_BORHD -            8.4e-58  195.8   0.0     1e-57  195.5   0.0   1.0   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|B2S1G5|MIAA_BORHD -             0.0014   17.9   0.0     0.006   15.9   0.0   2.0   2   0   0   2   2   2   1 Isopentenyl transferase
+ATPase_2             PF01637.17 sp|B2S1G5|MIAA_BORHD -               0.01   15.7   0.1     0.024   14.5   0.1   1.7   1   1   0   1   1   1   0 ATPase domain predominantly from Archaea
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2S1G5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2S1G5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2S1G5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:40:48 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hexapep              PF00132.23 sp|B2VCC9|GLMU_ERWT9 -              3e-26   90.0  15.0   5.9e-07   28.9   4.9   5.3   2   1   3   5   5   5   5 Bacterial transferase hexapeptide (six repeats)
+NTP_transf_3         PF12804.6  sp|B2VCC9|GLMU_ERWT9 -              4e-21   75.9   0.2   7.8e-21   75.0   0.2   1.5   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+NTP_transferase      PF00483.22 sp|B2VCC9|GLMU_ERWT9 -            4.8e-10   39.4   0.0   7.4e-10   38.7   0.0   1.3   1   0   0   1   1   1   1 Nucleotidyl transferase
+IspD                 PF01128.18 sp|B2VCC9|GLMU_ERWT9 -            2.1e-06   27.5   0.0   4.5e-06   26.5   0.0   1.6   1   0   0   1   1   1   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+Hexapep_2            PF14602.5  sp|B2VCC9|GLMU_ERWT9 -            9.4e-06   25.2  19.3    0.0014   18.2   0.1   4.6   3   1   2   5   5   5   4 Hexapeptide repeat of succinyl-transferase
+Fucokinase           PF07959.11 sp|B2VCC9|GLMU_ERWT9 -            2.7e-05   23.3   0.3      0.24   10.3   0.2   3.0   2   1   1   3   3   3   2 L-fucokinase
+CTP_transf_3         PF02348.18 sp|B2VCC9|GLMU_ERWT9 -              0.004   17.0   0.2     0.032   14.1   0.0   2.2   3   0   0   3   3   3   1 Cytidylyltransferase
+CofC                 PF01983.15 sp|B2VCC9|GLMU_ERWT9 -              0.011   14.8   0.0      0.02   14.0   0.0   1.3   1   0   0   1   1   1   0 Guanylyl transferase CofC like
+Bactofilin           PF04519.12 sp|B2VCC9|GLMU_ERWT9 -              0.088   13.0   0.1     0.088   13.0   0.1   2.7   3   1   0   3   3   3   0 Polymer-forming cytoskeletal
+DUF4954              PF16314.4  sp|B2VCC9|GLMU_ERWT9 -               0.18    9.8   0.5      0.52    8.3   0.4   1.5   1   1   0   1   1   1   0 Domain of unknown function (DUF4954)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2VCC9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2VCC9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2VCC9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:46:03 2019
+# [ok]

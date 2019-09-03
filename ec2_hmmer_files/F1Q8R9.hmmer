@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PMT                  PF02366.17 sp|F1Q8R9|POMT2_DANRE -              6e-85  284.6  15.8     6e-85  284.6  15.8   1.9   2   0   0   2   2   2   1 Dolichyl-phosphate-mannose-protein mannosyltransferase
+PMT_4TMC             PF16192.4  sp|F1Q8R9|POMT2_DANRE -            3.8e-56  189.7  11.2   8.7e-56  188.6  11.2   1.7   1   0   0   1   1   1   1 C-terminal four TMM region of protein-O-mannosyltransferase
+MIR                  PF02815.18 sp|F1Q8R9|POMT2_DANRE -            5.2e-22   78.5   0.1   8.3e-22   77.8   0.1   1.2   1   0   0   1   1   1   1 MIR domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/F1Q8R9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/F1Q8R9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/F1Q8R9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:10:06 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TMP-TENI             PF02581.16 sp|B6INN5|THIE_RHOCS -            1.4e-55  187.3   0.0   1.6e-55  187.1   0.0   1.0   1   0   0   1   1   1   1 Thiamine monophosphate synthase
+RuBisCO_large        PF00016.19 sp|B6INN5|THIE_RHOCS -             0.0091   15.1   0.1     0.011   14.8   0.1   1.2   1   0   0   1   1   1   1 Ribulose bisphosphate carboxylase large chain, catalytic domain
+Glyco_hydro_114      PF03537.12 sp|B6INN5|THIE_RHOCS -               0.06   12.6   0.0     0.071   12.3   0.0   1.1   1   0   0   1   1   1   0 Glycoside-hydrolase family GH114
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B6INN5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B6INN5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B6INN5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:12:53 2019
+# [ok]

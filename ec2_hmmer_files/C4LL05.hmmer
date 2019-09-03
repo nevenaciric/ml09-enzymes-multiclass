@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADK                  PF00406.21 sp|C4LL05|KAD_CORK4  -            1.2e-55  187.6   0.0   1.5e-55  187.4   0.0   1.1   1   0   0   1   1   1   1 Adenylate kinase
+AAA_17               PF13207.5  sp|C4LL05|KAD_CORK4  -            1.6e-31  109.4   0.0   2.2e-31  109.0   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|C4LL05|KAD_CORK4  -            1.1e-06   28.8   0.0   1.4e-06   28.4   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|C4LL05|KAD_CORK4  -            2.2e-05   24.8   0.0   3.8e-05   24.1   0.0   1.4   1   0   0   1   1   1   1 AAA domain
+Thymidylate_kin      PF02223.16 sp|C4LL05|KAD_CORK4  -              3e-05   23.7   0.0     0.015   14.8   0.0   2.1   2   0   0   2   2   2   2 Thymidylate kinase
+Cytidylate_kin       PF02224.17 sp|C4LL05|KAD_CORK4  -            0.00051   19.7   0.3    0.0015   18.2   0.0   1.9   2   0   0   2   2   2   1 Cytidylate kinase
+RuvB_N               PF05496.11 sp|C4LL05|KAD_CORK4  -              0.026   13.7   0.0     0.057   12.6   0.0   1.5   1   0   0   1   1   1   0 Holliday junction DNA helicase ruvB N-terminus
+dNK                  PF01712.18 sp|C4LL05|KAD_CORK4  -              0.029   14.1   0.1       2.3    7.9   0.0   2.1   2   0   0   2   2   2   0 Deoxynucleoside kinase
+AAA_28               PF13521.5  sp|C4LL05|KAD_CORK4  -              0.047   13.8   0.0     0.078   13.1   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+AAA                  PF00004.28 sp|C4LL05|KAD_CORK4  -              0.095   13.0   0.1      0.11   12.9   0.1   1.6   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+AAA_24               PF13479.5  sp|C4LL05|KAD_CORK4  -               0.13   11.8   0.2       0.9    9.1   0.0   2.1   1   1   2   3   3   3   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C4LL05.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C4LL05.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C4LL05.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:58:55 2019
+# [ok]

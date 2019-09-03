@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SelA                 PF03841.12 sp|B8ES25|SELA_METSB -           9.7e-164  544.6   0.9  1.2e-163  544.3   0.9   1.1   1   0   0   1   1   1   1 L-seryl-tRNA selenium transferase
+Se-cys_synth_N       PF12390.7  sp|B8ES25|SELA_METSB -            3.3e-11   43.1   6.0   3.3e-11   43.1   6.0   4.8   5   0   0   5   5   5   1 Selenocysteine synthase N terminal
+Ribonuclease_P       PF00825.17 sp|B8ES25|SELA_METSB -              0.087   12.8   0.0      0.18   11.8   0.0   1.5   1   0   0   1   1   1   0 Ribonuclease P
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8ES25.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8ES25.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8ES25.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:32:29 2019
+# [ok]

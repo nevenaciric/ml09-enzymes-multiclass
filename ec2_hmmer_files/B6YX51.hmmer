@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PCMT                 PF01135.18 sp|B6YX51|PIMT_THEON -            1.1e-67  227.7   0.0   1.4e-67  227.4   0.0   1.0   1   0   0   1   1   1   1 Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+Methyltransf_31      PF13847.5  sp|B6YX51|PIMT_THEON -            1.5e-10   41.0   0.0   2.4e-10   40.3   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_25      PF13649.5  sp|B6YX51|PIMT_THEON -            3.7e-08   33.9   0.0   5.8e-08   33.2   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_23      PF13489.5  sp|B6YX51|PIMT_THEON -            4.7e-06   26.4   0.0   8.2e-06   25.6   0.0   1.4   1   1   0   1   1   1   1 Methyltransferase domain
+CMAS                 PF02353.19 sp|B6YX51|PIMT_THEON -              9e-06   25.1   0.0   1.3e-05   24.5   0.0   1.2   1   0   0   1   1   1   1 Mycolic acid cyclopropane synthetase
+Methyltransf_11      PF08241.11 sp|B6YX51|PIMT_THEON -            1.2e-05   25.8   0.0     5e-05   23.8   0.0   2.0   1   1   0   1   1   1   1 Methyltransferase domain
+RrnaAD               PF00398.19 sp|B6YX51|PIMT_THEON -            1.9e-05   23.8   0.0   2.4e-05   23.5   0.0   1.1   1   0   0   1   1   1   1 Ribosomal RNA adenine dimethylase
+PrmA                 PF06325.12 sp|B6YX51|PIMT_THEON -              2e-05   24.1   0.0   2.7e-05   23.6   0.0   1.2   1   0   0   1   1   1   1 Ribosomal protein L11 methyltransferase (PrmA)
+Methyltransf_18      PF12847.6  sp|B6YX51|PIMT_THEON -            2.9e-05   23.9   0.0   4.5e-05   23.3   0.0   1.2   1   0   0   1   1   1   1 Methyltransferase domain
+MTS                  PF05175.13 sp|B6YX51|PIMT_THEON -            5.9e-05   22.6   0.0   0.00015   21.2   0.0   1.6   2   0   0   2   2   2   1 Methyltransferase small domain
+Methyltransf_3       PF01596.16 sp|B6YX51|PIMT_THEON -            0.00035   19.7   0.0   0.00058   19.0   0.0   1.3   1   0   0   1   1   1   1 O-methyltransferase
+Met_10               PF02475.15 sp|B6YX51|PIMT_THEON -             0.0032   17.2   0.0    0.0047   16.6   0.0   1.2   1   0   0   1   1   1   1 Met-10+ like-protein
+Methyltransf_2       PF00891.17 sp|B6YX51|PIMT_THEON -             0.0075   15.4   0.0     0.013   14.7   0.0   1.3   1   0   0   1   1   1   1 O-methyltransferase
+GCD14                PF08704.9  sp|B6YX51|PIMT_THEON -             0.0094   15.5   0.0     0.013   15.1   0.0   1.2   1   0   0   1   1   1   1 tRNA methyltransferase complex GCD14 subunit
+UPF0020              PF01170.17 sp|B6YX51|PIMT_THEON -              0.023   14.3   0.0      0.06   12.9   0.0   1.5   1   1   1   2   2   2   0 Putative RNA methylase family UPF0020
+Methyltransf_16      PF10294.8  sp|B6YX51|PIMT_THEON -              0.058   13.0   0.0     0.082   12.5   0.0   1.2   1   0   0   1   1   1   0 Lysine methyltransferase
+Methyltransf_24      PF13578.5  sp|B6YX51|PIMT_THEON -               0.11   13.5   0.0      0.17   12.8   0.0   1.4   1   0   0   1   1   1   0 Methyltransferase domain
+TrmK                 PF04816.11 sp|B6YX51|PIMT_THEON -               0.11   11.9   0.0      0.18   11.2   0.0   1.4   1   0   0   1   1   1   0 tRNA (adenine(22)-N(1))-methyltransferase
+POTRA                PF07244.14 sp|B6YX51|PIMT_THEON -               0.12   12.8   0.0      0.35   11.4   0.0   1.8   2   0   0   2   2   1   0 Surface antigen variable number repeat
+Methyltransf_15      PF09445.9  sp|B6YX51|PIMT_THEON -               0.13   11.8   0.0      0.17   11.5   0.0   1.2   1   0   0   1   1   1   0 RNA cap guanine-N2 methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B6YX51.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B6YX51.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B6YX51.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:15:01 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PHD                  PF00628.28 sp|B9RU15|ATXR5_RICCO -            4.8e-11   42.3   4.6   1.4e-10   40.7   4.6   1.9   1   0   0   1   1   1   1 PHD-finger
+SET                  PF00856.27 sp|B9RU15|ATXR5_RICCO -            2.5e-06   27.9   0.2   3.6e-06   27.4   0.2   1.5   1   1   0   1   1   1   1 SET domain
+PHD_2                PF13831.5  sp|B9RU15|ATXR5_RICCO -              0.026   14.0   2.1     0.026   14.0   2.1   2.2   2   0   0   2   2   2   0 PHD-finger
+PHD_4                PF16866.4  sp|B9RU15|ATXR5_RICCO -              0.037   14.0   3.0      0.12   12.4   3.0   1.9   1   0   0   1   1   1   0 PHD-finger
+FYVE_2               PF02318.15 sp|B9RU15|ATXR5_RICCO -              0.051   13.7   9.0      0.98    9.5   4.8   3.1   2   1   0   2   2   2   0 FYVE-type zinc finger
+Zf_RING              PF16744.4  sp|B9RU15|ATXR5_RICCO -                2.5    8.2   8.1       0.1   12.6   1.4   2.2   2   0   0   2   2   2   0 KIAA1045 RING finger
+zinc_ribbon_9        PF14369.5  sp|B9RU15|ATXR5_RICCO -                  5    7.4   7.2        67    3.8   0.1   4.0   4   0   0   4   4   4   0 zinc-ribbon
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B9RU15.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B9RU15.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B9RU15.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:42:56 2019
+# [ok]

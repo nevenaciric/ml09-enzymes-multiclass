@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|B5FFE2|RNPH_ALIFM -            1.6e-25   90.0   0.1   2.5e-25   89.4   0.1   1.3   1   0   0   1   1   1   1 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|B5FFE2|RNPH_ALIFM -            2.1e-11   43.6   0.3   3.6e-11   42.8   0.3   1.4   1   0   0   1   1   1   1 3' exoribonuclease family, domain 2
+Kinesin              PF00225.22 sp|B5FFE2|RNPH_ALIFM -               0.16   10.8   0.0      0.17   10.7   0.0   1.1   1   0   0   1   1   1   0 Kinesin motor domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B5FFE2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B5FFE2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B5FFE2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:04:02 2019
+# [ok]

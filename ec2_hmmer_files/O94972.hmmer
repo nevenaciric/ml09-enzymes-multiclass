@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+zf-B_box             PF00643.23 sp|O94972|TRI37_HUMAN -            6.4e-09   35.7   8.7   6.4e-09   35.7   8.7   3.0   2   1   1   3   3   3   1 B-box zinc finger
+MATH                 PF00917.25 sp|O94972|TRI37_HUMAN -            2.2e-08   34.2   0.0   7.9e-08   32.3   0.0   2.0   1   0   0   1   1   1   1 MATH domain
+zf-C3HC4_3           PF13920.5  sp|O94972|TRI37_HUMAN -            2.1e-05   24.2  15.2   2.1e-05   24.2  15.2   2.5   2   0   0   2   2   2   1 Zinc finger, C3HC4 type (RING finger)
+zf-C3HC4_2           PF13923.5  sp|O94972|TRI37_HUMAN -             0.0032   17.2  17.1    0.0032   17.2  17.1   2.4   2   0   0   2   2   2   1 Zinc finger, C3HC4 type (RING finger)
+MRFAP1               PF15155.5  sp|O94972|TRI37_HUMAN -              0.079   13.4   3.6      0.14   12.6   1.4   2.4   2   0   0   2   2   2   0 MORF4 family-associated protein1
+FUSC                 PF04632.11 sp|O94972|TRI37_HUMAN -               0.19   10.1   2.7      0.35    9.3   2.7   1.3   1   0   0   1   1   1   0 Fusaric acid resistance protein family
+DUF2203              PF09969.8  sp|O94972|TRI37_HUMAN -               0.53   10.9   5.1        21    5.8   2.7   3.2   2   0   0   2   2   2   0 Uncharacterized conserved protein (DUF2203)
+Baculo_PEP_C         PF04513.11 sp|O94972|TRI37_HUMAN -               0.65    9.9   8.6       1.2    9.1   2.4   3.2   3   0   0   3   3   3   0 Baculovirus polyhedron envelope protein, PEP, C terminus
+DUF5071              PF16804.4  sp|O94972|TRI37_HUMAN -                1.3    9.2   5.0        18    5.5   5.1   2.7   1   1   0   1   1   1   0 Domain of unknown function (DUF5071)
+DUF148               PF02520.16 sp|O94972|TRI37_HUMAN -                  2    8.5   6.7      0.62   10.1   2.5   2.4   2   0   0   2   2   2   0 Domain of unknown function DUF148
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O94972.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O94972.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O94972.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:31:57 2019
+# [ok]

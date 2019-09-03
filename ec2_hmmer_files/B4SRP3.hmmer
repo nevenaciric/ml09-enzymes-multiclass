@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP_bind_3           PF01171.19 sp|B4SRP3|TTCA_STRM5 -            4.7e-16   59.0   0.0   9.4e-16   58.0   0.0   1.4   2   0   0   2   2   2   1 PP-loop family
+PAPS_reduct          PF01507.18 sp|B4SRP3|TTCA_STRM5 -             0.0054   16.7   0.0      0.81    9.6   0.0   2.2   2   0   0   2   2   2   2 Phosphoadenosine phosphosulfate reductase family
+Endonuclease_7       PF02945.14 sp|B4SRP3|TTCA_STRM5 -               0.35   10.7   2.3       1.4    8.8   1.0   2.1   1   1   1   2   2   2   0 Recombination endonuclease VII
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4SRP3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4SRP3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4SRP3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:56:32 2019
+# [ok]

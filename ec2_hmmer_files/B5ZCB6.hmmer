@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RrnaAD               PF00398.19 sp|B5ZCB6|RSMA_UREU1 -            4.4e-56  189.8   8.6   5.4e-56  189.5   8.6   1.0   1   0   0   1   1   1   1 Ribosomal RNA adenine dimethylase
+DREV                 PF05219.11 sp|B5ZCB6|RSMA_UREU1 -              0.005   15.9   0.1     0.018   14.1   0.0   1.9   1   1   0   2   2   2   1 DREV methyltransferase
+CMAS                 PF02353.19 sp|B5ZCB6|RSMA_UREU1 -              0.012   14.8   0.0     0.021   14.0   0.0   1.4   1   0   0   1   1   1   0 Mycolic acid cyclopropane synthetase
+Methyltransf_25      PF13649.5  sp|B5ZCB6|RSMA_UREU1 -              0.021   15.5   0.0     0.082   13.5   0.0   1.9   1   1   0   1   1   1   0 Methyltransferase domain
+Methyltransf_11      PF08241.11 sp|B5ZCB6|RSMA_UREU1 -                0.1   13.2   0.0      0.31   11.6   0.0   1.9   1   1   1   2   2   2   0 Methyltransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B5ZCB6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B5ZCB6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B5ZCB6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:10:34 2019
+# [ok]

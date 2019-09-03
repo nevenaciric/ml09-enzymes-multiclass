@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|C1DAW8|DXS_LARHH  -           1.2e-123  411.5   0.0  3.8e-123  409.9   0.0   1.7   2   0   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|C1DAW8|DXS_LARHH  -            8.4e-45  152.5   0.0   1.8e-44  151.4   0.0   1.5   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|C1DAW8|DXS_LARHH  -            2.6e-29  101.5   0.1   5.1e-29  100.6   0.1   1.5   1   0   0   1   1   1   1 Transketolase, C-terminal domain
+TPP_enzyme_C         PF02775.20 sp|C1DAW8|DXS_LARHH  -            4.1e-07   29.8   0.9   3.2e-06   26.9   0.5   2.7   3   1   0   3   3   3   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+E1_dh                PF00676.19 sp|C1DAW8|DXS_LARHH  -            3.1e-06   26.3   0.1   5.1e-06   25.6   0.1   1.2   1   0   0   1   1   1   1 Dehydrogenase E1 component
+Transketolase_N      PF00456.20 sp|C1DAW8|DXS_LARHH  -             0.0029   16.5   0.6    0.0092   14.9   0.3   2.0   3   1   0   3   3   3   1 Transketolase, thiamine diphosphate binding domain
+DUF1194              PF06707.10 sp|C1DAW8|DXS_LARHH  -             0.0053   15.9   0.2      0.01   14.9   0.2   1.4   1   0   0   1   1   1   1 Protein of unknown function (DUF1194)
+DUF2148              PF09918.8  sp|C1DAW8|DXS_LARHH  -               0.46   10.5   3.3       4.2    7.4   1.3   2.8   3   0   0   3   3   3   0 Uncharacterized protein containing a ferredoxin domain (DUF2148)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C1DAW8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C1DAW8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C1DAW8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:49:44 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TMP-TENI             PF02581.16 sp|C3K2K2|THIE_PSEFS -            1.3e-57  193.9   0.1   1.5e-57  193.7   0.1   1.0   1   0   0   1   1   1   1 Thiamine monophosphate synthase
+FMN_dh               PF01070.17 sp|C3K2K2|THIE_PSEFS -              0.067   12.1   0.0      0.11   11.4   0.0   1.5   1   1   0   1   1   1   0 FMN-dependent dehydrogenase
+His_biosynth         PF00977.20 sp|C3K2K2|THIE_PSEFS -               0.13   11.6   0.0      0.27   10.6   0.0   1.6   1   1   0   1   1   1   0 Histidine biosynthesis protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C3K2K2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C3K2K2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C3K2K2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:52:18 2019
+# [ok]

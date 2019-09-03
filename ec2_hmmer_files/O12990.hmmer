@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O12990|JAK1_DANRE -           8.3e-144  477.5   0.0   1.2e-84  283.6   0.0   2.4   2   0   0   2   2   2   2 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O12990|JAK1_DANRE -            2.5e-72  243.3   0.0   1.1e-49  169.0   0.0   2.4   2   0   0   2   2   2   2 Protein kinase domain
+Kdo                  PF06293.13 sp|O12990|JAK1_DANRE -             0.0027   17.0   0.0      0.15   11.3   0.0   2.2   2   0   0   2   2   2   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+SH2                  PF00017.23 sp|O12990|JAK1_DANRE -             0.0033   17.4   0.0    0.0094   15.9   0.0   1.9   1   0   0   1   1   1   1 SH2 domain
+Kinase-like          PF14531.5  sp|O12990|JAK1_DANRE -             0.0034   16.6   0.0       4.8    6.3   0.0   3.1   2   1   0   2   2   2   2 Kinase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O12990.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O12990.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O12990.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:15:19 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_M_2       PF16582.4  sp|B7NNU4|MEND_ECO7I -            1.2e-86  289.6   8.9     2e-86  288.9   8.9   1.4   1   0   0   1   1   1   1 Middle domain of thiamine pyrophosphate
+TPP_enzyme_N         PF02776.17 sp|B7NNU4|MEND_ECO7I -            5.1e-30  104.2   0.5   7.1e-27   94.0   0.1   2.3   2   0   0   2   2   2   2 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_C         PF02775.20 sp|B7NNU4|MEND_ECO7I -            7.8e-10   38.6   0.0   1.8e-09   37.5   0.0   1.6   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B7NNU4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B7NNU4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B7NNU4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:26:20 2019
+# [ok]

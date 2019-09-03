@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Cytidylate_kin       PF02224.17 sp|B5ZBF2|KCY_UREU1  -              3e-62  210.0   1.9   3.5e-62  209.8   1.9   1.0   1   0   0   1   1   1   1 Cytidylate kinase
+Cytidylate_kin2      PF13189.5  sp|B5ZBF2|KCY_UREU1  -            1.4e-07   31.7   1.2   3.5e-07   30.4   1.2   1.6   1   1   0   1   1   1   1 Cytidylate kinase-like family
+AAA_18               PF13238.5  sp|B5ZBF2|KCY_UREU1  -            2.2e-07   31.4   3.1   6.2e-07   29.9   2.0   2.2   1   1   1   2   2   2   1 AAA domain
+AAA_17               PF13207.5  sp|B5ZBF2|KCY_UREU1  -            1.1e-05   25.7   1.3   0.00037   20.8   1.3   2.7   1   1   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|B5ZBF2|KCY_UREU1  -            3.4e-05   23.9   0.1   7.2e-05   22.9   0.0   1.8   1   1   0   1   1   1   1 AAA domain
+PRK                  PF00485.17 sp|B5ZBF2|KCY_UREU1  -              0.005   16.5   1.1       1.3    8.7   0.0   2.2   2   0   0   2   2   2   2 Phosphoribulokinase / Uridine kinase family
+dNK                  PF01712.18 sp|B5ZBF2|KCY_UREU1  -             0.0079   16.0   1.7     0.073   12.8   1.7   2.1   1   1   0   1   1   1   1 Deoxynucleoside kinase
+ADK                  PF00406.21 sp|B5ZBF2|KCY_UREU1  -             0.0081   16.2   0.0     0.018   15.0   0.0   1.6   1   0   0   1   1   1   1 Adenylate kinase
+AAA                  PF00004.28 sp|B5ZBF2|KCY_UREU1  -              0.014   15.8   0.2     0.024   14.9   0.2   1.7   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+DUF3504              PF12012.7  sp|B5ZBF2|KCY_UREU1  -              0.021   14.7   0.0     0.061   13.1   0.0   1.7   1   1   0   1   1   1   0 Domain of unknown function (DUF3504)
+SKI                  PF01202.21 sp|B5ZBF2|KCY_UREU1  -              0.028   14.4   1.2      0.25   11.4   0.1   2.2   2   0   0   2   2   2   0 Shikimate kinase
+RNA_helicase         PF00910.21 sp|B5ZBF2|KCY_UREU1  -               0.03   14.6   0.2     0.059   13.7   0.2   1.8   1   1   0   1   1   1   0 RNA helicase
+AAA_22               PF13401.5  sp|B5ZBF2|KCY_UREU1  -              0.033   14.4   0.0     0.067   13.4   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+AAA_29               PF13555.5  sp|B5ZBF2|KCY_UREU1  -              0.044   13.4   0.1     0.098   12.3   0.1   1.6   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+AAA_24               PF13479.5  sp|B5ZBF2|KCY_UREU1  -              0.055   13.1   0.0     0.084   12.5   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+NACHT                PF05729.11 sp|B5ZBF2|KCY_UREU1  -              0.061   13.1   0.0       0.1   12.4   0.0   1.4   1   0   0   1   1   1   0 NACHT domain
+AAA_28               PF13521.5  sp|B5ZBF2|KCY_UREU1  -              0.086   13.0   0.0      0.16   12.1   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+Thymidylate_kin      PF02223.16 sp|B5ZBF2|KCY_UREU1  -               0.13   11.9   1.7       2.6    7.6   0.0   2.7   2   1   1   3   3   3   0 Thymidylate kinase
+ABC_tran             PF00005.26 sp|B5ZBF2|KCY_UREU1  -               0.24   11.8   3.3      0.53   10.7   3.3   2.0   1   1   0   1   1   1   0 ABC transporter
+AAA_21               PF13304.5  sp|B5ZBF2|KCY_UREU1  -                3.2    7.4   5.8        71    3.0   5.9   2.0   1   1   0   1   1   1   0 AAA domain, putative AbiEii toxin, Type IV TA system
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B5ZBF2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B5ZBF2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B5ZBF2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:10:30 2019
+# [ok]

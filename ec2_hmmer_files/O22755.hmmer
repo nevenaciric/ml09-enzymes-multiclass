@@ -1,0 +1,33 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+zf-RING_2            PF13639.5  sp|O22755|ATL44_ARATH -            3.6e-15   55.9   4.6   3.6e-15   55.9   4.6   2.2   2   0   0   2   2   2   1 Ring finger domain
+zf-RING_11           PF17123.4  sp|O22755|ATL44_ARATH -            2.1e-12   46.4   3.3   2.1e-12   46.4   3.3   2.4   2   0   0   2   2   2   1 RING-like zinc finger
+zf-C3HC4_2           PF13923.5  sp|O22755|ATL44_ARATH -            1.2e-09   37.8   3.2   1.2e-09   37.8   3.2   2.6   2   1   0   2   2   2   1 Zinc finger, C3HC4 type (RING finger)
+zf-rbx1              PF12678.6  sp|O22755|ATL44_ARATH -            2.1e-08   34.2   6.3   2.1e-08   34.2   6.3   2.8   2   2   0   2   2   1   1 RING-H2 zinc finger domain
+zf-RING_UBOX         PF13445.5  sp|O22755|ATL44_ARATH -            2.9e-07   30.3   0.2   2.9e-07   30.3   0.2   2.3   1   1   1   2   2   2   1 RING-type zinc-finger
+zf-C3HC4             PF00097.24 sp|O22755|ATL44_ARATH -            5.9e-07   29.2   2.4   5.9e-07   29.2   2.4   2.1   2   0   0   2   2   2   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_5            PF14634.5  sp|O22755|ATL44_ARATH -            6.1e-06   26.0   1.9   6.1e-06   26.0   1.9   2.1   2   0   0   2   2   2   1 zinc-RING finger domain
+zf-ANAPC11           PF12861.6  sp|O22755|ATL44_ARATH -            1.6e-05   24.7   1.9   4.6e-05   23.3   1.9   1.8   1   1   0   1   1   1   1 Anaphase-promoting complex subunit 11 RING-H2 finger
+zf-C3HC4_3           PF13920.5  sp|O22755|ATL44_ARATH -            8.6e-05   22.2   2.1   8.6e-05   22.2   2.1   1.9   1   1   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+Prok-RING_1          PF14446.5  sp|O22755|ATL44_ARATH -            0.00012   21.9   9.0   0.00013   21.8   0.6   2.7   3   0   0   3   3   2   1 Prokaryotic RING finger family 1
+Prok-RING_4          PF14447.5  sp|O22755|ATL44_ARATH -            0.00057   19.6   3.4   0.00057   19.6   3.4   1.9   1   1   0   1   1   1   1 Prokaryotic RING finger family 4
+FANCL_C              PF11793.7  sp|O22755|ATL44_ARATH -              0.005   16.9   5.3     0.012   15.6   5.3   1.8   1   1   0   1   1   1   1 FANCL C-terminal domain
+Zn_ribbon_17         PF17120.4  sp|O22755|ATL44_ARATH -              0.009   15.5   3.3     0.009   15.5   3.3   2.4   1   1   1   2   2   2   1 Zinc-ribbon, C4HC2 type
+zf-RING_4            PF14570.5  sp|O22755|ATL44_ARATH -               0.02   14.5   1.9     0.044   13.4   1.9   1.6   1   0   0   1   1   1   0 RING/Ubox like zinc-binding domain
+Baculo_RING          PF05883.10 sp|O22755|ATL44_ARATH -              0.051   13.5   0.1     0.084   12.8   0.1   1.3   1   0   0   1   1   1   0 Baculovirus U-box/Ring-like domain
+zf-RING-like         PF08746.10 sp|O22755|ATL44_ARATH -              0.053   13.7   1.3     0.053   13.7   1.3   2.4   3   0   0   3   3   2   0 RING-like domain
+UPF0547              PF10571.8  sp|O22755|ATL44_ARATH -                0.1   12.6   6.7       6.9    6.8   0.0   3.4   2   2   0   2   2   2   0 Uncharacterised protein family UPF0547
+DZR                  PF12773.6  sp|O22755|ATL44_ARATH -                1.4    8.9   6.7         6    6.9   6.7   2.1   1   1   0   1   1   1   0 Double zinc ribbon
+zf-C3HC4_4           PF15227.5  sp|O22755|ATL44_ARATH -                1.7    8.8   8.9       1.1    9.4   5.2   2.5   1   1   1   2   2   2   0 zinc finger of C3HC4-type, RING
+Zn-ribbon_8          PF09723.9  sp|O22755|ATL44_ARATH -                4.6    7.3   7.7        14    5.8   0.4   3.0   3   0   0   3   3   3   0 Zinc ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O22755.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O22755.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O22755.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:17:01 2019
+# [ok]

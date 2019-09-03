@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O65482|CRK23_ARATH -            3.2e-50  170.7   0.0   7.2e-50  169.6   0.0   1.5   1   1   0   1   1   1   1 Protein tyrosine kinase
+Stress-antifung      PF01657.16 sp|O65482|CRK23_ARATH -              1e-49  167.0  13.5   1.6e-20   73.5   1.0   3.4   3   0   0   3   3   3   3 Salt stress response/antifungal
+Pkinase              PF00069.24 sp|O65482|CRK23_ARATH -            5.1e-44  150.5   0.0   7.7e-44  149.9   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+APH                  PF01636.22 sp|O65482|CRK23_ARATH -             0.0008   19.3   0.1     0.002   18.0   0.1   1.6   1   1   1   2   2   2   1 Phosphotransferase enzyme family
+Haspin_kinase        PF12330.7  sp|O65482|CRK23_ARATH -              0.018   13.9   0.0     0.048   12.5   0.0   1.6   2   0   0   2   2   2   0 Haspin like kinase domain
+zf-CCHC_6            PF15288.5  sp|O65482|CRK23_ARATH -               0.13   12.1   0.2        12    5.8   0.0   3.0   3   0   0   3   3   3   0 Zinc knuckle
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O65482.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O65482.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O65482.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:25:46 2019
+# [ok]

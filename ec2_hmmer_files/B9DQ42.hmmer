@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AICARFT_IMPCHas      PF01808.17 sp|B9DQ42|PUR9_STACT -           3.7e-110  367.9   0.8  5.3e-110  367.4   0.8   1.2   1   0   0   1   1   1   1 AICARFT/IMPCHase bienzyme
+MGS                  PF02142.21 sp|B9DQ42|PUR9_STACT -            1.3e-28   98.9   0.1   7.3e-28   96.5   0.0   2.3   2   0   0   2   2   2   1 MGS-like domain
+TIP49                PF06068.12 sp|B9DQ42|PUR9_STACT -              0.011   14.6   0.9      0.12   11.3   0.0   2.1   2   0   0   2   2   2   0 TIP49 C-terminus
+Phosphonate-bd       PF12974.6  sp|B9DQ42|PUR9_STACT -              0.032   13.7   0.0       7.7    5.9   0.0   2.3   1   1   1   2   2   2   0 ABC transporter, phosphonate, periplasmic substrate-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B9DQ42.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B9DQ42.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B9DQ42.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:37:35 2019
+# [ok]

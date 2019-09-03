@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_synthesis         PF02504.14 sp|B2US31|PLSX_HELPS -           5.1e-134  446.3   3.6  5.8e-134  446.1   3.6   1.0   1   0   0   1   1   1   1 Fatty acid synthesis protein
+DNA_ligase_OB_2      PF14743.5  sp|B2US31|PLSX_HELPS -               0.14   12.1   0.1      0.52   10.3   0.1   1.8   1   1   1   2   2   2   0 DNA ligase OB-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2US31.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2US31.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2US31.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:44:57 2019
+# [ok]

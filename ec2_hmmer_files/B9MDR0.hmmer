@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_synthesis         PF02504.14 sp|B9MDR0|PLSX_ACIET -           1.4e-101  339.7   4.4  1.6e-101  339.5   4.4   1.0   1   0   0   1   1   1   1 Fatty acid synthesis protein
+DUF3842              PF12953.6  sp|B9MDR0|PLSX_ACIET -             0.0017   18.6   0.3    0.0053   17.0   0.3   1.9   1   0   0   1   1   1   1 Domain of unknown function (DUF3842)
+T2SSE                PF00437.19 sp|B9MDR0|PLSX_ACIET -              0.017   14.1   0.2     0.028   13.4   0.2   1.2   1   0   0   1   1   1   0 Type II/IV secretion system protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B9MDR0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B9MDR0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B9MDR0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:42:24 2019
+# [ok]

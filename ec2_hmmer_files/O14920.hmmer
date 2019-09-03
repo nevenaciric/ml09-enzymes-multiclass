@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|O14920|IKKB_HUMAN -              5e-54  183.3   0.0   1.1e-53  182.2   0.0   1.6   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|O14920|IKKB_HUMAN -            1.1e-38  133.0   0.0   3.3e-38  131.4   0.0   1.8   2   0   0   2   2   2   1 Protein tyrosine kinase
+IKKbetaNEMObind      PF12179.7  sp|O14920|IKKB_HUMAN -            7.4e-16   57.8   1.8   7.4e-16   57.8   1.8   3.4   3   0   0   3   3   3   1 I-kappa-kinase-beta NEMO binding domain
+Kdo                  PF06293.13 sp|O14920|IKKB_HUMAN -            1.7e-06   27.5   0.1   4.3e-06   26.1   0.1   1.6   1   0   0   1   1   1   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+ubiquitin            PF00240.22 sp|O14920|IKKB_HUMAN -            0.00014   21.4   0.0   0.00045   19.8   0.0   2.0   1   0   0   1   1   1   1 Ubiquitin family
+APH                  PF01636.22 sp|O14920|IKKB_HUMAN -             0.0025   17.7   0.2    0.0076   16.1   0.0   1.9   2   0   0   2   2   2   1 Phosphotransferase enzyme family
+YrbL-PhoP_reg        PF10707.8  sp|O14920|IKKB_HUMAN -             0.0066   15.9   0.4     0.026   13.9   0.0   2.2   2   0   0   2   2   2   1 PhoP regulatory network protein YrbL
+Med20                PF08612.10 sp|O14920|IKKB_HUMAN -              0.031   13.5   0.4      0.12   11.6   0.0   2.1   3   0   0   3   3   3   0 TATA-binding related factor (TRF) of subunit 20 of Mediator complex
+Glyco_hydro_65m      PF03632.14 sp|O14920|IKKB_HUMAN -              0.068   11.9   0.0      0.13   10.9   0.0   1.4   1   0   0   1   1   1   0 Glycosyl hydrolase family 65 central catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O14920.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O14920.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O14920.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:16:15 2019
+# [ok]

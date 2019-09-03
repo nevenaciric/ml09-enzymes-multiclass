@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DS                   PF01916.16 sp|O28088|DHYS1_ARCFU -            5.5e-97  324.4   0.0   6.2e-97  324.2   0.0   1.0   1   0   0   1   1   1   1 Deoxyhypusine synthase
+B12-binding          PF02310.18 sp|O28088|DHYS1_ARCFU -              0.024   14.6   0.1      0.42   10.6   0.0   2.5   2   1   0   2   2   2   0 B12 binding domain
+MafB19-deam          PF14437.5  sp|O28088|DHYS1_ARCFU -              0.061   13.0   0.0      0.14   11.8   0.0   1.5   1   0   0   1   1   1   0 MafB19-like deaminase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O28088.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O28088.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O28088.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:18:46 2019
+# [ok]

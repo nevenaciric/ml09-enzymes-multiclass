@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_23      PF13489.5  sp|C5CSI6|TAM_VARPS  -            2.6e-19   69.6   0.0     3e-19   69.3   0.0   1.2   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_25      PF13649.5  sp|C5CSI6|TAM_VARPS  -            1.3e-18   67.4   0.0   2.4e-18   66.5   0.0   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_31      PF13847.5  sp|C5CSI6|TAM_VARPS  -            2.3e-16   59.8   0.0   3.2e-16   59.4   0.0   1.1   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_11      PF08241.11 sp|C5CSI6|TAM_VARPS  -            1.1e-15   58.0   0.0   1.8e-15   57.2   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_12      PF08242.11 sp|C5CSI6|TAM_VARPS  -            8.6e-14   52.0   0.0   1.4e-13   51.3   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+MTS                  PF05175.13 sp|C5CSI6|TAM_VARPS  -            2.6e-06   27.0   0.0   4.1e-06   26.3   0.0   1.3   1   1   0   1   1   1   1 Methyltransferase small domain
+FtsJ                 PF01728.18 sp|C5CSI6|TAM_VARPS  -            0.00024   21.2   0.0   0.00032   20.7   0.0   1.3   1   0   0   1   1   1   1 FtsJ-like methyltransferase
+PCMT                 PF01135.18 sp|C5CSI6|TAM_VARPS  -            0.00027   20.6   0.0   0.00046   19.9   0.0   1.3   1   0   0   1   1   1   1 Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+DREV                 PF05219.11 sp|C5CSI6|TAM_VARPS  -            0.00044   19.3   0.0   0.00084   18.4   0.0   1.4   2   0   0   2   2   2   1 DREV methyltransferase
+Ubie_methyltran      PF01209.17 sp|C5CSI6|TAM_VARPS  -            0.00084   18.6   0.0    0.0013   18.0   0.0   1.2   1   0   0   1   1   1   1 ubiE/COQ5 methyltransferase family
+Methyltransf_33      PF10017.8  sp|C5CSI6|TAM_VARPS  -             0.0049   16.0   0.0    0.0085   15.2   0.0   1.4   2   0   0   2   2   2   1 Histidine-specific methyltransferase, SAM-dependent
+RrnaAD               PF00398.19 sp|C5CSI6|TAM_VARPS  -              0.012   14.6   0.0     0.016   14.2   0.0   1.1   1   0   0   1   1   1   0 Ribosomal RNA adenine dimethylase
+PrmA                 PF06325.12 sp|C5CSI6|TAM_VARPS  -              0.022   14.1   0.0     0.029   13.7   0.0   1.1   1   0   0   1   1   1   0 Ribosomal protein L11 methyltransferase (PrmA)
+Methyltransf_4       PF02390.16 sp|C5CSI6|TAM_VARPS  -              0.023   14.1   0.0     0.042   13.2   0.0   1.4   1   0   0   1   1   1   0 Putative methyltransferase
+Methyltransf_2       PF00891.17 sp|C5CSI6|TAM_VARPS  -              0.049   12.7   0.0     0.069   12.3   0.0   1.2   1   0   0   1   1   1   0 O-methyltransferase
+Methyltransf_32      PF13679.5  sp|C5CSI6|TAM_VARPS  -              0.084   12.8   0.0      0.11   12.4   0.0   1.2   1   0   0   1   1   1   0 Methyltransferase domain
+MetW                 PF07021.11 sp|C5CSI6|TAM_VARPS  -               0.13   11.7   0.0      0.17   11.3   0.0   1.2   1   0   0   1   1   1   0 Methionine biosynthesis protein MetW
+DOT1                 PF08123.12 sp|C5CSI6|TAM_VARPS  -               0.15   11.4   0.0      0.22   10.9   0.0   1.1   1   0   0   1   1   1   0 Histone methylation protein DOT1
+Methyltransf_5       PF01795.18 sp|C5CSI6|TAM_VARPS  -               0.16   11.3   0.0      0.43    9.9   0.0   1.6   2   0   0   2   2   2   0 MraW methylase family
+CMAS                 PF02353.19 sp|C5CSI6|TAM_VARPS  -               0.25   10.5   0.0      0.31   10.2   0.0   1.2   1   0   0   1   1   1   0 Mycolic acid cyclopropane synthetase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C5CSI6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C5CSI6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C5CSI6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:02:24 2019
+# [ok]

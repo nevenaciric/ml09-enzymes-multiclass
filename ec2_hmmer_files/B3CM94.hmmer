@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Thymidylate_kin      PF02223.16 sp|B3CM94|KTHY_WOLPP -            8.3e-51  172.2   0.0   9.1e-51  172.1   0.0   1.0   1   0   0   1   1   1   1 Thymidylate kinase
+AAA_28               PF13521.5  sp|B3CM94|KTHY_WOLPP -            1.5e-05   25.2   0.0   1.9e-05   24.9   0.0   1.1   1   0   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|B3CM94|KTHY_WOLPP -            0.00083   19.8   0.1    0.0047   17.3   0.0   2.0   1   1   1   2   2   2   1 AAA domain
+dNK                  PF01712.18 sp|B3CM94|KTHY_WOLPP -             0.0074   16.1   1.7       0.1   12.4   1.7   2.1   1   1   0   1   1   1   1 Deoxynucleoside kinase
+AAA_33               PF13671.5  sp|B3CM94|KTHY_WOLPP -              0.017   15.2   0.0     0.027   14.5   0.0   1.5   1   1   0   1   1   1   0 AAA domain
+SRP54                PF00448.21 sp|B3CM94|KTHY_WOLPP -              0.021   14.4   0.0     0.068   12.7   0.0   1.8   2   0   0   2   2   2   0 SRP54-type protein, GTPase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B3CM94.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B3CM94.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B3CM94.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:46:58 2019
+# [ok]

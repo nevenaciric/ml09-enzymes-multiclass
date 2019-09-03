@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UDPGT                PF00201.17 sp|O19103|UDB16_RABIT -           1.5e-249  828.8   0.7  1.8e-249  828.6   0.7   1.0   1   0   0   1   1   1   1 UDP-glucoronosyl and UDP-glucosyl transferase
+Glyco_tran_28_C      PF04101.15 sp|O19103|UDB16_RABIT -            6.5e-07   29.4   0.0   1.2e-06   28.5   0.0   1.4   1   0   0   1   1   1   1 Glycosyltransferase family 28 C-terminal domain
+Pro_3_hydrox_C       PF05373.10 sp|O19103|UDB16_RABIT -              0.012   15.6   0.3      0.28   11.2   0.0   2.5   3   0   0   3   3   3   0 L-proline 3-hydroxylase, C-terminal
+Glyco_trans_4_2      PF13477.5  sp|O19103|UDB16_RABIT -              0.021   14.8   0.0      0.65    9.9   0.0   2.3   2   0   0   2   2   2   0 Glycosyl transferase 4-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O19103.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O19103.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O19103.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:16:43 2019
+# [ok]

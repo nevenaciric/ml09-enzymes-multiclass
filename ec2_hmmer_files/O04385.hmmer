@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_2       PF00891.17 sp|O04385|IEMT_CLABR -              8e-80  267.2   0.0   1.1e-79  266.7   0.0   1.1   1   0   0   1   1   1   1 O-methyltransferase
+Dimerisation         PF08100.10 sp|O04385|IEMT_CLABR -            2.3e-20   72.2   0.7   8.4e-20   70.4   0.5   2.0   2   0   0   2   2   2   1 Dimerisation domain
+Methyltransf_PK      PF05891.11 sp|O04385|IEMT_CLABR -              0.011   15.2   0.7      0.17   11.3   0.7   2.1   1   1   0   1   1   1   0 AdoMet dependent proline di-methyltransferase
+FtsJ                 PF01728.18 sp|O04385|IEMT_CLABR -               0.17   11.9   0.0      0.26   11.3   0.0   1.3   1   0   0   1   1   1   0 FtsJ-like methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O04385.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O04385.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O04385.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:14:05 2019
+# [ok]

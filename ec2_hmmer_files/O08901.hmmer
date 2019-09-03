@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mad3_BUB1_I          PF08311.11 sp|O08901|BUB1_MOUSE -            4.8e-36  123.4   1.0   1.3e-35  122.0   1.0   1.8   1   0   0   1   1   1   1 Mad3/BUB1 homology region 1
+Pkinase              PF00069.24 sp|O08901|BUB1_MOUSE -            1.8e-20   73.3   0.0   3.7e-20   72.3   0.0   1.5   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|O08901|BUB1_MOUSE -            1.1e-08   34.6   0.0   1.9e-08   33.8   0.0   1.4   1   0   0   1   1   1   1 Protein tyrosine kinase
+Mad3_BUB1_I_2        PF17014.4  sp|O08901|BUB1_MOUSE -            2.1e-05   24.5   0.5   6.5e-05   22.9   0.5   1.8   1   0   0   1   1   1   1 Putative Mad3/BUB1 like region 1 protein
+Sec23_helical        PF04815.14 sp|O08901|BUB1_MOUSE -              0.085   12.6   0.1        25    4.6   0.2   3.4   2   1   0   2   2   2   0 Sec23/Sec24 helical domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O08901.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O08901.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O08901.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:15:09 2019
+# [ok]

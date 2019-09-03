@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FtsJ                 PF01728.18 sp|D2HRF1|CMTR1_AILME -            1.1e-37  129.7   0.0   2.4e-37  128.7   0.0   1.6   1   0   0   1   1   1   1 FtsJ-like methyltransferase
+G-patch              PF01585.22 sp|D2HRF1|CMTR1_AILME -            4.5e-13   48.8   1.9   1.2e-12   47.4   1.9   1.8   1   0   0   1   1   1   1 G-patch domain
+WW                   PF00397.25 sp|D2HRF1|CMTR1_AILME -            0.00086   19.2   0.0    0.0018   18.2   0.0   1.6   1   0   0   1   1   1   1 WW domain
+G-patch_2            PF12656.6  sp|D2HRF1|CMTR1_AILME -              0.003   17.5   1.2    0.0066   16.4   1.2   1.5   1   0   0   1   1   1   1 G-patch domain
+mRNA_cap_enzyme      PF01331.18 sp|D2HRF1|CMTR1_AILME -             0.0032   17.2   0.1    0.0066   16.2   0.1   1.4   1   0   0   1   1   1   1 mRNA capping enzyme, catalytic domain
+DNA_ligase_A_M       PF01068.20 sp|D2HRF1|CMTR1_AILME -              0.027   14.0   0.1     0.062   12.8   0.1   1.6   1   0   0   1   1   1   0 ATP dependent DNA ligase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/D2HRF1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/D2HRF1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/D2HRF1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:06:48 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|O67605|PFKA_AQUAE -           5.6e-104  347.3   0.4  6.6e-104  347.1   0.4   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+NAD_kinase           PF01513.20 sp|O67605|PFKA_AQUAE -            0.00012   21.3   0.5   0.00042   19.5   0.0   1.9   2   0   0   2   2   2   1 ATP-NAD kinase
+Peripla_BP_6         PF13458.5  sp|O67605|PFKA_AQUAE -             0.0012   18.5   0.1    0.0036   16.9   0.1   1.7   1   1   1   2   2   2   1 Periplasmic binding protein
+Peripla_BP_1         PF00532.20 sp|O67605|PFKA_AQUAE -             0.0036   16.7   0.0    0.0079   15.5   0.0   1.5   2   0   0   2   2   2   1 Periplasmic binding proteins and sugar binding domain of LacI family
+AIRC                 PF00731.19 sp|O67605|PFKA_AQUAE -              0.009   15.5   0.0     0.019   14.5   0.0   1.4   1   0   0   1   1   1   1 AIR carboxylase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O67605.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O67605.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O67605.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:26:39 2019
+# [ok]

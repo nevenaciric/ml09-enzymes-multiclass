@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|O67925|AROK_AQUAE -            3.9e-46  157.0   0.0   4.3e-46  156.8   0.0   1.0   1   0   0   1   1   1   1 Shikimate kinase
+AAA_18               PF13238.5  sp|O67925|AROK_AQUAE -            5.5e-07   30.1   0.0   8.1e-07   29.5   0.0   1.4   1   0   0   1   1   1   1 AAA domain
+Cytidylate_kin2      PF13189.5  sp|O67925|AROK_AQUAE -            0.00041   20.4   0.0      0.41   10.7   0.0   2.3   1   1   1   2   2   2   2 Cytidylate kinase-like family
+APS_kinase           PF01583.19 sp|O67925|AROK_AQUAE -              0.011   15.5   0.0     0.023   14.5   0.0   1.6   1   1   0   1   1   1   0 Adenylylsulphate kinase
+dNK                  PF01712.18 sp|O67925|AROK_AQUAE -              0.035   13.9   0.0      0.24   11.1   0.0   2.0   2   0   0   2   2   2   0 Deoxynucleoside kinase
+AAA_17               PF13207.5  sp|O67925|AROK_AQUAE -              0.079   13.3   0.1      0.17   12.2   0.0   1.7   1   1   0   1   1   1   0 AAA domain
+Thymidylate_kin      PF02223.16 sp|O67925|AROK_AQUAE -               0.12   12.0   0.5      0.94    9.0   0.2   2.1   2   1   0   2   2   2   0 Thymidylate kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O67925.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O67925.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O67925.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:26:51 2019
+# [ok]

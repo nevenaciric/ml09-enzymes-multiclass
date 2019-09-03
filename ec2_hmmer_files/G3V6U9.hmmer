@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rubis-subs-bind      PF09273.10 sp|G3V6U9|SETD3_RAT  -            1.2e-32  113.3   0.1   2.5e-32  112.2   0.1   1.6   1   0   0   1   1   1   1 Rubisco LSMT substrate-binding
+SET                  PF00856.27 sp|G3V6U9|SETD3_RAT  -            4.8e-14   53.0   0.0   2.2e-13   50.8   0.0   2.0   2   0   0   2   2   2   1 SET domain
+Pertussis_S2S3       PF02918.14 sp|G3V6U9|SETD3_RAT  -              0.096   12.5   0.0       0.2   11.5   0.0   1.4   1   0   0   1   1   1   0 Pertussis toxin, subunit 2 and 3, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/G3V6U9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/G3V6U9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/G3V6U9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:11:39 2019
+# [ok]

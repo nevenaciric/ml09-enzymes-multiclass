@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP-utilizers_C      PF02896.17 sp|D4GYE2|PT1_HALVD  -             6e-103  343.9   0.0  7.9e-103  343.5   0.0   1.1   1   0   0   1   1   1   1 PEP-utilising enzyme, TIM barrel domain
+PEP-utilisers_N      PF05524.12 sp|D4GYE2|PT1_HALVD  -            1.9e-26   92.4   0.2   1.9e-26   92.4   0.2   2.3   3   0   0   3   3   3   1 PEP-utilising enzyme, N-terminal
+PEP-utilizers        PF00391.22 sp|D4GYE2|PT1_HALVD  -            8.3e-25   86.2   0.8   2.4e-24   84.7   0.4   2.0   2   0   0   2   2   2   1 PEP-utilising enzyme, mobile domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/D4GYE2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/D4GYE2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/D4GYE2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:07:51 2019
+# [ok]

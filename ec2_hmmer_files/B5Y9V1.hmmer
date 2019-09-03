@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TAL_FSA              PF00923.18 sp|B5Y9V1|TAL_COPPD  -            6.1e-60  202.9   0.2   1.6e-58  198.3   0.2   2.1   1   1   0   1   1   1   1 Transaldolase/Fructose-6-phosphate aldolase
+FMN_dh               PF01070.17 sp|B5Y9V1|TAL_COPPD  -              0.081   11.8   0.1     0.095   11.6   0.1   1.2   1   0   0   1   1   1   0 FMN-dependent dehydrogenase
+GshA                 PF08886.10 sp|B5Y9V1|TAL_COPPD  -               0.13   10.7   0.1      0.24    9.8   0.1   1.4   2   0   0   2   2   2   0 Glutamate-cysteine ligase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B5Y9V1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B5Y9V1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B5Y9V1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:08:40 2019
+# [ok]

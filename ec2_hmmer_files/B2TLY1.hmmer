@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c_2          PF13581.5  sp|B2TLY1|SP2AB_CLOBB -            1.3e-21   76.8   0.1   1.4e-21   76.7   0.1   1.0   1   0   0   1   1   1   1 Histidine kinase-like ATPase domain
+HATPase_c            PF02518.25 sp|B2TLY1|SP2AB_CLOBB -            2.6e-12   47.2   0.3   3.2e-12   46.9   0.3   1.1   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HATPase_c_3          PF13589.5  sp|B2TLY1|SP2AB_CLOBB -            0.00025   20.8   0.2    0.0005   19.8   0.2   1.5   1   1   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+DNA_ligase_aden      PF01653.17 sp|B2TLY1|SP2AB_CLOBB -              0.041   12.8   0.1     0.045   12.7   0.1   1.1   1   0   0   1   1   1   0 NAD-dependent DNA ligase adenylation domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2TLY1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2TLY1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2TLY1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:43:05 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MtrE                 PF04206.11 sp|O27231|MTRE_METTH -           1.7e-135  450.5  14.6    2e-135  450.3  14.6   1.0   1   0   0   1   1   1   1 Tetrahydromethanopterin S-methyltransferase, subunit E
+T4BSS_DotI_IcmL      PF11393.7  sp|O27231|MTRE_METTH -              0.088   12.2   0.6      0.13   11.6   0.6   1.2   1   0   0   1   1   1   0 Type-IV b secretion system, inner-membrane complex component
+DUF4191              PF13829.5  sp|O27231|MTRE_METTH -                1.6    7.9   4.5       5.4    6.2   0.3   2.4   2   0   0   2   2   2   0 Domain of unknown function (DUF4191)
+RseC_MucC            PF04246.11 sp|O27231|MTRE_METTH -                3.2    7.6   7.1      0.63    9.9   0.3   2.8   3   0   0   3   3   3   0 Positive regulator of sigma(E), RseC/MucC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O27231.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O27231.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O27231.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:18:25 2019
+# [ok]

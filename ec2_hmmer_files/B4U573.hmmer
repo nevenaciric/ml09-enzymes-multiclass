@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|B4U573|PNP_STREM  -            1.7e-34  119.1   0.0   4.8e-18   65.8   0.0   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|B4U573|PNP_STREM  -            8.9e-22   76.8   0.7   1.3e-11   44.2   0.1   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|B4U573|PNP_STREM  -            2.9e-20   72.3   2.2   9.4e-20   70.6   2.2   2.0   1   0   0   1   1   1   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|B4U573|PNP_STREM  -            1.2e-11   44.8   8.9   1.2e-11   44.8   8.9   2.7   3   0   0   3   3   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|B4U573|PNP_STREM  -            1.9e-10   40.3   4.6   6.6e-10   38.6   4.6   2.0   1   0   0   1   1   1   1 KH domain
+S1_2                 PF13509.5  sp|B4U573|PNP_STREM  -             0.0027   17.6   0.1    0.0096   15.9   0.1   2.0   1   1   0   1   1   1   1 S1 domain
+KH_2                 PF07650.16 sp|B4U573|PNP_STREM  -             0.0085   15.8   4.3    0.0085   15.8   4.3   2.9   3   1   0   3   3   3   1 KH domain
+Cauli_DNA-bind       PF03310.12 sp|B4U573|PNP_STREM  -              0.053   13.5   0.6       1.6    8.7   0.0   3.0   2   0   0   2   2   2   0 Caulimovirus DNA-binding protein
+SPATA25              PF15218.5  sp|B4U573|PNP_STREM  -              0.062   12.9   0.1      0.13   11.9   0.1   1.4   1   0   0   1   1   1   0 Spermatogenesis-associated protein 25
+TRAM                 PF01938.19 sp|B4U573|PNP_STREM  -              0.088   12.7   0.6      0.33   10.9   0.6   2.0   1   0   0   1   1   1   0 TRAM domain
+DUF1525              PF07511.10 sp|B4U573|PNP_STREM  -                0.2   11.7   4.2        23    5.1   0.0   2.7   2   0   0   2   2   2   0 Protein of unknown function (DUF1525)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4U573.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4U573.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4U573.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:59:44 2019
+# [ok]

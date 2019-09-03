@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PTS_2-RNA            PF01885.15 sp|B2IZ22|KPTA_NOSP7 -            5.9e-44  150.2   0.0     7e-44  149.9   0.0   1.0   1   0   0   1   1   1   1 RNA 2'-phosphotransferase, Tpt1 / KptA family
+PARP                 PF00644.19 sp|B2IZ22|KPTA_NOSP7 -              0.031   13.8   0.1     0.081   12.4   0.1   1.7   1   1   0   1   1   1   0 Poly(ADP-ribose) polymerase catalytic domain
+He_PIG_assoc         PF10632.8  sp|B2IZ22|KPTA_NOSP7 -               0.18   11.4   0.0      0.28   10.8   0.0   1.3   1   0   0   1   1   1   0 He_PIG associated, NEW1 domain of bacterial glycohydrolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2IZ22.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2IZ22.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2IZ22.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:38:23 2019
+# [ok]

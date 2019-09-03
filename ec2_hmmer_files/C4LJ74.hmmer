@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|C4LJ74|PNP_CORK4  -            6.3e-37  126.9   0.0   2.4e-17   63.6   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|C4LJ74|PNP_CORK4  -            2.5e-16   59.8   1.1   7.4e-16   58.3   1.0   1.9   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|C4LJ74|PNP_CORK4  -            1.3e-13   51.0   3.1   3.5e-13   49.6   1.7   2.4   2   0   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|C4LJ74|PNP_CORK4  -            5.8e-13   48.4   1.7   1.4e-12   47.1   1.0   2.1   2   0   0   2   2   2   1 KH domain
+RNase_PH_C           PF03725.14 sp|C4LJ74|PNP_CORK4  -             0.0001   22.1   0.3    0.0041   17.0   0.1   2.8   2   1   0   2   2   2   1 3' exoribonuclease family, domain 2
+KH_2                 PF07650.16 sp|C4LJ74|PNP_CORK4  -            0.00072   19.2   0.0    0.0016   18.1   0.0   1.6   1   0   0   1   1   1   1 KH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C4LJ74.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C4LJ74.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C4LJ74.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:58:53 2019
+# [ok]

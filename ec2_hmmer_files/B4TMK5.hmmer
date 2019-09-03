@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SopA_C               PF13979.5  sp|B4TMK5|SOPA_SALSV -              1e-83  279.1   0.3   2.7e-83  277.7   0.2   1.8   2   0   0   2   2   2   1 SopA-like catalytic domain
+SopA                 PF13981.5  sp|B4TMK5|SOPA_SALSV -            2.6e-52  176.5   0.0   5.7e-52  175.4   0.0   1.6   1   0   0   1   1   1   1 SopA-like central domain
+Pentapeptide_4       PF13599.5  sp|B4TMK5|SOPA_SALSV -            4.5e-09   36.2   4.4   6.1e-08   32.6   2.9   2.4   2   0   0   2   2   2   1 Pentapeptide repeats (9 copies)
+Pentapeptide         PF00805.21 sp|B4TMK5|SOPA_SALSV -            1.9e-05   24.1   6.5     0.076   12.6   0.4   4.2   3   1   1   4   4   4   3 Pentapeptide repeats (8 copies)
+Pentapeptide_3       PF13576.5  sp|B4TMK5|SOPA_SALSV -            0.00054   20.0   7.2     0.013   15.5   0.6   3.5   2   1   1   3   3   3   2 Pentapeptide repeats (9 copies)
+CAP18_C              PF12153.7  sp|B4TMK5|SOPA_SALSV -               0.85    9.5   2.5       2.2    8.2   2.5   1.6   1   0   0   1   1   1   0 LPS binding domain of CAP18 (C terminal)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4TMK5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4TMK5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4TMK5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:58:35 2019
+# [ok]

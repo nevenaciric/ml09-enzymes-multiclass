@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HECT                 PF00632.24 sp|O17736|ETC1_CAEEL -            5.7e-80  269.0   1.6   9.7e-80  268.2   0.4   2.0   2   0   0   2   2   2   1 HECT-domain (ubiquitin-transferase)
+IQ                   PF00612.26 sp|O17736|ETC1_CAEEL -              0.032   13.9   0.6     0.076   12.7   0.6   1.7   1   0   0   1   1   1   0 IQ calmodulin-binding motif
+Vps39_1              PF10366.8  sp|O17736|ETC1_CAEEL -               0.05   13.8   1.6      0.33   11.2   1.0   2.8   2   1   0   2   2   2   0 Vacuolar sorting protein 39 domain 1
+FlaF                 PF07309.10 sp|O17736|ETC1_CAEEL -               0.24   11.3   4.1      0.97    9.4   0.1   3.3   3   0   0   3   3   3   0 Flagellar protein FlaF
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O17736.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O17736.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O17736.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:16:35 2019
+# [ok]

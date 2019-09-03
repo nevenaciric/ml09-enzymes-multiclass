@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|O33099|MNMA_MYCLE -           6.7e-115  383.6   0.0  7.5e-115  383.4   0.0   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+ThiI                 PF02568.13 sp|O33099|MNMA_MYCLE -            0.00018   21.0   0.1   0.00026   20.6   0.1   1.3   1   0   0   1   1   1   1 Thiamine biosynthesis protein (ThiI)
+Asn_synthase         PF00733.20 sp|O33099|MNMA_MYCLE -             0.0024   17.5   0.0    0.0034   17.0   0.0   1.2   1   0   0   1   1   1   1 Asparagine synthase
+NAD_synthase         PF02540.16 sp|O33099|MNMA_MYCLE -              0.016   14.2   0.0     0.034   13.2   0.0   1.6   2   1   0   2   2   2   0 NAD synthase
+Helicase_C_3         PF13625.5  sp|O33099|MNMA_MYCLE -              0.059   13.4   1.2      0.36   10.9   0.0   2.5   3   0   0   3   3   3   0 Helicase conserved C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O33099.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O33099.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O33099.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:20:23 2019
+# [ok]

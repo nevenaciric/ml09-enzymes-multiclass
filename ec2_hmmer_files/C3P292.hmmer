@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|C3P292|KITH_BACAA -            8.3e-61  204.8   0.0   9.4e-61  204.7   0.0   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_14               PF13173.5  sp|C3P292|KITH_BACAA -             0.0076   16.2   0.0      0.01   15.8   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+Zn-ribbon_8          PF09723.9  sp|C3P292|KITH_BACAA -              0.012   15.7   0.4       6.3    6.9   0.0   2.5   2   0   0   2   2   2   0 Zinc ribbon domain
+UvrD-helicase        PF00580.20 sp|C3P292|KITH_BACAA -              0.063   12.7   0.0     0.082   12.3   0.0   1.1   1   0   0   1   1   1   0 UvrD/REP helicase N-terminal domain
+zf-C4_ClpX           PF06689.12 sp|C3P292|KITH_BACAA -              0.078   12.8   0.0       0.2   11.5   0.0   1.8   1   0   0   1   1   1   0 ClpX C4-type zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C3P292.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C3P292.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C3P292.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:56:05 2019
+# [ok]

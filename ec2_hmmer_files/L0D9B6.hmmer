@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_25      PF13649.5  sp|L0D9B6|OLSG_SINAD -            7.2e-11   42.6   0.0     1e-10   42.1   0.0   1.2   1   0   0   1   1   1   1 Methyltransferase domain
+RrnaAD               PF00398.19 sp|L0D9B6|OLSG_SINAD -            9.1e-08   31.4   0.0     1e-07   31.2   0.0   1.1   1   0   0   1   1   1   1 Ribosomal RNA adenine dimethylase
+Methyltransf_11      PF08241.11 sp|L0D9B6|OLSG_SINAD -            2.4e-07   31.2   0.0   3.5e-07   30.7   0.0   1.2   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_12      PF08242.11 sp|L0D9B6|OLSG_SINAD -              2e-06   28.3   0.0   2.6e-06   28.0   0.0   1.1   1   0   0   1   1   1   1 Methyltransferase domain
+TrkA_N               PF02254.17 sp|L0D9B6|OLSG_SINAD -              2e-06   27.9   0.0   3.4e-06   27.2   0.0   1.2   1   0   0   1   1   1   1 TrkA-N domain
+Methyltransf_31      PF13847.5  sp|L0D9B6|OLSG_SINAD -            2.4e-06   27.3   0.0   3.1e-06   27.0   0.0   1.1   1   0   0   1   1   1   1 Methyltransferase domain
+MTS                  PF05175.13 sp|L0D9B6|OLSG_SINAD -            2.4e-05   23.8   0.0   3.3e-05   23.4   0.0   1.1   1   0   0   1   1   1   1 Methyltransferase small domain
+PRMT5                PF05185.15 sp|L0D9B6|OLSG_SINAD -            0.00035   20.4   0.0   0.00045   20.0   0.0   1.1   1   0   0   1   1   1   1 PRMT5 arginine-N-methyltransferase
+Methyltransf_19      PF04672.11 sp|L0D9B6|OLSG_SINAD -            0.00044   19.7   0.1   0.00057   19.4   0.1   1.1   1   0   0   1   1   1   1 S-adenosyl methyltransferase
+FtsJ                 PF01728.18 sp|L0D9B6|OLSG_SINAD -             0.0014   18.7   0.0    0.0025   17.8   0.0   1.6   1   1   0   1   1   1   1 FtsJ-like methyltransferase
+Methyltransf_5       PF01795.18 sp|L0D9B6|OLSG_SINAD -             0.0026   17.2   0.0    0.0035   16.8   0.0   1.1   1   0   0   1   1   1   1 MraW methylase family
+PCMT                 PF01135.18 sp|L0D9B6|OLSG_SINAD -              0.003   17.2   0.0    0.0037   16.9   0.0   1.2   1   0   0   1   1   1   1 Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+Met_10               PF02475.15 sp|L0D9B6|OLSG_SINAD -              0.015   15.0   0.0     0.018   14.7   0.0   1.1   1   0   0   1   1   1   0 Met-10+ like-protein
+Methyltransf_16      PF10294.8  sp|L0D9B6|OLSG_SINAD -              0.041   13.5   0.0     0.053   13.2   0.0   1.2   1   0   0   1   1   1   0 Lysine methyltransferase
+GCD14                PF08704.9  sp|L0D9B6|OLSG_SINAD -              0.045   13.3   0.0     0.058   13.0   0.0   1.1   1   0   0   1   1   1   0 tRNA methyltransferase complex GCD14 subunit
+Methyltransf_2       PF00891.17 sp|L0D9B6|OLSG_SINAD -              0.052   12.7   0.0     0.074   12.1   0.0   1.2   1   0   0   1   1   1   0 O-methyltransferase
+Ubie_methyltran      PF01209.17 sp|L0D9B6|OLSG_SINAD -                0.1   11.8   0.0      0.16   11.2   0.0   1.2   1   1   0   1   1   1   0 ubiE/COQ5 methyltransferase family
+Methyltransf_23      PF13489.5  sp|L0D9B6|OLSG_SINAD -               0.14   11.9   0.0      0.24   11.1   0.0   1.4   1   1   0   1   1   1   0 Methyltransferase domain
+Methyltransf_3       PF01596.16 sp|L0D9B6|OLSG_SINAD -               0.18   10.8   0.0      0.24   10.4   0.0   1.1   1   0   0   1   1   1   0 O-methyltransferase
+TRM13                PF05206.13 sp|L0D9B6|OLSG_SINAD -               0.27   10.6   0.0      0.34   10.3   0.0   1.1   1   0   0   1   1   1   0 Methyltransferase TRM13
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/L0D9B6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/L0D9B6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/L0D9B6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:13:11 2019
+# [ok]

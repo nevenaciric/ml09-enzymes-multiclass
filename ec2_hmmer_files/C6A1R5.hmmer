@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_L_2          PF13656.5  sp|C6A1R5|RPOL_THESM -            8.1e-20   70.3   0.1   9.6e-20   70.1   0.1   1.1   1   0   0   1   1   1   1 RNA polymerase Rpb3/Rpb11 dimerisation domain
+RNA_pol_L            PF01193.23 sp|C6A1R5|RPOL_THESM -            3.4e-10   39.1   0.0   5.6e-10   38.4   0.0   1.4   1   0   0   1   1   1   1 RNA polymerase Rpb3/Rpb11 dimerisation domain
+Cadherin_pro         PF08758.10 sp|C6A1R5|RPOL_THESM -              0.017   15.2   0.0     0.025   14.6   0.0   1.4   1   1   0   1   1   1   0 Cadherin prodomain like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C6A1R5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C6A1R5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C6A1R5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:03:24 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Thiolase_N           PF00108.22 sp|B8EE97|FADI_SHEB2 -            4.9e-61  206.3   0.6   7.1e-61  205.7   0.6   1.2   1   0   0   1   1   1   1 Thiolase, N-terminal domain
+Thiolase_C           PF02803.17 sp|B8EE97|FADI_SHEB2 -              1e-36  125.2   0.8   2.2e-36  124.1   0.1   2.0   2   0   0   2   2   2   1 Thiolase, C-terminal domain
+ketoacyl-synt        PF00109.25 sp|B8EE97|FADI_SHEB2 -            1.6e-05   24.5   2.2   3.9e-05   23.3   0.3   2.5   2   0   0   2   2   2   1 Beta-ketoacyl synthase, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8EE97.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8EE97.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8EE97.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:32:17 2019
+# [ok]

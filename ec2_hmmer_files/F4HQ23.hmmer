@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|F4HQ23|LRL27_ARATH -            5.8e-48  163.3   0.0     9e-48  162.7   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|F4HQ23|LRL27_ARATH -            5.6e-47  160.2   0.0   8.5e-47  159.6   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+WAK_assoc            PF14380.5  sp|F4HQ23|LRL27_ARATH -            1.6e-29  102.6  12.4   1.7e-17   64.0   1.7   2.7   2   0   0   2   2   2   2 Wall-associated receptor kinase C-terminal
+GUB_WAK_bind         PF13947.5  sp|F4HQ23|LRL27_ARATH -              6e-13   49.3   3.0   3.2e-06   27.7   0.1   2.9   2   0   0   2   2   2   2 Wall-associated receptor kinase galacturonan-binding
+ABC1                 PF03109.15 sp|F4HQ23|LRL27_ARATH -              0.092   12.8   0.0      0.21   11.7   0.0   1.5   1   0   0   1   1   1   0 ABC1 family
+TMIE                 PF16038.4  sp|F4HQ23|LRL27_ARATH -               0.28   11.0   1.8      0.65    9.8   1.8   1.6   1   0   0   1   1   1   0 TMIE protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/F4HQ23.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/F4HQ23.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/F4HQ23.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:10:26 2019
+# [ok]

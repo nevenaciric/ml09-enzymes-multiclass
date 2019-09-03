@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|O94200|PFKA2_CANAX -           6.9e-179  593.1   5.6  2.6e-103  345.2   2.1   2.1   2   0   0   2   2   2   2 Phosphofructokinase
+SHOCT                PF09851.8  sp|O94200|PFKA2_CANAX -             0.0011   18.6   0.2    0.0027   17.3   0.2   1.6   1   0   0   1   1   1   1 Short C-terminal domain
+UVR                  PF02151.18 sp|O94200|PFKA2_CANAX -              0.062   13.0   0.2      0.16   11.7   0.2   1.7   1   0   0   1   1   1   0 UvrB/uvrC motif
+Ribosomal_L29        PF00831.22 sp|O94200|PFKA2_CANAX -               0.13   12.1   1.4         3    7.8   0.1   2.5   2   0   0   2   2   2   0 Ribosomal L29 protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O94200.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O94200.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O94200.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:31:29 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PcrB                 PF01884.16 sp|O34790|PCRB_BACSU -           1.1e-104  348.7   1.0  1.3e-104  348.5   1.0   1.0   1   0   0   1   1   1   1 PcrB family
+His_biosynth         PF00977.20 sp|O34790|PCRB_BACSU -             0.0094   15.3   0.1     0.028   13.8   0.1   1.7   2   0   0   2   2   2   1 Histidine biosynthesis protein
+Trp_syntA            PF00290.19 sp|O34790|PCRB_BACSU -              0.013   14.2   0.4     0.054   12.2   0.1   2.1   2   2   0   2   2   2   0 Tryptophan synthase alpha chain
+Ribul_P_3_epim       PF00834.18 sp|O34790|PCRB_BACSU -               0.04   13.2   0.4     0.082   12.2   0.1   1.6   2   0   0   2   2   2   0 Ribulose-phosphate 3 epimerase family
+Aldolase             PF01081.18 sp|O34790|PCRB_BACSU -              0.062   12.6   0.0       3.2    7.0   0.0   2.1   2   0   0   2   2   2   0 KDPG and KHG aldolase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O34790.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O34790.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O34790.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:20:59 2019
+# [ok]

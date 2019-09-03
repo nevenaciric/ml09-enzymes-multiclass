@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|B2V7G0|ISPE_SULSY -            7.3e-08   32.4   0.0   1.4e-07   31.6   0.0   1.5   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|B2V7G0|ISPE_SULSY -            1.3e-07   31.7   0.0   2.9e-07   30.6   0.0   1.6   1   0   0   1   1   1   1 GHMP kinases C terminal
+tRNA_bind_2          PF13725.5  sp|B2V7G0|ISPE_SULSY -              0.034   13.8   0.1     0.051   13.2   0.1   1.2   1   0   0   1   1   1   0 Possible tRNA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2V7G0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2V7G0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2V7G0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:45:48 2019
+# [ok]

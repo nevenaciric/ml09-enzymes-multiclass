@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PNP_UDP_1            PF01048.19 sp|B8F672|DEOD_HAEPS -            7.5e-39  133.3   1.4   8.7e-39  133.1   1.4   1.0   1   0   0   1   1   1   1 Phosphorylase superfamily
+Transketolase_C      PF02780.19 sp|B8F672|DEOD_HAEPS -             0.0065   16.3   0.1     0.014   15.2   0.1   1.5   1   0   0   1   1   1   1 Transketolase, C-terminal domain
+Haemolytic           PF01809.17 sp|B8F672|DEOD_HAEPS -              0.026   14.3   0.1     0.053   13.3   0.1   1.5   1   0   0   1   1   1   0 Haemolytic domain
+Lipase_2             PF01674.17 sp|B8F672|DEOD_HAEPS -              0.027   13.9   0.2      0.18   11.2   0.0   2.0   1   1   1   2   2   2   0 Lipase (class 2)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8F672.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8F672.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8F672.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:32:42 2019
+# [ok]

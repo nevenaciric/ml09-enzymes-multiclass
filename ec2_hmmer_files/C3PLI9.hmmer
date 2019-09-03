@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LpxK                 PF02606.13 sp|C3PLI9|LPXK_RICAE -            4.5e-67  226.4   0.0   5.1e-67  226.2   0.0   1.0   1   0   0   1   1   1   1 Tetraacyldisaccharide-1-P 4'-kinase
+AAA_18               PF13238.5  sp|C3PLI9|LPXK_RICAE -             0.0048   17.3   0.0     0.016   15.6   0.0   1.8   2   0   0   2   2   2   1 AAA domain
+AAA_31               PF13614.5  sp|C3PLI9|LPXK_RICAE -              0.037   13.8   0.2     0.067   13.0   0.2   1.5   1   0   0   1   1   1   0 AAA domain
+AAA_5                PF07728.13 sp|C3PLI9|LPXK_RICAE -              0.055   13.4   0.0     0.097   12.6   0.0   1.4   1   0   0   1   1   1   0 AAA domain (dynein-related subfamily)
+SIS                  PF01380.21 sp|C3PLI9|LPXK_RICAE -               0.08   12.7   0.0       1.6    8.5   0.0   2.6   3   0   0   3   3   3   0 SIS domain
+CbiA                 PF01656.22 sp|C3PLI9|LPXK_RICAE -               0.12   12.4   0.0      0.23   11.4   0.0   1.4   1   1   0   1   1   1   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C3PLI9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C3PLI9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C3PLI9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:56:50 2019
+# [ok]

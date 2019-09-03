@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GNAT_acetyltr_2      PF13718.5  sp|O01757|NAT10_CAEEL -              8e-93  309.9   0.0   2.5e-92  308.3   0.0   1.9   1   0   0   1   1   1   1 GNAT acetyltransferase 2
+tRNA_bind_2          PF13725.5  sp|O01757|NAT10_CAEEL -            1.1e-65  221.6   3.9   2.1e-65  220.6   3.9   1.5   1   0   0   1   1   1   1 Possible tRNA binding domain
+Helicase_RecD        PF05127.13 sp|O01757|NAT10_CAEEL -            1.4e-63  213.8   0.0   5.3e-63  211.9   0.0   2.0   2   0   0   2   2   2   1 Helicase
+DUF1726              PF08351.10 sp|O01757|NAT10_CAEEL -            4.4e-32  109.8   0.1   1.1e-31  108.6   0.1   1.7   1   0   0   1   1   1   1 Domain of unknown function (DUF1726)
+Acetyltransf_7       PF13508.6  sp|O01757|NAT10_CAEEL -               0.01   16.2   0.0     0.031   14.6   0.0   1.8   1   0   0   1   1   1   0 Acetyltransferase (GNAT) domain
+Acetyltransf_1       PF00583.24 sp|O01757|NAT10_CAEEL -              0.013   15.6   0.0     0.039   14.1   0.0   1.7   1   0   0   1   1   1   0 Acetyltransferase (GNAT) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O01757.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O01757.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O01757.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:13:51 2019
+# [ok]

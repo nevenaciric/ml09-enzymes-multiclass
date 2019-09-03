@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hexapep              PF00132.23 sp|B1MZN0|DAPH_LEUCK -            1.1e-22   78.8  20.2   9.3e-09   34.6   0.8   4.0   5   0   0   5   5   5   3 Bacterial transferase hexapeptide (six repeats)
+DapH_N               PF08503.9  sp|B1MZN0|DAPH_LEUCK -            1.2e-22   79.9   0.0   2.3e-22   78.9   0.0   1.5   1   0   0   1   1   1   1 Tetrahydrodipicolinate succinyltransferase N-terminal
+Hexapep_2            PF14602.5  sp|B1MZN0|DAPH_LEUCK -            3.7e-14   52.1  23.2   5.7e-12   45.1   4.0   3.9   3   1   0   3   3   3   3 Hexapeptide repeat of succinyl-transferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B1MZN0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B1MZN0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B1MZN0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:29:50 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|B1KSQ8|KITH_CLOBM -              1e-59  201.2   0.0   1.2e-59  201.1   0.0   1.0   1   0   0   1   1   1   1 Thymidine kinase
+UvrD-helicase        PF00580.20 sp|B1KSQ8|KITH_CLOBM -              0.066   12.6   0.2      0.13   11.7   0.2   1.5   1   1   0   1   1   1   0 UvrD/REP helicase N-terminal domain
+AAA_19               PF13245.5  sp|B1KSQ8|KITH_CLOBM -               0.11   12.8   0.2      0.93    9.7   0.1   2.1   1   1   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B1KSQ8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B1KSQ8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B1KSQ8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:27:14 2019
+# [ok]

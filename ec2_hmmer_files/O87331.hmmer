@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HD_4                 PF13328.5  sp|O87331|RELA_CORGL -            2.8e-47  160.3   2.3   6.3e-47  159.1   2.3   1.6   1   0   0   1   1   1   1 HD domain
+RelA_SpoT            PF04607.16 sp|O87331|RELA_CORGL -            1.6e-32  112.1   0.0   3.1e-32  111.2   0.0   1.5   1   0   0   1   1   1   1 Region found in RelA / SpoT proteins
+TGS                  PF02824.20 sp|O87331|RELA_CORGL -            9.2e-22   76.8   0.0   2.4e-21   75.4   0.0   1.8   1   0   0   1   1   1   1 TGS domain
+ACT_4                PF13291.5  sp|O87331|RELA_CORGL -            1.4e-18   67.1   0.0   3.4e-18   65.9   0.0   1.7   1   0   0   1   1   1   1 ACT domain
+HD                   PF01966.21 sp|O87331|RELA_CORGL -            7.7e-13   48.6   0.8   1.7e-12   47.6   0.8   1.6   1   0   0   1   1   1   1 HD domain
+ACT                  PF01842.24 sp|O87331|RELA_CORGL -            1.7e-10   40.4   0.2   7.4e-10   38.3   0.0   2.3   3   0   0   3   3   3   1 ACT domain
+ThiS                 PF02597.19 sp|O87331|RELA_CORGL -             0.0046   17.5   0.0     0.021   15.4   0.0   2.3   1   1   0   1   1   1   1 ThiS family
+Ub-Mut7C             PF14451.5  sp|O87331|RELA_CORGL -              0.067   13.0   0.3      0.33   10.7   0.0   2.4   2   0   0   2   2   2   0 Mut7-C ubiquitin
+ACT_5                PF13710.5  sp|O87331|RELA_CORGL -               0.11   12.2   0.3      0.31   10.8   0.1   1.9   2   0   0   2   2   2   0 ACT domain
+Ub-RnfH              PF03658.13 sp|O87331|RELA_CORGL -               0.13   12.6   0.0      0.53   10.6   0.0   2.0   2   0   0   2   2   2   0 RnfH family Ubiquitin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O87331.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O87331.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O87331.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:30:31 2019
+# [ok]

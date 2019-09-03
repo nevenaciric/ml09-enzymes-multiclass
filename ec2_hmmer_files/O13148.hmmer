@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O13148|EPA4A_DANRE -            2.7e-95  318.5   0.0   3.3e-95  318.2   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O13148|EPA4A_DANRE -            3.2e-46  157.7   0.0   4.3e-46  157.3   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Haspin_kinase        PF12330.7  sp|O13148|EPA4A_DANRE -             0.0033   16.3   0.0    0.0059   15.5   0.0   1.3   1   0   0   1   1   1   1 Haspin like kinase domain
+Kdo                  PF06293.13 sp|O13148|EPA4A_DANRE -              0.047   13.0   0.0     0.074   12.3   0.0   1.2   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O13148.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O13148.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O13148.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:15:21 2019
+# [ok]

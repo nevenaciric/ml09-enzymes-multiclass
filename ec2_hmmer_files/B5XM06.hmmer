@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|B5XM06|AROK_STRPZ -            4.8e-39  133.9   0.1   5.9e-39  133.6   0.1   1.0   1   0   0   1   1   1   1 Shikimate kinase
+AAA_18               PF13238.5  sp|B5XM06|AROK_STRPZ -            2.1e-09   37.9   0.0   3.2e-09   37.3   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_17               PF13207.5  sp|B5XM06|AROK_STRPZ -              0.028   14.7   0.4       2.9    8.2   0.4   2.3   1   1   0   1   1   1   0 AAA domain
+Cytidylate_kin2      PF13189.5  sp|B5XM06|AROK_STRPZ -              0.041   13.9   0.1     0.072   13.1   0.1   1.6   1   1   0   1   1   1   0 Cytidylate kinase-like family
+HHH_2                PF12826.6  sp|B5XM06|AROK_STRPZ -               0.07   13.1   0.0       0.3   11.1   0.0   2.0   1   1   1   2   2   2   0 Helix-hairpin-helix motif
+dNK                  PF01712.18 sp|B5XM06|AROK_STRPZ -               0.07   12.9   1.6       1.7    8.4   0.0   2.1   1   1   0   2   2   2   0 Deoxynucleoside kinase
+cobW                 PF02492.18 sp|B5XM06|AROK_STRPZ -               0.09   12.3   0.0      0.13   11.7   0.0   1.3   1   0   0   1   1   1   0 CobW/HypB/UreG, nucleotide-binding domain
+ResIII               PF04851.14 sp|B5XM06|AROK_STRPZ -               0.11   12.4   0.3      0.56   10.1   0.0   2.0   2   0   0   2   2   2   0 Type III restriction enzyme, res subunit
+ATP-synt_ab          PF00006.24 sp|B5XM06|AROK_STRPZ -               0.19   11.3   0.1      0.24   10.9   0.1   1.3   1   0   0   1   1   1   0 ATP synthase alpha/beta family, nucleotide-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B5XM06.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B5XM06.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B5XM06.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:07:33 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PHR                  PF08005.11 sp|O75592|MYCB2_HUMAN -              2e-84  281.7   0.0   9.9e-41  139.8   0.0   2.8   2   0   0   2   2   2   2 PHR domain
+RCC1                 PF00415.17 sp|O75592|MYCB2_HUMAN -            1.1e-21   77.1  25.0   2.8e-12   46.9   1.6   7.2   7   0   0   7   7   7   4 Regulator of chromosome condensation (RCC1) repeat
+RCC1_2               PF13540.5  sp|O75592|MYCB2_HUMAN -            8.2e-21   73.2  13.5     9e-08   31.6   0.1   5.5   5   0   0   5   5   5   3 Regulator of chromosome condensation (RCC1) repeat
+SH3_3                PF08239.10 sp|O75592|MYCB2_HUMAN -            2.1e-15   56.6   0.4     3e-07   30.5   0.0   3.6   3   0   0   3   3   3   2 Bacterial SH3 domain
+zf-RING_2            PF13639.5  sp|O75592|MYCB2_HUMAN -            2.4e-07   30.9   6.7   2.4e-07   30.9   6.7   5.0   5   1   0   5   5   5   1 Ring finger domain
+Filamin              PF00630.18 sp|O75592|MYCB2_HUMAN -            5.5e-06   27.0   0.0   1.6e-05   25.5   0.0   1.8   1   0   0   1   1   1   1 Filamin/ABP280 repeat
+ANAPC10              PF03256.15 sp|O75592|MYCB2_HUMAN -              2e-05   24.2   0.1   4.7e-05   23.0   0.1   1.5   1   0   0   1   1   1   1 Anaphase-promoting complex, subunit 10 (APC10)
+zf-RING_11           PF17123.4  sp|O75592|MYCB2_HUMAN -             0.0039   16.8   8.4     0.038   13.6   8.4   2.9   1   0   0   1   1   1   1 RING-like zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O75592.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O75592.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O75592.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:28:11 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|C0S433|ARO1_PARBP -           5.4e-128  427.1   0.0  8.7e-128  426.5   0.0   1.3   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|C0S433|ARO1_PARBP -           1.6e-100  335.5   0.0  2.8e-100  334.7   0.0   1.4   1   0   0   1   1   1   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|C0S433|ARO1_PARBP -            4.2e-60  203.7   0.0     1e-59  202.5   0.0   1.7   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|C0S433|ARO1_PARBP -            7.5e-38  130.0   0.0   3.1e-37  128.0   0.0   2.0   2   0   0   2   2   2   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|C0S433|ARO1_PARBP -            7.6e-26   90.1   0.0     2e-25   88.7   0.0   1.8   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Fe-ADH_2             PF13685.5  sp|C0S433|ARO1_PARBP -            8.1e-07   28.9   0.0   2.9e-06   27.1   0.0   2.0   2   0   0   2   2   2   1 Iron-containing alcohol dehydrogenase
+Shikimate_DH         PF01488.19 sp|C0S433|ARO1_PARBP -             0.0068   16.4   0.0     0.032   14.2   0.0   2.1   3   0   0   3   3   3   1 Shikimate / quinate 5-dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C0S433.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C0S433.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C0S433.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:46:17 2019
+# [ok]

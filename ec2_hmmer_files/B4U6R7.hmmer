@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|B4U6R7|PNP_HYDS0  -            2.1e-43  147.9   0.0   1.6e-22   80.3   0.0   2.3   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|B4U6R7|PNP_HYDS0  -            1.3e-22   79.5   2.6   6.9e-14   51.5   0.1   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|B4U6R7|PNP_HYDS0  -            9.6e-15   54.8   1.8   2.5e-14   53.4   1.8   1.8   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|B4U6R7|PNP_HYDS0  -            4.9e-14   52.3   0.2   4.4e-13   49.3   0.5   2.3   2   0   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|B4U6R7|PNP_HYDS0  -            5.4e-10   38.9   0.2   2.4e-09   36.8   0.0   2.3   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|B4U6R7|PNP_HYDS0  -             0.0016   18.1   0.0    0.0042   16.8   0.0   1.7   1   0   0   1   1   1   1 KH domain
+S1_2                 PF13509.5  sp|B4U6R7|PNP_HYDS0  -               0.11   12.5   0.4       0.4   10.7   0.2   2.0   2   0   0   2   2   2   0 S1 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4U6R7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4U6R7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4U6R7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:59:49 2019
+# [ok]

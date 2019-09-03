@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|G5ECP4|PIK1_CAEEL -            1.4e-43  149.1   0.0   2.2e-43  148.4   0.0   1.3   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|G5ECP4|PIK1_CAEEL -            4.3e-38  131.0   0.0   1.1e-37  129.6   0.0   1.7   2   0   0   2   2   2   1 Protein tyrosine kinase
+Death                PF00531.21 sp|G5ECP4|PIK1_CAEEL -             0.0065   16.5   0.0     0.013   15.6   0.0   1.5   1   0   0   1   1   1   1 Death domain
+APH                  PF01636.22 sp|G5ECP4|PIK1_CAEEL -              0.097   12.5   0.0      0.21   11.4   0.0   1.5   1   0   0   1   1   1   0 Phosphotransferase enzyme family
+Kinase-like          PF14531.5  sp|G5ECP4|PIK1_CAEEL -               0.11   11.7   0.0      0.39    9.9   0.0   1.8   2   0   0   2   2   2   0 Kinase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/G5ECP4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/G5ECP4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/G5ECP4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:12:15 2019
+# [ok]

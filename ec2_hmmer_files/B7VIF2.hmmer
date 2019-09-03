@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HMGL-like            PF00682.18 sp|B7VIF2|LEU1_VIBTL -           1.9e-102  342.3   4.5  2.5e-102  341.8   4.5   1.2   1   0   0   1   1   1   1 HMGL-like
+LeuA_dimer           PF08502.9  sp|B7VIF2|LEU1_VIBTL -            1.4e-31  109.0   0.5   5.7e-31  107.1   0.0   2.2   2   1   0   2   2   2   1 LeuA allosteric (dimerisation) domain
+NAD_binding_10       PF13460.5  sp|B7VIF2|LEU1_VIBTL -               0.18   11.6   2.1      0.53   10.1   1.8   1.8   1   1   1   2   2   2   0 NAD(P)H-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B7VIF2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B7VIF2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B7VIF2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:28:29 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HisG                 PF01634.17 sp|B9M8U7|HIS1_GEODF -            2.4e-39  134.8   0.0   3.3e-39  134.3   0.0   1.2   1   0   0   1   1   1   1 ATP phosphoribosyltransferase
+HisG_C               PF08029.10 sp|B9M8U7|HIS1_GEODF -            2.5e-23   81.9   0.0   6.3e-23   80.6   0.0   1.7   1   0   0   1   1   1   1 HisG, C-terminal domain
+NMT1                 PF09084.10 sp|B9M8U7|HIS1_GEODF -              0.045   13.6   0.0      0.15   11.9   0.0   1.7   1   1   0   1   1   1   0 NMT1/THI5 like
+Phosphonate-bd       PF12974.6  sp|B9M8U7|HIS1_GEODF -              0.089   12.3   0.1      0.46    9.9   0.0   2.0   2   1   0   2   2   2   0 ABC transporter, phosphonate, periplasmic substrate-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B9M8U7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B9M8U7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B9M8U7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:42:13 2019
+# [ok]

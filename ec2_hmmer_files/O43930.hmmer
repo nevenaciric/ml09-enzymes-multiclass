@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|O43930|PRKY_HUMAN -            1.5e-64  217.8   0.0   2.1e-64  217.4   0.0   1.0   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|O43930|PRKY_HUMAN -            2.9e-34  118.4   0.0   3.7e-34  118.1   0.0   1.0   1   0   0   1   1   1   1 Protein tyrosine kinase
+Kinase-like          PF14531.5  sp|O43930|PRKY_HUMAN -            3.4e-07   29.8   0.0     8e-07   28.6   0.0   1.5   2   0   0   2   2   2   1 Kinase-like
+APH                  PF01636.22 sp|O43930|PRKY_HUMAN -              0.011   15.5   0.1      0.51   10.1   0.0   2.4   2   0   0   2   2   2   0 Phosphotransferase enzyme family
+Haspin_kinase        PF12330.7  sp|O43930|PRKY_HUMAN -              0.062   12.1   0.1     0.085   11.7   0.1   1.2   1   0   0   1   1   1   0 Haspin like kinase domain
+DNA_pol_lambd_f      PF10391.8  sp|O43930|PRKY_HUMAN -               0.08   12.7   0.1      0.28   11.0   0.0   1.9   2   0   0   2   2   2   0 Fingers domain of DNA polymerase lambda
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O43930.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O43930.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O43930.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:22:05 2019
+# [ok]

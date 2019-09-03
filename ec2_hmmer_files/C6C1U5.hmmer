@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+S-AdoMet_synt_C      PF02773.15 sp|C6C1U5|METK_DESAD -            4.9e-65  217.6   0.0   9.1e-65  216.7   0.0   1.5   1   0   0   1   1   1   1 S-adenosylmethionine synthetase, C-terminal domain
+S-AdoMet_synt_N      PF00438.19 sp|C6C1U5|METK_DESAD -              4e-42  142.8   1.0     4e-42  142.8   1.0   2.4   3   0   0   3   3   3   1 S-adenosylmethionine synthetase, N-terminal domain
+S-AdoMet_synt_M      PF02772.15 sp|C6C1U5|METK_DESAD -            1.2e-41  141.6   0.0   3.5e-41  140.1   0.0   1.8   2   0   0   2   2   2   1 S-adenosylmethionine synthetase, central domain
+AdoMet_Synthase      PF01941.18 sp|C6C1U5|METK_DESAD -               0.86    8.2   5.7       4.8    5.7   0.1   2.7   1   1   0   2   2   2   0 S-adenosylmethionine synthetase (AdoMet synthetase)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C6C1U5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C6C1U5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C6C1U5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:03:50 2019
+# [ok]

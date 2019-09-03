@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|C5CE10|PROB_KOSOT -            3.6e-37  128.1   0.3   4.5e-37  127.8   0.3   1.1   1   0   0   1   1   1   1 Amino acid kinase family
+PUA                  PF01472.19 sp|C5CE10|PROB_KOSOT -            2.2e-19   69.1   0.6   1.8e-18   66.2   0.2   2.4   2   0   0   2   2   2   1 PUA domain
+DUF2263              PF10021.8  sp|C5CE10|PROB_KOSOT -              0.022   15.1   0.1     0.044   14.1   0.1   1.4   1   0   0   1   1   1   0 Uncharacterized protein conserved in bacteria (DUF2263)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C5CE10.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C5CE10.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C5CE10.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:02:02 2019
+# [ok]

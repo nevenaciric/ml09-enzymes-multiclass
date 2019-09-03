@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Acetyltransf_11      PF13720.5  sp|B5Y1J0|LPXA_KLEP3 -            4.1e-31  107.2   0.0   7.1e-31  106.4   0.0   1.4   1   0   0   1   1   1   1 Udp N-acetylglucosamine O-acyltransferase; Domain 2
+Hexapep              PF00132.23 sp|B5Y1J0|LPXA_KLEP3 -            1.3e-26   91.1  22.7     1e-08   34.4   7.7   5.4   3   1   2   5   5   5   5 Bacterial transferase hexapeptide (six repeats)
+Hexapep_2            PF14602.5  sp|B5Y1J0|LPXA_KLEP3 -            5.4e-05   22.8  15.5    0.0015   18.2   2.4   4.2   4   0   0   4   4   4   2 Hexapeptide repeat of succinyl-transferase
+Fucokinase           PF07959.11 sp|B5Y1J0|LPXA_KLEP3 -             0.0059   15.6   0.2      0.39    9.6   0.0   2.0   1   1   1   2   2   2   2 L-fucokinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B5Y1J0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B5Y1J0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B5Y1J0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:08:26 2019
+# [ok]

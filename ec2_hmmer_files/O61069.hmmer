@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADK                  PF00406.21 sp|O61069|KAD_TRYBR  -            1.9e-25   89.6   0.0   2.8e-25   89.1   0.0   1.2   1   0   0   1   1   1   1 Adenylate kinase
+AAA_17               PF13207.5  sp|O61069|KAD_TRYBR  -            4.6e-16   59.4   0.0   7.7e-16   58.7   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|O61069|KAD_TRYBR  -            1.3e-08   35.3   0.0   2.1e-08   34.6   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+Thymidylate_kin      PF02223.16 sp|O61069|KAD_TRYBR  -            6.5e-05   22.6   0.0     0.011   15.3   0.0   2.2   2   0   0   2   2   2   2 Thymidylate kinase
+Cytidylate_kin       PF02224.17 sp|O61069|KAD_TRYBR  -            9.1e-05   22.2   0.1   0.00015   21.5   0.1   1.3   1   0   0   1   1   1   1 Cytidylate kinase
+AAA_33               PF13671.5  sp|O61069|KAD_TRYBR  -             0.0011   19.0   0.1    0.0035   17.4   0.1   1.8   1   1   0   1   1   1   1 AAA domain
+Cytidylate_kin2      PF13189.5  sp|O61069|KAD_TRYBR  -               0.09   12.8   0.0      0.12   12.5   0.0   1.2   1   0   0   1   1   1   0 Cytidylate kinase-like family
+NTPase_1             PF03266.14 sp|O61069|KAD_TRYBR  -               0.14   11.9   0.0       0.2   11.4   0.0   1.3   1   0   0   1   1   1   0 NTPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O61069.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O61069.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O61069.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:25:09 2019
+# [ok]

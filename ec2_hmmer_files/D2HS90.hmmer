@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PAP_assoc            PF03828.18 sp|D2HS90|STPAP_AILME -              1e-06   28.7   0.0     2e-06   27.8   0.0   1.5   1   0   0   1   1   1   1 Cid1 family poly A polymerase
+RRM_1                PF00076.21 sp|D2HS90|STPAP_AILME -            2.8e-06   27.0   0.0   6.3e-06   25.8   0.0   1.6   1   0   0   1   1   1   1 RNA recognition motif. (a.k.a. RRM, RBD, or RNP domain)
+zf-met               PF12874.6  sp|D2HS90|STPAP_AILME -            0.00014   22.0   0.6    0.0003   21.0   0.6   1.6   1   0   0   1   1   1   1 Zinc-finger of C2H2 type
+RRM_7                PF16367.4  sp|D2HS90|STPAP_AILME -             0.0043   17.1   0.0     0.012   15.6   0.0   1.7   2   0   0   2   2   2   1 RNA recognition motif
+zf-C2H2_2            PF12756.6  sp|D2HS90|STPAP_AILME -               0.19   11.9   0.0      0.43   10.8   0.0   1.5   1   0   0   1   1   1   0 C2H2 type zinc-finger (2 copies)
+tRNA_NucTransf2      PF09249.10 sp|D2HS90|STPAP_AILME -                0.2   11.8   0.0      0.41   10.8   0.0   1.4   1   0   0   1   1   1   0 tRNA nucleotidyltransferase, second domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/D2HS90.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/D2HS90.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/D2HS90.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:06:48 2019
+# [ok]

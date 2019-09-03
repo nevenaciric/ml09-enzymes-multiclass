@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O65530|PEK14_ARATH -            5.6e-47  160.1   0.0   7.5e-47  159.7   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O65530|PEK14_ARATH -            7.4e-47  159.8   0.0   9.3e-47  159.5   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+APH                  PF01636.22 sp|O65530|PEK14_ARATH -              0.027   14.3   0.0     0.042   13.7   0.0   1.3   1   0   0   1   1   1   0 Phosphotransferase enzyme family
+SARAF                PF06682.11 sp|O65530|PEK14_ARATH -              0.046   13.3   0.0      0.11   12.0   0.0   1.6   1   0   0   1   1   1   0 SOCE-associated regulatory factor of calcium homoeostasis
+ABC1                 PF03109.15 sp|O65530|PEK14_ARATH -              0.088   12.9   0.0      0.17   11.9   0.0   1.4   1   0   0   1   1   1   0 ABC1 family
+TMEM171              PF15471.5  sp|O65530|PEK14_ARATH -               0.36    9.7   0.0      0.36    9.7   0.0   3.6   2   1   1   4   4   4   0 Transmembrane protein family 171
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O65530.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O65530.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O65530.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:25:47 2019
+# [ok]

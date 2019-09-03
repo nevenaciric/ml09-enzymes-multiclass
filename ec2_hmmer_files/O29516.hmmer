@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_primase_S        PF01896.18 sp|O29516|PRIS_ARCFU -            2.1e-34  119.1   0.3   2.9e-34  118.7   0.3   1.2   1   0   0   1   1   1   1 DNA primase small subunit
+MutS_IV              PF05190.17 sp|O29516|PRIS_ARCFU -             0.0037   17.5   0.3     0.021   15.1   0.0   2.2   1   1   1   2   2   2   1 MutS family domain IV
+FMN_dh               PF01070.17 sp|O29516|PRIS_ARCFU -              0.091   11.7   0.0      0.14   11.1   0.0   1.3   1   0   0   1   1   1   0 FMN-dependent dehydrogenase
+PSP1                 PF04468.11 sp|O29516|PRIS_ARCFU -                1.4    9.2   4.8       1.6    8.9   1.4   2.5   2   1   0   2   2   2   0 PSP1 C-terminal conserved region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O29516.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O29516.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O29516.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:19:11 2019
+# [ok]

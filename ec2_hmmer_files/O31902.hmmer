@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol3_alpha       PF07733.11 sp|O31902|YORL_BACSU -           3.9e-110  368.4   1.5  5.7e-110  367.8   1.5   1.3   1   0   0   1   1   1   1 Bacterial DNA polymerase III alpha subunit
+PHP                  PF02811.18 sp|O31902|YORL_BACSU -            2.4e-22   79.9   1.9     1e-21   77.9   0.1   2.7   3   0   0   3   3   3   1 PHP domain
+HHH_6                PF14579.5  sp|O31902|YORL_BACSU -            5.5e-16   58.5   0.0   1.4e-15   57.2   0.0   1.7   1   0   0   1   1   1   1 Helix-hairpin-helix motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O31902.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O31902.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O31902.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:19:57 2019
+# [ok]

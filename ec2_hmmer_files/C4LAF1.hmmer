@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PrmA                 PF06325.12 sp|C4LAF1|PRMA_TOLAT -            1.8e-97  326.2   0.0     2e-97  326.1   0.0   1.0   1   0   0   1   1   1   1 Ribosomal protein L11 methyltransferase (PrmA)
+MTS                  PF05175.13 sp|C4LAF1|PRMA_TOLAT -            2.7e-10   40.0   0.0     4e-10   39.4   0.0   1.2   1   0   0   1   1   1   1 Methyltransferase small domain
+Methyltransf_31      PF13847.5  sp|C4LAF1|PRMA_TOLAT -              1e-09   38.2   0.0   1.5e-09   37.7   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_25      PF13649.5  sp|C4LAF1|PRMA_TOLAT -            1.5e-08   35.2   0.0   2.6e-08   34.4   0.0   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_23      PF13489.5  sp|C4LAF1|PRMA_TOLAT -              9e-08   32.0   0.0   1.6e-07   31.2   0.0   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_11      PF08241.11 sp|C4LAF1|PRMA_TOLAT -            1.1e-06   29.0   0.0   2.2e-06   28.1   0.0   1.6   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_12      PF08242.11 sp|C4LAF1|PRMA_TOLAT -            3.2e-06   27.7   0.0   5.2e-06   27.0   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+Met_10               PF02475.15 sp|C4LAF1|PRMA_TOLAT -            2.6e-05   24.0   0.0   8.6e-05   22.3   0.0   1.7   2   0   0   2   2   2   1 Met-10+ like-protein
+Methyltransf_18      PF12847.6  sp|C4LAF1|PRMA_TOLAT -            2.8e-05   24.0   0.0   4.9e-05   23.2   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_32      PF13679.5  sp|C4LAF1|PRMA_TOLAT -            4.8e-05   23.3   0.0   7.4e-05   22.7   0.0   1.2   1   0   0   1   1   1   1 Methyltransferase domain
+Cons_hypoth95        PF03602.14 sp|C4LAF1|PRMA_TOLAT -            0.00012   21.7   0.0   0.00018   21.1   0.0   1.3   1   0   0   1   1   1   1 Conserved hypothetical protein 95
+PCMT                 PF01135.18 sp|C4LAF1|PRMA_TOLAT -            0.00013   21.7   0.0   0.00018   21.3   0.0   1.2   1   0   0   1   1   1   1 Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+N6_N4_Mtase          PF01555.17 sp|C4LAF1|PRMA_TOLAT -            0.00046   19.9   0.0   0.00061   19.5   0.0   1.2   1   0   0   1   1   1   1 DNA methylase
+UPF0020              PF01170.17 sp|C4LAF1|PRMA_TOLAT -            0.00074   19.2   0.6    0.0049   16.5   0.6   2.0   1   1   0   1   1   1   1 Putative RNA methylase family UPF0020
+Methyltransf_9       PF08003.10 sp|C4LAF1|PRMA_TOLAT -             0.0012   17.7   0.0    0.0018   17.2   0.0   1.2   1   0   0   1   1   1   1 Protein of unknown function (DUF1698)
+CMAS                 PF02353.19 sp|C4LAF1|PRMA_TOLAT -             0.0015   17.8   0.0    0.0021   17.3   0.0   1.3   1   0   0   1   1   1   1 Mycolic acid cyclopropane synthetase
+Methyltransf_15      PF09445.9  sp|C4LAF1|PRMA_TOLAT -             0.0062   16.2   0.0    0.0089   15.7   0.0   1.2   1   0   0   1   1   1   1 RNA cap guanine-N2 methyltransferase
+Ubie_methyltran      PF01209.17 sp|C4LAF1|PRMA_TOLAT -              0.046   12.9   0.0     0.067   12.4   0.0   1.3   1   0   0   1   1   1   0 ubiE/COQ5 methyltransferase family
+Methyltrans_SAM      PF10672.8  sp|C4LAF1|PRMA_TOLAT -               0.11   11.5   0.0      0.34    9.9   0.0   1.7   1   1   1   2   2   2   0 S-adenosylmethionine-dependent methyltransferase
+Methyltransf_5       PF01795.18 sp|C4LAF1|PRMA_TOLAT -               0.24   10.7   0.0      0.34   10.2   0.0   1.2   1   0   0   1   1   1   0 MraW methylase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C4LAF1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C4LAF1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C4LAF1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:58:34 2019
+# [ok]

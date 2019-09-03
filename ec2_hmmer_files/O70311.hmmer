@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NMT_C                PF02799.14 sp|O70311|NMT2_MOUSE -            9.2e-82  273.5   0.0   1.4e-81  272.9   0.0   1.2   1   0   0   1   1   1   1 Myristoyl-CoA:protein N-myristoyltransferase, C-terminal domain
+NMT                  PF01233.18 sp|O70311|NMT2_MOUSE -            2.8e-76  254.7   0.0   4.8e-76  253.9   0.0   1.4   1   0   0   1   1   1   1 Myristoyl-CoA:protein N-myristoyltransferase, N-terminal domain
+Acetyltransf_1       PF00583.24 sp|O70311|NMT2_MOUSE -            0.00032   20.8   0.0   0.00062   19.9   0.0   1.5   1   0   0   1   1   1   1 Acetyltransferase (GNAT) family
+Acetyltransf_9       PF13527.6  sp|O70311|NMT2_MOUSE -              0.062   13.3   0.0       0.2   11.6   0.0   1.9   2   0   0   2   2   2   0 Acetyltransferase (GNAT) domain
+Nop53                PF07767.10 sp|O70311|NMT2_MOUSE -              0.082   12.2   6.5      0.12   11.6   6.5   1.2   1   0   0   1   1   1   0 Nop53 (60S ribosomal biogenesis)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O70311.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O70311.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O70311.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:27:17 2019
+# [ok]

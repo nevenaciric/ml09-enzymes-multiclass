@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TGT_C2               PF14810.5  sp|D4GTN6|ARCS_HALVD -            3.9e-20   71.6   0.0   1.7e-19   69.6   0.0   2.2   2   0   0   2   2   2   1 Patch-forming domain C2 of tRNA-guanine transglycosylase
+PUA                  PF01472.19 sp|D4GTN6|ARCS_HALVD -            7.5e-13   48.1   0.3   1.8e-12   47.0   0.3   1.5   1   0   0   1   1   1   1 PUA domain
+TGT                  PF01702.17 sp|D4GTN6|ARCS_HALVD -            2.3e-05   24.2   0.0   0.00039   20.2   0.0   2.5   2   1   0   2   2   2   1 Queuine tRNA-ribosyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/D4GTN6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/D4GTN6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/D4GTN6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:07:44 2019
+# [ok]

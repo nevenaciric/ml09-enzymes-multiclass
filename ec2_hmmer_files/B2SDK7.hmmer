@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|B2SDK7|PNP_FRATM  -            2.2e-43  147.8   0.0   2.1e-22   80.0   0.0   2.7   3   0   0   3   3   3   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|B2SDK7|PNP_FRATM  -            1.6e-23   82.4   0.2   1.9e-13   50.1   0.0   3.2   3   0   0   3   3   3   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|B2SDK7|PNP_FRATM  -            7.7e-21   74.3   1.5   1.3e-20   73.6   0.1   2.2   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|B2SDK7|PNP_FRATM  -            8.7e-08   32.3   0.2   2.6e-07   30.8   0.2   1.8   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|B2SDK7|PNP_FRATM  -            3.9e-07   29.7   2.7   4.3e-07   29.5   0.8   2.2   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|B2SDK7|PNP_FRATM  -             0.0044   16.7   1.7     0.016   14.9   1.7   2.1   1   0   0   1   1   1   1 KH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2SDK7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2SDK7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2SDK7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:41:33 2019
+# [ok]

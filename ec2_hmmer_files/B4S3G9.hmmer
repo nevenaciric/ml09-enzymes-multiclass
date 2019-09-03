@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PdxJ                 PF03740.12 sp|B4S3G9|PDXJ_PROA2 -            1.2e-93  312.5   2.7   1.3e-93  312.3   2.7   1.0   1   0   0   1   1   1   1 Pyridoxal phosphate biosynthesis protein PdxJ
+AP_endonuc_2         PF01261.23 sp|B4S3G9|PDXJ_PROA2 -            3.2e-05   23.4   0.2     0.019   14.3   0.0   1.8   1   1   2   3   3   3   2 Xylose isomerase-like TIM barrel
+Glyco_trans_4_2      PF13477.5  sp|B4S3G9|PDXJ_PROA2 -              0.098   12.6   0.0       0.3   11.0   0.0   1.7   1   1   0   1   1   1   0 Glycosyl transferase 4-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4S3G9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4S3G9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4S3G9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:55:32 2019
+# [ok]

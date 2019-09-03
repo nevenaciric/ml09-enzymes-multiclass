@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Thymidylate_kin      PF02223.16 sp|B9KKV1|KTHY_RHOSK -            2.8e-44  150.9   0.0   3.2e-44  150.7   0.0   1.0   1   0   0   1   1   1   1 Thymidylate kinase
+AAA_28               PF13521.5  sp|B9KKV1|KTHY_RHOSK -            0.00063   19.9   0.1    0.0014   18.8   0.1   1.6   1   1   0   1   1   1   1 AAA domain
+Helicase_RecD        PF05127.13 sp|B9KKV1|KTHY_RHOSK -              0.032   14.0   0.1      0.26   11.0   0.0   2.1   2   0   0   2   2   2   0 Helicase
+AAA_33               PF13671.5  sp|B9KKV1|KTHY_RHOSK -              0.058   13.5   0.1      0.29   11.2   0.1   2.0   1   1   0   1   1   1   0 AAA domain
+ArgK                 PF03308.15 sp|B9KKV1|KTHY_RHOSK -              0.066   12.1   0.1      0.14   11.0   0.2   1.5   2   0   0   2   2   2   0 ArgK protein
+AAA_18               PF13238.5  sp|B9KKV1|KTHY_RHOSK -              0.083   13.3   0.0      0.23   11.9   0.0   1.8   2   0   0   2   2   2   0 AAA domain
+BCA_ABC_TP_C         PF12399.7  sp|B9KKV1|KTHY_RHOSK -               0.11   12.4   0.2      0.38   10.6   0.2   2.0   1   0   0   1   1   1   0 Branched-chain amino acid ATP-binding cassette transporter
+AAA_16               PF13191.5  sp|B9KKV1|KTHY_RHOSK -               0.21   11.8   3.0       1.7    8.9   3.0   2.1   1   1   0   1   1   1   0 AAA ATPase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B9KKV1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B9KKV1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B9KKV1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:40:47 2019
+# [ok]

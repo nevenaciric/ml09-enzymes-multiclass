@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GalKase_gal_bdg      PF10509.8  sp|B2VBV2|GAL1_ERWT9 -            5.5e-22   77.0   0.1   1.1e-21   76.0   0.1   1.5   1   0   0   1   1   1   1 Galactokinase galactose-binding signature
+GHMP_kinases_N       PF00288.25 sp|B2VBV2|GAL1_ERWT9 -            4.8e-13   49.0   1.5   8.5e-13   48.2   0.5   2.0   2   0   0   2   2   2   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|B2VBV2|GAL1_ERWT9 -            3.2e-09   36.9   0.1   8.8e-09   35.5   0.1   1.8   2   0   0   2   2   2   1 GHMP kinases C terminal
+PHtD_u1              PF16645.4  sp|B2VBV2|GAL1_ERWT9 -               0.19   12.1   0.1      0.34   11.3   0.1   1.4   1   0   0   1   1   1   0 Unstructured region on Pneumococcal histidine triad protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2VBV2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2VBV2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2VBV2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:46:00 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACCA                 PF03255.13 sp|B2V3S7|ACCA_CLOBA -            1.3e-45  154.7   0.8   3.4e-45  153.3   0.0   1.9   2   0   0   2   2   2   1 Acetyl co-enzyme A carboxylase carboxyltransferase alpha subunit
+Carboxyl_trans       PF01039.21 sp|B2V3S7|ACCA_CLOBA -            4.3e-14   52.0   0.1   4.8e-14   51.8   0.1   1.0   1   0   0   1   1   1   1 Carboxyl transferase domain
+ECH_1                PF00378.19 sp|B2V3S7|ACCA_CLOBA -            7.8e-05   22.0   0.6   0.00043   19.6   0.6   2.1   1   1   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+MdcE                 PF06833.10 sp|B2V3S7|ACCA_CLOBA -             0.0014   18.1   0.0    0.0016   17.8   0.0   1.1   1   0   0   1   1   1   1 Malonate decarboxylase gamma subunit (MdcE)
+CLP_protease         PF00574.22 sp|B2V3S7|ACCA_CLOBA -             0.0067   16.2   0.9      0.16   11.8   0.1   2.5   1   1   2   3   3   3   1 Clp protease
+SDH_sah              PF01972.15 sp|B2V3S7|ACCA_CLOBA -              0.038   12.9   0.0     0.069   12.0   0.0   1.5   1   0   0   1   1   1   0 Serine dehydrogenase proteinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2V3S7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2V3S7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2V3S7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:45:36 2019
+# [ok]

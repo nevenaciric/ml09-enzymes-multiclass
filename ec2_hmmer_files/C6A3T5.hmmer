@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|C6A3T5|MVK_THESM  -            1.1e-17   63.9   2.1   2.2e-17   62.9   2.1   1.6   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|C6A3T5|MVK_THESM  -            5.2e-14   52.3   1.4   1.4e-13   50.9   0.2   2.3   2   0   0   2   2   2   1 GHMP kinases C terminal
+GalKase_gal_bdg      PF10509.8  sp|C6A3T5|MVK_THESM  -             0.0027   17.1   0.0     0.008   15.6   0.0   1.8   1   0   0   1   1   1   1 Galactokinase galactose-binding signature
+DUF2150              PF09920.8  sp|C6A3T5|MVK_THESM  -               0.03   14.2   0.4       7.1    6.5   0.1   2.2   2   0   0   2   2   2   0 Uncharacterized protein conserved in archaea (DUF2150)
+Flagellin_IN         PF07196.12 sp|C6A3T5|MVK_THESM  -              0.042   14.0   0.2       2.6    8.2   0.0   2.8   2   0   0   2   2   2   0 Flagellin hook IN motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C6A3T5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C6A3T5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C6A3T5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:03:28 2019
+# [ok]

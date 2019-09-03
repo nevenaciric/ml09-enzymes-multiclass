@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transf_3         PF12804.6  sp|B9KCL5|GLMU_CAMLR -            4.1e-14   53.1   0.0   5.7e-14   52.7   0.0   1.3   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+NTP_transferase      PF00483.22 sp|B9KCL5|GLMU_CAMLR -            2.4e-08   33.8   0.6   3.4e-08   33.3   0.6   1.2   1   0   0   1   1   1   1 Nucleotidyl transferase
+IspD                 PF01128.18 sp|B9KCL5|GLMU_CAMLR -            1.5e-07   31.3   0.1   5.1e-07   29.6   0.1   1.9   1   1   1   2   2   2   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+Hexapep              PF00132.23 sp|B9KCL5|GLMU_CAMLR -            6.1e-07   28.8  10.8   3.5e-05   23.3   0.6   4.7   3   1   1   4   4   4   2 Bacterial transferase hexapeptide (six repeats)
+Hexapep_2            PF14602.5  sp|B9KCL5|GLMU_CAMLR -            1.6e-06   27.6   0.2   4.4e-06   26.2   0.2   1.8   1   0   0   1   1   1   1 Hexapeptide repeat of succinyl-transferase
+CTP_transf_3         PF02348.18 sp|B9KCL5|GLMU_CAMLR -            7.7e-05   22.6   1.4   0.00017   21.5   1.3   1.6   1   1   0   1   1   1   1 Cytidylyltransferase
+PrlF_antitoxin       PF15937.4  sp|B9KCL5|GLMU_CAMLR -             0.0087   16.4   0.0     0.023   15.0   0.0   1.7   1   0   0   1   1   1   1 prlF antitoxin for toxin YhaV_toxin
+CofC                 PF01983.15 sp|B9KCL5|GLMU_CAMLR -              0.015   14.4   0.3      0.03   13.4   0.3   1.6   1   1   0   1   1   1   0 Guanylyl transferase CofC like
+Fucokinase           PF07959.11 sp|B9KCL5|GLMU_CAMLR -               0.13   11.2   4.0      0.54    9.1   0.6   2.6   1   1   1   3   3   3   0 L-fucokinase
+Bactofilin           PF04519.12 sp|B9KCL5|GLMU_CAMLR -               0.38   11.0   4.9         8    6.7   0.2   3.1   2   1   1   3   3   3   0 Polymer-forming cytoskeletal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B9KCL5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B9KCL5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B9KCL5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:40:20 2019
+# [ok]

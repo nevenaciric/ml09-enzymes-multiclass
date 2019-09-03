@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|O19175|KC1A_PIG   -            1.3e-15   57.3   0.0   1.4e-15   57.3   0.0   1.0   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|O19175|KC1A_PIG   -            2.6e-08   33.4   0.0   2.9e-08   33.2   0.0   1.0   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pox_ser-thr_kin      PF05445.10 sp|O19175|KC1A_PIG   -             0.0039   16.1   0.1    0.0054   15.7   0.1   1.3   1   0   0   1   1   1   1 Poxvirus serine/threonine protein kinase
+APH                  PF01636.22 sp|O19175|KC1A_PIG   -              0.046   13.5   0.3      0.25   11.1   0.2   1.9   1   1   0   2   2   2   0 Phosphotransferase enzyme family
+Kdo                  PF06293.13 sp|O19175|KC1A_PIG   -              0.093   12.0   0.0      0.11   11.8   0.0   1.1   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+Choline_kinase       PF01633.19 sp|O19175|KC1A_PIG   -                0.1   12.1   0.1      0.14   11.7   0.1   1.2   1   0   0   1   1   1   0 Choline/ethanolamine kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O19175.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O19175.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O19175.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:16:44 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Abhydrolase_1        PF00561.19 sp|K4ICC9|METXA_PSYTT -            3.3e-31  108.8   0.0   6.1e-31  107.9   0.0   1.4   1   1   0   1   1   1   1 alpha/beta hydrolase fold
+Hydrolase_4          PF12146.7  sp|K4ICC9|METXA_PSYTT -            3.9e-07   29.5   0.0   2.1e-06   27.1   0.0   2.0   1   1   0   1   1   1   1 Serine aminopeptidase, S33
+Esterase             PF00756.19 sp|K4ICC9|METXA_PSYTT -             0.0037   16.9   0.0    0.0071   15.9   0.0   1.5   1   1   0   1   1   1   1 Putative esterase
+Ndr                  PF03096.13 sp|K4ICC9|METXA_PSYTT -              0.048   12.3   0.0     0.093   11.3   0.0   1.4   1   0   0   1   1   1   0 Ndr family
+Abhydrolase_6        PF12697.6  sp|K4ICC9|METXA_PSYTT -               0.16   12.5   0.0      0.18   12.3   0.0   1.2   1   0   0   1   1   1   0 Alpha/beta hydrolase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/K4ICC9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/K4ICC9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/K4ICC9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:13:05 2019
+# [ok]

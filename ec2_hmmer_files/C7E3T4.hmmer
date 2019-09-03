@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-gua_Ptrans       PF00217.18 sp|C7E3T4|KARG_PENMO -            1.3e-87  292.7   0.1   1.7e-87  292.3   0.1   1.1   1   0   0   1   1   1   1 ATP:guanido phosphotransferase, C-terminal catalytic domain
+ATP-gua_PtransN      PF02807.14 sp|C7E3T4|KARG_PENMO -            2.9e-30  104.4   0.0   5.1e-29  100.4   0.0   2.2   2   0   0   2   2   2   1 ATP:guanido phosphotransferase, N-terminal domain
+DUF3158              PF11358.7  sp|C7E3T4|KARG_PENMO -                0.1   12.2   0.2      0.23   11.1   0.2   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF3158)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C7E3T4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C7E3T4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C7E3T4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:05:39 2019
+# [ok]

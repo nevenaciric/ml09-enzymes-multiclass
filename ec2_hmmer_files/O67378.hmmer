@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TMP-TENI             PF02581.16 sp|O67378|THIE2_AQUAE -            3.6e-58  195.8   0.0     4e-58  195.6   0.0   1.0   1   0   0   1   1   1   1 Thiamine monophosphate synthase
+Dus                  PF01207.16 sp|O67378|THIE2_AQUAE -              0.002   17.2   0.0     0.005   15.9   0.0   1.6   2   0   0   2   2   2   1 Dihydrouridine synthase (Dus)
+NMO                  PF03060.14 sp|O67378|THIE2_AQUAE -             0.0026   17.1   0.0    0.0031   16.9   0.0   1.2   1   0   0   1   1   1   1 Nitronate monooxygenase
+His_biosynth         PF00977.20 sp|O67378|THIE2_AQUAE -             0.0085   15.5   0.0     0.053   12.9   0.0   2.1   2   1   0   2   2   2   1 Histidine biosynthesis protein
+LFY_SAM              PF01698.15 sp|O67378|THIE2_AQUAE -              0.026   14.4   0.2     0.048   13.6   0.2   1.5   1   0   0   1   1   1   0 Floricaula / Leafy protein SAM domain
+DUF561               PF04481.11 sp|O67378|THIE2_AQUAE -              0.043   12.9   0.1     0.084   11.9   0.0   1.7   2   0   0   2   2   2   0 Protein of unknown function (DUF561)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O67378.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O67378.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O67378.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:26:31 2019
+# [ok]

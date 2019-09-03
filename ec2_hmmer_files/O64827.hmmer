@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|O64827|SUVR5_ARATH -            9.1e-21   74.9   0.2   2.3e-20   73.5   0.2   1.8   1   0   0   1   1   1   1 SET domain
+Pre-SET              PF05033.15 sp|O64827|SUVR5_ARATH -            2.1e-13   50.8   6.6   2.1e-13   50.8   6.6   3.5   3   1   0   3   3   3   1 Pre-SET motif
+zf-C2H2_4            PF13894.5  sp|O64827|SUVR5_ARATH -            3.3e-05   24.2   8.4       1.3   10.0   0.2   4.9   3   0   0   3   3   3   3 C2H2-type zinc finger
+zf-TRM13_CCCH        PF11722.7  sp|O64827|SUVR5_ARATH -             0.0011   18.5   0.3    0.0011   18.5   0.3   3.3   4   0   0   4   4   4   1 CCCH zinc finger in TRM13 protein
+WRC                  PF08879.9  sp|O64827|SUVR5_ARATH -                1.3    8.8  15.9       2.5    7.8   0.4   4.3   4   0   0   4   4   4   0 WRC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O64827.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O64827.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O64827.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:25:37 2019
+# [ok]

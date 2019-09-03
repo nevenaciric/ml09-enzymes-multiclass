@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|B7GGT1|PFKA_ANOFW -           3.3e-116  387.5   2.5  3.8e-116  387.3   2.5   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+Radical_SAM          PF04055.20 sp|B7GGT1|PFKA_ANOFW -             0.0097   16.2   0.3       1.5    9.1   0.0   2.9   2   1   0   2   2   2   1 Radical SAM superfamily
+NAD_kinase           PF01513.20 sp|B7GGT1|PFKA_ANOFW -              0.041   13.0   0.0     0.067   12.3   0.0   1.2   1   0   0   1   1   1   0 ATP-NAD kinase
+Peripla_BP_1         PF00532.20 sp|B7GGT1|PFKA_ANOFW -              0.058   12.7   0.0      0.11   11.7   0.0   1.5   1   0   0   1   1   1   0 Periplasmic binding proteins and sugar binding domain of LacI family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B7GGT1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B7GGT1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B7GGT1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:15:14 2019
+# [ok]

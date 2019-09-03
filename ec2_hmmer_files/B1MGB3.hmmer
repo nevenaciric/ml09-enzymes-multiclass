@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADK                  PF00406.21 sp|B1MGB3|KAD_MYCA9  -            7.2e-55  185.1   0.0   8.5e-55  184.9   0.0   1.0   1   0   0   1   1   1   1 Adenylate kinase
+AAA_17               PF13207.5  sp|B1MGB3|KAD_MYCA9  -            3.7e-30  105.0   0.0   4.5e-30  104.8   0.0   1.1   1   0   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|B1MGB3|KAD_MYCA9  -            3.3e-06   27.2   0.0   4.5e-06   26.8   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|B1MGB3|KAD_MYCA9  -            1.2e-05   25.7   0.0   3.1e-05   24.4   0.0   1.7   1   1   0   1   1   1   1 AAA domain
+Cytidylate_kin       PF02224.17 sp|B1MGB3|KAD_MYCA9  -            0.00092   18.9   0.1    0.0021   17.7   0.0   1.7   2   0   0   2   2   2   1 Cytidylate kinase
+Thymidylate_kin      PF02223.16 sp|B1MGB3|KAD_MYCA9  -             0.0011   18.5   0.0      0.57    9.7   0.0   2.1   2   0   0   2   2   2   2 Thymidylate kinase
+AAA_28               PF13521.5  sp|B1MGB3|KAD_MYCA9  -              0.023   14.9   0.0      0.04   14.1   0.0   1.4   1   1   0   1   1   1   0 AAA domain
+AAA                  PF00004.28 sp|B1MGB3|KAD_MYCA9  -              0.038   14.3   0.0     0.065   13.6   0.0   1.5   1   0   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+RuvB_N               PF05496.11 sp|B1MGB3|KAD_MYCA9  -               0.05   12.8   0.1     0.098   11.8   0.0   1.5   2   0   0   2   2   2   0 Holliday junction DNA helicase ruvB N-terminus
+AAA_5                PF07728.13 sp|B1MGB3|KAD_MYCA9  -               0.11   12.3   0.1      0.21   11.5   0.1   1.6   1   1   0   1   1   1   0 AAA domain (dynein-related subfamily)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B1MGB3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B1MGB3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B1MGB3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:29:28 2019
+# [ok]

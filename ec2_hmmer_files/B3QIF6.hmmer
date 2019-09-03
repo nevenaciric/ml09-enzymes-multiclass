@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HisG                 PF01634.17 sp|B3QIF6|HIS1_RHOPT -            7.6e-37  126.6   0.1   1.1e-36  126.1   0.1   1.3   1   0   0   1   1   1   1 ATP phosphoribosyltransferase
+Peptidase_M35        PF02102.14 sp|B3QIF6|HIS1_RHOPT -               0.01   14.6   0.0     0.014   14.2   0.0   1.1   1   0   0   1   1   1   0 Deuterolysin metalloprotease (M35) family
+Helicase_C_3         PF13625.5  sp|B3QIF6|HIS1_RHOPT -              0.064   13.3   0.0      0.16   12.1   0.0   1.6   1   0   0   1   1   1   0 Helicase conserved C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B3QIF6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B3QIF6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B3QIF6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:51:02 2019
+# [ok]

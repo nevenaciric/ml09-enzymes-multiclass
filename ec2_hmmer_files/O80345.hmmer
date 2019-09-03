@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|O80345|CDKF1_ARATH -            1.1e-52  179.0   0.0   5.1e-30  104.6   0.0   2.1   2   0   0   2   2   2   2 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|O80345|CDKF1_ARATH -            1.2e-16   60.7   0.0   7.3e-14   51.6   0.0   2.2   2   0   0   2   2   2   2 Protein tyrosine kinase
+APH                  PF01636.22 sp|O80345|CDKF1_ARATH -             0.0031   17.4   0.2    0.0093   15.8   0.1   1.7   1   1   1   2   2   2   1 Phosphotransferase enzyme family
+RIO1                 PF01163.21 sp|O80345|CDKF1_ARATH -               0.09   12.3   0.0      0.17   11.4   0.0   1.5   1   1   0   1   1   1   0 RIO1 family
+Haspin_kinase        PF12330.7  sp|O80345|CDKF1_ARATH -               0.16   10.7   0.0      0.22   10.3   0.0   1.2   1   0   0   1   1   1   0 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O80345.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O80345.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O80345.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:28:39 2019
+# [ok]

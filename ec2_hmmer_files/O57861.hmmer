@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PolC_DP2             PF03833.12 sp|O57861|DP2L_PYRHO -                  0 1235.9   0.0         0 1235.2   0.0   1.3   1   0   0   1   1   1   1 DNA polymerase II large subunit DP2
+Intein_splicing      PF14890.5  sp|O57861|DP2L_PYRHO -            1.6e-13   50.5   0.4   1.7e-12   47.1   0.1   2.3   1   1   0   1   1   1   1 Intein splicing domain
+zinc-ribbons_6       PF07191.11 sp|O57861|DP2L_PYRHO -            1.6e-05   24.7   8.9    0.0095   15.8   6.9   2.4   2   0   0   2   2   2   2 zinc-ribbons
+HypA                 PF01155.18 sp|O57861|DP2L_PYRHO -             0.0047   16.8  13.9       1.1    9.2   0.0   3.8   3   1   1   4   4   3   3 Hydrogenase/urease nickel incorporation, metallochaperone, hypA
+DUF35_N              PF12172.7  sp|O57861|DP2L_PYRHO -             0.0095   15.7   1.6    0.0095   15.7   1.6   3.0   3   0   0   3   3   3   1 Rubredoxin-like zinc ribbon domain (DUF35_N)
+Iron_traffic         PF04362.13 sp|O57861|DP2L_PYRHO -              0.022   14.3   0.0       0.1   12.2   0.0   2.1   2   0   0   2   2   2   0 Bacterial Fe(2+) trafficking
+DZR                  PF12773.6  sp|O57861|DP2L_PYRHO -              0.029   14.3  17.5       2.3    8.2  11.4   3.2   2   1   0   2   2   2   0 Double zinc ribbon
+Ribosomal_L32p       PF01783.22 sp|O57861|DP2L_PYRHO -               0.18   12.0   0.9      0.54   10.5   0.9   1.9   1   0   0   1   1   1   0 Ribosomal L32p protein family
+HNH_5                PF14279.5  sp|O57861|DP2L_PYRHO -               0.22   11.3   8.8      0.94    9.3   0.0   3.5   2   1   1   3   3   3   0 HNH endonuclease
+zf-ribbon_3          PF13248.5  sp|O57861|DP2L_PYRHO -                0.5    9.8  27.8     0.061   12.7   4.4   4.3   3   1   1   4   4   4   0 zinc-ribbon domain
+zf-CHY               PF05495.11 sp|O57861|DP2L_PYRHO -                1.5    9.3   8.8       6.6    7.2   4.9   2.7   2   0   0   2   2   2   0 CHY zinc finger
+Zn-ribbon_8          PF09723.9  sp|O57861|DP2L_PYRHO -                6.9    6.8  23.3      0.41   10.7   0.9   4.2   2   1   1   3   3   3   0 Zinc ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O57861.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O57861.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O57861.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:24:07 2019
+# [ok]

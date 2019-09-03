@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PcrB                 PF01884.16 sp|C3N7L7|GGGPS_SULIY -            1.5e-51  174.9   0.6   1.9e-51  174.6   0.6   1.0   1   0   0   1   1   1   1 PcrB family
+His_biosynth         PF00977.20 sp|C3N7L7|GGGPS_SULIY -              8e-07   28.6   0.1   1.3e-06   28.0   0.1   1.3   1   0   0   1   1   1   1 Histidine biosynthesis protein
+DHO_dh               PF01180.20 sp|C3N7L7|GGGPS_SULIY -             0.0014   17.9   0.5    0.0019   17.4   0.5   1.2   1   0   0   1   1   1   1 Dihydroorotate dehydrogenase
+G3P_antiterm         PF04309.11 sp|C3N7L7|GGGPS_SULIY -             0.0037   16.6   0.0    0.0064   15.8   0.0   1.3   1   0   0   1   1   1   1 Glycerol-3-phosphate responsive antiterminator
+IMPDH                PF00478.24 sp|C3N7L7|GGGPS_SULIY -              0.019   13.9   0.0      0.17   10.7   0.0   1.9   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+ThiG                 PF05690.13 sp|C3N7L7|GGGPS_SULIY -              0.027   13.7   0.2     0.089   12.0   0.3   1.8   2   1   0   2   2   2   0 Thiazole biosynthesis protein ThiG
+DpaA_N               PF16924.4  sp|C3N7L7|GGGPS_SULIY -              0.041   13.9   0.1      0.12   12.4   0.1   1.8   1   0   0   1   1   1   0 Dipicolinate synthase subunit A N-terminal domain
+Trp_syntA            PF00290.19 sp|C3N7L7|GGGPS_SULIY -              0.056   12.2   0.3     0.088   11.5   0.3   1.3   1   0   0   1   1   1   0 Tryptophan synthase alpha chain
+TMP-TENI             PF02581.16 sp|C3N7L7|GGGPS_SULIY -              0.056   12.7   0.0     0.096   11.9   0.0   1.3   1   0   0   1   1   1   0 Thiamine monophosphate synthase
+FMN_dh               PF01070.17 sp|C3N7L7|GGGPS_SULIY -               0.13   11.2   0.1      0.18   10.7   0.1   1.1   1   0   0   1   1   1   0 FMN-dependent dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C3N7L7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C3N7L7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C3N7L7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:55:33 2019
+# [ok]

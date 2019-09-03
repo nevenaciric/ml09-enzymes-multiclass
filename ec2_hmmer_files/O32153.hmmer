@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PfkB                 PF00294.23 sp|O32153|FRLD_BACSU -            1.3e-41  142.8   0.1   1.7e-41  142.4   0.1   1.1   1   0   0   1   1   1   1 pfkB family carbohydrate kinase
+XdhC_C               PF13478.5  sp|O32153|FRLD_BACSU -              0.049   14.0   0.0       0.1   13.0   0.0   1.5   1   0   0   1   1   1   0 XdhC Rossmann domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O32153.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O32153.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O32153.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:20:03 2019
+# [ok]

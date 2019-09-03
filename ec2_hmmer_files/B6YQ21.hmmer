@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HisG                 PF01634.17 sp|B6YQ21|HIS1_AZOPC -            3.4e-45  153.8   0.0   4.5e-45  153.4   0.0   1.2   1   0   0   1   1   1   1 ATP phosphoribosyltransferase
+HisG_C               PF08029.10 sp|B6YQ21|HIS1_AZOPC -              6e-28   96.7   0.0     1e-27   96.0   0.0   1.4   1   0   0   1   1   1   1 HisG, C-terminal domain
+NMT1                 PF09084.10 sp|B6YQ21|HIS1_AZOPC -              0.039   13.8   0.1      0.68    9.7   0.1   2.1   1   1   0   1   1   1   0 NMT1/THI5 like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B6YQ21.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B6YQ21.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B6YQ21.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:14:38 2019
+# [ok]

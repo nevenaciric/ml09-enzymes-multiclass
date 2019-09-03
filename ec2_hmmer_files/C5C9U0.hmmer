@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|C5C9U0|PNP_MICLC  -            1.9e-36  125.4   0.0   4.2e-17   62.8   0.0   2.4   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|C5C9U0|PNP_MICLC  -            2.1e-16   60.1   0.9   4.8e-16   58.9   0.9   1.7   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|C5C9U0|PNP_MICLC  -            3.7e-14   52.7   0.6   1.1e-13   51.1   0.6   1.9   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|C5C9U0|PNP_MICLC  -            9.8e-12   44.4   0.7   2.7e-11   43.0   0.7   1.8   1   0   0   1   1   1   1 KH domain
+RNase_PH_C           PF03725.14 sp|C5C9U0|PNP_MICLC  -             0.0015   18.4   0.1       1.1    9.2   0.0   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+KH_2                 PF07650.16 sp|C5C9U0|PNP_MICLC  -             0.0086   15.8   0.1     0.028   14.2   0.1   1.8   1   0   0   1   1   1   1 KH domain
+PCB_OB               PF17092.4  sp|C5C9U0|PNP_MICLC  -               0.02   15.6   0.1     0.062   14.0   0.1   1.9   1   0   0   1   1   1   0 Penicillin-binding protein OB-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C5C9U0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C5C9U0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C5C9U0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:01:54 2019
+# [ok]

@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AAA_17               PF13207.5  sp|B6YSN8|KADA_THEON -            2.5e-37  128.2   0.1   3.6e-37  127.7   0.1   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|B6YSN8|KADA_THEON -            5.6e-10   39.7   0.1   1.6e-09   38.3   0.0   1.7   1   1   1   2   2   2   1 AAA domain
+AAA_16               PF13191.5  sp|B6YSN8|KADA_THEON -            0.00074   19.8   0.2    0.0016   18.7   0.2   1.7   1   1   0   1   1   1   1 AAA ATPase domain
+AAA                  PF00004.28 sp|B6YSN8|KADA_THEON -             0.0013   19.1   0.1    0.0028   18.0   0.1   1.9   2   1   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+AAA_5                PF07728.13 sp|B6YSN8|KADA_THEON -             0.0018   18.2   1.4       0.1   12.5   0.1   2.5   1   1   2   3   3   3   1 AAA domain (dynein-related subfamily)
+CLP1_P               PF16575.4  sp|B6YSN8|KADA_THEON -             0.0018   18.0   0.1     0.033   13.9   0.0   2.1   2   0   0   2   2   2   1 mRNA cleavage and polyadenylation factor CLP1 P-loop
+PAS_9                PF13426.6  sp|B6YSN8|KADA_THEON -             0.0057   16.8   0.0    0.0099   16.0   0.0   1.5   1   0   0   1   1   1   1 PAS domain
+APS_kinase           PF01583.19 sp|B6YSN8|KADA_THEON -             0.0081   16.0   0.6     0.086   12.6   0.1   2.3   2   1   0   2   2   2   1 Adenylylsulphate kinase
+NTPase_1             PF03266.14 sp|B6YSN8|KADA_THEON -               0.01   15.7   0.2     0.029   14.2   0.2   1.8   1   1   0   1   1   1   1 NTPase
+AAA_28               PF13521.5  sp|B6YSN8|KADA_THEON -              0.013   15.7   0.1     0.028   14.6   0.0   1.6   2   0   0   2   2   2   0 AAA domain
+AAA_33               PF13671.5  sp|B6YSN8|KADA_THEON -              0.014   15.4   0.6     0.033   14.3   0.5   1.9   1   1   0   1   1   1   0 AAA domain
+AAA_22               PF13401.5  sp|B6YSN8|KADA_THEON -              0.021   15.0   0.4     0.052   13.7   0.4   1.9   1   1   0   1   1   1   0 AAA domain
+ArgK                 PF03308.15 sp|B6YSN8|KADA_THEON -              0.023   13.6   0.0     0.062   12.2   0.0   1.7   1   0   0   1   1   1   0 ArgK protein
+AAA_14               PF13173.5  sp|B6YSN8|KADA_THEON -              0.026   14.5   0.1     0.056   13.4   0.0   1.8   1   1   1   2   2   2   0 AAA domain
+SRP54                PF00448.21 sp|B6YSN8|KADA_THEON -               0.04   13.5   0.0     0.067   12.7   0.0   1.4   1   0   0   1   1   1   0 SRP54-type protein, GTPase domain
+MMR_HSR1             PF01926.22 sp|B6YSN8|KADA_THEON -               0.04   13.9   1.0      0.14   12.2   0.1   2.2   2   1   0   2   2   2   0 50S ribosome-binding GTPase
+NB-ARC               PF00931.21 sp|B6YSN8|KADA_THEON -              0.052   12.5   0.0     0.076   11.9   0.0   1.5   1   0   0   1   1   1   0 NB-ARC domain
+Viral_helicase1      PF01443.17 sp|B6YSN8|KADA_THEON -              0.052   13.2   0.0     0.075   12.7   0.0   1.3   1   0   0   1   1   1   0 Viral (Superfamily 1) RNA helicase
+Zeta_toxin           PF06414.11 sp|B6YSN8|KADA_THEON -              0.063   12.5   1.6      0.32   10.1   0.1   2.5   2   1   0   2   2   2   0 Zeta toxin
+KTI12                PF08433.9  sp|B6YSN8|KADA_THEON -              0.088   12.1   0.0      0.12   11.7   0.0   1.4   1   0   0   1   1   1   0 Chromatin associated protein KTI12
+AAA_30               PF13604.5  sp|B6YSN8|KADA_THEON -                1.3    8.6   4.0      0.97    9.0   0.2   2.2   2   1   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B6YSN8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B6YSN8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B6YSN8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:14:48 2019
+# [ok]

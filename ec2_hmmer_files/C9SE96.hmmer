@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|C9SE96|ARO1_VERA1 -           7.6e-131  436.5   0.0  1.3e-130  435.8   0.0   1.3   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|C9SE96|ARO1_VERA1 -           8.1e-102  339.8   0.0  1.2e-101  339.2   0.0   1.3   1   0   0   1   1   1   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|C9SE96|ARO1_VERA1 -            3.7e-55  187.6   0.0   5.7e-55  186.9   0.0   1.3   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|C9SE96|ARO1_VERA1 -            1.1e-36  126.2   0.0   4.1e-35  121.1   0.0   2.5   2   0   0   2   2   2   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|C9SE96|ARO1_VERA1 -              2e-24   85.5   0.0   4.5e-24   84.4   0.0   1.6   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Fe-ADH_2             PF13685.5  sp|C9SE96|ARO1_VERA1 -            2.5e-07   30.6   0.1   6.6e-07   29.2   0.1   1.7   1   1   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Shikimate_DH         PF01488.19 sp|C9SE96|ARO1_VERA1 -              0.042   13.8   0.0      0.14   12.1   0.0   1.9   2   0   0   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+AAA_22               PF13401.5  sp|C9SE96|ARO1_VERA1 -               0.12   12.6   0.0      0.37   11.0   0.0   1.8   1   0   0   1   1   1   0 AAA domain
+AAA_33               PF13671.5  sp|C9SE96|ARO1_VERA1 -               0.17   11.9   0.0      0.48   10.5   0.0   1.7   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C9SE96.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C9SE96.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C9SE96.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:06:14 2019
+# [ok]

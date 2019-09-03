@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|C1CDP4|PFKA_STRZJ -           1.8e-106  355.5   4.7  2.1e-106  355.3   4.7   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+NAD_kinase           PF01513.20 sp|C1CDP4|PFKA_STRZJ -             0.0065   15.6   0.2    0.0098   15.0   0.2   1.4   1   0   0   1   1   1   1 ATP-NAD kinase
+Peripla_BP_1         PF00532.20 sp|C1CDP4|PFKA_STRZJ -              0.068   12.5   0.0      0.12   11.7   0.0   1.4   1   0   0   1   1   1   0 Periplasmic binding proteins and sugar binding domain of LacI family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C1CDP4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C1CDP4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C1CDP4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:48:15 2019
+# [ok]

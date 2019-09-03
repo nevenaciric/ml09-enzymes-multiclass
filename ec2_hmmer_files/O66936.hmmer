@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Alpha-amylase_C      PF02806.17 sp|O66936|GLGB_AQUAE -              3e-25   88.4   0.0     1e-24   86.7   0.0   1.9   2   0   0   2   2   2   1 Alpha amylase, C-terminal all-beta domain
+CBM_48               PF02922.17 sp|O66936|GLGB_AQUAE -            3.9e-20   71.9   0.4     2e-19   69.6   0.1   2.3   2   0   0   2   2   2   1 Carbohydrate-binding module 48 (Isoamylase N-terminal domain)
+Alpha-amylase        PF00128.23 sp|O66936|GLGB_AQUAE -            4.4e-17   62.5   1.0   9.6e-12   45.0   0.7   2.3   1   1   1   2   2   2   2 Alpha amylase, catalytic domain
+Glyco_hydro_70       PF02324.15 sp|O66936|GLGB_AQUAE -             0.0037   15.5   0.0    0.0054   14.9   0.0   1.1   1   0   0   1   1   1   1 Glycosyl hydrolase family 70
+AMPK1_CBM            PF16561.4  sp|O66936|GLGB_AQUAE -              0.011   15.8   0.6      0.11   12.6   0.1   2.4   2   0   0   2   2   2   0 Glycogen recognition site of AMP-activated protein kinase
+Malt_amylase_C       PF16657.4  sp|O66936|GLGB_AQUAE -              0.052   13.6   0.0      0.19   11.8   0.0   1.9   2   0   0   2   2   2   0 Maltogenic Amylase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O66936.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O66936.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O66936.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:26:16 2019
+# [ok]

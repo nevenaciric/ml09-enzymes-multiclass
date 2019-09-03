@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlnE                 PF03710.14 sp|B2FKU9|GLNE_STRMK -           1.3e-126  421.1   6.0     4e-63  213.1   0.4   3.1   2   1   0   2   2   2   2 Glutamate-ammonia ligase adenylyltransferase
+GlnD_UR_UTase        PF08335.10 sp|B2FKU9|GLNE_STRMK -            9.6e-52  174.9   5.4   1.9e-42  144.7   3.3   2.8   2   0   0   2   2   2   2 GlnD PII-uridylyltransferase
+DUF294               PF03445.12 sp|B2FKU9|GLNE_STRMK -            1.8e-05   24.5   0.0    0.0045   16.7   0.0   2.9   2   0   0   2   2   2   2 Putative nucleotidyltransferase DUF294
+DUF294_C             PF10335.8  sp|B2FKU9|GLNE_STRMK -             0.0023   17.6   5.5      0.49   10.1   0.6   2.8   2   1   0   2   2   2   2 Putative nucleotidyltransferase substrate binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2FKU9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2FKU9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2FKU9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:35:03 2019
+# [ok]

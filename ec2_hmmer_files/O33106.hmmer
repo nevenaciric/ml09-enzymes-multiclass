@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|O33106|PFKA_MYCLE -           2.5e-101  338.7   0.1  2.9e-101  338.5   0.1   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+NAD_kinase           PF01513.20 sp|O33106|PFKA_MYCLE -            4.9e-05   22.6   0.0   7.3e-05   22.0   0.0   1.2   1   0   0   1   1   1   1 ATP-NAD kinase
+AIRC                 PF00731.19 sp|O33106|PFKA_MYCLE -              0.014   14.9   0.0     0.025   14.1   0.0   1.5   1   0   0   1   1   1   0 AIR carboxylase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O33106.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O33106.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O33106.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:20:23 2019
+# [ok]

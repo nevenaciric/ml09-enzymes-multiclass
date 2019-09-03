@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hexapep              PF00132.23 sp|B4ECM1|LPXD_BURCJ -            8.6e-33  110.8  31.9   1.6e-07   30.7   3.7   6.1   4   1   3   7   7   7   7 Bacterial transferase hexapeptide (six repeats)
+LpxD                 PF04613.13 sp|B4ECM1|LPXD_BURCJ -            1.4e-24   85.5   0.1     4e-24   84.1   0.1   1.8   1   0   0   1   1   1   1 UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase, LpxD
+Hexapep_2            PF14602.5  sp|B4ECM1|LPXD_BURCJ -            5.8e-13   48.3  21.1   0.00032   20.3   0.4   5.5   5   0   0   5   5   5   5 Hexapeptide repeat of succinyl-transferase
+DUF4954              PF16314.4  sp|B4ECM1|LPXD_BURCJ -               0.81    7.6   3.7       6.1    4.7   0.1   2.1   2   0   0   2   2   2   0 Domain of unknown function (DUF4954)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4ECM1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4ECM1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4ECM1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:52:54 2019
+# [ok]

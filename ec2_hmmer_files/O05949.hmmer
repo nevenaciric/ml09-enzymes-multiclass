@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_A            PF00476.19 sp|O05949|DPO1_RICPR -             2e-140  468.0   8.0  2.3e-140  467.8   6.4   1.9   2   0   0   2   2   2   1 DNA polymerase family A
+5_3_exonuc_N         PF02739.15 sp|O05949|DPO1_RICPR -            2.5e-52  176.9   0.0   5.1e-52  175.9   0.0   1.6   1   0   0   1   1   1   1 5'-3' exonuclease, N-terminal resolvase-like domain
+5_3_exonuc           PF01367.19 sp|O05949|DPO1_RICPR -            6.3e-27   93.9   0.1     5e-26   91.0   0.0   2.7   2   0   0   2   2   2   1 5'-3' exonuclease, C-terminal SAM fold
+HHH_2                PF12826.6  sp|O05949|DPO1_RICPR -              0.007   16.3   0.0     0.039   14.0   0.0   2.3   2   0   0   2   2   2   1 Helix-hairpin-helix motif
+HTH_11               PF08279.11 sp|O05949|DPO1_RICPR -              0.017   14.9   0.0      0.24   11.3   0.0   2.8   2   0   0   2   2   2   0 HTH domain
+GFRP                 PF06399.12 sp|O05949|DPO1_RICPR -              0.059   13.2   0.0       8.2    6.3   0.0   3.0   3   0   0   3   3   3   0 GTP cyclohydrolase I feedback regulatory protein (GFRP)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O05949.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O05949.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O05949.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:14:24 2019
+# [ok]

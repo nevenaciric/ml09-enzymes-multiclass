@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HMGL-like            PF00682.18 sp|B2VDA7|LEU1_ERWT9 -           2.4e-103  345.2   2.0  3.4e-103  344.7   2.0   1.2   1   0   0   1   1   1   1 HMGL-like
+LeuA_dimer           PF08502.9  sp|B2VDA7|LEU1_ERWT9 -            8.2e-38  129.2   0.2   2.3e-37  127.8   0.2   1.8   1   0   0   1   1   1   1 LeuA allosteric (dimerisation) domain
+ALGX                 PF16822.4  sp|B2VDA7|LEU1_ERWT9 -              0.088   12.4   0.4       0.2   11.2   0.1   1.7   2   0   0   2   2   2   0 SGNH hydrolase-like domain, acetyltransferase AlgX
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2VDA7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2VDA7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2VDA7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:46:06 2019
+# [ok]

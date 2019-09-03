@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QRPTase_C            PF01729.18 sp|O28439|NADC_ARCFU -            1.1e-62  210.7   1.0   1.4e-62  210.3   1.0   1.1   1   0   0   1   1   1   1 Quinolinate phosphoribosyl transferase, C-terminal domain
+QRPTase_N            PF02749.15 sp|O28439|NADC_ARCFU -            1.5e-21   76.1   0.0   3.7e-21   74.9   0.0   1.7   1   0   0   1   1   1   1 Quinolinate phosphoribosyl transferase, N-terminal domain
+B12-binding          PF02310.18 sp|O28439|NADC_ARCFU -              0.001   19.0   0.8     0.079   12.9   0.3   2.3   2   0   0   2   2   2   1 B12 binding domain
+F420_oxidored        PF03807.16 sp|O28439|NADC_ARCFU -              0.042   14.3   2.0     0.072   13.6   0.2   2.4   2   1   0   2   2   2   0 NADP oxidoreductase coenzyme F420-dependent
+Methyltransf_30      PF05430.10 sp|O28439|NADC_ARCFU -              0.072   12.9   0.0      0.13   12.1   0.0   1.4   1   0   0   1   1   1   0 S-adenosyl-L-methionine-dependent methyltransferase
+Peripla_BP_6         PF13458.5  sp|O28439|NADC_ARCFU -               0.13   11.8   0.1      0.24   10.9   0.0   1.4   2   0   0   2   2   2   0 Periplasmic binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O28439.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O28439.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O28439.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:18:54 2019
+# [ok]

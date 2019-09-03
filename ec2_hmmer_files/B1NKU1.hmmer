@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rotavirus_VP1        PF12289.7  sp|B1NKU1|RDRP_ROTWI -           4.7e-163  541.5  14.3    1e-162  540.4  14.3   1.6   1   0   0   1   1   1   1 Rotavirus VP1 C-terminal domain
+RdRP_4               PF02123.15 sp|B1NKU1|RDRP_ROTWI -           3.6e-152  507.5   6.1  4.8e-152  507.1   6.1   1.2   1   0   0   1   1   1   1 Viral RNA-directed RNA-polymerase
+RdRP_1               PF00680.19 sp|B1NKU1|RDRP_ROTWI -            0.00012   20.7   1.2    0.0003   19.3   0.4   1.9   2   0   0   2   2   2   1 RNA dependent RNA polymerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B1NKU1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B1NKU1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B1NKU1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:29:57 2019
+# [ok]

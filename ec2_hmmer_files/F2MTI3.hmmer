@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|F2MTI3|AROA_ENTFO -           3.9e-120  401.3   2.9  4.4e-120  401.1   2.9   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+BRCT                 PF00533.25 sp|F2MTI3|AROA_ENTFO -             0.0024   18.2   0.4       2.7    8.4   0.0   2.8   2   1   1   3   3   3   2 BRCA1 C Terminus (BRCT) domain
+TIG                  PF01833.23 sp|F2MTI3|AROA_ENTFO -              0.063   13.3   0.4       0.2   11.7   0.4   1.8   1   0   0   1   1   1   0 IPT/TIG domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/F2MTI3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/F2MTI3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/F2MTI3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:10:15 2019
+# [ok]

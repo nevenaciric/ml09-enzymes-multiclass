@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|B3DXL1|AROK_METI4 -              1e-39  136.1   0.0   1.2e-39  135.8   0.0   1.0   1   0   0   1   1   1   1 Shikimate kinase
+AAA_18               PF13238.5  sp|B3DXL1|AROK_METI4 -              2e-05   25.0   0.2   0.00016   22.1   0.1   2.2   1   1   0   1   1   1   1 AAA domain
+dNK                  PF01712.18 sp|B3DXL1|AROK_METI4 -              0.054   13.2   0.2       1.3    8.8   0.0   2.3   2   0   0   2   2   2   0 Deoxynucleoside kinase
+Cytidylate_kin2      PF13189.5  sp|B3DXL1|AROK_METI4 -              0.059   13.4   0.0      0.15   12.1   0.0   1.6   1   1   1   2   2   2   0 Cytidylate kinase-like family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B3DXL1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B3DXL1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B3DXL1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:47:32 2019
+# [ok]

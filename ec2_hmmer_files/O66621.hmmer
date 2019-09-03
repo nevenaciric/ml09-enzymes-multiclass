@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Porphobil_deam       PF01379.19 sp|O66621|HEM3_AQUAE -            1.2e-79  266.5   0.0   1.5e-79  266.2   0.0   1.1   1   0   0   1   1   1   1 Porphobilinogen deaminase, dipyromethane cofactor binding domain
+Porphobil_deamC      PF03900.14 sp|O66621|HEM3_AQUAE -            2.2e-23   82.3   0.2     4e-23   81.5   0.2   1.5   1   0   0   1   1   1   1 Porphobilinogen deaminase, C-terminal domain
+LysR_substrate       PF03466.19 sp|O66621|HEM3_AQUAE -               0.12   11.7   0.0        14    4.9   0.0   2.9   3   0   0   3   3   3   0 LysR substrate binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O66621.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O66621.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O66621.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:26:05 2019
+# [ok]

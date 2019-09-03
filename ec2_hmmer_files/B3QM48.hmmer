@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|B3QM48|MURA_CHLP8 -            3.2e-95  319.2   0.0   3.7e-95  319.0   0.0   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+UPF0086              PF01868.15 sp|B3QM48|MURA_CHLP8 -              0.011   15.5   0.0     0.062   13.1   0.0   2.1   2   0   0   2   2   2   0 Domain of unknown function UPF0086
+GHMP_kinases_C       PF08544.12 sp|B3QM48|MURA_CHLP8 -              0.031   14.6   0.0       6.4    7.1   0.0   2.9   1   1   0   2   2   2   0 GHMP kinases C terminal
+HTH_Crp_2            PF13545.5  sp|B3QM48|MURA_CHLP8 -               0.12   12.3   0.0      0.34   10.8   0.0   1.8   1   0   0   1   1   1   0 Crp-like helix-turn-helix domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B3QM48.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B3QM48.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B3QM48.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:51:17 2019
+# [ok]

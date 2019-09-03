@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|B5ZAY6|RLMH_UREU1 -            2.3e-51  173.7   0.5   2.6e-51  173.6   0.5   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+Mgr1                 PF08602.9  sp|B5ZAY6|RLMH_UREU1 -              0.024   13.4   0.0     0.028   13.2   0.0   1.1   1   0   0   1   1   1   0 Mgr1-like, i-AAA protease complex subunit
+Methyltrn_RNA_4      PF09936.8  sp|B5ZAY6|RLMH_UREU1 -              0.079   12.7   0.0     0.095   12.5   0.0   1.4   1   0   0   1   1   1   0 SAM-dependent RNA methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B5ZAY6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B5ZAY6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B5ZAY6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:10:27 2019
+# [ok]

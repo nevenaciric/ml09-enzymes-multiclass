@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|O59291|MVK_PYRHO  -            1.5e-17   63.5   3.1     3e-17   62.5   3.1   1.5   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|O59291|MVK_PYRHO  -            1.3e-12   47.8   0.6   1.3e-12   47.8   0.6   2.3   2   1   0   2   2   2   1 GHMP kinases C terminal
+GalKase_gal_bdg      PF10509.8  sp|O59291|MVK_PYRHO  -             0.0025   17.2   0.2     0.012   15.0   0.0   2.2   2   0   0   2   2   2   1 Galactokinase galactose-binding signature
+DUF1525              PF07511.10 sp|O59291|MVK_PYRHO  -               0.15   12.1   0.1      0.41   10.7   0.1   1.8   2   0   0   2   2   2   0 Protein of unknown function (DUF1525)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O59291.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O59291.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O59291.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:24:29 2019
+# [ok]

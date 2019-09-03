@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|B8HH36|DXS_PSECP  -           5.3e-105  350.4   0.0  9.4e-105  349.6   0.0   1.4   1   0   0   1   1   1   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|B8HH36|DXS_PSECP  -            8.2e-38  129.8   0.3   3.3e-37  127.8   0.3   2.0   2   0   0   2   2   2   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|B8HH36|DXS_PSECP  -            2.9e-23   82.0   0.8   1.6e-22   79.6   0.2   2.4   2   0   0   2   2   2   1 Transketolase, C-terminal domain
+TPP_enzyme_C         PF02775.20 sp|B8HH36|DXS_PSECP  -            9.9e-07   28.6   0.0    0.0011   18.7   0.0   3.3   3   0   0   3   3   3   2 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+E1_dh                PF00676.19 sp|B8HH36|DXS_PSECP  -              0.005   15.7   0.0     0.011   14.6   0.0   1.5   2   0   0   2   2   2   1 Dehydrogenase E1 component
+Transketolase_N      PF00456.20 sp|B8HH36|DXS_PSECP  -             0.0068   15.3   0.1       4.1    6.2   0.0   2.9   3   0   0   3   3   3   2 Transketolase, thiamine diphosphate binding domain
+PFOR_II              PF17147.3  sp|B8HH36|DXS_PSECP  -              0.022   15.0   0.3      0.17   12.1   0.1   2.6   3   0   0   3   3   3   0 Pyruvate:ferredoxin oxidoreductase core domain II
+Beta-Casp            PF10996.7  sp|B8HH36|DXS_PSECP  -               0.14   12.3   0.0      0.34   11.1   0.0   1.6   1   0   0   1   1   1   0 Beta-Casp domain
+CbiG_N               PF11760.7  sp|B8HH36|DXS_PSECP  -               0.15   12.0   0.9        16    5.5   0.1   3.0   2   0   0   2   2   2   0 Cobalamin synthesis G N-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8HH36.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8HH36.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8HH36.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:34:44 2019
+# [ok]

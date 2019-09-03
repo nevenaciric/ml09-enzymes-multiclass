@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rubis-subs-bind      PF09273.10 sp|C1FXW2|SETD3_DASNO -            2.1e-32  112.5   0.1     4e-32  111.6   0.1   1.5   1   0   0   1   1   1   1 Rubisco LSMT substrate-binding
+SET                  PF00856.27 sp|C1FXW2|SETD3_DASNO -            7.9e-15   55.5   0.5     1e-13   51.9   0.0   2.5   2   1   0   2   2   2   1 SET domain
+Cag12                PF13117.5  sp|C1FXW2|SETD3_DASNO -               0.13   12.6   0.0        11    6.5   0.0   2.6   2   0   0   2   2   2   0 Cag pathogenicity island protein Cag12
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C1FXW2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C1FXW2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C1FXW2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:51:30 2019
+# [ok]

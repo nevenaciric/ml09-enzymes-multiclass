@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACCA                 PF03255.13 sp|B2SXP7|ACCA_PARPJ -            5.2e-66  220.9   0.0   7.3e-66  220.4   0.0   1.2   1   0   0   1   1   1   1 Acetyl co-enzyme A carboxylase carboxyltransferase alpha subunit
+Carboxyl_trans       PF01039.21 sp|B2SXP7|ACCA_PARPJ -              7e-18   64.5   0.0   8.1e-18   64.3   0.0   1.1   1   0   0   1   1   1   1 Carboxyl transferase domain
+Osmo_CC              PF08946.9  sp|B2SXP7|ACCA_PARPJ -              0.083   13.1   1.1       1.2    9.4   0.3   2.5   2   0   0   2   2   2   0 Osmosensory transporter coiled coil
+ABC_tran_CTD         PF16326.4  sp|B2SXP7|ACCA_PARPJ -               0.11   12.6   0.7      0.34   11.1   0.5   1.9   2   0   0   2   2   2   0 ABC transporter C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2SXP7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2SXP7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2SXP7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:42:26 2019
+# [ok]

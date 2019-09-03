@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|B3CM21|PNP_WOLPP  -            3.9e-44  150.2   0.0   5.2e-21   75.4   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|B3CM21|PNP_WOLPP  -            3.6e-16   58.9   3.3   1.6e-08   34.3   0.3   2.9   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|B3CM21|PNP_WOLPP  -            1.8e-09   37.7   3.2   3.6e-09   36.7   0.4   2.8   3   0   0   3   3   3   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|B3CM21|PNP_WOLPP  -            5.6e-08   33.1   4.5   5.6e-08   33.1   4.5   2.8   3   1   0   3   3   3   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|B3CM21|PNP_WOLPP  -            4.7e-07   29.4   0.2   1.4e-06   27.9   0.2   1.9   1   0   0   1   1   1   1 KH domain
+KH_2                 PF07650.16 sp|B3CM21|PNP_WOLPP  -              0.001   18.8   1.1     0.016   14.9   0.2   2.8   1   1   1   2   2   2   1 KH domain
+NifW                 PF03206.13 sp|B3CM21|PNP_WOLPP  -              0.022   15.2   0.4       1.2    9.6   0.1   2.5   2   0   0   2   2   2   0 Nitrogen fixation protein NifW
+Cauli_DNA-bind       PF03310.12 sp|B3CM21|PNP_WOLPP  -              0.022   14.7   0.6      0.33   10.9   0.0   2.9   3   0   0   3   3   3   0 Caulimovirus DNA-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B3CM21.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B3CM21.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B3CM21.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:46:56 2019
+# [ok]

@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_methylase        PF00145.16 sp|O55055|TRDMT_MOUSE -            1.7e-42  145.9   0.0   2.2e-42  145.5   0.0   1.1   1   0   0   1   1   1   1 C-5 cytosine-specific DNA methylase
+MTS                  PF05175.13 sp|O55055|TRDMT_MOUSE -              0.016   14.6   0.0     0.026   14.0   0.0   1.2   1   0   0   1   1   1   0 Methyltransferase small domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O55055.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O55055.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O55055.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:23:46 2019
+# [ok]

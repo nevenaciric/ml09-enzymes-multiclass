@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|B8G9X9|NADK_CHLAD -            1.3e-53  182.0   0.4   4.8e-52  176.9   0.4   2.0   1   1   1   2   2   2   2 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|B8G9X9|NADK_CHLAD -              0.011   15.2   0.0     0.018   14.5   0.0   1.4   1   0   0   1   1   1   0 Diacylglycerol kinase catalytic domain
+RepA_C               PF04796.11 sp|B8G9X9|NADK_CHLAD -              0.043   13.7   0.0      0.14   12.1   0.0   1.8   2   0   0   2   2   2   0 Plasmid encoded RepA protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8G9X9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8G9X9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8G9X9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:33:38 2019
+# [ok]

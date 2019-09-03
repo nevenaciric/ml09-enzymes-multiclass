@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|C5A7L8|MVK_THEGJ  -            1.4e-16   60.3   2.6     3e-16   59.3   2.6   1.6   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|C5A7L8|MVK_THEGJ  -            1.8e-14   53.8   0.4   1.8e-14   53.8   0.4   2.3   3   0   0   3   3   3   1 GHMP kinases C terminal
+GalKase_gal_bdg      PF10509.8  sp|C5A7L8|MVK_THEGJ  -             0.0014   18.0   0.2     0.005   16.3   0.0   2.0   2   0   0   2   2   2   1 Galactokinase galactose-binding signature
+DUF2150              PF09920.8  sp|C5A7L8|MVK_THEGJ  -               0.12   12.2   0.3       2.3    8.1   0.0   2.2   2   0   0   2   2   2   0 Uncharacterized protein conserved in archaea (DUF2150)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C5A7L8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C5A7L8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C5A7L8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:00:55 2019
+# [ok]

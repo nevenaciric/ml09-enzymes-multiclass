@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B            PF00136.20 sp|O93745|DPOL1_AERPE -            1.8e-46  158.7   0.1   4.5e-46  157.4   0.1   1.5   1   1   0   1   1   1   1 DNA polymerase family B
+DNA_pol_B_exo1       PF03104.18 sp|O93745|DPOL1_AERPE -            2.3e-28   99.2   0.0   4.6e-28   98.2   0.0   1.4   1   0   0   1   1   1   1 DNA polymerase family B, exonuclease domain
+RNase_H_2            PF13482.5  sp|O93745|DPOL1_AERPE -            2.2e-06   27.7   0.1   6.2e-05   22.9   0.1   2.4   1   1   0   1   1   1   1 RNase_H superfamily
+tRNA-synt_1g         PF09334.10 sp|O93745|DPOL1_AERPE -             0.0083   14.9   0.0     0.014   14.2   0.0   1.2   1   0   0   1   1   1   1 tRNA synthetases class I (M)
+DNA_pol_B_exo2       PF10108.8  sp|O93745|DPOL1_AERPE -              0.061   12.9   0.0      0.11   12.0   0.0   1.4   1   0   0   1   1   1   0 Predicted 3'-5' exonuclease related to the exonuclease domain of PolB
+GATase_7             PF13537.5  sp|O93745|DPOL1_AERPE -               0.16   11.8   0.0       1.9    8.3   0.0   2.3   2   0   0   2   2   2   0 Glutamine amidotransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O93745.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O93745.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O93745.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:31:19 2019
+# [ok]

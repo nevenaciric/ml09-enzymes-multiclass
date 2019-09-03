@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+6PF2K                PF01591.17 sp|O60825|F262_HUMAN -           7.3e-104  345.8   2.4  1.2e-103  345.1   2.4   1.3   1   0   0   1   1   1   1 6-phosphofructo-2-kinase
+His_Phos_1           PF00300.21 sp|O60825|F262_HUMAN -            6.3e-42  143.4   0.0   8.4e-42  143.0   0.0   1.2   1   0   0   1   1   1   1 Histidine phosphatase superfamily (branch 1)
+AAA_33               PF13671.5  sp|O60825|F262_HUMAN -            3.6e-08   33.6   0.0   1.1e-07   32.1   0.0   1.8   2   0   0   2   2   2   1 AAA domain
+KTI12                PF08433.9  sp|O60825|F262_HUMAN -            3.7e-05   23.2   0.2   7.1e-05   22.3   0.1   1.5   2   0   0   2   2   2   1 Chromatin associated protein KTI12
+His_Phos_2           PF00328.21 sp|O60825|F262_HUMAN -              0.015   14.6   0.0     0.029   13.6   0.0   1.4   1   0   0   1   1   1   0 Histidine phosphatase superfamily (branch 2)
+AAA_17               PF13207.5  sp|O60825|F262_HUMAN -              0.053   13.8   0.0      0.12   12.7   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O60825.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O60825.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O60825.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:25:07 2019
+# [ok]

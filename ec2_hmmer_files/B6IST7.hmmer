@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LpxB                 PF02684.14 sp|B6IST7|LPXB_RHOCS -             4e-103  345.1   0.0  4.5e-103  344.9   0.0   1.0   1   0   0   1   1   1   1 Lipid-A-disaccharide synthetase
+Arg_repressor_C      PF02863.17 sp|B6IST7|LPXB_RHOCS -              0.059   13.1   0.0       1.2    8.9   0.0   2.5   2   0   0   2   2   2   0 Arginine repressor, C-terminal domain
+Acyl-CoA_dh_C        PF12806.6  sp|B6IST7|LPXB_RHOCS -              0.095   12.8   1.3       1.7    8.7   0.3   2.6   2   1   0   2   2   2   0 Acetyl-CoA dehydrogenase C-terminal like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B6IST7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B6IST7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B6IST7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:12:59 2019
+# [ok]

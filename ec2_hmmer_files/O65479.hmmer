@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O65479|CRK20_ARATH -            3.8e-50  170.5   0.0   1.1e-49  169.0   0.0   1.6   1   1   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O65479|CRK20_ARATH -            2.6e-45  154.8   0.0     4e-45  154.2   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+Stress-antifung      PF01657.16 sp|O65479|CRK20_ARATH -            3.1e-33  114.2   9.6   1.6e-21   76.7   5.6   2.5   2   0   0   2   2   2   2 Salt stress response/antifungal
+APH                  PF01636.22 sp|O65479|CRK20_ARATH -            0.00059   19.7   0.1    0.0018   18.2   0.1   1.7   1   1   1   2   2   2   1 Phosphotransferase enzyme family
+SKG6                 PF08693.9  sp|O65479|CRK20_ARATH -             0.0022   17.3   2.3    0.0056   16.0   2.3   1.7   1   0   0   1   1   1   1 Transmembrane alpha-helix domain
+DUF4448              PF14610.5  sp|O65479|CRK20_ARATH -              0.011   15.5   0.0     0.019   14.7   0.0   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF4448)
+Haspin_kinase        PF12330.7  sp|O65479|CRK20_ARATH -              0.014   14.2   0.0     0.036   12.9   0.0   1.6   2   0   0   2   2   2   0 Haspin like kinase domain
+OppC_N               PF12911.6  sp|O65479|CRK20_ARATH -               0.32   10.9   2.0       1.5    8.8   0.1   2.4   2   0   0   2   2   2   0 N-terminal TM domain of oligopeptide transport permease C
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O65479.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O65479.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O65479.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:25:45 2019
+# [ok]

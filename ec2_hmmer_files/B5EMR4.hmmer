@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Radical_SAM          PF04055.20 sp|B5EMR4|LIPA_ACIF5 -            2.5e-12   47.4   0.0   4.5e-12   46.6   0.0   1.4   2   0   0   2   2   2   1 Radical SAM superfamily
+LIAS_N               PF16881.4  sp|B5EMR4|LIPA_ACIF5 -            6.7e-08   32.8   0.0   1.3e-07   31.9   0.0   1.4   1   0   0   1   1   1   1 N-terminal domain of lipoyl synthase of Radical_SAM family
+Glyco_trans_4_4      PF13579.5  sp|B5EMR4|LIPA_ACIF5 -               0.34   11.2   4.3      0.13   12.6   0.4   2.2   1   1   1   2   2   2   0 Glycosyl transferase 4-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B5EMR4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B5EMR4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B5EMR4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:02:21 2019
+# [ok]

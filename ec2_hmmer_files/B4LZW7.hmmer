@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E3_UFM1_ligase       PF09743.8  sp|B4LZW7|UFL1_DROVI -           3.8e-100  334.9   7.1  3.8e-100  334.9   7.1   1.8   2   0   0   2   2   2   1 E3 UFM1-protein ligase 1
+HTH_DeoR             PF08220.11 sp|B4LZW7|UFL1_DROVI -              0.026   14.2   0.1       3.6    7.3   0.0   3.0   2   0   0   2   2   2   0 DeoR-like helix-turn-helix domain
+Tn7_Tnp_TnsA_C       PF08721.10 sp|B4LZW7|UFL1_DROVI -               0.03   14.8   1.3      0.21   12.2   0.1   3.1   2   0   0   2   2   2   0 TnsA endonuclease C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4LZW7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4LZW7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4LZW7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:54:12 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RdRP_1               PF00680.19 sp|P03600|POL1_CPMVS -           4.4e-149  497.0   0.0    6e-149  496.5   0.0   1.2   1   0   0   1   1   1   1 RNA dependent RNA polymerase
+RNA_helicase         PF00910.21 sp|P03600|POL1_CPMVS -            1.5e-32  112.1   0.1   7.7e-32  109.8   0.0   2.3   2   0   0   2   2   2   1 RNA helicase
+Peptidase_C3         PF00548.19 sp|P03600|POL1_CPMVS -            1.8e-05   24.6   0.2   5.3e-05   23.1   0.2   1.7   1   0   0   1   1   1   1 3C cysteine protease (picornain 3C)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P03600.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P03600.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P03600.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:33:43 2019
+# [ok]

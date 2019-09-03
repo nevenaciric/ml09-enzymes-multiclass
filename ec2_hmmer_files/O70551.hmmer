@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|O70551|SRPK1_MOUSE -              2e-41  142.0   5.2   1.1e-21   77.3   0.1   2.7   3   0   0   3   3   3   2 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|O70551|SRPK1_MOUSE -            8.9e-14   51.3   0.0   1.5e-09   37.4   0.0   2.4   2   0   0   2   2   2   2 Protein tyrosine kinase
+NARP1                PF12569.7  sp|O70551|SRPK1_MOUSE -                1.4    7.6  15.2       5.6    5.6  10.2   2.2   2   0   0   2   2   2   0 NMDA receptor-regulated protein 1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O70551.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O70551.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O70551.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:27:21 2019
+# [ok]

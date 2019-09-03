@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LIAS_N               PF16881.4  sp|B8A031|LIAS_MAIZE -            3.7e-14   53.0   0.3   1.2e-13   51.3   0.3   1.9   1   1   0   1   1   1   1 N-terminal domain of lipoyl synthase of Radical_SAM family
+Radical_SAM          PF04055.20 sp|B8A031|LIAS_MAIZE -            3.8e-14   53.3   0.1   1.4e-13   51.4   0.0   1.8   2   0   0   2   2   2   1 Radical SAM superfamily
+DUF848               PF05852.10 sp|B8A031|LIAS_MAIZE -               0.02   14.9   0.0     0.037   14.0   0.0   1.4   1   0   0   1   1   1   0 Gammaherpesvirus protein of unknown function (DUF848)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8A031.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8A031.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8A031.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:28:59 2019
+# [ok]

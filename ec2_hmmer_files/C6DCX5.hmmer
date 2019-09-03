@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|C6DCX5|PROB_PECCP -            5.2e-45  153.8   3.2   7.6e-45  153.3   2.9   1.4   2   0   0   2   2   2   1 Amino acid kinase family
+PUA                  PF01472.19 sp|C6DCX5|PROB_PECCP -            8.2e-21   73.7   0.1   2.8e-20   72.0   0.1   2.0   1   0   0   1   1   1   1 PUA domain
+ADC                  PF06314.10 sp|C6DCX5|PROB_PECCP -               0.18   11.3   0.0      0.28   10.6   0.0   1.3   1   0   0   1   1   1   0 Acetoacetate decarboxylase (ADC)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C6DCX5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C6DCX5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C6DCX5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:04:12 2019
+# [ok]

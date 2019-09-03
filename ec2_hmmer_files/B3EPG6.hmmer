@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Formyl_trans_N       PF00551.18 sp|B3EPG6|FMT_CHLPB  -            4.9e-39  133.8   0.0   6.1e-39  133.5   0.0   1.1   1   0   0   1   1   1   1 Formyl transferase
+Formyl_trans_C       PF02911.17 sp|B3EPG6|FMT_CHLPB  -            6.5e-25   87.2   0.0   1.2e-24   86.4   0.0   1.4   1   0   0   1   1   1   1 Formyl transferase, C-terminal domain
+PIG-L                PF02585.16 sp|B3EPG6|FMT_CHLPB  -               0.14   12.7   0.0       1.8    9.1   0.0   2.4   2   1   0   2   2   2   0 GlcNAc-PI de-N-acetylase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B3EPG6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B3EPG6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B3EPG6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:48:32 2019
+# [ok]

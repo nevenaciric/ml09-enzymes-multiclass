@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GalKase_gal_bdg      PF10509.8  sp|O42821|GAL1_CANPA -            6.4e-20   70.4   0.0   1.4e-19   69.3   0.0   1.6   1   0   0   1   1   1   1 Galactokinase galactose-binding signature
+GHMP_kinases_N       PF00288.25 sp|O42821|GAL1_CANPA -            3.3e-16   59.2   1.0   7.4e-16   58.0   1.0   1.6   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|O42821|GAL1_CANPA -            3.7e-12   46.3   0.0   7.5e-12   45.4   0.0   1.5   1   0   0   1   1   1   1 GHMP kinases C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O42821.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O42821.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O42821.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:21:46 2019
+# [ok]

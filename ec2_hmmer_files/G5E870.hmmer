@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HECT                 PF00632.24 sp|G5E870|TRIPC_MOUSE -            4.7e-85  285.6   0.6   1.7e-84  283.8   0.0   2.2   3   0   0   3   3   3   1 HECT-domain (ubiquitin-transferase)
+WWE                  PF02825.19 sp|G5E870|TRIPC_MOUSE -            4.2e-19   68.8   0.1     1e-18   67.6   0.1   1.7   1   0   0   1   1   1   1 WWE domain
+UNC45-central        PF11701.7  sp|G5E870|TRIPC_MOUSE -             0.0054   16.6   1.2     0.028   14.3   0.0   2.7   3   0   0   3   3   3   1 Myosin-binding striated muscle assembly central
+HEAT_2               PF13646.5  sp|G5E870|TRIPC_MOUSE -              0.054   13.8   0.1      0.64   10.4   0.0   2.9   3   1   1   4   4   4   0 HEAT repeats
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/G5E870.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/G5E870.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/G5E870.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:12:10 2019
+# [ok]

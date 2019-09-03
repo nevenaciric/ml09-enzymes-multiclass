@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADK                  PF00406.21 sp|B8DPG3|KAD_DESVM  -            6.7e-37  126.8   0.0   8.5e-37  126.5   0.0   1.1   1   0   0   1   1   1   1 Adenylate kinase
+AAA_17               PF13207.5  sp|B8DPG3|KAD_DESVM  -              1e-16   61.5   0.0   1.4e-16   61.1   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+Thymidylate_kin      PF02223.16 sp|B8DPG3|KAD_DESVM  -            0.00026   20.6   0.1    0.0025   17.4   0.1   2.2   2   0   0   2   2   2   1 Thymidylate kinase
+Cytidylate_kin       PF02224.17 sp|B8DPG3|KAD_DESVM  -             0.0092   15.6   0.0     0.014   15.0   0.0   1.2   1   0   0   1   1   1   1 Cytidylate kinase
+ADK_lid              PF05191.13 sp|B8DPG3|KAD_DESVM  -               0.16   11.9   0.8      0.39   10.7   0.8   1.7   1   1   0   1   1   1   0 Adenylate kinase, active site lid
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8DPG3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8DPG3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8DPG3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:31:14 2019
+# [ok]

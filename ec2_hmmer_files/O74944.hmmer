@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IMS                  PF00817.19 sp|O74944|POLK_SCHPO -            7.3e-43  146.0   0.4   7.3e-43  146.0   0.4   1.7   2   0   0   2   2   2   1 impB/mucB/samB family
+IMS_C                PF11799.7  sp|O74944|POLK_SCHPO -              5e-16   59.4   0.5   1.2e-15   58.1   0.5   1.6   1   0   0   1   1   1   1 impB/mucB/samB family C-terminal domain
+IMS_HHH              PF11798.7  sp|O74944|POLK_SCHPO -            0.00038   20.5   0.0   0.00093   19.3   0.0   1.7   1   0   0   1   1   1   1 IMS family HHH motif
+RNF220               PF15926.4  sp|O74944|POLK_SCHPO -             0.0039   16.7   0.1    0.0082   15.7   0.1   1.5   1   0   0   1   1   1   1 E3 ubiquitin-protein ligase RNF220
+zf-Di19              PF05605.11 sp|O74944|POLK_SCHPO -               0.14   12.4   0.5         2    8.7   0.2   2.7   3   0   0   3   3   3   0 Drought induced 19 protein (Di19), zinc-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O74944.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O74944.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O74944.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:28:00 2019
+# [ok]

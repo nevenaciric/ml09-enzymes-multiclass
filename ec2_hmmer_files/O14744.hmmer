@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRMT5_TIM            PF17285.1  sp|O14744|ANM5_HUMAN -              1e-76  257.5   0.0   1.5e-76  256.9   0.0   1.3   1   0   0   1   1   1   1 PRMT5 TIM barrel domain
+PRMT5                PF05185.15 sp|O14744|ANM5_HUMAN -            1.1e-72  243.4   0.0   1.5e-72  242.9   0.0   1.2   1   0   0   1   1   1   1 PRMT5 arginine-N-methyltransferase
+PRMT5_C              PF17286.1  sp|O14744|ANM5_HUMAN -            7.2e-60  201.8   0.6   1.5e-59  200.7   0.6   1.6   1   0   0   1   1   1   1 PRMT5 oligomerisation domain
+Met_10               PF02475.15 sp|O14744|ANM5_HUMAN -             0.0064   16.2   0.0     0.011   15.4   0.0   1.3   1   0   0   1   1   1   1 Met-10+ like-protein
+MTS                  PF05175.13 sp|O14744|ANM5_HUMAN -             0.0064   16.0   0.0     0.011   15.2   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase small domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O14744.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O14744.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O14744.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:16:12 2019
+# [ok]

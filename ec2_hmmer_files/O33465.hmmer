@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+S-methyl_trans       PF02574.15 sp|O33465|METH_PSEPU -            1.1e-77  261.4   0.0   1.6e-77  260.8   0.0   1.3   1   0   0   1   1   1   1 Homocysteine S-methyltransferase
+Pterin_bind          PF00809.21 sp|O33465|METH_PSEPU -              9e-58  195.7   1.5   1.8e-57  194.7   0.4   2.1   3   0   0   3   3   3   1 Pterin binding enzyme
+MtrH                 PF02007.17 sp|O33465|METH_PSEPU -              0.002   17.2   0.1    0.0038   16.3   0.1   1.4   1   0   0   1   1   1   1 Tetrahydromethanopterin S-methyltransferase MtrH subunit
+CdhD                 PF03599.15 sp|O33465|METH_PSEPU -             0.0025   16.5   0.1    0.0054   15.4   0.1   1.5   1   0   0   1   1   1   1 CO dehydrogenase/acetyl-CoA synthase delta subunit
+AP_endonuc_2         PF01261.23 sp|O33465|METH_PSEPU -              0.017   14.4   0.0       4.4    6.6   0.0   2.4   2   0   0   2   2   2   0 Xylose isomerase-like TIM barrel
+ComA                 PF02679.14 sp|O33465|METH_PSEPU -              0.022   14.1   1.0       2.4    7.4   0.0   2.9   2   1   1   3   3   3   0 (2R)-phospho-3-sulfolactate synthase (ComA)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O33465.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O33465.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O33465.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:20:29 2019
+# [ok]

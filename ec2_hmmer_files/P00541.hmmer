@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P00541|FPS_AVISP  -            4.2e-97  324.4   0.0   5.5e-97  324.0   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P00541|FPS_AVISP  -            2.4e-54  184.4   0.0   3.4e-54  183.9   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P00541|FPS_AVISP  -            2.2e-16   59.6   0.0   4.4e-16   58.6   0.0   1.6   1   0   0   1   1   1   1 SH2 domain
+FCH                  PF00611.22 sp|P00541|FPS_AVISP  -            3.6e-06   27.1   0.0   6.9e-06   26.2   0.0   1.5   1   0   0   1   1   1   1 Fes/CIP4, and EFC/F-BAR homology domain
+Haspin_kinase        PF12330.7  sp|P00541|FPS_AVISP  -             0.0088   14.9   0.0     0.014   14.3   0.0   1.4   1   0   0   1   1   1   1 Haspin like kinase domain
+Kinase-like          PF14531.5  sp|P00541|FPS_AVISP  -              0.065   12.4   0.0      0.12   11.6   0.0   1.4   1   0   0   1   1   1   0 Kinase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P00541.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P00541.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P00541.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:32:47 2019
+# [ok]

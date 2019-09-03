@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|O88974|SETB1_MOUSE -            3.1e-38  131.7   3.7   1.1e-37  129.9   0.5   2.9   2   1   0   2   2   2   1 SET domain
+Pre-SET              PF05033.15 sp|O88974|SETB1_MOUSE -            1.9e-15   57.3  10.4   5.2e-15   56.0  10.4   1.8   1   0   0   1   1   1   1 Pre-SET motif
+MBD                  PF01429.18 sp|O88974|SETB1_MOUSE -            9.5e-13   47.6   0.0     2e-12   46.6   0.0   1.6   1   0   0   1   1   1   1 Methyl-CpG binding domain
+DUF4537              PF15057.5  sp|O88974|SETB1_MOUSE -             0.0044   16.9   0.0     0.011   15.7   0.0   1.6   1   0   0   1   1   1   1 Domain of unknown function (DUF4537)
+53-BP1_Tudor         PF09038.9  sp|O88974|SETB1_MOUSE -              0.078   12.8   4.0     0.097   12.5   0.0   3.1   4   0   0   4   4   4   0 Tumour suppressor p53-binding protein-1 Tudor
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O88974.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O88974.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O88974.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:30:57 2019
+# [ok]

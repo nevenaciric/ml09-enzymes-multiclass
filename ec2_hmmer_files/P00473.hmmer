@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+N6_N4_Mtase          PF01555.17 sp|P00473|MTH2_HAEPH -            3.1e-15   56.4   0.1   4.1e-13   49.5   0.1   2.2   1   1   0   1   1   1   1 DNA methylase
+BTK                  PF00779.18 sp|P00473|MTH2_HAEPH -              0.015   15.0   0.1     0.029   14.1   0.1   1.4   1   0   0   1   1   1   0 BTK motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P00473.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P00473.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P00473.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:32:25 2019
+# [ok]

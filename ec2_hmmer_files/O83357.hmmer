@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RrnaAD               PF00398.19 sp|O83357|RSMA_TREPA -              5e-38  130.6   0.0   6.3e-38  130.3   0.0   1.0   1   0   0   1   1   1   1 Ribosomal RNA adenine dimethylase
+Methyltransf_25      PF13649.5  sp|O83357|RSMA_TREPA -              0.032   14.8   0.0     0.063   13.9   0.0   1.5   1   0   0   1   1   1   0 Methyltransferase domain
+MTS                  PF05175.13 sp|O83357|RSMA_TREPA -               0.11   11.9   0.0      0.17   11.3   0.0   1.2   1   0   0   1   1   1   0 Methyltransferase small domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O83357.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O83357.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O83357.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:29:26 2019
+# [ok]

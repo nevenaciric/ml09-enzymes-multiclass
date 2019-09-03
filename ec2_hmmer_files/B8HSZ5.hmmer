@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACCA                 PF03255.13 sp|B8HSZ5|ACCA_CYAP4 -            1.4e-59  200.0   0.0     2e-59  199.5   0.0   1.2   1   0   0   1   1   1   1 Acetyl co-enzyme A carboxylase carboxyltransferase alpha subunit
+Carboxyl_trans       PF01039.21 sp|B8HSZ5|ACCA_CYAP4 -              1e-12   47.4   0.1   1.3e-12   47.1   0.1   1.1   1   0   0   1   1   1   1 Carboxyl transferase domain
+DUF1351              PF07083.10 sp|B8HSZ5|ACCA_CYAP4 -             0.0022   17.7   0.1    0.0031   17.2   0.1   1.2   1   0   0   1   1   1   1 Protein of unknown function (DUF1351)
+ECH_1                PF00378.19 sp|B8HSZ5|ACCA_CYAP4 -              0.019   14.2   0.1      0.18   11.0   0.1   2.2   1   1   0   1   1   1   0 Enoyl-CoA hydratase/isomerase
+Snapin_Pallidin      PF14712.5  sp|B8HSZ5|ACCA_CYAP4 -              0.022   15.1   1.7     0.043   14.2   1.7   1.4   1   0   0   1   1   1   0 Snapin/Pallidin
+EzrA                 PF06160.11 sp|B8HSZ5|ACCA_CYAP4 -               0.11   10.5   0.2      0.16   10.1   0.2   1.1   1   0   0   1   1   1   0 Septation ring formation regulator, EzrA
+Shugoshin_N          PF07558.10 sp|B8HSZ5|ACCA_CYAP4 -               0.16   11.8   1.1      0.22   11.3   0.2   1.7   2   0   0   2   2   2   0 Shugoshin N-terminal coiled-coil region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8HSZ5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8HSZ5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8HSZ5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:34:52 2019
+# [ok]

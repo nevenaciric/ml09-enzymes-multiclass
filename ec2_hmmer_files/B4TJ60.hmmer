@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FGGY_C               PF02782.15 sp|B4TJ60|ARAB_SALHS -            3.9e-36  124.5   0.2   7.2e-36  123.7   0.2   1.5   1   0   0   1   1   1   1 FGGY family of carbohydrate kinases, C-terminal domain
+FGGY_N               PF00370.20 sp|B4TJ60|ARAB_SALHS -            1.3e-08   34.7   0.0   1.5e-05   24.6   0.0   2.5   2   1   0   2   2   2   2 FGGY family of carbohydrate kinases, N-terminal domain
+XPC-binding          PF09280.10 sp|B4TJ60|ARAB_SALHS -               0.14   11.8   1.1      0.28   10.8   0.3   1.9   2   0   0   2   2   2   0 XPC-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4TJ60.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4TJ60.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4TJ60.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:58:23 2019
+# [ok]

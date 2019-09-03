@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hexapep              PF00132.23 sp|C3LSI7|GLMU_VIBCM -            3.2e-29   99.4  21.9   2.7e-09   36.3   0.5   5.3   2   1   3   5   5   5   5 Bacterial transferase hexapeptide (six repeats)
+NTP_transf_3         PF12804.6  sp|C3LSI7|GLMU_VIBCM -            2.6e-22   79.8   0.1   4.2e-22   79.1   0.1   1.5   1   1   0   1   1   1   1 MobA-like NTP transferase domain
+Hexapep_2            PF14602.5  sp|C3LSI7|GLMU_VIBCM -            1.2e-13   50.4  21.6   2.5e-07   30.2   0.7   4.8   3   1   1   5   5   5   4 Hexapeptide repeat of succinyl-transferase
+NTP_transferase      PF00483.22 sp|C3LSI7|GLMU_VIBCM -            3.6e-12   46.3   0.0   5.8e-12   45.6   0.0   1.3   1   0   0   1   1   1   1 Nucleotidyl transferase
+IspD                 PF01128.18 sp|C3LSI7|GLMU_VIBCM -            2.2e-08   34.0   0.2   5.8e-08   32.6   0.2   1.8   1   1   0   1   1   1   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+CofC                 PF01983.15 sp|C3LSI7|GLMU_VIBCM -            0.00053   19.1   0.0   0.00092   18.3   0.0   1.3   1   0   0   1   1   1   1 Guanylyl transferase CofC like
+CTP_transf_3         PF02348.18 sp|C3LSI7|GLMU_VIBCM -             0.0028   17.5   0.1      0.54   10.0   0.0   2.3   2   0   0   2   2   2   2 Cytidylyltransferase
+DUF4954              PF16314.4  sp|C3LSI7|GLMU_VIBCM -              0.017   13.2   0.1     0.042   11.9   0.1   1.6   1   1   0   1   1   1   0 Domain of unknown function (DUF4954)
+Fucokinase           PF07959.11 sp|C3LSI7|GLMU_VIBCM -              0.028   13.4   0.1      0.14   11.0   0.1   2.0   1   1   2   3   3   3   0 L-fucokinase
+Bactofilin           PF04519.12 sp|C3LSI7|GLMU_VIBCM -              0.042   14.0   0.3     0.042   14.0   0.3   2.1   2   0   0   2   2   2   0 Polymer-forming cytoskeletal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C3LSI7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C3LSI7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C3LSI7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:54:08 2019
+# [ok]

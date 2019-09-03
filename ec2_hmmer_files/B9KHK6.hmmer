@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Thymidylate_kin      PF02223.16 sp|B9KHK6|KTHY_ANAMF -            5.1e-37  127.3   0.0   6.2e-37  127.0   0.0   1.0   1   0   0   1   1   1   1 Thymidylate kinase
+AAA_28               PF13521.5  sp|B9KHK6|KTHY_ANAMF -              0.031   14.4   0.0     0.038   14.1   0.0   1.4   1   1   0   1   1   1   0 AAA domain
+AAA_18               PF13238.5  sp|B9KHK6|KTHY_ANAMF -              0.086   13.3   0.0      0.15   12.5   0.0   1.7   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B9KHK6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B9KHK6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B9KHK6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:40:40 2019
+# [ok]

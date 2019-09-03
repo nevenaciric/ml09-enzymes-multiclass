@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|B8FQ45|DXS_DESHD  -           1.2e-123  411.6   0.0  1.9e-123  410.9   0.0   1.4   1   0   0   1   1   1   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|B8FQ45|DXS_DESHD  -            1.2e-40  139.0   0.0   2.1e-40  138.2   0.0   1.3   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|B8FQ45|DXS_DESHD  -            7.1e-30  103.4   0.7     2e-29  101.9   0.1   2.1   2   0   0   2   2   2   1 Transketolase, C-terminal domain
+Transketolase_N      PF00456.20 sp|B8FQ45|DXS_DESHD  -            1.5e-07   30.6   0.0   1.9e-05   23.7   0.0   2.4   2   0   0   2   2   2   2 Transketolase, thiamine diphosphate binding domain
+TPP_enzyme_C         PF02775.20 sp|B8FQ45|DXS_DESHD  -            3.6e-07   30.0   3.1   2.8e-06   27.1   1.7   2.6   2   1   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+E1_dh                PF00676.19 sp|B8FQ45|DXS_DESHD  -            1.5e-06   27.3   0.4   2.9e-06   26.3   0.4   1.4   1   0   0   1   1   1   1 Dehydrogenase E1 component
+PFOR_II              PF17147.3  sp|B8FQ45|DXS_DESHD  -            0.00032   20.8   0.1    0.0012   19.0   0.1   2.0   1   0   0   1   1   1   1 Pyruvate:ferredoxin oxidoreductase core domain II
+3HCDH_N              PF02737.17 sp|B8FQ45|DXS_DESHD  -               0.03   14.1   0.4      0.08   12.7   0.1   1.9   2   0   0   2   2   2   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+HHH                  PF00633.22 sp|B8FQ45|DXS_DESHD  -              0.069   13.0   0.0      0.25   11.2   0.0   1.9   1   0   0   1   1   1   0 Helix-hairpin-helix motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8FQ45.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8FQ45.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8FQ45.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:33:07 2019
+# [ok]

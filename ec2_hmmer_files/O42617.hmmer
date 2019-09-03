@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PAP_central          PF04928.16 sp|O42617|PAP_CANAL  -           6.4e-112  372.4   0.0  8.8e-112  372.0   0.0   1.2   1   0   0   1   1   1   1 Poly(A) polymerase central domain
+PAP_RNA-bind         PF04926.14 sp|O42617|PAP_CANAL  -            2.9e-49  166.9   0.5   5.8e-49  165.9   0.5   1.5   1   0   0   1   1   1   1 Poly(A) polymerase predicted RNA binding domain
+NTP_transf_2         PF01909.22 sp|O42617|PAP_CANAL  -            4.7e-14   52.4   0.0   1.2e-13   51.1   0.0   1.7   1   0   0   1   1   1   1 Nucleotidyltransferase domain
+Nrap_D2              PF17403.1  sp|O42617|PAP_CANAL  -             0.0097   15.6   0.0     0.023   14.4   0.0   1.6   1   0   0   1   1   1   1 Nrap protein PAP/OAS-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O42617.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O42617.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O42617.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:21:42 2019
+# [ok]

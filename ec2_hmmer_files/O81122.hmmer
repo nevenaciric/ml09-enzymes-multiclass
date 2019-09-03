@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|O81122|ETR1_MALDO -            1.6e-32  112.3   0.1   4.1e-32  111.0   0.0   1.7   2   0   0   2   2   2   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Response_reg         PF00072.23 sp|O81122|ETR1_MALDO -            5.1e-17   61.9   0.1   2.6e-16   59.7   0.2   2.1   2   0   0   2   2   2   1 Response regulator receiver domain
+HisKA                PF00512.24 sp|O81122|ETR1_MALDO -            3.3e-16   59.0   3.3   3.3e-16   59.0   3.3   3.2   4   0   0   4   4   4   1 His Kinase A (phospho-acceptor) domain
+GAF                  PF01590.25 sp|O81122|ETR1_MALDO -              4e-16   59.7   0.5   7.1e-15   55.7   0.3   2.3   2   0   0   2   2   2   1 GAF domain
+GAF_3                PF13492.5  sp|O81122|ETR1_MALDO -             0.0055   16.9   0.1       2.8    8.2   0.0   2.6   2   0   0   2   2   2   2 GAF domain
+HATPase_c_2          PF13581.5  sp|O81122|ETR1_MALDO -                0.1   12.5   0.0       0.3   11.0   0.0   1.8   1   0   0   1   1   1   0 Histidine kinase-like ATPase domain
+HATPase_c_3          PF13589.5  sp|O81122|ETR1_MALDO -               0.12   12.1   0.0      0.22   11.2   0.0   1.4   1   0   0   1   1   1   0 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O81122.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O81122.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O81122.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:28:57 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|O67209|PROB_AQUAE -            4.4e-35  121.3   1.4   1.4e-34  119.7   0.3   2.0   2   0   0   2   2   2   1 Amino acid kinase family
+PUA                  PF01472.19 sp|O67209|PROB_AQUAE -            9.4e-25   86.3   1.0   2.2e-24   85.1   1.0   1.7   1   0   0   1   1   1   1 PUA domain
+CARD                 PF00619.20 sp|O67209|PROB_AQUAE -              0.097   12.6   2.3       2.8    7.9   0.3   2.6   2   0   0   2   2   2   0 Caspase recruitment domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O67209.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O67209.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O67209.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:26:26 2019
+# [ok]

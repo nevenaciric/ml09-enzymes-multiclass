@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|B1Y823|PNP_LEPCP  -              4e-44  150.2   0.0   1.6e-22   80.3   0.0   2.4   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|B1Y823|PNP_LEPCP  -              4e-16   58.7   1.4   9.3e-10   38.3   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|B1Y823|PNP_LEPCP  -            4.3e-15   55.9   0.6   1.5e-14   54.2   0.1   2.2   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|B1Y823|PNP_LEPCP  -            4.5e-15   55.6   1.2   4.5e-15   55.6   1.2   2.1   2   0   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|B1Y823|PNP_LEPCP  -            1.4e-12   47.1   0.4   4.8e-12   45.4   0.4   2.0   1   0   0   1   1   1   1 KH domain
+KH_2                 PF07650.16 sp|B1Y823|PNP_LEPCP  -             0.0003   20.5   0.1    0.0011   18.7   0.1   2.0   1   0   0   1   1   1   1 KH domain
+KH_4                 PF13083.5  sp|B1Y823|PNP_LEPCP  -             0.0066   16.2   0.4     0.046   13.5   0.0   2.4   2   0   0   2   2   2   1 KH domain
+DNA_pol3_a_NI        PF14480.5  sp|B1Y823|PNP_LEPCP  -              0.012   15.5   0.0     0.028   14.3   0.0   1.5   1   0   0   1   1   1   0 DNA polymerase III polC-type N-terminus I
+Phage_tube           PF04985.13 sp|B1Y823|PNP_LEPCP  -              0.063   12.9   0.4      0.18   11.4   0.1   1.9   2   0   0   2   2   2   0 Phage tail tube protein FII
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B1Y823.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B1Y823.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B1Y823.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:32:47 2019
+# [ok]

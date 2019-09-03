@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c_2          PF13581.5  sp|B7H965|SP2AB_BACC4 -            1.7e-22   79.6   0.1   1.9e-22   79.4   0.1   1.0   1   0   0   1   1   1   1 Histidine kinase-like ATPase domain
+HATPase_c            PF02518.25 sp|B7H965|SP2AB_BACC4 -            3.6e-09   37.1   0.2     5e-09   36.6   0.2   1.2   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+DUF1495              PF07381.10 sp|B7H965|SP2AB_BACC4 -              0.013   15.2   0.0      0.02   14.6   0.0   1.2   1   0   0   1   1   1   0 Winged helix DNA-binding domain (DUF1495)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B7H965.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B7H965.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B7H965.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:16:16 2019
+# [ok]

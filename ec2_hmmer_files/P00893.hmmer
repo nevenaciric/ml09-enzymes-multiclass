@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|P00893|ILVI_ECOLI -            2.9e-61  205.9   0.7   7.2e-58  194.9   0.2   2.5   2   0   0   2   2   2   2 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_C         PF02775.20 sp|P00893|ILVI_ECOLI -            2.8e-51  173.2   0.2   3.1e-49  166.6   0.0   3.2   3   1   0   3   3   3   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+TPP_enzyme_M         PF00205.21 sp|P00893|ILVI_ECOLI -            1.3e-46  157.7   0.1   2.3e-46  156.9   0.1   1.4   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, central domain
+POR_N                PF01855.18 sp|P00893|ILVI_ECOLI -             0.0046   16.6   0.0      0.01   15.5   0.1   1.6   2   0   0   2   2   2   1 Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P00893.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P00893.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P00893.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:33:02 2019
+# [ok]

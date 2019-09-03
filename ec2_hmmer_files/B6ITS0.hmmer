@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|B6ITS0|MIAA_RHOCS -            5.5e-65  219.3   0.0     7e-65  218.9   0.0   1.0   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|B6ITS0|MIAA_RHOCS -              6e-05   22.5   0.0   7.8e-05   22.1   0.0   1.2   1   0   0   1   1   1   1 Isopentenyl transferase
+AAA_33               PF13671.5  sp|B6ITS0|MIAA_RHOCS -              0.054   13.6   0.0      0.22   11.5   0.0   2.1   2   0   0   2   2   2   0 AAA domain
+Cytidylate_kin       PF02224.17 sp|B6ITS0|MIAA_RHOCS -               0.16   11.6   0.0      0.24   11.0   0.0   1.2   1   0   0   1   1   1   0 Cytidylate kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B6ITS0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B6ITS0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B6ITS0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:13:02 2019
+# [ok]

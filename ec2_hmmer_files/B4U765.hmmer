@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADK                  PF00406.21 sp|B4U765|KAD_HYDS0  -            1.2e-52  177.9   0.0   1.5e-52  177.6   0.0   1.0   1   0   0   1   1   1   1 Adenylate kinase
+AAA_17               PF13207.5  sp|B4U765|KAD_HYDS0  -            7.5e-28   97.6   0.0     6e-27   94.6   0.0   1.9   2   0   0   2   2   2   1 AAA domain
+ADK_lid              PF05191.13 sp|B4U765|KAD_HYDS0  -            9.7e-15   54.2   2.3   1.5e-14   53.6   2.3   1.3   1   0   0   1   1   1   1 Adenylate kinase, active site lid
+AAA_18               PF13238.5  sp|B4U765|KAD_HYDS0  -            1.2e-07   32.2   0.0   2.2e-07   31.3   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|B4U765|KAD_HYDS0  -             0.0013   18.9   0.0    0.0023   18.0   0.0   1.4   1   0   0   1   1   1   1 AAA domain
+Cytidylate_kin       PF02224.17 sp|B4U765|KAD_HYDS0  -             0.0047   16.6   0.0    0.0084   15.8   0.0   1.4   1   0   0   1   1   1   1 Cytidylate kinase
+Thymidylate_kin      PF02223.16 sp|B4U765|KAD_HYDS0  -             0.0052   16.4   1.1       3.4    7.2   0.0   2.9   2   1   0   3   3   3   2 Thymidylate kinase
+DUF244               PF03112.13 sp|B4U765|KAD_HYDS0  -              0.017   14.9   0.2     0.028   14.2   0.2   1.4   1   0   0   1   1   1   0 Uncharacterized protein family (ORF7) DUF
+TF_Zn_Ribbon         PF08271.11 sp|B4U765|KAD_HYDS0  -              0.047   13.1   1.0     0.096   12.1   1.0   1.5   1   0   0   1   1   1   0 TFIIB zinc-binding
+A2L_zn_ribbon        PF08792.9  sp|B4U765|KAD_HYDS0  -              0.096   12.3   0.0      0.23   11.2   0.0   1.6   1   0   0   1   1   1   0 A2L zinc ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B4U765.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B4U765.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B4U765.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:59:50 2019
+# [ok]

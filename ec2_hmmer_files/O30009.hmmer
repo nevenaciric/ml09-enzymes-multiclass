@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DeoC                 PF01791.8  sp|O30009|ADHS1_ARCFU -            8.6e-45  153.1   2.2   1.1e-44  152.8   2.2   1.1   1   0   0   1   1   1   1 DeoC/LacD family aldolase
+TMP-TENI             PF02581.16 sp|O30009|ADHS1_ARCFU -            4.9e-05   22.6   0.5     0.039   13.2   0.0   2.6   1   1   0   2   2   2   2 Thiamine monophosphate synthase
+AP_endonuc_2         PF01261.23 sp|O30009|ADHS1_ARCFU -            0.00066   19.1   0.3    0.0034   16.8   0.0   2.0   2   0   0   2   2   2   1 Xylose isomerase-like TIM barrel
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O30009.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O30009.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O30009.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:19:21 2019
+# [ok]

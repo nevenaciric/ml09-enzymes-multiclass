@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|B1LAQ3|DXS_THESQ  -           3.5e-103  344.5   0.3  3.6e-102  341.1   0.1   2.0   2   0   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|B1LAQ3|DXS_THESQ  -            4.7e-40  137.1   0.0   2.8e-39  134.5   0.0   2.1   2   0   0   2   2   2   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|B1LAQ3|DXS_THESQ  -            1.2e-24   86.4   0.1   8.3e-24   83.7   0.0   2.2   2   0   0   2   2   2   1 Transketolase, C-terminal domain
+TPP_enzyme_C         PF02775.20 sp|B1LAQ3|DXS_THESQ  -            7.8e-08   32.2   0.1     1e-06   28.6   0.0   2.8   2   1   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B1LAQ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B1LAQ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B1LAQ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:27:52 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CbiD                 PF01888.16 sp|O87693|CBID_BACME -            1.1e-96  322.9   2.9   1.5e-96  322.4   2.9   1.2   1   0   0   1   1   1   1 CbiD
+MoCF_biosynth        PF00994.23 sp|O87693|CBID_BACME -              0.036   13.6   1.0         9    5.9   0.0   2.7   3   0   0   3   3   3   0 Probable molybdopterin binding domain
+Methyltransf_PK      PF05891.11 sp|O87693|CBID_BACME -               0.15   11.5   0.0      0.31   10.4   0.0   1.5   1   0   0   1   1   1   0 AdoMet dependent proline di-methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O87693.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O87693.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O87693.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:30:33 2019
+# [ok]

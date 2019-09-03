@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|B2SGK5|DXS_FRATM  -           4.7e-119  396.5   0.5  9.1e-119  395.6   0.1   1.7   2   0   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|B2SGK5|DXS_FRATM  -              1e-38  132.7   0.0   1.9e-38  131.8   0.0   1.4   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|B2SGK5|DXS_FRATM  -            5.7e-19   68.1   0.0   1.8e-18   66.5   0.0   1.9   1   0   0   1   1   1   1 Transketolase, C-terminal domain
+TPP_enzyme_C         PF02775.20 sp|B2SGK5|DXS_FRATM  -              6e-06   26.0   0.8   7.5e-05   22.5   0.2   2.5   3   0   0   3   3   3   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+E1_dh                PF00676.19 sp|B2SGK5|DXS_FRATM  -            1.3e-05   24.2   0.1   2.1e-05   23.6   0.1   1.2   1   0   0   1   1   1   1 Dehydrogenase E1 component
+Transketolase_N      PF00456.20 sp|B2SGK5|DXS_FRATM  -             0.0043   16.0   0.7     0.026   13.4   1.0   2.0   2   1   0   2   2   2   1 Transketolase, thiamine diphosphate binding domain
+Pectinesterase       PF01095.18 sp|B2SGK5|DXS_FRATM  -              0.089   11.4   0.5      0.45    9.1   0.2   1.9   2   0   0   2   2   2   0 Pectinesterase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2SGK5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2SGK5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2SGK5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:41:51 2019
+# [ok]

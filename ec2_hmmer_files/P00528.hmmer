@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P00528|SRC64_DROME -            2.4e-94  315.4   0.0   3.1e-94  315.0   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P00528|SRC64_DROME -            2.3e-50  171.3   0.0   3.1e-50  170.9   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P00528|SRC64_DROME -            5.6e-25   87.1   0.0   1.3e-24   86.0   0.0   1.7   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|P00528|SRC64_DROME -            1.3e-18   66.2   0.0   2.8e-18   65.2   0.0   1.6   1   0   0   1   1   1   1 SH3 domain
+SH3_9                PF14604.5  sp|P00528|SRC64_DROME -            3.9e-10   39.3   0.0   1.1e-09   37.9   0.0   1.9   1   0   0   1   1   1   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|P00528|SRC64_DROME -            1.8e-07   30.7   0.0   3.3e-07   29.8   0.0   1.5   1   0   0   1   1   1   1 Variant SH3 domain
+Haspin_kinase        PF12330.7  sp|P00528|SRC64_DROME -              0.001   18.0   0.0    0.0014   17.5   0.0   1.2   1   0   0   1   1   1   1 Haspin like kinase domain
+APH                  PF01636.22 sp|P00528|SRC64_DROME -              0.011   15.6   0.0     0.027   14.3   0.0   1.6   1   1   0   1   1   1   0 Phosphotransferase enzyme family
+Kdo                  PF06293.13 sp|P00528|SRC64_DROME -               0.26   10.5   0.7      0.78    9.0   0.1   2.0   2   1   0   2   2   2   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P00528.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P00528.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P00528.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:32:41 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|B7ZR30|STK10_XENLA -            7.5e-66  222.1   0.0   7.5e-66  222.1   0.0   3.3   3   2   1   4   4   4   1 Protein kinase domain
+PKK                  PF12474.7  sp|B7ZR30|STK10_XENLA -            2.6e-62  208.9  86.9   9.5e-34  116.4  35.9   4.3   4   0   0   4   4   4   2 Polo kinase kinase
+Pkinase_Tyr          PF07714.16 sp|B7ZR30|STK10_XENLA -            1.6e-47  161.9   0.4   6.5e-47  159.9   0.0   2.2   2   0   0   2   2   2   1 Protein tyrosine kinase
+APH                  PF01636.22 sp|B7ZR30|STK10_XENLA -                2.1    8.1  14.7       6.2    6.6   0.1   4.5   3   2   1   4   4   4   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B7ZR30.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B7ZR30.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B7ZR30.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:28:58 2019
+# [ok]

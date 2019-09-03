@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC1                 PF03109.15 sp|O07443|UBIB_PROST -              2e-35  121.4   0.0     4e-35  120.5   0.0   1.5   1   0   0   1   1   1   1 ABC1 family
+DUF2157              PF09925.8  sp|O07443|UBIB_PROST -              0.063   13.0   0.1      0.12   12.1   0.1   1.4   1   0   0   1   1   1   0 Predicted membrane protein (DUF2157)
+Protoglobin          PF11563.7  sp|O07443|UBIB_PROST -                0.1   12.4   0.1      0.27   11.1   0.1   1.7   1   0   0   1   1   1   0 Protoglobin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O07443.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O07443.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O07443.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:14:41 2019
+# [ok]

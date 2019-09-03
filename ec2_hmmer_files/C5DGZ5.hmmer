@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LIAS_N               PF16881.4  sp|C5DGZ5|LIPA_LACTC -            5.1e-24   84.7   0.9   1.1e-23   83.6   0.9   1.6   1   0   0   1   1   1   1 N-terminal domain of lipoyl synthase of Radical_SAM family
+Radical_SAM          PF04055.20 sp|C5DGZ5|LIPA_LACTC -            2.3e-14   54.0   0.0   4.7e-14   53.0   0.0   1.5   1   0   0   1   1   1   1 Radical SAM superfamily
+Ivy                  PF08816.10 sp|C5DGZ5|LIPA_LACTC -               0.12   12.5   0.1      0.29   11.2   0.1   1.6   1   0   0   1   1   1   0 Inhibitor of vertebrate lysozyme (Ivy)
+Spore_GerAC          PF05504.10 sp|C5DGZ5|LIPA_LACTC -               0.16   12.0   0.0      0.26   11.4   0.0   1.3   1   0   0   1   1   1   0 Spore germination B3/ GerAC like, C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C5DGZ5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C5DGZ5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C5DGZ5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:02:58 2019
+# [ok]

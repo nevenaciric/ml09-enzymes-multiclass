@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RdRP                 PF05183.11 sp|O14227|RDP1_SCHPO -             8e-165  549.7   0.0  1.1e-164  549.3   0.0   1.2   1   0   0   1   1   1   1 RNA dependent RNA polymerase
+RE_SacI              PF09566.9  sp|O14227|RDP1_SCHPO -             0.0038   17.0   0.1    0.0078   16.0   0.1   1.4   1   0   0   1   1   1   1 SacI restriction endonuclease
+CARD                 PF00619.20 sp|O14227|RDP1_SCHPO -              0.042   13.8   0.6     0.093   12.7   0.6   1.5   1   0   0   1   1   1   0 Caspase recruitment domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O14227.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O14227.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O14227.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:15:55 2019
+# [ok]

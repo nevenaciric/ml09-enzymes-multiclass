@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O19064|JAK2_PIG   -           3.5e-150  498.4   0.0   1.7e-85  286.3   0.0   2.2   2   0   0   2   2   2   2 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O19064|JAK2_PIG   -            3.8e-74  249.3   0.0   8.8e-51  172.7   0.0   2.5   2   0   0   2   2   2   2 Protein kinase domain
+SH2                  PF00017.23 sp|O19064|JAK2_PIG   -            2.5e-07   30.6   0.0   6.8e-07   29.2   0.0   1.8   1   0   0   1   1   1   1 SH2 domain
+RIO1                 PF01163.21 sp|O19064|JAK2_PIG   -            0.00081   18.9   1.3      0.18   11.3   0.1   2.5   2   0   0   2   2   2   2 RIO1 family
+Kinase-like          PF14531.5  sp|O19064|JAK2_PIG   -             0.0023   17.2   0.0     0.012   14.8   0.0   2.1   2   1   0   2   2   2   1 Kinase-like
+APH                  PF01636.22 sp|O19064|JAK2_PIG   -              0.018   14.9   0.0       1.1    9.0   0.0   2.7   2   1   1   3   3   3   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O19064.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O19064.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O19064.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:16:41 2019
+# [ok]

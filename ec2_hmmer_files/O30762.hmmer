@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|O30762|MIAA_PSEPU -            9.7e-86  287.2   0.0   1.1e-85  286.9   0.0   1.0   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|O30762|MIAA_PSEPU -            1.3e-06   27.9   0.0   0.00055   19.3   0.0   2.1   2   0   0   2   2   2   2 Isopentenyl transferase
+AAA_33               PF13671.5  sp|O30762|MIAA_PSEPU -             0.0001   22.4   0.0   0.00027   21.0   0.0   1.9   1   1   1   2   2   2   1 AAA domain
+AAA_16               PF13191.5  sp|O30762|MIAA_PSEPU -              0.018   15.3   0.5     0.077   13.3   0.5   2.2   1   1   0   1   1   1   0 AAA ATPase domain
+Zeta_toxin           PF06414.11 sp|O30762|MIAA_PSEPU -               0.12   11.5   0.0      0.21   10.7   0.0   1.5   1   0   0   1   1   1   0 Zeta toxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O30762.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O30762.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O30762.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:19:31 2019
+# [ok]

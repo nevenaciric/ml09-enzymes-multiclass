@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|C5DN02|ARO1_LACTC -             6e-142  473.1   0.0  9.4e-142  472.5   0.0   1.3   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|C5DN02|ARO1_LACTC -           5.2e-100  333.8   0.0  8.7e-100  333.1   0.0   1.4   1   0   0   1   1   1   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|C5DN02|ARO1_LACTC -            2.8e-58  197.8   0.0   6.4e-58  196.6   0.0   1.7   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|C5DN02|ARO1_LACTC -              3e-37  128.1   0.2   6.9e-35  120.4   0.0   3.4   3   0   0   3   3   3   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|C5DN02|ARO1_LACTC -              1e-22   80.1   0.0   3.4e-22   78.4   0.0   2.0   2   0   0   2   2   2   1 Shikimate dehydrogenase substrate binding domain
+Fe-ADH_2             PF13685.5  sp|C5DN02|ARO1_LACTC -            1.1e-08   35.0   0.1   2.8e-08   33.7   0.1   1.7   1   0   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Shikimate_DH         PF01488.19 sp|C5DN02|ARO1_LACTC -            7.6e-07   29.2   0.0   3.8e-06   26.9   0.0   2.2   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+AAA_33               PF13671.5  sp|C5DN02|ARO1_LACTC -              0.035   14.2   0.0     0.081   13.0   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+NTP_transf_3         PF12804.6  sp|C5DN02|ARO1_LACTC -               0.18   12.1   2.0      0.49   10.6   0.1   2.6   4   0   0   4   4   4   0 MobA-like NTP transferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C5DN02.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C5DN02.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C5DN02.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:02:59 2019
+# [ok]

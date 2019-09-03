@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SAD_SRA              PF02182.16 sp|O82175|SUVH5_ARATH -            6.7e-52  175.0   0.2   3.1e-51  172.9   0.1   2.0   2   0   0   2   2   2   1 SAD/SRA domain
+SET                  PF00856.27 sp|O82175|SUVH5_ARATH -            5.3e-21   75.6   0.0   1.9e-20   73.8   0.0   2.0   1   1   0   1   1   1   1 SET domain
+Pre-SET              PF05033.15 sp|O82175|SUVH5_ARATH -            2.4e-16   60.3  10.7     3e-16   59.9   6.5   2.5   2   0   0   2   2   2   1 Pre-SET motif
+Metallothio_PEC      PF02068.15 sp|O82175|SUVH5_ARATH -                3.8    7.8  15.9       1.7    8.9  10.4   2.6   2   0   0   2   2   2   0 Plant PEC family metallothionein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O82175.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O82175.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O82175.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:29:08 2019
+# [ok]

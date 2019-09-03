@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Formyl_trans_N       PF00551.18 sp|C4Z520|FMT_EUBE2  -            9.9e-46  155.6   0.0   1.4e-45  155.2   0.0   1.2   1   0   0   1   1   1   1 Formyl transferase
+Formyl_trans_C       PF02911.17 sp|C4Z520|FMT_EUBE2  -            3.1e-28   97.8   0.0     6e-28   96.9   0.0   1.5   1   0   0   1   1   1   1 Formyl transferase, C-terminal domain
+Peptidase_S24        PF00717.22 sp|C4Z520|FMT_EUBE2  -               0.42   10.5   1.8       1.6    8.7   0.1   2.7   3   1   0   3   3   3   0 Peptidase S24-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C4Z520.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C4Z520.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C4Z520.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:59:33 2019
+# [ok]

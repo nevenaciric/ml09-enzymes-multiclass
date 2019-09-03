@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|B8DRE0|MNMA_DESVM -            1.2e-89  300.5   0.0   1.3e-89  300.4   0.0   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+PAPS_reduct          PF01507.18 sp|B8DRE0|MNMA_DESVM -              0.041   13.8   0.0      0.18   11.7   0.0   1.9   1   1   0   1   1   1   0 Phosphoadenosine phosphosulfate reductase family
+ATP_bind_3           PF01171.19 sp|B8DRE0|MNMA_DESVM -               0.13   11.9   0.0       0.2   11.3   0.0   1.5   1   1   0   1   1   1   0 PP-loop family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B8DRE0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B8DRE0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B8DRE0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:31:17 2019
+# [ok]

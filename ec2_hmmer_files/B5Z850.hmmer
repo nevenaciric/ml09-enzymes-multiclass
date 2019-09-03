@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|B5Z850|AROA_HELPG -           2.3e-101  339.4   0.0  2.9e-101  339.1   0.0   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+NPM1-C               PF16276.4  sp|B5Z850|AROA_HELPG -             0.0028   17.5   0.0    0.0085   15.9   0.0   1.8   1   0   0   1   1   1   1 Nucleophosmin C-terminal domain
+AsmA_1               PF13109.5  sp|B5Z850|AROA_HELPG -              0.021   14.2   0.4      0.05   13.0   0.1   1.7   2   0   0   2   2   2   0 AsmA-like C-terminal region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B5Z850.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B5Z850.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B5Z850.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:10:14 2019
+# [ok]

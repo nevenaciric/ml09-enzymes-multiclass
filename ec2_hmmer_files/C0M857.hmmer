@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACCA                 PF03255.13 sp|C0M857|ACCA_STRE4 -            4.5e-39  133.5   0.1   9.1e-39  132.5   0.1   1.5   1   0   0   1   1   1   1 Acetyl co-enzyme A carboxylase carboxyltransferase alpha subunit
+Carboxyl_trans       PF01039.21 sp|C0M857|ACCA_STRE4 -            1.6e-17   63.3   0.4   1.9e-17   63.1   0.4   1.0   1   0   0   1   1   1   1 Carboxyl transferase domain
+ECH_1                PF00378.19 sp|C0M857|ACCA_STRE4 -            2.2e-06   27.1   0.6   9.9e-06   24.9   0.6   2.0   1   1   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+DUF910               PF06014.10 sp|C0M857|ACCA_STRE4 -                0.1   12.5   0.2        16    5.5   0.0   2.7   2   0   0   2   2   2   0 Bacterial protein of unknown function (DUF910)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C0M857.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C0M857.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C0M857.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:43:40 2019
+# [ok]

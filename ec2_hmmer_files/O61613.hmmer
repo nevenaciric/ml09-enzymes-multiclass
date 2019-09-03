@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NMT_C                PF02799.14 sp|O61613|NMT_DROME  -            2.2e-76  255.9   0.2     4e-76  255.1   0.2   1.4   1   0   0   1   1   1   1 Myristoyl-CoA:protein N-myristoyltransferase, C-terminal domain
+NMT                  PF01233.18 sp|O61613|NMT_DROME  -            9.4e-76  253.0   0.0   1.8e-75  252.1   0.0   1.5   1   0   0   1   1   1   1 Myristoyl-CoA:protein N-myristoyltransferase, N-terminal domain
+Acetyltransf_9       PF13527.6  sp|O61613|NMT_DROME  -            6.7e-05   22.9   0.0     0.013   15.4   0.0   2.3   2   0   0   2   2   2   2 Acetyltransferase (GNAT) domain
+Acetyltransf_1       PF00583.24 sp|O61613|NMT_DROME  -             0.0012   18.9   0.0    0.0038   17.4   0.0   1.8   2   0   0   2   2   2   1 Acetyltransferase (GNAT) family
+Acetyltransf_7       PF13508.6  sp|O61613|NMT_DROME  -              0.086   13.2   0.0      0.21   11.9   0.0   1.6   1   0   0   1   1   1   0 Acetyltransferase (GNAT) domain
+PX                   PF00787.23 sp|O61613|NMT_DROME  -               0.12   12.3   0.9       0.3   11.0   0.9   1.7   1   0   0   1   1   1   0 PX domain
+SIMPL                PF04402.13 sp|O61613|NMT_DROME  -                2.5    8.4   7.9       3.6    7.9   0.8   2.3   1   1   1   2   2   2   0 Protein of unknown function (DUF541)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O61613.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O61613.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O61613.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:25:13 2019
+# [ok]

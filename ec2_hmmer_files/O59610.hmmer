@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B            PF00136.20 sp|O59610|DPOL_PYRHO -            4.8e-75  252.9   0.0     3e-42  144.8   0.1   2.2   2   0   0   2   2   2   2 DNA polymerase family B
+Intein_splicing      PF14890.5  sp|O59610|DPOL_PYRHO -            6.9e-54  182.5   2.3   1.4e-53  181.5   2.3   1.5   1   0   0   1   1   1   1 Intein splicing domain
+DNA_pol_B_exo1       PF03104.18 sp|O59610|DPOL_PYRHO -              9e-49  166.3   2.5   1.4e-33  116.4   0.0   3.3   2   1   1   3   3   3   2 DNA polymerase family B, exonuclease domain
+DNA_pol_B_exo2       PF10108.8  sp|O59610|DPOL_PYRHO -            1.8e-09   37.5   0.0   3.3e-09   36.6   0.0   1.3   1   0   0   1   1   1   1 Predicted 3'-5' exonuclease related to the exonuclease domain of PolB
+RNase_H_2            PF13482.5  sp|O59610|DPOL_PYRHO -            6.6e-07   29.4   0.0   2.1e-06   27.8   0.0   1.9   1   0   0   1   1   1   1 RNase_H superfamily
+DNA_pol_B_2          PF03175.12 sp|O59610|DPOL_PYRHO -            0.00057   18.7   0.0    0.0013   17.6   0.0   1.6   1   0   0   1   1   1   1 DNA polymerase type B, organellar and viral
+LAGLIDADG_3          PF14528.5  sp|O59610|DPOL_PYRHO -             0.0018   18.5   3.1       1.6    9.1   0.4   3.9   4   0   0   4   4   3   2 LAGLIDADG-like domain
+HTH_Crp_2            PF13545.5  sp|O59610|DPOL_PYRHO -               0.05   13.5   0.0      0.14   12.0   0.0   1.9   1   0   0   1   1   1   0 Crp-like helix-turn-helix domain
+Glyco_trans_4_2      PF13477.5  sp|O59610|DPOL_PYRHO -               0.12   12.2   0.3       0.4   10.6   0.1   2.0   2   0   0   2   2   2   0 Glycosyl transferase 4-like
+Terminase_6C         PF17289.1  sp|O59610|DPOL_PYRHO -               0.16   11.9   0.2       8.3    6.4   0.0   2.9   3   0   0   3   3   3   0 Terminase RNaseH-like domain
+PurS                 PF02700.13 sp|O59610|DPOL_PYRHO -               0.45   10.6   3.7      0.71   10.0   0.5   2.9   2   0   0   2   2   2   0 Phosphoribosylformylglycinamidine (FGAM) synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O59610.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O59610.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O59610.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:24:37 2019
+# [ok]

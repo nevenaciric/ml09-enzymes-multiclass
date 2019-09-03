@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PigN                 PF04987.13 sp|O95427|PIGN_HUMAN -           1.8e-137  458.8  54.4  2.4e-137  458.5  54.4   1.1   1   0   0   1   1   1   1 Phosphatidylinositolglycan class N (PIG-N)
+Phosphodiest         PF01663.21 sp|O95427|PIGN_HUMAN -            4.8e-13   49.3   0.2   1.5e-06   28.0   0.3   2.1   2   0   0   2   2   2   2 Type I phosphodiesterase / nucleotide pyrophosphatase
+Sulfatase            PF00884.22 sp|O95427|PIGN_HUMAN -            5.9e-06   25.8   0.2     1e-05   25.0   0.2   1.3   1   0   0   1   1   1   1 Sulfatase
+Metalloenzyme        PF01676.17 sp|O95427|PIGN_HUMAN -            0.00027   20.3   0.4   0.00082   18.7   0.0   1.8   2   0   0   2   2   2   1 Metalloenzyme superfamily
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O95427.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O95427.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O95427.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:32:04 2019
+# [ok]

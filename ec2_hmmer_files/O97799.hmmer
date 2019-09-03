@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|O97799|KIT_CANLF  -           3.4e-103  344.4   0.0  5.1e-103  343.8   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|O97799|KIT_CANLF  -            2.5e-43  148.2   0.0   1.3e-30  106.5   0.0   2.2   2   0   0   2   2   2   2 Protein kinase domain
+Ig_3                 PF13927.5  sp|O97799|KIT_CANLF  -            1.4e-23   83.2   5.0   1.2e-06   28.9   0.1   4.7   4   0   0   4   4   4   4 Immunoglobulin domain
+ig                   PF00047.24 sp|O97799|KIT_CANLF  -            5.8e-15   55.1  11.1   1.9e-12   47.1   0.7   4.2   3   1   0   3   3   3   2 Immunoglobulin domain
+I-set                PF07679.15 sp|O97799|KIT_CANLF  -            3.1e-14   52.7   7.5   3.1e-06   27.0   0.2   5.4   4   2   1   5   5   5   3 Immunoglobulin I-set domain
+Ig_2                 PF13895.5  sp|O97799|KIT_CANLF  -            3.1e-11   43.4   8.7    0.0025   18.0   0.0   5.5   5   1   0   5   5   5   3 Immunoglobulin domain
+Ig_4                 PF16680.4  sp|O97799|KIT_CANLF  -            0.00047   20.4   0.2      0.35   11.2   0.0   3.3   2   1   0   2   2   2   1 T-cell surface glycoprotein CD3 delta chain
+V-set                PF07686.16 sp|O97799|KIT_CANLF  -            0.00093   19.3   6.1       4.5    7.4   0.0   5.8   5   2   0   5   5   5   1 Immunoglobulin V-set domain
+Ig_5                 PF16681.4  sp|O97799|KIT_CANLF  -             0.0015   18.8   0.1       2.2    8.7   0.0   3.0   2   0   0   2   2   2   2 Ig-like domain on T-cell surface glycoprotein CD3 epsilon chain
+APH                  PF01636.22 sp|O97799|KIT_CANLF  -              0.085   12.7   0.0      0.15   11.9   0.0   1.3   1   0   0   1   1   1   0 Phosphotransferase enzyme family
+C2-set_2             PF08205.11 sp|O97799|KIT_CANLF  -               0.18   11.8   0.7       1.3    9.1   0.0   2.8   2   0   0   2   2   2   0 CD80-like C2-set immunoglobulin domain
+C1-set               PF07654.14 sp|O97799|KIT_CANLF  -               0.35   11.1   7.9       0.7   10.2   0.8   3.5   3   0   0   3   3   3   0 Immunoglobulin C1-set domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O97799.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O97799.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O97799.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:32:21 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UPRTase              PF14681.5  sp|B2HU54|UPP_ACIBC  -            1.4e-63  214.0   0.1   1.6e-63  213.8   0.1   1.0   1   0   0   1   1   1   1 Uracil phosphoribosyltransferase
+Pribosyltran         PF00156.26 sp|B2HU54|UPP_ACIBC  -            2.7e-13   49.6   0.7     4e-13   49.1   0.7   1.2   1   0   0   1   1   1   1 Phosphoribosyl transferase domain
+Pribosyl_synth       PF14572.5  sp|B2HU54|UPP_ACIBC  -            1.3e-05   25.2   0.3   1.9e-05   24.7   0.3   1.2   1   0   0   1   1   1   1 Phosphoribosyl synthetase-associated domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2HU54.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2HU54.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2HU54.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:36:46 2019
+# [ok]

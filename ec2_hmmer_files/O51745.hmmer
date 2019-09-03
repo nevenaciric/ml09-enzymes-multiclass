@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|O51745|PNP_BORBU  -            1.1e-38  132.6   0.0   7.6e-19   68.4   0.0   2.4   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|O51745|PNP_BORBU  -              2e-20   72.5   1.1   7.4e-13   48.2   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|O51745|PNP_BORBU  -            1.1e-11   45.0   0.1   3.1e-11   43.5   0.1   1.9   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|O51745|PNP_BORBU  -            1.7e-09   37.8   2.0   3.1e-09   36.9   0.1   2.4   2   1   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|O51745|PNP_BORBU  -            1.7e-06   27.7   1.4   9.2e-06   25.3   1.5   2.2   2   0   0   2   2   2   1 KH domain
+KH_4                 PF13083.5  sp|O51745|PNP_BORBU  -              0.052   13.3   1.0      0.13   12.0   0.3   2.1   1   1   1   2   2   2   0 KH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O51745.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O51745.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O51745.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:23:03 2019
+# [ok]

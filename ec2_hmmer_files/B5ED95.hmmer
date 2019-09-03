@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ThiG                 PF05690.13 sp|B5ED95|THIG_GEOBB -           1.1e-115  385.1   0.9  1.2e-115  384.9   0.9   1.0   1   0   0   1   1   1   1 Thiazole biosynthesis protein ThiG
+His_biosynth         PF00977.20 sp|B5ED95|THIG_GEOBB -              0.001   18.5   0.2    0.0058   16.0   0.1   1.9   2   0   0   2   2   2   1 Histidine biosynthesis protein
+NMO                  PF03060.14 sp|B5ED95|THIG_GEOBB -              0.017   14.4   1.7     0.027   13.8   1.7   1.2   1   0   0   1   1   1   0 Nitronate monooxygenase
+FMN_dh               PF01070.17 sp|B5ED95|THIG_GEOBB -              0.025   13.5   0.1     0.062   12.2   0.2   1.5   2   0   0   2   2   2   0 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|B5ED95|THIG_GEOBB -               0.03   13.2   1.0     0.051   12.5   1.0   1.3   1   0   0   1   1   1   0 IMP dehydrogenase / GMP reductase domain
+Dus                  PF01207.16 sp|B5ED95|THIG_GEOBB -               0.13   11.2   1.0      0.62    9.0   0.3   2.1   2   0   0   2   2   2   0 Dihydrouridine synthase (Dus)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B5ED95.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B5ED95.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B5ED95.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:02:02 2019
+# [ok]

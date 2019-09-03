@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP-utilizers_C      PF02896.17 sp|O23404|PPDK1_ARATH -           4.7e-106  354.1   0.0  8.3e-106  353.3   0.0   1.4   1   0   0   1   1   1   1 PEP-utilising enzyme, TIM barrel domain
+PPDK_N               PF01326.18 sp|O23404|PPDK1_ARATH -            4.9e-54  183.7   0.0     5e-30  104.8   0.0   3.2   1   1   2   3   3   3   3 Pyruvate phosphate dikinase, PEP/pyruvate binding domain
+PEP-utilizers        PF00391.22 sp|O23404|PPDK1_ARATH -            1.5e-26   91.8   0.8   3.7e-26   90.5   0.8   1.7   1   0   0   1   1   1   1 PEP-utilising enzyme, mobile domain
+HTH_AsnC-type        PF13404.5  sp|O23404|PPDK1_ARATH -              0.026   14.3   0.0     0.065   13.0   0.0   1.7   1   0   0   1   1   1   0 AsnC-type helix-turn-helix domain
+DUF1455              PF07306.10 sp|O23404|PPDK1_ARATH -              0.074   12.9   1.3       2.1    8.2   0.1   2.5   2   0   0   2   2   2   0 Protein of unknown function (DUF1455)
+IF2_N                PF04760.14 sp|O23404|PPDK1_ARATH -               0.14   11.9   0.2      0.49   10.1   0.2   1.9   1   0   0   1   1   1   0 Translation initiation factor IF-2, N-terminal region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O23404.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O23404.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O23404.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:17:14 2019
+# [ok]

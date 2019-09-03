@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UPRTase              PF14681.5  sp|C5D9M4|UPP_GEOSW  -            6.2e-76  254.3   0.0   7.2e-76  254.1   0.0   1.0   1   0   0   1   1   1   1 Uracil phosphoribosyltransferase
+Pribosyltran         PF00156.26 sp|C5D9M4|UPP_GEOSW  -            2.2e-12   46.7   0.5   4.9e-12   45.5   0.5   1.6   1   1   0   1   1   1   1 Phosphoribosyl transferase domain
+GA-like              PF17573.1  sp|C5D9M4|UPP_GEOSW  -              0.038   13.8   0.4       0.1   12.4   0.0   1.9   2   0   0   2   2   2   0 GA-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C5D9M4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C5D9M4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C5D9M4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:02:54 2019
+# [ok]

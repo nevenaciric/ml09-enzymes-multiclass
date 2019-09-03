@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_synthesis         PF02504.14 sp|C4L8E8|PLSX_TOLAT -            7.3e-96  320.9   0.1   8.3e-96  320.7   0.1   1.0   1   0   0   1   1   1   1 Fatty acid synthesis protein
+EcoRI                PF02963.15 sp|C4L8E8|PLSX_TOLAT -               0.01   14.7   0.0     0.015   14.2   0.0   1.2   1   0   0   1   1   1   0 Restriction endonuclease EcoRI
+DUF3842              PF12953.6  sp|C4L8E8|PLSX_TOLAT -              0.064   13.5   0.0      0.29   11.4   0.0   2.1   1   1   1   2   2   2   0 Domain of unknown function (DUF3842)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/C4L8E8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/C4L8E8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/C4L8E8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 07:58:23 2019
+# [ok]

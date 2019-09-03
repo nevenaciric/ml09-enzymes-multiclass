@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRY                  PF13765.5  sp|O77666|TRI26_PIG  -            2.4e-14   52.6   0.0   7.5e-14   51.0   0.0   1.9   2   0   0   2   2   2   1 SPRY-associated domain
+SPRY                 PF00622.27 sp|O77666|TRI26_PIG  -            3.5e-14   52.9   0.1   3.4e-13   49.7   0.0   2.3   1   1   1   2   2   2   1 SPRY domain
+zf-C3HC4_4           PF15227.5  sp|O77666|TRI26_PIG  -            4.8e-11   42.5   7.7   4.8e-11   42.5   7.7   2.3   2   0   0   2   2   2   1 zinc finger of C3HC4-type, RING
+zf-C3HC4_3           PF13920.5  sp|O77666|TRI26_PIG  -            7.9e-10   38.3   5.2   7.9e-10   38.3   5.2   2.3   2   0   0   2   2   2   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_UBOX         PF13445.5  sp|O77666|TRI26_PIG  -            5.4e-09   35.8   7.6   5.6e-09   35.8   3.9   2.6   1   1   1   2   2   2   1 RING-type zinc-finger
+zf-B_box             PF00643.23 sp|O77666|TRI26_PIG  -            1.7e-08   34.4   3.5   1.7e-08   34.4   3.5   3.3   3   0   0   3   3   3   1 B-box zinc finger
+zf-C3HC4             PF00097.24 sp|O77666|TRI26_PIG  -            1.8e-08   34.0   5.3   1.8e-08   34.0   5.3   1.8   2   0   0   2   2   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-C3HC4_2           PF13923.5  sp|O77666|TRI26_PIG  -            2.8e-08   33.3   7.3   6.2e-08   32.2   7.3   1.6   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_2            PF13639.5  sp|O77666|TRI26_PIG  -            7.3e-07   29.3   7.7   7.3e-07   29.3   7.7   2.0   2   0   0   2   2   2   1 Ring finger domain
+zf-RING_6            PF14835.5  sp|O77666|TRI26_PIG  -            7.4e-07   28.8   3.0   1.3e-06   28.1   3.0   1.4   1   0   0   1   1   1   1 zf-RING of BARD1-type protein
+zf-RING_5            PF14634.5  sp|O77666|TRI26_PIG  -            1.5e-05   24.7   5.9   1.5e-05   24.7   5.9   2.3   2   1   0   2   2   2   1 zinc-RING finger domain
+Prok-RING_4          PF14447.5  sp|O77666|TRI26_PIG  -            8.1e-05   22.3   7.2   8.1e-05   22.3   7.2   2.2   2   0   0   2   2   2   1 Prokaryotic RING finger family 4
+Baculo_IE-1          PF05290.10 sp|O77666|TRI26_PIG  -             0.0056   16.5   1.6     0.014   15.3   1.6   1.6   1   0   0   1   1   1   1 Baculovirus immediate-early protein (IE-0)
+zf-RING_10           PF16685.4  sp|O77666|TRI26_PIG  -             0.0079   16.2   3.8    0.0079   16.2   3.8   2.3   2   0   0   2   2   2   1 zinc RING finger of MSL2
+zf-RING_4            PF14570.5  sp|O77666|TRI26_PIG  -             0.0089   15.6   1.9    0.0089   15.6   1.9   2.0   2   1   0   2   2   2   1 RING/Ubox like zinc-binding domain
+Rtf2                 PF04641.11 sp|O77666|TRI26_PIG  -              0.023   13.9   1.2     0.039   13.2   0.2   1.8   2   0   0   2   2   2   0 Rtf2 RING-finger
+IFT57                PF10498.8  sp|O77666|TRI26_PIG  -               0.11   11.4  11.7      0.15   10.9   1.5   2.2   2   0   0   2   2   2   0 Intra-flagellar transport protein 57
+Myc_N                PF01056.17 sp|O77666|TRI26_PIG  -                1.2    8.8   9.1       3.4    7.3   2.7   2.2   2   0   0   2   2   2   0 Myc amino-terminal region
+zf-C4H2              PF10146.8  sp|O77666|TRI26_PIG  -                  4    7.6   8.3         1    9.5   1.2   2.6   2   0   0   2   2   2   0 Zinc finger-containing protein
+CDC45                PF02724.13 sp|O77666|TRI26_PIG  -                  9    4.4   7.7       0.6    8.3   1.2   1.9   2   0   0   2   2   2   0 CDC45-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/O77666.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/O77666.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/O77666.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:28:30 2019
+# [ok]

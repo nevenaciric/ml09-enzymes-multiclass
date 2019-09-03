@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|B3PM68|MNMA_MYCA5 -           4.6e-124  413.7   0.4  5.2e-124  413.5   0.4   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+NAD_synthase         PF02540.16 sp|B3PM68|MNMA_MYCA5 -            1.6e-08   33.9   0.8     4e-06   26.0   0.1   2.8   2   1   0   2   2   2   2 NAD synthase
+QueC                 PF06508.12 sp|B3PM68|MNMA_MYCA5 -            2.5e-06   27.1   0.2    0.0034   16.8   0.0   2.3   2   0   0   2   2   2   2 Queuosine biosynthesis protein QueC
+ThiI                 PF02568.13 sp|B3PM68|MNMA_MYCA5 -            7.3e-06   25.6   0.2    0.0003   20.3   0.0   2.3   2   0   0   2   2   2   1 Thiamine biosynthesis protein (ThiI)
+Asn_synthase         PF00733.20 sp|B3PM68|MNMA_MYCA5 -            6.1e-05   22.7   0.0   8.5e-05   22.3   0.0   1.1   1   0   0   1   1   1   1 Asparagine synthase
+ATP_bind_3           PF01171.19 sp|B3PM68|MNMA_MYCA5 -            0.00017   21.3   0.0      0.46   10.1   0.0   2.4   2   0   0   2   2   2   2 PP-loop family
+Arginosuc_synth      PF00764.18 sp|B3PM68|MNMA_MYCA5 -              0.049   12.8   0.0     0.089   12.0   0.0   1.6   1   0   0   1   1   1   0 Arginosuccinate synthase
+NAD_binding_8        PF13450.5  sp|B3PM68|MNMA_MYCA5 -               0.13   12.4   0.0      0.99    9.6   0.0   2.1   2   0   0   2   2   2   0 NAD(P)-binding Rossmann-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B3PM68.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B3PM68.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B3PM68.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:50:09 2019
+# [ok]

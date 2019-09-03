@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PolyA_pol            PF01743.19 sp|B1KHF1|CCA_SHEWM  -            9.7e-20   71.2   0.0   2.4e-19   69.9   0.0   1.7   1   0   0   1   1   1   1 Poly A polymerase head domain
+PolyA_pol_RNAbd      PF12627.6  sp|B1KHF1|CCA_SHEWM  -              8e-13   47.9   0.3   1.7e-12   46.8   0.3   1.6   1   0   0   1   1   1   1 Probable RNA and SrmB- binding site of polymerase A
+HD                   PF01966.21 sp|B1KHF1|CCA_SHEWM  -            1.7e-07   31.4   1.7   1.8e-07   31.3   0.3   1.8   2   0   0   2   2   2   1 HD domain
+DUF2987              PF11205.7  sp|B1KHF1|CCA_SHEWM  -              0.059   13.2   0.1      0.11   12.3   0.1   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF2987)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B1KHF1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B1KHF1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B1KHF1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:26:43 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+His_Phos_2           PF00328.21 sp|F4J8C6|VIP1L_ARATH -           1.5e-136  455.6   0.1  1.9e-136  455.3   0.1   1.1   1   0   0   1   1   1   1 Histidine phosphatase superfamily (branch 2)
+RimK                 PF08443.10 sp|F4J8C6|VIP1L_ARATH -              0.002   17.7   0.0    0.0044   16.5   0.0   1.5   1   0   0   1   1   1   1 RimK-like ATP-grasp domain
+BHD_3                PF10405.8  sp|F4J8C6|VIP1L_ARATH -               0.15   12.4   0.0       9.8    6.6   0.0   2.5   2   0   0   2   2   2   0 Rad4 beta-hairpin domain 3
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/F4J8C6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/F4J8C6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/F4J8C6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 08:10:46 2019
+# [ok]

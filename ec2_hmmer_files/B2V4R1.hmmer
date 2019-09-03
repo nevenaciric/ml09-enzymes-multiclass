@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|B2V4R1|NADK_CLOBA -            1.3e-54  185.3   0.2   1.5e-54  185.1   0.2   1.1   1   0   0   1   1   1   1 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|B2V4R1|NADK_CLOBA -             0.0014   18.1   0.0    0.0027   17.2   0.0   1.5   1   0   0   1   1   1   1 Diacylglycerol kinase catalytic domain
+CMS1                 PF14617.5  sp|B2V4R1|NADK_CLOBA -              0.026   13.8   0.1     0.047   12.9   0.1   1.3   1   0   0   1   1   1   0 U3-containing 90S pre-ribosomal complex subunit
+Fn3_assoc            PF13287.5  sp|B2V4R1|NADK_CLOBA -              0.045   13.8   0.0      0.45   10.6   0.0   2.4   1   1   1   2   2   2   0 Fn3 associated
+RNaseH_C             PF09293.9  sp|B2V4R1|NADK_CLOBA -               0.05   13.9   0.1      0.12   12.6   0.1   1.6   1   0   0   1   1   1   0 T4 RNase H, C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/B2V4R1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/B2V4R1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/B2V4R1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 06:45:41 2019
+# [ok]
