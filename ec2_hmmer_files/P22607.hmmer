@@ -1,0 +1,25 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P22607|FGFR3_HUMAN -           8.1e-104  346.4   0.0  1.3e-103  345.7   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P22607|FGFR3_HUMAN -            2.8e-44  151.4   0.0   3.8e-44  150.9   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+I-set                PF07679.15 sp|P22607|FGFR3_HUMAN -              5e-34  116.1   0.0   3.2e-15   55.8   0.0   3.3   3   0   0   3   3   3   3 Immunoglobulin I-set domain
+Ig_3                 PF13927.5  sp|P22607|FGFR3_HUMAN -            7.1e-33  113.0   0.0     2e-12   47.4   0.0   3.4   3   0   0   3   3   3   3 Immunoglobulin domain
+Ig_2                 PF13895.5  sp|P22607|FGFR3_HUMAN -            1.4e-23   82.9   0.0   9.3e-10   38.6   0.0   3.5   3   0   0   3   3   3   3 Immunoglobulin domain
+ig                   PF00047.24 sp|P22607|FGFR3_HUMAN -            2.1e-21   75.8   0.0   4.7e-08   33.0   0.0   3.4   3   0   0   3   3   3   3 Immunoglobulin domain
+V-set                PF07686.16 sp|P22607|FGFR3_HUMAN -            8.2e-12   45.2   1.2   0.00019   21.5   0.0   5.1   3   3   0   3   3   3   2 Immunoglobulin V-set domain
+Ig_5                 PF16681.4  sp|P22607|FGFR3_HUMAN -            9.4e-07   29.1   0.0       2.2    8.7   0.0   3.8   3   1   0   3   3   3   3 Ig-like domain on T-cell surface glycoprotein CD3 epsilon chain
+C2-set_2             PF08205.11 sp|P22607|FGFR3_HUMAN -              0.001   19.0   0.1     0.034   14.1   0.0   3.0   3   0   0   3   3   3   1 CD80-like C2-set immunoglobulin domain
+Izumo-Ig             PF16706.4  sp|P22607|FGFR3_HUMAN -             0.0061   16.5   0.0        16    5.5   0.0   3.5   3   0   0   3   3   3   0 Izumo-like Immunoglobulin domain
+DUF1533              PF07550.10 sp|P22607|FGFR3_HUMAN -               0.18   11.6   0.0      0.44   10.4   0.0   1.6   1   0   0   1   1   1   0 Protein of unknown function (DUF1533)
+V-set_CD47           PF08204.10 sp|P22607|FGFR3_HUMAN -               0.21   11.4   0.0       1.3    8.9   0.0   2.2   3   0   0   3   3   3   0 CD47 immunoglobulin-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P22607.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P22607.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P22607.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:52:53 2019
+# [ok]

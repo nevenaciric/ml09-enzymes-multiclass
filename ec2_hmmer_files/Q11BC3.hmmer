@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q11BC3|PNP_CHESB  -            2.7e-49  166.9   0.0   3.4e-23   82.5   0.0   2.4   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|Q11BC3|PNP_CHESB  -            5.9e-23   81.1   0.3   2.1e-22   79.3   0.1   2.1   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+RNase_PH_C           PF03725.14 sp|Q11BC3|PNP_CHESB  -              5e-22   77.6   1.1   1.9e-12   46.9   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|Q11BC3|PNP_CHESB  -            2.8e-17   62.7   0.6   7.7e-17   61.3   0.6   1.8   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|Q11BC3|PNP_CHESB  -            3.9e-11   42.5   5.3   4.2e-11   42.4   2.7   2.4   3   0   0   3   3   3   1 KH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q11BC3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q11BC3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q11BC3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:59:21 2019
+# [ok]

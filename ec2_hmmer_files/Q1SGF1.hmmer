@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PARP                 PF00644.19 sp|Q1SGF1|PARP3_MEDTR -            1.2e-48  165.2   0.6   3.1e-48  163.9   0.0   1.9   2   0   0   2   2   2   1 Poly(ADP-ribose) polymerase catalytic domain
+PARP_reg             PF02877.13 sp|Q1SGF1|PARP3_MEDTR -            3.4e-19   69.2   0.0   6.6e-19   68.3   0.0   1.5   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase, regulatory domain
+PADR1                PF08063.11 sp|Q1SGF1|PARP3_MEDTR -            4.8e-19   67.8   2.9   1.1e-18   66.7   2.9   1.6   1   0   0   1   1   1   1 PADR1 (NUC008) domain
+WGR                  PF05406.14 sp|Q1SGF1|PARP3_MEDTR -            6.2e-14   51.7   0.0   1.7e-13   50.3   0.0   1.8   1   0   0   1   1   1   1 WGR domain
+BRCT                 PF00533.25 sp|Q1SGF1|PARP3_MEDTR -             0.0061   16.8   0.0     0.027   14.8   0.0   2.1   2   0   0   2   2   2   1 BRCA1 C Terminus (BRCT) domain
+BRCT_2               PF16589.4  sp|Q1SGF1|PARP3_MEDTR -               0.13   12.6   0.0      0.28   11.5   0.0   1.6   1   0   0   1   1   1   0 BRCT domain, a BRCA1 C-terminus domain
+DUF4674              PF15719.4  sp|Q1SGF1|PARP3_MEDTR -                  2    8.2   6.6       2.8    7.8   0.0   2.2   2   0   0   2   2   2   0 Domain of unknown function (DUF4674)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q1SGF1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q1SGF1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q1SGF1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:21:52 2019
+# [ok]

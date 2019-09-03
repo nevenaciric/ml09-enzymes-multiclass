@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QRPTase_C            PF01729.18 sp|P74301|NADC_SYNY3 -            7.8e-67  224.2   0.4   9.7e-67  223.9   0.4   1.1   1   0   0   1   1   1   1 Quinolinate phosphoribosyl transferase, C-terminal domain
+QRPTase_N            PF02749.15 sp|P74301|NADC_SYNY3 -            5.6e-22   77.5   0.0     1e-21   76.7   0.0   1.4   1   0   0   1   1   1   1 Quinolinate phosphoribosyl transferase, N-terminal domain
+IMPDH                PF00478.24 sp|P74301|NADC_SYNY3 -              0.011   14.6   0.2     0.014   14.3   0.2   1.2   1   0   0   1   1   1   0 IMP dehydrogenase / GMP reductase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P74301.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P74301.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P74301.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:05 2019
+# [ok]

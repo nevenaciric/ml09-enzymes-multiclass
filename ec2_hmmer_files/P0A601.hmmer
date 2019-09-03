@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|P0A601|SENX3_MYCBO -            3.3e-24   85.5   0.0   7.1e-24   84.4   0.0   1.6   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HisKA                PF00512.24 sp|P0A601|SENX3_MYCBO -              3e-14   52.7   0.4   7.8e-14   51.4   0.4   1.8   1   0   0   1   1   1   1 His Kinase A (phospho-acceptor) domain
+HATPase_c_3          PF13589.5  sp|P0A601|SENX3_MYCBO -            0.00011   21.9   0.0   0.00026   20.7   0.0   1.6   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HATPase_c_2          PF13581.5  sp|P0A601|SENX3_MYCBO -             0.0012   18.7   0.3    0.0092   15.8   0.3   2.3   1   1   0   1   1   1   1 Histidine kinase-like ATPase domain
+PAS_4                PF08448.9  sp|P0A601|SENX3_MYCBO -              0.042   14.0   0.1      0.12   12.5   0.1   2.0   1   1   0   1   1   1   0 PAS fold
+HATPase_c_5          PF14501.5  sp|P0A601|SENX3_MYCBO -               0.05   13.4   0.0      0.11   12.3   0.0   1.6   1   1   0   1   1   1   0 GHKL domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0A601.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0A601.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0A601.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:37:58 2019
+# [ok]

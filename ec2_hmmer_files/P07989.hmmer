@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+N6_Mtase             PF02384.15 sp|P07989|T1M_SALPO  -            3.6e-98  328.6   0.0   4.4e-98  328.3   0.0   1.1   1   0   0   1   1   1   1 N-6 DNA Methylase
+HsdM_N               PF12161.7  sp|P07989|T1M_SALPO  -            8.4e-10   39.3   4.3   1.9e-09   38.1   0.1   2.8   2   1   0   2   2   2   1 HsdM N-terminal domain
+UPF0020              PF01170.17 sp|P07989|T1M_SALPO  -             0.0036   16.9   0.0         2    7.9   0.0   2.4   2   0   0   2   2   2   2 Putative RNA methylase family UPF0020
+Kelch_5              PF13854.5  sp|P07989|T1M_SALPO  -              0.092   12.7   0.0       1.2    9.1   0.0   2.4   2   0   0   2   2   2   0 Kelch motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P07989.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P07989.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P07989.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:35:24 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|P27819|ILVB3_BRANA -              4e-56  189.2   0.1   7.9e-54  181.7   0.1   2.6   3   0   0   3   3   3   2 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_C         PF02775.20 sp|P27819|ILVB3_BRANA -            3.9e-47  159.8   0.0   4.1e-46  156.5   0.0   2.3   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+TPP_enzyme_M         PF00205.21 sp|P27819|ILVB3_BRANA -            7.2e-42  142.3   0.0   4.5e-41  139.7   0.0   2.1   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, central domain
+FAD_binding_4        PF01565.22 sp|P27819|ILVB3_BRANA -               0.15   11.7   0.0       3.7    7.2   0.0   2.9   3   0   0   3   3   3   0 FAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P27819.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P27819.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P27819.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:56:14 2019
+# [ok]

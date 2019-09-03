@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AdoMet_Synthase      PF01941.18 sp|P0CW62|METK_METMI -           1.4e-171  570.5   5.3  1.6e-171  570.3   5.3   1.0   1   0   0   1   1   1   1 S-adenosylmethionine synthetase (AdoMet synthetase)
+S-AdoMet_synt_N      PF00438.19 sp|P0CW62|METK_METMI -              0.037   14.6   0.3      0.15   12.6   0.3   2.2   1   1   0   1   1   1   0 S-adenosylmethionine synthetase, N-terminal domain
+DUF3381              PF11861.7  sp|P0CW62|METK_METMI -              0.054   13.2   0.3     0.093   12.4   0.3   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF3381)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0CW62.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0CW62.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0CW62.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:43:59 2019
+# [ok]

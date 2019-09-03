@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TMP-TENI             PF02581.16 sp|Q03CB2|THIE_LACP3 -            1.6e-59  200.2   4.2   1.9e-59  199.9   4.2   1.1   1   0   0   1   1   1   1 Thiamine monophosphate synthase
+Dus                  PF01207.16 sp|Q03CB2|THIE_LACP3 -             0.0005   19.2   1.0    0.0007   18.7   0.5   1.4   1   1   0   1   1   1   1 Dihydrouridine synthase (Dus)
+QRPTase_C            PF01729.18 sp|Q03CB2|THIE_LACP3 -             0.0024   17.6   0.3    0.0044   16.7   0.3   1.4   1   0   0   1   1   1   1 Quinolinate phosphoribosyl transferase, C-terminal domain
+DUF561               PF04481.11 sp|Q03CB2|THIE_LACP3 -              0.042   12.9   4.1     0.084   11.9   0.5   2.5   1   1   2   3   3   3   0 Protein of unknown function (DUF561)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q03CB2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q03CB2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q03CB2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:37:02 2019
+# [ok]

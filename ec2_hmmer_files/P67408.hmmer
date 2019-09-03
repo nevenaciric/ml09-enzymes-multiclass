@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRK                  PF00485.17 sp|P67408|URK_SALTY  -            4.1e-46  157.1   0.1   4.7e-46  156.9   0.1   1.0   1   0   0   1   1   1   1 Phosphoribulokinase / Uridine kinase family
+AAA_18               PF13238.5  sp|P67408|URK_SALTY  -            4.8e-08   33.5   0.0   6.5e-08   33.0   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+CoaE                 PF01121.19 sp|P67408|URK_SALTY  -            0.00027   20.6   3.4    0.0055   16.3   3.4   2.1   1   1   0   1   1   1   1 Dephospho-CoA kinase
+APS_kinase           PF01583.19 sp|P67408|URK_SALTY  -            0.00055   19.8   0.0      0.13   12.1   0.0   2.3   2   0   0   2   2   2   2 Adenylylsulphate kinase
+dNK                  PF01712.18 sp|P67408|URK_SALTY  -             0.0062   16.3   0.0      0.11   12.2   0.0   2.1   1   1   0   1   1   1   1 Deoxynucleoside kinase
+ABC_tran             PF00005.26 sp|P67408|URK_SALTY  -             0.0068   16.8   0.0    0.0093   16.4   0.0   1.4   1   1   0   1   1   1   1 ABC transporter
+AAA_16               PF13191.5  sp|P67408|URK_SALTY  -              0.066   13.5   0.0       0.1   12.9   0.0   1.4   1   0   0   1   1   1   0 AAA ATPase domain
+Zeta_toxin           PF06414.11 sp|P67408|URK_SALTY  -              0.081   12.1   0.2      0.22   10.7   0.0   1.8   2   1   0   2   2   2   0 Zeta toxin
+AAA_17               PF13207.5  sp|P67408|URK_SALTY  -               0.11   12.8   0.1      0.99    9.7   0.1   2.1   2   0   0   2   2   2   0 AAA domain
+AAA_33               PF13671.5  sp|P67408|URK_SALTY  -               0.15   12.2   0.0      0.62   10.1   0.0   2.0   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P67408.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P67408.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P67408.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:22:54 2019
+# [ok]

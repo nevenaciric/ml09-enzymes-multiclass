@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P0CY46|EGFR_APIME -            3.1e-89  298.6   0.0   4.6e-89  298.0   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P0CY46|EGFR_APIME -            2.1e-37  128.8   0.0     3e-37  128.3   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+GF_recep_IV          PF14843.5  sp|P0CY46|EGFR_APIME -            5.6e-35  119.9 130.4   3.8e-26   91.4  35.4   7.5   2   2   2   6   6   6   5 Growth factor receptor domain IV
+Furin-like           PF00757.19 sp|P0CY46|EGFR_APIME -            9.7e-35  119.5 133.7   3.4e-25   88.6  41.3   6.3   3   2   3   6   6   6   4 Furin-like cysteine rich region
+Recep_L_domain       PF01030.23 sp|P0CY46|EGFR_APIME -              2e-23   82.5   3.2   3.6e-23   81.7   0.2   2.3   2   0   0   2   2   2   1 Receptor L domain
+Kinase-like          PF14531.5  sp|P0CY46|EGFR_APIME -            0.00055   19.2   0.1    0.0011   18.3   0.1   1.4   1   0   0   1   1   1   1 Kinase-like
+APH                  PF01636.22 sp|P0CY46|EGFR_APIME -             0.0081   16.0   0.0     0.014   15.2   0.0   1.3   1   0   0   1   1   1   1 Phosphotransferase enzyme family
+Kdo                  PF06293.13 sp|P0CY46|EGFR_APIME -               0.11   11.7   0.0       0.2   10.9   0.0   1.3   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+Haspin_kinase        PF12330.7  sp|P0CY46|EGFR_APIME -               0.12   11.2   0.0       0.2   10.5   0.0   1.2   1   0   0   1   1   1   0 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0CY46.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0CY46.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0CY46.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:44:07 2019
+# [ok]

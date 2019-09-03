@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|P46086|KIME_ARATH -            3.6e-20   71.8   1.2   7.1e-20   70.9   0.4   1.9   2   0   0   2   2   2   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|P46086|KIME_ARATH -            2.5e-06   27.6   0.0   7.8e-06   26.1   0.0   1.9   1   1   0   1   1   1   1 GHMP kinases C terminal
+GalKase_gal_bdg      PF10509.8  sp|P46086|KIME_ARATH -            0.00072   19.0   0.2    0.0018   17.7   0.2   1.6   1   0   0   1   1   1   1 Galactokinase galactose-binding signature
+DUF148               PF02520.16 sp|P46086|KIME_ARATH -              0.012   15.6   0.0     0.022   14.7   0.0   1.3   1   0   0   1   1   1   0 Domain of unknown function DUF148
+VPS28                PF03997.11 sp|P46086|KIME_ARATH -               0.11   12.0   0.0       0.2   11.2   0.0   1.3   1   0   0   1   1   1   0 VPS28 protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P46086.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P46086.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P46086.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:07:33 2019
+# [ok]

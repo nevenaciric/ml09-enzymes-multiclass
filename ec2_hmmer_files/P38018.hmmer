@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_A_CTD        PF03118.14 sp|P38018|RPOA_MYCSP -            1.3e-18   66.4   4.5   4.2e-18   64.8   4.5   1.9   1   0   0   1   1   1   1 Bacterial RNA polymerase, alpha chain C terminal domain
+RNA_pol_A_bac        PF01000.25 sp|P38018|RPOA_MYCSP -            6.6e-16   58.6   1.1   1.6e-15   57.3   0.1   2.2   1   1   1   2   2   2   1 RNA polymerase Rpb3/RpoA insert domain
+RNA_pol_L            PF01193.23 sp|P38018|RPOA_MYCSP -            4.6e-14   51.5   0.2   1.3e-13   50.1   0.1   1.8   2   0   0   2   2   2   1 RNA polymerase Rpb3/Rpb11 dimerisation domain
+HHH_5                PF14520.5  sp|P38018|RPOA_MYCSP -            4.4e-06   27.1   0.1   0.00048   20.6   0.1   2.6   2   0   0   2   2   2   1 Helix-hairpin-helix domain
+Peptidase_C37        PF05416.11 sp|P38018|RPOA_MYCSP -               0.01   14.3   1.2     0.015   13.7   1.2   1.2   1   0   0   1   1   1   1 Southampton virus-type processing peptidase
+DUF3215              PF11503.7  sp|P38018|RPOA_MYCSP -              0.059   13.1   0.1       5.1    6.9   0.1   2.9   2   1   1   3   3   3   0 Protein of unknown function (DUF3215)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P38018.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P38018.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P38018.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:02:36 2019
+# [ok]

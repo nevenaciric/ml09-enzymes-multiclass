@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_Rpb1_1       PF04997.11 sp|Q06H06|RPOC1_DRIGR -            3.3e-49  167.8   0.0   1.2e-48  166.0   0.0   1.8   1   1   0   1   1   1   1 RNA polymerase Rpb1, domain 1
+RNA_pol_Rpb1_2       PF00623.19 sp|Q06H06|RPOC1_DRIGR -            1.1e-34  120.0   0.0   1.7e-24   86.8   0.0   2.3   1   1   1   2   2   2   2 RNA polymerase Rpb1, domain 2
+RNA_pol_Rpb1_3       PF04983.17 sp|Q06H06|RPOC1_DRIGR -              8e-06   25.8   0.0   1.3e-05   25.1   0.0   1.4   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 3
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q06H06.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q06H06.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q06H06.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:41:47 2019
+# [ok]

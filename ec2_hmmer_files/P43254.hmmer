@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WD40                 PF00400.31 sp|P43254|COP1_ARATH -            1.8e-22   79.1  11.2   1.6e-05   25.5   0.0   7.8   8   0   0   8   8   7   4 WD domain, G-beta repeat
+zf-C3HC4_2           PF13923.5  sp|P43254|COP1_ARATH -            7.5e-11   41.6  14.5   1.7e-10   40.4  14.5   1.7   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+WD40_like            PF17005.4  sp|P43254|COP1_ARATH -            2.4e-08   33.6   1.1     2e-07   30.6   0.0   2.4   3   0   0   3   3   3   1 WD40-like domain
+zf-C3HC4             PF00097.24 sp|P43254|COP1_ARATH -            5.6e-08   32.4  15.3   1.4e-07   31.2  15.3   1.7   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-C3HC4_3           PF13920.5  sp|P43254|COP1_ARATH -            1.9e-07   30.7  11.7   1.9e-07   30.7  11.7   1.8   2   0   0   2   2   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_2            PF13639.5  sp|P43254|COP1_ARATH -            3.2e-06   27.3  13.4     1e-05   25.6  13.4   2.0   1   0   0   1   1   1   1 Ring finger domain
+ANAPC4_WD40          PF12894.6  sp|P43254|COP1_ARATH -              4e-06   27.0   0.2       7.3    6.9   0.0   4.9   1   1   3   5   5   5   1 Anaphase-promoting complex subunit 4 WD40 domain
+zf-RING_5            PF14634.5  sp|P43254|COP1_ARATH -            0.00012   21.9  13.3   0.00012   21.9  13.3   2.0   2   0   0   2   2   1   1 zinc-RING finger domain
+zf-RING_UBOX         PF13445.5  sp|P43254|COP1_ARATH -            0.00025   20.9  13.3   0.00091   19.1  13.3   2.1   1   0   0   1   1   1   1 RING-type zinc-finger
+zf-C3HC4_4           PF15227.5  sp|P43254|COP1_ARATH -            0.00045   20.2  12.6    0.0017   18.4  12.6   2.1   1   0   0   1   1   1   1 zinc finger of C3HC4-type, RING
+U-box                PF04564.14 sp|P43254|COP1_ARATH -            0.00049   20.1   0.0     0.002   18.2   0.0   2.0   1   0   0   1   1   1   1 U-box domain
+Prok-RING_4          PF14447.5  sp|P43254|COP1_ARATH -             0.0086   15.8  11.8     0.036   13.8  11.8   2.1   1   1   0   1   1   1   1 Prokaryotic RING finger family 4
+zf-RING_6            PF14835.5  sp|P43254|COP1_ARATH -              0.056   13.2   3.8      0.14   11.9   3.8   1.6   1   0   0   1   1   1   0 zf-RING of BARD1-type protein
+zf-RING_10           PF16685.4  sp|P43254|COP1_ARATH -               0.06   13.4   7.5      0.19   11.8   7.5   1.9   1   0   0   1   1   1   0 zinc RING finger of MSL2
+DUF1664              PF07889.11 sp|P43254|COP1_ARATH -              0.063   13.2   1.1      0.14   12.1   1.1   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF1664)
+zf-rbx1              PF12678.6  sp|P43254|COP1_ARATH -               0.18   12.0  15.1      0.26   11.5  11.8   2.9   2   1   0   2   2   2   0 RING-H2 zinc finger domain
+Baculo_p24           PF05073.11 sp|P43254|COP1_ARATH -               0.37   10.5   5.0      0.87    9.3   0.2   2.8   3   0   0   3   3   3   0 Baculovirus P24 capsid protein
+APG6                 PF04111.11 sp|P43254|COP1_ARATH -                2.2    7.5   7.5      0.21   10.8   2.6   1.6   2   0   0   2   2   2   0 Autophagy protein Apg6
+zf-Nse               PF11789.7  sp|P43254|COP1_ARATH -                3.2    7.6  11.8       1.4    8.7   7.1   2.6   3   0   0   3   3   2   0 Zinc-finger of the MIZ type in Nse subunit
+zf-ANAPC11           PF12861.6  sp|P43254|COP1_ARATH -                5.9    6.9   9.8       7.9    6.5   5.4   2.8   2   0   0   2   2   2   0 Anaphase-promoting complex subunit 11 RING-H2 finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P43254.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P43254.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P43254.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:05:30 2019
+# [ok]

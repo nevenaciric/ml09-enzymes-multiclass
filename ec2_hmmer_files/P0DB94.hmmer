@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Guanylate_kin        PF00625.20 sp|P0DB94|KGUA_STRP3 -            2.2e-50  170.8   0.0   2.6e-50  170.6   0.0   1.0   1   0   0   1   1   1   1 Guanylate kinase
+AAA_18               PF13238.5  sp|P0DB94|KGUA_STRP3 -             0.0076   16.7   0.0     0.042   14.3   0.0   2.1   1   1   0   1   1   1   1 AAA domain
+DUF1236              PF06823.11 sp|P0DB94|KGUA_STRP3 -              0.048   13.4   0.9      0.12   12.2   0.1   2.0   2   0   0   2   2   2   0 Protein of unknown function (DUF1236)
+RsgA_GTPase          PF03193.15 sp|P0DB94|KGUA_STRP3 -               0.15   11.9   0.0      0.32   10.8   0.0   1.5   1   0   0   1   1   1   0 RsgA GTPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0DB94.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0DB94.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0DB94.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:44:28 2019
+# [ok]

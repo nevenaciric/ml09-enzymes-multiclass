@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|P59733|RLMH_NITEU -            2.9e-51  173.4   0.0   3.3e-51  173.2   0.0   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+EMG1                 PF03587.13 sp|P59733|RLMH_NITEU -            4.7e-07   29.6   0.0   5.8e-07   29.3   0.0   1.1   1   0   0   1   1   1   1 EMG1/NEP1 methyltransferase
+Tn7_Tnp_TnsA_N       PF08722.10 sp|P59733|RLMH_NITEU -              0.063   13.4   0.2      0.13   12.4   0.2   1.4   1   0   0   1   1   1   0 TnsA endonuclease N terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P59733.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P59733.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P59733.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:17:25 2019
+# [ok]

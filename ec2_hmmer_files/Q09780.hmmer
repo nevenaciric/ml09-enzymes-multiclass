@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|Q09780|KIME_SCHPO -            1.9e-15   56.8   4.8   1.9e-15   56.7   1.6   2.3   2   0   0   2   2   2   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|Q09780|KIME_SCHPO -            3.2e-06   27.3   0.0   1.1e-05   25.6   0.0   1.9   1   1   0   1   1   1   1 GHMP kinases C terminal
+GalKase_gal_bdg      PF10509.8  sp|Q09780|KIME_SCHPO -              0.023   14.2   0.0     0.043   13.3   0.0   1.4   1   0   0   1   1   1   0 Galactokinase galactose-binding signature
+FPP                  PF05911.10 sp|Q09780|KIME_SCHPO -               0.15   10.2   0.1      0.22    9.6   0.1   1.2   1   0   0   1   1   1   0 Filament-like plant protein, long coiled-coil
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q09780.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q09780.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q09780.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:44:41 2019
+# [ok]

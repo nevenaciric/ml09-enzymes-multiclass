@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transf_2         PF01909.22 sp|P53632|PAP2_YEAST -            4.4e-20   71.7   0.8   2.3e-19   69.4   0.0   2.5   2   0   0   2   2   2   1 Nucleotidyltransferase domain
+PAP_assoc            PF03828.18 sp|P53632|PAP2_YEAST -            1.1e-13   51.0   0.0   3.6e-13   49.4   0.0   2.0   1   0   0   1   1   1   1 Cid1 family poly A polymerase
+DNA_pol_B_palm       PF14792.5  sp|P53632|PAP2_YEAST -             0.0046   17.0   0.0    0.0098   16.0   0.0   1.5   1   0   0   1   1   1   1 DNA polymerase beta palm
+RD3                  PF14473.5  sp|P53632|PAP2_YEAST -               0.23   11.2   7.7     0.083   12.6   3.2   2.2   2   0   0   2   2   2   0 RD3 protein
+FSAP_sig_propep      PF03032.14 sp|P53632|PAP2_YEAST -                7.2    6.6   8.9        32    4.6   8.9   2.2   1   0   0   1   1   1   0 Frog skin active peptide family signal and propeptide
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P53632.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P53632.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P53632.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:12:30 2019
+# [ok]

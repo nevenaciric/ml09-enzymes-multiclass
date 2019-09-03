@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GalKase_gal_bdg      PF10509.8  sp|Q1C960|GAL1_YERPA -            3.4e-22   77.6   0.0   6.5e-22   76.7   0.0   1.5   1   0   0   1   1   1   1 Galactokinase galactose-binding signature
+GHMP_kinases_N       PF00288.25 sp|Q1C960|GAL1_YERPA -            1.8e-14   53.6   0.7   1.8e-14   53.6   0.7   1.9   2   0   0   2   2   2   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|Q1C960|GAL1_YERPA -            1.1e-10   41.6   0.0   5.8e-10   39.3   0.0   2.1   2   0   0   2   2   2   1 GHMP kinases C terminal
+bact-PGI_C           PF10432.8  sp|Q1C960|GAL1_YERPA -              0.039   13.9   0.0     0.074   13.0   0.0   1.4   1   0   0   1   1   1   0 Bacterial phospho-glucose isomerase C-terminal SIS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q1C960.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q1C960.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q1C960.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:09:53 2019
+# [ok]

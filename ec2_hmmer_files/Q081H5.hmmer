@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRK                  PF00485.17 sp|Q081H5|URK_SHEFN  -            3.5e-43  147.5   0.0   4.1e-43  147.3   0.0   1.0   1   0   0   1   1   1   1 Phosphoribulokinase / Uridine kinase family
+AAA_18               PF13238.5  sp|Q081H5|URK_SHEFN  -            3.3e-08   34.0   0.0   4.4e-08   33.6   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+CoaE                 PF01121.19 sp|Q081H5|URK_SHEFN  -             0.0037   16.9   0.1      0.58    9.7   0.0   2.2   2   0   0   2   2   2   2 Dephospho-CoA kinase
+AAA_16               PF13191.5  sp|Q081H5|URK_SHEFN  -             0.0055   17.0   0.0    0.0093   16.3   0.0   1.5   1   0   0   1   1   1   1 AAA ATPase domain
+APS_kinase           PF01583.19 sp|Q081H5|URK_SHEFN  -              0.052   13.3   0.0         1    9.1   0.0   2.3   2   0   0   2   2   2   0 Adenylylsulphate kinase
+ATP-synt_ab          PF00006.24 sp|Q081H5|URK_SHEFN  -              0.065   12.8   0.1      0.87    9.1   0.0   2.0   2   0   0   2   2   2   0 ATP synthase alpha/beta family, nucleotide-binding domain
+ABC_tran             PF00005.26 sp|Q081H5|URK_SHEFN  -               0.09   13.2   0.1      0.19   12.1   0.1   1.5   1   1   0   1   1   1   0 ABC transporter
+RNA_helicase         PF00910.21 sp|Q081H5|URK_SHEFN  -               0.11   12.9   0.0      0.23   11.8   0.0   1.7   1   1   0   1   1   1   0 RNA helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q081H5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q081H5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q081H5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:43:11 2019
+# [ok]

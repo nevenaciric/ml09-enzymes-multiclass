@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PARP                 PF00644.19 sp|Q11208|PARP_SARPE -            4.6e-76  254.7   0.1   1.2e-75  253.3   0.0   1.8   2   0   0   2   2   2   1 Poly(ADP-ribose) polymerase catalytic domain
+PARP_reg             PF02877.13 sp|Q11208|PARP_SARPE -            1.7e-47  160.8   1.5   1.7e-47  160.8   1.5   1.9   2   0   0   2   2   2   1 Poly(ADP-ribose) polymerase, regulatory domain
+zf-PARP              PF00645.17 sp|Q11208|PARP_SARPE -            5.2e-35  120.1   7.3   8.4e-17   61.7   0.6   3.2   3   0   0   3   3   3   2 Poly(ADP-ribose) polymerase and DNA-Ligase Zn-finger region
+WGR                  PF05406.14 sp|Q11208|PARP_SARPE -            2.1e-23   82.0   0.3   2.1e-23   82.0   0.3   1.9   2   0   0   2   2   2   1 WGR domain
+PADR1                PF08063.11 sp|Q11208|PARP_SARPE -            1.5e-18   66.2   1.9   1.8e-18   66.0   0.1   2.2   2   0   0   2   2   2   1 PADR1 (NUC008) domain
+BRCT                 PF00533.25 sp|Q11208|PARP_SARPE -            2.7e-05   24.4   0.2   0.00022   21.5   0.0   2.6   3   0   0   3   3   3   1 BRCA1 C Terminus (BRCT) domain
+PTCB-BRCT            PF12738.6  sp|Q11208|PARP_SARPE -              0.047   13.5   0.0      0.14   12.0   0.0   1.8   1   0   0   1   1   1   0 twin BRCT domain
+Syntaxin             PF00804.24 sp|Q11208|PARP_SARPE -               0.79    9.3   6.9       5.6    6.5   0.4   2.6   2   0   0   2   2   2   0 Syntaxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q11208.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q11208.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q11208.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:59:07 2019
+# [ok]

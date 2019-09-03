@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UPF0004              PF00919.19 sp|P57516|MIAB_BUCAI -            3.9e-29  100.5   0.1     8e-29   99.5   0.1   1.5   1   0   0   1   1   1   1 Uncharacterized protein family UPF0004
+Radical_SAM          PF04055.20 sp|P57516|MIAB_BUCAI -              1e-24   87.7   0.1   2.5e-24   86.4   0.0   1.7   2   0   0   2   2   2   1 Radical SAM superfamily
+TRAM                 PF01938.19 sp|P57516|MIAB_BUCAI -            3.5e-18   65.2   0.1   7.5e-18   64.2   0.1   1.6   1   0   0   1   1   1   1 TRAM domain
+B12-binding          PF02310.18 sp|P57516|MIAB_BUCAI -             0.0077   16.2   0.0     0.017   15.0   0.0   1.5   1   0   0   1   1   1   1 B12 binding domain
+PepSY_like           PF11396.7  sp|P57516|MIAB_BUCAI -               0.22   12.0   2.0        13    6.3   0.3   3.1   2   1   0   2   2   2   0 Putative beta-lactamase-inhibitor-like, PepSY-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P57516.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P57516.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P57516.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:15:28 2019
+# [ok]

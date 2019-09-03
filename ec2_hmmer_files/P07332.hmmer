@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P07332|FES_HUMAN  -            1.7e-94  315.9   0.0   2.8e-94  315.1   0.0   1.4   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P07332|FES_HUMAN  -            3.7e-49  167.3   0.0   6.7e-49  166.5   0.0   1.4   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P07332|FES_HUMAN  -            1.8e-16   59.9   0.0   7.8e-16   57.8   0.0   2.2   1   0   0   1   1   1   1 SH2 domain
+FCH                  PF00611.22 sp|P07332|FES_HUMAN  -            1.4e-06   28.4   5.7   6.3e-06   26.3   0.1   2.8   2   0   0   2   2   2   1 Fes/CIP4, and EFC/F-BAR homology domain
+Muted                PF14942.5  sp|P07332|FES_HUMAN  -              0.054   13.7   0.3     0.054   13.7   0.3   3.0   3   0   0   3   3   3   0 Organelle biogenesis, Muted-like protein
+Remorin_C            PF03763.12 sp|P07332|FES_HUMAN  -                0.2   11.5   9.0      0.72    9.7   9.0   1.9   1   0   0   1   1   1   0 Remorin, C-terminal region
+DUF1682              PF07946.13 sp|P07332|FES_HUMAN  -                7.5    5.6  10.1        15    4.6  10.1   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF1682)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P07332.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P07332.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P07332.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:35:02 2019
+# [ok]

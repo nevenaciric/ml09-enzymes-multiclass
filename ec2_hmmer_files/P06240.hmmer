@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P06240|LCK_MOUSE  -              1e-94  316.5   0.0   1.3e-94  316.2   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P06240|LCK_MOUSE  -            1.2e-47  162.4   0.0   1.6e-47  162.0   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P06240|LCK_MOUSE  -            6.2e-25   87.0   0.0   1.2e-24   86.1   0.0   1.5   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|P06240|LCK_MOUSE  -            8.9e-14   50.7   0.3   2.4e-13   49.3   0.0   2.0   2   0   0   2   2   2   1 SH3 domain
+SH3_2                PF07653.16 sp|P06240|LCK_MOUSE  -            9.6e-09   34.7   0.0   2.6e-08   33.3   0.0   1.8   1   0   0   1   1   1   1 Variant SH3 domain
+SH3_9                PF14604.5  sp|P06240|LCK_MOUSE  -            1.2e-08   34.5   0.2   4.7e-08   32.7   0.0   2.1   2   0   0   2   2   2   1 Variant SH3 domain
+Haspin_kinase        PF12330.7  sp|P06240|LCK_MOUSE  -             0.0045   15.9   0.0    0.0067   15.3   0.0   1.2   1   0   0   1   1   1   1 Haspin like kinase domain
+Kdo                  PF06293.13 sp|P06240|LCK_MOUSE  -              0.022   14.0   0.0     0.049   12.9   0.0   1.5   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P06240.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P06240.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P06240.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:34:31 2019
+# [ok]

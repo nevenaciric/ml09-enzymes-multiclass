@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_m1G_MT          PF01746.20 sp|Q15VI7|TRMD_PSEA6 -            4.7e-67  225.4   0.0   6.8e-67  224.9   0.0   1.2   1   0   0   1   1   1   1 tRNA (Guanine-1)-methyltransferase
+LTXXQ                PF07813.11 sp|Q15VI7|TRMD_PSEA6 -               0.11   13.2   1.2      0.19   12.3   0.2   1.8   2   0   0   2   2   2   0 LTXXQ motif family protein
+MBD                  PF01429.18 sp|Q15VI7|TRMD_PSEA6 -               0.27   10.8   1.4      0.38   10.4   0.0   1.9   2   0   0   2   2   2   0 Methyl-CpG binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q15VI7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q15VI7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q15VI7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:05:05 2019
+# [ok]

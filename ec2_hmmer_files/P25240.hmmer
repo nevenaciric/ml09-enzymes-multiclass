@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+N6_Mtase             PF02384.15 sp|P25240|MT57_ECOLX -            4.3e-13   49.1   0.0   6.2e-13   48.6   0.0   1.2   1   0   0   1   1   1   1 N-6 DNA Methylase
+Methyltransf_31      PF13847.5  sp|P25240|MT57_ECOLX -            0.00061   19.5   0.3    0.0025   17.5   0.1   2.1   2   1   0   2   2   2   1 Methyltransferase domain
+T5orf172             PF10544.8  sp|P25240|MT57_ECOLX -              0.035   14.6   0.3      0.15   12.6   0.2   2.1   2   0   0   2   2   2   0 T5orf172 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P25240.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P25240.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P25240.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:54:28 2019
+# [ok]

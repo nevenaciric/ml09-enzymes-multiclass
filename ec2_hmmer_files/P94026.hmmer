@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rubis-subs-bind      PF09273.10 sp|P94026|RBCMT_TOBAC -            9.7e-30  103.8   0.0   1.6e-29  103.1   0.0   1.4   1   0   0   1   1   1   1 Rubisco LSMT substrate-binding
+SET                  PF00856.27 sp|P94026|RBCMT_TOBAC -            2.9e-08   34.2   0.0     6e-08   33.1   0.0   1.6   1   0   0   1   1   1   1 SET domain
+SAF                  PF08666.11 sp|P94026|RBCMT_TOBAC -              0.039   14.5   0.2      0.16   12.5   0.1   2.1   2   0   0   2   2   2   0 SAF domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P94026.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P94026.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P94026.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:28:32 2019
+# [ok]

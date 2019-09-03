@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|Q05879|KITH_CBEPV -            3.3e-60  202.9   5.7   3.7e-60  202.7   5.7   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_14               PF13173.5  sp|Q05879|KITH_CBEPV -             0.0023   17.9   0.6    0.0036   17.2   0.6   1.3   1   0   0   1   1   1   1 AAA domain
+T2SSE                PF00437.19 sp|Q05879|KITH_CBEPV -              0.024   13.6   0.0     0.036   13.0   0.0   1.2   1   0   0   1   1   1   0 Type II/IV secretion system protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q05879.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q05879.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q05879.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:41:03 2019
+# [ok]

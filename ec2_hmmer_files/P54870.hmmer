@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HMG_CoA_synt_C       PF08540.9  sp|P54870|HMCS2_BLAGE -           2.8e-103  345.3   1.2  3.5e-103  345.0   1.2   1.1   1   0   0   1   1   1   1 Hydroxymethylglutaryl-coenzyme A synthase C terminal
+HMG_CoA_synt_N       PF01154.16 sp|P54870|HMCS2_BLAGE -            4.5e-86  287.1   0.5   6.5e-86  286.5   0.5   1.2   1   0   0   1   1   1   1 Hydroxymethylglutaryl-coenzyme A synthase N terminal
+DUF1825              PF08855.9  sp|P54870|HMCS2_BLAGE -              0.027   14.4   1.4     0.069   13.1   0.7   2.0   2   0   0   2   2   2   0 Domain of unknown function (DUF1825)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P54870.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P54870.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P54870.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:13:36 2019
+# [ok]

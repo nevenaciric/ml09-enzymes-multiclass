@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-sulfurylase      PF01747.16 sp|P78937|MET3_SCHPO -            1.3e-88  295.9   0.0   1.7e-88  295.5   0.0   1.2   1   0   0   1   1   1   1 ATP-sulfurylase
+PUA_2                PF14306.5  sp|P78937|MET3_SCHPO -            4.6e-52  175.8   0.0   8.7e-52  174.9   0.0   1.4   1   0   0   1   1   1   1 PUA-like domain
+MoeA_C               PF03454.14 sp|P78937|MET3_SCHPO -              0.067   13.3   0.0      0.42   10.7   0.0   2.4   2   0   0   2   2   2   0 MoeA C-terminal region (domain IV)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P78937.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P78937.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P78937.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:26:31 2019
+# [ok]

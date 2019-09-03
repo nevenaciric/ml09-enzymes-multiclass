@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P18160|SPLA_DICDI -            2.1e-69  233.6   0.0   2.1e-69  233.6   0.0   2.0   3   0   0   3   3   3   1 Protein tyrosine kinase
+SPRY                 PF00622.27 sp|P18160|SPLA_DICDI -            1.8e-66  221.6  25.6   5.2e-24   84.6   0.3   4.3   4   0   0   4   4   4   3 SPRY domain
+Pkinase              PF00069.24 sp|P18160|SPLA_DICDI -            1.8e-48  165.1   0.0   1.8e-48  165.1   0.0   2.6   3   0   0   3   3   3   1 Protein kinase domain
+SAM_2                PF07647.16 sp|P18160|SPLA_DICDI -            2.5e-19   69.0   0.5   1.1e-18   67.0   0.0   2.3   2   0   0   2   2   2   1 SAM domain (Sterile alpha motif)
+SAM_1                PF00536.29 sp|P18160|SPLA_DICDI -            2.3e-13   50.3   0.0   4.4e-13   49.3   0.0   1.5   1   0   0   1   1   1   1 SAM domain (Sterile alpha motif)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P18160.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P18160.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P18160.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:50:18 2019
+# [ok]

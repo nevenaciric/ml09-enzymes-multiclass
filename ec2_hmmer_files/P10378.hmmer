@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|P10378|ENTE_ECOLI -              9e-77  258.3   0.0   1.1e-76  258.0   0.0   1.1   1   0   0   1   1   1   1 AMP-binding enzyme
+AMP-binding_C        PF13193.5  sp|P10378|ENTE_ECOLI -            7.1e-13   49.2   0.1   3.4e-12   47.1   0.1   2.3   2   0   0   2   2   2   1 AMP-binding enzyme C-terminal domain
+GH3                  PF03321.12 sp|P10378|ENTE_ECOLI -              0.026   13.3   0.0      0.05   12.4   0.0   1.4   2   0   0   2   2   2   0 GH3 auxin-responsive promoter
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P10378.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P10378.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P10378.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:45:41 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAT                  PF00302.17 sp|P22615|CAT2_ECOLX -            1.4e-98  328.7   0.6   1.6e-98  328.5   0.6   1.0   1   0   0   1   1   1   1 Chloramphenicol acetyltransferase
+2-oxoacid_dh         PF00198.22 sp|P22615|CAT2_ECOLX -            0.00051   19.5   0.0      0.76    9.1   0.0   2.1   2   0   0   2   2   2   2 2-oxoacid dehydrogenases acyltransferase (catalytic domain)
+Transferase          PF02458.14 sp|P22615|CAT2_ECOLX -              0.028   13.0   0.2         1    7.8   0.0   2.2   2   0   0   2   2   2   0 Transferase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P22615.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P22615.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P22615.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:52:54 2019
+# [ok]

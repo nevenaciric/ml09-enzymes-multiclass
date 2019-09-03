@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+N6_N4_Mtase          PF01555.17 sp|P18051|MTB2_BACAM -            1.5e-48  165.4   2.6   1.8e-48  165.2   2.6   1.1   1   0   0   1   1   1   1 DNA methylase
+Methyltransf_11      PF08241.11 sp|P18051|MTB2_BACAM -             0.0032   18.0   0.0         3    8.4   0.0   2.4   2   0   0   2   2   2   2 Methyltransferase domain
+Methyltransf_25      PF13649.5  sp|P18051|MTB2_BACAM -             0.0058   17.2   0.0      0.14   12.8   0.0   2.3   2   0   0   2   2   2   1 Methyltransferase domain
+UPF0020              PF01170.17 sp|P18051|MTB2_BACAM -               0.01   15.4   0.0     0.045   13.3   0.0   1.9   2   0   0   2   2   2   0 Putative RNA methylase family UPF0020
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P18051.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P18051.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P18051.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:50:10 2019
+# [ok]

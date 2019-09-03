@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GalKase_gal_bdg      PF10509.8  sp|P96993|GAL1_STRMU -            8.2e-22   76.4   0.3   1.4e-21   75.7   0.3   1.4   1   0   0   1   1   1   1 Galactokinase galactose-binding signature
+GHMP_kinases_C       PF08544.12 sp|P96993|GAL1_STRMU -            4.9e-13   49.2   0.1   2.2e-12   47.0   0.1   2.2   3   0   0   3   3   3   1 GHMP kinases C terminal
+GHMP_kinases_N       PF00288.25 sp|P96993|GAL1_STRMU -            6.7e-11   42.2   0.0   1.6e-10   40.9   0.0   1.7   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+SLX9                 PF15341.5  sp|P96993|GAL1_STRMU -              0.094   13.0   0.1      0.14   12.5   0.1   1.2   1   0   0   1   1   1   0 Ribosome biogenesis protein SLX9
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P96993.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P96993.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P96993.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:29:09 2019
+# [ok]

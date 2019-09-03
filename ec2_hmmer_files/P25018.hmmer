@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPT                  PF01745.15 sp|P25018|IPT_AGRVI  -           1.7e-102  341.7   0.0    2e-102  341.5   0.0   1.0   1   0   0   1   1   1   1 Isopentenyl transferase
+AAA                  PF00004.28 sp|P25018|IPT_AGRVI  -            0.00093   19.5   0.0    0.0017   18.7   0.0   1.5   1   0   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+Hydin_ADK            PF17213.2  sp|P25018|IPT_AGRVI  -             0.0065   16.7   0.0      0.01   16.0   0.0   1.2   1   0   0   1   1   1   1 Hydin Adenylate kinase-like domain
+AAA_28               PF13521.5  sp|P25018|IPT_AGRVI  -             0.0086   16.2   0.2     0.018   15.2   0.2   1.5   1   1   0   1   1   1   1 AAA domain
+T2SSE_N              PF05157.14 sp|P25018|IPT_AGRVI  -              0.016   15.4   0.2       1.8    8.8   0.0   3.0   2   1   1   3   3   3   0 Type II secretion system (T2SS), protein E, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P25018.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P25018.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P25018.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:54:21 2019
+# [ok]

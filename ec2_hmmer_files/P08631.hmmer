@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P08631|HCK_HUMAN  -            1.5e-95  319.3   0.0   1.9e-95  319.0   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P08631|HCK_HUMAN  -            5.1e-46  157.1   0.0   6.9e-46  156.6   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P08631|HCK_HUMAN  -            1.7e-25   88.8   0.0   3.5e-25   87.8   0.0   1.6   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|P08631|HCK_HUMAN  -            3.7e-17   61.5   0.0   8.3e-17   60.4   0.0   1.6   1   0   0   1   1   1   1 SH3 domain
+SH3_9                PF14604.5  sp|P08631|HCK_HUMAN  -            1.4e-10   40.7   0.0   3.6e-10   39.5   0.0   1.7   1   0   0   1   1   1   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|P08631|HCK_HUMAN  -            1.7e-09   37.1   0.0   3.7e-09   36.0   0.0   1.6   1   0   0   1   1   1   1 Variant SH3 domain
+Haspin_kinase        PF12330.7  sp|P08631|HCK_HUMAN  -             0.0051   15.7   0.2     0.027   13.3   0.2   1.9   1   1   0   1   1   1   1 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P08631.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P08631.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P08631.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:35:53 2019
+# [ok]

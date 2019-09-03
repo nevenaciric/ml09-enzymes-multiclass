@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_A            PF00476.19 sp|P9WNU5|DPO1_MYCTU -             3e-144  480.6   0.0  4.1e-144  480.1   0.0   1.1   1   0   0   1   1   1   1 DNA polymerase family A
+5_3_exonuc_N         PF02739.15 sp|P9WNU5|DPO1_MYCTU -            3.8e-54  182.8   0.0   8.2e-54  181.7   0.0   1.6   1   0   0   1   1   1   1 5'-3' exonuclease, N-terminal resolvase-like domain
+5_3_exonuc           PF01367.19 sp|P9WNU5|DPO1_MYCTU -              2e-26   92.3   0.0   4.7e-26   91.1   0.0   1.7   1   0   0   1   1   1   1 5'-3' exonuclease, C-terminal SAM fold
+NYN_YacP             PF05991.10 sp|P9WNU5|DPO1_MYCTU -             0.0055   16.6   0.0     0.025   14.4   0.0   2.0   2   0   0   2   2   2   1 YacP-like NYN domain
+HHH_5                PF14520.5  sp|P9WNU5|DPO1_MYCTU -             0.0076   16.7   0.1     0.046   14.2   0.0   2.4   2   0   0   2   2   2   1 Helix-hairpin-helix domain
+DNA_pol_lambd_f      PF10391.8  sp|P9WNU5|DPO1_MYCTU -              0.025   14.4   0.0     0.069   12.9   0.0   1.8   1   0   0   1   1   1   0 Fingers domain of DNA polymerase lambda
+HHH_2                PF12826.6  sp|P9WNU5|DPO1_MYCTU -              0.048   13.7   0.0      0.14   12.2   0.0   1.7   1   0   0   1   1   1   0 Helix-hairpin-helix motif
+Transposase_20       PF02371.15 sp|P9WNU5|DPO1_MYCTU -              0.097   12.9   0.0      0.27   11.5   0.0   1.8   1   0   0   1   1   1   0 Transposase IS116/IS110/IS902 family
+Sep15_SelM           PF08806.10 sp|P9WNU5|DPO1_MYCTU -               0.21   11.7   0.1       2.5    8.3   0.0   2.5   2   0   0   2   2   2   0 Sep15/SelM redox domain
+DUF4880              PF16220.4  sp|P9WNU5|DPO1_MYCTU -               0.44   10.4   5.6       0.1   12.4   1.1   2.4   2   0   0   2   2   2   0 Domain of unknown function (DUF4880)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P9WNU5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P9WNU5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P9WNU5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:32:21 2019
+# [ok]

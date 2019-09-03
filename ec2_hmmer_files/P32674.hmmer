@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFL-like             PF02901.14 sp|P32674|PFLD_ECOLI -           1.1e-203  678.5   0.0  1.3e-203  678.2   0.0   1.1   1   0   0   1   1   1   1 Pyruvate formate lyase-like
+Gly_radical          PF01228.20 sp|P32674|PFLD_ECOLI -            1.1e-27   96.6   0.0     3e-27   95.1   0.0   1.8   1   0   0   1   1   1   1 Glycine radical
+Ribosomal_S15        PF00312.21 sp|P32674|PFLD_ECOLI -              0.042   14.0   0.8       1.6    8.9   0.0   2.7   2   0   0   2   2   2   0 Ribosomal protein S15
+TPR_20               PF14561.5  sp|P32674|PFLD_ECOLI -                0.3   11.3   3.4       2.2    8.6   0.1   2.9   2   1   0   2   2   2   0 Tetratricopeptide repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P32674.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P32674.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P32674.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:59:24 2019
+# [ok]

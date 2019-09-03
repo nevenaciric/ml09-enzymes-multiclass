@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|Q031V6|NADK_LACLS -            4.6e-26   91.6   0.0   6.2e-26   91.2   0.0   1.2   1   0   0   1   1   1   1 ATP-NAD kinase
+Mre11_DNA_bind       PF04152.13 sp|Q031V6|NADK_LACLS -               0.12   12.6   0.0      0.21   11.7   0.0   1.4   1   0   0   1   1   1   0 Mre11 DNA-binding presumed domain
+LmjF365940-deam      PF14421.5  sp|Q031V6|NADK_LACLS -               0.16   11.4   0.0      0.24   10.9   0.0   1.2   1   0   0   1   1   1   0 A distinct subfamily of CDD/CDA-like deaminases
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q031V6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q031V6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q031V6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:36:15 2019
+# [ok]

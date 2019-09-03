@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P83097|WSCK_DROME -            2.4e-41  141.6   0.0   3.7e-41  141.0   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P83097|WSCK_DROME -            1.6e-25   89.9   0.0   2.4e-25   89.3   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+WSC                  PF01822.18 sp|P83097|WSCK_DROME -            1.5e-12   47.4   8.7   3.3e-12   46.3   8.7   1.6   1   0   0   1   1   1   1 WSC domain
+fn3                  PF00041.20 sp|P83097|WSCK_DROME -            1.7e-09   37.8   0.1    0.0003   21.0   0.0   3.5   3   0   0   3   3   3   2 Fibronectin type III domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P83097.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P83097.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P83097.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:27:11 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MoeA_N               PF03453.16 sp|P99139|MOEA_STAAN -            7.3e-41  139.4   0.1     2e-40  138.0   0.1   1.7   2   0   0   2   2   2   1 MoeA N-terminal region (domain I and II)
+MoCF_biosynth        PF00994.23 sp|P99139|MOEA_STAAN -            1.1e-26   93.1   0.3   6.5e-26   90.6   0.1   2.1   2   0   0   2   2   2   1 Probable molybdopterin binding domain
+MoeA_C               PF03454.14 sp|P99139|MOEA_STAAN -            1.9e-16   59.9   0.0   4.4e-16   58.7   0.0   1.7   1   0   0   1   1   1   1 MoeA C-terminal region (domain IV)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P99139.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P99139.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P99139.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:29:30 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|Q04943|AFSQ2_STRCO -            5.4e-23   81.6   0.0   1.2e-22   80.5   0.0   1.6   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HisKA                PF00512.24 sp|Q04943|AFSQ2_STRCO -            1.2e-14   53.9   0.1   5.6e-14   51.8   0.0   2.2   2   0   0   2   2   2   1 His Kinase A (phospho-acceptor) domain
+HAMP                 PF00672.24 sp|Q04943|AFSQ2_STRCO -            1.8e-11   44.2   0.9   5.2e-11   42.7   0.3   2.2   2   0   0   2   2   2   1 HAMP domain
+HATPase_c_2          PF13581.5  sp|Q04943|AFSQ2_STRCO -              0.011   15.6   0.1      0.04   13.8   0.0   2.0   1   1   0   1   1   1   0 Histidine kinase-like ATPase domain
+HATPase_c_3          PF13589.5  sp|Q04943|AFSQ2_STRCO -              0.027   14.2   0.0     0.056   13.2   0.0   1.5   1   0   0   1   1   1   0 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q04943.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q04943.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q04943.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:39:01 2019
+# [ok]

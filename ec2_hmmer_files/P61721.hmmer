@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DMRL_synthase        PF00885.18 sp|P61721|RISB_CORDI -            5.8e-47  159.0   1.4   6.5e-47  158.8   1.4   1.0   1   0   0   1   1   1   1 6,7-dimethyl-8-ribityllumazine synthase
+Hydrophob_seed       PF14547.5  sp|P61721|RISB_CORDI -              0.028   14.5   0.9     0.052   13.6   0.9   1.4   1   0   0   1   1   1   0 Hydrophobic seed protein
+DUF3464              PF11947.7  sp|P61721|RISB_CORDI -              0.038   13.7   0.0       6.6    6.4   0.0   2.2   2   0   0   2   2   2   0 Protein of unknown function (DUF3464)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P61721.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P61721.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P61721.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:18:50 2019
+# [ok]

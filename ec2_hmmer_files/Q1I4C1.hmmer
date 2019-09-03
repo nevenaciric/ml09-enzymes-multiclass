@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AICARFT_IMPCHas      PF01808.17 sp|Q1I4C1|PUR9_PSEE4 -           7.5e-115  383.3   4.6  9.4e-115  383.0   4.6   1.1   1   0   0   1   1   1   1 AICARFT/IMPCHase bienzyme
+MGS                  PF02142.21 sp|Q1I4C1|PUR9_PSEE4 -            2.1e-28   98.2   0.0   6.3e-28   96.7   0.0   1.9   1   0   0   1   1   1   1 MGS-like domain
+Herpes_UL42          PF02282.15 sp|Q1I4C1|PUR9_PSEE4 -              0.083   12.7   0.0      0.66    9.7   0.0   2.1   2   0   0   2   2   2   0 DNA polymerase processivity factor (UL42)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q1I4C1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q1I4C1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q1I4C1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:13:49 2019
+# [ok]

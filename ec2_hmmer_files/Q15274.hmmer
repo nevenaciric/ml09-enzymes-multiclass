@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+QRPTase_C            PF01729.18 sp|Q15274|NADC_HUMAN -            2.9e-60  202.8   0.0   3.5e-60  202.5   0.0   1.1   1   0   0   1   1   1   1 Quinolinate phosphoribosyl transferase, C-terminal domain
+QRPTase_N            PF02749.15 sp|Q15274|NADC_HUMAN -            4.1e-21   74.7   0.0   2.5e-20   72.2   0.0   2.0   2   0   0   2   2   2   1 Quinolinate phosphoribosyl transferase, N-terminal domain
+TMP-TENI             PF02581.16 sp|Q15274|NADC_HUMAN -               0.03   13.6   0.0     0.069   12.4   0.0   1.6   1   1   0   1   1   1   0 Thiamine monophosphate synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q15274.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q15274.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q15274.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:04:30 2019
+# [ok]

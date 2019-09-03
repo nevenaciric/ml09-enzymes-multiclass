@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol3_alpha       PF07733.11 sp|P47277|DPO3_MYCGE -            1.8e-91  306.9   0.0   2.9e-90  302.9   0.0   2.1   1   1   0   1   1   1   1 Bacterial DNA polymerase III alpha subunit
+PHP                  PF02811.18 sp|P47277|DPO3_MYCGE -            4.4e-32  111.6   0.8   2.9e-31  108.9   0.2   2.7   2   0   0   2   2   2   1 PHP domain
+RNase_T              PF00929.23 sp|P47277|DPO3_MYCGE -              7e-31  107.9   1.0   1.9e-30  106.5   0.2   2.3   2   0   0   2   2   2   1 Exonuclease
+HHH_6                PF14579.5  sp|P47277|DPO3_MYCGE -            5.4e-14   52.1   0.3   6.1e-13   48.8   0.0   2.8   3   0   0   3   3   3   1 Helix-hairpin-helix motif
+RNase_H_2            PF13482.5  sp|P47277|DPO3_MYCGE -            3.7e-07   30.2   0.4   2.1e-06   27.7   0.1   2.5   1   1   1   2   2   2   1 RNase_H superfamily
+HHH_3                PF12836.6  sp|P47277|DPO3_MYCGE -            2.3e-06   27.6   0.1   2.3e-05   24.4   0.0   2.8   3   0   0   3   3   3   1 Helix-hairpin-helix motif
+DUF655               PF04919.11 sp|P47277|DPO3_MYCGE -             0.0012   18.8   2.7    0.0033   17.3   0.1   3.0   3   0   0   3   3   3   1 Protein of unknown function (DUF655)
+T2SSK                PF03934.12 sp|P47277|DPO3_MYCGE -               0.05   12.9   0.0     0.098   11.9   0.0   1.4   1   0   0   1   1   1   0 Type II secretion system (T2SS), protein K
+Zn-ribbon_8          PF09723.9  sp|P47277|DPO3_MYCGE -              0.057   13.4   1.5      0.13   12.3   1.5   1.6   1   0   0   1   1   1   0 Zinc ribbon domain
+DUF5051              PF16473.4  sp|P47277|DPO3_MYCGE -               0.11   12.4   0.6      0.71    9.7   0.0   2.6   2   1   0   2   2   2   0 3' exoribonuclease, RNase T-like
+Caudo_TAP            PF02413.16 sp|P47277|DPO3_MYCGE -               0.17   12.0   1.1       3.2    7.9   0.0   3.0   3   0   0   3   3   2   0 Caudovirales tail fibre assembly protein, lambda gpK
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P47277.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P47277.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P47277.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:08:21 2019
+# [ok]

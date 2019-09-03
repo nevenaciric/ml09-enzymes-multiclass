@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P16879|FES_MOUSE  -            1.1e-94  316.4   0.0   2.4e-94  315.3   0.0   1.6   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P16879|FES_MOUSE  -            8.2e-50  169.5   0.0   1.9e-49  168.3   0.0   1.6   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P16879|FES_MOUSE  -              1e-17   63.9   0.0   5.1e-17   61.6   0.0   2.3   2   0   0   2   2   2   1 SH2 domain
+FCH                  PF00611.22 sp|P16879|FES_MOUSE  -            2.2e-06   27.8   4.7     5e-06   26.6   0.1   2.8   1   1   1   2   2   2   1 Fes/CIP4, and EFC/F-BAR homology domain
+DUF4407              PF14362.5  sp|P16879|FES_MOUSE  -               0.94    8.7  12.3      0.19   10.9   1.4   2.2   2   0   0   2   2   2   0 Domain of unknown function (DUF4407)
+Muted                PF14942.5  sp|P16879|FES_MOUSE  -               0.96    9.7  15.0     0.082   13.1   0.5   2.9   3   0   0   3   3   3   0 Organelle biogenesis, Muted-like protein
+DUF641               PF04859.11 sp|P16879|FES_MOUSE  -                1.1    9.5  16.4       1.1    9.5   4.2   2.6   2   0   0   2   2   2   0 Plant protein of unknown function (DUF641)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P16879.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P16879.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P16879.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:49:27 2019
+# [ok]

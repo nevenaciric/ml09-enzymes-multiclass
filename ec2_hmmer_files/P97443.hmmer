@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|P97443|SMYD1_MOUSE -              2e-12   47.7   0.5   5.1e-12   46.4   0.5   1.7   1   1   0   1   1   1   1 SET domain
+zf-MYND              PF01753.17 sp|P97443|SMYD1_MOUSE -            2.6e-08   33.7  18.9   2.6e-08   33.7  18.9   2.6   2   1   0   2   2   2   1 MYND finger
+DUF3369              PF11849.7  sp|P97443|SMYD1_MOUSE -              0.045   13.8   0.1      0.11   12.6   0.1   1.6   1   0   0   1   1   1   0 Domain of unknown function (DUF3369)
+TPR_12               PF13424.5  sp|P97443|SMYD1_MOUSE -              0.061   13.5   0.2      0.17   12.1   0.2   1.7   2   0   0   2   2   2   0 Tetratricopeptide repeat
+FRG1                 PF06229.11 sp|P97443|SMYD1_MOUSE -               0.16   11.5   0.8       0.4   10.3   0.2   1.9   2   0   0   2   2   2   0 FRG1-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P97443.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P97443.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P97443.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:29:14 2019
+# [ok]

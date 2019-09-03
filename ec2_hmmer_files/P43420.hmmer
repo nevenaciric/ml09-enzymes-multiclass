@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_methylase        PF00145.16 sp|P43420|MTB6_BACSF -            4.9e-95  318.6   0.2   7.1e-95  318.1   0.2   1.2   1   0   0   1   1   1   1 C-5 cytosine-specific DNA methylase
+Talin_middle         PF09141.9  sp|P43420|MTB6_BACSF -               0.24   11.3   0.0      0.36   10.8   0.0   1.2   1   0   0   1   1   1   0 Talin, middle domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P43420.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P43420.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P43420.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:05:39 2019
+# [ok]

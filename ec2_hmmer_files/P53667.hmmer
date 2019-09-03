@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P53667|LIMK1_HUMAN -            1.9e-54  184.6   0.0   2.8e-54  184.0   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P53667|LIMK1_HUMAN -              1e-48  165.9   0.0   1.8e-48  165.1   0.0   1.3   1   1   0   1   1   1   1 Protein kinase domain
+LIM                  PF00412.21 sp|P53667|LIMK1_HUMAN -            6.8e-30  103.0  24.3   1.3e-15   57.2  10.4   2.4   2   0   0   2   2   2   2 LIM domain
+PDZ                  PF00595.23 sp|P53667|LIMK1_HUMAN -            1.3e-14   54.2   0.0   2.2e-14   53.5   0.0   1.4   1   0   0   1   1   1   1 PDZ domain (Also known as DHR or GLGF)
+Kdo                  PF06293.13 sp|P53667|LIMK1_HUMAN -            2.8e-07   30.0   0.1   5.4e-07   29.1   0.1   1.4   1   0   0   1   1   1   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+APH                  PF01636.22 sp|P53667|LIMK1_HUMAN -            0.00057   19.8   0.1    0.0022   17.8   0.0   1.9   2   0   0   2   2   2   1 Phosphotransferase enzyme family
+Haspin_kinase        PF12330.7  sp|P53667|LIMK1_HUMAN -             0.0083   15.0   0.0     0.014   14.3   0.0   1.2   1   0   0   1   1   1   1 Haspin like kinase domain
+RIO1                 PF01163.21 sp|P53667|LIMK1_HUMAN -              0.026   14.0   0.0      0.04   13.4   0.0   1.3   1   0   0   1   1   1   0 RIO1 family
+PDZ_2                PF13180.5  sp|P53667|LIMK1_HUMAN -              0.071   13.3   0.0      0.14   12.4   0.0   1.5   1   0   0   1   1   1   0 PDZ domain
+PknG_TPR             PF16918.4  sp|P53667|LIMK1_HUMAN -               0.16   10.6   0.0      0.24   10.0   0.0   1.2   1   0   0   1   1   1   0 Protein kinase G tetratricopeptide repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P53667.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P53667.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P53667.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:12:31 2019
+# [ok]

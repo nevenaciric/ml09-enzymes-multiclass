@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+zf-C2H2              PF00096.25 sp|P57071|PRD15_HUMAN -            2.8e-43  143.9 133.5   9.8e-06   25.7   1.1  17.7  17   0   0  17  17  17  16 Zinc finger, C2H2 type
+zf-C2H2_4            PF13894.5  sp|P57071|PRD15_HUMAN -            1.1e-39  131.5 139.0     0.001   19.6   0.5  18.6  19   0   0  19  19  19  16 C2H2-type zinc finger
+zf-H2C2_2            PF13465.5  sp|P57071|PRD15_HUMAN -            3.8e-29   99.7 110.1   1.5e-05   25.1   0.5  17.5  17   0   0  17  17  17  10 Zinc-finger double domain
+zf-C2H2_jaz          PF12171.7  sp|P57071|PRD15_HUMAN -              8e-17   61.0  92.2    0.0088   16.2   0.1  17.5  18   0   0  18  18  18   8 Zinc-finger double-stranded RNA-binding
+zf-met               PF12874.6  sp|P57071|PRD15_HUMAN -            3.1e-15   55.9  98.5     0.063   13.6   0.4  16.7  16   0   0  16  16  16  11 Zinc-finger of C2H2 type
+zf-C2H2_6            PF13912.5  sp|P57071|PRD15_HUMAN -            0.00068   19.4 106.7      0.46   10.4   1.0  17.0  17   0   0  17  17  17   7 C2H2-type zinc finger
+SET                  PF00856.27 sp|P57071|PRD15_HUMAN -             0.0034   17.7   0.0     0.026   14.8   0.0   2.4   2   0   0   2   2   2   1 SET domain
+zf-C2HC_2            PF13913.5  sp|P57071|PRD15_HUMAN -              0.033   14.0   0.2     0.033   14.0   0.2  10.2  11   0   0  11  11  11   0 zinc-finger of a C2HC-type
+BolA                 PF01722.17 sp|P57071|PRD15_HUMAN -                1.1    9.5  13.4        59    3.9   0.1   6.2   5   2   2   7   7   7   0 BolA-like protein
+GAGA                 PF09237.10 sp|P57071|PRD15_HUMAN -                5.7    6.7  11.0        11    5.8   0.2   4.4   4   1   0   4   4   4   0 GAGA factor
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P57071.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P57071.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P57071.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:14:54 2019
+# [ok]

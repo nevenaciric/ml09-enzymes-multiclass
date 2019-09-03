@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP-utilizers_C      PF02896.17 sp|P08839|PT1_ECOLI  -           4.4e-127  423.1   0.1  5.9e-127  422.7   0.1   1.2   1   0   0   1   1   1   1 PEP-utilising enzyme, TIM barrel domain
+PEP-utilisers_N      PF05524.12 sp|P08839|PT1_ECOLI  -            5.8e-30  103.7   4.9   5.8e-30  103.7   4.9   2.5   3   0   0   3   3   3   1 PEP-utilising enzyme, N-terminal
+PEP-utilizers        PF00391.22 sp|P08839|PT1_ECOLI  -            6.6e-23   80.1   0.1   2.2e-22   78.4   0.1   2.0   1   0   0   1   1   1   1 PEP-utilising enzyme, mobile domain
+HpcH_HpaI            PF03328.13 sp|P08839|PT1_ECOLI  -             0.0013   17.8   1.6    0.0014   17.7   0.1   1.8   2   0   0   2   2   2   1 HpcH/HpaI aldolase/citrate lyase family
+CHASE7               PF17151.3  sp|P08839|PT1_ECOLI  -              0.017   14.6   0.1     0.032   13.8   0.1   1.4   1   0   0   1   1   1   0 Periplasmic sensor domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P08839.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P08839.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P08839.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:35:59 2019
+# [ok]

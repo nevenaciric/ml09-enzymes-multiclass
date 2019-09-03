@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+S-AdoMet_synt_C      PF02773.15 sp|Q10VU5|METK_TRIEI -            3.1e-66  221.5   0.1   7.2e-66  220.3   0.0   1.7   2   0   0   2   2   2   1 S-adenosylmethionine synthetase, C-terminal domain
+S-AdoMet_synt_M      PF02772.15 sp|Q10VU5|METK_TRIEI -            2.9e-45  153.2   0.0   1.4e-44  151.1   0.0   2.1   3   0   0   3   3   3   1 S-adenosylmethionine synthetase, central domain
+S-AdoMet_synt_N      PF00438.19 sp|Q10VU5|METK_TRIEI -            8.9e-41  138.5   0.5   8.9e-41  138.5   0.5   1.9   3   0   0   3   3   3   1 S-adenosylmethionine synthetase, N-terminal domain
+BON                  PF04972.16 sp|Q10VU5|METK_TRIEI -               0.69   10.2   3.1      0.67   10.2   0.6   2.2   3   0   0   3   3   3   0 BON domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q10VU5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q10VU5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q10VU5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:58:50 2019
+# [ok]

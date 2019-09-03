@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ART                  PF01129.17 sp|Q13508|NAR3_HUMAN -            9.4e-86  286.6   0.7   1.2e-85  286.3   0.7   1.1   1   0   0   1   1   1   1 NAD:arginine ADP-ribosyltransferase
+Peptidase_C48        PF02902.18 sp|Q13508|NAR3_HUMAN -              0.061   13.1   0.0      0.11   12.2   0.0   1.4   1   0   0   1   1   1   0 Ulp1 protease family, C-terminal catalytic domain
+SPOC                 PF07744.12 sp|Q13508|NAR3_HUMAN -              0.075   12.9   0.0      0.15   11.8   0.0   1.5   1   0   0   1   1   1   0 SPOC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q13508.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q13508.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q13508.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:02:41 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|Q2JK64|DXS_SYNJB  -           3.1e-104  347.9   0.0    1e-103  346.2   0.0   1.8   2   0   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|Q2JK64|DXS_SYNJB  -            6.4e-42  143.1   0.0   1.1e-41  142.3   0.0   1.4   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|Q2JK64|DXS_SYNJB  -            1.4e-37  128.2   0.0   3.2e-37  127.1   0.0   1.7   1   0   0   1   1   1   1 Transketolase, C-terminal domain
+Transketolase_N      PF00456.20 sp|Q2JK64|DXS_SYNJB  -            3.8e-07   29.3   0.4   4.7e-05   22.4   0.3   2.6   2   1   0   2   2   2   2 Transketolase, thiamine diphosphate binding domain
+TPP_enzyme_C         PF02775.20 sp|Q2JK64|DXS_SYNJB  -              4e-05   23.4   2.7   0.00029   20.5   0.7   2.9   3   0   0   3   3   3   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+E1_dh                PF00676.19 sp|Q2JK64|DXS_SYNJB  -            8.2e-05   21.6   0.1   0.00016   20.6   0.1   1.4   1   0   0   1   1   1   1 Dehydrogenase E1 component
+PFOR_II              PF17147.3  sp|Q2JK64|DXS_SYNJB  -             0.0027   17.9   0.0    0.0068   16.6   0.0   1.7   1   0   0   1   1   1   1 Pyruvate:ferredoxin oxidoreductase core domain II
+FR47                 PF08445.9  sp|Q2JK64|DXS_SYNJB  -              0.083   12.8   0.0      0.43   10.5   0.0   2.2   2   0   0   2   2   2   0 FR47-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2JK64.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2JK64.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2JK64.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:32:18 2019
+# [ok]

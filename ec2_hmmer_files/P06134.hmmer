@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_binding_1        PF01035.19 sp|P06134|ADA_ECOLI  -            2.2e-32  110.9   2.9   4.4e-32  110.0   0.4   2.6   3   0   0   3   3   3   1 6-O-methylguanine DNA methyltransferase, DNA binding domain
+Ada_Zn_binding       PF02805.15 sp|P06134|ADA_ECOLI  -            2.7e-32  110.5   3.7   5.6e-32  109.5   3.7   1.6   1   0   0   1   1   1   1 Metal binding domain of Ada
+Methyltransf_1N      PF02870.14 sp|P06134|ADA_ECOLI  -            8.5e-22   77.7   0.0   1.5e-21   76.9   0.0   1.4   1   0   0   1   1   1   1 6-O-methylguanine DNA methyltransferase, ribonuclease-like domain
+HTH_AraC             PF00165.22 sp|P06134|ADA_ECOLI  -            3.7e-19   68.2   0.0   2.9e-11   43.1   0.0   2.6   2   0   0   2   2   2   2 Bacterial regulatory helix-turn-helix proteins, AraC family
+HTH_18               PF12833.6  sp|P06134|ADA_ECOLI  -              1e-15   57.6   0.3     1e-15   57.6   0.3   2.3   3   0   0   3   3   3   1 Helix-turn-helix domain
+HTH_15               PF12324.7  sp|P06134|ADA_ECOLI  -             0.0003   20.6   0.5         9    6.2   0.0   3.5   2   1   1   3   3   3   3 Helix-turn-helix domain of alkylmercury lyase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P06134.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P06134.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P06134.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:34:23 2019
+# [ok]

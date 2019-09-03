@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+dNK                  PF01712.18 sp|P48769|DCK_RAT    -            2.4e-75  252.8   0.5   2.7e-75  252.6   0.5   1.0   1   0   0   1   1   1   1 Deoxynucleoside kinase
+Thymidylate_kin      PF02223.16 sp|P48769|DCK_RAT    -              0.001   18.7   0.0     0.076   12.6   0.0   2.4   2   0   0   2   2   2   1 Thymidylate kinase
+AAA_28               PF13521.5  sp|P48769|DCK_RAT    -             0.0076   16.4   0.0     0.017   15.3   0.0   1.6   1   1   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|P48769|DCK_RAT    -              0.008   16.6   0.0         1    9.8   0.0   2.4   2   0   0   2   2   2   1 AAA domain
+CoaE                 PF01121.19 sp|P48769|DCK_RAT    -               0.16   11.5   0.0      0.29   10.7   0.0   1.4   1   0   0   1   1   1   0 Dephospho-CoA kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P48769.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P48769.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P48769.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:09:17 2019
+# [ok]

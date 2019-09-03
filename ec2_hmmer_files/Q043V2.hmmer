@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|Q043V2|PFKA_LACGA -           1.5e-108  362.3   1.6  1.8e-108  362.1   1.6   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+DAGK_cat             PF00781.23 sp|Q043V2|PFKA_LACGA -              0.014   14.9   0.0      0.03   13.8   0.0   1.7   1   0   0   1   1   1   0 Diacylglycerol kinase catalytic domain
+NAD_kinase           PF01513.20 sp|Q043V2|PFKA_LACGA -              0.019   14.1   0.1     0.022   13.8   0.1   1.3   1   0   0   1   1   1   0 ATP-NAD kinase
+Radical_SAM          PF04055.20 sp|Q043V2|PFKA_LACGA -              0.048   13.9   0.0       1.5    9.1   0.0   2.7   2   1   0   2   2   2   0 Radical SAM superfamily
+Peripla_BP_1         PF00532.20 sp|Q043V2|PFKA_LACGA -              0.054   12.8   0.0     0.097   12.0   0.0   1.5   1   0   0   1   1   1   0 Periplasmic binding proteins and sugar binding domain of LacI family
+CBS                  PF00571.27 sp|Q043V2|PFKA_LACGA -               0.14   12.6   0.1        12    6.3   0.0   3.0   2   0   0   2   2   2   0 CBS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q043V2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q043V2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q043V2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:38:29 2019
+# [ok]

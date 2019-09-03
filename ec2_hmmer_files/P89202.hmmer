@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RdRP_2               PF00978.20 sp|P89202|RDRP_SHMV  -             3e-117  392.1   0.0  4.3e-117  391.6   0.0   1.2   1   0   0   1   1   1   1 RNA dependent RNA polymerase
+Vmethyltransf        PF01660.16 sp|P89202|RDRP_SHMV  -            1.7e-82  276.9   0.3     3e-82  276.1   0.3   1.4   1   0   0   1   1   1   1 Viral methyltransferase
+Viral_helicase1      PF01443.17 sp|P89202|RDRP_SHMV  -            2.5e-63  213.9   0.0   4.6e-63  213.0   0.0   1.5   1   0   0   1   1   1   1 Viral (Superfamily 1) RNA helicase
+RdRP_3               PF00998.22 sp|P89202|RDRP_SHMV  -             0.0049   15.5   0.0    0.0086   14.7   0.0   1.3   1   0   0   1   1   1   1 Viral RNA dependent RNA polymerase
+AAA_19               PF13245.5  sp|P89202|RDRP_SHMV  -              0.084   13.1   0.0      0.63   10.3   0.0   2.3   1   1   0   1   1   1   0 AAA domain
+VGPC1_C              PF16799.4  sp|P89202|RDRP_SHMV  -                0.4   10.6   2.1      0.79    9.6   2.1   1.4   1   0   0   1   1   1   0 C-terminal membrane-localisation domain of ion-channel, VCN1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P89202.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P89202.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P89202.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:27:55 2019
+# [ok]

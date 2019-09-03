@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P04626|ERBB2_HUMAN -              3e-86  288.8   0.0   4.3e-86  288.3   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Recep_L_domain       PF01030.23 sp|P04626|ERBB2_HUMAN -            1.1e-54  183.3   0.0   1.2e-32  112.3   0.0   2.3   2   0   0   2   2   2   2 Receptor L domain
+GF_recep_IV          PF14843.5  sp|P04626|ERBB2_HUMAN -            2.1e-44  150.4  75.0     3e-41  140.2  26.2   3.7   2   1   1   3   3   3   2 Growth factor receptor domain IV
+Pkinase              PF00069.24 sp|P04626|ERBB2_HUMAN -            8.7e-37  126.8   0.0   1.3e-36  126.3   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+Furin-like           PF00757.19 sp|P04626|ERBB2_HUMAN -            1.4e-28   99.6  83.0     5e-25   88.0  37.5   4.0   2   1   1   3   3   3   2 Furin-like cysteine rich region
+Haspin_kinase        PF12330.7  sp|P04626|ERBB2_HUMAN -             0.0032   16.4   0.1    0.0064   15.4   0.1   1.4   1   0   0   1   1   1   1 Haspin like kinase domain
+APH                  PF01636.22 sp|P04626|ERBB2_HUMAN -              0.012   15.4   0.1     0.025   14.4   0.1   1.4   1   0   0   1   1   1   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P04626.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P04626.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P04626.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:33:43 2019
+# [ok]

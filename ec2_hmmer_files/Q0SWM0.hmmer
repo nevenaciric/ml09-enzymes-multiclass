@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PTS_2-RNA            PF01885.15 sp|Q0SWM0|KPTA_CLOPS -            1.3e-41  142.6   0.1   1.5e-41  142.3   0.1   1.0   1   0   0   1   1   1   1 RNA 2'-phosphotransferase, Tpt1 / KptA family
+PARP                 PF00644.19 sp|Q0SWM0|KPTA_CLOPS -             0.0072   15.8   0.0      0.01   15.4   0.0   1.2   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase catalytic domain
+DUF3091              PF11291.7  sp|Q0SWM0|KPTA_CLOPS -              0.076   13.1   0.0       0.2   11.8   0.0   1.7   1   0   0   1   1   1   0 Protein of unknown function (DUF3091)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0SWM0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0SWM0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0SWM0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:54:06 2019
+# [ok]

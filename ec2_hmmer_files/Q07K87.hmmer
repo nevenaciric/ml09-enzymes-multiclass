@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Alpha-amylase_C      PF02806.17 sp|Q07K87|GLGB_RHOP5 -              3e-22   78.8   0.0   5.8e-22   77.9   0.0   1.5   1   0   0   1   1   1   1 Alpha amylase, C-terminal all-beta domain
+CBM_48               PF02922.17 sp|Q07K87|GLGB_RHOP5 -              4e-19   68.6   0.0   7.8e-16   58.1   0.0   3.3   3   1   0   3   3   3   2 Carbohydrate-binding module 48 (Isoamylase N-terminal domain)
+Alpha-amylase        PF00128.23 sp|Q07K87|GLGB_RHOP5 -            2.1e-12   47.1   0.0   3.1e-08   33.5   0.0   2.4   1   1   1   2   2   2   2 Alpha amylase, catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q07K87.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q07K87.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q07K87.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:42:29 2019
+# [ok]

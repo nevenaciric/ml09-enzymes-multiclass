@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q14IC9|PNP_FRAT1  -            4.7e-43  146.8   0.0     5e-22   78.7   0.0   2.8   3   0   0   3   3   3   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q14IC9|PNP_FRAT1  -            1.1e-23   83.0   0.2   1.9e-13   50.1   0.0   3.2   3   0   0   3   3   3   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|Q14IC9|PNP_FRAT1  -            1.3e-20   73.6   0.1   1.3e-20   73.6   0.1   2.3   3   0   0   3   3   3   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|Q14IC9|PNP_FRAT1  -            8.1e-08   32.4   0.2   2.6e-07   30.8   0.2   1.9   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|Q14IC9|PNP_FRAT1  -            4.1e-07   29.6   2.8   4.3e-07   29.5   0.8   2.2   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|Q14IC9|PNP_FRAT1  -              0.004   16.8   1.5     0.015   15.0   1.5   2.0   1   0   0   1   1   1   1 KH domain
+UME                  PF08064.12 sp|Q14IC9|PNP_FRAT1  -              0.095   12.5   0.4        18    5.2   0.0   2.5   2   0   0   2   2   2   0 UME (NUC010) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q14IC9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q14IC9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q14IC9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:04:15 2019
+# [ok]

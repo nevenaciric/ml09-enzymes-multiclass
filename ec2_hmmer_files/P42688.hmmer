@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P42688|SRK2_SPOLA -            1.1e-94  316.5   0.0   1.3e-94  316.2   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P42688|SRK2_SPOLA -            3.3e-47  161.0   0.0   4.4e-47  160.6   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P42688|SRK2_SPOLA -            1.4e-18   66.7   0.1     3e-18   65.6   0.1   1.6   1   0   0   1   1   1   1 SH2 domain
+B2                   PF11473.7  sp|P42688|SRK2_SPOLA -             0.0066   16.1   0.1      0.21   11.3   0.0   2.3   2   0   0   2   2   2   1 RNA binding protein B2
+APH                  PF01636.22 sp|P42688|SRK2_SPOLA -              0.014   15.2   0.2      0.17   11.7   0.3   2.0   1   1   1   2   2   2   0 Phosphotransferase enzyme family
+Kdo                  PF06293.13 sp|P42688|SRK2_SPOLA -              0.018   14.3   0.0     0.036   13.3   0.0   1.4   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+Haspin_kinase        PF12330.7  sp|P42688|SRK2_SPOLA -              0.019   13.8   0.0     0.065   12.1   0.0   1.8   1   1   0   1   1   1   0 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P42688.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P42688.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P42688.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:05:09 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PARP                 PF00644.19 sp|P35875|PARP_DROME -            2.2e-75  252.5   0.1   4.7e-75  251.4   0.1   1.6   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase catalytic domain
+PARP_reg             PF02877.13 sp|P35875|PARP_DROME -            2.9e-46  156.8   1.6   2.9e-46  156.8   1.6   2.1   2   0   0   2   2   2   1 Poly(ADP-ribose) polymerase, regulatory domain
+zf-PARP              PF00645.17 sp|P35875|PARP_DROME -            3.1e-32  111.2   6.3   5.4e-16   59.1   0.0   3.2   3   0   0   3   3   3   2 Poly(ADP-ribose) polymerase and DNA-Ligase Zn-finger region
+WGR                  PF05406.14 sp|P35875|PARP_DROME -            2.3e-24   85.2   2.5   2.3e-24   85.2   2.5   2.1   2   0   0   2   2   2   1 WGR domain
+PADR1                PF08063.11 sp|P35875|PARP_DROME -              2e-18   65.8   1.2   6.4e-18   64.2   1.2   1.9   1   0   0   1   1   1   1 PADR1 (NUC008) domain
+BRCT                 PF00533.25 sp|P35875|PARP_DROME -            8.3e-06   26.0   0.2   3.3e-05   24.1   0.2   2.1   1   0   0   1   1   1   1 BRCA1 C Terminus (BRCT) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P35875.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P35875.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P35875.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:01:10 2019
+# [ok]

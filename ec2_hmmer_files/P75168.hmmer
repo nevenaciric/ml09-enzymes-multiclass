@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP-utilizers_C      PF02896.17 sp|P75168|PT1_MYCPN  -           1.9e-108  362.0   0.0  3.5e-108  361.1   0.0   1.4   1   0   0   1   1   1   1 PEP-utilising enzyme, TIM barrel domain
+PEP-utilizers        PF00391.22 sp|P75168|PT1_MYCPN  -            4.6e-26   90.2   1.2   1.6e-25   88.5   0.7   2.1   2   0   0   2   2   2   1 PEP-utilising enzyme, mobile domain
+PEP-utilisers_N      PF05524.12 sp|P75168|PT1_MYCPN  -            1.4e-23   83.1   1.7   1.8e-23   82.8   0.3   1.9   2   0   0   2   2   2   1 PEP-utilising enzyme, N-terminal
+HpcH_HpaI            PF03328.13 sp|P75168|PT1_MYCPN  -            9.9e-06   24.7   0.0   2.1e-05   23.7   0.0   1.5   1   0   0   1   1   1   1 HpcH/HpaI aldolase/citrate lyase family
+Lipase_GDSL          PF00657.21 sp|P75168|PT1_MYCPN  -              0.049   13.5   0.1      0.12   12.3   0.1   1.6   1   0   0   1   1   1   0 GDSL-like Lipase/Acylhydrolase
+GTP-bdg_N            PF13167.5  sp|P75168|PT1_MYCPN  -              0.077   13.6   0.1       1.1    9.8   0.0   2.7   2   0   0   2   2   2   0 GTP-binding GTPase N-terminal
+HemN_C               PF06969.15 sp|P75168|PT1_MYCPN  -               0.13   12.3   0.1       1.5    8.8   0.0   2.5   2   0   0   2   2   2   0 HemN C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P75168.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P75168.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P75168.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:26 2019
+# [ok]

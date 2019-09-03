@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ThiI                 PF02568.13 sp|Q0ST36|THII_CLOPS -            2.4e-66  223.0   0.8   3.2e-66  222.6   0.2   1.5   2   0   0   2   2   2   1 Thiamine biosynthesis protein (ThiI)
+THUMP                PF02926.16 sp|Q0ST36|THII_CLOPS -            1.4e-15   57.5   3.6   2.9e-15   56.5   2.7   2.0   1   1   1   2   2   2   1 THUMP domain
+QueC                 PF06508.12 sp|Q0ST36|THII_CLOPS -            1.6e-05   24.4   0.0    0.0016   17.9   0.0   2.6   1   1   0   1   1   1   1 Queuosine biosynthesis protein QueC
+tRNA_Me_trans        PF03054.15 sp|Q0ST36|THII_CLOPS -            4.3e-05   22.4   0.0   9.3e-05   21.3   0.0   1.5   1   0   0   1   1   1   1 tRNA methyl transferase
+ATP_bind_3           PF01171.19 sp|Q0ST36|THII_CLOPS -             0.0059   16.3   0.0      0.13   11.9   0.0   2.3   1   1   0   1   1   1   1 PP-loop family
+Asn_synthase         PF00733.20 sp|Q0ST36|THII_CLOPS -              0.013   15.1   0.1     0.031   13.8   0.0   1.6   2   0   0   2   2   2   0 Asparagine synthase
+T6SS_VipA            PF05591.11 sp|Q0ST36|THII_CLOPS -              0.055   13.2   0.1      0.15   11.7   0.1   1.7   1   0   0   1   1   1   0 Type VI secretion system, VipA, VC_A0107 or Hcp2
+NAD_synthase         PF02540.16 sp|Q0ST36|THII_CLOPS -               0.07   12.1   0.0      0.12   11.4   0.0   1.4   1   0   0   1   1   1   0 NAD synthase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0ST36.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0ST36.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0ST36.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:53:55 2019
+# [ok]

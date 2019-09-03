@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|Q28M21|KITH_JANSC -            2.7e-49  167.3   0.0     3e-49  167.2   0.0   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_30               PF13604.5  sp|Q28M21|KITH_JANSC -            0.00082   19.0   0.0    0.0013   18.4   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_22               PF13401.5  sp|Q28M21|KITH_JANSC -             0.0059   16.8   0.0      0.01   16.0   0.0   1.4   1   0   0   1   1   1   1 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q28M21.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q28M21.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q28M21.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:26:29 2019
+# [ok]

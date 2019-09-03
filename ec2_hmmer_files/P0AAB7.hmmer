@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transferase      PF00483.22 sp|P0AAB7|GALF_ECO57 -            2.7e-21   76.2   0.0   3.4e-21   75.9   0.0   1.0   1   0   0   1   1   1   1 Nucleotidyl transferase
+NTP_transf_3         PF12804.6  sp|P0AAB7|GALF_ECO57 -            9.6e-07   29.2   0.0   1.3e-06   28.7   0.0   1.5   1   1   0   1   1   1   1 MobA-like NTP transferase domain
+EFP_N                PF08207.11 sp|P0AAB7|GALF_ECO57 -               0.22   11.5   0.5      0.55   10.2   0.5   1.6   1   0   0   1   1   1   0 Elongation factor P (EF-P) KOW-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0AAB7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0AAB7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0AAB7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:39:25 2019
+# [ok]

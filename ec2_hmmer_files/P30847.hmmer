@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|P30847|BAES_ECOLI -            5.9e-21   75.0   0.0   1.5e-20   73.7   0.0   1.7   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HAMP                 PF00672.24 sp|P30847|BAES_ECOLI -              1e-13   51.4   0.3   5.2e-12   45.9   0.0   2.7   2   0   0   2   2   2   1 HAMP domain
+HisKA                PF00512.24 sp|P30847|BAES_ECOLI -            1.2e-13   50.8   0.8   3.6e-13   49.2   0.1   2.3   2   0   0   2   2   2   1 His Kinase A (phospho-acceptor) domain
+betaPIX_CC           PF16523.4  sp|P30847|BAES_ECOLI -               0.12   12.1   0.2       0.3   10.8   0.2   1.7   1   0   0   1   1   1   0 betaPIX coiled coil
+HATPase_c_5          PF14501.5  sp|P30847|BAES_ECOLI -               0.15   11.9   0.0      0.32   10.8   0.0   1.5   1   0   0   1   1   1   0 GHKL domain
+TBPIP                PF07106.12 sp|P30847|BAES_ECOLI -               0.16   11.6   0.0      0.25   11.0   0.0   1.2   1   0   0   1   1   1   0 Tat binding protein 1(TBP-1)-interacting protein (TBPIP)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P30847.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P30847.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P30847.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:58:20 2019
+# [ok]

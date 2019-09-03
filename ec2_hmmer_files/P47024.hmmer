@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RVT_2                PF07727.13 sp|P47024|YJ41B_YEAST -              3e-40  138.3   0.6   6.2e-40  137.2   0.6   1.5   1   0   0   1   1   1   1 Reverse transcriptase (RNA-dependent DNA polymerase)
+rve                  PF00665.25 sp|P47024|YJ41B_YEAST -            8.2e-19   67.8   0.3   1.9e-18   66.7   0.3   1.6   1   0   0   1   1   1   1 Integrase core domain
+gag_pre-integrs      PF13976.5  sp|P47024|YJ41B_YEAST -            0.00053   19.7   0.2    0.0021   17.8   0.2   2.1   1   0   0   1   1   1   1 GAG-pre-integrase domain
+DUF4208              PF13907.5  sp|P47024|YJ41B_YEAST -             0.0087   16.4   3.0      0.33   11.3   0.9   4.2   3   0   0   3   3   3   1 Domain of unknown function (DUF4208)
+Dpoe2NT              PF12213.7  sp|P47024|YJ41B_YEAST -              0.032   14.4   1.5        15    5.8   0.0   3.2   2   0   0   2   2   2   0 DNA polymerases epsilon N terminal
+zf-MYND              PF01753.17 sp|P47024|YJ41B_YEAST -               0.15   12.1   2.3      0.51   10.4   2.3   1.9   1   0   0   1   1   1   0 MYND finger
+DUF16                PF01519.15 sp|P47024|YJ41B_YEAST -                2.2    8.7  10.5      0.76   10.2   3.0   4.5   3   0   0   3   3   3   0 Protein of unknown function DUF16
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P47024.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P47024.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P47024.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:08:12 2019
+# [ok]

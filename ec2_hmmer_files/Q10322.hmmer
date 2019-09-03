@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FHA                  PF00498.25 sp|Q10322|DMA1_SCHPO -            1.4e-18   66.9   0.0   2.3e-18   66.2   0.0   1.4   1   0   0   1   1   1   1 FHA domain
+zf-RING_11           PF17123.4  sp|Q10322|DMA1_SCHPO -            4.3e-11   42.2   9.8   4.3e-11   42.2   9.8   2.4   3   0   0   3   3   2   1 RING-like zinc finger
+zf-RING_2            PF13639.5  sp|Q10322|DMA1_SCHPO -            2.3e-06   27.7  13.4   4.8e-06   26.7  13.4   1.6   1   0   0   1   1   1   1 Ring finger domain
+Yop-YscD_cpl         PF16697.4  sp|Q10322|DMA1_SCHPO -            4.1e-06   26.9   0.0     7e-06   26.2   0.0   1.3   1   0   0   1   1   1   1 Inner membrane component of T3SS, cytoplasmic domain
+zf-rbx1              PF12678.6  sp|Q10322|DMA1_SCHPO -              0.003   17.7   6.4       1.7    8.9   9.9   2.9   2   1   1   3   3   3   1 RING-H2 zinc finger domain
+zf-ANAPC11           PF12861.6  sp|Q10322|DMA1_SCHPO -              0.004   17.1   3.8    0.0069   16.3   3.8   1.5   1   0   0   1   1   1   1 Anaphase-promoting complex subunit 11 RING-H2 finger
+zf-C3HC4_2           PF13923.5  sp|Q10322|DMA1_SCHPO -             0.0076   16.0   9.5      0.21   11.3  11.8   2.3   2   0   0   2   2   2   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_5            PF14634.5  sp|Q10322|DMA1_SCHPO -              0.032   14.1  12.0     0.059   13.2  12.0   1.5   1   0   0   1   1   1   0 zinc-RING finger domain
+PHD                  PF00628.28 sp|Q10322|DMA1_SCHPO -              0.064   13.1   8.9      0.14   11.9   8.9   1.6   1   0   0   1   1   1   0 PHD-finger
+zf-RING_UBOX         PF13445.5  sp|Q10322|DMA1_SCHPO -               0.09   12.7  11.9      0.32   11.0  11.9   2.0   1   0   0   1   1   1   0 RING-type zinc-finger
+zf-C3HC4             PF00097.24 sp|Q10322|DMA1_SCHPO -               0.18   11.6  14.7      0.36   10.6  13.5   2.1   2   0   0   2   2   2   0 Zinc finger, C3HC4 type (RING finger)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q10322.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q10322.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q10322.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:58:22 2019
+# [ok]

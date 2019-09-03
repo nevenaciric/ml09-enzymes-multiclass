@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Acyl_transf_1        PF00698.20 sp|P19096|FAS_MOUSE  -           2.3e-112  375.6   0.0  5.5e-112  374.3   0.0   1.7   1   0   0   1   1   1   1 Acyl transferase domain
+ketoacyl-synt        PF00109.25 sp|P19096|FAS_MOUSE  -            4.1e-71  239.4   0.0   8.5e-71  238.4   0.0   1.6   1   0   0   1   1   1   1 Beta-ketoacyl synthase, N-terminal domain
+Thioesterase         PF00975.19 sp|P19096|FAS_MOUSE  -            5.3e-61  206.6   0.2   6.9e-60  202.9   0.0   2.6   2   0   0   2   2   2   1 Thioesterase domain
+KR                   PF08659.9  sp|P19096|FAS_MOUSE  -            1.2e-48  165.3   0.0   3.2e-48  163.9   0.0   1.8   1   0   0   1   1   1   1 KR domain
+KAsynt_C_assoc       PF16197.4  sp|P19096|FAS_MOUSE  -            1.7e-36  125.0   0.0   7.2e-36  123.0   0.0   2.2   2   0   0   2   2   1   1 Ketoacyl-synthetase C-terminal extension
+Ketoacyl-synt_C      PF02801.21 sp|P19096|FAS_MOUSE  -            9.2e-36  122.3   0.0   1.9e-35  121.3   0.0   1.6   1   0   0   1   1   1   1 Beta-ketoacyl synthase, C-terminal domain
+PS-DH                PF14765.5  sp|P19096|FAS_MOUSE  -            9.9e-21   74.1   0.0   2.4e-20   72.9   0.0   1.7   1   0   0   1   1   1   1 Polyketide synthase dehydratase
+ADH_zinc_N           PF00107.25 sp|P19096|FAS_MOUSE  -              1e-19   70.7   0.0   2.9e-19   69.2   0.0   1.9   1   0   0   1   1   1   1 Zinc-binding dehydrogenase
+ADH_zinc_N_2         PF13602.5  sp|P19096|FAS_MOUSE  -            1.2e-15   58.6   0.1     6e-15   56.4   0.0   2.3   2   0   0   2   2   1   1 Zinc-binding dehydrogenase
+PP-binding           PF00550.24 sp|P19096|FAS_MOUSE  -            5.8e-09   36.1   0.5   1.4e-08   34.9   0.5   1.7   1   0   0   1   1   1   1 Phosphopantetheine attachment site
+Methyltransf_12      PF08242.11 sp|P19096|FAS_MOUSE  -            2.6e-08   34.4   0.0   8.1e-08   32.8   0.0   2.0   1   0   0   1   1   1   1 Methyltransferase domain
+adh_short            PF00106.24 sp|P19096|FAS_MOUSE  -            8.2e-08   31.8   0.0   3.1e-06   26.7   0.0   2.8   2   0   0   2   2   2   1 short chain dehydrogenase
+Methyltransf_31      PF13847.5  sp|P19096|FAS_MOUSE  -            2.2e-06   27.5   0.0   6.4e-06   25.9   0.0   1.9   1   0   0   1   1   1   1 Methyltransferase domain
+Thiolase_N           PF00108.22 sp|P19096|FAS_MOUSE  -            0.00026   20.4   0.0   0.00051   19.4   0.0   1.4   1   0   0   1   1   1   1 Thiolase, N-terminal domain
+Methyltransf_11      PF08241.11 sp|P19096|FAS_MOUSE  -             0.0011   19.5   0.0    0.0086   16.6   0.0   2.6   2   0   0   2   2   2   1 Methyltransferase domain
+Methyltransf_23      PF13489.5  sp|P19096|FAS_MOUSE  -             0.0021   17.8   0.0    0.0054   16.5   0.0   1.6   1   0   0   1   1   1   1 Methyltransferase domain
+adh_short_C2         PF13561.5  sp|P19096|FAS_MOUSE  -              0.016   14.7   0.0     0.042   13.3   0.0   1.7   1   0   0   1   1   1   0 Enoyl-(Acyl carrier protein) reductase
+ACP_syn_III          PF08545.9  sp|P19096|FAS_MOUSE  -              0.031   14.0   0.2     0.076   12.8   0.2   1.7   1   0   0   1   1   1   0 3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III
+YjeF_N               PF03853.14 sp|P19096|FAS_MOUSE  -              0.031   14.1   0.1      0.65    9.8   0.0   2.6   2   0   0   2   2   2   0 YjeF-related protein N-terminus
+AlaDh_PNT_C          PF01262.20 sp|P19096|FAS_MOUSE  -              0.076   12.2   0.0       2.3    7.4   0.0   2.4   2   0   0   2   2   2   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P19096.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P19096.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P19096.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:50:42 2019
+# [ok]

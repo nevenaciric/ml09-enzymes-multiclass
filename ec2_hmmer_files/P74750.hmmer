@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol3_alpha       PF07733.11 sp|P74750|DPO3A_SYNY3 -             3e-165  550.0   0.5  1.1e-164  548.1   0.1   2.1   2   1   0   2   2   2   1 Bacterial DNA polymerase III alpha subunit
+PHP                  PF02811.18 sp|P74750|DPO3A_SYNY3 -            2.9e-46  157.7   0.0   7.4e-46  156.4   0.0   1.8   1   0   0   1   1   1   1 PHP domain
+HHH_6                PF14579.5  sp|P74750|DPO3A_SYNY3 -            6.5e-25   87.1   0.1   1.9e-24   85.6   0.1   1.9   1   0   0   1   1   1   1 Helix-hairpin-helix motif
+tRNA_anti-codon      PF01336.24 sp|P74750|DPO3A_SYNY3 -            1.2e-10   41.1   0.0   7.8e-10   38.5   0.0   2.3   2   0   0   2   2   2   1 OB-fold nucleic acid binding domain
+Intein_splicing      PF14890.5  sp|P74750|DPO3A_SYNY3 -            5.3e-07   29.2   0.0     7e-05   22.2   0.0   2.8   1   1   1   2   2   2   1 Intein splicing domain
+tRNA_anti_2          PF13742.5  sp|P74750|DPO3A_SYNY3 -              0.023   14.8   0.1     0.057   13.5   0.1   1.7   1   0   0   1   1   1   0 OB-fold nucleic acid binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P74750.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P74750.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P74750.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:13 2019
+# [ok]

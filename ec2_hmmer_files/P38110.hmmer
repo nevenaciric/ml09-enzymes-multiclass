@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PI3_PI4_kinase       PF00454.26 sp|P38110|ATM_YEAST  -            7.5e-63  212.6   0.1   8.5e-62  209.1   0.0   2.6   2   0   0   2   2   2   1 Phosphatidylinositol 3- and 4-kinase
+TAN                  PF11640.7  sp|P38110|ATM_YEAST  -            2.9e-32  111.8   4.2   2.9e-32  111.8   4.2   3.6   4   0   0   4   4   4   1 Telomere-length maintenance and DNA damage repair
+FATC                 PF02260.19 sp|P38110|ATM_YEAST  -            7.4e-13   48.0   0.0   2.3e-12   46.4   0.0   2.0   1   0   0   1   1   1   1 FATC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P38110.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P38110.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P38110.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:02:42 2019
+# [ok]

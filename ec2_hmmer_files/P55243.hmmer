@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transferase      PF00483.22 sp|P55243|GLGL3_SOLTU -              6e-71  238.8   0.0   7.7e-71  238.5   0.0   1.1   1   0   0   1   1   1   1 Nucleotidyl transferase
+NTP_transf_3         PF12804.6  sp|P55243|GLGL3_SOLTU -             0.0025   18.1   0.0    0.0045   17.3   0.0   1.4   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+Hexapep              PF00132.23 sp|P55243|GLGL3_SOLTU -             0.0032   17.0   7.2     0.018   14.7   1.1   3.3   3   0   0   3   3   3   2 Bacterial transferase hexapeptide (six repeats)
+Fucokinase           PF07959.11 sp|P55243|GLGL3_SOLTU -              0.079   11.9   0.4        10    4.9   0.1   2.8   2   1   1   3   3   3   0 L-fucokinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P55243.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P55243.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P55243.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:13:57 2019
+# [ok]

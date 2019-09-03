@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAT                  PF00302.17 sp|P62578|CAT_ACIAN  -           9.6e-102  339.0   7.9  1.1e-101  338.9   7.9   1.0   1   0   0   1   1   1   1 Chloramphenicol acetyltransferase
+2-oxoacid_dh         PF00198.22 sp|P62578|CAT_ACIAN  -             0.0049   16.2   0.1       1.7    7.9   0.1   2.1   2   0   0   2   2   2   2 2-oxoacid dehydrogenases acyltransferase (catalytic domain)
+Condensation         PF00668.19 sp|P62578|CAT_ACIAN  -              0.034   12.7   0.1       0.1   11.2   0.0   1.8   2   0   0   2   2   2   0 Condensation domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P62578.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P62578.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P62578.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:19:21 2019
+# [ok]

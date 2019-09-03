@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPK_catalytic        PF04263.15 sp|P30636|TPK1_CAEEL -            6.6e-30  103.5   0.0   9.6e-30  103.0   0.0   1.2   1   0   0   1   1   1   1 Thiamin pyrophosphokinase, catalytic domain
+TPK_B1_binding       PF04265.13 sp|P30636|TPK1_CAEEL -            2.6e-13   49.3   0.3   6.5e-13   48.1   0.3   1.7   1   0   0   1   1   1   1 Thiamin pyrophosphokinase, vitamin B1 binding domain
+Imm19                PF15563.5  sp|P30636|TPK1_CAEEL -              0.033   13.6   0.0     0.043   13.2   0.0   1.2   1   0   0   1   1   1   0 Immunity protein 19
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P30636.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P30636.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P30636.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:58:12 2019
+# [ok]

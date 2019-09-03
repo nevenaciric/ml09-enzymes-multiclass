@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transferase      PF00483.22 sp|P44878|GALU_HAEIN -            3.2e-27   95.6   0.0   4.1e-27   95.2   0.0   1.1   1   0   0   1   1   1   1 Nucleotidyl transferase
+NTP_transf_3         PF12804.6  sp|P44878|GALU_HAEIN -              8e-07   29.4   0.0   1.7e-06   28.4   0.0   1.6   1   1   0   1   1   1   1 MobA-like NTP transferase domain
+IspD                 PF01128.18 sp|P44878|GALU_HAEIN -            0.00052   19.7   0.0   0.00084   19.0   0.0   1.3   1   0   0   1   1   1   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+HisG_C               PF08029.10 sp|P44878|GALU_HAEIN -              0.017   15.2   0.1       2.5    8.2   0.0   3.0   4   0   0   4   4   4   0 HisG, C-terminal domain
+CTP_transf_3         PF02348.18 sp|P44878|GALU_HAEIN -              0.029   14.2   0.2     0.048   13.5   0.2   1.3   1   0   0   1   1   1   0 Cytidylyltransferase
+CoA_binding          PF02629.18 sp|P44878|GALU_HAEIN -              0.089   13.4   0.5      0.36   11.5   0.0   2.2   3   0   0   3   3   3   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P44878.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P44878.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P44878.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:06:48 2019
+# [ok]

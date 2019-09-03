@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|P05383|KAPCB_PIG  -              1e-72  244.6   0.0   1.2e-72  244.4   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|P05383|KAPCB_PIG  -            2.2e-34  118.8   0.0   2.8e-34  118.5   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Kinase-like          PF14531.5  sp|P05383|KAPCB_PIG  -            7.1e-09   35.3   0.1     6e-08   32.2   0.0   2.0   1   1   0   2   2   2   1 Kinase-like
+APH                  PF01636.22 sp|P05383|KAPCB_PIG  -              0.056   13.3   0.0       1.8    8.3   0.0   2.1   1   1   1   2   2   2   0 Phosphotransferase enzyme family
+Haspin_kinase        PF12330.7  sp|P05383|KAPCB_PIG  -              0.061   12.2   0.1     0.085   11.7   0.1   1.2   1   0   0   1   1   1   0 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P05383.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P05383.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P05383.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:34:06 2019
+# [ok]

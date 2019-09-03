@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Malate_synthase      PF01274.21 sp|P08216|MASY_CUCSA -           5.4e-221  734.3   0.0  6.2e-221  734.1   0.0   1.0   1   0   0   1   1   1   1 Malate synthase
+HpcH_HpaI            PF03328.13 sp|P08216|MASY_CUCSA -             0.0004   19.5   0.0    0.0022   17.1   0.0   2.1   2   0   0   2   2   2   1 HpcH/HpaI aldolase/citrate lyase family
+PI3K_P85_iSH2        PF16454.4  sp|P08216|MASY_CUCSA -               0.16   11.4   0.4      0.38   10.2   0.4   1.5   1   0   0   1   1   1   0 Phosphatidylinositol 3-kinase regulatory subunit P85 inter-SH2 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P08216.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P08216.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P08216.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:35:33 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|P17256|KIME_RAT   -            8.8e-23   80.2   0.1   2.6e-22   78.7   0.1   1.9   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|P17256|KIME_RAT   -            2.9e-05   24.3   0.2   2.9e-05   24.3   0.2   1.7   2   0   0   2   2   2   1 GHMP kinases C terminal
+GalKase_gal_bdg      PF10509.8  sp|P17256|KIME_RAT   -            0.00055   19.3   0.0     0.001   18.5   0.0   1.4   1   0   0   1   1   1   1 Galactokinase galactose-binding signature
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P17256.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P17256.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P17256.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:49:37 2019
+# [ok]

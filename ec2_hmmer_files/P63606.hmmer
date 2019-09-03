@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|P63606|AROK_STAAN -            1.7e-42  145.1   0.0   1.9e-42  145.0   0.0   1.0   1   0   0   1   1   1   1 Shikimate kinase
+AAA_18               PF13238.5  sp|P63606|AROK_STAAN -            1.3e-07   32.1   0.0   2.1e-07   31.4   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+AAA                  PF00004.28 sp|P63606|AROK_STAAN -            0.00048   20.5   0.0    0.0012   19.1   0.0   1.7   1   1   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+AAA_33               PF13671.5  sp|P63606|AROK_STAAN -             0.0068   16.5   0.0     0.014   15.4   0.0   1.4   1   1   0   1   1   1   1 AAA domain
+AAA_22               PF13401.5  sp|P63606|AROK_STAAN -             0.0087   16.2   0.0      0.02   15.1   0.0   1.8   1   1   0   1   1   1   1 AAA domain
+CoaE                 PF01121.19 sp|P63606|AROK_STAAN -                0.1   12.2   0.0      0.16   11.5   0.0   1.3   1   0   0   1   1   1   0 Dephospho-CoA kinase
+AAA_24               PF13479.5  sp|P63606|AROK_STAAN -               0.13   11.9   0.0      0.13   11.9   0.0   1.2   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P63606.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P63606.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P63606.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:20:00 2019
+# [ok]

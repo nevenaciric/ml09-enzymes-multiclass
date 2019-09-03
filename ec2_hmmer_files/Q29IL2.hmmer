@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PMT                  PF02366.17 sp|Q29IL2|POMT2_DROPS -            3.5e-70  236.3  14.4   3.5e-70  236.3  14.4   1.9   1   1   1   2   2   2   1 Dolichyl-phosphate-mannose-protein mannosyltransferase
+PMT_4TMC             PF16192.4  sp|Q29IL2|POMT2_DROPS -            3.2e-54  183.5   6.8   3.2e-54  183.5   6.8   3.7   3   2   0   3   3   3   1 C-terminal four TMM region of protein-O-mannosyltransferase
+MIR                  PF02815.18 sp|Q29IL2|POMT2_DROPS -            2.5e-26   92.6   2.3     4e-26   91.9   2.3   1.2   1   0   0   1   1   1   1 MIR domain
+CBM39                PF15886.4  sp|Q29IL2|POMT2_DROPS -              0.076   12.9   0.0      0.35   10.8   0.0   2.0   2   1   0   2   2   2   0 Carbohydrate binding domain (family 32)
+DUF267               PF03268.13 sp|Q29IL2|POMT2_DROPS -                7.2    5.3   7.8       4.7    5.9   1.2   2.3   2   0   0   2   2   2   0 Caenorhabditis protein of unknown function, DUF267
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q29IL2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q29IL2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q29IL2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:27:07 2019
+# [ok]

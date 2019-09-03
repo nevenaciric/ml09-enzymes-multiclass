@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAT                  PF02259.22 sp|Q10064|YAMB_SCHPO -            2.3e-74  250.6  10.1   4.1e-74  249.7  10.1   1.5   1   0   0   1   1   1   1 FAT domain
+PI3_PI4_kinase       PF00454.26 sp|Q10064|YAMB_SCHPO -            1.6e-54  185.2   0.3   1.6e-54  185.2   0.3   2.0   2   0   0   2   2   2   1 Phosphatidylinositol 3- and 4-kinase
+FATC                 PF02260.19 sp|Q10064|YAMB_SCHPO -            1.8e-06   27.6   1.8   4.3e-06   26.3   1.8   1.7   1   0   0   1   1   1   1 FATC domain
+Cnd3                 PF12719.6  sp|Q10064|YAMB_SCHPO -            0.00037   19.7   2.8      0.72    8.9   0.1   3.4   2   0   0   2   2   2   2 Nuclear condensing complex subunits, C-term domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q10064.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q10064.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q10064.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:58:12 2019
+# [ok]

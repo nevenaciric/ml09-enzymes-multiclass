@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Thymidylate_kin      PF02223.16 sp|Q2JR37|KTHY_SYNJA -            1.2e-49  168.4   0.0   1.3e-49  168.3   0.0   1.0   1   0   0   1   1   1   1 Thymidylate kinase
+AAA_28               PF13521.5  sp|Q2JR37|KTHY_SYNJA -            1.5e-07   31.7   0.1   2.1e-07   31.2   0.1   1.3   1   1   0   1   1   1   1 AAA domain
+SRP54                PF00448.21 sp|Q2JR37|KTHY_SYNJA -               0.04   13.4   0.1     0.062   12.8   0.1   1.3   1   0   0   1   1   1   0 SRP54-type protein, GTPase domain
+LysM                 PF01476.19 sp|Q2JR37|KTHY_SYNJA -              0.056   13.4   0.1      0.65   10.0   0.1   2.2   1   1   1   2   2   2   0 LysM domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2JR37.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2JR37.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2JR37.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:32:37 2019
+# [ok]

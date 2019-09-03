@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P08923|LTK_MOUSE  -            1.2e-87  293.4   0.0   1.4e-87  293.1   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P08923|LTK_MOUSE  -              5e-33  114.5   0.0   6.7e-33  114.1   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Gly_rich             PF12810.6  sp|P08923|LTK_MOUSE  -            5.8e-18   65.6  27.4   5.8e-18   65.6  27.4   2.1   2   0   0   2   2   2   1 Glycine rich protein
+FXa_inhibition       PF14670.5  sp|P08923|LTK_MOUSE  -              0.043   14.0   4.8      0.13   12.4   4.8   1.9   1   0   0   1   1   1   0 Coagulation Factor Xa inhibitory site
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P08923.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P08923.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P08923.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:36:03 2019
+# [ok]

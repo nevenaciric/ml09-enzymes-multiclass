@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B_2          PF03175.12 sp|P06538|DPOL_ADE12 -           9.3e-170  565.4   0.0  1.2e-169  565.1   0.0   1.1   1   0   0   1   1   1   1 DNA polymerase type B, organellar and viral
+DNA_pol_B            PF00136.20 sp|P06538|DPOL_ADE12 -             0.0085   14.7   0.0     0.018   13.7   0.0   1.5   1   0   0   1   1   1   1 DNA polymerase family B
+DNA_pol_A_exo1       PF01612.19 sp|P06538|DPOL_ADE12 -              0.021   14.4   0.2     0.074   12.7   0.1   1.9   2   0   0   2   2   2   0 3'-5' exonuclease
+zf-ribbon_3          PF13248.5  sp|P06538|DPOL_ADE12 -               0.55    9.6   3.4        20    4.7   0.1   2.7   2   0   0   2   2   2   0 zinc-ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P06538.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P06538.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P06538.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:34:41 2019
+# [ok]

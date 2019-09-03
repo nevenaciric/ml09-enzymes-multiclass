@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SQS_PSY              PF00494.18 sp|P9WHP3|CRTB_MYCTU -            1.1e-58  198.7   3.4   1.3e-58  198.5   3.4   1.0   1   0   0   1   1   1   1 Squalene/phytoene synthase
+TruB_C               PF09142.10 sp|P9WHP3|CRTB_MYCTU -              0.025   14.3   0.5     0.094   12.4   0.5   1.9   1   0   0   1   1   1   0 tRNA Pseudouridine synthase II, C terminal
+MdcG                 PF10620.8  sp|P9WHP3|CRTB_MYCTU -              0.041   13.6   0.2       1.2    8.8   0.2   2.4   2   1   0   2   2   2   0 Phosphoribosyl-dephospho-CoA transferase MdcG
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P9WHP3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P9WHP3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P9WHP3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:30:29 2019
+# [ok]

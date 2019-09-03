@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|Q0I5Y6|MNMA_HAES1 -           7.5e-143  475.5   0.0  8.6e-143  475.3   0.0   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+NAD_synthase         PF02540.16 sp|Q0I5Y6|MNMA_HAES1 -            4.5e-08   32.4   0.0     1e-07   31.3   0.0   1.5   1   0   0   1   1   1   1 NAD synthase
+ThiI                 PF02568.13 sp|Q0I5Y6|MNMA_HAES1 -            6.4e-06   25.8   0.0   8.9e-06   25.3   0.0   1.3   1   0   0   1   1   1   1 Thiamine biosynthesis protein (ThiI)
+Asn_synthase         PF00733.20 sp|Q0I5Y6|MNMA_HAES1 -            1.2e-05   25.0   0.0   1.7e-05   24.6   0.0   1.2   1   0   0   1   1   1   1 Asparagine synthase
+QueC                 PF06508.12 sp|Q0I5Y6|MNMA_HAES1 -             0.0028   17.1   0.0    0.0052   16.2   0.0   1.4   1   0   0   1   1   1   1 Queuosine biosynthesis protein QueC
+DUF2117              PF09890.8  sp|Q0I5Y6|MNMA_HAES1 -               0.13   11.6   0.0      0.24   10.8   0.0   1.4   1   0   0   1   1   1   0 Uncharacterized protein conserved in archaea (DUF2117)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0I5Y6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0I5Y6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0I5Y6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:51:12 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|Q08408|RPRX_BACFR -            3.9e-23   82.1   0.1   7.4e-23   81.2   0.1   1.5   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HisKA                PF00512.24 sp|Q08408|RPRX_BACFR -            1.5e-12   47.2   0.1   2.5e-11   43.3   0.0   2.3   2   0   0   2   2   2   1 His Kinase A (phospho-acceptor) domain
+HATPase_c_5          PF14501.5  sp|Q08408|RPRX_BACFR -            3.1e-05   23.7   0.3   3.1e-05   23.7   0.3   2.8   3   0   0   3   3   3   1 GHKL domain
+HATPase_c_3          PF13589.5  sp|Q08408|RPRX_BACFR -            0.00027   20.7   0.1   0.00067   19.4   0.1   1.6   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q08408.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q08408.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q08408.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:43:22 2019
+# [ok]

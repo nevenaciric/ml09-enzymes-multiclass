@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Acetate_kinase       PF00871.16 sp|Q18B36|ACKA_PEPD6 -           8.2e-164  544.8   0.7  9.2e-164  544.7   0.7   1.0   1   0   0   1   1   1   1 Acetokinase family
+LacAB_rpiB           PF02502.17 sp|Q18B36|ACKA_PEPD6 -              0.046   13.6   0.1      0.25   11.3   0.0   2.2   2   0   0   2   2   2   0 Ribose/Galactose Isomerase
+DUF2470              PF10615.8  sp|Q18B36|ACKA_PEPD6 -              0.068   13.7   0.2      0.35   11.4   0.0   2.2   2   1   0   2   2   2   0 Protein of unknown function (DUF2470)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q18B36.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q18B36.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q18B36.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:07:04 2019
+# [ok]

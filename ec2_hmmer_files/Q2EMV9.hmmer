@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Macro                PF01661.20 sp|Q2EMV9|PAR14_MOUSE -            1.9e-62  208.4   6.5     2e-32  111.6   0.2   4.2   4   0   0   4   4   4   3 Macro domain
+PARP                 PF00644.19 sp|Q2EMV9|PAR14_MOUSE -            2.4e-26   92.4   3.7   1.9e-25   89.5   3.7   2.4   1   1   0   1   1   1   1 Poly(ADP-ribose) polymerase catalytic domain
+SLS                  PF14611.5  sp|Q2EMV9|PAR14_MOUSE -             0.0019   17.9  11.3       2.3    7.9   0.1   4.8   4   1   1   5   5   5   3 Mitochondrial inner-membrane-bound regulator
+WWE                  PF02825.19 sp|Q2EMV9|PAR14_MOUSE -              0.024   15.1   0.5      0.16   12.5   0.5   2.5   1   0   0   1   1   1   0 WWE domain
+RRM_occluded         PF16842.4  sp|Q2EMV9|PAR14_MOUSE -              0.071   12.9   0.1       1.4    8.7   0.0   3.0   3   0   0   3   3   3   0 Occluded RNA-recognition motif
+Nudix_N              PF12535.7  sp|Q2EMV9|PAR14_MOUSE -               0.11   12.1   0.0       0.3   10.6   0.0   1.8   1   0   0   1   1   1   0 Hydrolase of X-linked nucleoside diphosphate N terminal
+HSR                  PF03172.12 sp|Q2EMV9|PAR14_MOUSE -               0.12   12.5   1.7       7.2    6.7   0.1   2.7   2   0   0   2   2   2   0 HSR domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2EMV9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2EMV9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2EMV9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:27:44 2019
+# [ok]

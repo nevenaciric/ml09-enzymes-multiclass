@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PAP_central          PF04928.16 sp|P29468|PAP_YEAST  -           1.1e-108  361.9   0.0  2.9e-108  360.5   0.0   1.6   2   0   0   2   2   2   1 Poly(A) polymerase central domain
+PAP_RNA-bind         PF04926.14 sp|P29468|PAP_YEAST  -            9.7e-52  174.9   0.3   2.2e-51  173.8   0.3   1.6   1   0   0   1   1   1   1 Poly(A) polymerase predicted RNA binding domain
+NTP_transf_2         PF01909.22 sp|P29468|PAP_YEAST  -            1.2e-14   54.3   0.3   3.9e-14   52.6   0.0   2.1   2   0   0   2   2   2   1 Nucleotidyltransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P29468.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P29468.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P29468.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:57:16 2019
+# [ok]

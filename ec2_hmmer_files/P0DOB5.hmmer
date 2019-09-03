@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|P0DOB5|PFKA_LACLA -             1e-105  353.0   3.2  1.2e-105  352.8   3.2   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+NAD_kinase           PF01513.20 sp|P0DOB5|PFKA_LACLA -              0.086   11.9   0.8       0.2   10.7   0.0   1.8   2   0   0   2   2   2   0 ATP-NAD kinase
+VWA                  PF00092.27 sp|P0DOB5|PFKA_LACLA -                0.1   12.8   0.6        22    5.2   0.1   2.8   3   1   0   3   3   3   0 von Willebrand factor type A domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0DOB5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0DOB5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0DOB5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:45:24 2019
+# [ok]

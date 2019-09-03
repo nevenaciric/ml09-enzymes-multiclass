@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|P37562|PKN1_BACSU -            4.3e-14   52.4   0.0   5.6e-14   52.0   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+APH                  PF01636.22 sp|P37562|PKN1_BACSU -            7.2e-06   26.0   0.0     0.052   13.4   0.0   2.2   1   1   1   2   2   2   2 Phosphotransferase enzyme family
+Pkinase_Tyr          PF07714.16 sp|P37562|PKN1_BACSU -             0.0046   16.2   0.0    0.0074   15.5   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+TRIQK                PF15168.5  sp|P37562|PKN1_BACSU -              0.067   13.0   0.9      0.12   12.2   0.1   1.8   2   0   0   2   2   2   0 Triple QxxK/R motif-containing protein family
+BRF1                 PF07741.12 sp|P37562|PKN1_BACSU -                0.7   10.2   4.9      0.52   10.6   3.4   1.5   1   1   0   1   1   1   0 Brf1-like TBP-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P37562.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P37562.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P37562.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:02:18 2019
+# [ok]

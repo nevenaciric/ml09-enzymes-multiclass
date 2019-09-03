@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_C       PF08544.12 sp|Q251V5|ISPE_DESHY -            5.8e-14   52.1   0.2     2e-13   50.4   0.0   2.0   2   0   0   2   2   2   1 GHMP kinases C terminal
+GHMP_kinases_N       PF00288.25 sp|Q251V5|ISPE_DESHY -            3.6e-11   43.0   0.5   1.9e-10   40.7   0.0   2.4   2   0   0   2   2   2   1 GHMP kinases N terminal domain
+SWIM                 PF04434.16 sp|Q251V5|ISPE_DESHY -              0.081   12.5   0.0       0.2   11.2   0.0   1.7   1   0   0   1   1   1   0 SWIM zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q251V5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q251V5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q251V5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:25:21 2019
+# [ok]

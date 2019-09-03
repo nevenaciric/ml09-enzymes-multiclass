@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hexokinase_2         PF03727.15 sp|P19367|HXK1_HUMAN -           2.8e-176  583.5   0.1   2.4e-89  298.8   0.2   2.3   2   0   0   2   2   2   2 Hexokinase
+Hexokinase_1         PF00349.20 sp|P19367|HXK1_HUMAN -           4.9e-147  486.7   0.3   2.9e-75  252.5   0.1   2.3   2   0   0   2   2   2   2 Hexokinase
+CSD                  PF00313.21 sp|P19367|HXK1_HUMAN -              0.019   14.7   0.0      0.84    9.4   0.0   2.6   2   0   0   2   2   2   0 'Cold-shock' DNA-binding domain
+FGGY_N               PF00370.20 sp|P19367|HXK1_HUMAN -              0.023   14.1   0.0       4.4    6.7   0.0   2.4   2   0   0   2   2   2   0 FGGY family of carbohydrate kinases, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P19367.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P19367.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P19367.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:50:50 2019
+# [ok]

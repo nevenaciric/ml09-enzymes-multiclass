@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PTS_2-RNA            PF01885.15 sp|Q12272|TPT1_YEAST -            3.9e-60  202.9   0.3   4.8e-60  202.6   0.3   1.1   1   0   0   1   1   1   1 RNA 2'-phosphotransferase, Tpt1 / KptA family
+PARP                 PF00644.19 sp|Q12272|TPT1_YEAST -              0.012   15.2   0.1     0.019   14.5   0.1   1.4   1   1   0   1   1   1   0 Poly(ADP-ribose) polymerase catalytic domain
+Pox_VLTF3            PF04947.13 sp|Q12272|TPT1_YEAST -              0.029   14.0   0.2     0.053   13.1   0.2   1.6   1   0   0   1   1   1   0 Poxvirus Late Transcription Factor VLTF3 like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q12272.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q12272.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q12272.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:00:27 2019
+# [ok]

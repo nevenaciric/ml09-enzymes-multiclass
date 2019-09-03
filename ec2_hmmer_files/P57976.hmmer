@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_synthesis         PF02504.14 sp|P57976|PLSX_PASMU -            5.8e-97  324.5   0.0   6.6e-97  324.3   0.0   1.0   1   0   0   1   1   1   1 Fatty acid synthesis protein
+PTA_PTB              PF01515.18 sp|P57976|PLSX_PASMU -             0.0045   16.2   0.0     0.012   14.9   0.0   1.5   1   1   0   1   1   1   1 Phosphate acetyl/butaryl transferase
+DNA_pol3_delta2      PF13177.5  sp|P57976|PLSX_PASMU -              0.052   13.2   0.0     0.094   12.4   0.0   1.4   1   0   0   1   1   1   0 DNA polymerase III, delta subunit
+Ribosomal_S5_C       PF03719.14 sp|P57976|PLSX_PASMU -                0.1   12.0   0.3      0.24   10.8   0.1   1.7   2   0   0   2   2   2   0 Ribosomal protein S5, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P57976.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P57976.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P57976.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:15:58 2019
+# [ok]

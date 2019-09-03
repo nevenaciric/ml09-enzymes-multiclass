@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DAHP_synth_1         PF00793.19 sp|Q1H010|KDSA_METFK -            2.1e-67  226.8   0.0   2.4e-67  226.6   0.0   1.0   1   0   0   1   1   1   1 DAHP synthetase I family
+NeuB                 PF03102.13 sp|Q1H010|KDSA_METFK -              0.084   12.2   0.0      0.15   11.4   0.0   1.4   1   1   0   1   1   1   0 NeuB family
+Nudc_N               PF14050.5  sp|Q1H010|KDSA_METFK -               0.15   11.9   0.0      0.34   10.8   0.0   1.6   1   0   0   1   1   1   0 N-terminal conserved domain of Nudc.
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q1H010.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q1H010.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q1H010.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:13:18 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Phage_integrase      PF00589.21 sp|P20709|VINT_BPL54 -            7.8e-29  100.6   2.7   7.8e-29  100.6   2.7   1.9   2   0   0   2   2   2   1 Phage integrase family
+Phage_int_SAM_3      PF14659.5  sp|P20709|VINT_BPL54 -            3.9e-05   23.8   3.0   3.9e-05   23.8   3.0   3.3   3   0   0   3   3   3   1 Phage integrase, N-terminal SAM-like domain
+DcpS_C               PF11969.7  sp|P20709|VINT_BPL54 -             0.0085   16.5   0.5    0.0085   16.5   0.5   2.3   2   1   1   3   3   3   1 Scavenger mRNA decapping enzyme C-term binding
+Rad10                PF03834.13 sp|P20709|VINT_BPL54 -              0.016   15.1   1.1      0.05   13.5   0.2   2.3   2   0   0   2   2   2   0 Binding domain of DNA repair protein Ercc1 (rad10/Swi10)
+Phage_int_SAM_1      PF02899.16 sp|P20709|VINT_BPL54 -              0.024   14.8   0.4     0.084   13.1   0.2   2.1   2   0   0   2   2   2   0 Phage integrase, N-terminal SAM-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P20709.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P20709.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P20709.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:51:37 2019
+# [ok]

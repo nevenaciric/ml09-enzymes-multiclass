@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Mac                  PF12464.7  sp|P37515|MAA_BACSU  -            3.7e-17   62.2   0.3   5.7e-17   61.6   0.3   1.3   1   0   0   1   1   1   1 Maltose acetyltransferase
+Hexapep              PF00132.23 sp|P37515|MAA_BACSU  -            3.1e-13   48.8  18.2     6e-11   41.5   3.5   4.0   4   1   1   5   5   5   3 Bacterial transferase hexapeptide (six repeats)
+Hexapep_2            PF14602.5  sp|P37515|MAA_BACSU  -            2.1e-12   46.5  13.7   2.1e-11   43.3   1.8   2.7   3   0   0   3   3   3   2 Hexapeptide repeat of succinyl-transferase
+UxaC                 PF02614.13 sp|P37515|MAA_BACSU  -              0.023   13.4   0.0      0.03   13.1   0.0   1.1   1   0   0   1   1   1   0 Glucuronate isomerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P37515.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P37515.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P37515.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:02:15 2019
+# [ok]

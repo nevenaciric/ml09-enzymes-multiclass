@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|Q2IMI1|RLMH_ANADE -            1.3e-48  164.8   0.0   1.4e-48  164.7   0.0   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+SPOUT_MTase_2        PF14419.5  sp|Q2IMI1|RLMH_ANADE -              0.027   13.7   0.0     0.043   13.1   0.0   1.4   1   0   0   1   1   1   0 AF2226-like SPOUT RNA Methylase fused to THUMP
+Methyltrn_RNA_4      PF09936.8  sp|Q2IMI1|RLMH_ANADE -              0.035   13.9   0.0     0.044   13.5   0.0   1.2   1   0   0   1   1   1   0 SAM-dependent RNA methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2IMI1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2IMI1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2IMI1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:31:11 2019
+# [ok]

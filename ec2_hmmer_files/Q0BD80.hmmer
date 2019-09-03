@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|Q0BD80|RLMH_BURCM -            2.6e-50  170.3   0.0   2.9e-50  170.1   0.0   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+CPT                  PF07931.11 sp|Q0BD80|RLMH_BURCM -            0.00033   20.4   0.0   0.00042   20.1   0.0   1.1   1   0   0   1   1   1   1 Chloramphenicol phosphotransferase-like protein
+EMG1                 PF03587.13 sp|Q0BD80|RLMH_BURCM -               0.17   11.4   0.0       0.2   11.2   0.0   1.1   1   0   0   1   1   1   0 EMG1/NEP1 methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0BD80.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0BD80.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0BD80.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:46:58 2019
+# [ok]

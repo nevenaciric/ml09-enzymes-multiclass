@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CheW                 PF01584.18 sp|P07363|CHEA_ECOLI -            2.1e-27   95.3   1.0   4.1e-27   94.4   1.0   1.5   1   0   0   1   1   1   1 CheW-like domain
+Hpt                  PF01627.22 sp|P07363|CHEA_ECOLI -            1.5e-20   73.1   1.1   4.8e-20   71.5   1.1   2.0   1   0   0   1   1   1   1 Hpt domain
+CheY-binding         PF09078.10 sp|P07363|CHEA_ECOLI -            1.7e-18   66.4   0.8   4.8e-18   64.9   0.8   1.8   1   0   0   1   1   1   1 CheY binding
+HATPase_c            PF02518.25 sp|P07363|CHEA_ECOLI -            1.8e-18   67.0   0.4   9.2e-18   64.7   0.2   2.1   2   0   0   2   2   2   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+H-kinase_dim         PF02895.13 sp|P07363|CHEA_ECOLI -            1.3e-17   63.9   1.9   1.3e-17   63.9   1.9   2.2   2   0   0   2   2   2   1 Signal transducing histidine kinase, homodimeric domain
+HATPase_c_5          PF14501.5  sp|P07363|CHEA_ECOLI -               0.39   10.6   1.5      0.62    9.9   0.2   2.1   2   1   0   2   2   2   0 GHKL domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P07363.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P07363.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P07363.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:35:05 2019
+# [ok]

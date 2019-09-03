@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_methylase        PF00145.16 sp|P31033|MTM4_NEIGO -            1.6e-77  261.0   0.0   3.7e-77  259.8   0.0   1.5   1   1   0   1   1   1   1 C-5 cytosine-specific DNA methylase
+Methyltransf_15      PF09445.9  sp|P31033|MTM4_NEIGO -              0.078   12.6   0.0      0.12   11.9   0.0   1.2   1   0   0   1   1   1   0 RNA cap guanine-N2 methyltransferase
+PepSY_TM_like_2      PF16357.4  sp|P31033|MTM4_NEIGO -               0.11   12.4   0.0      0.15   11.9   0.0   1.2   1   0   0   1   1   1   0 Putative PepSY_TM-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P31033.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P31033.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P31033.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:58:25 2019
+# [ok]

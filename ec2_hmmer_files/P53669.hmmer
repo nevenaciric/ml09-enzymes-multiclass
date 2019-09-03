@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P53669|LIMK1_RAT  -              3e-54  183.9   0.0   4.6e-54  183.3   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P53669|LIMK1_RAT  -            3.1e-48  164.3   0.0   5.5e-48  163.5   0.0   1.3   1   1   0   1   1   1   1 Protein kinase domain
+LIM                  PF00412.21 sp|P53669|LIMK1_RAT  -            2.5e-28   98.0  24.5   2.6e-15   56.3  11.2   2.4   2   0   0   2   2   2   2 LIM domain
+PDZ                  PF00595.23 sp|P53669|LIMK1_RAT  -              6e-14   52.1   0.0     1e-13   51.3   0.0   1.4   1   0   0   1   1   1   1 PDZ domain (Also known as DHR or GLGF)
+Kdo                  PF06293.13 sp|P53669|LIMK1_RAT  -            1.4e-08   34.2   0.1   2.6e-08   33.4   0.1   1.3   1   0   0   1   1   1   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+APH                  PF01636.22 sp|P53669|LIMK1_RAT  -              0.001   18.9   0.1    0.0043   16.9   0.1   1.9   2   0   0   2   2   2   1 Phosphotransferase enzyme family
+Haspin_kinase        PF12330.7  sp|P53669|LIMK1_RAT  -               0.01   14.7   0.1     0.017   14.0   0.1   1.3   1   0   0   1   1   1   0 Haspin like kinase domain
+RIO1                 PF01163.21 sp|P53669|LIMK1_RAT  -              0.035   13.6   0.0     0.056   12.9   0.0   1.3   1   0   0   1   1   1   0 RIO1 family
+PDZ_2                PF13180.5  sp|P53669|LIMK1_RAT  -              0.076   13.2   0.0      0.15   12.3   0.0   1.4   1   0   0   1   1   1   0 PDZ domain
+PknG_TPR             PF16918.4  sp|P53669|LIMK1_RAT  -               0.13   10.8   0.0       0.2   10.3   0.0   1.1   1   0   0   1   1   1   0 Protein kinase G tetratricopeptide repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P53669.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P53669.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P53669.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:12:32 2019
+# [ok]

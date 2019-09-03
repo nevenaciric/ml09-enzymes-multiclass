@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Guanylate_kin        PF00625.20 sp|P60546|KGUA_ECOLI -              1e-71  240.3   0.0   1.2e-71  240.1   0.0   1.0   1   0   0   1   1   1   1 Guanylate kinase
+RsgA_GTPase          PF03193.15 sp|P60546|KGUA_ECOLI -             0.0016   18.3   0.1    0.0053   16.6   0.0   1.9   2   0   0   2   2   2   1 RsgA GTPase
+MMR_HSR1             PF01926.22 sp|P60546|KGUA_ECOLI -             0.0016   18.4   0.0    0.0036   17.3   0.0   1.9   1   1   0   1   1   1   1 50S ribosome-binding GTPase
+AAA_16               PF13191.5  sp|P60546|KGUA_ECOLI -             0.0017   18.7   0.3    0.0052   17.1   0.3   1.8   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_22               PF13401.5  sp|P60546|KGUA_ECOLI -             0.0042   17.3   0.2     0.018   15.2   0.2   2.1   1   1   0   1   1   1   1 AAA domain
+ABC_tran             PF00005.26 sp|P60546|KGUA_ECOLI -             0.0044   17.4   0.0    0.0088   16.5   0.0   1.4   1   1   0   1   1   1   1 ABC transporter
+AAA_33               PF13671.5  sp|P60546|KGUA_ECOLI -               0.01   15.9   0.0     0.045   13.8   0.0   2.1   1   1   0   1   1   1   0 AAA domain
+AAA_18               PF13238.5  sp|P60546|KGUA_ECOLI -               0.03   14.7   0.0     0.074   13.5   0.0   1.7   1   1   0   1   1   1   0 AAA domain
+AAA_29               PF13555.5  sp|P60546|KGUA_ECOLI -               0.12   12.0   0.1      0.25   11.0   0.1   1.5   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+Viral_helicase1      PF01443.17 sp|P60546|KGUA_ECOLI -               0.12   12.0   0.0      0.17   11.5   0.0   1.3   1   0   0   1   1   1   0 Viral (Superfamily 1) RNA helicase
+AAA_25               PF13481.5  sp|P60546|KGUA_ECOLI -               0.47    9.9   1.9       5.8    6.3   0.1   2.2   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P60546.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P60546.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P60546.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:17:56 2019
+# [ok]

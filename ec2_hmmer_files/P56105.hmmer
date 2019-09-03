@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_A            PF00476.19 sp|P56105|DPO1_HELPY -             2e-119  398.9   0.2  1.3e-118  396.2   0.0   2.0   2   0   0   2   2   2   1 DNA polymerase family A
+5_3_exonuc_N         PF02739.15 sp|P56105|DPO1_HELPY -            2.9e-36  124.7   0.0   5.9e-36  123.7   0.0   1.6   1   0   0   1   1   1   1 5'-3' exonuclease, N-terminal resolvase-like domain
+5_3_exonuc           PF01367.19 sp|P56105|DPO1_HELPY -            4.1e-24   84.9   0.0   5.8e-23   81.2   0.0   3.0   3   0   0   3   3   3   1 5'-3' exonuclease, C-terminal SAM fold
+HHH_2                PF12826.6  sp|P56105|DPO1_HELPY -              0.043   13.8   0.0      0.21   11.6   0.0   2.1   2   0   0   2   2   2   0 Helix-hairpin-helix motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P56105.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P56105.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P56105.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:14:22 2019
+# [ok]

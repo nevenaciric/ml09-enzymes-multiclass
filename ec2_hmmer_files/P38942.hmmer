@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AcetylCoA_hyd_C      PF13336.5  sp|P38942|CAT2_CLOK5 -            5.3e-70  234.2   0.3   1.2e-69  233.1   0.1   1.7   2   0   0   2   2   2   1 Acetyl-CoA hydrolase/transferase C-terminal domain
+AcetylCoA_hydro      PF02550.14 sp|P38942|CAT2_CLOK5 -            1.7e-29  103.1   0.1   3.7e-29  102.0   0.1   1.5   1   0   0   1   1   1   1 Acetyl-CoA hydrolase/transferase N-terminal domain
+DeoRC                PF00455.21 sp|P38942|CAT2_CLOK5 -               0.11   12.4   0.2      0.81    9.5   0.0   2.3   2   0   0   2   2   2   0 DeoR C terminal sensor domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P38942.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P38942.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P38942.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:03:07 2019
+# [ok]

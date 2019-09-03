@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Flavi_NS5            PF00972.19 sp|P33478|POLG_DEN1S -           1.1e-291  968.9  10.9  1.1e-291  968.9  10.9   1.5   2   0   0   2   2   2   1 Flavivirus RNA-directed RNA polymerase
+Flavi_NS1            PF00948.20 sp|P33478|POLG_DEN1S -           8.7e-215  712.3   9.6  1.6e-214  711.5   9.6   1.4   1   0   0   1   1   1   1 Flavivirus non-structural Protein NS1
+Flavi_glycoprot      PF00869.19 sp|P33478|POLG_DEN1S -           6.2e-173  573.8   7.6    1e-172  573.1   7.6   1.4   1   0   0   1   1   1   1 Flavivirus glycoprotein, central and dimerisation domains
+Flavi_NS4B           PF01349.16 sp|P33478|POLG_DEN1S -           1.7e-130  433.6   6.8  1.7e-130  433.6   6.8   2.3   3   0   0   3   3   2   1 Flavivirus non-structural protein NS4B
+Flavi_NS4A           PF01350.16 sp|P33478|POLG_DEN1S -            7.8e-77  256.0   1.7   3.5e-76  253.9   1.7   2.2   1   0   0   1   1   1   1 Flavivirus non-structural protein NS4A
+Flavi_DEAD           PF07652.13 sp|P33478|POLG_DEN1S -            9.5e-72  239.7   0.4   1.9e-71  238.7   0.4   1.5   1   0   0   1   1   1   1 Flavivirus DEAD domain
+Flavi_NS2B           PF01002.18 sp|P33478|POLG_DEN1S -            1.5e-67  225.1   0.4   4.9e-67  223.5   0.4   2.0   1   0   0   1   1   1   1 Flavivirus non-structural protein NS2B
+Flavi_NS2A           PF01005.18 sp|P33478|POLG_DEN1S -            9.8e-67  224.6  15.5   2.7e-66  223.1  15.5   1.8   1   0   0   1   1   1   1 Flavivirus non-structural protein NS2A
+Flavi_propep         PF01570.16 sp|P33478|POLG_DEN1S -            2.9e-47  158.5   2.7   7.2e-47  157.2   2.7   1.7   1   0   0   1   1   1   1 Flavivirus polyprotein propeptide
+Flavi_glycop_C       PF02832.15 sp|P33478|POLG_DEN1S -            5.6e-47  157.7   0.2   1.3e-46  156.6   0.2   1.7   1   0   0   1   1   1   1 Flavivirus glycoprotein, immunoglobulin-like domain
+Peptidase_S7         PF00949.20 sp|P33478|POLG_DEN1S -            1.7e-46  157.2   0.1     4e-46  156.0   0.1   1.7   1   0   0   1   1   1   1 Peptidase S7, Flavivirus NS3 serine protease
+Flavi_M              PF01004.18 sp|P33478|POLG_DEN1S -            3.5e-42  141.9   1.5   1.2e-41  140.2   1.5   2.0   1   0   0   1   1   1   1 Flavivirus envelope glycoprotein M
+Flavi_capsid         PF01003.18 sp|P33478|POLG_DEN1S -            8.7e-33  112.5   7.9   2.7e-32  110.9   6.8   2.5   2   0   0   2   2   2   1 Flavivirus capsid protein C
+FtsJ                 PF01728.18 sp|P33478|POLG_DEN1S -            5.2e-07   29.8   0.0   1.7e-06   28.2   0.0   2.0   1   0   0   1   1   1   1 FtsJ-like methyltransferase
+DEAD                 PF00270.28 sp|P33478|POLG_DEN1S -            1.1e-05   25.1   0.0     3e-05   23.7   0.0   1.7   1   0   0   1   1   1   1 DEAD/DEAH box helicase
+Helicase_C           PF00271.30 sp|P33478|POLG_DEN1S -            0.00021   21.6   0.0    0.0026   18.0   0.0   2.5   2   0   0   2   2   2   1 Helicase conserved C-terminal domain
+AAA_30               PF13604.5  sp|P33478|POLG_DEN1S -             0.0036   16.9   0.0      0.01   15.4   0.0   1.7   1   0   0   1   1   1   1 AAA domain
+AAA_19               PF13245.5  sp|P33478|POLG_DEN1S -             0.0038   17.5   0.0    0.0038   17.5   0.0   2.1   2   0   0   2   2   1   1 AAA domain
+Trypsin_2            PF13365.5  sp|P33478|POLG_DEN1S -             0.0071   17.2   0.2     0.025   15.4   0.2   2.0   1   0   0   1   1   1   1 Trypsin-like peptidase domain
+Peptidase_S29        PF02907.14 sp|P33478|POLG_DEN1S -               0.28   10.8   4.0      0.56    9.8   0.4   2.8   2   1   0   2   2   2   0 Hepatitis C virus NS3 protease
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P33478.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P33478.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P33478.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:59:47 2019
+# [ok]

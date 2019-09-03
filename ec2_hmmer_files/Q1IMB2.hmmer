@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FGGY_N               PF00370.20 sp|Q1IMB2|GLPK_KORVE -            4.5e-85  285.0   0.1     6e-85  284.6   0.1   1.2   1   0   0   1   1   1   1 FGGY family of carbohydrate kinases, N-terminal domain
+FGGY_C               PF02782.15 sp|Q1IMB2|GLPK_KORVE -            7.8e-59  198.6   0.8   1.5e-58  197.7   0.5   1.6   2   0   0   2   2   2   1 FGGY family of carbohydrate kinases, C-terminal domain
+BcrAD_BadFG          PF01869.19 sp|Q1IMB2|GLPK_KORVE -             0.0017   17.8   0.1      0.33   10.3   0.0   2.2   2   0   0   2   2   2   2 BadF/BadG/BcrA/BcrD ATPase family
+FerA                 PF08165.10 sp|Q1IMB2|GLPK_KORVE -               0.17   11.7   0.0      0.44   10.4   0.0   1.7   1   0   0   1   1   1   0 FerA (NUC095) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q1IMB2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q1IMB2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q1IMB2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:14:35 2019
+# [ok]

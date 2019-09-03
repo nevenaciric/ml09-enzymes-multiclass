@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PI3_PI4_kinase       PF00454.26 sp|Q02099|RAD3_SCHPO -              5e-63  213.1   0.0   1.1e-62  212.0   0.0   1.7   1   0   0   1   1   1   1 Phosphatidylinositol 3- and 4-kinase
+FAT                  PF02259.22 sp|Q02099|RAD3_SCHPO -            5.2e-42  144.2   0.6   9.4e-42  143.3   0.6   1.5   1   0   0   1   1   1   1 FAT domain
+UME                  PF08064.12 sp|Q02099|RAD3_SCHPO -            1.6e-20   72.8   3.6   6.1e-20   71.0   0.0   3.5   3   0   0   3   3   3   1 UME (NUC010) domain
+FATC                 PF02260.19 sp|Q02099|RAD3_SCHPO -            1.2e-12   47.3   0.0   3.3e-12   45.9   0.0   1.8   1   0   0   1   1   1   1 FATC domain
+TPR_2                PF07719.16 sp|Q02099|RAD3_SCHPO -             0.0065   16.4   0.2       1.1    9.5   0.0   3.7   5   0   0   5   5   5   1 Tetratricopeptide repeat
+TPR_14               PF13428.5  sp|Q02099|RAD3_SCHPO -              0.064   14.0   0.0       8.3    7.4   0.0   3.6   2   1   1   3   3   3   0 Tetratricopeptide repeat
+DUF3385              PF11865.7  sp|Q02099|RAD3_SCHPO -               0.07   12.9   5.3      0.31   10.8   0.0   4.0   4   0   0   4   4   4   0 Domain of unknown function (DUF3385)
+TPR_8                PF13181.5  sp|Q02099|RAD3_SCHPO -              0.095   12.9   0.8      0.38   11.0   0.0   2.5   2   0   0   2   2   2   0 Tetratricopeptide repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q02099.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q02099.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q02099.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:34:23 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FGGY_C               PF02782.15 sp|P55138|YGCE_ECOLI -              5e-23   81.8   0.0   8.1e-23   81.1   0.0   1.4   1   0   0   1   1   1   1 FGGY family of carbohydrate kinases, C-terminal domain
+FGGY_N               PF00370.20 sp|P55138|YGCE_ECOLI -            5.1e-21   75.2   0.0     1e-11   44.8   0.0   2.2   1   1   1   2   2   2   2 FGGY family of carbohydrate kinases, N-terminal domain
+BcrAD_BadFG          PF01869.19 sp|P55138|YGCE_ECOLI -            0.00063   19.2   0.0    0.0034   16.8   0.0   2.0   2   0   0   2   2   2   1 BadF/BadG/BcrA/BcrD ATPase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P55138.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P55138.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P55138.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:13:48 2019
+# [ok]

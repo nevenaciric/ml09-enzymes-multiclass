@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-oxoacid_dh         PF00198.22 sp|Q19749|ODP2_CAEEL -            9.9e-82  273.8   0.0   1.2e-81  273.4   0.0   1.1   1   0   0   1   1   1   1 2-oxoacid dehydrogenases acyltransferase (catalytic domain)
+Biotin_lipoyl        PF00364.21 sp|Q19749|ODP2_CAEEL -            3.7e-18   65.0   0.1   8.9e-18   63.8   0.0   1.7   2   0   0   2   2   2   1 Biotin-requiring enzyme
+E3_binding           PF02817.16 sp|Q19749|ODP2_CAEEL -            6.3e-14   51.9   0.1   1.4e-13   50.8   0.1   1.7   1   0   0   1   1   1   1 e3 binding domain
+Biotin_lipoyl_2      PF13533.5  sp|Q19749|ODP2_CAEEL -              0.022   14.5   0.0       0.1   12.3   0.0   2.2   2   0   0   2   2   2   0 Biotin-lipoyl like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q19749.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q19749.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q19749.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:07:35 2019
+# [ok]

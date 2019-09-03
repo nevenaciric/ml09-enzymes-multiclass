@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|P75365|MNMA_MYCPN -           7.2e-133  442.7   0.0  8.3e-133  442.5   0.0   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+NAD_synthase         PF02540.16 sp|P75365|MNMA_MYCPN -            1.4e-05   24.2   0.2   0.00026   20.1   0.0   2.6   2   1   0   2   2   2   1 NAD synthase
+QueC                 PF06508.12 sp|P75365|MNMA_MYCPN -              0.021   14.2   0.0     0.082   12.3   0.0   1.9   2   0   0   2   2   2   0 Queuosine biosynthesis protein QueC
+ATP_bind_3           PF01171.19 sp|P75365|MNMA_MYCPN -               0.17   11.6   0.1       1.1    8.9   0.0   2.1   2   0   0   2   2   2   0 PP-loop family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P75365.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P75365.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P75365.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:31 2019
+# [ok]

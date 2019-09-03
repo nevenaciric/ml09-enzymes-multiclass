@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PGK                  PF00162.18 sp|P24590|PGK_HYPRU  -           1.2e-152  508.1   0.8  1.4e-152  508.0   0.8   1.0   1   0   0   1   1   1   1 Phosphoglycerate kinase
+PA                   PF02225.21 sp|P24590|PGK_HYPRU  -             0.0018   18.3   4.1    0.0098   15.9   0.0   3.2   4   0   0   4   4   4   1 PA domain
+AlaDh_PNT_C          PF01262.20 sp|P24590|PGK_HYPRU  -              0.059   12.6   0.9      0.11   11.7   0.9   1.4   1   0   0   1   1   1   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P24590.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P24590.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P24590.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:54:10 2019
+# [ok]

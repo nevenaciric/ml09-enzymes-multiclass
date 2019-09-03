@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PolyA_pol            PF01743.19 sp|Q049Z4|CCA_LACDB  -            4.7e-39  133.6   0.4   9.5e-39  132.6   0.1   1.7   2   0   0   2   2   2   1 Poly A polymerase head domain
+tRNA_NucTran2_2      PF13735.5  sp|Q049Z4|CCA_LACDB  -            7.8e-32  110.2   0.0   1.5e-31  109.3   0.0   1.4   1   0   0   1   1   1   1 tRNA nucleotidyltransferase domain 2 putative
+PolyA_pol_RNAbd      PF12627.6  sp|Q049Z4|CCA_LACDB  -            1.5e-13   50.2   0.1   4.6e-13   48.6   0.1   1.8   1   0   0   1   1   1   1 Probable RNA and SrmB- binding site of polymerase A
+DUF2204              PF09970.8  sp|Q049Z4|CCA_LACDB  -              0.096   12.2   0.1       0.4   10.2   0.0   2.0   2   0   0   2   2   2   0 Nucleotidyl transferase of unknown function (DUF2204)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q049Z4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q049Z4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q049Z4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:39:06 2019
+# [ok]

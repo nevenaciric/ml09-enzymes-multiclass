@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Carboxyl_trans       PF01039.21 sp|Q2QD80|ACCD_CUCSA -              4e-17   62.0   0.0   9.3e-17   60.8   0.0   1.5   2   0   0   2   2   2   1 Carboxyl transferase domain
+eIF-5_eIF-2B         PF01873.16 sp|Q2QD80|ACCD_CUCSA -               0.57   10.0   4.4      0.24   11.2   1.0   2.1   2   0   0   2   2   2   0 Domain found in IF2B/IF5
+Zn-ribbon_8          PF09723.9  sp|Q2QD80|ACCD_CUCSA -               0.79    9.8   3.5       8.7    6.5   0.3   3.1   3   0   0   3   3   3   0 Zinc ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2QD80.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2QD80.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2QD80.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:37:03 2019
+# [ok]

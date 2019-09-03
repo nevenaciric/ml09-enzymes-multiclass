@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pertussis_S1         PF02917.13 sp|P75409|CARDS_MYCPN -           1.3e-122  407.9   0.5  1.8e-122  407.4   0.5   1.2   1   0   0   1   1   1   1 Pertussis toxin, subunit 1
+VDE                  PF07137.10 sp|P75409|CARDS_MYCPN -                1.4    8.7   6.0      0.93    9.3   3.4   1.8   1   1   0   2   2   2   0 VDE lipocalin domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P75409.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P75409.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P75409.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:33 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|Q0VQV5|NADK_ALCBS -            3.3e-63  213.5   0.2   5.3e-63  212.8   0.2   1.3   1   1   0   1   1   1   1 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|Q0VQV5|NADK_ALCBS -              0.012   15.1   0.0      0.02   14.4   0.0   1.3   1   0   0   1   1   1   0 Diacylglycerol kinase catalytic domain
+Fe-ADH               PF00465.18 sp|Q0VQV5|NADK_ALCBS -               0.19   10.4   0.0      0.27    9.9   0.0   1.2   1   0   0   1   1   1   0 Iron-containing alcohol dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0VQV5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0VQV5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0VQV5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:57:20 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|P38732|EFM1_YEAST -            2.1e-05   24.9   0.1   4.8e-05   23.7   0.0   1.6   2   0   0   2   2   2   1 SET domain
+DUF507               PF04368.12 sp|P38732|EFM1_YEAST -             0.0031   17.4   1.2    0.0064   16.4   1.2   1.5   1   0   0   1   1   1   1 Protein of unknown function (DUF507)
+MFMR                 PF07777.10 sp|P38732|EFM1_YEAST -              0.012   16.0   0.1     0.033   14.6   0.0   1.8   2   0   0   2   2   2   0 G-box binding protein MFMR
+Phage_DsbA           PF11126.7  sp|P38732|EFM1_YEAST -              0.031   14.4   0.2     0.076   13.1   0.2   1.7   1   0   0   1   1   1   0 Transcriptional regulator DsbA
+2Fe-2S_thioredx      PF01257.18 sp|P38732|EFM1_YEAST -               0.14   11.9   0.0        20    4.9   0.0   2.4   2   0   0   2   2   2   0 Thioredoxin-like [2Fe-2S] ferredoxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P38732.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P38732.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P38732.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:03:02 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UPF0020              PF01170.17 sp|Q12463|TRM11_YEAST -            2.3e-11   43.7   0.0   3.8e-10   39.7   0.0   2.2   1   1   0   1   1   1   1 Putative RNA methylase family UPF0020
+MethyltransfD12      PF02086.14 sp|Q12463|TRM11_YEAST -             0.0081   15.8   0.2       1.6    8.2   0.1   2.7   1   1   1   2   2   2   2 D12 class N6 adenine-specific DNA methyltransferase
+N6_N4_Mtase          PF01555.17 sp|Q12463|TRM11_YEAST -              0.012   15.2   0.0      0.49    9.9   0.0   2.4   2   1   0   2   2   2   0 DNA methylase
+N6_Mtase             PF02384.15 sp|Q12463|TRM11_YEAST -              0.043   13.0   0.0      0.12   11.5   0.0   1.7   2   0   0   2   2   2   0 N-6 DNA Methylase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q12463.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q12463.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q12463.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:00:38 2019
+# [ok]

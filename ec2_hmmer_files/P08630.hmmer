@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P08630|BTKL_DROME -              3e-97  324.9   0.0   4.6e-97  324.3   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P08630|BTKL_DROME -            5.7e-47  160.2   0.0   8.8e-47  159.6   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P08630|BTKL_DROME -            1.8e-22   79.1   0.1   4.2e-22   77.9   0.1   1.7   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|P08630|BTKL_DROME -            6.6e-14   51.2   0.7   2.9e-13   49.1   0.2   2.3   2   0   0   2   2   2   1 SH3 domain
+PH                   PF00169.28 sp|P08630|BTKL_DROME -            1.8e-12   47.6   0.0     1e-11   45.1   0.0   2.2   2   0   0   2   2   2   1 PH domain
+BTK                  PF00779.18 sp|P08630|BTKL_DROME -              1e-09   37.9   4.9   2.3e-09   36.8   4.9   1.6   1   0   0   1   1   1   1 BTK motif
+SH3_9                PF14604.5  sp|P08630|BTKL_DROME -            2.6e-09   36.7   0.3     2e-08   33.8   0.1   2.4   2   0   0   2   2   2   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|P08630|BTKL_DROME -             0.0089   15.6   0.1     0.039   13.6   0.0   2.1   2   0   0   2   2   2   1 Variant SH3 domain
+PH_11                PF15413.5  sp|P08630|BTKL_DROME -              0.025   14.9   4.5       7.2    7.0   3.0   3.3   2   1   0   2   2   2   0 Pleckstrin homology domain
+SH3_3                PF08239.10 sp|P08630|BTKL_DROME -              0.093   12.9   0.5       0.2   11.8   0.5   1.6   1   0   0   1   1   1   0 Bacterial SH3 domain
+PH_8                 PF15409.5  sp|P08630|BTKL_DROME -              0.097   12.9   1.1       1.5    9.1   0.3   2.9   3   0   0   3   3   3   0 Pleckstrin homology domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P08630.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P08630.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P08630.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:35:52 2019
+# [ok]

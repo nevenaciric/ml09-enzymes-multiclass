@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|Q11G66|MNMA_CHESB -           8.1e-115  383.3   0.0  9.2e-115  383.1   0.0   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|Q11G66|MNMA_CHESB -            6.1e-07   29.3   0.1   1.2e-06   28.4   0.1   1.5   2   0   0   2   2   2   1 Asparagine synthase
+NAD_synthase         PF02540.16 sp|Q11G66|MNMA_CHESB -            0.00016   20.8   0.0   0.00035   19.7   0.0   1.5   2   0   0   2   2   2   1 NAD synthase
+QueC                 PF06508.12 sp|Q11G66|MNMA_CHESB -            0.00022   20.7   0.1    0.0013   18.2   0.2   2.0   2   1   0   2   2   2   1 Queuosine biosynthesis protein QueC
+ThiI                 PF02568.13 sp|Q11G66|MNMA_CHESB -            0.00073   19.1   0.3     0.015   14.8   0.2   2.3   2   1   0   2   2   2   1 Thiamine biosynthesis protein (ThiI)
+Arginosuc_synth      PF00764.18 sp|Q11G66|MNMA_CHESB -             0.0011   18.3   0.3    0.0024   17.1   0.2   1.6   1   1   0   1   1   1   1 Arginosuccinate synthase
+PAPS_reduct          PF01507.18 sp|Q11G66|MNMA_CHESB -              0.021   14.8   0.0      0.05   13.5   0.0   1.6   1   1   0   1   1   1   0 Phosphoadenosine phosphosulfate reductase family
+ATP_bind_3           PF01171.19 sp|Q11G66|MNMA_CHESB -              0.038   13.7   0.0      0.16   11.6   0.0   1.8   2   0   0   2   2   2   0 PP-loop family
+PASTA                PF03793.18 sp|Q11G66|MNMA_CHESB -               0.19   11.5   0.0        15    5.5   0.0   2.4   2   0   0   2   2   2   0 PASTA domain
+Rho_N                PF07498.11 sp|Q11G66|MNMA_CHESB -               0.19   11.6   0.1        11    5.9   0.0   2.9   3   0   0   3   3   3   0 Rho termination factor, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q11G66.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q11G66.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q11G66.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:59:31 2019
+# [ok]

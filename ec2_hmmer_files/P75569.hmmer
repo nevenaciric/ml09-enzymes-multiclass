@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PTS_EIIC             PF02378.17 sp|P75569|PTG3C_MYCPN -           4.2e-104  348.0  41.1   2.2e-85  286.5  24.7   3.0   3   0   0   3   3   3   2 Phosphotransferase system, EIIC
+PTS_EIIA_1           PF00358.19 sp|P75569|PTG3C_MYCPN -            3.4e-31  107.5   0.7   6.4e-31  106.7   0.7   1.4   1   0   0   1   1   1   1 phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
+PTS_EIIB             PF00367.19 sp|P75569|PTG3C_MYCPN -            2.2e-10   39.7   0.0   4.1e-10   38.9   0.0   1.4   1   0   0   1   1   1   1 phosphotransferase system, EIIB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P75569.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P75569.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P75569.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:41 2019
+# [ok]

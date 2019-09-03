@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NSP11                PF06471.11 sp|P0C6Y5|R1AB_CVPPU -                  0 1050.0  10.7         0 1048.8  10.7   1.6   1   0   0   1   1   1   1 NSP11
+Corona_RPol_N        PF06478.12 sp|P0C6Y5|R1AB_CVPPU -             6e-189  627.3  16.3    6e-189  627.3  16.3   4.3   4   0   0   4   4   4   1 Coronavirus RPol N-terminus
+NSP13                PF06460.11 sp|P0C6Y5|R1AB_CVPPU -           2.3e-168  558.7   0.8  4.6e-168  557.7   0.8   1.5   1   0   0   1   1   1   1 Coronavirus NSP13
+Peptidase_C30        PF05409.12 sp|P0C6Y5|R1AB_CVPPU -           5.9e-136  452.3   2.0  1.6e-135  450.9   2.0   1.8   1   0   0   1   1   1   1 Coronavirus  endopeptidase C30
+nsp8                 PF08717.9  sp|P0C6Y5|R1AB_CVPPU -            2.6e-91  304.8   4.6   5.4e-91  303.8   4.6   1.5   1   0   0   1   1   1   1 nsp8 replicase
+CNV-Replicase_N      PF16688.4  sp|P0C6Y5|R1AB_CVPPU -            9.4e-68  225.2   2.6   1.4e-67  224.7   0.5   2.6   2   0   0   2   2   1   1 Replicase polyprotein N-term from Coronavirus nsp1
+NSP10                PF09401.9  sp|P0C6Y5|R1AB_CVPPU -            7.2e-63  210.0   8.4   2.1e-62  208.5   8.4   1.9   1   0   0   1   1   1   1 RNA synthesis protein NSP10
+Viral_protease       PF08715.9  sp|P0C6Y5|R1AB_CVPPU -            4.1e-62  210.3   9.9   3.8e-41  141.4   2.1   2.5   2   0   0   2   2   2   2 Papain like viral protease
+nsp9                 PF08710.9  sp|P0C6Y5|R1AB_CVPPU -            5.2e-46  155.5   0.2   2.6e-45  153.3   0.0   2.4   2   0   0   2   2   2   1 nsp9 replicase
+Corona_NSP4_C        PF16348.4  sp|P0C6Y5|R1AB_CVPPU -            5.8e-42  142.3   2.0   2.7e-41  140.2   2.0   2.3   1   0   0   1   1   1   1 Coronavirus nonstructural protein 4 C-terminus
+nsp7                 PF08716.9  sp|P0C6Y5|R1AB_CVPPU -            1.1e-39  134.7   2.9   3.6e-39  133.1   2.9   2.0   1   0   0   1   1   1   1 nsp7 replicase
+AAA_11               PF13086.5  sp|P0C6Y5|R1AB_CVPPU -              7e-15   55.4   2.3   5.4e-07   29.6   0.0   3.3   2   1   1   3   3   3   2 AAA domain
+Macro                PF01661.20 sp|P0C6Y5|R1AB_CVPPU -              2e-09   37.4   0.1   7.9e-09   35.5   0.1   2.2   1   0   0   1   1   1   1 Macro domain
+AAA_30               PF13604.5  sp|P0C6Y5|R1AB_CVPPU -            8.5e-09   35.3   0.0   1.6e-08   34.4   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+Viral_helicase1      PF01443.17 sp|P0C6Y5|R1AB_CVPPU -            1.4e-08   34.6   2.9   9.4e-08   32.0   2.9   2.2   1   1   0   1   1   1   1 Viral (Superfamily 1) RNA helicase
+AAA_12               PF13087.5  sp|P0C6Y5|R1AB_CVPPU -            2.8e-08   33.5   0.3   2.3e-07   30.5   0.3   2.3   1   1   0   1   1   1   1 AAA domain
+AAA_19               PF13245.5  sp|P0C6Y5|R1AB_CVPPU -            1.8e-05   25.0   0.0   4.2e-05   23.8   0.0   1.6   1   0   0   1   1   1   1 AAA domain
+UvrD_C_2             PF13538.5  sp|P0C6Y5|R1AB_CVPPU -            0.00015   21.4   1.2    0.0004   20.1   0.3   2.2   2   0   0   2   2   1   1 UvrD-like helicase C-terminal domain
+AAA_22               PF13401.5  sp|P0C6Y5|R1AB_CVPPU -              0.016   15.4   0.0     0.042   14.0   0.0   1.7   1   0   0   1   1   1   0 AAA domain
+Baculo_PP31          PF05311.10 sp|P0C6Y5|R1AB_CVPPU -              0.061   12.7   0.7      0.15   11.4   0.7   1.6   1   0   0   1   1   1   0 Baculovirus 33KDa late protein (PP31)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0C6Y5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0C6Y5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0C6Y5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:42:25 2019
+# [ok]

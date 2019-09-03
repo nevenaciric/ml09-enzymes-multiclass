@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P48025|KSYK_MOUSE -            2.5e-89  298.9   0.3   3.6e-89  298.4   0.3   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P48025|KSYK_MOUSE -            1.4e-48  165.5   0.1   2.3e-48  164.8   0.1   1.2   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P48025|KSYK_MOUSE -            1.4e-42  143.5   0.4   6.7e-21   74.1   0.1   2.5   2   0   0   2   2   2   2 SH2 domain
+Kdo                  PF06293.13 sp|P48025|KSYK_MOUSE -            0.00038   19.8   0.1   0.00071   18.9   0.1   1.4   1   0   0   1   1   1   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+Haspin_kinase        PF12330.7  sp|P48025|KSYK_MOUSE -              0.018   13.9   0.1     0.026   13.4   0.1   1.2   1   0   0   1   1   1   0 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P48025.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P48025.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P48025.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:08:55 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Kdo                  PF06293.13 sp|P53323|BUD32_YEAST -            1.5e-07   30.9   0.0   2.2e-07   30.3   0.0   1.3   1   0   0   1   1   1   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+Pkinase              PF00069.24 sp|P53323|BUD32_YEAST -             0.0025   17.1   0.0     0.003   16.9   0.0   1.3   1   0   0   1   1   1   1 Protein kinase domain
+APH                  PF01636.22 sp|P53323|BUD32_YEAST -              0.013   15.3   0.2      0.37   10.6   0.1   2.1   1   1   1   2   2   2   0 Phosphotransferase enzyme family
+Pkinase_Tyr          PF07714.16 sp|P53323|BUD32_YEAST -              0.086   12.0   0.0      0.11   11.6   0.0   1.3   1   1   0   1   1   1   0 Protein tyrosine kinase
+DUF1679              PF07914.10 sp|P53323|BUD32_YEAST -               0.16   10.7   0.0      0.23   10.2   0.0   1.3   1   0   0   1   1   1   0 Protein of unknown function (DUF1679)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P53323.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P53323.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P53323.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:12:16 2019
+# [ok]

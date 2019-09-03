@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P13115|SRC1_XENLA -            6.3e-92  307.4   0.0   8.4e-92  307.0   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P13115|SRC1_XENLA -            4.8e-45  153.9   0.0   6.6e-45  153.4   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P13115|SRC1_XENLA -            2.5e-27   94.7   0.1   4.9e-27   93.7   0.1   1.5   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|P13115|SRC1_XENLA -            5.3e-18   64.2   0.1   3.2e-17   61.7   0.0   2.3   2   0   0   2   2   2   1 SH3 domain
+SH3_9                PF14604.5  sp|P13115|SRC1_XENLA -            5.3e-14   51.7   0.1   1.7e-13   50.1   0.0   2.0   2   0   0   2   2   2   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|P13115|SRC1_XENLA -            1.1e-09   37.8   0.0   2.9e-09   36.4   0.0   1.8   1   0   0   1   1   1   1 Variant SH3 domain
+Haspin_kinase        PF12330.7  sp|P13115|SRC1_XENLA -             0.0067   15.3   0.0     0.014   14.3   0.0   1.6   1   1   0   1   1   1   1 Haspin like kinase domain
+hSH3                 PF14603.5  sp|P13115|SRC1_XENLA -             0.0085   16.5   0.0     0.017   15.5   0.0   1.4   1   0   0   1   1   1   1 Helically-extended SH3 domain
+SH3_3                PF08239.10 sp|P13115|SRC1_XENLA -              0.021   15.0   0.1     0.044   14.0   0.1   1.5   1   0   0   1   1   1   0 Bacterial SH3 domain
+APH                  PF01636.22 sp|P13115|SRC1_XENLA -               0.16   11.8   0.0       1.2    8.9   0.0   2.0   1   1   1   2   2   2   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P13115.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P13115.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P13115.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:47:15 2019
+# [ok]

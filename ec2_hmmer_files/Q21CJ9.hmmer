@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRK                  PF00485.17 sp|Q21CJ9|COAA_RHOPB -            2.2e-13   50.3   0.0   4.5e-13   49.3   0.0   1.5   2   0   0   2   2   2   1 Phosphoribulokinase / Uridine kinase family
+AAA_18               PF13238.5  sp|Q21CJ9|COAA_RHOPB -              0.036   14.5   0.0     0.093   13.1   0.0   1.9   1   1   0   1   1   1   0 AAA domain
+CoaE                 PF01121.19 sp|Q21CJ9|COAA_RHOPB -               0.09   12.3   0.1      0.17   11.5   0.1   1.4   1   0   0   1   1   1   0 Dephospho-CoA kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q21CJ9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q21CJ9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q21CJ9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:23:19 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|P19454|CSK22_YEAST -              8e-58  195.8   0.0   9.8e-58  195.5   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|P19454|CSK22_YEAST -            1.2e-16   60.7   0.0   1.7e-16   60.2   0.0   1.4   1   1   0   1   1   1   1 Protein tyrosine kinase
+APH                  PF01636.22 sp|P19454|CSK22_YEAST -            2.5e-07   30.8   0.0   8.4e-07   29.0   0.0   1.8   1   1   1   2   2   2   1 Phosphotransferase enzyme family
+Choline_kinase       PF01633.19 sp|P19454|CSK22_YEAST -              0.019   14.4   0.0     0.038   13.5   0.0   1.5   1   0   0   1   1   1   0 Choline/ethanolamine kinase
+Kdo                  PF06293.13 sp|P19454|CSK22_YEAST -               0.11   11.8   0.0      0.19   10.9   0.0   1.3   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P19454.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P19454.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P19454.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:50:52 2019
+# [ok]

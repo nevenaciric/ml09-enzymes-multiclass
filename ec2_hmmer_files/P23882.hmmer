@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Formyl_trans_N       PF00551.18 sp|P23882|FMT_ECOLI  -            2.4e-56  190.2   0.0   3.7e-56  189.6   0.0   1.3   1   0   0   1   1   1   1 Formyl transferase
+Formyl_trans_C       PF02911.17 sp|P23882|FMT_ECOLI  -            5.7e-33  113.0   0.1   8.8e-33  112.4   0.1   1.3   1   0   0   1   1   1   1 Formyl transferase, C-terminal domain
+ProQ_C               PF17516.1  sp|P23882|FMT_ECOLI  -               0.28   10.6   1.4      0.44    9.9   0.1   2.1   2   0   0   2   2   2   0 ProQ C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P23882.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P23882.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P23882.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:53:48 2019
+# [ok]

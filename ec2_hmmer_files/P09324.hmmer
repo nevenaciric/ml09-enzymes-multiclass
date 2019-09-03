@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P09324|YES_CHICK  -            8.2e-93  310.3   0.0     1e-92  310.0   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P09324|YES_CHICK  -            9.2e-46  156.2   0.0   1.2e-45  155.8   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P09324|YES_CHICK  -            2.6e-28   97.8   0.2   5.8e-28   96.7   0.2   1.6   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|P09324|YES_CHICK  -            3.5e-20   71.2   0.4   1.7e-19   69.1   0.1   2.2   2   0   0   2   2   2   1 SH3 domain
+SH3_9                PF14604.5  sp|P09324|YES_CHICK  -            2.3e-15   56.1   0.0   6.4e-15   54.6   0.0   1.8   1   0   0   1   1   1   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|P09324|YES_CHICK  -            2.3e-11   43.1   0.0     7e-11   41.6   0.0   1.9   2   0   0   2   2   2   1 Variant SH3 domain
+Haspin_kinase        PF12330.7  sp|P09324|YES_CHICK  -             0.0014   17.5   0.0    0.0025   16.7   0.0   1.4   1   1   0   1   1   1   1 Haspin like kinase domain
+SH3_3                PF08239.10 sp|P09324|YES_CHICK  -              0.013   15.6   0.1     0.032   14.4   0.1   1.7   1   0   0   1   1   1   0 Bacterial SH3 domain
+YdjC                 PF04794.11 sp|P09324|YES_CHICK  -              0.042   13.7   0.0     0.064   13.1   0.0   1.2   1   0   0   1   1   1   0 YdjC-like protein
+hSH3                 PF14603.5  sp|P09324|YES_CHICK  -              0.065   13.7   0.0      0.15   12.6   0.0   1.5   1   0   0   1   1   1   0 Helically-extended SH3 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P09324.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P09324.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P09324.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:36:19 2019
+# [ok]

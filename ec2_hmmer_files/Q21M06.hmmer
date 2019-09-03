@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q21M06|PROB_SACD2 -            1.5e-38  132.6   0.5   2.8e-38  131.8   0.5   1.3   1   0   0   1   1   1   1 Amino acid kinase family
+PUA                  PF01472.19 sp|Q21M06|PROB_SACD2 -            6.5e-20   70.8   0.1   4.7e-19   68.0   0.0   2.3   2   0   0   2   2   2   1 PUA domain
+AdoMet_Synthase      PF01941.18 sp|Q21M06|PROB_SACD2 -              0.015   14.0   0.5     0.024   13.3   0.5   1.2   1   0   0   1   1   1   0 S-adenosylmethionine synthetase (AdoMet synthetase)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q21M06.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q21M06.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q21M06.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:23:47 2019
+# [ok]

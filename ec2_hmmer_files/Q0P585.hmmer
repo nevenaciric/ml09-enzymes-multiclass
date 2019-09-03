@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|Q0P585|SMYD2_BOVIN -            1.1e-14   55.1   0.1   2.5e-14   53.9   0.0   1.6   2   0   0   2   2   2   1 SET domain
+zf-MYND              PF01753.17 sp|Q0P585|SMYD2_BOVIN -            1.9e-11   43.8  10.7   1.9e-11   43.8  10.7   2.0   2   0   0   2   2   2   1 MYND finger
+TPR_12               PF13424.5  sp|Q0P585|SMYD2_BOVIN -            7.3e-05   22.9   0.1    0.0077   16.4   0.0   2.5   2   0   0   2   2   2   1 Tetratricopeptide repeat
+TPR_10               PF13374.5  sp|Q0P585|SMYD2_BOVIN -             0.0033   17.2   0.3     0.013   15.2   0.1   2.1   2   0   0   2   2   2   1 Tetratricopeptide repeat
+TPR_8                PF13181.5  sp|Q0P585|SMYD2_BOVIN -              0.011   15.8   1.7      0.02   15.0   0.5   2.0   2   0   0   2   2   2   0 Tetratricopeptide repeat
+TPR_2                PF07719.16 sp|Q0P585|SMYD2_BOVIN -              0.028   14.4   1.5       1.5    9.0   0.3   2.7   2   0   0   2   2   2   0 Tetratricopeptide repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0P585.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0P585.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0P585.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:52:31 2019
+# [ok]

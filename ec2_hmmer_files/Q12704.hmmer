@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_A            PF00476.19 sp|Q12704|DPOG_SCHPO -            1.7e-52  178.6   0.0   3.3e-52  177.7   0.0   1.5   1   0   0   1   1   1   1 DNA polymerase family A
+DNA_pol_A_exo1       PF01612.19 sp|Q12704|DPOG_SCHPO -              0.011   15.4   1.1       0.4   10.3   0.1   2.7   3   0   0   3   3   3   0 3'-5' exonuclease
+HTH_8                PF02954.18 sp|Q12704|DPOG_SCHPO -                0.1   12.3   0.1        11    5.8   0.0   3.3   3   0   0   3   3   3   0 Bacterial regulatory protein, Fis family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q12704.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q12704.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q12704.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:00:52 2019
+# [ok]

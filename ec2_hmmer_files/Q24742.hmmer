@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|Q24742|TRX_DROVI  -            2.4e-23   83.3   0.3   2.4e-23   83.3   0.3   6.3   6   1   0   6   6   6   1 SET domain
+FYRC                 PF05965.13 sp|Q24742|TRX_DROVI  -            1.5e-20   73.0   0.0   6.5e-20   71.0   0.0   2.2   1   0   0   1   1   1   1 F/Y rich C-terminus
+FYRN                 PF05964.13 sp|Q24742|TRX_DROVI  -            1.8e-10   40.4   0.0   3.9e-10   39.4   0.0   1.6   1   0   0   1   1   1   1 F/Y-rich N-terminus
+zf-HC5HC2H           PF13771.5  sp|Q24742|TRX_DROVI  -            8.3e-10   38.7   7.1   8.3e-10   38.7   7.1   5.9   2   1   1   4   4   4   2 PHD-like zinc-binding domain
+PHD                  PF00628.28 sp|Q24742|TRX_DROVI  -            5.4e-08   32.5   9.6   5.4e-08   32.5   9.6   8.6   8   1   1   9   9   9   3 PHD-finger
+Bromodomain          PF00439.24 sp|Q24742|TRX_DROVI  -              0.037   14.0   0.0       0.2   11.6   0.0   2.3   1   0   0   1   1   1   0 Bromodomain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q24742.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q24742.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q24742.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:24:54 2019
+# [ok]

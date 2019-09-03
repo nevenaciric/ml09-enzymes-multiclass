@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PARP                 PF00644.19 sp|Q0JMY1|PRP2B_ORYSJ -            5.6e-74  247.9   0.0     1e-73  247.0   0.0   1.4   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase catalytic domain
+PARP_reg             PF02877.13 sp|Q0JMY1|PRP2B_ORYSJ -            2.5e-42  144.1   1.1   1.6e-41  141.5   0.7   2.2   2   0   0   2   2   2   1 Poly(ADP-ribose) polymerase, regulatory domain
+WGR                  PF05406.14 sp|Q0JMY1|PRP2B_ORYSJ -            6.6e-14   51.6   0.8   1.9e-13   50.2   0.5   1.9   2   0   0   2   2   2   1 WGR domain
+Enkurin              PF13864.5  sp|Q0JMY1|PRP2B_ORYSJ -              0.043   14.1   0.1      0.11   12.9   0.1   1.6   1   0   0   1   1   1   0 Calmodulin-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0JMY1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0JMY1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0JMY1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:51:48 2019
+# [ok]

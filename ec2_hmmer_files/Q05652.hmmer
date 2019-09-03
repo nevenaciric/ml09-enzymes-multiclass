@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q05652|KPEL_DROME -            4.3e-41  140.9   0.0   1.1e-40  139.6   0.0   1.6   2   0   0   2   2   2   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q05652|KPEL_DROME -            7.6e-41  140.0   0.0     2e-40  138.6   0.0   1.7   1   1   0   1   1   1   1 Protein tyrosine kinase
+Death                PF00531.21 sp|Q05652|KPEL_DROME -            1.8e-12   47.2   0.2   5.5e-12   45.6   0.2   1.9   1   0   0   1   1   1   1 Death domain
+Kinase-like          PF14531.5  sp|Q05652|KPEL_DROME -             0.0032   16.7   0.0    0.0051   16.1   0.0   1.2   1   0   0   1   1   1   1 Kinase-like
+GrlR                 PF16518.4  sp|Q05652|KPEL_DROME -               0.16   11.8   0.4       7.1    6.6   0.1   2.8   2   1   0   3   3   3   0 T3SS negative regulator,GrlR
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q05652.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q05652.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q05652.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:40:50 2019
+# [ok]

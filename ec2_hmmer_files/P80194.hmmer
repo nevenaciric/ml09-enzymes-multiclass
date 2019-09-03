@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_A            PF00476.19 sp|P80194|DPO1_THECA -           1.8e-149  497.8   0.0  2.4e-149  497.4   0.0   1.2   1   0   0   1   1   1   1 DNA polymerase family A
+Taq-exonuc           PF09281.9  sp|P80194|DPO1_THECA -            2.3e-48  163.4   0.5   4.7e-48  162.3   0.5   1.6   1   0   0   1   1   1   1 Taq polymerase, exonuclease
+5_3_exonuc_N         PF02739.15 sp|P80194|DPO1_THECA -              4e-48  163.2   0.0   9.8e-48  162.0   0.0   1.7   2   0   0   2   2   2   1 5'-3' exonuclease, N-terminal resolvase-like domain
+5_3_exonuc           PF01367.19 sp|P80194|DPO1_THECA -            2.4e-30  104.9   0.0   6.5e-30  103.5   0.0   1.8   1   0   0   1   1   1   1 5'-3' exonuclease, C-terminal SAM fold
+HHH_5                PF14520.5  sp|P80194|DPO1_THECA -             0.0019   18.7   0.0    0.0058   17.1   0.0   1.8   1   0   0   1   1   1   1 Helix-hairpin-helix domain
+HHH_2                PF12826.6  sp|P80194|DPO1_THECA -              0.021   14.8   0.0     0.054   13.5   0.0   1.7   1   0   0   1   1   1   0 Helix-hairpin-helix motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P80194.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P80194.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P80194.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:26:44 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P13406|FYN_XENLA  -            9.4e-94  313.4   0.0   1.2e-93  313.1   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P13406|FYN_XENLA  -            2.2e-47  161.6   0.0   3.1e-47  161.1   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P13406|FYN_XENLA  -            2.9e-28   97.7   0.3   6.5e-28   96.5   0.3   1.6   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|P13406|FYN_XENLA  -            2.1e-20   71.9   0.4   1.2e-19   69.5   0.1   2.2   2   0   0   2   2   2   1 SH3 domain
+SH3_9                PF14604.5  sp|P13406|FYN_XENLA  -            1.1e-13   50.7   0.1   3.3e-13   49.2   0.1   1.9   1   0   0   1   1   1   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|P13406|FYN_XENLA  -            1.1e-11   44.1   0.0   4.1e-11   42.3   0.0   2.0   2   0   0   2   2   2   1 Variant SH3 domain
+SH3_3                PF08239.10 sp|P13406|FYN_XENLA  -              0.024   14.8   0.1     0.056   13.6   0.1   1.7   1   0   0   1   1   1   0 Bacterial SH3 domain
+Haspin_kinase        PF12330.7  sp|P13406|FYN_XENLA  -              0.041   12.7   0.1      0.12   11.1   0.1   1.7   1   1   0   1   1   1   0 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P13406.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P13406.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P13406.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:47:30 2019
+# [ok]

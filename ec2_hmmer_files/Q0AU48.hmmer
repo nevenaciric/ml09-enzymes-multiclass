@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|Q0AU48|RLMH_SYNWW -            6.1e-50  169.1   0.2   6.8e-50  168.9   0.2   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+Methyltrn_RNA_4      PF09936.8  sp|Q0AU48|RLMH_SYNWW -              0.029   14.1   0.0     0.039   13.7   0.0   1.2   1   0   0   1   1   1   0 SAM-dependent RNA methyltransferase
+RloB                 PF13707.5  sp|Q0AU48|RLMH_SYNWW -               0.05   13.7   0.0     0.063   13.4   0.0   1.1   1   0   0   1   1   1   0 RloB-like protein
+Phage_BR0599         PF09356.9  sp|Q0AU48|RLMH_SYNWW -               0.19   12.0   0.1      0.56   10.5   0.0   1.8   1   1   1   2   2   2   0 Phage conserved hypothetical protein BR0599
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0AU48.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0AU48.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0AU48.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:46:27 2019
+# [ok]

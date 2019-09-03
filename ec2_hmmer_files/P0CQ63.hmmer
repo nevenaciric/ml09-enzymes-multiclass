@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BRE1                 PF08647.10 sp|P0CQ63|BRE1_CRYNB -            1.1e-23   83.0   8.4   1.1e-23   83.0   8.4   8.2   7   1   0   8   8   8   1 BRE1 E3 ubiquitin ligase
+zf-C3HC4_3           PF13920.5  sp|P0CQ63|BRE1_CRYNB -            2.3e-06   27.3  12.8   3.6e-06   26.6  12.8   1.3   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-C3HC4             PF00097.24 sp|P0CQ63|BRE1_CRYNB -            4.5e-06   26.3  16.7   7.9e-06   25.5  16.7   1.4   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_2            PF13639.5  sp|P0CQ63|BRE1_CRYNB -            3.4e-05   24.0  13.2     6e-05   23.2  13.2   1.4   1   0   0   1   1   1   1 Ring finger domain
+Spc7                 PF08317.10 sp|P0CQ63|BRE1_CRYNB -            4.7e-05   22.3   8.6   4.7e-05   22.3   8.6   6.5   3   2   3   6   6   5   2 Spc7 kinetochore protein
+zf-RING_UBOX         PF13445.5  sp|P0CQ63|BRE1_CRYNB -            0.00018   21.4  10.6   0.00034   20.5  10.6   1.5   1   0   0   1   1   1   1 RING-type zinc-finger
+zf-C3HC4_2           PF13923.5  sp|P0CQ63|BRE1_CRYNB -            0.00022   20.9  15.7   0.00039   20.1  15.7   1.4   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+Cob_adeno_trans      PF01923.17 sp|P0CQ63|BRE1_CRYNB -             0.0012   18.9   2.0    0.0012   18.9   2.0   4.6   3   1   2   5   5   4   1 Cobalamin adenosyltransferase
+Prok-RING_4          PF14447.5  sp|P0CQ63|BRE1_CRYNB -             0.0017   18.1  11.2     0.003   17.3  11.2   1.4   1   0   0   1   1   1   1 Prokaryotic RING finger family 4
+zf-RING_5            PF14634.5  sp|P0CQ63|BRE1_CRYNB -             0.0027   17.5  16.2    0.0052   16.6  16.2   1.4   1   0   0   1   1   1   1 zinc-RING finger domain
+zf-RING_6            PF14835.5  sp|P0CQ63|BRE1_CRYNB -             0.0078   16.0   3.7     0.015   15.1   3.7   1.4   1   0   0   1   1   1   1 zf-RING of BARD1-type protein
+DUF1272              PF06906.10 sp|P0CQ63|BRE1_CRYNB -              0.017   15.1   7.6     0.037   14.0   7.6   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF1272)
+Ribonuc_red_lgN      PF00317.20 sp|P0CQ63|BRE1_CRYNB -              0.026   14.4   0.2      0.15   12.0   0.2   2.2   2   0   0   2   2   2   0 Ribonucleotide reductase, all-alpha domain
+zf-rbx1              PF12678.6  sp|P0CQ63|BRE1_CRYNB -               0.07   13.3  10.3      0.16   12.1  10.3   1.6   1   0   0   1   1   1   0 RING-H2 zinc finger domain
+FlaC_arch            PF05377.10 sp|P0CQ63|BRE1_CRYNB -               0.12   12.7  20.5       1.2    9.5   0.2   6.9   6   0   0   6   6   6   0 Flagella accessory protein C (FlaC)
+zf-C3HC4_4           PF15227.5  sp|P0CQ63|BRE1_CRYNB -               0.41   10.8  12.9      0.74    9.9  12.9   1.4   1   0   0   1   1   1   0 zinc finger of C3HC4-type, RING
+zf-Nse               PF11789.7  sp|P0CQ63|BRE1_CRYNB -               0.83    9.4   4.9       1.6    8.5   4.9   1.5   1   0   0   1   1   1   0 Zinc-finger of the MIZ type in Nse subunit
+Trm112p              PF03966.15 sp|P0CQ63|BRE1_CRYNB -               0.88   10.1   4.2       7.6    7.1   4.2   2.7   1   0   0   1   1   1   0 Trm112p-like protein
+Reo_sigmaC           PF04582.11 sp|P0CQ63|BRE1_CRYNB -                8.2    5.6  25.3       5.2    6.3   4.3   4.7   3   1   1   4   4   4   0 Reovirus sigma C capsid protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0CQ63.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0CQ63.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0CQ63.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:43:45 2019
+# [ok]

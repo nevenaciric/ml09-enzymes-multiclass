@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|P47355|PKNS_MYCGE -            5.4e-41  140.6   0.9   7.4e-41  140.1   0.9   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|P47355|PKNS_MYCGE -            4.2e-23   81.8   0.1   6.6e-23   81.2   0.1   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+APH                  PF01636.22 sp|P47355|PKNS_MYCGE -            0.00058   19.8   0.0    0.0035   17.2   0.0   1.9   1   1   1   2   2   2   1 Phosphotransferase enzyme family
+Choline_kinase       PF01633.19 sp|P47355|PKNS_MYCGE -                0.2   11.1   0.1       0.2   11.1   0.1   2.1   3   0   0   3   3   3   0 Choline/ethanolamine kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P47355.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P47355.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P47355.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:08:27 2019
+# [ok]

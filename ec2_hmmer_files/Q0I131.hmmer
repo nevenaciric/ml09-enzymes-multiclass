@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TMP-TENI             PF02581.16 sp|Q0I131|THIE_HAES1 -            5.9e-57  191.8   0.1   6.8e-57  191.6   0.1   1.0   1   0   0   1   1   1   1 Thiamine monophosphate synthase
+DUF561               PF04481.11 sp|Q0I131|THIE_HAES1 -             0.0024   17.0   0.1     0.019   14.0   0.1   2.0   2   0   0   2   2   2   1 Protein of unknown function (DUF561)
+NMO                  PF03060.14 sp|Q0I131|THIE_HAES1 -              0.042   13.1   2.2      0.18   11.1   2.2   1.9   1   1   0   1   1   1   0 Nitronate monooxygenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0I131.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0I131.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0I131.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:50:39 2019
+# [ok]

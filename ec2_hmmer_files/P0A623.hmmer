@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|P0A623|ILVB_MYCBO -            8.9e-57  191.3   0.2   2.2e-56  190.0   0.2   1.7   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_M         PF00205.21 sp|P0A623|ILVB_MYCBO -            2.3e-50  169.8   0.2   4.1e-50  169.0   0.2   1.4   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, central domain
+TPP_enzyme_C         PF02775.20 sp|P0A623|ILVB_MYCBO -            1.6e-48  164.3   0.0   1.6e-48  164.3   0.0   2.0   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+CO_dh                PF02552.15 sp|P0A623|ILVB_MYCBO -             0.0063   16.2   0.0     0.011   15.5   0.0   1.2   1   0   0   1   1   1   1 CO dehydrogenase beta subunit/acetyl-CoA synthase epsilon subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0A623.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0A623.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0A623.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:37:59 2019
+# [ok]

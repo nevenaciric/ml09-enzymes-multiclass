@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PcrB                 PF01884.16 sp|P0C882|GGGPS_METTM -            4.5e-90  300.9   0.0   5.1e-90  300.8   0.0   1.0   1   0   0   1   1   1   1 PcrB family
+His_biosynth         PF00977.20 sp|P0C882|GGGPS_METTM -            6.7e-05   22.4   0.1   0.00014   21.4   0.0   1.5   2   0   0   2   2   2   1 Histidine biosynthesis protein
+DHO_dh               PF01180.20 sp|P0C882|GGGPS_METTM -             0.0014   17.8   0.5    0.0024   17.0   0.5   1.4   1   0   0   1   1   1   1 Dihydroorotate dehydrogenase
+TMP-TENI             PF02581.16 sp|P0C882|GGGPS_METTM -             0.0073   15.5   0.0       0.4    9.9   0.0   2.2   2   0   0   2   2   2   1 Thiamine monophosphate synthase
+Trp_syntA            PF00290.19 sp|P0C882|GGGPS_METTM -             0.0074   15.1   1.1     0.025   13.3   0.4   1.9   2   0   0   2   2   2   1 Tryptophan synthase alpha chain
+B12-binding          PF02310.18 sp|P0C882|GGGPS_METTM -              0.012   15.6   0.1      0.94    9.4   0.1   2.2   2   0   0   2   2   2   0 B12 binding domain
+FMN_dh               PF01070.17 sp|P0C882|GGGPS_METTM -              0.045   12.7   0.2     0.045   12.7   0.2   1.6   2   0   0   2   2   2   0 FMN-dependent dehydrogenase
+IMPDH                PF00478.24 sp|P0C882|GGGPS_METTM -              0.052   12.4   0.6     0.089   11.7   0.2   1.6   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+ThiG                 PF05690.13 sp|P0C882|GGGPS_METTM -                0.1   11.8   1.0      0.84    8.8   0.3   2.2   2   0   0   2   2   2   0 Thiazole biosynthesis protein ThiG
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0C882.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0C882.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0C882.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:42:33 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FTSW_RODA_SPOVE      PF01098.18 sp|P9WN97|FTSW_MYCTU -           6.9e-126  419.9  17.1    8e-126  419.7  17.1   1.0   1   0   0   1   1   1   1 Cell cycle protein
+TMEM192              PF14802.5  sp|P9WN97|FTSW_MYCTU -              0.028   13.4   0.0     0.058   12.4   0.0   1.4   1   0   0   1   1   1   0 TMEM192 family
+EMP70                PF02990.15 sp|P9WN97|FTSW_MYCTU -                5.2    5.5   5.1         4    5.9   3.4   1.6   2   0   0   2   2   2   0 Endomembrane protein 70
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P9WN97.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P9WN97.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P9WN97.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:32:09 2019
+# [ok]

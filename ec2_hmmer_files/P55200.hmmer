@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FYRC                 PF05965.13 sp|P55200|KMT2A_MOUSE -            1.2e-21   76.5   0.0   3.2e-21   75.2   0.0   1.8   1   0   0   1   1   1   1 F/Y rich C-terminus
+SET                  PF00856.27 sp|P55200|KMT2A_MOUSE -            1.6e-21   77.3   0.7   1.6e-21   77.3   0.7   4.0   4   0   0   4   4   4   1 SET domain
+FYRN                 PF05964.13 sp|P55200|KMT2A_MOUSE -            3.3e-16   58.8   0.1     1e-15   57.2   0.1   2.0   1   0   0   1   1   1   1 F/Y-rich N-terminus
+PHD                  PF00628.28 sp|P55200|KMT2A_MOUSE -            7.8e-16   57.6  79.0   1.6e-08   34.2  12.1   5.5   4   1   2   6   6   6   3 PHD-finger
+zf-CXXC              PF02008.19 sp|P55200|KMT2A_MOUSE -            5.9e-13   48.5  23.2   5.9e-13   48.5  23.2   5.6   5   0   0   5   5   2   1 CXXC zinc finger domain
+zf-HC5HC2H           PF13771.5  sp|P55200|KMT2A_MOUSE -            3.4e-10   39.9  10.0   3.4e-10   39.9  10.0   5.5   4   1   1   5   5   4   1 PHD-like zinc-binding domain
+zf-HC5HC2H_2         PF13832.5  sp|P55200|KMT2A_MOUSE -            1.3e-08   34.9   9.2   1.3e-08   34.9   9.2   5.1   4   1   1   5   5   2   1 PHD-zinc-finger like domain
+PHD_2                PF13831.5  sp|P55200|KMT2A_MOUSE -             0.0001   21.7  22.5     0.018   14.5   2.5   4.1   3   0   0   3   3   3   2 PHD-finger
+Bromodomain          PF00439.24 sp|P55200|KMT2A_MOUSE -               0.06   13.3   0.0      0.15   12.0   0.0   1.6   1   0   0   1   1   1   0 Bromodomain
+PHD_4                PF16866.4  sp|P55200|KMT2A_MOUSE -               0.27   11.3  41.3     0.014   15.4  10.1   4.3   2   1   1   3   3   3   0 PHD-finger
+DUF3915              PF13054.5  sp|P55200|KMT2A_MOUSE -                3.3    7.6   6.5        11    5.9   6.5   1.8   1   0   0   1   1   1   0 Protein of unknown function (DUF3915)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P55200.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P55200.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P55200.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:13:51 2019
+# [ok]

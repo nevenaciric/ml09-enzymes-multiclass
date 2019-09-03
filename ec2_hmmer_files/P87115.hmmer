@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GNAT_acetyltr_2      PF13718.5  sp|P87115|NAT10_SCHPO -            5.8e-97  323.5   0.2   1.6e-96  322.0   0.0   1.9   2   0   0   2   2   2   1 GNAT acetyltransferase 2
+tRNA_bind_2          PF13725.5  sp|P87115|NAT10_SCHPO -            2.3e-87  292.5   3.4   4.3e-87  291.6   3.4   1.5   1   0   0   1   1   1   1 Possible tRNA binding domain
+Helicase_RecD        PF05127.13 sp|P87115|NAT10_SCHPO -            2.7e-64  216.2   0.0   8.7e-64  214.5   0.0   1.9   2   0   0   2   2   2   1 Helicase
+DUF1726              PF08351.10 sp|P87115|NAT10_SCHPO -              1e-35  121.4   0.3     4e-35  119.5   0.1   2.2   2   0   0   2   2   2   1 Domain of unknown function (DUF1726)
+Acetyltransf_1       PF00583.24 sp|P87115|NAT10_SCHPO -             0.0018   18.4   0.0     0.023   14.8   0.0   2.7   2   1   1   3   3   3   1 Acetyltransferase (GNAT) family
+AAA_30               PF13604.5  sp|P87115|NAT10_SCHPO -             0.0052   16.4   0.0      0.14   11.8   0.0   2.5   2   0   0   2   2   2   1 AAA domain
+AAA_19               PF13245.5  sp|P87115|NAT10_SCHPO -              0.077   13.2   0.0      0.33   11.2   0.0   2.1   2   1   0   2   2   2   0 AAA domain
+Acetyltransf_7       PF13508.6  sp|P87115|NAT10_SCHPO -              0.088   13.2   0.0      0.49   10.8   0.0   2.3   2   0   0   2   2   2   0 Acetyltransferase (GNAT) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P87115.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P87115.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P87115.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:27:44 2019
+# [ok]

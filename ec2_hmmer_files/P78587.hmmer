@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+mRNA_cap_enzyme      PF01331.18 sp|P78587|MCE1_CANAX -            2.8e-54  183.8   0.0   4.8e-54  183.1   0.0   1.4   1   0   0   1   1   1   1 mRNA capping enzyme, catalytic domain
+mRNA_cap_C           PF03919.14 sp|P78587|MCE1_CANAX -            6.9e-30  103.7   0.5   1.3e-29  102.9   0.5   1.5   1   0   0   1   1   1   1 mRNA capping enzyme, C-terminal domain
+DNA_ligase_A_M       PF01068.20 sp|P78587|MCE1_CANAX -            1.6e-05   24.5   0.0       0.1   12.1   0.0   2.3   1   1   1   2   2   2   2 ATP dependent DNA ligase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P78587.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P78587.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P78587.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:26:26 2019
+# [ok]

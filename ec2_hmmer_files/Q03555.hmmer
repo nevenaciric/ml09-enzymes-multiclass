@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MoCF_biosynth        PF00994.23 sp|Q03555|GEPH_RAT   -            1.8e-66  222.1   0.0   1.6e-38  131.5   0.0   2.3   2   0   0   2   2   2   2 Probable molybdopterin binding domain
+MoeA_N               PF03453.16 sp|Q03555|GEPH_RAT   -            4.2e-42  143.5   1.2   7.9e-42  142.6   0.4   1.8   2   0   0   2   2   2   1 MoeA N-terminal region (domain I and II)
+MoeA_C               PF03454.14 sp|Q03555|GEPH_RAT   -            1.5e-23   82.6   0.0   4.4e-23   81.1   0.0   1.9   2   0   0   2   2   2   1 MoeA C-terminal region (domain IV)
+Tubulin-binding      PF00418.18 sp|Q03555|GEPH_RAT   -              0.048   13.6   2.0      0.28   11.1   0.5   2.3   1   1   1   2   2   2   0 Tau and MAP protein, tubulin-binding repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q03555.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q03555.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q03555.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:36:36 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|P76339|HPRS_ECOLI -            3.5e-12   46.8   0.0   6.5e-12   45.9   0.0   1.5   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HisKA                PF00512.24 sp|P76339|HPRS_ECOLI -            3.9e-10   39.5   0.9   1.4e-09   37.7   0.9   2.0   1   0   0   1   1   1   1 His Kinase A (phospho-acceptor) domain
+HATPase_c_5          PF14501.5  sp|P76339|HPRS_ECOLI -             0.0025   17.6   0.0    0.0092   15.8   0.0   2.0   1   1   0   1   1   1   1 GHKL domain
+HAMP                 PF00672.24 sp|P76339|HPRS_ECOLI -             0.0034   17.7   0.0    0.0091   16.3   0.0   1.8   1   0   0   1   1   1   1 HAMP domain
+DUF5452              PF17533.1  sp|P76339|HPRS_ECOLI -             0.0043   17.0   1.4    0.0086   16.1   1.4   1.5   1   0   0   1   1   1   1 Family of unknown function (DUF5452)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P76339.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P76339.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P76339.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:54 2019
+# [ok]

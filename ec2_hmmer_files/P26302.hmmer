@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PRK                  PF00485.17 sp|P26302|KPPR_WHEAT -            1.5e-78  263.0   0.0   6.6e-78  260.9   0.0   1.8   2   0   0   2   2   2   1 Phosphoribulokinase / Uridine kinase family
+AAA_23               PF13476.5  sp|P26302|KPPR_WHEAT -               0.14   12.6   0.0      0.21   12.0   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+KAP_NTPase           PF07693.13 sp|P26302|KPPR_WHEAT -               0.17   11.0   0.0      0.22   10.6   0.0   1.3   1   0   0   1   1   1   0 KAP family P-loop domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P26302.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P26302.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P26302.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:54:59 2019
+# [ok]

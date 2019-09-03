@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|Q12C39|RLMH_POLSJ -            9.8e-48  161.9   0.0   1.1e-47  161.8   0.0   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+EMG1                 PF03587.13 sp|Q12C39|RLMH_POLSJ -              0.007   15.9   0.0     0.009   15.6   0.0   1.1   1   0   0   1   1   1   1 EMG1/NEP1 methyltransferase
+DNA_processg_A       PF02481.14 sp|Q12C39|RLMH_POLSJ -              0.045   12.9   1.1      0.13   11.4   1.1   1.7   1   1   1   2   2   2   0 DNA recombination-mediator protein A
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q12C39.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q12C39.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q12C39.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:01:06 2019
+# [ok]

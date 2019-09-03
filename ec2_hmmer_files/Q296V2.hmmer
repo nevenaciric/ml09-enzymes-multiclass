@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E3_UFM1_ligase       PF09743.8  sp|Q296V2|UFL1_DROPS -            2.9e-99  332.0   4.9   2.9e-99  332.0   4.9   1.8   2   0   0   2   2   2   1 E3 UFM1-protein ligase 1
+CDC27                PF09507.9  sp|Q296V2|UFL1_DROPS -              0.019   14.3   5.0      0.03   13.6   5.0   1.2   1   0   0   1   1   1   0 DNA polymerase subunit Cdc27
+FeoC                 PF09012.9  sp|Q296V2|UFL1_DROPS -              0.032   14.2   0.0      0.45   10.5   0.0   2.6   2   0   0   2   2   2   0 FeoC like transcriptional regulator
+DUF3349              PF11829.7  sp|Q296V2|UFL1_DROPS -              0.037   14.7   2.7       2.5    8.9   0.0   4.0   4   1   1   5   5   5   0 Protein of unknown function (DUF3349)
+DUF2201_N            PF13203.5  sp|Q296V2|UFL1_DROPS -                  6    6.3   8.5       2.1    7.8   4.9   1.9   1   1   1   2   2   2   0 Putative metallopeptidase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q296V2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q296V2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q296V2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:27:04 2019
+# [ok]

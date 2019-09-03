@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P52333|JAK3_HUMAN -           1.3e-134  447.3   0.0   7.6e-80  267.8   0.0   2.2   2   0   0   2   2   2   2 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P52333|JAK3_HUMAN -            3.1e-66  223.3   0.0   4.6e-46  157.2   0.0   2.1   2   0   0   2   2   2   2 Protein kinase domain
+Kdo                  PF06293.13 sp|P52333|JAK3_HUMAN -             0.0021   17.3   0.0     0.087   12.1   0.0   2.3   2   0   0   2   2   2   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+APH                  PF01636.22 sp|P52333|JAK3_HUMAN -              0.004   17.0   0.9     0.022   14.6   0.0   2.7   2   0   0   2   2   2   1 Phosphotransferase enzyme family
+SH2                  PF00017.23 sp|P52333|JAK3_HUMAN -              0.027   14.5   0.0     0.054   13.5   0.0   1.5   1   0   0   1   1   1   0 SH2 domain
+Haspin_kinase        PF12330.7  sp|P52333|JAK3_HUMAN -              0.074   11.9   0.0      0.12   11.2   0.0   1.2   1   0   0   1   1   1   0 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P52333.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P52333.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P52333.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:11:33 2019
+# [ok]

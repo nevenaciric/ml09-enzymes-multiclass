@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HMG_CoA_synt_C       PF08540.9  sp|P54868|HMCS2_HUMAN -           7.7e-132  439.0   0.7    1e-131  438.6   0.7   1.1   1   0   0   1   1   1   1 Hydroxymethylglutaryl-coenzyme A synthase C terminal
+HMG_CoA_synt_N       PF01154.16 sp|P54868|HMCS2_HUMAN -           1.8e-107  356.7   0.2  2.6e-107  356.2   0.2   1.2   1   0   0   1   1   1   1 Hydroxymethylglutaryl-coenzyme A synthase N terminal
+ACP_syn_III          PF08545.9  sp|P54868|HMCS2_HUMAN -              0.032   14.0   0.0     0.081   12.7   0.0   1.7   1   0   0   1   1   1   0 3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P54868.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P54868.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P54868.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:13:36 2019
+# [ok]

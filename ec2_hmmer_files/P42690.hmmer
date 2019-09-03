@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P42690|SRK4_SPOLA -            1.7e-98  328.9   0.0   2.6e-98  328.3   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P42690|SRK4_SPOLA -            1.8e-46  158.6   0.0   2.6e-46  158.0   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P42690|SRK4_SPOLA -            6.8e-24   83.7   0.1   1.5e-23   82.6   0.1   1.6   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|P42690|SRK4_SPOLA -            4.1e-17   61.4   1.5     1e-16   60.2   0.6   2.0   2   0   0   2   2   2   1 SH3 domain
+SH3_9                PF14604.5  sp|P42690|SRK4_SPOLA -            6.9e-12   44.9   0.8   1.2e-11   44.2   0.1   1.7   2   0   0   2   2   2   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|P42690|SRK4_SPOLA -            2.3e-11   43.1   0.0   6.5e-11   41.7   0.0   1.8   1   0   0   1   1   1   1 Variant SH3 domain
+Haspin_kinase        PF12330.7  sp|P42690|SRK4_SPOLA -             0.0029   16.5   0.0    0.0042   16.0   0.0   1.2   1   0   0   1   1   1   1 Haspin like kinase domain
+Kdo                  PF06293.13 sp|P42690|SRK4_SPOLA -               0.02   14.1   0.0     0.042   13.1   0.0   1.4   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+B2                   PF11473.7  sp|P42690|SRK4_SPOLA -              0.027   14.2   0.0      0.15   11.7   0.0   2.0   2   0   0   2   2   2   0 RNA binding protein B2
+APH                  PF01636.22 sp|P42690|SRK4_SPOLA -              0.042   13.7   0.0      0.73    9.6   0.0   2.1   1   1   1   2   2   2   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P42690.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P42690.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P42690.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:05:10 2019
+# [ok]

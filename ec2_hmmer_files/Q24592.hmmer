@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q24592|JAK_DROME  -           4.7e-111  370.1   0.0     4e-82  275.3   0.0   2.3   2   0   0   2   2   2   2 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q24592|JAK_DROME  -            1.1e-53  182.2   0.0   1.1e-43  149.5   0.0   2.4   2   0   0   2   2   2   2 Protein kinase domain
+RIO1                 PF01163.21 sp|Q24592|JAK_DROME  -             0.0028   17.2   0.0    0.0056   16.2   0.0   1.5   1   0   0   1   1   1   1 RIO1 family
+APH                  PF01636.22 sp|Q24592|JAK_DROME  -              0.093   12.5   0.9      0.28   11.0   0.1   2.1   2   0   0   2   2   2   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q24592.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q24592.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q24592.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:24:51 2019
+# [ok]

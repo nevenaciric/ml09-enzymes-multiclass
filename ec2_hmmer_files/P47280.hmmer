@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|P47280|KITH_MYCGE -            8.6e-51  172.2   0.2     1e-50  171.9   0.2   1.1   1   0   0   1   1   1   1 Thymidine kinase
+AAA_22               PF13401.5  sp|P47280|KITH_MYCGE -              0.026   14.7   0.4     0.093   12.9   0.3   2.1   2   1   0   2   2   2   0 AAA domain
+DUF4996              PF16387.4  sp|P47280|KITH_MYCGE -              0.077   13.4   0.1      0.19   12.2   0.1   1.7   1   1   0   1   1   1   0 Domain of unknown function
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P47280.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P47280.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P47280.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:08:21 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P80203|ACVL1_RAT  -            3.8e-36  124.6   0.0   6.7e-36  123.8   0.0   1.4   1   1   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P80203|ACVL1_RAT  -            6.3e-33  114.1   0.0   1.4e-32  113.0   0.0   1.5   2   0   0   2   2   2   1 Protein kinase domain
+TGF_beta_GS          PF08515.11 sp|P80203|ACVL1_RAT  -            3.1e-14   52.1   0.5   6.1e-14   51.1   0.5   1.5   1   0   0   1   1   1   1 Transforming growth factor beta type I GS-motif
+APH                  PF01636.22 sp|P80203|ACVL1_RAT  -             0.0016   18.3   0.0    0.0049   16.7   0.0   1.8   2   0   0   2   2   2   1 Phosphotransferase enzyme family
+Alpha_GJ             PF03229.12 sp|P80203|ACVL1_RAT  -              0.031   14.7   0.0      0.06   13.8   0.0   1.4   1   0   0   1   1   1   0 Alphavirus glycoprotein J
+DUF4381              PF14316.5  sp|P80203|ACVL1_RAT  -              0.037   14.2   0.0     0.075   13.2   0.0   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF4381)
+Haspin_kinase        PF12330.7  sp|P80203|ACVL1_RAT  -               0.15   10.9   0.0      0.37    9.6   0.0   1.5   2   0   0   2   2   2   0 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P80203.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P80203.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P80203.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:26:45 2019
+# [ok]

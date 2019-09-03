@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|P78362|SRPK2_HUMAN -            3.7e-41  141.1   6.6   5.7e-22   78.2   0.2   2.6   3   0   0   3   3   3   2 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|P78362|SRPK2_HUMAN -            1.1e-12   47.7   0.1   5.7e-09   35.5   0.1   2.3   2   0   0   2   2   2   2 Protein tyrosine kinase
+HNOB                 PF07700.14 sp|P78362|SRPK2_HUMAN -              0.033   14.0   0.0     0.078   12.8   0.0   1.6   1   0   0   1   1   1   0 Haem-NO-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P78362.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P78362.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P78362.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:26:24 2019
+# [ok]

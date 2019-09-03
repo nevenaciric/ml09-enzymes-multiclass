@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_Rpb1_1       PF04997.11 sp|P51251|RPOC1_PORPU -            2.5e-76  256.9   0.0   4.4e-76  256.1   0.0   1.4   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 1
+RNA_pol_Rpb1_2       PF00623.19 sp|P51251|RPOC1_PORPU -            4.5e-40  137.5   0.0   4.4e-28   98.5   0.0   2.7   1   1   1   2   2   2   2 RNA polymerase Rpb1, domain 2
+RNA_pol_Rpb1_3       PF04983.17 sp|P51251|RPOC1_PORPU -            2.4e-12   47.0   0.0   5.5e-12   45.8   0.0   1.6   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 3
+zf-HYPF              PF07503.11 sp|P51251|RPOC1_PORPU -                0.3   10.8   1.8      0.67    9.7   1.8   1.6   1   0   0   1   1   1   0 HypF finger
+Cas9-BH              PF16593.4  sp|P51251|RPOC1_PORPU -                3.3    7.4   6.3      0.19   11.4   0.5   2.0   2   0   0   2   2   2   0 Bridge helix of CRISPR-associated endonuclease Cas9
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P51251.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P51251.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P51251.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:11:05 2019
+# [ok]

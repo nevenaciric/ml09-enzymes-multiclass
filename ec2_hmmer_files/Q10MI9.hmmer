@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAS                  PF03059.15 sp|Q10MI9|NAS2_ORYSJ -           3.7e-128  426.6   0.0  4.7e-128  426.2   0.0   1.0   1   0   0   1   1   1   1 Nicotianamine synthase protein
+Methyltransf_25      PF13649.5  sp|Q10MI9|NAS2_ORYSJ -              0.033   14.8   0.0     0.081   13.5   0.0   1.7   1   0   0   1   1   1   0 Methyltransferase domain
+PAS_8                PF13188.6  sp|Q10MI9|NAS2_ORYSJ -              0.079   12.9   0.0      0.18   11.7   0.0   1.6   1   0   0   1   1   1   0 PAS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q10MI9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q10MI9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q10MI9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:58:42 2019
+# [ok]

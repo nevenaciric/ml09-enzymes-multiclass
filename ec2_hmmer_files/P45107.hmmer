@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PTA_PTB              PF01515.18 sp|P45107|PTA_HAEIN  -           6.7e-128  426.4   2.4  1.4e-127  425.3   2.4   1.6   1   0   0   1   1   1   1 Phosphate acetyl/butaryl transferase
+AAA_26               PF13500.5  sp|P45107|PTA_HAEIN  -            5.1e-49  166.7   0.4   3.6e-48  163.9   0.3   2.3   2   0   0   2   2   2   1 AAA domain
+DRTGG                PF07085.11 sp|P45107|PTA_HAEIN  -            1.1e-27   95.8   0.1   1.6e-26   92.0   0.0   2.9   3   0   0   3   3   3   1 DRTGG domain
+CbiA                 PF01656.22 sp|P45107|PTA_HAEIN  -             0.0018   18.2   0.2    0.0085   16.1   0.1   2.3   2   1   0   2   2   2   1 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P45107.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P45107.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P45107.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:06:58 2019
+# [ok]

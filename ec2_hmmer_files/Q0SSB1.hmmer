@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_m1G_MT          PF01746.20 sp|Q0SSB1|TRMD_CLOPS -            1.3e-63  214.2   0.0   1.5e-63  214.0   0.0   1.0   1   0   0   1   1   1   1 tRNA (Guanine-1)-methyltransferase
+SPOUT_MTase_2        PF14419.5  sp|Q0SSB1|TRMD_CLOPS -            1.7e-05   24.2   0.1   0.00019   20.8   0.0   2.0   2   0   0   2   2   2   1 AF2226-like SPOUT RNA Methylase fused to THUMP
+SPOUT_MTase          PF02590.16 sp|Q0SSB1|TRMD_CLOPS -            0.00042   20.2   0.0    0.0007   19.5   0.0   1.4   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+Trm56                PF01994.15 sp|Q0SSB1|TRMD_CLOPS -              0.036   13.9   0.0     0.065   13.1   0.0   1.4   1   0   0   1   1   1   0 tRNA ribose 2'-O-methyltransferase, aTrm56
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0SSB1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0SSB1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0SSB1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:53:52 2019
+# [ok]

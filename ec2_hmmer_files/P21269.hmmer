@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PolyA_pol            PF01743.19 sp|P21269|CCA1_YEAST -            8.2e-35  119.9   0.0   1.5e-34  119.1   0.0   1.4   1   0   0   1   1   1   1 Poly A polymerase head domain
+PolyA_pol_RNAbd      PF12627.6  sp|P21269|CCA1_YEAST -            1.7e-05   24.4   0.0   4.8e-05   22.9   0.0   1.8   1   1   0   1   1   1   1 Probable RNA and SrmB- binding site of polymerase A
+tRNA_NucTran2_2      PF13735.5  sp|P21269|CCA1_YEAST -             0.0033   17.3   0.2    0.0097   15.8   0.2   1.8   1   1   0   1   1   1   1 tRNA nucleotidyltransferase domain 2 putative
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P21269.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P21269.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P21269.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:51:59 2019
+# [ok]

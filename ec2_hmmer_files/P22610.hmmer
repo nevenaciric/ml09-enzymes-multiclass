@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DiS_P_DiS            PF06750.12 sp|P22610|LEP4_PSEAE -            4.3e-34  116.4   0.1   1.9e-33  114.3   0.0   1.9   2   0   0   2   2   2   1 Bacterial Peptidase A24 N-terminal domain
+Peptidase_A24        PF01478.17 sp|P22610|LEP4_PSEAE -            1.8e-24   86.1  16.1   1.8e-24   86.1  16.1   2.0   2   0   0   2   2   2   1 Type IV leader peptidase family
+DUF1427              PF07235.10 sp|P22610|LEP4_PSEAE -               0.22   11.4   2.8       3.1    7.7   0.5   2.7   2   1   1   3   3   3   0 Protein of unknown function (DUF1427)
+zf-ribbon_3          PF13248.5  sp|P22610|LEP4_PSEAE -               0.78    9.1   3.4       3.4    7.1   0.3   2.2   2   0   0   2   2   2   0 zinc-ribbon domain
+zinc_ribbon_2        PF13240.5  sp|P22610|LEP4_PSEAE -               0.89    9.3   3.2       1.1    9.0   0.3   2.1   2   0   0   2   2   2   0 zinc-ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P22610.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P22610.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P22610.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:52:53 2019
+# [ok]

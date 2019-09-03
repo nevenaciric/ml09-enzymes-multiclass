@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WD40                 PF00400.31 sp|P49695|PKWA_THECU -            8.7e-76  247.8   9.8   4.6e-13   49.3   0.1   7.6   7   0   0   7   7   7   7 WD domain, G-beta repeat
+Pkinase              PF00069.24 sp|P49695|PKWA_THECU -            3.2e-38  131.5   0.0   4.3e-38  131.1   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+ANAPC4_WD40          PF12894.6  sp|P49695|PKWA_THECU -            1.1e-30  105.7   0.0    0.0025   18.0   0.0   7.2   1   1   6   7   7   7   7 Anaphase-promoting complex subunit 4 WD40 domain
+Pkinase_Tyr          PF07714.16 sp|P49695|PKWA_THECU -            6.7e-23   81.2   0.0   8.4e-23   80.9   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Ge1_WD40             PF16529.4  sp|P49695|PKWA_THECU -            6.6e-22   77.8   0.5    0.0072   15.2   0.0   6.7   1   1   6   7   7   7   5 WD40 region of Ge1, enhancer of mRNA-decapping protein
+APH                  PF01636.22 sp|P49695|PKWA_THECU -            2.8e-09   37.2   1.2    0.0022   17.8   0.1   2.8   2   1   1   3   3   3   2 Phosphotransferase enzyme family
+WD40_like            PF17005.4  sp|P49695|PKWA_THECU -            9.5e-09   34.9   0.0    0.0027   17.0   0.0   4.1   1   1   2   4   4   4   2 WD40-like domain
+PD40                 PF07676.11 sp|P49695|PKWA_THECU -            1.7e-06   27.7   3.5        12    5.9   0.1   6.7   7   0   0   7   7   7   0 WD40-like Beta Propeller Repeat
+Nbas_N               PF15492.5  sp|P49695|PKWA_THECU -            3.9e-06   26.3   4.6       1.5    8.0   0.1   5.3   1   1   5   6   6   6   2 Neuroblastoma-amplified sequence, N terminal
+Frtz                 PF11768.7  sp|P49695|PKWA_THECU -            3.7e-05   22.1   0.0     0.022   13.0   0.0   3.0   2   1   1   4   4   4   2 WD repeat-containing and planar cell polarity effector protein Fritz
+Nup160               PF11715.7  sp|P49695|PKWA_THECU -            0.00011   20.9   0.1      0.77    8.2   0.0   3.7   2   2   2   4   4   4   2 Nucleoporin Nup120/160
+PQQ_2                PF13360.5  sp|P49695|PKWA_THECU -            0.00049   19.7   2.7    0.0013   18.3   2.7   1.7   1   0   0   1   1   1   1 PQQ-like domain
+Peptidase_S9_N       PF02897.14 sp|P49695|PKWA_THECU -             0.0081   14.9   0.0       4.2    5.9   0.0   3.3   2   1   0   3   3   3   1 Prolyl oligopeptidase, N-terminal beta-propeller domain
+Cytochrom_D1         PF02239.15 sp|P49695|PKWA_THECU -              0.012   14.1   1.4      0.48    8.8   0.1   2.8   1   1   3   4   4   4   0 Cytochrome D1 heme domain
+DHFR_2               PF06442.10 sp|P49695|PKWA_THECU -              0.026   14.2   0.1        16    5.3   0.0   3.7   2   2   2   4   4   4   0 R67 dihydrofolate reductase
+RIO1                 PF01163.21 sp|P49695|PKWA_THECU -              0.044   13.3   0.0     0.073   12.6   0.0   1.2   1   0   0   1   1   1   0 RIO1 family
+Proteasome_A_N       PF10584.8  sp|P49695|PKWA_THECU -              0.064   12.8   5.3   1.2e+02    2.3   0.0   5.8   6   0   0   6   6   6   0 Proteasome subunit A N-terminal signature
+ABC1                 PF03109.15 sp|P49695|PKWA_THECU -               0.14   12.2   0.0      0.26   11.4   0.0   1.3   1   0   0   1   1   1   0 ABC1 family
+Nucleoporin_N        PF08801.10 sp|P49695|PKWA_THECU -               0.15   10.6   0.0       7.2    5.2   0.0   3.2   2   1   0   3   3   3   0 Nup133 N terminal like
+Roc                  PF08477.12 sp|P49695|PKWA_THECU -               0.27   11.4   3.1        44    4.2   0.0   4.2   4   1   1   5   5   5   0 Ras of Complex, Roc, domain of DAPkinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P49695.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P49695.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P49695.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:09:55 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol3_alpha       PF07733.11 sp|P10443|DPO3A_ECOLI -           2.2e-179  596.5   0.0  2.9e-179  596.2   0.0   1.1   1   0   0   1   1   1   1 Bacterial DNA polymerase III alpha subunit
+PHP                  PF02811.18 sp|P10443|DPO3A_ECOLI -            1.9e-40  138.8   0.0   7.8e-40  136.8   0.0   2.1   2   0   0   2   2   2   1 PHP domain
+HHH_6                PF14579.5  sp|P10443|DPO3A_ECOLI -            8.9e-26   89.9   0.0   2.3e-25   88.6   0.0   1.8   1   0   0   1   1   1   1 Helix-hairpin-helix motif
+tRNA_anti-codon      PF01336.24 sp|P10443|DPO3A_ECOLI -            8.8e-09   35.1   0.1   1.7e-08   34.2   0.1   1.5   1   0   0   1   1   1   1 OB-fold nucleic acid binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P10443.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P10443.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P10443.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:45:44 2019
+# [ok]

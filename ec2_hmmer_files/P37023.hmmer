@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P37023|ACVL1_HUMAN -            9.5e-35  120.0   0.0   1.6e-34  119.2   0.0   1.4   1   1   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P37023|ACVL1_HUMAN -              8e-32  110.5   0.0   1.2e-31  110.0   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+TGF_beta_GS          PF08515.11 sp|P37023|ACVL1_HUMAN -            1.2e-15   56.6   0.7   2.1e-15   55.8   0.7   1.5   1   0   0   1   1   1   1 Transforming growth factor beta type I GS-motif
+APH                  PF01636.22 sp|P37023|ACVL1_HUMAN -             0.0017   18.2   0.1      0.01   15.7   0.0   2.0   2   0   0   2   2   2   1 Phosphotransferase enzyme family
+DUF4381              PF14316.5  sp|P37023|ACVL1_HUMAN -               0.13   12.4   0.0      0.25   11.5   0.0   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF4381)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P37023.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P37023.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P37023.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:01:58 2019
+# [ok]

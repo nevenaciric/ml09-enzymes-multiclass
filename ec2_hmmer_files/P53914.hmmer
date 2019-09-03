@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GNAT_acetyltr_2      PF13718.5  sp|P53914|NAT10_YEAST -             8e-100  332.8   2.8  9.4e-100  332.6   0.0   2.6   3   0   0   3   3   3   1 GNAT acetyltransferase 2
+tRNA_bind_2          PF13725.5  sp|P53914|NAT10_YEAST -            7.5e-93  310.5  10.3   1.6e-92  309.4  10.3   1.6   1   0   0   1   1   1   1 Possible tRNA binding domain
+Helicase_RecD        PF05127.13 sp|P53914|NAT10_YEAST -            7.5e-66  221.2   0.0   3.6e-65  219.0   0.0   2.2   2   1   0   2   2   2   1 Helicase
+DUF1726              PF08351.10 sp|P53914|NAT10_YEAST -              1e-33  115.0   0.3     3e-33  113.5   0.0   2.0   2   0   0   2   2   2   1 Domain of unknown function (DUF1726)
+AAA_22               PF13401.5  sp|P53914|NAT10_YEAST -              0.011   15.9   0.0      0.72   10.0   0.0   2.9   3   0   0   3   3   3   0 AAA domain
+DEAD                 PF00270.28 sp|P53914|NAT10_YEAST -               0.08   12.6   0.0      0.18   11.5   0.0   1.6   1   0   0   1   1   1   0 DEAD/DEAH box helicase
+DLD                  PF14878.5  sp|P53914|NAT10_YEAST -               0.11   13.0   5.9      0.12   12.8   2.5   2.7   2   0   0   2   2   2   0 Death-like domain of SPT6
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P53914.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P53914.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P53914.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:12:43 2019
+# [ok]

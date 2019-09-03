@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Herpes_TK            PF00693.17 sp|P17402|KITH_HHV1K -           8.1e-126  418.9   0.0  9.7e-126  418.6   0.0   1.1   1   0   0   1   1   1   1 Thymidine kinase from herpesvirus
+AAA_28               PF13521.5  sp|P17402|KITH_HHV1K -              0.015   15.4   0.0     0.037   14.2   0.0   1.7   2   0   0   2   2   2   0 AAA domain
+AAA_33               PF13671.5  sp|P17402|KITH_HHV1K -              0.037   14.1   0.0        11    6.0   0.0   2.5   2   0   0   2   2   2   0 AAA domain
+AAA_18               PF13238.5  sp|P17402|KITH_HHV1K -               0.16   12.4   0.0      0.74   10.2   0.0   1.9   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P17402.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P17402.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P17402.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:49:40 2019
+# [ok]

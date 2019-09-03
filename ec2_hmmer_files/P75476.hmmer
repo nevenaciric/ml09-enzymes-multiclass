@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|P75476|PFKA_MYCPN -            1.2e-79  267.6   0.1   1.3e-79  267.4   0.1   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+LYTB                 PF02401.17 sp|P75476|PFKA_MYCPN -              0.026   13.7   0.3      0.19   10.9   0.0   2.2   1   1   2   3   3   3   0 LytB protein
+DAGK_cat             PF00781.23 sp|P75476|PFKA_MYCPN -              0.028   13.9   0.0     0.097   12.2   0.0   1.9   2   0   0   2   2   2   0 Diacylglycerol kinase catalytic domain
+AnfO_nitrog          PF09582.9  sp|P75476|PFKA_MYCPN -               0.04   13.2   0.0     0.082   12.1   0.0   1.5   1   0   0   1   1   1   0 Iron only nitrogenase protein AnfO (AnfO_nitrog)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P75476.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P75476.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P75476.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:36 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_Rpb1_2       PF00623.19 sp|P28363|RPA1_EUPOC -            1.7e-52  177.9   0.0   5.8e-52  176.2   0.0   2.0   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 2
+RNA_pol_Rpb1_1       PF04997.11 sp|P28363|RPA1_EUPOC -            2.5e-23   82.8  17.6   5.8e-20   71.7  13.9   2.8   1   1   1   2   2   2   2 RNA polymerase Rpb1, domain 1
+Secretin_N_2         PF07655.12 sp|P28363|RPA1_EUPOC -              0.081   13.4   0.4      0.83   10.1   0.3   2.4   2   0   0   2   2   2   0 Secretin N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P28363.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P28363.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P28363.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:56:33 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_A            PF00476.19 sp|P74933|DPO1_TREPA -           9.4e-142  472.4   2.5  1.3e-141  471.9   2.5   1.2   1   0   0   1   1   1   1 DNA polymerase family A
+DNA_pol_A_exo1       PF01612.19 sp|P74933|DPO1_TREPA -            1.1e-46  158.6   0.1   1.8e-39  135.2   0.2   2.6   1   1   1   2   2   2   2 3'-5' exonuclease
+5_3_exonuc_N         PF02739.15 sp|P74933|DPO1_TREPA -            9.2e-46  155.5   0.0   1.9e-45  154.5   0.0   1.6   1   0   0   1   1   1   1 5'-3' exonuclease, N-terminal resolvase-like domain
+5_3_exonuc           PF01367.19 sp|P74933|DPO1_TREPA -            1.1e-26   93.1   0.0   4.5e-26   91.2   0.0   2.1   1   0   0   1   1   1   1 5'-3' exonuclease, C-terminal SAM fold
+HHH_2                PF12826.6  sp|P74933|DPO1_TREPA -               0.11   12.5   0.0      0.49   10.4   0.0   2.0   2   0   0   2   2   2   0 Helix-hairpin-helix motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P74933.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P74933.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P74933.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:17 2019
+# [ok]

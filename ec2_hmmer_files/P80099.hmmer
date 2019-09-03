@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Alpha-amylase        PF00128.23 sp|P80099|MGTA_THEMA -            5.5e-60  203.6   0.3   4.4e-59  200.6   0.3   2.0   1   1   0   1   1   1   1 Alpha amylase, catalytic domain
+DUF1945              PF09178.9  sp|P80099|MGTA_THEMA -            8.5e-38  128.2   3.9   8.5e-38  128.2   3.9   2.3   2   0   0   2   2   2   1 Domain of unknown function (DUF1945)
+Glyco_hydro_77       PF02446.16 sp|P80099|MGTA_THEMA -              0.039   12.8   0.0      0.99    8.1   0.0   2.3   1   1   1   2   2   2   0 4-alpha-glucanotransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P80099.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P80099.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P80099.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:26:40 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_T              PF00929.23 sp|P0A1H0|DPO3E_SALTI -            1.1e-39  136.5   0.0   1.5e-39  136.1   0.0   1.2   1   0   0   1   1   1   1 Exonuclease
+DUF5051              PF16473.4  sp|P0A1H0|DPO3E_SALTI -            5.8e-06   26.3   0.0   2.4e-05   24.3   0.0   1.9   1   1   0   1   1   1   1 3' exoribonuclease, RNase T-like
+DNA_pol_A_exo1       PF01612.19 sp|P0A1H0|DPO3E_SALTI -            0.00052   19.7   0.1    0.0077   15.9   0.0   2.4   2   1   0   2   2   2   1 3'-5' exonuclease
+vATP-synt_AC39       PF01992.15 sp|P0A1H0|DPO3E_SALTI -              0.044   13.2   0.0     0.057   12.8   0.0   1.2   1   0   0   1   1   1   0 ATP synthase (C/AC39) subunit
+HPIP                 PF15226.5  sp|P0A1H0|DPO3E_SALTI -               0.19   12.1   0.0      0.38   11.1   0.0   1.5   2   0   0   2   2   2   0 HCF-1 beta-propeller-interacting protein family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P0A1H0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P0A1H0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P0A1H0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:37:07 2019
+# [ok]

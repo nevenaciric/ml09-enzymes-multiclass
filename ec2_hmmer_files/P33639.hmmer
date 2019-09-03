@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|P33639|PILS_PSEAE -            9.2e-18   64.7   0.0   1.8e-17   63.8   0.0   1.5   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HisKA                PF00512.24 sp|P33639|PILS_PSEAE -            8.4e-15   54.5   1.6   8.4e-15   54.5   1.6   2.8   3   0   0   3   3   3   1 His Kinase A (phospho-acceptor) domain
+PAS_8                PF13188.6  sp|P33639|PILS_PSEAE -             0.0024   17.7   0.0     0.008   16.1   0.0   1.8   1   0   0   1   1   1   1 PAS domain
+HATPase_c_2          PF13581.5  sp|P33639|PILS_PSEAE -              0.033   14.1   0.0     0.063   13.1   0.0   1.5   1   0   0   1   1   1   0 Histidine kinase-like ATPase domain
+PAS                  PF00989.24 sp|P33639|PILS_PSEAE -              0.034   14.0   0.2     0.097   12.6   0.0   1.9   2   0   0   2   2   2   0 PAS fold
+PAS_7                PF12860.6  sp|P33639|PILS_PSEAE -              0.071   13.2   0.4       0.4   10.8   0.0   2.3   2   0   0   2   2   2   0 PAS fold
+HATPase_c_3          PF13589.5  sp|P33639|PILS_PSEAE -               0.15   11.8   0.0      0.26   11.0   0.0   1.3   1   0   0   1   1   1   0 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P33639.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P33639.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P33639.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:59:53 2019
+# [ok]

@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rib_hydrolayse       PF02267.16 sp|P28907|CD38_HUMAN -            2.1e-95  318.6   5.4   2.4e-95  318.4   5.4   1.0   1   0   0   1   1   1   1 ADP-ribosyl cyclase
+Lectin_N             PF03954.13 sp|P28907|CD38_HUMAN -               0.04   13.6   1.8       1.3    8.7   0.5   2.4   2   0   0   2   2   2   0 Hepatic lectin, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P28907.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P28907.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P28907.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:56:51 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P41242|MATK_MOUSE -            1.2e-87  293.4   0.0   1.8e-87  292.8   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P41242|MATK_MOUSE -            1.1e-43  149.5   0.0   1.5e-43  149.0   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P41242|MATK_MOUSE -            1.8e-20   72.7   0.0   3.7e-20   71.7   0.0   1.6   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|P41242|MATK_MOUSE -              3e-07   29.8   0.0   6.4e-07   28.8   0.0   1.5   1   0   0   1   1   1   1 SH3 domain
+SH3_9                PF14604.5  sp|P41242|MATK_MOUSE -             0.0045   16.7   0.0    0.0098   15.6   0.0   1.5   1   0   0   1   1   1   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|P41242|MATK_MOUSE -              0.019   14.5   0.0     0.048   13.3   0.0   1.6   1   0   0   1   1   1   0 Variant SH3 domain
+RIO1                 PF01163.21 sp|P41242|MATK_MOUSE -              0.023   14.2   0.1     0.037   13.5   0.1   1.2   1   0   0   1   1   1   0 RIO1 family
+Kinase-like          PF14531.5  sp|P41242|MATK_MOUSE -              0.029   13.6   0.0     0.049   12.8   0.0   1.3   1   0   0   1   1   1   0 Kinase-like
+Haspin_kinase        PF12330.7  sp|P41242|MATK_MOUSE -               0.03   13.2   0.1     0.043   12.7   0.1   1.2   1   0   0   1   1   1   0 Haspin like kinase domain
+APH                  PF01636.22 sp|P41242|MATK_MOUSE -               0.12   12.2   0.3      0.29   10.9   0.0   1.9   2   0   0   2   2   2   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P41242.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P41242.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P41242.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:04:20 2019
+# [ok]

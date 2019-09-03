@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADPrib_exo_Tox       PF03496.13 sp|P15879|ARC3_CBDP  -            4.1e-57  192.6   0.8   5.1e-57  192.3   0.8   1.1   1   0   0   1   1   1   1 ADP-ribosyltransferase exoenzyme
+ART                  PF01129.17 sp|P15879|ARC3_CBDP  -             0.0014   17.9   0.0    0.0085   15.3   0.0   1.9   1   1   0   1   1   1   1 NAD:arginine ADP-ribosyltransferase
+hGDE_central         PF14702.5  sp|P15879|ARC3_CBDP  -              0.057   13.0   0.2      0.11   12.1   0.2   1.4   1   0   0   1   1   1   0 Central domain of human glycogen debranching enzyme
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P15879.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P15879.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P15879.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:48:49 2019
+# [ok]

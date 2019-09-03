@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q12310|PRR2_YEAST -            1.9e-46  158.5   0.0   3.4e-46  157.7   0.0   1.4   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q12310|PRR2_YEAST -            3.4e-22   78.9   0.2   8.9e-22   77.5   0.0   1.7   3   0   0   3   3   3   1 Protein tyrosine kinase
+Kinase-like          PF14531.5  sp|Q12310|PRR2_YEAST -            0.00078   18.8   0.1    0.0032   16.7   0.1   1.8   1   1   0   1   1   1   1 Kinase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q12310.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q12310.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q12310.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:00:31 2019
+# [ok]

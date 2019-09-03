@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MCR_alpha_N          PF02745.14 sp|P21110|MCRX_METTH -           1.4e-149  496.7   0.1  1.8e-149  496.4   0.1   1.1   1   0   0   1   1   1   1 Methyl-coenzyme M reductase alpha subunit, N-terminal domain
+MCR_alpha            PF02249.16 sp|P21110|MCRX_METTH -            2.7e-71  237.9   3.5   6.6e-71  236.6   3.1   1.9   2   0   0   2   2   2   1 Methyl-coenzyme M reductase alpha subunit, C-terminal domain
+MCR_beta_N           PF02783.14 sp|P21110|MCRX_METTH -              0.014   14.9   0.0     0.026   14.0   0.0   1.4   1   0   0   1   1   1   0 Methyl-coenzyme M reductase beta subunit, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P21110.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P21110.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P21110.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:51:51 2019
+# [ok]

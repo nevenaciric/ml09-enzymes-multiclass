@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q06418|TYRO3_HUMAN -            7.3e-90  300.7   0.0   9.5e-90  300.3   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q06418|TYRO3_HUMAN -            5.7e-37  127.4   0.0   7.9e-37  126.9   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Ig_3                 PF13927.5  sp|Q06418|TYRO3_HUMAN -            7.1e-20   71.3   0.1   7.1e-11   42.5   0.0   2.7   2   0   0   2   2   2   2 Immunoglobulin domain
+Ig_2                 PF13895.5  sp|Q06418|TYRO3_HUMAN -              6e-18   64.9   0.0     4e-11   43.0   0.0   2.5   2   0   0   2   2   2   2 Immunoglobulin domain
+fn3                  PF00041.20 sp|Q06418|TYRO3_HUMAN -            1.2e-16   60.7   0.0   1.2e-07   31.9   0.0   2.6   2   0   0   2   2   2   2 Fibronectin type III domain
+I-set                PF07679.15 sp|Q06418|TYRO3_HUMAN -            2.5e-16   59.4   0.7   3.1e-13   49.5   0.0   2.8   2   1   0   2   2   2   2 Immunoglobulin I-set domain
+ig                   PF00047.24 sp|Q06418|TYRO3_HUMAN -            5.7e-13   48.8   0.1   9.8e-08   32.0   0.0   2.7   2   1   0   2   2   2   2 Immunoglobulin domain
+V-set                PF07686.16 sp|Q06418|TYRO3_HUMAN -            1.1e-06   28.6   0.1   0.00069   19.7   0.0   3.1   2   1   0   2   2   2   1 Immunoglobulin V-set domain
+DUF4229              PF14012.5  sp|Q06418|TYRO3_HUMAN -               0.16   12.0   0.1      0.16   12.0   0.1   1.9   2   0   0   2   2   2   0 Protein of unknown function (DUF4229)
+C1-set               PF07654.14 sp|Q06418|TYRO3_HUMAN -               0.17   12.2   0.1      0.53   10.6   0.0   1.9   2   0   0   2   2   1   0 Immunoglobulin C1-set domain
+Kinase-like          PF14531.5  sp|Q06418|TYRO3_HUMAN -               0.19   10.9   0.0      0.57    9.4   0.0   1.7   2   0   0   2   2   2   0 Kinase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q06418.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q06418.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q06418.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:41:23 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B            PF00136.20 sp|Q2HRD0|DPOL_HHV8P -           1.1e-163  545.1   0.0  1.4e-163  544.8   0.0   1.1   1   0   0   1   1   1   1 DNA polymerase family B
+DNA_pol_B_exo1       PF03104.18 sp|Q2HRD0|DPOL_HHV8P -            2.3e-94  316.2   0.0   3.1e-94  315.8   0.0   1.2   1   0   0   1   1   1   1 DNA polymerase family B, exonuclease domain
+DNA_pol_B_exo2       PF10108.8  sp|Q2HRD0|DPOL_HHV8P -              0.015   14.9   0.1     0.084   12.4   0.1   2.0   1   1   0   1   1   1   0 Predicted 3'-5' exonuclease related to the exonuclease domain of PolB
+RNase_H_2            PF13482.5  sp|Q2HRD0|DPOL_HHV8P -              0.022   14.6   0.1       0.2   11.5   0.1   2.2   1   1   0   1   1   1   0 RNase_H superfamily
+DUF1744              PF08490.11 sp|Q2HRD0|DPOL_HHV8P -               0.11   10.9   0.0      0.17   10.4   0.0   1.2   1   0   0   1   1   1   0 Domain of unknown function (DUF1744)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2HRD0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2HRD0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2HRD0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:30:44 2019
+# [ok]

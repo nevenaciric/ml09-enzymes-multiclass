@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PQQ_2                PF13360.5  sp|P54741|AFSK_STRCO -            6.8e-43  146.9  18.6   6.4e-22   78.2   0.8   4.0   1   1   2   3   3   3   3 PQQ-like domain
+PQQ_3                PF13570.5  sp|P54741|AFSK_STRCO -            5.6e-41  137.9  43.1   1.3e-08   34.9   0.1  10.1   9   0   0   9   9   9   9 PQQ-like domain
+PQQ                  PF01011.20 sp|P54741|AFSK_STRCO -            8.9e-40  132.7  24.7   1.4e-06   27.8   0.2  10.3  10   0   0  10  10  10   7 PQQ enzyme repeat
+Pkinase              PF00069.24 sp|P54741|AFSK_STRCO -            2.2e-37  128.8   0.0     3e-37  128.3   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|P54741|AFSK_STRCO -            2.7e-21   75.9   0.0   3.4e-21   75.6   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+APH                  PF01636.22 sp|P54741|AFSK_STRCO -            7.3e-05   22.7   7.2   0.00083   19.2   0.0   2.9   2   1   1   3   3   3   2 Phosphotransferase enzyme family
+RIO1                 PF01163.21 sp|P54741|AFSK_STRCO -             0.0011   18.5   0.0    0.0099   15.4   0.0   2.0   2   0   0   2   2   2   1 RIO1 family
+Kdo                  PF06293.13 sp|P54741|AFSK_STRCO -              0.045   13.0   0.0      0.08   12.2   0.0   1.4   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P54741.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P54741.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P54741.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:13:24 2019
+# [ok]

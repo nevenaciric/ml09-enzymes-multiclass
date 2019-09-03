@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_synthesis         PF02504.14 sp|Q0C313|PLSX_HYPNA -           5.3e-107  357.5   2.3  6.4e-107  357.2   2.3   1.0   1   0   0   1   1   1   1 Fatty acid synthesis protein
+PTA_PTB              PF01515.18 sp|Q0C313|PLSX_HYPNA -            3.8e-08   32.9   0.0   5.9e-08   32.3   0.0   1.2   1   0   0   1   1   1   1 Phosphate acetyl/butaryl transferase
+DUF2620              PF10941.7  sp|Q0C313|PLSX_HYPNA -              0.087   12.9   1.9      0.13   12.3   0.6   2.0   2   1   0   2   2   2   0 Protein of unknown function DUF2620
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q0C313.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q0C313.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q0C313.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:48:17 2019
+# [ok]

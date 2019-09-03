@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PTS_EIIC             PF02378.17 sp|P22825|PTSBC_VIBAL -            1.2e-49  169.1  32.5   1.2e-49  169.1  32.5   2.0   1   1   1   2   2   2   1 Phosphotransferase system, EIIC
+PTS_EIIB             PF00367.19 sp|P22825|PTSBC_VIBAL -            5.4e-14   51.3   0.1     1e-13   50.4   0.1   1.5   1   0   0   1   1   1   1 phosphotransferase system, EIIB
+DUF1656              PF07869.11 sp|P22825|PTSBC_VIBAL -                1.2    9.2   7.0        17    5.4   0.7   3.5   2   0   0   2   2   2   0 Protein of unknown function (DUF1656)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P22825.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P22825.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P22825.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:53:03 2019
+# [ok]

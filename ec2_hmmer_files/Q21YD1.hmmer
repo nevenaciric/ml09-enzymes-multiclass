@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q21YD1|PNP_RHOFT  -            6.3e-44  149.6   0.0   4.4e-22   78.9   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q21YD1|PNP_RHOFT  -            3.8e-17   62.0   1.7   3.3e-09   36.5   0.0   2.8   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|Q21YD1|PNP_RHOFT  -            4.3e-16   58.9   0.7   4.3e-16   58.9   0.7   2.1   2   0   0   2   2   2   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|Q21YD1|PNP_RHOFT  -            6.6e-16   58.5   0.8   8.5e-15   54.9   0.1   2.7   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|Q21YD1|PNP_RHOFT  -            9.9e-13   47.6   0.6   3.3e-12   45.9   0.6   2.0   1   0   0   1   1   1   1 KH domain
+KH_2                 PF07650.16 sp|Q21YD1|PNP_RHOFT  -            0.00046   19.9   0.1    0.0016   18.2   0.1   1.9   1   0   0   1   1   1   1 KH domain
+S1_2                 PF13509.5  sp|Q21YD1|PNP_RHOFT  -              0.013   15.5   0.2      0.34   10.9   0.0   2.9   2   1   1   3   3   3   0 S1 domain
+Phage_tube           PF04985.13 sp|Q21YD1|PNP_RHOFT  -              0.014   15.0   0.2     0.031   13.9   0.2   1.5   1   0   0   1   1   1   0 Phage tail tube protein FII
+KH_4                 PF13083.5  sp|Q21YD1|PNP_RHOFT  -              0.048   13.5   1.0      0.51   10.2   0.0   2.5   2   0   0   2   2   2   0 KH domain
+SLS                  PF14611.5  sp|Q21YD1|PNP_RHOFT  -                0.1   12.3   0.1      0.19   11.4   0.1   1.4   1   0   0   1   1   1   0 Mitochondrial inner-membrane-bound regulator
+DNA_pol3_a_NI        PF14480.5  sp|Q21YD1|PNP_RHOFT  -                0.1   12.5   0.1      0.24   11.3   0.1   1.6   1   0   0   1   1   1   0 DNA polymerase III polC-type N-terminus I
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q21YD1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q21YD1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q21YD1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:24:23 2019
+# [ok]

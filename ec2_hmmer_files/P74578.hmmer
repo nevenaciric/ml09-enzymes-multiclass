@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NadA                 PF02445.15 sp|P74578|NADA_SYNY3 -           4.1e-121  403.6   0.0  4.6e-121  403.5   0.0   1.0   1   0   0   1   1   1   1 Quinolinate synthetase A protein
+Sigma70_r4_2         PF08281.11 sp|P74578|NADA_SYNY3 -            0.00017   21.1   1.0     0.017   14.7   0.1   2.9   3   0   0   3   3   3   2 Sigma-70, region 4
+Vps23_core           PF09454.9  sp|P74578|NADA_SYNY3 -              0.088   12.7   0.7       4.5    7.2   0.0   2.4   2   0   0   2   2   2   0 Vps23 core domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P74578.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P74578.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P74578.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:10 2019
+# [ok]

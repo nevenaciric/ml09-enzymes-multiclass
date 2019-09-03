@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|Q03215|PFKA1_KLULA -           3.9e-186  616.9   3.1  7.1e-105  350.3   0.4   2.1   2   0   0   2   2   2   2 Phosphofructokinase
+DAGK_cat             PF00781.23 sp|Q03215|PFKA1_KLULA -              0.016   14.7   0.1      0.82    9.2   0.1   2.9   2   0   0   2   2   2   0 Diacylglycerol kinase catalytic domain
+UVR                  PF02151.18 sp|Q03215|PFKA1_KLULA -              0.074   12.7   3.5       1.7    8.4   0.3   2.6   2   0   0   2   2   2   0 UvrB/uvrC motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q03215.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q03215.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q03215.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:36:15 2019
+# [ok]

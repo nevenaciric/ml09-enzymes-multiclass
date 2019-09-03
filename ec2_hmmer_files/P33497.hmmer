@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P33497|RYK_AVIR3  -            7.9e-92  307.1   0.0   9.8e-92  306.8   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P33497|RYK_AVIR3  -              1e-38  133.1   0.0   1.4e-38  132.7   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Kinase-like          PF14531.5  sp|P33497|RYK_AVIR3  -              0.015   14.5   0.0     0.062   12.5   0.0   1.9   2   0   0   2   2   2   0 Kinase-like
+APH                  PF01636.22 sp|P33497|RYK_AVIR3  -              0.019   14.8   0.0     0.034   14.0   0.0   1.5   1   0   0   1   1   1   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P33497.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P33497.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P33497.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:59:47 2019
+# [ok]

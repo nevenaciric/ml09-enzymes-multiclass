@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Citrate_synt         PF00285.20 sp|P23007|CISY_CHICK -           2.1e-102  342.8   0.0  2.4e-102  342.6   0.0   1.0   1   0   0   1   1   1   1 Citrate synthase, C-terminal domain
+PAS_3                PF08447.11 sp|P23007|CISY_CHICK -              0.038   14.2   0.0     0.084   13.1   0.0   1.6   1   0   0   1   1   1   0 PAS fold
+DUF2723              PF11028.7  sp|P23007|CISY_CHICK -                0.1   12.4   0.0      0.23   11.3   0.0   1.6   1   0   0   1   1   1   0 Protein of unknown function (DUF2723)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P23007.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P23007.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P23007.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:53:11 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|Q1AS21|MEND_RUBXD -            1.8e-37  128.5   0.5   3.4e-36  124.3   0.1   2.4   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_M_2       PF16582.4  sp|Q1AS21|MEND_RUBXD -            2.5e-24   86.1   0.0   3.7e-24   85.5   0.0   1.1   1   0   0   1   1   1   1 Middle domain of thiamine pyrophosphate
+TPP_enzyme_C         PF02775.20 sp|Q1AS21|MEND_RUBXD -            6.2e-07   29.2   0.0   1.8e-06   27.7   0.0   1.8   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+ABA_WDS              PF02496.15 sp|Q1AS21|MEND_RUBXD -              0.028   14.8   0.1     0.069   13.5   0.1   1.6   1   0   0   1   1   1   0 ABA/WDS induced protein
+ETF                  PF01012.20 sp|Q1AS21|MEND_RUBXD -               0.14   12.0   3.3      0.17   11.7   0.2   2.4   2   0   0   2   2   2   0 Electron transfer flavoprotein domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q1AS21.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q1AS21.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q1AS21.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:07:46 2019
+# [ok]

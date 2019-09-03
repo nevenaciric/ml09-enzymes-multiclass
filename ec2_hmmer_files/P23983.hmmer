@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Herpes_TK            PF00693.17 sp|P23983|KITH_ILTVT -            1.3e-67  227.9   0.0   1.5e-67  227.7   0.0   1.0   1   0   0   1   1   1   1 Thymidine kinase from herpesvirus
+dNK                  PF01712.18 sp|P23983|KITH_ILTVT -              0.002   17.9   0.0       1.2    8.9   0.0   2.4   2   1   0   2   2   2   2 Deoxynucleoside kinase
+AAA_22               PF13401.5  sp|P23983|KITH_ILTVT -              0.042   14.0   0.0     0.091   12.9   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+Phage_TAC_1          PF06222.10 sp|P23983|KITH_ILTVT -               0.19   11.4   0.0      0.37   10.5   0.0   1.4   1   0   0   1   1   1   0 Phage tail assembly chaperone
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P23983.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P23983.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P23983.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:53:51 2019
+# [ok]

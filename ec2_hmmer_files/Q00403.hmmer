@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TFIIB                PF00382.18 sp|Q00403|TF2B_HUMAN -            1.9e-50  168.7   3.5   1.4e-24   85.8   0.2   2.2   2   0   0   2   2   2   2 Transcription factor TFIIB repeat
+TF_Zn_Ribbon         PF08271.11 sp|Q00403|TF2B_HUMAN -            2.4e-14   52.5   0.2   3.9e-14   51.8   0.2   1.4   1   0   0   1   1   1   1 TFIIB zinc-binding
+Cyclin_N             PF00134.22 sp|Q00403|TF2B_HUMAN -            4.8e-08   32.8   0.1   6.4e-06   25.9   0.0   2.1   2   0   0   2   2   2   2 Cyclin, N-terminal domain
+Cyclin_C             PF02984.18 sp|Q00403|TF2B_HUMAN -              0.002   18.1   0.0      0.16   12.0   0.0   2.4   2   0   0   2   2   2   1 Cyclin, C-terminal domain
+RB_B                 PF01857.19 sp|Q00403|TF2B_HUMAN -             0.0039   17.1   0.1    0.0089   16.0   0.1   1.5   2   0   0   2   2   2   1 Retinoblastoma-associated protein B domain
+Sigma70_r4           PF04545.15 sp|Q00403|TF2B_HUMAN -              0.013   14.9   0.0      0.11   12.0   0.0   2.2   2   0   0   2   2   2   0 Sigma-70, region 4
+zf-ribbon_3          PF13248.5  sp|Q00403|TF2B_HUMAN -               0.22   10.9   1.0      0.39   10.1   0.1   1.9   2   0   0   2   2   2   0 zinc-ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q00403.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q00403.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q00403.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:33:23 2019
+# [ok]

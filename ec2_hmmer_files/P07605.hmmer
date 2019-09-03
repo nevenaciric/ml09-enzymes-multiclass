@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|P07605|KITH_RFVKA -            4.4e-70  235.0   0.5     5e-70  234.9   0.5   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_14               PF13173.5  sp|P07605|KITH_RFVKA -             0.0011   18.9   0.0    0.0016   18.4   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+zf-BED               PF02892.14 sp|P07605|KITH_RFVKA -               0.02   14.8   0.9      0.39   10.7   0.1   2.4   2   0   0   2   2   2   0 BED zinc finger
+Zn_ribbon_2          PF12674.6  sp|P07605|KITH_RFVKA -               0.16   12.5   2.7      0.75   10.4   2.9   2.1   2   1   0   2   2   2   0 Putative zinc ribbon domain
+Ribosomal_L40e       PF01020.16 sp|P07605|KITH_RFVKA -                9.8    6.0   8.3       1.9    8.3   1.6   2.7   3   0   0   3   3   3   0 Ribosomal L40e family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P07605.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P07605.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P07605.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:35:11 2019
+# [ok]

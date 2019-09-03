@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_methylase        PF00145.16 sp|Q10SU5|DRM2_ORYSJ -            1.6e-16   60.5   0.0   1.9e-11   43.8   0.0   2.4   2   1   0   2   2   2   2 C-5 cytosine-specific DNA methylase
+UBA                  PF00627.30 sp|Q10SU5|DRM2_ORYSJ -            1.8e-05   24.5   0.0     0.015   15.1   0.0   2.7   3   0   0   3   3   3   2 UBA/TS-N domain
+UBA_3                PF09288.9  sp|Q10SU5|DRM2_ORYSJ -              0.081   12.6   0.0       2.1    8.1   0.0   2.5   2   0   0   2   2   2   0 Fungal ubiquitin-associated domain
+Nudc_N               PF14050.5  sp|Q10SU5|DRM2_ORYSJ -               0.13   12.2   0.5      0.58   10.1   0.1   2.1   2   0   0   2   2   2   0 N-terminal conserved domain of Nudc.
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q10SU5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q10SU5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q10SU5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:58:48 2019
+# [ok]

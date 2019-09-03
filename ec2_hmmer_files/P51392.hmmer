@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|P51392|YCF26_PORPU -              3e-19   69.6   0.1   6.1e-19   68.5   0.1   1.6   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+PAS                  PF00989.24 sp|P51392|YCF26_PORPU -            5.6e-19   68.1   0.0   1.5e-18   66.8   0.0   1.8   1   0   0   1   1   1   1 PAS fold
+HisKA                PF00512.24 sp|P51392|YCF26_PORPU -            1.9e-16   59.7   1.5     8e-16   57.7   0.3   2.4   2   0   0   2   2   2   1 His Kinase A (phospho-acceptor) domain
+HAMP                 PF00672.24 sp|P51392|YCF26_PORPU -            4.5e-10   39.7   0.0   2.2e-09   37.5   0.0   2.2   1   1   1   2   2   2   1 HAMP domain
+PAS_4                PF08448.9  sp|P51392|YCF26_PORPU -            4.4e-05   23.6   0.0   0.00012   22.2   0.0   1.9   2   0   0   2   2   2   1 PAS fold
+PAS_8                PF13188.6  sp|P51392|YCF26_PORPU -            0.00011   22.1   0.0   0.00034   20.4   0.0   1.9   1   0   0   1   1   1   1 PAS domain
+dCache_1             PF02743.17 sp|P51392|YCF26_PORPU -              0.001   18.9   0.7     0.001   18.9   0.7   2.3   2   0   0   2   2   2   1 Cache domain
+PAS_9                PF13426.6  sp|P51392|YCF26_PORPU -             0.0075   16.4   0.2     0.022   14.9   0.2   1.9   1   0   0   1   1   1   1 PAS domain
+Syntaxin-5_N         PF11416.7  sp|P51392|YCF26_PORPU -              0.044   12.9   0.7      0.16   11.1   0.4   2.2   2   0   0   2   2   2   0 Syntaxin-5 N-terminal, Sly1p-binding domain
+PARP_reg             PF02877.13 sp|P51392|YCF26_PORPU -              0.063   13.3   0.8      0.98    9.4   0.5   2.5   2   0   0   2   2   2   0 Poly(ADP-ribose) polymerase, regulatory domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P51392.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P51392.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P51392.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:11:08 2019
+# [ok]

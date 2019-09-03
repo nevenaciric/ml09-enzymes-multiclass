@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|P20659|TRX_DROME  -            5.4e-22   78.9   0.4   5.4e-22   78.9   0.4   4.5   3   0   0   3   3   3   1 SET domain
+FYRC                 PF05965.13 sp|P20659|TRX_DROME  -            3.6e-20   71.8   0.0   1.2e-19   70.2   0.0   2.0   1   0   0   1   1   1   1 F/Y rich C-terminus
+FYRN                 PF05964.13 sp|P20659|TRX_DROME  -            4.6e-10   39.1   0.0     1e-09   38.0   0.0   1.7   1   0   0   1   1   1   1 F/Y-rich N-terminus
+zf-HC5HC2H           PF13771.5  sp|P20659|TRX_DROME  -            9.6e-10   38.5   6.9   9.6e-10   38.5   6.9   6.1   4   2   1   6   6   6   2 PHD-like zinc-binding domain
+PHD                  PF00628.28 sp|P20659|TRX_DROME  -            5.6e-08   32.4   8.6   5.6e-08   32.4   8.6   8.3   8   1   1   9   9   9   4 PHD-finger
+Bromodomain          PF00439.24 sp|P20659|TRX_DROME  -               0.06   13.3   0.1      0.69    9.9   0.0   2.6   2   0   0   2   2   2   0 Bromodomain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P20659.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P20659.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P20659.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:51:35 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UQ_con               PF00179.25 sp|P52490|UBC13_YEAST -            1.1e-48  164.4   0.0   1.2e-48  164.2   0.0   1.0   1   0   0   1   1   1   1 Ubiquitin-conjugating enzyme
+UEV                  PF05743.12 sp|P52490|UBC13_YEAST -              0.017   14.9   0.1     0.033   14.0   0.1   1.5   1   1   0   1   1   1   0 UEV domain
+Prok-E2_B            PF14461.5  sp|P52490|UBC13_YEAST -               0.02   14.5   0.0     0.027   14.1   0.0   1.2   1   0   0   1   1   1   0 Prokaryotic E2 family B
+RWD                  PF05773.21 sp|P52490|UBC13_YEAST -              0.037   14.2   0.1     0.045   14.0   0.1   1.4   1   1   0   1   1   1   0 RWD domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P52490.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P52490.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P52490.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:11:43 2019
+# [ok]

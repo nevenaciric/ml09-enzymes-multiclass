@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ThiF                 PF00899.20 sp|P12282|MOEB_ECOLI -            2.2e-64  217.0   0.3   2.8e-64  216.7   0.3   1.0   1   0   0   1   1   1   1 ThiF family
+Sacchrp_dh_NADP      PF03435.17 sp|P12282|MOEB_ECOLI -            0.00032   20.8   0.8     0.002   18.3   0.8   2.0   1   1   0   1   1   1   1 Saccharopine dehydrogenase NADP binding domain
+NAD_binding_7        PF13241.5  sp|P12282|MOEB_ECOLI -             0.0087   16.4   0.1     0.017   15.5   0.1   1.4   1   0   0   1   1   1   1 Putative NAD(P)-binding
+Shikimate_DH         PF01488.19 sp|P12282|MOEB_ECOLI -              0.055   13.4   0.1      0.19   11.7   0.0   1.8   1   1   1   2   2   2   0 Shikimate / quinate 5-dehydrogenase
+FAD_binding_3        PF01494.18 sp|P12282|MOEB_ECOLI -              0.082   12.1   0.1      0.12   11.6   0.1   1.2   1   0   0   1   1   1   0 FAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P12282.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P12282.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P12282.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:46:44 2019
+# [ok]

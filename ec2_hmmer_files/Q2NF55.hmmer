@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Trm56                PF01994.15 sp|Q2NF55|TRM56_METST -            3.3e-47  159.2   0.1   4.5e-47  158.8   0.1   1.2   1   0   0   1   1   1   1 tRNA ribose 2'-O-methyltransferase, aTrm56
+SpoU_methylase       PF00588.18 sp|Q2NF55|TRM56_METST -             0.0024   18.0   0.0    0.0032   17.5   0.0   1.2   1   0   0   1   1   1   1 SpoU rRNA Methylase family
+Cellulase            PF00150.17 sp|Q2NF55|TRM56_METST -              0.019   14.3   0.1      0.14   11.5   0.0   1.9   1   1   1   2   2   2   0 Cellulase (glycosyl hydrolase family 5)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2NF55.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2NF55.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2NF55.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:35:10 2019
+# [ok]

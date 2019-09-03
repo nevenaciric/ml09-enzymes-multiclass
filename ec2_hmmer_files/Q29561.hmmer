@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADK                  PF00406.21 sp|Q29561|KCY_PIG    -            1.6e-44  151.5   0.0     2e-44  151.2   0.0   1.1   1   0   0   1   1   1   1 Adenylate kinase
+AAA_17               PF13207.5  sp|Q29561|KCY_PIG    -            1.6e-38  132.1   0.0   2.3e-38  131.6   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+Thymidylate_kin      PF02223.16 sp|Q29561|KCY_PIG    -              2e-08   34.1   0.2   2.4e-06   27.3   0.2   2.1   1   1   0   1   1   1   1 Thymidylate kinase
+AAA_18               PF13238.5  sp|Q29561|KCY_PIG    -            2.9e-08   34.2   0.0   4.3e-08   33.6   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+Zeta_toxin           PF06414.11 sp|Q29561|KCY_PIG    -            1.4e-05   24.4   0.0   1.9e-05   24.0   0.0   1.2   1   0   0   1   1   1   1 Zeta toxin
+AAA_33               PF13671.5  sp|Q29561|KCY_PIG    -            3.1e-05   24.1   0.0   6.1e-05   23.1   0.0   1.5   1   1   0   1   1   1   1 AAA domain
+Cytidylate_kin       PF02224.17 sp|Q29561|KCY_PIG    -             0.0079   15.9   0.4       1.4    8.5   0.0   2.3   3   0   0   3   3   3   2 Cytidylate kinase
+dNK                  PF01712.18 sp|Q29561|KCY_PIG    -              0.025   14.4   0.0      0.56    9.9   0.0   2.0   1   1   1   2   2   2   0 Deoxynucleoside kinase
+PAS_9                PF13426.6  sp|Q29561|KCY_PIG    -               0.03   14.5   0.0       0.7   10.1   0.0   2.2   2   0   0   2   2   2   0 PAS domain
+AAA_19               PF13245.5  sp|Q29561|KCY_PIG    -              0.094   12.9   0.1      0.19   11.9   0.1   1.6   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q29561.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q29561.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q29561.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:27:02 2019
+# [ok]

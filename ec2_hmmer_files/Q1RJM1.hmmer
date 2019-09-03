@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_T              PF00929.23 sp|Q1RJM1|DPO3E_RICBR -            1.8e-42  145.6   0.0   3.1e-42  144.8   0.0   1.4   1   0   0   1   1   1   1 Exonuclease
+DUF5051              PF16473.4  sp|Q1RJM1|DPO3E_RICBR -            4.2e-08   33.3   0.0   9.6e-08   32.1   0.0   1.6   1   1   0   1   1   1   1 3' exoribonuclease, RNase T-like
+RNase_H_2            PF13482.5  sp|Q1RJM1|DPO3E_RICBR -            8.2e-06   25.8   0.1   6.3e-05   22.9   0.1   2.0   1   1   0   1   1   1   1 RNase_H superfamily
+DNA_pol_A_exo1       PF01612.19 sp|Q1RJM1|DPO3E_RICBR -            5.1e-05   23.0   0.2    0.0024   17.5   0.1   2.4   2   1   0   2   2   2   1 3'-5' exonuclease
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q1RJM1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q1RJM1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q1RJM1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:21:42 2019
+# [ok]

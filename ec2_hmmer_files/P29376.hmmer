@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P29376|LTK_HUMAN  -              1e-84  283.8   0.0   1.3e-84  283.5   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P29376|LTK_HUMAN  -            3.9e-31  108.3   0.0   5.5e-31  107.8   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Gly_rich             PF12810.6  sp|P29376|LTK_HUMAN  -            6.3e-18   65.5  35.8   1.3e-17   64.4  31.3   2.1   2   0   0   2   2   2   1 Glycine rich protein
+FXa_inhibition       PF14670.5  sp|P29376|LTK_HUMAN  -               0.03   14.5   4.4     0.086   13.1   4.4   1.8   1   0   0   1   1   1   0 Coagulation Factor Xa inhibitory site
+cEGF                 PF12662.6  sp|P29376|LTK_HUMAN  -                0.1   12.4   0.0      0.24   11.2   0.0   1.6   1   0   0   1   1   1   0 Complement Clr-like EGF-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P29376.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P29376.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P29376.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:57:11 2019
+# [ok]

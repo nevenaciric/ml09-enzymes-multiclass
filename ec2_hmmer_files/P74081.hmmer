@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PolyA_pol            PF01743.19 sp|P74081|AATNT_SYNY3 -            9.3e-38  129.4   0.0   2.7e-37  127.9   0.0   1.8   2   0   0   2   2   2   1 Poly A polymerase head domain
+CBS                  PF00571.27 sp|P74081|AATNT_SYNY3 -            3.8e-25   88.0   1.0   1.3e-11   44.6   0.3   2.7   2   0   0   2   2   2   2 CBS domain
+DHH                  PF01368.19 sp|P74081|AATNT_SYNY3 -            4.2e-06   26.8   0.0   9.5e-06   25.7   0.0   1.6   1   0   0   1   1   1   1 DHH family
+tRNA_NucTran2_2      PF13735.5  sp|P74081|AATNT_SYNY3 -              0.007   16.3   0.0     0.022   14.6   0.0   1.8   1   0   0   1   1   1   1 tRNA nucleotidyltransferase domain 2 putative
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P74081.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P74081.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P74081.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:25:00 2019
+# [ok]

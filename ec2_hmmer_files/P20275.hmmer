@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|P20275|PFKA_SPICI -              5e-96  321.3   6.6   5.9e-96  321.0   6.6   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+Peripla_BP_1         PF00532.20 sp|P20275|PFKA_SPICI -              0.026   13.9   0.5     0.097   12.0   0.0   2.0   2   1   1   3   3   3   0 Periplasmic binding proteins and sugar binding domain of LacI family
+Glycos_transf_1      PF00534.19 sp|P20275|PFKA_SPICI -               0.11   11.9   0.0      0.54    9.7   0.0   2.0   2   0   0   2   2   2   0 Glycosyl transferases group 1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P20275.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P20275.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P20275.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:51:24 2019
+# [ok]

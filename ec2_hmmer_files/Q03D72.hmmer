@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|Q03D72|RLMH_PEDPA -            7.6e-57  191.5   0.2   8.5e-57  191.4   0.2   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+RE_SacI              PF09566.9  sp|Q03D72|RLMH_PEDPA -              0.016   15.0   0.1     0.018   14.7   0.1   1.1   1   0   0   1   1   1   0 SacI restriction endonuclease
+BBS2_C               PF14782.5  sp|Q03D72|RLMH_PEDPA -              0.024   13.3   0.0     0.027   13.2   0.0   1.2   1   0   0   1   1   1   0 Ciliary BBSome complex subunit 2, C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q03D72.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q03D72.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q03D72.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:37:05 2019
+# [ok]

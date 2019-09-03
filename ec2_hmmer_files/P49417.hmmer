@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CAT                  PF00302.17 sp|P49417|CAT_VIBAN  -            5.9e-79  264.6   1.9   6.6e-79  264.5   1.9   1.0   1   0   0   1   1   1   1 Chloramphenicol acetyltransferase
+Alliinase_C          PF04864.12 sp|P49417|CAT_VIBAN  -              0.002   16.9   0.0    0.0027   16.5   0.0   1.2   1   0   0   1   1   1   1 Allinase
+2-oxoacid_dh         PF00198.22 sp|P49417|CAT_VIBAN  -             0.0039   16.6   0.0       1.4    8.2   0.0   2.1   2   0   0   2   2   2   2 2-oxoacid dehydrogenases acyltransferase (catalytic domain)
+Condensation         PF00668.19 sp|P49417|CAT_VIBAN  -              0.028   13.0   0.1       1.8    7.1   0.0   2.1   2   0   0   2   2   2   0 Condensation domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P49417.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P49417.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P49417.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:09:43 2019
+# [ok]

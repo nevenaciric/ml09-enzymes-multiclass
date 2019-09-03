@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|Q294B9|SUV39_DROPS -            9.8e-23   81.3   0.6   2.2e-22   80.1   0.2   1.9   2   0   0   2   2   2   1 SET domain
+Pre-SET              PF05033.15 sp|Q294B9|SUV39_DROPS -            1.6e-17   64.1   2.6   1.6e-17   64.1   2.6   2.6   3   0   0   3   3   3   1 Pre-SET motif
+Chromo               PF00385.23 sp|Q294B9|SUV39_DROPS -            2.6e-09   36.7   0.6   5.6e-09   35.7   0.6   1.6   1   0   0   1   1   1   1 Chromo (CHRromatin Organisation MOdifier) domain
+GTP_EFTU             PF00009.26 sp|Q294B9|SUV39_DROPS -             0.0029   17.1   1.6    0.0072   15.8   1.6   1.7   1   1   0   1   1   1   1 Elongation factor Tu GTP binding domain
+Dynamin_N            PF00350.22 sp|Q294B9|SUV39_DROPS -              0.053   13.5   0.0     0.095   12.7   0.0   1.4   1   0   0   1   1   1   0 Dynamin family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q294B9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q294B9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q294B9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:26:59 2019
+# [ok]

@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FHA                  PF00498.25 sp|P38823|DMA1_YEAST -            5.5e-16   58.6   0.2   1.1e-15   57.6   0.2   1.6   1   0   0   1   1   1   1 FHA domain
+zf-RING_11           PF17123.4  sp|P38823|DMA1_YEAST -            5.5e-11   41.9   9.7   9.9e-11   41.1   9.7   1.5   1   0   0   1   1   1   1 RING-like zinc finger
+zf-RING_2            PF13639.5  sp|P38823|DMA1_YEAST -            7.2e-07   29.3  11.3   1.2e-06   28.6  11.3   1.4   1   0   0   1   1   1   1 Ring finger domain
+Yop-YscD_cpl         PF16697.4  sp|P38823|DMA1_YEAST -            0.00034   20.8   0.0   0.00074   19.7   0.0   1.5   1   0   0   1   1   1   1 Inner membrane component of T3SS, cytoplasmic domain
+zf-ANAPC11           PF12861.6  sp|P38823|DMA1_YEAST -             0.0036   17.2   4.8     0.007   16.3   4.8   1.5   1   0   0   1   1   1   1 Anaphase-promoting complex subunit 11 RING-H2 finger
+zf-C3HC4             PF00097.24 sp|P38823|DMA1_YEAST -             0.0055   16.5  11.5    0.0096   15.7  11.5   1.4   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_5            PF14634.5  sp|P38823|DMA1_YEAST -              0.011   15.5   9.2     0.019   14.9   9.2   1.4   1   0   0   1   1   1   0 zinc-RING finger domain
+zf-C3HC4_2           PF13923.5  sp|P38823|DMA1_YEAST -               0.03   14.1  11.0     0.051   13.3  11.0   1.4   1   0   0   1   1   1   0 Zinc finger, C3HC4 type (RING finger)
+zf-rbx1              PF12678.6  sp|P38823|DMA1_YEAST -              0.041   14.1  10.5      0.11   12.7  10.5   1.7   1   1   0   1   1   1   0 RING-H2 zinc finger domain
+Sec_GG               PF07549.13 sp|P38823|DMA1_YEAST -               0.12   11.8   0.1      0.22   10.9   0.1   1.5   1   0   0   1   1   1   0 SecD/SecF GG Motif
+zf-HC5HC2H           PF13771.5  sp|P38823|DMA1_YEAST -               0.14   12.4   4.6      0.27   11.4   4.6   1.5   1   0   0   1   1   1   0 PHD-like zinc-binding domain
+zf-RING_UBOX         PF13445.5  sp|P38823|DMA1_YEAST -               0.15   12.0   8.8       0.3   11.0   8.8   1.5   1   0   0   1   1   1   0 RING-type zinc-finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P38823.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P38823.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P38823.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:03:04 2019
+# [ok]

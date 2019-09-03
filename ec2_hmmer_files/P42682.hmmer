@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P42682|TXK_MOUSE  -              4e-93  311.3   0.0   5.6e-93  310.9   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|P42682|TXK_MOUSE  -            1.6e-45  155.5   0.0   2.5e-45  154.8   0.0   1.3   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|P42682|TXK_MOUSE  -            6.6e-24   83.7   1.0   1.2e-23   82.8   1.0   1.5   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|P42682|TXK_MOUSE  -            1.1e-11   44.0   0.0   3.4e-11   42.5   0.0   1.9   1   0   0   1   1   1   1 SH3 domain
+SH3_9                PF14604.5  sp|P42682|TXK_MOUSE  -            3.1e-09   36.5   0.0   5.9e-09   35.6   0.0   1.5   1   0   0   1   1   1   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|P42682|TXK_MOUSE  -              0.001   18.6   0.0     0.003   17.1   0.0   1.9   2   0   0   2   2   2   1 Variant SH3 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P42682.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P42682.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P42682.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:05:07 2019
+# [ok]

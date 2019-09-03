@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q1DB00|MASK_MYXXD -            1.3e-31  109.8   0.0   1.7e-31  109.4   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q1DB00|MASK_MYXXD -            2.4e-28   99.0   0.0   3.8e-28   98.4   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+APH                  PF01636.22 sp|Q1DB00|MASK_MYXXD -             0.0036   17.1   1.2      0.31   10.8   0.0   2.9   3   1   1   4   4   4   2 Phosphotransferase enzyme family
+SseC                 PF04888.11 sp|Q1DB00|MASK_MYXXD -                2.1    7.8  10.9       3.1    7.2  10.9   1.2   1   0   0   1   1   1   0 Secretion system effector C (SseC) like family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q1DB00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q1DB00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q1DB00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:11:50 2019
+# [ok]

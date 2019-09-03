@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HECT                 PF00632.24 sp|P46935|NEDD4_MOUSE -           2.7e-100  335.7   0.1  3.5e-100  335.3   0.1   1.1   1   0   0   1   1   1   1 HECT-domain (ubiquitin-transferase)
+WW                   PF00397.25 sp|P46935|NEDD4_MOUSE -            3.8e-33  113.1  25.0     3e-11   43.1   0.4   4.7   5   0   0   5   5   5   3 WW domain
+C2                   PF00168.29 sp|P46935|NEDD4_MOUSE -            1.3e-20   73.5   0.0   3.1e-20   72.3   0.0   1.6   1   0   0   1   1   1   1 C2 domain
+2OG-FeII_Oxy_4       PF13661.5  sp|P46935|NEDD4_MOUSE -              0.047   14.2   0.0      0.15   12.7   0.0   1.8   1   0   0   1   1   1   0 2OG-Fe(II) oxygenase superfamily
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P46935.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P46935.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P46935.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:08:06 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|P55245|EGFR_MACMU -            5.5e-88  294.5   0.0   8.5e-88  293.9   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+Recep_L_domain       PF01030.23 sp|P55245|EGFR_MACMU -              6e-61  203.4   1.6   2.8e-30  104.6   0.8   2.4   2   0   0   2   2   2   2 Receptor L domain
+GF_recep_IV          PF14843.5  sp|P55245|EGFR_MACMU -            8.4e-51  171.1  83.9   8.5e-46  154.9  29.2   4.1   2   1   2   4   4   4   3 Growth factor receptor domain IV
+Pkinase              PF00069.24 sp|P55245|EGFR_MACMU -            1.8e-39  135.6   0.0   2.7e-39  135.0   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+Furin-like           PF00757.19 sp|P55245|EGFR_MACMU -            8.7e-35  119.7  90.4   4.2e-29  101.3  41.8   4.3   2   1   2   4   4   4   3 Furin-like cysteine rich region
+APH                  PF01636.22 sp|P55245|EGFR_MACMU -               0.03   14.1   0.0     0.054   13.3   0.0   1.3   1   0   0   1   1   1   0 Phosphotransferase enzyme family
+Kinase-like          PF14531.5  sp|P55245|EGFR_MACMU -              0.042   13.1   0.0     0.074   12.2   0.0   1.3   1   0   0   1   1   1   0 Kinase-like
+Haspin_kinase        PF12330.7  sp|P55245|EGFR_MACMU -              0.086   11.7   0.0      0.15   10.8   0.0   1.3   1   0   0   1   1   1   0 Haspin like kinase domain
+Kdo                  PF06293.13 sp|P55245|EGFR_MACMU -               0.15   11.3   0.0      0.32   10.2   0.0   1.4   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+GAPT                 PF11770.7  sp|P55245|EGFR_MACMU -               0.18   11.5   0.3      0.43   10.3   0.3   1.5   1   0   0   1   1   1   0 GRB2-binding adapter (GAPT)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P55245.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P55245.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P55245.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:13:57 2019
+# [ok]

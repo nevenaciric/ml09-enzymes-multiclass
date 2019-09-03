@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Phosphorylase        PF00343.19 sp|P79334|PYGM_BOVIN -                  0 1161.4   0.0         0 1161.2   0.0   1.0   1   0   0   1   1   1   1 Carbohydrate phosphorylase
+COX_ARM              PF06481.13 sp|P79334|PYGM_BOVIN -              0.028   14.2   0.2     0.084   12.7   0.2   1.8   1   0   0   1   1   1   0 COX Aromatic Rich Motif
+Rsa3                 PF14615.5  sp|P79334|PYGM_BOVIN -              0.031   13.7   0.2       1.9    8.0   0.0   2.6   2   0   0   2   2   2   0 Ribosome-assembly protein 3
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P79334.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P79334.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P79334.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 19:26:35 2019
+# [ok]

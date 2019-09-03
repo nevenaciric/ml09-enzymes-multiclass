@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B            PF00136.20 sp|P27172|DPOL_MUHVS -           7.8e-155  516.0   0.0  9.7e-155  515.7   0.0   1.1   1   0   0   1   1   1   1 DNA polymerase family B
+DNA_pol_B_exo1       PF03104.18 sp|P27172|DPOL_MUHVS -           2.1e-108  362.4   0.0  2.9e-108  361.9   0.0   1.2   1   0   0   1   1   1   1 DNA polymerase family B, exonuclease domain
+DUF3961              PF13106.5  sp|P27172|DPOL_MUHVS -               0.13   11.9   0.3       1.9    8.2   0.0   2.7   3   0   0   3   3   3   0 Domain of unknown function (DUF3961)
+DNA_pol_B_exo2       PF10108.8  sp|P27172|DPOL_MUHVS -               0.13   11.8   0.0      0.32   10.5   0.0   1.6   1   1   0   1   1   1   0 Predicted 3'-5' exonuclease related to the exonuclease domain of PolB
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/P27172.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/P27172.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/P27172.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 18:55:36 2019
+# [ok]
