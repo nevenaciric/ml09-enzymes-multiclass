@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PfkB                 PF00294.23 sp|Q48RC4|LACC_STRPM -            1.2e-57  195.5   0.1   1.5e-57  195.1   0.1   1.0   1   0   0   1   1   1   1 pfkB family carbohydrate kinase
+Phos_pyr_kin         PF08543.11 sp|Q48RC4|LACC_STRPM -            2.9e-05   23.5   0.0   4.6e-05   22.8   0.0   1.2   1   0   0   1   1   1   1 Phosphomethylpyrimidine kinase
+Peptidase_U40        PF10464.8  sp|Q48RC4|LACC_STRPM -               0.07   12.7   0.0      0.51    9.9   0.0   2.2   3   0   0   3   3   3   0 Peptidase U40
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q48RC4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q48RC4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q48RC4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:14:44 2019
+# [ok]

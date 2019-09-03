@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pox_MCEL             PF03291.15 sp|Q65216|MCE_ASFM2  -              7e-20   71.3   0.2   1.3e-19   70.4   0.2   1.3   1   0   0   1   1   1   1 mRNA capping enzyme
+mRNA_cap_enzyme      PF01331.18 sp|Q65216|MCE_ASFM2  -            1.5e-06   28.1   0.1   8.2e-06   25.7   0.1   2.3   1   1   0   1   1   1   1 mRNA capping enzyme, catalytic domain
+Methyltransf_11      PF08241.11 sp|Q65216|MCE_ASFM2  -             0.0017   18.8   0.0    0.0047   17.4   0.0   1.8   1   0   0   1   1   1   1 Methyltransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q65216.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q65216.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q65216.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:05:27 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q3A4A1|PNP_PELCD  -            1.6e-45  154.8   0.0     1e-24   87.4   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q3A4A1|PNP_PELCD  -            6.6e-24   83.6   1.5   7.7e-15   54.6   0.0   2.8   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|Q3A4A1|PNP_PELCD  -            6.4e-20   71.3   5.3   6.4e-20   71.3   5.3   2.6   3   1   0   3   3   3   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|Q3A4A1|PNP_PELCD  -            4.2e-16   59.0   0.9   1.3e-15   57.4   0.9   1.9   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|Q3A4A1|PNP_PELCD  -            1.7e-10   40.5  11.9   3.1e-10   39.6   2.3   3.6   4   1   1   5   5   5   2 KH domain
+PCB_OB               PF17092.4  sp|Q3A4A1|PNP_PELCD  -             0.0088   16.7   0.5     0.055   14.1   0.0   2.5   2   0   0   2   2   2   1 Penicillin-binding protein OB-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3A4A1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3A4A1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3A4A1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:56:29 2019
+# [ok]

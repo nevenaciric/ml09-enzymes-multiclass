@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|Q551X9|DHKF_DICDI -            5.4e-25   88.0   0.1   1.5e-24   86.6   0.1   1.8   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Response_reg         PF00072.23 sp|Q551X9|DHKF_DICDI -              6e-18   64.9   0.0   1.7e-17   63.5   0.0   1.8   1   0   0   1   1   1   1 Response regulator receiver domain
+HisKA                PF00512.24 sp|Q551X9|DHKF_DICDI -            1.2e-15   57.2   0.1   1.2e-15   57.2   0.1   2.1   2   0   0   2   2   2   1 His Kinase A (phospho-acceptor) domain
+PAS_9                PF13426.6  sp|Q551X9|DHKF_DICDI -            3.6e-05   23.8   2.0   8.8e-05   22.6   0.2   2.5   2   0   0   2   2   2   1 PAS domain
+Spt20                PF12090.7  sp|Q551X9|DHKF_DICDI -            0.00025   20.6  15.0   0.00025   20.6  15.0   2.8   2   0   0   2   2   2   1 Spt20 family
+PAS                  PF00989.24 sp|Q551X9|DHKF_DICDI -              0.022   14.6   5.4     0.066   13.1   0.0   2.7   2   1   0   2   2   2   0 PAS fold
+DUF5016              PF16408.4  sp|Q551X9|DHKF_DICDI -              0.039   13.9   0.2       0.2   11.5   0.0   2.3   2   0   0   2   2   2   0 Domain of unknown function (DUF5016)
+PAS_4                PF08448.9  sp|Q551X9|DHKF_DICDI -                0.2   11.8   0.0      0.55   10.4   0.0   1.8   2   0   0   2   2   2   0 PAS fold
+CPSF100_C            PF13299.5  sp|Q551X9|DHKF_DICDI -                4.3    7.4  10.2        11    6.1   0.4   2.6   2   0   0   2   2   2   0 Cleavage and polyadenylation factor 2 C-terminal
+DUF4407              PF14362.5  sp|Q551X9|DHKF_DICDI -                6.7    5.9   8.2        15    4.8   8.2   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF4407)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q551X9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q551X9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q551X9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:30:15 2019
+# [ok]

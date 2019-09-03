@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q6HSG2|COAE_BACAN -            3.3e-69  232.0   0.7   3.8e-69  231.8   0.7   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_18               PF13238.5  sp|Q6HSG2|COAE_BACAN -             0.0001   22.7   0.1   0.00022   21.6   0.1   1.6   1   1   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|Q6HSG2|COAE_BACAN -            0.00047   20.2   0.0    0.0025   17.9   0.0   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_17               PF13207.5  sp|Q6HSG2|COAE_BACAN -             0.0046   17.3   1.4      0.06   13.7   0.5   2.5   2   1   0   2   2   2   1 AAA domain
+NTPase_1             PF03266.14 sp|Q6HSG2|COAE_BACAN -               0.03   14.1   0.2     0.045   13.6   0.2   1.4   1   1   0   1   1   1   0 NTPase
+dNK                  PF01712.18 sp|Q6HSG2|COAE_BACAN -              0.053   13.3   0.3       2.5    7.8   0.0   2.4   2   0   0   2   2   2   0 Deoxynucleoside kinase
+ANTAR                PF03861.13 sp|Q6HSG2|COAE_BACAN -                0.1   12.4   0.1      0.24   11.2   0.1   1.6   1   0   0   1   1   1   0 ANTAR domain
+Zeta_toxin           PF06414.11 sp|Q6HSG2|COAE_BACAN -               0.12   11.5   0.7       6.6    5.9   0.0   2.7   2   1   1   3   3   3   0 Zeta toxin
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6HSG2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6HSG2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6HSG2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:21:02 2019
+# [ok]

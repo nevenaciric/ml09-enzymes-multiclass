@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_11      PF08241.11 sp|Q55423|Y829_SYNY3 -            6.5e-22   77.9   0.0     1e-21   77.3   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_25      PF13649.5  sp|Q55423|Y829_SYNY3 -            8.7e-22   77.6   0.0   1.3e-21   77.0   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_23      PF13489.5  sp|Q55423|Y829_SYNY3 -              7e-18   64.9   0.0   8.4e-18   64.6   0.0   1.1   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_31      PF13847.5  sp|Q55423|Y829_SYNY3 -            2.8e-15   56.3   0.0   3.3e-15   56.1   0.0   1.1   1   0   0   1   1   1   1 Methyltransferase domain
+Ubie_methyltran      PF01209.17 sp|Q55423|Y829_SYNY3 -            7.4e-14   51.5   0.0   6.8e-13   48.4   0.0   1.9   2   0   0   2   2   2   1 ubiE/COQ5 methyltransferase family
+Methyltransf_12      PF08242.11 sp|Q55423|Y829_SYNY3 -            1.8e-11   44.5   0.0   3.3e-11   43.7   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+TPMT                 PF05724.10 sp|Q55423|Y829_SYNY3 -            1.8e-07   31.0   0.0   6.6e-07   29.1   0.0   1.7   1   1   0   1   1   1   1 Thiopurine S-methyltransferase (TPMT)
+MTS                  PF05175.13 sp|Q55423|Y829_SYNY3 -            7.5e-07   28.8   0.0   3.7e-06   26.5   0.0   1.9   2   0   0   2   2   2   1 Methyltransferase small domain
+CMAS                 PF02353.19 sp|Q55423|Y829_SYNY3 -            1.4e-05   24.5   0.0   2.2e-05   23.8   0.0   1.3   1   0   0   1   1   1   1 Mycolic acid cyclopropane synthetase
+TehB                 PF03848.13 sp|Q55423|Y829_SYNY3 -            3.2e-05   23.3   0.0   6.8e-05   22.3   0.0   1.4   1   1   0   1   1   1   1 Tellurite resistance protein TehB
+PCMT                 PF01135.18 sp|Q55423|Y829_SYNY3 -             0.0046   16.6   0.0    0.0059   16.3   0.0   1.3   1   0   0   1   1   1   1 Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+FtsJ                 PF01728.18 sp|Q55423|Y829_SYNY3 -             0.0051   16.9   0.1    0.0099   15.9   0.1   1.6   1   1   0   1   1   1   1 FtsJ-like methyltransferase
+Methyltransf_15      PF09445.9  sp|Q55423|Y829_SYNY3 -              0.011   15.3   0.0     0.015   14.9   0.0   1.2   1   0   0   1   1   1   0 RNA cap guanine-N2 methyltransferase
+Methyltransf_29      PF03141.15 sp|Q55423|Y829_SYNY3 -               0.02   13.4   0.0     0.026   13.0   0.0   1.1   1   0   0   1   1   1   0 Putative S-adenosyl-L-methionine-dependent methyltransferase
+MetW                 PF07021.11 sp|Q55423|Y829_SYNY3 -              0.026   14.0   0.0     0.039   13.5   0.0   1.2   1   0   0   1   1   1   0 Methionine biosynthesis protein MetW
+Methyltr_RsmB-F      PF01189.16 sp|Q55423|Y829_SYNY3 -              0.029   13.9   0.0     0.054   13.0   0.0   1.4   2   0   0   2   2   2   0 16S rRNA methyltransferase RsmB/F
+PrmA                 PF06325.12 sp|Q55423|Y829_SYNY3 -              0.038   13.3   0.0     0.054   12.8   0.0   1.1   1   0   0   1   1   1   0 Ribosomal protein L11 methyltransferase (PrmA)
+Methyltransf_18      PF12847.6  sp|Q55423|Y829_SYNY3 -              0.047   13.5   0.0     0.076   12.8   0.0   1.2   1   0   0   1   1   1   0 Methyltransferase domain
+DUF938               PF06080.11 sp|Q55423|Y829_SYNY3 -              0.062   13.0   0.0       3.1    7.4   0.0   2.1   1   1   0   1   1   1   0 Protein of unknown function (DUF938)
+NodS                 PF05401.10 sp|Q55423|Y829_SYNY3 -               0.12   11.9   0.0      0.15   11.5   0.0   1.1   1   0   0   1   1   1   0 Nodulation protein S (NodS)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q55423.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q55423.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q55423.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:30:27 2019
+# [ok]

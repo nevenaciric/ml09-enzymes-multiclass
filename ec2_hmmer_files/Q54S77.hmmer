@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q54S77|VPS15_DICDI -            1.1e-26   93.7   0.1   4.7e-26   91.6   0.0   2.2   2   0   0   2   2   2   1 Protein kinase domain
+WD40                 PF00400.31 sp|Q54S77|VPS15_DICDI -              6e-16   58.5   1.3   0.00011   22.9   0.1   6.0   5   0   0   5   5   5   3 WD domain, G-beta repeat
+Pkinase_Tyr          PF07714.16 sp|Q54S77|VPS15_DICDI -            5.8e-12   45.3   0.0   1.5e-11   44.0   0.0   1.7   1   0   0   1   1   1   1 Protein tyrosine kinase
+HEAT                 PF02985.21 sp|Q54S77|VPS15_DICDI -            7.5e-07   28.7   2.1     0.045   13.9   0.1   5.2   5   0   0   5   5   5   2 HEAT repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q54S77.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q54S77.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q54S77.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:28:46 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PARP                 PF00644.19 sp|Q5Z8Q9|PRP2A_ORYSJ -            2.4e-76  255.6   0.0     4e-76  254.9   0.0   1.4   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase catalytic domain
+PARP_reg             PF02877.13 sp|Q5Z8Q9|PRP2A_ORYSJ -            3.2e-42  143.7   0.7   1.1e-40  138.8   0.4   2.3   2   0   0   2   2   2   1 Poly(ADP-ribose) polymerase, regulatory domain
+WGR                  PF05406.14 sp|Q5Z8Q9|PRP2A_ORYSJ -              7e-26   90.0   0.9   1.6e-25   88.8   0.9   1.7   1   0   0   1   1   1   1 WGR domain
+SAP                  PF02037.26 sp|Q5Z8Q9|PRP2A_ORYSJ -            2.2e-18   65.5   2.6   2.3e-09   36.7   0.2   2.7   2   0   0   2   2   2   2 SAP domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5Z8Q9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5Z8Q9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5Z8Q9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:59:21 2019
+# [ok]

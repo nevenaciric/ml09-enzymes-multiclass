@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q5AP97|SWE1_CANAL -            3.8e-46  157.5   0.0   6.1e-45  153.5   0.0   2.7   1   1   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q5AP97|SWE1_CANAL -            5.3e-25   88.1   0.0   9.8e-25   87.2   0.0   1.4   1   0   0   1   1   1   1 Protein tyrosine kinase
+Sigma70_ner          PF04546.12 sp|Q5AP97|SWE1_CANAL -              0.053   13.3   3.6      0.11   12.2   3.6   1.5   1   0   0   1   1   1   0 Sigma-70, non-essential region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5AP97.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5AP97.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5AP97.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:37:10 2019
+# [ok]

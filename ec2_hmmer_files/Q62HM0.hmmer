@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NadA                 PF02445.15 sp|Q62HM0|NADA_BURMA -             9e-100  333.6   0.0   1.1e-99  333.3   0.0   1.0   1   0   0   1   1   1   1 Quinolinate synthetase A protein
+DUF1611              PF07755.10 sp|Q62HM0|NADA_BURMA -               0.11   11.6   0.0      0.22   10.7   0.0   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF1611_C) P-loop domain
+GvpH                 PF05455.10 sp|Q62HM0|NADA_BURMA -               0.13   12.3   0.0      0.33   10.9   0.0   1.7   1   0   0   1   1   1   0 GvpH
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q62HM0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q62HM0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q62HM0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:02:33 2019
+# [ok]

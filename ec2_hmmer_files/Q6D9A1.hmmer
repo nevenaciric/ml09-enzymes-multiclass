@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q6D9A1|PNP_PECAS  -            1.7e-43  148.2   0.0   1.2e-22   80.7   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|Q6D9A1|PNP_PECAS  -            1.8e-23   82.7   2.1   1.8e-23   82.7   2.1   2.0   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|Q6D9A1|PNP_PECAS  -            7.4e-23   80.6   3.9   7.4e-23   80.6   3.9   2.2   2   0   0   2   2   2   1 S1 RNA binding domain
+RNase_PH_C           PF03725.14 sp|Q6D9A1|PNP_PECAS  -            9.9e-21   73.5   1.2     1e-12   47.8   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+KH_1                 PF00013.28 sp|Q6D9A1|PNP_PECAS  -            1.6e-09   37.4   3.6   1.6e-09   37.4   3.6   2.1   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|Q6D9A1|PNP_PECAS  -             0.0011   18.7   4.7    0.0011   18.7   0.4   2.8   2   1   0   2   2   2   1 KH domain
+S1_2                 PF13509.5  sp|Q6D9A1|PNP_PECAS  -             0.0023   17.8   0.0     0.011   15.7   0.0   2.2   1   1   0   1   1   1   1 S1 domain
+DUF4172              PF13776.5  sp|Q6D9A1|PNP_PECAS  -             0.0044   17.2   0.6     0.021   15.1   0.1   2.3   2   0   0   2   2   2   1 Domain of unknown function (DUF4172)
+SLS                  PF14611.5  sp|Q6D9A1|PNP_PECAS  -               0.11   12.3   0.1      0.24   11.1   0.1   1.6   1   0   0   1   1   1   0 Mitochondrial inner-membrane-bound regulator
+DUF2110              PF09883.8  sp|Q6D9A1|PNP_PECAS  -               0.13   11.7   5.4     0.074   12.6   0.7   2.5   3   0   0   3   3   3   0 Uncharacterized protein conserved in archaea (DUF2110)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6D9A1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6D9A1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6D9A1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:14:39 2019
+# [ok]

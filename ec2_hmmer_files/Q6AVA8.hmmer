@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP-utilizers_C      PF02896.17 sp|Q6AVA8|PPDK1_ORYSJ -           3.9e-107  357.6   0.0  5.6e-107  357.1   0.0   1.2   1   0   0   1   1   1   1 PEP-utilising enzyme, TIM barrel domain
+PPDK_N               PF01326.18 sp|Q6AVA8|PPDK1_ORYSJ -            3.8e-57  193.9   0.0     8e-31  107.4   0.0   3.5   1   1   2   3   3   3   3 Pyruvate phosphate dikinase, PEP/pyruvate binding domain
+PEP-utilizers        PF00391.22 sp|Q6AVA8|PPDK1_ORYSJ -            6.5e-26   89.8   0.9   1.5e-25   88.6   0.9   1.6   1   0   0   1   1   1   1 PEP-utilising enzyme, mobile domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6AVA8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6AVA8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6AVA8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:11:44 2019
+# [ok]

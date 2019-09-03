@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|Q4A5P7|RLMH_MYCS5 -            4.7e-45  153.2   0.9   5.3e-45  153.0   0.9   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+Rep_fac-A_C          PF08646.9  sp|Q4A5P7|RLMH_MYCS5 -              0.023   14.4   0.3     0.035   13.8   0.3   1.3   1   0   0   1   1   1   0 Replication factor-A C terminal domain
+tRNA_m1G_MT          PF01746.20 sp|Q4A5P7|RLMH_MYCS5 -               0.03   13.9   0.0     0.044   13.4   0.0   1.2   1   0   0   1   1   1   0 tRNA (Guanine-1)-methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q4A5P7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q4A5P7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q4A5P7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:16:36 2019
+# [ok]

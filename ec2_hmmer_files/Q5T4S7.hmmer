@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+E3_UbLigase_R4       PF13764.5  sp|Q5T4S7|UBR4_HUMAN -                  0 1132.2   0.0         0 1131.0   0.0   1.7   1   0   0   1   1   1   1 E3 ubiquitin-protein ligase UBR4
+zf-UBR               PF02207.19 sp|Q5T4S7|UBR4_HUMAN -            1.2e-06   28.4  14.8   1.2e-06   28.4  14.8   3.1   2   0   0   2   2   2   1 Putative zinc finger in N-recognin (UBR box)
+UPF0547              PF10571.8  sp|Q5T4S7|UBR4_HUMAN -               0.44   10.6   6.8       2.4    8.2   6.8   2.3   1   0   0   1   1   1   0 Uncharacterised protein family UPF0547
+DUF4820              PF16091.4  sp|Q5T4S7|UBR4_HUMAN -               0.57    9.4   5.7      0.22   10.8   2.0   2.2   2   0   0   2   2   2   0 Domain of unknown function (DUF4820)
+FAM176               PF14851.5  sp|Q5T4S7|UBR4_HUMAN -                3.5    7.2   9.9        18    4.9   0.1   4.0   3   0   0   3   3   3   0 FAM176 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5T4S7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5T4S7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5T4S7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:54:56 2019
+# [ok]

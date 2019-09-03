@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+N6_N4_Mtase          PF01555.17 sp|Q58606|MTM6_METJA -            5.9e-18   65.3   1.0   5.9e-18   65.3   1.0   1.5   2   0   0   2   2   2   1 DNA methylase
+UPF0020              PF01170.17 sp|Q58606|MTM6_METJA -             0.0076   15.9   0.0      0.01   15.5   0.0   1.2   1   0   0   1   1   1   1 Putative RNA methylase family UPF0020
+N6_Mtase             PF02384.15 sp|Q58606|MTM6_METJA -              0.048   12.8   0.0     0.062   12.4   0.0   1.1   1   0   0   1   1   1   0 N-6 DNA Methylase
+MTS                  PF05175.13 sp|Q58606|MTM6_METJA -               0.18   11.3   0.1      0.49    9.8   0.1   1.6   1   1   0   1   1   1   0 Methyltransferase small domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q58606.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q58606.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q58606.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:35:19 2019
+# [ok]

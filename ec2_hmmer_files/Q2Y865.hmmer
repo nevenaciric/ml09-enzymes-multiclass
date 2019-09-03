@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PdxJ                 PF03740.12 sp|Q2Y865|PDXJ_NITMU -           2.4e-101  337.7   3.4  2.7e-101  337.5   3.4   1.0   1   0   0   1   1   1   1 Pyridoxal phosphate biosynthesis protein PdxJ
+Glyco_trans_4_4      PF13579.5  sp|Q2Y865|PDXJ_NITMU -              0.012   16.0   2.8     0.024   15.0   0.3   2.2   2   0   0   2   2   2   0 Glycosyl transferase 4-like domain
+BKACE                PF05853.11 sp|Q2Y865|PDXJ_NITMU -               0.27   10.4   4.6      0.87    8.7   0.3   2.6   1   1   0   2   2   2   0 beta-keto acid cleavage enzyme
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2Y865.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2Y865.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2Y865.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:47:20 2019
+# [ok]

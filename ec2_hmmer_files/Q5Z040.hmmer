@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q5Z040|PROB_NOCFA -            5.1e-41  140.8   3.0     9e-41  139.9   3.0   1.4   1   0   0   1   1   1   1 Amino acid kinase family
+PUA                  PF01472.19 sp|Q5Z040|PROB_NOCFA -            6.1e-19   67.7   2.2     2e-18   66.0   0.0   2.7   3   0   0   3   3   3   1 PUA domain
+3HCDH_N              PF02737.17 sp|Q5Z040|PROB_NOCFA -                5.6    6.7   5.6       4.4    7.1   0.4   2.8   3   0   0   3   3   3   0 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5Z040.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5Z040.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5Z040.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:59:11 2019
+# [ok]

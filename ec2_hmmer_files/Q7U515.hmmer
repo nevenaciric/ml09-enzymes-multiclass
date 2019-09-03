@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q7U515|PNP_SYNPX  -            2.1e-36  125.2   0.0   2.5e-17   63.5   0.0   2.4   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q7U515|PNP_SYNPX  -            1.8e-23   82.2   0.1   1.3e-16   60.2   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|Q7U515|PNP_SYNPX  -            6.2e-18   64.8   3.0   1.3e-17   63.8   3.0   1.6   1   0   0   1   1   1   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|Q7U515|PNP_SYNPX  -            1.7e-16   60.4   0.7   4.5e-16   59.0   0.7   1.8   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|Q7U515|PNP_SYNPX  -            1.6e-10   40.5   4.4   3.8e-10   39.3   0.8   2.6   2   0   0   2   2   2   1 KH domain
+PCB_OB               PF17092.4  sp|Q7U515|PNP_SYNPX  -             0.0085   16.7   0.1     0.027   15.1   0.1   1.9   1   0   0   1   1   1   1 Penicillin-binding protein OB-like domain
+KH_4                 PF13083.5  sp|Q7U515|PNP_SYNPX  -              0.013   15.3   0.3      0.53   10.1   0.0   2.6   2   0   0   2   2   2   0 KH domain
+GTP_EFTU_D2          PF03144.24 sp|Q7U515|PNP_SYNPX  -                0.1   12.9   2.3      0.29   11.5   0.1   2.7   3   0   0   3   3   3   0 Elongation factor Tu domain 2
+DUF1542              PF07564.10 sp|Q7U515|PNP_SYNPX  -               0.21   11.6   3.1       0.6   10.2   3.1   1.7   1   0   0   1   1   1   0 Domain of Unknown Function (DUF1542)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q7U515.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q7U515.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q7U515.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:42:52 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q2YR03|COAE_BRUA2 -            1.1e-36  126.0   0.0   1.4e-36  125.8   0.0   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_17               PF13207.5  sp|Q2YR03|COAE_BRUA2 -              0.068   13.5   0.7      0.93    9.8   0.8   2.5   1   1   1   2   2   2   0 AAA domain
+PTS_EIIA_2           PF00359.21 sp|Q2YR03|COAE_BRUA2 -              0.092   12.6   0.0      0.14   11.9   0.0   1.3   1   0   0   1   1   1   0 Phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 2
+AAA_33               PF13671.5  sp|Q2YR03|COAE_BRUA2 -               0.14   12.2   0.2      0.52   10.4   0.2   2.1   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2YR03.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2YR03.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2YR03.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:48:13 2019
+# [ok]

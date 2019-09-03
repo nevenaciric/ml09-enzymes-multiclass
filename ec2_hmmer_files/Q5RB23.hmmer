@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q5RB23|JAK2_PONAB -           5.5e-150  497.7   0.0     5e-86  288.1   0.0   2.2   2   0   0   2   2   2   2 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q5RB23|JAK2_PONAB -            4.4e-75  252.3   0.0   5.7e-51  173.3   0.0   2.8   3   0   0   3   3   3   2 Protein kinase domain
+SH2                  PF00017.23 sp|Q5RB23|JAK2_PONAB -              7e-07   29.2   0.0   1.8e-06   27.9   0.0   1.8   1   0   0   1   1   1   1 SH2 domain
+RIO1                 PF01163.21 sp|Q5RB23|JAK2_PONAB -             0.0011   18.5   0.7      0.18   11.3   0.1   2.5   2   0   0   2   2   2   2 RIO1 family
+FERM_M               PF00373.17 sp|Q5RB23|JAK2_PONAB -             0.0013   19.0   0.3    0.0034   17.7   0.3   1.7   1   0   0   1   1   1   1 FERM central domain
+Kinase-like          PF14531.5  sp|Q5RB23|JAK2_PONAB -             0.0028   16.9   0.0     0.011   15.0   0.0   2.0   2   0   0   2   2   2   1 Kinase-like
+APH                  PF01636.22 sp|Q5RB23|JAK2_PONAB -              0.059   13.2   0.1       1.5    8.6   0.0   2.6   2   1   1   3   3   3   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5RB23.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5RB23.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5RB23.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:53:34 2019
+# [ok]

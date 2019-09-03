@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_2       PF00891.17 sp|Q38J50|FOMT2_WHEAT -            1.4e-90  302.3   0.0   2.1e-90  301.8   0.0   1.1   1   0   0   1   1   1   1 O-methyltransferase
+Dimerisation         PF08100.10 sp|Q38J50|FOMT2_WHEAT -            2.2e-22   78.7   1.7   4.7e-22   77.7   0.8   2.1   2   0   0   2   2   2   1 Dimerisation domain
+Bin3                 PF06859.11 sp|Q38J50|FOMT2_WHEAT -                0.2   12.2   0.0      0.69   10.5   0.0   1.8   2   0   0   2   2   2   0 Bicoid-interacting protein 3 (Bin3)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q38J50.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q38J50.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q38J50.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:54:20 2019
+# [ok]

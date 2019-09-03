@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Phage_integrase      PF00589.21 sp|Q38361|VINT_BPMD2 -            6.5e-16   58.5   0.2   1.2e-15   57.6   0.2   1.5   1   0   0   1   1   1   1 Phage integrase family
+Phage_int_SAM_3      PF14659.5  sp|Q38361|VINT_BPMD2 -             0.0012   19.1   0.0    0.0026   17.9   0.0   1.6   1   0   0   1   1   1   1 Phage integrase, N-terminal SAM-like domain
+Phage_int_SAM_5      PF13102.5  sp|Q38361|VINT_BPMD2 -               0.04   14.1   0.0      0.13   12.5   0.0   2.0   2   1   0   2   2   2   0 Phage integrase SAM-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q38361.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q38361.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q38361.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:54:06 2019
+# [ok]

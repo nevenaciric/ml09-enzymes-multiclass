@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_2       PF00891.17 sp|Q43609|COMT1_PRUDU -              6e-90  300.3   0.0   8.4e-90  299.8   0.0   1.2   1   0   0   1   1   1   1 O-methyltransferase
+Dimerisation         PF08100.10 sp|Q43609|COMT1_PRUDU -            1.2e-24   85.9   0.7   2.7e-24   84.8   0.7   1.6   1   0   0   1   1   1   1 Dimerisation domain
+Methyltransf_PK      PF05891.11 sp|Q43609|COMT1_PRUDU -             0.0025   17.3   0.3    0.0097   15.3   0.3   1.9   1   1   0   1   1   1   1 AdoMet dependent proline di-methyltransferase
+FtsJ                 PF01728.18 sp|Q43609|COMT1_PRUDU -              0.037   14.0   0.0     0.058   13.4   0.0   1.4   1   0   0   1   1   1   0 FtsJ-like methyltransferase
+Bin3                 PF06859.11 sp|Q43609|COMT1_PRUDU -              0.054   14.0   0.0      0.12   12.9   0.0   1.5   1   0   0   1   1   1   0 Bicoid-interacting protein 3 (Bin3)
+Methyltransf_12      PF08242.11 sp|Q43609|COMT1_PRUDU -               0.11   13.1   0.0       3.2    8.4   0.0   2.5   1   1   0   1   1   1   0 Methyltransferase domain
+Methyltransf_23      PF13489.5  sp|Q43609|COMT1_PRUDU -               0.12   12.1   0.0      0.45   10.2   0.0   1.9   1   1   0   1   1   1   0 Methyltransferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q43609.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q43609.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q43609.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:09:55 2019
+# [ok]

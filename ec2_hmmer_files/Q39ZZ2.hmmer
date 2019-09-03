@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PrmA                 PF06325.12 sp|Q39ZZ2|PRMA_PELCD -            4.1e-74  249.5   0.0   4.7e-74  249.3   0.0   1.0   1   0   0   1   1   1   1 Ribosomal protein L11 methyltransferase (PrmA)
+Methyltransf_25      PF13649.5  sp|Q39ZZ2|PRMA_PELCD -            3.6e-10   40.3   0.2   7.5e-10   39.3   0.2   1.6   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_31      PF13847.5  sp|Q39ZZ2|PRMA_PELCD -            2.7e-09   36.9   0.1   4.4e-09   36.2   0.1   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_11      PF08241.11 sp|Q39ZZ2|PRMA_PELCD -            8.7e-09   35.8   0.1   1.6e-08   34.9   0.1   1.5   1   0   0   1   1   1   1 Methyltransferase domain
+MTS                  PF05175.13 sp|Q39ZZ2|PRMA_PELCD -            6.4e-08   32.2   0.1   1.9e-07   30.7   0.1   1.7   1   1   1   2   2   2   1 Methyltransferase small domain
+Methyltransf_23      PF13489.5  sp|Q39ZZ2|PRMA_PELCD -            1.6e-06   28.0   0.0   3.2e-06   27.0   0.0   1.5   1   1   0   1   1   1   1 Methyltransferase domain
+Methyltransf_12      PF08242.11 sp|Q39ZZ2|PRMA_PELCD -            0.00017   22.1   0.1   0.00037   21.0   0.1   1.6   1   0   0   1   1   1   1 Methyltransferase domain
+Methyltransf_3       PF01596.16 sp|Q39ZZ2|PRMA_PELCD -            0.00018   20.7   0.0   0.00027   20.1   0.0   1.2   1   0   0   1   1   1   1 O-methyltransferase
+Methyltransf_18      PF12847.6  sp|Q39ZZ2|PRMA_PELCD -            0.00097   19.0   0.0    0.0016   18.3   0.0   1.3   1   0   0   1   1   1   1 Methyltransferase domain
+PCMT                 PF01135.18 sp|Q39ZZ2|PRMA_PELCD -             0.0014   18.3   0.1    0.0027   17.4   0.1   1.5   1   1   0   1   1   1   1 Protein-L-isoaspartate(D-aspartate) O-methyltransferase (PCMT)
+N6_N4_Mtase          PF01555.17 sp|Q39ZZ2|PRMA_PELCD -             0.0064   16.1   0.0      0.98    9.0   0.0   2.2   2   0   0   2   2   2   1 DNA methylase
+Methyltransf_32      PF13679.5  sp|Q39ZZ2|PRMA_PELCD -             0.0075   16.2   0.0     0.014   15.3   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+Met_10               PF02475.15 sp|Q39ZZ2|PRMA_PELCD -              0.015   15.0   0.0     0.078   12.6   0.0   1.9   2   0   0   2   2   2   0 Met-10+ like-protein
+Cons_hypoth95        PF03602.14 sp|Q39ZZ2|PRMA_PELCD -              0.025   14.1   0.0     0.087   12.4   0.0   1.8   2   0   0   2   2   2   0 Conserved hypothetical protein 95
+CMAS                 PF02353.19 sp|Q39ZZ2|PRMA_PELCD -              0.067   12.4   0.0       0.1   11.8   0.0   1.2   1   0   0   1   1   1   0 Mycolic acid cyclopropane synthetase
+Methyltransf_24      PF13578.5  sp|Q39ZZ2|PRMA_PELCD -              0.068   14.1   0.1      0.14   13.1   0.1   1.5   1   0   0   1   1   1   0 Methyltransferase domain
+Methyltransf_15      PF09445.9  sp|Q39ZZ2|PRMA_PELCD -              0.081   12.5   0.0      0.15   11.7   0.0   1.5   2   0   0   2   2   2   0 RNA cap guanine-N2 methyltransferase
+GCD14                PF08704.9  sp|Q39ZZ2|PRMA_PELCD -               0.13   11.8   0.0       0.2   11.2   0.0   1.2   1   0   0   1   1   1   0 tRNA methyltransferase complex GCD14 subunit
+Methyltransf_16      PF10294.8  sp|Q39ZZ2|PRMA_PELCD -               0.17   11.5   0.1      0.28   10.8   0.1   1.3   1   0   0   1   1   1   0 Lysine methyltransferase
+Ubie_methyltran      PF01209.17 sp|Q39ZZ2|PRMA_PELCD -               0.18   11.0   0.0      0.28   10.4   0.0   1.2   1   0   0   1   1   1   0 ubiE/COQ5 methyltransferase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q39ZZ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q39ZZ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q39ZZ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:56:13 2019
+# [ok]

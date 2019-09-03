@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+mRNA_cap_enzyme      PF01331.18 sp|Q755D0|MCE1_ASHGO -            2.8e-60  203.4   0.0   4.9e-60  202.6   0.0   1.4   1   0   0   1   1   1   1 mRNA capping enzyme, catalytic domain
+mRNA_cap_C           PF03919.14 sp|Q755D0|MCE1_ASHGO -            6.6e-31  107.0   0.3   1.2e-30  106.2   0.3   1.4   1   0   0   1   1   1   1 mRNA capping enzyme, C-terminal domain
+DNA_ligase_A_M       PF01068.20 sp|Q755D0|MCE1_ASHGO -            2.8e-06   27.0   0.0    0.0028   17.2   0.0   3.0   1   1   0   1   1   1   1 ATP dependent DNA ligase domain
+LTXXQ                PF07813.11 sp|Q755D0|MCE1_ASHGO -               0.18   12.4   0.5      0.72   10.5   0.5   1.9   1   1   0   1   1   1   0 LTXXQ motif family protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q755D0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q755D0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q755D0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:33:53 2019
+# [ok]

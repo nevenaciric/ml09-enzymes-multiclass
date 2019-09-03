@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q31IT3|PROB_HYDCU -            3.6e-48  164.2   0.9   8.8e-48  162.9   0.8   1.6   2   0   0   2   2   2   1 Amino acid kinase family
+PUA                  PF01472.19 sp|Q31IT3|PROB_HYDCU -            5.8e-20   70.9   0.0   1.3e-19   69.8   0.0   1.6   1   0   0   1   1   1   1 PUA domain
+SAM_2                PF07647.16 sp|Q31IT3|PROB_HYDCU -                0.1   12.7   0.0      0.23   11.5   0.0   1.6   1   0   0   1   1   1   0 SAM domain (Sterile alpha motif)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q31IT3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q31IT3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q31IT3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:50:58 2019
+# [ok]

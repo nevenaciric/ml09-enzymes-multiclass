@@ -1,0 +1,15 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|Q3AAE9|MURA1_CARHZ -           4.5e-102  341.8   2.7  5.2e-102  341.5   2.7   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+RimM                 PF01782.17 sp|Q3AAE9|MURA1_CARHZ -              0.044   13.9   0.1      0.47   10.6   0.0   2.6   3   0   0   3   3   3   0 RimM N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3AAE9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3AAE9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3AAE9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:56:52 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|Q74A22|MNMA_GEOSL -           8.1e-128  426.1   0.0  9.1e-128  425.9   0.0   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+NAD_synthase         PF02540.16 sp|Q74A22|MNMA_GEOSL -            6.6e-07   28.6   0.0   0.00015   20.8   0.0   2.8   2   1   0   2   2   2   2 NAD synthase
+QueC                 PF06508.12 sp|Q74A22|MNMA_GEOSL -            5.6e-05   22.6   0.0    0.0015   17.9   0.0   2.2   2   0   0   2   2   2   1 Queuosine biosynthesis protein QueC
+Asn_synthase         PF00733.20 sp|Q74A22|MNMA_GEOSL -             0.0001   22.0   0.0   0.00016   21.4   0.0   1.2   1   0   0   1   1   1   1 Asparagine synthase
+ATP_bind_3           PF01171.19 sp|Q74A22|MNMA_GEOSL -             0.0053   16.4   0.4      0.06   13.0   0.4   2.1   1   1   0   1   1   1   1 PP-loop family
+Arginosuc_synth      PF00764.18 sp|Q74A22|MNMA_GEOSL -             0.0055   15.9   0.1    0.0092   15.2   0.1   1.4   1   1   0   1   1   1   1 Arginosuccinate synthase
+ThiI                 PF02568.13 sp|Q74A22|MNMA_GEOSL -              0.065   12.7   0.0      0.12   11.8   0.0   1.5   1   0   0   1   1   1   0 Thiamine biosynthesis protein (ThiI)
+DUF3659              PF12396.7  sp|Q74A22|MNMA_GEOSL -              0.093   12.6   0.3      0.44   10.4   0.1   2.1   2   0   0   2   2   2   0 Protein of unknown function (DUF3659)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q74A22.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q74A22.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q74A22.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:32:51 2019
+# [ok]

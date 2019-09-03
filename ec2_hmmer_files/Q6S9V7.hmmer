@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Citrate_synt         PF00285.20 sp|Q6S9V7|CISY_KATPE -           6.9e-106  354.3   0.0  8.3e-106  354.0   0.0   1.1   1   0   0   1   1   1   1 Citrate synthase, C-terminal domain
+PAS_3                PF08447.11 sp|Q6S9V7|CISY_KATPE -              0.036   14.2   0.0       0.1   12.8   0.0   1.8   2   0   0   2   2   2   0 PAS fold
+N-Term_TEN           PF11474.7  sp|Q6S9V7|CISY_KATPE -              0.039   13.4   0.0     0.076   12.5   0.0   1.4   1   0   0   1   1   1   0 Telomerase reverse transcriptase TEN domain
+Cyclin_C             PF02984.18 sp|Q6S9V7|CISY_KATPE -               0.13   12.2   0.0      0.74    9.8   0.0   2.0   2   0   0   2   2   2   0 Cyclin, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6S9V7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6S9V7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6S9V7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:26:49 2019
+# [ok]

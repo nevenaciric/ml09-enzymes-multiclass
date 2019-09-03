@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_Rpb1_1       PF04997.11 sp|Q3J5S9|RPOC_RHOS4 -            3.8e-90  302.3   0.0   6.1e-90  301.6   0.0   1.3   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 1
+RNA_pol_Rpb1_5       PF04998.16 sp|Q3J5S9|RPOC_RHOS4 -            1.7e-74  250.5   0.4   5.1e-74  249.0   0.1   1.9   2   0   0   2   2   2   1 RNA polymerase Rpb1, domain 5
+RNA_pol_Rpb1_2       PF00623.19 sp|Q3J5S9|RPOC_RHOS4 -            2.5e-37  128.6   0.0   2.7e-26   92.7   0.0   2.6   1   1   1   2   2   2   2 RNA polymerase Rpb1, domain 2
+RNA_pol_Rpb1_3       PF04983.17 sp|Q3J5S9|RPOC_RHOS4 -              2e-22   79.7   0.0   5.2e-22   78.4   0.0   1.8   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 3
+RNA_pol_Rpb1_4       PF05000.16 sp|Q3J5S9|RPOC_RHOS4 -            7.6e-17   61.1   0.1   1.8e-16   60.0   0.1   1.6   1   0   0   1   1   1   1 RNA polymerase Rpb1, domain 4
+Biotin_lipoyl_2      PF13533.5  sp|Q3J5S9|RPOC_RHOS4 -              4e-07   29.7   0.3      0.25   11.1   0.0   3.9   3   0   0   3   3   3   3 Biotin-lipoyl like
+Peptidase_M23        PF01551.21 sp|Q3J5S9|RPOC_RHOS4 -            0.00089   19.3   0.1         5    7.3   0.0   3.6   3   0   0   3   3   3   2 Peptidase family M23
+QRPTase_N            PF02749.15 sp|Q3J5S9|RPOC_RHOS4 -             0.0073   16.2   0.0       8.6    6.4   0.0   3.8   3   0   0   3   3   3   1 Quinolinate phosphoribosyl transferase, N-terminal domain
+Biotin_lipoyl        PF00364.21 sp|Q3J5S9|RPOC_RHOS4 -              0.052   13.3   0.2        22    4.9   0.0   3.7   3   0   0   3   3   3   0 Biotin-requiring enzyme
+Ribosomal_L27        PF01016.18 sp|Q3J5S9|RPOC_RHOS4 -              0.058   13.3   0.3         1    9.3   0.1   2.9   2   1   0   2   2   2   0 Ribosomal L27 protein
+Fer2                 PF00111.26 sp|Q3J5S9|RPOC_RHOS4 -                1.7    8.6   3.8       5.9    6.8   0.1   2.6   2   0   0   2   2   2   0 2Fe-2S iron-sulfur cluster binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3J5S9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3J5S9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3J5S9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:01:21 2019
+# [ok]

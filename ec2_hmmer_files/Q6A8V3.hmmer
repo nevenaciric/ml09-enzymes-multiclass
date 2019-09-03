@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|Q6A8V3|DXS_CUTAK  -           8.5e-106  353.0   0.0  1.3e-105  352.4   0.0   1.3   1   0   0   1   1   1   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|Q6A8V3|DXS_CUTAK  -            4.1e-35  120.9   0.1   8.2e-35  120.0   0.1   1.5   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|Q6A8V3|DXS_CUTAK  -            1.6e-13   50.6   0.1     8e-13   48.3   0.0   2.2   3   0   0   3   3   3   1 Transketolase, C-terminal domain
+Transketolase_N      PF00456.20 sp|Q6A8V3|DXS_CUTAK  -            1.9e-07   30.3   0.1     0.076   11.8   0.0   3.3   3   0   0   3   3   3   3 Transketolase, thiamine diphosphate binding domain
+TPP_enzyme_C         PF02775.20 sp|Q6A8V3|DXS_CUTAK  -            0.00015   21.5   1.4    0.0015   18.3   0.0   3.0   4   0   0   4   4   4   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+E1_dh                PF00676.19 sp|Q6A8V3|DXS_CUTAK  -            0.00023   20.1   0.0    0.0059   15.5   0.0   2.1   2   0   0   2   2   2   1 Dehydrogenase E1 component
+CPSase_L_D2          PF02786.16 sp|Q6A8V3|DXS_CUTAK  -               0.19   11.1   0.0      0.34   10.3   0.0   1.3   1   0   0   1   1   1   0 Carbamoyl-phosphate synthase L chain, ATP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6A8V3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6A8V3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6A8V3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:10:39 2019
+# [ok]

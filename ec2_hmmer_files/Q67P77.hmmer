@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q67P77|PNP_SYMTH  -            2.3e-44  151.0   0.0   6.2e-21   75.2   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q67P77|PNP_SYMTH  -              7e-24   83.6   0.8   6.7e-15   54.8   0.1   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|Q67P77|PNP_SYMTH  -            4.6e-21   74.9   0.7     1e-20   73.7   0.7   1.7   1   0   0   1   1   1   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|Q67P77|PNP_SYMTH  -            1.4e-13   51.0   2.5   3.4e-13   49.8   2.5   1.7   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|Q67P77|PNP_SYMTH  -            9.7e-08   31.6   7.0   5.6e-07   29.2   4.6   2.9   3   0   0   3   3   3   1 KH domain
+KH_2                 PF07650.16 sp|Q67P77|PNP_SYMTH  -              0.014   15.1   0.6     0.057   13.1   0.6   2.1   1   0   0   1   1   1   0 KH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q67P77.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q67P77.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q67P77.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:09:12 2019
+# [ok]

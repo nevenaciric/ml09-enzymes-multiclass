@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|Q5FL98|NADK_LACAC -            8.3e-30  103.9   0.0   1.1e-29  103.5   0.0   1.1   1   0   0   1   1   1   1 ATP-NAD kinase
+HeH                  PF12949.6  sp|Q5FL98|NADK_LACAC -              0.055   13.1   0.1      0.16   11.6   0.0   1.9   2   0   0   2   2   2   0 HeH/LEM domain
+DAGK_cat             PF00781.23 sp|Q5FL98|NADK_LACAC -              0.092   12.3   0.0      0.17   11.4   0.0   1.4   1   0   0   1   1   1   0 Diacylglycerol kinase catalytic domain
+HBS1_N               PF08938.9  sp|Q5FL98|NADK_LACAC -               0.39   11.0   1.6        27    5.0   0.0   2.3   2   0   0   2   2   2   0 HBS1 N-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5FL98.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5FL98.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5FL98.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:40:27 2019
+# [ok]

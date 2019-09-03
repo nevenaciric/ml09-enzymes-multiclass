@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q62371|DDR2_MOUSE -            1.1e-85  286.9   0.0   1.5e-85  286.5   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q62371|DDR2_MOUSE -            5.9e-43  147.0   0.0   5.9e-42  143.7   0.0   2.0   1   1   0   1   1   1   1 Protein kinase domain
+F5_F8_type_C         PF00754.24 sp|Q62371|DDR2_MOUSE -            1.7e-21   76.6   0.0   4.3e-21   75.3   0.0   1.7   2   0   0   2   2   2   1 F5/8 type C domain
+Haspin_kinase        PF12330.7  sp|Q62371|DDR2_MOUSE -               0.01   14.7   0.0     0.016   14.1   0.0   1.2   1   0   0   1   1   1   1 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q62371.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q62371.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q62371.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:02:00 2019
+# [ok]

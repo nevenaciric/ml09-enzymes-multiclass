@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q552C1|Y9957_DICDI -            1.5e-51  175.0   0.0   3.1e-50  170.8   0.0   2.6   2   0   0   2   2   2   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q552C1|Y9957_DICDI -            1.5e-43  148.9   0.0   5.8e-43  147.1   0.0   1.9   2   0   0   2   2   2   1 Protein kinase domain
+PH                   PF00169.28 sp|Q552C1|Y9957_DICDI -            1.1e-12   48.2   4.1   1.9e-10   41.1   4.1   3.2   1   1   0   1   1   1   1 PH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q552C1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q552C1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q552C1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:30:17 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q3AIH2|PROB_SYNSC -            1.1e-38  133.1   0.2   1.4e-38  132.7   0.2   1.1   1   0   0   1   1   1   1 Amino acid kinase family
+PUA                  PF01472.19 sp|Q3AIH2|PROB_SYNSC -            3.1e-15   55.8   0.0   1.3e-14   53.8   0.0   2.0   2   0   0   2   2   2   1 PUA domain
+FLgD_tudor           PF13861.5  sp|Q3AIH2|PROB_SYNSC -               0.12   12.5   0.1      0.31   11.2   0.1   1.6   1   0   0   1   1   1   0 FlgD Tudor-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3AIH2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3AIH2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3AIH2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:57:22 2019
+# [ok]

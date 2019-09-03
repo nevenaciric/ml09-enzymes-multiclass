@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Transketolase_N      PF00456.20 sp|Q5HPJ9|TKT_STAEQ  -           1.1e-143  478.1   0.0  1.5e-143  477.6   0.0   1.2   1   0   0   1   1   1   1 Transketolase, thiamine diphosphate binding domain
+Transket_pyr         PF02779.23 sp|Q5HPJ9|TKT_STAEQ  -            7.3e-40  136.4   0.0   1.3e-39  135.7   0.0   1.3   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|Q5HPJ9|TKT_STAEQ  -            7.6e-10   38.6   0.0   2.4e-09   37.0   0.0   1.9   1   1   1   2   2   2   1 Transketolase, C-terminal domain
+DXP_synthase_N       PF13292.5  sp|Q5HPJ9|TKT_STAEQ  -            8.4e-06   25.1   0.1     0.023   13.8   0.0   2.4   1   1   1   2   2   2   2 1-deoxy-D-xylulose-5-phosphate synthase
+TPP_enzyme_C         PF02775.20 sp|Q5HPJ9|TKT_STAEQ  -             0.0026   17.5   0.0     0.034   13.8   0.0   2.4   1   1   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+Nsp1_C               PF05064.12 sp|Q5HPJ9|TKT_STAEQ  -              0.036   13.8   0.4       0.2   11.4   0.0   2.4   3   0   0   3   3   3   0 Nsp1-like C-terminal region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5HPJ9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5HPJ9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5HPJ9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:43:45 2019
+# [ok]

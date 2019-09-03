@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LIAS_N               PF16881.4  sp|Q6GQ48|LIAS_XENLA -            5.4e-44  148.9   0.3   1.4e-43  147.6   0.1   1.7   2   0   0   2   2   2   1 N-terminal domain of lipoyl synthase of Radical_SAM family
+Radical_SAM          PF04055.20 sp|Q6GQ48|LIAS_XENLA -            6.1e-14   52.6   0.0   1.1e-13   51.8   0.0   1.5   1   0   0   1   1   1   1 Radical SAM superfamily
+ROS_MUCR             PF05443.10 sp|Q6GQ48|LIAS_XENLA -              0.057   13.4   0.0      0.12   12.3   0.0   1.6   1   0   0   1   1   1   0 ROS/MUCR transcriptional regulator protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6GQ48.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6GQ48.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6GQ48.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:20:10 2019
+# [ok]

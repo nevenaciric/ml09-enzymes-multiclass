@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|Q54IV4|Y8495_DICDI -            6.2e-09   36.4  17.3   6.2e-09   36.4  17.3   2.0   2   1   0   2   2   2   1 SET domain
+zf-MYND              PF01753.17 sp|Q54IV4|Y8495_DICDI -              0.011   15.7   7.4     0.011   15.7   7.4   2.8   3   0   0   3   3   3   0 MYND finger
+ALMT                 PF11744.7  sp|Q54IV4|Y8495_DICDI -                1.4    7.6   4.9       2.2    6.9   4.9   1.4   1   0   0   1   1   1   0 Aluminium activated malate transporter
+CobT                 PF06213.11 sp|Q54IV4|Y8495_DICDI -                2.8    7.2   8.0       4.8    6.4   8.0   1.3   1   0   0   1   1   1   0 Cobalamin biosynthesis protein CobT
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q54IV4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q54IV4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q54IV4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:27:25 2019
+# [ok]

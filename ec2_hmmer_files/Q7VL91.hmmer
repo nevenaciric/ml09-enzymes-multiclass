@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q7VL91|PNP_HAEDU  -            8.6e-44  149.1   0.0   2.2e-21   76.6   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|Q7VL91|PNP_HAEDU  -            7.1e-23   80.8   1.9   7.1e-23   80.8   1.9   2.3   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+RNase_PH_C           PF03725.14 sp|Q7VL91|PNP_HAEDU  -            1.9e-22   79.0   2.5     6e-15   54.9   0.1   3.0   3   0   0   3   3   3   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|Q7VL91|PNP_HAEDU  -            9.2e-19   67.5   8.5   1.2e-18   67.1   3.7   2.8   2   0   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|Q7VL91|PNP_HAEDU  -            4.5e-10   39.1   1.7   2.5e-09   36.7   0.8   2.6   2   0   0   2   2   2   1 KH domain
+KH_2                 PF07650.16 sp|Q7VL91|PNP_HAEDU  -             0.0022   17.7   0.6     0.016   14.9   0.0   2.6   2   0   0   2   2   2   1 KH domain
+S1_2                 PF13509.5  sp|Q7VL91|PNP_HAEDU  -              0.036   14.0   0.0      0.18   11.8   0.0   2.3   2   1   0   2   2   2   0 S1 domain
+SLS                  PF14611.5  sp|Q7VL91|PNP_HAEDU  -              0.042   13.6   1.2     0.052   13.3   0.1   1.6   2   0   0   2   2   2   0 Mitochondrial inner-membrane-bound regulator
+Cauli_DNA-bind       PF03310.12 sp|Q7VL91|PNP_HAEDU  -               0.14   12.1   0.3      0.77    9.7   0.0   2.4   3   0   0   3   3   3   0 Caulimovirus DNA-binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q7VL91.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q7VL91.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q7VL91.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:45:49 2019
+# [ok]

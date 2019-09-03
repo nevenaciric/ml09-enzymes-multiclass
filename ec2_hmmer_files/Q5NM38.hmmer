@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|Q5NM38|DXS2_ZYMMO -           1.3e-119  398.3   0.0  2.9e-119  397.2   0.0   1.6   2   0   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|Q5NM38|DXS2_ZYMMO -              2e-37  128.5   0.9   4.8e-37  127.2   0.1   2.0   3   0   0   3   3   3   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|Q5NM38|DXS2_ZYMMO -            2.8e-26   91.7   0.1   4.1e-24   84.7   0.0   3.3   3   0   0   3   3   3   1 Transketolase, C-terminal domain
+E1_dh                PF00676.19 sp|Q5NM38|DXS2_ZYMMO -              1e-06   27.9   0.0   1.8e-06   27.0   0.0   1.3   1   0   0   1   1   1   1 Dehydrogenase E1 component
+TPP_enzyme_C         PF02775.20 sp|Q5NM38|DXS2_ZYMMO -            5.6e-06   26.1   0.1   8.3e-05   22.3   0.2   2.4   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+Transketolase_N      PF00456.20 sp|Q5NM38|DXS2_ZYMMO -            7.1e-05   21.8   0.5     0.033   13.1   0.1   3.3   4   0   0   4   4   4   2 Transketolase, thiamine diphosphate binding domain
+DUF1194              PF06707.10 sp|Q5NM38|DXS2_ZYMMO -              0.078   12.1   0.1      0.17   11.0   0.1   1.6   1   0   0   1   1   1   0 Protein of unknown function (DUF1194)
+Tir_receptor_C       PF07489.10 sp|Q5NM38|DXS2_ZYMMO -               0.11   12.3   0.1      0.25   11.2   0.1   1.6   1   0   0   1   1   1   0 Translocated intimin receptor (Tir) C-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5NM38.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5NM38.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5NM38.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:49:38 2019
+# [ok]

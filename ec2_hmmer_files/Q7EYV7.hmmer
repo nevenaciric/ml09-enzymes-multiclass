@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PARP                 PF00644.19 sp|Q7EYV7|PARP1_ORYSJ -            5.5e-74  247.9   0.0   1.2e-73  246.8   0.0   1.6   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase catalytic domain
+zf-PARP              PF00645.17 sp|Q7EYV7|PARP1_ORYSJ -            1.6e-38  131.3   7.9   2.2e-20   73.2   0.2   3.2   3   0   0   3   3   3   2 Poly(ADP-ribose) polymerase and DNA-Ligase Zn-finger region
+PARP_reg             PF02877.13 sp|Q7EYV7|PARP1_ORYSJ -            1.3e-34  119.1   2.0   2.9e-34  118.0   2.0   1.6   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase, regulatory domain
+PADR1                PF08063.11 sp|Q7EYV7|PARP1_ORYSJ -            5.4e-23   80.4   2.4   1.9e-22   78.7   2.4   2.0   1   0   0   1   1   1   1 PADR1 (NUC008) domain
+WGR                  PF05406.14 sp|Q7EYV7|PARP1_ORYSJ -              2e-18   66.1   0.5   4.7e-18   64.9   0.5   1.7   1   0   0   1   1   1   1 WGR domain
+BRCT                 PF00533.25 sp|Q7EYV7|PARP1_ORYSJ -            4.1e-07   30.2   0.7   4.3e-05   23.7   0.0   4.0   5   0   0   5   5   5   1 BRCA1 C Terminus (BRCT) domain
+BRCT_2               PF16589.4  sp|Q7EYV7|PARP1_ORYSJ -              0.054   13.8   0.0      0.15   12.4   0.0   1.8   1   0   0   1   1   1   0 BRCT domain, a BRCA1 C-terminus domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q7EYV7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q7EYV7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q7EYV7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:36:04 2019
+# [ok]

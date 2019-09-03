@@ -1,0 +1,26 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q65VP4|COAE_MANSM -              1e-69  233.7   0.1   1.2e-69  233.4   0.1   1.1   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_33               PF13671.5  sp|Q65VP4|COAE_MANSM -            9.7e-06   25.7   0.1     5e-05   23.4   0.0   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_17               PF13207.5  sp|Q65VP4|COAE_MANSM -            0.00023   21.5   0.7    0.0011   19.3   0.2   2.3   1   1   1   2   2   2   1 AAA domain
+AAA_18               PF13238.5  sp|Q65VP4|COAE_MANSM -            0.00044   20.7   0.4    0.0021   18.5   0.3   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_28               PF13521.5  sp|Q65VP4|COAE_MANSM -            0.00045   20.4   1.2    0.0019   18.4   0.1   2.6   2   2   1   3   3   3   1 AAA domain
+SKI                  PF01202.21 sp|Q65VP4|COAE_MANSM -             0.0032   17.5   1.7      0.85    9.6   0.0   2.5   2   1   0   2   2   2   2 Shikimate kinase
+AAA_29               PF13555.5  sp|Q65VP4|COAE_MANSM -             0.0038   16.8   0.2    0.0069   16.0   0.2   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+dNK                  PF01712.18 sp|Q65VP4|COAE_MANSM -             0.0093   15.7   0.2      0.66    9.7   0.0   2.3   2   0   0   2   2   2   1 Deoxynucleoside kinase
+ATPase               PF06745.12 sp|Q65VP4|COAE_MANSM -              0.074   12.3   1.7       5.2    6.2   0.6   2.1   2   0   0   2   2   2   0 KaiC
+AAA_16               PF13191.5  sp|Q65VP4|COAE_MANSM -              0.095   13.0   0.2      0.22   11.8   0.2   1.7   1   1   0   1   1   1   0 AAA ATPase domain
+Thymidylate_kin      PF02223.16 sp|Q65VP4|COAE_MANSM -               0.21   11.1   3.8      0.95    9.0   0.2   2.8   2   1   1   3   3   3   0 Thymidylate kinase
+ArgK                 PF03308.15 sp|Q65VP4|COAE_MANSM -               0.22   10.4   0.7      0.72    8.7   0.1   2.0   2   0   0   2   2   2   0 ArgK protein
+ABC_tran             PF00005.26 sp|Q65VP4|COAE_MANSM -               0.66   10.4   4.1       1.2    9.5   4.1   1.8   1   1   0   1   1   1   0 ABC transporter
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q65VP4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q65VP4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q65VP4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:06:53 2019
+# [ok]

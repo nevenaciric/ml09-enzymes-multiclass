@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|Q3IJC5|AROK_PSEHT -              2e-55  187.1   0.4   2.3e-55  187.0   0.4   1.0   1   0   0   1   1   1   1 Shikimate kinase
+AAA_33               PF13671.5  sp|Q3IJC5|AROK_PSEHT -            1.9e-07   31.2   0.3   2.6e-05   24.3   0.0   2.2   2   0   0   2   2   2   1 AAA domain
+Cytidylate_kin       PF02224.17 sp|Q3IJC5|AROK_PSEHT -              2e-05   24.3   0.9   0.00084   19.0   0.0   2.3   2   1   0   2   2   2   1 Cytidylate kinase
+Cytidylate_kin2      PF13189.5  sp|Q3IJC5|AROK_PSEHT -            2.6e-05   24.4   0.2    0.0012   18.9   0.2   2.2   1   1   0   1   1   1   1 Cytidylate kinase-like family
+AAA_18               PF13238.5  sp|Q3IJC5|AROK_PSEHT -            3.1e-05   24.4   0.1   6.2e-05   23.4   0.0   1.6   1   1   0   1   1   1   1 AAA domain
+dNK                  PF01712.18 sp|Q3IJC5|AROK_PSEHT -             0.0001   22.2   0.1      0.21   11.3   0.1   2.1   2   0   0   2   2   2   2 Deoxynucleoside kinase
+Thymidylate_kin      PF02223.16 sp|Q3IJC5|AROK_PSEHT -            0.00099   18.7   0.1     0.043   13.4   0.1   2.0   2   0   0   2   2   2   1 Thymidylate kinase
+AAA_16               PF13191.5  sp|Q3IJC5|AROK_PSEHT -             0.0015   18.8   0.2    0.0055   17.0   0.2   1.9   1   1   0   1   1   1   1 AAA ATPase domain
+TsaE                 PF02367.16 sp|Q3IJC5|AROK_PSEHT -             0.0027   17.6   0.0    0.0044   16.9   0.0   1.4   1   0   0   1   1   1   1 Threonylcarbamoyl adenosine biosynthesis protein TsaE
+ABC_tran             PF00005.26 sp|Q3IJC5|AROK_PSEHT -             0.0028   18.1   0.1    0.0052   17.2   0.1   1.8   1   1   0   1   1   1   1 ABC transporter
+AAA                  PF00004.28 sp|Q3IJC5|AROK_PSEHT -             0.0041   17.5   0.0    0.0071   16.7   0.0   1.6   1   1   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+AAA_17               PF13207.5  sp|Q3IJC5|AROK_PSEHT -              0.005   17.2   0.7      0.14   12.5   0.2   2.6   1   1   1   2   2   2   1 AAA domain
+AAA_22               PF13401.5  sp|Q3IJC5|AROK_PSEHT -             0.0051   17.0   0.0     0.012   15.8   0.0   1.7   2   1   0   2   2   2   1 AAA domain
+APS_kinase           PF01583.19 sp|Q3IJC5|AROK_PSEHT -              0.011   15.6   0.1     0.072   12.9   0.1   2.1   1   1   0   1   1   1   0 Adenylylsulphate kinase
+AAA_24               PF13479.5  sp|Q3IJC5|AROK_PSEHT -              0.018   14.7   0.0     0.026   14.2   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+CoaE                 PF01121.19 sp|Q3IJC5|AROK_PSEHT -              0.019   14.5   0.5      0.27   10.8   0.0   2.1   2   0   0   2   2   2   0 Dephospho-CoA kinase
+AAA_29               PF13555.5  sp|Q3IJC5|AROK_PSEHT -              0.032   13.9   0.0     0.054   13.1   0.0   1.3   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+AAA_5                PF07728.13 sp|Q3IJC5|AROK_PSEHT -              0.055   13.4   0.0       0.1   12.5   0.0   1.5   1   0   0   1   1   1   0 AAA domain (dynein-related subfamily)
+AAA_PrkA             PF08298.10 sp|Q3IJC5|AROK_PSEHT -              0.071   11.9   0.0      0.14   11.0   0.0   1.5   1   0   0   1   1   1   0 PrkA AAA domain
+RsgA_GTPase          PF03193.15 sp|Q3IJC5|AROK_PSEHT -              0.087   12.6   0.0      0.17   11.6   0.0   1.5   1   0   0   1   1   1   0 RsgA GTPase
+RNA_helicase         PF00910.21 sp|Q3IJC5|AROK_PSEHT -               0.11   12.8   0.0      0.18   12.1   0.0   1.4   1   0   0   1   1   1   0 RNA helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3IJC5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3IJC5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3IJC5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:00:20 2019
+# [ok]

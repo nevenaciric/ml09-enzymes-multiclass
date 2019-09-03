@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BATS                 PF06968.12 sp|Q609V2|BIOB_METCA -              9e-19   67.3   0.1   1.7e-18   66.4   0.1   1.5   1   0   0   1   1   1   1 Biotin and Thiamin Synthesis associated domain
+Radical_SAM          PF04055.20 sp|Q609V2|BIOB_METCA -            8.8e-18   65.1   0.0   2.1e-17   63.9   0.1   1.6   2   0   0   2   2   2   1 Radical SAM superfamily
+His_biosynth         PF00977.20 sp|Q609V2|BIOB_METCA -              0.027   13.8   0.0     0.041   13.2   0.0   1.2   1   0   0   1   1   1   0 Histidine biosynthesis protein
+EAL                  PF00563.19 sp|Q609V2|BIOB_METCA -              0.034   13.5   0.0     0.075   12.4   0.0   1.5   1   0   0   1   1   1   0 EAL domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q609V2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q609V2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q609V2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:01:16 2019
+# [ok]

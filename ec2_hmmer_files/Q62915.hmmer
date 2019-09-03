@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q62915|CSKP_RAT   -              2e-68  230.5   0.0   3.9e-68  229.6   0.0   1.5   1   0   0   1   1   1   1 Protein kinase domain
+Guanylate_kin        PF00625.20 sp|Q62915|CSKP_RAT   -            3.3e-61  206.0   0.1   6.6e-61  205.1   0.1   1.4   1   0   0   1   1   1   1 Guanylate kinase
+Pkinase_Tyr          PF07714.16 sp|Q62915|CSKP_RAT   -            3.5e-30  105.1   0.0   6.2e-30  104.2   0.0   1.4   1   0   0   1   1   1   1 Protein tyrosine kinase
+L27                  PF02828.15 sp|Q62915|CSKP_RAT   -            4.5e-24   83.9  13.3     1e-13   50.7   0.6   4.2   4   0   0   4   4   4   2 L27 domain
+PDZ                  PF00595.23 sp|Q62915|CSKP_RAT   -            6.8e-17   61.5   0.5   1.6e-16   60.3   0.5   1.7   1   0   0   1   1   1   1 PDZ domain (Also known as DHR or GLGF)
+SH3_2                PF07653.16 sp|Q62915|CSKP_RAT   -            8.8e-13   47.6   0.0   2.3e-12   46.3   0.0   1.8   1   0   0   1   1   1   1 Variant SH3 domain
+SH3_1                PF00018.27 sp|Q62915|CSKP_RAT   -            2.7e-08   33.2   0.1   8.4e-08   31.6   0.1   1.9   2   0   0   2   2   2   1 SH3 domain
+SH3_9                PF14604.5  sp|Q62915|CSKP_RAT   -            4.5e-05   23.1   0.0   0.00012   21.8   0.0   1.8   1   0   0   1   1   1   1 Variant SH3 domain
+Kinase-like          PF14531.5  sp|Q62915|CSKP_RAT   -            0.00029   20.1   0.0      0.01   15.1   0.0   2.3   2   0   0   2   2   2   1 Kinase-like
+PDZ_2                PF13180.5  sp|Q62915|CSKP_RAT   -             0.0026   17.9   0.0    0.0074   16.5   0.0   1.7   1   0   0   1   1   1   1 PDZ domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q62915.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q62915.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q62915.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:02:14 2019
+# [ok]

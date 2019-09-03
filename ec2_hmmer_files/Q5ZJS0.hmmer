@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CK1gamma_C           PF12605.7  sp|Q5ZJS0|KC1G1_CHICK -            5.9e-31  107.5   5.0   1.2e-30  106.5   5.0   1.5   1   0   0   1   1   1   1 Casein kinase 1 gamma C terminal
+Pkinase              PF00069.24 sp|Q5ZJS0|KC1G1_CHICK -            2.7e-26   92.4   0.0   3.5e-26   92.0   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q5ZJS0|KC1G1_CHICK -              2e-14   53.4   0.0   2.6e-14   53.0   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5ZJS0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5ZJS0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5ZJS0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:59:34 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|Q2YPB6|MURA_BRUA2 -           2.4e-100  336.1   1.2  2.9e-100  335.8   1.2   1.1   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+GHMP_kinases_C       PF08544.12 sp|Q2YPB6|MURA_BRUA2 -               0.01   16.1   1.2      0.24   11.7   0.1   3.6   5   0   0   5   5   5   0 GHMP kinases C terminal
+Wyosine_form         PF08608.11 sp|Q2YPB6|MURA_BRUA2 -               0.16   12.2   0.0      0.49   10.7   0.0   1.8   1   1   0   1   1   1   0 Wyosine base formation
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2YPB6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2YPB6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2YPB6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:48:06 2019
+# [ok]

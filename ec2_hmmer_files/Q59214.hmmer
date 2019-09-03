@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|Q59214|PFKA_PAEMC -           2.2e-106  355.3   1.3  2.6e-106  355.0   1.3   1.1   1   0   0   1   1   1   1 Phosphofructokinase
+DAGK_cat             PF00781.23 sp|Q59214|PFKA_PAEMC -             0.0011   18.5   0.5      0.26   10.8   0.1   2.4   2   0   0   2   2   2   2 Diacylglycerol kinase catalytic domain
+RAP-1                PF03085.14 sp|Q59214|PFKA_PAEMC -               0.19   11.3   0.0       0.3   10.6   0.0   1.2   1   0   0   1   1   1   0 Rhoptry-associated protein 1 (RAP-1)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q59214.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q59214.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q59214.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:36:00 2019
+# [ok]

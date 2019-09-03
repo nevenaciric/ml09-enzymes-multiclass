@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q5L0I2|PNP_GEOKA  -            1.7e-44  151.4   0.0   8.3e-22   78.0   0.0   2.5   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q5L0I2|PNP_GEOKA  -            3.5e-26   90.9   1.4   1.8e-15   56.6   0.2   2.8   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|Q5L0I2|PNP_GEOKA  -            7.7e-20   70.9   7.5   8.8e-20   70.7   5.5   2.2   2   0   0   2   2   2   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|Q5L0I2|PNP_GEOKA  -            9.5e-16   58.0   8.0   9.5e-16   58.0   8.0   2.3   3   0   0   3   3   3   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|Q5L0I2|PNP_GEOKA  -            4.2e-10   39.2   5.0   1.5e-09   37.5   3.9   2.5   2   0   0   2   2   2   1 KH domain
+SPATA25              PF15218.5  sp|Q5L0I2|PNP_GEOKA  -             0.0032   17.1   0.1    0.0063   16.2   0.1   1.4   1   0   0   1   1   1   1 Spermatogenesis-associated protein 25
+ATP-grasp            PF02222.21 sp|Q5L0I2|PNP_GEOKA  -              0.016   14.7   5.7       1.4    8.3   0.0   3.7   3   2   0   3   3   3   0 ATP-grasp domain
+KH_5                 PF13184.5  sp|Q5L0I2|PNP_GEOKA  -              0.017   15.1   2.7      0.45   10.5   0.9   2.8   2   0   0   2   2   2   0 NusA-like KH domain
+KorB                 PF08535.9  sp|Q5L0I2|PNP_GEOKA  -              0.056   13.4   0.7       0.2   11.6   0.7   2.0   1   0   0   1   1   1   0 KorB domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5L0I2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5L0I2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5L0I2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:45:58 2019
+# [ok]

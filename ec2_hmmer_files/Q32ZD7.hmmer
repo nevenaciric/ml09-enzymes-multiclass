@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Flavi_NS5            PF00972.19 sp|Q32ZD7|POLG_ILHV  -           2.3e-300  997.5   8.1  5.5e-300  996.3   8.3   1.5   2   0   0   2   2   2   1 Flavivirus RNA-directed RNA polymerase
+Flavi_NS1            PF00948.20 sp|Q32ZD7|POLG_ILHV  -           5.7e-140  466.2   5.5    1e-139  465.3   5.5   1.4   1   0   0   1   1   1   1 Flavivirus non-structural Protein NS1
+Flavi_glycoprot      PF00869.19 sp|Q32ZD7|POLG_ILHV  -           1.8e-107  358.8   0.2  3.2e-107  358.0   0.2   1.4   1   0   0   1   1   1   1 Flavivirus glycoprotein, central and dimerisation domains
+Flavi_DEAD           PF07652.13 sp|Q32ZD7|POLG_ILHV  -            2.5e-72  241.6   0.3   6.6e-72  240.2   0.3   1.8   1   0   0   1   1   1   1 Flavivirus DEAD domain
+Flavi_NS4B           PF01349.16 sp|Q32ZD7|POLG_ILHV  -            2.3e-60  203.9   3.0   2.3e-60  203.9   3.0   1.8   2   0   0   2   2   1   1 Flavivirus non-structural protein NS4B
+Flavi_capsid         PF01003.18 sp|Q32ZD7|POLG_ILHV  -            5.2e-35  119.6   9.4   5.2e-35  119.6   9.4   2.2   2   0   0   2   2   1   1 Flavivirus capsid protein C
+Peptidase_S7         PF00949.20 sp|Q32ZD7|POLG_ILHV  -            3.3e-34  117.4   0.1   7.4e-34  116.3   0.1   1.7   1   0   0   1   1   1   1 Peptidase S7, Flavivirus NS3 serine protease
+Flavi_NS4A           PF01350.16 sp|Q32ZD7|POLG_ILHV  -            9.3e-34  116.3   2.6   2.2e-33  115.1   2.6   1.7   1   0   0   1   1   1   1 Flavivirus non-structural protein NS4A
+Flavi_glycop_C       PF02832.15 sp|Q32ZD7|POLG_ILHV  -            4.4e-28   97.2   0.0   1.2e-27   95.8   0.0   1.8   1   0   0   1   1   1   1 Flavivirus glycoprotein, immunoglobulin-like domain
+Flavi_NS2A           PF01005.18 sp|Q32ZD7|POLG_ILHV  -            2.4e-19   70.1   7.7   7.2e-19   68.6   7.7   1.8   1   0   0   1   1   1   1 Flavivirus non-structural protein NS2A
+Flavi_propep         PF01570.16 sp|Q32ZD7|POLG_ILHV  -              3e-19   68.7   1.2   1.1e-18   66.9   1.2   2.0   1   0   0   1   1   1   1 Flavivirus polyprotein propeptide
+Flavi_M              PF01004.18 sp|Q32ZD7|POLG_ILHV  -              2e-18   65.8   0.3   6.4e-18   64.2   0.3   2.0   1   0   0   1   1   1   1 Flavivirus envelope glycoprotein M
+Flavi_NS2B           PF01002.18 sp|Q32ZD7|POLG_ILHV  -            1.1e-17   63.9   0.1   3.6e-17   62.3   0.1   1.9   1   0   0   1   1   1   1 Flavivirus non-structural protein NS2B
+FtsJ                 PF01728.18 sp|Q32ZD7|POLG_ILHV  -            5.5e-09   36.3   0.0   1.3e-08   35.0   0.0   1.6   1   0   0   1   1   1   1 FtsJ-like methyltransferase
+Peptidase_S29        PF02907.14 sp|Q32ZD7|POLG_ILHV  -              6e-05   22.7   0.0   0.00019   21.1   0.0   1.8   1   0   0   1   1   1   1 Hepatitis C virus NS3 protease
+Helicase_C           PF00271.30 sp|Q32ZD7|POLG_ILHV  -            0.00066   19.9   0.0    0.0018   18.6   0.0   1.7   1   0   0   1   1   1   1 Helicase conserved C-terminal domain
+DEAD                 PF00270.28 sp|Q32ZD7|POLG_ILHV  -             0.0038   16.9   0.0     0.016   14.9   0.0   2.0   2   0   0   2   2   2   1 DEAD/DEAH box helicase
+ResIII               PF04851.14 sp|Q32ZD7|POLG_ILHV  -              0.017   15.0   0.0     0.068   13.1   0.0   2.0   1   1   0   1   1   1   0 Type III restriction enzyme, res subunit
+DUF1919              PF08942.9  sp|Q32ZD7|POLG_ILHV  -                0.1   11.9   0.0      0.21   10.9   0.0   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF1919)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q32ZD7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q32ZD7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q32ZD7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:53:53 2019
+# [ok]

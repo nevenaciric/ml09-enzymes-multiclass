@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transferase      PF00483.22 sp|Q688T8|GLGL3_ORYSJ -            8.3e-79  264.6   0.0   1.1e-78  264.2   0.0   1.1   1   0   0   1   1   1   1 Nucleotidyl transferase
+NHR2                 PF08788.10 sp|Q688T8|GLGL3_ORYSJ -              0.043   13.5   0.0     0.093   12.4   0.0   1.5   1   0   0   1   1   1   0 NHR2 domain like
+Hexapep              PF00132.23 sp|Q688T8|GLGL3_ORYSJ -                2.4    7.9  10.4      0.24   11.1   3.4   2.9   4   0   0   4   4   4   0 Bacterial transferase hexapeptide (six repeats)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q688T8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q688T8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q688T8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:09:35 2019
+# [ok]

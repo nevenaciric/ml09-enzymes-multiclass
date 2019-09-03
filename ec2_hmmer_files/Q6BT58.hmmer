@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+mRNA_cap_enzyme      PF01331.18 sp|Q6BT58|MCE1_DEBHA -            3.1e-55  187.0   0.0   5.5e-55  186.1   0.0   1.4   1   0   0   1   1   1   1 mRNA capping enzyme, catalytic domain
+mRNA_cap_C           PF03919.14 sp|Q6BT58|MCE1_DEBHA -            3.1e-32  111.3   0.2   6.2e-32  110.3   0.2   1.5   1   0   0   1   1   1   1 mRNA capping enzyme, C-terminal domain
+DNA_ligase_A_M       PF01068.20 sp|Q6BT58|MCE1_DEBHA -            5.7e-06   26.0   0.0     0.049   13.2   0.0   2.4   1   1   1   2   2   2   2 ATP dependent DNA ligase domain
+RNA_ligase           PF09414.9  sp|Q6BT58|MCE1_DEBHA -             0.0051   17.0   0.0    0.0081   16.4   0.0   1.4   1   0   0   1   1   1   1 RNA ligase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6BT58.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6BT58.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6BT58.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:12:25 2019
+# [ok]

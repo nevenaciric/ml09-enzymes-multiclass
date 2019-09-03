@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B            PF00136.20 sp|Q51334|DPOL_PYRSD -            1.4e-72  244.8   0.0   4.7e-41  140.9   0.1   2.2   2   0   0   2   2   2   2 DNA polymerase family B
+DNA_pol_B_exo1       PF03104.18 sp|Q51334|DPOL_PYRSD -            1.6e-53  181.9   0.4   2.3e-38  132.1   0.0   2.7   1   1   1   2   2   2   2 DNA polymerase family B, exonuclease domain
+Intein_splicing      PF14890.5  sp|Q51334|DPOL_PYRSD -            3.8e-52  176.8   2.1   7.3e-52  175.9   2.1   1.5   1   0   0   1   1   1   1 Intein splicing domain
+LAGLIDADG_3          PF14528.5  sp|Q51334|DPOL_PYRSD -            1.6e-11   44.4   1.1   5.3e-06   26.7   0.2   4.0   3   1   0   3   3   3   2 LAGLIDADG-like domain
+DNA_pol_B_exo2       PF10108.8  sp|Q51334|DPOL_PYRSD -            1.6e-11   44.2   0.0   3.3e-11   43.2   0.0   1.4   1   0   0   1   1   1   1 Predicted 3'-5' exonuclease related to the exonuclease domain of PolB
+RNase_H_2            PF13482.5  sp|Q51334|DPOL_PYRSD -            3.1e-09   36.9   0.1     1e-08   35.3   0.1   1.9   1   0   0   1   1   1   1 RNase_H superfamily
+Hom_end              PF05204.13 sp|Q51334|DPOL_PYRSD -              0.027   14.6   0.0       0.1   12.7   0.0   2.1   1   0   0   1   1   1   0 Homing endonuclease
+FlgT_C               PF16538.4  sp|Q51334|DPOL_PYRSD -              0.033   14.6   0.0      0.13   12.7   0.0   2.0   1   1   1   2   2   2   0 Flagellar assembly protein T, C-terminal domain
+PurS                 PF02700.13 sp|Q51334|DPOL_PYRSD -              0.037   14.1   0.8      0.12   12.5   0.8   1.8   1   0   0   1   1   1   0 Phosphoribosylformylglycinamidine (FGAM) synthase
+HTH_Crp_2            PF13545.5  sp|Q51334|DPOL_PYRSD -               0.16   11.9   0.1      0.42   10.5   0.1   1.8   1   0   0   1   1   1   0 Crp-like helix-turn-helix domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q51334.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q51334.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q51334.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:25:25 2019
+# [ok]

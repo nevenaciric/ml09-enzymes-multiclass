@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADK                  PF00406.21 sp|Q5UXG8|KAD_HALMA  -            9.9e-42  142.5   0.0   1.3e-41  142.1   0.0   1.1   1   0   0   1   1   1   1 Adenylate kinase
+AAA_17               PF13207.5  sp|Q5UXG8|KAD_HALMA  -            1.2e-22   80.7   0.4   5.2e-22   78.6   0.0   1.9   1   1   1   2   2   2   1 AAA domain
+ADK_lid              PF05191.13 sp|Q5UXG8|KAD_HALMA  -            1.1e-16   60.4   4.1     2e-16   59.6   4.1   1.4   1   0   0   1   1   1   1 Adenylate kinase, active site lid
+AAA_18               PF13238.5  sp|Q5UXG8|KAD_HALMA  -            1.5e-08   35.1   0.0     3e-08   34.2   0.0   1.5   2   0   0   2   2   1   1 AAA domain
+AAA_33               PF13671.5  sp|Q5UXG8|KAD_HALMA  -            1.5e-07   31.5   0.0   2.9e-07   30.6   0.0   1.4   1   1   0   1   1   1   1 AAA domain
+Cytidylate_kin       PF02224.17 sp|Q5UXG8|KAD_HALMA  -               0.02   14.5   0.0      0.03   13.9   0.0   1.4   1   0   0   1   1   1   0 Cytidylate kinase
+RuvB_N               PF05496.11 sp|Q5UXG8|KAD_HALMA  -              0.022   14.0   0.0     0.036   13.2   0.0   1.3   1   0   0   1   1   1   0 Holliday junction DNA helicase ruvB N-terminus
+SRP54                PF00448.21 sp|Q5UXG8|KAD_HALMA  -              0.035   13.6   0.0     0.044   13.3   0.0   1.2   1   0   0   1   1   1   0 SRP54-type protein, GTPase domain
+zf-C4_Topoisom       PF01396.18 sp|Q5UXG8|KAD_HALMA  -              0.039   13.6   0.3      0.23   11.2   0.0   2.0   2   0   0   2   2   2   0 Topoisomerase DNA binding C4 zinc finger
+zf-IS66              PF13005.6  sp|Q5UXG8|KAD_HALMA  -              0.041   14.2   0.2       1.7    9.0   0.0   2.4   2   0   0   2   2   2   0 zinc-finger binding domain of transposase IS66
+AAA_24               PF13479.5  sp|Q5UXG8|KAD_HALMA  -              0.044   13.4   0.0      0.12   12.0   0.0   1.8   1   1   1   2   2   2   0 AAA domain
+AAA_28               PF13521.5  sp|Q5UXG8|KAD_HALMA  -              0.053   13.7   0.1     0.089   12.9   0.1   1.5   1   1   0   1   1   1   0 AAA domain
+DZR                  PF12773.6  sp|Q5UXG8|KAD_HALMA  -              0.054   13.4   0.8      0.12   12.3   0.8   1.6   1   1   0   1   1   1   0 Double zinc ribbon
+Zn-ribbon_8          PF09723.9  sp|Q5UXG8|KAD_HALMA  -              0.066   13.2   1.4      0.12   12.4   1.4   1.4   1   0   0   1   1   1   0 Zinc ribbon domain
+HypA                 PF01155.18 sp|Q5UXG8|KAD_HALMA  -              0.074   13.0   0.0       0.1   12.5   0.0   1.3   1   0   0   1   1   1   0 Hydrogenase/urease nickel incorporation, metallochaperone, hypA
+AAA_5                PF07728.13 sp|Q5UXG8|KAD_HALMA  -              0.083   12.8   0.0      0.14   12.0   0.0   1.4   1   1   0   1   1   1   0 AAA domain (dynein-related subfamily)
+DUF1451              PF07295.10 sp|Q5UXG8|KAD_HALMA  -              0.084   12.8   1.5      0.12   12.4   0.5   1.7   2   0   0   2   2   2   0 Zinc-ribbon containing domain
+Nudix_N_2            PF14803.5  sp|Q5UXG8|KAD_HALMA  -               0.22   11.4   2.5       8.8    6.3   0.1   2.4   2   0   0   2   2   2   0 Nudix N-terminal
+TF_Zn_Ribbon         PF08271.11 sp|Q5UXG8|KAD_HALMA  -               0.51    9.8   6.9       1.2    8.6   6.8   1.7   1   1   0   1   1   1   0 TFIIB zinc-binding
+zf-ribbon_3          PF13248.5  sp|Q5UXG8|KAD_HALMA  -               0.57    9.6   2.6        12    5.4   0.1   2.3   2   0   0   2   2   2   0 zinc-ribbon domain
+Prok-RING_1          PF14446.5  sp|Q5UXG8|KAD_HALMA  -                1.3    8.9   6.7      0.35   10.7   0.5   2.2   1   1   1   2   2   2   0 Prokaryotic RING finger family 1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5UXG8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5UXG8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5UXG8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:55:39 2019
+# [ok]

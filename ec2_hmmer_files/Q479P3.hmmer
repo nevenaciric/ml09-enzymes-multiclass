@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q479P3|COAE_DECAR -            4.2e-58  195.9   0.1   4.9e-58  195.6   0.1   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_33               PF13671.5  sp|Q479P3|COAE_DECAR -            4.7e-06   26.7   0.1   4.9e-05   23.4   0.1   2.4   1   1   1   2   2   2   1 AAA domain
+AAA_18               PF13238.5  sp|Q479P3|COAE_DECAR -            0.00029   21.2   0.6    0.0021   18.5   0.5   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_29               PF13555.5  sp|Q479P3|COAE_DECAR -              0.019   14.6   0.2     0.042   13.5   0.2   1.5   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+cobW                 PF02492.18 sp|Q479P3|COAE_DECAR -              0.085   12.3   1.5       6.3    6.3   0.1   2.2   2   0   0   2   2   2   0 CobW/HypB/UreG, nucleotide-binding domain
+AAA_28               PF13521.5  sp|Q479P3|COAE_DECAR -               0.45   10.6   3.4       2.8    8.1   0.6   2.4   2   1   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q479P3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q479P3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q479P3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:12:11 2019
+# [ok]

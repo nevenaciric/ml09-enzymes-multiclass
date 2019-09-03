@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q57991|AK_METJA   -            1.9e-56  191.3   0.3   1.9e-56  191.3   0.3   1.6   2   0   0   2   2   2   1 Amino acid kinase family
+ACT_7                PF13840.5  sp|Q57991|AK_METJA   -            5.3e-20   70.9   2.0     8e-11   41.5   0.3   2.9   2   0   0   2   2   2   2 ACT domain
+ACT                  PF01842.24 sp|Q57991|AK_METJA   -            6.7e-20   70.5   4.0   7.3e-10   38.4   0.1   3.2   3   1   0   3   3   3   2 ACT domain
+AAA_23               PF13476.5  sp|Q57991|AK_METJA   -              0.037   14.5   0.3      0.09   13.2   0.3   1.5   1   0   0   1   1   1   0 AAA domain
+HrcA                 PF01628.20 sp|Q57991|AK_METJA   -               0.13   12.1   1.5      0.42   10.4   0.4   2.1   2   0   0   2   2   2   0 HrcA protein C terminal domain
+Antimicrobial_8      PF08103.10 sp|Q57991|AK_METJA   -                1.4    9.1   5.6      0.75   10.0   1.1   2.8   2   0   0   2   2   2   0 Uperin family
+DUF1131              PF06572.11 sp|Q57991|AK_METJA   -                1.6    8.3   7.6        10    5.7   0.1   3.0   2   1   1   3   3   3   0 Protein of unknown function (DUF1131)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q57991.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q57991.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q57991.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:33:17 2019
+# [ok]

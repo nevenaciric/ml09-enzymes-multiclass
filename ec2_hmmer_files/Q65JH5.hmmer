@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q65JH5|PNP_BACLD  -            3.1e-42  144.1   0.0     3e-21   76.2   0.0   2.8   3   0   0   3   3   3   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q65JH5|PNP_BACLD  -            1.1e-25   89.3   9.3     2e-17   62.9   0.1   3.3   4   0   0   4   4   4   2 3' exoribonuclease family, domain 2
+PNPase               PF03726.13 sp|Q65JH5|PNP_BACLD  -            1.9e-19   69.8   5.9   1.9e-19   69.8   5.9   2.5   3   0   0   3   3   3   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|Q65JH5|PNP_BACLD  -              2e-19   69.6   4.5   5.3e-19   68.2   3.8   2.2   2   0   0   2   2   2   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|Q65JH5|PNP_BACLD  -            1.7e-10   40.4   3.3   6.9e-10   38.5   2.4   2.5   2   0   0   2   2   2   1 KH domain
+SPATA25              PF15218.5  sp|Q65JH5|PNP_BACLD  -             0.0032   17.2   0.1    0.0058   16.3   0.1   1.4   1   0   0   1   1   1   1 Spermatogenesis-associated protein 25
+NdhM                 PF10664.8  sp|Q65JH5|PNP_BACLD  -                2.2    8.5   4.9        15    5.8   0.1   3.3   3   1   1   4   4   4   0 Cyanobacterial and plastid NDH-1 subunit M
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q65JH5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q65JH5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q65JH5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:05:59 2019
+# [ok]

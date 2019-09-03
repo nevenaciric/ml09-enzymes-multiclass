@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Thymidylate_kin      PF02223.16 sp|Q3B043|KTHY_SYNS9 -            3.3e-43  147.4   0.0   3.8e-43  147.2   0.0   1.0   1   0   0   1   1   1   1 Thymidylate kinase
+AAA_22               PF13401.5  sp|Q3B043|KTHY_SYNS9 -            0.00079   19.6   0.0    0.0016   18.7   0.0   1.6   1   0   0   1   1   1   1 AAA domain
+AAA_28               PF13521.5  sp|Q3B043|KTHY_SYNS9 -            0.00085   19.5   0.0    0.0016   18.6   0.0   1.5   1   1   0   1   1   1   1 AAA domain
+Viral_helicase1      PF01443.17 sp|Q3B043|KTHY_SYNS9 -              0.019   14.6   0.0     0.027   14.1   0.0   1.3   1   0   0   1   1   1   0 Viral (Superfamily 1) RNA helicase
+AAA_17               PF13207.5  sp|Q3B043|KTHY_SYNS9 -              0.034   14.5   0.0       1.1    9.6   0.0   2.6   1   1   1   2   2   2   0 AAA domain
+AAA_16               PF13191.5  sp|Q3B043|KTHY_SYNS9 -              0.043   14.1   0.5      0.33   11.2   0.5   2.1   1   1   0   1   1   1   0 AAA ATPase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3B043.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3B043.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3B043.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:58:26 2019
+# [ok]

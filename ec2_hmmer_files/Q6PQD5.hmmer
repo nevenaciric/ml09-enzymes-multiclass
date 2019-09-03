@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PI3_PI4_kinase       PF00454.26 sp|Q6PQD5|ATM_PIG    -            1.1e-52  179.2   0.1   1.5e-51  175.5   0.1   2.8   2   0   0   2   2   2   1 Phosphatidylinositol 3- and 4-kinase
+FAT                  PF02259.22 sp|Q6PQD5|ATM_PIG    -            1.4e-45  155.9  14.0   3.6e-45  154.6  14.0   1.8   1   0   0   1   1   1   1 FAT domain
+TAN                  PF11640.7  sp|Q6PQD5|ATM_PIG    -            2.3e-27   95.9   3.4   2.3e-27   95.9   3.4   4.3   5   0   0   5   5   5   1 Telomere-length maintenance and DNA damage repair
+FATC                 PF02260.19 sp|Q6PQD5|ATM_PIG    -            6.5e-12   45.0   0.0   1.9e-11   43.5   0.0   1.9   1   0   0   1   1   1   1 FATC domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6PQD5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6PQD5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6PQD5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:26:31 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|Q30Z99|DXS_DESAG  -           7.9e-117  389.2   0.0  3.2e-116  387.2   0.0   2.0   3   0   0   3   3   3   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|Q30Z99|DXS_DESAG  -            2.4e-45  154.3   0.0   7.4e-45  152.7   0.0   1.8   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|Q30Z99|DXS_DESAG  -            2.8e-26   91.7   0.1   9.5e-26   90.0   0.1   2.0   2   0   0   2   2   2   1 Transketolase, C-terminal domain
+Transketolase_N      PF00456.20 sp|Q30Z99|DXS_DESAG  -            5.6e-10   38.6   0.1   2.3e-06   26.7   0.0   2.6   3   0   0   3   3   3   2 Transketolase, thiamine diphosphate binding domain
+TPP_enzyme_C         PF02775.20 sp|Q30Z99|DXS_DESAG  -            2.1e-08   34.0   1.6   0.00013   21.6   0.3   4.1   4   0   0   4   4   4   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+E1_dh                PF00676.19 sp|Q30Z99|DXS_DESAG  -            0.00014   20.9   0.2   0.00024   20.1   0.2   1.3   1   0   0   1   1   1   1 Dehydrogenase E1 component
+PFOR_II              PF17147.3  sp|Q30Z99|DXS_DESAG  -             0.0066   16.6   0.0     0.016   15.4   0.0   1.6   1   0   0   1   1   1   1 Pyruvate:ferredoxin oxidoreductase core domain II
+HHH                  PF00633.22 sp|Q30Z99|DXS_DESAG  -               0.14   12.0   0.0      0.56   10.1   0.0   2.1   1   0   0   1   1   1   0 Helix-hairpin-helix motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q30Z99.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q30Z99.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q30Z99.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:49:47 2019
+# [ok]

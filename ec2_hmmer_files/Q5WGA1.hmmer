@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_NucTran2_2      PF13735.5  sp|Q5WGA1|CATNT_BACSK -            5.7e-37  126.9   0.2   1.1e-36  125.9   0.2   1.5   1   0   0   1   1   1   1 tRNA nucleotidyltransferase domain 2 putative
+PolyA_pol            PF01743.19 sp|Q5WGA1|CATNT_BACSK -            2.3e-27   95.8   0.4     2e-14   54.0   0.0   2.4   1   1   1   2   2   2   2 Poly A polymerase head domain
+PolyA_pol_RNAbd      PF12627.6  sp|Q5WGA1|CATNT_BACSK -            6.1e-06   25.8   0.0   1.2e-05   24.9   0.0   1.5   1   0   0   1   1   1   1 Probable RNA and SrmB- binding site of polymerase A
+DUF2204              PF09970.8  sp|Q5WGA1|CATNT_BACSK -             0.0099   15.4   0.1      0.02   14.4   0.1   1.4   1   0   0   1   1   1   1 Nucleotidyl transferase of unknown function (DUF2204)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5WGA1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5WGA1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5WGA1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:56:32 2019
+# [ok]

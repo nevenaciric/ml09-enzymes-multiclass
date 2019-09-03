@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q5WW92|COAE_LEGPL -            4.5e-56  189.2   0.0   5.3e-56  189.0   0.0   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_18               PF13238.5  sp|Q5WW92|COAE_LEGPL -            4.7e-05   23.8   0.0     9e-05   22.9   0.0   1.5   1   1   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|Q5WW92|COAE_LEGPL -              0.022   14.8   0.0      0.28   11.3   0.0   2.4   2   2   0   2   2   2   0 AAA domain
+dNK                  PF01712.18 sp|Q5WW92|COAE_LEGPL -              0.028   14.2   0.1     0.091   12.5   0.0   1.8   2   0   0   2   2   2   0 Deoxynucleoside kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5WW92.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5WW92.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5WW92.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:57:03 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PAS_9                PF13426.6  sp|Q48IV1|LOVHK_PSE14 -            2.6e-19   69.3   0.0     5e-19   68.4   0.0   1.5   1   0   0   1   1   1   1 PAS domain
+Response_reg         PF00072.23 sp|Q48IV1|LOVHK_PSE14 -            5.7e-18   65.0   0.0   1.1e-17   64.1   0.0   1.5   1   0   0   1   1   1   1 Response regulator receiver domain
+HATPase_c            PF02518.25 sp|Q48IV1|LOVHK_PSE14 -            1.2e-14   54.7   0.0   3.5e-14   53.2   0.0   1.8   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+PAS                  PF00989.24 sp|Q48IV1|LOVHK_PSE14 -            9.3e-10   38.4   0.1   2.5e-09   37.0   0.0   1.7   2   0   0   2   2   2   1 PAS fold
+PAS_3                PF08447.11 sp|Q48IV1|LOVHK_PSE14 -            1.8e-09   37.6   0.0   5.2e-09   36.2   0.0   1.8   1   0   0   1   1   1   1 PAS fold
+HisKA                PF00512.24 sp|Q48IV1|LOVHK_PSE14 -              8e-07   28.9   0.1   4.6e-06   26.5   0.0   2.2   2   0   0   2   2   2   1 His Kinase A (phospho-acceptor) domain
+PAS_4                PF08448.9  sp|Q48IV1|LOVHK_PSE14 -            1.5e-05   25.1   0.0   8.3e-05   22.7   0.0   2.1   2   0   0   2   2   2   1 PAS fold
+PAS_8                PF13188.6  sp|Q48IV1|LOVHK_PSE14 -            1.7e-05   24.6   0.0   4.4e-05   23.3   0.0   1.7   1   0   0   1   1   1   1 PAS domain
+SPOB_a               PF14689.5  sp|Q48IV1|LOVHK_PSE14 -              0.025   14.2   0.0     0.059   13.0   0.0   1.6   1   0   0   1   1   1   0 Sensor_kinase_SpoOB-type, alpha-helical domain
+HisKA_4TM            PF16926.4  sp|Q48IV1|LOVHK_PSE14 -               0.12   11.8   0.0      0.21   11.1   0.0   1.3   1   0   0   1   1   1   0 Archaeal 4TM region of histidine kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q48IV1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q48IV1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q48IV1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:14:22 2019
+# [ok]

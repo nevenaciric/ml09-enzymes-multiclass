@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Acetyltransf_11      PF13720.5  sp|Q39F55|LPXA_BURL3 -            2.9e-29  101.3   0.0   4.3e-29  100.7   0.0   1.3   1   0   0   1   1   1   1 Udp N-acetylglucosamine O-acyltransferase; Domain 2
+Hexapep              PF00132.23 sp|Q39F55|LPXA_BURL3 -            1.2e-26   91.3  22.1   7.3e-09   34.9   0.3   6.4   3   2   4   7   7   7   6 Bacterial transferase hexapeptide (six repeats)
+Hexapep_2            PF14602.5  sp|Q39F55|LPXA_BURL3 -            9.7e-05   21.9  10.0      0.04   13.6   0.1   4.9   5   1   0   5   5   5   2 Hexapeptide repeat of succinyl-transferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q39F55.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q39F55.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q39F55.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:55:15 2019
+# [ok]

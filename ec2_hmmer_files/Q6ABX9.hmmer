@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-oxoacid_dh         PF00198.22 sp|Q6ABX9|ODP2_LEIXX -              7e-75  251.4   0.0     1e-74  250.8   0.0   1.1   1   0   0   1   1   1   1 2-oxoacid dehydrogenases acyltransferase (catalytic domain)
+Biotin_lipoyl        PF00364.21 sp|Q6ABX9|ODP2_LEIXX -            5.4e-21   74.1   0.7   1.1e-20   73.1   0.7   1.6   1   0   0   1   1   1   1 Biotin-requiring enzyme
+E3_binding           PF02817.16 sp|Q6ABX9|ODP2_LEIXX -            8.8e-11   41.9   0.6   2.1e-10   40.6   0.6   1.7   1   0   0   1   1   1   1 e3 binding domain
+Biotin_lipoyl_2      PF13533.5  sp|Q6ABX9|ODP2_LEIXX -            1.5e-05   24.6   0.2    0.0045   16.7   0.0   2.5   1   1   1   2   2   2   2 Biotin-lipoyl like
+HlyD_D23             PF16576.4  sp|Q6ABX9|ODP2_LEIXX -             0.0016   17.6   0.1    0.0031   16.7   0.1   1.4   1   0   0   1   1   1   1 Barrel-sandwich domain of CusB or HlyD membrane-fusion
+HlyD_3               PF13437.5  sp|Q6ABX9|ODP2_LEIXX -             0.0064   17.1   2.8     0.035   14.7   0.2   2.5   1   1   1   2   2   2   1 HlyD family secretion protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6ABX9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6ABX9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6ABX9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:10:51 2019
+# [ok]

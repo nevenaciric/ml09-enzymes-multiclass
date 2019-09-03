@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|Q6ARP3|MEND_DESPS -            3.6e-32  111.2   0.4   8.1e-32  110.1   0.1   1.6   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_C         PF02775.20 sp|Q6ARP3|MEND_DESPS -            5.5e-07   29.4   0.0     3e-06   27.0   0.0   2.0   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+TPP_enzyme_M_2       PF16582.4  sp|Q6ARP3|MEND_DESPS -             0.0053   16.4   0.0    0.0076   15.9   0.0   1.2   1   0   0   1   1   1   1 Middle domain of thiamine pyrophosphate
+TPP_enzyme_M         PF00205.21 sp|Q6ARP3|MEND_DESPS -              0.019   14.6   0.0     0.091   12.4   0.0   2.2   1   1   0   1   1   1   0 Thiamine pyrophosphate enzyme, central domain
+DRTGG                PF07085.11 sp|Q6ARP3|MEND_DESPS -               0.09   12.5   0.1       4.1    7.1   0.0   2.4   2   0   0   2   2   2   0 DRTGG domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6ARP3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6ARP3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6ARP3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:11:40 2019
+# [ok]

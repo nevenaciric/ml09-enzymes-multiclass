@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q2S1P1|PNP_SALRD  -            1.4e-45  154.9   0.0   5.5e-24   85.1   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q2S1P1|PNP_SALRD  -              8e-27   93.0   4.2   6.7e-17   61.2   0.1   2.9   3   0   0   3   3   3   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|Q2S1P1|PNP_SALRD  -              1e-13   51.3   1.4     3e-13   49.8   1.4   1.9   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|Q2S1P1|PNP_SALRD  -            1.2e-10   41.0   4.1   5.1e-10   38.9   2.1   2.8   3   0   0   3   3   3   1 KH domain
+PNPase               PF03726.13 sp|Q2S1P1|PNP_SALRD  -            1.6e-07   31.6   0.3   8.7e-07   29.3   0.0   2.4   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_2                 PF07650.16 sp|Q2S1P1|PNP_SALRD  -             0.0047   16.6   0.2     0.013   15.2   0.2   1.8   1   0   0   1   1   1   1 KH domain
+NapD                 PF03927.12 sp|Q2S1P1|PNP_SALRD  -             0.0077   16.2   3.4     0.022   14.7   3.4   1.7   1   0   0   1   1   1   1 NapD protein
+KH_4                 PF13083.5  sp|Q2S1P1|PNP_SALRD  -              0.034   13.9   0.1      0.13   12.0   0.0   1.9   1   1   0   1   1   1   0 KH domain
+BPL_C                PF02237.16 sp|Q2S1P1|PNP_SALRD  -              0.046   13.5   0.1      0.11   12.3   0.1   1.7   1   0   0   1   1   1   0 Biotin protein ligase C terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2S1P1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2S1P1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2S1P1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:44:20 2019
+# [ok]

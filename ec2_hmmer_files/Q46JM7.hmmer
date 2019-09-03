@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q46JM7|PNP_PROMT  -            1.4e-40  138.7   0.0   8.3e-19   68.3   0.0   3.1   3   0   0   3   3   3   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q46JM7|PNP_PROMT  -              5e-23   80.8   0.4     1e-16   60.6   0.0   2.6   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|Q46JM7|PNP_PROMT  -            1.1e-16   60.9   2.1   2.8e-16   59.5   2.1   1.8   1   0   0   1   1   1   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|Q46JM7|PNP_PROMT  -            1.8e-13   50.7   2.5   4.7e-13   49.3   2.5   1.8   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|Q46JM7|PNP_PROMT  -            4.4e-10   39.1   5.2   7.8e-10   38.3   1.2   2.7   2   0   0   2   2   2   1 KH domain
+PCB_OB               PF17092.4  sp|Q46JM7|PNP_PROMT  -             0.0015   19.2   0.0    0.0038   17.9   0.0   1.6   1   0   0   1   1   1   1 Penicillin-binding protein OB-like domain
+KH_4                 PF13083.5  sp|Q46JM7|PNP_PROMT  -              0.013   15.2   0.4      0.59    9.9   0.0   2.7   2   0   0   2   2   2   0 KH domain
+DUF148               PF02520.16 sp|Q46JM7|PNP_PROMT  -              0.068   13.2   0.5      0.15   12.1   0.5   1.6   1   0   0   1   1   1   0 Domain of unknown function DUF148
+GTP_EFTU_D2          PF03144.24 sp|Q46JM7|PNP_PROMT  -               0.37   11.1   4.2       0.8   10.0   0.2   3.0   3   0   0   3   3   3   0 Elongation factor Tu domain 2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q46JM7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q46JM7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q46JM7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:11:13 2019
+# [ok]

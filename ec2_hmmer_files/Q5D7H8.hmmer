@@ -1,0 +1,33 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+zf-C3HC4_4           PF15227.5  sp|Q5D7H8|TRIM5_PLEDO -            4.5e-12   45.8   8.9   4.5e-12   45.8   8.9   2.0   2   0   0   2   2   1   1 zinc finger of C3HC4-type, RING
+zf-RING_UBOX         PF13445.5  sp|Q5D7H8|TRIM5_PLEDO -            2.1e-11   43.5   7.5   6.1e-11   42.1   7.5   1.9   1   0   0   1   1   1   1 RING-type zinc-finger
+SPRY                 PF00622.27 sp|Q5D7H8|TRIM5_PLEDO -            4.7e-10   39.5   0.2   1.1e-09   38.3   0.2   1.6   1   0   0   1   1   1   1 SPRY domain
+zf-C3HC4             PF00097.24 sp|Q5D7H8|TRIM5_PLEDO -            2.5e-09   36.8   9.3   6.4e-09   35.4   9.3   1.8   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-B_box             PF00643.23 sp|Q5D7H8|TRIM5_PLEDO -            3.5e-08   33.4   1.8   3.5e-08   33.4   1.8   2.9   2   1   0   2   2   2   2 B-box zinc finger
+zf-C3HC4_2           PF13923.5  sp|Q5D7H8|TRIM5_PLEDO -            4.3e-08   32.8   9.6   1.1e-07   31.5   9.6   1.8   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_2            PF13639.5  sp|Q5D7H8|TRIM5_PLEDO -            1.7e-07   31.3   9.0   1.7e-07   31.3   9.0   1.9   2   0   0   2   2   1   1 Ring finger domain
+zf-C3HC4_3           PF13920.5  sp|Q5D7H8|TRIM5_PLEDO -              9e-07   28.6   5.9     9e-07   28.6   5.9   2.1   2   0   0   2   2   2   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_5            PF14634.5  sp|Q5D7H8|TRIM5_PLEDO -            5.6e-06   26.1   7.2   5.6e-06   26.1   7.2   2.3   2   0   0   2   2   2   1 zinc-RING finger domain
+U-box                PF04564.14 sp|Q5D7H8|TRIM5_PLEDO -            0.00017   21.6   0.0   0.00035   20.6   0.0   1.5   1   0   0   1   1   1   1 U-box domain
+zf-RING_10           PF16685.4  sp|Q5D7H8|TRIM5_PLEDO -             0.0072   16.4   4.1    0.0072   16.4   4.1   2.5   2   0   0   2   2   2   1 zinc RING finger of MSL2
+Asp1                 PF16993.4  sp|Q5D7H8|TRIM5_PLEDO -              0.012   14.8   1.9     0.019   14.1   1.9   1.2   1   0   0   1   1   1   0 Accessory Sec system protein Asp1
+zf-RING_6            PF14835.5  sp|Q5D7H8|TRIM5_PLEDO -              0.025   14.4   2.0     0.059   13.2   2.0   1.7   1   0   0   1   1   1   0 zf-RING of BARD1-type protein
+Baculo_IE-1          PF05290.10 sp|Q5D7H8|TRIM5_PLEDO -               0.05   13.5   0.7      0.05   13.5   0.7   2.5   2   0   0   2   2   2   0 Baculovirus immediate-early protein (IE-0)
+PRY                  PF13765.5  sp|Q5D7H8|TRIM5_PLEDO -               0.12   11.9   0.1      0.73    9.4   0.0   2.2   1   1   1   2   2   2   0 SPRY-associated domain
+zf-Nse               PF11789.7  sp|Q5D7H8|TRIM5_PLEDO -               0.18   11.5   4.8       0.5   10.1   4.8   1.8   1   0   0   1   1   1   0 Zinc-finger of the MIZ type in Nse subunit
+zf-RING_4            PF14570.5  sp|Q5D7H8|TRIM5_PLEDO -               0.26   11.0   6.9       2.6    7.8   7.3   2.5   1   1   1   2   2   2   0 RING/Ubox like zinc-binding domain
+Prok-RING_4          PF14447.5  sp|Q5D7H8|TRIM5_PLEDO -                1.7    8.4  17.1      0.72    9.7  11.7   2.9   2   1   1   3   3   3   0 Prokaryotic RING finger family 4
+Enkurin              PF13864.5  sp|Q5D7H8|TRIM5_PLEDO -                4.2    7.8   9.3        31    5.0   9.3   2.2   1   1   0   1   1   1   0 Calmodulin-binding
+zf-rbx1              PF12678.6  sp|Q5D7H8|TRIM5_PLEDO -                  5    7.4  15.0      0.48   10.7   9.1   2.4   2   1   0   2   2   2   0 RING-H2 zinc finger domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5D7H8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5D7H8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5D7H8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:37:57 2019
+# [ok]

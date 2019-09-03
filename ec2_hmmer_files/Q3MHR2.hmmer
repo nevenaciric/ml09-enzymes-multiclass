@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+dNK                  PF01712.18 sp|Q3MHR2|DCK_BOVIN  -            4.6e-77  258.4   0.5   5.2e-77  258.2   0.5   1.0   1   0   0   1   1   1   1 Deoxynucleoside kinase
+Thymidylate_kin      PF02223.16 sp|Q3MHR2|DCK_BOVIN  -            0.00038   20.1   0.0     0.026   14.1   0.0   2.3   2   0   0   2   2   2   1 Thymidylate kinase
+AAA_18               PF13238.5  sp|Q3MHR2|DCK_BOVIN  -             0.0012   19.3   0.1     0.041   14.3   0.1   2.5   1   1   0   1   1   1   1 AAA domain
+AAA_28               PF13521.5  sp|Q3MHR2|DCK_BOVIN  -             0.0042   17.3   0.0    0.0096   16.1   0.0   1.6   1   1   0   1   1   1   1 AAA domain
+DUF932               PF06067.10 sp|Q3MHR2|DCK_BOVIN  -                0.1   12.2   0.0      0.19   11.4   0.0   1.5   1   1   0   1   1   1   0 Domain of unknown function (DUF932)
+CoaE                 PF01121.19 sp|Q3MHR2|DCK_BOVIN  -               0.17   11.4   0.0       0.3   10.6   0.0   1.4   1   0   0   1   1   1   0 Dephospho-CoA kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3MHR2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3MHR2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3MHR2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:04:50 2019
+# [ok]

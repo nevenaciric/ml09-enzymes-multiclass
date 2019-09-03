@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q3SGD0|COAE_THIDA -            3.1e-59  199.5   0.0   3.6e-59  199.3   0.0   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_33               PF13671.5  sp|Q3SGD0|COAE_THIDA -              0.001   19.1   0.0    0.0083   16.2   0.0   2.2   1   1   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|Q3SGD0|COAE_THIDA -              0.031   14.7   0.0     0.087   13.2   0.0   1.9   1   1   0   1   1   1   0 AAA domain
+AAA_28               PF13521.5  sp|Q3SGD0|COAE_THIDA -              0.045   13.9   0.1     0.084   13.0   0.1   1.5   1   0   0   1   1   1   0 AAA domain
+Transketolase_C      PF02780.19 sp|Q3SGD0|COAE_THIDA -              0.048   13.4   0.1       5.7    6.8   0.0   3.0   3   1   1   4   4   4   0 Transketolase, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3SGD0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3SGD0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3SGD0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:05:03 2019
+# [ok]

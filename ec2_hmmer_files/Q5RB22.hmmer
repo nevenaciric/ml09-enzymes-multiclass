@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q5RB22|ERBB3_PONAB -            6.6e-78  261.5   0.0   9.5e-78  261.0   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Recep_L_domain       PF01030.23 sp|Q5RB22|ERBB3_PONAB -            2.8e-62  207.7   0.4   4.6e-30  103.9   0.0   2.4   2   0   0   2   2   2   2 Receptor L domain
+GF_recep_IV          PF14843.5  sp|Q5RB22|ERBB3_PONAB -            3.1e-54  182.2  80.3   2.2e-48  163.3  29.0   4.5   2   1   0   2   2   2   2 Growth factor receptor domain IV
+Furin-like           PF00757.19 sp|Q5RB22|ERBB3_PONAB -            1.5e-35  122.2  90.3     3e-31  108.2  36.7   4.8   3   1   2   5   5   5   3 Furin-like cysteine rich region
+Pkinase              PF00069.24 sp|Q5RB22|ERBB3_PONAB -            6.2e-33  114.2   0.0     1e-32  113.5   0.0   1.3   1   0   0   1   1   1   1 Protein kinase domain
+Kinase-like          PF14531.5  sp|Q5RB22|ERBB3_PONAB -              0.021   14.0   0.0     0.046   12.9   0.0   1.5   1   0   0   1   1   1   0 Kinase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5RB22.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5RB22.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5RB22.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:53:34 2019
+# [ok]

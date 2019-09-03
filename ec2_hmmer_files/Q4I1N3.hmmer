@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-sulfurylase      PF01747.16 sp|Q4I1N3|MET3_GIBZE -            6.6e-86  287.1   0.1     1e-85  286.4   0.1   1.2   1   0   0   1   1   1   1 ATP-sulfurylase
+APS_kinase           PF01583.19 sp|Q4I1N3|MET3_GIBZE -            2.5e-58  196.3   0.0   4.1e-58  195.6   0.0   1.3   1   0   0   1   1   1   1 Adenylylsulphate kinase
+PUA_2                PF14306.5  sp|Q4I1N3|MET3_GIBZE -            1.2e-54  184.2   0.0   1.9e-54  183.6   0.0   1.3   1   0   0   1   1   1   1 PUA-like domain
+AAA_33               PF13671.5  sp|Q4I1N3|MET3_GIBZE -              0.038   14.0   0.0     0.091   12.8   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+AAA_18               PF13238.5  sp|Q4I1N3|MET3_GIBZE -               0.16   12.4   0.0      0.34   11.3   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q4I1N3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q4I1N3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q4I1N3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:17:58 2019
+# [ok]

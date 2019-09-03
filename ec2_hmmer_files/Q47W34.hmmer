@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+G3P_acyltransf       PF02660.14 sp|Q47W34|PLSY_COLP3 -            6.9e-47  159.4  10.0   8.1e-47  159.2  10.0   1.0   1   0   0   1   1   1   1 Glycerol-3-phosphate acyltransferase
+Peptidase_U4         PF03419.12 sp|Q47W34|PLSY_COLP3 -                3.5    6.7  13.8     0.053   12.7   7.0   1.5   2   0   0   2   2   2   0 Sporulation factor SpoIIGA
+COX4_pro_2           PF07835.11 sp|Q47W34|PLSY_COLP3 -                5.3    7.1   7.9      0.32   11.0   0.5   2.7   3   0   0   3   3   3   0 Bacterial aa3 type cytochrome c oxidase subunit IV
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q47W34.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q47W34.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q47W34.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:13:13 2019
+# [ok]

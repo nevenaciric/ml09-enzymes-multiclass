@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q4JIM5|ABL2_MOUSE -            4.7e-97  324.2   0.0   7.7e-97  323.5   0.0   1.4   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q4JIM5|ABL2_MOUSE -            4.4e-46  157.3   0.0   7.7e-46  156.5   0.0   1.3   1   0   0   1   1   1   1 Protein kinase domain
+F_actin_bind         PF08919.9  sp|Q4JIM5|ABL2_MOUSE -            2.1e-27   95.3   0.0   3.9e-27   94.4   0.0   1.5   1   0   0   1   1   1   1 F-actin binding
+SH2                  PF00017.23 sp|Q4JIM5|ABL2_MOUSE -            4.9e-24   84.1   0.2     1e-23   83.1   0.2   1.6   1   0   0   1   1   1   1 SH2 domain
+SH3_1                PF00018.27 sp|Q4JIM5|ABL2_MOUSE -            3.7e-12   45.6   0.0   6.7e-12   44.7   0.0   1.5   1   0   0   1   1   1   1 SH3 domain
+SH3_9                PF14604.5  sp|Q4JIM5|ABL2_MOUSE -            4.7e-07   29.4   0.0   9.5e-07   28.5   0.0   1.6   1   0   0   1   1   1   1 Variant SH3 domain
+SH3_2                PF07653.16 sp|Q4JIM5|ABL2_MOUSE -            4.8e-07   29.3   0.0   9.6e-07   28.3   0.0   1.5   1   0   0   1   1   1   1 Variant SH3 domain
+SH3_3                PF08239.10 sp|Q4JIM5|ABL2_MOUSE -            2.9e-05   24.1   0.7   8.6e-05   22.6   0.7   1.8   1   0   0   1   1   1   1 Bacterial SH3 domain
+Haspin_kinase        PF12330.7  sp|Q4JIM5|ABL2_MOUSE -             0.0046   15.8   0.0    0.0083   15.0   0.0   1.3   1   0   0   1   1   1   1 Haspin like kinase domain
+SH3_6                PF12913.6  sp|Q4JIM5|ABL2_MOUSE -              0.056   12.9   0.0      0.12   11.8   0.0   1.5   1   0   0   1   1   1   0 SH3 domain (SH3b1 type)
+RGS12_us1            PF16613.4  sp|Q4JIM5|ABL2_MOUSE -               0.13   12.5   2.1      0.37   11.0   2.1   1.8   1   0   0   1   1   1   0 Unstructured region of RGS12
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q4JIM5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q4JIM5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q4JIM5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:18:29 2019
+# [ok]

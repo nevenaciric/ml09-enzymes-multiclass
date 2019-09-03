@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|Q5HR29|SAES_STAEQ -            2.7e-23   82.6   0.1     6e-23   81.5   0.1   1.6   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HisKA                PF00512.24 sp|Q5HR29|SAES_STAEQ -            1.3e-10   41.0   0.1   5.2e-10   39.1   0.1   2.0   2   0   0   2   2   2   1 His Kinase A (phospho-acceptor) domain
+HATPase_c_3          PF13589.5  sp|Q5HR29|SAES_STAEQ -             0.0009   19.0   0.0    0.0018   18.0   0.0   1.5   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HATPase_c_5          PF14501.5  sp|Q5HR29|SAES_STAEQ -             0.0024   17.6   2.1    0.0027   17.5   0.1   2.1   2   0   0   2   2   2   1 GHKL domain
+Nsp1_C               PF05064.12 sp|Q5HR29|SAES_STAEQ -              0.015   15.0   4.5      0.48   10.2   0.7   2.3   2   0   0   2   2   2   0 Nsp1-like C-terminal region
+DUF2070              PF09843.8  sp|Q5HR29|SAES_STAEQ -              0.064   11.4   2.1     0.085   11.0   2.1   1.1   1   0   0   1   1   1   0 Predicted membrane protein (DUF2070)
+Peptidase_M48_N      PF16491.4  sp|Q5HR29|SAES_STAEQ -                0.3   10.9   7.1      0.53   10.1   7.1   1.4   1   0   0   1   1   1   0 CAAX prenyl protease N-terminal, five membrane helices
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5HR29.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5HR29.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5HR29.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:44:01 2019
+# [ok]

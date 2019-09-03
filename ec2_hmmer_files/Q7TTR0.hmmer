@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|Q7TTR0|MNMA_PROMM -           2.4e-106  355.4   0.0    3e-106  355.1   0.0   1.1   1   0   0   1   1   1   1 tRNA methyl transferase
+NAD_synthase         PF02540.16 sp|Q7TTR0|MNMA_PROMM -            2.6e-05   23.4   0.0   5.7e-05   22.3   0.0   1.5   2   0   0   2   2   2   1 NAD synthase
+Asn_synthase         PF00733.20 sp|Q7TTR0|MNMA_PROMM -             0.0089   15.6   0.1     0.018   14.6   0.0   1.5   1   1   0   1   1   1   1 Asparagine synthase
+QueC                 PF06508.12 sp|Q7TTR0|MNMA_PROMM -              0.024   14.0   0.0      0.95    8.8   0.0   2.3   2   0   0   2   2   2   0 Queuosine biosynthesis protein QueC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q7TTR0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q7TTR0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q7TTR0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:41:56 2019
+# [ok]

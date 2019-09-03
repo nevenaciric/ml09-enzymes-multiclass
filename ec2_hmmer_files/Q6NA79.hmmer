@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|Q6NA79|MNMA_RHOPA -           9.8e-109  363.3   0.0  1.1e-108  363.1   0.0   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+Asn_synthase         PF00733.20 sp|Q6NA79|MNMA_RHOPA -            5.8e-06   26.1   0.1     9e-06   25.5   0.1   1.2   1   0   0   1   1   1   1 Asparagine synthase
+QueC                 PF06508.12 sp|Q6NA79|MNMA_RHOPA -            4.5e-05   23.0   0.0    0.0002   20.8   0.0   2.0   1   1   0   1   1   1   1 Queuosine biosynthesis protein QueC
+NAD_synthase         PF02540.16 sp|Q6NA79|MNMA_RHOPA -             0.0015   17.6   0.0     0.015   14.4   0.1   2.2   2   1   0   2   2   2   1 NAD synthase
+Arginosuc_synth      PF00764.18 sp|Q6NA79|MNMA_RHOPA -              0.019   14.1   0.1     0.037   13.2   0.1   1.4   1   1   0   1   1   1   0 Arginosuccinate synthase
+ATP_bind_3           PF01171.19 sp|Q6NA79|MNMA_RHOPA -              0.052   13.2   0.2      0.12   12.0   0.2   1.7   1   1   0   1   1   1   0 PP-loop family
+ThiI                 PF02568.13 sp|Q6NA79|MNMA_RHOPA -               0.16   11.4   0.1      0.28   10.6   0.1   1.5   1   1   0   1   1   1   0 Thiamine biosynthesis protein (ThiI)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6NA79.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6NA79.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6NA79.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:24:38 2019
+# [ok]

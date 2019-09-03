@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_A_CTD        PF03118.14 sp|Q60F88|RPOA_TAKLE -            5.3e-23   80.5   0.1   1.1e-22   79.4   0.1   1.6   1   0   0   1   1   1   1 Bacterial RNA polymerase, alpha chain C terminal domain
+RNA_pol_A_bac        PF01000.25 sp|Q60F88|RPOA_TAKLE -            1.6e-14   54.1   0.0   3.7e-14   52.9   0.0   1.6   1   0   0   1   1   1   1 RNA polymerase Rpb3/RpoA insert domain
+RNA_pol_L            PF01193.23 sp|Q60F88|RPOA_TAKLE -            6.1e-12   44.7   0.0     1e-11   44.0   0.0   1.4   1   0   0   1   1   1   1 RNA polymerase Rpb3/Rpb11 dimerisation domain
+HHH_5                PF14520.5  sp|Q60F88|RPOA_TAKLE -            1.8e-05   25.1   0.0   0.00013   22.4   0.0   2.3   2   0   0   2   2   2   1 Helix-hairpin-helix domain
+WSN                  PF02206.17 sp|Q60F88|RPOA_TAKLE -             0.0028   17.4   0.9      0.59   10.0   0.1   2.7   2   0   0   2   2   2   2 Domain of unknown function
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q60F88.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q60F88.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q60F88.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:01:29 2019
+# [ok]

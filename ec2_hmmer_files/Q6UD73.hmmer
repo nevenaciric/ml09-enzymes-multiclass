@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q6UD73|LYK3_MEDTR -            3.9e-43  147.5   0.0   6.6e-43  146.8   0.0   1.4   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q6UD73|LYK3_MEDTR -            4.3e-41  140.9   0.0   6.8e-41  140.3   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+LysM                 PF01476.19 sp|Q6UD73|LYK3_MEDTR -            3.2e-05   23.8   0.4      0.28   11.2   0.0   2.7   2   0   0   2   2   2   2 LysM domain
+RIC3                 PF15361.5  sp|Q6UD73|LYK3_MEDTR -              0.017   15.4   0.1       0.2   11.9   0.0   2.3   2   0   0   2   2   2   0 Resistance to inhibitors of cholinesterase homologue 3
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6UD73.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6UD73.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6UD73.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:27:02 2019
+# [ok]

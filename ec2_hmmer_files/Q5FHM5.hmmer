@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_C       PF08544.12 sp|Q5FHM5|ISPE_EHRRG -            6.7e-07   29.5   0.0   1.7e-06   28.2   0.0   1.6   1   0   0   1   1   1   1 GHMP kinases C terminal
+GHMP_kinases_N       PF00288.25 sp|Q5FHM5|ISPE_EHRRG -            0.00017   21.6   0.1   0.00036   20.6   0.1   1.5   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+YrvL                 PF14184.5  sp|Q5FHM5|ISPE_EHRRG -             0.0045   17.0   0.4    0.0082   16.2   0.4   1.4   1   0   0   1   1   1   1 Regulatory protein YrvL
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5FHM5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5FHM5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5FHM5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:40:14 2019
+# [ok]

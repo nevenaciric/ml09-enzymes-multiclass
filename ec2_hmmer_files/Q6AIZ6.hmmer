@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|Q6AIZ6|MNMA_DESPS -           1.8e-102  342.7   0.2  2.1e-102  342.4   0.2   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+NAD_synthase         PF02540.16 sp|Q6AIZ6|MNMA_DESPS -             0.0049   15.9   0.0    0.0097   14.9   0.0   1.4   1   0   0   1   1   1   1 NAD synthase
+ATP_bind_3           PF01171.19 sp|Q6AIZ6|MNMA_DESPS -             0.0069   16.1   0.0     0.038   13.7   0.0   2.1   1   1   0   1   1   1   1 PP-loop family
+Thioredoxin_6        PF13848.5  sp|Q6AIZ6|MNMA_DESPS -              0.012   15.5   0.1     0.024   14.5   0.1   1.4   1   0   0   1   1   1   0 Thioredoxin-like domain
+QueC                 PF06508.12 sp|Q6AIZ6|MNMA_DESPS -              0.037   13.4   0.0     0.073   12.5   0.0   1.4   1   0   0   1   1   1   0 Queuosine biosynthesis protein QueC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6AIZ6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6AIZ6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6AIZ6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:11:14 2019
+# [ok]

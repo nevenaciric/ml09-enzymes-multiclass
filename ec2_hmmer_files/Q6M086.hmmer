@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q6M086|PYRH_METMP -            2.9e-29  102.3   3.8   1.5e-28   99.9   3.8   1.8   1   1   0   1   1   1   1 Amino acid kinase family
+B12-binding          PF02310.18 sp|Q6M086|PYRH_METMP -              0.042   13.8   0.1       4.7    7.2   0.0   2.3   2   0   0   2   2   2   0 B12 binding domain
+Pyr_redox            PF00070.26 sp|Q6M086|PYRH_METMP -              0.085   13.3   0.3       0.6   10.6   0.1   2.3   2   1   0   2   2   2   0 Pyridine nucleotide-disulphide oxidoreductase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6M086.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6M086.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6M086.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:23:20 2019
+# [ok]

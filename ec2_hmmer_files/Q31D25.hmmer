@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|Q31D25|NADK1_PROM9 -            2.1e-49  168.2   0.0   2.5e-49  168.0   0.0   1.0   1   0   0   1   1   1   1 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|Q31D25|NADK1_PROM9 -             0.0021   17.6   0.0    0.0037   16.8   0.0   1.4   1   0   0   1   1   1   1 Diacylglycerol kinase catalytic domain
+Polysacc_lyase       PF14099.5  sp|Q31D25|NADK1_PROM9 -                0.1   12.5   0.0      0.43   10.5   0.1   1.9   2   1   0   2   2   2   0 Polysaccharide lyase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q31D25.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q31D25.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q31D25.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:50:26 2019
+# [ok]

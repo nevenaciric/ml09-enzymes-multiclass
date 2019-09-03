@@ -1,0 +1,34 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q61772|EPHA7_MOUSE -            1.8e-97  325.6   0.0   2.8e-97  325.0   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+Ephrin_lbd           PF01404.18 sp|Q61772|EPHA7_MOUSE -            5.6e-71  238.2   0.1     1e-70  237.3   0.1   1.4   1   0   0   1   1   1   1 Ephrin receptor ligand binding domain
+Pkinase              PF00069.24 sp|Q61772|EPHA7_MOUSE -            2.2e-46  158.3   0.0   3.6e-46  157.6   0.0   1.3   1   0   0   1   1   1   1 Protein kinase domain
+fn3                  PF00041.20 sp|Q61772|EPHA7_MOUSE -            2.7e-31  107.7   4.5   5.5e-16   58.6   1.4   3.5   3   0   0   3   3   3   2 Fibronectin type III domain
+SAM_1                PF00536.29 sp|Q61772|EPHA7_MOUSE -            3.1e-22   78.7   0.0   5.7e-22   77.8   0.0   1.5   1   0   0   1   1   1   1 SAM domain (Sterile alpha motif)
+SAM_2                PF07647.16 sp|Q61772|EPHA7_MOUSE -              1e-20   73.5   0.0     2e-20   72.6   0.0   1.5   1   0   0   1   1   1   1 SAM domain (Sterile alpha motif)
+EphA2_TM             PF14575.5  sp|Q61772|EPHA7_MOUSE -            1.7e-20   73.5   0.0     4e-20   72.3   0.0   1.6   1   0   0   1   1   1   1 Ephrin type-A receptor 2 transmembrane domain
+Pur_ac_phosph_N      PF16656.4  sp|Q61772|EPHA7_MOUSE -            0.00014   22.3   2.6   0.00051   20.5   0.7   2.6   2   1   0   2   2   2   1 Purple acid Phosphatase, N-terminal domain
+Ephrin_rec_like      PF07699.12 sp|Q61772|EPHA7_MOUSE -            0.00046   19.8   9.1   0.00046   19.8   9.1   3.1   2   1   1   3   3   3   1 Putative ephrin-receptor like
+Tissue_fac           PF01108.16 sp|Q61772|EPHA7_MOUSE -             0.0019   17.9   0.3      0.13   12.0   0.0   2.6   2   0   0   2   2   2   1 Tissue factor
+fn3_2                PF16893.4  sp|Q61772|EPHA7_MOUSE -             0.0035   17.4   1.1       1.5    8.9   0.0   2.5   2   0   0   2   2   2   2 Fibronectin type III domain
+DUF2318              PF10080.8  sp|Q61772|EPHA7_MOUSE -             0.0045   17.0   1.6     0.015   15.3   1.6   1.8   1   0   0   1   1   1   1 Predicted membrane protein (DUF2318)
+Haspin_kinase        PF12330.7  sp|Q61772|EPHA7_MOUSE -              0.011   14.5   0.0     0.021   13.7   0.0   1.3   1   0   0   1   1   1   0 Haspin like kinase domain
+Interfer-bind        PF09294.9  sp|Q61772|EPHA7_MOUSE -              0.012   15.8   0.2      0.25   11.6   0.1   2.7   3   0   0   3   3   3   0 Interferon-alpha/beta receptor, fibronectin type III
+Y_Y_Y                PF07495.12 sp|Q61772|EPHA7_MOUSE -              0.016   15.1   0.4      0.33   10.8   0.6   2.5   2   0   0   2   2   2   0 Y_Y_Y domain
+DUF4998              PF16389.4  sp|Q61772|EPHA7_MOUSE -              0.021   14.3   0.0     0.045   13.2   0.0   1.5   1   0   0   1   1   1   0 Domain of unknown function
+SusE                 PF14292.5  sp|Q61772|EPHA7_MOUSE -              0.067   13.5   0.1        14    6.0   0.1   2.5   2   0   0   2   2   2   0 SusE outer membrane protein
+Kdo                  PF06293.13 sp|Q61772|EPHA7_MOUSE -               0.13   11.5   0.0      0.24   10.7   0.0   1.3   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+EGF_MSP1_1           PF12946.6  sp|Q61772|EPHA7_MOUSE -                3.5    7.7   9.2      0.35   10.9   1.7   2.5   2   0   0   2   2   2   0 MSP1 EGF domain 1
+cEGF                 PF12662.6  sp|Q61772|EPHA7_MOUSE -                4.8    7.1  10.2       4.4    7.2   1.6   2.9   2   0   0   2   2   2   0 Complement Clr-like EGF-like
+zinc-ribbon_6        PF10005.8  sp|Q61772|EPHA7_MOUSE -                7.7    7.2   8.3       2.7    8.6   0.1   3.4   3   0   0   3   3   3   0 zinc-ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q61772.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q61772.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q61772.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:01:48 2019
+# [ok]

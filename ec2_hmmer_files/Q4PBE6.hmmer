@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hat1_N               PF10394.8  sp|Q4PBE6|HAT1_USTMA -            6.1e-45  153.2   0.0   1.3e-44  152.2   0.0   1.6   1   0   0   1   1   1   1 Histone acetyl transferase HAT1 N-terminus
+MOZ_SAS              PF01853.17 sp|Q4PBE6|HAT1_USTMA -            3.4e-06   26.7   0.1   7.9e-06   25.5   0.0   1.6   2   0   0   2   2   2   1 MOZ/SAS family
+Acetyltransf_1       PF00583.24 sp|Q4PBE6|HAT1_USTMA -            0.00012   22.2   0.0   0.00022   21.4   0.0   1.4   1   0   0   1   1   1   1 Acetyltransferase (GNAT) family
+Acetyltransf_10      PF13673.6  sp|Q4PBE6|HAT1_USTMA -              0.033   14.0   0.0     0.078   12.8   0.0   1.6   1   0   0   1   1   1   0 Acetyltransferase (GNAT) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q4PBE6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q4PBE6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q4PBE6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:20:52 2019
+# [ok]

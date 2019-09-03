@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|Q3AL87|MNMA_SYNSC -           2.2e-104  349.0   0.0  2.6e-104  348.7   0.0   1.1   1   0   0   1   1   1   1 tRNA methyl transferase
+NAD_synthase         PF02540.16 sp|Q3AL87|MNMA_SYNSC -            1.9e-06   27.1   0.0     3e-06   26.4   0.0   1.2   1   0   0   1   1   1   1 NAD synthase
+Asn_synthase         PF00733.20 sp|Q3AL87|MNMA_SYNSC -             0.0091   15.6   0.1     0.016   14.7   0.1   1.4   1   1   0   1   1   1   1 Asparagine synthase
+QueC                 PF06508.12 sp|Q3AL87|MNMA_SYNSC -              0.031   13.7   0.0     0.061   12.7   0.0   1.5   2   0   0   2   2   2   0 Queuosine biosynthesis protein QueC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3AL87.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3AL87.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3AL87.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:57:29 2019
+# [ok]

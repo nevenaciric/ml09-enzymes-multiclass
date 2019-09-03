@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RrnaAD               PF00398.19 sp|Q47SX4|RSMA_THEFY -            8.8e-46  156.0   0.0   1.1e-45  155.7   0.0   1.0   1   0   0   1   1   1   1 Ribosomal RNA adenine dimethylase
+Methyltransf_25      PF13649.5  sp|Q47SX4|RSMA_THEFY -             0.0011   19.5   0.0     0.002   18.7   0.0   1.4   1   0   0   1   1   1   1 Methyltransferase domain
+Met_10               PF02475.15 sp|Q47SX4|RSMA_THEFY -              0.066   12.9   0.0     0.086   12.5   0.0   1.2   1   0   0   1   1   1   0 Met-10+ like-protein
+Methyltransf_11      PF08241.11 sp|Q47SX4|RSMA_THEFY -              0.076   13.6   0.0      0.14   12.7   0.0   1.4   1   0   0   1   1   1   0 Methyltransferase domain
+DREV                 PF05219.11 sp|Q47SX4|RSMA_THEFY -               0.27   10.2   0.0      0.39    9.7   0.0   1.1   1   0   0   1   1   1   0 DREV methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q47SX4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q47SX4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q47SX4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:13:06 2019
+# [ok]

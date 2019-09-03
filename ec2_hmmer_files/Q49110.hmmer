@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-oxoacid_dh         PF00198.22 sp|Q49110|ODP2_MYCCT -            1.5e-82  276.5   0.6   2.4e-82  275.8   0.6   1.3   1   0   0   1   1   1   1 2-oxoacid dehydrogenases acyltransferase (catalytic domain)
+Biotin_lipoyl        PF00364.21 sp|Q49110|ODP2_MYCCT -            1.4e-19   69.5   6.5   3.5e-19   68.3   6.5   1.6   1   0   0   1   1   1   1 Biotin-requiring enzyme
+E3_binding           PF02817.16 sp|Q49110|ODP2_MYCCT -            1.1e-11   44.7   0.2   2.5e-11   43.6   0.2   1.6   1   0   0   1   1   1   1 e3 binding domain
+Biotin_lipoyl_2      PF13533.5  sp|Q49110|ODP2_MYCCT -            4.8e-11   42.2   5.9   4.2e-05   23.2   0.7   2.5   1   1   1   2   2   2   2 Biotin-lipoyl like
+NQRA                 PF05896.10 sp|Q49110|ODP2_MYCCT -            9.5e-06   25.1   1.8   1.7e-05   24.3   1.8   1.3   1   0   0   1   1   1   1 Na(+)-translocating NADH-quinone reductase subunit A (NQRA)
+RnfC_N               PF13375.5  sp|Q49110|ODP2_MYCCT -            9.8e-05   22.2   1.1   0.00035   20.4   1.1   2.0   1   0   0   1   1   1   1 RnfC Barrel sandwich hybrid domain
+HlyD_3               PF13437.5  sp|Q49110|ODP2_MYCCT -            0.00022   21.8   4.0    0.0095   16.5   0.7   2.6   2   0   0   2   2   2   1 HlyD family secretion protein
+GCV_H                PF01597.18 sp|Q49110|ODP2_MYCCT -             0.0016   18.2   0.6    0.0016   18.2   0.6   2.4   1   1   1   2   2   2   1 Glycine cleavage H-protein
+HlyD_D23             PF16576.4  sp|Q49110|ODP2_MYCCT -             0.0026   16.9   1.5       0.5    9.5   0.2   2.6   1   1   1   2   2   2   2 Barrel-sandwich domain of CusB or HlyD membrane-fusion
+ATP-synt_ab_Xtn      PF16886.4  sp|Q49110|ODP2_MYCCT -              0.015   15.1   0.8      0.04   13.7   0.8   1.7   1   0   0   1   1   1   0 ATPsynthase alpha/beta subunit N-term extension
+DUF896               PF05979.11 sp|Q49110|ODP2_MYCCT -              0.036   13.8   0.4     0.091   12.5   0.4   1.7   1   0   0   1   1   1   0 Bacterial protein of unknown function (DUF896)
+PYNP_C               PF07831.12 sp|Q49110|ODP2_MYCCT -               0.11   12.0   1.4       4.7    6.8   0.1   2.5   1   1   1   2   2   2   0 Pyrimidine nucleoside phosphorylase C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q49110.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q49110.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q49110.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:15:05 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_NucTransf2      PF09249.10 sp|Q4J9A0|CCA_SULAC  -            2.7e-42  143.5   0.0   6.9e-42  142.2   0.0   1.7   1   0   0   1   1   1   1 tRNA nucleotidyltransferase, second domain
+NTP_transf_2         PF01909.22 sp|Q4J9A0|CCA_SULAC  -            5.6e-16   58.5   0.2   1.4e-15   57.2   0.2   1.7   1   0   0   1   1   1   1 Nucleotidyltransferase domain
+DNA_pol_B_palm       PF14792.5  sp|Q4J9A0|CCA_SULAC  -              0.012   15.8   0.0     0.029   14.5   0.0   1.7   1   0   0   1   1   1   0 DNA polymerase beta palm
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q4J9A0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q4J9A0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q4J9A0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:18:16 2019
+# [ok]

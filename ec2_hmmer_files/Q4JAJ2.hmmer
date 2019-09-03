@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DMRL_synthase        PF00885.18 sp|Q4JAJ2|RISB_SULAC -            2.7e-35  121.2   1.1   3.2e-35  120.9   1.1   1.0   1   0   0   1   1   1   1 6,7-dimethyl-8-ribityllumazine synthase
+Metallophos_3        PF14582.5  sp|Q4JAJ2|RISB_SULAC -              0.011   14.9   1.3      0.78    8.9   0.3   2.1   1   1   1   2   2   2   0 Metallophosphoesterase, calcineurin superfamily
+ADSL_C               PF10397.8  sp|Q4JAJ2|RISB_SULAC -              0.015   15.8   0.0     0.037   14.5   0.0   1.6   1   0   0   1   1   1   0 Adenylosuccinate lyase C-terminus
+TM_PBP2_N            PF16296.4  sp|Q4JAJ2|RISB_SULAC -              0.082   12.9   0.2      0.74    9.9   0.0   2.2   2   1   0   2   2   2   0 N-terminal of TM subunit in PBP-dependent ABC transporters
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q4JAJ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q4JAJ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q4JAJ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:18:21 2019
+# [ok]

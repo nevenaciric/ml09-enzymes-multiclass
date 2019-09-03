@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hexokinase_2         PF03727.15 sp|Q5RC71|HXK1_PONAB -           5.8e-176  582.4   0.0     5e-89  297.8   0.1   2.3   2   0   0   2   2   2   2 Hexokinase
+Hexokinase_1         PF00349.20 sp|Q5RC71|HXK1_PONAB -           8.1e-146  482.8   0.3   8.3e-75  251.0   0.0   2.3   2   0   0   2   2   2   2 Hexokinase
+CSD                  PF00313.21 sp|Q5RC71|HXK1_PONAB -               0.02   14.7   0.0      0.84    9.4   0.0   2.5   2   0   0   2   2   2   0 'Cold-shock' DNA-binding domain
+FGGY_N               PF00370.20 sp|Q5RC71|HXK1_PONAB -              0.024   14.1   0.0       4.7    6.6   0.0   2.4   2   0   0   2   2   2   0 FGGY family of carbohydrate kinases, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5RC71.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5RC71.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5RC71.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:53:41 2019
+# [ok]

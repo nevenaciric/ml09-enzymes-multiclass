@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PolyA_pol            PF01743.19 sp|Q5QY23|CCA_IDILO  -            2.4e-18   66.7   0.2   1.4e-17   64.2   0.0   2.4   3   0   0   3   3   3   1 Poly A polymerase head domain
+PolyA_pol_RNAbd      PF12627.6  sp|Q5QY23|CCA_IDILO  -              1e-10   41.1   1.7   2.1e-10   40.1   0.0   2.3   3   0   0   3   3   3   1 Probable RNA and SrmB- binding site of polymerase A
+Rox3                 PF08633.9  sp|Q5QY23|CCA_IDILO  -              0.028   14.6   1.6     0.035   14.3   0.5   1.7   2   0   0   2   2   2   0 Rox3 mediator complex subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5QY23.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5QY23.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5QY23.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:52:28 2019
+# [ok]

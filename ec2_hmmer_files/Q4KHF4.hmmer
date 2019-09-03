@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IspD                 PF01128.18 sp|Q4KHF4|ISPD_PSEF5 -            1.3e-63  214.6   0.0   1.6e-63  214.3   0.0   1.0   1   0   0   1   1   1   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+NTP_transf_3         PF12804.6  sp|Q4KHF4|ISPD_PSEF5 -            1.4e-09   38.4   2.4   1.7e-09   38.1   2.4   1.2   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+DUF2145              PF09916.8  sp|Q4KHF4|ISPD_PSEF5 -             0.0062   16.1   0.0    0.0094   15.5   0.0   1.2   1   0   0   1   1   1   1 Uncharacterized protein conserved in bacteria (DUF2145)
+BPS                  PF08947.9  sp|Q4KHF4|ISPD_PSEF5 -               0.16   11.7   0.6      0.32   10.7   0.6   1.5   1   0   0   1   1   1   0 BPS (Between PH and SH2)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q4KHF4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q4KHF4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q4KHF4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:19:33 2019
+# [ok]

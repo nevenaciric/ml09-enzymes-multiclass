@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PdxJ                 PF03740.12 sp|Q7U7S1|PDXJ_SYNPX -            2.6e-99  331.0   1.2   2.9e-99  330.9   1.2   1.0   1   0   0   1   1   1   1 Pyridoxal phosphate biosynthesis protein PdxJ
+DUF4530              PF15039.5  sp|Q7U7S1|PDXJ_SYNPX -             0.0032   17.5   0.1    0.0064   16.5   0.1   1.5   1   0   0   1   1   1   1 Domain of unknown function (DUF4530)
+CwsA                 PF10814.7  sp|Q7U7S1|PDXJ_SYNPX -              0.046   13.8   0.3      0.66   10.0   0.1   2.4   2   0   0   2   2   2   0 Cell wall synthesis protein CwsA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q7U7S1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q7U7S1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q7U7S1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:43:04 2019
+# [ok]

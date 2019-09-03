@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q56764|COAE_XANCP -            6.2e-59  198.6   0.1   7.5e-59  198.3   0.1   1.1   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_33               PF13671.5  sp|Q56764|COAE_XANCP -             0.0011   19.1   1.7    0.0075   16.3   0.5   2.6   1   1   1   2   2   2   1 AAA domain
+AAA_28               PF13521.5  sp|Q56764|COAE_XANCP -              0.036   14.2   2.6       1.1    9.4   2.6   2.8   1   1   0   1   1   1   0 AAA domain
+CwsA                 PF10814.7  sp|Q56764|COAE_XANCP -               0.46   10.6   6.3      0.14   12.2   3.3   1.7   2   0   0   2   2   2   0 Cell wall synthesis protein CwsA
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q56764.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q56764.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q56764.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:32:35 2019
+# [ok]

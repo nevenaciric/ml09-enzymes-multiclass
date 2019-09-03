@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|Q6GMV2|SMYD5_HUMAN -              6e-13   49.4   0.0   1.8e-12   47.9   0.0   1.8   1   1   0   1   1   1   1 SET domain
+zf-MYND              PF01753.17 sp|Q6GMV2|SMYD5_HUMAN -             0.0023   17.9  10.0    0.0023   17.9  10.0   2.9   2   2   0   2   2   2   1 MYND finger
+IcmF-related         PF06761.11 sp|Q6GMV2|SMYD5_HUMAN -               0.18   11.2   0.0      0.26   10.6   0.0   1.2   1   0   0   1   1   1   0 Intracellular multiplication and human macrophage-killing
+zf-HIT               PF04438.15 sp|Q6GMV2|SMYD5_HUMAN -                4.3    7.2  13.4     0.059   13.2   3.6   2.6   2   0   0   2   2   2   0 HIT zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6GMV2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6GMV2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6GMV2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:20:01 2019
+# [ok]

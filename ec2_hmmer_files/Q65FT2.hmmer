@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|Q65FT2|MEND_BACLD -            2.2e-37  128.2   0.2   6.6e-37  126.6   0.2   1.8   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_M_2       PF16582.4  sp|Q65FT2|MEND_BACLD -            6.3e-15   55.3   0.0   9.4e-15   54.8   0.0   1.2   1   0   0   1   1   1   1 Middle domain of thiamine pyrophosphate
+TPP_enzyme_C         PF02775.20 sp|Q65FT2|MEND_BACLD -            1.1e-08   34.8   0.0   3.6e-07   30.0   0.0   2.3   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+DnaG_DnaB_bind       PF08278.10 sp|Q65FT2|MEND_BACLD -              0.013   16.0   0.0     0.035   14.6   0.0   1.7   1   0   0   1   1   1   0 DNA primase DnaG DnaB-binding
+TPP_enzyme_M         PF00205.21 sp|Q65FT2|MEND_BACLD -               0.15   11.7   0.0       1.6    8.4   0.0   2.3   2   0   0   2   2   2   0 Thiamine pyrophosphate enzyme, central domain
+Asp_Glu_race         PF01177.21 sp|Q65FT2|MEND_BACLD -               0.17   11.6   0.0      0.39   10.4   0.0   1.6   1   0   0   1   1   1   0 Asp/Glu/Hydantoin racemase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q65FT2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q65FT2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q65FT2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:05:43 2019
+# [ok]

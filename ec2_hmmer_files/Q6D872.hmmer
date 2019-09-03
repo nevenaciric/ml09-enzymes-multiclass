@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|Q6D872|AROL_PECAS -            7.8e-49  165.7   0.0   8.8e-49  165.6   0.0   1.0   1   0   0   1   1   1   1 Shikimate kinase
+AAA_18               PF13238.5  sp|Q6D872|AROL_PECAS -            4.8e-09   36.7   0.0   7.7e-09   36.1   0.0   1.4   1   0   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|Q6D872|AROL_PECAS -            7.1e-09   35.9   0.3   6.5e-08   32.7   0.3   2.1   1   1   0   1   1   1   1 AAA domain
+Cytidylate_kin2      PF13189.5  sp|Q6D872|AROL_PECAS -            1.8e-07   31.4   0.1   7.7e-05   22.8   0.0   2.4   1   1   0   2   2   2   1 Cytidylate kinase-like family
+AAA_17               PF13207.5  sp|Q6D872|AROL_PECAS -            7.5e-05   23.1   0.1   0.00069   20.0   0.1   2.2   1   1   0   1   1   1   1 AAA domain
+Cytidylate_kin       PF02224.17 sp|Q6D872|AROL_PECAS -            0.00027   20.7   0.3    0.0048   16.5   0.0   2.2   1   1   1   2   2   2   1 Cytidylate kinase
+RNA_helicase         PF00910.21 sp|Q6D872|AROL_PECAS -            0.00027   21.2   0.0   0.00065   20.0   0.0   1.6   2   0   0   2   2   2   1 RNA helicase
+AAA_5                PF07728.13 sp|Q6D872|AROL_PECAS -            0.00048   20.1   0.0   0.00086   19.2   0.0   1.5   1   1   0   1   1   1   1 AAA domain (dynein-related subfamily)
+AAA                  PF00004.28 sp|Q6D872|AROL_PECAS -            0.00077   19.8   0.0   0.00094   19.5   0.0   1.7   1   1   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+AAA_28               PF13521.5  sp|Q6D872|AROL_PECAS -             0.0012   19.0   1.2    0.0057   16.8   1.2   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_14               PF13173.5  sp|Q6D872|AROL_PECAS -             0.0023   17.8   0.0    0.0045   16.9   0.0   1.5   1   0   0   1   1   1   1 AAA domain
+tRNA_lig_kinase      PF08303.10 sp|Q6D872|AROL_PECAS -             0.0033   17.4   0.0     0.091   12.8   0.0   2.1   2   0   0   2   2   2   1 tRNA ligase kinase domain
+dNK                  PF01712.18 sp|Q6D872|AROL_PECAS -              0.005   16.6   0.0      0.31   10.8   0.0   2.2   2   0   0   2   2   2   1 Deoxynucleoside kinase
+AAA_16               PF13191.5  sp|Q6D872|AROL_PECAS -             0.0063   16.8   0.2     0.016   15.5   0.2   1.8   1   1   0   1   1   1   1 AAA ATPase domain
+CoaE                 PF01121.19 sp|Q6D872|AROL_PECAS -             0.0077   15.8   0.0     0.017   14.7   0.0   1.6   1   0   0   1   1   1   1 Dephospho-CoA kinase
+ADK                  PF00406.21 sp|Q6D872|AROL_PECAS -             0.0085   16.1   0.0       2.7    8.0   0.0   2.2   2   0   0   2   2   2   1 Adenylate kinase
+Mg_chelatase         PF01078.20 sp|Q6D872|AROL_PECAS -              0.026   13.8   0.0      0.03   13.6   0.0   1.2   1   0   0   1   1   1   0 Magnesium chelatase, subunit ChlI
+AAA_25               PF13481.5  sp|Q6D872|AROL_PECAS -              0.032   13.7   0.7     0.054   13.0   0.7   1.6   1   1   0   1   1   1   0 AAA domain
+PRK                  PF00485.17 sp|Q6D872|AROL_PECAS -              0.033   13.8   0.1         1    9.0   0.1   2.2   1   1   1   2   2   2   0 Phosphoribulokinase / Uridine kinase family
+Zeta_toxin           PF06414.11 sp|Q6D872|AROL_PECAS -              0.051   12.8   0.0      0.13   11.5   0.0   1.6   2   0   0   2   2   2   0 Zeta toxin
+PduV-EutP            PF10662.8  sp|Q6D872|AROL_PECAS -              0.067   12.8   0.0      0.27   10.9   0.0   1.9   2   0   0   2   2   2   0 Ethanolamine utilisation - propanediol utilisation
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6D872.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6D872.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6D872.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:14:32 2019
+# [ok]

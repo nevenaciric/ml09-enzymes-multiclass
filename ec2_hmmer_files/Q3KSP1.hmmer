@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B            PF00136.20 sp|Q3KSP1|DPOL_EBVG  -           1.2e-162  541.8   0.0  1.4e-162  541.5   0.0   1.1   1   0   0   1   1   1   1 DNA polymerase family B
+DNA_pol_B_exo1       PF03104.18 sp|Q3KSP1|DPOL_EBVG  -            2.8e-98  329.1   0.0   6.3e-98  327.9   0.0   1.5   2   0   0   2   2   2   1 DNA polymerase family B, exonuclease domain
+RNase_H_2            PF13482.5  sp|Q3KSP1|DPOL_EBVG  -              0.086   12.7   0.0      0.45   10.4   0.0   2.1   1   1   0   1   1   1   0 RNase_H superfamily
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3KSP1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3KSP1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3KSP1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:04:10 2019
+# [ok]

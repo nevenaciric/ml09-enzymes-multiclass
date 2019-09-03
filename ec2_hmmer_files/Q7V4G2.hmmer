@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Thymidylate_kin      PF02223.16 sp|Q7V4G2|KTHY_PROMM -            7.8e-43  146.2   0.0   9.1e-43  146.0   0.0   1.0   1   0   0   1   1   1   1 Thymidylate kinase
+AAA_28               PF13521.5  sp|Q7V4G2|KTHY_PROMM -              3e-05   24.2   0.0   5.5e-05   23.4   0.0   1.4   1   1   0   1   1   1   1 AAA domain
+AAA_22               PF13401.5  sp|Q7V4G2|KTHY_PROMM -             0.0012   19.0   0.0    0.0025   18.0   0.0   1.7   2   0   0   2   2   2   1 AAA domain
+AAA_16               PF13191.5  sp|Q7V4G2|KTHY_PROMM -               0.04   14.2   0.3      0.81    9.9   0.0   2.2   1   1   1   2   2   2   0 AAA ATPase domain
+AAA_33               PF13671.5  sp|Q7V4G2|KTHY_PROMM -              0.079   13.0   0.0       0.3   11.2   0.0   1.9   1   1   0   1   1   1   0 AAA domain
+SRP54                PF00448.21 sp|Q7V4G2|KTHY_PROMM -              0.091   12.3   0.0      0.19   11.2   0.0   1.5   1   0   0   1   1   1   0 SRP54-type protein, GTPase domain
+NACHT                PF05729.11 sp|Q7V4G2|KTHY_PROMM -                0.1   12.4   0.0      0.18   11.6   0.0   1.4   1   0   0   1   1   1   0 NACHT domain
+Viral_helicase1      PF01443.17 sp|Q7V4G2|KTHY_PROMM -               0.18   11.4   0.0      0.58    9.7   0.0   1.8   2   0   0   2   2   2   0 Viral (Superfamily 1) RNA helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q7V4G2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q7V4G2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q7V4G2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:44:17 2019
+# [ok]

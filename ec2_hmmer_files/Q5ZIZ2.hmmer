@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|Q5ZIZ2|SMYD5_CHICK -            1.6e-13   51.3   0.0   6.9e-13   49.2   0.0   2.0   1   1   0   1   1   1   1 SET domain
+zf-MYND              PF01753.17 sp|Q5ZIZ2|SMYD5_CHICK -            0.00023   21.1  11.8   0.00023   21.1  11.8   3.0   3   2   0   3   3   3   1 MYND finger
+zf-HIT               PF04438.15 sp|Q5ZIZ2|SMYD5_CHICK -                2.1    8.2  13.7     0.067   13.0   4.9   2.6   2   0   0   2   2   2   0 HIT zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5ZIZ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5ZIZ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5ZIZ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:59:31 2019
+# [ok]

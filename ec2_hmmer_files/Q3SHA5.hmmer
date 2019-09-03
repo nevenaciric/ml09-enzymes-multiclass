@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|Q3SHA5|NADK_THIDA -            4.4e-58  196.7   0.2   5.3e-58  196.4   0.2   1.1   1   0   0   1   1   1   1 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|Q3SHA5|NADK_THIDA -             0.0019   17.7   0.1    0.0033   16.9   0.1   1.4   1   0   0   1   1   1   1 Diacylglycerol kinase catalytic domain
+Glyco_transf_4       PF13439.5  sp|Q3SHA5|NADK_THIDA -               0.01   15.7   0.3      0.03   14.2   0.2   1.8   1   1   0   1   1   1   0 Glycosyltransferase Family 4
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3SHA5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3SHA5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3SHA5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:05:10 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|Q6DDK5|ILVBL_XENLA -            2.8e-46  157.2   0.1   5.4e-46  156.2   0.1   1.4   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_C         PF02775.20 sp|Q6DDK5|ILVBL_XENLA -            3.5e-18   65.7   0.0     6e-18   65.0   0.0   1.4   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+TPP_enzyme_M         PF00205.21 sp|Q6DDK5|ILVBL_XENLA -            2.9e-14   52.9   0.0   5.7e-14   52.0   0.0   1.5   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, central domain
+POR_N                PF01855.18 sp|Q6DDK5|ILVBL_XENLA -              0.056   13.1   0.1      0.11   12.1   0.1   1.4   1   0   0   1   1   1   0 Pyruvate flavodoxin/ferredoxin oxidoreductase, thiamine diP-bdg
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6DDK5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6DDK5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6DDK5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:14:57 2019
+# [ok]

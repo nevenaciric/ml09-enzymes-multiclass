@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|Q71WN4|KITH_LISMF -            3.3e-49  167.0   0.1   3.7e-49  166.9   0.1   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_14               PF13173.5  sp|Q71WN4|KITH_LISMF -              0.017   15.0   0.1     0.025   14.5   0.1   1.3   1   0   0   1   1   1   0 AAA domain
+ATPase_2             PF01637.17 sp|Q71WN4|KITH_LISMF -              0.095   12.5   0.4      0.13   12.1   0.4   1.4   1   1   0   1   1   1   0 ATPase domain predominantly from Archaea
+AAA_22               PF13401.5  sp|Q71WN4|KITH_LISMF -               0.15   12.2   0.1      0.49   10.6   0.1   1.9   1   1   0   1   1   1   0 AAA domain
+KdpD                 PF02702.16 sp|Q71WN4|KITH_LISMF -               0.18   11.2   0.0      0.25   10.7   0.0   1.2   1   0   0   1   1   1   0 Osmosensitive K+ channel His kinase sensor domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q71WN4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q71WN4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q71WN4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:28:58 2019
+# [ok]

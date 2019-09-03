@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PolyA_pol            PF01743.19 sp|Q74B57|CATNT_GEOSL -            9.4e-19   68.0   0.0   5.1e-16   59.1   0.0   2.3   1   1   0   1   1   1   1 Poly A polymerase head domain
+PolyA_pol_RNAbd      PF12627.6  sp|Q74B57|CATNT_GEOSL -            4.8e-12   45.4   0.0   3.5e-11   42.6   0.0   2.2   2   0   0   2   2   2   1 Probable RNA and SrmB- binding site of polymerase A
+tRNA_NucTran2_2      PF13735.5  sp|Q74B57|CATNT_GEOSL -              0.028   14.3   0.0     0.044   13.7   0.0   1.2   1   0   0   1   1   1   0 tRNA nucleotidyltransferase domain 2 putative
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q74B57.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q74B57.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q74B57.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:32:55 2019
+# [ok]

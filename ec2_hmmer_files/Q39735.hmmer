@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP-utilizers_C      PF02896.17 sp|Q39735|PPDK_FLABI -           1.7e-103  345.7   0.0  2.3e-103  345.3   0.0   1.2   1   0   0   1   1   1   1 PEP-utilising enzyme, TIM barrel domain
+PPDK_N               PF01326.18 sp|Q39735|PPDK_FLABI -            5.2e-56  190.2   0.0   2.6e-31  109.0   0.0   3.2   1   1   2   3   3   3   3 Pyruvate phosphate dikinase, PEP/pyruvate binding domain
+PEP-utilizers        PF00391.22 sp|Q39735|PPDK_FLABI -            4.4e-27   93.5   0.8   1.3e-26   92.0   0.8   1.8   1   0   0   1   1   1   1 PEP-utilising enzyme, mobile domain
+DUF2336              PF10098.8  sp|Q39735|PPDK_FLABI -              0.057   12.8   0.0       9.4    5.5   0.0   2.4   2   0   0   2   2   2   0 Uncharacterised protein conserved in bacteria (DUF2336)
+DUF2067              PF09840.8  sp|Q39735|PPDK_FLABI -              0.075   12.5   0.1        16    4.9   0.0   3.0   3   0   0   3   3   3   0 Uncharacterized protein conserved in archaea (DUF2067)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q39735.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q39735.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q39735.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:54:58 2019
+# [ok]

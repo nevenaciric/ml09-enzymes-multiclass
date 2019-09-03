@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UPRTase              PF14681.5  sp|Q3IC38|UPP_PSEHT  -            1.8e-65  220.2   0.0     2e-65  220.0   0.0   1.0   1   0   0   1   1   1   1 Uracil phosphoribosyltransferase
+Pribosyltran         PF00156.26 sp|Q3IC38|UPP_PSEHT  -            2.6e-14   53.0   0.2   3.7e-14   52.4   0.2   1.2   1   0   0   1   1   1   1 Phosphoribosyl transferase domain
+PGM_PMM_II           PF02879.15 sp|Q3IC38|UPP_PSEHT  -              0.086   13.4   0.0      0.37   11.3   0.0   2.0   2   0   0   2   2   2   0 Phosphoglucomutase/phosphomannomutase, alpha/beta/alpha domain II
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3IC38.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3IC38.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3IC38.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:59:53 2019
+# [ok]

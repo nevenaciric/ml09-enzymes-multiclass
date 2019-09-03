@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q56741|COAE_VIBVU -            1.9e-76  255.6   1.7   2.2e-76  255.4   1.7   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+PRK                  PF00485.17 sp|Q56741|COAE_VIBVU -            0.00073   19.2   2.3    0.0042   16.7   0.2   2.2   2   0   0   2   2   2   1 Phosphoribulokinase / Uridine kinase family
+AAA_17               PF13207.5  sp|Q56741|COAE_VIBVU -             0.0072   16.7   0.9     0.032   14.6   0.2   2.3   1   1   1   2   2   2   1 AAA domain
+AAA_33               PF13671.5  sp|Q56741|COAE_VIBVU -              0.014   15.5   0.1     0.091   12.8   0.1   2.2   1   1   0   1   1   1   0 AAA domain
+AAA_18               PF13238.5  sp|Q56741|COAE_VIBVU -               0.02   15.3   0.2     0.056   13.9   0.1   2.0   1   1   0   1   1   1   0 AAA domain
+dNK                  PF01712.18 sp|Q56741|COAE_VIBVU -               0.02   14.7   0.7     0.093   12.5   0.0   2.2   2   1   1   3   3   3   0 Deoxynucleoside kinase
+AAA_28               PF13521.5  sp|Q56741|COAE_VIBVU -              0.022   14.9   0.2     0.092   12.9   0.0   2.0   2   0   0   2   2   2   0 AAA domain
+SKI                  PF01202.21 sp|Q56741|COAE_VIBVU -              0.026   14.5   2.0       2.9    7.9   0.0   2.3   2   0   0   2   2   2   0 Shikimate kinase
+KTI12                PF08433.9  sp|Q56741|COAE_VIBVU -              0.059   12.7   2.0      0.31   10.3   0.0   2.3   2   1   0   2   2   2   0 Chromatin associated protein KTI12
+DUF287               PF03384.13 sp|Q56741|COAE_VIBVU -               0.38   11.1   4.1       1.2    9.5   0.6   2.8   3   0   0   3   3   3   0 Drosophila protein of unknown function, DUF287
+AAA_16               PF13191.5  sp|Q56741|COAE_VIBVU -               0.56   10.5   4.6       2.7    8.2   4.6   1.9   1   1   0   1   1   1   0 AAA ATPase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q56741.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q56741.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q56741.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:32:34 2019
+# [ok]

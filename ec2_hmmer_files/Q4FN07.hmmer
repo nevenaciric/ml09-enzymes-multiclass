@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DXP_synthase_N       PF13292.5  sp|Q4FN07|DXS_PELUB  -           3.7e-117  390.3   0.8  4.1e-116  386.9   0.2   2.1   2   0   0   2   2   2   1 1-deoxy-D-xylulose-5-phosphate synthase
+Transket_pyr         PF02779.23 sp|Q4FN07|DXS_PELUB  -            5.9e-40  136.7   0.0   1.3e-39  135.6   0.0   1.6   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|Q4FN07|DXS_PELUB  -            2.8e-30  104.7   0.1   8.2e-30  103.1   0.0   1.9   2   0   0   2   2   2   1 Transketolase, C-terminal domain
+Transketolase_N      PF00456.20 sp|Q4FN07|DXS_PELUB  -            9.1e-07   28.0   2.0    0.0009   18.2   0.9   2.7   2   1   0   2   2   2   2 Transketolase, thiamine diphosphate binding domain
+E1_dh                PF00676.19 sp|Q4FN07|DXS_PELUB  -            7.1e-06   25.1   2.8   8.6e-06   24.8   0.4   2.2   2   0   0   2   2   2   1 Dehydrogenase E1 component
+TPP_enzyme_C         PF02775.20 sp|Q4FN07|DXS_PELUB  -             0.0013   18.4   0.1     0.013   15.2   0.2   2.2   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+STAT2_C              PF12188.7  sp|Q4FN07|DXS_PELUB  -               0.13   12.1   0.2      0.31   10.9   0.2   1.5   1   0   0   1   1   1   0 Signal transducer and activator of transcription 2 C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q4FN07.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q4FN07.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q4FN07.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:17:11 2019
+# [ok]

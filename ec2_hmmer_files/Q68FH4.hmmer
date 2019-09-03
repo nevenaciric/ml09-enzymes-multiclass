@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GalKase_gal_bdg      PF10509.8  sp|Q68FH4|GALK2_MOUSE -            2.1e-23   81.5   0.0   3.8e-23   80.7   0.0   1.5   1   0   0   1   1   1   1 Galactokinase galactose-binding signature
+GHMP_kinases_N       PF00288.25 sp|Q68FH4|GALK2_MOUSE -            7.7e-15   54.8   1.4   7.1e-14   51.7   0.6   2.5   2   0   0   2   2   2   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|Q68FH4|GALK2_MOUSE -            1.1e-12   48.0   0.0   3.1e-12   46.6   0.0   1.8   1   0   0   1   1   1   1 GHMP kinases C terminal
+mRNA_decap_C         PF16741.4  sp|Q68FH4|GALK2_MOUSE -               0.18   11.1   0.1      0.32   10.2   0.1   1.4   1   0   0   1   1   1   0 mRNA-decapping enzyme C-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q68FH4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q68FH4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q68FH4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:09:39 2019
+# [ok]

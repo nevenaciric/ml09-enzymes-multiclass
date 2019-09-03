@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q61526|ERBB3_MOUSE -            5.3e-78  261.8   0.0   7.3e-78  261.3   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Recep_L_domain       PF01030.23 sp|Q61526|ERBB3_MOUSE -            1.4e-61  205.4   0.3   4.3e-30  104.0   0.0   2.3   2   0   0   2   2   2   2 Receptor L domain
+GF_recep_IV          PF14843.5  sp|Q61526|ERBB3_MOUSE -            2.6e-55  185.7  79.1   2.6e-48  163.0  29.4   4.5   2   1   1   3   3   3   3 Growth factor receptor domain IV
+Furin-like           PF00757.19 sp|Q61526|ERBB3_MOUSE -            4.8e-37  127.0  82.1     3e-31  108.2  34.8   4.3   2   1   2   4   4   4   3 Furin-like cysteine rich region
+Pkinase              PF00069.24 sp|Q61526|ERBB3_MOUSE -            1.1e-33  116.7   0.0   1.6e-33  116.1   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+CD34_antigen         PF06365.11 sp|Q61526|ERBB3_MOUSE -              0.025   14.1   0.0     0.043   13.3   0.0   1.2   1   0   0   1   1   1   0 CD34/Podocalyxin family
+APH                  PF01636.22 sp|Q61526|ERBB3_MOUSE -              0.044   13.6   0.0     0.094   12.5   0.0   1.5   1   0   0   1   1   1   0 Phosphotransferase enzyme family
+SKG6                 PF08693.9  sp|Q61526|ERBB3_MOUSE -               0.29   10.5   2.0      0.53    9.6   2.0   1.4   1   0   0   1   1   1   0 Transmembrane alpha-helix domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q61526.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q61526.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q61526.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:01:45 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q46I08|COAE_PROMT -              3e-47  160.5   0.0   3.4e-47  160.3   0.0   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+SKI                  PF01202.21 sp|Q46I08|COAE_PROMT -            0.00053   20.0   0.3      0.35   10.9   0.1   2.3   2   0   0   2   2   2   2 Shikimate kinase
+AICARFT_IMPCHas      PF01808.17 sp|Q46I08|COAE_PROMT -              0.011   15.1   0.3      0.99    8.7   0.0   2.3   1   1   1   2   2   2   0 AICARFT/IMPCHase bienzyme
+dNK                  PF01712.18 sp|Q46I08|COAE_PROMT -              0.012   15.4   0.8       1.6    8.4   0.1   2.4   1   1   0   2   2   2   0 Deoxynucleoside kinase
+AAA_18               PF13238.5  sp|Q46I08|COAE_PROMT -               0.02   15.3   0.3     0.049   14.0   0.3   1.7   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q46I08.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q46I08.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q46I08.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:11:04 2019
+# [ok]

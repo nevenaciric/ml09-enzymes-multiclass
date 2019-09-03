@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q5YSV6|PNP_NOCFA  -            8.6e-38  129.7   0.0   2.3e-18   66.9   0.0   2.4   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|Q5YSV6|PNP_NOCFA  -            4.4e-20   71.9   1.1     1e-19   70.7   1.1   1.7   1   0   0   1   1   1   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|Q5YSV6|PNP_NOCFA  -            3.8e-14   52.7   0.9     1e-13   51.3   0.9   1.8   1   0   0   1   1   1   1 S1 RNA binding domain
+KH_1                 PF00013.28 sp|Q5YSV6|PNP_NOCFA  -            1.9e-10   40.3   1.1   4.8e-10   39.0   1.1   1.7   1   0   0   1   1   1   1 KH domain
+RNase_PH_C           PF03725.14 sp|Q5YSV6|PNP_NOCFA  -            8.8e-07   28.8   0.8     0.015   15.2   0.0   2.9   2   1   0   2   2   2   2 3' exoribonuclease family, domain 2
+KH_2                 PF07650.16 sp|Q5YSV6|PNP_NOCFA  -              0.039   13.7   0.0     0.091   12.5   0.0   1.5   1   0   0   1   1   1   0 KH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5YSV6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5YSV6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5YSV6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:58:58 2019
+# [ok]

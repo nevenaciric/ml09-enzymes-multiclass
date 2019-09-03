@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|Q5YRS5|MNMA_NOCFA -           2.3e-113  378.5   0.0  2.6e-113  378.3   0.0   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+ThiI                 PF02568.13 sp|Q5YRS5|MNMA_NOCFA -             0.0018   17.8   0.2    0.0026   17.2   0.2   1.4   1   1   0   1   1   1   1 Thiamine biosynthesis protein (ThiI)
+Asn_synthase         PF00733.20 sp|Q5YRS5|MNMA_NOCFA -              0.049   13.2   0.0     0.069   12.7   0.0   1.2   1   0   0   1   1   1   0 Asparagine synthase
+NAD_synthase         PF02540.16 sp|Q5YRS5|MNMA_NOCFA -               0.14   11.2   0.0       0.2   10.7   0.0   1.3   1   0   0   1   1   1   0 NAD synthase
+QueC                 PF06508.12 sp|Q5YRS5|MNMA_NOCFA -               0.18   11.2   0.2      0.39   10.1   0.2   1.5   1   0   0   1   1   1   0 Queuosine biosynthesis protein QueC
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5YRS5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5YRS5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5YRS5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:58:56 2019
+# [ok]

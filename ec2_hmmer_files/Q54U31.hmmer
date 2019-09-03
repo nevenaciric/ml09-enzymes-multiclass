@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q54U31|SHKD_DICDI -            1.1e-62  211.6   0.0   1.7e-62  211.0   0.0   1.3   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q54U31|SHKD_DICDI -            3.1e-52  177.5   0.0   7.5e-52  176.2   0.0   1.6   1   0   0   1   1   1   1 Protein kinase domain
+SH2                  PF00017.23 sp|Q54U31|SHKD_DICDI -            4.5e-10   39.4   0.0   1.2e-09   38.0   0.0   1.8   1   0   0   1   1   1   1 SH2 domain
+SH2_2                PF14633.5  sp|Q54U31|SHKD_DICDI -              0.026   13.8   0.2       1.5    8.0   0.0   2.4   2   0   0   2   2   2   0 SH2 domain
+APH                  PF01636.22 sp|Q54U31|SHKD_DICDI -              0.075   12.9   0.0       0.2   11.4   0.0   1.7   2   0   0   2   2   2   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q54U31.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q54U31.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q54U31.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:29:09 2019
+# [ok]

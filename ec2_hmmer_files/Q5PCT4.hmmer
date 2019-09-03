@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|Q5PCT4|KITH_SALPA -            3.9e-66  222.2   0.0   4.4e-66  222.0   0.0   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_22               PF13401.5  sp|Q5PCT4|KITH_SALPA -             0.0029   17.8   0.0    0.0049   17.0   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+KdpD                 PF02702.16 sp|Q5PCT4|KITH_SALPA -               0.03   13.7   0.0     0.061   12.7   0.0   1.4   2   0   0   2   2   2   0 Osmosensitive K+ channel His kinase sensor domain
+AAA_30               PF13604.5  sp|Q5PCT4|KITH_SALPA -              0.052   13.2   0.0     0.082   12.5   0.0   1.2   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5PCT4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5PCT4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5PCT4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:50:54 2019
+# [ok]

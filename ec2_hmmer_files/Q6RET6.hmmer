@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q6RET6|CCAMK_PEA  -            2.5e-60  204.0   0.0   3.2e-57  193.8   0.0   2.2   1   1   1   2   2   2   2 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q6RET6|CCAMK_PEA  -            1.6e-34  119.3   0.0   2.5e-30  105.5   0.0   2.2   1   1   1   2   2   2   2 Protein tyrosine kinase
+EF-hand_6            PF13405.5  sp|Q6RET6|CCAMK_PEA  -            1.8e-22   77.2   2.7   2.9e-06   26.7   0.5   4.6   4   0   0   4   4   4   3 EF-hand domain
+EF-hand_7            PF13499.5  sp|Q6RET6|CCAMK_PEA  -            3.1e-21   75.5   3.7   5.8e-14   52.2   0.1   3.0   1   1   2   3   3   3   3 EF-hand domain pair
+EF-hand_1            PF00036.31 sp|Q6RET6|CCAMK_PEA  -            4.7e-21   72.6   7.4   6.6e-08   31.5   1.6   4.5   4   0   0   4   4   4   3 EF hand
+EF-hand_5            PF13202.5  sp|Q6RET6|CCAMK_PEA  -            1.4e-14   52.7   3.7   3.7e-05   22.9   0.8   3.8   3   0   0   3   3   3   3 EF hand
+EF-hand_8            PF13833.5  sp|Q6RET6|CCAMK_PEA  -            1.5e-09   37.4   6.3   2.2e-07   30.4   0.3   3.7   2   1   1   3   3   3   2 EF-hand domain pair
+EF-hand_9            PF14658.5  sp|Q6RET6|CCAMK_PEA  -            7.6e-06   26.1   0.6    0.0039   17.4   0.2   2.5   2   0   0   2   2   2   2 EF-hand domain
+EF-hand_4            PF12763.6  sp|Q6RET6|CCAMK_PEA  -            0.00018   21.3   3.2     0.024   14.5   0.2   3.8   1   1   3   4   4   4   1 Cytoskeletal-regulatory complex EF hand
+Kdo                  PF06293.13 sp|Q6RET6|CCAMK_PEA  -             0.0013   18.1   0.0    0.0022   17.3   0.0   1.4   1   0   0   1   1   1   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+Caleosin             PF05042.12 sp|Q6RET6|CCAMK_PEA  -             0.0024   17.7   0.2        19    5.0   0.1   3.4   1   1   2   3   3   3   0 Caleosin related protein
+RNA_pol_I_A49        PF06870.11 sp|Q6RET6|CCAMK_PEA  -             0.0027   16.6   0.0    0.0043   15.9   0.0   1.2   1   0   0   1   1   1   1 A49-like RNA polymerase I associated factor
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6RET6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6RET6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6RET6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:26:44 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|Q3J802|MIAA_NITOC -            1.4e-81  273.6   0.0   1.7e-81  273.3   0.0   1.0   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|Q3J802|MIAA_NITOC -            1.5e-07   31.0   0.1   2.6e-05   23.6   0.0   2.2   2   0   0   2   2   2   2 Isopentenyl transferase
+AAA_33               PF13671.5  sp|Q3J802|MIAA_NITOC -             0.0013   18.8   0.0    0.0028   17.7   0.0   1.8   1   1   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|Q3J802|MIAA_NITOC -              0.002   18.5   0.0    0.0059   17.0   0.0   1.8   1   0   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q3J802|MIAA_NITOC -             0.0032   17.8   0.0    0.0076   16.6   0.0   1.7   1   1   0   1   1   1   1 AAA ATPase domain
+Zeta_toxin           PF06414.11 sp|Q3J802|MIAA_NITOC -              0.015   14.5   0.0     0.052   12.7   0.0   1.8   2   0   0   2   2   2   0 Zeta toxin
+AAA                  PF00004.28 sp|Q3J802|MIAA_NITOC -              0.024   15.0   0.0      0.05   13.9   0.0   1.6   1   0   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+TIP49                PF06068.12 sp|Q3J802|MIAA_NITOC -              0.051   12.4   0.0     0.075   11.9   0.0   1.2   1   0   0   1   1   1   0 TIP49 C-terminus
+Cytidylate_kin       PF02224.17 sp|Q3J802|MIAA_NITOC -              0.051   13.2   0.3      0.12   12.0   0.0   1.7   2   0   0   2   2   2   0 Cytidylate kinase
+IstB_IS21            PF01695.16 sp|Q3J802|MIAA_NITOC -              0.097   12.3   0.0      0.61    9.7   0.0   2.2   2   0   0   2   2   2   0 IstB-like ATP binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3J802.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3J802.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3J802.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:01:34 2019
+# [ok]

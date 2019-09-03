@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|Q2SZT5|RLMH_BURTA -            3.9e-51  173.0   0.0   4.3e-51  172.8   0.0   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+CPT                  PF07931.11 sp|Q2SZT5|RLMH_BURTA -              0.034   13.9   0.0     0.045   13.5   0.0   1.1   1   0   0   1   1   1   0 Chloramphenicol phosphotransferase-like protein
+HTH_32               PF13565.5  sp|Q2SZT5|RLMH_BURTA -               0.17   12.4   1.9      0.46   11.0   0.3   2.2   1   1   2   3   3   3   0 Homeodomain-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2SZT5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2SZT5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2SZT5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:45:42 2019
+# [ok]

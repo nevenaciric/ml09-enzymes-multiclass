@@ -1,0 +1,19 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GNAT_acetyltr_2      PF13718.5  sp|Q55EJ3|NAT10_DICDI -            3.5e-99  330.7   0.0   3.5e-99  330.7   0.0   2.6   2   0   0   2   2   2   1 GNAT acetyltransferase 2
+tRNA_bind_2          PF13725.5  sp|Q55EJ3|NAT10_DICDI -            2.3e-76  256.5   9.4   2.3e-76  256.5   9.4   2.3   3   0   0   3   3   3   1 Possible tRNA binding domain
+Helicase_RecD        PF05127.13 sp|Q55EJ3|NAT10_DICDI -            2.6e-63  213.0   0.0   1.4e-62  210.6   0.0   2.3   2   0   0   2   2   2   1 Helicase
+DUF1726              PF08351.10 sp|Q55EJ3|NAT10_DICDI -            4.9e-33  112.8   0.5   4.1e-32  109.9   0.1   2.5   2   0   0   2   2   2   1 Domain of unknown function (DUF1726)
+Acetyltransf_1       PF00583.24 sp|Q55EJ3|NAT10_DICDI -             0.0016   18.6   0.0     0.004   17.3   0.0   1.6   1   0   0   1   1   1   1 Acetyltransferase (GNAT) family
+Acetyltransf_7       PF13508.6  sp|Q55EJ3|NAT10_DICDI -              0.004   17.4   0.0     0.012   16.0   0.0   1.7   1   0   0   1   1   1   1 Acetyltransferase (GNAT) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q55EJ3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q55EJ3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q55EJ3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:31:54 2019
+# [ok]

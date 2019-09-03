@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SKI                  PF01202.21 sp|Q31DP8|AROK_HYDCU -            8.7e-54  181.8   0.1   9.9e-54  181.6   0.1   1.0   1   0   0   1   1   1   1 Shikimate kinase
+Cytidylate_kin       PF02224.17 sp|Q31DP8|AROK_HYDCU -              8e-08   32.2   0.6   1.6e-05   24.6   0.0   2.4   1   1   1   2   2   2   1 Cytidylate kinase
+AAA_18               PF13238.5  sp|Q31DP8|AROK_HYDCU -            2.2e-07   31.4   0.0   9.1e-07   29.4   0.0   2.0   1   1   1   2   2   2   1 AAA domain
+AAA_33               PF13671.5  sp|Q31DP8|AROK_HYDCU -            2.2e-07   31.0   0.0   3.3e-07   30.4   0.0   1.4   1   1   0   1   1   1   1 AAA domain
+Cytidylate_kin2      PF13189.5  sp|Q31DP8|AROK_HYDCU -              4e-05   23.8   0.1    0.0037   17.3   0.0   2.4   1   1   1   2   2   2   1 Cytidylate kinase-like family
+dNK                  PF01712.18 sp|Q31DP8|AROK_HYDCU -             0.0003   20.6   0.1     0.061   13.1   0.0   2.1   1   1   0   2   2   2   1 Deoxynucleoside kinase
+AAA_17               PF13207.5  sp|Q31DP8|AROK_HYDCU -             0.0011   19.3   1.8     0.016   15.5   0.2   2.8   1   1   1   2   2   2   1 AAA domain
+AAA_22               PF13401.5  sp|Q31DP8|AROK_HYDCU -             0.0012   19.0   0.0    0.0019   18.4   0.0   1.7   1   1   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q31DP8|AROK_HYDCU -             0.0032   17.8   0.1     0.012   15.9   0.1   1.9   1   1   0   1   1   1   1 AAA ATPase domain
+ATP_bind_2           PF03668.14 sp|Q31DP8|AROK_HYDCU -             0.0039   16.4   0.1    0.0061   15.8   0.1   1.3   1   1   0   1   1   1   1 P-loop ATPase protein family
+ABC_tran             PF00005.26 sp|Q31DP8|AROK_HYDCU -             0.0061   17.0   0.0     0.009   16.4   0.0   1.5   1   1   0   1   1   1   1 ABC transporter
+CoaE                 PF01121.19 sp|Q31DP8|AROK_HYDCU -              0.014   15.0   0.1     0.034   13.7   0.0   1.6   2   0   0   2   2   2   0 Dephospho-CoA kinase
+His_biosynth         PF00977.20 sp|Q31DP8|AROK_HYDCU -              0.017   14.5   0.1      0.19   11.0   0.0   2.0   2   0   0   2   2   2   0 Histidine biosynthesis protein
+AAA                  PF00004.28 sp|Q31DP8|AROK_HYDCU -              0.018   15.4   0.0     0.039   14.3   0.0   1.7   2   0   0   2   2   1   0 ATPase family associated with various cellular activities (AAA)
+Zeta_toxin           PF06414.11 sp|Q31DP8|AROK_HYDCU -               0.03   13.5   0.0      0.13   11.5   0.0   1.9   2   0   0   2   2   2   0 Zeta toxin
+TsaE                 PF02367.16 sp|Q31DP8|AROK_HYDCU -               0.04   13.8   0.0     0.067   13.1   0.0   1.4   1   0   0   1   1   1   0 Threonylcarbamoyl adenosine biosynthesis protein TsaE
+RNA_helicase         PF00910.21 sp|Q31DP8|AROK_HYDCU -               0.05   13.9   0.0       0.1   12.9   0.0   1.6   1   1   0   1   1   1   0 RNA helicase
+APS_kinase           PF01583.19 sp|Q31DP8|AROK_HYDCU -              0.052   13.3   0.0      0.12   12.1   0.0   1.6   1   0   0   1   1   1   0 Adenylylsulphate kinase
+Ftsk_gamma           PF09397.9  sp|Q31DP8|AROK_HYDCU -              0.056   13.2   0.1      0.21   11.3   0.1   2.1   1   1   0   1   1   1   0 Ftsk gamma domain
+AAA_29               PF13555.5  sp|Q31DP8|AROK_HYDCU -              0.091   12.4   0.0      0.16   11.6   0.0   1.4   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+AAA_24               PF13479.5  sp|Q31DP8|AROK_HYDCU -               0.14   11.8   0.1      0.28   10.8   0.0   1.6   1   1   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q31DP8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q31DP8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q31DP8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:50:31 2019
+# [ok]

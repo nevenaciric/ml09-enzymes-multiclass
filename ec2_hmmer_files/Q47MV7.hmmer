@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q47MV7|PROB_THEFY -            1.8e-40  139.0   2.1   2.3e-40  138.6   2.1   1.2   1   0   0   1   1   1   1 Amino acid kinase family
+PUA                  PF01472.19 sp|Q47MV7|PROB_THEFY -              6e-20   70.9   0.2   4.2e-19   68.2   0.0   2.5   2   0   0   2   2   2   1 PUA domain
+DUF4530              PF15039.5  sp|Q47MV7|PROB_THEFY -               0.17   11.9   0.1      0.34   11.0   0.1   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF4530)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q47MV7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q47MV7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q47MV7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:12:51 2019
+# [ok]

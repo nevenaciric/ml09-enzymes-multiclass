@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|Q6F0I2|KITH_MESFL -            3.6e-52  176.7   0.0   4.1e-52  176.5   0.0   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_14               PF13173.5  sp|Q6F0I2|KITH_MESFL -             0.0081   16.1   0.1     0.015   15.2   0.1   1.4   1   1   0   1   1   1   1 AAA domain
+AAA_22               PF13401.5  sp|Q6F0I2|KITH_MESFL -              0.028   14.6   0.0     0.049   13.8   0.0   1.5   1   1   0   1   1   1   0 AAA domain
+zf-CCHC_3            PF13917.5  sp|Q6F0I2|KITH_MESFL -               0.27   11.2   2.0       3.7    7.5   0.2   2.4   2   0   0   2   2   2   0 Zinc knuckle
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6F0I2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6F0I2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6F0I2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:15:35 2019
+# [ok]

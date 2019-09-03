@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|Q5FKG6|PFKA_LACAC -             1e-105  353.1   0.9  1.2e-105  352.9   0.9   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+DAGK_cat             PF00781.23 sp|Q5FKG6|PFKA_LACAC -             0.0041   16.6   0.1     0.011   15.2   0.1   1.7   2   0   0   2   2   2   1 Diacylglycerol kinase catalytic domain
+NAD_kinase           PF01513.20 sp|Q5FKG6|PFKA_LACAC -             0.0063   15.7   0.0      0.01   15.0   0.0   1.3   1   0   0   1   1   1   1 ATP-NAD kinase
+CBS                  PF00571.27 sp|Q5FKG6|PFKA_LACAC -              0.062   13.6   0.2        23    5.4   0.0   3.2   3   0   0   3   3   3   0 CBS domain
+Peripla_BP_1         PF00532.20 sp|Q5FKG6|PFKA_LACAC -              0.086   12.1   0.0      0.65    9.3   0.0   2.3   2   1   1   3   3   3   0 Periplasmic binding proteins and sugar binding domain of LacI family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5FKG6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5FKG6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5FKG6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:40:21 2019
+# [ok]

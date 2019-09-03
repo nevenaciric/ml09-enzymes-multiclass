@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q7U3S5|COAE_SYNPX -            3.1e-57  193.0   0.0   3.5e-57  192.8   0.0   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_28               PF13521.5  sp|Q7U3S5|COAE_SYNPX -             0.0011   19.2   0.1    0.0023   18.1   0.0   1.7   2   1   0   2   2   2   1 AAA domain
+AAA_18               PF13238.5  sp|Q7U3S5|COAE_SYNPX -             0.0066   16.9   0.0     0.028   14.8   0.0   1.9   1   1   0   1   1   1   1 AAA domain
+SKI                  PF01202.21 sp|Q7U3S5|COAE_SYNPX -               0.14   12.2   0.0      0.65   10.0   0.0   2.0   2   0   0   2   2   2   0 Shikimate kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q7U3S5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q7U3S5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q7U3S5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:42:46 2019
+# [ok]

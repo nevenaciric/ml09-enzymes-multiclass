@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|Q5N5W2|KHSE_SYNP6 -            1.1e-10   41.5   1.0   3.8e-10   39.8   1.0   2.0   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|Q5N5W2|KHSE_SYNP6 -            1.6e-09   37.9   0.4     5e-09   36.3   0.1   1.9   2   0   0   2   2   2   1 GHMP kinases C terminal
+Mso1_Sec1_bdg        PF14475.5  sp|Q5N5W2|KHSE_SYNP6 -               0.12   11.9   0.0      0.19   11.2   0.0   1.3   1   0   0   1   1   1   0 Sec1-binding region of Mso1
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5N5W2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5N5W2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5N5W2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:48:54 2019
+# [ok]

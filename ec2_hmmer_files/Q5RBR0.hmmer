@@ -1,0 +1,32 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SH3_9                PF14604.5  sp|Q5RBR0|SH3R1_PONAB -            1.1e-53  178.7   1.5   5.7e-15   54.8   0.0   4.4   4   0   0   4   4   4   4 Variant SH3 domain
+SH3_1                PF00018.27 sp|Q5RBR0|SH3R1_PONAB -            7.1e-50  166.3   1.8   4.1e-12   45.4   0.0   4.3   4   0   0   4   4   4   4 SH3 domain
+SH3_2                PF07653.16 sp|Q5RBR0|SH3R1_PONAB -            3.5e-35  119.4   2.1   2.9e-09   36.4   0.1   4.3   4   0   0   4   4   4   4 Variant SH3 domain
+zf-C3HC4             PF00097.24 sp|Q5RBR0|SH3R1_PONAB -            4.9e-09   35.8   5.9     1e-08   34.8   5.9   1.6   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-C3HC4_2           PF13923.5  sp|Q5RBR0|SH3R1_PONAB -            7.9e-09   35.1   6.7   1.6e-08   34.2   6.7   1.5   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_2            PF13639.5  sp|Q5RBR0|SH3R1_PONAB -            9.1e-09   35.4   6.7   2.5e-08   34.0   6.7   1.8   1   0   0   1   1   1   1 Ring finger domain
+zf-RING_UBOX         PF13445.5  sp|Q5RBR0|SH3R1_PONAB -            1.1e-08   34.9   5.0   2.6e-08   33.6   5.0   1.7   1   0   0   1   1   1   1 RING-type zinc-finger
+zf-C3HC4_3           PF13920.5  sp|Q5RBR0|SH3R1_PONAB -            4.1e-07   29.6   4.8     8e-07   28.7   4.8   1.5   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_5            PF14634.5  sp|Q5RBR0|SH3R1_PONAB -            9.9e-07   28.5   6.1   1.9e-06   27.6   6.1   1.5   1   0   0   1   1   1   1 zinc-RING finger domain
+zf-C3HC4_4           PF15227.5  sp|Q5RBR0|SH3R1_PONAB -             0.0001   22.2   6.8   0.00027   21.0   6.8   1.7   1   0   0   1   1   1   1 zinc finger of C3HC4-type, RING
+Prok-RING_4          PF14447.5  sp|Q5RBR0|SH3R1_PONAB -            0.00067   19.4   5.9    0.0044   16.7   6.3   2.1   1   1   1   2   2   2   1 Prokaryotic RING finger family 4
+zf-RING_4            PF14570.5  sp|Q5RBR0|SH3R1_PONAB -             0.0011   18.5   5.0    0.0011   18.5   5.0   1.7   2   0   0   2   2   2   1 RING/Ubox like zinc-binding domain
+zf-RING_11           PF17123.4  sp|Q5RBR0|SH3R1_PONAB -             0.0074   15.9   3.0     0.022   14.4   3.0   1.9   1   0   0   1   1   1   1 RING-like zinc finger
+zf-Nse               PF11789.7  sp|Q5RBR0|SH3R1_PONAB -               0.14   11.9   2.4      0.41   10.4   2.4   1.8   1   0   0   1   1   1   0 Zinc-finger of the MIZ type in Nse subunit
+zf-MIZ               PF02891.19 sp|Q5RBR0|SH3R1_PONAB -                0.2   11.3   4.6      0.48   10.1   4.6   1.6   1   0   0   1   1   1   0 MIZ/SP-RING zinc finger
+zf-rbx1              PF12678.6  sp|Q5RBR0|SH3R1_PONAB -                0.6   10.3   3.1       1.6    9.0   3.1   1.7   1   0   0   1   1   1   0 RING-H2 zinc finger domain
+zf-RING_10           PF16685.4  sp|Q5RBR0|SH3R1_PONAB -                0.6   10.2   3.5       1.2    9.2   3.5   1.5   1   0   0   1   1   1   0 zinc RING finger of MSL2
+zf-RING_6            PF14835.5  sp|Q5RBR0|SH3R1_PONAB -                1.5    8.7   4.4       3.3    7.6   4.4   1.5   1   0   0   1   1   1   0 zf-RING of BARD1-type protein
+Trm112p              PF03966.15 sp|Q5RBR0|SH3R1_PONAB -                3.7    8.1   5.5        12    6.5   5.5   1.9   1   0   0   1   1   1   0 Trm112p-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5RBR0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5RBR0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5RBR0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:53:39 2019
+# [ok]

@@ -1,0 +1,33 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q6PCN3|TTBK1_MOUSE -            3.1e-32  111.9   0.0   4.6e-32  111.3   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q6PCN3|TTBK1_MOUSE -            6.7e-20   71.3   0.0   8.9e-20   71.0   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+TAP42                PF04177.11 sp|Q6PCN3|TTBK1_MOUSE -               0.04   12.9   7.6      0.16   10.9   5.9   2.2   2   0   0   2   2   2   0 TAP42-like family
+RXT2_N               PF08595.10 sp|Q6PCN3|TTBK1_MOUSE -              0.041   13.8   3.8     0.088   12.7   3.8   1.5   1   0   0   1   1   1   0 RXT2-like, N-terminal
+Pox_Ag35             PF03286.13 sp|Q6PCN3|TTBK1_MOUSE -              0.051   13.3   7.2      0.12   12.1   7.2   1.6   1   0   0   1   1   1   0 Pox virus Ag35 surface protein
+RR_TM4-6             PF06459.11 sp|Q6PCN3|TTBK1_MOUSE -                0.1   12.3  10.6      0.27   11.0  10.6   1.7   1   0   0   1   1   1   0 Ryanodine Receptor TM 4-6
+Sigma70_ner          PF04546.12 sp|Q6PCN3|TTBK1_MOUSE -               0.11   12.2   9.6      0.31   10.8   9.6   1.7   1   0   0   1   1   1   0 Sigma-70, non-essential region
+Mpp10                PF04006.11 sp|Q6PCN3|TTBK1_MOUSE -                0.5    8.7  18.6      0.78    8.0  18.6   1.2   1   0   0   1   1   1   0 Mpp10 protein
+FYDLN_acid           PF09538.9  sp|Q6PCN3|TTBK1_MOUSE -               0.56   10.8  10.3       1.9    9.1  10.3   1.9   1   0   0   1   1   1   0 Protein of unknown function (FYDLN_acid)
+DUF2052              PF09747.8  sp|Q6PCN3|TTBK1_MOUSE -               0.59   10.1  20.4     0.078   13.0  15.0   2.2   2   0   0   2   2   2   0 Coiled-coil domain containing protein (DUF2052)
+BSP_II               PF05432.10 sp|Q6PCN3|TTBK1_MOUSE -               0.68    9.5  26.7     0.022   14.4  19.9   1.9   2   0   0   2   2   2   0 Bone sialoprotein II (BSP-II)
+DUF4820              PF16091.4  sp|Q6PCN3|TTBK1_MOUSE -                0.7    9.1   3.7       1.6    8.0   3.7   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF4820)
+DUF913               PF06025.11 sp|Q6PCN3|TTBK1_MOUSE -               0.94    8.3   4.0       2.2    7.0   4.0   1.6   1   0   0   1   1   1   0 Domain of Unknown Function (DUF913)
+RNA_pol_3_Rpc31      PF11705.7  sp|Q6PCN3|TTBK1_MOUSE -               0.98    9.5  19.8       2.6    8.1  19.8   1.7   1   0   0   1   1   1   0 DNA-directed RNA polymerase III subunit Rpc31
+SpoIIP               PF07454.10 sp|Q6PCN3|TTBK1_MOUSE -                3.8    6.8   7.4       6.5    6.0   7.4   1.3   1   0   0   1   1   1   0 Stage II sporulation protein P (SpoIIP)
+CobT                 PF06213.11 sp|Q6PCN3|TTBK1_MOUSE -                3.9    6.7  20.2       8.9    5.5  20.2   1.6   1   0   0   1   1   1   0 Cobalamin biosynthesis protein CobT
+DNA_pol_phi          PF04931.12 sp|Q6PCN3|TTBK1_MOUSE -                4.3    5.2  25.3       6.2    4.7  25.3   1.1   1   0   0   1   1   1   0 DNA polymerase phi
+TRAP_alpha           PF03896.15 sp|Q6PCN3|TTBK1_MOUSE -                4.6    6.3   9.9       8.2    5.4   9.9   1.3   1   0   0   1   1   1   0 Translocon-associated protein (TRAP), alpha subunit
+Nop14                PF04147.11 sp|Q6PCN3|TTBK1_MOUSE -                7.4    4.6  22.8        11    3.9  22.8   1.1   1   0   0   1   1   1   0 Nop14-like family
+CPSF100_C            PF13299.5  sp|Q6PCN3|TTBK1_MOUSE -                8.1    6.5   8.7       2.6    8.1   5.3   1.9   2   0   0   2   2   1   0 Cleavage and polyadenylation factor 2 C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6PCN3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6PCN3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6PCN3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:26:09 2019
+# [ok]

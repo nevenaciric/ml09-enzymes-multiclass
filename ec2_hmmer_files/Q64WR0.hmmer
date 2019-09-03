@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|Q64WR0|MEND_BACFR -            1.7e-31  109.0   0.1   4.9e-31  107.6   0.0   1.8   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_M_2       PF16582.4  sp|Q64WR0|MEND_BACFR -            1.2e-06   28.3   0.0     2e-06   27.5   0.0   1.4   1   0   0   1   1   1   1 Middle domain of thiamine pyrophosphate
+TPP_enzyme_C         PF02775.20 sp|Q64WR0|MEND_BACFR -            9.6e-06   25.4   0.1   4.8e-05   23.1   0.0   2.2   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q64WR0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q64WR0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q64WR0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:05:14 2019
+# [ok]

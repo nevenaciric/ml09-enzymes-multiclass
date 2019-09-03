@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|Q64P72|NADK_BACFR -            1.1e-56  192.1   0.0   1.3e-56  191.9   0.0   1.1   1   0   0   1   1   1   1 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|Q64P72|NADK_BACFR -               0.01   15.4   0.0     0.017   14.6   0.0   1.5   1   0   0   1   1   1   0 Diacylglycerol kinase catalytic domain
+PEGA                 PF08308.10 sp|Q64P72|NADK_BACFR -               0.13   12.1   0.0      0.36   10.7   0.0   1.8   1   0   0   1   1   1   0 PEGA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q64P72.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q64P72.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q64P72.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:05:01 2019
+# [ok]

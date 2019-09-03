@@ -1,0 +1,32 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UPF0020              PF01170.17 sp|Q47Z09|RLMKL_COLP3 -            4.8e-50  169.9   0.0   5.2e-47  160.0   0.0   2.2   2   0   0   2   2   2   2 Putative RNA methylase family UPF0020
+Methyltrans_SAM      PF10672.8  sp|Q47Z09|RLMKL_COLP3 -            2.5e-24   85.8   0.1     5e-24   84.8   0.1   1.4   1   0   0   1   1   1   1 S-adenosylmethionine-dependent methyltransferase
+Cons_hypoth95        PF03602.14 sp|Q47Z09|RLMKL_COLP3 -            2.2e-18   66.4   0.2   1.4e-10   41.0   0.0   3.6   3   1   1   4   4   4   3 Conserved hypothetical protein 95
+Methyltransf_31      PF13847.5  sp|Q47Z09|RLMKL_COLP3 -            2.5e-12   46.7   0.5   6.4e-06   25.9   0.1   3.3   3   0   0   3   3   3   2 Methyltransferase domain
+MTS                  PF05175.13 sp|Q47Z09|RLMKL_COLP3 -            3.9e-12   45.9   0.1   3.7e-07   29.8   0.0   2.8   3   0   0   3   3   3   2 Methyltransferase small domain
+THUMP                PF02926.16 sp|Q47Z09|RLMKL_COLP3 -            2.9e-11   43.6   0.0     1e-10   41.7   0.0   1.9   2   0   0   2   2   2   1 THUMP domain
+Methyltransf_25      PF13649.5  sp|Q47Z09|RLMKL_COLP3 -            3.6e-11   43.5   0.1   2.1e-05   25.1   0.0   3.0   3   0   0   3   3   3   2 Methyltransferase domain
+Methyltransf_11      PF08241.11 sp|Q47Z09|RLMKL_COLP3 -            4.2e-07   30.4   0.1     0.017   15.6   0.0   2.6   2   0   0   2   2   2   2 Methyltransferase domain
+Methyltransf_15      PF09445.9  sp|Q47Z09|RLMKL_COLP3 -            9.4e-06   25.3   0.1     0.014   15.0   0.1   2.4   2   0   0   2   2   2   2 RNA cap guanine-N2 methyltransferase
+PrmA                 PF06325.12 sp|Q47Z09|RLMKL_COLP3 -            3.9e-05   23.1   1.0       0.1   11.9   0.1   3.0   3   0   0   3   3   3   2 Ribosomal protein L11 methyltransferase (PrmA)
+Met_10               PF02475.15 sp|Q47Z09|RLMKL_COLP3 -            7.4e-05   22.5   0.2   0.00036   20.2   0.0   1.9   2   0   0   2   2   2   1 Met-10+ like-protein
+Ubie_methyltran      PF01209.17 sp|Q47Z09|RLMKL_COLP3 -             0.0033   16.7   0.1      0.65    9.2   0.0   2.3   2   0   0   2   2   2   1 ubiE/COQ5 methyltransferase family
+Methyltransf_18      PF12847.6  sp|Q47Z09|RLMKL_COLP3 -             0.0038   17.1   0.2       1.4    8.8   0.1   2.8   3   0   0   3   3   3   1 Methyltransferase domain
+Methyltransf_16      PF10294.8  sp|Q47Z09|RLMKL_COLP3 -             0.0073   16.0   0.0     0.013   15.2   0.0   1.3   1   0   0   1   1   1   1 Lysine methyltransferase
+Methyltransf_12      PF08242.11 sp|Q47Z09|RLMKL_COLP3 -              0.027   15.1   0.2        12    6.6   0.0   2.9   2   0   0   2   2   2   0 Methyltransferase domain
+CheR                 PF01739.17 sp|Q47Z09|RLMKL_COLP3 -               0.04   13.3   0.3      0.56    9.6   0.0   2.4   2   0   0   2   2   2   0 CheR methyltransferase, SAM binding domain
+N6-adenineMlase      PF10237.8  sp|Q47Z09|RLMKL_COLP3 -              0.045   13.5   0.2       3.6    7.3   0.0   2.4   2   0   0   2   2   2   0 Probable N6-adenine methyltransferase
+TRM                  PF02005.15 sp|Q47Z09|RLMKL_COLP3 -              0.055   12.5   0.0     0.088   11.9   0.0   1.2   1   0   0   1   1   1   0 N2,N2-dimethylguanosine tRNA methyltransferase
+Spermine_synth       PF01564.16 sp|Q47Z09|RLMKL_COLP3 -              0.061   12.6   0.2      0.14   11.4   0.1   1.6   2   0   0   2   2   2   0 Spermine/spermidine synthase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q47Z09.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q47Z09.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q47Z09.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:13:23 2019
+# [ok]

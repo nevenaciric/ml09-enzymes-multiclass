@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q2VZU1|PROB_MAGSA -            8.9e-43  146.5   0.8   1.2e-42  146.1   0.8   1.2   1   0   0   1   1   1   1 Amino acid kinase family
+PUA                  PF01472.19 sp|Q2VZU1|PROB_MAGSA -            9.8e-22   76.6   0.2   9.8e-22   76.6   0.2   2.7   3   0   0   3   3   3   1 PUA domain
+TruB_C               PF09142.10 sp|Q2VZU1|PROB_MAGSA -             0.0068   16.1   0.4     0.029   14.0   0.4   2.1   1   0   0   1   1   1   1 tRNA Pseudouridine synthase II, C terminal
+DUF802               PF05650.10 sp|Q2VZU1|PROB_MAGSA -                1.7    9.1   8.3       3.8    8.0   3.7   2.6   2   0   0   2   2   2   0 Domain of unknown function (DUF802)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q2VZU1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q2VZU1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q2VZU1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:46:42 2019
+# [ok]

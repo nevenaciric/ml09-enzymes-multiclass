@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+N6_N4_Mtase          PF01555.17 sp|Q45489|MTB2_BACIU -              3e-60  203.7   0.2   4.1e-60  203.3   0.2   1.2   1   0   0   1   1   1   1 DNA methylase
+N6_Mtase             PF02384.15 sp|Q45489|MTB2_BACIU -             0.0037   16.5   0.1    0.0084   15.3   0.1   1.5   2   0   0   2   2   2   1 N-6 DNA Methylase
+Methyltransf_11      PF08241.11 sp|Q45489|MTB2_BACIU -             0.0064   17.0   0.0     0.068   13.7   0.0   2.5   2   1   0   2   2   2   1 Methyltransferase domain
+Methyltransf_25      PF13649.5  sp|Q45489|MTB2_BACIU -                0.1   13.2   0.0       6.2    7.5   0.0   2.7   2   1   0   2   2   2   0 Methyltransferase domain
+MTS                  PF05175.13 sp|Q45489|MTB2_BACIU -               0.13   11.7   0.0      0.25   10.8   0.0   1.4   1   0   0   1   1   1   0 Methyltransferase small domain
+UPF0020              PF01170.17 sp|Q45489|MTB2_BACIU -               0.18   11.4   0.0       6.5    6.3   0.0   2.3   2   0   0   2   2   2   0 Putative RNA methylase family UPF0020
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q45489.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q45489.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q45489.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:10:15 2019
+# [ok]

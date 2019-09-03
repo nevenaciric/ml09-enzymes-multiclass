@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|Q72XC1|KITH_BACC1 -            1.1e-59  201.2   0.0   1.2e-59  201.0   0.0   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_14               PF13173.5  sp|Q72XC1|KITH_BACC1 -             0.0058   16.6   0.0    0.0078   16.1   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+UvrD-helicase        PF00580.20 sp|Q72XC1|KITH_BACC1 -              0.037   13.4   0.0     0.049   13.1   0.0   1.1   1   0   0   1   1   1   0 UvrD/REP helicase N-terminal domain
+zf-C4_ClpX           PF06689.12 sp|Q72XC1|KITH_BACC1 -               0.09   12.6   0.0       0.2   11.5   0.0   1.6   1   0   0   1   1   1   0 ClpX C4-type zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q72XC1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q72XC1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q72XC1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:30:57 2019
+# [ok]

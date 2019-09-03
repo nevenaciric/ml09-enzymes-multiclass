@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol3_alpha       PF07733.11 sp|Q5Z1D1|DNAE2_NOCFA -           1.5e-142  475.2   0.0  2.1e-142  474.7   0.0   1.2   1   0   0   1   1   1   1 Bacterial DNA polymerase III alpha subunit
+PHP                  PF02811.18 sp|Q5Z1D1|DNAE2_NOCFA -            4.9e-27   95.2   0.0   8.7e-27   94.4   0.0   1.4   1   0   0   1   1   1   1 PHP domain
+HHH_6                PF14579.5  sp|Q5Z1D1|DNAE2_NOCFA -            1.9e-26   92.1   0.0   2.1e-24   85.5   0.0   3.2   3   0   0   3   3   3   1 Helix-hairpin-helix motif
+tRNA_anti-codon      PF01336.24 sp|Q5Z1D1|DNAE2_NOCFA -            1.2e-07   31.5   0.0   3.4e-07   30.1   0.0   1.8   2   0   0   2   2   2   1 OB-fold nucleic acid binding domain
+HHH_3                PF12836.6  sp|Q5Z1D1|DNAE2_NOCFA -            1.5e-05   25.1   0.0   5.2e-05   23.3   0.0   1.9   2   0   0   2   2   2   1 Helix-hairpin-helix motif
+HHH_4                PF14490.5  sp|Q5Z1D1|DNAE2_NOCFA -              0.098   12.6   0.0       0.4   10.6   0.0   2.1   1   1   0   1   1   1   0 Helix-hairpin-helix containing domain
+tRNA_anti_2          PF13742.5  sp|Q5Z1D1|DNAE2_NOCFA -              0.098   12.8   0.0       0.2   11.8   0.0   1.5   1   0   0   1   1   1   0 OB-fold nucleic acid binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5Z1D1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5Z1D1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5Z1D1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:59:14 2019
+# [ok]

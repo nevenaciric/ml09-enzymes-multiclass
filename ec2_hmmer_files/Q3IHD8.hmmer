@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FA_synthesis         PF02504.14 sp|Q3IHD8|PLSX_PSEHT -           1.1e-102  343.4   0.6  1.2e-102  343.2   0.6   1.0   1   0   0   1   1   1   1 Fatty acid synthesis protein
+PTA_PTB              PF01515.18 sp|Q3IHD8|PLSX_PSEHT -            0.00022   20.6   0.1   0.00044   19.6   0.1   1.5   1   0   0   1   1   1   1 Phosphate acetyl/butaryl transferase
+Ribosomal_S30AE      PF02482.18 sp|Q3IHD8|PLSX_PSEHT -             0.0013   19.4   0.1     0.047   14.4   0.0   2.4   2   0   0   2   2   2   1 Sigma 54 modulation protein / S30EA ribosomal protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3IHD8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3IHD8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3IHD8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:00:07 2019
+# [ok]

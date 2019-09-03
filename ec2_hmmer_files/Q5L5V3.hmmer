@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_M22        PF00814.24 sp|Q5L5V3|TSAD_CHLAB -            8.2e-89  297.8   0.1   9.4e-89  297.6   0.1   1.0   1   0   0   1   1   1   1 Glycoprotease family
+Carbam_trans_N       PF02543.14 sp|Q5L5V3|TSAD_CHLAB -            3.5e-06   26.8   0.0      0.12   11.9   0.0   3.0   2   1   0   3   3   3   2 Carbamoyltransferase N-terminus
+FGGY_C               PF02782.15 sp|Q5L5V3|TSAD_CHLAB -              0.058   13.0   0.0      0.28   10.8   0.0   1.9   2   0   0   2   2   2   0 FGGY family of carbohydrate kinases, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q5L5V3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q5L5V3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q5L5V3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:46:21 2019
+# [ok]

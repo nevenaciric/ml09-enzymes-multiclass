@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q3SZJ2|RIPK2_BOVIN -            8.8e-44  149.6   0.0   1.2e-43  149.1   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q3SZJ2|RIPK2_BOVIN -            5.6e-43  147.1   0.0     1e-42  146.2   0.0   1.4   1   0   0   1   1   1   1 Protein kinase domain
+CARD                 PF00619.20 sp|Q3SZJ2|RIPK2_BOVIN -            6.1e-20   70.9   0.3   2.2e-19   69.2   0.4   1.9   2   0   0   2   2   2   1 Caspase recruitment domain
+Kinase-like          PF14531.5  sp|Q3SZJ2|RIPK2_BOVIN -             0.0068   15.7   0.0     0.012   14.9   0.0   1.3   1   0   0   1   1   1   1 Kinase-like
+Kdo                  PF06293.13 sp|Q3SZJ2|RIPK2_BOVIN -              0.071   12.4   0.0      0.14   11.4   0.0   1.4   1   0   0   1   1   1   0 Lipopolysaccharide kinase (Kdo/WaaP) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3SZJ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3SZJ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3SZJ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:06:11 2019
+# [ok]

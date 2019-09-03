@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADK                  PF00406.21 sp|Q6AD15|KAD_LEIXX  -            1.9e-49  167.5   0.0   2.3e-49  167.3   0.0   1.0   1   0   0   1   1   1   1 Adenylate kinase
+AAA_17               PF13207.5  sp|Q6AD15|KAD_LEIXX  -              2e-30  105.9   0.1   2.5e-30  105.6   0.1   1.1   1   0   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|Q6AD15|KAD_LEIXX  -            7.9e-05   22.7   0.0   0.00013   22.0   0.0   1.4   1   1   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|Q6AD15|KAD_LEIXX  -            9.5e-05   22.8   0.0   0.00019   21.8   0.0   1.5   1   1   0   1   1   1   1 AAA domain
+Cytidylate_kin       PF02224.17 sp|Q6AD15|KAD_LEIXX  -              0.044   13.4   0.8     0.065   12.9   0.0   1.6   2   0   0   2   2   2   0 Cytidylate kinase
+AAA_28               PF13521.5  sp|Q6AD15|KAD_LEIXX  -              0.065   13.4   0.0     0.099   12.8   0.0   1.4   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q6AD15.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q6AD15.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q6AD15.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 22:10:52 2019
+# [ok]

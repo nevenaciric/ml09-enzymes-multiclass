@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_binding_1        PF01035.19 sp|Q4J9C6|OGT_SULAC  -            6.2e-25   87.0   0.0   7.9e-25   86.7   0.0   1.1   1   0   0   1   1   1   1 6-O-methylguanine DNA methyltransferase, DNA binding domain
+Sigma70_r4_2         PF08281.11 sp|Q4J9C6|OGT_SULAC  -             0.0057   16.2   0.0      0.01   15.4   0.0   1.4   1   0   0   1   1   1   1 Sigma-70, region 4
+Methyltransf_1N      PF02870.14 sp|Q4J9C6|OGT_SULAC  -               0.03   15.0   0.0      0.12   13.2   0.0   2.0   1   1   0   1   1   1   0 6-O-methylguanine DNA methyltransferase, ribonuclease-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q4J9C6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q4J9C6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q4J9C6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:18:17 2019
+# [ok]

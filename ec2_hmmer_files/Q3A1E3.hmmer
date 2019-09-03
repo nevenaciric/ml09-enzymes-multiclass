@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SPOUT_MTase          PF02590.16 sp|Q3A1E3|RLMH_PELCD -            5.7e-53  178.9   0.0   6.3e-53  178.8   0.0   1.0   1   0   0   1   1   1   1 Predicted SPOUT methyltransferase
+Ubiq_cyt_C_chap      PF03981.11 sp|Q3A1E3|RLMH_PELCD -              0.071   13.1   0.0      0.11   12.5   0.0   1.5   1   1   0   1   1   1   0 Ubiquinol-cytochrome C chaperone
+Methyltrn_RNA_4      PF09936.8  sp|Q3A1E3|RLMH_PELCD -               0.15   11.8   0.0      0.16   11.7   0.0   1.2   1   0   0   1   1   1   0 SAM-dependent RNA methyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3A1E3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3A1E3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3A1E3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:56:16 2019
+# [ok]

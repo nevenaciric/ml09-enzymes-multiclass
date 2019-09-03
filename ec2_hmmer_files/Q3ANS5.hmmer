@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|Q3ANS5|NADK_CHLCH -              5e-49  167.0   0.3   8.6e-48  162.9   0.3   2.0   1   1   0   1   1   1   1 ATP-NAD kinase
+Esterase_phd         PF10503.8  sp|Q3ANS5|NADK_CHLCH -             0.0069   15.8   0.1      0.01   15.3   0.1   1.2   1   0   0   1   1   1   1 Esterase PHB depolymerase
+Peripla_BP_1         PF00532.20 sp|Q3ANS5|NADK_CHLCH -              0.085   12.2   0.0      0.12   11.7   0.0   1.2   1   0   0   1   1   1   0 Periplasmic binding proteins and sugar binding domain of LacI family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3ANS5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3ANS5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3ANS5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 20:57:39 2019
+# [ok]

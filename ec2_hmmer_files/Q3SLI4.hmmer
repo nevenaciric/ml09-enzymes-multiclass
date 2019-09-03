@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Guanylate_kin        PF00625.20 sp|Q3SLI4|KGUA_THIDA -            1.8e-50  171.1   0.0   2.2e-50  170.8   0.0   1.0   1   0   0   1   1   1   1 Guanylate kinase
+AAA_33               PF13671.5  sp|Q3SLI4|KGUA_THIDA -            0.00036   20.6   0.0    0.0014   18.7   0.0   1.9   1   1   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q3SLI4|KGUA_THIDA -            0.00064   20.0   1.4    0.0027   18.0   1.4   1.9   1   1   0   1   1   1   1 AAA ATPase domain
+MMR_HSR1             PF01926.22 sp|Q3SLI4|KGUA_THIDA -              0.014   15.4   0.0     0.036   14.1   0.0   1.6   1   1   0   1   1   1   0 50S ribosome-binding GTPase
+AAA_22               PF13401.5  sp|Q3SLI4|KGUA_THIDA -              0.017   15.3   0.0       0.1   12.8   0.0   2.0   2   0   0   2   2   2   0 AAA domain
+cobW                 PF02492.18 sp|Q3SLI4|KGUA_THIDA -              0.067   12.7   0.0      0.15   11.5   0.0   1.5   1   0   0   1   1   1   0 CobW/HypB/UreG, nucleotide-binding domain
+AAA_18               PF13238.5  sp|Q3SLI4|KGUA_THIDA -               0.12   12.8   0.0      0.45   10.9   0.0   2.0   1   1   0   1   1   1   0 AAA domain
+Viral_helicase1      PF01443.17 sp|Q3SLI4|KGUA_THIDA -               0.12   12.0   0.0       0.2   11.2   0.0   1.4   1   0   0   1   1   1   0 Viral (Superfamily 1) RNA helicase
+AAA                  PF00004.28 sp|Q3SLI4|KGUA_THIDA -               0.12   12.7   0.0      0.19   12.0   0.0   1.4   1   0   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+RsgA_GTPase          PF03193.15 sp|Q3SLI4|KGUA_THIDA -               0.21   11.4   0.0      0.37   10.6   0.0   1.4   1   0   0   1   1   1   0 RsgA GTPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q3SLI4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q3SLI4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q3SLI4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Tue Sep  3 21:05:24 2019
+# [ok]
