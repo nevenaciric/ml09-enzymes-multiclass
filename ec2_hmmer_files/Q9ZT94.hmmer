@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RVT_2                PF07727.13 sp|Q9ZT94|POLR2_ARATH -            9.7e-69  231.6   0.0   1.5e-68  231.0   0.0   1.3   1   0   0   1   1   1   1 Reverse transcriptase (RNA-dependent DNA polymerase)
+rve                  PF00665.25 sp|Q9ZT94|POLR2_ARATH -            3.3e-18   65.9   0.0   7.4e-18   64.8   0.0   1.6   1   0   0   1   1   1   1 Integrase core domain
+Retrotran_gag_2      PF14223.5  sp|Q9ZT94|POLR2_ARATH -            5.7e-14   51.8   0.1   9.9e-08   31.6   0.0   2.5   1   1   1   2   2   2   2 gag-polypeptide of LTR copia-type
+gag_pre-integrs      PF13976.5  sp|Q9ZT94|POLR2_ARATH -            1.3e-08   34.4   2.7   1.3e-08   34.4   2.7   2.3   2   0   0   2   2   2   1 GAG-pre-integrase domain
+Retrotran_gag_3      PF14244.5  sp|Q9ZT94|POLR2_ARATH -            0.00027   20.6   0.0   0.00069   19.3   0.0   1.7   1   0   0   1   1   1   1 gag-polypeptide of LTR copia-type
+MRI                  PF15325.5  sp|Q9ZT94|POLR2_ARATH -               0.44   11.7   0.0      0.44   11.7   0.0   2.8   2   1   1   3   3   3   0 Modulator of retrovirus infection
+zf-CCHC_4            PF14392.5  sp|Q9ZT94|POLR2_ARATH -                1.1    8.9   3.6      0.38   10.5   0.4   1.9   2   0   0   2   2   2   0 Zinc knuckle
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9ZT94.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9ZT94.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9ZT94.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:57:51 2019
+# [ok]

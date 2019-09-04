@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Malate_synthase      PF01274.21 sp|Q88QX8|MASZ_PSEPK -           9.9e-176  584.9   0.2  1.1e-175  584.7   0.2   1.0   1   0   0   1   1   1   1 Malate synthase
+DUF3355              PF11835.7  sp|Q88QX8|MASZ_PSEPK -              0.061   13.0   0.2      0.12   12.0   0.2   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF3355)
+Amidase_3            PF01520.17 sp|Q88QX8|MASZ_PSEPK -               0.12   12.4   0.0      0.82    9.7   0.0   2.3   3   0   0   3   3   3   0 N-acetylmuramoyl-L-alanine amidase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q88QX8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q88QX8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q88QX8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:33:32 2019
+# [ok]

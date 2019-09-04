@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-oxoacid_dh         PF00198.22 sp|Q8BMF4|ODP2_MOUSE -            4.3e-80  268.4   0.1   5.5e-80  268.1   0.1   1.1   1   0   0   1   1   1   1 2-oxoacid dehydrogenases acyltransferase (catalytic domain)
+Biotin_lipoyl        PF00364.21 sp|Q8BMF4|ODP2_MOUSE -              4e-32  109.8   1.0   4.9e-15   55.0   0.1   2.4   2   0   0   2   2   2   2 Biotin-requiring enzyme
+E3_binding           PF02817.16 sp|Q8BMF4|ODP2_MOUSE -            3.1e-16   59.3   1.6   6.5e-16   58.3   0.3   2.3   1   1   1   2   2   2   1 e3 binding domain
+Biotin_lipoyl_2      PF13533.5  sp|Q8BMF4|ODP2_MOUSE -            2.2e-05   24.1   0.0     0.033   13.9   0.0   2.7   2   0   0   2   2   2   2 Biotin-lipoyl like
+HlyD_3               PF13437.5  sp|Q8BMF4|ODP2_MOUSE -              0.035   14.7   0.2        21    5.8   0.0   2.8   3   0   0   3   3   3   0 HlyD family secretion protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8BMF4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8BMF4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8BMF4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:36:58 2019
+# [ok]

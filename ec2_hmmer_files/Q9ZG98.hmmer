@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q9ZG98|PROB_MEIRU -            1.2e-41  142.8   0.1   1.8e-41  142.3   0.1   1.2   1   0   0   1   1   1   1 Amino acid kinase family
+PUA                  PF01472.19 sp|Q9ZG98|PROB_MEIRU -            1.5e-25   88.8   0.5     4e-25   87.5   0.5   1.8   1   0   0   1   1   1   1 PUA domain
+TruB-C_2             PF09157.10 sp|Q9ZG98|PROB_MEIRU -              0.029   14.3   1.3     0.083   12.9   0.6   2.2   2   0   0   2   2   2   0 Pseudouridine synthase II TruB, C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9ZG98.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9ZG98.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9ZG98.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:56:35 2019
+# [ok]

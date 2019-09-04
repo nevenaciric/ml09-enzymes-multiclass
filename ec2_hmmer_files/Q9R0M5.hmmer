@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPK_catalytic        PF04263.15 sp|Q9R0M5|TPK1_MOUSE -            6.8e-40  135.8   0.0   8.6e-40  135.4   0.0   1.1   1   0   0   1   1   1   1 Thiamin pyrophosphokinase, catalytic domain
+TPK_B1_binding       PF04265.13 sp|Q9R0M5|TPK1_MOUSE -            2.3e-24   84.8   0.2   3.7e-24   84.1   0.2   1.4   1   0   0   1   1   1   1 Thiamin pyrophosphokinase, vitamin B1 binding domain
+DUF4456              PF14644.5  sp|Q9R0M5|TPK1_MOUSE -               0.11   12.0   0.1      0.15   11.6   0.1   1.2   1   0   0   1   1   1   0 Domain of unknown function (DUF4456)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9R0M5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9R0M5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9R0M5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:43:51 2019
+# [ok]

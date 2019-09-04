@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NAD_kinase           PF01513.20 sp|Q8KG83|NADK_CHLTE -            4.3e-53  180.3   0.1   2.4e-52  177.9   0.1   1.8   1   1   0   1   1   1   1 ATP-NAD kinase
+FtsK_SpoIIIE_N       PF12538.7  sp|Q8KG83|NADK_CHLTE -              0.024   14.7   0.0     0.069   13.3   0.0   1.7   2   0   0   2   2   2   0 DNA transporter
+PK_C                 PF02887.15 sp|Q8KG83|NADK_CHLTE -                0.1   12.8   0.1      0.37   10.9   0.1   2.0   2   1   0   2   2   2   0 Pyruvate kinase, alpha/beta domain
+Peripla_BP_1         PF00532.20 sp|Q8KG83|NADK_CHLTE -               0.15   11.4   0.0      0.22   10.8   0.0   1.2   1   0   0   1   1   1   0 Periplasmic binding proteins and sugar binding domain of LacI family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8KG83.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8KG83.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8KG83.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:50:54 2019
+# [ok]

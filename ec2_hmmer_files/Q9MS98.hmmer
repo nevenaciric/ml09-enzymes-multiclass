@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ALS_ss_C             PF10369.8  sp|Q9MS98|ILVH_GALSU -            3.8e-29  100.6   0.9   3.8e-29  100.6   0.9   1.7   2   0   0   2   2   2   1 Small subunit of acetolactate synthase
+ACT_5                PF13710.5  sp|Q9MS98|ILVH_GALSU -            1.7e-16   59.7   0.1   4.5e-16   58.3   0.0   1.8   2   0   0   2   2   2   1 ACT domain
+ACT                  PF01842.24 sp|Q9MS98|ILVH_GALSU -            5.1e-13   48.4   0.6   2.5e-12   46.3   0.2   2.1   2   0   0   2   2   2   1 ACT domain
+ACT_4                PF13291.5  sp|Q9MS98|ILVH_GALSU -            0.00023   21.6   0.3   0.00064   20.2   0.1   1.9   1   1   1   2   2   2   1 ACT domain
+JmjN                 PF02375.16 sp|Q9MS98|ILVH_GALSU -               0.13   12.2   1.0      0.53   10.2   0.5   2.0   2   0   0   2   2   2   0 jmjN domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9MS98.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9MS98.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9MS98.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:39:42 2019
+# [ok]

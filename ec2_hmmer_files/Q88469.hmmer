@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_B_2          PF03175.12 sp|Q88469|DPOL_ADET1 -              1e-30  106.9   0.2   1.3e-30  106.6   0.2   1.1   1   0   0   1   1   1   1 DNA polymerase type B, organellar and viral
+DNA_pol_B            PF00136.20 sp|Q88469|DPOL_ADET1 -               0.01   14.4   0.0     0.019   13.6   0.0   1.5   2   0   0   2   2   2   0 DNA polymerase family B
+FWWh                 PF14922.5  sp|Q88469|DPOL_ADET1 -              0.059   13.2   0.0      0.14   12.0   0.0   1.6   2   0   0   2   2   2   0 Protein of unknown function
+Meth_synt_2          PF01717.17 sp|Q88469|DPOL_ADET1 -              0.073   12.2   0.0     0.096   11.8   0.0   1.2   1   0   0   1   1   1   0 Cobalamin-independent synthase, Catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q88469.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q88469.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q88469.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:32:05 2019
+# [ok]

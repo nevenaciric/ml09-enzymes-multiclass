@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|Q8X071|ARO1_NEUCR -           1.4e-130  435.6   0.1  2.9e-130  434.6   0.0   1.5   2   0   0   2   2   2   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+DHQ_synthase         PF01761.19 sp|Q8X071|ARO1_NEUCR -           2.3e-102  341.6   0.0  3.8e-102  340.9   0.0   1.4   1   0   0   1   1   1   1 3-dehydroquinate synthase
+DHquinase_I          PF01487.14 sp|Q8X071|ARO1_NEUCR -            1.2e-59  202.2   0.0     2e-59  201.5   0.0   1.4   1   0   0   1   1   1   1 Type I 3-dehydroquinase
+SKI                  PF01202.21 sp|Q8X071|ARO1_NEUCR -            6.1e-39  133.6   0.0   3.1e-37  128.0   0.0   2.4   2   0   0   2   2   2   1 Shikimate kinase
+Shikimate_dh_N       PF08501.10 sp|Q8X071|ARO1_NEUCR -            1.7e-25   89.0   0.0   3.9e-25   87.8   0.0   1.7   1   0   0   1   1   1   1 Shikimate dehydrogenase substrate binding domain
+Fe-ADH_2             PF13685.5  sp|Q8X071|ARO1_NEUCR -            8.6e-08   32.1   0.0   1.7e-07   31.1   0.0   1.5   1   0   0   1   1   1   1 Iron-containing alcohol dehydrogenase
+Shikimate_DH         PF01488.19 sp|Q8X071|ARO1_NEUCR -            3.9e-07   30.1   0.0     2e-06   27.8   0.0   2.1   2   0   0   2   2   2   1 Shikimate / quinate 5-dehydrogenase
+Zeta_toxin           PF06414.11 sp|Q8X071|ARO1_NEUCR -              0.035   13.3   0.0      0.19   10.9   0.0   2.2   2   0   0   2   2   2   0 Zeta toxin
+AAA_16               PF13191.5  sp|Q8X071|ARO1_NEUCR -              0.075   13.3   0.0      0.81    9.9   0.0   2.5   2   0   0   2   2   2   0 AAA ATPase domain
+AAA_24               PF13479.5  sp|Q8X071|ARO1_NEUCR -               0.11   12.1   0.0      0.19   11.3   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+AAA_18               PF13238.5  sp|Q8X071|ARO1_NEUCR -               0.12   12.7   0.1       0.6   10.5   0.0   2.2   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8X071.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8X071.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8X071.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:03:03 2019
+# [ok]

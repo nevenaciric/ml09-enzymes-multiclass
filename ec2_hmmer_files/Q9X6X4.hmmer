@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BPL_LplA_LipB        PF03099.18 sp|Q9X6X4|LIPB_MYXXA -            1.1e-20   73.8   0.0   1.5e-20   73.3   0.0   1.2   1   0   0   1   1   1   1 Biotin/lipoate A/B protein ligase family
+NUDIX                PF00293.27 sp|Q9X6X4|LIPB_MYXXA -            4.4e-16   59.0   1.0   8.1e-16   58.2   1.0   1.4   1   0   0   1   1   1   1 NUDIX domain
+NUDIX_4              PF14815.5  sp|Q9X6X4|LIPB_MYXXA -             0.0043   16.9   0.2     0.017   15.0   0.2   2.0   1   1   0   1   1   1   1 NUDIX domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9X6X4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9X6X4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9X6X4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:52:35 2019
+# [ok]

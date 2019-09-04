@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TK                   PF00265.17 sp|Q8PEQ8|KITH_XANAC -            1.2e-48  165.3   0.0   1.3e-48  165.1   0.0   1.0   1   0   0   1   1   1   1 Thymidine kinase
+AAA_22               PF13401.5  sp|Q8PEQ8|KITH_XANAC -             0.0035   17.5   0.0    0.0071   16.5   0.0   1.5   1   0   0   1   1   1   1 AAA domain
+AAA_30               PF13604.5  sp|Q8PEQ8|KITH_XANAC -             0.0056   16.3   0.0    0.0092   15.6   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+KdpD                 PF02702.16 sp|Q8PEQ8|KITH_XANAC -              0.015   14.7   0.0     0.021   14.2   0.0   1.2   1   0   0   1   1   1   0 Osmosensitive K+ channel His kinase sensor domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8PEQ8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8PEQ8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8PEQ8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:54:56 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AICARFT_IMPCHas      PF01808.17 sp|Q8RC55|PUR9_CALS4 -           1.7e-123  411.7   0.4  2.2e-123  411.3   0.4   1.1   1   0   0   1   1   1   1 AICARFT/IMPCHase bienzyme
+MGS                  PF02142.21 sp|Q8RC55|PUR9_CALS4 -            1.3e-28   98.9   0.1   3.9e-28   97.4   0.1   1.9   1   0   0   1   1   1   1 MGS-like domain
+DUF1009              PF06230.10 sp|Q8RC55|PUR9_CALS4 -               0.08   12.5   0.3      0.36   10.4   0.3   2.1   1   1   0   1   1   1   0 Protein of unknown function (DUF1009)
+BING4CT              PF08149.10 sp|Q8RC55|PUR9_CALS4 -               0.14   11.9   0.0      0.32   10.7   0.0   1.5   1   0   0   1   1   1   0 BING4CT (NUC141) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8RC55.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8RC55.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8RC55.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:57:17 2019
+# [ok]

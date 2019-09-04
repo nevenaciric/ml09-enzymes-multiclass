@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PTAC                 PF06130.11 sp|Q834M4|PDUL_ENTFA -              5e-51  170.7   0.1   8.6e-29   99.4   0.0   2.3   2   1   0   2   2   2   2 Phosphate propanoyltransferase
+THUMP                PF02926.16 sp|Q834M4|PDUL_ENTFA -              0.041   13.9   0.1      0.12   12.3   0.0   1.7   2   0   0   2   2   2   0 THUMP domain
+PDU_like             PF15953.4  sp|Q834M4|PDUL_ENTFA -              0.045   13.7   0.5      0.32   11.0   0.1   2.3   3   0   0   3   3   3   0 Putative propanediol utilisation
+WASH_WAHD            PF11945.7  sp|Q834M4|PDUL_ENTFA -              0.051   13.0   0.1     0.078   12.4   0.1   1.2   1   0   0   1   1   1   0 WAHD domain of WASH complex
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q834M4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q834M4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q834M4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:25:50 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AMP-binding          PF00501.27 sp|Q96V34|LPSA1_EPIFI -           4.1e-197  654.8   0.0   4.7e-69  232.9   0.0   3.2   3   0   0   3   3   3   3 AMP-binding enzyme
+Condensation         PF00668.19 sp|Q96V34|LPSA1_EPIFI -           6.4e-122  407.4   0.0   4.1e-46  157.5   0.1   5.8   4   2   0   4   4   4   4 Condensation domain
+PP-binding           PF00550.24 sp|Q96V34|LPSA1_EPIFI -            2.1e-35  120.8   0.8   8.6e-12   45.1   0.0   4.0   4   0   0   4   4   4   3 Phosphopantetheine attachment site
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q96V34.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q96V34.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q96V34.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:16:53 2019
+# [ok]

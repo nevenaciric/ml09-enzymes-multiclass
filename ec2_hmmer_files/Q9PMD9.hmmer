@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q9PMD9|COAE_CAMJE -            3.6e-43  147.2   0.2   4.4e-43  146.9   0.2   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_18               PF13238.5  sp|Q9PMD9|COAE_CAMJE -              0.011   16.1   0.1      0.02   15.3   0.1   1.4   1   1   0   1   1   1   0 AAA domain
+Zeta_toxin           PF06414.11 sp|Q9PMD9|COAE_CAMJE -              0.021   14.0   0.0      0.24   10.5   0.0   2.2   2   0   0   2   2   2   0 Zeta toxin
+AAA_33               PF13671.5  sp|Q9PMD9|COAE_CAMJE -               0.13   12.3   0.0       2.2    8.3   0.0   2.5   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9PMD9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9PMD9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9PMD9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:42:36 2019
+# [ok]

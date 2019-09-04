@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_C       PF08544.12 sp|Q8YS61|ISPE_NOSS1 -            2.1e-14   53.5   0.1     5e-14   52.3   0.0   1.7   2   0   0   2   2   2   1 GHMP kinases C terminal
+GHMP_kinases_N       PF00288.25 sp|Q8YS61|ISPE_NOSS1 -              4e-09   36.5   0.5   9.4e-09   35.3   0.5   1.7   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+CRISPR_Cas2          PF09827.8  sp|Q8YS61|ISPE_NOSS1 -              0.057   13.5   0.0      0.13   12.3   0.0   1.6   1   0   0   1   1   1   0 CRISPR associated protein Cas2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8YS61.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8YS61.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8YS61.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:06:57 2019
+# [ok]

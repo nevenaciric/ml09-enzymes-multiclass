@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Viral_Rep            PF02407.15 sp|Q9IG45|REP_PICV   -            6.3e-27   93.5   0.1   1.3e-26   92.6   0.1   1.5   1   0   0   1   1   1   1 Putative viral replication protein
+RNA_helicase         PF00910.21 sp|Q9IG45|REP_PICV   -            1.5e-14   54.1   0.0   2.8e-14   53.3   0.0   1.5   1   0   0   1   1   1   1 RNA helicase
+IstB_IS21            PF01695.16 sp|Q9IG45|REP_PICV   -               0.03   14.0   0.1      0.83    9.3   0.0   2.6   2   1   0   2   2   2   0 IstB-like ATP binding protein
+AAA_16               PF13191.5  sp|Q9IG45|REP_PICV   -              0.032   14.5   0.0     0.078   13.3   0.0   1.6   1   0   0   1   1   1   0 AAA ATPase domain
+AAA_22               PF13401.5  sp|Q9IG45|REP_PICV   -              0.037   14.2   0.0       0.1   12.8   0.0   1.8   1   1   0   1   1   1   0 AAA domain
+ATPase_2             PF01637.17 sp|Q9IG45|REP_PICV   -              0.063   13.1   0.0      0.16   11.8   0.0   1.6   2   0   0   2   2   2   0 ATPase domain predominantly from Archaea
+AAA_33               PF13671.5  sp|Q9IG45|REP_PICV   -               0.12   12.4   0.0      0.25   11.4   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9IG45.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9IG45.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9IG45.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:32:12 2019
+# [ok]

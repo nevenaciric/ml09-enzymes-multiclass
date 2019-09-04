@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Guanylate_kin        PF00625.20 sp|Q8ER28|KGUA_OCEIH -            8.9e-49  165.5   0.2   1.1e-48  165.3   0.2   1.1   1   0   0   1   1   1   1 Guanylate kinase
+AAA_18               PF13238.5  sp|Q8ER28|KGUA_OCEIH -             0.0025   18.2   0.1    0.0086   16.5   0.1   1.9   1   1   1   2   2   2   1 AAA domain
+AAA_33               PF13671.5  sp|Q8ER28|KGUA_OCEIH -             0.0063   16.6   0.0     0.081   13.0   0.0   2.3   1   1   0   1   1   1   1 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q8ER28|KGUA_OCEIH -              0.038   13.8   0.3      0.16   11.8   0.0   1.9   2   0   0   2   2   2   0 RsgA GTPase
+AAA_22               PF13401.5  sp|Q8ER28|KGUA_OCEIH -               0.06   13.5   0.3     0.096   12.9   0.2   1.8   1   1   0   1   1   1   0 AAA domain
+MMR_HSR1             PF01926.22 sp|Q8ER28|KGUA_OCEIH -               0.13   12.3   0.2      0.46   10.5   0.2   2.1   1   1   0   1   1   1   0 50S ribosome-binding GTPase
+AAA_29               PF13555.5  sp|Q8ER28|KGUA_OCEIH -               0.18   11.5   1.1       0.5   10.0   0.2   2.0   2   0   0   2   2   2   0 P-loop containing region of AAA domain
+Borrelia_lipo_2      PF06238.10 sp|Q8ER28|KGUA_OCEIH -                2.3    8.5   6.1       1.2    9.3   3.0   2.1   2   1   0   2   2   2   0 Borrelia burgdorferi BBR25 lipoprotein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8ER28.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8ER28.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8ER28.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:44:37 2019
+# [ok]

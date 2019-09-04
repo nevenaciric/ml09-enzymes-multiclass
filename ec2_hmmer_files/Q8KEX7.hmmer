@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|Q8KEX7|MURA_CHLTE -            5.3e-92  308.6   0.1   6.1e-92  308.4   0.1   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+UPF0086              PF01868.15 sp|Q8KEX7|MURA_CHLTE -               0.02   14.7   0.0      0.14   12.0   0.0   2.2   2   0   0   2   2   2   0 Domain of unknown function UPF0086
+7kD_coat             PF02495.16 sp|Q8KEX7|MURA_CHLTE -               0.15   11.7   2.9       1.2    8.7   0.2   2.5   1   1   1   2   2   2   0 7kD viral coat protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8KEX7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8KEX7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8KEX7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:50:47 2019
+# [ok]

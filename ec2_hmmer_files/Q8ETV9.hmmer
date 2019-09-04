@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_A_CTD        PF03118.14 sp|Q8ETV9|RPOA_OCEIH -            3.6e-29  100.2   5.2     7e-29   99.3   5.2   1.5   1   0   0   1   1   1   1 Bacterial RNA polymerase, alpha chain C terminal domain
+RNA_pol_A_bac        PF01000.25 sp|Q8ETV9|RPOA_OCEIH -              5e-25   88.0   0.2   1.4e-24   86.5   0.0   1.8   2   0   0   2   2   2   1 RNA polymerase Rpb3/RpoA insert domain
+RNA_pol_L            PF01193.23 sp|Q8ETV9|RPOA_OCEIH -            8.6e-24   82.7   0.0   5.6e-23   80.1   0.0   2.2   2   1   0   2   2   2   1 RNA polymerase Rpb3/Rpb11 dimerisation domain
+HHH_5                PF14520.5  sp|Q8ETV9|RPOA_OCEIH -            0.00038   20.9   0.2    0.0099   16.4   0.0   2.6   2   0   0   2   2   2   1 Helix-hairpin-helix domain
+HTH_11               PF08279.11 sp|Q8ETV9|RPOA_OCEIH -              0.041   13.7   0.0      0.14   12.1   0.0   1.9   1   0   0   1   1   1   0 HTH domain
+PASTA                PF03793.18 sp|Q8ETV9|RPOA_OCEIH -               0.05   13.4   0.5        15    5.5   0.0   2.8   2   0   0   2   2   2   0 PASTA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8ETV9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8ETV9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8ETV9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:44:48 2019
+# [ok]

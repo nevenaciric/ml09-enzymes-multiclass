@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Transketolase_N      PF00456.20 sp|Q87LK8|TKT1_VIBPA -           3.2e-166  552.2   0.1  5.3e-166  551.5   0.1   1.4   1   0   0   1   1   1   1 Transketolase, thiamine diphosphate binding domain
+Transket_pyr         PF02779.23 sp|Q87LK8|TKT1_VIBPA -            4.8e-48  163.1   0.2   9.6e-48  162.1   0.2   1.5   1   0   0   1   1   1   1 Transketolase, pyrimidine binding domain
+Transketolase_C      PF02780.19 sp|Q87LK8|TKT1_VIBPA -            6.2e-22   77.7   0.0   1.2e-21   76.8   0.0   1.5   1   0   0   1   1   1   1 Transketolase, C-terminal domain
+DXP_synthase_N       PF13292.5  sp|Q87LK8|TKT1_VIBPA -            1.2e-05   24.6   0.0      0.03   13.4   0.1   2.6   1   1   1   2   2   2   2 1-deoxy-D-xylulose-5-phosphate synthase
+E1_dh                PF00676.19 sp|Q87LK8|TKT1_VIBPA -             0.0006   18.8   0.0    0.0011   17.9   0.0   1.4   1   0   0   1   1   1   1 Dehydrogenase E1 component
+TPP_enzyme_C         PF02775.20 sp|Q87LK8|TKT1_VIBPA -             0.0024   17.5   0.4      0.07   12.8   0.4   2.7   1   1   0   1   1   1   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+Toprim_3             PF13362.5  sp|Q87LK8|TKT1_VIBPA -              0.084   13.1   1.0      0.26   11.6   0.2   2.3   2   0   0   2   2   2   0 Toprim domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q87LK8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q87LK8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q87LK8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:30:51 2019
+# [ok]

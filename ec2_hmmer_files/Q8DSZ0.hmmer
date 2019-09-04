@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q8DSZ0|COAE_STRMU -            1.6e-50  171.2   0.2   1.9e-50  170.9   0.2   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_18               PF13238.5  sp|Q8DSZ0|COAE_STRMU -            2.8e-06   27.8   0.2   1.4e-05   25.6   0.2   2.0   1   1   0   1   1   1   1 AAA domain
+AAA_28               PF13521.5  sp|Q8DSZ0|COAE_STRMU -            2.2e-05   24.7   0.4   0.00018   21.7   0.4   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|Q8DSZ0|COAE_STRMU -            0.00037   20.6   0.1    0.0014   18.7   0.1   1.9   1   1   0   1   1   1   1 AAA domain
+dNK                  PF01712.18 sp|Q8DSZ0|COAE_STRMU -            0.00063   19.6   1.9    0.0085   15.9   1.9   2.2   1   1   0   1   1   1   1 Deoxynucleoside kinase
+Thymidylate_kin      PF02223.16 sp|Q8DSZ0|COAE_STRMU -              0.026   14.1   1.1      0.39   10.3   0.1   2.6   2   1   1   3   3   3   0 Thymidylate kinase
+AAA_17               PF13207.5  sp|Q8DSZ0|COAE_STRMU -              0.036   14.4   0.2      0.18   12.2   0.1   2.2   1   1   0   1   1   1   0 AAA domain
+UPF0180              PF03698.12 sp|Q8DSZ0|COAE_STRMU -              0.043   13.9   0.7      0.14   12.3   0.0   2.1   2   1   0   2   2   2   0 Uncharacterised protein family (UPF0180)
+APS_kinase           PF01583.19 sp|Q8DSZ0|COAE_STRMU -               0.11   12.3   0.1       0.2   11.4   0.1   1.4   1   0   0   1   1   1   0 Adenylylsulphate kinase
+MMR_HSR1             PF01926.22 sp|Q8DSZ0|COAE_STRMU -               0.12   12.4   0.2      0.26   11.3   0.2   1.9   1   1   0   1   1   1   0 50S ribosome-binding GTPase
+A_deaminase_N        PF08451.10 sp|Q8DSZ0|COAE_STRMU -               0.12   12.5   1.6      0.18   12.0   0.5   1.8   2   0   0   2   2   2   0 Adenosine/AMP deaminase N-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8DSZ0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8DSZ0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8DSZ0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:42:14 2019
+# [ok]

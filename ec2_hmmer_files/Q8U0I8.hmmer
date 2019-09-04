@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Prenyltransf         PF01255.18 sp|Q8U0I8|UPPS_PYRFU -            1.2e-83  280.0   0.1   1.4e-83  279.8   0.1   1.0   1   0   0   1   1   1   1 Putative undecaprenyl diphosphate synthase
+FemAB                PF02388.15 sp|Q8U0I8|UPPS_PYRFU -              0.045   12.5   0.5     0.061   12.1   0.5   1.1   1   0   0   1   1   1   0 FemAB family
+Seryl_tRNA_N         PF02403.21 sp|Q8U0I8|UPPS_PYRFU -               0.11   12.7   0.4      0.45   10.7   0.0   2.0   2   0   0   2   2   2   0 Seryl-tRNA synthetase N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8U0I8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8U0I8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8U0I8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:00:31 2019
+# [ok]

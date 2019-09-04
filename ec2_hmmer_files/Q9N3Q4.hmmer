@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PI3_PI4_kinase       PF00454.26 sp|Q9N3Q4|ATM_CAEEL  -            2.2e-35  122.6   0.1   6.6e-35  121.0   0.1   1.9   1   0   0   1   1   1   1 Phosphatidylinositol 3- and 4-kinase
+FATC                 PF02260.19 sp|Q9N3Q4|ATM_CAEEL  -            6.4e-10   38.6   0.2   2.7e-09   36.6   0.0   2.3   2   0   0   2   2   2   1 FATC domain
+BCMA-Tall_bind       PF09257.9  sp|Q9N3Q4|ATM_CAEEL  -              0.078   13.0   1.8       0.2   11.7   1.8   1.7   1   0   0   1   1   1   0 BCMA, TALL-1 binding
+DUF3228              PF11539.7  sp|Q9N3Q4|ATM_CAEEL  -              0.095   12.1   0.6      0.82    9.0   0.2   2.7   2   0   0   2   2   2   0 Protein of unknown function (DUF3228)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9N3Q4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9N3Q4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9N3Q4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:39:56 2019
+# [ok]

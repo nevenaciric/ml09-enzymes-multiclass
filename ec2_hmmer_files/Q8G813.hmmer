@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Guanylate_kin        PF00625.20 sp|Q8G813|KGUA_BIFLO -            1.3e-40  138.9   0.0   1.5e-40  138.7   0.0   1.0   1   0   0   1   1   1   1 Guanylate kinase
+AAA_18               PF13238.5  sp|Q8G813|KGUA_BIFLO -             0.0031   17.9   0.0    0.0087   16.5   0.0   1.7   1   1   0   1   1   1   1 AAA domain
+CPT                  PF07931.11 sp|Q8G813|KGUA_BIFLO -              0.034   13.9   0.1      0.13   12.0   0.1   1.8   1   1   0   1   1   1   0 Chloramphenicol phosphotransferase-like protein
+AAA_33               PF13671.5  sp|Q8G813|KGUA_BIFLO -              0.091   12.8   0.4       0.5   10.4   0.4   2.2   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8G813.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8G813.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8G813.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:47:49 2019
+# [ok]

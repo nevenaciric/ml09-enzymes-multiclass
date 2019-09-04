@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q83JG0|PNP_SHIFL  -            1.6e-42  145.1   0.0   8.6e-21   74.7   0.0   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+PNPase               PF03726.13 sp|Q83JG0|PNP_SHIFL  -            4.2e-26   91.2   1.9   4.2e-26   91.2   1.9   2.3   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+S1                   PF00575.22 sp|Q83JG0|PNP_SHIFL  -            2.3e-23   82.2   3.4   2.3e-23   82.2   3.4   2.6   2   0   0   2   2   2   1 S1 RNA binding domain
+RNase_PH_C           PF03725.14 sp|Q83JG0|PNP_SHIFL  -            1.9e-20   72.5   5.7   2.9e-14   52.8   0.1   3.2   3   0   0   3   3   3   2 3' exoribonuclease family, domain 2
+KH_1                 PF00013.28 sp|Q83JG0|PNP_SHIFL  -              5e-09   35.8   3.3     5e-09   35.8   3.3   2.2   2   0   0   2   2   2   1 KH domain
+S1_2                 PF13509.5  sp|Q83JG0|PNP_SHIFL  -            0.00044   20.2   0.6    0.0031   17.5   0.0   2.7   2   1   1   3   3   3   1 S1 domain
+KH_2                 PF07650.16 sp|Q83JG0|PNP_SHIFL  -             0.0019   17.9   0.4    0.0019   17.9   0.4   2.7   2   0   0   2   2   2   1 KH domain
+DUF2110              PF09883.8  sp|Q83JG0|PNP_SHIFL  -               0.02   14.4   0.6      0.05   13.1   0.6   1.6   1   0   0   1   1   1   0 Uncharacterized protein conserved in archaea (DUF2110)
+SLS                  PF14611.5  sp|Q83JG0|PNP_SHIFL  -               0.17   11.6   0.0      0.32   10.7   0.0   1.4   1   0   0   1   1   1   0 Mitochondrial inner-membrane-bound regulator
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q83JG0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q83JG0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q83JG0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:26:54 2019
+# [ok]

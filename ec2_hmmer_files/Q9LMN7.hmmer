@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q9LMN7|WAK5_ARATH -            8.2e-48  162.8   0.0   1.1e-47  162.4   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q9LMN7|WAK5_ARATH -              8e-45  153.2   0.1   1.1e-44  152.7   0.1   1.2   1   0   0   1   1   1   1 Protein kinase domain
+GUB_WAK_bind         PF13947.5  sp|Q9LMN7|WAK5_ARATH -            1.1e-22   80.6   1.2   1.1e-22   80.6   1.2   2.0   2   0   0   2   2   2   1 Wall-associated receptor kinase galacturonan-binding
+EGF_CA               PF07645.14 sp|Q9LMN7|WAK5_ARATH -            3.5e-10   39.8   8.8   3.5e-10   39.8   8.8   2.7   2   0   0   2   2   2   1 Calcium-binding EGF domain
+cEGF                 PF12662.6  sp|Q9LMN7|WAK5_ARATH -            3.3e-05   23.6  12.6      0.01   15.7   3.5   2.7   2   0   0   2   2   2   2 Complement Clr-like EGF-like
+EGF_3                PF12947.6  sp|Q9LMN7|WAK5_ARATH -            0.00015   21.8  21.6   0.00083   19.4   7.0   2.9   2   0   0   2   2   2   2 EGF domain
+Ca_hom_mod           PF14798.5  sp|Q9LMN7|WAK5_ARATH -              0.023   13.7   0.0     0.041   12.9   0.0   1.3   1   0   0   1   1   1   0 Calcium homeostasis modulator
+Spore_permease       PF03845.12 sp|Q9LMN7|WAK5_ARATH -               0.06   12.1   0.0      0.11   11.2   0.0   1.3   1   0   0   1   1   1   0 Spore germination protein
+Haspin_kinase        PF12330.7  sp|Q9LMN7|WAK5_ARATH -              0.067   12.0   0.1      0.12   11.2   0.1   1.3   1   0   0   1   1   1   0 Haspin like kinase domain
+EGF                  PF00008.26 sp|Q9LMN7|WAK5_ARATH -                9.9    6.5  40.1     0.026   14.7   6.9   3.8   4   0   0   4   4   4   0 EGF-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9LMN7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9LMN7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9LMN7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:37:38 2019
+# [ok]

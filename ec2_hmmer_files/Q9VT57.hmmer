@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q9VT57|CDK8_DROME -              4e-62  209.9   0.1     4e-62  209.9   0.1   2.3   2   1   0   2   2   2   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q9VT57|CDK8_DROME -            2.3e-26   92.5   0.0   2.3e-26   92.5   0.0   2.2   2   1   0   2   2   2   1 Protein tyrosine kinase
+DDHD                 PF02862.16 sp|Q9VT57|CDK8_DROME -             0.0077   16.3  13.6     0.012   15.6  13.6   1.4   1   0   0   1   1   1   1 DDHD domain
+CDC45                PF02724.13 sp|Q9VT57|CDK8_DROME -               0.24    9.6  22.6      0.33    9.1  22.6   1.1   1   0   0   1   1   1   0 CDC45-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9VT57.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9VT57.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9VT57.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:50:41 2019
+# [ok]

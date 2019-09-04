@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q9VBW3|CAD96_DROME -            5.1e-95  317.6   0.0   6.9e-95  317.1   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q9VBW3|CAD96_DROME -            3.5e-46  157.6   0.0   5.2e-46  157.0   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+Cadherin             PF00028.16 sp|Q9VBW3|CAD96_DROME -              0.001   19.4   0.0    0.0026   18.1   0.0   1.7   1   0   0   1   1   1   1 Cadherin domain
+APH                  PF01636.22 sp|Q9VBW3|CAD96_DROME -              0.048   13.5   0.1      0.12   12.2   0.0   1.6   2   0   0   2   2   2   0 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9VBW3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9VBW3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9VBW3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:50:09 2019
+# [ok]

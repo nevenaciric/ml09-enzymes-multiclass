@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GNAT_acetyltr_2      PF13718.5  sp|Q9M2Q4|NT102_ARATH -            4.5e-93  310.7   0.1   1.4e-92  309.2   0.0   1.8   2   0   0   2   2   2   1 GNAT acetyltransferase 2
+Helicase_RecD        PF05127.13 sp|Q9M2Q4|NT102_ARATH -            2.4e-60  203.3   0.0   4.6e-60  202.4   0.0   1.5   1   0   0   1   1   1   1 Helicase
+tRNA_bind_2          PF13725.5  sp|Q9M2Q4|NT102_ARATH -            1.8e-59  201.3   2.5   3.3e-59  200.4   2.5   1.4   1   0   0   1   1   1   1 Possible tRNA binding domain
+DUF1726              PF08351.10 sp|Q9M2Q4|NT102_ARATH -              2e-30  104.5   0.0   2.5e-29  100.9   0.0   2.5   2   0   0   2   2   2   1 Domain of unknown function (DUF1726)
+AAA_22               PF13401.5  sp|Q9M2Q4|NT102_ARATH -            9.5e-07   29.1   0.0   0.00056   20.1   0.0   2.7   2   0   0   2   2   2   2 AAA domain
+AAA_30               PF13604.5  sp|Q9M2Q4|NT102_ARATH -              0.024   14.3   0.0       1.1    8.8   0.0   2.6   2   1   0   2   2   2   0 AAA domain
+DEAD                 PF00270.28 sp|Q9M2Q4|NT102_ARATH -              0.041   13.5   0.2      0.16   11.7   0.0   2.0   2   0   0   2   2   2   0 DEAD/DEAH box helicase
+DUF4944              PF16302.4  sp|Q9M2Q4|NT102_ARATH -              0.089   12.7   0.1      0.17   11.8   0.1   1.4   1   0   0   1   1   1   0 Domain of unknown function (DUF4944)
+Acetyltransf_1       PF00583.24 sp|Q9M2Q4|NT102_ARATH -               0.11   12.6   0.0      0.27   11.4   0.0   1.6   1   0   0   1   1   1   0 Acetyltransferase (GNAT) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9M2Q4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9M2Q4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9M2Q4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:39:09 2019
+# [ok]

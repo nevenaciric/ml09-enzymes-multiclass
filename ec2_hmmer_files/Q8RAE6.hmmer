@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q8RAE6|PROB_CALS4 -            4.2e-48  164.0   0.7   5.3e-48  163.6   0.7   1.1   1   0   0   1   1   1   1 Amino acid kinase family
+PUA                  PF01472.19 sp|Q8RAE6|PROB_CALS4 -            1.3e-24   85.8   2.0   2.8e-24   84.7   0.3   2.5   3   0   0   3   3   3   1 PUA domain
+OSK                  PF17182.3  sp|Q8RAE6|PROB_CALS4 -              0.052   12.7   0.0     0.096   11.8   0.0   1.5   1   0   0   1   1   1   0 OSK domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8RAE6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8RAE6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8RAE6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:57:12 2019
+# [ok]

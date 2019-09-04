@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pox_ser-thr_kin      PF05445.10 sp|Q89121|VPK2_VACCW -           4.1e-216  717.9  36.0  4.9e-216  717.7  36.0   1.0   1   0   0   1   1   1   1 Poxvirus serine/threonine protein kinase
+PIF6                 PF05341.10 sp|Q89121|VPK2_VACCW -              0.013   15.5   0.1     0.036   14.1   0.1   1.9   1   0   0   1   1   1   0 Per os infectivity factor 6
+Pkinase              PF00069.24 sp|Q89121|VPK2_VACCW -              0.042   13.1   0.3      0.09   12.0   0.3   1.6   1   0   0   1   1   1   0 Protein kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q89121.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q89121.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q89121.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:34:13 2019
+# [ok]

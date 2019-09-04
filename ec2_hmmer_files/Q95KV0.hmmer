@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q95KV0|IKKB_BOVIN -              9e-55  185.8   0.0     2e-54  184.6   0.0   1.6   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q95KV0|IKKB_BOVIN -            3.7e-39  134.5   0.0   8.8e-39  133.2   0.0   1.6   1   0   0   1   1   1   1 Protein tyrosine kinase
+IKKbetaNEMObind      PF12179.7  sp|Q95KV0|IKKB_BOVIN -            1.3e-16   60.2   5.8   1.3e-16   60.2   5.8   3.3   3   0   0   3   3   3   1 I-kappa-kinase-beta NEMO binding domain
+Kdo                  PF06293.13 sp|Q95KV0|IKKB_BOVIN -            1.9e-06   27.3   0.1   4.8e-06   26.0   0.1   1.6   1   0   0   1   1   1   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+APH                  PF01636.22 sp|Q95KV0|IKKB_BOVIN -             0.0019   18.0   0.5    0.0073   16.1   0.0   2.2   2   0   0   2   2   2   1 Phosphotransferase enzyme family
+YrbL-PhoP_reg        PF10707.8  sp|Q95KV0|IKKB_BOVIN -             0.0082   15.6   0.2     0.026   13.9   0.0   2.0   2   0   0   2   2   2   1 PhoP regulatory network protein YrbL
+ubiquitin            PF00240.22 sp|Q95KV0|IKKB_BOVIN -               0.02   14.5   0.0     0.057   13.0   0.0   1.8   1   0   0   1   1   1   0 Ubiquitin family
+Med20                PF08612.10 sp|Q95KV0|IKKB_BOVIN -              0.031   13.5   0.0     0.079   12.2   0.0   1.7   1   0   0   1   1   1   0 TATA-binding related factor (TRF) of subunit 20 of Mediator complex
+GTSE1_N              PF15259.5  sp|Q95KV0|IKKB_BOVIN -              0.039   14.0   0.5       0.2   11.7   0.5   2.2   1   0   0   1   1   1   0 G-2 and S-phase expressed 1
+Glyco_hydro_65m      PF03632.14 sp|Q95KV0|IKKB_BOVIN -              0.072   11.8   0.0      0.15   10.8   0.0   1.4   1   0   0   1   1   1   0 Glycosyl hydrolase family 65 central catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q95KV0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q95KV0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q95KV0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:15:37 2019
+# [ok]

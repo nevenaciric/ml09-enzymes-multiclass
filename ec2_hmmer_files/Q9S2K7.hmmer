@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q9S2K7|COAE_STRCO -            3.5e-58  196.1   0.1     4e-58  195.9   0.1   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_18               PF13238.5  sp|Q9S2K7|COAE_STRCO -            2.1e-05   24.9   0.7   0.00027   21.4   0.1   2.6   1   1   1   2   2   2   1 AAA domain
+AAA_33               PF13671.5  sp|Q9S2K7|COAE_STRCO -            0.00027   21.0   0.4    0.0047   17.0   0.4   2.3   1   1   0   1   1   1   1 AAA domain
+AAA_28               PF13521.5  sp|Q9S2K7|COAE_STRCO -            0.00064   19.9   2.6     0.014   15.5   2.6   2.3   1   1   0   1   1   1   1 AAA domain
+Hpr_kinase_C         PF07475.11 sp|Q9S2K7|COAE_STRCO -              0.035   13.5   0.4     0.079   12.4   0.2   1.7   2   0   0   2   2   2   0 HPr Serine kinase C-terminal domain
+bact-PGI_C           PF10432.8  sp|Q9S2K7|COAE_STRCO -              0.076   13.0   0.2       0.3   11.0   0.0   1.9   1   1   0   2   2   2   0 Bacterial phospho-glucose isomerase C-terminal SIS domain
+HipA_C               PF07804.11 sp|Q9S2K7|COAE_STRCO -              0.096   12.3   0.0      0.14   11.8   0.0   1.2   1   0   0   1   1   1   0 HipA-like C-terminal domain
+AAA_17               PF13207.5  sp|Q9S2K7|COAE_STRCO -               0.18   12.1   1.4       1.4    9.3   0.2   2.6   1   1   1   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9S2K7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9S2K7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9S2K7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:45:20 2019
+# [ok]

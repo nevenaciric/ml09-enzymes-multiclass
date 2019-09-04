@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transferase      PF00483.22 sp|Q8NRD4|GLGC_CORGL -            1.3e-66  224.6   0.0   1.8e-66  224.2   0.0   1.1   1   0   0   1   1   1   1 Nucleotidyl transferase
+NTP_transf_3         PF12804.6  sp|Q8NRD4|GLGC_CORGL -            7.2e-07   29.6   0.0   1.1e-06   29.0   0.0   1.4   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+Fucokinase           PF07959.11 sp|Q8NRD4|GLGC_CORGL -              0.011   14.8   0.0     0.023   13.6   0.1   1.5   2   0   0   2   2   2   0 L-fucokinase
+Hexapep              PF00132.23 sp|Q8NRD4|GLGC_CORGL -              0.085   12.5   9.0      0.36   10.5   0.1   3.0   2   1   1   3   3   3   0 Bacterial transferase hexapeptide (six repeats)
+Bactofilin           PF04519.12 sp|Q8NRD4|GLGC_CORGL -               0.15   12.3   4.6      0.12   12.6   2.2   1.8   1   1   0   1   1   1   0 Polymer-forming cytoskeletal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8NRD4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8NRD4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8NRD4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:53:08 2019
+# [ok]

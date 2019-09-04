@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q8XIX0|COAE_CLOPE -            2.7e-45  154.2   0.0   3.2e-45  153.9   0.0   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_28               PF13521.5  sp|Q8XIX0|COAE_CLOPE -             0.0016   18.6   0.0    0.0033   17.6   0.0   1.5   1   0   0   1   1   1   1 AAA domain
+PRK                  PF00485.17 sp|Q8XIX0|COAE_CLOPE -             0.0026   17.4   2.3     0.017   14.7   0.5   2.0   2   0   0   2   2   2   1 Phosphoribulokinase / Uridine kinase family
+AAA_18               PF13238.5  sp|Q8XIX0|COAE_CLOPE -              0.015   15.8   1.6      0.44   11.0   0.0   2.3   2   1   0   2   2   2   0 AAA domain
+TPD                  PF14811.5  sp|Q8XIX0|COAE_CLOPE -              0.051   13.3   0.0      0.19   11.5   0.0   1.9   2   0   0   2   2   2   0 Protein of unknown function TPD sequence-motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8XIX0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8XIX0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8XIX0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:04:14 2019
+# [ok]

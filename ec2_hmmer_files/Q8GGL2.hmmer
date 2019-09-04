@@ -1,0 +1,24 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ADK                  PF00406.21 sp|Q8GGL2|KAD_THENE  -            1.9e-54  183.8   0.0   2.2e-54  183.5   0.0   1.0   1   0   0   1   1   1   1 Adenylate kinase
+AAA_17               PF13207.5  sp|Q8GGL2|KAD_THENE  -            6.8e-32  110.6   0.6   1.5e-31  109.6   0.1   1.7   2   0   0   2   2   2   1 AAA domain
+ADK_lid              PF05191.13 sp|Q8GGL2|KAD_THENE  -              5e-16   58.3   4.2   8.5e-16   57.6   4.2   1.4   1   0   0   1   1   1   1 Adenylate kinase, active site lid
+AAA_33               PF13671.5  sp|Q8GGL2|KAD_THENE  -            3.3e-07   30.4   0.0   6.8e-07   29.4   0.0   1.4   1   0   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|Q8GGL2|KAD_THENE  -            4.6e-07   30.3   0.0     8e-07   29.5   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_28               PF13521.5  sp|Q8GGL2|KAD_THENE  -            6.2e-05   23.2   0.0   9.6e-05   22.6   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+Hydin_ADK            PF17213.2  sp|Q8GGL2|KAD_THENE  -            0.00034   20.9   0.2     0.015   15.5   0.1   2.8   2   1   1   3   3   3   1 Hydin Adenylate kinase-like domain
+Cytidylate_kin       PF02224.17 sp|Q8GGL2|KAD_THENE  -             0.0015   18.2   0.0    0.0033   17.1   0.0   1.6   1   1   0   1   1   1   1 Cytidylate kinase
+ABC_tran             PF00005.26 sp|Q8GGL2|KAD_THENE  -               0.01   16.2   0.0     0.017   15.6   0.0   1.4   1   1   0   1   1   1   0 ABC transporter
+AAA                  PF00004.28 sp|Q8GGL2|KAD_THENE  -              0.011   16.0   0.0     0.018   15.4   0.0   1.4   1   0   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+zf-C4_Topoisom       PF01396.18 sp|Q8GGL2|KAD_THENE  -               0.11   12.2   1.2        12    5.7   0.2   2.5   2   0   0   2   2   2   0 Topoisomerase DNA binding C4 zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8GGL2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8GGL2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8GGL2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:47:59 2019
+# [ok]

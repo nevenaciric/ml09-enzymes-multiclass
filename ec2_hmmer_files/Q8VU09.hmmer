@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|Q8VU09|PFKA_AMYME -            5.3e-60  203.1   0.2   6.4e-60  202.8   0.2   1.1   1   0   0   1   1   1   1 Phosphofructokinase
+DAGK_cat             PF00781.23 sp|Q8VU09|PFKA_AMYME -              0.014   14.9   2.1     0.045   13.3   0.2   2.5   3   0   0   3   3   3   0 Diacylglycerol kinase catalytic domain
+NAD_kinase           PF01513.20 sp|Q8VU09|PFKA_AMYME -              0.017   14.2   0.2     0.026   13.6   0.2   1.2   1   0   0   1   1   1   0 ATP-NAD kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8VU09.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8VU09.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8VU09.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:01:59 2019
+# [ok]

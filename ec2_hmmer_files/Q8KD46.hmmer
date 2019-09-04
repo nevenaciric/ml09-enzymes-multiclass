@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q8KD46|COAE_CHLTE -            5.8e-40  136.8   0.0   6.7e-40  136.5   0.0   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_18               PF13238.5  sp|Q8KD46|COAE_CHLTE -            0.00012   22.5   1.2    0.0011   19.4   1.1   2.2   1   1   0   1   1   1   1 AAA domain
+AAA_28               PF13521.5  sp|Q8KD46|COAE_CHLTE -             0.0016   18.6   1.6     0.038   14.2   1.6   2.8   1   1   0   1   1   1   1 AAA domain
+AAA_17               PF13207.5  sp|Q8KD46|COAE_CHLTE -              0.011   16.1   1.0     0.045   14.1   0.3   2.4   1   1   1   2   2   2   0 AAA domain
+AAA_22               PF13401.5  sp|Q8KD46|COAE_CHLTE -              0.013   15.7   0.1     0.037   14.2   0.1   2.0   1   1   0   1   1   1   0 AAA domain
+AAA_33               PF13671.5  sp|Q8KD46|COAE_CHLTE -              0.046   13.8   0.0     0.092   12.8   0.0   1.6   1   1   0   1   1   1   0 AAA domain
+AAA_29               PF13555.5  sp|Q8KD46|COAE_CHLTE -              0.053   13.1   0.1      0.12   12.0   0.1   1.5   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+SKI                  PF01202.21 sp|Q8KD46|COAE_CHLTE -              0.058   13.4   0.0      0.44   10.5   0.0   2.1   2   0   0   2   2   2   0 Shikimate kinase
+Zeta_toxin           PF06414.11 sp|Q8KD46|COAE_CHLTE -               0.14   11.3   0.4       1.5    8.0   0.0   2.3   2   0   0   2   2   2   0 Zeta toxin
+ATP_bind_1           PF03029.16 sp|Q8KD46|COAE_CHLTE -               0.17   11.5   0.3      0.31   10.7   0.3   1.4   1   0   0   1   1   1   0 Conserved hypothetical ATP binding protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8KD46.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8KD46.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8KD46.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:50:40 2019
+# [ok]

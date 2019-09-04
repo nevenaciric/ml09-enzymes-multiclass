@@ -1,0 +1,35 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AAA_17               PF13207.5  sp|Q9V1V9|KADA_PYRAB -            1.4e-37  129.1   0.1   2.1e-37  128.5   0.1   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_18               PF13238.5  sp|Q9V1V9|KADA_PYRAB -              7e-10   39.4   0.1   1.8e-09   38.1   0.0   1.6   1   1   1   2   2   2   1 AAA domain
+AAA                  PF00004.28 sp|Q9V1V9|KADA_PYRAB -            0.00027   21.3   0.5   0.00085   19.7   0.2   2.2   2   1   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+AAA_5                PF07728.13 sp|Q9V1V9|KADA_PYRAB -            0.00099   19.0   0.3     0.004   17.1   0.0   2.0   2   0   0   2   2   2   1 AAA domain (dynein-related subfamily)
+AAA_16               PF13191.5  sp|Q9V1V9|KADA_PYRAB -             0.0021   18.4   0.3    0.0065   16.8   0.3   1.9   1   1   0   1   1   1   1 AAA ATPase domain
+CLP1_P               PF16575.4  sp|Q9V1V9|KADA_PYRAB -             0.0044   16.8   0.1     0.061   13.0   0.0   2.1   2   0   0   2   2   2   1 mRNA cleavage and polyadenylation factor CLP1 P-loop
+AAA_28               PF13521.5  sp|Q9V1V9|KADA_PYRAB -             0.0067   16.6   0.0      0.02   15.1   0.0   1.7   2   0   0   2   2   2   1 AAA domain
+AAA_14               PF13173.5  sp|Q9V1V9|KADA_PYRAB -             0.0076   16.2   0.8     0.024   14.6   0.1   2.0   1   1   0   2   2   2   1 AAA domain
+AAA_22               PF13401.5  sp|Q9V1V9|KADA_PYRAB -              0.008   16.3   1.9       0.1   12.8   1.9   2.1   1   1   0   1   1   1   1 AAA domain
+NTPase_1             PF03266.14 sp|Q9V1V9|KADA_PYRAB -              0.011   15.6   0.3     0.027   14.3   0.3   1.7   1   0   0   1   1   1   0 NTPase
+AAA_33               PF13671.5  sp|Q9V1V9|KADA_PYRAB -              0.016   15.3   0.2     0.032   14.3   0.2   1.8   1   1   0   1   1   1   0 AAA domain
+AAA_3                PF07726.10 sp|Q9V1V9|KADA_PYRAB -              0.021   14.6   0.1      0.06   13.1   0.1   2.0   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+ArgK                 PF03308.15 sp|Q9V1V9|KADA_PYRAB -              0.027   13.4   0.1      0.06   12.2   0.1   1.6   1   0   0   1   1   1   0 ArgK protein
+NB-ARC               PF00931.21 sp|Q9V1V9|KADA_PYRAB -              0.028   13.3   0.0     0.044   12.7   0.0   1.4   1   0   0   1   1   1   0 NB-ARC domain
+PAS_9                PF13426.6  sp|Q9V1V9|KADA_PYRAB -              0.045   13.9   0.0      0.08   13.1   0.0   1.5   1   0   0   1   1   1   0 PAS domain
+APS_kinase           PF01583.19 sp|Q9V1V9|KADA_PYRAB -              0.045   13.5   0.9      0.35   10.6   0.1   2.2   2   1   0   2   2   2   0 Adenylylsulphate kinase
+MMR_HSR1             PF01926.22 sp|Q9V1V9|KADA_PYRAB -              0.062   13.3   1.2      0.19   11.7   1.2   2.2   1   1   0   1   1   1   0 50S ribosome-binding GTPase
+KTI12                PF08433.9  sp|Q9V1V9|KADA_PYRAB -              0.065   12.6   0.1     0.092   12.1   0.1   1.4   1   1   0   1   1   1   0 Chromatin associated protein KTI12
+DUF2075              PF09848.8  sp|Q9V1V9|KADA_PYRAB -              0.075   12.2   0.0      0.12   11.5   0.0   1.3   1   0   0   1   1   1   0 Uncharacterized conserved protein (DUF2075)
+Viral_helicase1      PF01443.17 sp|Q9V1V9|KADA_PYRAB -                0.1   12.2   0.0      0.15   11.6   0.0   1.3   1   0   0   1   1   1   0 Viral (Superfamily 1) RNA helicase
+ABC_tran             PF00005.26 sp|Q9V1V9|KADA_PYRAB -               0.17   12.3   0.3      0.29   11.5   0.3   1.6   1   1   0   1   1   1   0 ABC transporter
+AAA_30               PF13604.5  sp|Q9V1V9|KADA_PYRAB -               0.51    9.9   2.9      0.57    9.8   0.2   2.1   2   1   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9V1V9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9V1V9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9V1V9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:49:47 2019
+# [ok]

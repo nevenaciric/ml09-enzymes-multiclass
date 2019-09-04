@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CTP_transf_3         PF02348.18 sp|Q8D2V1|KDSB_WIGBR -              3e-55  187.4   1.8   3.6e-55  187.2   1.8   1.0   1   0   0   1   1   1   1 Cytidylyltransferase
+NTP_transf_3         PF12804.6  sp|Q8D2V1|KDSB_WIGBR -            1.2e-10   41.9   0.0   1.5e-10   41.5   0.0   1.1   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+IspD                 PF01128.18 sp|Q8D2V1|KDSB_WIGBR -             0.0073   16.0   0.0    0.0093   15.6   0.0   1.1   1   0   0   1   1   1   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+NTP_transferase      PF00483.22 sp|Q8D2V1|KDSB_WIGBR -              0.017   14.6   0.1     0.031   13.8   0.1   1.5   1   1   0   1   1   1   0 Nucleotidyl transferase
+ADH_zinc_N           PF00107.25 sp|Q8D2V1|KDSB_WIGBR -              0.031   14.1   0.0      0.18   11.6   0.0   2.0   1   1   0   1   1   1   0 Zinc-binding dehydrogenase
+ArsA_ATPase          PF02374.14 sp|Q8D2V1|KDSB_WIGBR -              0.037   13.2   0.5     0.056   12.6   0.5   1.5   1   0   0   1   1   1   0 Anion-transporting ATPase
+HMD                  PF03201.15 sp|Q8D2V1|KDSB_WIGBR -               0.17   12.0   0.6       4.7    7.4   0.2   2.3   1   1   1   2   2   2   0 H2-forming N5,N10-methylene-tetrahydromethanopterin dehydrogenase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8D2V1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8D2V1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8D2V1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:40:00 2019
+# [ok]

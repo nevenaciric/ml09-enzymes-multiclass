@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+P-mevalo_kinase      PF04275.13 sp|Q9VIT2|PMVK_DROME -            4.2e-44  149.1   0.1   5.4e-44  148.7   0.1   1.1   1   0   0   1   1   1   1 Phosphomevalonate kinase
+AAA_18               PF13238.5  sp|Q9VIT2|PMVK_DROME -                0.1   13.0   0.1      0.33   11.4   0.0   2.0   2   1   0   2   2   2   0 AAA domain
+AAA_14               PF13173.5  sp|Q9VIT2|PMVK_DROME -               0.11   12.4   0.1      0.19   11.6   0.0   1.4   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9VIT2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9VIT2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9VIT2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:50:22 2019
+# [ok]

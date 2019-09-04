@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PARP                 PF00644.19 sp|Q9H0J9|PAR12_HUMAN -            1.3e-39  135.8   1.4   2.9e-39  134.6   1.4   1.6   1   1   0   1   1   1   1 Poly(ADP-ribose) polymerase catalytic domain
+WWE                  PF02825.19 sp|Q9H0J9|PAR12_HUMAN -            6.1e-19   68.3   0.9     3e-13   50.0   0.3   2.7   2   0   0   2   2   2   2 WWE domain
+zf-CCCH              PF00642.23 sp|Q9H0J9|PAR12_HUMAN -            5.7e-05   22.8   3.3   5.7e-05   22.8   3.3   4.6   4   0   0   4   4   4   2 Zinc finger C-x8-C-x5-C-x3-H type (and similar)
+Torus                PF16131.4  sp|Q9H0J9|PAR12_HUMAN -             0.0051   17.4  14.7      0.22   12.1   2.4   3.7   3   1   0   3   3   3   2 Torus domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9H0J9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9H0J9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9H0J9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:29:16 2019
+# [ok]

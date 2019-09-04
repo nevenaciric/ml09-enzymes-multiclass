@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q9FIL1|BSK5_ARATH -            2.3e-25   89.3   0.0   3.3e-25   88.8   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q9FIL1|BSK5_ARATH -            1.4e-21   77.0   0.0     2e-21   76.4   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+TPR_6                PF13174.5  sp|Q9FIL1|BSK5_ARATH -              0.017   15.7   0.3       6.7    7.5   0.0   2.8   2   0   0   2   2   2   0 Tetratricopeptide repeat
+TPR_2                PF07719.16 sp|Q9FIL1|BSK5_ARATH -              0.018   15.0   0.0        40    4.6   0.0   3.7   4   0   0   4   4   4   0 Tetratricopeptide repeat
+TPR_1                PF00515.27 sp|Q9FIL1|BSK5_ARATH -              0.034   13.9   0.2        34    4.4   0.0   3.6   4   0   0   4   4   4   0 Tetratricopeptide repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9FIL1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9FIL1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9FIL1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:27:54 2019
+# [ok]

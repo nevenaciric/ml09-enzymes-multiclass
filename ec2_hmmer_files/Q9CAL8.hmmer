@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q9CAL8|PEK13_ARATH -            7.7e-46  156.4   0.0     1e-45  156.0   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q9CAL8|PEK13_ARATH -            2.6e-45  154.8   0.0   3.2e-45  154.4   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+APH                  PF01636.22 sp|Q9CAL8|PEK13_ARATH -              0.005   16.7   0.2     0.012   15.4   0.2   1.6   1   1   1   2   2   2   1 Phosphotransferase enzyme family
+Gram_pos_anchor      PF00746.20 sp|Q9CAL8|PEK13_ARATH -              0.049   13.5   1.6      0.09   12.6   1.6   1.4   1   0   0   1   1   1   0 LPXTG cell wall anchor motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9CAL8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9CAL8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9CAL8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:23:56 2019
+# [ok]

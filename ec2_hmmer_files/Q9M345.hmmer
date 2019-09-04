@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lectin_legB          PF00139.18 sp|Q9M345|LRK42_ARATH -              1e-80  270.8   0.2   1.4e-80  270.3   0.2   1.2   1   0   0   1   1   1   1 Legume lectin domain
+Pkinase              PF00069.24 sp|Q9M345|LRK42_ARATH -            5.3e-47  160.3   0.0     7e-47  159.9   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q9M345|LRK42_ARATH -            1.6e-43  148.8   0.0   3.6e-43  147.6   0.0   1.6   1   1   0   1   1   1   1 Protein tyrosine kinase
+Ninjurin             PF04923.11 sp|Q9M345|LRK42_ARATH -              0.087   12.7   0.0       0.2   11.5   0.0   1.6   1   0   0   1   1   1   0 Ninjurin
+ER_lumen_recept      PF00810.17 sp|Q9M345|LRK42_ARATH -              0.096   13.4   0.0       2.5    8.8   0.0   2.5   2   0   0   2   2   2   0 ER lumen protein retaining receptor
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9M345.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9M345.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9M345.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:39:15 2019
+# [ok]

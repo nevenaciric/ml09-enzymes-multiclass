@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GNAT_acetyltr_2      PF13718.5  sp|Q9XIK4|NT101_ARATH -            2.1e-93  311.8   0.0   3.9e-93  310.9   0.0   1.4   1   0   0   1   1   1   1 GNAT acetyltransferase 2
+tRNA_bind_2          PF13725.5  sp|Q9XIK4|NT101_ARATH -            2.4e-61  207.4   0.7   4.8e-61  206.4   0.7   1.5   1   0   0   1   1   1   1 Possible tRNA binding domain
+Helicase_RecD        PF05127.13 sp|Q9XIK4|NT101_ARATH -            3.7e-61  205.9   0.0   6.3e-61  205.2   0.0   1.4   1   0   0   1   1   1   1 Helicase
+DUF1726              PF08351.10 sp|Q9XIK4|NT101_ARATH -            2.6e-30  104.1   0.0   1.8e-29  101.4   0.0   2.3   2   0   0   2   2   2   1 Domain of unknown function (DUF1726)
+AAA_22               PF13401.5  sp|Q9XIK4|NT101_ARATH -            5.7e-06   26.6   0.0     0.001   19.2   0.0   2.6   2   0   0   2   2   2   1 AAA domain
+AAA_30               PF13604.5  sp|Q9XIK4|NT101_ARATH -             0.0073   16.0   0.0      0.43   10.2   0.0   2.4   2   0   0   2   2   2   1 AAA domain
+DEAD                 PF00270.28 sp|Q9XIK4|NT101_ARATH -              0.024   14.3   0.1     0.089   12.5   0.0   1.9   2   0   0   2   2   2   0 DEAD/DEAH box helicase
+Acetyltransf_1       PF00583.24 sp|Q9XIK4|NT101_ARATH -              0.081   13.1   0.0      0.21   11.7   0.0   1.6   1   0   0   1   1   1   0 Acetyltransferase (GNAT) family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9XIK4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9XIK4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9XIK4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:53:10 2019
+# [ok]

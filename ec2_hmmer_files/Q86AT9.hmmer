@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|Q86AT9|DHKI_DICDI -            3.6e-25   88.6   6.8   1.2e-19   70.8   0.5   3.5   3   0   0   3   3   3   2 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Response_reg         PF00072.23 sp|Q86AT9|DHKI_DICDI -            9.4e-25   86.9   0.2   2.4e-24   85.5   0.2   1.8   1   0   0   1   1   1   1 Response regulator receiver domain
+HisKA                PF00512.24 sp|Q86AT9|DHKI_DICDI -            1.1e-12   47.7   0.3   4.2e-12   45.8   0.1   2.2   1   1   1   2   2   2   1 His Kinase A (phospho-acceptor) domain
+PAS_9                PF13426.6  sp|Q86AT9|DHKI_DICDI -            0.00079   19.5   6.0         5    7.3   0.6   4.6   4   0   0   4   4   4   2 PAS domain
+PAS_8                PF13188.6  sp|Q86AT9|DHKI_DICDI -            0.00089   19.1   0.0     0.033   14.1   0.0   2.5   2   0   0   2   2   2   1 PAS domain
+PAS                  PF00989.24 sp|Q86AT9|DHKI_DICDI -             0.0085   16.0   0.0      0.68    9.9   0.0   3.4   3   0   0   3   3   3   1 PAS fold
+PAS_4                PF08448.9  sp|Q86AT9|DHKI_DICDI -              0.062   13.4   0.0       3.3    7.9   0.0   2.4   2   0   0   2   2   2   0 PAS fold
+TetR_C_9             PF14514.5  sp|Q86AT9|DHKI_DICDI -               0.11   12.5   0.0      0.54   10.3   0.0   2.0   2   0   0   2   2   2   0 Transcriptional regulator, TetR, C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q86AT9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q86AT9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q86AT9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:28:57 2019
+# [ok]

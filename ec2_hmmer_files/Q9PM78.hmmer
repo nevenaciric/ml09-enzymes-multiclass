@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HisG                 PF01634.17 sp|Q9PM78|HIS1_CAMJE -            3.5e-47  160.2   0.0   4.7e-47  159.8   0.0   1.2   1   0   0   1   1   1   1 ATP phosphoribosyltransferase
+HisG_C               PF08029.10 sp|Q9PM78|HIS1_CAMJE -              8e-24   83.5   0.0   2.1e-23   82.1   0.0   1.8   1   0   0   1   1   1   1 HisG, C-terminal domain
+NMT1                 PF09084.10 sp|Q9PM78|HIS1_CAMJE -             0.0071   16.2   0.0     0.021   14.7   0.0   1.8   1   1   1   2   2   2   1 NMT1/THI5 like
+AIG1                 PF04548.15 sp|Q9PM78|HIS1_CAMJE -              0.096   11.9   0.2      0.15   11.3   0.2   1.2   1   0   0   1   1   1   0 AIG1 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9PM78.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9PM78.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9PM78.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:42:36 2019
+# [ok]

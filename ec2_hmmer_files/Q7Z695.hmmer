@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC1                 PF03109.15 sp|Q7Z695|ADCK2_HUMAN -              3e-19   69.3   0.0   2.7e-15   56.5   0.0   2.4   2   0   0   2   2   2   2 ABC1 family
+Med17                PF10156.8  sp|Q7Z695|ADCK2_HUMAN -               0.11   11.0   0.1      0.15   10.7   0.1   1.2   1   0   0   1   1   1   0 Subunit 17 of Mediator complex
+Pkinase              PF00069.24 sp|Q7Z695|ADCK2_HUMAN -               0.18   11.0   0.1       1.8    7.8   0.0   2.3   3   0   0   3   3   3   0 Protein kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q7Z695.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q7Z695.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q7Z695.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:20:42 2019
+# [ok]

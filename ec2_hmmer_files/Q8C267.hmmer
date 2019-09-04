@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|Q8C267|SETB2_MOUSE -            7.9e-22   78.3   0.5   2.1e-21   77.0   0.1   1.9   2   0   0   2   2   2   1 SET domain
+Pre-SET              PF05033.15 sp|Q8C267|SETB2_MOUSE -            2.3e-14   53.9  11.9   2.3e-14   53.9  11.9   4.2   4   0   0   4   4   4   2 Pre-SET motif
+MBD                  PF01429.18 sp|Q8C267|SETB2_MOUSE -            1.3e-07   31.1   0.0   3.8e-07   29.6   0.0   1.8   1   0   0   1   1   1   1 Methyl-CpG binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8C267.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8C267.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8C267.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:37:40 2019
+# [ok]

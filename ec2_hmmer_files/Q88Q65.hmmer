@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q88Q65|COAE_PSEPK -            1.7e-71  239.5   0.0     2e-71  239.3   0.0   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_18               PF13238.5  sp|Q88Q65|COAE_PSEPK -             0.0015   18.9   0.2       0.9   10.0   0.0   2.4   2   1   0   2   2   2   2 AAA domain
+AAA_33               PF13671.5  sp|Q88Q65|COAE_PSEPK -             0.0037   17.3   0.0     0.056   13.5   0.0   2.2   1   1   0   1   1   1   1 AAA domain
+AAA_28               PF13521.5  sp|Q88Q65|COAE_PSEPK -              0.067   13.3   0.2       2.8    8.1   0.0   2.2   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q88Q65.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q88Q65.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q88Q65.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:33:25 2019
+# [ok]

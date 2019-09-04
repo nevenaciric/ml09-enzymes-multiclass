@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q8K348|ACV1C_MOUSE -            1.2e-32  113.1   0.1   1.7e-32  112.6   0.1   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q8K348|ACV1C_MOUSE -            5.5e-31  107.8   0.0   7.7e-31  107.3   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+TGF_beta_GS          PF08515.11 sp|Q8K348|ACV1C_MOUSE -            1.3e-15   56.5   0.1   2.7e-15   55.5   0.1   1.6   1   0   0   1   1   1   1 Transforming growth factor beta type I GS-motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8K348.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8K348.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8K348.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:49:49 2019
+# [ok]

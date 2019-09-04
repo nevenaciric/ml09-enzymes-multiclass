@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|Q9Z5G7|MPRB_MYCLE -            5.1e-20   72.0   0.0   8.3e-20   71.3   0.0   1.4   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HisKA                PF00512.24 sp|Q9Z5G7|MPRB_MYCLE -              2e-12   46.8   0.6   5.3e-12   45.5   0.6   1.8   1   0   0   1   1   1   1 His Kinase A (phospho-acceptor) domain
+HAMP                 PF00672.24 sp|Q9Z5G7|MPRB_MYCLE -            2.5e-11   43.7   2.2   2.5e-11   43.7   2.2   2.1   2   0   0   2   2   2   1 HAMP domain
+HATPase_c_2          PF13581.5  sp|Q9Z5G7|MPRB_MYCLE -              0.013   15.4   0.0     0.029   14.2   0.0   1.6   1   0   0   1   1   1   0 Histidine kinase-like ATPase domain
+DUF515               PF04415.11 sp|Q9Z5G7|MPRB_MYCLE -              0.059   11.7   0.0     0.083   11.2   0.0   1.1   1   0   0   1   1   1   0 Protein of unknown function (DUF515)
+PsbN                 PF02468.14 sp|Q9Z5G7|MPRB_MYCLE -                3.4    7.5   4.7        55    3.6   4.3   2.5   2   0   0   2   2   2   0 Photosystem II reaction centre N protein (psbN)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9Z5G7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9Z5G7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9Z5G7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:55:27 2019
+# [ok]

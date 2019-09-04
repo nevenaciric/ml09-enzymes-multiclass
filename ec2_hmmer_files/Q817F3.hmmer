@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|Q817F3|PFKA_BACCR -           8.5e-115  382.9   1.1    1e-114  382.6   1.1   1.1   1   0   0   1   1   1   1 Phosphofructokinase
+Peripla_BP_1         PF00532.20 sp|Q817F3|PFKA_BACCR -              0.027   13.8   0.0      0.05   12.9   0.0   1.4   1   0   0   1   1   1   0 Periplasmic binding proteins and sugar binding domain of LacI family
+NAD_kinase           PF01513.20 sp|Q817F3|PFKA_BACCR -              0.029   13.5   0.0     0.051   12.7   0.0   1.3   1   0   0   1   1   1   0 ATP-NAD kinase
+DAGK_cat             PF00781.23 sp|Q817F3|PFKA_BACCR -              0.083   12.4   0.1       0.2   11.2   0.1   1.8   1   0   0   1   1   1   0 Diacylglycerol kinase catalytic domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q817F3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q817F3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q817F3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:22:09 2019
+# [ok]

@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q83F01|COAE_COXBU -            3.9e-63  212.3   0.1   4.8e-63  211.9   0.1   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_33               PF13671.5  sp|Q83F01|COAE_COXBU -            0.00012   22.1   0.0    0.0023   18.0   0.0   2.3   1   1   0   1   1   1   1 AAA domain
+SKI                  PF01202.21 sp|Q83F01|COAE_COXBU -            0.00033   20.7   0.2    0.0061   16.6   0.0   2.1   2   0   0   2   2   2   1 Shikimate kinase
+AAA_18               PF13238.5  sp|Q83F01|COAE_COXBU -            0.00057   20.3   0.4    0.0053   17.2   0.2   2.3   1   1   1   2   2   2   1 AAA domain
+AAA_28               PF13521.5  sp|Q83F01|COAE_COXBU -            0.00069   19.8   0.0    0.0015   18.7   0.0   1.7   1   0   0   1   1   1   1 AAA domain
+Sigma54_activ_2      PF14532.5  sp|Q83F01|COAE_COXBU -             0.0036   17.3   0.2     0.024   14.6   0.0   2.1   2   1   0   2   2   2   1 Sigma-54 interaction domain
+ABC_tran             PF00005.26 sp|Q83F01|COAE_COXBU -             0.0048   17.3   0.1    0.0079   16.6   0.1   1.6   1   1   0   1   1   1   1 ABC transporter
+AAA_22               PF13401.5  sp|Q83F01|COAE_COXBU -              0.033   14.4   0.1      0.12   12.6   0.1   1.9   1   1   0   1   1   1   0 AAA domain
+AAA_17               PF13207.5  sp|Q83F01|COAE_COXBU -              0.042   14.2   0.0      0.37   11.1   0.0   2.2   2   0   0   2   2   2   0 AAA domain
+AAA_29               PF13555.5  sp|Q83F01|COAE_COXBU -              0.073   12.7   0.2      0.15   11.8   0.2   1.4   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q83F01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q83F01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q83F01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:26:28 2019
+# [ok]

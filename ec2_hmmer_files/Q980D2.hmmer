@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|Q980D2|MVK_SACS2  -            4.6e-13   49.1   0.0   8.6e-13   48.2   0.0   1.5   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|Q980D2|MVK_SACS2  -              4e-11   43.0   0.1   8.8e-11   41.9   0.1   1.6   1   0   0   1   1   1   1 GHMP kinases C terminal
+B5                   PF03484.14 sp|Q980D2|MVK_SACS2  -              0.027   14.6   0.0      0.13   12.5   0.0   2.2   2   0   0   2   2   2   0 tRNA synthetase B5 domain
+CheX                 PF13690.5  sp|Q980D2|MVK_SACS2  -              0.078   13.1   0.1      0.35   11.0   0.0   2.0   2   0   0   2   2   2   0 Chemotaxis phosphatase CheX
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q980D2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q980D2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q980D2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:18:53 2019
+# [ok]

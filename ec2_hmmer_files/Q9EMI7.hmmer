@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NMT                  PF01233.18 sp|Q9EMI7|NMT_AMEPV  -            7.2e-16   58.3   1.0   7.2e-16   58.3   1.0   2.3   2   0   0   2   2   2   1 Myristoyl-CoA:protein N-myristoyltransferase, N-terminal domain
+Acetyltransf_9       PF13527.6  sp|Q9EMI7|NMT_AMEPV  -            1.2e-06   28.5   0.0     4e-06   26.8   0.0   1.8   2   0   0   2   2   2   1 Acetyltransferase (GNAT) domain
+Acetyltransf_1       PF00583.24 sp|Q9EMI7|NMT_AMEPV  -             0.0028   17.8   0.1     0.029   14.5   0.0   2.1   2   0   0   2   2   2   1 Acetyltransferase (GNAT) family
+Acetyltransf_10      PF13673.6  sp|Q9EMI7|NMT_AMEPV  -              0.048   13.5   0.0     0.098   12.5   0.0   1.5   1   0   0   1   1   1   0 Acetyltransferase (GNAT) domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9EMI7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9EMI7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9EMI7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:26:40 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q9UTE5|E2AK2_SCHPO -              3e-39  134.9   0.5     5e-23   81.7   0.1   2.3   2   0   0   2   2   2   2 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q9UTE5|E2AK2_SCHPO -            4.3e-18   65.4   0.0     9e-10   38.2   0.0   2.5   2   1   0   2   2   2   2 Protein tyrosine kinase
+YycI                 PF09648.9  sp|Q9UTE5|E2AK2_SCHPO -              0.031   13.8   2.7       0.4   10.1   0.1   2.6   3   0   0   3   3   3   0 YycH protein
+DUF4165              PF13752.5  sp|Q9UTE5|E2AK2_SCHPO -               0.16   11.8   0.5       5.4    6.9   0.0   2.5   3   0   0   3   3   3   0 Domain of unknown function (DUF4165)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9UTE5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9UTE5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9UTE5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:48:59 2019
+# [ok]

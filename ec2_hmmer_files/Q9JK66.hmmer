@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ubiquitin            PF00240.22 sp|Q9JK66|PRKN_RAT   -            1.4e-19   69.4   0.1   2.3e-19   68.8   0.1   1.3   1   0   0   1   1   1   1 Ubiquitin family
+IBR                  PF01485.20 sp|Q9JK66|PRKN_RAT   -              3e-14   52.9  25.2   9.7e-10   38.4   1.8   4.9   4   1   0   4   4   4   2 IBR domain, a half RING-finger domain
+Rad60-SLD            PF11976.7  sp|Q9JK66|PRKN_RAT   -            2.4e-08   33.6   0.1   3.6e-08   33.0   0.1   1.3   1   0   0   1   1   1   1 Ubiquitin-2 like Rad60 SUMO-like
+Rad60-SLD_2          PF13881.5  sp|Q9JK66|PRKN_RAT   -             0.0013   18.7   0.0    0.0031   17.5   0.0   1.6   1   0   0   1   1   1   1 Ubiquitin-2 like Rad60 SUMO-like
+DUF2407              PF10302.8  sp|Q9JK66|PRKN_RAT   -             0.0075   16.7   0.0     0.015   15.8   0.0   1.5   1   0   0   1   1   1   1 DUF2407 ubiquitin-like domain
+Blt1                 PF12754.6  sp|Q9JK66|PRKN_RAT   -               0.18   12.0   0.0      0.39   10.9   0.0   1.6   1   0   0   1   1   1   0 Blt1 N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9JK66.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9JK66.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9JK66.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:32:47 2019
+# [ok]

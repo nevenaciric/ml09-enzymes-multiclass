@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ECH_1                PF00378.19 sp|Q9Y6F8|CDY1_HUMAN -            1.1e-34  119.8   0.1   1.9e-34  119.0   0.1   1.4   1   0   0   1   1   1   1 Enoyl-CoA hydratase/isomerase
+ECH_2                PF16113.4  sp|Q9Y6F8|CDY1_HUMAN -            1.5e-19   70.6   2.2   1.1e-17   64.5   0.0   2.2   2   0   0   2   2   2   2 Enoyl-CoA hydratase/isomerase
+Chromo               PF00385.23 sp|Q9Y6F8|CDY1_HUMAN -            6.4e-18   64.3   1.1   1.6e-17   63.1   1.1   1.7   1   0   0   1   1   1   1 Chromo (CHRromatin Organisation MOdifier) domain
+Mrr_cat              PF04471.11 sp|Q9Y6F8|CDY1_HUMAN -              0.001   19.0   2.5      0.98    9.4   0.0   3.6   4   0   0   4   4   4   2 Restriction endonuclease
+Mtf2_C               PF14061.5  sp|Q9Y6F8|CDY1_HUMAN -             0.0026   17.8   0.1    0.0059   16.6   0.1   1.6   1   0   0   1   1   1   1 Polycomb-like MTF2 factor 2
+Tudor-knot           PF11717.7  sp|Q9Y6F8|CDY1_HUMAN -              0.011   15.5   0.2     0.011   15.5   0.2   2.7   3   0   0   3   3   3   0 RNA binding activity-knot of a chromodomain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9Y6F8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9Y6F8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9Y6F8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:53:53 2019
+# [ok]

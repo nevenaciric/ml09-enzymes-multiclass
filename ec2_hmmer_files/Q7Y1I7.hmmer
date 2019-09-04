@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNMT1-RFD            PF12047.7  sp|Q7Y1I7|DNM1A_ORYSJ -            1.4e-78  261.8   0.0     2e-42  144.5   0.0   2.7   2   0   0   2   2   2   2 Cytosine specific DNA methyltransferase replication foci domain
+DNA_methylase        PF00145.16 sp|Q7Y1I7|DNM1A_ORYSJ -            1.5e-47  162.5   0.0     8e-42  143.7   0.0   2.8   3   0   0   3   3   3   2 C-5 cytosine-specific DNA methylase
+BAH                  PF01426.17 sp|Q7Y1I7|DNM1A_ORYSJ -            8.6e-30  103.0   0.0   8.5e-17   61.1   0.0   2.6   2   0   0   2   2   2   2 BAH domain
+Prim_Zn_Ribbon       PF08273.11 sp|Q7Y1I7|DNM1A_ORYSJ -                5.8    7.2   7.3      0.33   11.2   0.1   2.6   3   0   0   3   3   3   0 Zinc-binding domain of primase-helicase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q7Y1I7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q7Y1I7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q7Y1I7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:20:26 2019
+# [ok]

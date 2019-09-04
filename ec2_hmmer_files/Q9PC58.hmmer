@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NadA                 PF02445.15 sp|Q9PC58|NADA_XYLFA -           6.8e-113  376.7   3.3  8.1e-113  376.4   3.3   1.0   1   0   0   1   1   1   1 Quinolinate synthetase A protein
+VHS                  PF00790.18 sp|Q9PC58|NADA_XYLFA -              0.098   12.4   0.1      0.19   11.5   0.1   1.4   1   0   0   1   1   1   0 VHS domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9PC58.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9PC58.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9PC58.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:41:28 2019
+# [ok]

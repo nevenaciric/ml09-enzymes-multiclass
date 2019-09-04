@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ThiI                 PF02568.13 sp|Q8DFA8|THII_VIBVU -            1.5e-70  236.8   0.0   3.1e-70  235.7   0.0   1.6   1   0   0   1   1   1   1 Thiamine biosynthesis protein (ThiI)
+THUMP                PF02926.16 sp|Q8DFA8|THII_VIBVU -            9.4e-23   80.8   2.1   1.6e-22   80.1   1.1   1.9   2   0   0   2   2   2   1 THUMP domain
+QueC                 PF06508.12 sp|Q8DFA8|THII_VIBVU -            0.00033   20.1   0.1      0.38   10.1   0.0   3.0   2   1   0   2   2   2   2 Queuosine biosynthesis protein QueC
+Rhodanese            PF00581.19 sp|Q8DFA8|THII_VIBVU -              0.011   16.2   0.2     0.088   13.2   0.2   2.4   1   1   0   1   1   1   0 Rhodanese-like domain
+B12-binding          PF02310.18 sp|Q8DFA8|THII_VIBVU -              0.049   13.6   0.5      0.28   11.1   0.0   2.4   2   0   0   2   2   2   0 B12 binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8DFA8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8DFA8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8DFA8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:41:04 2019
+# [ok]

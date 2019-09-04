@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q8GYF5|WAKLR_ARATH -            1.1e-43  149.4   0.0   2.4e-43  148.2   0.0   1.6   1   1   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q8GYF5|WAKLR_ARATH -            1.5e-41  142.4   0.0   3.5e-41  141.2   0.0   1.6   2   0   0   2   2   2   1 Protein kinase domain
+EGF                  PF00008.26 sp|Q8GYF5|WAKLR_ARATH -              0.003   17.7   4.3    0.0088   16.2   4.3   1.9   1   0   0   1   1   1   1 EGF-like domain
+EGF_3                PF12947.6  sp|Q8GYF5|WAKLR_ARATH -              0.013   15.6   5.3     0.013   15.6   5.3   2.4   2   0   0   2   2   2   0 EGF domain
+APH                  PF01636.22 sp|Q8GYF5|WAKLR_ARATH -              0.028   14.2   0.0     0.045   13.6   0.0   1.2   1   0   0   1   1   1   0 Phosphotransferase enzyme family
+Kinase-like          PF14531.5  sp|Q8GYF5|WAKLR_ARATH -              0.084   12.1   0.0      0.13   11.5   0.0   1.2   1   0   0   1   1   1   0 Kinase-like
+Haspin_kinase        PF12330.7  sp|Q8GYF5|WAKLR_ARATH -              0.093   11.6   0.0      0.14   10.9   0.0   1.2   1   0   0   1   1   1   0 Haspin like kinase domain
+Nodulin_late         PF07127.10 sp|Q8GYF5|WAKLR_ARATH -                1.5    9.1   4.4       9.4    6.6   0.1   2.7   2   0   0   2   2   2   0 Late nodulin protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8GYF5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8GYF5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8GYF5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:48:23 2019
+# [ok]

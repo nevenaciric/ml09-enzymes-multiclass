@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SATase_N             PF06426.13 sp|Q8W2B8|SAT4_ARATH -            2.9e-37  127.1   0.2     5e-37  126.4   0.2   1.4   1   0   0   1   1   1   1 Serine acetyltransferase, N-terminal
+Hexapep              PF00132.23 sp|Q8W2B8|SAT4_ARATH -            2.1e-10   39.8   9.0   2.4e-06   26.9   0.5   2.5   2   0   0   2   2   2   2 Bacterial transferase hexapeptide (six repeats)
+Hexapep_2            PF14602.5  sp|Q8W2B8|SAT4_ARATH -              0.021   14.5  12.8     0.022   14.4   3.4   2.5   2   0   0   2   2   2   0 Hexapeptide repeat of succinyl-transferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8W2B8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8W2B8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8W2B8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:02:24 2019
+# [ok]

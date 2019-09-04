@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+2-oxoacid_dh         PF00198.22 sp|Q90512|ODO2_TAKRU -            3.2e-80  268.8   0.2   3.9e-80  268.6   0.2   1.1   1   0   0   1   1   1   1 2-oxoacid dehydrogenases acyltransferase (catalytic domain)
+Biotin_lipoyl        PF00364.21 sp|Q90512|ODO2_TAKRU -            4.8e-23   80.7   0.8   8.4e-23   79.9   0.8   1.4   1   0   0   1   1   1   1 Biotin-requiring enzyme
+Biotin_lipoyl_2      PF13533.5  sp|Q90512|ODO2_TAKRU -             0.0042   16.8   0.0    0.0097   15.6   0.0   1.6   1   0   0   1   1   1   1 Biotin-lipoyl like
+GCV_H                PF01597.18 sp|Q90512|ODO2_TAKRU -              0.025   14.4   0.4     0.049   13.4   0.4   1.4   1   0   0   1   1   1   0 Glycine cleavage H-protein
+HlyD_D23             PF16576.4  sp|Q90512|ODO2_TAKRU -              0.051   12.7   0.0      0.27   10.3   0.0   1.9   1   1   1   2   2   2   0 Barrel-sandwich domain of CusB or HlyD membrane-fusion
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q90512.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q90512.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q90512.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:10:16 2019
+# [ok]

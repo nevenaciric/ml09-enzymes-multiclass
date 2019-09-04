@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Flavi_NS5            PF00972.19 sp|Q91B85|POLG_ALKV  -           2.9e-298  990.6   9.6  4.3e-298  990.1   9.6   1.2   1   0   0   1   1   1   1 Flavivirus RNA-directed RNA polymerase
+Flavi_NS1            PF00948.20 sp|Q91B85|POLG_ALKV  -           9.3e-107  356.9   0.2  1.5e-106  356.3   0.2   1.3   1   0   0   1   1   1   1 Flavivirus non-structural Protein NS1
+Flavi_glycoprot      PF00869.19 sp|Q91B85|POLG_ALKV  -            5.3e-79  265.4   0.9   7.9e-79  264.8   0.9   1.3   1   0   0   1   1   1   1 Flavivirus glycoprotein, central and dimerisation domains
+Flavi_DEAD           PF07652.13 sp|Q91B85|POLG_ALKV  -            1.6e-69  232.5   0.1   3.4e-69  231.4   0.1   1.6   1   0   0   1   1   1   1 Flavivirus DEAD domain
+Flavi_NS4B           PF01349.16 sp|Q91B85|POLG_ALKV  -            4.6e-45  153.8   0.8   9.1e-45  152.8   0.8   1.5   1   0   0   1   1   1   1 Flavivirus non-structural protein NS4B
+Peptidase_S7         PF00949.20 sp|Q91B85|POLG_ALKV  -            5.4e-31  107.0   0.0   9.9e-31  106.2   0.0   1.5   1   0   0   1   1   1   1 Peptidase S7, Flavivirus NS3 serine protease
+Flavi_capsid         PF01003.18 sp|Q91B85|POLG_ALKV  -              1e-27   96.1   3.0   3.9e-27   94.2   3.0   2.0   1   0   0   1   1   1   1 Flavivirus capsid protein C
+Flavi_NS4A           PF01350.16 sp|Q91B85|POLG_ALKV  -            7.5e-25   87.4   0.2   7.5e-25   87.4   0.2   2.1   2   0   0   2   2   1   1 Flavivirus non-structural protein NS4A
+Flavi_propep         PF01570.16 sp|Q91B85|POLG_ALKV  -            2.5e-14   52.9   2.0     8e-14   51.3   2.0   1.9   1   0   0   1   1   1   1 Flavivirus polyprotein propeptide
+FtsJ                 PF01728.18 sp|Q91B85|POLG_ALKV  -            7.3e-10   39.1   0.0   1.6e-09   38.0   0.0   1.6   1   0   0   1   1   1   1 FtsJ-like methyltransferase
+Flavi_glycop_C       PF02832.15 sp|Q91B85|POLG_ALKV  -            4.1e-09   36.3   0.0   1.2e-08   34.9   0.0   1.8   1   0   0   1   1   1   1 Flavivirus glycoprotein, immunoglobulin-like domain
+Flavi_NS2A           PF01005.18 sp|Q91B85|POLG_ALKV  -            5.7e-09   36.3  12.1   5.7e-09   36.3  12.1   2.8   2   0   0   2   2   2   1 Flavivirus non-structural protein NS2A
+Flavi_NS2B           PF01002.18 sp|Q91B85|POLG_ALKV  -            6.8e-08   32.3   3.4   2.5e-07   30.5   3.4   2.0   1   0   0   1   1   1   1 Flavivirus non-structural protein NS2B
+Peptidase_S29        PF02907.14 sp|Q91B85|POLG_ALKV  -            0.00046   19.8   0.2    0.0026   17.4   0.2   2.2   1   1   0   1   1   1   1 Hepatitis C virus NS3 protease
+ResIII               PF04851.14 sp|Q91B85|POLG_ALKV  -            0.00063   19.7   0.0    0.0035   17.3   0.0   1.9   1   1   0   1   1   1   1 Type III restriction enzyme, res subunit
+Flavi_M              PF01004.18 sp|Q91B85|POLG_ALKV  -             0.0011   18.6   0.3    0.0011   18.6   0.3   3.6   4   0   0   4   4   4   1 Flavivirus envelope glycoprotein M
+Helicase_C           PF00271.30 sp|Q91B85|POLG_ALKV  -             0.0024   18.1   0.0    0.0057   16.9   0.0   1.6   1   0   0   1   1   1   1 Helicase conserved C-terminal domain
+AAA_30               PF13604.5  sp|Q91B85|POLG_ALKV  -             0.0039   16.8   0.0    0.0088   15.7   0.0   1.5   1   0   0   1   1   1   1 AAA domain
+Trypsin_2            PF13365.5  sp|Q91B85|POLG_ALKV  -              0.025   15.4   0.0     0.074   13.9   0.0   1.8   1   0   0   1   1   1   0 Trypsin-like peptidase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q91B85.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q91B85.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q91B85.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:10:44 2019
+# [ok]

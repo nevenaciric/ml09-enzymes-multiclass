@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+EPSP_synthase        PF00275.19 sp|Q8Y5Y0|AROA_LISMO -           7.1e-123  410.3   5.1    8e-123  410.1   5.1   1.0   1   0   0   1   1   1   1 EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase)
+Glyco_transf_28      PF03033.19 sp|Q8Y5Y0|AROA_LISMO -              0.021   14.8   0.0      0.05   13.6   0.0   1.6   1   0   0   1   1   1   0 Glycosyltransferase family 28 N-terminal domain
+Ank                  PF00023.29 sp|Q8Y5Y0|AROA_LISMO -               0.15   12.5   0.0      0.41   11.1   0.0   1.8   1   0   0   1   1   1   0 Ankyrin repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8Y5Y0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8Y5Y0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8Y5Y0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:05:40 2019
+# [ok]

@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CTP-dep_RFKase       PF01982.15 sp|Q9HJA6|RIFK_THEAC -            6.5e-43  145.6   0.1     1e-42  144.9   0.1   1.3   1   0   0   1   1   1   1 Domain of unknown function DUF120
+HTH_Crp_2            PF13545.5  sp|Q9HJA6|RIFK_THEAC -            4.5e-07   29.6   0.2   9.5e-07   28.6   0.2   1.5   1   0   0   1   1   1   1 Crp-like helix-turn-helix domain
+MarR                 PF01047.21 sp|Q9HJA6|RIFK_THEAC -            3.5e-06   26.8   0.1   6.8e-06   25.8   0.1   1.4   1   0   0   1   1   1   1 MarR family
+MarR_2               PF12802.6  sp|Q9HJA6|RIFK_THEAC -            7.1e-06   25.7   0.0   1.4e-05   24.8   0.0   1.4   1   0   0   1   1   1   1 MarR family
+HTH_24               PF13412.5  sp|Q9HJA6|RIFK_THEAC -            4.3e-05   22.9   0.1   9.9e-05   21.7   0.1   1.6   1   0   0   1   1   1   1 Winged helix-turn-helix DNA-binding
+Fe_dep_repress       PF01325.18 sp|Q9HJA6|RIFK_THEAC -            0.00034   20.7   0.2    0.0013   18.8   0.1   2.0   2   0   0   2   2   2   1 Iron dependent repressor, N-terminal DNA binding domain
+HTH_27               PF13463.5  sp|Q9HJA6|RIFK_THEAC -            0.00066   20.0   0.1    0.0013   19.0   0.1   1.5   1   0   0   1   1   1   1 Winged helix DNA-binding domain
+Rrf2                 PF02082.19 sp|Q9HJA6|RIFK_THEAC -             0.0012   19.0   0.3    0.0032   17.7   0.1   1.8   2   0   0   2   2   2   1 Transcriptional regulator
+HTH_34               PF13601.5  sp|Q9HJA6|RIFK_THEAC -             0.0013   18.8   0.1    0.0049   16.9   0.1   2.0   2   0   0   2   2   2   1 Winged helix DNA-binding domain
+DUF1670              PF07900.10 sp|Q9HJA6|RIFK_THEAC -             0.0079   15.5   0.2     0.017   14.4   0.2   1.5   1   0   0   1   1   1   1 Protein of unknown function (DUF1670)
+HTH_11               PF08279.11 sp|Q9HJA6|RIFK_THEAC -              0.009   15.8   0.7     0.009   15.8   0.7   2.4   2   1   0   2   2   2   1 HTH domain
+HTH_36               PF13730.5  sp|Q9HJA6|RIFK_THEAC -              0.015   15.1   0.1     0.037   13.9   0.1   1.7   1   1   0   1   1   1   0 Helix-turn-helix domain
+HTH_3                PF01381.21 sp|Q9HJA6|RIFK_THEAC -              0.033   14.1   0.4     0.091   12.7   0.2   1.9   2   0   0   2   2   1   0 Helix-turn-helix
+Ribosomal_S25        PF03297.14 sp|Q9HJA6|RIFK_THEAC -              0.039   14.1   0.3     0.066   13.4   0.3   1.3   1   0   0   1   1   1   0 S25 ribosomal protein
+HTH_IclR             PF09339.9  sp|Q9HJA6|RIFK_THEAC -              0.045   13.5   0.0     0.097   12.4   0.0   1.5   1   0   0   1   1   1   0 IclR helix-turn-helix domain
+HTH_Tnp_4            PF13613.5  sp|Q9HJA6|RIFK_THEAC -              0.049   13.3   0.0      0.11   12.1   0.0   1.6   1   0   0   1   1   1   0 Helix-turn-helix of DDE superfamily endonuclease
+TrmB                 PF01978.18 sp|Q9HJA6|RIFK_THEAC -              0.069   12.9   0.0      0.15   11.9   0.0   1.5   1   0   0   1   1   1   0 Sugar-specific transcriptional regulator TrmB
+DUF3853              PF12964.6  sp|Q9HJA6|RIFK_THEAC -              0.084   13.0   0.1      0.15   12.2   0.1   1.4   1   0   0   1   1   1   0 Protein of unknown function (DUF3853)
+YjcQ                 PF09639.9  sp|Q9HJA6|RIFK_THEAC -               0.11   12.6   0.6      0.42   10.8   0.2   2.1   1   1   1   2   2   2   0 YjcQ protein
+Ftsk_gamma           PF09397.9  sp|Q9HJA6|RIFK_THEAC -               0.11   12.2   0.8      0.28   10.9   0.8   1.7   1   1   0   1   1   1   0 Ftsk gamma domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9HJA6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9HJA6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9HJA6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:30:15 2019
+# [ok]

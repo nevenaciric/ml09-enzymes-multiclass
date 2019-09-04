@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PFK                  PF00365.19 sp|Q9L1L8|PFKA2_STRCO -           2.8e-100  335.2   0.1  3.2e-100  335.0   0.1   1.0   1   0   0   1   1   1   1 Phosphofructokinase
+NAD_kinase           PF01513.20 sp|Q9L1L8|PFKA2_STRCO -              0.004   16.3   0.1     0.006   15.7   0.1   1.3   1   0   0   1   1   1   1 ATP-NAD kinase
+Pantoate_transf      PF02548.14 sp|Q9L1L8|PFKA2_STRCO -             0.0096   15.2   0.1      0.11   11.7   0.0   2.1   2   0   0   2   2   2   1 Ketopantoate hydroxymethyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9L1L8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9L1L8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9L1L8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:36:37 2019
+# [ok]

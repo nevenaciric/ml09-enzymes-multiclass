@@ -1,0 +1,24 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q8IR79|LIMK1_DROME -            4.6e-54  183.3   0.4   8.1e-39  133.4   0.0   2.5   2   0   0   2   2   2   2 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q8IR79|LIMK1_DROME -            4.9e-45  153.9   0.0   2.1e-44  151.8   0.0   2.0   1   1   0   1   1   1   1 Protein kinase domain
+LIM                  PF00412.21 sp|Q8IR79|LIMK1_DROME -              3e-21   75.3  28.7   1.4e-11   44.3   6.4   3.2   3   0   0   3   3   3   2 LIM domain
+PDZ                  PF00595.23 sp|Q8IR79|LIMK1_DROME -            9.7e-07   29.0   0.4   2.5e-06   27.6   0.4   1.7   1   0   0   1   1   1   1 PDZ domain (Also known as DHR or GLGF)
+Kdo                  PF06293.13 sp|Q8IR79|LIMK1_DROME -             0.0061   15.8   0.2     0.017   14.4   0.2   1.7   1   0   0   1   1   1   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+B2                   PF11473.7  sp|Q8IR79|LIMK1_DROME -              0.028   14.1   0.1     0.074   12.8   0.1   1.7   1   0   0   1   1   1   0 RNA binding protein B2
+APH                  PF01636.22 sp|Q8IR79|LIMK1_DROME -              0.031   14.1   0.6      0.79    9.5   0.1   2.6   1   1   1   2   2   2   0 Phosphotransferase enzyme family
+PDZ_2                PF13180.5  sp|Q8IR79|LIMK1_DROME -               0.12   12.6   0.1      0.27   11.5   0.1   1.5   1   0   0   1   1   1   0 PDZ domain
+Haspin_kinase        PF12330.7  sp|Q8IR79|LIMK1_DROME -               0.58    8.9   4.1       6.2    5.6   0.1   3.1   2   1   0   2   2   2   0 Haspin like kinase domain
+Nup54                PF13874.5  sp|Q8IR79|LIMK1_DROME -                1.1    9.3   7.1      0.56   10.2   2.1   2.6   2   0   0   2   2   2   0 Nucleoporin complex subunit 54
+Med9                 PF07544.12 sp|Q8IR79|LIMK1_DROME -                1.8    8.6   5.5      0.54   10.3   1.3   2.3   2   0   0   2   2   2   0 RNA polymerase II transcription mediator complex subunit 9
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8IR79.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8IR79.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8IR79.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:49:02 2019
+# [ok]

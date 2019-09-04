@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PARP                 PF00644.19 sp|Q9FK91|PARP3_ARATH -            8.7e-44  149.4   0.0   2.1e-43  148.1   0.0   1.7   2   0   0   2   2   2   1 Poly(ADP-ribose) polymerase catalytic domain
+PARP_reg             PF02877.13 sp|Q9FK91|PARP3_ARATH -            1.8e-17   63.6   0.0   3.1e-17   62.8   0.0   1.4   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase, regulatory domain
+PADR1                PF08063.11 sp|Q9FK91|PARP3_ARATH -            9.9e-17   60.4   3.4     2e-16   59.4   3.4   1.5   1   0   0   1   1   1   1 PADR1 (NUC008) domain
+WGR                  PF05406.14 sp|Q9FK91|PARP3_ARATH -            3.3e-15   55.8   0.0     1e-14   54.3   0.0   1.9   1   0   0   1   1   1   1 WGR domain
+BRCT_2               PF16589.4  sp|Q9FK91|PARP3_ARATH -            1.8e-07   31.3   0.0   5.4e-07   29.8   0.0   1.8   1   0   0   1   1   1   1 BRCT domain, a BRCA1 C-terminus domain
+BRCT                 PF00533.25 sp|Q9FK91|PARP3_ARATH -            3.6e-07   30.4   0.0   3.2e-06   27.3   0.0   2.7   4   0   0   4   4   4   1 BRCA1 C Terminus (BRCT) domain
+Mvb12                PF09452.9  sp|Q9FK91|PARP3_ARATH -              0.093   13.1   0.2       0.3   11.4   0.2   1.8   1   0   0   1   1   1   0 ESCRT-I subunit Mvb12
+RTT107_BRCT_5        PF16770.4  sp|Q9FK91|PARP3_ARATH -               0.12   12.2   0.0      0.24   11.2   0.0   1.5   1   0   0   1   1   1   0 Regulator of Ty1 transposition protein 107 BRCT domain
+PTCB-BRCT            PF12738.6  sp|Q9FK91|PARP3_ARATH -               0.12   12.2   0.1      0.24   11.3   0.1   1.5   1   0   0   1   1   1   0 twin BRCT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9FK91.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9FK91.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9FK91.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:28:06 2019
+# [ok]

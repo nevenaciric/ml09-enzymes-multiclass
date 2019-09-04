@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NTP_transferase      PF00483.22 sp|Q8DPS5|GLGC_STRR6 -            2.1e-66  223.9   0.0   2.8e-66  223.5   0.0   1.1   1   0   0   1   1   1   1 Nucleotidyl transferase
+NTP_transf_3         PF12804.6  sp|Q8DPS5|GLGC_STRR6 -            1.5e-09   38.3   0.0   2.5e-09   37.6   0.0   1.3   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+Hexapep              PF00132.23 sp|Q8DPS5|GLGC_STRR6 -             0.0024   17.5   2.6    0.0024   17.5   2.6   3.0   2   1   1   3   3   3   2 Bacterial transferase hexapeptide (six repeats)
+DUF4954              PF16314.4  sp|Q8DPS5|GLGC_STRR6 -             0.0028   15.8   0.1    0.0041   15.2   0.1   1.2   1   0   0   1   1   1   1 Domain of unknown function (DUF4954)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8DPS5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8DPS5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8DPS5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:41:52 2019
+# [ok]

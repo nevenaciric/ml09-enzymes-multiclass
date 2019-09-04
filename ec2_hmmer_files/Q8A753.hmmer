@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PGK                  PF00162.18 sp|Q8A753|PGK_BACTN  -           1.6e-150  501.2   3.2  1.8e-150  501.0   3.2   1.0   1   0   0   1   1   1   1 Phosphoglycerate kinase
+rRNA_methylase       PF06962.11 sp|Q8A753|PGK_BACTN  -               0.13   12.2   0.0      0.34   10.8   0.0   1.6   1   0   0   1   1   1   0 Putative rRNA methylase
+DUF1542              PF07564.10 sp|Q8A753|PGK_BACTN  -               0.71    9.9   6.8      0.33   11.0   3.6   2.1   2   0   0   2   2   2   0 Domain of Unknown Function (DUF1542)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8A753.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8A753.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8A753.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:36:10 2019
+# [ok]

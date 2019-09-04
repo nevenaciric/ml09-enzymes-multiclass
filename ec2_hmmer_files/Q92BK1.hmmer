@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+tRNA_Me_trans        PF03054.15 sp|Q92BK1|MNMA_LISIN -           7.7e-148  491.9   0.0  8.8e-148  491.7   0.0   1.0   1   0   0   1   1   1   1 tRNA methyl transferase
+NAD_synthase         PF02540.16 sp|Q92BK1|MNMA_LISIN -            1.4e-05   24.2   0.0     7e-05   22.0   0.0   2.0   2   0   0   2   2   2   1 NAD synthase
+QueC                 PF06508.12 sp|Q92BK1|MNMA_LISIN -            0.00025   20.5   0.1     0.038   13.4   0.0   2.5   2   0   0   2   2   2   2 Queuosine biosynthesis protein QueC
+ThiI                 PF02568.13 sp|Q92BK1|MNMA_LISIN -            0.00042   19.9   0.1     0.033   13.7   0.1   2.4   2   1   0   2   2   2   1 Thiamine biosynthesis protein (ThiI)
+ATP_bind_3           PF01171.19 sp|Q92BK1|MNMA_LISIN -             0.0021   17.8   0.1     0.018   14.7   0.1   2.1   1   1   0   1   1   1   1 PP-loop family
+Asn_synthase         PF00733.20 sp|Q92BK1|MNMA_LISIN -             0.0024   17.5   0.0    0.0028   17.3   0.0   1.2   1   0   0   1   1   1   1 Asparagine synthase
+TetR_N               PF00440.22 sp|Q92BK1|MNMA_LISIN -              0.071   12.8   0.3      0.45   10.2   0.0   2.3   3   0   0   3   3   3   0 Bacterial regulatory proteins, tetR family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q92BK1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q92BK1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q92BK1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:12:30 2019
+# [ok]

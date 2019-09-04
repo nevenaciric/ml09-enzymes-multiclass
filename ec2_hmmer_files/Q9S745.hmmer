@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lipase_3             PF01764.24 sp|Q9S745|PAD4_ARATH -            6.3e-18   64.9   0.0   1.3e-17   63.9   0.0   1.5   1   0   0   1   1   1   1 Lipase (class 3)
+Abhydrolase_3        PF07859.12 sp|Q9S745|PAD4_ARATH -              0.075   12.8   0.0      0.12   12.1   0.0   1.3   1   0   0   1   1   1   0 alpha/beta hydrolase fold
+O-FucT               PF10250.8  sp|Q9S745|PAD4_ARATH -              0.085   12.5   0.2      0.14   11.8   0.2   1.3   1   0   0   1   1   1   0 GDP-fucose protein O-fucosyltransferase
+Abhydrolase_6        PF12697.6  sp|Q9S745|PAD4_ARATH -               0.17   12.4   0.0      0.28   11.7   0.0   1.4   1   0   0   1   1   1   0 Alpha/beta hydrolase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9S745.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9S745.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9S745.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:45:28 2019
+# [ok]

@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNA_pol_A            PF00476.19 sp|Q92GB7|DPO1_RICCN -           2.1e-141  471.2   6.3  5.1e-141  470.0   4.5   2.1   2   0   0   2   2   2   1 DNA polymerase family A
+5_3_exonuc_N         PF02739.15 sp|Q92GB7|DPO1_RICCN -            2.1e-55  186.9   0.0   4.1e-55  185.9   0.0   1.5   1   0   0   1   1   1   1 5'-3' exonuclease, N-terminal resolvase-like domain
+5_3_exonuc           PF01367.19 sp|Q92GB7|DPO1_RICCN -            6.1e-26   90.8   0.8   3.9e-25   88.2   0.0   2.8   3   0   0   3   3   3   1 5'-3' exonuclease, C-terminal SAM fold
+HHH_2                PF12826.6  sp|Q92GB7|DPO1_RICCN -             0.0069   16.4   0.0     0.058   13.4   0.0   2.6   3   0   0   3   3   3   1 Helix-hairpin-helix motif
+DUF724               PF05266.13 sp|Q92GB7|DPO1_RICCN -              0.046   13.4   0.2       1.4    8.7   0.0   2.6   2   0   0   2   2   2   0 Protein of unknown function (DUF724)
+HHH_5                PF14520.5  sp|Q92GB7|DPO1_RICCN -              0.049   14.2   0.1      0.36   11.4   0.0   2.4   2   0   0   2   2   2   0 Helix-hairpin-helix domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q92GB7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q92GB7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q92GB7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:12:51 2019
+# [ok]

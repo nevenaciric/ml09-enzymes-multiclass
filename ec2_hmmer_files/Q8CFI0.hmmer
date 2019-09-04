@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HECT                 PF00632.24 sp|Q8CFI0|NED4L_MOUSE -           7.7e-102  340.8   0.1    1e-101  340.4   0.1   1.2   1   0   0   1   1   1   1 HECT-domain (ubiquitin-transferase)
+WW                   PF00397.25 sp|Q8CFI0|NED4L_MOUSE -            2.2e-48  161.8  32.1   8.1e-13   48.1   0.2   5.2   6   0   0   6   6   6   4 WW domain
+C2                   PF00168.29 sp|Q8CFI0|NED4L_MOUSE -            6.9e-26   90.4   0.0   1.8e-25   89.1   0.0   1.7   1   0   0   1   1   1   1 C2 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8CFI0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8CFI0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8CFI0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:37:55 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q9LSC2|Y3589_ARATH -              3e-43  147.9   0.0   4.7e-43  147.2   0.0   1.3   1   1   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q9LSC2|Y3589_ARATH -            7.5e-39  133.6   0.0   9.8e-39  133.2   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+APH                  PF01636.22 sp|Q9LSC2|Y3589_ARATH -              0.011   15.6   0.2     0.029   14.2   0.1   1.6   1   1   1   2   2   2   0 Phosphotransferase enzyme family
+PIP49_C              PF12260.7  sp|Q9LSC2|Y3589_ARATH -               0.05   13.2   0.0     0.075   12.6   0.0   1.3   1   0   0   1   1   1   0 Protein-kinase domain of FAM69
+Kinase-like          PF14531.5  sp|Q9LSC2|Y3589_ARATH -               0.06   12.6   0.0     0.087   12.0   0.0   1.3   1   0   0   1   1   1   0 Kinase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9LSC2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9LSC2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9LSC2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:38:04 2019
+# [ok]

@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PTA_PTB              PF01515.18 sp|Q9KT08|PTA_VIBCH  -           6.3e-130  433.1   1.9  8.5e-130  432.6   1.9   1.2   1   0   0   1   1   1   1 Phosphate acetyl/butaryl transferase
+AAA_26               PF13500.5  sp|Q9KT08|PTA_VIBCH  -              2e-49  168.1   0.2   4.7e-49  166.8   0.1   1.8   2   0   0   2   2   2   1 AAA domain
+DRTGG                PF07085.11 sp|Q9KT08|PTA_VIBCH  -            2.5e-28   97.8   0.0   1.1e-27   95.7   0.0   2.2   3   0   0   3   3   3   1 DRTGG domain
+CbiA                 PF01656.22 sp|Q9KT08|PTA_VIBCH  -              0.099   12.6   0.2       1.4    8.9   0.1   2.9   2   1   0   2   2   2   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9KT08.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9KT08.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9KT08.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:35:59 2019
+# [ok]

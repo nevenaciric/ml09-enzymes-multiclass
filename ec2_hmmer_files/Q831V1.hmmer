@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|Q831V1|PYRH_ENTFA -            2.8e-31  108.9   0.4   3.2e-31  108.7   0.4   1.0   1   0   0   1   1   1   1 Amino acid kinase family
+Radical_SAM          PF04055.20 sp|Q831V1|PYRH_ENTFA -               0.12   12.7   1.9       5.2    7.3   0.1   2.1   1   1   1   2   2   2   0 Radical SAM superfamily
+FYRC                 PF05965.13 sp|Q831V1|PYRH_ENTFA -               0.17   12.0   0.0      0.32   11.1   0.0   1.4   1   0   0   1   1   1   0 F/Y rich C-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q831V1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q831V1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q831V1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:25:43 2019
+# [ok]

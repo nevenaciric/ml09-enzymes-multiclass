@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_T              PF00929.23 sp|Q89AN3|DPO3E_BUCBP -            1.2e-34  120.2   0.9   1.6e-34  119.8   0.3   1.5   2   0   0   2   2   2   1 Exonuclease
+DUF5051              PF16473.4  sp|Q89AN3|DPO3E_BUCBP -            9.6e-07   28.8   0.1     2e-06   27.8   0.1   1.5   1   1   0   1   1   1   1 3' exoribonuclease, RNase T-like
+DNA_pol_A_exo1       PF01612.19 sp|Q89AN3|DPO3E_BUCBP -             0.0023   17.6   0.1    0.0088   15.7   0.1   1.9   2   1   0   2   2   2   1 3'-5' exonuclease
+RNase_H_2            PF13482.5  sp|Q89AN3|DPO3E_BUCBP -              0.028   14.3   0.3      0.79    9.6   0.3   2.3   1   1   0   1   1   1   0 RNase_H superfamily
+Amidohydro_3         PF07969.10 sp|Q89AN3|DPO3E_BUCBP -               0.17   11.2   0.0      0.22   10.8   0.0   1.1   1   0   0   1   1   1   0 Amidohydrolase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q89AN3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q89AN3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q89AN3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:34:56 2019
+# [ok]

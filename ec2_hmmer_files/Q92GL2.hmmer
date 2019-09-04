@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q92GL2|COAE_RICCN -            2.5e-20   72.8   0.0   4.6e-20   71.9   0.0   1.4   1   1   0   1   1   1   1 Dephospho-CoA kinase
+AAA_18               PF13238.5  sp|Q92GL2|COAE_RICCN -            0.00092   19.6   0.3    0.0054   17.1   0.3   2.0   1   1   0   1   1   1   1 AAA domain
+AAA_28               PF13521.5  sp|Q92GL2|COAE_RICCN -              0.023   14.9   0.0     0.024   14.8   0.0   1.3   1   1   0   1   1   1   0 AAA domain
+cobW                 PF02492.18 sp|Q92GL2|COAE_RICCN -              0.039   13.5   0.7       6.6    6.2   0.1   2.1   2   0   0   2   2   2   0 CobW/HypB/UreG, nucleotide-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q92GL2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q92GL2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q92GL2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:12:53 2019
+# [ok]

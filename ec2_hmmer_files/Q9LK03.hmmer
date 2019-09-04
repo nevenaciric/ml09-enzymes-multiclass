@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q9LK03|PERK2_ARATH -            1.1e-47  162.4   0.0   1.4e-47  162.1   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q9LK03|PERK2_ARATH -            5.5e-46  157.0   0.0   6.8e-46  156.7   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+SKG6                 PF08693.9  sp|Q9LK03|PERK2_ARATH -               0.14   11.5   0.0      0.26   10.6   0.0   1.5   1   0   0   1   1   1   0 Transmembrane alpha-helix domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9LK03.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9LK03.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9LK03.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:37:27 2019
+# [ok]

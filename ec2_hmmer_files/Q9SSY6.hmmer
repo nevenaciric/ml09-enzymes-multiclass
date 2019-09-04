@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|Q9SSY6|ETR1_CUCSA -            1.6e-30  105.8   0.0     3e-30  105.0   0.0   1.5   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+Response_reg         PF00072.23 sp|Q9SSY6|ETR1_CUCSA -            6.7e-17   61.6   0.0   2.1e-16   60.0   0.0   1.9   2   0   0   2   2   2   1 Response regulator receiver domain
+HisKA                PF00512.24 sp|Q9SSY6|ETR1_CUCSA -            1.1e-16   60.5   2.0   1.1e-16   60.5   2.0   3.1   4   0   0   4   4   4   1 His Kinase A (phospho-acceptor) domain
+GAF                  PF01590.25 sp|Q9SSY6|ETR1_CUCSA -            9.5e-15   55.3   0.2   3.4e-14   53.5   0.2   1.9   2   0   0   2   2   2   1 GAF domain
+GAF_3                PF13492.5  sp|Q9SSY6|ETR1_CUCSA -             0.0003   21.0   0.1       1.2    9.4   0.0   2.6   2   0   0   2   2   2   2 GAF domain
+DUF3135              PF11333.7  sp|Q9SSY6|ETR1_CUCSA -               0.16   12.1   1.1       2.4    8.3   1.3   2.3   1   1   1   2   2   2   0 Protein of unknown function (DUF3135)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9SSY6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9SSY6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9SSY6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:46:57 2019
+# [ok]

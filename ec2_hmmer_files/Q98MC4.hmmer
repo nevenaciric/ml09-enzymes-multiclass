@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Hexapep              PF00132.23 sp|Q98MC4|LPXD_RHILO -            3.1e-27   93.1  38.1     5e-08   32.3   3.6   6.8   3   2   4   7   7   7   7 Bacterial transferase hexapeptide (six repeats)
+LpxD                 PF04613.13 sp|Q98MC4|LPXD_RHILO -            5.1e-12   45.3   0.3   9.6e-12   44.4   0.3   1.5   1   0   0   1   1   1   1 UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase, LpxD
+Hexapep_2            PF14602.5  sp|Q98MC4|LPXD_RHILO -            1.7e-05   24.4  34.2      0.14   11.8   8.8   5.9   6   0   0   6   6   6   4 Hexapeptide repeat of succinyl-transferase
+Fucokinase           PF07959.11 sp|Q98MC4|LPXD_RHILO -              0.049   12.6   0.2       7.1    5.5   0.0   2.3   2   0   0   2   2   2   0 L-fucokinase
+DUF4971              PF16341.4  sp|Q98MC4|LPXD_RHILO -               0.12   12.1   0.7      0.24   11.1   0.7   1.5   1   0   0   1   1   1   0 Domain of unknown function (DUF4971)
+DUF4954              PF16314.4  sp|Q98MC4|LPXD_RHILO -               0.25    9.3   8.9      0.15   10.0   1.2   2.3   1   1   0   2   2   2   0 Domain of unknown function (DUF4954)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q98MC4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q98MC4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q98MC4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:19:44 2019
+# [ok]

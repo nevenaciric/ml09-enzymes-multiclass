@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Rho_Binding          PF08912.10 sp|Q8MIT6|ROCK1_BOVIN -            3.4e-23   82.1  15.3   3.4e-23   82.1  15.3   8.6   2   1   4   6   6   6   1 Rho Binding
+FPP                  PF05911.10 sp|Q8MIT6|ROCK1_BOVIN -              0.002   16.4  29.3     0.002   16.4  29.3   3.1   1   1   2   3   3   3   2 Filament-like plant protein, long coiled-coil
+DUF1192              PF06698.10 sp|Q8MIT6|ROCK1_BOVIN -              0.012   15.6   0.6     0.012   15.6   0.6   4.6   3   1   0   3   3   3   0 Protein of unknown function (DUF1192)
+DUF2536              PF10750.8  sp|Q8MIT6|ROCK1_BOVIN -               0.07   12.9   0.5      0.07   12.9   0.5   3.9   1   1   2   4   4   4   0 Protein of unknown function (DUF2536)
+APG6                 PF04111.11 sp|Q8MIT6|ROCK1_BOVIN -                1.1    8.5  95.6      0.21   10.8  26.9   4.4   1   1   4   5   5   5   0 Autophagy protein Apg6
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8MIT6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8MIT6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8MIT6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:51:58 2019
+# [ok]

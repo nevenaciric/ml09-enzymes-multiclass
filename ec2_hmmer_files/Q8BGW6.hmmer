@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q8BGW6|ST32A_MOUSE -              1e-66  224.9   0.1     1e-66  224.9   0.1   1.4   2   0   0   2   2   2   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q8BGW6|ST32A_MOUSE -            2.7e-40  138.2   0.2   3.6e-40  137.8   0.2   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Kinase-like          PF14531.5  sp|Q8BGW6|ST32A_MOUSE -            5.3e-12   45.5   0.1   5.3e-12   45.5   0.1   1.6   2   0   0   2   2   2   1 Kinase-like
+APH                  PF01636.22 sp|Q8BGW6|ST32A_MOUSE -             0.0011   18.8   0.4    0.0017   18.2   0.4   1.4   1   0   0   1   1   1   1 Phosphotransferase enzyme family
+Haspin_kinase        PF12330.7  sp|Q8BGW6|ST32A_MOUSE -             0.0036   16.2   0.7    0.0036   16.2   0.7   1.7   2   1   0   2   2   2   1 Haspin like kinase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8BGW6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8BGW6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8BGW6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:36:46 2019
+# [ok]

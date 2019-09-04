@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.24 sp|Q9NYY3|PLK2_HUMAN -            2.4e-70  236.8   0.0   3.5e-70  236.3   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q9NYY3|PLK2_HUMAN -            9.3e-39  133.2   0.0   1.6e-38  132.4   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+POLO_box             PF00659.17 sp|Q9NYY3|PLK2_HUMAN -            4.1e-35  119.7   1.5   1.9e-16   59.9   0.0   2.8   2   0   0   2   2   2   2 POLO box duplicated region
+Kinase-like          PF14531.5  sp|Q9NYY3|PLK2_HUMAN -            0.00039   19.7   0.0    0.0025   17.1   0.0   2.0   1   1   1   2   2   2   1 Kinase-like
+G_path_suppress      PF15991.4  sp|Q9NYY3|PLK2_HUMAN -                0.1   12.6   5.7     0.029   14.4   1.5   2.0   2   0   0   2   2   2   0 G-protein pathway suppressor
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9NYY3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9NYY3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9NYY3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:40:45 2019
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ACP_syn_III_C        PF08541.9  sp|Q8ABI8|FABH1_BACTN -            5.2e-32  109.8   0.0   2.1e-31  107.8   0.0   1.9   2   0   0   2   2   2   1 3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III C terminal
+ACP_syn_III          PF08545.9  sp|Q8ABI8|FABH1_BACTN -              1e-30  105.3   0.7   2.7e-30  103.9   0.1   2.0   2   0   0   2   2   2   1 3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III
+Thiolase_N           PF00108.22 sp|Q8ABI8|FABH1_BACTN -            9.1e-10   38.2   0.1   7.6e-09   35.2   0.0   2.1   2   1   0   2   2   2   1 Thiolase, N-terminal domain
+FAE1_CUT1_RppA       PF08392.11 sp|Q8ABI8|FABH1_BACTN -            0.00049   19.4   0.0   0.00092   18.5   0.0   1.4   1   0   0   1   1   1   1 FAE1/Type III polyketide synthase-like protein
+DUF3095              PF11294.7  sp|Q8ABI8|FABH1_BACTN -               0.05   12.6   0.0     0.088   11.8   0.0   1.3   1   0   0   1   1   1   0 Protein of unknown function (DUF3095)
+ketoacyl-synt        PF00109.25 sp|Q8ABI8|FABH1_BACTN -              0.055   13.0   0.1       0.3   10.5   0.0   2.0   1   1   1   2   2   2   0 Beta-ketoacyl synthase, N-terminal domain
+Chal_sti_synt_N      PF00195.18 sp|Q8ABI8|FABH1_BACTN -              0.081   12.2   0.1      0.29   10.4   0.1   2.0   1   1   0   1   1   1   0 Chalcone and stilbene synthases, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8ABI8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8ABI8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8ABI8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:36:23 2019
+# [ok]

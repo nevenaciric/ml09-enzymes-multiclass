@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HATPase_c            PF02518.25 sp|Q93CB7|MTRB_MYCPA -            4.9e-20   72.1   0.0   9.3e-20   71.2   0.0   1.5   1   0   0   1   1   1   1 Histidine kinase-, DNA gyrase B-, and HSP90-like ATPase
+HisKA                PF00512.24 sp|Q93CB7|MTRB_MYCPA -            9.6e-16   57.5   1.1   9.6e-16   57.5   1.1   2.4   3   0   0   3   3   3   1 His Kinase A (phospho-acceptor) domain
+HAMP                 PF00672.24 sp|Q93CB7|MTRB_MYCPA -            9.5e-08   32.3   1.1   9.5e-08   32.3   1.1   1.9   2   0   0   2   2   2   1 HAMP domain
+HATPase_c_2          PF13581.5  sp|Q93CB7|MTRB_MYCPA -            0.00019   21.3   0.1    0.0006   19.7   0.1   2.0   2   0   0   2   2   2   1 Histidine kinase-like ATPase domain
+DUF2218              PF09981.8  sp|Q93CB7|MTRB_MYCPA -              0.033   14.5   0.4       2.7    8.3   0.0   3.3   3   2   1   4   4   4   0 Uncharacterized protein conserved in bacteria (DUF2218)
+DUF4132              PF13569.5  sp|Q93CB7|MTRB_MYCPA -               0.13   11.9   0.1      0.29   10.8   0.1   1.6   1   0   0   1   1   1   0 Domain of unknown function (DUF4132)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q93CB7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q93CB7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q93CB7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:14:12 2019
+# [ok]

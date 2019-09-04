@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GalKase_gal_bdg      PF10509.8  sp|Q9SEE5|GALK1_ARATH -            1.2e-22   79.1   0.0   2.3e-22   78.2   0.0   1.5   1   0   0   1   1   1   1 Galactokinase galactose-binding signature
+GHMP_kinases_C       PF08544.12 sp|Q9SEE5|GALK1_ARATH -              2e-15   56.8   0.0   5.8e-15   55.3   0.0   1.8   1   0   0   1   1   1   1 GHMP kinases C terminal
+GHMP_kinases_N       PF00288.25 sp|Q9SEE5|GALK1_ARATH -            8.3e-14   51.5   0.1   2.8e-13   49.8   0.2   1.9   2   0   0   2   2   2   1 GHMP kinases N terminal domain
+Lip_prot_lig_C       PF10437.8  sp|Q9SEE5|GALK1_ARATH -               0.11   12.4   0.0      0.44   10.5   0.0   2.0   2   0   0   2   2   2   0 Bacterial lipoate protein ligase C-terminus
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9SEE5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9SEE5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9SEE5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:45:57 2019
+# [ok]

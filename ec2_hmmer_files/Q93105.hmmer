@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q93105|INSR_AEDAE -            1.9e-95  319.0   0.0   3.2e-95  318.2   0.0   1.4   1   0   0   1   1   1   1 Protein tyrosine kinase
+Recep_L_domain       PF01030.23 sp|Q93105|INSR_AEDAE -              1e-49  167.2   1.4   1.1e-23   83.4   0.9   2.6   2   0   0   2   2   2   2 Receptor L domain
+Pkinase              PF00069.24 sp|Q93105|INSR_AEDAE -            1.7e-42  145.5   0.0   4.8e-42  144.1   0.0   1.7   2   0   0   2   2   2   1 Protein kinase domain
+Furin-like           PF00757.19 sp|Q93105|INSR_AEDAE -            8.6e-32  110.0  33.2   8.6e-32  110.0  33.2   2.5   3   0   0   3   3   3   1 Furin-like cysteine rich region
+fn3                  PF00041.20 sp|Q93105|INSR_AEDAE -            1.5e-17   63.6   1.6   1.2e-08   35.1   0.1   4.7   4   1   0   4   4   4   3 Fibronectin type III domain
+Pur_ac_phosph_N      PF16656.4  sp|Q93105|INSR_AEDAE -            3.1e-06   27.6   0.3      0.11   13.0   0.0   3.0   2   0   0   2   2   2   2 Purple acid Phosphatase, N-terminal domain
+B2                   PF11473.7  sp|Q93105|INSR_AEDAE -               0.13   12.0   0.1       0.3   10.8   0.1   1.6   1   0   0   1   1   1   0 RNA binding protein B2
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q93105.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q93105.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q93105.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:13:58 2019
+# [ok]

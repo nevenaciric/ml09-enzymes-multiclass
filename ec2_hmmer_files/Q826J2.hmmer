@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FGGY_N               PF00370.20 sp|Q826J2|GLPK3_STRAW -            3.1e-71  239.7   0.0   4.5e-71  239.2   0.0   1.3   1   0   0   1   1   1   1 FGGY family of carbohydrate kinases, N-terminal domain
+FGGY_C               PF02782.15 sp|Q826J2|GLPK3_STRAW -            3.4e-67  225.9   1.5     1e-66  224.4   0.8   1.9   2   0   0   2   2   2   1 FGGY family of carbohydrate kinases, C-terminal domain
+BcrAD_BadFG          PF01869.19 sp|Q826J2|GLPK3_STRAW -              0.077   12.4   0.1       3.8    6.8   0.0   2.2   2   0   0   2   2   2   0 BadF/BadG/BcrA/BcrD ATPase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q826J2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q826J2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q826J2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:24:23 2019
+# [ok]

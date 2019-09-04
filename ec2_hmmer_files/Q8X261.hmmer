@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PTS_2-RNA            PF01885.15 sp|Q8X261|KPTA_METKA -            1.2e-28  100.3   0.0   1.4e-28  100.1   0.0   1.1   1   0   0   1   1   1   1 RNA 2'-phosphotransferase, Tpt1 / KptA family
+PARP                 PF00644.19 sp|Q8X261|KPTA_METKA -            0.00099   18.7   0.0    0.0017   17.9   0.0   1.3   1   0   0   1   1   1   1 Poly(ADP-ribose) polymerase catalytic domain
+Nop10p               PF04135.11 sp|Q8X261|KPTA_METKA -             0.0011   18.9   2.3    0.0018   18.1   1.3   1.9   2   0   0   2   2   2   1 Nucleolar RNA-binding protein, Nop10p family
+RecR                 PF02132.14 sp|Q8X261|KPTA_METKA -             0.0073   15.7   2.7     0.015   14.7   1.9   2.0   2   0   0   2   2   2   1 RecR protein
+PolC_DP2             PF03833.12 sp|Q8X261|KPTA_METKA -              0.018   12.9   0.2     0.024   12.4   0.2   1.3   1   0   0   1   1   1   0 DNA polymerase II large subunit DP2
+DUF4433              PF14487.5  sp|Q8X261|KPTA_METKA -              0.031   14.1   0.2       1.9    8.2   0.0   2.9   2   1   1   3   3   3   0 Domain of unknown function (DUF4433)
+NRDD                 PF13597.5  sp|Q8X261|KPTA_METKA -              0.048   12.3   1.9     0.066   11.9   1.9   1.2   1   0   0   1   1   1   0 Anaerobic ribonucleoside-triphosphate reductase
+DZR                  PF12773.6  sp|Q8X261|KPTA_METKA -               0.13   12.2   2.2      0.29   11.1   2.2   1.5   1   0   0   1   1   1   0 Double zinc ribbon
+HypA                 PF01155.18 sp|Q8X261|KPTA_METKA -               0.15   11.9   0.6      0.26   11.2   0.6   1.4   1   0   0   1   1   1   0 Hydrogenase/urease nickel incorporation, metallochaperone, hypA
+TF_Zn_Ribbon         PF08271.11 sp|Q8X261|KPTA_METKA -                1.6    8.3   5.9       5.6    6.5   5.9   2.0   1   1   0   1   1   1   0 TFIIB zinc-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8X261.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8X261.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8X261.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:03:07 2019
+# [ok]

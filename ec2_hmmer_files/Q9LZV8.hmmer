@@ -1,0 +1,33 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+zf-RING_2            PF13639.5  sp|Q9LZV8|ATL74_ARATH -            2.1e-15   56.6   6.1   3.6e-15   55.9   6.1   1.4   1   0   0   1   1   1   1 Ring finger domain
+zf-RING_11           PF17123.4  sp|Q9LZV8|ATL74_ARATH -            1.3e-12   47.1   2.0   1.3e-12   47.1   2.0   2.0   2   0   0   2   2   1   1 RING-like zinc finger
+zf-C3HC4_2           PF13923.5  sp|Q9LZV8|ATL74_ARATH -            3.2e-11   42.8   4.8   5.3e-11   42.1   4.8   1.4   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-rbx1              PF12678.6  sp|Q9LZV8|ATL74_ARATH -            4.5e-08   33.1   9.4   2.8e-07   30.6   9.4   2.0   1   1   0   1   1   1   1 RING-H2 zinc finger domain
+zf-C3HC4             PF00097.24 sp|Q9LZV8|ATL74_ARATH -            1.5e-07   31.1   4.0   2.4e-07   30.4   4.0   1.4   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_UBOX         PF13445.5  sp|Q9LZV8|ATL74_ARATH -            5.6e-07   29.4   3.3   1.1e-06   28.4   3.3   1.5   1   0   0   1   1   1   1 RING-type zinc-finger
+zf-C3HC4_3           PF13920.5  sp|Q9LZV8|ATL74_ARATH -            3.5e-05   23.5   3.1   6.3e-05   22.7   3.1   1.4   1   0   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-RING_5            PF14634.5  sp|Q9LZV8|ATL74_ARATH -            3.9e-05   23.4   4.4   6.9e-05   22.6   4.4   1.4   1   0   0   1   1   1   1 zinc-RING finger domain
+zf-ANAPC11           PF12861.6  sp|Q9LZV8|ATL74_ARATH -            0.00025   21.0   4.6   0.00058   19.8   4.6   1.6   1   1   0   1   1   1   1 Anaphase-promoting complex subunit 11 RING-H2 finger
+FANCL_C              PF11793.7  sp|Q9LZV8|ATL74_ARATH -            0.00052   20.0   4.3    0.0048   17.0   4.3   2.3   1   1   0   1   1   1   1 FANCL C-terminal domain
+Prok-RING_4          PF14447.5  sp|Q9LZV8|ATL74_ARATH -            0.00089   19.0   7.0    0.0015   18.2   7.0   1.4   1   0   0   1   1   1   1 Prokaryotic RING finger family 4
+Prok-RING_1          PF14446.5  sp|Q9LZV8|ATL74_ARATH -             0.0015   18.3   2.2    0.0044   16.8   0.4   2.1   2   0   0   2   2   2   1 Prokaryotic RING finger family 1
+zf-RING_4            PF14570.5  sp|Q9LZV8|ATL74_ARATH -             0.0056   16.3   2.0      0.01   15.4   2.0   1.5   1   0   0   1   1   1   1 RING/Ubox like zinc-binding domain
+RINGv                PF12906.6  sp|Q9LZV8|ATL74_ARATH -              0.018   15.1   3.0     0.044   13.8   3.0   1.7   1   1   0   1   1   1   0 RING-variant domain
+Baculo_RING          PF05883.10 sp|Q9LZV8|ATL74_ARATH -               0.16   11.9   0.1      0.31   10.9   0.1   1.5   1   0   0   1   1   1   0 Baculovirus U-box/Ring-like domain
+Zn_ribbon_17         PF17120.4  sp|Q9LZV8|ATL74_ARATH -               0.21   11.1  10.0     0.052   13.1   5.8   2.1   2   1   0   2   2   2   0 Zinc-ribbon, C4HC2 type
+DUF1514              PF07438.10 sp|Q9LZV8|ATL74_ARATH -               0.23   11.7   2.4      0.36   11.0   2.4   1.3   1   0   0   1   1   1   0 Protein of unknown function (DUF1514)
+PHD                  PF00628.28 sp|Q9LZV8|ATL74_ARATH -               0.28   11.0   4.7      0.77    9.6   4.7   1.8   1   1   0   1   1   1   0 PHD-finger
+zf-RING-like         PF08746.10 sp|Q9LZV8|ATL74_ARATH -               0.47   10.7   7.6       1.2    9.4   7.6   1.8   1   1   0   1   1   1   0 RING-like domain
+zf-C3HC4_4           PF15227.5  sp|Q9LZV8|ATL74_ARATH -               0.63   10.2   6.0       2.3    8.3   6.0   2.0   1   1   0   1   1   1   0 zinc finger of C3HC4-type, RING
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9LZV8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9LZV8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9LZV8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:38:51 2019
+# [ok]

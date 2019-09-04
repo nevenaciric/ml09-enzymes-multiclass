@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PMT                  PF02366.17 sp|Q8R2R1|POMT1_MOUSE -              1e-93  313.4  23.6   2.1e-93  312.3  23.6   1.6   1   0   0   1   1   1   1 Dolichyl-phosphate-mannose-protein mannosyltransferase
+PMT_4TMC             PF16192.4  sp|Q8R2R1|POMT1_MOUSE -            3.2e-52  176.9   9.6   3.2e-52  176.9   9.6   2.7   2   1   0   2   2   2   1 C-terminal four TMM region of protein-O-mannosyltransferase
+MIR                  PF02815.18 sp|Q8R2R1|POMT1_MOUSE -            1.4e-13   51.0   0.0   2.2e-13   50.3   0.0   1.2   1   0   0   1   1   1   1 MIR domain
+DUF3262              PF11660.7  sp|Q8R2R1|POMT1_MOUSE -                5.3    7.4   8.9      0.15   12.3   1.8   2.2   2   0   0   2   2   2   0 Protein of unknown function (DUF3262)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8R2R1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8R2R1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8R2R1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:56:28 2019
+# [ok]

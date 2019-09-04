@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-cone             PF03477.15 sp|Q9V2C6|PGK2_PYRAB -            5.6e-09   36.3   1.7   1.4e-08   35.0   0.1   2.4   2   1   0   2   2   2   1 ATP cone domain
+AAA_18               PF13238.5  sp|Q9V2C6|PGK2_PYRAB -              1e-05   26.0   0.1   5.3e-05   23.6   0.1   2.2   1   1   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|Q9V2C6|PGK2_PYRAB -             0.0002   21.4   0.1    0.0012   18.9   0.1   2.3   1   1   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q9V2C6|PGK2_PYRAB -             0.0011   19.2   0.0    0.0019   18.5   0.0   1.5   1   0   0   1   1   1   1 AAA ATPase domain
+Zeta_toxin           PF06414.11 sp|Q9V2C6|PGK2_PYRAB -             0.0012   18.0   2.4    0.0034   16.6   0.0   2.8   3   2   1   4   4   4   1 Zeta toxin
+AAA                  PF00004.28 sp|Q9V2C6|PGK2_PYRAB -             0.0064   16.8   0.3     0.022   15.1   0.1   2.2   2   1   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+AAA_28               PF13521.5  sp|Q9V2C6|PGK2_PYRAB -             0.0092   16.1   0.8     0.037   14.2   0.1   2.2   2   0   0   2   2   2   1 AAA domain
+AAA_5                PF07728.13 sp|Q9V2C6|PGK2_PYRAB -             0.0099   15.8   0.4     0.027   14.4   0.1   2.0   2   0   0   2   2   1   1 AAA domain (dynein-related subfamily)
+AAA_25               PF13481.5  sp|Q9V2C6|PGK2_PYRAB -              0.014   14.9   0.0     0.037   13.5   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+Cytidylate_kin       PF02224.17 sp|Q9V2C6|PGK2_PYRAB -              0.016   14.9   0.2     0.059   13.0   0.0   2.0   2   0   0   2   2   2   0 Cytidylate kinase
+RNA_helicase         PF00910.21 sp|Q9V2C6|PGK2_PYRAB -               0.02   15.2   0.0     0.088   13.1   0.0   2.0   2   0   0   2   2   2   0 RNA helicase
+Spore_GerAC          PF05504.10 sp|Q9V2C6|PGK2_PYRAB -              0.022   14.9   0.4       4.7    7.3   0.0   2.3   2   0   0   2   2   2   0 Spore germination B3/ GerAC like, C-terminal
+ParA                 PF10609.8  sp|Q9V2C6|PGK2_PYRAB -              0.029   13.7   0.4      0.18   11.1   0.1   2.1   2   0   0   2   2   2   0 NUBPL iron-transfer P-loop NTPase
+CbiA                 PF01656.22 sp|Q9V2C6|PGK2_PYRAB -              0.045   13.7   1.3      0.19   11.7   0.2   2.3   2   1   0   2   2   2   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+T2SSE                PF00437.19 sp|Q9V2C6|PGK2_PYRAB -              0.046   12.7   0.0     0.087   11.8   0.0   1.4   1   0   0   1   1   1   0 Type II/IV secretion system protein
+RsgA_GTPase          PF03193.15 sp|Q9V2C6|PGK2_PYRAB -               0.07   12.9   0.1      0.23   11.2   0.0   1.9   2   0   0   2   2   2   0 RsgA GTPase
+AAA_17               PF13207.5  sp|Q9V2C6|PGK2_PYRAB -              0.077   13.3   2.0      0.19   12.0   0.0   2.6   3   0   0   3   3   3   0 AAA domain
+AAA_29               PF13555.5  sp|Q9V2C6|PGK2_PYRAB -              0.079   12.6   0.0      0.15   11.7   0.0   1.4   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+APS_kinase           PF01583.19 sp|Q9V2C6|PGK2_PYRAB -              0.086   12.6   0.1      0.99    9.2   0.0   2.2   2   0   0   2   2   2   0 Adenylylsulphate kinase
+AAA_22               PF13401.5  sp|Q9V2C6|PGK2_PYRAB -               0.13   12.5   0.1      0.38   10.9   0.0   1.9   2   0   0   2   2   1   0 AAA domain
+AAA_23               PF13476.5  sp|Q9V2C6|PGK2_PYRAB -               0.34   11.3   2.2      0.36   11.2   0.0   2.0   3   0   0   3   3   3   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9V2C6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9V2C6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9V2C6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:49:52 2019
+# [ok]

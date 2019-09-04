@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GlnD_UR_UTase        PF08335.10 sp|Q87MD6|GLND_VIBPA -            1.3e-35  122.5   1.0   3.3e-35  121.2   1.0   1.8   1   0   0   1   1   1   1 GlnD PII-uridylyltransferase
+ACT                  PF01842.24 sp|Q87MD6|GLND_VIBPA -            2.3e-14   52.8   0.4   6.6e-08   32.1   0.0   3.0   3   0   0   3   3   3   2 ACT domain
+HD                   PF01966.21 sp|Q87MD6|GLND_VIBPA -            5.6e-13   49.1   0.9   1.4e-12   47.8   0.3   2.1   2   0   0   2   2   2   1 HD domain
+NTP_transf_2         PF01909.22 sp|Q87MD6|GLND_VIBPA -            3.2e-08   33.7   0.0   1.4e-07   31.6   0.0   2.2   2   0   0   2   2   2   1 Nucleotidyltransferase domain
+ACT_4                PF13291.5  sp|Q87MD6|GLND_VIBPA -             0.0066   16.9   0.0       2.1    8.9   0.0   2.6   2   0   0   2   2   2   1 ACT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q87MD6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q87MD6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q87MD6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:30:58 2019
+# [ok]

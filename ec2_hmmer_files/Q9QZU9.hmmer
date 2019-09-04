@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UQ_con               PF00179.25 sp|Q9QZU9|UB2L6_MOUSE -            2.2e-36  124.5   0.1   2.5e-36  124.3   0.1   1.0   1   0   0   1   1   1   1 Ubiquitin-conjugating enzyme
+RWD                  PF05773.21 sp|Q9QZU9|UB2L6_MOUSE -             0.0017   18.5   0.3    0.0025   18.0   0.3   1.4   1   1   0   1   1   1   1 RWD domain
+UEV                  PF05743.12 sp|Q9QZU9|UB2L6_MOUSE -              0.039   13.7   0.2     0.061   13.1   0.2   1.5   1   0   0   1   1   1   0 UEV domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9QZU9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9QZU9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9QZU9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:43:46 2019
+# [ok]

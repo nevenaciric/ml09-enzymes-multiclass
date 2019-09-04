@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AdoMet_MTase         PF07757.12 sp|Q9VHB9|TRM44_DROME -            1.2e-56  189.7   0.1   2.6e-56  188.7   0.1   1.6   1   0   0   1   1   1   1 Predicted AdoMet-dependent methyltransferase
+Methyltransf_23      PF13489.5  sp|Q9VHB9|TRM44_DROME -               0.13   12.0   0.0      0.28   10.9   0.0   1.6   1   0   0   1   1   1   0 Methyltransferase domain
+CobN-Mg_chel         PF02514.15 sp|Q9VHB9|TRM44_DROME -               0.23    9.1   0.0      0.33    8.5   0.0   1.1   1   0   0   1   1   1   0 CobN/Magnesium Chelatase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9VHB9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9VHB9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9VHB9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:50:18 2019
+# [ok]

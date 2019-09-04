@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q8EQT7|PNP_OCEIH  -            3.6e-39  134.2   0.1   1.2e-18   67.8   0.0   3.3   3   0   0   3   3   3   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q8EQT7|PNP_OCEIH  -            2.5e-25   88.2   3.1   5.8e-15   55.0   0.2   3.0   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|Q8EQT7|PNP_OCEIH  -              2e-18   66.4   7.0   2.2e-18   66.3   5.0   2.2   2   0   0   2   2   2   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|Q8EQT7|PNP_OCEIH  -            2.1e-14   53.6   9.6   2.1e-14   53.6   9.6   2.7   3   0   0   3   3   3   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|Q8EQT7|PNP_OCEIH  -            1.3e-08   34.5   2.5   1.3e-08   34.5   2.5   3.3   4   0   0   4   4   4   1 KH domain
+SPATA25              PF15218.5  sp|Q8EQT7|PNP_OCEIH  -             0.0031   17.2   0.1    0.0059   16.3   0.1   1.4   1   0   0   1   1   1   1 Spermatogenesis-associated protein 25
+S1_2                 PF13509.5  sp|Q8EQT7|PNP_OCEIH  -              0.038   13.9   0.1     0.097   12.6   0.1   1.8   1   0   0   1   1   1   0 S1 domain
+FlgT_N               PF16548.4  sp|Q8EQT7|PNP_OCEIH  -              0.043   14.3   3.5     0.068   13.7   1.8   2.3   2   0   0   2   2   2   0 Flagellar assembly protein T, N-terminal domain
+DnaG_DnaB_bind       PF08278.10 sp|Q8EQT7|PNP_OCEIH  -              0.077   13.5   1.9      0.87   10.1   1.9   2.3   2   0   0   2   2   2   0 DNA primase DnaG DnaB-binding
+ATP-grasp            PF02222.21 sp|Q8EQT7|PNP_OCEIH  -                  2    7.8   8.5         8    5.9   0.0   3.7   4   0   0   4   4   4   0 ATP-grasp domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8EQT7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8EQT7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8EQT7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:44:34 2019
+# [ok]

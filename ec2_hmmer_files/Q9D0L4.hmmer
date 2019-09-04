@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC1                 PF03109.15 sp|Q9D0L4|ADCK1_MOUSE -            8.5e-40  135.5   0.1   1.3e-39  134.9   0.1   1.3   1   0   0   1   1   1   1 ABC1 family
+Pkinase              PF00069.24 sp|Q9D0L4|ADCK1_MOUSE -            6.3e-07   28.9   0.2   7.6e-05   22.1   0.2   2.3   1   1   0   1   1   1   1 Protein kinase domain
+APH                  PF01636.22 sp|Q9D0L4|ADCK1_MOUSE -            0.00025   20.9   0.3      0.11   12.3   0.1   2.5   2   0   0   2   2   2   2 Phosphotransferase enzyme family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9D0L4.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9D0L4.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9D0L4.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:25:53 2019
+# [ok]

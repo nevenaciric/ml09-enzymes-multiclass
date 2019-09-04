@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+FAT                  PF02259.22 sp|Q86C65|TOR_DICDI  -           2.9e-115  385.1   0.1  1.6e-114  382.6   0.0   2.5   2   1   0   2   2   2   1 FAT domain
+PI3_PI4_kinase       PF00454.26 sp|Q86C65|TOR_DICDI  -            1.5e-71  241.0   0.5   3.7e-71  239.8   0.5   1.7   1   0   0   1   1   1   1 Phosphatidylinositol 3- and 4-kinase
+DUF3385              PF11865.7  sp|Q86C65|TOR_DICDI  -            2.6e-65  219.1   5.6     3e-57  193.0   0.0   5.4   4   1   1   5   5   5   3 Domain of unknown function (DUF3385)
+FRB_dom              PF08771.10 sp|Q86C65|TOR_DICDI  -            1.1e-41  141.1   0.6   1.1e-41  141.1   0.6   3.5   4   0   0   4   4   1   1 FKBP12-rapamycin binding domain
+HEAT_2               PF13646.5  sp|Q86C65|TOR_DICDI  -            1.5e-17   63.7  11.5      0.15   12.4   0.0   9.5   7   2   2   9   9   8   4 HEAT repeats
+FATC                 PF02260.19 sp|Q86C65|TOR_DICDI  -            3.6e-16   58.6   0.2   8.8e-16   57.3   0.2   1.7   1   0   0   1   1   1   1 FATC domain
+HEAT                 PF02985.21 sp|Q86C65|TOR_DICDI  -            5.3e-14   51.0  23.7     0.061   13.5   0.0  12.8  13   0   0  13  13  11   3 HEAT repeat
+Cnd1                 PF12717.6  sp|Q86C65|TOR_DICDI  -            2.5e-13   50.2   8.5    0.0067   16.3   0.0   6.9   4   1   1   5   5   5   3 non-SMC mitotic condensation complex subunit 1
+HEAT_EZ              PF13513.5  sp|Q86C65|TOR_DICDI  -              9e-11   41.9  16.9    0.0028   18.0   0.1  10.6   8   2   3  11  11  11   3 HEAT-like repeat
+Sec7_N               PF12783.6  sp|Q86C65|TOR_DICDI  -              2e-07   30.9   1.7     0.027   14.3   0.0   5.0   3   1   0   3   3   3   2 Guanine nucleotide exchange factor in Golgi transport N-terminal
+ParcG                PF10274.8  sp|Q86C65|TOR_DICDI  -            5.5e-07   29.8   9.2    0.0033   17.5   0.1   5.7   3   2   2   5   5   5   2 Parkin co-regulated protein
+UME                  PF08064.12 sp|Q86C65|TOR_DICDI  -            4.2e-06   26.5   5.1       1.8    8.5   0.1   6.8   7   1   0   7   7   6   2 UME (NUC010) domain
+Vac14_Fab1_bd        PF12755.6  sp|Q86C65|TOR_DICDI  -            0.00011   22.6   4.8       8.7    6.9   0.0   7.1   9   0   0   9   9   7   0 Vacuolar 14 Fab1-binding region
+CLASP_N              PF12348.7  sp|Q86C65|TOR_DICDI  -            0.00096   18.7   0.6      0.76    9.2   0.0   5.0   4   1   1   5   5   5   1 CLASP N terminal
+Dopey_N              PF04118.13 sp|Q86C65|TOR_DICDI  -               0.01   15.0   7.0       9.3    5.2   2.0   4.6   3   1   0   3   3   3   0 Dopey, N-terminal
+IFRD                 PF05004.12 sp|Q86C65|TOR_DICDI  -              0.019   14.0   6.2     0.099   11.6   0.0   4.5   4   2   2   6   6   6   0 Interferon-related developmental regulator (IFRD)
+Tti2                 PF10521.8  sp|Q86C65|TOR_DICDI  -              0.029   13.8   8.9       2.6    7.4   0.1   5.6   4   1   1   6   6   6   0 Tti2 family
+TPR_7                PF13176.5  sp|Q86C65|TOR_DICDI  -              0.058   13.4   0.6       4.1    7.6   0.1   3.5   2   0   0   2   2   2   0 Tetratricopeptide repeat
+MOR2-PAG1_C          PF14225.5  sp|Q86C65|TOR_DICDI  -               0.18   11.5   1.4       4.4    7.0   0.1   3.6   3   1   0   3   3   3   0 Cell morphogenesis C-terminal
+TAN                  PF11640.7  sp|Q86C65|TOR_DICDI  -               0.22   11.6   4.7      0.27   11.3   0.3   3.6   4   1   0   4   4   3   0 Telomere-length maintenance and DNA damage repair
+RIX1                 PF08167.11 sp|Q86C65|TOR_DICDI  -                1.9    8.1  11.2        18    4.9   0.1   5.7   5   1   1   6   6   6   0 rRNA processing/ribosome biogenesis
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q86C65.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q86C65.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q86C65.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:28:59 2019
+# [ok]

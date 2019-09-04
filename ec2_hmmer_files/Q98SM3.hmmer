@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|Q98SM3|EZH2A_XENLA -            1.4e-17   64.5   0.7   1.4e-17   64.5   0.7   3.6   2   2   0   2   2   2   1 SET domain
+EZH2_WD-Binding      PF11616.7  sp|Q98SM3|EZH2A_XENLA -            7.3e-17   61.1   3.1   1.8e-16   59.8   3.1   1.7   1   0   0   1   1   1   1 WD repeat binding protein EZH2
+Myb_DNA-bind_7       PF15963.4  sp|Q98SM3|EZH2A_XENLA -              0.087   12.6   1.2       4.6    7.1   0.0   3.0   3   0   0   3   3   3   0 Myb DNA-binding like
+tRNA_lig_CPD         PF08302.10 sp|Q98SM3|EZH2A_XENLA -               0.28   10.5   3.8       3.6    6.9   0.6   2.3   2   0   0   2   2   2   0 Fungal tRNA ligase phosphodiesterase domain
+CDC45                PF02724.13 sp|Q98SM3|EZH2A_XENLA -                3.4    5.8   9.4       4.9    5.2   3.7   2.1   2   0   0   2   2   2   0 CDC45-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q98SM3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q98SM3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q98SM3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:20:04 2019
+# [ok]

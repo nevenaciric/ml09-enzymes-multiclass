@@ -1,0 +1,27 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q8QFP8|LIMK1_CHICK -            5.7e-54  183.0   0.0   8.4e-54  182.5   0.0   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q8QFP8|LIMK1_CHICK -            1.1e-48  165.8   0.0     2e-48  165.0   0.0   1.4   1   1   0   1   1   1   1 Protein kinase domain
+LIM                  PF00412.21 sp|Q8QFP8|LIMK1_CHICK -            4.1e-31  106.9  19.0   7.4e-17   61.2   5.0   2.5   2   0   0   2   2   2   2 LIM domain
+PDZ                  PF00595.23 sp|Q8QFP8|LIMK1_CHICK -            3.1e-12   46.6   0.0   5.4e-12   45.8   0.0   1.4   1   0   0   1   1   1   1 PDZ domain (Also known as DHR or GLGF)
+Kdo                  PF06293.13 sp|Q8QFP8|LIMK1_CHICK -            6.9e-08   32.0   0.2   1.3e-07   31.1   0.2   1.3   1   0   0   1   1   1   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+APH                  PF01636.22 sp|Q8QFP8|LIMK1_CHICK -             0.0016   18.3   0.1    0.0046   16.8   0.1   1.7   1   1   0   1   1   1   1 Phosphotransferase enzyme family
+zf-RRN7              PF11781.7  sp|Q8QFP8|LIMK1_CHICK -             0.0064   16.1   0.7    0.0064   16.1   0.7   3.6   4   0   0   4   4   4   1 Zinc-finger of RNA-polymerase I-specific TFIIB, Rrn7
+RIO1                 PF01163.21 sp|Q8QFP8|LIMK1_CHICK -              0.022   14.3   0.1     0.038   13.5   0.1   1.5   1   0   0   1   1   1   0 RIO1 family
+Haspin_kinase        PF12330.7  sp|Q8QFP8|LIMK1_CHICK -              0.022   13.6   0.0     0.033   13.0   0.0   1.2   1   0   0   1   1   1   0 Haspin like kinase domain
+PDZ_2                PF13180.5  sp|Q8QFP8|LIMK1_CHICK -              0.033   14.4   0.0     0.069   13.4   0.0   1.4   1   0   0   1   1   1   0 PDZ domain
+PknG_TPR             PF16918.4  sp|Q8QFP8|LIMK1_CHICK -               0.08   11.5   0.0      0.12   10.9   0.0   1.2   1   0   0   1   1   1   0 Protein kinase G tetratricopeptide repeat
+Kinase-like          PF14531.5  sp|Q8QFP8|LIMK1_CHICK -               0.21   10.7   0.1        20    4.3   0.0   2.1   2   0   0   2   2   2   0 Kinase-like
+c-SKI_SMAD_bind      PF08782.9  sp|Q8QFP8|LIMK1_CHICK -                2.9    8.1   7.7        13    6.0   0.7   2.5   2   0   0   2   2   2   0 c-SKI Smad4 binding domain
+Zn_ribbon_recom      PF13408.5  sp|Q8QFP8|LIMK1_CHICK -                2.9    8.4  13.7         6    7.4   5.6   3.2   3   0   0   3   3   3   0 Recombinase zinc beta ribbon domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8QFP8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8QFP8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8QFP8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:56:11 2019
+# [ok]

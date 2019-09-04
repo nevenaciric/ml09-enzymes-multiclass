@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TAL_FSA              PF00923.18 sp|Q829U5|TAL2_STRAW -            8.1e-84  281.2   0.5   9.6e-84  281.0   0.5   1.0   1   0   0   1   1   1   1 Transaldolase/Fructose-6-phosphate aldolase
+Secretin_N           PF03958.16 sp|Q829U5|TAL2_STRAW -               0.09   13.1   0.1      0.25   11.7   0.1   1.8   1   0   0   1   1   1   0 Bacterial type II/III secretion system short domain
+DisA-linker          PF10635.8  sp|Q829U5|TAL2_STRAW -               0.11   12.2   0.1      0.37   10.4   0.0   1.8   2   0   0   2   2   2   0 DisA bacterial checkpoint controller linker region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q829U5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q829U5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q829U5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:24:32 2019
+# [ok]

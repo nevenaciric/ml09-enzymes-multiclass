@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+NadA                 PF02445.15 sp|Q9KWZ1|NADA_BACSU -           1.3e-106  356.1   0.3  1.5e-106  355.9   0.3   1.0   1   0   0   1   1   1   1 Quinolinate synthetase A protein
+Lactamase_B_2        PF12706.6  sp|Q9KWZ1|NADA_BACSU -              0.063   12.7   0.1       0.3   10.5   0.0   2.0   1   1   1   2   2   2   0 Beta-lactamase superfamily domain
+Il2rg                PF15874.4  sp|Q9KWZ1|NADA_BACSU -               0.15   12.1   0.0        22    5.2   0.0   2.6   2   0   0   2   2   2   0 Putative Interleukin 2 receptor, gamma chain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9KWZ1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9KWZ1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9KWZ1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:36:27 2019
+# [ok]

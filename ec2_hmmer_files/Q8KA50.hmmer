@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PEP-utilizers_C      PF02896.17 sp|Q8KA50|PT1_BUCAP  -           5.3e-119  396.6   0.0  9.5e-119  395.8   0.0   1.4   1   0   0   1   1   1   1 PEP-utilising enzyme, TIM barrel domain
+PEP-utilisers_N      PF05524.12 sp|Q8KA50|PT1_BUCAP  -            1.6e-24   86.2   0.2   3.8e-24   85.0   0.2   1.7   1   0   0   1   1   1   1 PEP-utilising enzyme, N-terminal
+PEP-utilizers        PF00391.22 sp|Q8KA50|PT1_BUCAP  -            4.2e-21   74.3   0.0   9.2e-21   73.2   0.0   1.6   1   0   0   1   1   1   1 PEP-utilising enzyme, mobile domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8KA50.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8KA50.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8KA50.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:50:22 2019
+# [ok]

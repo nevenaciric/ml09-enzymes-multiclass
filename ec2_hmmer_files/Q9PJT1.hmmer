@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IspD                 PF01128.18 sp|Q9PJT1|ISPD_CHLMU -            1.1e-37  129.8   0.0   1.2e-37  129.7   0.0   1.0   1   0   0   1   1   1   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+NTP_transf_3         PF12804.6  sp|Q9PJT1|ISPD_CHLMU -            1.9e-10   41.2   0.0   2.1e-10   41.1   0.0   1.2   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+NTP_transferase      PF00483.22 sp|Q9PJT1|ISPD_CHLMU -               0.03   13.8   0.0     0.055   12.9   0.0   1.4   1   0   0   1   1   1   0 Nucleotidyl transferase
+CTP_transf_3         PF02348.18 sp|Q9PJT1|ISPD_CHLMU -               0.14   12.0   0.0      0.25   11.1   0.0   1.4   1   1   0   1   1   1   0 Cytidylyltransferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9PJT1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9PJT1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9PJT1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:42:14 2019
+# [ok]

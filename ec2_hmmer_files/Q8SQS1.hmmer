@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+UDPGP                PF01704.17 sp|Q8SQS1|UAP1_ENCCU -            4.8e-27   94.5   0.2   7.2e-27   94.0   0.2   1.2   1   0   0   1   1   1   1 UTP--glucose-1-phosphate uridylyltransferase
+NTP_transf_3         PF12804.6  sp|Q8SQS1|UAP1_ENCCU -            7.6e-07   29.5   0.0   1.1e-06   29.0   0.0   1.2   1   0   0   1   1   1   1 MobA-like NTP transferase domain
+IspD                 PF01128.18 sp|Q8SQS1|UAP1_ENCCU -            0.00062   19.5   0.0   0.00089   18.9   0.0   1.2   1   0   0   1   1   1   1 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+NTP_transferase      PF00483.22 sp|Q8SQS1|UAP1_ENCCU -             0.0016   18.0   0.0     0.002   17.6   0.0   1.3   1   0   0   1   1   1   1 Nucleotidyl transferase
+S10_plectin          PF03501.14 sp|Q8SQS1|UAP1_ENCCU -              0.005   16.8   0.0     0.011   15.6   0.0   1.5   1   0   0   1   1   1   1 Plectin/S10 domain
+DUF5039              PF16442.4  sp|Q8SQS1|UAP1_ENCCU -              0.085   12.3   0.0       2.9    7.3   0.0   2.2   2   0   0   2   2   2   0 Domain of unknown function (DUF5039)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8SQS1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8SQS1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8SQS1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:58:29 2019
+# [ok]

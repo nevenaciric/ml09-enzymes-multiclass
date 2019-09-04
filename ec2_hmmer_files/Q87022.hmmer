@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LA-virus_coat        PF09220.9  sp|Q87022|RDRP_SCVLA -           8.1e-275  911.1   0.8  1.2e-274  910.6   0.8   1.3   1   0   0   1   1   1   1 L-A virus, major coat protein
+RdRP_4               PF02123.15 sp|Q87022|RDRP_SCVLA -           3.2e-103  346.1   0.2    5e-103  345.4   0.2   1.3   1   0   0   1   1   1   1 Viral RNA-directed RNA-polymerase
+RdRP_1               PF00680.19 sp|Q87022|RDRP_SCVLA -            0.00011   20.8   0.5   0.00017   20.2   0.5   1.2   1   0   0   1   1   1   1 RNA dependent RNA polymerase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q87022.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q87022.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q87022.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:29:42 2019
+# [ok]

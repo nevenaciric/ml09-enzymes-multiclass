@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TMP-TENI             PF02581.16 sp|Q9JXF7|THIE_NEIMB -            1.9e-52  177.1   0.6   2.2e-52  176.9   0.6   1.0   1   0   0   1   1   1   1 Thiamine monophosphate synthase
+CutC                 PF03932.13 sp|Q9JXF7|THIE_NEIMB -              0.013   14.9   0.2     0.025   14.0   0.1   1.6   1   1   0   1   1   1   0 CutC family
+Ribul_P_3_epim       PF00834.18 sp|Q9JXF7|THIE_NEIMB -                0.1   11.8   0.1      0.26   10.5   0.1   1.8   1   1   1   2   2   2   0 Ribulose-phosphate 3 epimerase family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9JXF7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9JXF7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9JXF7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:33:36 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GHMP_kinases_N       PF00288.25 sp|Q81JA2|ISPE_BACCR -            1.2e-13   50.9   0.7   2.3e-13   50.1   0.7   1.5   1   0   0   1   1   1   1 GHMP kinases N terminal domain
+GHMP_kinases_C       PF08544.12 sp|Q81JA2|ISPE_BACCR -            9.2e-08   32.2   0.0   1.9e-07   31.3   0.0   1.6   1   0   0   1   1   1   1 GHMP kinases C terminal
+Peptidase_C42        PF05533.11 sp|Q81JA2|ISPE_BACCR -              0.027   14.4   0.0     0.059   13.3   0.0   1.6   1   0   0   1   1   1   0 Beet yellows virus-type papain-like endopeptidase C42
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q81JA2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q81JA2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q81JA2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:22:45 2019
+# [ok]

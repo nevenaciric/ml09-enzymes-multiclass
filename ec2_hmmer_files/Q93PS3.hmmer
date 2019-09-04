@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+TPP_enzyme_N         PF02776.17 sp|Q93PS3|XSC_DESTI  -            1.7e-45  154.6   1.6   7.9e-45  152.4   0.1   2.4   2   1   0   2   2   2   1 Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+TPP_enzyme_C         PF02775.20 sp|Q93PS3|XSC_DESTI  -            1.5e-34  118.9   0.0   1.8e-33  115.4   0.0   2.4   2   0   0   2   2   2   1 Thiamine pyrophosphate enzyme, C-terminal TPP binding domain
+TPP_enzyme_M         PF00205.21 sp|Q93PS3|XSC_DESTI  -              1e-33  115.9   0.1   2.7e-33  114.5   0.1   1.7   1   0   0   1   1   1   1 Thiamine pyrophosphate enzyme, central domain
+ETF_alpha            PF00766.18 sp|Q93PS3|XSC_DESTI  -              0.023   14.6   0.0      0.15   12.0   0.0   2.3   2   0   0   2   2   2   0 Electron transfer flavoprotein FAD-binding domain
+CO_dh                PF02552.15 sp|Q93PS3|XSC_DESTI  -               0.12   12.0   0.2      0.41   10.3   0.0   2.0   3   0   0   3   3   3   0 CO dehydrogenase beta subunit/acetyl-CoA synthase epsilon subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q93PS3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q93PS3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q93PS3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:14:25 2019
+# [ok]

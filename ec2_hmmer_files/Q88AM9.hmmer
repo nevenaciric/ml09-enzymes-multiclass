@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ThiI                 PF02568.13 sp|Q88AM9|THII_PSESM -            5.8e-61  205.4   0.0   8.3e-61  204.9   0.0   1.2   1   0   0   1   1   1   1 Thiamine biosynthesis protein (ThiI)
+THUMP                PF02926.16 sp|Q88AM9|THII_PSESM -            1.2e-14   54.6   0.0   8.9e-14   51.7   0.0   2.5   2   1   0   2   2   2   1 THUMP domain
+QueC                 PF06508.12 sp|Q88AM9|THII_PSESM -            1.4e-05   24.6   0.0    0.0017   17.8   0.0   2.4   1   1   0   2   2   2   2 Queuosine biosynthesis protein QueC
+Rhodanese            PF00581.19 sp|Q88AM9|THII_PSESM -             0.0021   18.5   0.1     0.021   15.2   0.0   2.6   2   1   0   2   2   2   1 Rhodanese-like domain
+tRNA_Me_trans        PF03054.15 sp|Q88AM9|THII_PSESM -              0.019   13.7   0.0     0.056   12.1   0.0   1.8   2   0   0   2   2   2   0 tRNA methyl transferase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q88AM9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q88AM9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q88AM9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:32:34 2019
+# [ok]

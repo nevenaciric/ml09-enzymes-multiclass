@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PASTA                PF03793.18 sp|Q8FUI5|PKN1_COREF -              2e-56  187.6  10.1   2.5e-17   62.4   0.5   4.5   4   0   0   4   4   4   4 PASTA domain
+Pkinase              PF00069.24 sp|Q8FUI5|PKN1_COREF -            2.1e-49  168.2   0.0   2.8e-49  167.8   0.0   1.1   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase_Tyr          PF07714.16 sp|Q8FUI5|PKN1_COREF -            1.7e-29  102.8   0.0   2.3e-29  102.4   0.0   1.1   1   0   0   1   1   1   1 Protein tyrosine kinase
+APH                  PF01636.22 sp|Q8FUI5|PKN1_COREF -            7.7e-06   25.9   0.1    0.0087   15.9   0.0   2.5   1   1   1   2   2   2   2 Phosphotransferase enzyme family
+Kdo                  PF06293.13 sp|Q8FUI5|PKN1_COREF -             0.0031   16.8   0.0     0.005   16.1   0.0   1.2   1   0   0   1   1   1   1 Lipopolysaccharide kinase (Kdo/WaaP) family
+Seadorna_VP7         PF07387.10 sp|Q8FUI5|PKN1_COREF -              0.023   13.7   0.0     0.036   13.0   0.0   1.2   1   0   0   1   1   1   0 Seadornavirus VP7
+Kinase-like          PF14531.5  sp|Q8FUI5|PKN1_COREF -              0.083   12.1   0.0      0.16   11.2   0.0   1.4   1   0   0   1   1   1   0 Kinase-like
+DUF1772              PF08592.10 sp|Q8FUI5|PKN1_COREF -                2.1    8.5   5.4       1.2    9.4   2.3   2.1   2   0   0   2   2   2   0 Domain of unknown function (DUF1772)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8FUI5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8FUI5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8FUI5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:46:58 2019
+# [ok]

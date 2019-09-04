@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GalP_UDP_tr_C        PF02744.16 sp|Q9CE63|GALT_LACLA -            4.7e-35  120.7   0.1   8.6e-35  119.8   0.1   1.4   1   0   0   1   1   1   1 Galactose-1-phosphate uridyl transferase, C-terminal domain
+GalP_UDP_transf      PF01087.21 sp|Q9CE63|GALT_LACLA -            2.1e-32  112.9   0.2   3.8e-32  112.1   0.2   1.4   1   0   0   1   1   1   1 Galactose-1-phosphate uridyl transferase, N-terminal domain
+CholecysA-Rec_N      PF09193.9  sp|Q9CE63|GALT_LACLA -               0.02   14.8   0.0     0.056   13.3   0.0   1.8   2   0   0   2   2   2   0 Cholecystokinin A receptor, N-terminal
+DUF4625              PF15418.5  sp|Q9CE63|GALT_LACLA -               0.08   13.1   0.3       0.2   11.8   0.0   1.7   2   0   0   2   2   2   0 Domain of unknown function (DUF4625)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9CE63.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9CE63.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9CE63.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:24:23 2019
+# [ok]

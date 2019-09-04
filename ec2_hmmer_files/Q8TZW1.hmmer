@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AdoMet_Synthase      PF01941.18 sp|Q8TZW1|METK_PYRFU -           3.4e-179  595.7   5.3  3.8e-179  595.5   5.3   1.0   1   0   0   1   1   1   1 S-adenosylmethionine synthetase (AdoMet synthetase)
+Invasin_D3           PF09134.9  sp|Q8TZW1|METK_PYRFU -              0.015   15.0   0.1     0.028   14.0   0.1   1.4   1   0   0   1   1   1   0 Invasin, domain 3
+S-AdoMet_synt_N      PF00438.19 sp|Q8TZW1|METK_PYRFU -              0.032   14.8   0.4      0.46   11.1   0.0   2.8   3   0   0   3   3   3   0 S-adenosylmethionine synthetase, N-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8TZW1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8TZW1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8TZW1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:00:25 2019
+# [ok]

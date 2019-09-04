@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|Q96T68|SETB2_HUMAN -            2.3e-21   76.8   0.6   2.3e-21   76.8   0.6   2.4   2   2   0   2   2   2   1 SET domain
+Pre-SET              PF05033.15 sp|Q96T68|SETB2_HUMAN -            2.5e-15   57.0   7.9   2.5e-15   57.0   7.9   3.9   4   2   0   4   4   4   1 Pre-SET motif
+MBD                  PF01429.18 sp|Q96T68|SETB2_HUMAN -            5.3e-08   32.4   0.0   1.7e-07   30.7   0.0   1.9   1   0   0   1   1   1   1 Methyl-CpG binding domain
+MBD_C                PF14048.5  sp|Q96T68|SETB2_HUMAN -              0.047   14.3   0.3      0.27   11.8   0.3   2.3   2   0   0   2   2   2   0 C-terminal domain of methyl-CpG binding protein 2 and 3
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q96T68.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q96T68.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q96T68.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:16:49 2019
+# [ok]

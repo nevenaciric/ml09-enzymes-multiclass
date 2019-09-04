@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+KilA-N               PF04383.12 sp|Q85318|P28_ECTVM  -            1.5e-13   50.4   2.8   3.3e-13   49.3   2.8   1.5   1   0   0   1   1   1   1 KilA-N domain
+zf-RING_2            PF13639.5  sp|Q85318|P28_ECTVM  -            3.7e-08   33.5   5.9   7.2e-08   32.5   5.9   1.5   1   0   0   1   1   1   1 Ring finger domain
+zf-RING_5            PF14634.5  sp|Q85318|P28_ECTVM  -            5.8e-07   29.3   5.3   1.1e-06   28.3   5.3   1.5   1   0   0   1   1   1   1 zinc-RING finger domain
+zf-C3HC4             PF00097.24 sp|Q85318|P28_ECTVM  -            9.9e-07   28.4   1.7   3.8e-06   26.6   1.9   2.0   1   1   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+zf-C3HC4_3           PF13920.5  sp|Q85318|P28_ECTVM  -            4.9e-06   26.2   4.4     1e-05   25.2   4.4   1.6   1   1   0   1   1   1   1 Zinc finger, C3HC4 type (RING finger)
+Prok-RING_4          PF14447.5  sp|Q85318|P28_ECTVM  -              6e-05   22.7   6.2   0.00022   20.9   6.3   1.9   1   1   1   2   2   2   1 Prokaryotic RING finger family 4
+zf-RING_UBOX         PF13445.5  sp|Q85318|P28_ECTVM  -            6.5e-05   22.8   4.4   0.00035   20.4   0.9   2.4   2   0   0   2   2   2   1 RING-type zinc-finger
+zf-ANAPC11           PF12861.6  sp|Q85318|P28_ECTVM  -            7.2e-05   22.7   2.8   0.00025   20.9   2.8   1.9   1   1   0   1   1   1   1 Anaphase-promoting complex subunit 11 RING-H2 finger
+zf-rbx1              PF12678.6  sp|Q85318|P28_ECTVM  -            0.00088   19.4   7.1   0.00088   19.4   7.1   2.3   2   1   0   2   2   2   1 RING-H2 zinc finger domain
+zf-UDP               PF14569.5  sp|Q85318|P28_ECTVM  -             0.0027   17.7   3.0    0.0044   17.0   3.0   1.3   1   0   0   1   1   1   1 Zinc-binding RING-finger
+zf-C3HC4_4           PF15227.5  sp|Q85318|P28_ECTVM  -             0.0061   16.6   3.8    0.0061   16.6   3.8   2.2   2   1   0   2   2   2   1 zinc finger of C3HC4-type, RING
+Baculo_IE-1          PF05290.10 sp|Q85318|P28_ECTVM  -             0.0066   16.3   5.3     0.013   15.4   5.2   1.6   1   1   0   1   1   1   1 Baculovirus immediate-early protein (IE-0)
+zf-C3HC4_2           PF13923.5  sp|Q85318|P28_ECTVM  -              0.019   14.7   8.9      0.55   10.0   9.7   2.8   1   1   1   2   2   2   0 Zinc finger, C3HC4 type (RING finger)
+RHH_3                PF12651.6  sp|Q85318|P28_ECTVM  -              0.066   13.1   0.0      0.17   11.8   0.0   1.7   1   0   0   1   1   1   0 Ribbon-helix-helix domain
+FANCL_C              PF11793.7  sp|Q85318|P28_ECTVM  -               0.11   12.6   7.2      0.43   10.7   7.2   2.1   1   1   0   1   1   1   0 FANCL C-terminal domain
+CEBP_ZZ              PF16366.4  sp|Q85318|P28_ECTVM  -               0.16   12.1   4.6       0.4   10.8   4.6   1.6   1   1   0   1   1   1   0 Cytoplasmic polyadenylation element-binding protein ZZ domain
+zf-P11               PF03854.13 sp|Q85318|P28_ECTVM  -               0.33   10.6   4.0      0.18   11.4   1.1   2.0   2   0   0   2   2   2   0 P-11 zinc finger
+zf-RING_4            PF14570.5  sp|Q85318|P28_ECTVM  -               0.53   10.0   6.1       1.4    8.6   6.1   1.8   1   1   0   1   1   1   0 RING/Ubox like zinc-binding domain
+zf-C3HC4_5           PF17121.4  sp|Q85318|P28_ECTVM  -               0.91    9.4   5.8        16    5.4   2.1   2.6   2   0   0   2   2   2   0 Zinc finger, C3HC4 type (RING finger)
+zf-RING_11           PF17123.4  sp|Q85318|P28_ECTVM  -                1.1    8.9   8.0       3.7    7.3   5.0   2.8   2   1   0   2   2   2   0 RING-like zinc finger
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q85318.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q85318.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q85318.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:28:17 2019
+# [ok]

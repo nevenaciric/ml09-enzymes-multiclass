@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+SET                  PF00856.27 sp|Q9W5E0|SUV42_DROME -            3.5e-09   37.2   0.1   3.5e-09   37.2   0.1   3.3   3   1   0   3   3   3   1 SET domain
+YL1                  PF05764.12 sp|Q9W5E0|SUV42_DROME -             0.0027   17.8   2.1    0.0027   17.8   2.1   3.5   2   1   0   2   2   2   1 YL1 nuclear protein
+Trypan_PARP          PF05887.10 sp|Q9W5E0|SUV42_DROME -                2.3    8.2  14.0       7.4    6.5   5.0   2.9   2   0   0   2   2   2   0 Procyclic acidic repetitive protein (PARP)
+CDC45                PF02724.13 sp|Q9W5E0|SUV42_DROME -                2.4    6.3  23.1      0.13   10.5   2.6   2.5   2   0   0   2   2   2   0 CDC45-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9W5E0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9W5E0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9W5E0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:51:08 2019
+# [ok]

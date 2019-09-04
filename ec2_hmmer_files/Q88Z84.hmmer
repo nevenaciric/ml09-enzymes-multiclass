@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pribosyltran_N       PF13793.5  sp|Q88Z84|KPRS1_LACPL -            2.8e-53  178.7   0.1   5.2e-53  177.8   0.1   1.5   1   0   0   1   1   1   1 N-terminal domain of ribose phosphate pyrophosphokinase
+Pribosyl_synth       PF14572.5  sp|Q88Z84|KPRS1_LACPL -            9.3e-25   87.7   4.5   5.5e-23   81.9   0.4   2.8   2   1   1   3   3   3   2 Phosphoribosyl synthetase-associated domain
+Pribosyltran         PF00156.26 sp|Q88Z84|KPRS1_LACPL -              6e-17   61.5   1.0   3.2e-16   59.2   0.4   2.2   3   0   0   3   3   3   1 Phosphoribosyl transferase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q88Z84.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q88Z84.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q88Z84.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:34:04 2019
+# [ok]

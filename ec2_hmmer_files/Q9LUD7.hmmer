@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Glucan_synthase      PF02364.14 sp|Q9LUD7|CALS8_ARATH -             3e-224  746.7  16.0  2.8e-197  657.5  10.9   2.4   1   1   1   2   2   2   2 1,3-beta-glucan synthase component
+FKS1_dom1            PF14288.5  sp|Q9LUD7|CALS8_ARATH -            8.3e-42  141.8   0.0     2e-41  140.6   0.0   1.7   1   0   0   1   1   1   1 1,3-beta-glucan synthase subunit FKS1, domain-1
+Vta1                 PF04652.15 sp|Q9LUD7|CALS8_ARATH -            2.6e-10   40.4   0.0     6e-10   39.2   0.0   1.6   1   0   0   1   1   1   1 Vta1 like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9LUD7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9LUD7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9LUD7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:38:18 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AA_kinase            PF00696.27 sp|W7MS01|FUB3_GIBM7 -            5.1e-37  127.7   0.0     1e-36  126.7   0.0   1.5   1   0   0   1   1   1   1 Amino acid kinase family
+ACT_7                PF13840.5  sp|W7MS01|FUB3_GIBM7 -            3.2e-15   55.6   2.7     1e-10   41.1   0.1   2.5   2   0   0   2   2   2   2 ACT domain
+ACT                  PF01842.24 sp|W7MS01|FUB3_GIBM7 -            1.8e-13   49.9   0.5   2.9e-06   26.8   0.0   2.7   2   0   0   2   2   2   2 ACT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/W7MS01.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/W7MS01.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/W7MS01.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:58:45 2019
+# [ok]

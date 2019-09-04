@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RVT_1                PF00078.26 sp|Q9QC07|POK18_HUMAN -            9.6e-38  129.8   0.0   1.9e-37  128.9   0.0   1.5   1   0   0   1   1   1   1 Reverse transcriptase (RNA-dependent DNA polymerase)
+RVT_thumb            PF06817.13 sp|Q9QC07|POK18_HUMAN -            4.4e-32  109.5   1.4   1.3e-31  108.0   0.2   2.4   2   0   0   2   2   2   1 Reverse transcriptase thumb domain
+rve                  PF00665.25 sp|Q9QC07|POK18_HUMAN -            3.8e-23   81.8   0.1   2.4e-22   79.2   0.1   2.2   2   0   0   2   2   2   1 Integrase core domain
+RNase_H              PF00075.23 sp|Q9QC07|POK18_HUMAN -            1.1e-21   77.5   0.0   2.4e-21   76.3   0.0   1.6   1   0   0   1   1   1   1 RNase H
+Integrase_Zn         PF02022.18 sp|Q9QC07|POK18_HUMAN -            4.6e-17   61.6   2.4   4.6e-17   61.6   2.4   2.1   2   0   0   2   2   2   1 Integrase Zinc binding domain
+DDE_Tnp_IS240        PF13610.5  sp|Q9QC07|POK18_HUMAN -              0.022   14.9   0.0      0.07   13.2   0.0   1.8   1   0   0   1   1   1   0 DDE domain
+rve_3                PF13683.5  sp|Q9QC07|POK18_HUMAN -               0.08   12.6   0.0      0.21   11.3   0.0   1.6   1   0   0   1   1   1   0 Integrase core domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9QC07.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9QC07.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9QC07.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:43:20 2019
+# [ok]

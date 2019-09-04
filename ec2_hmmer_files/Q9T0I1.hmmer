@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+DNMT1-RFD            PF12047.7  sp|Q9T0I1|DNMT3_ARATH -            9.4e-55  184.5   0.6   2.7e-23   82.5   0.1   3.8   2   1   1   3   3   3   3 Cytosine specific DNA methyltransferase replication foci domain
+DNA_methylase        PF00145.16 sp|Q9T0I1|DNMT3_ARATH -            7.3e-53  180.0   0.0   1.1e-42  146.5   0.0   2.7   2   0   0   2   2   2   2 C-5 cytosine-specific DNA methylase
+BAH                  PF01426.17 sp|Q9T0I1|DNMT3_ARATH -            1.6e-51  173.2   1.7   1.5e-26   92.6   0.2   2.9   3   0   0   3   3   3   2 BAH domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9T0I1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9T0I1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9T0I1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:47:36 2019
+# [ok]

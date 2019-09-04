@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+IPPT                 PF01715.16 sp|Q9A059|MIAA_STRP1 -            7.6e-72  241.7   3.4   9.5e-72  241.4   3.4   1.1   1   0   0   1   1   1   1 IPP transferase
+IPT                  PF01745.15 sp|Q9A059|MIAA_STRP1 -            3.3e-09   36.4   0.6   3.7e-08   33.0   0.1   2.2   2   0   0   2   2   2   1 Isopentenyl transferase
+AAA_33               PF13671.5  sp|Q9A059|MIAA_STRP1 -             0.0033   17.5   0.4     0.016   15.3   0.1   2.3   2   1   0   2   2   2   1 AAA domain
+RNA_helicase         PF00910.21 sp|Q9A059|MIAA_STRP1 -              0.025   14.8   0.0     0.061   13.6   0.0   1.6   1   0   0   1   1   1   0 RNA helicase
+AAA_16               PF13191.5  sp|Q9A059|MIAA_STRP1 -              0.034   14.4   1.7      0.26   11.6   1.7   2.2   1   1   0   1   1   1   0 AAA ATPase domain
+Tim44                PF04280.14 sp|Q9A059|MIAA_STRP1 -              0.046   13.7   1.7       8.6    6.4   0.0   3.5   2   2   2   4   4   4   0 Tim44-like domain
+AAA_18               PF13238.5  sp|Q9A059|MIAA_STRP1 -               0.07   13.5   0.5      0.44   11.0   0.5   2.3   1   1   0   1   1   1   0 AAA domain
+Arginase             PF00491.20 sp|Q9A059|MIAA_STRP1 -               0.08   12.3   0.2      0.17   11.3   0.0   1.6   2   0   0   2   2   2   0 Arginase family
+AAA_14               PF13173.5  sp|Q9A059|MIAA_STRP1 -              0.081   12.9   0.1       0.2   11.6   0.0   1.8   1   1   0   1   1   1   0 AAA domain
+dNK                  PF01712.18 sp|Q9A059|MIAA_STRP1 -              0.081   12.7   0.6       3.4    7.4   0.1   2.4   2   0   0   2   2   2   0 Deoxynucleoside kinase
+Cytidylate_kin       PF02224.17 sp|Q9A059|MIAA_STRP1 -              0.091   12.4   0.8      0.14   11.7   0.0   1.7   2   0   0   2   2   2   0 Cytidylate kinase
+AAA                  PF00004.28 sp|Q9A059|MIAA_STRP1 -               0.11   12.8   0.1       0.4   11.0   0.0   2.0   2   0   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9A059.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9A059.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9A059.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:21:22 2019
+# [ok]

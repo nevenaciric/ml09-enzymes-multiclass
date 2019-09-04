@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNA_pol_L_2          PF13656.5  sp|Q8PVT0|RPOL_METMA -              4e-16   58.5   0.1   4.9e-16   58.2   0.1   1.1   1   0   0   1   1   1   1 RNA polymerase Rpb3/Rpb11 dimerisation domain
+RNA_pol_L            PF01193.23 sp|Q8PVT0|RPOL_METMA -             0.0052   16.1   0.1     0.018   14.4   0.1   1.8   1   1   0   1   1   1   1 RNA polymerase Rpb3/Rpb11 dimerisation domain
+CRM1_C               PF08767.10 sp|Q8PVT0|RPOL_METMA -              0.073   12.1   0.0     0.081   12.0   0.0   1.1   1   0   0   1   1   1   0 CRM1 C terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8PVT0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8PVT0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8PVT0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:55:50 2019
+# [ok]

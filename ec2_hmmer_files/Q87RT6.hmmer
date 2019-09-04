@@ -1,0 +1,20 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ThiI                 PF02568.13 sp|Q87RT6|THII_VIBPA -            1.2e-73  246.8   0.0   2.6e-73  245.7   0.0   1.6   1   0   0   1   1   1   1 Thiamine biosynthesis protein (ThiI)
+THUMP                PF02926.16 sp|Q87RT6|THII_VIBPA -              2e-24   86.3   3.2   2.5e-24   85.9   1.5   2.1   2   0   0   2   2   2   1 THUMP domain
+QueC                 PF06508.12 sp|Q87RT6|THII_VIBPA -            7.8e-05   22.2   0.0      0.33   10.3   0.0   2.7   2   1   0   2   2   2   2 Queuosine biosynthesis protein QueC
+Rhodanese            PF00581.19 sp|Q87RT6|THII_VIBPA -             0.0089   16.4   0.6      0.07   13.5   0.2   2.6   2   1   0   2   2   2   1 Rhodanese-like domain
+PAPS_reduct          PF01507.18 sp|Q87RT6|THII_VIBPA -               0.02   14.9   0.0     0.048   13.6   0.0   1.7   1   1   0   1   1   1   0 Phosphoadenosine phosphosulfate reductase family
+tRNA_Me_trans        PF03054.15 sp|Q87RT6|THII_VIBPA -               0.05   12.3   0.2      0.55    8.9   0.0   2.7   3   0   0   3   3   3   0 tRNA methyl transferase
+Dak2                 PF02734.16 sp|Q87RT6|THII_VIBPA -              0.091   12.6   0.1      0.26   11.1   0.0   1.7   2   0   0   2   2   2   0 DAK2 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q87RT6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q87RT6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q87RT6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:31:22 2019
+# [ok]

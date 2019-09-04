@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_PH             PF01138.20 sp|Q8RIA1|PNP_FUSNN  -            6.5e-40  136.6   0.0   9.1e-21   74.6   0.0   2.3   2   0   0   2   2   2   2 3' exoribonuclease family, domain 1
+RNase_PH_C           PF03725.14 sp|Q8RIA1|PNP_FUSNN  -            1.3e-23   82.7   2.4   2.4e-16   59.4   0.1   2.7   2   0   0   2   2   2   2 3' exoribonuclease family, domain 2
+S1                   PF00575.22 sp|Q8RIA1|PNP_FUSNN  -            6.8e-16   58.3   2.2   8.6e-15   54.7   1.9   2.8   3   0   0   3   3   3   1 S1 RNA binding domain
+PNPase               PF03726.13 sp|Q8RIA1|PNP_FUSNN  -              1e-12   48.3   0.9   6.1e-12   45.8   0.2   2.5   2   0   0   2   2   2   1 Polyribonucleotide nucleotidyltransferase, RNA binding domain
+KH_1                 PF00013.28 sp|Q8RIA1|PNP_FUSNN  -            3.8e-11   42.6   0.4     3e-09   36.5   0.2   3.2   2   0   0   2   2   2   1 KH domain
+Cauli_DNA-bind       PF03310.12 sp|Q8RIA1|PNP_FUSNN  -              0.015   15.3   0.1      0.28   11.1   0.0   2.7   2   0   0   2   2   2   0 Caulimovirus DNA-binding protein
+DnaGprimase_HBD      PF16730.4  sp|Q8RIA1|PNP_FUSNN  -              0.036   14.0   0.8      0.15   12.0   0.8   2.0   1   0   0   1   1   1   0 DnaG-primase C-terminal, helicase-binding domain
+KH_2                 PF07650.16 sp|Q8RIA1|PNP_FUSNN  -              0.041   13.6   0.1      0.13   12.0   0.1   1.9   1   0   0   1   1   1   0 KH domain
+SAC3                 PF12209.7  sp|Q8RIA1|PNP_FUSNN  -              0.083   13.0   2.1      0.42   10.8   0.1   2.8   3   0   0   3   3   3   0 Leucine permease transcriptional regulator helical domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8RIA1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8RIA1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8RIA1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:57:42 2019
+# [ok]

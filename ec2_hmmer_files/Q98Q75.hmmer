@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Methyltransf_5       PF01795.18 sp|Q98Q75|RSMH_MYCPU -            5.5e-98  328.2   3.3   6.1e-98  328.0   3.3   1.0   1   0   0   1   1   1   1 MraW methylase family
+Methyltransf_31      PF13847.5  sp|Q98Q75|RSMH_MYCPU -             0.0042   16.8   0.1      0.02   14.6   0.0   1.9   2   0   0   2   2   2   1 Methyltransferase domain
+MTS                  PF05175.13 sp|Q98Q75|RSMH_MYCPU -              0.033   13.6   0.0       3.1    7.2   0.0   2.9   3   0   0   3   3   3   0 Methyltransferase small domain
+FeS_assembly_P       PF01883.18 sp|Q98Q75|RSMH_MYCPU -              0.037   14.1   0.0      0.54   10.4   0.0   2.7   3   0   0   3   3   3   0 Iron-sulfur cluster assembly protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q98Q75.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q98Q75.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q98Q75.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:19:56 2019
+# [ok]

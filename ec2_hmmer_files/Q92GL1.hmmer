@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RNase_T              PF00929.23 sp|Q92GL1|DPO3E_RICCN -            3.3e-42  144.7   0.3   6.2e-42  143.8   0.0   1.5   2   0   0   2   2   2   1 Exonuclease
+DNA_pol_A_exo1       PF01612.19 sp|Q92GL1|DPO3E_RICCN -            1.2e-05   25.0   0.1     0.001   18.7   0.1   2.4   2   1   0   2   2   2   2 3'-5' exonuclease
+RNase_H_2            PF13482.5  sp|Q92GL1|DPO3E_RICCN -            3.1e-05   23.9   0.1   0.00033   20.6   0.1   2.1   1   1   0   1   1   1   1 RNase_H superfamily
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q92GL1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q92GL1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q92GL1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:12:53 2019
+# [ok]

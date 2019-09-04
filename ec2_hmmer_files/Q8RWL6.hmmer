@@ -1,0 +1,20 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase_Tyr          PF07714.16 sp|Q8RWL6|STY17_ARATH -            2.1e-72  243.4   0.1   2.9e-72  243.0   0.1   1.2   1   0   0   1   1   1   1 Protein tyrosine kinase
+Pkinase              PF00069.24 sp|Q8RWL6|STY17_ARATH -              2e-60  204.3   0.1   2.8e-60  203.8   0.1   1.2   1   0   0   1   1   1   1 Protein kinase domain
+ACT                  PF01842.24 sp|Q8RWL6|STY17_ARATH -            3.7e-06   26.5   0.0   7.7e-06   25.5   0.0   1.6   1   0   0   1   1   1   1 ACT domain
+APH                  PF01636.22 sp|Q8RWL6|STY17_ARATH -              0.012   15.4   1.4      0.22   11.3   0.0   2.8   3   0   0   3   3   3   0 Phosphotransferase enzyme family
+Haspin_kinase        PF12330.7  sp|Q8RWL6|STY17_ARATH -              0.017   13.9   0.1     0.051   12.4   0.1   1.8   1   1   0   1   1   1   0 Haspin like kinase domain
+ACT_6                PF13740.5  sp|Q8RWL6|STY17_ARATH -              0.068   13.0   0.0      0.16   11.8   0.0   1.6   1   0   0   1   1   1   0 ACT domain
+Kinase-like          PF14531.5  sp|Q8RWL6|STY17_ARATH -               0.11   11.6   0.0      0.21   10.8   0.0   1.3   1   0   0   1   1   1   0 Kinase-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q8RWL6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q8RWL6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q8RWL6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 07:57:59 2019
+# [ok]

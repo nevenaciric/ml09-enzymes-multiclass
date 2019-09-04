@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CoaE                 PF01121.19 sp|Q9K857|COAE_BACHD -            3.8e-61  205.8   0.3   4.3e-61  205.6   0.3   1.0   1   0   0   1   1   1   1 Dephospho-CoA kinase
+AAA_18               PF13238.5  sp|Q9K857|COAE_BACHD -            0.00015   22.2   0.3   0.00067   20.1   0.3   1.9   1   1   0   1   1   1   1 AAA domain
+AAA_17               PF13207.5  sp|Q9K857|COAE_BACHD -            0.00029   21.2   1.1    0.0013   19.0   0.7   2.2   1   1   0   1   1   1   1 AAA domain
+AAA_33               PF13671.5  sp|Q9K857|COAE_BACHD -             0.0031   17.6   0.1      0.04   14.0   0.1   2.4   1   1   0   1   1   1   1 AAA domain
+SKI                  PF01202.21 sp|Q9K857|COAE_BACHD -              0.012   15.6   0.3      0.28   11.2   0.0   2.5   2   1   0   2   2   2   0 Shikimate kinase
+AAA_28               PF13521.5  sp|Q9K857|COAE_BACHD -              0.025   14.7   0.1     0.094   12.9   0.1   2.0   1   1   0   1   1   1   0 AAA domain
+PRK                  PF00485.17 sp|Q9K857|COAE_BACHD -              0.072   12.7   0.1       0.9    9.1   0.0   2.2   2   0   0   2   2   2   0 Phosphoribulokinase / Uridine kinase family
+Cytidylate_kin       PF02224.17 sp|Q9K857|COAE_BACHD -               0.98    9.0   4.6      0.98    9.0   0.8   2.3   2   1   0   2   2   2   0 Cytidylate kinase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec2_fasta_files_TMP/Q9K857.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec2_hmmer_files/Q9K857.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec2_fasta_files_TMP/Q9K857.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 08:34:27 2019
+# [ok]
