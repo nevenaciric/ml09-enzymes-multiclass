@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Amidase_3            PF01520.17 sp|P26365|AMIB_ECOLI -            6.7e-49  166.3   0.0     1e-48  165.6   0.0   1.3   1   0   0   1   1   1   1 N-acetylmuramoyl-L-alanine amidase
+AMIN                 PF11741.7  sp|P26365|AMIB_ECOLI -             0.0018   18.3   0.4    0.0042   17.1   0.4   1.7   1   0   0   1   1   1   1 AMIN domain
+OmpA                 PF00691.19 sp|P26365|AMIB_ECOLI -              0.061   13.6   0.2      0.47   10.8   0.0   2.5   3   0   0   3   3   3   0 OmpA family
+STN                  PF07660.13 sp|P26365|AMIB_ECOLI -               0.11   12.2   0.1      0.28   10.9   0.1   1.7   1   0   0   1   1   1   0 Secretin and TonB N terminus short domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/P26365.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/P26365.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/P26365.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:40:26 2019
+# [ok]

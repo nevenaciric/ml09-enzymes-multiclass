@@ -1,0 +1,21 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_A22B       PF04258.12 sp|Q3TD49|SPP2B_MOUSE -            7.7e-85  284.7  14.1   7.7e-85  284.7  14.1   1.8   2   0   0   2   2   2   1 Signal peptide peptidase
+PA                   PF02225.21 sp|Q3TD49|SPP2B_MOUSE -            1.1e-09   38.1   0.0   2.3e-09   37.1   0.0   1.5   1   0   0   1   1   1   1 PA domain
+SPP                  PF06550.10 sp|Q3TD49|SPP2B_MOUSE -             0.0023   17.3   3.4    0.0023   17.3   3.4   2.5   3   1   0   3   3   3   1 Signal-peptide peptidase, presenilin aspartyl protease
+CPP1-like            PF11833.7  sp|Q3TD49|SPP2B_MOUSE -             0.0081   15.7   0.1     0.021   14.3   0.1   1.7   1   0   0   1   1   1   1 Protein CHAPERONE-LIKE PROTEIN OF POR1-like
+DUF4079              PF13301.5  sp|Q3TD49|SPP2B_MOUSE -              0.086   12.9   0.2      0.72    9.9   0.2   2.4   1   1   0   1   1   1   0 Protein of unknown function (DUF4079)
+Presenilin           PF01080.16 sp|Q3TD49|SPP2B_MOUSE -               0.63    8.6  23.4         1    7.9   2.7   2.5   2   1   0   2   2   2   0 Presenilin
+YoqO                 PF14037.5  sp|Q3TD49|SPP2B_MOUSE -                3.3    8.1  10.0      0.17   12.2   2.2   2.4   2   0   0   2   2   2   0 YoqO-like protein
+DUF4191              PF13829.5  sp|Q3TD49|SPP2B_MOUSE -                5.7    6.1   7.8         2    7.6   0.2   3.0   3   0   0   3   3   3   0 Domain of unknown function (DUF4191)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q3TD49.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q3TD49.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q3TD49.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 14:11:38 2019
+# [ok]

@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q0AUL1|ECFA_SYNWW -            4.3e-28   98.4   0.2   7.3e-28   97.7   0.1   1.4   2   0   0   2   2   1   1 ABC transporter
+SMC_N                PF02463.18 sp|Q0AUL1|ECFA_SYNWW -            2.6e-09   36.7   0.3   8.7e-09   35.0   0.3   1.7   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+AAA_21               PF13304.5  sp|Q0AUL1|ECFA_SYNWW -            1.1e-08   35.1   0.5   0.00044   20.0   0.8   2.2   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_22               PF13401.5  sp|Q0AUL1|ECFA_SYNWW -            2.9e-06   27.5   0.0   2.7e-05   24.3   0.0   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_29               PF13555.5  sp|Q0AUL1|ECFA_SYNWW -            5.9e-05   22.6   0.1    0.0002   20.9   0.0   1.8   1   1   1   2   2   2   1 P-loop containing region of AAA domain
+AAA_15               PF13175.5  sp|Q0AUL1|ECFA_SYNWW -            0.00013   21.6   0.0   0.00018   21.2   0.0   1.2   1   0   0   1   1   1   1 AAA ATPase domain
+AAA_16               PF13191.5  sp|Q0AUL1|ECFA_SYNWW -            0.00057   20.2   0.0    0.0011   19.3   0.0   1.6   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_23               PF13476.5  sp|Q0AUL1|ECFA_SYNWW -             0.0022   18.4   0.0    0.0031   18.0   0.0   1.3   1   0   0   1   1   1   1 AAA domain
+AAA_13               PF13166.5  sp|Q0AUL1|ECFA_SYNWW -             0.0069   15.0   0.0      0.01   14.4   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_30               PF13604.5  sp|Q0AUL1|ECFA_SYNWW -              0.011   15.3   0.0      0.04   13.5   0.0   1.8   1   1   1   2   2   2   0 AAA domain
+AAA_5                PF07728.13 sp|Q0AUL1|ECFA_SYNWW -              0.019   14.9   0.0      0.29   11.0   0.0   2.3   2   0   0   2   2   2   0 AAA domain (dynein-related subfamily)
+Mg_chelatase         PF01078.20 sp|Q0AUL1|ECFA_SYNWW -              0.025   13.8   0.0     0.091   12.0   0.0   1.8   2   0   0   2   2   2   0 Magnesium chelatase, subunit ChlI
+SbcCD_C              PF13558.5  sp|Q0AUL1|ECFA_SYNWW -              0.028   14.6   0.1      0.32   11.2   0.1   2.3   1   1   0   1   1   1   0 Putative exonuclease SbcCD, C subunit
+FtsK_SpoIIIE         PF01580.17 sp|Q0AUL1|ECFA_SYNWW -              0.036   13.3   0.0      0.12   11.6   0.0   1.7   2   0   0   2   2   2   0 FtsK/SpoIIIE family
+AAA_27               PF13514.5  sp|Q0AUL1|ECFA_SYNWW -              0.045   13.3   0.0     0.077   12.5   0.0   1.3   1   0   0   1   1   1   0 AAA domain
+TniB                 PF05621.10 sp|Q0AUL1|ECFA_SYNWW -              0.047   12.8   0.0      0.24   10.5   0.0   1.9   2   0   0   2   2   2   0 Bacterial TniB protein
+G-alpha              PF00503.19 sp|Q0AUL1|ECFA_SYNWW -              0.055   12.5   0.0     0.064   12.3   0.0   1.1   1   0   0   1   1   1   0 G-protein alpha subunit
+RsgA_GTPase          PF03193.15 sp|Q0AUL1|ECFA_SYNWW -              0.067   13.0   0.0      0.13   12.0   0.0   1.5   1   0   0   1   1   1   0 RsgA GTPase
+AAA_18               PF13238.5  sp|Q0AUL1|ECFA_SYNWW -                0.1   13.0   0.0      0.54   10.7   0.0   2.0   2   0   0   2   2   2   0 AAA domain
+AAA                  PF00004.28 sp|Q0AUL1|ECFA_SYNWW -               0.13   12.6   0.2       2.2    8.6   0.2   2.2   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+MMR_HSR1             PF01926.22 sp|Q0AUL1|ECFA_SYNWW -               0.16   12.0   0.4      0.38   10.8   0.4   1.8   1   1   0   1   1   1   0 50S ribosome-binding GTPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q0AUL1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q0AUL1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q0AUL1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 13:24:46 2019
+# [ok]

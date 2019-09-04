@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PDEase_I             PF00233.18 sp|P30645|PDE2_CAEEL -            4.7e-69  232.6   1.0     1e-68  231.5   1.0   1.6   1   0   0   1   1   1   1 3'5'-cyclic nucleotide phosphodiesterase
+GAF                  PF01590.25 sp|P30645|PDE2_CAEEL -            6.5e-08   33.2   0.0   1.5e-07   32.0   0.0   1.7   1   0   0   1   1   1   1 GAF domain
+GAF_2                PF13185.5  sp|P30645|PDE2_CAEEL -            2.2e-07   31.2   0.0   8.1e-06   26.1   0.0   2.7   3   0   0   3   3   3   1 GAF domain
+GAF_3                PF13492.5  sp|P30645|PDE2_CAEEL -              0.021   15.1   0.0     0.074   13.3   0.0   2.0   1   1   0   1   1   1   0 GAF domain
+FERM_f0              PF16511.4  sp|P30645|PDE2_CAEEL -               0.11   12.7   0.0      0.28   11.4   0.0   1.6   1   0   0   1   1   1   0 N-terminal or F0 domain of Talin-head FERM
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/P30645.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/P30645.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/P30645.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:43:35 2019
+# [ok]

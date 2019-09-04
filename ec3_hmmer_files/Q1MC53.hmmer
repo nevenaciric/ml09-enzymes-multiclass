@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RuvA_N               PF01330.20 sp|Q1MC53|RUVA_RHIL3 -            7.1e-19   67.6   0.2   4.4e-18   65.0   0.1   2.1   2   1   0   2   2   2   1 RuvA N terminal domain
+HHH_5                PF14520.5  sp|Q1MC53|RUVA_RHIL3 -            1.1e-13   51.5   0.8   1.3e-12   48.1   0.0   2.3   2   0   0   2   2   2   1 Helix-hairpin-helix domain
+RuvA_C               PF07499.12 sp|Q1MC53|RUVA_RHIL3 -              1e-11   45.0   3.0   2.2e-11   43.9   3.0   1.6   1   0   0   1   1   1   1 RuvA, C-terminal domain
+HHH                  PF00633.22 sp|Q1MC53|RUVA_RHIL3 -            6.5e-05   22.5   0.2      0.11   12.3   0.0   3.0   2   0   0   2   2   2   2 Helix-hairpin-helix motif
+HHH_2                PF12826.6  sp|Q1MC53|RUVA_RHIL3 -             0.0018   18.2   0.0      0.12   12.4   0.0   2.7   1   1   1   2   2   2   1 Helix-hairpin-helix motif
+Transposase_20       PF02371.15 sp|Q1MC53|RUVA_RHIL3 -              0.004   17.3   0.1       2.4    8.4   0.0   2.5   2   0   0   2   2   2   2 Transposase IS116/IS110/IS902 family
+DUF1421              PF07223.10 sp|Q1MC53|RUVA_RHIL3 -              0.064   13.0   0.0      0.11   12.3   0.0   1.4   1   0   0   1   1   1   0 UBA-like domain (DUF1421)
+5_3_exonuc           PF01367.19 sp|Q1MC53|RUVA_RHIL3 -               0.11   13.0   0.1       9.2    6.8   0.0   2.4   1   1   1   2   2   2   0 5'-3' exonuclease, C-terminal SAM fold
+Chal_sti_synt_C      PF02797.14 sp|Q1MC53|RUVA_RHIL3 -               0.13   12.2   0.0      0.29   11.0   0.0   1.6   1   0   0   1   1   1   0 Chalcone and stilbene synthases, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q1MC53.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q1MC53.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q1MC53.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 13:44:55 2019
+# [ok]

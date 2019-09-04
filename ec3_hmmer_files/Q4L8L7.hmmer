@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q4L8L7|HRTA_STAHJ -            1.4e-34  119.4   0.0   1.9e-34  119.0   0.0   1.2   1   0   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|Q4L8L7|HRTA_STAHJ -            1.3e-09   37.7   1.5   3.2e-09   36.5   1.5   1.6   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+AAA_21               PF13304.5  sp|Q4L8L7|HRTA_STAHJ -            3.4e-07   30.3   2.1     0.012   15.4   0.0   2.1   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_29               PF13555.5  sp|Q4L8L7|HRTA_STAHJ -              2e-05   24.1   0.2   3.8e-05   23.2   0.2   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+T2SSE                PF00437.19 sp|Q4L8L7|HRTA_STAHJ -            8.2e-05   21.7   0.9   0.00013   21.0   0.1   1.7   2   0   0   2   2   2   1 Type II/IV secretion system protein
+RsgA_GTPase          PF03193.15 sp|Q4L8L7|HRTA_STAHJ -            0.00015   21.6   0.3   0.00028   20.7   0.3   1.4   1   0   0   1   1   1   1 RsgA GTPase
+AAA_18               PF13238.5  sp|Q4L8L7|HRTA_STAHJ -            0.00043   20.7   0.2    0.0011   19.4   0.0   1.8   2   1   0   2   2   2   1 AAA domain
+AAA_15               PF13175.5  sp|Q4L8L7|HRTA_STAHJ -            0.00059   19.5   0.8      0.02   14.5   0.3   2.1   2   0   0   2   2   2   1 AAA ATPase domain
+AAA_16               PF13191.5  sp|Q4L8L7|HRTA_STAHJ -            0.00069   19.9   0.1   0.00097   19.5   0.1   1.4   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_23               PF13476.5  sp|Q4L8L7|HRTA_STAHJ -              0.005   17.3   1.4    0.0092   16.4   1.4   1.4   1   1   0   1   1   1   1 AAA domain
+AAA_13               PF13166.5  sp|Q4L8L7|HRTA_STAHJ -             0.0066   15.1   0.2     0.031   12.9   0.0   1.9   2   0   0   2   2   2   1 AAA domain
+AAA_25               PF13481.5  sp|Q4L8L7|HRTA_STAHJ -             0.0085   15.6   0.4      0.02   14.3   0.0   1.8   2   1   0   2   2   2   1 AAA domain
+CbiA                 PF01656.22 sp|Q4L8L7|HRTA_STAHJ -              0.014   15.4   0.1     0.064   13.2   0.1   2.0   1   1   0   1   1   1   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+PIF1                 PF05970.13 sp|Q4L8L7|HRTA_STAHJ -              0.016   14.3   0.1      0.06   12.4   0.0   1.9   3   0   0   3   3   3   0 PIF1-like helicase
+IstB_IS21            PF01695.16 sp|Q4L8L7|HRTA_STAHJ -              0.018   14.7   0.1       1.1    8.8   0.0   2.3   2   0   0   2   2   2   0 IstB-like ATP binding protein
+Zeta_toxin           PF06414.11 sp|Q4L8L7|HRTA_STAHJ -              0.034   13.3   0.0     0.069   12.3   0.0   1.5   1   0   0   1   1   1   0 Zeta toxin
+AAA_22               PF13401.5  sp|Q4L8L7|HRTA_STAHJ -              0.039   14.1   0.2     0.064   13.4   0.2   1.7   1   1   0   1   1   1   0 AAA domain
+AAA_28               PF13521.5  sp|Q4L8L7|HRTA_STAHJ -              0.053   13.7   0.3       0.1   12.8   0.3   1.4   1   0   0   1   1   1   0 AAA domain
+Mg_chelatase         PF01078.20 sp|Q4L8L7|HRTA_STAHJ -              0.055   12.8   0.0       0.1   11.9   0.0   1.4   1   0   0   1   1   1   0 Magnesium chelatase, subunit ChlI
+APS_kinase           PF01583.19 sp|Q4L8L7|HRTA_STAHJ -              0.072   12.9   0.2      0.72    9.6   0.2   2.2   1   1   1   2   2   2   0 Adenylylsulphate kinase
+MMR_HSR1             PF01926.22 sp|Q4L8L7|HRTA_STAHJ -               0.13   12.2   1.3      0.35   10.9   1.3   2.0   1   1   0   1   1   1   0 50S ribosome-binding GTPase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q4L8L7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q4L8L7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q4L8L7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 14:20:12 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PDEase_I             PF00233.18 sp|Q28156|PDE5A_BOVIN -            3.8e-77  259.1   1.6   3.8e-77  259.1   1.6   2.4   2   1   1   3   3   3   1 3'5'-cyclic nucleotide phosphodiesterase
+GAF                  PF01590.25 sp|Q28156|PDE5A_BOVIN -            8.4e-32  110.5   0.0   7.7e-15   55.6   0.0   2.6   2   0   0   2   2   2   2 GAF domain
+GAF_2                PF13185.5  sp|Q28156|PDE5A_BOVIN -            4.9e-08   33.3   0.0   0.00086   19.5   0.0   2.5   2   0   0   2   2   2   2 GAF domain
+HD                   PF01966.21 sp|Q28156|PDE5A_BOVIN -              0.061   13.4   0.2      0.19   11.8   0.2   1.9   1   0   0   1   1   1   0 HD domain
+GAF_3                PF13492.5  sp|Q28156|PDE5A_BOVIN -                0.1   12.8   0.0       4.5    7.5   0.0   3.0   2   2   0   2   2   2   0 GAF domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q28156.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q28156.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q28156.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 13:49:52 2019
+# [ok]

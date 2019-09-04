@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RuvB_N               PF05496.11 sp|Q662Z0|RUVB_BORBP -            8.3e-97  322.9   0.0   1.1e-96  322.6   0.0   1.1   1   0   0   1   1   1   1 Holliday junction DNA helicase ruvB N-terminus
+RuvB_C               PF05491.12 sp|Q662Z0|RUVB_BORBP -            8.2e-30  102.4   0.0   2.2e-29  101.0   0.0   1.8   1   0   0   1   1   1   1 Holliday junction DNA helicase ruvB C-terminus
+AAA                  PF00004.28 sp|Q662Z0|RUVB_BORBP -            1.1e-16   61.4   0.0   3.3e-16   59.8   0.0   1.8   2   0   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+AAA_5                PF07728.13 sp|Q662Z0|RUVB_BORBP -            5.6e-08   32.8   0.0   8.5e-07   29.0   0.0   2.3   1   1   0   1   1   1   1 AAA domain (dynein-related subfamily)
+TIP49                PF06068.12 sp|Q662Z0|RUVB_BORBP -              8e-05   21.7   0.2    0.0034   16.3   0.0   2.4   2   1   0   2   2   2   1 TIP49 C-terminus
+AAA_3                PF07726.10 sp|Q662Z0|RUVB_BORBP -            0.00073   19.3   0.0     0.011   15.5   0.0   2.4   1   1   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+Sigma54_activat      PF00158.25 sp|Q662Z0|RUVB_BORBP -              0.001   18.7   0.0      0.21   11.2   0.0   2.2   1   1   0   2   2   2   1 Sigma-54 interaction domain
+AAA_16               PF13191.5  sp|Q662Z0|RUVB_BORBP -             0.0011   19.3   0.6      0.06   13.6   0.0   2.8   2   1   1   3   3   3   1 AAA ATPase domain
+Mg_chelatase         PF01078.20 sp|Q662Z0|RUVB_BORBP -             0.0026   17.1   0.0     0.079   12.2   0.0   2.2   2   0   0   2   2   2   1 Magnesium chelatase, subunit ChlI
+AAA_14               PF13173.5  sp|Q662Z0|RUVB_BORBP -             0.0051   16.8   0.0     0.014   15.3   0.0   1.8   1   0   0   1   1   1   1 AAA domain
+TsaE                 PF02367.16 sp|Q662Z0|RUVB_BORBP -             0.0097   15.8   0.0     0.027   14.4   0.0   1.7   1   0   0   1   1   1   1 Threonylcarbamoyl adenosine biosynthesis protein TsaE
+AAA_22               PF13401.5  sp|Q662Z0|RUVB_BORBP -              0.013   15.7   0.5       1.4    9.0   0.0   2.6   1   1   1   2   2   2   0 AAA domain
+NTPase_1             PF03266.14 sp|Q662Z0|RUVB_BORBP -              0.013   15.3   0.1     0.035   13.9   0.0   1.8   2   0   0   2   2   1   0 NTPase
+RNA_helicase         PF00910.21 sp|Q662Z0|RUVB_BORBP -              0.017   15.4   0.0     0.034   14.4   0.0   1.5   1   0   0   1   1   1   0 RNA helicase
+NB-ARC               PF00931.21 sp|Q662Z0|RUVB_BORBP -              0.035   13.0   0.0      0.06   12.3   0.0   1.3   1   0   0   1   1   1   0 NB-ARC domain
+NACHT                PF05729.11 sp|Q662Z0|RUVB_BORBP -              0.044   13.6   0.0     0.082   12.7   0.0   1.4   1   0   0   1   1   1   0 NACHT domain
+Sigma54_activ_2      PF14532.5  sp|Q662Z0|RUVB_BORBP -              0.075   13.0   0.0      0.24   11.4   0.0   1.8   2   0   0   2   2   2   0 Sigma-54 interaction domain
+AAA_PrkA             PF08298.10 sp|Q662Z0|RUVB_BORBP -               0.09   11.6   0.0      0.13   11.0   0.0   1.2   1   0   0   1   1   1   0 PrkA AAA domain
+Neurochondrin        PF05536.10 sp|Q662Z0|RUVB_BORBP -                0.1   10.9   0.0      0.14   10.4   0.0   1.1   1   0   0   1   1   1   0 Neurochondrin
+AAA_18               PF13238.5  sp|Q662Z0|RUVB_BORBP -                0.1   13.0   0.0      0.21   12.0   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+AAA_24               PF13479.5  sp|Q662Z0|RUVB_BORBP -               0.19   11.4   0.0      0.48   10.0   0.0   1.7   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q662Z0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q662Z0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q662Z0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 14:51:54 2019
+# [ok]

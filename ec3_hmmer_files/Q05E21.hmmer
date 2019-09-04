@@ -1,0 +1,17 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CRISPR_Cas2          PF09827.8  sp|Q05E21|CAS2_AERPE -            9.6e-14   51.2   0.1   1.2e-13   51.0   0.1   1.1   1   0   0   1   1   1   1 CRISPR associated protein Cas2
+CutC                 PF03932.13 sp|Q05E21|CAS2_AERPE -              0.024   14.0   0.0     0.026   13.9   0.0   1.0   1   0   0   1   1   1   0 CutC family
+DUF4385              PF14328.5  sp|Q05E21|CAS2_AERPE -              0.052   13.5   0.1     0.056   13.4   0.1   1.1   1   0   0   1   1   1   0 Domain of unknown function (DUF4385)
+DUF4616              PF15394.5  sp|Q05E21|CAS2_AERPE -               0.13   11.1   0.0      0.14   10.9   0.0   1.0   1   0   0   1   1   1   0 Domain of unknown function (DUF4616)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q05E21.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q05E21.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q05E21.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 13:21:25 2019
+# [ok]

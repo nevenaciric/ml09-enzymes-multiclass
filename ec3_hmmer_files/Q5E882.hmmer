@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q5E882|THIQ_ALIF1 -            1.3e-36  126.0   0.1     3e-36  124.9   0.0   1.5   2   0   0   2   2   2   1 ABC transporter
+AAA_21               PF13304.5  sp|Q5E882|THIQ_ALIF1 -            5.2e-10   39.5   2.2   9.9e-06   25.5   0.1   2.1   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+SMC_N                PF02463.18 sp|Q5E882|THIQ_ALIF1 -            1.9e-06   27.4   0.6   1.3e-05   24.6   0.6   1.9   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+AAA_16               PF13191.5  sp|Q5E882|THIQ_ALIF1 -            0.00013   22.3   0.1   0.00024   21.4   0.1   1.4   1   1   0   1   1   1   1 AAA ATPase domain
+AAA_23               PF13476.5  sp|Q5E882|THIQ_ALIF1 -            0.00015   22.3   0.1   0.00094   19.7   0.1   2.0   1   1   0   1   1   1   1 AAA domain
+AAA_29               PF13555.5  sp|Q5E882|THIQ_ALIF1 -            0.00016   21.2   0.0   0.00032   20.3   0.0   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+RsgA_GTPase          PF03193.15 sp|Q5E882|THIQ_ALIF1 -            0.00028   20.7   0.0   0.00069   19.5   0.0   1.6   1   0   0   1   1   1   1 RsgA GTPase
+AAA_30               PF13604.5  sp|Q5E882|THIQ_ALIF1 -             0.0022   17.6   0.0     0.021   14.4   0.0   2.1   2   0   0   2   2   2   1 AAA domain
+AAA_22               PF13401.5  sp|Q5E882|THIQ_ALIF1 -             0.0043   17.2   0.3     0.018   15.2   0.3   2.0   1   1   0   1   1   1   1 AAA domain
+AAA_15               PF13175.5  sp|Q5E882|THIQ_ALIF1 -             0.0045   16.6   0.2      0.69    9.4   0.0   2.1   1   1   0   2   2   2   1 AAA ATPase domain
+ABC_ATPase           PF09818.8  sp|Q5E882|THIQ_ALIF1 -              0.013   14.2   0.0         3    6.4   0.0   2.2   2   0   0   2   2   2   0 Predicted ATPase of the ABC class
+SbcCD_C              PF13558.5  sp|Q5E882|THIQ_ALIF1 -              0.013   15.6   0.1      0.29   11.3   0.1   2.5   1   1   0   1   1   1   0 Putative exonuclease SbcCD, C subunit
+MMR_HSR1             PF01926.22 sp|Q5E882|THIQ_ALIF1 -              0.014   15.4   0.0     0.027   14.5   0.0   1.6   1   0   0   1   1   1   0 50S ribosome-binding GTPase
+AAA_25               PF13481.5  sp|Q5E882|THIQ_ALIF1 -              0.024   14.1   0.2     0.063   12.7   0.0   1.7   2   1   0   2   2   2   0 AAA domain
+AAA_28               PF13521.5  sp|Q5E882|THIQ_ALIF1 -              0.031   14.4   0.1     0.095   12.9   0.0   1.8   2   0   0   2   2   2   0 AAA domain
+AAA_18               PF13238.5  sp|Q5E882|THIQ_ALIF1 -              0.032   14.7   0.1      0.14   12.6   0.1   2.0   1   1   1   2   2   2   0 AAA domain
+NACHT                PF05729.11 sp|Q5E882|THIQ_ALIF1 -              0.032   14.0   2.2      0.44   10.4   0.0   2.3   2   1   0   2   2   2   0 NACHT domain
+ATPase_2             PF01637.17 sp|Q5E882|THIQ_ALIF1 -              0.041   13.7   0.1       3.8    7.2   0.0   2.1   2   0   0   2   2   2   0 ATPase domain predominantly from Archaea
+AAA_24               PF13479.5  sp|Q5E882|THIQ_ALIF1 -              0.056   13.1   0.1      0.23   11.0   0.0   1.9   2   0   0   2   2   2   0 AAA domain
+DUF87                PF01935.16 sp|Q5E882|THIQ_ALIF1 -               0.12   12.3   0.4      0.32   10.9   0.0   1.9   2   1   0   2   2   2   0 Domain of unknown function DUF87
+AAA_33               PF13671.5  sp|Q5E882|THIQ_ALIF1 -               0.14   12.3   0.1      0.22   11.6   0.1   1.7   1   1   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q5E882.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q5E882.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q5E882.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 14:32:50 2019
+# [ok]

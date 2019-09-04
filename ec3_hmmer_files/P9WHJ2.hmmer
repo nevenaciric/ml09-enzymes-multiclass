@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RecA                 PF00154.20 sp|P9WHJ2|RECA_MYCTO -           1.9e-136  453.6   1.7  5.9e-131  435.6   1.9   2.3   2   0   0   2   2   2   2 recA bacterial DNA recombination protein
+LAGLIDADG_3          PF14528.5  sp|P9WHJ2|RECA_MYCTO -            9.9e-17   61.1   0.0   9.6e-15   54.7   0.0   2.5   2   0   0   2   2   2   1 LAGLIDADG-like domain
+Intein_splicing      PF14890.5  sp|P9WHJ2|RECA_MYCTO -            9.9e-11   41.4   0.0   3.2e-10   39.7   0.0   1.8   1   1   0   1   1   1   1 Intein splicing domain
+Rad51                PF08423.10 sp|P9WHJ2|RECA_MYCTO -            6.5e-09   35.3   0.0   1.4e-08   34.2   0.0   1.4   1   1   0   1   1   1   1 Rad51
+ATPase               PF06745.12 sp|P9WHJ2|RECA_MYCTO -            1.5e-07   30.9   0.7   1.9e-05   24.0   0.2   3.2   2   1   0   2   2   2   1 KaiC
+AAA_24               PF13479.5  sp|P9WHJ2|RECA_MYCTO -             0.0013   18.4   0.0    0.0022   17.6   0.0   1.4   1   0   0   1   1   1   1 AAA domain
+ATPase_2             PF01637.17 sp|P9WHJ2|RECA_MYCTO -             0.0017   18.2   0.0    0.0035   17.2   0.0   1.5   1   0   0   1   1   1   1 ATPase domain predominantly from Archaea
+AAA_25               PF13481.5  sp|P9WHJ2|RECA_MYCTO -             0.0061   16.1   0.7     0.096   12.1   0.0   2.6   1   1   1   2   2   2   1 AAA domain
+CobU                 PF02283.15 sp|P9WHJ2|RECA_MYCTO -              0.013   15.0   0.0     0.026   14.0   0.0   1.5   1   0   0   1   1   1   0 Cobinamide kinase / cobinamide phosphate guanyltransferase
+AAA                  PF00004.28 sp|P9WHJ2|RECA_MYCTO -              0.025   14.9   0.0      0.06   13.7   0.0   1.6   1   0   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/P9WHJ2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/P9WHJ2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/P9WHJ2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 13:13:11 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+7TM-7TMR_HD          PF07698.10 sp|P46344|PGPH_BACSU -            3.9e-51  173.5  29.0   3.9e-51  173.5  29.0   1.8   2   0   0   2   2   2   1 7TM receptor with intracellular HD hydrolase
+7TMR-HDED            PF07697.10 sp|P46344|PGPH_BACSU -            8.9e-40  137.0  10.3   8.9e-40  137.0  10.3   1.5   2   0   0   2   2   2   1 7TM-HD extracellular
+HD                   PF01966.21 sp|P46344|PGPH_BACSU -              1e-19   70.9   0.0     2e-19   69.9   0.0   1.5   1   0   0   1   1   1   1 HD domain
+HDOD                 PF08668.11 sp|P46344|PGPH_BACSU -             0.0028   17.0   0.0     0.008   15.6   0.0   1.7   2   0   0   2   2   2   1 HDOD domain
+TMEM132D_C           PF15706.4  sp|P46344|PGPH_BACSU -                0.7    9.6   2.3        43    3.9   0.0   3.0   3   0   0   3   3   3   0 Mature oligodendrocyte transmembrane protein, TMEM132D, C-term
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/P46344.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/P46344.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/P46344.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:52:51 2019
+# [ok]

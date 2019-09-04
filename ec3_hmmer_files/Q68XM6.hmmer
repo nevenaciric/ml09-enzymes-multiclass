@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_M17        PF00883.20 sp|Q68XM6|AMPA_RICTY -           1.8e-119  398.5   0.8  2.3e-119  398.2   0.8   1.1   1   0   0   1   1   1   1 Cytosol aminopeptidase family, catalytic domain
+Peptidase_M17_N      PF02789.16 sp|Q68XM6|AMPA_RICTY -              3e-22   78.7   0.0   1.3e-21   76.6   0.0   2.1   2   0   0   2   2   2   1 Cytosol aminopeptidase family, N-terminal domain
+ATP-synt_ab          PF00006.24 sp|Q68XM6|AMPA_RICTY -               0.19   11.2   1.0      0.73    9.3   1.0   2.0   1   1   0   1   1   1   0 ATP synthase alpha/beta family, nucleotide-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q68XM6.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q68XM6.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q68XM6.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 14:54:01 2019
+# [ok]

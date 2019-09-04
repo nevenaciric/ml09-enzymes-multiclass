@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GFO_IDH_MocA         PF01408.21 sp|Q0HTG8|G1092_SHESR -            4.8e-14   53.1   0.0   8.7e-14   52.3   0.0   1.4   1   0   0   1   1   1   1 Oxidoreductase family, NAD-binding Rossmann fold
+TAT_signal           PF10518.8  sp|Q0HTG8|G1092_SHESR -            1.8e-07   30.6   5.8   3.5e-07   29.7   5.8   1.5   1   0   0   1   1   1   1 TAT (twin-arginine translocation) pathway signal sequence
+CoA_binding          PF02629.18 sp|Q0HTG8|G1092_SHESR -              0.052   14.1   0.3      0.98   10.1   0.1   2.6   1   1   1   2   2   2   0 CoA binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q0HTG8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q0HTG8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q0HTG8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 13:27:26 2019
+# [ok]

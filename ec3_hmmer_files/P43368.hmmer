@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_C2         PF00648.20 sp|P43368|CAN3_PIG   -           4.2e-136  452.7   0.1  6.2e-136  452.1   0.1   1.3   1   0   0   1   1   1   1 Calpain family cysteine protease
+Calpain_III          PF01067.21 sp|P43368|CAN3_PIG   -            4.5e-56  188.9   0.0     9e-56  187.9   0.0   1.5   1   0   0   1   1   1   1 Calpain large subunit, domain III
+Calpain_u2           PF16648.4  sp|P43368|CAN3_PIG   -            1.2e-30  105.7  13.3   2.3e-30  104.7  13.3   1.5   1   0   0   1   1   1   1 Unstructured region on Calpain-3
+EF-hand_1            PF00036.31 sp|P43368|CAN3_PIG   -            6.1e-18   62.9   2.1   1.5e-05   24.1   0.0   4.5   4   0   0   4   4   4   3 EF hand
+EF-hand_6            PF13405.5  sp|P43368|CAN3_PIG   -              1e-14   53.0   2.7   0.00035   20.2   0.0   4.8   4   0   0   4   4   4   4 EF-hand domain
+EF-hand_8            PF13833.5  sp|P43368|CAN3_PIG   -            2.2e-11   43.3   6.7   8.9e-08   31.7   0.2   4.0   3   1   0   3   3   3   2 EF-hand domain pair
+EF-hand_5            PF13202.5  sp|P43368|CAN3_PIG   -            6.1e-09   34.9   2.9       0.1   12.0   2.5   4.1   4   0   0   4   4   4   3 EF hand
+EF-hand_7            PF13499.5  sp|P43368|CAN3_PIG   -            9.7e-09   35.5   8.1    0.0037   17.6   0.1   4.5   4   0   0   4   4   4   3 EF-hand domain pair
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/P43368.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/P43368.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/P43368.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:51:02 2019
+# [ok]

@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MCM                  PF00493.22 sp|Q21902|MCM5_CAEEL -           8.1e-135  449.1   0.4  1.1e-134  448.6   0.4   1.1   1   0   0   1   1   1   1 MCM2/3/5 family
+MCM_OB               PF17207.2  sp|Q21902|MCM5_CAEEL -            9.5e-38  128.8   2.6   1.7e-37  128.0   2.6   1.4   1   0   0   1   1   1   1 MCM OB domain
+MCM_N                PF14551.5  sp|Q21902|MCM5_CAEEL -              7e-15   55.4   0.1   1.9e-14   54.0   0.1   1.8   1   0   0   1   1   1   1 MCM N-terminal domain
+Mg_chelatase         PF01078.20 sp|Q21902|MCM5_CAEEL -            1.2e-06   28.0   0.0   0.00045   19.6   0.0   2.5   2   0   0   2   2   2   2 Magnesium chelatase, subunit ChlI
+AAA_5                PF07728.13 sp|Q21902|MCM5_CAEEL -            2.5e-05   24.2   0.1   0.00021   21.2   0.0   2.4   2   1   0   2   2   2   1 AAA domain (dynein-related subfamily)
+AAA_3                PF07726.10 sp|Q21902|MCM5_CAEEL -              0.002   17.9   0.1    0.0076   16.0   0.0   2.0   2   1   0   2   2   2   1 ATPase family associated with various cellular activities (AAA)
+Sigma54_activat      PF00158.25 sp|Q21902|MCM5_CAEEL -             0.0072   15.9   0.0      0.27   10.8   0.0   2.4   2   0   0   2   2   2   1 Sigma-54 interaction domain
+Mg_chelatase_C       PF13335.5  sp|Q21902|MCM5_CAEEL -              0.087   13.4   0.1      0.34   11.5   0.0   2.1   2   0   0   2   2   2   0 Magnesium chelatase, subunit ChlI C-terminal
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q21902.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q21902.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q21902.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 13:48:02 2019
+# [ok]

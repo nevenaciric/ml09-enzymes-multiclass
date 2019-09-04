@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_A8         PF01252.17 sp|P44975|LSPA_HAEIN -              1e-36  126.1  10.1   1.2e-36  125.9  10.1   1.0   1   0   0   1   1   1   1 Signal peptidase (SPase) II
+SecY                 PF00344.19 sp|P44975|LSPA_HAEIN -             0.0082   15.3   0.3    0.0092   15.1   0.3   1.1   1   0   0   1   1   1   1 SecY translocase
+Glyco_hydro_57       PF03065.14 sp|P44975|LSPA_HAEIN -              0.035   13.1   0.1     0.046   12.7   0.1   1.1   1   0   0   1   1   1   0 Glycosyl hydrolase family 57
+ECF_trnsprt          PF12822.6  sp|P44975|LSPA_HAEIN -               0.29   11.1   4.4      0.69    9.9   4.4   1.7   1   1   0   1   1   1   0 ECF transporter, substrate-specific component
+MadM                 PF03818.12 sp|P44975|LSPA_HAEIN -                8.1    6.3  11.2      0.23   11.3   0.5   2.8   3   0   0   3   3   3   0 Malonate/sodium symporter MadM subunit
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/P44975.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/P44975.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/P44975.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:52:01 2019
+# [ok]

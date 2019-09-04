@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AP_endonuc_2         PF01261.23 sp|Q4A8V0|END4_MYCH7 -            1.4e-28   99.6   0.0   1.9e-28   99.3   0.0   1.1   1   0   0   1   1   1   1 Xylose isomerase-like TIM barrel
+Scramblase           PF03803.14 sp|Q4A8V0|END4_MYCH7 -              0.055   12.7   0.0      0.16   11.2   0.0   1.6   2   0   0   2   2   2   0 Scramblase
+Beta_elim_lyase      PF01212.20 sp|Q4A8V0|END4_MYCH7 -               0.12   11.5   0.0      0.25   10.5   0.0   1.4   2   0   0   2   2   2   0 Beta-eliminating lyase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q4A8V0.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q4A8V0.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q4A8V0.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 14:17:53 2019
+# [ok]

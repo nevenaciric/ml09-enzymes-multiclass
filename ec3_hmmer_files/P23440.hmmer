@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PDEase_I             PF00233.18 sp|P23440|PDE6B_MOUSE -            1.1e-78  264.1   4.3   1.1e-78  264.1   4.3   2.1   2   0   0   2   2   2   1 3'5'-cyclic nucleotide phosphodiesterase
+GAF                  PF01590.25 sp|P23440|PDE6B_MOUSE -            1.3e-26   93.7   0.0   2.1e-12   47.7   0.0   2.4   2   0   0   2   2   2   2 GAF domain
+GAF_2                PF13185.5  sp|P23440|PDE6B_MOUSE -            1.5e-11   44.7   0.0   2.2e-05   24.7   0.0   2.3   2   0   0   2   2   2   2 GAF domain
+GAF_3                PF13492.5  sp|P23440|PDE6B_MOUSE -            1.7e-07   31.5   0.0    0.0099   16.1   0.0   3.2   2   1   0   2   2   2   2 GAF domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/P23440.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/P23440.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/P23440.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:38:27 2019
+# [ok]

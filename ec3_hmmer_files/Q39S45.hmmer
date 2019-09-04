@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CheB_methylest       PF01339.16 sp|Q39S45|CHEB4_GEOMG -            1.4e-55  187.5   0.0   2.5e-55  186.7   0.0   1.4   1   0   0   1   1   1   1 CheB methylesterase
+Response_reg         PF00072.23 sp|Q39S45|CHEB4_GEOMG -            4.9e-21   74.9   0.0   1.6e-20   73.3   0.0   1.8   2   0   0   2   2   2   1 Response regulator receiver domain
+B12-binding          PF02310.18 sp|Q39S45|CHEB4_GEOMG -             0.0018   18.2   0.1    0.0037   17.2   0.1   1.5   1   0   0   1   1   1   1 B12 binding domain
+IMPDH                PF00478.24 sp|Q39S45|CHEB4_GEOMG -                0.1   11.5   0.1       1.7    7.5   0.0   2.2   2   0   0   2   2   2   0 IMP dehydrogenase / GMP reductase domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q39S45.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q39S45.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q39S45.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 14:05:40 2019
+# [ok]
