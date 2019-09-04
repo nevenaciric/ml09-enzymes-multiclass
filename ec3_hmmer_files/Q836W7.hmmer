@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+THF_DHG_CYH_C        PF02882.18 sp|Q836W7|FOLD_ENTFA -            1.6e-72  241.9   2.3   3.2e-72  241.0   1.5   1.7   2   0   0   2   2   2   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+THF_DHG_CYH          PF00763.22 sp|Q836W7|FOLD_ENTFA -            3.8e-42  143.1   1.2   6.4e-42  142.4   1.2   1.4   1   0   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, catalytic domain
+AdoHcyase_NAD        PF00670.20 sp|Q836W7|FOLD_ENTFA -              0.019   15.0   0.4       1.1    9.2   0.4   2.3   1   1   0   1   1   1   0 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+FAD_binding_4        PF01565.22 sp|Q836W7|FOLD_ENTFA -              0.022   14.4   0.1     0.043   13.4   0.1   1.4   1   0   0   1   1   1   0 FAD binding domain
+adh_short            PF00106.24 sp|Q836W7|FOLD_ENTFA -              0.024   14.0   0.3     0.069   12.5   0.2   1.8   1   1   1   2   2   2   0 short chain dehydrogenase
+NAD_binding_7        PF13241.5  sp|Q836W7|FOLD_ENTFA -              0.049   14.0   0.3       4.4    7.7   0.3   2.4   2   0   0   2   2   2   0 Putative NAD(P)-binding
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q836W7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q836W7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q836W7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 15:34:17 2019
+# [ok]

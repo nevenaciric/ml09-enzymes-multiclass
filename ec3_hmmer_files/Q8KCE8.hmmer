@@ -1,0 +1,34 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q8KCE8|LOLD2_CHLTE -            3.4e-32  111.7   0.0   4.7e-32  111.3   0.0   1.2   1   0   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|Q8KCE8|LOLD2_CHLTE -            1.6e-07   30.9   0.5   1.5e-05   24.4   0.0   2.1   2   0   0   2   2   2   1 RecF/RecN/SMC N terminal domain
+AAA_21               PF13304.5  sp|Q8KCE8|LOLD2_CHLTE -            8.2e-06   25.7   1.7     0.074   12.7   0.0   2.1   1   1   0   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_22               PF13401.5  sp|Q8KCE8|LOLD2_CHLTE -            0.00039   20.6   0.1     0.025   14.8   0.0   2.3   2   0   0   2   2   2   1 AAA domain
+AAA_16               PF13191.5  sp|Q8KCE8|LOLD2_CHLTE -             0.0004   20.7   0.6    0.0022   18.3   0.7   2.2   1   1   1   2   2   2   1 AAA ATPase domain
+AAA_29               PF13555.5  sp|Q8KCE8|LOLD2_CHLTE -            0.00051   19.6   0.2   0.00085   18.9   0.2   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_15               PF13175.5  sp|Q8KCE8|LOLD2_CHLTE -              0.002   17.7   0.0       1.4    8.3   0.0   2.1   2   0   0   2   2   2   2 AAA ATPase domain
+AAA_28               PF13521.5  sp|Q8KCE8|LOLD2_CHLTE -             0.0084   16.3   0.4      0.04   14.1   0.1   2.1   2   1   0   2   2   2   1 AAA domain
+AAA_30               PF13604.5  sp|Q8KCE8|LOLD2_CHLTE -              0.011   15.4   0.1      0.37   10.4   0.0   2.3   2   0   0   2   2   2   0 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q8KCE8|LOLD2_CHLTE -              0.014   15.2   0.1     0.026   14.3   0.1   1.4   1   0   0   1   1   1   0 RsgA GTPase
+T2SSE                PF00437.19 sp|Q8KCE8|LOLD2_CHLTE -              0.023   13.6   0.0     0.049   12.6   0.0   1.5   2   0   0   2   2   2   0 Type II/IV secretion system protein
+AAA_13               PF13166.5  sp|Q8KCE8|LOLD2_CHLTE -              0.053   12.1   0.0       1.7    7.1   0.0   2.0   2   0   0   2   2   2   0 AAA domain
+FtsK_SpoIIIE         PF01580.17 sp|Q8KCE8|LOLD2_CHLTE -              0.061   12.6   0.1       0.1   11.8   0.1   1.3   1   0   0   1   1   1   0 FtsK/SpoIIIE family
+IstB_IS21            PF01695.16 sp|Q8KCE8|LOLD2_CHLTE -              0.077   12.6   0.1       9.6    5.8   0.0   2.2   2   0   0   2   2   2   0 IstB-like ATP binding protein
+AAA_33               PF13671.5  sp|Q8KCE8|LOLD2_CHLTE -              0.081   13.0   0.1      0.19   11.8   0.1   1.6   2   0   0   2   2   2   0 AAA domain
+AAA_18               PF13238.5  sp|Q8KCE8|LOLD2_CHLTE -               0.11   12.9   0.0      0.25   11.8   0.0   1.7   2   0   0   2   2   2   0 AAA domain
+AAA_25               PF13481.5  sp|Q8KCE8|LOLD2_CHLTE -               0.13   11.8   0.0      0.25   10.8   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+NACHT                PF05729.11 sp|Q8KCE8|LOLD2_CHLTE -               0.13   12.0   1.6      0.24   11.2   0.2   2.1   4   0   0   4   4   3   0 NACHT domain
+Pox_A32              PF04665.11 sp|Q8KCE8|LOLD2_CHLTE -               0.17   11.2   0.1      0.45    9.8   0.1   1.6   2   0   0   2   2   2   0 Poxvirus A32 protein
+MobB                 PF03205.13 sp|Q8KCE8|LOLD2_CHLTE -               0.21   11.4   0.4      0.47   10.3   0.4   1.6   1   0   0   1   1   1   0 Molybdopterin guanine dinucleotide synthesis protein B
+AAA_19               PF13245.5  sp|Q8KCE8|LOLD2_CHLTE -               0.26   11.5   0.8       1.1    9.5   0.2   2.1   2   1   1   3   3   3   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q8KCE8.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q8KCE8.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q8KCE8.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 15:49:48 2019
+# [ok]

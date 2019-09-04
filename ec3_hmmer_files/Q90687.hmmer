@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Y_phosphatase        PF00102.26 sp|Q90687|PTN11_CHICK -            8.1e-83  277.5   0.8   1.3e-82  276.8   0.8   1.4   1   0   0   1   1   1   1 Protein-tyrosine phosphatase
+SH2                  PF00017.23 sp|Q90687|PTN11_CHICK -            2.1e-51  171.8   0.0   1.2e-24   86.1   0.0   2.7   2   0   0   2   2   2   2 SH2 domain
+DSPc                 PF00782.19 sp|Q90687|PTN11_CHICK -            1.4e-05   24.8   0.6   8.8e-05   22.2   0.0   2.7   2   1   0   2   2   2   1 Dual specificity phosphatase, catalytic domain
+Y_phosphatase3       PF13350.5  sp|Q90687|PTN11_CHICK -             0.0016   18.4   0.0     0.004   17.1   0.0   1.8   1   1   0   1   1   1   1 Tyrosine phosphatase family
+PTPlike_phytase      PF14566.5  sp|Q90687|PTN11_CHICK -              0.013   15.5   0.0     0.013   15.5   0.0   2.8   3   0   0   3   3   3   0 Inositol hexakisphosphate
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q90687.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q90687.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q90687.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 16:02:59 2019
+# [ok]

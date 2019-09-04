@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CheB_methylest       PF01339.16 sp|Q884V3|CHEB1_PSESM -            5.3e-58  195.4   0.2   4.3e-57  192.4   0.0   2.1   2   1   0   2   2   2   1 CheB methylesterase
+Response_reg         PF00072.23 sp|Q884V3|CHEB1_PSESM -              3e-22   78.8   0.1   6.3e-22   77.8   0.1   1.5   1   0   0   1   1   1   1 Response regulator receiver domain
+Stb3                 PF10330.8  sp|Q884V3|CHEB1_PSESM -              0.054   13.4   0.1      0.19   11.7   0.0   1.9   2   0   0   2   2   2   0 Putative Sin3 binding protein
+XPC-binding          PF09280.10 sp|Q884V3|CHEB1_PSESM -              0.064   12.9   0.3      0.51   10.0   0.1   2.2   2   0   0   2   2   2   0 XPC-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q884V3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q884V3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q884V3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 15:38:13 2019
+# [ok]

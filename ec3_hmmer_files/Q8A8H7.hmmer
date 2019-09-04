@@ -1,0 +1,33 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RsgA_GTPase          PF03193.15 sp|Q8A8H7|RSGA1_BACTN -            5.6e-46  156.4   0.1   7.9e-46  155.9   0.1   1.2   1   0   0   1   1   1   1 RsgA GTPase
+MMR_HSR1             PF01926.22 sp|Q8A8H7|RSGA1_BACTN -            3.4e-10   39.9   0.2   4.5e-09   36.3   0.1   2.5   2   1   0   2   2   2   1 50S ribosome-binding GTPase
+FeoB_N               PF02421.17 sp|Q8A8H7|RSGA1_BACTN -            3.2e-07   29.9   0.4    0.0062   16.0   0.0   2.5   3   0   0   3   3   3   2 Ferrous iron transport protein B
+ABC_tran             PF00005.26 sp|Q8A8H7|RSGA1_BACTN -            1.4e-06   28.7   0.0   2.6e-06   27.9   0.0   1.6   1   0   0   1   1   1   1 ABC transporter
+Septin               PF00735.17 sp|Q8A8H7|RSGA1_BACTN -            2.5e-05   23.6   0.0   5.1e-05   22.6   0.0   1.4   1   0   0   1   1   1   1 Septin
+AIG1                 PF04548.15 sp|Q8A8H7|RSGA1_BACTN -            9.8e-05   21.7   0.6   0.00028   20.2   0.1   2.0   2   0   0   2   2   2   1 AIG1 family
+GTP_EFTU             PF00009.26 sp|Q8A8H7|RSGA1_BACTN -            0.00029   20.4   1.3    0.0049   16.3   0.3   2.7   1   1   1   2   2   2   1 Elongation factor Tu GTP binding domain
+Ras                  PF00071.21 sp|Q8A8H7|RSGA1_BACTN -            0.00088   18.8   0.6      0.37   10.3   0.1   2.5   2   0   0   2   2   2   2 Ras family
+RsgA_N               PF16745.4  sp|Q8A8H7|RSGA1_BACTN -              0.002   17.7   0.0    0.0046   16.6   0.0   1.7   1   0   0   1   1   1   1 RsgA N-terminal domain
+Dynamin_N            PF00350.22 sp|Q8A8H7|RSGA1_BACTN -             0.0027   17.7   2.2    0.0027   17.7   2.2   3.4   3   1   0   4   4   4   1 Dynamin family
+AAA_16               PF13191.5  sp|Q8A8H7|RSGA1_BACTN -             0.0028   17.9   1.0    0.0076   16.5   0.4   1.8   1   1   1   2   2   2   1 AAA ATPase domain
+Roc                  PF08477.12 sp|Q8A8H7|RSGA1_BACTN -              0.003   17.7   0.6     0.015   15.5   0.1   2.2   2   0   0   2   2   2   1 Ras of Complex, Roc, domain of DAPkinase
+IstB_IS21            PF01695.16 sp|Q8A8H7|RSGA1_BACTN -             0.0033   17.1   0.0    0.0059   16.2   0.0   1.4   1   0   0   1   1   1   1 IstB-like ATP binding protein
+AAA_29               PF13555.5  sp|Q8A8H7|RSGA1_BACTN -              0.007   16.0   0.1     0.015   14.9   0.1   1.5   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+DUF815               PF05673.12 sp|Q8A8H7|RSGA1_BACTN -              0.058   12.5   0.0      0.12   11.4   0.0   1.5   1   0   0   1   1   1   0 Protein of unknown function (DUF815)
+AAA                  PF00004.28 sp|Q8A8H7|RSGA1_BACTN -              0.062   13.6   0.1      0.16   12.3   0.0   1.8   2   0   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+SRPRB                PF09439.9  sp|Q8A8H7|RSGA1_BACTN -               0.08   12.3   0.5      0.27   10.6   0.1   1.9   2   0   0   2   2   2   0 Signal recognition particle receptor beta subunit
+AAA_33               PF13671.5  sp|Q8A8H7|RSGA1_BACTN -              0.081   13.0   0.0      0.18   11.9   0.0   1.7   1   0   0   1   1   1   0 AAA domain
+RNA_helicase         PF00910.21 sp|Q8A8H7|RSGA1_BACTN -                0.1   12.9   0.1      0.22   11.8   0.1   1.6   1   0   0   1   1   1   0 RNA helicase
+cobW                 PF02492.18 sp|Q8A8H7|RSGA1_BACTN -               0.15   11.5   1.2       5.4    6.5   0.1   2.3   2   0   0   2   2   2   0 CobW/HypB/UreG, nucleotide-binding domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q8A8H7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q8A8H7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q8A8H7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 15:40:49 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_C65        PF10275.8  sp|Q9VL00|OTUBL_DROME -            7.3e-85  284.2   0.1   8.5e-85  284.0   0.1   1.0   1   0   0   1   1   1   1 Peptidase C65 Otubain
+OTU                  PF02338.18 sp|Q9VL00|OTUBL_DROME -            0.00064   20.1   0.0    0.0038   17.6   0.0   2.1   1   1   0   1   1   1   1 OTU-like cysteine protease
+TFIID_NTD2           PF04494.14 sp|Q9VL00|OTUBL_DROME -               0.41   10.9   3.6      0.85    9.8   0.1   2.3   1   1   1   2   2   2   0 WD40 associated region in TFIID subunit, NTD2 domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q9VL00.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q9VL00.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q9VL00.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 16:32:28 2019
+# [ok]

@@ -1,0 +1,34 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q81J15|ECFA2_BACCR -            4.8e-31  108.0   0.0   1.1e-30  106.8   0.0   1.5   2   0   0   2   2   2   1 ABC transporter
+AAA_21               PF13304.5  sp|Q81J15|ECFA2_BACCR -            5.8e-13   49.2   0.0   6.6e-10   39.2   0.0   2.2   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+SMC_N                PF02463.18 sp|Q81J15|ECFA2_BACCR -            5.4e-08   32.4   0.0   1.2e-07   31.3   0.0   1.5   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+AAA_15               PF13175.5  sp|Q81J15|ECFA2_BACCR -            6.4e-06   26.0   0.0     0.076   12.5   0.0   2.1   2   0   0   2   2   2   2 AAA ATPase domain
+AAA_22               PF13401.5  sp|Q81J15|ECFA2_BACCR -              1e-05   25.7   0.2   0.00041   20.5   0.2   2.7   1   1   1   2   2   2   1 AAA domain
+AAA_29               PF13555.5  sp|Q81J15|ECFA2_BACCR -            3.6e-05   23.3   0.1     7e-05   22.4   0.1   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_23               PF13476.5  sp|Q81J15|ECFA2_BACCR -             0.0008   19.9   0.0    0.0013   19.1   0.0   1.5   1   0   0   1   1   1   1 AAA domain
+ATPase               PF06745.12 sp|Q81J15|ECFA2_BACCR -             0.0012   18.1   0.1       1.3    8.2   0.0   2.3   2   0   0   2   2   2   2 KaiC
+ATP_bind_1           PF03029.16 sp|Q81J15|ECFA2_BACCR -             0.0096   15.6   0.3      0.15   11.7   0.1   2.1   2   0   0   2   2   2   1 Conserved hypothetical ATP binding protein
+AAA_30               PF13604.5  sp|Q81J15|ECFA2_BACCR -              0.012   15.2   0.0     0.073   12.7   0.0   1.9   2   0   0   2   2   2   0 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q81J15|ECFA2_BACCR -              0.014   15.2   0.0     0.035   13.9   0.0   1.6   1   0   0   1   1   1   0 RsgA GTPase
+AAA_16               PF13191.5  sp|Q81J15|ECFA2_BACCR -              0.017   15.4   0.0     0.029   14.7   0.0   1.5   1   1   0   1   1   1   0 AAA ATPase domain
+AAA_25               PF13481.5  sp|Q81J15|ECFA2_BACCR -              0.051   13.1   0.0       3.8    7.0   0.0   2.3   2   0   0   2   2   2   0 AAA domain
+MMR_HSR1             PF01926.22 sp|Q81J15|ECFA2_BACCR -              0.051   13.6   0.1      0.24   11.4   0.0   2.0   2   0   0   2   2   2   0 50S ribosome-binding GTPase
+AAA_5                PF07728.13 sp|Q81J15|ECFA2_BACCR -              0.087   12.7   0.1      0.38   10.6   0.1   2.0   2   0   0   2   2   2   0 AAA domain (dynein-related subfamily)
+Mg_chelatase         PF01078.20 sp|Q81J15|ECFA2_BACCR -                0.1   11.8   0.0      0.22   10.8   0.0   1.5   1   0   0   1   1   1   0 Magnesium chelatase, subunit ChlI
+DUF87                PF01935.16 sp|Q81J15|ECFA2_BACCR -               0.11   12.5   0.1      0.24   11.4   0.1   1.5   1   0   0   1   1   1   0 Domain of unknown function DUF87
+AAA_18               PF13238.5  sp|Q81J15|ECFA2_BACCR -               0.11   12.9   0.4       1.1    9.6   0.1   2.3   2   1   0   2   2   2   0 AAA domain
+PP-binding           PF00550.24 sp|Q81J15|ECFA2_BACCR -               0.13   12.5   0.1      0.41   10.9   0.0   1.8   2   0   0   2   2   1   0 Phosphopantetheine attachment site
+Herpes_Helicase      PF02689.13 sp|Q81J15|ECFA2_BACCR -               0.13   10.0   0.0      0.18    9.6   0.0   1.1   1   0   0   1   1   1   0 Helicase
+ABC_ATPase           PF09818.8  sp|Q81J15|ECFA2_BACCR -               0.32    9.6   1.5      0.92    8.1   0.1   2.3   2   1   0   2   2   2   0 Predicted ATPase of the ABC class
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q81J15.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q81J15.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q81J15.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 15:32:17 2019
+# [ok]

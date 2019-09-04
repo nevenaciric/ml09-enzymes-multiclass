@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CLP_protease         PF00574.22 sp|Q83G49|CLPP1_TROWT -            2.4e-73  245.8   0.5   2.9e-73  245.5   0.5   1.0   1   0   0   1   1   1   1 Clp protease
+Tn7_Tnp_TnsA_C       PF08721.10 sp|Q83G49|CLPP1_TROWT -               0.02   15.4   0.1     0.038   14.5   0.1   1.4   1   0   0   1   1   1   0 TnsA endonuclease C terminal
+Peptidase_S49        PF01343.17 sp|Q83G49|CLPP1_TROWT -              0.042   13.7   0.1     0.083   12.7   0.1   1.5   1   0   0   1   1   1   0 Peptidase family S49
+FERM_f0              PF16511.4  sp|Q83G49|CLPP1_TROWT -              0.087   13.1   0.0       5.7    7.2   0.0   2.2   2   0   0   2   2   2   0 N-terminal or F0 domain of Talin-head FERM
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q83G49.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q83G49.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q83G49.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 15:34:41 2019
+# [ok]

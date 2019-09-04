@@ -1,0 +1,34 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RsgA_GTPase          PF03193.15 sp|Q8Y680|RSGA2_LISMO -            8.7e-59  198.1   0.0   1.1e-58  197.7   0.0   1.1   1   0   0   1   1   1   1 RsgA GTPase
+RsgA_N               PF16745.4  sp|Q8Y680|RSGA2_LISMO -            5.2e-27   93.2   2.4   7.4e-27   92.7   0.4   2.3   3   0   0   3   3   3   1 RsgA N-terminal domain
+MMR_HSR1             PF01926.22 sp|Q8Y680|RSGA2_LISMO -            3.3e-07   30.3   0.0   7.8e-07   29.1   0.0   1.7   2   0   0   2   2   2   1 50S ribosome-binding GTPase
+GTP_EFTU             PF00009.26 sp|Q8Y680|RSGA2_LISMO -            8.5e-06   25.3   0.6   0.00013   21.5   0.3   2.1   1   1   1   2   2   2   1 Elongation factor Tu GTP binding domain
+ABC_tran             PF00005.26 sp|Q8Y680|RSGA2_LISMO -            0.00037   20.9   0.0    0.0006   20.2   0.0   1.5   1   0   0   1   1   1   1 ABC transporter
+AAA_29               PF13555.5  sp|Q8Y680|RSGA2_LISMO -            0.00092   18.8   0.2    0.0016   18.0   0.2   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_25               PF13481.5  sp|Q8Y680|RSGA2_LISMO -             0.0025   17.3   0.0    0.0039   16.7   0.0   1.2   1   0   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q8Y680|RSGA2_LISMO -             0.0054   17.0   0.1     0.011   16.0   0.1   1.5   1   0   0   1   1   1   1 AAA ATPase domain
+Septin               PF00735.17 sp|Q8Y680|RSGA2_LISMO -              0.009   15.2   0.8     0.014   14.5   0.0   1.7   2   0   0   2   2   2   1 Septin
+AAA_23               PF13476.5  sp|Q8Y680|RSGA2_LISMO -              0.012   16.0   0.7     0.031   14.7   0.2   1.8   2   1   0   2   2   2   0 AAA domain
+AAA_22               PF13401.5  sp|Q8Y680|RSGA2_LISMO -              0.014   15.6   0.1     0.054   13.7   0.1   1.8   1   1   1   2   2   2   0 AAA domain
+ATP_bind_1           PF03029.16 sp|Q8Y680|RSGA2_LISMO -              0.019   14.7   0.1         4    7.0   0.0   2.2   2   0   0   2   2   2   0 Conserved hypothetical ATP binding protein
+FeoB_N               PF02421.17 sp|Q8Y680|RSGA2_LISMO -              0.019   14.4   0.2      0.45    9.9   0.0   2.1   2   0   0   2   2   2   0 Ferrous iron transport protein B
+NACHT                PF05729.11 sp|Q8Y680|RSGA2_LISMO -              0.025   14.4   0.0     0.041   13.7   0.0   1.3   1   0   0   1   1   1   0 NACHT domain
+RNA_helicase         PF00910.21 sp|Q8Y680|RSGA2_LISMO -              0.027   14.8   0.1     0.066   13.5   0.0   1.7   2   0   0   2   2   2   0 RNA helicase
+cobW                 PF02492.18 sp|Q8Y680|RSGA2_LISMO -               0.03   13.8   0.7       0.4   10.2   0.1   2.2   2   0   0   2   2   2   0 CobW/HypB/UreG, nucleotide-binding domain
+AAA_24               PF13479.5  sp|Q8Y680|RSGA2_LISMO -              0.043   13.4   0.0      0.06   13.0   0.0   1.3   1   0   0   1   1   1   0 AAA domain
+Zeta_toxin           PF06414.11 sp|Q8Y680|RSGA2_LISMO -              0.077   12.2   0.0      0.15   11.2   0.0   1.4   1   0   0   1   1   1   0 Zeta toxin
+eIF-1a               PF01176.18 sp|Q8Y680|RSGA2_LISMO -               0.13   12.0   0.0      0.28   10.9   0.0   1.5   1   0   0   1   1   1   0 Translation initiation factor 1A / IF-1
+MecA_N               PF05223.10 sp|Q8Y680|RSGA2_LISMO -               0.15   12.2   0.2      0.26   11.4   0.2   1.4   1   0   0   1   1   1   0 NTF2-like N-terminal transpeptidase domain
+AAA_30               PF13604.5  sp|Q8Y680|RSGA2_LISMO -               0.17   11.5   0.0      0.31   10.7   0.0   1.3   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q8Y680.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q8Y680.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q8Y680.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 16:00:07 2019
+# [ok]

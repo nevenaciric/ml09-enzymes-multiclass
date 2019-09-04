@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CheB_methylest       PF01339.16 sp|Q8VL08|CHEB2_AZOBR -            1.6e-55  187.3   0.2   3.1e-55  186.4   0.1   1.5   2   0   0   2   2   2   1 CheB methylesterase
+Response_reg         PF00072.23 sp|Q8VL08|CHEB2_AZOBR -            9.7e-23   80.4   0.2     2e-22   79.4   0.2   1.5   1   0   0   1   1   1   1 Response regulator receiver domain
+TAL_effector         PF03377.12 sp|Q8VL08|CHEB2_AZOBR -              0.013   15.3   0.0     0.042   13.7   0.0   1.9   1   0   0   1   1   1   0 TAL effector repeat
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q8VL08.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q8VL08.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q8VL08.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 15:57:39 2019
+# [ok]

@@ -1,0 +1,34 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q81J16|ECFA1_BACCR -            2.5e-36  125.1   0.0   4.6e-36  124.3   0.0   1.4   1   0   0   1   1   1   1 ABC transporter
+SMC_N                PF02463.18 sp|Q81J16|ECFA1_BACCR -            1.3e-10   41.0   1.0   5.7e-10   38.9   1.0   1.9   1   1   0   1   1   1   1 RecF/RecN/SMC N terminal domain
+AAA_21               PF13304.5  sp|Q81J16|ECFA1_BACCR -            9.8e-09   35.3   2.8    0.0019   18.0   0.0   2.2   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_22               PF13401.5  sp|Q81J16|ECFA1_BACCR -            7.6e-07   29.4   0.1     8e-06   26.1   0.1   2.1   1   1   0   1   1   1   1 AAA domain
+AAA_29               PF13555.5  sp|Q81J16|ECFA1_BACCR -            0.00034   20.2   0.1   0.00064   19.3   0.1   1.4   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+RsgA_GTPase          PF03193.15 sp|Q81J16|ECFA1_BACCR -              0.002   17.9   0.3     0.093   12.5   0.0   2.3   2   0   0   2   2   2   1 RsgA GTPase
+Mg_chelatase         PF01078.20 sp|Q81J16|ECFA1_BACCR -             0.0026   17.1   0.0      0.31   10.3   0.0   2.1   2   0   0   2   2   2   1 Magnesium chelatase, subunit ChlI
+AAA                  PF00004.28 sp|Q81J16|ECFA1_BACCR -             0.0036   17.6   0.2       2.3    8.6   0.0   2.3   2   0   0   2   2   2   2 ATPase family associated with various cellular activities (AAA)
+AAA_15               PF13175.5  sp|Q81J16|ECFA1_BACCR -             0.0078   15.8   0.0     0.012   15.2   0.0   1.3   1   0   0   1   1   1   1 AAA ATPase domain
+SbcCD_C              PF13558.5  sp|Q81J16|ECFA1_BACCR -              0.008   16.3   0.0      0.12   12.5   0.0   2.2   1   1   0   1   1   1   1 Putative exonuclease SbcCD, C subunit
+AAA_23               PF13476.5  sp|Q81J16|ECFA1_BACCR -              0.016   15.7   0.4     0.017   15.6   0.4   1.6   1   1   0   1   1   1   0 AAA domain
+AAA_13               PF13166.5  sp|Q81J16|ECFA1_BACCR -              0.019   13.6   0.0     0.024   13.2   0.0   1.2   1   0   0   1   1   1   0 AAA domain
+TniB                 PF05621.10 sp|Q81J16|ECFA1_BACCR -              0.022   13.9   0.7     0.048   12.8   0.1   1.8   2   0   0   2   2   2   0 Bacterial TniB protein
+AAA_5                PF07728.13 sp|Q81J16|ECFA1_BACCR -              0.036   13.9   0.5      0.22   11.4   0.1   2.3   1   1   0   2   2   2   0 AAA domain (dynein-related subfamily)
+AAA_16               PF13191.5  sp|Q81J16|ECFA1_BACCR -              0.043   14.1   0.4      0.41   10.9   0.0   2.6   2   1   0   3   3   3   0 AAA ATPase domain
+G-alpha              PF00503.19 sp|Q81J16|ECFA1_BACCR -              0.045   12.8   0.0      0.24   10.4   0.0   1.9   1   1   1   2   2   2   0 G-protein alpha subunit
+DEAD                 PF00270.28 sp|Q81J16|ECFA1_BACCR -              0.046   13.4   0.2      0.18   11.4   0.2   1.9   1   1   0   1   1   1   0 DEAD/DEAH box helicase
+AAA_28               PF13521.5  sp|Q81J16|ECFA1_BACCR -              0.063   13.4   0.0       1.1    9.4   0.0   2.2   2   0   0   2   2   2   0 AAA domain
+AAA_25               PF13481.5  sp|Q81J16|ECFA1_BACCR -              0.066   12.7   0.0       7.6    6.0   0.0   2.3   2   0   0   2   2   2   0 AAA domain
+NACHT                PF05729.11 sp|Q81J16|ECFA1_BACCR -               0.11   12.3   0.8      0.59    9.9   0.1   2.2   2   0   0   2   2   2   0 NACHT domain
+AAA_24               PF13479.5  sp|Q81J16|ECFA1_BACCR -               0.17   11.5   0.1      0.34   10.5   0.0   1.5   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q81J16.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q81J16.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q81J16.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 15:32:18 2019
+# [ok]

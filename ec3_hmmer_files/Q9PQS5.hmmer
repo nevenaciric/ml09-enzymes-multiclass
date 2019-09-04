@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RsgA_GTPase          PF03193.15 sp|Q9PQS5|RSGA_UREPA -              2e-51  174.1   0.5   2.8e-51  173.7   0.5   1.2   1   0   0   1   1   1   1 RsgA GTPase
+MMR_HSR1             PF01926.22 sp|Q9PQS5|RSGA_UREPA -            1.6e-07   31.3   0.4   7.2e-07   29.2   0.0   2.1   2   1   0   2   2   2   1 50S ribosome-binding GTPase
+RsgA_N               PF16745.4  sp|Q9PQS5|RSGA_UREPA -            0.00011   21.7   0.0   0.00021   20.8   0.0   1.4   1   0   0   1   1   1   1 RsgA N-terminal domain
+Septin               PF00735.17 sp|Q9PQS5|RSGA_UREPA -            0.00029   20.1   0.0   0.00058   19.1   0.0   1.6   1   0   0   1   1   1   1 Septin
+AAA_16               PF13191.5  sp|Q9PQS5|RSGA_UREPA -             0.0017   18.6   0.0    0.0029   17.9   0.0   1.4   1   0   0   1   1   1   1 AAA ATPase domain
+AAA_29               PF13555.5  sp|Q9PQS5|RSGA_UREPA -             0.0099   15.5   0.2     0.021   14.4   0.2   1.5   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+ABC_tran             PF00005.26 sp|Q9PQS5|RSGA_UREPA -              0.015   15.7   1.2      0.03   14.7   0.2   1.7   1   1   1   2   2   2   0 ABC transporter
+RNA_helicase         PF00910.21 sp|Q9PQS5|RSGA_UREPA -              0.022   15.1   0.0      0.05   13.9   0.0   1.6   1   0   0   1   1   1   0 RNA helicase
+FeoB_N               PF02421.17 sp|Q9PQS5|RSGA_UREPA -              0.022   14.2   1.9     0.023   14.1   0.1   1.9   2   0   0   2   2   2   0 Ferrous iron transport protein B
+MobB                 PF03205.13 sp|Q9PQS5|RSGA_UREPA -              0.023   14.5   0.1     0.059   13.2   0.1   1.8   1   0   0   1   1   1   0 Molybdopterin guanine dinucleotide synthesis protein B
+NACHT                PF05729.11 sp|Q9PQS5|RSGA_UREPA -              0.028   14.2   0.0     0.055   13.3   0.0   1.5   1   0   0   1   1   1   0 NACHT domain
+AAA_22               PF13401.5  sp|Q9PQS5|RSGA_UREPA -               0.04   14.1   0.0      0.11   12.6   0.0   1.8   2   0   0   2   2   2   0 AAA domain
+AAA_24               PF13479.5  sp|Q9PQS5|RSGA_UREPA -              0.045   13.4   0.1      0.07   12.7   0.1   1.5   1   1   0   1   1   1   0 AAA domain
+NTPase_1             PF03266.14 sp|Q9PQS5|RSGA_UREPA -              0.047   13.5   0.1      0.11   12.3   0.1   1.7   1   0   0   1   1   1   0 NTPase
+ArgK                 PF03308.15 sp|Q9PQS5|RSGA_UREPA -              0.061   12.2   0.0      0.11   11.4   0.0   1.3   1   0   0   1   1   1   0 ArgK protein
+AAA_5                PF07728.13 sp|Q9PQS5|RSGA_UREPA -              0.068   13.1   0.0      0.12   12.3   0.0   1.4   1   0   0   1   1   1   0 AAA domain (dynein-related subfamily)
+Roc                  PF08477.12 sp|Q9PQS5|RSGA_UREPA -               0.09   12.9   0.0      0.25   11.5   0.0   1.8   1   0   0   1   1   1   0 Ras of Complex, Roc, domain of DAPkinase
+Ras                  PF00071.21 sp|Q9PQS5|RSGA_UREPA -               0.12   11.9   0.8        11    5.5   0.0   2.4   2   0   0   2   2   2   0 Ras family
+DUF3885              PF13021.5  sp|Q9PQS5|RSGA_UREPA -               0.13   12.3   2.2       7.4    6.7   0.2   3.0   2   0   0   2   2   2   0 Domain of unknown function (DUF3885)
+CbiA                 PF01656.22 sp|Q9PQS5|RSGA_UREPA -               0.33   10.9   1.6        21    5.1   0.0   3.2   2   1   0   2   2   2   0 CobQ/CobB/MinD/ParA nucleotide binding domain
+Dynamin_N            PF00350.22 sp|Q9PQS5|RSGA_UREPA -               0.41   10.6   3.1      0.91    9.5   0.3   2.5   2   1   1   3   3   3   0 Dynamin family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q9PQS5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q9PQS5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q9PQS5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 16:26:11 2019
+# [ok]

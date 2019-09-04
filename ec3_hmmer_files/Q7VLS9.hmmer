@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ABC_tran             PF00005.26 sp|Q7VLS9|ZNUC_HAEDU -            1.9e-27   96.4   0.1   3.2e-27   95.6   0.1   1.4   1   0   0   1   1   1   1 ABC transporter
+AAA_21               PF13304.5  sp|Q7VLS9|ZNUC_HAEDU -            6.8e-10   39.1   2.9   0.00034   20.4   0.1   2.2   1   1   1   2   2   2   2 AAA domain, putative AbiEii toxin, Type IV TA system
+AAA_22               PF13401.5  sp|Q7VLS9|ZNUC_HAEDU -            1.5e-05   25.1   0.1   2.9e-05   24.3   0.1   1.4   1   1   0   1   1   1   1 AAA domain
+AAA_15               PF13175.5  sp|Q7VLS9|ZNUC_HAEDU -            1.7e-05   24.6   0.1   1.9e-05   24.4   0.1   1.2   1   0   0   1   1   1   1 AAA ATPase domain
+SMC_N                PF02463.18 sp|Q7VLS9|ZNUC_HAEDU -              2e-05   24.0   0.4    0.0071   15.7   0.0   2.2   2   0   0   2   2   2   2 RecF/RecN/SMC N terminal domain
+AAA_29               PF13555.5  sp|Q7VLS9|ZNUC_HAEDU -            2.9e-05   23.6   0.1   6.1e-05   22.6   0.1   1.5   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+AAA_23               PF13476.5  sp|Q7VLS9|ZNUC_HAEDU -            0.00021   21.8   0.3   0.00032   21.2   0.3   1.2   1   0   0   1   1   1   1 AAA domain
+RsgA_GTPase          PF03193.15 sp|Q7VLS9|ZNUC_HAEDU -            0.00045   20.1   0.4     0.001   18.9   0.1   1.7   2   0   0   2   2   2   1 RsgA GTPase
+Rad17                PF03215.14 sp|Q7VLS9|ZNUC_HAEDU -             0.0024   16.8   0.2    0.0029   16.5   0.2   1.2   1   0   0   1   1   1   1 Rad17 cell cycle checkpoint protein
+ABC_ATPase           PF09818.8  sp|Q7VLS9|ZNUC_HAEDU -             0.0029   16.4   0.3     0.056   12.1   0.2   2.0   2   0   0   2   2   2   1 Predicted ATPase of the ABC class
+AAA_30               PF13604.5  sp|Q7VLS9|ZNUC_HAEDU -             0.0036   17.0   0.0    0.0098   15.5   0.0   1.8   1   1   0   1   1   1   1 AAA domain
+AAA_16               PF13191.5  sp|Q7VLS9|ZNUC_HAEDU -             0.0065   16.8   0.5     0.022   15.0   0.5   1.8   1   1   0   1   1   1   1 AAA ATPase domain
+T2SSE                PF00437.19 sp|Q7VLS9|ZNUC_HAEDU -               0.02   13.9   0.4     0.035   13.0   0.4   1.3   1   0   0   1   1   1   0 Type II/IV secretion system protein
+AAA_10               PF12846.6  sp|Q7VLS9|ZNUC_HAEDU -              0.038   12.8   0.1     0.068   12.0   0.1   1.3   1   0   0   1   1   1   0 AAA-like domain
+Adeno_IVa2           PF02456.14 sp|Q7VLS9|ZNUC_HAEDU -              0.038   12.7   0.2     0.061   12.0   0.2   1.3   1   0   0   1   1   1   0 Adenovirus IVa2 protein
+ATPase_2             PF01637.17 sp|Q7VLS9|ZNUC_HAEDU -              0.041   13.7   0.1     0.069   13.0   0.1   1.3   1   0   0   1   1   1   0 ATPase domain predominantly from Archaea
+AAA_27               PF13514.5  sp|Q7VLS9|ZNUC_HAEDU -              0.044   13.3   0.0      0.07   12.6   0.0   1.2   1   0   0   1   1   1   0 AAA domain
+AAA_18               PF13238.5  sp|Q7VLS9|ZNUC_HAEDU -              0.051   14.0   0.0     0.092   13.2   0.0   1.4   1   0   0   1   1   1   0 AAA domain
+AAA_33               PF13671.5  sp|Q7VLS9|ZNUC_HAEDU -               0.06   13.4   0.0     0.096   12.7   0.0   1.6   1   1   0   1   1   1   0 AAA domain
+cobW                 PF02492.18 sp|Q7VLS9|ZNUC_HAEDU -              0.093   12.2   3.3      0.33   10.4   0.3   2.1   2   0   0   2   2   2   0 CobW/HypB/UreG, nucleotide-binding domain
+NACHT                PF05729.11 sp|Q7VLS9|ZNUC_HAEDU -               0.72    9.7   2.8      0.47   10.2   0.2   2.0   2   1   1   3   3   3   0 NACHT domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/Q7VLS9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/Q7VLS9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/Q7VLS9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 15:28:30 2019
+# [ok]
