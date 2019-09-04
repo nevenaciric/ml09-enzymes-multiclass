@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_C14        PF00656.21 sp|O89110|CASP8_MOUSE -            1.5e-52  178.9   1.4   1.5e-52  178.9   1.4   1.9   3   0   0   3   3   3   1 Caspase domain
+DED                  PF01335.20 sp|O89110|CASP8_MOUSE -            1.8e-44  149.8  16.4     1e-22   80.1   2.2   2.4   2   0   0   2   2   2   2 Death effector domain
+PYRIN                PF02758.15 sp|O89110|CASP8_MOUSE -               0.38   10.9   5.9       0.2   11.8   1.1   2.7   2   1   0   2   2   2   0 PAAD/DAPIN/Pyrin domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/O89110.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/O89110.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/O89110.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:05:46 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_M50        PF02163.21 sp|O51145|Y118_BORBU -            3.2e-47  160.8   4.0     4e-47  160.5   4.0   1.1   1   0   0   1   1   1   1 Peptidase family M50
+PDZ_2                PF13180.5  sp|O51145|Y118_BORBU -            1.6e-14   53.9   1.7   1.6e-08   34.6   0.0   2.5   3   0   0   3   3   3   2 PDZ domain
+PDZ                  PF00595.23 sp|O51145|Y118_BORBU -            4.2e-09   36.5   0.2     3e-05   24.2   0.1   2.3   2   0   0   2   2   2   2 PDZ domain (Also known as DHR or GLGF)
+Tricorn_PDZ          PF14685.5  sp|O51145|Y118_BORBU -            0.00011   22.0   0.0     0.036   14.0   0.0   2.4   2   0   0   2   2   2   2 Tricorn protease PDZ domain
+GRASP55_65           PF04495.13 sp|O51145|Y118_BORBU -              0.028   14.6   0.0     0.055   13.7   0.0   1.4   1   0   0   1   1   1   0 GRASP55/65 PDZ-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/O51145.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/O51145.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/O51145.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:00:17 2019
+# [ok]

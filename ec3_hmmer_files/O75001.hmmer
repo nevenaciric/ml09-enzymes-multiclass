@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MCM                  PF00493.22 sp|O75001|MCM7_SCHPO -           1.5e-134  448.1   0.0  2.4e-134  447.5   0.0   1.3   1   0   0   1   1   1   1 MCM2/3/5 family
+MCM_OB               PF17207.2  sp|O75001|MCM7_SCHPO -            3.3e-32  110.9   0.0   6.3e-32  110.0   0.0   1.5   1   0   0   1   1   1   1 MCM OB domain
+MCM_N                PF14551.5  sp|O75001|MCM7_SCHPO -            6.6e-20   71.5   1.2   1.7e-19   70.2   1.2   1.8   1   0   0   1   1   1   1 MCM N-terminal domain
+Mg_chelatase         PF01078.20 sp|O75001|MCM7_SCHPO -            1.6e-07   30.8   0.0     1e-05   24.9   0.0   2.4   2   0   0   2   2   2   1 Magnesium chelatase, subunit ChlI
+AAA_5                PF07728.13 sp|O75001|MCM7_SCHPO -            1.4e-06   28.3   0.0   3.5e-06   27.0   0.0   1.8   1   0   0   1   1   1   1 AAA domain (dynein-related subfamily)
+AAA_3                PF07726.10 sp|O75001|MCM7_SCHPO -              0.013   15.3   0.0     0.039   13.7   0.0   1.8   1   1   0   1   1   1   0 ATPase family associated with various cellular activities (AAA)
+NTPase_1             PF03266.14 sp|O75001|MCM7_SCHPO -              0.042   13.6   0.2       1.6    8.5   0.1   2.6   2   0   0   2   2   2   0 NTPase
+Sigma54_activat      PF00158.25 sp|O75001|MCM7_SCHPO -              0.074   12.7   0.0      0.48   10.0   0.0   2.1   2   0   0   2   2   2   0 Sigma-54 interaction domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/O75001.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/O75001.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/O75001.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:03:45 2019
+# [ok]

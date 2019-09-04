@@ -1,0 +1,19 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Cas9_REC             PF16592.4  sp|G3ECR1|CAS9_STRTR -           9.5e-192  638.3  34.2  9.5e-192  638.3  34.2   2.3   2   0   0   2   2   2   1 REC lobe of CRISPR-associated endonuclease Cas9
+Cas9_PI              PF16595.4  sp|G3ECR1|CAS9_STRTR -            2.7e-30  106.0   8.8   2.7e-30  106.0   8.8   5.5   5   1   0   5   5   5   1 PAM-interacting domain of CRISPR-associated endonuclease Cas9
+HNH_4                PF13395.5  sp|G3ECR1|CAS9_STRTR -            7.2e-19   67.4   0.7   3.2e-18   65.3   0.7   2.3   1   0   0   1   1   1   1 HNH endonuclease
+Cas9-BH              PF16593.4  sp|G3ECR1|CAS9_STRTR -            5.8e-10   38.6   9.5   5.8e-10   38.6   9.5   3.3   3   0   0   3   3   3   1 Bridge helix of CRISPR-associated endonuclease Cas9
+RRXRR                PF14239.5  sp|G3ECR1|CAS9_STRTR -             0.0012   18.7   0.1    0.0033   17.2   0.1   1.7   1   0   0   1   1   1   1 RRXRR protein
+IncA                 PF04156.13 sp|G3ECR1|CAS9_STRTR -                  8    6.1   6.2      0.49   10.1   0.4   1.9   2   0   0   2   2   2   0 IncA protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/G3ECR1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/G3ECR1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/G3ECR1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 11:51:47 2019
+# [ok]

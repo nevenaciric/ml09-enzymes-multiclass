@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+ATP-synt_ab          PF00006.24 sp|D2B129|RHO_STRRD  -            2.4e-19   69.8   0.0   4.4e-19   68.9   0.0   1.5   1   0   0   1   1   1   1 ATP synthase alpha/beta family, nucleotide-binding domain
+Rho_RNA_bind         PF07497.11 sp|D2B129|RHO_STRRD  -            1.2e-15   57.1   0.0   2.2e-15   56.2   0.0   1.4   1   0   0   1   1   1   1 Rho termination factor, RNA-binding domain
+AAA_25               PF13481.5  sp|D2B129|RHO_STRRD  -            7.2e-07   28.9   1.9     1e-06   28.4   0.2   2.0   2   1   0   2   2   2   1 AAA domain
+AAA_22               PF13401.5  sp|D2B129|RHO_STRRD  -              0.072   13.3   0.0      0.18   12.0   0.0   1.6   1   0   0   1   1   1   0 AAA domain
+AAA_19               PF13245.5  sp|D2B129|RHO_STRRD  -              0.085   13.1   0.0      0.15   12.3   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/D2B129.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/D2B129.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/D2B129.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 11:45:45 2019
+# [ok]

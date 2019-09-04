@@ -1,0 +1,17 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_M50        PF02163.21 sp|O23053|ARAS2_ARATH -            4.1e-58  196.5   0.1     5e-58  196.2   0.1   1.0   1   0   0   1   1   1   1 Peptidase family M50
+PDZ_2                PF13180.5  sp|O23053|ARAS2_ARATH -            3.5e-08   33.6   0.1   8.3e-08   32.4   0.1   1.6   1   0   0   1   1   1   1 PDZ domain
+PDZ                  PF00595.23 sp|O23053|ARAS2_ARATH -            1.1e-05   25.6   0.1   2.7e-05   24.3   0.1   1.7   1   0   0   1   1   1   1 PDZ domain (Also known as DHR or GLGF)
+Peptidase_M50B       PF13398.5  sp|O23053|ARAS2_ARATH -               0.12   11.9   2.8     0.099   12.2   0.5   2.0   2   0   0   2   2   2   0 Peptidase M50B-like
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/O23053.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/O23053.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/O23053.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 11:55:55 2019
+# [ok]

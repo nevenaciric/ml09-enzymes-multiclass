@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AdoHcyase            PF05221.16 sp|O58275|SAHH_PYRHO -            2.3e-64  217.3   0.0   1.6e-36  125.9   0.0   2.0   1   1   1   2   2   2   2 S-adenosyl-L-homocysteine hydrolase
+AdoHcyase_NAD        PF00670.20 sp|O58275|SAHH_PYRHO -            3.5e-51  173.4   0.1   5.7e-51  172.7   0.1   1.3   1   0   0   1   1   1   1 S-adenosyl-L-homocysteine hydrolase, NAD binding domain
+2-Hacid_dh_C         PF02826.18 sp|O58275|SAHH_PYRHO -            5.4e-09   35.5   0.1   1.3e-08   34.3   0.1   1.6   1   0   0   1   1   1   1 D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+IlvN                 PF07991.11 sp|O58275|SAHH_PYRHO -            3.7e-07   29.8   0.0   7.1e-07   28.8   0.0   1.4   1   0   0   1   1   1   1 Acetohydroxy acid isomeroreductase, NADPH-binding domain
+3HCDH_N              PF02737.17 sp|O58275|SAHH_PYRHO -            0.00072   19.4   1.6      0.11   12.2   0.7   2.4   2   0   0   2   2   2   2 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+THF_DHG_CYH_C        PF02882.18 sp|O58275|SAHH_PYRHO -              0.007   15.6   0.3     0.037   13.3   0.3   1.9   1   1   0   1   1   1   1 Tetrahydrofolate dehydrogenase/cyclohydrolase, NAD(P)-binding domain
+TrkA_N               PF02254.17 sp|O58275|SAHH_PYRHO -              0.013   15.6   0.1     0.037   14.2   0.1   1.7   1   0   0   1   1   1   0 TrkA-N domain
+Pyr_redox_2          PF07992.13 sp|O58275|SAHH_PYRHO -              0.023   13.8   0.0      0.04   13.1   0.0   1.4   1   0   0   1   1   1   0 Pyridine nucleotide-disulphide oxidoreductase
+NifT                 PF06988.10 sp|O58275|SAHH_PYRHO -               0.09   12.5   0.0      0.25   11.1   0.0   1.7   1   0   0   1   1   1   0 NifT/FixU protein
+AlaDh_PNT_C          PF01262.20 sp|O58275|SAHH_PYRHO -               0.12   11.5   2.9      0.18   11.0   1.4   2.0   2   1   0   2   2   2   0 Alanine dehydrogenase/PNT, C-terminal domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/O58275.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/O58275.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/O58275.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:01:13 2019
+# [ok]

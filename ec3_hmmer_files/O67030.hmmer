@@ -1,0 +1,34 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MnmE_helical         PF12631.6  sp|O67030|MNME_AQUAE -            1.1e-57  195.5   7.5   1.4e-57  195.1   7.5   1.1   1   0   0   1   1   1   1 MnmE helical domain
+TrmE_N               PF10396.8  sp|O67030|MNME_AQUAE -            1.9e-40  137.6   0.0     9e-39  132.2   0.0   2.7   3   0   0   3   3   2   1 GTP-binding protein TrmE N-terminus
+MMR_HSR1             PF01926.22 sp|O67030|MNME_AQUAE -            8.4e-30  103.1   0.3   2.6e-29  101.5   0.3   1.9   1   0   0   1   1   1   1 50S ribosome-binding GTPase
+FeoB_N               PF02421.17 sp|O67030|MNME_AQUAE -            3.2e-13   49.4   0.6   3.2e-13   49.4   0.6   1.7   2   0   0   2   2   2   1 Ferrous iron transport protein B
+Dynamin_N            PF00350.22 sp|O67030|MNME_AQUAE -            1.8e-08   34.5   2.2   0.00084   19.3   0.1   2.7   2   1   1   3   3   2   2 Dynamin family
+AIG1                 PF04548.15 sp|O67030|MNME_AQUAE -            6.2e-07   28.9   0.3   1.2e-06   27.9   0.3   1.5   1   0   0   1   1   1   1 AIG1 family
+Ras                  PF00071.21 sp|O67030|MNME_AQUAE -            1.2e-06   28.1   0.2   3.4e-06   26.7   0.2   1.8   1   0   0   1   1   1   1 Ras family
+GTP_EFTU             PF00009.26 sp|O67030|MNME_AQUAE -              5e-05   22.8   0.3    0.0085   15.6   0.3   3.2   1   1   0   1   1   1   1 Elongation factor Tu GTP binding domain
+Roc                  PF08477.12 sp|O67030|MNME_AQUAE -            0.00011   22.3   0.0   0.00029   21.0   0.0   1.7   1   1   0   1   1   1   1 Ras of Complex, Roc, domain of DAPkinase
+MMR_HSR1_Xtn         PF16897.4  sp|O67030|MNME_AQUAE -            0.00053   19.9   0.8    0.0014   18.5   0.1   2.1   2   0   0   2   2   1   1 C-terminal region of MMR_HSR1 domain
+NOG1                 PF06858.13 sp|O67030|MNME_AQUAE -             0.0011   18.6   0.4    0.0039   16.8   0.4   2.0   1   0   0   1   1   1   1 Nucleolar GTP-binding protein 1 (NOG1)
+RsgA_GTPase          PF03193.15 sp|O67030|MNME_AQUAE -             0.0013   18.6   0.9     0.018   14.8   0.0   2.6   2   1   0   2   2   2   1 RsgA GTPase
+SRPRB                PF09439.9  sp|O67030|MNME_AQUAE -              0.003   16.9   0.1    0.0064   15.8   0.1   1.6   1   0   0   1   1   1   1 Signal recognition particle receptor beta subunit
+ABC_tran             PF00005.26 sp|O67030|MNME_AQUAE -             0.0035   17.8   0.2     0.007   16.8   0.2   1.7   1   1   0   1   1   1   1 ABC transporter
+Gtr1_RagA            PF04670.11 sp|O67030|MNME_AQUAE -             0.0037   16.5   0.1    0.0059   15.9   0.1   1.5   1   0   0   1   1   1   1 Gtr1/RagA G protein conserved region
+AAA_24               PF13479.5  sp|O67030|MNME_AQUAE -              0.018   14.7   0.4       1.2    8.8   0.0   2.5   1   1   1   2   2   2   0 AAA domain
+AAA_22               PF13401.5  sp|O67030|MNME_AQUAE -              0.023   14.9   1.6       1.3    9.2   0.1   2.9   2   1   1   3   3   3   0 AAA domain
+AAA_16               PF13191.5  sp|O67030|MNME_AQUAE -               0.04   14.2   1.8      0.15   12.3   0.1   2.5   1   1   1   2   2   2   0 AAA ATPase domain
+AAA_18               PF13238.5  sp|O67030|MNME_AQUAE -              0.071   13.5   0.2       1.3    9.4   0.2   2.5   1   1   0   1   1   1   0 AAA domain
+YfkB                 PF08756.9  sp|O67030|MNME_AQUAE -              0.081   12.6   0.1      0.16   11.6   0.1   1.5   1   0   0   1   1   1   0 YfkB-like domain
+GutM                 PF06923.10 sp|O67030|MNME_AQUAE -                0.1   12.6   0.2      0.54   10.3   0.1   2.3   2   0   0   2   2   2   0 Glucitol operon activator protein (GutM)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/O67030.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/O67030.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/O67030.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:02:36 2019
+# [ok]

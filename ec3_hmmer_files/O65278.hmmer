@@ -1,0 +1,16 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_C48        PF02902.18 sp|O65278|ULP1B_ARATH -            4.2e-53  180.3   0.3   8.6e-53  179.3   0.3   1.5   1   0   0   1   1   1   1 Ulp1 protease family, C-terminal catalytic domain
+SusD_RagB            PF07980.10 sp|O65278|ULP1B_ARATH -              0.024   14.2   0.0     0.046   13.2   0.0   1.4   1   1   0   1   1   1   0 SusD family
+Fer4_14              PF13394.5  sp|O65278|ULP1B_ARATH -              0.088   12.8   0.0      0.55   10.3   0.0   2.1   2   0   0   2   2   2   0 4Fe-4S single cluster domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/O65278.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/O65278.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/O65278.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:02:20 2019
+# [ok]

@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MnmE_helical         PF12631.6  sp|B3ETH9|MNME_AMOA5 -            2.1e-48  165.2   4.4   2.8e-48  164.7   4.4   1.2   1   0   0   1   1   1   1 MnmE helical domain
+TrmE_N               PF10396.8  sp|B3ETH9|MNME_AMOA5 -            4.8e-39  133.1   0.0     1e-38  132.0   0.0   1.6   1   0   0   1   1   1   1 GTP-binding protein TrmE N-terminus
+MMR_HSR1             PF01926.22 sp|B3ETH9|MNME_AMOA5 -              3e-25   88.4   0.0   8.4e-25   87.0   0.0   1.8   1   0   0   1   1   1   1 50S ribosome-binding GTPase
+FeoB_N               PF02421.17 sp|B3ETH9|MNME_AMOA5 -            8.8e-09   35.0   0.0   1.6e-08   34.2   0.0   1.4   1   0   0   1   1   1   1 Ferrous iron transport protein B
+GTP_EFTU             PF00009.26 sp|B3ETH9|MNME_AMOA5 -            8.3e-07   28.6   0.0    0.0029   17.1   0.0   2.3   1   1   1   2   2   2   2 Elongation factor Tu GTP binding domain
+Dynamin_N            PF00350.22 sp|B3ETH9|MNME_AMOA5 -            1.5e-06   28.2   0.2     6e-05   23.1   0.0   2.6   3   0   0   3   3   3   1 Dynamin family
+Ras                  PF00071.21 sp|B3ETH9|MNME_AMOA5 -            1.1e-05   25.0   0.0   2.2e-05   24.0   0.0   1.5   1   0   0   1   1   1   1 Ras family
+Guanylate_kin        PF00625.20 sp|B3ETH9|MNME_AMOA5 -            9.7e-05   22.0   0.0    0.0025   17.5   0.0   2.3   1   1   0   1   1   1   1 Guanylate kinase
+MMR_HSR1_Xtn         PF16897.4  sp|B3ETH9|MNME_AMOA5 -             0.0011   18.9   0.0    0.0039   17.1   0.0   2.1   2   0   0   2   2   2   1 C-terminal region of MMR_HSR1 domain
+RsgA_GTPase          PF03193.15 sp|B3ETH9|MNME_AMOA5 -             0.0022   17.8   0.1     0.023   14.5   0.0   2.2   1   1   1   2   2   2   1 RsgA GTPase
+ABC_tran             PF00005.26 sp|B3ETH9|MNME_AMOA5 -             0.0023   18.3   0.5     0.012   16.0   0.4   2.4   2   2   0   2   2   2   1 ABC transporter
+Roc                  PF08477.12 sp|B3ETH9|MNME_AMOA5 -             0.0026   17.9   0.0    0.0088   16.2   0.0   1.9   1   1   0   1   1   1   1 Ras of Complex, Roc, domain of DAPkinase
+AAA_16               PF13191.5  sp|B3ETH9|MNME_AMOA5 -              0.012   15.9   0.9     0.085   13.1   0.0   2.6   1   1   1   2   2   2   0 AAA ATPase domain
+AAA_18               PF13238.5  sp|B3ETH9|MNME_AMOA5 -              0.013   15.9   0.1     0.046   14.1   0.0   2.0   2   0   0   2   2   2   0 AAA domain
+ABC_ATPase           PF09818.8  sp|B3ETH9|MNME_AMOA5 -              0.058   12.1   0.0     0.091   11.4   0.0   1.2   1   0   0   1   1   1   0 Predicted ATPase of the ABC class
+AAA_28               PF13521.5  sp|B3ETH9|MNME_AMOA5 -              0.059   13.5   0.3      0.19   11.9   0.0   2.0   2   0   0   2   2   2   0 AAA domain
+ATP_bind_1           PF03029.16 sp|B3ETH9|MNME_AMOA5 -               0.06   13.0   0.0       2.1    8.0   0.0   2.3   2   0   0   2   2   2   0 Conserved hypothetical ATP binding protein
+AIG1                 PF04548.15 sp|B3ETH9|MNME_AMOA5 -              0.078   12.2   0.3      0.16   11.2   0.0   1.6   2   0   0   2   2   2   0 AIG1 family
+Arf                  PF00025.20 sp|B3ETH9|MNME_AMOA5 -              0.093   12.1   0.0      0.28   10.5   0.0   1.9   1   1   0   1   1   1   0 ADP-ribosylation factor family
+AAA_29               PF13555.5  sp|B3ETH9|MNME_AMOA5 -               0.11   12.2   0.0      0.29   10.8   0.0   1.7   1   0   0   1   1   1   0 P-loop containing region of AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/B3ETH9.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/B3ETH9.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/B3ETH9.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 10:59:42 2019
+# [ok]

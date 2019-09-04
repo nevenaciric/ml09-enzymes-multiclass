@@ -1,0 +1,22 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PDZ_1                PF12812.6  sp|A5DAL3|NM111_PICGU -            5.2e-47  157.7   0.0   2.5e-32  110.7   0.0   3.0   2   0   0   2   2   2   2 PDZ-like domain
+Trypsin_2            PF13365.5  sp|A5DAL3|NM111_PICGU -            9.9e-26   91.4   0.1   9.2e-20   72.0   0.0   2.6   2   0   0   2   2   2   2 Trypsin-like peptidase domain
+PDZ_2                PF13180.5  sp|A5DAL3|NM111_PICGU -            1.8e-17   63.3   0.6   5.3e-06   26.6   0.0   4.1   4   0   0   4   4   4   3 PDZ domain
+PDZ                  PF00595.23 sp|A5DAL3|NM111_PICGU -            3.1e-14   53.0   0.0   4.1e-07   30.2   0.0   3.6   3   0   0   3   3   3   3 PDZ domain (Also known as DHR or GLGF)
+Tricorn_PDZ          PF14685.5  sp|A5DAL3|NM111_PICGU -            7.3e-05   22.6   0.2      0.44   10.5   0.0   3.7   4   0   0   4   4   4   1 Tricorn protease PDZ domain
+Trypsin              PF00089.25 sp|A5DAL3|NM111_PICGU -            0.00019   21.2   0.0   0.00086   19.1   0.0   2.0   1   1   0   1   1   1   1 Trypsin
+Peptidase_S7         PF00949.20 sp|A5DAL3|NM111_PICGU -              0.031   14.0   0.1     0.084   12.6   0.1   1.7   1   0   0   1   1   1   0 Peptidase S7, Flavivirus NS3 serine protease
+DUF31                PF01732.15 sp|A5DAL3|NM111_PICGU -              0.032   13.7   0.3     0.078   12.4   0.3   1.6   1   0   0   1   1   1   0 Putative peptidase (DUF31)
+Peptidase_S46        PF10459.8  sp|A5DAL3|NM111_PICGU -              0.062   11.9   0.7      0.16   10.5   0.1   1.7   2   0   0   2   2   2   0 Peptidase S46
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/A5DAL3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/A5DAL3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/A5DAL3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 10:09:59 2019
+# [ok]

@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Lys                  PF00062.19 sp|C0HLB7|LYS2_LUCSE -            5.9e-39  133.0   2.7   6.7e-39  132.9   2.7   1.0   1   0   0   1   1   1   1 C-type lysozyme/alpha-lactalbumin family
+SLT                  PF01464.19 sp|C0HLB7|LYS2_LUCSE -            0.00065   19.2   0.0   0.00094   18.7   0.0   1.2   1   0   0   1   1   1   1 Transglycosylase SLT domain
+Transglycosylas      PF06737.13 sp|C0HLB7|LYS2_LUCSE -              0.022   15.3   4.3      0.12   12.9   4.3   1.9   1   1   0   1   1   1   0 Transglycosylase-like domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/C0HLB7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/C0HLB7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/C0HLB7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 11:30:31 2019
+# [ok]

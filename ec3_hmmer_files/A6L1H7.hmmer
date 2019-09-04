@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RsgA_GTPase          PF03193.15 sp|A6L1H7|RSGA_BACV8 -            2.1e-51  174.0   0.0   2.8e-51  173.7   0.0   1.1   1   0   0   1   1   1   1 RsgA GTPase
+RsgA_N               PF16745.4  sp|A6L1H7|RSGA_BACV8 -            6.6e-18   64.1   0.3   1.2e-17   63.3   0.3   1.4   1   0   0   1   1   1   1 RsgA N-terminal domain
+MMR_HSR1             PF01926.22 sp|A6L1H7|RSGA_BACV8 -            9.7e-08   32.0   0.0   2.2e-07   30.8   0.0   1.6   1   0   0   1   1   1   1 50S ribosome-binding GTPase
+AAA_29               PF13555.5  sp|A6L1H7|RSGA_BACV8 -            1.5e-06   27.7   0.1   4.2e-06   26.3   0.1   1.7   1   0   0   1   1   1   1 P-loop containing region of AAA domain
+ABC_tran             PF00005.26 sp|A6L1H7|RSGA_BACV8 -            2.2e-05   24.9   0.0   3.3e-05   24.3   0.0   1.4   1   0   0   1   1   1   1 ABC transporter
+FeoB_N               PF02421.17 sp|A6L1H7|RSGA_BACV8 -             0.0001   21.7   0.1     0.085   12.3   0.1   2.4   2   0   0   2   2   2   2 Ferrous iron transport protein B
+eIF-1a               PF01176.18 sp|A6L1H7|RSGA_BACV8 -            0.00011   21.8   0.1   0.00021   20.9   0.1   1.5   1   0   0   1   1   1   1 Translation initiation factor 1A / IF-1
+AAA_23               PF13476.5  sp|A6L1H7|RSGA_BACV8 -            0.00055   20.4   1.5     0.001   19.5   0.3   2.0   2   0   0   2   2   2   1 AAA domain
+AAA_16               PF13191.5  sp|A6L1H7|RSGA_BACV8 -             0.0014   19.0   0.0    0.0027   18.0   0.0   1.5   1   0   0   1   1   1   1 AAA ATPase domain
+AIG1                 PF04548.15 sp|A6L1H7|RSGA_BACV8 -             0.0058   15.9   0.0      0.01   15.1   0.0   1.4   1   0   0   1   1   1   1 AIG1 family
+Septin               PF00735.17 sp|A6L1H7|RSGA_BACV8 -              0.015   14.4   0.1     0.027   13.6   0.1   1.4   1   0   0   1   1   1   0 Septin
+Dynamin_N            PF00350.22 sp|A6L1H7|RSGA_BACV8 -              0.017   15.1   1.1      0.36   10.8   0.1   2.5   2   1   1   3   3   3   0 Dynamin family
+SMC_N                PF02463.18 sp|A6L1H7|RSGA_BACV8 -              0.022   14.1   0.5     0.068   12.5   0.1   1.9   2   0   0   2   2   2   0 RecF/RecN/SMC N terminal domain
+GTP_EFTU             PF00009.26 sp|A6L1H7|RSGA_BACV8 -              0.044   13.2   0.5      0.42   10.0   0.0   2.5   1   1   1   2   2   2   0 Elongation factor Tu GTP binding domain
+DUF815               PF05673.12 sp|A6L1H7|RSGA_BACV8 -              0.048   12.7   0.0     0.074   12.1   0.0   1.2   1   0   0   1   1   1   0 Protein of unknown function (DUF815)
+NB-ARC               PF00931.21 sp|A6L1H7|RSGA_BACV8 -              0.076   11.9   0.1      0.13   11.1   0.1   1.3   1   0   0   1   1   1   0 NB-ARC domain
+cobW                 PF02492.18 sp|A6L1H7|RSGA_BACV8 -              0.093   12.2   0.7      0.35   10.3   0.3   2.0   2   0   0   2   2   2   0 CobW/HypB/UreG, nucleotide-binding domain
+AAA_22               PF13401.5  sp|A6L1H7|RSGA_BACV8 -              0.098   12.8   0.1       0.2   11.8   0.1   1.4   1   0   0   1   1   1   0 AAA domain
+AAA                  PF00004.28 sp|A6L1H7|RSGA_BACV8 -               0.11   12.9   0.1      0.27   11.6   0.0   1.8   2   0   0   2   2   2   0 ATPase family associated with various cellular activities (AAA)
+AAA_25               PF13481.5  sp|A6L1H7|RSGA_BACV8 -               0.16   11.4   0.1       0.4   10.1   0.0   1.6   2   0   0   2   2   2   0 AAA domain
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/A6L1H7.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/A6L1H7.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/A6L1H7.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 10:16:13 2019
+# [ok]

@@ -1,0 +1,33 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+LexA_DNA_bind        PF01726.15 sp|A0L9E2|LEXA_MAGMM -            6.9e-18   64.1   0.4   1.1e-17   63.4   0.4   1.4   1   0   0   1   1   1   1 LexA DNA binding domain
+Peptidase_S24        PF00717.22 sp|A0L9E2|LEXA_MAGMM -            1.3e-15   56.9   0.1   2.3e-15   56.2   0.1   1.4   1   0   0   1   1   1   1 Peptidase S24-like
+MarR_2               PF12802.6  sp|A0L9E2|LEXA_MAGMM -            8.3e-10   38.3   0.0   1.4e-09   37.6   0.0   1.4   1   0   0   1   1   1   1 MarR family
+MarR                 PF01047.21 sp|A0L9E2|LEXA_MAGMM -            3.9e-07   29.8   0.0   6.5e-07   29.1   0.0   1.4   1   0   0   1   1   1   1 MarR family
+Fe_dep_repress       PF01325.18 sp|A0L9E2|LEXA_MAGMM -            1.8e-06   27.9   0.0     4e-06   26.8   0.0   1.5   1   0   0   1   1   1   1 Iron dependent repressor, N-terminal DNA binding domain
+HTH_IclR             PF09339.9  sp|A0L9E2|LEXA_MAGMM -            2.7e-06   27.0   0.0   5.2e-06   26.1   0.0   1.4   1   0   0   1   1   1   1 IclR helix-turn-helix domain
+HTH_24               PF13412.5  sp|A0L9E2|LEXA_MAGMM -            8.7e-06   25.1   0.0     2e-05   23.9   0.0   1.7   1   0   0   1   1   1   1 Winged helix-turn-helix DNA-binding
+TrmB                 PF01978.18 sp|A0L9E2|LEXA_MAGMM -            5.1e-05   23.0   0.0   9.7e-05   22.1   0.0   1.4   1   0   0   1   1   1   1 Sugar-specific transcriptional regulator TrmB
+HTH_Crp_2            PF13545.5  sp|A0L9E2|LEXA_MAGMM -            0.00033   20.5   0.0   0.00067   19.5   0.0   1.4   1   0   0   1   1   1   1 Crp-like helix-turn-helix domain
+RPA_C                PF08784.10 sp|A0L9E2|LEXA_MAGMM -             0.0015   19.0   0.0    0.0023   18.4   0.0   1.3   1   0   0   1   1   1   1 Replication protein A C terminal
+HTH_20               PF12840.6  sp|A0L9E2|LEXA_MAGMM -              0.014   15.4   0.0     0.028   14.4   0.0   1.5   1   0   0   1   1   1   0 Helix-turn-helix domain
+GntR                 PF00392.20 sp|A0L9E2|LEXA_MAGMM -              0.015   14.8   0.1     0.037   13.6   0.1   1.7   1   1   0   1   1   1   0 Bacterial regulatory proteins, gntR family
+Sigma70_r3           PF04539.15 sp|A0L9E2|LEXA_MAGMM -               0.03   14.3   0.1     0.075   13.0   0.1   1.7   1   0   0   1   1   1   0 Sigma-70 region 3
+HTH_27               PF13463.5  sp|A0L9E2|LEXA_MAGMM -              0.052   13.9   0.0     0.094   13.1   0.0   1.4   1   0   0   1   1   1   0 Winged helix DNA-binding domain
+HTH_36               PF13730.5  sp|A0L9E2|LEXA_MAGMM -              0.062   13.2   0.0      0.15   11.9   0.0   1.8   1   1   0   1   1   1   0 Helix-turn-helix domain
+DUF4423              PF14394.5  sp|A0L9E2|LEXA_MAGMM -               0.08   12.6   0.0      0.13   11.9   0.0   1.2   1   0   0   1   1   1   0 Domain of unknown function (DUF4423)
+Ribosomal_L19e       PF01280.19 sp|A0L9E2|LEXA_MAGMM -               0.12   12.3   0.4      0.22   11.5   0.1   1.6   1   1   1   2   2   2   0 Ribosomal protein L19e
+FaeA                 PF04703.11 sp|A0L9E2|LEXA_MAGMM -               0.13   12.6   0.0      0.23   11.8   0.0   1.4   1   0   0   1   1   1   0 FaeA-like protein
+RuvB_C               PF05491.12 sp|A0L9E2|LEXA_MAGMM -               0.13   12.0   0.0      0.28   10.9   0.0   1.5   1   0   0   1   1   1   0 Holliday junction DNA helicase ruvB C-terminus
+HTH_6                PF01418.16 sp|A0L9E2|LEXA_MAGMM -               0.16   11.9   0.0      0.31   10.9   0.0   1.4   1   0   0   1   1   1   0 Helix-turn-helix domain, rpiR family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/A0L9E2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/A0L9E2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/A0L9E2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 09:45:00 2019
+# [ok]

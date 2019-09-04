@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+mRNA_cap_enzyme      PF01331.18 sp|O55236|MCE1_MOUSE -              1e-77  260.3   0.3   1.5e-77  259.7   0.3   1.2   1   0   0   1   1   1   1 mRNA capping enzyme, catalytic domain
+mRNA_cap_C           PF03919.14 sp|O55236|MCE1_MOUSE -            1.2e-19   70.8   0.0   2.4e-19   69.8   0.0   1.5   1   0   0   1   1   1   1 mRNA capping enzyme, C-terminal domain
+DSPc                 PF00782.19 sp|O55236|MCE1_MOUSE -            8.6e-11   41.7   0.0   1.8e-10   40.6   0.0   1.5   1   0   0   1   1   1   1 Dual specificity phosphatase, catalytic domain
+DNA_ligase_A_M       PF01068.20 sp|O55236|MCE1_MOUSE -            0.00011   21.8   0.0     0.058   12.9   0.0   2.5   1   1   1   2   2   2   2 ATP dependent DNA ligase domain
+Y_phosphatase        PF00102.26 sp|O55236|MCE1_MOUSE -             0.0011   18.5   0.0    0.0022   17.5   0.0   1.5   1   0   0   1   1   1   1 Protein-tyrosine phosphatase
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/O55236.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/O55236.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/O55236.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:00:56 2019
+# [ok]

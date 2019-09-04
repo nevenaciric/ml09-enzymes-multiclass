@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PIF1                 PF05970.13 sp|P07271|PIF1_YEAST -              1e-85  288.0   0.7   1.5e-63  215.1   0.0   2.4   1   1   1   2   2   2   2 PIF1-like helicase
+AAA_30               PF13604.5  sp|P07271|PIF1_YEAST -            2.2e-17   63.3   0.0   4.2e-17   62.4   0.0   1.5   1   0   0   1   1   1   1 AAA domain
+AAA_19               PF13245.5  sp|P07271|PIF1_YEAST -            4.5e-10   39.9   0.0   1.1e-09   38.7   0.0   1.7   1   0   0   1   1   1   1 AAA domain
+AAA_22               PF13401.5  sp|P07271|PIF1_YEAST -            8.7e-05   22.7   0.1   0.00042   20.5   0.0   2.2   2   0   0   2   2   2   1 AAA domain
+Mg_chelatase         PF01078.20 sp|P07271|PIF1_YEAST -            0.00068   19.0   0.1    0.0017   17.7   0.1   1.6   1   0   0   1   1   1   1 Magnesium chelatase, subunit ChlI
+Herpes_Helicase      PF02689.13 sp|P07271|PIF1_YEAST -             0.0029   15.5   0.3     0.019   12.8   0.0   2.0   2   0   0   2   2   2   1 Helicase
+UvrD_C_2             PF13538.5  sp|P07271|PIF1_YEAST -               0.01   15.6   0.0     0.025   14.3   0.0   1.7   1   0   0   1   1   1   1 UvrD-like helicase C-terminal domain
+T2SSE                PF00437.19 sp|P07271|PIF1_YEAST -               0.11   11.4   0.0      0.27   10.2   0.0   1.6   1   0   0   1   1   1   0 Type II/IV secretion system protein
+DEAD                 PF00270.28 sp|P07271|PIF1_YEAST -               0.12   12.1   0.1        12    5.6   0.1   2.6   2   0   0   2   2   2   0 DEAD/DEAH box helicase
+PhoH                 PF02562.15 sp|P07271|PIF1_YEAST -               0.13   11.6   0.0      0.38   10.1   0.0   1.8   1   0   0   1   1   1   0 PhoH-like protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/P07271.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/P07271.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/P07271.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:10:50 2019
+# [ok]

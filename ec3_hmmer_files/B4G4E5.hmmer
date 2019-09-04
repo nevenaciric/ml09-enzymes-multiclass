@@ -1,0 +1,18 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+PDEase_I             PF00233.18 sp|B4G4E5|PDE6_DROPE -            7.3e-78  261.5   2.6   7.1e-38  130.6   0.0   2.5   2   0   0   2   2   2   2 3'5'-cyclic nucleotide phosphodiesterase
+GAF                  PF01590.25 sp|B4G4E5|PDE6_DROPE -            5.6e-34  117.5   0.0   5.7e-16   59.3   0.0   2.8   2   0   0   2   2   2   2 GAF domain
+GAF_3                PF13492.5  sp|B4G4E5|PDE6_DROPE -            7.2e-06   26.3   0.0      0.37   11.0   0.0   4.0   3   1   0   3   3   3   2 GAF domain
+HD                   PF01966.21 sp|B4G4E5|PDE6_DROPE -             0.0057   16.8   0.0     0.026   14.6   0.0   2.2   2   0   0   2   2   2   1 HD domain
+GP57                 PF17594.1  sp|B4G4E5|PDE6_DROPE -               0.12   12.1   0.4      0.41   10.3   0.0   2.1   2   0   0   2   2   2   0 Phage Tail fiber assembly helper protein
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/B4G4E5.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/B4G4E5.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/B4G4E5.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 11:02:24 2019
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Phage_lysozyme       PF00959.18 sp|P07540|ENLYS_BPPZA -            2.6e-31  108.2   0.5   4.7e-31  107.4   0.0   1.7   2   0   0   2   2   2   1 Phage lysozyme
+LysM                 PF01476.19 sp|P07540|ENLYS_BPPZA -            3.9e-30  103.6   1.7   4.6e-14   52.1   0.1   2.4   2   0   0   2   2   2   2 LysM domain
+OapA                 PF04225.11 sp|P07540|ENLYS_BPPZA -             0.0047   16.9   0.1       1.2    9.2   0.0   2.5   2   0   0   2   2   2   2 Opacity-associated protein A LysM-like domain
+CDC48_N              PF02359.17 sp|P07540|ENLYS_BPPZA -               0.02   15.0   0.1       7.7    6.7   0.0   2.4   2   0   0   2   2   2   0 Cell division protein 48 (CDC48), N-terminal domain
+Flagellin_IN         PF07196.12 sp|P07540|ENLYS_BPPZA -                3.2    7.9   6.6       1.6    8.9   0.7   2.8   3   0   0   3   3   3   0 Flagellin hook IN motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/P07540.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/P07540.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/P07540.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 12:11:00 2019
+# [ok]

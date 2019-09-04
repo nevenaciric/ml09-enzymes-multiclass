@@ -1,0 +1,23 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RuvA_N               PF01330.20 sp|B1I477|RUVA_DESAP -            1.8e-19   69.5   0.0   3.5e-19   68.6   0.0   1.5   1   0   0   1   1   1   1 RuvA N terminal domain
+HHH_5                PF14520.5  sp|B1I477|RUVA_DESAP -              1e-13   51.6   0.1     2e-13   50.6   0.1   1.5   1   0   0   1   1   1   1 Helix-hairpin-helix domain
+RuvA_C               PF07499.12 sp|B1I477|RUVA_DESAP -            1.8e-08   34.6   0.4   3.1e-08   33.9   0.4   1.4   1   0   0   1   1   1   1 RuvA, C-terminal domain
+HHH                  PF00633.22 sp|B1I477|RUVA_DESAP -            0.00014   21.5   1.1     0.042   13.6   0.1   2.5   2   0   0   2   2   2   2 Helix-hairpin-helix motif
+Transposase_20       PF02371.15 sp|B1I477|RUVA_DESAP -             0.0019   18.4   0.4      0.82    9.9   0.0   2.4   2   0   0   2   2   2   2 Transposase IS116/IS110/IS902 family
+DNA_pol_lambd_f      PF10391.8  sp|B1I477|RUVA_DESAP -               0.03   14.1   0.1      0.58   10.0   0.1   2.3   1   1   1   2   2   2   0 Fingers domain of DNA polymerase lambda
+UBA                  PF00627.30 sp|B1I477|RUVA_DESAP -              0.057   13.2   0.0      0.13   12.1   0.0   1.7   1   0   0   1   1   1   0 UBA/TS-N domain
+HTH_21               PF13276.5  sp|B1I477|RUVA_DESAP -               0.06   13.4   0.5       0.2   11.7   0.5   1.9   1   1   0   1   1   1   0 HTH-like domain
+5_3_exonuc           PF01367.19 sp|B1I477|RUVA_DESAP -              0.071   13.6   0.1       9.4    6.8   0.1   2.5   2   1   0   3   3   3   0 5'-3' exonuclease, C-terminal SAM fold
+HHH_2                PF12826.6  sp|B1I477|RUVA_DESAP -               0.14   12.2   0.0      0.52   10.4   0.0   1.9   1   1   1   2   2   2   0 Helix-hairpin-helix motif
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/B1I477.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/B1I477.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/B1I477.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 10:46:04 2019
+# [ok]

@@ -1,0 +1,22 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+RuvA_N               PF01330.20 sp|B8I1A3|RUVA_CLOCE -            5.8e-23   80.7   1.8   1.1e-20   73.3   1.7   2.3   2   0   0   2   2   2   1 RuvA N terminal domain
+HHH_5                PF14520.5  sp|B8I1A3|RUVA_CLOCE -            3.2e-17   62.8   0.1   9.5e-16   58.1   0.0   3.0   3   0   0   3   3   3   1 Helix-hairpin-helix domain
+RuvA_C               PF07499.12 sp|B8I1A3|RUVA_CLOCE -            1.8e-11   44.2   0.4   3.4e-11   43.3   0.4   1.5   1   0   0   1   1   1   1 RuvA, C-terminal domain
+HHH                  PF00633.22 sp|B8I1A3|RUVA_CLOCE -            1.7e-07   30.6   1.1    0.0048   16.6   0.0   3.4   4   0   0   4   4   4   2 Helix-hairpin-helix motif
+HHH_2                PF12826.6  sp|B8I1A3|RUVA_CLOCE -             0.0035   17.3   0.0       2.6    8.1   0.0   2.5   2   0   0   2   2   2   2 Helix-hairpin-helix motif
+HHH_3                PF12836.6  sp|B8I1A3|RUVA_CLOCE -             0.0066   16.6   0.0      0.54   10.5   0.0   2.7   2   0   0   2   2   2   1 Helix-hairpin-helix motif
+TM1506               PF08973.9  sp|B8I1A3|RUVA_CLOCE -              0.012   15.1   0.2      0.18   11.3   0.0   2.2   1   1   1   2   2   2   0 Domain of unknown function (DUF1893)
+Myosin_N             PF02736.18 sp|B8I1A3|RUVA_CLOCE -              0.067   12.9   0.1      0.13   12.0   0.1   1.5   1   0   0   1   1   1   0 Myosin N-terminal SH3-like domain
+Transposase_20       PF02371.15 sp|B8I1A3|RUVA_CLOCE -               0.12   12.6   0.1        22    5.4   0.0   2.3   2   0   0   2   2   2   0 Transposase IS116/IS110/IS902 family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/B8I1A3.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/B8I1A3.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/B8I1A3.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 11:25:40 2019
+# [ok]

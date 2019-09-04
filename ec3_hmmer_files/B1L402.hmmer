@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+CRISPR_Cas2          PF09827.8  sp|B1L402|CAS2_KORCO -            1.4e-14   53.9   0.1   1.6e-14   53.7   0.1   1.0   1   0   0   1   1   1   1 CRISPR associated protein Cas2
+Pribosyl_synth       PF14572.5  sp|B1L402|CAS2_KORCO -              0.089   12.7   0.0      0.11   12.5   0.0   1.1   1   0   0   1   1   1   0 Phosphoribosyl synthetase-associated domain
+LMP                  PF04778.11 sp|B1L402|CAS2_KORCO -               0.12   12.1   0.0      0.15   11.8   0.0   1.1   1   0   0   1   1   1   0 LMP repeated region
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/B1L402.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/B1L402.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/B1L402.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 10:48:45 2019
+# [ok]

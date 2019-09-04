@@ -1,0 +1,16 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AP_endonuc_2         PF01261.23 sp|A6Q1P1|END4_NITSB -            1.2e-41  142.4   0.1   1.4e-41  142.1   0.1   1.1   1   0   0   1   1   1   1 Xylose isomerase-like TIM barrel
+PRMT5_TIM            PF17285.1  sp|A6Q1P1|END4_NITSB -              0.017   14.2   0.0     0.025   13.7   0.0   1.2   1   0   0   1   1   1   0 PRMT5 TIM barrel domain
+Tetraspannin         PF00335.19 sp|A6Q1P1|END4_NITSB -               0.14   11.7   0.0      0.21   11.2   0.0   1.2   1   0   0   1   1   1   0 Tetraspanin family
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/A6Q1P1.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/A6Q1P1.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/A6Q1P1.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 10:17:02 2019
+# [ok]

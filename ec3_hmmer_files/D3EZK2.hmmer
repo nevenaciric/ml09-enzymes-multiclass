@@ -1,0 +1,33 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name            accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------  -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Peptidase_M41        PF01434.17 sp|D3EZK2|FTSH3_CONWI -            3.6e-70  235.8   0.0   5.2e-70  235.3   0.0   1.2   1   0   0   1   1   1   1 Peptidase family M41
+AAA                  PF00004.28 sp|D3EZK2|FTSH3_CONWI -              3e-42  144.1   0.0   5.4e-42  143.2   0.0   1.4   1   0   0   1   1   1   1 ATPase family associated with various cellular activities (AAA)
+TIP49                PF06068.12 sp|D3EZK2|FTSH3_CONWI -            1.2e-05   24.4   0.0   2.1e-05   23.6   0.0   1.4   1   0   0   1   1   1   1 TIP49 C-terminus
+AAA_16               PF13191.5  sp|D3EZK2|FTSH3_CONWI -            7.4e-05   23.1   1.0    0.0013   19.1   1.1   2.9   2   1   0   2   2   1   1 AAA ATPase domain
+FtsH_ext             PF06480.14 sp|D3EZK2|FTSH3_CONWI -            0.00039   20.6   0.8    0.0014   18.9   0.1   2.2   2   0   0   2   2   2   1 FtsH Extracellular
+AAA_5                PF07728.13 sp|D3EZK2|FTSH3_CONWI -            0.00047   20.1   0.1    0.0065   16.4   0.1   2.8   2   1   0   2   2   2   1 AAA domain (dynein-related subfamily)
+Zeta_toxin           PF06414.11 sp|D3EZK2|FTSH3_CONWI -             0.0039   16.4   0.0    0.0079   15.4   0.0   1.5   1   0   0   1   1   1   1 Zeta toxin
+RuvB_N               PF05496.11 sp|D3EZK2|FTSH3_CONWI -             0.0081   15.3   0.0     0.025   13.8   0.0   1.8   2   0   0   2   2   2   1 Holliday junction DNA helicase ruvB N-terminus
+AAA_33               PF13671.5  sp|D3EZK2|FTSH3_CONWI -              0.021   14.9   0.0     0.071   13.2   0.0   1.9   1   1   0   1   1   1   0 AAA domain
+AAA_17               PF13207.5  sp|D3EZK2|FTSH3_CONWI -              0.023   15.0   0.0     0.043   14.1   0.0   1.5   1   0   0   1   1   1   0 AAA domain
+AAA_28               PF13521.5  sp|D3EZK2|FTSH3_CONWI -              0.027   14.6   0.3      0.25   11.5   0.0   2.3   2   0   0   2   2   2   0 AAA domain
+AAA_22               PF13401.5  sp|D3EZK2|FTSH3_CONWI -              0.029   14.6   2.0      0.13   12.4   0.1   2.8   3   1   0   3   3   2   0 AAA domain
+AAA_2                PF07724.13 sp|D3EZK2|FTSH3_CONWI -              0.029   14.4   0.0     0.063   13.3   0.0   1.5   1   0   0   1   1   1   0 AAA domain (Cdc48 subfamily)
+TsaE                 PF02367.16 sp|D3EZK2|FTSH3_CONWI -              0.038   13.9   0.0     0.069   13.1   0.0   1.3   1   0   0   1   1   1   0 Threonylcarbamoyl adenosine biosynthesis protein TsaE
+CPT                  PF07931.11 sp|D3EZK2|FTSH3_CONWI -              0.062   13.0   0.0      0.15   11.8   0.0   1.6   1   0   0   1   1   1   0 Chloramphenicol phosphotransferase-like protein
+AAA_25               PF13481.5  sp|D3EZK2|FTSH3_CONWI -              0.067   12.7   0.4      0.42   10.1   0.1   2.2   1   1   1   2   2   2   0 AAA domain
+ATPase               PF06745.12 sp|D3EZK2|FTSH3_CONWI -               0.12   11.6   0.0      0.22   10.7   0.0   1.4   1   0   0   1   1   1   0 KaiC
+Sigma54_activat      PF00158.25 sp|D3EZK2|FTSH3_CONWI -               0.14   11.7   0.0      0.33   10.5   0.0   1.6   1   0   0   1   1   1   0 Sigma-54 interaction domain
+Mg_chelatase         PF01078.20 sp|D3EZK2|FTSH3_CONWI -               0.16   11.2   0.0      0.34   10.2   0.0   1.5   1   0   0   1   1   1   0 Magnesium chelatase, subunit ChlI
+DUF2075              PF09848.8  sp|D3EZK2|FTSH3_CONWI -               0.25   10.4   0.0      0.36    9.9   0.0   1.2   1   0   0   1   1   1   0 Uncharacterized conserved protein (DUF2075)
+#
+# Program:         hmmscan
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SCAN
+# Query file:      ec3_fasta_files_TMP/D3EZK2.fasta
+# Target file:     hmmer-3.2.1/Pfam-A.hmm
+# Option settings: hmmer-3.2.1/src/hmmscan -o bezvezefajl.out --tblout ec3_hmmer_files/D3EZK2.hmmer --notextw hmmer-3.2.1/Pfam-A.hmm ec3_fasta_files_TMP/D3EZK2.fasta 
+# Current dir:     /content/ml09-enzymes-multiclass
+# Date:            Wed Sep  4 11:46:01 2019
+# [ok]
